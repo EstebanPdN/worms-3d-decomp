@@ -60,7 +60,7 @@ The default output directory is `port/build/`. The app includes my port code and
 - [Matching source](source/matching) and [unit definitions](config/GWMP8P/game-units) contain the C/C++ implementations, reference entry points and per-unit settings.
 - [Recovery ledger](analysis/recovery-ledger.json) and [reference linker scripts](analysis) record the function identities, lengths, instruction hashes and placements. Historical `build/lua-*-source` names in the ledger refer to intermediate Lua builds. The upstream Lua distribution and the converted native sources are in [source/vendor](source/vendor) and [port/core/lua](port/core/lua).
 - [Native core](port/core), [platform layer](port/platform) and [conversion and linking tools](port/tools) build the Mac version. Some unmatched routines still use mechanically translated C++ or stubs. They do not increase the exact-match total.
-- [Tracker source and public data](docs) are the HTML, JavaScript, styles and function map served by GitHub Pages. To run the site locally, use `python3 -m http.server 8000 --directory docs` and open `http://localhost:8000/`.
+- [Tracker source and public data](docs) are the HTML, JavaScript, styles and function map served by GitHub Pages. My [original tracker pipeline](tracker) builds the map from private reference-build receipts. The published snapshot runs directly from GitHub. To run the site locally, use `python3 -m http.server 8000 --directory docs` and open `http://localhost:8000/`.
 
 ## Credits
 
