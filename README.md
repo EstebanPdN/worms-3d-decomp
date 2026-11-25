@@ -37,6 +37,8 @@ open -a "./Worms 3D.app" --args "$PWD/GWMP8P"
 
 Press **Return** at the title. Use the **arrow keys** to navigate, **Space** for A and **left Shift** for B. Click the lower screen for touch controls. On a controller the right face button is A and the lower face button is B. Save data lives under `~/Library/Application Support/Worms3D/`.
 
+I tested this preview on macOS 27.0.1 with SDL 3.4.18, using a fresh RVZ extraction. I reached the title screen, opened the main menu and started a Quick Start match with terrain, two teams and the lower-screen radar. Other modes and a complete match remain untested in this release.
+
 ## Build the Mac app
 
 I used Apple Clang on Apple Silicon, Python 3, zsh and Homebrew SDL3. Install the Xcode command-line tools and select an SDK that supports macOS 27. The build compiles the recovered units as native arm64 code, emits LLVM IR for the linker, then links the platform code against SDL3 and Metal. Allow several GB of temporary space.
