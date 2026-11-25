@@ -1,0 +1,14 @@
+{
+  "unit": "d43p_polynomial_real_roots_801975b4",
+  "source": "source/matching/game/d28j/d28j_find_root_8019727c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d43p_polynomial_real_roots_801975b4": "0x801975b4"
+  },
+  "descriptions": {
+    "d43p_polynomial_real_roots_801975b4": "Finds the real roots of a polynomial in an interval: normalises it, solves the derivative recursively and brackets a root between consecutive critical points."
+  }
+}

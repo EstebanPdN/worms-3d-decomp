@@ -1,0 +1,60 @@
+typedef struct s8_SmallObject { int a,b; } s8_SmallObject;
+extern int lbl_804aac34;
+extern int lbl_804ae1d0;
+extern int lbl_804ae1d4;
+extern int lbl_804ae1d8;
+extern int lbl_804ae1bc;
+extern int lbl_804ae1c4;
+extern int lbl_804ae1c8;
+extern int lbl_804ae1dc;
+extern int lbl_804ae1c0;
+extern int lbl_804ae1cc;
+extern s8_SmallObject lbl_804ae1e0;
+extern char lbl_80380ef0[];
+int fn_8015f518(void *, void *);
+extern s8_SmallObject lbl_804ae1e8;
+extern char lbl_80380f04[];
+extern s8_SmallObject lbl_804ae1f0;
+extern char lbl_80380f10[];
+extern s8_SmallObject lbl_804ae1f8;
+extern char lbl_80380f1c[];
+extern s8_SmallObject lbl_804ae200;
+extern char lbl_80380f30[];
+extern s8_SmallObject lbl_804ae208;
+extern char lbl_80380f44[];
+extern s8_SmallObject lbl_804ae210;
+extern char lbl_80380f60[];
+extern char lbl_80360750[];
+extern char lbl_803e7e4c[];
+extern char lbl_803618f0[];
+void * fn_800a41d4(void);
+int fn_801629f8(void *, void *, void *, void (*)(void), int, int);
+void s8_static_init_800a4800(int initialize,int priority)
+{
+    if(priority==0xffff && initialize) {
+        int base0=lbl_804aac34;
+        int offset1=base0+16368;
+        int offset2=base0+16304;
+        int offset3=base0+16176;
+        int offset4=base0+16384;
+        int offset5=base0+736;
+        int offset6=base0+12400;
+        lbl_804ae1bc=offset4;
+        lbl_804ae1c0=base0;
+        lbl_804ae1c4=offset5;
+        lbl_804ae1c8=offset6;
+        lbl_804ae1cc=base0;
+        lbl_804ae1d0=offset1;
+        lbl_804ae1d4=offset2;
+        lbl_804ae1d8=offset3;
+        lbl_804ae1dc=base0;
+        fn_8015f518(&lbl_804ae1e0, lbl_80380ef0);
+        fn_8015f518(&lbl_804ae1e8, lbl_80380f04);
+        fn_8015f518(&lbl_804ae1f0, lbl_80380f10);
+        fn_8015f518(&lbl_804ae1f8, lbl_80380f1c);
+        fn_8015f518(&lbl_804ae200, lbl_80380f30);
+        fn_8015f518(&lbl_804ae208, lbl_80380f44);
+        fn_8015f518(&lbl_804ae210, lbl_80380f60);
+        fn_801629f8(lbl_80360750, lbl_803e7e4c, lbl_803618f0, fn_800a41d4, 10, 0);
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_owner_eligible_8006ee18",
+  "source": "source/matching/game/g1c/g1c_owner_eligible_8006ee18.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_owner_eligible_8006ee18": "0x8006ee18"
+  },
+  "descriptions": {
+    "g1c_owner_eligible_8006ee18": "Return zero for owner flag0x04000000 or matched handles, otherwise require owner flag0x01000000 and the original enabled predicate. Forward the external owner to both original predicates as witnessed in r3; normalize the final predicate to zero/one. Owner layout is external prefix only and never constructed."
+  }
+}

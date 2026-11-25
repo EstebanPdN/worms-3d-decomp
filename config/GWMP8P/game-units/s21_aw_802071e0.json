@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aw_802071e0",
+  "source": "source/matching/game/s21/s21_aw_802071e0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_table_item_802071e0": "0x802071e0"
+  },
+  "descriptions": {
+    "w3d_s21_table_item_802071e0": "Appears to return the word at an index of the array pointed to at offset 28."
+  }
+}

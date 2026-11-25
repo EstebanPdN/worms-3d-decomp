@@ -1,0 +1,14 @@
+{
+  "unit": "cx12a_sample_grid_8001e224",
+  "source": "source/matching/game/cx12a/cx12a_sample_grid_8001e224.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_sample_grid_8001e224": "0x8001e224"
+  },
+  "descriptions": {
+    "w3d_cx12a_sample_grid_8001e224": "Convert grid coordinates to a position vector using observed scale/offset fields and an external height query; names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

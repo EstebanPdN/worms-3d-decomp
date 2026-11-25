@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_panel_leave_control_802b222c",
+  "source": "source/matching/game/cx12b/cx12b_panel_leave_control_802b222c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_panel_leave_control_802b222c": "0x802b222c"
+  },
+  "descriptions": {
+    "w3d_cx12b_panel_leave_control_802b222c": "Apply original leave text and optional sound callbacks using their independently guarded shared-string properties."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cq_802080a0",
+  "source": "source/matching/game/s21/s21_cq_802080a0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_refill_802080a0": "0x802080a0"
+  },
+  "descriptions": {
+    "w3d_s21_refill_802080a0": "Appears to clear an existing value, ask the service object through virtual slot 6 to fill the field at offset 20 and return its negative status or zero."
+  }
+}

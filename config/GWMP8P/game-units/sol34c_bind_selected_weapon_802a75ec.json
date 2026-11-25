@@ -1,0 +1,11 @@
+{
+  "unit": "sol34c_bind_selected_weapon_802a75ec",
+  "source": "source/matching/game/sol34c/sol34c_bind_selected_weapon_802a75ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol34c_bind_selected_weapon_802a75ec": "0x802a75ec"
+  },
+  "descriptions": {
+    "sol34c_bind_selected_weapon_802a75ec": "Release the prior binding, look up the selected nonempty weapon-name key, report a lookup failure through the observed string formatter, otherwise verify resource kind and descriptor ancestry before registering the observed callback and held output. GC32 offsets and reference lifetimes reconstructed; original type names and portable runtime unverified."
+  }
+}

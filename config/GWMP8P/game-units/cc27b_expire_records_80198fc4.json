@@ -1,0 +1,11 @@
+{
+  "unit": "cc27b_expire_records_80198fc4",
+  "source": "source/matching/game/cc27b/cc27b_expire_records_80198fc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc27b_expire_records_80198fc4": "0x80198fc4"
+  },
+  "descriptions": {
+    "w3d_cc27b_expire_records_80198fc4": "Traverses the observed 24-byte record range at owner offsets48/52. For each ordered record time at or below owner time24, calls the original removal helper, shifts the trailing records with native value assignment and decrements the end pointer; unordered times are retained. Payload meanings and semantic names are inferred."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "k2b_a_8015ab54",
+  "source": "source/matching/game/k2b/k2b_a_8015ab54.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_extend_bounds_8015ab54": "0x8015ab54"
+  },
+  "descriptions": {
+    "w3d_k2b_extend_bounds_8015ab54": "Appears to raise two stored maxima to an extent queried from the object's source plus an offset each."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

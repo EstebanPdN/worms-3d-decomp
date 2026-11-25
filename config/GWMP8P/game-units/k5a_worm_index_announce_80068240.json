@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_worm_index_announce_80068240",
+  "source": "source/matching/game/k5a/k5a_worm_index_announce_80068240.cpp",
+  "language": "cpp",
+  "functions": {"k5a_worm_index_announce_80068240": "0x80068240"},
+  "descriptions": {"k5a_worm_index_announce_80068240": "Appears to post three one-shot messages announcing the active worm index, once per object, then call a follow-up handler."}
+}

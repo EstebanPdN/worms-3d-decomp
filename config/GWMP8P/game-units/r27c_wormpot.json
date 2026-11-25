@@ -1,0 +1,1 @@
+{"unit":"r27c_wormpot","source":"source/matching/game/r27c/r27c_wormpot.cpp","language":"cpp","functions":{"run__5Paneli":"0x802aa214"},"descriptions":{"run__5Paneli":"When active state changes, update the embedded panel and start or stop wormpot behavior, optionally triggering the named sound."}}

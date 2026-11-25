@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800da818",
+  "source": "source/matching/game/s8hand_800da818.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_mesh_forward_800da818": "0x800da818"
+  },
+  "descriptions": {
+    "s8_mesh_forward_800da818": "Resolves the held mesh and forwards an integer argument to interface vtable slot 22."
+  }
+}

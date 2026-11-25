@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ao_801fef98",
+  "source": "source/matching/game/s21/s21_ao_801fef98.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_s64_to_text_801fef98": "0x801fef98"
+  },
+  "descriptions": {
+    "w3d_s21_s64_to_text_801fef98": "Appears to format a 64-bit value read through a pointer into the output string with a global signed format string, returning zero."
+  }
+}

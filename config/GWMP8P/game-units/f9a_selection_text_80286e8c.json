@@ -1,0 +1,11 @@
+{
+  "unit": "f9a_selection_text_80286e8c",
+  "source": "source/matching/game/f9a/f9a_selection_text_80286e8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f9a_selection_text_80286e8c": "0x80286e8c"
+  },
+  "descriptions": {
+    "w3d_f9a_selection_text_80286e8c": "Refresh the observed text target for the selected12-byte entry. Invalid or empty ranges invoke the base fallback. An existing error is displayed when the observed context bit is set; otherwise copy the selected resource name, falling back to entry0 then configuration offset68 when empty. Resolve nonempty names and display their looked-up text, or format the observed missing-resource error; empty names display the observed empty literal. Shared-string and handle lifetimes are explicit. Selection, target and configuration roles inferred; all owner and entry layouts are partial non-owning views with no complete class or external-data ownership claimed."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_register_type_801e90fc",
+  "source": "source/matching/game/d28e/d28e_register_type_801e90fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_register_type_801e90fc": "0x801e90fc"
+  },
+  "descriptions": {
+    "w3d_d28e_register_type_801e90fc": "Register a type object in the global table at 0x8045e080: reuse a null slot or append, store the table index in the top 10 bits of the word at +32, rebuild through 0x801e925c, and return the index."
+  }
+}

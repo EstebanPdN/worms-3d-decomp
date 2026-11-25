@@ -1,0 +1,11 @@
+{
+  "unit": "cc39b_read_refs_801e7044",
+  "source": "source/matching/game/cc39b/cc39b_read_refs_801e7044.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39b_read_refs_801e7044": "0x801e7044"
+  },
+  "descriptions": {
+    "cc39b_read_refs_801e7044": "Reads reference pointers through observed virtual slot 0x20, returns immediately on negative read status, releases any old reference through slot 0x10 and stores the incoming pointer. Preserves unsigned count, original error behavior and callback order. Partial interfaces and names inferred; no full class-size claim."
+  }
+}

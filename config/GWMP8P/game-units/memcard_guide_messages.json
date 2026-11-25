@@ -1,0 +1,29 @@
+{
+  "unit": "memcard_guide_messages",
+  "source": "source/matching/game/memcard_guide_messages.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_card_guide_message_177": "0x802c522c",
+    "w3d_card_guide_message_by_encoding": "0x802c52f0",
+    "w3d_card_guide_message_damaged": "0x802c55e8",
+    "w3d_card_guide_message_nosupport": "0x802c5668",
+    "w3d_card_guide_message_nocard": "0x802c56e8",
+    "w3d_card_guide_message_corrupt": "0x802c5768",
+    "w3d_card_guide_message_wrong_device": "0x802c57e8",
+    "w3d_card_guide_message_encoding": "0x802c5868",
+    "w3d_card_guide_message_encoding_retry": "0x802c5900",
+    "w3d_card_guide_message_format_failed": "0x802c5984"
+  },
+  "descriptions": {
+    "w3d_card_guide_message_177": "Memory-card guide: selects guideline message 177.",
+    "w3d_card_guide_message_by_encoding": "Memory-card guide: selects message 178 when the card's sector size is 8 KiB (0x2000), otherwise message -18.",
+    "w3d_card_guide_message_damaged": "Memory-card guide: chooses the damaged-card message for the current card status; panics on an unknown status.",
+    "w3d_card_guide_message_nosupport": "Memory-card guide: chooses the unsupported-card message for the current card status; panics on an unknown status.",
+    "w3d_card_guide_message_nocard": "Memory-card guide: chooses the no-card message for the current card status; panics on an unknown status.",
+    "w3d_card_guide_message_corrupt": "Memory-card guide: chooses the corrupted-data message for the current card status; panics on an unknown status.",
+    "w3d_card_guide_message_wrong_device": "Memory-card guide: chooses the wrong-device message for the current card status; panics on an unknown status.",
+    "w3d_card_guide_message_encoding": "Memory-card guide: chooses the encoding-mismatch message for the current card status; panics on an unknown status.",
+    "w3d_card_guide_message_encoding_retry": "Memory-card guide: chooses the follow-up encoding message for the current card status; panics on an unknown status.",
+    "w3d_card_guide_message_format_failed": "Memory-card guide: chooses the format-failed message for the current card status; panics on an unknown status."
+  }
+}

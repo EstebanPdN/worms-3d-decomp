@@ -1,0 +1,20 @@
+{
+  "unit": "d40j_task_manager_add_80164514",
+  "source": "source/matching/game/d40j/d40j_task_manager_add_80164514.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d40j_task_manager_add_80164514": "0x80164514"
+  },
+  "descriptions": {
+    "w3d_d40j_task_manager_add_80164514": "Task manager add: takes a free slot from the pool chosen by the task type kind (10: pool 0, 11: pool 1, else pool 2), resets it, links it under the parent handle, references the task, adds its id to the pool's timer queue (STLport vector with push_heap) or active list (STLport vector), runs the start hook 0x8034b418 at a mode chosen by the task type (4, 3, 5 or unchanged), restores the engine mode and returns the slot id. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

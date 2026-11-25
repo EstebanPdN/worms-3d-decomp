@@ -1,0 +1,11 @@
+{
+  "unit": "sol33a_land_collision_800bda28",
+  "source": "source/matching/game/sol33a/land_collision_800bda28.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol33a_land_collision_800bda28": "0x800bda28"
+  },
+  "descriptions": {
+    "sol33a_land_collision_800bda28": "Reads the land-indestructible property; when clear, resets the destruction counter, computes candidate group bits from the motion position and radius, applies collision to selected groups, and posts a position/radius message only when the destruction counter equals one. The mask cursor exists only for a nonempty group range. Partial layouts describe the GC32 reference ABI; portable adaptation and runtime behavior remain unvalidated."
+  }
+}

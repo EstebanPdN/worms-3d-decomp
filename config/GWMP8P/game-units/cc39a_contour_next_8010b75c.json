@@ -1,0 +1,11 @@
+{
+  "unit": "cc39a_contour_next_8010b75c",
+  "source": "source/matching/game/cc39a/cc39a_contour_next_8010b75c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39a_contour_next_8010b75c": "0x8010b75c"
+  },
+  "descriptions": {
+    "cc39a_contour_next_8010b75c": "Scan the eight-by-eight contour cursor for a positive marked boundary cell, backtrack its contour, advance the shared cursor, and report exhaustion or success."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "h2b_heap_validate_80214718",
+  "source": "source/matching/game/h2b/h2b_heap_validate_80214718.cpp",
+  "language": "cpp",
+  "functions": {
+    "h2b_heap_validate_80214718": "0x80214718"
+  },
+  "descriptions": {
+    "h2b_heap_validate_80214718": "Validates an external heap address by exact allocation header or segment block scan depending on heap flags. Returns an interior data offset or failure, invokes the configured error callback for failed exact validation, and clears the acquired reentrancy flag. External views are only borrowed pointers."
+  }
+}

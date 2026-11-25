@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_spawn_by_name_80089a00",
+  "source": "source/matching/game/d24b/d24b_spawn_by_name_80089a00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_spawn_by_name_80089a00": "0x80089a00"
+  },
+  "descriptions": {
+    "w3d_d24b_spawn_by_name_80089a00": "Spawn by worm name: copies the team list 0x8043bb64 and for every worm copies its position +4 (and, unused, the vector +40), then calls the mine spawn 0x8008bc78 or the oil drum spawn 0x8008df50 at that position when the worm name +60 is mine or oildrum."
+  }
+}

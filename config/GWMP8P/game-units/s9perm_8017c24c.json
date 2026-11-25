@@ -1,0 +1,11 @@
+{
+  "unit": "s9perm_8017c24c",
+  "source": "source/matching/game/perm/s9perm_8017c24c.c",
+  "language": "c",
+  "functions": {
+    "s9_permute_8017c24c": "0x8017c24c"
+  },
+  "descriptions": {
+    "s9_permute_8017c24c": "Returns 0x80004005 for a nonnegative state value, or 0x80004001 for a negative value."
+  }
+}

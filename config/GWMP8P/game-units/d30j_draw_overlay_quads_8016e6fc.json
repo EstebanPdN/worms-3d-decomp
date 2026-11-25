@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_draw_overlay_quads_8016e6fc",
+  "source": "source/matching/game/d30j/d30j_draw_overlay_quads_8016e6fc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d30j_draw_overlay_quads_8016e6fc": "0x8016e6fc"
+  },
+  "descriptions": {
+    "d30j_draw_overlay_quads_8016e6fc": "Set up orthographic 2D GX state and draw every queued overlay quad, then swap."
+  }
+}

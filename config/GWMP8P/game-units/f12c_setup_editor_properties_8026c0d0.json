@@ -1,0 +1,11 @@
+{
+  "unit": "f12c_setup_editor_properties_8026c0d0",
+  "source": "source/matching/game/f12c/f12c_setup_editor_properties_8026c0d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f12c_setup_editor_properties_8026c0d0": "0x8026c0d0"
+  },
+  "descriptions": {
+    "w3d_f12c_setup_editor_properties_8026c0d0": "Ensure the editor time-property callback is registered; when inactive release and clear the ten observed optional property subscriptions, otherwise register amount, bridges, large/small objects, size, seed, space, height, theme and real-seed callbacks when the amount slot is empty. Scoped native string lifetimes preserve original construction and cleanup, while references preserve the two guarded subscription-slot lifetimes. Each original property-name and callback identity is bound from instruction witnesses. Member layout and service semantics are inferred partial views; no external data ownership or portable class integration is claimed."
+  }
+}

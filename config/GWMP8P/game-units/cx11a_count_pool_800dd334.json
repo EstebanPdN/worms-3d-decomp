@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_count_pool_800dd334",
+  "source": "source/matching/game/cx11a/cx11a_count_pool_800dd334.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_count_pool_800dd334": "0x800dd334"
+  },
+  "descriptions": {
+    "w3d_cx11a_count_pool_800dd334": "Randomizes an observed signed count from optional external/LCG randomness and reproduces the original mixed conversion constant pool. Names inferred."
+  }
+}

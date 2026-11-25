@@ -1,0 +1,90 @@
+--- a/port/core/game/g_global_light.cpp
++++ b/port/core/game/g_global_light.cpp
+@@ -118,6 +118,9 @@
+         entry->attachment = *attachment;
+         w3d_light_attach_80182410(*attachment, w3d_light_entry(index).light);
+     }
++    // El argumento es por valor y, en GCC 2.95, lo destruye quien lo recibe.
++    if (*attachment)
++        (*attachment)->vtbl->release(*attachment);
+ }
+ 
+ void w3d_light_set_scale_800c1348(int index, float scale)
+--- a/port/core/game/s2_trigger_components_r3.cpp
++++ b/port/core/game/s2_trigger_components_r3.cpp
+@@ -164,6 +164,8 @@
+ void w3d_light_member_attach_80126610(Ptr32<Member> self,Ptr32<Ptr32<Object>> source) {
+     Ref ref(*source);
+     w3d_light_set_attachment_800c1294(self->id,&ref.object);
++    // El argumento es por valor y, en GCC 2.95, lo destruye quien lo recibe.
++    if(*source) ((Ptr32<void (Ptr32<Object>)>)(*source)->vtable[4])(*source);
+ }
+ }
+ 
+--- a/port/core/game/d20b/d20b_grave_load_80097980.cpp
++++ b/port/core/game/d20b/d20b_grave_load_80097980.cpp
+@@ -68,7 +68,13 @@
+ extern "C" int d20b_check_control_8018179c(Ptr32<void>, unsigned, int);
+ extern "C" Ptr32<void> d20b_heap_allocate_802098d8(Ptr32<d20b_Heap>, unsigned);
+ extern "C" Ptr32<d20b_Member> d20b_member_init_kind_8012656c(Ptr32<void>, int);
+-extern "C" void d20b_member_attach_80126610(Ptr32<d20b_Member>, d20b_Ref);
++// El llamado destruye el argumento (GCC 2.95): esta copia no lleva destructor.
++struct d20b_RefArg {
++    Ptr32<d20b_Object> value;
++    d20b_RefArg(const d20b_Ref &o) { value = o.value; if (value) value->vtable->retain(value); }
++    d20b_RefArg(const d20b_RefArg &);
++};
++extern "C" void d20b_member_attach_80126610(Ptr32<d20b_Member>, d20b_RefArg);
+ extern "C" void d20b_member_set_scale_80126688(Ptr32<d20b_Member>, float);
+ extern d20b_Heap d20b_member_heap_804af5bc;
+ extern const char d20b_grave_eye_8037f654[];        // "Grave.Eye"
+--- a/port/core/game/d17c/d17c_light_node_load_800e9830.cpp
++++ b/port/core/game/d17c/d17c_light_node_load_800e9830.cpp
+@@ -75,7 +75,13 @@
+ extern "C" void d17c_member_destroy_801265a4(Ptr32<d17c_Member>, int);
+ extern "C" Ptr32<void> d17c_heap_allocate_802098d8(Ptr32<d17c_Heap>, unsigned);
+ extern "C" Ptr32<d17c_Member> d17c_member_init_kind_8012656c(Ptr32<void>, int);
+-extern "C" void d17c_member_attach_80126610(Ptr32<d17c_Member>, d17c_Ref);
++// El llamado destruye el argumento (GCC 2.95): esta copia no lleva destructor.
++struct d17c_RefArg {
++    Ptr32<d17c_Object> value;
++    d17c_RefArg(const d17c_Ref &o) { value = o.value; if (value) value->vtable->retain(value); }
++    d17c_RefArg(const d17c_RefArg &);
++};
++extern "C" void d17c_member_attach_80126610(Ptr32<d17c_Member>, d17c_RefArg);
+ extern d17c_Heap d17c_member_heap_804af5bc;
+ 
+ static inline void d17c_load(const d17c_String_8020bb54 &name, Ptr32<Ptr32<d17c_Object>> out) {
+--- a/port/core/game/d17c/d17c_oil_drum_load_800d54b8.cpp
++++ b/port/core/game/d17c/d17c_oil_drum_load_800d54b8.cpp
+@@ -71,7 +71,13 @@
+ extern "C" Ptr32<d17c_Node> d17c_as_node_80343584(Ptr32<d17c_Object>);
+ extern "C" Ptr32<void> d17c_heap_allocate_802098d8(Ptr32<d17c_Heap>, unsigned);
+ extern "C" Ptr32<d17c_Member> d17c_member_init_kind_8012656c(Ptr32<void>, int);
+-extern "C" void d17c_member_attach_80126610(Ptr32<d17c_Member>, d17c_Ref);
++// El llamado destruye el argumento (GCC 2.95): esta copia no lleva destructor.
++struct d17c_RefArg {
++    Ptr32<d17c_Object> value;
++    d17c_RefArg(const d17c_Ref &o) { value = o.value; if (value) value->vtable->retain(value); }
++    d17c_RefArg(const d17c_RefArg &);
++};
++extern "C" void d17c_member_attach_80126610(Ptr32<d17c_Member>, d17c_RefArg);
+ extern "C" void d17c_publish_worm_count_801555f8(Ptr32<void>);
+ extern "C" int d17c_read_uint_800fc230(Ptr32<d17c_Key>, Ptr32<unsigned int>);
+ extern "C" int d17c_play_clip_80181640(Ptr32<d17c_Node>, Ptr32<const char>, Ptr32<int>, int, float, float, float);
+--- a/port/core/game/cc39c/cc39c_girder_member_8009369c_v3.cpp
++++ b/port/core/game/cc39c/cc39c_girder_member_8009369c_v3.cpp
+@@ -49,7 +49,12 @@
+ Ptr32<void> cc39c_handle_set_name_8015adf4(Ptr32<cc39c_String>, Ptr32<cc39c_Ref>, unsigned int);
+ Ptr32<cc39c_LightMember> cc39c_member_construct_8012656c(Ptr32<cc39c_LightMember>, int);
+ void cc39c_member_destroy_801265a4(Ptr32<cc39c_LightMember>, int);
+-void cc39c_member_attach_80126610(Ptr32<cc39c_LightMember>, cc39c_Ref);
++struct cc39c_RefArg {
++    Ptr32<cc39c_Object> object;
++    cc39c_RefArg(const cc39c_Ref &o) : object(o.object) { if (object) object->vtable->retain(object); }
++    cc39c_RefArg(const cc39c_RefArg &);
++};
++void cc39c_member_attach_80126610(Ptr32<cc39c_LightMember>, cc39c_RefArg);
+ }
+ // The allocation request witnesses 4 bytes; 0x8012656c stores the created
+ // handle as a halfword at +2. The first halfword is not touched here.

@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_align_802152ac",
+  "source": "source/matching/game/d28k/d28k_heap_align_802152ac.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_align_802152ac": "0x802152ac"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_align_802152ac": "Allocator memalign: over-allocates, frees the unaligned head and spare tail as junk, consolidates and notifies the watch hook."
+  }
+}

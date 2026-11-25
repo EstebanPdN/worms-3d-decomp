@@ -1,0 +1,11 @@
+{
+  "unit": "s19_camera_reset_8002c018",
+  "source": "source/matching/game/s19/s19_camera_reset_8002c018.c",
+  "language": "c",
+  "functions": {
+    "s19_post_camera_reset_8002c018": "0x8002c018"
+  },
+  "descriptions": {
+    "s19_post_camera_reset_8002c018": "Appears to send two vectors to the camera interface, clear a context flag and post a typed message to the current handler."
+  }
+}

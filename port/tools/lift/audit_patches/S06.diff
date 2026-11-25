@@ -1,0 +1,11 @@
+--- a/port/core/game/d27j/d27j_rebuild_masks_8019a010.cpp
++++ b/port/core/game/d27j/d27j_rebuild_masks_8019a010.cpp
+@@ -84,7 +84,7 @@
+     if (n < size()) erase(begin() + n, end());
+     else insert_80350dd8(this, end(), n - size(), &x);
+ }
+-struct Entry { unsigned short u0, id; unsigned char u4[4]; unsigned short enabled; unsigned char ua[2]; };
++struct Entry { unsigned short id, u0; /* PPC +2: mitad baja de la palabra */ unsigned char u4[4]; unsigned short enabled; unsigned char ua[2]; };
+ struct EntryList { Ptr32<Entry> start; Ptr32<Entry> finish; Ptr32<Entry> alloc; Ptr32<Entry> cap; unsigned size() const { return finish - start; } Entry &operator[](unsigned i) { return start[i]; } };
+ struct Bank { unsigned u0; unsigned count; unsigned bits; };
+ struct Registry;

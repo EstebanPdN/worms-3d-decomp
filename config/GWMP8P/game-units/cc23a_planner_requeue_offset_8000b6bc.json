@@ -1,0 +1,11 @@
+{
+  "unit": "cc23a_planner_requeue_offset_8000b6bc",
+  "source": "source/matching/game/cc23a/cc23a_planner_requeue_offset_8000b6bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_planner_requeue_offset_8000b6bc": "0x8000b6bc"
+  },
+  "descriptions": {
+    "cc23a_planner_requeue_offset_8000b6bc": "For eligible plans query offset, reject only ordered less-than distance, clone with optional replacement origin, mark and queue clone, and return original result. Native float copy preserves observed arithmetic and unordered behavior."
+  }
+}

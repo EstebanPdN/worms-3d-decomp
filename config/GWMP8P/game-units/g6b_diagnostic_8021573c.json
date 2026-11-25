@@ -1,0 +1,11 @@
+{
+  "unit": "g6b_diagnostic_8021573c",
+  "source": "source/matching/game/g6b/g6b_diagnostic_8021573c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g6b_diagnostic_8021573c": "0x8021573c"
+  },
+  "descriptions": {
+    "g6b_diagnostic_8021573c": "Formats runtime allocator diagnostics through original append and number callbacks into a complete 1024-byte stack buffer, including operation, region, block state, allocation site and detection site, then emits the line. Heap and callback records are external views; no local heap object is constructed. Inferred names."
+  }
+}

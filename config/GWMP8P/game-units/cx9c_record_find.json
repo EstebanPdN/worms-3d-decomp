@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_record_find",
+  "source": "source/matching/game/cx9c/cx9c_record_find.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_find_8035c0ac": "0x8035c0ac"
+  },
+  "descriptions": {
+    "w3d_cx9c_find_8035c0ac": "Inferred four-way find_if over 12-byte records by copied key predicate."
+  }
+}

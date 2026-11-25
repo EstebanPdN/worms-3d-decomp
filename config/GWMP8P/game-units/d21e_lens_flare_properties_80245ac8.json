@@ -1,0 +1,12 @@
+{
+  "unit": "d21e_lens_flare_properties_80245ac8",
+  "source": "source/matching/game/d21e/d21e_lens_flare_properties_80245ac8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d21e_register_lens_flare_properties_80245ac8": "0x80245ac8"
+  },
+  "descriptions": {
+    "w3d_d21e_register_lens_flare_properties_80245ac8": "Registers Active (0x801eb674); registers LensScale (0x801ec52c); registers FocalOffset (0x801ec52c); registers Elements (0x801eff8c) with a guarded function-local static descriptor built once from a zero-filled temporary; calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

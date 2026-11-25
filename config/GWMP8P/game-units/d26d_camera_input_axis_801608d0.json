@@ -1,0 +1,15 @@
+{
+  "unit": "d26d_camera_input_axis_801608d0",
+  "source": "source/matching/game/d26d/d26d_camera_input_axis_801608d0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26d_camera_input_axis_801608d0": "0x801608d0"
+  },
+  "descriptions": {
+    "d26d_camera_input_axis_801608d0": "Apply an input axis to the camera yaw, pitch or zoom and post the update message."
+  }
+}

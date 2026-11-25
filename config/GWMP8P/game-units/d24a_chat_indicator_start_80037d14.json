@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_chat_indicator_start_80037d14",
+  "source": "source/matching/game/d24a/d24a_chat_indicator_start_80037d14.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_chat_indicator_start_80037d14": "0x80037d14"
+  },
+  "descriptions": {
+    "w3d_d24a_chat_indicator_start_80037d14": "Runs 0x80038240, loads the Chat.Indicator resources through a handle with retain/release, resolves the Bitmap handle (0x8015adf4) into +28 and retains its cast in +48, sets sprite scale and position through virtuals, clears +80, +96 and +88, sets +92, creates the Telephone sound through the audio service into +96 and sets its volume and position."
+  }
+}

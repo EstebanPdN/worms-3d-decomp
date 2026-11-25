@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_lighting_apply_8002bc14",
+  "source": "source/matching/game/cx11a/cx11a_lighting_apply_8002bc14.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_lighting_apply_8002bc14": "0x8002bc14"
+  },
+  "descriptions": {
+    "w3d_cx11a_lighting_apply_8002bc14": "Applies two observed scaled four-component lighting values while preserving the remaining snapshot words. Names inferred."
+  }
+}

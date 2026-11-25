@@ -1,0 +1,13 @@
+{
+  "unit": "s20_adjust_h",
+  "source": "source/matching/game/s20/s20_adjust_h.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_commit_item_801ad590": "0x801ad590",
+    "w3d_s20_apply_item_targets_8016bafc": "0x8016bafc"
+  },
+  "descriptions": {
+    "w3d_s20_commit_item_801ad590": "Appears to commit an item on the secondary base subobject through several helper steps depending on a virtual state query.",
+    "w3d_s20_apply_item_targets_8016bafc": "Appears to notify a global object and dispatch every target of an item's record through the handler table of the secondary base subobject."
+  }
+}

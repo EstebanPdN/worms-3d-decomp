@@ -1,0 +1,11 @@
+{
+  "unit": "d20e_flight_panel_802555b0",
+  "source": "source/matching/game/d20e/d20e_flight_panel_802555b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "__15D20eFlightPanelUs": "0x802555b0"
+  },
+  "descriptions": {
+    "__15D20eFlightPanelUs": "Subclass constructor: runs the base constructor 0x80255120 with the caller's id, installs the table 0x8041ba18, copy-constructs seven strings at +580..+604 from the shared empty string 0x804b06a0 (incrementing its reference count), zeroes the floats at +608/+612 and +620..+668 and the int at +616, and returns this."
+  }
+}

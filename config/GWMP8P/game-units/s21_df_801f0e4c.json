@@ -1,0 +1,11 @@
+{
+  "unit": "s21_df_801f0e4c",
+  "source": "source/matching/game/s21/s21_df_801f0e4c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_typed_801f0e4c": "0x801f0e4c"
+  },
+  "descriptions": {
+    "w3d_s21_create_typed_801f0e4c": "Appears to create a 72-byte typed entry with an embedded member, copying two callback pairs and appending it to the container."
+  }
+}

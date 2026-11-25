@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_load_audio_802b253c",
+  "source": "source/matching/game/f1p/f1p_load_audio_802b253c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_load_audio_802b253c": "0x802b253c"
+  },
+  "descriptions": {
+    "w3d_load_audio_802b253c": "Clear the observed resource state for empty names or mode0. If not loaded and a global service exists, query the name into owner offset132, set loaded/active state or forward owner position to the acquired interface then start it; format the original error on query failure. Audio role and types inferred."
+  }
+}

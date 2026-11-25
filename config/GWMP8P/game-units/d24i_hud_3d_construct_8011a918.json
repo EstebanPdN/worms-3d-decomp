@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_hud_3d_construct_8011a918",
+  "source": "source/matching/game/d24i/d24i_hud_3d_construct_8011a918.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_hud_3d_construct_8011a918": "0x8011a918"
+  },
+  "descriptions": {
+    "d24i_hud_3d_construct_8011a918": "Constructor of a 3D HUD element: base constructor 0x8015fef0, vtable 0x80410a20, clears the references +28, +32, +48, +76 and +80, sets the vector +52 to 0x8039ae80 (0.0f), copies the small-data pair 0x804af3b0 to +68, resolves HUD.3DText.MaxScalingDist and HUD.3DText.MinScalingDist into retained references +76 and +80 (0x800fc1b0, 0x80342a74), sets +64 to 1 and returns the object."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d28c_payload_land_800d8b4c",
+  "source": "source/matching/game/d28c/d28c_payload_land_800d8b4c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28c_payload_land_800d8b4c": "0x800d8b4c"
+  },
+  "descriptions": {
+    "d28c_payload_land_800d8b4c": "Find the nearest collision for a payload's next step from its height limits and schedule the hit, or finish when it is due now."
+  }
+}

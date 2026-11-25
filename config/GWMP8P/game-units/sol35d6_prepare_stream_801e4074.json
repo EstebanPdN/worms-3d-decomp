@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d6_prepare_stream_801e4074",
+  "source": "source/matching/game/sol35d6/sol35d6_prepare_stream_801e4074.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d6_prepare_stream_801e4074": "0x801e4074"
+  },
+  "descriptions": {
+    "sol35d6_prepare_stream_801e4074": "Initialize observed stream-buffer state and zero the unused part of the 27456-byte buffer, returning the bounded valid byte count. Partial native layout inferred."
+  }
+}

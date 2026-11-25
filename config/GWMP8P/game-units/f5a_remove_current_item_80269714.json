@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_remove_current_item_80269714",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_remove_current_item_80269714": "0x80269714"
+  },
+  "descriptions": {
+    "w3d_f5a_remove_current_item_80269714": "For the observed mode, obtain temporary current-item handles, find and remove the matching list entry, reset its mode and refresh; otherwise reset the member. Partial handle layout and roles inferred."
+  },
+  "source": "source/matching/game/f5a/f5a_remove_current_item_80269714.cpp"
+}

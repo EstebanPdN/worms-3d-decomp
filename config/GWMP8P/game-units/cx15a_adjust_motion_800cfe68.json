@@ -1,0 +1,11 @@
+{
+  "unit": "cx15a_adjust_motion_800cfe68",
+  "source": "source/matching/game/cx15a/cx15a_adjust_motion_800cfe68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_adjust_motion_800cfe68": "0x800cfe68"
+  },
+  "descriptions": {
+    "w3d_cx15a_adjust_motion_800cfe68": "Copy position and velocity into local vectors, run the complete correction pipeline, then update both caller vectors and cached motion fields."
+  }
+}

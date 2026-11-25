@@ -1,0 +1,7 @@
+--- a/port/core/game/resource_slots/release_slot_node_unsigned_80173504.cpp
++++ b/port/core/game/resource_slots/release_slot_node_unsigned_80173504.cpp
+@@ -28,3 +28,3 @@
+ }
+-struct Mx23oaSlotFlags {unsigned char unknown[7],value;void mark_available(){value|=4;}};
++struct Mx23oaSlotFlags {unsigned char unknown[4],value,w3d_tag_rest[3];void mark_available(){value|=4;}};
+ struct Mx23oaSlotGroup {

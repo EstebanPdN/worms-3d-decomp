@@ -1,0 +1,27 @@
+{
+  "unit": "global_identity_80020548_v2",
+  "source": "source/matching/game/integration/global_identity_80020548.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80020548": "0x80020548",
+    "w3d_auto_800216f8": "0x800216f8",
+    "w3d_auto_80021f2c": "0x80021f2c",
+    "w3d_auto_80021f94": "0x80021f94",
+    "w3d_auto_80022028": "0x80022028",
+    "w3d_auto_800226d0": "0x800226d0",
+    "w3d_auto_80022c2c": "0x80022c2c",
+    "w3d_auto_8002324c": "0x8002324c",
+    "w3d_auto_800267a4": "0x800267a4"
+  },
+  "descriptions": {
+    "w3d_auto_80020548": "Initialize the observed receiver base and table, zero its record words, publish the singleton and clear the two original small-data globals; legacy m2c C layout retained.",
+    "w3d_auto_800216f8": "When the word at20 is below the unsigned limit, allocate and queue the observed eight-byte message, then set receiver word4.",
+    "w3d_auto_80021f2c": "Queue the message identified by original string804aca04, set receiver word4 and return zero.",
+    "w3d_auto_80021f94": "Queue the two messages identified by804ac9d4 and804ac9dc, set receiver word4 and return zero.",
+    "w3d_auto_80022028": "At static priority65535 when initialization is enabled, construct eleven original shared string objects from their witnessed text addresses.",
+    "w3d_auto_800226d0": "If the word range at28..32 is nonempty, forward the receiver, five arguments and unsigned element count to native80022704.",
+    "w3d_auto_80022c2c": "Call the native base initializer, install table8040ddf8, publish singleton804aa7d4 and return the receiver.",
+    "w3d_auto_8002324c": "Write zero to the output word and return the original failure code80004005.",
+    "w3d_auto_800267a4": "Allocate and queue the observed eight-byte message identified by string804acb0c."
+  }
+}

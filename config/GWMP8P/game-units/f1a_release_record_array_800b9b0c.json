@@ -1,0 +1,11 @@
+{
+  "unit": "f1a_release_record_array_800b9b0c",
+  "source": "source/matching/game/f1a/f1a_release_record_array_800b9b0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f1a_release_record_array_800b9b0c": "0x800b9b0c"
+  },
+  "descriptions": {
+    "w3d_f1a_release_record_array_800b9b0c": "Visits 128 records at a stride of 24 bytes beginning at object offset 3136. For each record, calls virtual slot 16 on each of its first five non-null pointer fields and clears those fields. Then calls slot 16 through the table pointer at offset 2792 of the service at 0x804b183c, passing that service, and returns zero. Class identities and ownership of referenced objects remain inferred."
+  }
+}

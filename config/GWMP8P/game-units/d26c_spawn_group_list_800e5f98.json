@@ -1,0 +1,14 @@
+{
+  "unit": "d26c_spawn_group_list_800e5f98",
+  "source": "source/matching/game/d26c/d26c_spawn_group_list_800e5f98.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26c_spawn_group_list_800e5f98": "0x800e5f98"
+  },
+  "descriptions": {
+    "d26c_spawn_group_list_800e5f98": "Take a new group id, read the named record, return 0 on failure or when attach is 0. If the record is a list (0x803678d8 type chain) iterate its names. For each entry create the object from one of two factory keys by the record kind and attach mode, init or attach a labelled string, load by name, store the group at +104 and register the virtual owner through 0x80164514. Returns the group id."
+  }
+}

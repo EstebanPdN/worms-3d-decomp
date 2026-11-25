@@ -1,0 +1,14 @@
+{
+  "unit": "d28b_gun_update_8009b9b4",
+  "source": "source/matching/game/d28b/d28b_gun_update_8009b9b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28b_gun_update_8009b9b4": "0x8009b9b4"
+  },
+  "descriptions": {
+    "w3d_d28b_gun_update_8009b9b4": "Gun weapon logic update: returns 50 while the timer 0x8006e71c is set, updates the wobble +148, the frame delta pair 0x804adfd0 and cooldown +116, then runs the state at +44: start time and launch messages with Weapon.GraphicalLaunchLocation (1), firing through 0x8009c87c with AI.BulletCount (2), worm value waits, alliance count and camera reset (3, 4), finish (5), recovery timers (6) and final reset with messages (7)."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

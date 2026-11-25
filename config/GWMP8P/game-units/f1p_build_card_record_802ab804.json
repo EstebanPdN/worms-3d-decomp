@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_build_card_record_802ab804",
+  "source": "source/matching/game/f1p/f1p_build_card_record_802ab804.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_build_card_record_802ab804": "0x802ab804"
+  },
+  "descriptions": {
+    "w3d_build_card_record_802ab804": "Build the observed8268-byte save record with two bounded32-byte titles and an8192-byte payload, copy it into the caller output with genuine C++ structure assignment, invoke the original buffer operation, and fill the witnessed card-metadata name, output pointer, offsets, count and halfword defaults through byte81. Fixed record sizes and ordinary copy loops are byte verified; metadata and API roles inferred. No local opaque allocation or external initialized-data ownership is claimed."
+  }
+}

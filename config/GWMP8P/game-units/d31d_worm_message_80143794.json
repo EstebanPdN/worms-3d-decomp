@@ -1,0 +1,14 @@
+{
+  "unit": "d31d_worm_message_80143794",
+  "source": "source/matching/game/d31d/d31d_worm_message_80143794.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31d_worm_message_80143794": "0x80143794"
+  },
+  "descriptions": {
+    "w3d_d31d_worm_message_80143794": "Worm logic entity message handler. Reads the message id, handles create and shutdown in a switch, then tests the id against a long chain of cached message ids: damage steps, movement commands, link clearing, team locks, impulses, jumps and state changes, posting reply messages where needed. Unhandled or finished messages go to the base handler at 0x8015fb34; handled ones return zero."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

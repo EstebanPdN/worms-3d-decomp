@@ -1,0 +1,17 @@
+{
+  "unit": "d29j_apply_properties_801763e4",
+  "source": "source/matching/game/d29j/d29j_apply_properties_801763e4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d29j_apply_properties_801763e4": "0x801763e4"
+  },
+  "descriptions": {
+    "d29j_apply_properties_801763e4": "Prepare every property of a set and apply its value by type; returns E_FAIL if any type is unknown."
+  }
+}

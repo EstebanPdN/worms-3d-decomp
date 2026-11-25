@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8014c3f4",
+  "source": "source/matching/game/k2b/k2b_a_8014c3f4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_has_motion_input_8014c3f4": "0x8014c3f4"
+  },
+  "descriptions": {
+    "w3d_k2b_has_motion_input_8014c3f4": "Appears to report whether the worm has pending input: a nonzero input direction or either of two motion flags."
+  }
+}

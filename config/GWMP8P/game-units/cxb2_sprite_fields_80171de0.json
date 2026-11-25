@@ -1,0 +1,11 @@
+{
+  "unit": "cxb2_sprite_fields_80171de0",
+  "source": "source/matching/game/cxb2/cxb2_sprite_fields_80171de0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxb2_sprite_fields_80171de0": "0x80171de0"
+  },
+  "descriptions": {
+    "cxb2_sprite_fields_80171de0": "Calls base reader 0x80190538 and preserves a negative result; otherwise reads SpriteScene through reader slot +32, retains the returned interface through +12, releases the old receiver slot +76 through +16, assigns the new interface in both old-slot branches, reads ImageWidth/ImageHeight into receiver +44/+46 through reader slot +120, releases the temporary interface and returns zero. Real class and virtual signatures remain inferred; external strings and implementations are not owned."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "s19_misc_i",
+  "source": "source/matching/game/s19/s19_misc_i.c",
+  "language": "c",
+  "functions": {
+    "s19_check_pair_80015434": "0x80015434",
+    "s19_actor_init_8002a914": "0x8002a914"
+  },
+  "descriptions": {
+    "s19_check_pair_80015434": "Appears to return zero when the first query is set, otherwise whether a second query differs from a small-data global.",
+    "s19_actor_init_8002a914": "Appears to run the actor base initializer, install a vtable and clear nine words at +0x1c through +0x3c."
+  }
+}

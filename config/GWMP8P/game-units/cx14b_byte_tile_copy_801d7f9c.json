@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_byte_tile_copy_801d7f9c",
+  "source": "source/matching/game/cx14b/cx14b_byte_tile_copy_801d7f9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_byte_tile_copy_801d7f9c": "0x801d7f9c"
+  },
+  "descriptions": {
+    "w3d_cx14b_byte_tile_copy_801d7f9c": "Copy a bounded source region into the original eight-byte-stride tile without modifying the uncovered padding."
+  }
+}

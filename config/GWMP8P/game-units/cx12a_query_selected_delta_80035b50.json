@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_query_selected_delta_80035b50",
+  "source": "source/matching/game/cx12a/cx12a_query_selected_delta_80035b50.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_query_selected_delta_80035b50": "0x80035b50"
+  },
+  "descriptions": {
+    "w3d_cx12a_query_selected_delta_80035b50": "Query the delta from an optional selected entry to a supplied point and invert the returned bit; names inferred."
+  }
+}

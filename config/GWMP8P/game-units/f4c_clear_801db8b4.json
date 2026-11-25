@@ -1,0 +1,11 @@
+{
+  "unit": "f4c_clear_801db8b4",
+  "source": "source/matching/game/f4c/f4c_clear_801db8b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4c_clear_801db8b4": "0x801db8b4"
+  },
+  "descriptions": {
+    "f4c_clear_801db8b4": "Invoke virtual slots32,140(with one),88; repeatedly invoke slot24 on the first list entry and erase it through the witnessed helper; release the held object at172 through slot16, clear it and return zero. Roles and layout inferred."
+  }
+}

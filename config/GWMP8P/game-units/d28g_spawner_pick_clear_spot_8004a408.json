@@ -1,0 +1,11 @@
+{
+  "unit": "d28g_spawner_pick_clear_spot_8004a408",
+  "source": "source/matching/game/d28g/d28g_spawner_pick_clear_spot_8004a408.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28g_spawner_pick_clear_spot_8004a408": "0x8004a408"
+  },
+  "descriptions": {
+    "w3d_d28g_spawner_pick_clear_spot_8004a408": "Picks a spawn spot: settles a body with step 9, then repeats choosing a random x and z inside the ground bounds, sweeping down with velocity -10 for up to 1000 steps, rejecting no contact or a landing below the water height from +184, and rejecting spots whose radius probe finds an actor with flag 1; stores the accepted spot at +40."
+  }
+}

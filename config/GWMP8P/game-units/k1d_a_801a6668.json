@@ -1,0 +1,11 @@
+{
+  "unit": "k1d_a_801a6668",
+  "source": "source/matching/game/k1d/k1d_a_801a6668.c",
+  "language": "c",
+  "functions": {
+    "w3d_k1d_compact_buffer_801a6668": "0x801a6668"
+  },
+  "descriptions": {
+    "w3d_k1d_compact_buffer_801a6668": "Appears to move a pointer range back by its length after a zero-length copy and return zero."
+  }
+}

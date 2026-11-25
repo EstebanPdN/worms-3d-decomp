@@ -1,0 +1,17 @@
+{
+  "unit": "d29j_shut_down_pools_8017c26c",
+  "source": "source/matching/game/d29j/d29j_shut_down_pools_8017c26c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d29j_shut_down_pools_8017c26c": "0x8017c26c"
+  },
+  "descriptions": {
+    "d29j_shut_down_pools_8017c26c": "Shut down the resource pools: flush the owner, touch busy slots' names, clear the active bit and resize all pools to zero."
+  }
+}

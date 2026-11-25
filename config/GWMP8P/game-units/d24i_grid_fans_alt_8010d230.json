@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_grid_fans_alt_8010d230",
+  "source": "source/matching/game/d24i/d24i_grid_fans_alt_8010d230.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_grid_fans_alt_8010d230": "0x8010d230"
+  },
+  "descriptions": {
+    "d24i_grid_fans_alt_8010d230": "Variant of the two-pass grid fan scan 0x8010c62c: triangles 0x8010b43c with inverted flags, corner heights read without a header offset, cell type 1 draws the fan, type 17 draws corner triangles whose neighbour high-nibble type (0x8010b57c) matches."
+  }
+}

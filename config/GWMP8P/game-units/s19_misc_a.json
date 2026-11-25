@@ -1,0 +1,21 @@
+{
+  "unit": "s19_misc_a",
+  "source": "source/matching/game/s19/s19_misc_a.c",
+  "language": "c",
+  "functions": {
+    "s19_grid_cell_ref4_800203a0": "0x800203a0",
+    "s19_grid_cell_ref8_800203cc": "0x800203cc",
+    "s19_bitgrid_set_8002c6dc": "0x8002c6dc",
+    "s19_bitgrid_clear_8002c70c": "0x8002c70c",
+    "s19_limit_forward_800356e0": "0x800356e0",
+    "s19_slot_matches_global_80015400": "0x80015400"
+  },
+  "descriptions": {
+    "s19_grid_cell_ref4_800203a0": "Appears to return the address of the second word of a 12-byte cell in a grid selected by index, using that grid's row stride.",
+    "s19_grid_cell_ref8_800203cc": "Appears to return the address of the third word of a 12-byte cell in a grid selected by index, using that grid's row stride.",
+    "s19_bitgrid_set_8002c6dc": "Appears to set one bit in a bit-word array addressed by two offsets and a row stride stored in the object.",
+    "s19_bitgrid_clear_8002c70c": "Appears to clear one bit in a bit-word array addressed by two offsets and a row stride stored in the object.",
+    "s19_limit_forward_800356e0": "Appears to forward a float to a helper when the first float argument is not below the float limit stored at +0x334.",
+    "s19_slot_matches_global_80015400": "Appears to compare a byte of an indexed record at +0xd5 with a small-data global and return whether they are equal."
+  }
+}

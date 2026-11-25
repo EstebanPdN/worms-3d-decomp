@@ -1,0 +1,11 @@
+{
+  "unit": "k7b_a_801acc48",
+  "source": "source/matching/game/k7b/k7b_a_801acc48.c",
+  "language": "c",
+  "functions": {
+    "w3d_k7b_registry_clear_801acc48": "0x801acc48"
+  },
+  "descriptions": {
+    "w3d_k7b_registry_clear_801acc48": "Appears to clear the red-black tree at +100 (erase via 0x80355800, reset header links and count) and destroy each 16-byte record of the vector at +116 via 0x801f2758; returns 0."
+  }
+}

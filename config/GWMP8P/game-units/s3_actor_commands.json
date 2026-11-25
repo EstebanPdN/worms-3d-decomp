@@ -1,0 +1,35 @@
+{
+  "unit": "s3_actor_commands",
+  "source": "source/matching/game/s3_actor_commands.c",
+  "language": "c",
+  "functions": {
+    "w3d_actor_command_jump": "0x80151c78",
+    "w3d_actor_command_finish_flag": "0x80152694",
+    "w3d_actor_command_check_progress": "0x8015287c",
+    "w3d_actor_command_reset_owner": "0x801529d8",
+    "w3d_actor_probe_slope": "0x801531b0",
+    "w3d_actor_post_alliance_value": "0x801533a4",
+    "w3d_actor_is_same_alliance": "0x80153458",
+    "w3d_actor_has_list_entity": "0x80153a1c",
+    "w3d_actor_post_owner_state_ten": "0x80153c74",
+    "w3d_actor_entity_has_positive_state": "0x80153db4",
+    "w3d_actor_set_fire_mode": "0x80153dfc",
+    "w3d_actor_mode_is_fourteen_to_eighteen": "0x80153f38",
+    "w3d_actor_apply_motion_segment": "0x80153f80"
+  },
+  "descriptions": {
+    "w3d_actor_command_jump": "Handles jump commands and posts completion when the command finishes.",
+    "w3d_actor_command_finish_flag": "Clears pending command flags and posts the actor completion messages.",
+    "w3d_actor_command_check_progress": "Posts a timeout message for stalled commands and updates the saved position.",
+    "w3d_actor_command_reset_owner": "Resets command flags, reads the owner setting, and optionally posts a message.",
+    "w3d_actor_probe_slope": "Optionally returns the probe direction and tests whether its slope is allowed.",
+    "w3d_actor_post_alliance_value": "Posts a positive value using the allied or opposing actor message.",
+    "w3d_actor_is_same_alliance": "Tests whether an entity shares the actor team or alliance.",
+    "w3d_actor_has_list_entity": "Scans the actor dynamic list for the supplied entity.",
+    "w3d_actor_post_owner_state_ten": "Posts a message when the actor owner is a valid entity in state ten.",
+    "w3d_actor_entity_has_positive_state": "Tests whether the actor entity is valid and has a positive active state.",
+    "w3d_actor_set_fire_mode": "Changes the fire mode bit and posts the corresponding fire-control strings.",
+    "w3d_actor_mode_is_fourteen_to_eighteen": "Tests whether the actor mode is between fourteen and eighteen.",
+    "w3d_actor_apply_motion_segment": "Processes a motion segment and clears velocity when its endpoints differ."
+  }
+}

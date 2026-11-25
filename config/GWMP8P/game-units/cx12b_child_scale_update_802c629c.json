@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_child_scale_update_802c629c",
+  "source": "source/matching/game/cx12b/cx12b_child_scale_update_802c629c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_child_scale_update_802c629c": "0x802c629c"
+  },
+  "descriptions": {
+    "w3d_cx12b_child_scale_update_802c629c": "Update changed owner scale components and apply the scaled three-vector to three independently guarded child views."
+  }
+}

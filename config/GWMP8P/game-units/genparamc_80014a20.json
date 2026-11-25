@@ -1,0 +1,11 @@
+{
+  "unit": "genparamc_80014a20",
+  "source": "source/matching/game/generated/genparamc_80014a20.c",
+  "language": "c",
+  "functions": {
+    "w3d_ai_clone_plan_80014a20": "0x80014a20"
+  },
+  "descriptions": {
+    "w3d_ai_clone_plan_80014a20": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets vtable, weapon id and class flags."
+  }
+}

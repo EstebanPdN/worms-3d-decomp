@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ft_801fbdb0",
+  "source": "source/matching/game/s21/s21_ft_801fbdb0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_apply_entry_one_801fbdb0": "0x801fbdb0"
+  },
+  "descriptions": {
+    "w3d_s21_apply_entry_one_801fbdb0": "Appears to look up an entry index in the vector at offset 36 and forward one argument to the entry's virtual slot 15, or return 0x80004005 when not found."
+  }
+}

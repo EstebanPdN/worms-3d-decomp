@@ -1,0 +1,12 @@
+{
+  "unit": "d31l_panel_message_802aff9c",
+  "source": "source/matching/game/d31l/d31l_panel_message_802aff9c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d31l_panel_message_802aff9c": "0x802aff9c"
+  },
+  "descriptions": {
+    "d31l_panel_message_802aff9c": "Handles a menu panel's focus, navigation, select and pointer messages and posts the configured action messages."
+  }
+}

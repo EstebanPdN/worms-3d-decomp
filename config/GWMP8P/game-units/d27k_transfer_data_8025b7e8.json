@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_transfer_data_8025b7e8",
+  "source": "source/matching/game/d27k/d27k_transfer_data_8025b7e8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_transfer_data_8025b7e8": "0x8025b7e8"
+  },
+  "descriptions": {
+    "w3d_d27k_transfer_data_8025b7e8": "Handles a data request for the transfer found through 0x8021eab8: mode 1 finishes via 0x8021dd04; mode 0 writes the block through the reader at +76, adds to the total at +32, finishes on a failed write, and sends an acknowledge packet (or finishes when the team flag 64 is clear); mode 2 writes any final block, closes the reader through 0x8020810c and stores state 2."
+  }
+}

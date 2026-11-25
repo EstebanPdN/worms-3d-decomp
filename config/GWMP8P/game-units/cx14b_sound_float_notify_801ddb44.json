@@ -1,0 +1,14 @@
+{
+  "unit": "cx14b_sound_float_notify_801ddb44",
+  "source": "source/matching/game/cx14b/cx14b_sound_float_notify_801ddb44.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_sound_float_notify_801ddb44": "0x801ddb44"
+  },
+  "descriptions": {
+    "w3d_cx14b_sound_float_notify_801ddb44": "Update a float property only beyond the original double epsilon and notify held listeners in reverse order."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

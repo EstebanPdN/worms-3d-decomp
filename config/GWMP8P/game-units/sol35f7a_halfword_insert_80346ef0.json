@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f7a_halfword_insert_80346ef0",
+  "source": "source/matching/game/sol35f7a/sol35f7a_halfword_insert_80346ef0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f7a_halfword_insert_80346ef0": "0x80346ef0"
+  },
+  "descriptions": {
+    "sol35f7a_halfword_insert_80346ef0": "Inserts repeated unsigned 16-bit values into the observed GC32 vector. Spare storage copies the tail and fills a scalar snapshot; growth copies prefix and suffix through original memmove, fills values, releases old storage and publishes bounds. Names and STL identities are inferred."
+  }
+}

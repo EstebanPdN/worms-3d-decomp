@@ -1,0 +1,13 @@
+{
+  "unit": "k8c_gauge_step_80268420",
+  "source": "source/matching/game/k8c/k8c_gauge_step_80268420.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8c_gauge_step_80268420": "0x80268420",
+    "w3d_k8c_gauge_step_down_802684c4": "0x802684c4"
+  },
+  "descriptions": {
+    "w3d_k8c_gauge_step_80268420": "Appears to step the gauge value at +568 up by a constant clamped to a limit, notify and recompute the scaled label size at +576 from the owner bounds.",
+    "w3d_k8c_gauge_step_down_802684c4": "Appears to step the gauge value at +568 down by a constant clamped to a limit, notify and recompute the scaled label size at +636 from the owner bounds."
+  }
+}

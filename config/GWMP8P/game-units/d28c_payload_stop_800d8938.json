@@ -1,0 +1,11 @@
+{
+  "unit": "d28c_payload_stop_800d8938",
+  "source": "source/matching/game/d28c/d28c_payload_stop_800d8938.cpp",
+  "language": "cpp",
+  "functions": {
+    "d28c_payload_stop_800d8938": "0x800d8938"
+  },
+  "descriptions": {
+    "d28c_payload_stop_800d8938": "Stop a payload: post a message, zero its motion, record where and when it stopped, then fire, change owner or reschedule its fuse."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_stream_write_words_802043b8",
+  "source": "source/matching/game/cx7b/cx7b_stream_write_words_802043b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_stream_write_words_802043b8": "0x802043b8"
+  },
+  "descriptions": {
+    "w3d_cx7b_stream_write_words_802043b8": "Send each of count unsigned words through stream vtable slot +40 with trailing zero arguments; return zero."
+  }
+}

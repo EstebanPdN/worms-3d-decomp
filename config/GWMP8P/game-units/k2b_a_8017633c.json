@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8017633c",
+  "source": "source/matching/game/k2b/k2b_a_8017633c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_apply_color_items_8017633c": "0x8017633c"
+  },
+  "descriptions": {
+    "w3d_k2b_apply_color_items_8017633c": "Appears to apply each item of an array with a copy of its color through a virtual handler and return the last negative status."
+  }
+}

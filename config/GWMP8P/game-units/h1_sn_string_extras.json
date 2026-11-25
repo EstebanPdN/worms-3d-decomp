@@ -1,0 +1,19 @@
+{
+  "unit": "h1_sn_string_extras",
+  "source": "source/matching/game/h1/h1_sn_string_extras.c",
+  "language": "c",
+  "functions": {
+    "strlwr": "0x802efa2c",
+    "strrchr": "0x802efcc8",
+    "w3d_round_up_digits_802efff4": "0x802efff4",
+    "strrev": "0x802f0050",
+    "itoa": "0x802f009c"
+  },
+  "descriptions": {
+    "strlwr": "Converts every upper-case letter of s to lower case in place, using the C-locale ctype table, and returns s.",
+    "strrchr": "Returns a pointer to the last occurrence of c (as signed char) in s, including the terminator, or NULL.",
+    "w3d_round_up_digits_802efff4": "Rounds a decimal digit string up at its last digit when that digit is above 4, carrying through nines; returns 0 when the carry runs out, else 1.",
+    "strrev": "Reverses the string s in place and returns s.",
+    "itoa": "Writes value in the given base to buffer (negated with a minus sign only for negative base-10 values), reverses it with strrev and returns buffer."
+  }
+}

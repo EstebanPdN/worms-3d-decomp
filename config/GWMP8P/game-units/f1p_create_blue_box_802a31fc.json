@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_create_blue_box_802a31fc",
+  "source": "source/matching/game/f1p/f1p_create_blue_box_802a31fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_create_blue_box_802a31fc": "0x802a31fc"
+  },
+  "descriptions": {
+    "w3d_create_blue_box_802a31fc": "Construct the original FE.Box.Blue scoped string; when the referenced data flag is enabled, copy the original three-float vector through its native scalar copy constructor, allocate the witnessed four-byte handle, initialize FE.NewBox.Blue at the receiver layer plus 29, and apply the original scalar, width, height, copied position and parent binding. Preserve both original string cleanup paths. Native constructor and helper signatures, names and receiver/data roles are inferred; external prefixes are partial. The four-byte allocation and constructor stores were inspected. No original data bytes are owned."
+  }
+}

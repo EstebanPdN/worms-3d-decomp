@@ -1,0 +1,11 @@
+{
+  "unit": "g4b_add_named_entry_801dc338",
+  "source": "source/matching/game/g4b/g4b_add_named_entry_v7_801dc338.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4b_add_named_entry_801dc338": "0x801dc338"
+  },
+  "descriptions": {
+    "g4b_add_named_entry_801dc338": "Checks enabled state at176, skips existing named entries by strcmp, obtains a held entry through801de2dc, appends it to external compact list36, assigns name and flags36, then sends every child value to every service in external list48 through slot40. Balances one-pointer output holder on all exits; returns80004005 when disabled, query error when negative, otherwise zero. External lists use opaque storage plus observed four-byte offsets; partial external types are never locally constructed."
+  }
+}

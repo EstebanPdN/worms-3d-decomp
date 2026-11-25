@@ -1,0 +1,14 @@
+{
+  "unit": "cc24a_planner_pair_score_80016494",
+  "source": "source/matching/game/cc24a/cc24a_planner_pair_score_80016494.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_pair_score_80016494": "0x80016494"
+  },
+  "descriptions": {
+    "cc24a_planner_pair_score_80016494": "Accumulate positive influence factors and retain original fused arithmetic, ordered tests and score scaling."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

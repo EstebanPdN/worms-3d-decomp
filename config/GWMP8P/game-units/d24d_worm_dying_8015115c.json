@@ -1,0 +1,14 @@
+{
+  "unit": "d24d_worm_dying_8015115c",
+  "source": "source/matching/game/d24d/d24d_worm_dying_8015115c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d24d_worm_dying_8015115c": "0x8015115c"
+  },
+  "descriptions": {
+    "d24d_worm_dying_8015115c": "When the sender is this worm, creates the Worm Dying slot for two classes, picks one of six motions and end times from a random value, sets mode 20, clears the velocity (+676) and runs 0x801506f8."
+  }
+}

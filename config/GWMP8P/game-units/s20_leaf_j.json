@@ -1,0 +1,15 @@
+{
+  "unit": "s20_leaf_j",
+  "source": "source/matching/game/s20/s20_leaf_j.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_get_quad_8016768c": "0x8016768c",
+    "w3d_s20_get_matrix_80167824": "0x80167824",
+    "w3d_s20_set_matrix_80167898": "0x80167898"
+  },
+  "descriptions": {
+    "w3d_s20_get_quad_8016768c": "Appears to copy a four-word value at offset 24 into the caller's output and return the output.",
+    "w3d_s20_get_matrix_80167824": "Appears to copy a 64-byte matrix at offset 48 into the caller's output and return the output.",
+    "w3d_s20_set_matrix_80167898": "Appears to copy a 64-byte matrix from the argument into the object at offset 112 and return zero."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "s20param_801b9400",
+  "source": "source/matching/game/generated/s20param_801b9400.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20reg4_801b9400": "0x801b9400",
+    "w3d_s20reg4_801bac10": "0x801bac10"
+  },
+  "descriptions": {
+    "w3d_s20reg4_801b9400": "Appears to register a vector property, set its default to a constant four-float vector and finish through a shared routine, returning zero.",
+    "w3d_s20reg4_801bac10": "Appears to register a vector property, set its default to a constant four-float vector and finish through a shared routine, returning zero."
+  }
+}

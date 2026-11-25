@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_aim_command_create_80007eac",
+  "source": "source/matching/game/d28a/d28a_aim_command_create_80007eac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_aim_command_create_80007eac": "0x80007eac"
+  },
+  "descriptions": {
+    "w3d_d28a_aim_command_create_80007eac": "Creates and queues an aim command for a direction."
+  }
+}

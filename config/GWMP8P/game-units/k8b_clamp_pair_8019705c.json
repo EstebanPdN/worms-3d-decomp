@@ -1,0 +1,14 @@
+{
+  "unit": "k8b_clamp_pair_8019705c",
+  "source": "source/matching/game/d28j/d28j_find_root_8019727c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8b_clamp_pair_8019705c": "0x8019705c"
+  },
+  "descriptions": {
+    "w3d_k8b_clamp_pair_8019705c": "Appears to flip and clamp a pair of unit-range floats and call a fix-up routine when they leave the allowed region."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

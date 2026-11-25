@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_rain_loop_start_800f18bc",
+  "source": "source/matching/game/k4a/k4a_rain_loop_start_800f18bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_rain_loop_start_800f18bc": "0x800f18bc"
+  },
+  "descriptions": {
+    "k4a_rain_loop_start_800f18bc": "Appears to create and start two rain-loop voices through the audio interface, set their gain, subscribe to a cached message and store an engine value."
+  }
+}

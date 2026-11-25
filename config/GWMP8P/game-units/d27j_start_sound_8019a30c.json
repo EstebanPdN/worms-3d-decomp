@@ -1,0 +1,17 @@
+{
+  "unit": "d27j_start_sound_8019a30c",
+  "source": "source/matching/game/d27j/d27j_start_sound_8019a30c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27j"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27j_start_sound_8019a30c": "0x8019a30c"
+  },
+  "descriptions": {
+    "d27j_start_sound_8019a30c": "Fade or cut active voices whose channel masks overlap the new record, set the record's fade state, play it and set its position"
+  }
+}

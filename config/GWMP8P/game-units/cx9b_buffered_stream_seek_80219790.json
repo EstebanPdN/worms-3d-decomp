@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_buffered_stream_seek_80219790",
+  "source": "source/matching/game/cx9b/cx9b_buffered_stream_seek_80219790.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_buffered_stream_seek_80219790": "0x80219790"
+  },
+  "descriptions": {
+    "w3d_cx9b_buffered_stream_seek_80219790": "Seek the buffered stream by absolute, current, or queried-end origin and return the original status on invalid origin or query failure."
+  }
+}

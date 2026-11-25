@@ -1,0 +1,63 @@
+{
+  "module": "task_groups_reverse_ties",
+  "function": "w3d_task_groups_run",
+  "original_entry": "0x8034af90",
+  "candidate_entry": "0x80520000",
+  "data_entry": "0x80530000",
+  "additional_bindings": [
+    {
+      "name": "w3d_task_heap_pop",
+      "kind": "rel24",
+      "site": "0x8034b04c",
+      "expected": "0x8034a7fc"
+    },
+    {
+      "name": "w3d_task_table_set_current_time",
+      "kind": "rel24",
+      "site": "0x8034b0a8",
+      "expected": "0x8034b3f8"
+    },
+    {
+      "name": "w3d_task_table_set_next_time",
+      "kind": "rel24",
+      "site": "0x8034b0e4",
+      "expected": "0x8034b408"
+    },
+    {
+      "name": "w3d_system_allocate",
+      "kind": "rel24",
+      "site": "0x8034b188",
+      "expected": "0x80212fd4"
+    },
+    {
+      "name": "w3d_allocation_failure",
+      "kind": "rel24",
+      "site": "0x8034b198",
+      "expected": "0x803413d8"
+    },
+    {
+      "name": "w3d_task_heap_push",
+      "kind": "rel24",
+      "site": "0x8034b29c",
+      "expected": "0x8034a400"
+    },
+    {
+      "name": "w3d_task_ready_move",
+      "kind": "rel24",
+      "site": "0x8034b360",
+      "expected": "0x802eeef4"
+    },
+    {
+      "name": "w3d_task_debug_hook",
+      "kind": "rel24",
+      "site": "0x8034b3c4",
+      "expected": "0x801651e4"
+    },
+    {
+      "name": "w3d_task_debug_enabled",
+      "kind": "sda21",
+      "site": "0x8034b3b4",
+      "expected": "0x804ab4d8"
+    }
+  ]
+}

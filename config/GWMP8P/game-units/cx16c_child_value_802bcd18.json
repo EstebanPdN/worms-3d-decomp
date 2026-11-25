@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_child_value_802bcd18",
+  "source": "source/matching/game/cx16c/cx16c_child_value_802bcd18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_child_value_802bcd18": "0x802bcd18"
+  },
+  "descriptions": {
+    "w3d_cx16c_child_value_802bcd18": "Update the cached integer when it changes and apply that value to each child, reloading the child range end after each callback."
+  }
+}

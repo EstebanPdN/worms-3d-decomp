@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_bind_effect_8009d6d4",
+  "source": "source/matching/game/cx12a/cx12a_bind_effect_8009d6d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_bind_effect_8009d6d4": "0x8009d6d4"
+  },
+  "descriptions": {
+    "w3d_cx12a_bind_effect_8009d6d4": "Launch an optional named effect, replace a held interface, set its position and start it; names inferred."
+  }
+}

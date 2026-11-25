@@ -1,0 +1,11 @@
+{
+  "unit": "cc26a_grid_unmark_disk_8001f6fc",
+  "source": "source/matching/game/cc26a/cc26a_grid_unmark_disk_8001f6fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc26a_grid_unmark_disk_8001f6fc": "0x8001f6fc"
+  },
+  "descriptions": {
+    "cc26a_grid_unmark_disk_8001f6fc": "Clear marker4 cells inside a region horizontal disk when layer-height selection succeeds, then mark the region inactive; preserve signed16 rounded bounds and ordered inclusion."
+  }
+}

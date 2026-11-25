@@ -1,0 +1,11 @@
+{
+  "unit": "s19_float_8000a280",
+  "source": "source/matching/game/s19/s19_float_8000a280.c",
+  "language": "c",
+  "functions": {
+    "s19_score_add_weight_8000a280": "0x8000a280"
+  },
+  "descriptions": {
+    "s19_score_add_weight_8000a280": "Appears to add a registry entry weight scaled by a global factor to the float at +4, or add one when no entry is selected."
+  }
+}

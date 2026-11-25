@@ -1,0 +1,11 @@
+{
+  "unit": "cc18a_worm_tables_sinit_80154038",
+  "source": "source/matching/game/cc18a/cc18a_worm_tables_sinit_80154038.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18a_worm_tables_sinit_80154038": "0x80154038"
+  },
+  "descriptions": {
+    "w3d_cc18a_worm_tables_sinit_80154038": "Initializes nine observed base aliases, the worm type descriptor, cached input/gameplay message names and nine zero pointer objects."
+  }
+}

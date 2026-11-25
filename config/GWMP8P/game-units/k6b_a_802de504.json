@@ -1,0 +1,14 @@
+{
+  "unit": "k6b_a_802de504",
+  "source": "source/matching/game/k6b/k6b_a_802de504.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_gcinfo_802de504": "0x802de504"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_gcinfo_802de504": "Appears to be Lua 5.0 lbaselib luaB_gcinfo: push the GC count and GC threshold as numbers and return 2."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

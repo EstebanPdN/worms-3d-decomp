@@ -1,0 +1,13 @@
+{
+  "unit": "k11b_bits_index_helpers",
+  "source": "source/matching/game/k11b/k11b_bits_index_helpers.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k11b_checked_index_801f9fbc": "0x801f9fbc",
+    "w3d_k11b_reverse_bits_8021d7b0": "0x8021d7b0"
+  },
+  "descriptions": {
+    "w3d_k11b_checked_index_801f9fbc": "Appears to validate an index against a pointer vector length: selector modes 2 and 3 take the caller index, modes 0 and 1 select none, other modes fail; returns -1 when out of range.",
+    "w3d_k11b_reverse_bits_8021d7b0": "Mirrors the low count bits of a value so bit i of the input becomes bit count-1-i of the result; the first argument is unused."
+  }
+}

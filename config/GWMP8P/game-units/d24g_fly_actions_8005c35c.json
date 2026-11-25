@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_fly_actions_8005c35c",
+  "source": "source/matching/game/d24g/d24g_fly_actions_8005c35c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_fly_actions_8005c35c": "0x8005c35c"
+  },
+  "descriptions": {
+    "w3d_d24g_fly_actions_8005c35c": "Appends input actions to the owner's pointer vector at +36: Fly.Pitch.Up.Pressed (3, 1), Fly.Pitch.Up.Released (3, 0), Fly.Pitch.Down.Pressed (2, 1), Fly.Pitch.Down.Released (2, 0), Fly.Yaw.Left.Pressed (0, 1), Fly.Yaw.Left.Released (0, 0), Fly.Yaw.Right.Pressed (1, 1), Fly.Yaw.Right.Released (1, 0), Fly.Roll.Left.Pressed (3, 1, axis 1), Fly.Roll.Left.Released (3, 0, axis 1), Fly.Roll.Right.Pressed (3, 1, axis 2), Fly.Roll.Right.Released (3, 0, axis 2), Fly.Yaw.Left.Pressed (0, 1, axis 1), Fly.Yaw.Left.Released (0, 0, axis 1), Fly.Yaw.Right.Pressed (0, 1, axis 2), Fly.Yaw.Right.Released (0, 0, axis 2), Fly.Pitch.Down.Pressed (1, 1, axis 1), Fly.Pitch.Down.Released (1, 0, axis 1), Fly.Pitch.Up.Pressed (1, 1, axis 2), Fly.Pitch.Up.Released (1, 0, axis 2). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc35b_movie_volume_802e0f70",
+  "source": "source/matching/game/cc35b/cc35b_movie_volume_802e0f70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc35b_movie_volume_802e0f70": "0x802e0f70"
+  },
+  "descriptions": {
+    "w3d_cc35b_movie_volume_802e0f70": "Sets movie audio gain and optional interpolation after original opened/audio guards. Preserves signed clamps0..127 and0..60000, rate48/32 selection, interrupt token lifetime, signed integer-to-float conversions, separately rounded subtraction/division and zero-duration direct update. Partial state/player offsets and field names are inferred, not original class size. Compiler bias constant803db310 is independently decoded from DOL as4330000080000000 (4503601774854144.0); any owned initialized pool lies outside worker text range and requires parent ownership review. Other callees/data remain unowned."
+  }
+}

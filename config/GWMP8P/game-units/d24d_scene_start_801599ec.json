@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_scene_start_801599ec",
+  "source": "source/matching/game/d24d/d24d_scene_start_801599ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_scene_start_801599ec": "0x801599ec"
+  },
+  "descriptions": {
+    "d24d_scene_start_801599ec": "Scene start: sets +64 and +68, saves and sets a global flag in +72, posts four plain messages, acquires nine pooled messages (0x80162024) into the references +28..+60 and posts a final 12-byte message built by 0x800c1620 from +20."
+  }
+}

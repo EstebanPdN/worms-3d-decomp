@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_push_own_short_801a9b10",
+  "source": "source/matching/game/d29s/d29s_push_own_short_801a9b10.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d29s_push_own_short_801a9b10": "0x801a9b10"
+  },
+  "descriptions": {
+    "d29s_push_own_short_801a9b10": "Appends the 16-bit record at +304 to the vector at +308."
+  }
+}

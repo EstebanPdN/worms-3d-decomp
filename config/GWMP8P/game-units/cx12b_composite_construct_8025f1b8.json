@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_composite_construct_8025f1b8",
+  "source": "source/matching/game/cx12b/cx12b_composite_construct_8025f1b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_composite_construct_8025f1b8": "0x8025f1b8"
+  },
+  "descriptions": {
+    "w3d_cx12b_composite_construct_8025f1b8": "Construct the base and embedded member, install two original interface tables and clear the trailing pointer/state fields."
+  }
+}

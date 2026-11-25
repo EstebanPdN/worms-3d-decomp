@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_build_view_matrix_801a1008",
+  "source": "source/matching/game/d24e/d24e_build_view_matrix_801a1008.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_build_view_matrix_801a1008": "0x801a1008"
+  },
+  "descriptions": {
+    "w3d_d24e_build_view_matrix_801a1008": "Gets the camera basis from 0x801a0cf4, stores it as the rotation rows of the matrix at +20 and sets the translation row to minus the dot product of the position at +176 with each basis vector."
+  }
+}

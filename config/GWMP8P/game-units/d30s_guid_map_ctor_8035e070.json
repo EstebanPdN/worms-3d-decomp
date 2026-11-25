@@ -1,0 +1,16 @@
+{
+  "unit": "d30s_guid_map_ctor_8035e070",
+  "source": "source/matching/game/d30s/d30s_guid_map_ctor_8035e070.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "__Q24_STLt8hash_map5Z11D30sGuidKeyZP9D30sIfaceZ12D30sGuidHashZ10D30sGuidEqZQ24_STLt9allocator1ZQ24_STLt4pair2ZC11D30sGuidKeyZP9D30sIface": "0x8035e070"
+  },
+  "descriptions": {
+    "__Q24_STLt8hash_map5Z11D30sGuidKeyZP9D30sIfaceZ12D30sGuidHashZ10D30sGuidEqZQ24_STLt9allocator1ZQ24_STLt4pair2ZC11D30sGuidKeyZP9D30sIface": "Default constructor of the identifier hash_map: empty functors, zeroed buckets and count, then 100 buckets through 0x8035c518, 0x8035db70 and 0x8035dc78."
+  }
+}

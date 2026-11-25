@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800e9ec8",
+  "source": "source/matching/game/s8contextfix_800e9ec8.c",
+  "language": "c",
+  "functions": {
+    "s8_initialize_message_flags_800e9ec8": "0x800e9ec8"
+  },
+  "descriptions": {
+    "s8_initialize_message_flags_800e9ec8": "Static initializer: registers its descriptor, initializes eight byte flags and binds fourteen cached message names at priority 0xffff."
+  }
+}

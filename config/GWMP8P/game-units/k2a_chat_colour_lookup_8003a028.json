@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_chat_colour_lookup_8003a028",
+  "source": "source/matching/game/k2a/k2a_chat_colour_lookup_8003a028.c",
+  "language": "c",
+  "functions": {
+    "k2a_chat_colour_lookup_8003a028": "0x8003a028"
+  },
+  "descriptions": {
+    "k2a_chat_colour_lookup_8003a028": "Appears to look up a chat colour property by channel (global, player, alliance, anonymous global), returning a failure code for unknown channels."
+  }
+}

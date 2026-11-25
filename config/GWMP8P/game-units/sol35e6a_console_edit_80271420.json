@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e6a_console_edit_80271420",
+  "source": "source/matching/game/sol35e6a/sol35e6a_console_edit_80271420.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e6a_console_edit_80271420": "0x80271420"
+  },
+  "descriptions": {
+    "sol35e6a_console_edit_80271420": "Enables editing, constructs and populates the temporary shared string from a null-terminated table, updates the sink, releases two interfaces and destroys the temporary. Names are inferred."
+  }
+}

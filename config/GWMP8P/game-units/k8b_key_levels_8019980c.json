@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_key_levels_8019980c",
+  "source": "source/matching/game/k8b/k8b_key_levels_8019980c.c",
+  "language": "c",
+  "functions": {"w3d_k8b_key_levels_8019980c": "0x8019980c"},
+  "descriptions": {"w3d_k8b_key_levels_8019980c": "Appears to evaluate each keyframe's blend level from the track time, ramping up, ramping down or constant by kind, and send it to the target interface."}
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d16c_transition_mesh_801247d0",
+  "source": "source/matching/game/d16c/d16c_transition_mesh_801247d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16c_transition_mesh_801247d0": "0x801247d0"
+  },
+  "descriptions": {
+    "d16c_transition_mesh_801247d0": "When the transition's handle (+28) is empty, load the \"TransitionMesh\" resource into it through a temporary shared string, retain the mesh it yields as the current mesh (+36, releasing the previous one) and scale it to (p*1.125 + (1-p), same, 1) from the global settings progress (+184)."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_property_stream_serialize_801deed8",
+  "source": "source/matching/game/cx11b/cx11b_property_stream_serialize_801deed8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_property_stream_serialize_801deed8": "0x801deed8"
+  },
+  "descriptions": {
+    "w3d_cx11b_property_stream_serialize_801deed8": "Serialize the observed mixed byte, integer, and float property fields in their original order."
+  }
+}

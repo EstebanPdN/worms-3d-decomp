@@ -1,0 +1,31 @@
+{
+  "unit": "s3_runtime_integration",
+  "source": "source/matching/game/s3_runtime_integration.c",
+  "language": "c",
+  "functions": {
+    "w3d_file_owner_destroy": "0x8015bedc",
+    "w3d_file_owner_virtual_step": "0x8015c118",
+    "w3d_file_owner_apply_file": "0x8015c2a4",
+    "w3d_runtime_register_help": "0x8015c384",
+    "w3d_runtime_owner_construct": "0x8015c4e0",
+    "w3d_runtime_owner_finish": "0x8015c880",
+    "w3d_runtime_replace_global_handle": "0x8015c8dc",
+    "w3d_runtime_query_service_handle": "0x8015c960",
+    "w3d_runtime_prepare_services": "0x8015c994",
+    "w3d_runtime_prepare_renderer": "0x8015ca48",
+    "w3d_runtime_service_set_mode": "0x8015cabc"
+  },
+  "descriptions": {
+    "w3d_file_owner_destroy": "Releases file interfaces and destroys the file owner bases.",
+    "w3d_file_owner_virtual_step": "Dispatches the file owner virtual step.",
+    "w3d_file_owner_apply_file": "Selects a file-interface operation from the requested mode.",
+    "w3d_runtime_register_help": "Registers the XomHelp service descriptor.",
+    "w3d_runtime_owner_construct": "Constructs the runtime owner and clears its service fields.",
+    "w3d_runtime_owner_finish": "Finishes the runtime owner and unregisters its context.",
+    "w3d_runtime_replace_global_handle": "Replaces the global service handle and clears a runtime flag.",
+    "w3d_runtime_query_service_handle": "Dispatches the runtime service handle query.",
+    "w3d_runtime_prepare_services": "Configures the runtime service, context and view.",
+    "w3d_runtime_prepare_renderer": "Initializes renderer output when the owner mode is zero.",
+    "w3d_runtime_service_set_mode": "Forwards the runtime service mode request."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d30l_title_line_802a3784",
+  "source": "source/matching/game/d30l/d30l_title_line_802a3784.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30l_title_line_802a3784": "0x802a3784"
+  },
+  "descriptions": {
+    "d30l_title_line_802a3784": "Creates the three title line sprites of a panel and lays them out from the config position and the title width."
+  }
+}

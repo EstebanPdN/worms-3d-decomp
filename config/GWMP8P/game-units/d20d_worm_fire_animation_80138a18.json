@@ -1,0 +1,14 @@
+{
+  "unit": "d20d_worm_fire_animation_80138a18",
+  "source": "source/matching/game/d20d/d20d_worm_fire_animation_80138a18.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d20d_worm_fire_animation_80138a18": "0x80138a18"
+  },
+  "descriptions": {
+    "d20d_worm_fire_animation_80138a18": "Play a worm's weapon fire animation: return early in states 3..6, 26 and 36 unless the weapon is 13; read the weapon from the actor record (0x800fc6dc, +132) and its fire animation name from the weapon property block (0x800fc330 over the name table 0x803eb63c, +84); aim the body (0x80139234) and play the animation on the body (delayed for weapon 49) and on the hat if present; then, with a held item, play a weapon-specific held animation (bazooka, nuke, surrender, bat, axe) and/or trigger a named effect on the context's effect service at the worm position (scales, nuke, quake, Redbull), with the extra reset, global utility effect, 0x8013f2a4 and trail-attach calls for weapons 43, 0 and 12. Field meanings are inferred."
+  }
+}

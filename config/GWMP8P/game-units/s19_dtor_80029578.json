@@ -1,0 +1,11 @@
+{
+  "unit": "s19_dtor_80029578",
+  "source": "source/matching/game/s19/s19_dtor_80029578.c",
+  "language": "c",
+  "functions": {
+    "s19_service_destroy_80029578": "0x80029578"
+  },
+  "descriptions": {
+    "s19_service_destroy_80029578": "Appears to install a vtable, notify two interfaces through slot 6, clear a global and release five held interfaces before the service destroy."
+  }
+}

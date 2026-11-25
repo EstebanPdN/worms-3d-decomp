@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c30_turn_advance_8021c74c",
+  "source": "source/matching/game/tsonnet_c30/tsonnet_c30_turn_advance_8021c74c.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c30_turn_advance_8021c74c": "0x8021c74c"
+  },
+  "descriptions": {
+    "tsonnet_c30_turn_advance_8021c74c": "When the pending flag at offset 92 is set and the CurrentTeamIndex property names a team whose word at offset 32 is zero, increments a step counter in the owner's linked record and, once it exceeds the limit at offset 124, clears an engine word, sets a state bit, calls a virtual release, leaves the current screen if requested, posts an integer message and an empty message and clears the flag; field meanings are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc42a_remove_unused_80178578",
+  "source": "source/matching/game/cc42a/cc42a_remove_unused_80178578_v10.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc42a_remove_unused_80178578": "0x80178578"
+  },
+  "descriptions": {
+    "cc42a_remove_unused_80178578": "Resolve a 16-bit table index, measure references with balanced retain/release, require count two, release and clear the cached slot, set its free bit, and refresh the table."
+  }
+}

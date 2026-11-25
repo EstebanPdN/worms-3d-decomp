@@ -1,0 +1,12 @@
+{
+  "unit": "d18a_post_damage_80060fe4",
+  "source": "source/matching/game/d18a/d18a_post_damage_80060fe4.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18a_post_damage_80060fe4": "0x80060fe4"
+  },
+  "descriptions": {
+    "w3d_d18a_post_damage_80060fe4": "Reads the body state behind the handle at +192 (0x80341584, 0x801797b4), allocates a 52-byte damage message from the queue 0x804b1754 (0x801613f0), constructs it with 0x800666b4 (position twice, 0.0 x3, state height +220, 0.0) and posts it (0x8016239c); passes the position lowered by the height to 0x800eca14 and 0x800e5ca4 (material +348, 0, 0.0); sets the speed at +52 to max(|speed| * handle float +312, handle float +308) via 0x80178df0 and calls 0x800eb6e4."
+  }
+}

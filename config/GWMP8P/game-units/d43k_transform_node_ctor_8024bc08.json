@@ -1,0 +1,14 @@
+{
+  "unit": "d43k_transform_node_ctor_8024bc08",
+  "source": "source/matching/game/d43k/d43k_transform_node_ctor_8024bc08.cpp",
+  "language": "cpp",
+  "functions": {
+    "__17D43kTransformNodeUi": "0x8024bc08"
+  },
+  "descriptions": {
+    "__17D43kTransformNodeUi": "Constructs the node: base init and table, five transforms from the shared identity, all vectors and flags cleared, seven counted references to the default object."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

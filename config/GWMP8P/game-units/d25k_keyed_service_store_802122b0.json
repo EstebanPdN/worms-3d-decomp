@@ -1,0 +1,12 @@
+{
+  "unit": "d25k_keyed_service_store_802122b0",
+  "source": "source/matching/game/d25k/d25k_keyed_service_store_802122b0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d25k_keyed_service_store_802122b0": "0x802122b0"
+  },
+  "descriptions": {
+    "w3d_d25k_keyed_service_store_802122b0": "Retains the service, then stores it under its 16-byte key in the hash table at +248 (bucket from key words 0 and 2, memcmp compare, missing keys inserted through 0x8035c75c) and returns 0."
+  }
+}

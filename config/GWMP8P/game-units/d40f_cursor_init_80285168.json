@@ -1,0 +1,11 @@
+{
+  "unit": "d40f_cursor_init_80285168",
+  "source": "source/matching/game/d40f/d40f_cursor_init_80285168.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40f_cursor_init_80285168": "0x80285168"
+  },
+  "descriptions": {
+    "w3d_d40f_cursor_init_80285168": "Initialises the mouse cursor: loads the sprite handle and the size property, takes the start position from the config, clamps it, offsets the hotspot by the square root of the size, sets the sprite scale and acquires the press and release messages."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_menu_types_sinit_8022d78c",
+  "source": "source/matching/game/cc17c/cc17c_menu_types_sinit_8022d78c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_sinit_8022d78c": "0x8022d78c"
+  },
+  "descriptions": {
+    "w3d_cc17c_sinit_8022d78c": "Static initializer: constructs the 42 frontend type descriptors (menu control descriptions, list box columns, campaign/team/scheme/sound bank data and level details) in original order."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a5_player_list_advance_8008dc28",
+  "source": "source/matching/game/sol35a5/sol35a5_player_list_advance_8008dc28.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a5_player_list_advance_8008dc28": "0x8008dc28"
+  },
+  "descriptions": {
+    "sol35a5_player_list_advance_8008dc28": "When queue/list counts, timer or selection permit, clear selection, allocate and post a target-ID message for the first pending entry, then erase that entry with the observed forward-copy byte count and end decrement. GC32 layout and external identities observed; names, full class types and ownership inferred."
+  }
+}

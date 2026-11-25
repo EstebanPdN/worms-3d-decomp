@@ -1,0 +1,14 @@
+{
+  "unit": "d19d_mesh_fade_clip_80181884",
+  "source": "source/matching/game/d19d/d19d_mesh_fade_clip_80181884.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d19d_mesh_fade_clip_80181884": "0x80181884"
+  },
+  "descriptions": {
+    "d19d_mesh_fade_clip_80181884": "XMeshInstance clip fade: set the blender fade (time, 0) and target weight of clip 'index'; for a positive weight request the clip buffer through the shared slot manager unless resident (state 2) and increment its user count, otherwise decrement it; register with the scene list if needed and refresh every child."
+  }
+}

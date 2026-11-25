@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_query_property_disabled_802b4ef4",
+  "source": "source/matching/game/f1p/f1p_query_property_disabled_802b4ef4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_query_property_disabled_802b4ef4": "0x802b4ef4"
+  },
+  "descriptions": {
+    "w3d_query_property_disabled_802b4ef4": "For optional property +0xfc, dispatches virtual kind slot +0x18 and reads kind zero/one through the original helpers. Stores whether its observed value is zero at +0xdc, preserving unsupported-kind behavior and leaving the stored state unchanged when no property exists; returns +0xdc."
+  }
+}

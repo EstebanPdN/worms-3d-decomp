@@ -1,0 +1,11 @@
+{
+  "unit": "d33b_pending_clear_8008eb98",
+  "source": "source/matching/game/d33b/d33b_pending_clear_8008eb98.cpp",
+  "language": "cpp",
+  "functions": {
+    "d33b_pending_clear_8008eb98": "0x8008eb98"
+  },
+  "descriptions": {
+    "d33b_pending_clear_8008eb98": "For each pair in the list 0x80431e94 whose item has a non-zero count at state +80, +24, calls 0x801ef380 with field offset 80, 10, 0 and that count; then erases all pairs from the lists 0x80431e88 and 0x80431e94."
+  }
+}

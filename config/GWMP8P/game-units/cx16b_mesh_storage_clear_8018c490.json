@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_mesh_storage_clear_8018c490",
+  "source": "source/matching/game/cx16b/cx16b_mesh_storage_clear_8018c490.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_mesh_storage_clear_8018c490": "0x8018c490"
+  },
+  "descriptions": {
+    "w3d_cx16b_mesh_storage_clear_8018c490": "Runs the owner cleanup callback, notifies its manager, snapshots the first held interface before decrementing the global count, releases three held values and clears the pointer range."
+  }
+}

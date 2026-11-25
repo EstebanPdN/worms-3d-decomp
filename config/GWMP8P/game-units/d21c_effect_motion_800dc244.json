@@ -1,0 +1,14 @@
+{
+  "unit": "d21c_effect_motion_800dc244",
+  "source": "source/matching/game/d21c/d21c_effect_motion_800dc244.cpp",
+  "language": "cpp",
+  "functions": {
+    "d21c_effect_motion_800dc244": "0x800dc244"
+  },
+  "descriptions": {
+    "d21c_effect_motion_800dc244": "If the owner has an effect (+156), pass it the position (slot 14, key 3), raise its integer property 12 by (min(speed, 0.05) / 0.05) * 0.7 times itself into property 2 (slot 12) and write that ratio clamped to [0.2, 1] as float property 1 (slot 13)."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

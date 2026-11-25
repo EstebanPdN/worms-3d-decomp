@@ -1,0 +1,13 @@
+{
+  "unit": "s5_ballistic_messages",
+  "source": "source/matching/game/s5_ballistic_messages.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ballistic_schedule_800d8ed8": "0x800d8ed8",
+    "w3d_ballistic_post_owner_slot_800d8f8c": "0x800d8f8c"
+  },
+  "descriptions": {
+    "w3d_ballistic_schedule_800d8ed8": "Builds a ballistic message, replaces its pending slot and schedules or immediately dispatches it.",
+    "w3d_ballistic_post_owner_slot_800d8f8c": "Posts the ballistic owner and slot pair and reports whether the shared event state is clear."
+  }
+}

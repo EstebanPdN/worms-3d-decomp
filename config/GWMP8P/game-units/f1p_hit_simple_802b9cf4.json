@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_hit_simple_802b9cf4",
+  "source": "source/matching/game/f1p/f1p_hit_simple_802b9cf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hit_simple_802b9cf4": "0x802b9cf4"
+  },
+  "descriptions": {
+    "w3d_hit_simple_802b9cf4": "Tests incoming x/y against observed panel center plus/minus carrier extent after active/ready guards, rejecting mode zero while global mode equals one. Inclusive comparisons preserve unordered-float outcomes and exact temporary vector copies. Field meanings inferred."
+  }
+}

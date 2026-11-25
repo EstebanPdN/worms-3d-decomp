@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b5_explosion_800eca14",
+  "source": "source/matching/game/sol35b5/sol35b5_explosion_800eca14.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b5_explosion_800eca14": "0x800eca14"
+  },
+  "descriptions": {
+    "sol35b5_explosion_800eca14": "Copy the supplied three-component center, offset the impulse center vertically, select an unsigned randomized multiplier and allocate, initialize and post the observed 52-byte explosion message. Names, partial layouts and identity accessor return are inferred from native ABI consumers."
+  }
+}

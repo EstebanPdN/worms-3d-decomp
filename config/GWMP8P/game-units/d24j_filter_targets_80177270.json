@@ -1,0 +1,14 @@
+{
+  "unit": "d24j_filter_targets_80177270",
+  "source": "source/matching/game/d24j/d24j_filter_targets_80177270.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24j_filter_targets_by_kind_80177270": "0x80177270",
+    "d24j_filter_targets_by_flags_8017768c": "0x8017768c"
+  },
+  "descriptions": {
+    "d24j_filter_targets_by_kind_80177270": "Iterates a source and, for items whose kind equals the argument, adds the item's target to a new shared list through the adder of its run-time type, then passes the list to the sink and returns 0.",
+    "d24j_filter_targets_by_flags_8017768c": "Same as the kind filter, selecting items whose flags (virtual slot 10) intersect the mask argument."
+  }
+}

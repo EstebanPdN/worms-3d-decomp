@@ -1,0 +1,11 @@
+{
+  "unit": "f13c_encyclopedia_update_8027fca8",
+  "source": "source/matching/game/f13c/f13c_encyclopedia_update_8027fca8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f13c_encyclopedia_update_8027fca8": "0x8027fca8"
+  },
+  "descriptions": {
+    "w3d_f13c_encyclopedia_update_8027fca8": "Reads Ped.Current, refreshes its bounds, sets previous/next availability, resolves DATA.Wormopaedia, copies the selected entry title into a native retained string, translates title and description when property lookup succeeds, and publishes title, description, image and movie properties with movie availability based on the file string. Preserves early-return held-interface cleanup and every shared-string retain/release; entry/list layouts and encyclopedia roles are inferred."
+  }
+}

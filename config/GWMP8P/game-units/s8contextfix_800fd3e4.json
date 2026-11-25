@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800fd3e4",
+  "source": "source/matching/game/s8contextfix_800fd3e4.c",
+  "language": "c",
+  "functions": {
+    "s8_indexed_property_800fd3e4": "0x800fd3e4"
+  },
+  "descriptions": {
+    "s8_indexed_property_800fd3e4": "Looks up an indexed object, uses its byte field at offset 60 to select a global value and writes that value to the supplied output."
+  }
+}

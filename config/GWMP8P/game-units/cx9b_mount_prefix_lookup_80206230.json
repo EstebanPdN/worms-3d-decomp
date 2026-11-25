@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_mount_prefix_lookup_80206230",
+  "source": "source/matching/game/cx9b/cx9b_mount_prefix_lookup_80206230.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_mount_prefix_lookup_80206230": "0x80206230"
+  },
+  "descriptions": {
+    "w3d_cx9b_mount_prefix_lookup_80206230": "Find the longest registered path prefix, recognize a slash after an exact mount, and optionally return the path remainder."
+  }
+}

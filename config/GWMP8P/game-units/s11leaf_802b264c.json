@@ -1,0 +1,11 @@
+{
+  "unit": "s11leaf_802b264c",
+  "source": "source/matching/game/generated/s11leaf_802b264c.c",
+  "language": "c",
+  "functions": {
+    "s11_current_context_802b264c": "0x802b264c"
+  },
+  "descriptions": {
+    "s11_current_context_802b264c": "Tests whether the object identifier equals the current global context identifier."
+  }
+}

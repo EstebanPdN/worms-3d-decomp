@@ -1,0 +1,11 @@
+{
+  "unit": "s8transplantall_800e3528",
+  "source": "source/matching/game/s8transplantall_800e3528.c",
+  "language": "c",
+  "functions": {
+    "s8_transplant_800e3528": "0x800e3528"
+  },
+  "descriptions": {
+    "s8_transplant_800e3528": "Appears to implement the observed field accesses and external calls; instantiated from the matched instruction family at 0x800e05a4."
+  }
+}

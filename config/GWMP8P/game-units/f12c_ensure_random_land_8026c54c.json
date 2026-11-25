@@ -1,0 +1,11 @@
+{
+  "unit": "f12c_ensure_random_land_8026c54c",
+  "source": "source/matching/game/f12c/f12c_ensure_random_land_8026c54c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f12c_ensure_random_land_8026c54c": "0x8026c54c"
+  },
+  "descriptions": {
+    "w3d_f12c_ensure_random_land_8026c54c": "When the context property-name string is nonempty, look up its held interface, copy the current shared string with witnessed retain/release ownership, compare it to FE.Level.RandomLand and update the property when different, then release the interface and scoped string. Partial context, string and interface layouts and names are inferred; external property APIs and original strings remain separate obligations."
+  }
+}

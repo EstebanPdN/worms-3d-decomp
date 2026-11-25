@@ -1,0 +1,15 @@
+{
+  "unit": "d25h_screen_fade_800c770c",
+  "source": "source/matching/game/d25h/d25h_screen_fade_800c770c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast"
+  ],
+  "functions": {
+    "w3d_d25h_screen_fade_800c770c": "0x800c770c"
+  },
+  "descriptions": {
+    "w3d_d25h_screen_fade_800c770c": "Screen fade out: sets the fading flags on the screen and the services, runs 30 steps lowering the alpha from 255 by 8.5 (the background tint is scaled to 180), recolours the back panel and each of the up to eight slot objects and waits a frame each step, then releases the slots and the back panel, presents with 0x800c7c84 and restores the flags."
+  }
+}

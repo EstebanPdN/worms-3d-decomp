@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801d5a54",
+  "source": "source/matching/game/k5b/k5b_a_801d5a54.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_resolver_classify_801d5a54": "0x801d5a54"
+  },
+  "descriptions": {
+    "w3d_k5b_resolver_classify_801d5a54": "Appears to reset the level of the outer object (base at -4), dispatch on the query tag slot and, on success, store a 2-bit mode (forced or level) in the query flags."
+  }
+}

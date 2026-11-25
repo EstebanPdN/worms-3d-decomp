@@ -1,0 +1,37 @@
+{
+  "unit": "d_typeobj_a",
+  "source": "source/matching/game/d_typeobj_a.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_type_list_80241af4": "0x80241af4",
+    "w3d_type_create_80241b00": "0x80241b00",
+    "w3d_type_unlink_80241b68": "0x80241b68",
+    "w3d_type_destroy_80241e4c": "0x80241e4c",
+    "w3d_type_list_80242780": "0x80242780",
+    "w3d_type_create_8024278c": "0x8024278c",
+    "w3d_type_unlink_802427f4": "0x802427f4",
+    "w3d_type_construct_80242838": "0x80242838",
+    "w3d_type_destroy_80242910": "0x80242910",
+    "w3d_type_list_80242bbc": "0x80242bbc",
+    "w3d_type_create_80242bc8": "0x80242bc8",
+    "w3d_type_unlink_80242c30": "0x80242c30",
+    "w3d_type_construct_80242c74": "0x80242c74",
+    "w3d_type_destroy_80242cd0": "0x80242cd0"
+  },
+  "descriptions": {
+    "w3d_type_list_80241af4": "Returns the registry that tracks every live object of this engine type.",
+    "w3d_type_create_80241b00": "Allocates and constructs a new object of this type, adds it to the type registry and increments the live count.",
+    "w3d_type_unlink_80241b68": "Removes the object from its type registry and decrements the registry's live count.",
+    "w3d_type_destroy_80241e4c": "Destroys an object of this type, releasing its members and base part; frees the memory when flag bit 0 is set.",
+    "w3d_type_list_80242780": "Returns the registry that tracks every live object of this engine type.",
+    "w3d_type_create_8024278c": "Allocates and constructs a new object of this type, adds it to the type registry and increments the live count.",
+    "w3d_type_unlink_802427f4": "Removes the object from its type registry and decrements the registry's live count.",
+    "w3d_type_construct_80242838": "Constructs an object of this type: initializes the base object, installs the vtable and resets its fields.",
+    "w3d_type_destroy_80242910": "Destroys an object of this type, releasing its members and base part; frees the memory when flag bit 0 is set.",
+    "w3d_type_list_80242bbc": "Returns the registry that tracks every live object of this engine type.",
+    "w3d_type_create_80242bc8": "Allocates and constructs a new object of this type, adds it to the type registry and increments the live count.",
+    "w3d_type_unlink_80242c30": "Removes the object from its type registry and decrements the registry's live count.",
+    "w3d_type_construct_80242c74": "Constructs an object of this type: initializes the base object, installs the vtable and resets its fields.",
+    "w3d_type_destroy_80242cd0": "Destroys an object of this type, releasing its members and base part; frees the memory when flag bit 0 is set."
+  }
+}

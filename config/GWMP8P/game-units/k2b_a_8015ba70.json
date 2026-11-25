@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8015ba70",
+  "source": "source/matching/game/k2b/k2b_a_8015ba70.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_run_main_loop_8015ba70": "0x8015ba70"
+  },
+  "descriptions": {
+    "w3d_k2b_run_main_loop_8015ba70": "Appears to run the main loop: start-up callback, then per-frame tick deltas and history ticks until the quit state is set."
+  }
+}

@@ -1,0 +1,7 @@
+// The clip lookup writes one index word; twelve following frame bytes have unknown purpose.
+// Partial animation state and observed clip-probe storage; names and roles inferred.
+struct F1pClipVec{float x,y,z;F1pClipVec(const F1pClipVec&o){float a=o.x,b=o.y,c=o.z;x=a;y=b;z=c;}};
+struct F1pClipOwner{char unknown[80];int error[2];void*mesh;int handle,loaded,mode;char unknown104[32];float blend;};
+struct F1pClipGlobal{char unknown[192];float speed;};extern F1pClipGlobal*instance_804abb44;extern const F1pClipVec zero_8045e788;extern const float rate_803d7ab8[],zero_803d7abc[];extern char error_803d7a98[];
+extern "C" void fn_802b1cec(F1pClipOwner*),fn_8020c510(void*,const char*,...);extern "C" void*fn_80343584(void*);extern "C" int fn_80181598(void*,const char*,int*),fn_80181640(void*,const char*,int*,int,float,float,float);
+extern "C" void w3d_start_named_animation_802b1bd0(F1pClipOwner*self,const char*name){if(!name||!*name){fn_802b1cec(self);return;}if(!self->mode)fn_802b1cec(self);if(!self->loaded){F1pClipVec position(zero_8045e788);struct{int index;char unknown_frame_reservation[12];} details;if(fn_80181598(fn_80343584(self->mesh),name,&details.index)==0){float speed=rate_803d7ab8[0];if(instance_804abb44)speed=instance_804abb44->speed;if(fn_80181640(fn_80343584(self->mesh),name,&self->handle,0,speed,self->blend,zero_803d7abc[0])>=0)self->loaded=1;}else fn_8020c510(&self->error,error_803d7a98,name);}}

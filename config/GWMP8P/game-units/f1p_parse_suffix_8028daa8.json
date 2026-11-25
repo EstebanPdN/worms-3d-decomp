@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_parse_suffix_8028daa8",
+  "source": "source/matching/game/f1p/f1p_parse_suffix_8028daa8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_parse_suffix_8028daa8": "0x8028daa8"
+  },
+  "descriptions": {
+    "w3d_parse_suffix_8028daa8": "Assign the original fallback string for an empty input. Otherwise copy with reference counting, locate the witnessed separator, truncate the stem and parse a nonempty numeric tail with the original helper, assign the stem back and return the parsed value. String layout and semantic role inferred."
+  }
+}

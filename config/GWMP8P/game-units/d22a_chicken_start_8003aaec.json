@@ -1,0 +1,11 @@
+{
+  "unit": "d22a_chicken_start_8003aaec",
+  "source": "source/matching/game/d22a/d22a_chicken_start_8003aaec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d22a_chicken_start_8003aaec": "0x8003aaec"
+  },
+  "descriptions": {
+    "w3d_d22a_chicken_start_8003aaec": "Chicken start-up: copies the zero vector 0x8045e788 into +40, +28, +52 and +64; sets +80 = 0 and +76 = -1; reads the Chicken.Spawn string property and finds the spawn point (0x8003ad14); reads Chicken.HitPoints into +76; loads the Gravity and Low.Gravity.Multiplier resources into +84/+88 through one handle (retain new, release old and handle); reads RandomNumber.Float into +92; allocates a 12-byte message from arena 0x804b1754, initializes it with the id at +20 (0x800c1620) and posts it (0x8016239c)."
+  }
+}

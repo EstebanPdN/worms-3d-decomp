@@ -1,0 +1,19 @@
+{
+  "unit": "s10local_801a19cc",
+  "source": "source/matching/game/auto/s10local_801a19cc.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801a19cc": "0x801a19cc",
+    "w3d_auto_80208304": "0x80208304",
+    "w3d_auto_80208384": "0x80208384",
+    "w3d_auto_80208404": "0x80208404",
+    "w3d_auto_80208484": "0x80208484"
+  },
+  "descriptions": {
+    "w3d_auto_801a19cc": "Decrements the unsigned 16-bit reference count at offset 4 and returns the new value.",
+    "w3d_auto_80208304": "Decrements the unsigned 16-bit reference count at offset 4 and returns the new value.",
+    "w3d_auto_80208384": "Decrements the unsigned 16-bit reference count at offset 4 and returns the new value.",
+    "w3d_auto_80208404": "Decrements the unsigned 16-bit reference count at offset 4 and returns the new value.",
+    "w3d_auto_80208484": "Decrements the unsigned 16-bit reference count at offset 4 and returns the new value."
+  }
+}

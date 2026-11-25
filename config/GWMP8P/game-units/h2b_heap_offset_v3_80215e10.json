@@ -1,0 +1,11 @@
+{
+  "unit": "h2b_heap_offset_v3_80215e10",
+  "source": "source/matching/game/h2b/h2b_heap_offset_v3_80215e10.cpp",
+  "language": "cpp",
+  "functions": {
+    "h2b_heap_offset_v3_80215e10": "0x80215e10"
+  },
+  "descriptions": {
+    "h2b_heap_offset_v3_80215e10": "Validates an address against the external heap segment list. A one-shot flag selects exact-block validation; otherwise scans block extents under a reentrancy flag and returns the interior payload offset. Returns negative statuses for missing or unsuitable blocks and restores the scan flag. No locally constructed external views or owned data."
+  }
+}

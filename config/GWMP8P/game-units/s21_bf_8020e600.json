@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bf_8020e600",
+  "source": "source/matching/game/s21/s21_bf_8020e600.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_unpack_halves_8020e600": "0x8020e600"
+  },
+  "descriptions": {
+    "w3d_s21_unpack_halves_8020e600": "Appears to copy the low halfword of each source word into consecutive destination halfwords for a given count and return zero."
+  }
+}

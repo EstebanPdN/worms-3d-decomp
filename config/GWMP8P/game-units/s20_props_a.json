@@ -1,0 +1,13 @@
+{
+  "unit": "s20_props_a",
+  "source": "source/matching/game/s20/s20_props_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_register_color_property_8018efe0": "0x8018efe0",
+    "w3d_s20_register_vector_property_8018ec60": "0x8018ec60"
+  },
+  "descriptions": {
+    "w3d_s20_register_color_property_8018efe0": "Appears to register a colour property, set its default to zero and finish through a shared routine, returning zero.",
+    "w3d_s20_register_vector_property_8018ec60": "Appears to register a vector property, set its default to a constant vector and finish through a shared routine, returning zero."
+  }
+}

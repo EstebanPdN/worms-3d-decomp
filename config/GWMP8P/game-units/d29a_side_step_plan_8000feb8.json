@@ -1,0 +1,14 @@
+{
+  "unit": "d29a_side_step_plan_8000feb8",
+  "source": "source/matching/game/d29a/d29a_side_step_plan_8000feb8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29a_side_step_plan_8000feb8": "0x8000feb8"
+  },
+  "descriptions": {
+    "w3d_d29a_side_step_plan_8000feb8": "Tries rotated grid targets until a path queue is found and stores it on the plan."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

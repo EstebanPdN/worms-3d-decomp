@@ -1,0 +1,14 @@
+{
+  "unit": "d25j_release_parts_8017b348",
+  "source": "source/matching/game/d25j/d25j_release_parts_8017b348.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25j_release_parts_8017b348": "0x8017b348"
+  },
+  "descriptions": {
+    "d25j_release_parts_8017b348": "Calls 0x801859f8, holds the shape found under the key at +4, searches its list for part +124 (if active) or part +120; on a hit notifies the shape through 0x801ef380, releases and clears both parts and returns the 0x801859f8 result; on a miss makes and destroys a copy of the node's name string and returns 0x80004005."
+  }
+}

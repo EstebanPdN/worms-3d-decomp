@@ -1,0 +1,14 @@
+{
+  "unit": "cx10a_pair_scale_800ae6d8",
+  "source": "source/matching/game/cx10a/cx10a_pair_scale_800ae6d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10a_pair_scale_800ae6d8": "0x800ae6d8"
+  },
+  "descriptions": {
+    "w3d_cx10a_pair_scale_800ae6d8": "Enables and scales both observed interface members, or disables both at the threshold."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

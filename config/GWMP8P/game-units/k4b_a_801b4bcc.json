@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b4bcc",
+  "source": "source/matching/game/k4b/k4b_a_801b4bcc.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_named_color_construct_801b4bcc": "0x801b4bcc"
+  },
+  "descriptions": {
+    "w3d_k4b_named_color_construct_801b4bcc": "Appears to construct a named colour object over 0x801ea0ec: vtable 0x804145c8, colour copied from global 0x8045e63c, empty shared name string, enabled flag set."
+  }
+}

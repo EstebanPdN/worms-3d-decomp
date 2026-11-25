@@ -1,0 +1,65 @@
+typedef struct s8_SmallObject { int a,b; } s8_SmallObject;
+extern s8_SmallObject lbl_804ae280;
+extern char lbl_80381540[];
+int fn_802097ec(void *, void *, int, int);
+extern char lbl_80360810[];
+extern char lbl_803e7ebc[];
+extern char lbl_803618f0[];
+void * fn_800a5f08(void);
+int fn_801629f8(void *, void *, void *, void (*)(void), int, int);
+extern s8_SmallObject lbl_804ae288;
+extern char lbl_8038154c[];
+int fn_8015f518(void *, void *);
+extern s8_SmallObject lbl_804ae290;
+extern char lbl_8038155c[];
+extern s8_SmallObject lbl_804ae298;
+extern char lbl_8038156c[];
+extern s8_SmallObject lbl_804ae2a0;
+extern char lbl_80381580[];
+extern s8_SmallObject lbl_804ae2a8;
+extern char lbl_80381594[];
+extern s8_SmallObject lbl_804ae2b0;
+extern char lbl_803815a8[];
+extern s8_SmallObject lbl_804ae2b8;
+extern char lbl_803815c0[];
+extern s8_SmallObject lbl_804ae2c0;
+extern char lbl_803815dc[];
+extern s8_SmallObject lbl_804ae2c8;
+extern char lbl_803815f8[];
+extern s8_SmallObject lbl_804ae2d0;
+extern char lbl_80381618[];
+extern s8_SmallObject lbl_804ae2d8;
+extern char lbl_8038162c[];
+extern s8_SmallObject lbl_804ae2e0;
+extern char lbl_80381640[];
+extern s8_SmallObject lbl_804ae2e8;
+extern char lbl_80381654[];
+extern s8_SmallObject lbl_804ae2f0;
+extern char lbl_80381668[];
+extern s8_SmallObject lbl_804ae2f8;
+extern char lbl_80381680[];
+extern s8_SmallObject lbl_804ae300;
+extern char lbl_8038169c[];
+void s8_static_init_800a814c(int initialize,int priority)
+{
+    if(priority==0xffff && initialize) {
+        fn_802097ec(&lbl_804ae280, lbl_80381540, 0, 0);
+        fn_801629f8(lbl_80360810, lbl_803e7ebc, lbl_803618f0, fn_800a5f08, 10, 0);
+        fn_8015f518(&lbl_804ae288, lbl_8038154c);
+        fn_8015f518(&lbl_804ae290, lbl_8038155c);
+        fn_8015f518(&lbl_804ae298, lbl_8038156c);
+        fn_8015f518(&lbl_804ae2a0, lbl_80381580);
+        fn_8015f518(&lbl_804ae2a8, lbl_80381594);
+        fn_8015f518(&lbl_804ae2b0, lbl_803815a8);
+        fn_8015f518(&lbl_804ae2b8, lbl_803815c0);
+        fn_8015f518(&lbl_804ae2c0, lbl_803815dc);
+        fn_8015f518(&lbl_804ae2c8, lbl_803815f8);
+        fn_8015f518(&lbl_804ae2d0, lbl_80381618);
+        fn_8015f518(&lbl_804ae2d8, lbl_8038162c);
+        fn_8015f518(&lbl_804ae2e0, lbl_80381640);
+        fn_8015f518(&lbl_804ae2e8, lbl_80381654);
+        fn_8015f518(&lbl_804ae2f0, lbl_80381668);
+        fn_8015f518(&lbl_804ae2f8, lbl_80381680);
+        fn_8015f518(&lbl_804ae300, lbl_8038169c);
+    }
+}

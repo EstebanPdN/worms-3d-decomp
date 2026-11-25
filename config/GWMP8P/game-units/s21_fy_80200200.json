@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fy_80200200",
+  "source": "source/matching/game/s21/s21_fy_80200200.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_find_by_name_80200200": "0x80200200"
+  },
+  "descriptions": {
+    "w3d_s21_find_by_name_80200200": "Appears to look up an entry by name in the table at offset 4: entries are eight bytes, the lookup skips ones without a second field and returns the entry whose second field equals the name."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bz_80264658",
+  "source": "source/matching/game/s21/s21_bz_80264658.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_adjust_slot_80264658": "0x80264658"
+  },
+  "descriptions": {
+    "w3d_s21_adjust_slot_80264658": "Appears to increment or decrement the counter of a slot below twenty depending on a flag argument."
+  }
+}

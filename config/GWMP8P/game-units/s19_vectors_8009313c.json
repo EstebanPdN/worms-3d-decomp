@@ -1,0 +1,11 @@
+{
+  "unit": "s19_vectors_8009313c",
+  "source": "source/matching/game/s19/s19_vectors_8009313c.c",
+  "language": "c",
+  "functions": {
+    "s19_load_vectors_8009313c": "0x8009313c"
+  },
+  "descriptions": {
+    "s19_load_vectors_8009313c": "Appears to copy the vectors returned for the handles at +0xd0 and +0xd4 into the fields at +0x8c and +0xa4."
+  }
+}

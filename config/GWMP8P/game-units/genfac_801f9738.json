@@ -1,0 +1,17 @@
+{
+  "unit": "genfac_801f9738",
+  "source": "source/matching/game/generated/genfac_801f9738.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_create_801f9738": "0x801f9738",
+    "w3d_create_801f97e8": "0x801f97e8",
+    "w3d_create_801fc090": "0x801fc090",
+    "w3d_create_801fc140": "0x801fc140"
+  },
+  "descriptions": {
+    "w3d_create_801f9738": "Allocates a 268-byte object with its class allocator, constructs it (0x801fa01c), registers its base at +12 in 0x80365838 and counts it.",
+    "w3d_create_801f97e8": "Allocates a 68-byte object with its class allocator, constructs it (0x801fb270), registers its base at +8 in 0x80365868 and counts it.",
+    "w3d_create_801fc090": "Allocates a 28-byte object with its class allocator, constructs it (0x801fc3dc), registers its base at +12 in 0x80365898 and counts it.",
+    "w3d_create_801fc140": "Allocates a 24-byte object with its class allocator, constructs it (0x801fc518), registers its base at +8 in 0x803658c8 and counts it."
+  }
+}

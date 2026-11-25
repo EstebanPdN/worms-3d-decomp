@@ -1,0 +1,11 @@
+{
+  "unit": "f13b_skin_801a1250",
+  "source": "source/matching/game/f13b/f13b_skin_801a1250.cpp",
+  "language": "cpp",
+  "functions": {
+    "f13b_skin_801a1250": "0x801a1250"
+  },
+  "descriptions": {
+    "f13b_skin_801a1250": "Inferred weighted affine position transform of contiguous three-float vectors. Each vertex uses a shared array of matrix pointers and its own consecutive influence weights. Applies the first influence unconditionally, skips additional weights numerically equal to zero, and accumulates transformed vectors in influence order. Inline column-reference transform, scale and accumulate boundaries preserve genuine local vector storage. Matrix view is inferred at 16-byte column strides with reads through byte59; no external matrix construction or complete class identity is claimed. Original caller must supply valid influence and vertex counts. Names, types and API roles inferred."
+  }
+}

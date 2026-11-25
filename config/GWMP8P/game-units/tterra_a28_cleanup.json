@@ -1,0 +1,1 @@
+{"unit":"tterra_a28_cleanup","source":"source/matching/game/tterra_a28/tterra_a28_cleanup.c","language":"c","functions":{"tterra_a28_cleanup_80022c6c":"0x80022c6c"},"descriptions":{"tterra_a28_cleanup_80022c6c":"Reset an interface and traverse a range before forwarding cleanup."}}

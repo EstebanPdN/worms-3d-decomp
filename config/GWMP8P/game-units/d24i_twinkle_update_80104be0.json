@@ -1,0 +1,15 @@
+{
+  "unit": "d24i_twinkle_update_80104be0",
+  "source": "source/matching/game/d24i/d24i_twinkle_update_80104be0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d24i_twinkle_update_80104be0": "0x80104be0"
+  },
+  "descriptions": {
+    "d24i_twinkle_update_80104be0": "Update 30 twinkling mesh colours in the records at +80 when the mesh object +48 exists: an idle record picks a random colour index below +60, remembers its current brightness and a random target below 255; an active record advances its timer by the elapsed time and, while the scaled time is at most 1.0f, writes the interpolated brightness as an opaque grey into the mesh colours (0x80189760), otherwise it goes idle."
+  }
+}

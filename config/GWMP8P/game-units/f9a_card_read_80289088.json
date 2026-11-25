@@ -1,0 +1,12 @@
+{
+  "unit": "f9a_card_read_80289088",
+  "source": "source/matching/game/f9a/f9a_card_read_80289088.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f9a_card_read_80289088": "0x80289088"
+  },
+  "description": "Resolve a named card resource, configure a retained render interface, copy its 2048-byte payload, and release temporary handles. Partial non-owning views; inferred names.",
+  "descriptions": {
+    "w3d_f9a_card_read_80289088": "Resolve the supplied name into a temporary retained interface; obtain its observed field at offset60; acquire and configure a second retained interface through virtual slots14,36,16,20 and6; copy exactly2048 bytes from the observed field48 owner at offset32 into the caller destination; release both handles. Reused stack storage follows the observed string and handle lifetimes. Resource, render and font roles and all class names are inferred; object layouts are partial non-owning views, with no complete game type or owned external data claimed."
+  }
+}

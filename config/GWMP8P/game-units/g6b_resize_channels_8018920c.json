@@ -1,0 +1,11 @@
+{
+  "unit": "g6b_resize_channels_8018920c",
+  "source": "source/matching/game/g6b/g6b_resize_channels_v2_8018920c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g6b_resize_channels_8018920c": "0x8018920c"
+  },
+  "descriptions": {
+    "g6b_resize_channels_8018920c": "When the requested channel count changes, obtains writable byte, triple-word and enable arrays, clears three auxiliary word/pair arrays, fills default triples and marks each channel enabled. Updates bit4 for an empty array. Observed32-byte array headers remain external views; no partial header or backing allocation is constructed locally. Names and channel semantics are inferred."
+  }
+}

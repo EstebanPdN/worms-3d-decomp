@@ -1,0 +1,15 @@
+{
+  "unit": "d30i_game_init_team_list_fill_80110c9c",
+  "source": "source/matching/game/d30i/d30i_game_init_team_list_fill_80110c9c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30i_game_init_team_list_fill_80110c9c": "0x80110c9c"
+  },
+  "descriptions": {
+    "d30i_game_init_team_list_fill_80110c9c": "Fills the four-column team list from GM.GameInitData: name, skill icon, worm count and team colour for each of up to four teams."
+  }
+}

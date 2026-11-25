@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_worm_start_announce_80073050",
+  "source": "source/matching/game/k5a/k5a_worm_start_announce_80073050.cpp",
+  "language": "cpp",
+  "functions": {"k5a_worm_start_announce_80073050": "0x80073050"},
+  "descriptions": {"k5a_worm_start_announce_80073050": "Appears to post the start-of-turn notification messages once, including the active worm team, then call a follow-up handler."}
+}

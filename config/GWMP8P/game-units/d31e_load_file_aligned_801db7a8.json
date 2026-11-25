@@ -1,0 +1,11 @@
+{
+  "unit": "d31e_load_file_aligned_801db7a8",
+  "source": "source/matching/game/d31e/d31e_load_file_aligned_801db7a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_load_file_aligned_801db7a8": "0x801db7a8"
+  },
+  "descriptions": {
+    "w3d_d31e_load_file_aligned_801db7a8": "Opens a disc file by name and reads it whole into a 32-byte aligned buffer filled first with 0xe0: from the audio heap at 0x804ab8b4 when the flag is set, otherwise from the general aligned allocator. On a read error frees the buffer and returns null without closing; on success closes the file and returns the buffer. Open, read and close signatures are read from the call sites; names are inferred."
+  }
+}

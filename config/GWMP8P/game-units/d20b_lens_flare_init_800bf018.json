@@ -1,0 +1,14 @@
+{
+  "unit": "d20b_lens_flare_init_800bf018",
+  "source": "source/matching/game/d20b/d20b_lens_flare_init_800bf018.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d20b_lens_flare_init_800bf018": "0x800bf018"
+  },
+  "descriptions": {
+    "d20b_lens_flare_init_800bf018": "Load the lens flare arrays resource (Lens.Flares in game mode 7, else FE.Lens.Flares) into +32 and read the style-selected (+60) flare settings into +36, keeping their parameters at +40; resize the arrays to 7 and copy the seven static corner UV pairs; reserve one entry per configured flare and copy its kind, size (both axes), a zero offset and its RGBA colour; subscribe to the cached flare message (slot +56); construct the flare handle (+28) at the origin with value 1.0, slot 0 and owner 1, set its layer from +20; set the timer (+48) to 0, the fade (+52) to 1.0 and the frame (+44) from the engine context; then unlock the arrays through virtual slot +88."
+  }
+}

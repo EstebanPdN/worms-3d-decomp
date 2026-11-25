@@ -1,0 +1,11 @@
+{
+  "unit": "mx15ob_flagged_label_802265a4",
+  "source": "source/matching/game/mx15ob/mx15ob_flagged_label_802265a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "__18Mx15obFlaggedLabelUs": "0x802265a4"
+  },
+  "descriptions": {
+    "__18Mx15obFlaggedLabelUs": "Constructs a flagged label: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the label table 0x8041a258, sets the kind word at +20 to 1, copy-constructs the name string at +24 from the shared empty string 0x804b06a0 (retaining it), and sets the enabled word at +28 to 1. Names and member meanings are inferred; offsets are observed."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d28l_menu_item_set_mode_802a2924",
+  "source": "source/matching/game/d28l/d28l_menu_item_set_mode_802a2924.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28l_menu_item_set_mode_802a2924": "0x802a2924"
+  },
+  "descriptions": {
+    "d28l_menu_item_set_mode_802a2924": "Changes a text menu item's mode and opens its on-screen text box when enabled."
+  }
+}

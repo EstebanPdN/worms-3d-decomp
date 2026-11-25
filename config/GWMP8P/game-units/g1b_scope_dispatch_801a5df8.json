@@ -1,0 +1,11 @@
+{
+  "unit": "g1b_scope_dispatch_801a5df8",
+  "source": "source/matching/game/g1b/g1b_scope_dispatch_v3_801a5df8.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1b_scope_dispatch_801a5df8": "0x801a5df8"
+  },
+  "descriptions": {
+    "g1b_scope_dispatch_801a5df8": "Invokes801a572c with the original secondary receiver and item; returns a negative result unchanged. On success, only a nonnull item callback with observed mode at40 equal1 enters a scoped dispatch. Copies the complete16-byte four-float value returned by owner slot64, using an inline three-float base copy plus final float, saves owner flags from slot60, sets bit8 through slot56, installs external original four-float value8045e62c through slot68 and sets active field84 to1. Dispatches the callback selected by unsigned16 index at6 through the observed secondary interface at owner+4, whose callback table is at24. Callback returns a status as corroborated by sibling801ad644; this function ignores that result. Restores saved vector, clears active and restores flags, then returns zero. The owner is the null-checked self-4 base view; all external objects remain partial and unconstructed locally. Local vector footprint16 and all float copy effects are independently witnessed by original loads/stores; no opaque local extent, owned data, padding or compiler flags are added. Names and vector semantics remain inferred."
+  }
+}

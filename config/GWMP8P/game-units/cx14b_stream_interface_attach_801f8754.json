@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_stream_interface_attach_801f8754",
+  "source": "source/matching/game/cx14b/cx14b_stream_interface_attach_801f8754.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_stream_interface_attach_801f8754": "0x801f8754"
+  },
+  "descriptions": {
+    "w3d_cx14b_stream_interface_attach_801f8754": "Retain an incoming stream interface, replace the held interface, validate it and release/clear it if validation fails."
+  }
+}

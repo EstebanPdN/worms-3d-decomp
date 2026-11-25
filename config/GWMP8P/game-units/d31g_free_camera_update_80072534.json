@@ -1,0 +1,14 @@
+{
+  "unit": "d31g_free_camera_update_80072534",
+  "source": "source/matching/game/d31g/d31g_free_camera_update_80072534.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31g_free_camera_update_80072534": "0x80072534"
+  },
+  "descriptions": {
+    "w3d_d31g_free_camera_update_80072534": "Free camera update: input word bits 27/26 turn yaw at rate +80, bits 24/25 turn pitch when 0x80178d1c on +92 is set; forward is (sin yaw, sin pitch, cos yaw), right is (-cos yaw, literal, sin yaw), up at +28 is their cross product; bits 28/29 and 31/30 move +4 along forward and right by +76 times dt, bits 24/25 along up when the mode is off; the look point at +16 is position plus forward."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

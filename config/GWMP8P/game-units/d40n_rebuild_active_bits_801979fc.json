@@ -1,0 +1,20 @@
+{
+  "unit": "d40n_rebuild_active_bits_801979fc",
+  "source": "source/matching/game/d40n/d40n_rebuild_active_bits_801979fc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "update__12D40nPlayback": "0x801979fc"
+  },
+  "descriptions": {
+    "update__12D40nPlayback": "Clears the bit vector, sets one bit per flagged sample of each enabled track, and clears the dirty flag."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

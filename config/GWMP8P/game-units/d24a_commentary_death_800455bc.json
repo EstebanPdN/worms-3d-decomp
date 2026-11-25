@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_commentary_death_800455bc",
+  "source": "source/matching/game/d24a/d24a_commentary_death_800455bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_commentary_death_800455bc": "0x800455bc"
+  },
+  "descriptions": {
+    "w3d_d24a_commentary_death_800455bc": "Counts the call in +256; when the commentary is enabled (+252) takes the name (+140) of the team record of the worm (0x800a830c, 0x800fc6dc), picks one of 39 Comment.LandDeath format strings from a random number modulo 39, formats the name into it (0x8020c510), plays the result (0x80043134) and notifies 0x80046228 with byte +213 of the team record."
+  }
+}

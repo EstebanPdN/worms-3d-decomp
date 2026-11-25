@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_trail_spawn_8012ad58",
+  "source": "source/matching/game/d24i/d24i_trail_spawn_8012ad58.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_trail_spawn_8012ad58": "0x8012ad58"
+  },
+  "descriptions": {
+    "d24i_trail_spawn_8012ad58": "Emit one trail particle when at least 2048 time units passed since the slot's stamp (table +328 indexed by cursor +936 + 100): stamps the slot with now (+940) - 200, opens the particle arrays of the buffer +928, writes the slot's random rotation (angle below 360 in radians), position (source x and z with height -0.5f) and colour 0x00ffffff, and wraps the cursor after 50 slots."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_layout_pair_rows_802c76e8",
+  "source": "source/matching/game/f1p/f1p_layout_pair_rows_802c76e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_layout_pair_rows_802c76e8": "0x802c76e8"
+  },
+  "descriptions": {
+    "w3d_layout_pair_rows_802c76e8": "Compute the observed edge width as (height/60)*7 with original float operation order, half-height and half-width. Construct the three native size vectors (edge,half-height,1), (half-width-2*edge,half-height,1), (edge,half-height,1) and three native position vectors (-half-width+edge,0,0), (half-width-edge,0,0) and zero. For each of two rows, pass the corresponding sizes to the six observed interface slots through virtual slot84 and positions through slot76, always with the original trailing zero argument. Preserve unchecked interface preconditions. Role/type names and the132-byte receiver prefix are inferred external views; six local vectors have the observed12-byte three-float storage, without invented reservations. Owns only the exact reproduced literal pool; no complete owner class, allocation or portable whole-program integration is claimed."
+  }
+}

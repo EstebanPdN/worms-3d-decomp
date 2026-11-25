@@ -1,0 +1,11 @@
+{
+  "unit": "auto_80015564",
+  "source": "source/matching/game/auto/auto_80015564.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80015564": "0x80015564"
+  },
+  "descriptions": {
+    "w3d_auto_80015564": "Automatically decompiled (m2c) and verified exact; behavior description pending review."
+  }
+}

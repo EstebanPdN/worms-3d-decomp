@@ -1,0 +1,15 @@
+{
+  "unit": "d32i_contour_walk_outline_8010bb1c",
+  "source": "source/matching/game/d32i/d32i_contour_walk_outline_8010bb1c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d32i_contour_walk_outline_8010bb1c": "0x8010bb1c"
+  },
+  "descriptions": {
+    "d32i_contour_walk_outline_8010bb1c": "Marching squares contour walk over a 9 by 9 mark grid: resets the marks and scan counters, gets each contour start, and follows the cell cases until it returns to the start or leaves the grid, emitting a segment for each cell."
+  }
+}

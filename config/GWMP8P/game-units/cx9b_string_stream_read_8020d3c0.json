@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_string_stream_read_8020d3c0",
+  "source": "source/matching/game/cx9b/cx9b_string_stream_read_8020d3c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_string_stream_read_8020d3c0": "0x8020d3c0"
+  },
+  "descriptions": {
+    "w3d_cx9b_string_stream_read_8020d3c0": "Copy the available bounded string bytes, optionally report the amount copied, and advance the stream position."
+  }
+}

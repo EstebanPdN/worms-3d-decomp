@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cr_802e1b08",
+  "source": "source/matching/game/s21/s21_cr_802e1b08.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_apply_802e1b08": "0x802e1b08"
+  },
+  "descriptions": {
+    "w3d_s21_apply_802e1b08": "Appears to apply stored position and size values to the linked surface through helpers when active and a descriptor is valid, returning the descriptor's handle or minus one."
+  }
+}

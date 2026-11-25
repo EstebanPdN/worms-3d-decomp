@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_girder_start_80094e08",
+  "source": "source/matching/game/d24b/d24b_girder_start_80094e08.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_girder_start_80094e08": "0x80094e08"
+  },
+  "descriptions": {
+    "w3d_d24b_girder_start_80094e08": "Girder placement start: selects the UtilityGirder slot (0x800a7e14), reads Girder.Position, Girder.Velocity and Girder.TotalNumberPlaced into +724, +728, +736, retains Girder.Camera.Occlude (cast 0x803426b4) in +752 and updates it (0x80178c54), reads Water.Level and Land.InitialMaxHeight into +756, +760, creates the handle in +764 (0x801261bc, 0x80126308), fills the corner and marker point table at +348, subscribes (0x80162024) to 26 cached message ids with handlers +64 to +164, posts the created message (0x800c1620), reads Weapon.Girder.MaxDistance into +344, runs 0x80095450 and 0x80095b58, releases the handle and clears +684."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

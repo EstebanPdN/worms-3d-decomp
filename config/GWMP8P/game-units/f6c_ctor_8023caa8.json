@@ -1,0 +1,11 @@
+{
+  "unit": "f6c_ctor_8023caa8",
+  "source": "source/matching/game/f6c/f6c_ctor_8023caa8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6c_ctor_8023caa8": "0x8023caa8"
+  },
+  "descriptions": {
+    "f6c_ctor_8023caa8": "Initialize the observed base/vtable, copy a referenced64-byte matrix, initialize eleven inferred Vec3 records and five scalar floats, construct two shared strings, and clear trailing fields. Names, roles, types and padding inferred; referenced matrix/string data remain externally owned."
+  }
+}

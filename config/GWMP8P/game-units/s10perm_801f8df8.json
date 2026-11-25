@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801f8df8",
+  "source": "source/matching/game/perm/s10perm_801f8df8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801f8df8": "0x801f8df8"
+  },
+  "descriptions": {
+    "w3d_auto_801f8df8": "Advances a 64-byte record cursor and returns zero when it reaches the observed range end."
+  }
+}

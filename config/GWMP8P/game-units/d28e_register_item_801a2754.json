@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_register_item_801a2754",
+  "source": "source/matching/game/d28e/d28e_register_item_801a2754.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_register_item_801a2754": "0x801a2754"
+  },
+  "descriptions": {
+    "w3d_d28e_register_item_801a2754": "Register an item in two parallel pointer vectors at +36 and +60. When the object's kind field is 3 both vectors are resized to the global table size at 0x804b18d8, the item is stored at its index in the first and zero in the second; the special object at 0x80365094 instead calls 0x801a2d68 with one entry."
+  }
+}

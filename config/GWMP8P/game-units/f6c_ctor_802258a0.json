@@ -1,0 +1,11 @@
+{
+  "unit": "f6c_ctor_802258a0",
+  "source": "source/matching/game/f6c/f6c_ctor_802258a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6c_ctor_802258a0": "0x802258a0"
+  },
+  "descriptions": {
+    "f6c_ctor_802258a0": "Initialize an observed base and vtable, retain the shared service, initialize five one-pointer shared strings from the witnessed default string, and clear the trailing word. Names, types, layouts and service/string roles inferred; the sixteen owner bytes after its vtable are unknown."
+  }
+}

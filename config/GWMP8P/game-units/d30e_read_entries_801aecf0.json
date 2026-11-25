@@ -1,0 +1,19 @@
+{
+  "unit": "d30e_read_entries_801aecf0",
+  "source": "source/matching/game/d30e/d30e_read_entries_801aecf0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d30e_read_entries_801aecf0": "0x801aecf0"
+  },
+  "descriptions": {
+    "w3d_d30e_read_entries_801aecf0": "Reads the entry list from a reader: gets the count through slot 40, reserves the vector at +20, then for each entry reads its identifier (Type), object (Graph) and name (Name) through slots 36, 6 and 35 and appends it with unmodified STLport push_back. Returns the last result; a failure stops at once. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

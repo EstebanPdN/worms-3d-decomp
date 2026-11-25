@@ -1,0 +1,45 @@
+typedef struct S12HeldInterface S12HeldInterface;
+typedef struct S12HeldMethods { void (*reserved[3])(void); void (*retain)(S12HeldInterface *); } S12HeldMethods;
+struct S12HeldInterface { S12HeldMethods *methods; };
+typedef struct S12RetainedMembers {
+    void *vtable;
+    char reserved_0004[16];
+    S12HeldInterface *member_0014;
+    S12HeldInterface *member_0018;
+    S12HeldInterface *member_001c;
+    S12HeldInterface *member_0020;
+    S12HeldInterface *member_0024;
+    S12HeldInterface *member_0028;
+    S12HeldInterface *member_002c;
+} S12RetainedMembers;
+extern S12HeldInterface *lbl_804b05a8;
+extern char lbl_80414d08[];
+extern void * fn_801ea0ec(S12RetainedMembers *, int);
+S12RetainedMembers *w3d_s12_initialize_interfaces_801c2bf8(S12RetainedMembers *object, void * arg_r4)
+{
+    S12HeldInterface *initial;
+    fn_801ea0ec(object, arg_r4);
+    initial = lbl_804b05a8;
+    object->vtable = lbl_80414d08;
+    object->member_0014 = initial;
+    if (initial) initial->methods->retain(initial);
+    initial = lbl_804b05a8;
+    object->member_0018 = initial;
+    if (initial) initial->methods->retain(initial);
+    initial = lbl_804b05a8;
+    object->member_001c = initial;
+    if (initial) initial->methods->retain(initial);
+    initial = lbl_804b05a8;
+    object->member_0020 = initial;
+    if (initial) initial->methods->retain(initial);
+    initial = lbl_804b05a8;
+    object->member_0024 = initial;
+    if (initial) initial->methods->retain(initial);
+    initial = lbl_804b05a8;
+    object->member_0028 = initial;
+    if (initial) initial->methods->retain(initial);
+    initial = lbl_804b05a8;
+    object->member_002c = initial;
+    if (initial) initial->methods->retain(initial);
+    return object;
+}

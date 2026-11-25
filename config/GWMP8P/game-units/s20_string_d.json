@@ -1,0 +1,11 @@
+{
+  "unit": "s20_string_d",
+  "source": "source/matching/game/s20/s20_string_d.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_set_name_801790bc": "0x801790bc"
+  },
+  "descriptions": {
+    "w3d_s20_set_name_801790bc": "Appears to compare a name with the string at offset 28 of the inner object and, when different, replace it with a shared copy and notify."
+  }
+}

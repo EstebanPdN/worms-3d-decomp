@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_dispatch_with_stack_801ae624",
+  "source": "source/matching/game/d24e/d24e_dispatch_with_stack_801ae624.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_dispatch_with_stack_801ae624": "0x801ae624"
+  },
+  "descriptions": {
+    "w3d_d24e_dispatch_with_stack_801ae624": "Pushes a node on the owner's stack at +48, dispatches through 0x801a3944, then pops it."
+  }
+}

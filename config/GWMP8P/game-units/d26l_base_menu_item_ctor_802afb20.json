@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_base_menu_item_ctor_802afb20",
+  "source": "source/matching/game/d26l/d26l_base_menu_item_ctor_802afb20.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_base_menu_item_ctor_802afb20": "0x802afb20"
+  },
+  "descriptions": {
+    "d26l_base_menu_item_ctor_802afb20": "Clears the word table at +8..+76, stores vtable 0x8041c610 at +180 and constructs the string at +80 (0x803426b8). Clears the remaining words, sets +112 and +128 to 1, +136, +140 and +172 to 0.0 and +144 to -0.005. Reads property BaseMenuItem.RefCount into +176 through 0x800fc1b0, runs 0x802aff04 on the object and returns it. Owns the name string and two float literals in .rodata."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "cc17a_publish_color_80043e38",
+  "source": "source/matching/game/cc17a/cc17a_publish_color_80043e38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17a_publish_color_80043e38": "0x80043e38"
+  },
+  "descriptions": {
+    "w3d_cc17a_publish_color_80043e38": "Advance expired timing state, resolve the held HUD target, convert four scaled color components to bytes and publish them with the original property key."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d27e_apply_attributes_801a2bf4",
+  "source": "source/matching/game/d27e/d27e_apply_attributes_801a2bf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27e_apply_attributes_801a2bf4": "0x801a2bf4"
+  },
+  "descriptions": {
+    "w3d_d27e_apply_attributes_801a2bf4": "Applies a list of render attributes: each enabled attribute whose slot differs from the current one, or which is dirty, has its dirty flag cleared, is passed to the visitor's handler for its kind and recorded as current; then every slot not in the list falls back to its default in the same way. Names are inferred from the data flow."
+  }
+}

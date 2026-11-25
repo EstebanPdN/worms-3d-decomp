@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_800bcd6c",
+  "source": "source/matching/game/generated/genparamc_800bcd6c.c",
+  "language": "c",
+  "functions": {
+    "w3d_collect_selected_800bcd6c": "0x800bcd6c",
+    "w3d_collect_selected_800bd8a0": "0x800bd8a0"
+  },
+  "descriptions": {
+    "w3d_collect_selected_800bcd6c": "Walks the global object list with a rolling bit mask over a flag array; for each selected object, fills the next 12-byte output record.",
+    "w3d_collect_selected_800bd8a0": "Walks the global object list with a rolling bit mask over a flag array; for each selected object, fills the next 12-byte output record."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s5_name_queue",
+  "source": "source/matching/game/s5_name_queue.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_name_queue_append_800c467c": "0x800c467c"
+  },
+  "descriptions": {
+    "w3d_name_queue_append_800c467c": "Copies a bounded 33-byte name and appends it to a growing queue."
+  }
+}

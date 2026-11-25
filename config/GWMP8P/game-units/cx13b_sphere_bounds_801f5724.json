@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_sphere_bounds_801f5724",
+  "source": "source/matching/game/cx13b/cx13b_sphere_bounds_801f5724.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_sphere_bounds_801f5724": "0x801f5724"
+  },
+  "descriptions": {
+    "w3d_cx13b_sphere_bounds_801f5724": "Produce the observed empty bounds for a negative-radius sphere, otherwise write center-minus/plus-radius bounds."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "h1_stlport_vector_owners",
+  "source": "source/matching/game/h1/h1_stlport_vector_owners.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_vec4_tables_destroy_8035a244": "0x8035a244",
+    "w3d_row_table_destroy_8034be70": "0x8034be70",
+    "w3d_list_holder_clear_8034aef4": "0x8034aef4"
+  },
+  "descriptions": {
+    "w3d_vec4_tables_destroy_8035a244": "Deleting destructor of a record with four int vectors: frees each vector's storage in reverse order, then the record when flag bit 0 is set.",
+    "w3d_row_table_destroy_8034be70": "Deleting destructor of a row table: frees the extra vector, destroys every row (freeing its cells), frees the row storage, then the table when flag bit 0 is set.",
+    "w3d_list_holder_clear_8034aef4": "Deletes the holder's int list and pair list (destroying their elements and storage) and clears both pointers."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_text_after_marker_80039f24",
+  "source": "source/matching/game/k10a/k10a_text_after_marker_80039f24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_text_after_marker_80039f24": "0x80039f24"
+  },
+  "descriptions": {
+    "w3d_k10a_text_after_marker_80039f24": "Appears to copy the text following a marker found in a source string, with the marker chosen by the object's mode."
+  }
+}

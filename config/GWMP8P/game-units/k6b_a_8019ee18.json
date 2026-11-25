@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8019ee18",
+  "source": "source/matching/game/k6b/k6b_a_8019ee18.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_iface_array_get_8019ee18": "0x8019ee18"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_iface_array_get_8019ee18": "Appears to be a Lua binding returning element n of an interface array field of a userdata object as a new retained userdata with the registry metatable."
+  }
+}

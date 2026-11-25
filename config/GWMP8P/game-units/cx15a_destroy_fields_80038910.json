@@ -1,0 +1,11 @@
+{
+  "unit": "cx15a_destroy_fields_80038910",
+  "source": "source/matching/game/cx15a/cx15a_destroy_fields_80038910.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_destroy_fields_80038910": "0x80038910"
+  },
+  "descriptions": {
+    "w3d_cx15a_destroy_fields_80038910": "Release seven held interfaces, destroy three shared strings and a final interface, then forward destruction flags to the base service."
+  }
+}

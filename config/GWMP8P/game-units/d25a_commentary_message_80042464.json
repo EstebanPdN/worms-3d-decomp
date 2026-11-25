@@ -1,0 +1,11 @@
+{
+  "unit": "d25a_commentary_message_80042464",
+  "source": "source/matching/game/d25a/d25a_commentary_message_80042464.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25a_commentary_message_80042464": "0x80042464"
+  },
+  "descriptions": {
+    "w3d_d25a_commentary_message_80042464": "Commentary message handler: base handling for message 64, panel show and hide, named comments with optional delay, message text, queue clear, commentary switch, and dispatch of the remaining ids to their handlers."
+  }
+}

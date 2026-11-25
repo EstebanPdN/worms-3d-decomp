@@ -1,0 +1,11 @@
+{
+  "unit": "sol11a_select_team_801560d8",
+  "source": "source/matching/game/sol11a/sol11a_select_team_801560d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11a_select_team_801560d8": "0x801560d8"
+  },
+  "descriptions": {
+    "sol11a_select_team_801560d8": "Searches team slots zero through fifteen for an active team whose owner has no blocking word, and writes its owner byte to the selected value; zero is used if no team qualifies."
+  }
+}

@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_small_ah.c
+w3d_s20_construct_three_vectors_800e7c78|0x800e7c78|Appears to construct a header object storing an id, two ints, a vtable pointer and three copied 12-byte vectors, and return the object.
+w3d_s20_release_held_800f34a0|0x800f34a0|Appears to clear an int field, call virtual method 4 on the held object if present and clear the held object pointer.

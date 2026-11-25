@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ab_802047ac",
+  "source": "source/matching/game/s21/s21_ab_802047ac.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_write_802047ac": "0x802047ac"
+  },
+  "descriptions": {
+    "w3d_s21_forward_write_802047ac": "Appears to forward its two arguments to a virtual slot of the inner stream object with a trailing zero."
+  }
+}

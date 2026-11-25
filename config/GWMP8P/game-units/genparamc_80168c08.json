@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_80168c08",
+  "source": "source/matching/game/generated/genparamc_80168c08.c",
+  "language": "c",
+  "functions": {
+    "w3d_dispatch_by_kind_80168c08": "0x80168c08",
+    "w3d_dispatch_by_kind_801ac49c": "0x801ac49c"
+  },
+  "descriptions": {
+    "w3d_dispatch_by_kind_80168c08": "Adjusts a secondary-base pointer, forwards the message to a virtual handler, then dispatches it through the handler table indexed by a kind field of its target.",
+    "w3d_dispatch_by_kind_801ac49c": "Adjusts a secondary-base pointer, forwards the message to a virtual handler, then dispatches it through the handler table indexed by a kind field of its target."
+  }
+}

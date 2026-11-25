@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_shared_rebind_801a1d90",
+  "source": "source/matching/game/cx16b/cx16b_shared_rebind_801a1d90.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_shared_rebind_801a1d90": "0x801a1d90"
+  },
+  "descriptions": {
+    "w3d_cx16b_shared_rebind_801a1d90": "Retains and installs the replacement of the original far-address shared object and notifies the global linked list; preserves the original source pointer across callbacks."
+  }
+}

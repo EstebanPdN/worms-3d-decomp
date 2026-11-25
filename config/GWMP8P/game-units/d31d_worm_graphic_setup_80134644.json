@@ -1,0 +1,11 @@
+{
+  "unit": "d31d_worm_graphic_setup_80134644",
+  "source": "source/matching/game/d31d/d31d_worm_graphic_setup_80134644.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31d_worm_graphic_setup_80134644": "0x80134644"
+  },
+  "descriptions": {
+    "w3d_d31d_worm_graphic_setup_80134644": "Worm graphic setup. Subscribes the worm to its 70 message ids, binds its named resources and clips, loads the three body parts in a loop, plays the start animation, creates the health pot and applies team, text and health, then attaches the hat or sets the armed state, and finishes the fields the rest of the worm code reads."
+  }
+}

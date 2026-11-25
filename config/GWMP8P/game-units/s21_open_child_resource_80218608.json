@@ -1,0 +1,11 @@
+{
+  "unit": "s21_open_child_resource_80218608",
+  "source": "source/matching/game/s21/s21_open_child_resource.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_open_child_resource_80218608": "0x80218608"
+  },
+  "descriptions": {
+    "w3d_s21_open_child_resource_80218608": "Appears to build a child resource path, create a stream for it and return it through the output pointer."
+  }
+}

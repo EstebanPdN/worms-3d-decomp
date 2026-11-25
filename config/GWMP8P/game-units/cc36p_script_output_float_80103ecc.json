@@ -1,0 +1,11 @@
+{
+  "unit": "cc36p_script_output_float_80103ecc",
+  "source": "source/matching/game/cc36p/cc36p_script_output_float_80103ecc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc36p_script_output_float_80103ecc": "0x80103ecc"
+  },
+  "descriptions": {
+    "cc36p_script_output_float_80103ecc": "Concatenate Lua Print arguments into the shared output string, format numeric values through the original float lua_Number return with default varargs promotion, preserve reference-header retain/release and original string/error callbacks, then restore the original stack extent. Original lfs return in lua_tonumber802cdc5c and LUA_NUMBER=float witness the corrected prototype. Replaces only the unadmitted held cc39a double-return draft; all original artifacts retained. Partial runtime/string views do not establish original full declarations or sizeof. Runtime empty-string and format/error objects remain external and unowned."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f4a_deque_destroy_80353930",
+  "source": "source/matching/game/f4a/f4a_deque_destroy_80353930.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f4a_deque_destroy_80353930": "0x80353930"
+  },
+  "descriptions": {
+    "w3d_f4a_deque_destroy_80353930": "Copy inferred deque range iterators through trivial cleanup helpers, destroy the base with flag 2, and conditionally free storage."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_scene_message_80159698",
+  "source": "source/matching/game/d24d/d24d_scene_message_80159698.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_scene_message_80159698": "0x80159698"
+  },
+  "descriptions": {
+    "d24d_scene_message_80159698": "Scene message handler: 64 runs the base handler then the scene start, 66 stops the scene, cached ids reset the scene, post the announcements or set the enabled flags, and everything else ends in the base handler 0x8015fb34."
+  }
+}

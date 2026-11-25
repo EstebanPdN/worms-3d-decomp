@@ -1,0 +1,13 @@
+{
+  "unit": "s20_small_e",
+  "source": "source/matching/game/s20/s20_small_e.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_construct_counted_80174b38": "0x80174b38",
+    "w3d_s20_destruct_counted_80174b80": "0x80174b80"
+  },
+  "descriptions": {
+    "w3d_s20_construct_counted_80174b38": "Appears to run a base constructor, install a vtable pointer, increment a global instance count and return this.",
+    "w3d_s20_destruct_counted_80174b80": "Appears to install a vtable pointer, decrement a global instance count and forward to a base destructor."
+  }
+}

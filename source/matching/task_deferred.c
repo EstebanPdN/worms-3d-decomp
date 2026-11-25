@@ -1,0 +1,43 @@
+/* Native reference-array cleanup, used for deferred actor releases.
+ * The array allocation has an eight-byte prefix; its first word supplies the
+ * destructor count independently of the container's logical count.
+ */
+#ifdef __cplusplus
+extern "C" {
+#endif
+typedef unsigned int RefWord;
+typedef struct DeferredObject DeferredObject;
+typedef struct DeferredMethods {
+    void *unknown_00[4];
+    void (*release)(DeferredObject *);
+} DeferredMethods;
+struct DeferredObject { DeferredMethods *methods; };
+typedef struct DeferredReferences {
+    RefWord count;
+    unsigned short flags, inline_capacity;
+    DeferredObject **objects;
+} DeferredReferences;
+extern void w3d_task_array_release(void *);
+
+void w3d_task_deferred_clear(DeferredReferences *references)
+{
+    DeferredObject **objects = references->objects;
+    if (objects != 0) {
+        DeferredObject **end = objects + ((RefWord *)objects)[-2];
+        if (objects != end) {
+            do {
+                DeferredObject *object = *--end;
+                if (object != 0)
+                    object->methods->release(object);
+            } while (references->objects != end);
+        }
+        w3d_task_array_release((unsigned char *)references->objects - 8);
+    }
+    references->objects = 0;
+    references->count = 0;
+    references->inline_capacity = 4;
+    references->flags = 0;
+}
+#ifdef __cplusplus
+}
+#endif

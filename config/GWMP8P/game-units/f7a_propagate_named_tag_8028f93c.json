@@ -1,0 +1,11 @@
+{
+  "unit": "f7a_propagate_named_tag_8028f93c",
+  "language": "cpp",
+  "source": "source/matching/game/f7a/f7a_propagate_named_tag_8028f93c.cpp",
+  "functions": {
+    "w3d_f7a_propagate_named_tag_8028f93c": "0x8028f93c"
+  },
+  "descriptions": {
+    "w3d_f7a_propagate_named_tag_8028f93c": "Look up the supplied name through the observed retained interface, build the dynamic tag descriptor and propagate the tag to a nonnull target, releasing temporary handles. Layouts and semantic roles inferred; name uses the observed addressable pointer ABI."
+  }
+}

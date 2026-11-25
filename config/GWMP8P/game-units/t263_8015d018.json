@@ -1,0 +1,1 @@
+{"unit":"t263_8015d018","source":"source/matching/game/t263/t263_8015d018.cpp","language":"cpp","functions":{"t263_history_record_8015d018":"0x8015d018"},"descriptions":{"t263_history_record_8015d018":"Replaces a circular sample, updates integer and floating totals, advances the index, and records the current counter."}}

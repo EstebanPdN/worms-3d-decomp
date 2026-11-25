@@ -1,0 +1,14 @@
+{
+  "unit": "cx11a_random_pair_800dce48",
+  "source": "source/matching/game/cx11a/cx11a_random_pair_800dce48.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_random_pair_800dce48": "0x800dce48"
+  },
+  "descriptions": {
+    "w3d_cx11a_random_pair_800dce48": "Randomizes an observed float pair, reusing the first deviation for negative second range and optionally scaling both outputs. Names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

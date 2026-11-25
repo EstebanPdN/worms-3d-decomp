@@ -1,0 +1,13 @@
+{
+  "unit": "s20_ctor_b",
+  "source": "source/matching/game/s20/s20_ctor_b.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_construct_header_8016f2d8": "0x8016f2d8",
+    "w3d_s20_construct_header_8019e5b0": "0x8019e5b0"
+  },
+  "descriptions": {
+    "w3d_s20_construct_header_8016f2d8": "Appears to install vtables around a small flagged header and zero extra 16-bit and 32-bit fields, returning this.",
+    "w3d_s20_construct_header_8019e5b0": "Appears to install vtables around a small flagged header and zero one extra word at offset 24, returning this."
+  }
+}

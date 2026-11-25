@@ -1,0 +1,12 @@
+{
+  "unit": "d31k_handle_table_free_8034b494",
+  "source": "source/matching/game/d31k/d31k_handle_table_free_8034b494.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d31k_handle_table_free_8034b494": "0x8034b494"
+  },
+  "descriptions": {
+    "w3d_d31k_handle_table_free_8034b494": "Frees a handle table entry and its children, returns the slot to a free list and notifies the object."
+  }
+}

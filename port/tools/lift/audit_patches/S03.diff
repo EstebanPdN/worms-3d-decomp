@@ -1,0 +1,11 @@
+--- a/port/core/game/d41n/d41n_buffer_manager_load_stream_80191130.cpp
++++ b/port/core/game/d41n/d41n_buffer_manager_load_stream_80191130.cpp
+@@ -45,7 +45,7 @@
+     void set(unsigned short n, Ptr32<Stage> p) { stages = p; size = n; } };
+ struct Elem {
+     void set(unsigned a3, unsigned a2, unsigned a1, unsigned ac, unsigned ab) { f0 = 1; f3 = a3; f2 = a2; f1 = a1; c = ac; b = ab; }
+-    unsigned short d:6; unsigned short c:3; unsigned short b:3; unsigned short f3:1; unsigned short f2:1; unsigned short f1:1; unsigned short f0:1; unsigned short w;
++    unsigned short w; /* palabra PPC: bits y luego índice; el índice es la mitad baja del anfitrión */ unsigned short d:6; unsigned short c:3; unsigned short b:3; unsigned short f3:1; unsigned short f2:1; unsigned short f1:1; unsigned short f0:1;
+     Inner inner;
+     ~Elem() {}
+ };

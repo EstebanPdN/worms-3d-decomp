@@ -1,0 +1,18 @@
+{
+  "unit": "d30c_input_post_string_800f985c",
+  "source": "source/matching/game/d30c/d30c_input_post_string_800f985c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25c",
+    "source/matching/game/d24f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30c_input_post_string_800f985c": "0x800f985c"
+  },
+  "descriptions": {
+    "d30c_input_post_string_800f985c": "Queues a string input record on the menu or game queue and processes it."
+  }
+}

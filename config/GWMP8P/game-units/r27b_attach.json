@@ -1,0 +1,14 @@
+{
+  "unit": "r27b_attach",
+  "source": "source/matching/game/r27b/r27b_attach.cpp",
+  "language": "cpp",
+  "functions": {
+    "r27b_attach_801f3044": "0x801f3044"
+  },
+  "descriptions": {
+    "r27b_attach_801f3044": "Retain a new interface, release the old one, and clear the high flag."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

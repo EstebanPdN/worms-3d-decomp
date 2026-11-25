@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_owner_bind_service_800beac8",
+  "source": "source/matching/game/k4a/k4a_owner_bind_service_800beac8.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_owner_bind_service_800beac8": "0x800beac8"
+  },
+  "descriptions": {
+    "k4a_owner_bind_service_800beac8": "Appears to fetch a service interface, pass it to an owner, replace the globally held interface with it (retain new, release old) and return 0."
+  }
+}

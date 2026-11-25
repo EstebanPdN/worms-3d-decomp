@@ -1,0 +1,11 @@
+{
+  "unit": "s19_message_80048734",
+  "source": "source/matching/game/s19/s19_message_80048734.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_message_80048734": "0x80048734"
+  },
+  "descriptions": {
+    "s19_handle_message_80048734": "Appears to handle messages 64 and 66 and four cached message ids by dispatching to setup and state helpers, otherwise forward to the base handler."
+  }
+}

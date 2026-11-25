@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_selected_score_800113b0",
+  "source": "source/matching/game/cx14a/cx14a_selected_score_800113b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_selected_score_800113b0": "0x800113b0"
+  },
+  "descriptions": {
+    "w3d_cx14a_selected_score_800113b0": "Accumulates the original floating score for the selected actor when valid and for the owner-selected actor, preserving signed actor-value conversion and byte-displacement registry indexing."
+  }
+}

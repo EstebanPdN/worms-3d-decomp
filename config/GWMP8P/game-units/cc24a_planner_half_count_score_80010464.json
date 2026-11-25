@@ -1,0 +1,11 @@
+{
+  "unit": "cc24a_planner_half_count_score_80010464",
+  "source": "source/matching/game/cc24a/cc24a_planner_half_count_score_80010464.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_half_count_score_80010464": "0x80010464"
+  },
+  "descriptions": {
+    "cc24a_planner_half_count_score_80010464": "Reset score, accumulate weighted cost using signed owner count divided by two toward zero, then apply exposure and flagged multipliers."
+  }
+}

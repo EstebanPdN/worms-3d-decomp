@@ -1,0 +1,11 @@
+{
+  "unit": "f5b_transformed_bounds_800b7ed0",
+  "source": "source/matching/game/f5b/f5b_transformed_bounds_800b7ed0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_transformed_bounds_800b7ed0": "0x800b7ed0"
+  },
+  "descriptions": {
+    "f5b_transformed_bounds_800b7ed0": "Construct eight corners from the two observed bounds relative to the observed origin, transform each through the three basis vectors and translation, and extend the output component minima and maxima. The corner construction, empty default-constructor loop and all624 original code bytes are reproduced; all geometric names and layout roles remain inferred."
+  }
+}

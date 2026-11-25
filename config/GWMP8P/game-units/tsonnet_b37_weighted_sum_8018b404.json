@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_b37_weighted_sum_8018b404",
+  "source": "source/matching/game/tsonnet_b37_weighted_sum_8018b404.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b37_weighted_sum_8018b404": "0x8018b404"
+  },
+  "descriptions": {
+    "tsonnet_b37_weighted_sum_8018b404": "Sums values over a zero-terminated list of 16-bit keys: a helper on the object maps each key to a 16-bit entry, entries whose top nibble is 0xf are skipped, and for the others the high byte selects a row and the low byte a float in that row's block, divided by a scale read through two pointers and added to a total that starts at a global float. Field meanings are inferred. The unused volatile frame reservation is a matching device. The helper's behavior and the global's value have not been tested."
+  }
+}

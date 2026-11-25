@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_8009fd54",
+  "source": "source/matching/game/s8family_8009fd54.c",
+  "language": "c",
+  "functions": {
+    "s8_initialize_8009fd54": "0x8009fd54"
+  },
+  "descriptions": {
+    "s8_initialize_8009fd54": "Initializes cached lookup offsets and registers payload mesh and aimed-weapon messages at static initialization priority 0xffff."
+  }
+}

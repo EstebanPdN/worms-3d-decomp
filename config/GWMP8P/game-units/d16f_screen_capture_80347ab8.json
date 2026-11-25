@@ -1,0 +1,19 @@
+{
+  "unit": "d16f_screen_capture_80347ab8",
+  "source": "source/matching/game/d16f/d16f_screen_capture_80347ab8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d16f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d16f_screen_capture_a_80347ab8": "0x80347ab8",
+    "d16f_screen_capture_b_80348f2c": "0x80348f2c"
+  },
+  "descriptions": {
+    "d16f_screen_capture_a_80347ab8": "Captures the first controller's rendered frame into a retained surface sized to the renderer, then writes it as a bitmap: to the given path, or to the first unused Screen%03d.bmp name found by probing the file system with a persistent counter; returns the open error or 0.",
+    "d16f_screen_capture_b_80348f2c": "Captures the second controller's rendered frame into a retained surface sized to the renderer, then writes it as a bitmap: to the given path, or to the first unused Screen%03d.bmp name found by probing the file system with its own persistent counter; returns the open error or 0."
+  }
+}

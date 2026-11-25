@@ -1,0 +1,15 @@
+{
+  "unit": "d40m_mesh_slots_clear_800c04a4",
+  "source": "source/matching/game/d40m/d40m_mesh_slots_clear_800c04a4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40m"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d40m_mesh_slots_clear_800c04a4": "0x800c04a4"
+  },
+  "descriptions": {
+    "d40m_mesh_slots_clear_800c04a4": "Resets every mesh slot, releasing its instance and mesh and telling the renderer to drop the slot's named resource, then empties the slot and word vectors."
+  }
+}

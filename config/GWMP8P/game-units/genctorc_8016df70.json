@@ -1,0 +1,19 @@
+{
+  "unit": "genctorc_8016df70",
+  "source": "source/matching/game/generated/genctorc_8016df70.c",
+  "language": "c",
+  "functions": {
+    "w3d_construct_8016df70": "0x8016df70",
+    "w3d_construct_8017892c": "0x8017892c",
+    "w3d_construct_801cbf98": "0x801cbf98",
+    "w3d_construct_801f2678": "0x801f2678",
+    "w3d_construct_802109dc": "0x802109dc"
+  },
+  "descriptions": {
+    "w3d_construct_8016df70": "Constructor: makes 0 base/member constructor call(s) on the object, stores 0 vtable or address field(s) and 4 constant field(s); returns the object.",
+    "w3d_construct_8017892c": "Constructor: makes 0 base/member constructor call(s) on the object, stores 1 vtable or address field(s) and 4 constant field(s); returns the object.",
+    "w3d_construct_801cbf98": "Constructor: makes 1 base/member constructor call(s) on the object, stores 1 vtable or address field(s) and 7 constant field(s); returns the object.",
+    "w3d_construct_801f2678": "Constructor: makes 0 base/member constructor call(s) on the object, stores 0 vtable or address field(s) and 4 constant field(s); returns the object.",
+    "w3d_construct_802109dc": "Constructor: makes 0 base/member constructor call(s) on the object, stores 0 vtable or address field(s) and 4 constant field(s); returns the object."
+  }
+}

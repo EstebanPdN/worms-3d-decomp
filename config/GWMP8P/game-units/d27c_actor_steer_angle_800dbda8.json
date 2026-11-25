@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_actor_steer_angle_800dbda8",
+  "source": "source/matching/game/d27c/d27c_actor_steer_angle_800dbda8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_actor_steer_angle_800dbda8": "0x800dbda8"
+  },
+  "descriptions": {
+    "d27c_actor_steer_angle_800dbda8": "Compute a signed steering amount from horizontal velocity and facing."
+  }
+}

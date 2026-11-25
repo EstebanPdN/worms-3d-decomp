@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ah_801eb0b0",
+  "source": "source/matching/game/s21/s21_ah_801eb0b0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_query_flags_801eb0b0": "0x801eb0b0"
+  },
+  "descriptions": {
+    "w3d_s21_query_flags_801eb0b0": "Appears to return one when the first object's flag byte has bit 4 or 32 set, else the result of a virtual slot called with this."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_team_panel_update_8021c48c",
+  "source": "source/matching/game/d26k/d26k_team_panel_update_8021c48c.c",
+  "language": "c",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_team_panel_update_8021c48c": "0x8021c48c"
+  },
+  "descriptions": {
+    "w3d_d26k_team_panel_update_8021c48c": "When the panel is active and CurrentTeamIndex is set, enters the app state (0x80129878) and posts a value-1 message inside the 2999 tick window with a non-negative start time, and otherwise leaves it (0x801298cc) and posts value 0, tracking the state in 0x804abab4."
+  }
+}

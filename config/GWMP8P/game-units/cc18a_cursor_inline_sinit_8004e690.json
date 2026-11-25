@@ -1,0 +1,11 @@
+{
+  "unit": "cc18a_cursor_inline_sinit_8004e690",
+  "source": "source/matching/game/cc18a/cc18a_cursor_inline_sinit_8004e690.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18a_cursor_inline_sinit_8004e690": "0x8004e690"
+  },
+  "descriptions": {
+    "w3d_cc18a_cursor_inline_sinit_8004e690": "Constructs six observed cursor message-name caches, sets twelve RGBA storage bytes and constructs the cursor-graphic type descriptor."
+  }
+}

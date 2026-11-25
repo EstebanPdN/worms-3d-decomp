@@ -1,0 +1,15 @@
+{
+  "unit": "tsonnet_b37_open_arrays_80189574",
+  "source": "source/matching/game/tsonnet_b37_open_arrays_80189574.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b37_open_80189574": "0x80189574",
+    "tsonnet_b37_open_8018963c": "0x8018963c",
+    "tsonnet_b37_open_80189760": "0x80189760"
+  },
+  "descriptions": {
+    "tsonnet_b37_open_80189574": "Opens the array reference at +88 of a nested record for writing without growing it (element unit 4) and returns its data; when that array held no elements it reopens the same reference with the element count of the array at +96, or returns null if that is also empty. Locks an unshared store of the right size in place, otherwise calls the original reserve helper. Field meanings are inferred; the helper has not been tested.",
+    "tsonnet_b37_open_8018963c": "Same operation as the +88 variant on the array reference at +68, with element unit 8 (fallback length from the array at +96). Field meanings are inferred; the helper has not been tested.",
+    "tsonnet_b37_open_80189760": "Same operation as the +88 variant on the array reference at +84, with element unit 4 (fallback length from the array at +96). Field meanings are inferred; the helper has not been tested."
+  }
+}

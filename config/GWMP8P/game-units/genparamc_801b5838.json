@@ -1,0 +1,43 @@
+{
+  "unit": "genparamc_801b5838",
+  "source": "source/matching/game/generated/genparamc_801b5838.c",
+  "language": "c",
+  "functions": {
+    "w3d_copy_block16_801b5838": "0x801b5838",
+    "w3d_copy_block16_801c8198": "0x801c8198",
+    "w3d_copy_block16_801c81e8": "0x801c81e8",
+    "w3d_copy_block16_801d1860": "0x801d1860",
+    "w3d_forward_virtual_8020017c": "0x8020017c",
+    "w3d_forward_virtual_802001a8": "0x802001a8",
+    "w3d_forward_virtual_802001d4": "0x802001d4",
+    "w3d_forward_virtual_80200460": "0x80200460",
+    "w3d_write_swapped_word_802040e4": "0x802040e4",
+    "w3d_write_swapped_word_8020412c": "0x8020412c",
+    "w3d_write_swapped_word_80204574": "0x80204574",
+    "w3d_forward_to_held_8025ee60": "0x8025ee60",
+    "w3d_call_with_owner_8025ee94": "0x8025ee94",
+    "w3d_forward_to_held_802af220": "0x802af220",
+    "w3d_call_with_owner_802af254": "0x802af254",
+    "w3d_forward_to_held_802bbc90": "0x802bbc90",
+    "w3d_call_with_owner_802bbcc4": "0x802bbcc4"
+  },
+  "descriptions": {
+    "w3d_copy_block16_801b5838": "Copies a 16-byte block from the source into the object at a fixed offset (structure assignment).",
+    "w3d_copy_block16_801c8198": "Copies a 16-byte block from the source into the object at a fixed offset (structure assignment).",
+    "w3d_copy_block16_801c81e8": "Copies a 16-byte block from the source into the object at a fixed offset (structure assignment).",
+    "w3d_copy_block16_801d1860": "Copies a 16-byte block from the source into the object at a fixed offset (structure assignment).",
+    "w3d_forward_virtual_8020017c": "Forwards both arguments unchanged to a virtual method of the object itself and returns its result.",
+    "w3d_forward_virtual_802001a8": "Forwards both arguments unchanged to a virtual method of the object itself and returns its result.",
+    "w3d_forward_virtual_802001d4": "Forwards both arguments unchanged to a virtual method of the object itself and returns its result.",
+    "w3d_forward_virtual_80200460": "Forwards both arguments unchanged to a virtual method of the object itself and returns its result.",
+    "w3d_write_swapped_word_802040e4": "Byte-swaps a 32-bit value into a stack temporary and writes its four bytes to the stream; returns the write result.",
+    "w3d_write_swapped_word_8020412c": "Byte-swaps a 32-bit value into a stack temporary and writes its four bytes to the stream; returns the write result.",
+    "w3d_write_swapped_word_80204574": "Byte-swaps a 32-bit value into a stack temporary and writes its four bytes to the stream; returns the write result.",
+    "w3d_forward_to_held_8025ee60": "Forwards the argument with a zero flag to a virtual method of the object referenced by the first word, returning its result.",
+    "w3d_call_with_owner_8025ee94": "Calls a virtual method of the target with the object held by the caller and a zero flag, returning its result.",
+    "w3d_forward_to_held_802af220": "Forwards the argument with a zero flag to a virtual method of the object referenced by the first word, returning its result.",
+    "w3d_call_with_owner_802af254": "Calls a virtual method of the target with the object held by the caller and a zero flag, returning its result.",
+    "w3d_forward_to_held_802bbc90": "Forwards the argument with a zero flag to a virtual method of the object referenced by the first word, returning its result.",
+    "w3d_call_with_owner_802bbcc4": "Calls a virtual method of the target with the object held by the caller and a zero flag, returning its result."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_payload_state_create_800cc7cc",
+  "source": "source/matching/game/k7a/k7a_payload_state_create_800cc7cc.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_payload_state_create_800cc7cc": "0x800cc7cc"},
+  "descriptions": {"w3d_k7a_payload_state_create_800cc7cc": "Appears to allocate and construct a payload state, register it in its class list and count it."}
+}

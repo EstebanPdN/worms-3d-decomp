@@ -1,0 +1,11 @@
+{
+  "unit": "d22a_weapon_physics_8003e030",
+  "source": "source/matching/game/d22a/d22a_weapon_physics_8003e030.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d22a_weapon_physics_8003e030": "0x8003e030"
+  },
+  "descriptions": {
+    "w3d_d22a_weapon_physics_8003e030": "Loads the Gravity, Low.Gravity.Multiplier and Water.Level resources (0x800fc1b0, 0x80342a74) into +96, +100 and +104 through one handle, retaining each new object and releasing the previous one and the handle, then subscribes the object (0x80162024) to the message id of cache 0x804ad1b4 with handler slot +108."
+  }
+}

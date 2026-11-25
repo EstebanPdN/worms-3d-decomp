@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fx_801fe508",
+  "source": "source/matching/game/s21/s21_fx_801fe508.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_to_ticks_801fe508": "0x801fe508"
+  },
+  "descriptions": {
+    "w3d_s21_to_ticks_801fe508": "Appears to convert a value times eight into ticks by dividing by the bus clock at 0x800000f8 divided by 500000."
+  }
+}

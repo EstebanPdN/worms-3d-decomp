@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_tree_owner_dtor_801a6280",
+  "source": "source/matching/game/k8b/k8b_tree_owner_dtor_801a6280.c",
+  "language": "c",
+  "functions": {"w3d_k8b_tree_owner_dtor_801a6280": "0x801a6280"},
+  "descriptions": {"w3d_k8b_tree_owner_dtor_801a6280": "Appears to run a deleting destructor that clears an embedded tree, frees its storage, releases two held interfaces and destroys the actor node."}
+}

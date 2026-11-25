@@ -1,0 +1,13 @@
+{
+ "unit": "cc17d_scene_reset_802c603c",
+ "source": "source/matching/game/cc17d/cc17d_scene_reset_802c603c.cpp",
+ "language": "cpp",
+ "functions": {
+  "w3d_cc17d_node_reset_802c603c": "0x802c603c",
+  "w3d_cc17d_node_reset_802c6f64": "0x802c6f64"
+ },
+ "descriptions": {
+  "w3d_cc17d_node_reset_802c603c": "Sets the name of the child handle at +28 from a temporary string made from the original \"NULL\" literal at 0x803d8d10 (w3d_handle_set_name, 255), then calls the child's vtable slot +76 with the owner's vector at +60 and 0 and slot +84 with a vector of three copies of the float at 0x803d8d18 and 0.",
+  "w3d_cc17d_node_reset_802c6f64": "Same as 0x802c603c for another owner class: names the +28 child from the \"NULL\" literal at 0x803d8de4, passes the owner's vector at +112 to vtable slot +76 and a vector of three copies of the float at 0x803d8dec to slot +84."
+ }
+}

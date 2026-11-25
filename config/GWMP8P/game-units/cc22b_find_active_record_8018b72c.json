@@ -1,0 +1,11 @@
+{
+  "unit": "cc22b_find_active_record_8018b72c",
+  "source": "source/matching/game/cc22b/cc22b_find_active_record_8018b72c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc22b_find_active_record_8018b72c": "0x8018b72c"
+  },
+  "descriptions": {
+    "w3d_cc22b_find_active_record_8018b72c": "Searches the 276-byte record table for an entry with nonzero low flag bits 1..15 whose virtual slot64 result equals the requested key; returns its index or unsigned minus one. Count width and record fields are observed; callback domain semantics remain inferred."
+  }
+}

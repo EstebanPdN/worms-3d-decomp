@@ -1,0 +1,13 @@
+{
+  "unit": "s4_memguide_init",
+  "source": "source/matching/game/s4_memguide_init.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_memguide_initialize": "0x802ab990",
+    "w3d_s4_memguide_probe_step": "0x802abcdc"
+  },
+  "descriptions": {
+    "w3d_s4_memguide_initialize": "Initializes memory-card command storage and clears the supplied work buffer.",
+    "w3d_s4_memguide_probe_step": "Advances card probing and routes the result to the requested operation."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_game_over_init_800a3ac4",
+  "source": "source/matching/game/k4a/k4a_game_over_init_800a3ac4.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_game_over_init_800a3ac4": "0x800a3ac4"
+  },
+  "descriptions": {
+    "k4a_game_over_init_800a3ac4": "Appears to bind services, subscribe to four cached messages and register the FCS.GameOver callback, then refresh visibility."
+  }
+}

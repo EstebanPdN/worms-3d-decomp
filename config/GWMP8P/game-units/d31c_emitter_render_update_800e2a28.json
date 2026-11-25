@@ -1,0 +1,14 @@
+{
+  "unit": "d31c_emitter_render_update_800e2a28",
+  "source": "source/matching/game/d31c/d31c_emitter_render_update_800e2a28.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31c_emitter_render_update_800e2a28": "0x800e2a28"
+  },
+  "descriptions": {
+    "d31c_emitter_render_update_800e2a28": "Emitter update: per-part position, colour, orientation, animation and timing through the mesh arrays or per-part sinks."
+  }
+}

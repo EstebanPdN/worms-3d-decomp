@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ee638",
+  "source": "source/matching/game/k5b/k5b_a_801ee638.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_iface_array_resize_owned_801ee638": "0x801ee638"
+  },
+  "descriptions": {
+    "w3d_k5b_iface_array_resize_owned_801ee638": "Appears to resize a solely owned interface array: in place when capacity allows, else move entries into a new allocation, null the rest and release the old one."
+  }
+}

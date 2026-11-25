@@ -1,0 +1,11 @@
+{
+  "unit": "cc24b_world_position_8029662c",
+  "source": "source/matching/game/cc24b/cc24b_world_position_8029662c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc24b_world_position_8029662c": "0x8029662c"
+  },
+  "descriptions": {
+    "w3d_cc24b_world_position_8029662c": "Returns a zero vector when observed word56 is zero; otherwise requests an observed48-byte transform through virtual slot124 and adds its translation at36 to the owner vector at32. Native vector copy-and-add construction and the matrix origin reference preserve the original temporary lifetimes; semantic names are inferred."
+  }
+}

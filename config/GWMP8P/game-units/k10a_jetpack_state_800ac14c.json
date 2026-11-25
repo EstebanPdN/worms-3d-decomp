@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_jetpack_state_800ac14c",
+  "source": "source/matching/game/k10a/k10a_jetpack_state_800ac14c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_jetpack_state_800ac14c": "0x800ac14c"
+  },
+  "descriptions": {
+    "w3d_k10a_jetpack_state_800ac14c": "Appears to switch a worm's jetpack state, playing the matching jetpack animation and clearing the active flags on activation."
+  }
+}

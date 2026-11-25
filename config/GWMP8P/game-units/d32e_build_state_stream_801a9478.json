@@ -1,0 +1,11 @@
+{
+  "unit": "d32e_build_state_stream_801a9478",
+  "source": "source/matching/game/d32e/d32e_build_state_stream_801a9478.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32e_build_state_stream_801a9478": "0x801a9478"
+  },
+  "descriptions": {
+    "w3d_d32e_build_state_stream_801a9478": "Builds the render state stream of a mesh: counts three words per attribute across the group list, locks the output array, then for each attribute writes the looked-up table entry for each of its three bit-field keys only when the key changed, followed by its value; shrinks the array to the words written, clears the dirty flag at +284 and returns the output object."
+  }
+}

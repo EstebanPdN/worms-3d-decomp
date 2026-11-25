@@ -1,0 +1,16 @@
+{
+  "unit": "d18e_vector_property_reset_801bce74",
+  "source": "source/matching/game/d18e/d18e_vector_property_reset_801bce74.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18e_reset_pivots_801bce74": "0x801bce74",
+    "w3d_d18e_reset_joint_axes_801bd0a0": "0x801bd0a0",
+    "w3d_d18e_reset_plane_axes_801c16ec": "0x801c16ec"
+  },
+  "descriptions": {
+    "w3d_d18e_reset_pivots_801bce74": "Looks up the RotatePivot and ScalePivot vector properties (binding helper 0x801f0504), sets both three-float values at +8 to the constant at 0x803aba4c (0.0f), calls the refresh routine 0x801e8d9c and returns 0.",
+    "w3d_d18e_reset_joint_axes_801bd0a0": "Looks up the RotateAxis and JointOrientation vector properties (binding helper 0x801f0210), sets both three-float values at +8 to the constant at 0x803abacc (0.0f), calls the refresh routine 0x801e8d9c and returns 0.",
+    "w3d_d18e_reset_plane_axes_801c16ec": "Looks up the PlaneXAxis and PlaneYAxis vector properties (binding helper 0x801f0210), sets both three-float values at +8 to the constant at 0x803ac644 (0.0f), calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

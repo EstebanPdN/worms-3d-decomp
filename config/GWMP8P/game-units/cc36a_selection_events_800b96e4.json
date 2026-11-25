@@ -1,0 +1,11 @@
+{
+  "unit": "cc36a_selection_events_800b96e4",
+  "source": "source/matching/game/cc36a/cc36a_selection_events_800b96e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc36a_selection_events_800b96e4": "0x800b96e4"
+  },
+  "descriptions": {
+    "cc36a_selection_events_800b96e4": "Dispatch initialization, shutdown and four cached selection events while preserving base-handler order and failure status."
+  }
+}

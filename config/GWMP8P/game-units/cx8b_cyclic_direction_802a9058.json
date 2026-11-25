@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_cyclic_direction_802a9058",
+  "source": "source/matching/game/cx8b/cx8b_cyclic_direction_802a9058.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_cyclic_direction_802a9058": "0x802a9058"
+  },
+  "descriptions": {
+    "w3d_cx8b_cyclic_direction_802a9058": "Choose a cyclic direction by comparing the indexed positions and their two unsigned distances."
+  }
+}

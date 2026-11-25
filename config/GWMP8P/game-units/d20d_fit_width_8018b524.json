@@ -1,0 +1,14 @@
+{
+  "unit": "d20d_fit_width_8018b524",
+  "source": "source/matching/game/d20d/d20d_fit_width_8018b524.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d20d_fit_width_8018b524": "0x8018b524"
+  },
+  "descriptions": {
+    "d20d_fit_width_8018b524": "Count the bytes of a zero-terminated UTF-8 string that fit in 'limit': each character is decoded with 0x8018b360 (zero length returns 0), mapped through the owner's table search 0x8018b260 to a 16-bit entry (high byte track handle in node slot 7, low byte glyph value), and scale * value / divisor is added to a width starting at the float at 0x803a7db0 (divisor = weight of the first track's first glyph); stops before the character that makes the width exceed the limit and returns the byte count. Field meanings are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol11a_cycle_team_slot_80155ff0",
+  "source": "source/matching/game/sol11a/sol11a_cycle_team_slot_80155ff0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11a_cycle_team_slot_80155ff0": "0x80155ff0"
+  },
+  "descriptions": {
+    "sol11a_cycle_team_slot_80155ff0": "Reads ActiveWormIndex, advances and wraps the associated owner slot index, writes selected values up to sixteen and refreshes that owner."
+  }
+}

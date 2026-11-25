@@ -1,0 +1,21 @@
+{
+  "unit": "c1_stl_sort",
+  "source": "source/matching/game/c1_stl_sort.c",
+  "language": "c",
+  "functions": {
+    "w3d_stl_forward_80353c78": "0x80353c78",
+    "w3d_stl_forward_8035434c": "0x8035434c",
+    "w3d_stl_forward_80354a90": "0x80354a90",
+    "w3d_stl_sort_80353ff0": "0x80353ff0",
+    "w3d_stl_sort_80354734": "0x80354734",
+    "w3d_stl_sort_80354e78": "0x80354e78"
+  },
+  "descriptions": {
+    "w3d_stl_forward_80353c78": "Forwards three arguments to a sorting helper with a zero flag and an empty comparison object.",
+    "w3d_stl_forward_8035434c": "Forwards three arguments to a sorting helper with a zero flag and an empty comparison object.",
+    "w3d_stl_forward_80354a90": "Forwards three arguments to a sorting helper with a zero flag and an empty comparison object.",
+    "w3d_stl_sort_80353ff0": "Sorts a range of 4-byte elements: introspective sort to depth 2*log2(n), then a final insertion pass.",
+    "w3d_stl_sort_80354734": "Sorts a range of 4-byte elements: introspective sort to depth 2*log2(n), then a final insertion pass.",
+    "w3d_stl_sort_80354e78": "Sorts a range of 4-byte elements: introspective sort to depth 2*log2(n), then a final insertion pass."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g4b_start_services_801db478",
+  "source": "source/matching/game/g4b/g4b_start_services_801db478.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4b_start_services_801db478": "0x801db478"
+  },
+  "descriptions": {
+    "g4b_start_services_801db478": "Starts optional primary service80416cb8 and selected secondary service80416e78 through initialize slot20; retains primary output at172, forwards it to secondary, appends successful services to external compact storage at48, and reports initialization status. Sets enabled/mode to1 and done when disabled. Two complete one-pointer Held locals balance references on every return; external owner, service and container views are partial and never constructed locally. No owned data."
+  }
+}

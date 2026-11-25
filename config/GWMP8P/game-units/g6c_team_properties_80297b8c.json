@@ -1,0 +1,11 @@
+{
+  "unit": "g6c_team_properties_80297b8c",
+  "source": "source/matching/game/g6c/g6c_team_properties_80297b8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g6c_team_properties_80297b8c": "0x80297b8c"
+  },
+  "descriptions": {
+    "w3d_g6c_team_properties_80297b8c": "Applies user worm names, flag, speech bank, special weapon, skill and grave to the temporary team resource. Locks its native four-byte string array, prefixes wholly numeric worm names using the original format, assigns scoped shared strings, and releases held resources and the tagged descriptor. Team and array headers are external views only."
+  }
+}

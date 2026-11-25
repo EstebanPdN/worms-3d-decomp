@@ -1,0 +1,14 @@
+{
+  "unit": "d21c_low_gravity_start_800f71a0",
+  "source": "source/matching/game/d21c/d21c_low_gravity_start_800f71a0.c",
+  "language": "c",
+  "functions": {
+    "d21c_low_gravity_start_800f71a0": "0x800f71a0"
+  },
+  "descriptions": {
+    "d21c_low_gravity_start_800f71a0": "Start the Low Gravity utility: write the utility reference to Worm.DisableMovementRef, read the active worm index and scheme data, post the start messages, store the worm's negative count deficit, copy Low.Gravity.OnValue to Low.Gravity.Multiplier, forward UtilityLowGravity to the actor, clear +60/+48 and release the worm handle."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

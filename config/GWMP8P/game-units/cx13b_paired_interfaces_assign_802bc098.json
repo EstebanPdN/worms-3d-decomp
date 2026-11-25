@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_paired_interfaces_assign_802bc098",
+  "source": "source/matching/game/cx13b/cx13b_paired_interfaces_assign_802bc098.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_paired_interfaces_assign_802bc098": "0x802bc098"
+  },
+  "descriptions": {
+    "w3d_cx13b_paired_interfaces_assign_802bc098": "Retain and replace the interfaces at observed offsets 28 and 88, then release both incoming value handles."
+  }
+}

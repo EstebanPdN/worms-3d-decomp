@@ -1,0 +1,14 @@
+{
+  "unit": "d16b_blend_toward_input_800abc18",
+  "source": "source/matching/game/d16b/d16b_blend_toward_input_800abc18.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d16b_blend_toward_input_800abc18": "0x800abc18"
+  },
+  "descriptions": {
+    "d16b_blend_toward_input_800abc18": "Clamp an input to plus or minus the controller range scalar, map it to (input / range + 1) * 0.5, move the blend value toward that target by the rate scalar and clamp the blend to [0, 1], using const-reference min/max selections. Scalars read through the original accessor; partial layout; owns the 12-byte literal pool 0x80381c20..0x80381c2b (1.0f, 0.5f, 0.0f). Compiled with the original paired-single float switch -mps-float (reserves the FPR pair frame slots)."
+  }
+}

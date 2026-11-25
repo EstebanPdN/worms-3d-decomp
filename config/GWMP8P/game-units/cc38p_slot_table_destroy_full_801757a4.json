@@ -1,0 +1,11 @@
+{
+  "unit": "cc38p_slot_table_destroy_full_801757a4",
+  "source": "source/matching/game/cc38p/cc38p_slot_table_destroy_full_801757a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38p_slot_table_destroy_full_801757a4": "0x801757a4"
+  },
+  "descriptions": {
+    "cc38p_slot_table_destroy_full_801757a4": "Tear down the observed slot table: publish its vtable, release all entries and clear the global, destroy the native held-slot array in reverse order, free storage, destroy the secondary base, and optionally delete the object according to bit0."
+  }
+}

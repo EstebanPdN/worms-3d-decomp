@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_child_vector_destroy_802bbeb4",
+  "source": "source/matching/game/cx13b/cx13b_child_vector_destroy_802bbeb4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_child_vector_destroy_802bbeb4": "0x802bbeb4"
+  },
+  "descriptions": {
+    "w3d_cx13b_child_vector_destroy_802bbeb4": "Install the original table, release two held interfaces and vector storage, then forward destructor flags to the base."
+  }
+}

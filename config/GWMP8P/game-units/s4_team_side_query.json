@@ -1,0 +1,11 @@
+{
+  "unit": "s4_team_side_query",
+  "source": "source/matching/game/s4_team_side_query.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_team_first_unused_side": "0x8029cc70"
+  },
+  "descriptions": {
+    "w3d_s4_team_first_unused_side": "Finds the first unused side among four game team slots."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_land_theme_name_800606e4",
+  "source": "source/matching/game/d24g/d24g_land_theme_name_800606e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_land_theme_name_800606e4": "0x800606e4"
+  },
+  "descriptions": {
+    "w3d_d24g_land_theme_name_800606e4": "Rewrites a land name carrying a theme prefix: compares the leading characters of the name at +64 with ENGLAND, PIRATE, HORROR, WAR and LUNAR, keeps the remainder, and when one matched replaces the name with the Land.Theme setting followed by that remainder."
+  }
+}

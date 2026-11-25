@@ -1,0 +1,11 @@
+{
+  "unit": "k7b_a_801a4278",
+  "source": "source/matching/game/k7b/k7b_a_801a4278.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k7b_placement_reset_801a4278": "0x801a4278"
+  },
+  "descriptions": {
+    "w3d_k7b_placement_reset_801a4278": "Appears to clear bit 1 of the state byte at +11, update the target at +84 via 0x801a3eb0, move the node at +20 to the position at +72 and copy the home vector at +96 to +56."
+  }
+}

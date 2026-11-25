@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_801b2a6c",
+  "source": "source/matching/game/generated/s10param_801b2a6c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_registry_remove_801b2a6c": "0x801b2a6c"
+  },
+  "descriptions": {
+    "w3d_s10_registry_remove_801b2a6c": "Invokes object cleanup, removes its inline list node from the observed registry, and decrements the registry member count."
+  }
+}

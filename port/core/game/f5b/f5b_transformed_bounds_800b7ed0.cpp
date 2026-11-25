@@ -1,0 +1,9 @@
+#include "w3d_ptr.h"
+#line 1 "f5b_transformed_bounds_800b7ed0.cpp"
+// All names, types, layouts and roles are inferred. 
+extern const float largest_80382500[],smallest_80382504[];
+struct Vec3{float x,y,z;Vec3(){}Vec3(const Vec3&o){float a=o.x,b=o.y,c=o.z;x=a;y=b;z=c;}Vec3 operator-(const Vec3&o)const{Vec3 r;r.x=x-o.x;r.y=y-o.y;r.z=z-o.z;return r;}Ptr32<const float> data()const{return &x;}void set(float a,float b,float c){x=a;y=b;z=c;}void fill(float f){z=f;y=f;x=f;}void minimize(const Vec3&o){if(o.x<x)x=o.x;if(o.y<y)y=o.y;if(o.z<z)z=o.z;}void maximize(const Vec3&o){if(o.x>x)x=o.x;if(o.y>y)y=o.y;if(o.z>z)z=o.z;}};
+struct Payload{char gap[240];Vec3 axisX,axisY,axisZ,translation,origin;char gap2[48];Vec3 lower,upper;void transform(Vec3&o,const Vec3&v)const{Ptr32<const float> x=axisX.data(); Ptr32<const float> y=axisY.data(); Ptr32<const float> z=axisZ.data(); Ptr32<const float> t=translation.data();o.x=v.x*x[0]+v.y*y[0]+v.z*z[0]+t[0];o.y=v.x*x[1]+v.y*y[1]+v.z*z[1]+t[1];o.z=v.x*x[2]+v.y*y[2]+v.z*z[2]+t[2];}};struct Owner{int word;Ptr32<Payload> payload;};
+extern "C" void f5b_transformed_bounds_800b7ed0(Ptr32<Owner> s,Ptr32<Vec3> low,Ptr32<Vec3> high){Vec3 corners[8];Vec3 result;float maximum=largest_80382500[0],minimum=smallest_80382504[0];low->fill(maximum);high->fill(minimum);Vec3 upper=s->payload->upper-s->payload->origin;Vec3 lower=s->payload->lower-s->payload->origin;corners[0].set(upper.x,upper.y,upper.z);corners[1].set(lower.x,upper.y,upper.z);corners[2].set(upper.x,lower.y,upper.z);corners[3].set(lower.x,lower.y,upper.z);corners[4].set(upper.x,upper.y,lower.z);corners[5].set(lower.x,upper.y,lower.z);corners[6].set(upper.x,lower.y,lower.z);corners[7].set(lower.x,lower.y,lower.z);Ptr32<Vec3> p=corners;int count=8;do{s->payload->transform(result,*p);low->minimize(result);high->maximize(result);p++;}while(--count);}
+
+

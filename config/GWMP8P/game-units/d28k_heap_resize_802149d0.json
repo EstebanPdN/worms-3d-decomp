@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_resize_802149d0",
+  "source": "source/matching/game/d28k/d28k_heap_resize_802149d0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_resize_802149d0": "0x802149d0"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_resize_802149d0": "Allocator realloc: forward merge, segment extension, tail split or move-and-copy, watch hook and zero fill."
+  }
+}

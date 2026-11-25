@@ -1,0 +1,11 @@
+{
+  "unit": "d11b_clear_panel_802c29d0",
+  "source": "source/matching/game/d11b/d11b_clear_panel_802c29d0_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11b_clear_panel_802c29d0": "0x802c29d0"
+  },
+  "descriptions": {
+    "d11b_clear_panel_802c29d0": "Release the two leading panel resources and each of 32 typed array slots, clearing every slot after its release. Clear both leading pointers and four state words, invoke the held interface release when present, clear it, call active-panel cleanup, clear the active global, subtract six resources and decrement the panel count. Preserve callback order, live loads and null behavior. Partial observed panel/interface views; original full class identities and sizes unknown. No owned initialized data."
+  }
+}

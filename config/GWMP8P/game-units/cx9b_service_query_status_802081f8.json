@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_service_query_status_802081f8",
+  "source": "source/matching/game/cx9b/cx9b_service_query_status_802081f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_service_query_status_802081f8": "0x802081f8"
+  },
+  "descriptions": {
+    "w3d_cx9b_service_query_status_802081f8": "Query interface identifier at 0x8040ca10, call its status slot, release it, and return the original error when absent."
+  }
+}

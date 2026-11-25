@@ -1,0 +1,11 @@
+{
+  "unit": "s19_message_800a1ca8",
+  "source": "source/matching/game/s19/s19_message_800a1ca8.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_message_800a1ca8": "0x800a1ca8"
+  },
+  "descriptions": {
+    "s19_handle_message_800a1ca8": "Appears to handle message 64 by running the base handler and a setup helper, or reset a flag and call virtual slot 22 when a cached message id matches."
+  }
+}

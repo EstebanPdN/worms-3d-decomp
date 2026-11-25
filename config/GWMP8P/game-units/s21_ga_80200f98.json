@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ga_80200f98",
+  "source": "source/matching/game/s21/s21_ga_80200f98.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_held_locked_80200f98": "0x80200f98"
+  },
+  "descriptions": {
+    "w3d_s21_set_held_locked_80200f98": "Appears to replace the held interface object, retaining the new one and releasing the old one, unless the object is locked, in which case it returns 0x80004005."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ee_801ddff4",
+  "source": "source/matching/game/s21/s21_ee_801ddff4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_has_name_801ddff4": "0x801ddff4"
+  },
+  "descriptions": {
+    "w3d_s21_has_name_801ddff4": "Appears to report whether any object in the counted array returns a name from virtual slot 10 that equals the given text."
+  }
+}

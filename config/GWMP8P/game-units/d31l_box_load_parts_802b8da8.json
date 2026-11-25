@@ -1,0 +1,12 @@
+{
+  "unit": "d31l_box_load_parts_802b8da8",
+  "source": "source/matching/game/d31l/d31l_box_load_parts_802b8da8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d31l_box_load_parts_802b8da8": "0x802b8da8"
+  },
+  "descriptions": {
+    "d31l_box_load_parts_802b8da8": "Loads the six box border sprites from the style and highlight names, sets their frame bytes, adds them to the node and hides them."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "f5b_direction_angles_80071c2c",
+  "source": "source/matching/game/f5b/f5b_direction_angles_80071c2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_direction_angles_80071c2c": "0x80071c2c"
+  },
+  "descriptions": {
+    "f5b_direction_angles_80071c2c": "Copy the input vector and clear its middle component, normalize its planar direction when its squared norm is nonzero, compute two inverse-trigonometric angles with an observed sign correction, and pass the local angle vector to the witnessed transform helper with mode2."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

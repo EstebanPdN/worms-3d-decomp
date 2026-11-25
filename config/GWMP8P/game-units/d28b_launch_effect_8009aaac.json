@@ -1,0 +1,15 @@
+{
+  "unit": "d28b_launch_effect_8009aaac",
+  "source": "source/matching/game/d28b/d28b_launch_effect_8009aaac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28b_launch_effect_8009aaac": "0x8009aaac"
+  },
+  "descriptions": {
+    "w3d_d28b_launch_effect_8009aaac": "Launch effect setup: reads ActiveWormIndex and the worm, posts the launch message, reads Weapon.GraphicalLaunchLocation, and when the target object at +36 exists uses its position or, for the default vector, a point 1000 units ahead along the worm pitch and yaw (0x801a3eb0), then sets the emitter +32 position, scale (z is a hundredth of the distance) and rotation from 0x8009b070; returns 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ]
+}

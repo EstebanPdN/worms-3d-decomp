@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_80021768",
+  "source": "source/matching/game/s19/s19_prop_80021768.c",
+  "language": "c",
+  "functions": {
+    "s19_active_worm_ctor_80021768": "0x80021768"
+  },
+  "descriptions": {
+    "s19_active_worm_ctor_80021768": "Appears to construct a selector object: clears fields, sets a count of four, installs a vtable and looks up ActiveWormIndex into the field at +0x14."
+  }
+}

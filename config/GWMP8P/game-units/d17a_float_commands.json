@@ -1,0 +1,16 @@
+{
+  "unit": "d17a_float_commands",
+  "source": "source/matching/game/d17a/d17a_float_commands.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d17a_command_create_800085fc": "0x800085fc",
+    "w3d_d17a_command_create_8000889c": "0x8000889c",
+    "w3d_d17a_command_create_16_80009014": "0x80009014"
+  },
+  "descriptions": {
+    "w3d_d17a_command_create_800085fc": "Allocates a 32-byte AI command (0x8001523c), runs its out-of-line constructor 0x80021514, appends the base pointer to the command storage at 0x804aa564 (growing it by half through 0x80212fd4/0x802eee50/0x802134fc when full), stores the float amount at +28 and registers the command with 0x8002274c on the registry 0x804aa5a4.",
+    "w3d_d17a_command_create_8000889c": "Allocates a 28-byte AI command (0x8001523c), runs its out-of-line constructor 0x80021768, appends the base pointer to the command storage at 0x804aa564, stores the float amount at +24 and registers the command with 0x8002274c on the registry 0x804aa5a4.",
+    "w3d_d17a_command_create_16_80009014": "Allocates a 28-byte type-16 AI command (table 0x8040dbc8, cleared link words), stores the int value at +20 and the float amount at +24, appends the base pointer to the command storage at 0x804aa564 and registers the command with 0x8002274c on the registry 0x804aa5a4."
+  }
+}

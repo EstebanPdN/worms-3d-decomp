@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8001f25c",
+  "source": "source/matching/game/s7/s7hand_8001f25c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8001f25c": "0x8001f25c"
+  },
+  "descriptions": {
+    "w3d_auto_8001f25c": "For an ID other than -1, looks up a node using the object time plus a global float; forwards the node to 0x8001f4f4 when it is nonnull and its +0x14 field is zero."
+  }
+}

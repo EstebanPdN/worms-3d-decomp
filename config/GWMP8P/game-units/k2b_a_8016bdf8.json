@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8016bdf8",
+  "source": "source/matching/game/k2b/k2b_a_8016bdf8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_enable_light_slot_8016bdf8": "0x8016bdf8"
+  },
+  "descriptions": {
+    "w3d_k2b_enable_light_slot_8016bdf8": "Appears to claim the next light slot when lighting is enabled, load a light into it, set position and attenuation and enable it."
+  }
+}

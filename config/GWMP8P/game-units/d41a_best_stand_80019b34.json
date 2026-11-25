@@ -1,0 +1,14 @@
+{
+  "unit": "d41a_best_stand_80019b34",
+  "source": "source/matching/game/d41a/d41a_best_stand_80019b34.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41a_best_stand_80019b34": "0x80019b34"
+  },
+  "descriptions": {
+    "w3d_d41a_best_stand_80019b34": "Finds the best open walk-table cell and its best neighbour; returns whether it beat the start cell."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

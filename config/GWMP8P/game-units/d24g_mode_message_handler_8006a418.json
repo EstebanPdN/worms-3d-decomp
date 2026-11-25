@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_mode_message_handler_8006a418",
+  "source": "source/matching/game/d24g/d24g_mode_message_handler_8006a418.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_mode_message_handler_8006a418": "0x8006a418"
+  },
+  "descriptions": {
+    "w3d_d24g_mode_message_handler_8006a418": "Front-end message handler: on the start message runs the base handler and 0x8006c4a8; otherwise dispatches cached message ids: land theme and time of day settings, pause flags, UI creation by type, mode changes, new game reset, level selection and load, pause and movie control, relays and an activation bit; falls back to the base handler and otherwise returns 0."
+  }
+}

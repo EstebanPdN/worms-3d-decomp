@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_sinit_objreg_80023144",
+  "source": "source/matching/game/k2a/k2a_sinit_objreg_80023144.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_sinit_objreg_80023144": "0x80023144"
+  },
+  "descriptions": {
+    "k2a_sinit_objreg_80023144": "Appears to be a static initializer that constructs the object registration service type, initializes its arena, clears state words and registers a no-activity message name."
+  }
+}

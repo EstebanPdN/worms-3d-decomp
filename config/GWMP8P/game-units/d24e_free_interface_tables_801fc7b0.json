@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_free_interface_tables_801fc7b0",
+  "source": "source/matching/game/d24e/d24e_free_interface_tables_801fc7b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_free_interface_tables_801fc7b0": "0x801fc7b0"
+  },
+  "descriptions": {
+    "w3d_d24e_free_interface_tables_801fc7b0": "For each of the thirteen 12-byte vectors at 0x8045e890 erases all elements and swaps with an empty temporary whose destructor frees the old storage through 0x802134fc. Returns 0."
+  }
+}

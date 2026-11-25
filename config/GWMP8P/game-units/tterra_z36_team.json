@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_z36_team",
+  "source": "source/matching/game/tterra_z36/tterra_z36_team.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_z36_team_80007080": "0x80007080"
+  },
+  "descriptions": {
+    "tterra_z36_team_80007080": "Experimental reconstruction; layout and dependencies remain provisional."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_entry_tree_parse_800b0474",
+  "source": "source/matching/game/k8a/k8a_entry_tree_parse_800b0474.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_entry_tree_parse_800b0474": "0x800b0474"},
+  "descriptions": {"w3d_k8a_entry_tree_parse_800b0474": "Appears to build a linked chain of entries from a delimited path: parses each token into an origin, links the new entry to its parent and reports the last entry."}
+}

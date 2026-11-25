@@ -1,0 +1,15 @@
+{
+  "unit": "d27d_worm_destroy_801421c8",
+  "source": "source/matching/game/d27d/d27d_worm_destroy_801421c8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27d_worm_destroy_801421c8": "0x801421c8"
+  },
+  "descriptions": {
+    "d27d_worm_destroy_801421c8": "Destroy a worm object: release its held interfaces and members, then call the actor base destructor."
+  }
+}

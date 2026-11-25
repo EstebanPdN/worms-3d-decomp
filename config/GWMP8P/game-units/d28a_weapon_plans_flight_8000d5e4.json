@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_weapon_plans_flight_8000d5e4",
+  "source": "source/matching/game/d28a/d28a_weapon_plans_flight_8000d5e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_weapon_plans_flight_8000d5e4": "0x8000d5e4"
+  },
+  "descriptions": {
+    "w3d_d28a_weapon_plans_flight_8000d5e4": "Advances the plan's height and pushes clones for weapons 9, 8 and 30."
+  }
+}

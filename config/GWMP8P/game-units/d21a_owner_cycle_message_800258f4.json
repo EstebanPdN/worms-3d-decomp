@@ -1,0 +1,11 @@
+{
+  "unit": "d21a_owner_cycle_message_800258f4",
+  "source": "source/matching/game/d21a/d21a_owner_cycle_message_800258f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d21a_owner_cycle_message_800258f4": "0x800258f4"
+  },
+  "descriptions": {
+    "w3d_d21a_owner_cycle_message_800258f4": "Component message handler: id 64 runs the base handler and then the set-up 0x80025a1c (returns 0, or 0x80004005 on base failure); id 66 runs 0x80025b34; the message of cache 0x804acad4 advances the owner index (owner+1 while below min(0x800fcea0(), 5), else 1) and posts an 8-byte notification with id from cache 0x804acadc; all but id 64 then return the base handler's result."
+  }
+}

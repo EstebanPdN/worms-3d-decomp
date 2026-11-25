@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_buffered_seek",
+  "source": "source/matching/game/cx9c/cx9c_buffered_seek.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_buffered_seek_802eb704": "0x802eb704"
+  },
+  "descriptions": {
+    "w3d_cx9c_buffered_seek_802eb704": "Seek a buffered stream with in-buffer and block-aligned optimizations."
+  }
+}

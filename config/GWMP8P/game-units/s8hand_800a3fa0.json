@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800a3fa0",
+  "source": "source/matching/game/s8hand_800a3fa0.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_show_flags_800a3fa0": "0x800a3fa0"
+  },
+  "descriptions": {
+    "s8_show_flags_800a3fa0": "Cycles the Worm.ShowName and Worm.ShowHealth property flags through four combinations."
+  }
+}

@@ -1,0 +1,297 @@
+--- a/port/build3ds.sh
++++ b/port/build3ds.sh
+@@ -45,7 +45,7 @@
+ done
+ wait
+ CF=(-march=armv6k -mtune=mpcore -mfloat-abi=hard -mtp=soft -D__3DS__ -D_3DS -O2 -g -fno-omit-frame-pointer -ffunction-sections -fdata-sections -std=gnu++17 -fno-exceptions -fno-rtti -fno-strict-aliasing -ffp-contract=off -I$DEVKITPRO/libctru/include -I core/runtime -I "$G" -w $TESTDEF)
+-for f in platform/3ds/gx_pica.cpp platform/3ds/gx_mt.cpp platform/3ds/platform_3ds.cpp platform/3ds/diag.cpp platform/3ds/vfs_3ds.cpp platform/3ds/arena_3ds.cpp platform/3ds/zones_3ds.cpp platform/3ds/test_3ds.cpp platform/3ds/ui_backend_3ds.cpp platform/ui/ui_core.cpp platform/ui/hud_panel.cpp platform/ui/ui_pages.cpp platform/ui/ui_hide.cpp platform/ui/gusano3d.cpp; do
++for f in platform/3ds/gx_pica.cpp platform/3ds/gx_mt.cpp platform/3ds/platform_3ds.cpp platform/3ds/diag.cpp platform/3ds/vfs_3ds.cpp platform/3ds/arena_3ds.cpp platform/3ds/zones_3ds.cpp platform/3ds/test_3ds.cpp platform/3ds/ui_backend_3ds.cpp platform/ui/ui_core.cpp platform/ui/hud_panel.cpp platform/ui/ui_pages.cpp platform/ui/ui_hide.cpp platform/ui/gusano3d.cpp platform/ui/weapon3d.cpp; do
+   b=${f:t:r}; ( $B-g++ $CF -c "$f" -o $O/$b.o || echo "fallo $f" >> $W3DP/extra-fail.txt ) &
+ done
+ # citro3d 1.7.1 renderqueue.c con el cuadro solapado (W3D_C3D_FRAME_OVERLAP): sustituye al de libcitro3d.a.
+@@ -82,7 +82,7 @@
+ else $DEVKITPRO/tools/bin/bannertool makebanner -i $RES/banner.png -a $RES/banner.wav -o $OUT/worms3d.bnr >/dev/null || exit 1; fi
+ # Romfs (v27): el paquete de mapas de Ultimate Mayhem (mods/mapas-um/v27, core/native/mapa_um.cpp). v28: el arte propio
+ # del arranque y del título (platform/3ds/res/ui, tools/build3ds/ui/hacer_arte_ui.py), y el 3DSX también lleva romfs.
+-rm -rf $OUT/romfs; mkdir -p $OUT/romfs/ui/ropa
++rm -rf $OUT/romfs; mkdir -p $OUT/romfs/ui/ropa $OUT/romfs/ui/weapons
+ [ -f "$D/mods/mapas-um/v27/mapas-um.worms" ] && cp "$D/mods/mapas-um/v27/mapas-um.worms" $OUT/romfs/
+ # v28: los 76 sombreros de UM y el fusil de francotirador. Sus bundles (2,4 MB y 117 KB) van en ese paquete, no en el
+ # ejecutable (core/native/hat_militar.cpp, core/native/francotirador.cpp).
+@@ -93,6 +93,7 @@
+ # Vista grande y malla de cada sombrero para el worm 3D de Crear equipo, una por archivo (tools/build3ds/ui/ropa_3ds.py):
+ # platform/ui/gusano3d.cpp carga solo la del sombrero que se ve.
+ cp platform/3ds/res/ui/ropa/* $OUT/romfs/ui/ropa/ || exit 1
++cp platform/3ds/res/ui/weapons/*.w3wp $OUT/romfs/ui/weapons/ || exit 1
+ $DEVKITPRO/tools/bin/3dsxtool $OUT/worms3d.elf $OUT/worms3d.3dsx --smdh=$OUT/worms3d.smdh --romfs=$OUT/romfs || exit 1
+ $B-strip -o $OUT/worms3d-stripped.elf $OUT/worms3d.elf
+ $DEVKITPRO/tools/bin/makerom -f cxi -o $OUT/worms3d.cxi -rsf $RSF -target t -elf $OUT/worms3d-stripped.elf -icon $OUT/worms3d.smdh -banner $OUT/worms3d.bnr || exit 1
+--- a/port/core/native/fe_layout.cpp
++++ b/port/core/native/fe_layout.cpp
+@@ -78,6 +78,15 @@
+     // Land Select: the theme combo as wide as the landscape list (owner's sketch). The combo builds its box from the
+     // configured size, so its corners keep their shape (no scaling stretch).
+     if(!strcmp(m,"FE.LandSelect") && !strcmp(name,"Types") && c->size.x<130) c->size.x=130;
++    // Beta 0.1: ambas columnas del resultado comparten caja y línea superior.
++    // Cambiar la configuración antes de construir el marco conserva sus esquinas.
++    if(!strcmp(m,"FE.PostChallenge")) {
++        if(!strcmp(name,"Result Frame") || !strcmp(name,"All Times Frame")) {
++            c->size.x=130; c->size.y=161; c->pos.y=40;
++        } else if(!strcmp(name,"Team Name")) {c->pos.x=-144;c->pos.y=164;}
++        else if(!strcmp(name,"Trophy")) c->pos.y=40;
++        move(self->frame.get(),c->pos);
++    }
+     if(!strcmp(m,"FE.WeaponPanel") && !strcmp(name,"WeaponPanelBorder"))
+         for(auto &cell:weapon_cells) cell=WeaponCell{};
+     if(getenv("W3D_LAYOUT_LOG")) w3d_dbg("[layout] %s / %s pos %.2f %.2f %.2f size %.2f %.2f %.2f vt %08x\n",m,name,c->pos.x,c->pos.y,c->pos.z,c->size.x,c->size.y,c->size.z,(unsigned)*(const w3d_u32 *)((const char *)self.get()-28));
+--- a/port/platform/3ds/version.h
++++ b/port/platform/3ds/version.h
+@@ -1,5 +1,5 @@
+ // Build interno monotónico y versión pública de la serie beta.
+ #pragma once
+-#define W3D_3DS_VERSION 46
++#define W3D_3DS_VERSION 47
+ #define W3D_RELEASE_NAME "Beta 0.1"
+ #define W3D_RELEASE_SLUG "beta-0.1"
+--- a/port/platform/ui/ui.h
++++ b/port/platform/ui/ui.h
+@@ -86,6 +86,8 @@
+ // L/R: girarlo, una vez por cuadro (+1 el frente hacia la derecha, -1 hacia la izquierda, 0 suelto: frena); reset de frente.
+ void gusano_turn(int dir);
+ void gusano_turn_reset();
++void weapon_preview();
++void weapon_preview_clear();
+ void panel(const Img *atlas, float x, float y, float w, float h, float t, unsigned fill, unsigned tint = 0xffffffff);
+ // Nueve trozos de un arte propio cuadrado (panel_azul, boton_azul, boton_oro, marco_oro: 48x48): esquinas de c píxeles
+ // de la imagen dibujadas a tamaño 1:1, bordes y centro estirados.
+--- a/port/platform/ui/ui_pages.cpp
++++ b/port/platform/ui/ui_pages.cpp
+@@ -1036,7 +1036,8 @@
+         if(!strcmp(menu,"FE.WeaponOptions")) {
+             begin(0);   // título: el del juego, que fe_layout.cpp sube arriba
+             const char *tip=w3d_fe_prop_str("FE.ToolTip");
+-            text_fit(200,194,tip&&*tip?game_text(tip):tr(T_WEAPONS),20,350,0xffffffff,1);
++            weapon_preview();
++            text_fit(200,208,tip&&*tip?game_text(tip):tr(T_WEAPONS),20,350,0xffffffff,1);
+             begin(1);
+             if(touch_down()) if(const char *item=w3d_fe_native_hit(menu,input().tx,input().ty)) activate(item);
+             return;
+@@ -2027,6 +2028,9 @@
+     memcpy(g_last_under, g_underlays, sizeof g_underlays); g_last_count = g_underlay_count;
+     g_underlay_count = 0;
+     g_tri_runs.clear(); g_tri_v.clear(); g_tri_c.clear();
++    const char *weapon_menu=w3d_test_fe_menu();
++    if(w3d_fe_game_mode()!=6 || !weapon_menu || strcmp(weapon_menu,"FE.WeaponOptions") || w3d_fe_popup_depth()>0)
++        weapon_preview_clear();
+     // FE.CurrentMenu retains the previous selection during award movies (mode 8)
+     // and unlock scenes (9). It must not draw a stale mission/menu over them.
+     const int mode=w3d_fe_game_mode();
+--- /dev/null
++++ b/port/platform/ui/weapon3d.cpp
+@@ -0,0 +1,100 @@
++// Beta 0.1: original weapon models above the native weapon-options controls.
++// Assets: tools/build3ds/ui/export_weapons.py. Only the current mesh/atlas stays
++// resident; vertex floats are copied into aligned storage (required on ARM11).
++#include "ui.h"
++#include <algorithm>
++#include <cmath>
++#include <cstdio>
++#include <cstring>
++#include <vector>
++
++namespace ui {
++namespace {
++const char *const kTips[]={"Bazooka","Mortar","HomingM","Astrike","Grenade","Cluster","Gas","Banana",
++    "Shotgun","Uzi","OWoman","MadCow","Jetpack","Rope","Para","BridgeK",
++    "Fball","Pigeon","Axe","Bat","Prod","HolyHG","Teleport","Mine","SSheep","Petrol","Sheep","TNT",
++    "Nuke","Girder","Wselect","EQuake"};
++const char *const kControls[]={"Bazooka","Mortar","HomingM","Air Strike","Grenade","Cluster","Gas","Banana",
++    "Shotgun","Uzi","Old Woman","Mad Cows","Jet Pack","Rope","Para","Bridge Kit"};
++int current=-1;
++unsigned width, height;
++std::vector<float> mesh, projected, output;
++std::vector<unsigned char> pixels;
++std::vector<unsigned> colors, output_colors;
++struct Triangle {float depth;unsigned first;};
++std::vector<Triangle> order;
++double started;
++unsigned read32(const unsigned char *p) {return p[0]|unsigned(p[1])<<8|unsigned(p[2])<<16|unsigned(p[3])<<24;}
++bool worm(int n) {return n==16 || n==30;}
++void load(int n) {
++    img_mem_forget("weapon_preview");
++    mesh.clear(); pixels.clear(); current=n; started=now();
++    if(n<0) return;
++    if(worm(n)) {gusano_turn_reset();return;}
++    char file[64];snprintf(file,sizeof file,"weapons/%s.w3wp",kTips[n]);
++    unsigned char *data=nullptr;long len=0;
++    if(!uib_read_own(file,&data,&len) || !data) {uib_log("[weapon3d] missing %s\n",file);return;}
++    bool valid=len>=20 && !memcmp(data,"W3WP",4) && read32(data+4)==1;
++    unsigned nv=valid?read32(data+8):0; width=valid?read32(data+12):0;height=valid?read32(data+16):0;
++    valid=valid && nv>=3 && nv<=18000 && nv%3==0 && width>=8 && width<=1024 && height>=8 && height<=1024
++          && !(width&(width-1)) && !(height&(height-1)) && size_t(len)==20+size_t(nv)*32+size_t(width)*height*4;
++    if(valid) {
++        mesh.resize(size_t(nv)*8);memcpy(mesh.data(),data+20,mesh.size()*4);
++        for(float v:mesh) if(!std::isfinite(v)) {valid=false;break;}
++        if(valid) pixels.assign(data+20+nv*32,data+len);
++    }
++    uib_free(data);
++    if(!valid) {mesh.clear();uib_log("[weapon3d] invalid %s\n",file);return;}
++    uib_log("[weapon3d] %s: %u vertices, %ux%u\n",kTips[n],nv,width,height);
++}
++float dot(const float *p,const float *q) {return p[0]*q[0]+p[1]*q[1]+p[2]*q[2];}
++}
++
++void weapon_preview_clear() {
++    if(current<0) return;
++    load(-1);
++    std::vector<float>().swap(mesh);std::vector<unsigned char>().swap(pixels);
++    std::vector<float>().swap(projected);std::vector<float>().swap(output);
++    std::vector<unsigned>().swap(colors);std::vector<unsigned>().swap(output_colors);
++    std::vector<Triangle>().swap(order);
++}
++
++void weapon_preview() {
++    int selected=-1;
++    const char *control=w3d_fe_highlighted();
++    // FE.ToolTip already contains localized text. Use the native control and
++    // page instead, so changing language cannot select the wrong model.
++    const int page=w3d_fe_prop_int("FE.Page",int(w3d_fe_prop_uint("FE.Page",0)));
++    if(control && (page==0 || page==1))
++        for(int i=0;i<16;++i) if(!strcmp(control,kControls[i])) {selected=i+16*page;break;}
++    if(selected<0) {weapon_preview_clear();return;}
++    if(selected!=current) load(selected);
++    if(worm(selected)) {
++        gusano_turn(1);gusano_draw(0,200,125,160,0,1);return;
++    }
++    if(mesh.empty()) return;
++    const Img *atlas=img_mem("weapon_preview",pixels.data(),width,height,1);
++    if(atlas->tex<0) return;
++    const float yaw=-0.5f+float(fmod(now()-started,12.0))*6.2831853f/12.0f, pitch=0.20f;
++    const float right[3]={cosf(yaw),0,-sinf(yaw)};
++    const float back[3]={sinf(yaw)*cosf(pitch),sinf(pitch),cosf(yaw)*cosf(pitch)};
++    const float up[3]={-sinf(yaw)*sinf(pitch),cosf(pitch),-cosf(yaw)*sinf(pitch)};
++    float light[3];for(int k=0;k<3;++k)light[k]=-.35f*right[k]+.6f*up[k]+.7f*back[k];
++    const unsigned nv=mesh.size()/8;projected.resize(nv*5);colors.resize(nv);order.clear();
++    // A unit sphere at 70px radius leaves room for the title and full help line.
++    for(unsigned i=0;i<nv;++i) {
++        const float *v=&mesh[i*8];float *p=&projected[i*5];
++        p[0]=200+70*dot(v,right);p[1]=121-70*dot(v,up);p[2]=.5f-.20f*dot(v,back);
++        p[3]=v[6]*float(width)/atlas->pw;p[4]=v[7]*float(height)/atlas->ph;
++        unsigned c=unsigned(255*fminf(1,.55f+.45f*fmaxf(0,dot(v+3,light))));
++        colors[i]=c|c<<8|c<<16|unsigned(faded(0xffffffff)&255)<<24;
++    }
++    for(unsigned i=0;i<nv;i+=3) order.push_back({projected[i*5+2]+projected[(i+1)*5+2]+projected[(i+2)*5+2],i});
++    std::sort(order.begin(),order.end(),[](const Triangle&a,const Triangle&b){return a.depth>b.depth;});
++    output.resize(nv*5);output_colors.resize(nv);unsigned dst=0;
++    for(const auto &t:order) for(unsigned k=0;k<3;++k,++dst) {
++        memcpy(&output[dst*5],&projected[(t.first+k)*5],5*sizeof(float));output_colors[dst]=colors[t.first+k];
++    }
++    tris_under(0,atlas->tex,output.data(),output_colors.data(),nv);
++}
++} // namespace ui
+--- /dev/null
++++ b/port/tools/build3ds/ui/export_weapons.py
+@@ -0,0 +1,103 @@
++"""Original weapon meshes for the dual-screen options preview (local disc only).
++
++W3WP v1: magic, u32 version/vertex count/atlas width/height, expanded triangles
++of 8 little-endian floats (position, normal, UV), then an RGBA8 atlas.
++Positions fit a unit sphere so every orientation stays inside the preview.
++"""
++from pathlib import Path
++import hashlib, json, math, struct, sys
++from PIL import Image
++ROOT = Path(__file__).resolve().parents[4]
++sys.path[:0] = [str(ROOT/'tools/macos'), str(ROOT/'mods/ahogo-um/tools')]
++from xom import Xom
++import rig
++
++# Keys identify the two weapons behind each FE.Page-dependent native control.
++# weapon3d.cpp selects them by control AND page, independently of localization.
++MODELS = {
++    'Bazooka':'zook', 'Mortar':'mortar', 'HomingM':'homingmissile', 'Astrike':'bomber',
++    'Grenade':'grenade', 'Cluster':'clustergrenade', 'Gas':'gascanister', 'Banana':'bananabomb',
++    'Shotgun':'shotgun', 'Uzi':'uzi', 'OWoman':'oldwoman', 'MadCow':'cow',
++    'Jetpack':'Jetpack', 'Rope':'Ninjagun', 'Para':'parachute', 'BridgeK':'girder',
++    'Pigeon':'pigeon', 'Axe':'Axe', 'Bat':'bbbat', 'Prod':'Prod', 'HolyHG':'holyhg',
++    'Teleport':'teleport', 'Mine':'landmine', 'SSheep':'supersheep', 'Petrol':'petrolbomb',
++    'Sheep':'sheep', 'TNT':'dynamite', 'Nuke':'suitcase', 'Girder':'girder', 'EQuake':'detonator',
++}
++# Fball is a worm's melee attack; Wselect selects a worm. Both use the existing
++# animated original worm renderer, with its own continuous rotation.
++WORMS = ['Fball', 'Wselect']
++
++def triangles(path):
++    x = Xom(path)
++    out = []
++    identity = rig.aff(rig.euler([0,0,0]), [0,0,0])
++    def walk(i, parent):
++        if x.objects[i]['type'] in ('XSceneCamera','XSceneLight'): return
++        n=x.node(i); m=parent; children=n.get('children', [])
++        if n['type']=='XSkin':
++            sk=rig.load_w3d(str(path))
++            for pp,nn,uu,tex in sk.skin(sk.world()):
++                w,h,pixels=tex
++                rgba=bytes(v for p in pixels for v in (*p[:3],p[3] if len(p)>3 else 255))
++                out.append(([rig.app(m,p) for p in pp], [rig.norm(rig.rot_v(m,v)) for v in nn], uu, (w,h,rgba)))
++            # Rigid accessories of this skeleton are visited with their joints.
++            walk(n['skeleton'], m)
++            return
++        if n['type']=='XSkinShape': return
++        if n['type']=='XGroup' and n['core']:
++            o=x.objects[n['core']]; kind=o['type']
++            if kind in ('XTransform','XJointTransform'):
++                f=struct.unpack('<'+('23f' if kind=='XTransform' else '29f'),o['raw'])
++                local=rig.Joint(i,n['name'],n['name'],'xform' if kind=='XTransform' else 'joint',f,None).local()
++                m=rig.aff_mul(local,parent)
++            elif kind=='XChildSelector':
++                selected=struct.unpack_from('<I',o['raw'])[0]
++                children=children[selected:selected+1]
++        if n['type']=='XShape':
++            mesh=x.mesh(n['geometry']); images=x.shader(n['shader'])['images']
++            tex=x.image(images[0]) if images else (1,1,b'\xff'*4)
++            pp=mesh['vertices']; nn=mesh['normals']; uv=mesh['uv']
++            for k in range(0,len(pp),3):
++                out.append(([rig.app(m,p) for p in pp[k:k+3]],
++                            [rig.norm(rig.rot_v(m,v)) for v in nn[k:k+3]], uv[k:k+3], tex))
++        for child in children: walk(child,m)
++    root=next(g['node'] for _,o in x.of_type('XGraphSet') for g in o['graphs'] if g['name']=='world')
++    walk(root,identity)
++    assert out, path
++    return out
++
++def export():
++    dest=ROOT/'port/platform/3ds/res/ui/weapons';dest.mkdir(exist_ok=True)
++    receipt=[]
++    for key,model in MODELS.items():
++        src=ROOT/'gamedata/GWMP8P/files/Objects'/f'{model}.xom'
++        ts=triangles(src)
++        points=[p for pp,_,_,_ in ts for p in pp]
++        center=[(min(p[k] for p in points)+max(p[k] for p in points))/2 for k in range(3)]
++        radius=max(math.dist(p,center) for p in points)
++        textures=list(dict.fromkeys(tex for _,_,_,tex in ts))
++        # Each original texture gets a 128px tile with duplicated edge texels;
++        # filtering must never bleed into a different material.
++        cols=math.ceil(math.sqrt(len(textures))); rows=math.ceil(len(textures)/cols)
++        w=2**math.ceil(math.log2(cols*130));h=2**math.ceil(math.log2(rows*130))
++        assert w<=1024 and h<=1024
++        atlas=Image.new('RGBA',(w,h)); offsets={}
++        for i,tex in enumerate(textures):
++            iw,ih,px=tex; im=Image.frombytes('RGBA',(iw,ih),px).resize((128,128),Image.Resampling.LANCZOS)
++            ox,oy=(i%cols)*130+1,(i//cols)*130+1;offsets[tex]=(ox,oy)
++            atlas.paste(im,(ox,oy))
++            atlas.paste(im.crop((0,0,1,128)),(ox-1,oy));atlas.paste(im.crop((127,0,128,128)),(ox+128,oy))
++            atlas.paste(im.crop((0,0,128,1)),(ox,oy-1));atlas.paste(im.crop((0,127,128,128)),(ox,oy+128))
++        data=bytearray(b'W3WP'+struct.pack('<4I',1,len(ts)*3,w,h))
++        for pp,nn,uv,tex in ts:
++            ox,oy=offsets[tex]
++            for p,n,u in zip(pp,nn,uv):
++                vals=[(p[k]-center[k])/radius for k in range(3)]+list(n)+[(ox+max(0,min(1,u[0]))*127+.5)/w,(oy+max(0,min(1,u[1]))*127+.5)/h]
++                assert all(math.isfinite(v) for v in vals)
++                data.extend(struct.pack('<8f',*vals))
++        data.extend(atlas.tobytes());out=dest/f'{key}.w3wp';out.write_bytes(data)
++        receipt.append(dict(tip='FE.Tip.'+key,model=str(src.relative_to(ROOT)),source_sha256=hashlib.sha256(src.read_bytes()).hexdigest(),vertices=len(ts)*3,atlas=[w,h],bytes=len(data),sha256=hashlib.sha256(data).hexdigest()))
++        print(key,len(ts),'triangles',w,h,flush=True)
++    (dest/'manifest.json').write_text(json.dumps(dict(models=receipt,worm_previews=WORMS),indent=2)+'\n')
++
++if __name__=='__main__':export()

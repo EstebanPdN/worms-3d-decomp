@@ -1,0 +1,14 @@
+{
+  "unit": "f7b_direction_angles_8009b070",
+  "source": "source/matching/game/f7b/f7b_direction_angles_8009b070.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7b_direction_angles_8009b070": "0x8009b070"
+  },
+  "descriptions": {
+    "f7b_direction_angles_8009b070": "Normalize the input direction, derive a planar sign-adjusted yaw and negated pitch using the original inverse trigonometric helper, then add the witnessed turn constant to yaw. Initialize returned angles from the original default vector. Sixteen trailing stack bytes have unknown purpose; all roles, names and types inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d40z_svfscanf",
+  "source": "source/matching/game/d40z/d40z_svfscanf.c",
+  "language": "c",
+  "functions": {
+    "w3d_d40z_svfscanf_802ec708": "0x802ec708"
+  },
+  "descriptions": {
+    "w3d_d40z_svfscanf_802ec708": "SN ProDG's __svfscanf: newlib 1.8.2 vfscanf.c with multibyte format scanning, float input through atof, and SN's library va_arg. Names follow newlib."
+  }
+}

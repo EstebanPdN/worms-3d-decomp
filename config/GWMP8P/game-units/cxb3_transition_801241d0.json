@@ -1,0 +1,11 @@
+{
+  "unit": "cxb3_transition_801241d0",
+  "source": "source/matching/game/cxb3/cxb3_transition_801241d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxb3_transition_801241d0": "0x801241d0"
+  },
+  "descriptions": {
+    "cxb3_transition_801241d0": "Reads the message halfword ID through an inline getter. For ID 64, delegates to 0x8016293c and attaches the transition service on success, returning zero or 0x80004005 on failure. For ID 66, detaches; otherwise compares three external cached IDs and invokes the corresponding circle-in, circle-out, or 0x8015fd1c method. All remaining paths return 0x8016293c(self, message). Names inferred; caches and service dependencies remain external."
+  }
+}

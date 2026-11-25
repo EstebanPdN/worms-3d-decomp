@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_buffer_refill_802198bc",
+  "source": "source/matching/game/cx10b/cx10b_buffer_refill_802198bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_buffer_refill_802198bc": "0x802198bc"
+  },
+  "descriptions": {
+    "w3d_cx10b_buffer_refill_802198bc": "Allocate the aligned stream buffer, seek when required, and refill the observed block."
+  }
+}

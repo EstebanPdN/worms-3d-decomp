@@ -1,0 +1,1 @@
+{"unit":"r27c_find","source":"source/matching/game/r27c/r27c_find.cpp","language":"cpp","functions":{"r27c_find_pair_8020e4bc":"0x8020e4bc"},"descriptions":{"r27c_find_pair_8020e4bc":"Combine two 16-bit identifiers into a key and find its associated value in an ordered tree, returning null when absent."}}

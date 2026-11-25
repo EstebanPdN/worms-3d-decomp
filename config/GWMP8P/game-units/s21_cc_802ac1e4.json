@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cc_802ac1e4",
+  "source": "source/matching/game/s21/s21_cc_802ac1e4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_apply_record_802ac1e4": "0x802ac1e4"
+  },
+  "descriptions": {
+    "w3d_s21_apply_record_802ac1e4": "Appears to pass two fields of the linked record to a helper and then store minus 34 into a status field of the object."
+  }
+}

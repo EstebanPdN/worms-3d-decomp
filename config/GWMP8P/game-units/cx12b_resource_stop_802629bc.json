@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_resource_stop_802629bc",
+  "source": "source/matching/game/cx12b/cx12b_resource_stop_802629bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_resource_stop_802629bc": "0x802629bc"
+  },
+  "descriptions": {
+    "w3d_cx12b_resource_stop_802629bc": "Detach the +200 resource handle and stop/release its held interface, preserving the original service dispatch order."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_remap_instances_801ea59c",
+  "source": "source/matching/game/h1b/h1b_remap_instances_801ea59c.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_remap_instances_801ea59c": "0x801ea59c"
+  },
+  "descriptions": {
+    "h1b_remap_instances_801ea59c": "Walks original class registry, filters kind2, traverses instances and property descriptors, and replaces flagged reference fields using supplied old/new mappings while counting matches. Descriptor metadata offset4 is ushort and flags7 bit1 selects references. All type, object and descriptor layouts are external partial prefixes; no local views instantiated, no owned initialized data."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bk_8020ca70",
+  "source": "source/matching/game/s21/s21_bk_8020ca70.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_power_of_two_b_8020ca70": "0x8020ca70"
+  },
+  "descriptions": {
+    "w3d_s21_power_of_two_b_8020ca70": "Appears to round an unsigned value to a power of two: zero gives one, powers of two are kept, other values give the next lower bit found by a scan. Same bytes as its sibling."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ao_801fefd4",
+  "source": "source/matching/game/s21/s21_ao_801fefd4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_text_to_s64_801fefd4": "0x801fefd4"
+  },
+  "descriptions": {
+    "w3d_s21_text_to_s64_801fefd4": "Appears to convert a text argument to a signed number and store it sign-extended into a 64-bit output, returning zero."
+  }
+}

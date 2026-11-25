@@ -1,0 +1,11 @@
+{
+  "unit": "f2c_tag_init_801de524",
+  "source": "source/matching/game/f2c/f2c_tag_init_801de524.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2c_tag_init_801de524": "0x801de524"
+  },
+  "descriptions": {
+    "f2c_tag_init_801de524": "Install two observed vtable addresses around a volatile tag-byte reload at offset 47; set the float at 24 and clear words 28, 32 and 36. Layout and names inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_beam_field_ctor_800ba884",
+  "source": "source/matching/game/k10a/k10a_beam_field_ctor_800ba884.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_beam_field_ctor_800ba884": "0x800ba884"
+  },
+  "descriptions": {
+    "w3d_k10a_beam_field_ctor_800ba884": "Appears to construct a beam field object with an empty extent, publish it in a global and allocate its 31 by 31 cell grid."
+  }
+}

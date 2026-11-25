@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801a7274",
+  "source": "source/matching/game/k4b/k4b_a_801a7274.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_channel_pair_construct_801a7274": "0x801a7274"
+  },
+  "descriptions": {
+    "w3d_k4b_channel_pair_construct_801a7274": "Appears to construct an object holding two channel members, each zeroed and reset through 0x803534b0 with mode zero, after the base and vtable setup."
+  }
+}

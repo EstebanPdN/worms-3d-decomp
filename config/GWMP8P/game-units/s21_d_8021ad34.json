@@ -1,0 +1,11 @@
+{
+  "unit": "s21_d_8021ad34",
+  "source": "source/matching/game/s21/s21_d_8021ad34.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_refresh_service_8021ad34": "0x8021ad34"
+  },
+  "descriptions": {
+    "w3d_s21_refresh_service_8021ad34": "Appears to clear a flag, replace a held service interface with a freshly looked up one, releasing the old interface, and mark the target ready."
+  }
+}

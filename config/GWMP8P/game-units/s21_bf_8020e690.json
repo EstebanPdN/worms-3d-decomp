@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bf_8020e690",
+  "source": "source/matching/game/s21/s21_bf_8020e690.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_unpack_words_b_8020e690": "0x8020e690"
+  },
+  "descriptions": {
+    "w3d_s21_unpack_words_b_8020e690": "Appears to copy each source word into consecutive destination words, as its sibling for a given count and return zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_list_clear",
+  "source": "source/matching/game/cx8c/cx8c_list_clear.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_list_clear_8034ba74": "0x8034ba74"
+  },
+  "descriptions": {
+    "w3d_cx8c_list_clear_8034ba74": "Walks and frees list nodes, destroys their embedded member at +12, and restores the sentinel links."
+  }
+}

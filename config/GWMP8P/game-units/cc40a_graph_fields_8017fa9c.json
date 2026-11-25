@@ -1,0 +1,11 @@
+{
+  "unit": "cc40a_graph_fields_8017fa9c",
+  "source": "source/matching/game/cc40a/cc40a_graph_fields_8017fa9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc40a_graph_fields_8017fa9c": "0x8017fa9c"
+  },
+  "descriptions": {
+    "cc40a_graph_fields_8017fa9c": "Read GraphSet and Flags after base fields, query the graph interface when present or release/clear the old graph when absent, then release the temporary query reference; preserve base error status."
+  }
+}

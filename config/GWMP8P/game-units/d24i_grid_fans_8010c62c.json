@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_grid_fans_8010c62c",
+  "source": "source/matching/game/d24i/d24i_grid_fans_8010c62c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_grid_fans_8010c62c": "0x8010c62c"
+  },
+  "descriptions": {
+    "d24i_grid_fans_8010c62c": "Two-pass scan of subdivided grid cells walking rows downward: each cell seeks the run-length cursor at +28 and reads its flags from the grid; flag value 16 draws the cell's triangle fan (0x8010b318) from its corner heights, flag value 17 draws corner triangles whose neighbour cell type (0x8010b560) matches, and a corner height of 0xffff is treated as absent; the first pass draws the near half and the second the far half."
+  }
+}

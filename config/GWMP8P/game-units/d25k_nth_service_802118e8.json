@@ -1,0 +1,12 @@
+{
+  "unit": "d25k_nth_service_802118e8",
+  "source": "source/matching/game/d25k/d25k_nth_service_802118e8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d25k_nth_service_802118e8": "0x802118e8"
+  },
+  "descriptions": {
+    "w3d_d25k_nth_service_802118e8": "Walks the service hash table at +36 from its first occupied bucket, advancing index entries through 0x8035c988 at bucket ends, and returns the reached entry's service or null at the end of the table."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f2b_dispatch_snapshot_801623dc",
+  "source": "source/matching/game/f2b/f2b_dispatch_snapshot_801623dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2b_dispatch_snapshot_801623dc": "0x801623dc"
+  },
+  "descriptions": {
+    "f2b_dispatch_snapshot_801623dc": "Allocate a copy of the pointer range at offsets 0 and 4, copy its rounded element bytes, visit the snapshot, dispatch entries whose offset-16 word is nonzero using their offset-4 pointer and the supplied message, then release the copy. Callback and message roles are inferred."
+  }
+}

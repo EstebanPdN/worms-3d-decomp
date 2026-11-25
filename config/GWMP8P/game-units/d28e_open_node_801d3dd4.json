@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_open_node_801d3dd4",
+  "source": "source/matching/game/d28e/d28e_open_node_801d3dd4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_open_node_801d3dd4": "0x801d3dd4"
+  },
+  "descriptions": {
+    "w3d_d28e_open_node_801d3dd4": "Start a node with a child: runs the match at 0x801d3930, then in sequence mode a partial match advances the index, pushes the node and dispatches the child through the handler table of the sub-object at +4, undoing both; outside sequence mode it dispatches the child and returns its error. Always ends through 0x801d3be0."
+  }
+}

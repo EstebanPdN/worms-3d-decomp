@@ -1,0 +1,15 @@
+{
+  "unit": "d45e_device_strength_set_801fb0e8",
+  "source": "source/matching/game/d45e/d45e_device_strength_set_801fb0e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d45e_device_strength_set_801fb0e8": "0x801fb0e8"
+  },
+  "descriptions": {
+    "w3d_d45e_device_strength_set_801fb0e8": "Stores two levels as an inverse 0 to 15 amount, or stops the device when both are zero or the amount is out of range."
+  },
+  "extra_flags": [
+    "-mfast-cast",
+    "-fvtable-thunks"
+  ]
+}

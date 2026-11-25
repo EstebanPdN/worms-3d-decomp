@@ -1,0 +1,11 @@
+{
+  "unit": "g4a_detail_registry_clear_800bb3a0",
+  "source": "source/matching/game/g4a/g4a_detail_registry_clear_800bb3a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4a_detail_registry_clear_800bb3a0": "0x800bb3a0"
+  },
+  "descriptions": {
+    "g4a_detail_registry_clear_800bb3a0": "Clear each registered detail set in external global range8043bb64, destroy nonnull entries with flags3 and zero each slot; conditionally heap-release the three shared blocks804b182c/1830/1834. Clear the global and receiver+116 pointer ranges using the original zero-byte copy and saved removed-byte span, set receiver+68 to zero, and return zero. The receiver124-byte prefix, eight-byte range views and four-byte heap service are external partial layouts and are never locally constructed. Range storage is followed through begin pointers, not a fixed inline element array. Pointer-return varargs copy preserves the original802eee50 ABI. No complete receiver allocation, external data ownership or original semantic class name is asserted."
+  }
+}

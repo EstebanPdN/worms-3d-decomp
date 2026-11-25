@@ -1,0 +1,11 @@
+{
+  "unit": "d10b_replace_audio_802643d0",
+  "source": "source/matching/game/d10b/d10b_replace_audio_802643d0_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10b_replace_audio_802643d0": "0x802643d0"
+  },
+  "descriptions": {
+    "d10b_replace_audio_802643d0": "Replace the owner audio handle: stop its current target if present, reload and release it, clear the handle, ask the global factory to create the requested ID into that same slot, start the replacement, read Audio.Vol.Sfx through the observed float-output helper, then apply volume with flag one. Native inline handle stop/clear preserve pointer address lifetime, independent null checks and live reloads. Partial views and inferred callback roles; full class identities/sizes and ignored callback results unknown. No owned initialized data."
+  }
+}

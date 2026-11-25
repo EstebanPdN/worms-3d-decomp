@@ -1,0 +1,14 @@
+{
+  "unit": "d25b_matrix_euler_8009ea38",
+  "source": "source/matching/game/d25b/d25b_matrix_euler_8009ea38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_matrix_euler_8009ea38": "0x8009ea38"
+  },
+  "descriptions": {
+    "w3d_d25b_matrix_euler_8009ea38": "Matrix to Euler angles: rotates the X axis by the matrix, normalizes it (0x802e82c0), derives the angle about Y (asin 0x802e7c30 of z) and about Z (asin of y over the planar length, mirrored for negative x), rotates a copy of the matrix back by both (0x801f621c, 0x801f61a0), rotates the Y axis by the copy, normalizes it and derives the angle about X by quadrant, then writes x, y, z to the output vector."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

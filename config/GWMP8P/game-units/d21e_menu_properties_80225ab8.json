@@ -1,0 +1,12 @@
+{
+  "unit": "d21e_menu_properties_80225ab8",
+  "source": "source/matching/game/d21e/d21e_menu_properties_80225ab8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d21e_register_menu_properties_80225ab8": "0x80225ab8"
+  },
+  "descriptions": {
+    "w3d_d21e_register_menu_properties_80225ab8": "Resets the ActiveItem string binding (0x801ed24c) to the shared empty string; resets the DefaultCancelItem string binding (0x801ed24c) to the shared empty string; resets the DefaultAcceptItem string binding (0x801ed24c) to the shared empty string; resets the MenuName string binding (0x801ed24c) to the shared empty string; resets the InitMessages string binding (0x801ed24c) to the shared empty string; registers PreventActiveUpdate (0x801eb674); registers MenuItems (0x801eff8c) with a guarded function-local static descriptor built once from a zero-filled temporary; calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d43l_team_flag_of_named_8029d89c",
+  "source": "source/matching/game/d43l/d43l_team_flag_of_named_8029d89c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d43l_team_flag_of_named_8029d89c": "0x8029d89c"
+  },
+  "descriptions": {
+    "d43l_team_flag_of_named_8029d89c": "Returns 1 when the setting is empty or starts with a space; otherwise looks the name up in the team list and returns whether the matching team's flag at +44 is set, or 0 when there is no match."
+  }
+}

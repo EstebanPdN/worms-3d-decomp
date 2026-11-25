@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_owner_apply_property_8003d0a0",
+  "source": "source/matching/game/k4a/k4a_owner_apply_property_8003d0a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_owner_apply_property_8003d0a0": "0x8003d0a0"
+  },
+  "descriptions": {
+    "k4a_owner_apply_property_8003d0a0": "Appears to resolve an index from a source and, if it is below 16, apply that entry's property value to the held object."
+  }
+}

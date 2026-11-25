@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bi_8020dd44",
+  "source": "source/matching/game/s21/s21_bi_8020dd44.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_double_8020dd44": "0x8020dd44"
+  },
+  "descriptions": {
+    "w3d_s21_write_double_8020dd44": "Appears to format a double with width and precision taken from the writer's format bits into a stack buffer, write it through the stream slot and return the writer."
+  }
+}

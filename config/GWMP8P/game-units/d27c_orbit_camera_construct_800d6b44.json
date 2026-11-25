@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_orbit_camera_construct_800d6b44",
+  "source": "source/matching/game/d27c/d27c_orbit_camera_construct_800d6b44.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_orbit_camera_construct_800d6b44": "0x800d6b44"
+  },
+  "descriptions": {
+    "d27c_orbit_camera_construct_800d6b44": "Construct an orbit camera object and bind its settings."
+  }
+}

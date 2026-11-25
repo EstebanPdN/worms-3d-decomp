@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_handler_notify_8021020c",
+  "source": "source/matching/game/d30k/d30k_handler_notify_8021020c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_handler_notify_8021020c": "0x8021020c"
+  },
+  "descriptions": {
+    "w3d_d30k_handler_notify_8021020c": "Notifies the registered handlers and the manager's listeners."
+  }
+}

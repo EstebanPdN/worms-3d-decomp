@@ -1,0 +1,11 @@
+{
+  "unit": "cc18a_resource_sinit_8017e974",
+  "source": "source/matching/game/cc18a/cc18a_resource_sinit_8017e974.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18a_resource_sinit_8017e974": "0x8017e974"
+  },
+  "descriptions": {
+    "w3d_cc18a_resource_sinit_8017e974": "Clears the observed64-word resource table, constructs the graphical-resource type descriptor and installs its observed interface tables."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d31d_lists_erase_id_801565e4",
+  "source": "source/matching/game/d31d/d31d_lists_erase_id_801565e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31d_lists_erase_id_801565e4": "0x801565e4"
+  },
+  "descriptions": {
+    "w3d_d31d_lists_erase_id_801565e4": "If the object's enabled word at +384 is set, searches its four integer lists at +100 for an id; the first match is erased by moving the tail down with memcpy and the function returns."
+  }
+}

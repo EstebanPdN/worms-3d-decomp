@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_a34_disc",
+  "source": "source/matching/game/tterra_a34/tterra_a34_disc.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_a34_disc_initialize_800c6e44": "0x800c6e44"
+  },
+  "descriptions": {
+    "tterra_a34_disc_initialize_800c6e44": "Experimental constructor with inferred object layout and held interfaces."
+  }
+}

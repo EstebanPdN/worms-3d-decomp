@@ -1,0 +1,25 @@
+{
+  "unit": "h1_libgcc2_b",
+  "source": "source/matching/game/h1/h1_libgcc2_b.c",
+  "language": "c",
+  "functions": {
+    "__lshrdi3": "0x802f3ecc",
+    "__fixdfdi": "0x802f3c74",
+    "__floatdidf": "0x802f3e70",
+    "__terminate": "0x802f4dec",
+    "w3d_terminate_forward_802f4440": "0x802f4440",
+    "w3d_eh_context_static_802f4e4c": "0x802f4e4c",
+    "w3d_eh_context_initialize_802f4e18": "0x802f4e18",
+    "__fixunsdfdi": "0x802f3cb8"
+  },
+  "descriptions": {
+    "__lshrdi3": "libgcc2 __lshrdi3: shifts an unsigned 64-bit integer right by b bits.",
+    "__fixdfdi": "libgcc2 __fixdfdi: converts a double to a signed 64-bit integer through __fixunsdfdi, negating around it for negative values.",
+    "__floatdidf": "libgcc2 __floatdidf: converts a signed 64-bit integer to double as high word * 2^32 plus the unsigned low word.",
+    "__terminate": "libgcc2 __terminate: calls the current terminate handler.",
+    "w3d_terminate_forward_802f4440": "Calls __terminate.",
+    "w3d_eh_context_static_802f4e4c": "libgcc2 eh_context_static: zeroes the static exception context once, points its handler chain at a static top element and returns it.",
+    "w3d_eh_context_initialize_802f4e18": "libgcc2 eh_context_initialize: switches the get_eh_context hook to eh_context_static and returns its result.",
+    "__fixunsdfdi": "libgcc2 __fixunsdfdi: converts a non-negative double to an unsigned 64-bit integer (high word from a / 2^32, then the corrected low word); negatives give 0."
+  }
+}

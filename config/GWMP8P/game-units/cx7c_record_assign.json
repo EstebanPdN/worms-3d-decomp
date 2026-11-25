@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_record_assign",
+  "source": "source/matching/game/cx7c/cx7c_record_assign.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_record_assign_8035c32c": "0x8035c32c"
+  },
+  "descriptions": {
+    "w3d_cx7c_record_assign_8035c32c": "Assigns an inferred 12-byte record, retaining the incoming interface and two strings before releasing each previous value; string refcounts are at data-6, interface retain/release slots +12/+16."
+  }
+}

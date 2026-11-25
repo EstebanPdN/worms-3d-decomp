@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a9_point_marker_80008098",
+  "source": "source/matching/game/sol35a9/sol35a9_point_marker_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a9_point_marker_80008098": "0x80008098"
+  },
+  "descriptions": {
+    "sol35a9_point_marker_80008098": "Allocate and append a type-12 point plan, copy its three-float target through a by-value setter and register it; then allocate, append and register a type-13 marker. Distinct inferred derived types and real base-pointer conversion temporaries; GC32 bounded source reconstruction."
+  }
+}

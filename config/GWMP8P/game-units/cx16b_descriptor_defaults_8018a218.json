@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_descriptor_defaults_8018a218",
+  "source": "source/matching/game/cx16b/cx16b_descriptor_defaults_8018a218.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_descriptor_defaults_8018a218": "0x8018a218"
+  },
+  "descriptions": {
+    "w3d_cx16b_descriptor_defaults_8018a218": "Copies observed descriptor fields and the two float components; initializes color-like subobjects with inline stores ordered to reproduce the original scheduling."
+  }
+}

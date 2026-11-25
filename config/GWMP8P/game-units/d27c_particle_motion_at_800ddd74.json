@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_particle_motion_at_800ddd74",
+  "source": "source/matching/game/d27c/d27c_particle_motion_at_800ddd74.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_particle_motion_at_800ddd74": "0x800ddd74"
+  },
+  "descriptions": {
+    "d27c_particle_motion_at_800ddd74": "Compute a particle's position at a given age, applying wind, drag or gravity, and spiral."
+  }
+}

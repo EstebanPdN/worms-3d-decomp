@@ -1,0 +1,11 @@
+{
+  "unit": "s19_misc_m",
+  "source": "source/matching/game/s19/s19_misc_m.c",
+  "language": "c",
+  "functions": {
+    "s19_probe_value_8001b8f0": "0x8001b8f0"
+  },
+  "descriptions": {
+    "s19_probe_value_8001b8f0": "Appears to refresh a global query object for the argument, read a float for the given time and forward it to a helper when found, otherwise return zero."
+  }
+}

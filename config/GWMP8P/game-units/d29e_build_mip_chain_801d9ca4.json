@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_build_mip_chain_801d9ca4",
+  "source": "source/matching/game/d29e/d29e_build_mip_chain_801d9ca4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_build_mip_chain_801d9ca4": "0x801d9ca4"
+  },
+  "descriptions": {
+    "w3d_d29e_build_mip_chain_801d9ca4": "Rebuilds a texture's mip levels: counts the levels from the larger of width and height; if the owner does not force a rebuild (+44 of self minus 4) and the count is unchanged returns 0; otherwise stores the count, reallocates through 0x801afac0, makes the pixels writable and downsamples each level from the previous one through 0x801b0a14. Returns 0. Names are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f11a_apply_team_name_80299520",
+  "source": "source/matching/game/f11a/f11a_apply_team_name_80299520.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f11a_apply_team_name_80299520": "0x80299520"
+  },
+  "descriptions": {
+    "w3d_f11a_apply_team_name_80299520": "For an empty by-value shared name, write zero to User.Skill. Otherwise compute the team-property comparison result, require exact result1 for the initial flag, clear that flag when Q.Perm reads1, and call the observed team flag helper with a retained by-value copy of the name. Release the unused local held interface and the incoming shared name along the observed paths. Names, roles and ABI types inferred; referenced property data remains external and unowned."
+  }
+}

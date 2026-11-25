@@ -1,0 +1,11 @@
+{
+  "unit": "f10c_destroy_tree_owner_80203b08",
+  "source": "source/matching/game/f10c/f10c_destroy_tree_owner_80203b08.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._19F10c_80203b08_Owner": "0x80203b08"
+  },
+  "descriptions": {
+    "_._19F10c_80203b08_Owner": "Destroy the five observed tree containers through original erase helpers, restore their header links and counts, release their storage, destroy two trivial-element vectors with cached end iterators, release the held interface, and finish the tagged base and optional class deallocation in native C++ destruction order. Factory80203910 allocates152 bytes and constructor80203970 initializes the observed fields. Layout and semantic names are inferred; unused bytes are explicit unknown storage."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "s8mnospill_8009dd10",
+  "source": "source/matching/game/auto/s8mnospill_8009dd10.c",
+  "language": "c",
+  "functions": {
+    "s8_recovered_8009dd10": "0x8009dd10",
+    "s8_recovered_800a7ea0": "0x800a7ea0",
+    "s8_recovered_800f0c6c": "0x800f0c6c",
+    "s8_recovered_800f2f28": "0x800f2f28",
+    "s8_recovered_800f6e28": "0x800f6e28"
+  },
+  "descriptions": {
+    "s8_recovered_8009dd10": "Accesses observed fields 8, 0xC, 0x10, 0x80. Calls 2 external routines including 0x80165254, 0x80209920.",
+    "s8_recovered_800a7ea0": "Calls 1 external routines including 0x800a7e14.",
+    "s8_recovered_800f0c6c": "Calls 2 external routines including 0x8015f518, 0x80160038.",
+    "s8_recovered_800f2f28": "Accesses observed fields 0x10, 0x20. Calls 4 external routines including 0x800f339c, 0x800f342c, 0x800f34a0, 0x800f6afc.",
+    "s8_recovered_800f6e28": "Calls 1 external routines including 0x801629f8."
+  }
+}

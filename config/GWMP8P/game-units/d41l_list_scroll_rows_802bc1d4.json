@@ -1,0 +1,19 @@
+{
+  "unit": "d41l_list_scroll_rows_802bc1d4",
+  "source": "source/matching/game/d41l/d41l_list_scroll_rows_802bc1d4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d41l_list_scroll_rows_802bc1d4": "0x802bc1d4"
+  },
+  "descriptions": {
+    "d41l_list_scroll_rows_802bc1d4": "Walks the list rows from the scroll position down the view, creating missing row elements, placing and fading them, and prunes unused ones."
+  }
+}

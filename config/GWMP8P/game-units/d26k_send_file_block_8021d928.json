@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_send_file_block_8021d928",
+  "source": "source/matching/game/d26k/d26k_send_file_block_8021d928.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_send_file_block_8021d928": "0x8021d928"
+  },
+  "descriptions": {
+    "w3d_d26k_send_file_block_8021d928": "Reads a chunk into a new packet, updates the total at +28, handles a short read (result 2, state 4, reader closed), stores length and id in the packet, then finishes locally or sends through 0x8021e930 and stamps +24."
+  }
+}

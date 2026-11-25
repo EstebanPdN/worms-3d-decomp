@@ -1,0 +1,15 @@
+{
+  "unit": "d26i_wind_sound_update_80131338",
+  "source": "source/matching/game/d26i/d26i_wind_sound_update_80131338.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26i_wind_sound_update_80131338": "0x80131338"
+  },
+  "descriptions": {
+    "d26i_wind_sound_update_80131338": "Reads the listener position and wind direction, queries the sound's base volume, smooths the stored volume towards the phase-scaled target and sends it, then smooths the level from a sine of the phase and sends it."
+  }
+}

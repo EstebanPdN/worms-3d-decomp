@@ -1,0 +1,11 @@
+{
+  "unit": "f8c_skin_normal_801a15f8",
+  "source": "source/matching/game/f8c/f8c_skin_normal_801a15f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8c_skin_normal_801a15f8": "0x801a15f8"
+  },
+  "descriptions": {
+    "f8c_skin_normal_801a15f8": "Inferred weighted direction transform over strided triplets with byte matrix indices, raw-zero additional-weight predicate and lookup-seeded reciprocal-square-root normalization. Matrix64-byte view, lookup role and input contract inferred from accesses; one4-byte bit-conversion scratch is explicit, no unexplained frame reservation."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d11a_update_channels_800fdfec",
+  "source": "source/matching/game/d11a/d11a_update_channels_800fdfec_v5.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d11a_update_channels_800fdfec": "0x800fdfec"
+  },
+  "descriptions": {
+    "d11a_update_channels_800fdfec": "Advance a selected two-channel envelope with unsigned elapsed ticks, compute and clamp the attack/release ratios, quantize both float channel amplitudes to bytes, and forward them or zero values after expiry while preserving original comparisons and floating-point order."
+  }
+}

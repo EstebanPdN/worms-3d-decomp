@@ -1,0 +1,12 @@
+{
+  "unit": "d25l_clear_selection_802b66c4",
+  "source": "source/matching/game/d25l/d25l_clear_selection_802b66c4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d25l_clear_selection_802b66c4": "0x802b66c4"
+  },
+  "descriptions": {
+    "d25l_clear_selection_802b66c4": "Releases the two held objects at +212 and +216, frees the buffers at +284 and +288 through 0x8015fd1c, clears the global current-owner word when the flag at +408 is 1, deletes the record owner at +404, then releases the slots and tears down the sub-object at +28."
+  }
+}

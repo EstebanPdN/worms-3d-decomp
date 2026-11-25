@@ -1,0 +1,11 @@
+{
+  "unit": "cc37a_projectile_tick_800ed690",
+  "source": "source/matching/game/cc37a/cc37a_projectile_tick_800ed690.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc37a_projectile_tick_800ed690": "0x800ed690"
+  },
+  "descriptions": {
+    "cc37a_projectile_tick_800ed690": "Tick an unpaused projectile through ordered preparation callbacks, signed deadline selection, enabled motion or stopping, and final timestamp callback; return twenty."
+  }
+}

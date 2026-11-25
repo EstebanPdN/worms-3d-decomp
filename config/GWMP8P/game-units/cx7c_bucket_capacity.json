@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_bucket_capacity",
+  "source": "source/matching/game/cx7c/cx7c_bucket_capacity.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_bucket_capacity_8035c518": "0x8035c518"
+  },
+  "descriptions": {
+    "w3d_cx7c_bucket_capacity_8035c518": "Selects the first original prime-table bucket count at least as large as requested, or its last entry if requested exceeds the table; original table and lower-bound helper remain external."
+  }
+}

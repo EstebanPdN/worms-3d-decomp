@@ -1,0 +1,11 @@
+{
+  "unit": "g3a_create_border_8028a784",
+  "source": "source/matching/game/g3a/g3a_create_border_8028a784.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g3a_create_border_8028a784": "0x8028a784"
+  },
+  "descriptions": {
+    "w3d_g3a_create_border_8028a784": "Lazily creates the memory-card border control, attaches it to the context, looks up border thickness, initializes position and layout, links the retained parent and releases the returned child handle. Stores state two after setup. Only complete observed handle and vector values are constructed; the outer UI object is a partial view."
+  }
+}

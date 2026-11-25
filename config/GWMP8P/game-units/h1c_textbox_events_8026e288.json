@@ -1,0 +1,11 @@
+{
+  "unit": "h1c_textbox_events_8026e288",
+  "source": "source/matching/game/h1c/h1c_textbox_events_8026e288.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_h1c_textbox_events_8026e288": "0x8026e288"
+  },
+  "descriptions": {
+    "w3d_h1c_textbox_events_8026e288": "Routes textbox initialization, reset, pointer hit tests, row selection and keyboard increment/decrement events. Synchronizes the child selection, activation callbacks and timer state; applies named numeric updates from message payloads and forwards unconsumed events to the control/base handlers. External object offsets are observed partial views. Hit records contain exactly two float outputs and two integer outputs."
+  }
+}

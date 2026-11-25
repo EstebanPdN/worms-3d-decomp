@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_commit_team_store_80298e84",
+  "source": "source/matching/game/d27f/d27f_commit_team_store_80298e84.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_commit_team_store_80298e84": "0x80298e84"
+  },
+  "descriptions": {
+    "d27f_commit_team_store_80298e84": "Frontend team commit: runs 0x80297b8c, looks up DATA.TeamBarracks and FE.TempTeamStore, finds the barracks entry matching the store's name, and propagates a new object holding the store onto that entry."
+  }
+}

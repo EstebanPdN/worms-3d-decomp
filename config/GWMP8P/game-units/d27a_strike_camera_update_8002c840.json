@@ -1,0 +1,14 @@
+{
+  "unit": "d27a_strike_camera_update_8002c840",
+  "source": "source/matching/game/d27a/d27a_strike_camera_update_8002c840.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_strike_camera_update_8002c840": "0x8002c840"
+  },
+  "descriptions": {
+    "w3d_d27a_strike_camera_update_8002c840": "Unless the state +76 is 1, reads AIStrike.TargetPoint, Direction and UpVector with 0x800fc2f0. Computes the heading error against +84, wrapped to plus or minus pi. If the target matches +16 within 0.2 per axis and the error is within one degree, posts message 13 once via 0x801613f0 and sets the state to 1. Otherwise walks the camera points +88, +96, +100, +108 towards the target at a property rate and turns +84 towards the heading."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

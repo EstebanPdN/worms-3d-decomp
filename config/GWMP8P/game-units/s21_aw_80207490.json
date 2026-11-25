@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aw_80207490",
+  "source": "source/matching/game/s21/s21_aw_80207490.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_acquire_cleared_80207490": "0x80207490"
+  },
+  "descriptions": {
+    "w3d_s21_acquire_cleared_80207490": "Appears to obtain an object from a helper for a global handle, clear its first two words and return it."
+  }
+}

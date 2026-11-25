@@ -1,0 +1,19 @@
+{
+  "unit": "s2_hud_visibility_r3",
+  "source": "source/matching/game/s2_hud_visibility_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hud_visibility_8011ac1c": "0x8011ac1c",
+    "w3d_hud_position_8011acf4": "0x8011acf4",
+    "w3d_hud_properties_8011adf8": "0x8011adf8",
+    "w3d_hud_release_resources_8011af40": "0x8011af40",
+    "w3d_hud_set_visible_8011afac": "0x8011afac"
+  },
+  "descriptions": {
+    "w3d_hud_visibility_8011ac1c": "Updates two HUD resources according to visibility, engine state and the global suppression flag.",
+    "w3d_hud_position_8011acf4": "Copies a changed HUD position and invokes the virtual transform update when a backing resource exists.",
+    "w3d_hud_properties_8011adf8": "Copies two HUD properties and forwards both values to the held resource.",
+    "w3d_hud_release_resources_8011af40": "Releases both held HUD resources and clears their pointers.",
+    "w3d_hud_set_visible_8011afac": "Stores HUD visibility and applies it to both held resources when the first resource exists."
+  }
+}

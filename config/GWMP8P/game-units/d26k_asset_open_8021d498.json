@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_asset_open_8021d498",
+  "source": "source/matching/game/d26k/d26k_asset_open_8021d498.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_asset_open_8021d498": "0x8021d498"
+  },
+  "descriptions": {
+    "w3d_d26k_asset_open_8021d498": "Assigns the path to the shared name at +68, swaps the retained object at +36 (retain new, release old), sets kind 3; if the probe 0x8021d8b4 fails sets state 5, otherwise stores size from 0x8021d830 at +64 and the 0x8021d5c4 result at +44 with state 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_8024e980",
+  "source": "source/matching/game/k4b/k4b_a_8024e980.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_material_slot_construct_8024e980": "0x8024e980"
+  },
+  "descriptions": {
+    "w3d_k4b_material_slot_construct_8024e980": "Appears to construct a derived named colour object over 0x801b4bcc: vtable 0x8041b7a8 and four retained shared default interfaces at +44..+56."
+  }
+}

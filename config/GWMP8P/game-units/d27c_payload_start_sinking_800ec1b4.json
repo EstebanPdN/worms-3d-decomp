@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_payload_start_sinking_800ec1b4",
+  "source": "source/matching/game/d27c/d27c_payload_start_sinking_800ec1b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_payload_start_sinking_800ec1b4": "0x800ec1b4"
+  },
+  "descriptions": {
+    "d27c_payload_start_sinking_800ec1b4": "Switch a payload to its sinking state, clamping its velocity between the sink speed settings."
+  }
+}

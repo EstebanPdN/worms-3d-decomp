@@ -1,0 +1,11 @@
+{
+  "unit": "f10b_random_drop_8008a30c",
+  "source": "source/matching/game/f10b/f10b_random_drop_8008a30c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f10b_random_drop_8008a30c": "0x8008a30c"
+  },
+  "descriptions": {
+    "f10b_random_drop_8008a30c": "Configure a random crate drop when team and activity gates permit, derive health/weapon/utility thresholds, invoke the observed weighted selectors, and append/reset successful drops or log eligible failures. Original unsigned random modulo, separate shower branches, property-local storage and type-ancestry loops are preserved. Names and external interfaces are inferred."
+  }
+}

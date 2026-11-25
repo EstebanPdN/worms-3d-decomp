@@ -1,0 +1,19 @@
+{
+  "unit": "s3_render_owners",
+  "source": "source/matching/game/s3_render_owners.c",
+  "language": "c",
+  "functions": {
+    "w3d_render_owner_destroy": "0x8015dcdc",
+    "w3d_render_owner_initialize": "0x8015df2c",
+    "w3d_render_owner_finish": "0x8015e900",
+    "w3d_render_register_service": "0x8015ea78",
+    "w3d_render_alternate_owner_destroy": "0x8015ee04"
+  },
+  "descriptions": {
+    "w3d_render_owner_destroy": "Releases renderer-owner services, item collections and storage.",
+    "w3d_render_owner_initialize": "Initializes cameras and rendering services after base preparation.",
+    "w3d_render_owner_finish": "Finishes active rendering and clears retained rendering services.",
+    "w3d_render_register_service": "Registers the XRender service descriptor.",
+    "w3d_render_alternate_owner_destroy": "Releases alternate renderer-owner services, collections and storage."
+  }
+}

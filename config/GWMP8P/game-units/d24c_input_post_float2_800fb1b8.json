@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_input_post_float2_800fb1b8",
+  "source": "source/matching/game/d24c/d24c_input_post_float2_800fb1b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_input_post_float2_800fb1b8": "0x800fb1b8"
+  },
+  "descriptions": {
+    "d24c_input_post_float2_800fb1b8": "Build a derived input record (base vtable 0x80410500, then 0x804104b0), push it on the vector at +204 of the 0x804aaf48 service when +428 is non-zero, else on +108, growing through 0x80212fd4 with fallback 0x803413d8 and freeing through 0x802134fc; then call the matching process function with the service and the record."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d41g_flow_start_8006c4a8",
+  "source": "source/matching/game/d41g/d41g_flow_start_8006c4a8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41g"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d41g_flow_start_8006c4a8": "0x8006c4a8"
+  },
+  "descriptions": {
+    "d41g_flow_start_8006c4a8": "Starts the game flow object: loads the FCS title and menu timeouts, clears a flag, loads the sound bank, subscribes to 28 messages, walks the command line arguments in upper case (names after / or + post their debug messages, plus flags HOST, JOIN, NOAUTOLOOP and VALIDATEGAMESTATE), falls back to the default mode, posts the default level message and loads the game over resource."
+  }
+}

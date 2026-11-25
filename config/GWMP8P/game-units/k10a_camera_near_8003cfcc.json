@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_camera_near_8003cfcc",
+  "source": "source/matching/game/k10a/k10a_camera_near_8003cfcc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_camera_near_8003cfcc": "0x8003cfcc"
+  },
+  "descriptions": {
+    "w3d_k10a_camera_near_8003cfcc": "Appears to test whether the camera is within 50 units of the worm record referenced by an object; true when there is no record."
+  }
+}

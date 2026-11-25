@@ -1,0 +1,11 @@
+{
+  "unit": "g7b_copy_stereo_802e1d7c",
+  "source": "source/matching/game/g7b/g7b_copy_stereo_802e1d7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g7b_copy_stereo_802e1d7c": "0x802e1d7c"
+  },
+  "descriptions": {
+    "g7b_copy_stereo_802e1d7c": "Copies stereo frames from the observed four-segment movie/audio ring into the output. Returns unchanged when the external stream is null; zeroes requested output if active/source/decoded guards fail, and zeroes the remaining output on an empty segment. Refreshes state for each frame, reads unsigned16 gain from original table804040ec indexed by truncated volume, scales two signed16 inputs with arithmetic shift15, clamps each complete signed32 sample word to[-32768,32767], and copies its big-endian low half to output. Advances the external segment cursor/count and wraps consumed ring index0..3. Local SampleWord is a complete4-byte union; Player/Stream/Segment semantic roles are inferred external views only. No owned initialized data or artificial storage."
+  }
+}

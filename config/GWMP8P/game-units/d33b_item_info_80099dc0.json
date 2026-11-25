@@ -1,0 +1,20 @@
+{
+  "unit": "d33b_item_info_80099dc0",
+  "source": "source/matching/game/d33b/d33b_item_info_80099dc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d33b_item_info_80099dc0": "0x80099dc0"
+  },
+  "descriptions": {
+    "d33b_item_info_80099dc0": "Builds the item info page: writes the title lines from the table 0x803f4bd0, formats the item count and offset, prints name, description and both numbers, reads the selected text entry into a string through a text stream, splits it at newlines into a vector of strings, strips each up to its last backslash and from any plus sign, prints each 'label:value' row (first five in colour 9, the rest in colour 7), adds the options footer, writes the page to the sink and sets the state +40 to 3 and the mode +36 to 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ]
+}

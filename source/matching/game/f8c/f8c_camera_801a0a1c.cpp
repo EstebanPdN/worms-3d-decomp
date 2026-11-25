@@ -1,0 +1,9 @@
+// Names, roles, types, qualifiers and layouts are inferred from original instructions.
+struct F8cCamVec{float x,y,z;};struct F8cCamMatrix{float m[16];};struct F8cCamAffine{float rotation[9];F8cCamVec position;};
+extern const float lbl_803a9b14[],lbl_803a9b18[],lbl_803a9b1c[],lbl_803a9b20[];
+extern "C" void fn_801a0b80(void*);extern "C" int fn_801f69ec(F8cCamMatrix*,const F8cCamMatrix*);
+struct F8cCamConfig{char unknown[44];float width,height,nearValue,farValue,divisor;};
+struct F8cCamProvider{void**vtable;};
+struct F8cCamOwner{char unknown0[20];F8cCamMatrix inverse;char unknown1[64];float negativeX,positiveX,negativeY,positiveY,farValue,nearValue;unsigned zero;char unknown2[36];unsigned dirty;};
+struct F8cCamView{F8cCamAffine*matrix;unsigned unknown;};
+inline void F8cCamConvert(F8cCamMatrix&full,F8cCamAffine*m){float*pos=(float*)&m->position;full.m[0]=m->rotation[0];full.m[1]=m->rotation[1];full.m[2]=m->rotation[2];full.m[3]=lbl_803a9b1c[0];full.m[4]=m->rotation[3];full.m[5]=m->rotation[4];full.m[6]=m->rotation[5];full.m[7]=lbl_803a9b1c[0];full.m[8]=m->rotation[6];full.m[9]=m->rotation[7];full.m[10]=m->rotation[8];full.m[11]=lbl_803a9b1c[0];full.m[12]=pos[0];full.m[13]=pos[1];full.m[14]=pos[2];full.m[15]=lbl_803a9b20[0];}extern "C" int f8c_camera_801a0a1c(F8cCamOwner*self,F8cCamConfig*config,void*arg,F8cCamProvider*provider){float x=config->width*lbl_803a9b14[0];float y=config->height*lbl_803a9b14[0];float f=lbl_803a9b18[0];float d=config->divisor;x*=f;y*=f;self->zero=0;self->farValue=config->farValue;self->nearValue=config->nearValue;self->negativeX=-x/d;self->positiveX=x/d;self->negativeY=-y/d;self->positiveY=y/d;fn_801a0b80(self);F8cCamView view;((int(*)(F8cCamProvider*,F8cCamConfig*,void*,F8cCamView*))provider->vtable[9])(provider,config,arg,&view);F8cCamAffine*m=view.matrix;F8cCamMatrix full;F8cCamConvert(full,m); fn_801f69ec(&self->inverse,&full);self->dirty=0;return 0;}

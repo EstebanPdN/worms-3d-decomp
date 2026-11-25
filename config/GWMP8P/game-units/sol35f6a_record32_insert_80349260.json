@@ -1,0 +1,14 @@
+{
+  "unit": "sol35f6a_record32_insert_80349260",
+  "source": "source/matching/game/sol35f6a/sol35f6a_record32_insert_80349260.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "sol35f6a_record32_insert_80349260": "0x80349260"
+  },
+  "descriptions": {
+    "sol35f6a_record32_insert_80349260": "Inserts repeated observed 32-byte records into a GC32 vector. Copy construction retains three interface members and copies a counted reference array; assignment calls the original record helper. Growth constructs prefix, repeated values and suffix, destroys old members in reverse order, releases old storage and publishes the new vector bounds. Names and semantic types are inferred."
+  }
+}

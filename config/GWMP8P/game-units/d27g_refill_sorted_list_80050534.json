@@ -1,0 +1,11 @@
+{
+  "unit": "d27g_refill_sorted_list_80050534",
+  "source": "source/matching/game/d27g/d27g_refill_sorted_list_80050534.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27g_refill_sorted_list_80050534": "0x80050534"
+  },
+  "descriptions": {
+    "w3d_d27g_refill_sorted_list_80050534": "Releases every object in the list at +44 and clears each slot, clears the list, resizes it to the service count, fills it from the service read handle through a stack slot until the reader returns zero, then sorts it with qsort and the comparator at 0x800504d0."
+  }
+}

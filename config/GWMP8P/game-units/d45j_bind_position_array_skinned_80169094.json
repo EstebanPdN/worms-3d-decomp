@@ -1,0 +1,9 @@
+{
+  "unit": "d45j_bind_position_array_skinned_80169094",
+  "source": "source/matching/game/d45j/d45j_bind_position_array_skinned_80169094.cpp",
+  "language": "cpp",
+  "include_dirs": ["source/vendor/stlport-4.5.3/stlport","source/matching/game/d29s/compat","source/matching/game/d29s","source/matching"],
+  "functions": {"bind_position_array_skinned_80169094": "0x80169094"},
+  "descriptions": {"bind_position_array_skinned_80169094": "Flushes the command's dirty position buffer, skins the positions into temporary storage when an owner is present, points GX positions at the result and marks the driver state changed."},
+  "extra_flags": []
+}

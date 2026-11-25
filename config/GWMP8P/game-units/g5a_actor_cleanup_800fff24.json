@@ -1,0 +1,11 @@
+{
+  "unit": "g5a_actor_cleanup_800fff24",
+  "source": "source/matching/game/g5a/g5a_actor_cleanup_800fff24.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5a_actor_cleanup_800fff24": "0x800fff24"
+  },
+  "descriptions": {
+    "g5a_actor_cleanup_800fff24": "Installs vtable804105f8 on an external script-service receiver. If flag68 is set, releases and nulls held members64 and60. Calls80102474 to clear the external script state. Traverses the pointer range384/388, destroys nonnull32-byte pooled records and returns them to heap804af15c through80209920. Each record contains a string at4, held interface at12, a12-byte text-cache member at16, and live flag28; constructor8005ff48 allocates via32-byte caller8010391c and constructs8015f704 at16. The cache is an eight-byte base8015f558 plus its four-byte string at+8, preserving native nested destruction: string24, cache base16, held12, string4. Clears range384 using original pointer-return varargs copy802eee50 with zero length and exact byte delta. Traverses pointer range372/376 deleting held-interface boxes with801fe1f8, then clears that range identically. Native member cleanup releases both range buffers, strings364/360,28-byte node332 through8020803c with flag2, held64..44, and storage28; then forwards incoming flags to801628ec. All receiver,range,box and record instances are external, never locally constructed; native modeled storage covers all observed callee accesses. Unknown receiver bytes remain explicit; inferred names and ownership do not assert complete original class identity. No owned external data."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8dtor_800e2908",
+  "source": "source/matching/game/s8dtor_800e2908.c",
+  "language": "c",
+  "functions": {
+    "s8_destroy_800e2908": "0x800e2908"
+  },
+  "descriptions": {
+    "s8_destroy_800e2908": "Destructor: installs a vtable, releases 3 held interfaces and calls the base destructor with its flags."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d31k_handle_table_free_children_8034b6d8",
+  "source": "source/matching/game/d31k/d31k_handle_table_free_children_8034b6d8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d31k_handle_table_free_children_8034b6d8": "0x8034b6d8"
+  },
+  "descriptions": {
+    "w3d_d31k_handle_table_free_children_8034b6d8": "Frees every child of a handle table entry."
+  }
+}

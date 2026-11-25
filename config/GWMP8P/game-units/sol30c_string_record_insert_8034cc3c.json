@@ -1,0 +1,11 @@
+{
+  "unit": "sol30c_string_record_insert_8034cc3c",
+  "source": "source/matching/game/sol30c/sol30c_string_record_insert_8034cc3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol30c_record_fill_insert_8034cc3c": "0x8034cc3c"
+  },
+  "descriptions": {
+    "sol30c_record_fill_insert_8034cc3c": "Inserts n copies of an 8-byte record containing a shared string, two byte fields and a halfword into a vector. Constructs shifted tail records or allocates a larger block, retains copied strings, releases overwritten strings, destroys old records and updates the vector pointers."
+  }
+}

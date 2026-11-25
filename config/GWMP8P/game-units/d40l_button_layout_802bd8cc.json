@@ -1,0 +1,19 @@
+{
+  "unit": "d40l_button_layout_802bd8cc",
+  "source": "source/matching/game/d40l/d40l_button_layout_802bd8cc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d40l_button_layout_802bd8cc": "0x802bd8cc"
+  },
+  "descriptions": {
+    "d40l_button_layout_802bd8cc": "Lays out a button's edge and centre sprites from its size, origin and press state, then refreshes its colours and fade."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_read_header_80202f34",
+  "source": "source/matching/game/g5c/g5c_read_header_80202f34.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_read_header_80202f34": "0x80202f34"
+  },
+  "descriptions": {
+    "g5c_read_header_80202f34": "Clears and reads the external 64-byte stream header at offset60. On a nonnegative read checks magic0x4d4f494b, byte-swaps the version and nine following words, accepts versions up to0x02000000 and otherwise traces the original bad-version or bad-magic message and returns0x80004005. Propagates negative reader status. Header storage belongs to the external stream, no local aggregate is constructed, and no initialized data is owned. Header and diagnostic names are inferred from original accesses and strings."
+  }
+}

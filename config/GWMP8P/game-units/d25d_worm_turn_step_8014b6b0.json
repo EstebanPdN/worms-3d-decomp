@@ -1,0 +1,15 @@
+{
+  "unit": "d25d_worm_turn_step_8014b6b0",
+  "source": "source/matching/game/d25d/d25d_worm_turn_step_8014b6b0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d25d_worm_turn_step_8014b6b0": "0x8014b6b0"
+  },
+  "descriptions": {
+    "d25d_worm_turn_step_8014b6b0": "Worm turning step: spin and held-turn yaw, wrap, move with gravity."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s19_float_80015810",
+  "source": "source/matching/game/s19/s19_float_80015810.c",
+  "language": "c",
+  "functions": {
+    "s19_random_unit_80015810": "0x80015810"
+  },
+  "descriptions": {
+    "s19_random_unit_80015810": "Appears to return a pseudo-random float in the unit range from the low fifteen bits of the generator output."
+  }
+}

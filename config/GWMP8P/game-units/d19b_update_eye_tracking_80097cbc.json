@@ -1,0 +1,14 @@
+{
+  "unit": "d19b_update_eye_tracking_80097cbc",
+  "source": "source/matching/game/d19b/d19b_update_eye_tracking_80097cbc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d19b_update_eye_tracking_80097cbc": "0x80097cbc"
+  },
+  "descriptions": {
+    "d19b_update_eye_tracking_80097cbc": "Update the eye-tracking animation of the owner's model mesh. When tracking turns off, fade the horizontal and vertical eye tracks back to the scaled rest value, stop all transitions and play the reset clip; while idle, replay the main eye clip when the current transition has finished. When tracking turns on, stop transitions and play the reset clip; while tracking, fade both eye tracks toward the scaled look direction. Stores the new tracking state. The transition play call takes its integer flag after the three floats (ABI places it in r6). Partial observed layouts; no owned initialized data (constants and clip names are referenced, not owned). Compiled with the original paired-single float switch -mps-float (unflagged build differs only by the 16-byte frame gap of two saved FPRs)."
+  }
+}

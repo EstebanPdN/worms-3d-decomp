@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_heap_validate_80214718",
+  "source": "source/matching/game/d24k/d24k_heap_validate_80214718.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_heap_validate_80214718": "0x80214718"
+  },
+  "descriptions": {
+    "w3d_d24k_heap_validate_80214718": "Heap block validation: takes the 0x2000 lock bit unless exact or one-shot mode applies, finds the containing segment, checks the block header and calls the error callback with code 3 in exact mode, otherwise walks the segment's blocks and returns the offset into the block or -1; clears the lock bit before returning."
+  }
+}

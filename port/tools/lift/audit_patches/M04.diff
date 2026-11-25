@@ -1,0 +1,9 @@
+--- a/port/core/game/d33g/d33g_water_shade_8007eb54.cpp
++++ b/port/core/game/d33g/d33g_water_shade_8007eb54.cpp
+@@ -31,5 +31,5 @@
+ extern Vec lbl_8043add8[], lbl_8043ade4[];
+ extern "C" void w3d_copy_vectors_800bd808(Ptr32<Light>);
+-struct Tile { unsigned short a; unsigned short key; };
++struct Tile { unsigned short key; unsigned short a; }; /* palabra de 32 bits: key es la mitad baja, PPC +2 */
+ struct Batch { char unknown00[104]; unsigned short count; };
+ struct Mesh {

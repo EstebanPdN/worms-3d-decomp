@@ -1,0 +1,11 @@
+{
+  "unit": "cc29b_replace_font_8018dfa0",
+  "source": "source/matching/game/cc29b/cc29b_replace_font_8018dfa0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc29b_replace_font_8018dfa0": "0x8018dfa0"
+  },
+  "descriptions": {
+    "w3d_cc29b_replace_font_8018dfa0": "Fetches and temporarily retains a replacement font/group object, touches the held resource, then adds the mode-selected original component. Replaces the sink field before retaining new/releasing old, replaces the owner field with retain-before-release ordering, releases the temporary handle and returns zero. Four-byte handle view models the observed stack8 slot without claiming the original complete type size."
+  }
+}

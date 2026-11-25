@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_capture_direction_8009f7cc",
+  "source": "source/matching/game/cx14a/cx14a_capture_direction_8009f7cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_capture_direction_8009f7cc": "0x8009f7cc"
+  },
+  "descriptions": {
+    "w3d_cx14a_capture_direction_8009f7cc": "Looks up the original motion parameters, copies the observed velocity vector into the cached direction field with integer-word assignment, and normalizes the cached vector."
+  }
+}

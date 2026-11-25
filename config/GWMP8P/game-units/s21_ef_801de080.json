@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ef_801de080",
+  "source": "source/matching/game/s21/s21_ef_801de080.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_index_of_name_801de080": "0x801de080"
+  },
+  "descriptions": {
+    "w3d_s21_index_of_name_801de080": "Appears to return the index of the first object in the counted array returns a name from virtual slot 10 that equals the given text, else zero."
+  }
+}

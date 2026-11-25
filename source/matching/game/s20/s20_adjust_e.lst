@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_adjust_e.c
+w3d_s20_remap_and_dispatch_801aba00|0x801aba00|Appears to run a helper on an item, then dispatch the item's target through a handler table and notify the owner of the secondary base subobject.
+w3d_s20_apply_link_8016b5a0|0x8016b5a0|Appears to copy a record link into the secondary base subobject or dispatch the record through its handler table, then run a helper.

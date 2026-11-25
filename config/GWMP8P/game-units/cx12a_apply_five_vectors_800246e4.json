@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_apply_five_vectors_800246e4",
+  "source": "source/matching/game/cx12a/cx12a_apply_five_vectors_800246e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_apply_five_vectors_800246e4": "0x800246e4"
+  },
+  "descriptions": {
+    "w3d_cx12a_apply_five_vectors_800246e4": "Evaluate observed apply five vectors state and interface operations; names inferred from offsets and original control flow."
+  }
+}

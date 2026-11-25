@@ -1,0 +1,35 @@
+{
+  "unit": "h1_800cc6d0",
+  "source": "source/matching/game/h1/h1_800cc6d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_ninja_camera_construct_800cc6d0": "0x800cc6d0",
+    "w3d_h1_ninja_camera_destroy_800cc728": "0x800cc728",
+    "w3d_h1_forward_800cc75c": "0x800cc75c",
+    "w3d_address_800cc77c": "0x800cc77c",
+    "w3d_registry_unlink_800cc788": "0x800cc788",
+    "w3d_registry_release_800cc82c": "0x800cc82c",
+    "w3d_registry_retain_800cc888": "0x800cc888",
+    "w3d_constant_800ccaf0": "0x800ccaf0",
+    "w3d_h1_forward_800ccbf4": "0x800ccbf4",
+    "w3d_address_800cdaa8": "0x800cdaa8",
+    "w3d_registry_unlink_800cdab4": "0x800cdab4",
+    "w3d_registry_release_800cdb58": "0x800cdb58",
+    "w3d_registry_retain_800cdbb4": "0x800cdbb4"
+  },
+  "descriptions": {
+    "w3d_h1_ninja_camera_construct_800cc6d0": "Constructs the object through 0x800d2dec with the string \"Ninja\", stores a descriptor pointer at offset 72, registers the name \"NinjaCamera\" and returns the object.",
+    "w3d_h1_ninja_camera_destroy_800cc728": "Calls 0x800d308c and then 0x800d5028 on the object.",
+    "w3d_h1_forward_800cc75c": "Forwards its argument to 0x800d5028.",
+    "w3d_address_800cc77c": "Returns the address of the registry list at 0x80360b70.",
+    "w3d_registry_unlink_800cc788": "Removes the object link from registry list 0x80360b70 and decrements its count.",
+    "w3d_registry_release_800cc82c": "Decrements the reference count; at zero unlinks the object and destroys it with flags 3. Returns the remaining count.",
+    "w3d_registry_retain_800cc888": "Returns the reference count at offset 4 and then increments it.",
+    "w3d_constant_800ccaf0": "Returns -1.",
+    "w3d_h1_forward_800ccbf4": "Forwards its argument to 0x800ccd54 (pending payload clear).",
+    "w3d_address_800cdaa8": "Returns the address of the registry list at 0x80360ba0.",
+    "w3d_registry_unlink_800cdab4": "Removes the object link from registry list 0x80360ba0 and decrements its count.",
+    "w3d_registry_release_800cdb58": "Decrements the reference count; at zero unlinks the object and destroys it with flags 3. Returns the remaining count.",
+    "w3d_registry_retain_800cdbb4": "Returns the reference count at offset 4 and then increments it."
+  }
+}

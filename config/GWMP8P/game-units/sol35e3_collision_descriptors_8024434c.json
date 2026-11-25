@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e3_collision_descriptors_8024434c",
+  "source": "source/matching/game/sol35e3/sol35e3_collision_descriptors_8024434c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e3_collision_descriptors_8024434c": "0x8024434c"
+  },
+  "descriptions": {
+    "sol35e3_collision_descriptors_8024434c": "Registers twelve particle-collision descriptors in observed order, assigns the three-component default vector to the created radius-offset binding, and finalizes the descriptor owner."
+  }
+}

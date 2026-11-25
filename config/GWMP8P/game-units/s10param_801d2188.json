@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_801d2188",
+  "source": "source/matching/game/generated/s10param_801d2188.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_read_tree_value_801d2188": "0x801d2188"
+  },
+  "descriptions": {
+    "w3d_s10_read_tree_value_801d2188": "Advances an addressable tree iterator by the supplied index, writes the observed pair of node values to the outputs, and returns zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc35a_missile_phases_8009f138",
+  "source": "source/matching/game/cc35a/cc35a_missile_phases_8009f138.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc35a_missile_phases_8009f138": "0x8009f138"
+  },
+  "descriptions": {
+    "cc35a_missile_phases_8009f138": "Advance three homing-missile timing phases, conditionally play arm sound and invoke final vector action; original signed deadlines and zero vector."
+  }
+}

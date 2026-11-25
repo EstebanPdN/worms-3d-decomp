@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f7a_string_record_insert_8034d568",
+  "source": "source/matching/game/sol35f7a/sol35f7a_string_record_insert_8034d568.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f7a_string_record_insert_8034d568": "0x8034d568"
+  },
+  "descriptions": {
+    "sol35f7a_string_record_insert_8034d568": "Inserts repeated observed eight-byte records (shared string, two bytes and a halfword) into a GC32 vector. Retains copied string headers, releases overwritten strings, constructs growth prefix/fill/suffix, destroys old strings and publishes new bounds. Names and class identities are inferred."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "unit": "s6_ai_weapon_scores",
+  "source": "source/matching/game/s6_ai_weapon_scores.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ai_score_area_attack_8000dd04": "0x8000dd04",
+    "w3d_ai_bomber_damage_8000e058": "0x8000e058",
+    "w3d_ai_bomber_radius_8000e094": "0x8000e094",
+    "w3d_ai_bomber_range_8000e0bc": "0x8000e0bc",
+    "w3d_ai_score_weapon_base_8000eb64": "0x8000eb64",
+    "w3d_ai_projectile_damage_800102fc": "0x800102fc",
+    "w3d_ai_score_projectile_80010338": "0x80010338",
+    "w3d_ai_test_projectile_a_800103d4": "0x800103d4",
+    "w3d_ai_execute_projectile_80010414": "0x80010414",
+    "w3d_ai_test_projectile_b_80010538": "0x80010538",
+    "w3d_ai_test_projectile_c_80010584": "0x80010584",
+    "w3d_ai_splash_damage_800105cc": "0x800105cc",
+    "w3d_ai_splash_radius_80010608": "0x80010608"
+  },
+  "descriptions": {
+    "w3d_ai_score_area_attack_8000dd04": "Updates plan cost with an area attack score and tuning weights.",
+    "w3d_ai_bomber_damage_8000e058": "Reads bomber weapon damage and applies the damage modifier.",
+    "w3d_ai_bomber_radius_8000e094": "Reads the bomber weapon radius property.",
+    "w3d_ai_bomber_range_8000e0bc": "Reads the bomber weapon range property.",
+    "w3d_ai_score_weapon_base_8000eb64": "Updates base weapon cost and applies a special-plan multiplier.",
+    "w3d_ai_projectile_damage_800102fc": "Reads projectile weapon damage and applies the damage modifier.",
+    "w3d_ai_score_projectile_80010338": "Updates projectile plan cost using damage, exposure, and tuning weights.",
+    "w3d_ai_test_projectile_a_800103d4": "Tests a projectile query with a fixed parameter and continues the plan.",
+    "w3d_ai_execute_projectile_80010414": "Executes a projectile action with a fixed parameter.",
+    "w3d_ai_test_projectile_b_80010538": "Tests a projectile query with an alternate parameter and continues the plan.",
+    "w3d_ai_test_projectile_c_80010584": "Tests a projectile query with a third parameter and continues the plan.",
+    "w3d_ai_splash_damage_800105cc": "Reads splash weapon damage and applies the damage modifier.",
+    "w3d_ai_splash_radius_80010608": "Reads the splash weapon radius property."
+  }
+}

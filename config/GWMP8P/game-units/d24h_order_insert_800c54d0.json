@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_order_insert_800c54d0",
+  "source": "source/matching/game/d24h/d24h_order_insert_800c54d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_order_insert_800c54d0": "0x800c54d0"
+  },
+  "descriptions": {
+    "w3d_d24h_order_insert_800c54d0": "Sorted insert into the id vector 0x8043e448: scans for the first id whose table entry (0x804a85d8, read with 0x800f7508) has an order above the given one, then inserts the id there with the inlined STLport-shaped vector insert: in-place shift with memmove, or overflow growth to size + max(size, 1) with the 0x80212fd4 allocator and 0x803413d8 fallback."
+  }
+}

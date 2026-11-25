@@ -1,0 +1,11 @@
+{
+  "unit": "cc18b_widget3_8028ad4c",
+  "source": "source/matching/game/cc18b/cc18b_widget3_8028ad4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18b_widget3_construct_8028ad4c": "0x8028ad4c"
+  },
+  "descriptions": {
+    "w3d_cc18b_widget3_construct_8028ad4c": "Constructs the observed widget base and member, installs both vtables, clears scalar/three-word fields and sets the +308 default to 100."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k1k_table_find_8028924c",
+  "source": "source/matching/game/k1k/k1k_table_find_8028924c.c",
+  "language": "c",
+  "functions": {
+    "w3d_table_find_record_8028924c": "0x8028924c"
+  },
+  "descriptions": {
+    "w3d_table_find_record_8028924c": "Appears to return the 56-byte record at 0x80401340 whose first word equals the key, scanning until the -128 terminator; null if absent."
+  }
+}

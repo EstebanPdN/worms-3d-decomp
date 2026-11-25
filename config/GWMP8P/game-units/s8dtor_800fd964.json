@@ -1,0 +1,11 @@
+{
+  "unit": "s8dtor_800fd964",
+  "source": "source/matching/game/s8dtor_800fd964.c",
+  "language": "c",
+  "functions": {
+    "s8_destroy_800fd964": "0x800fd964"
+  },
+  "descriptions": {
+    "s8_destroy_800fd964": "Destructor: installs a vtable, releases 3 held interfaces and calls the base destructor with its flags."
+  }
+}

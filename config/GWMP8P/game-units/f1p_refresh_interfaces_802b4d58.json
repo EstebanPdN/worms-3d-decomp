@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_refresh_interfaces_802b4d58",
+  "source": "source/matching/game/f1p/f1p_refresh_interfaces_802b4d58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_refresh_interfaces_802b4d58": "0x802b4d58"
+  },
+  "descriptions": {
+    "w3d_refresh_interfaces_802b4d58": "Pushes observed enable flags to optional interfaces at +0xe0/+0xe4/+0xe8 through virtual slot +0x58; flags derive from words +0xb0/+0x8c and the third interface pointer."
+  }
+}

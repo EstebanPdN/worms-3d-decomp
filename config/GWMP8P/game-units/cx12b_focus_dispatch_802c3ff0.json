@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_focus_dispatch_802c3ff0",
+  "source": "source/matching/game/cx12b/cx12b_focus_dispatch_802c3ff0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_focus_dispatch_802c3ff0": "0x802c3ff0"
+  },
+  "descriptions": {
+    "w3d_cx12b_focus_dispatch_802c3ff0": "Dispatch a focus state to one of the original indexed or special child interface slots."
+  }
+}

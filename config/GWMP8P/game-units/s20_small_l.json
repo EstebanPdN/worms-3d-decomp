@@ -1,0 +1,13 @@
+{
+  "unit": "s20_small_l",
+  "source": "source/matching/game/s20/s20_small_l.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_store_and_dispatch_801a3190": "0x801a3190",
+    "w3d_s20_forward_global5_800e5cf0": "0x800e5cf0"
+  },
+  "descriptions": {
+    "w3d_s20_store_and_dispatch_801a3190": "Appears to store an object in the table at offset 72 and dispatch it through the handler table of the owner's secondary subobject.",
+    "w3d_s20_forward_global5_800e5cf0": "Appears to forward five arguments and a global object to a helper when the global exists, otherwise return zero."
+  }
+}

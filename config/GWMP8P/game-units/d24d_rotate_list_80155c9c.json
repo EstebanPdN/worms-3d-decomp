@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_rotate_list_80155c9c",
+  "source": "source/matching/game/d24d/d24d_rotate_list_80155c9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_rotate_list_80155c9c": "0x80155c9c"
+  },
+  "descriptions": {
+    "d24d_rotate_list_80155c9c": "For a valid id reads the list index byte (+60) of the record from 0x800fc7f8; when that list (+100) is not empty, erases its first value and appends it at the end, growing the storage through 0x80212fd4/0x802134fc when full."
+  }
+}

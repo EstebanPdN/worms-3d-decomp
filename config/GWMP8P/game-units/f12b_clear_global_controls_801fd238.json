@@ -1,0 +1,11 @@
+{
+  "unit": "f12b_clear_global_controls_801fd238",
+  "source": "source/matching/game/f12b/f12b_clear_global_controls_801fd238.cpp",
+  "language": "cpp",
+  "functions": {
+    "f12b_clear_globals_801fd238": "0x801fd238"
+  },
+  "descriptions": {
+    "f12b_clear_globals_801fd238": "Clears original global control resources through native C++ ownership: deletes eight 40-byte controls in two groups of four and clears their pointer groups; releases and clears two registry groups, each with three indexed and two iterated interface slots; deletes two 32-byte single-interface string controls; releases and clears three final shared interface slots; returns zero. Inlined group and held-interface reset APIs preserve the original iteration, lifetime, and zero-argument scheduling. Complete allocated control storage is represented, while registry groups are partial observed global views. Names, types, and roles are inferred; referenced globals remain externally owned."
+  }
+}

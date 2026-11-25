@@ -1,0 +1,14 @@
+{
+  "unit": "f3b_collision_response_800c2494",
+  "source": "source/matching/game/f3b/f3b_collision_response_800c2494.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3b_collision_response_800c2494": "0x800c2494"
+  },
+  "descriptions": {
+    "f3b_collision_response_800c2494": "Compute the vector dot product. When positive, retain the input length and replace the vector by the supplied normal scaled by length and the first scalar, unless the length is below the third scalar. Otherwise split the vector into projected and residual components, scale them by the first and second scalars, and subtract. Clear the result if its squared length is below the squared third scalar. Floating comparison branches retain the original unordered behavior. Collision-response roles are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

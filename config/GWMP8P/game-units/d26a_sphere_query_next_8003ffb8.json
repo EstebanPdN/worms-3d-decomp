@@ -1,0 +1,11 @@
+{
+  "unit": "d26a_sphere_query_next_8003ffb8",
+  "source": "source/matching/game/d26a/d26a_sphere_query_next_8003ffb8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_sphere_query_next_8003ffb8": "0x8003ffb8"
+  },
+  "descriptions": {
+    "w3d_d26a_sphere_query_next_8003ffb8": "Advances the global cursor over the item vector 0x804273ec, skipping the ignored index, items whose mask misses the query mask and the excluded owner; when an item's sphere overlaps the query sphere, stores delta, squared distance and hit vector, updates the cursor and returns the index. Returns 0xffff at the end."
+  }
+}

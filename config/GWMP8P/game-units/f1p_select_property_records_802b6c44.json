@@ -1,0 +1,13 @@
+{
+  "unit": "f1p_select_property_records_802b6c44",
+  "source": "source/matching/game/f1p/f1p_select_property_records_802b6c44.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_select_nonempty_property_record_802b6c44": "0x802b6c44",
+    "w3d_select_property_record_802b6da8": "0x802b6da8"
+  },
+  "descriptions": {
+    "w3d_select_nonempty_property_record_802b6c44": "When the observed busy field is zero, resolve the configured property and select a record using either its kind-zero or kind-one integer formatted with the original format string, its kind-four shared string assigned by retaining the incoming header before releasing the old one, or the native empty string for other kinds. Preserve unchecked lookup/null preconditions, both local native cleanup lifetimes and zero return. The held interface is passed by reference so each branch reloads it, and the actual external string constructor preserves the original local address lifetime. Types, names and owner/data prefixes remain inferred partial external views. No complete class allocation or initialized-data ownership is claimed. This entry additionally returns zero for an empty configured property name and performs lookup before constructing the result string.",
+    "w3d_select_property_record_802b6da8": "When the observed busy field is zero, resolve the configured property and select a record using either its kind-zero or kind-one integer formatted with the original format string, its kind-four shared string assigned by retaining the incoming header before releasing the old one, or the native empty string for other kinds. Preserve unchecked lookup/null preconditions, both local native cleanup lifetimes and zero return. The held interface is passed by reference so each branch reloads it, and the actual external string constructor preserves the original local address lifetime. Types, names and owner/data prefixes remain inferred partial external views. No complete class allocation or initialized-data ownership is claimed. This entry constructs the result string before lookup and preserves the original data pointer across that construction."
+  }
+}

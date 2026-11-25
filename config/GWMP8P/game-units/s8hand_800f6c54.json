@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800f6c54",
+  "source": "source/matching/game/s8hand_800f6c54.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_adjust_base_800f6c54": "0x800f6c54"
+  },
+  "descriptions": {
+    "s8_adjust_base_800f6c54": "Returns the pointer at offset 64 adjusted by the signed halfword at offset 86 of the second argument."
+  }
+}

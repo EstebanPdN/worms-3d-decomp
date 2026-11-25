@@ -1,0 +1,7 @@
+{
+  "unit": "k10b_dispatch_message_80161ce8",
+  "source": "source/matching/game/k10b/k10b_dispatch_message_80161ce8.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k10b_dispatch_message_80161ce8": "0x80161ce8"},
+  "descriptions": {"w3d_k10b_dispatch_message_80161ce8": "Appears to dispatch a message by its 16-bit id: id 64 runs a handler and notifies the owner, ids with bit 15 set (after a virtual check) are looked up in four 12-byte-stride tables and then the owner is notified; every other id falls through to the common handler. Message and table views are partial."}
+}

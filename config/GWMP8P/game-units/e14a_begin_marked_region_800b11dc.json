@@ -1,0 +1,11 @@
+{
+  "unit": "e14a_begin_marked_region_800b11dc",
+  "source": "source/matching/game/e14a/e14a_begin_marked_region_800b11dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_e14a_begin_marked_region_800b11dc": "0x800b11dc"
+  },
+  "descriptions": {
+    "w3d_e14a_begin_marked_region_800b11dc": "Copies the caller's three-word vector into the fixed global at 0x8043add8, clears the two state words at 0x804b1784 and 0x804b1810, stores the caller's id at 0x804b1814 and id+1 at 0x804b1764, then, only when the global service pointer at 0x804b17e0 is non-null, forwards that pointer to the marked-entry visitor at 0x800bd794."
+  }
+}

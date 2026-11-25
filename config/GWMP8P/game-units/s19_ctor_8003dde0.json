@@ -1,0 +1,11 @@
+{
+  "unit": "s19_ctor_8003dde0",
+  "source": "source/matching/game/s19/s19_ctor_8003dde0.c",
+  "language": "c",
+  "functions": {
+    "s19_actor_ctor_8003dde0": "0x8003dde0"
+  },
+  "descriptions": {
+    "s19_actor_ctor_8003dde0": "Appears to run the actor base initializer, install a vtable, initialize the handle member at +0x44, copy a global vector to +0x34 and clear or set the state fields."
+  }
+}

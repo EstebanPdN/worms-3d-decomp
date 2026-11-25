@@ -1,0 +1,14 @@
+{
+  "unit": "d20c_roll_update_800dbc60",
+  "source": "source/matching/game/d20c/d20c_roll_update_800dbc60.cpp",
+  "language": "cpp",
+  "functions": {
+    "d20c_roll_update_800dbc60": "0x800dbc60"
+  },
+  "descriptions": {
+    "d20c_roll_update_800dbc60": "Add the horizontal speed (velocity +108 with y = 0) times (2 * tick / pi + 1) * 0.0001 to the roll (+132), damp it by 1 percent and clamp it to [-5, 5]."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

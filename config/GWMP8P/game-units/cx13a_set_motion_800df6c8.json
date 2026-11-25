@@ -1,0 +1,14 @@
+{
+  "unit": "cx13a_set_motion_800df6c8",
+  "source": "source/matching/game/cx13a/cx13a_set_motion_800df6c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_set_motion_800df6c8": "0x800df6c8"
+  },
+  "descriptions": {
+    "w3d_cx13a_set_motion_800df6c8": "Copy three vectors and set the observed motion bit when either derivative vector has nonzero length; names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_named_mesh_init_8004e0dc",
+  "source": "source/matching/game/d24g/d24g_named_mesh_init_8004e0dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_named_mesh_init_8004e0dc": "0x8004e0dc"
+  },
+  "descriptions": {
+    "w3d_d24g_named_mesh_init_8004e0dc": "Initialises a named mesh object: loads two resources by name through one reference (types 0x80343584 and 0x8034357c) into +28 and +32 with retain/release, attaches the second to the first with the mode argument (slot +92), positions it at 0x8045e788 (slot +76), assigns four name strings at +60..+72 and stores 0x8004e544's result in +76."
+  }
+}

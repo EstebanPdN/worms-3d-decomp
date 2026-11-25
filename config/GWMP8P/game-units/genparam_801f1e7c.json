@@ -1,0 +1,11 @@
+{
+  "unit": "genparam_801f1e7c",
+  "source": "source/matching/game/generated/genparam_801f1e7c.c",
+  "language": "c",
+  "functions": {
+    "w3d_pmf_forward_801f1e7c": "0x801f1e7c"
+  },
+  "descriptions": {
+    "w3d_pmf_forward_801f1e7c": "Forwards its three arguments and copies of the two 8-byte member-function pointers at fixed object offsets to a per-class callee."
+  }
+}

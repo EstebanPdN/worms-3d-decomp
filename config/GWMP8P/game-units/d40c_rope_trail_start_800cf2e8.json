@@ -1,0 +1,15 @@
+{
+  "unit": "d40c_rope_trail_start_800cf2e8",
+  "source": "source/matching/game/d40c/d40c_rope_trail_start_800cf2e8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40c"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d40c_rope_trail_start_800cf2e8": "0x800cf2e8"
+  },
+  "descriptions": {
+    "d40c_rope_trail_start_800cf2e8": "Rope start: fetches the rope descriptor, sets the aim vector (angle from 0x800d1698, which takes the descriptor float in f1, when already attached), rotates the base vector through the euler matrix, stores the rope position and pushes the first trail entry raised by the eye height setting."
+  }
+}

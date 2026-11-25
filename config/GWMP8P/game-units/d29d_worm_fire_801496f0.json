@@ -1,0 +1,15 @@
+{
+  "unit": "d29d_worm_fire_801496f0",
+  "source": "source/matching/game/d29d/d29d_worm_fire_801496f0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29d_worm_fire_801496f0": "0x801496f0"
+  },
+  "descriptions": {
+    "d29d_worm_fire_801496f0": "Worm fires its selected weapon. Scans sixty ammunition slots with 0x800fcea0: an available slot stops the scan; otherwise the slot index is recorded (except 49 and 50) and a message is posted, and 58 is recorded if none is left. Clears links when the weapon needs it, marks the worm fired, posts a message, and either creates a generic entity from the weapon table's type or, by weapon number, creates that weapon's entity from its descriptor and sends it to the entity service; finally posts a fired message."
+  }
+}

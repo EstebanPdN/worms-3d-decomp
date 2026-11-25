@@ -1,0 +1,11 @@
+{
+  "unit": "s1_display_resources",
+  "source": "source/matching/game/s1_display_resources.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80041ef8": "0x80041ef8"
+  },
+  "descriptions": {
+    "w3d_fn_80041ef8": "Initializes display resource collections and reference holders."
+  }
+}

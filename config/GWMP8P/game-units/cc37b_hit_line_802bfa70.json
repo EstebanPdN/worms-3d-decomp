@@ -1,0 +1,11 @@
+{
+  "unit": "cc37b_hit_line_802bfa70",
+  "source": "source/matching/game/cc37b/cc37b_hit_line_802bfa70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc37b_hit_line_802bfa70": "0x802bfa70"
+  },
+  "descriptions": {
+    "w3d_cc37b_hit_line_802bfa70": "Tests enabled text region and scans24-byte line spans, returning the first horizontal hit index or final span index after vertical acceptance, including empty-span index-1. Preserves original single-precision arithmetic, > then !< vertical rejection tree (unordered y proceeds), ordered horizontal inclusive tests, aliased index-store ordering, reloaded span end, and shared return paths. Float parameters, field meanings and partial views are inferred; no complete original sizeof or ownership claim."
+  }
+}

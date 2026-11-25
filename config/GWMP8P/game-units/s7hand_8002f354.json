@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002f354",
+  "source": "source/matching/game/s7/s7hand_8002f354.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002f354": "0x8002f354"
+  },
+  "descriptions": {
+    "w3d_auto_8002f354": "Replaces held interface pointers, retains incoming interfaces, and passes each old interface object explicitly to its virtual release method."
+  }
+}

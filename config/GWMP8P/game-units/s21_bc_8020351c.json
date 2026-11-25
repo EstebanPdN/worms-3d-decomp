@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bc_8020351c",
+  "source": "source/matching/game/s21/s21_bc_8020351c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_list_8020351c": "0x8020351c"
+  },
+  "descriptions": {
+    "w3d_s21_construct_list_8020351c": "Appears to construct a circular list object with a freshly allocated 24-byte sentinel node linked to itself, falling back to a second allocator on failure."
+  }
+}

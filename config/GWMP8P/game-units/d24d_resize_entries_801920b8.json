@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_resize_entries_801920b8",
+  "source": "source/matching/game/d24d/d24d_resize_entries_801920b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_resize_entries_801920b8": "0x801920b8"
+  },
+  "descriptions": {
+    "d24d_resize_entries_801920b8": "Resizes the eight-byte entry vector at +20 to the count with a default entry as fill value (0x8034cc3c when growing, destroys the tail when shrinking) and stores the count at +76."
+  }
+}

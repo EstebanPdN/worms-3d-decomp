@@ -1,0 +1,11 @@
+{
+  "unit": "s11land_802699e8",
+  "source": "source/matching/game/generated/s11land_802699e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "s11_select_land_802699e8": "0x802699e8"
+  },
+  "descriptions": {
+    "s11_select_land_802699e8": "Appears to select a land parameter: if unselected, prepares the owner, looks up the named value, writes its property, enables and refreshes it."
+  }
+}

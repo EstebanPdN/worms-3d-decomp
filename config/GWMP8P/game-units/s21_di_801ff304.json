@@ -1,0 +1,11 @@
+{
+  "unit": "s21_di_801ff304",
+  "source": "source/matching/game/s21/s21_di_801ff304.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_assign_text_801ff304": "0x801ff304"
+  },
+  "descriptions": {
+    "w3d_s21_assign_text_801ff304": "Appears to assign a shared string pointer through the output pointer from the source pointer, adjusting reference counts and releasing the old header at zero, returning zero."
+  }
+}

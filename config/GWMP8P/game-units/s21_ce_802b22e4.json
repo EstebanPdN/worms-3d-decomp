@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ce_802b22e4",
+  "source": "source/matching/game/s21/s21_ce_802b22e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_get_position_802b22e4": "0x802b22e4"
+  },
+  "descriptions": {
+    "w3d_s21_get_position_802b22e4": "Appears to return by value a three-float vector obtained from a virtual slot of the linked object."
+  }
+}

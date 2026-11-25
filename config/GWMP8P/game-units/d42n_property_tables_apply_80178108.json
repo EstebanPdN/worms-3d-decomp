@@ -1,0 +1,11 @@
+{
+  "unit": "d42n_property_tables_apply_80178108",
+  "source": "source/matching/game/d42n/d42n_property_tables_apply_80178108.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42n_property_tables_apply_80178108": "0x80178108"
+  },
+  "descriptions": {
+    "w3d_d42n_property_tables_apply_80178108": "Copies eight tables of typed properties from a source object into this one: for each entry it calls the setter of that type with the key, value, target id and the entry's flags, adding a mode bit that depends on whether the id is 255."
+  }
+}

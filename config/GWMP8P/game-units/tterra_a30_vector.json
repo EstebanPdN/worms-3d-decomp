@@ -1,0 +1,1 @@
+{"unit":"tterra_a30_vector","source":"source/matching/game/tterra_a30/tterra_a30_vector.c","language":"c","functions":{"tterra_a30_vector_800b3d78":"0x800b3d78"},"descriptions":{"tterra_a30_vector_800b3d78":"Add three global float components to an embedded four-component value, preserving its fourth component."}}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dt_801dea1c",
+  "source": "source/matching/game/s21/s21_dt_801dea1c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_get_vectors_801dea1c": "0x801dea1c"
+  },
+  "descriptions": {
+    "w3d_s21_get_vectors_801dea1c": "Appears to copy the three-word vectors at offsets 32 and 44 into two output arguments and return zero."
+  }
+}

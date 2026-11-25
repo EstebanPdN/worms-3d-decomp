@@ -1,0 +1,18 @@
+{
+  "unit": "d31j_build_image_grid_80183ed0",
+  "source": "source/matching/game/d31j/d31j_build_image_grid_80183ed0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d31j_build_image_grid_80183ed0": "0x80183ed0"
+  },
+  "descriptions": {
+    "d31j_build_image_grid_80183ed0": "Creates the image; loads the texture named by the path through the texture loader, reporting failure through discarded string copies; applies the texture options unless bit 256 is set; creates the material, geometry and modifier; divides the texture into cells, fills the UV and step arrays row by row; stores the geometry, registers it with two services, creates the instance, applies option flags through virtual setters, computes bounds from a default sphere and clears dirty markers."
+  }
+}

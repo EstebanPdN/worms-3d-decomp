@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_query_hit_delta_800418ac",
+  "source": "source/matching/game/cx11a/cx11a_query_hit_delta_800418ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_query_hit_delta_800418ac": "0x800418ac"
+  },
+  "descriptions": {
+    "w3d_cx11a_query_hit_delta_800418ac": "Returns the shared hit difference, recalculating it from swept position for the observed swept callback. Names inferred."
+  }
+}

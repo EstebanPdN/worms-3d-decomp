@@ -1,0 +1,17 @@
+{
+  "unit": "d26d_worm_apply_aim_8013c21c",
+  "source": "source/matching/game/d26d/d26d_worm_apply_aim_8013c21c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26d_worm_apply_aim_8013c21c": "0x8013c21c"
+  },
+  "descriptions": {
+    "d26d_worm_apply_aim_8013c21c": "Blend worm aim yaw and pitch into the mesh and start an aim animation."
+  }
+}

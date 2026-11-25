@@ -1,0 +1,17 @@
+{
+  "unit": "d42k_entry_list_fill_insert_8034f9e8",
+  "source": "source/matching/game/d42k/d42k_entry_list_fill_insert_8034f9e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "_M_fill_insert__Q24_STLt6vector2Z9D42kEntryZt15ModuleAllocator1Z9D42kEntryP9D42kEntryUiRC9D42kEntry": "0x8034f9e8"
+  },
+  "descriptions": {
+    "_M_fill_insert__Q24_STLt6vector2Z9D42kEntryZt15ModuleAllocator1Z9D42kEntryP9D42kEntryUiRC9D42kEntry": "Inserts n copies of an entry into a vector of entries, moving elements or growing the storage."
+  },
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ]
+}

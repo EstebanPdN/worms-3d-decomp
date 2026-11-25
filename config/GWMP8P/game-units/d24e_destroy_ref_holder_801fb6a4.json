@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_destroy_ref_holder_801fb6a4",
+  "source": "source/matching/game/d24e/d24e_destroy_ref_holder_801fb6a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_destroy_ref_holder_801fb6a4": "0x801fb6a4"
+  },
+  "descriptions": {
+    "w3d_d24e_destroy_ref_holder_801fb6a4": "Destructor: sets the vtable, releases each non-null reference of the vector at +36, frees the block at +52 and the vector storage, sets the base vtable and destroys the base part at +8; bit 0 of flags deletes self."
+  }
+}

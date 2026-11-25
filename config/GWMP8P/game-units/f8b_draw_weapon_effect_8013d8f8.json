@@ -1,0 +1,11 @@
+{
+  "unit": "f8b_draw_weapon_effect_8013d8f8",
+  "source": "source/matching/game/f8b/f8b_draw_weapon_effect_8013d8f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8b_draw_weapon_effect_8013d8f8": "0x8013d8f8"
+  },
+  "descriptions": {
+    "f8b_draw_weapon_effect_8013d8f8": "Dispatch the observed unsigned weapon cases to witnessed Draw_* effect names, return for case11 or a missing service, then set position and start the resulting effect through observed virtual slots. Roles, types and layouts are inferred."
+  }
+}

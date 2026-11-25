@@ -1,0 +1,11 @@
+{
+ "unit": "cc17d_flags_8028c64c",
+ "source": "source/matching/game/cc17d/cc17d_flags_8028c64c.c",
+ "language": "c",
+ "functions": {
+  "w3d_cc17d_update_flags_8028c64c": "0x8028c64c"
+ },
+ "descriptions": {
+  "w3d_cc17d_update_flags_8028c64c": "Reads the 0/1 mode word at +312 and the word at +176, then stores (mode and item nonzero) into the +16 word of the object at +272 and (not mode and item nonzero) into the +16 words of the objects at +252 and +256."
+ }
+}

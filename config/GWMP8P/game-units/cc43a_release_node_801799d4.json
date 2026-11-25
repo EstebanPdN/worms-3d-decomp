@@ -1,0 +1,11 @@
+{
+  "unit": "cc43a_release_node_801799d4",
+  "source": "source/matching/game/cc43a/cc43a_release_node_801799d4_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43a_release_node_801799d4": "0x801799d4"
+  },
+  "descriptions": {
+    "cc43a_release_node_801799d4": "Decrement the shared node count, release its shared interface at zero, clear two held interfaces, destroy three members in reverse order, reload and release both interfaces, and forward destruction flags to the base."
+  }
+}

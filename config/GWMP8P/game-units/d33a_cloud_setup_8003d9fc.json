@@ -1,0 +1,11 @@
+{
+  "unit": "d33a_cloud_setup_8003d9fc",
+  "source": "source/matching/game/d33a/d33a_cloud_setup_8003d9fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33a_cloud_setup_8003d9fc": "0x8003d9fc"
+  },
+  "descriptions": {
+    "w3d_d33a_cloud_setup_8003d9fc": "Sets up the particle cloud mesh and loads its 256 colour gradient from Cloudgr.tga."
+  }
+}

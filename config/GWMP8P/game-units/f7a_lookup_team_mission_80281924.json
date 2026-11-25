@@ -1,0 +1,11 @@
+{
+  "unit": "f7a_lookup_team_mission_80281924",
+  "language": "cpp",
+  "source": "source/matching/game/f7a/f7a_lookup_team_mission_80281924.cpp",
+  "functions": {
+    "w3d_f7a_lookup_team_mission_80281924": "0x80281924"
+  },
+  "descriptions": {
+    "w3d_f7a_lookup_team_mission_80281924": "Resolve the observed team-name key, retain the mission-text field and return a copied shared string, substituting the temporary-mission key for empty or failed text. Explicit returned-name/handle storage reuse and RAII cleanup reflect observed lifetimes. Layouts and semantics inferred."
+  }
+}

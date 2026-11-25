@@ -1,0 +1,11 @@
+{
+  "unit": "f2b_lerp_position_800ff97c",
+  "source": "source/matching/game/f2b/f2b_lerp_position_800ff97c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2b_lerp_position_800ff97c": "0x800ff97c"
+  },
+  "descriptions": {
+    "f2b_lerp_position_800ff97c": "Copy the vector supplied by the service at offset 84, subtract the vector at offset 40, scale the difference by the service result at offset 92, and add it to offset 40. Forward the updated vector and zero to virtual slot 76 of the interface at offset 28. Interpolation and field roles are inferred."
+  }
+}

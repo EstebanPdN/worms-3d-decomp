@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_payload_collision_800d84cc",
+  "source": "source/matching/game/d27c/d27c_payload_collision_800d84cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_payload_collision_800d84cc": "0x800d84cc"
+  },
+  "descriptions": {
+    "d27c_payload_collision_800d84cc": "Apply a collision message to a payload: state, then the response for its message id."
+  }
+}

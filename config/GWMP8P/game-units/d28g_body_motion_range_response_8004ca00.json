@@ -1,0 +1,14 @@
+{
+  "unit": "d28g_body_motion_range_response_8004ca00",
+  "source": "source/matching/game/d28g/d28g_body_motion_range_response_8004ca00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28g_body_motion_range_response_8004ca00": "0x8004ca00"
+  },
+  "descriptions": {
+    "w3d_d28g_body_motion_range_response_8004ca00": "Applies a motion's range response to a body unless the body's +124 flag is set: within the +28 radius of the motion position it runs the countdown step scaled by distance and the +20 strength; within the +30 radius of the motion velocity vector it nudges the body along the normalized offset, scaled by distance and the +24 strength."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

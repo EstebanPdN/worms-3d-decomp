@@ -1,0 +1,14 @@
+{
+  "unit": "d26c_actor_apply_impulse_800d9c74",
+  "source": "source/matching/game/d26c/d26c_actor_apply_impulse_800d9c74.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26c_actor_apply_impulse_800d9c74": "0x800d9c74"
+  },
+  "descriptions": {
+    "d26c_actor_apply_impulse_800d9c74": "When Desc+288 is positive and the impulse is non-zero, read position and velocity through virtuals +44 and +48 at the context time, store position at +36 and the summed velocity at +48, clamp the vertical part up to 0.3 times the impulse length, then run 0x800eb6e4, store the time at +368, run 0x800d8b4c and clear +300."
+  }
+}

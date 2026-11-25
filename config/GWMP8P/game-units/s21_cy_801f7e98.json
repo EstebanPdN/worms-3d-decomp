@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cy_801f7e98",
+  "source": "source/matching/game/s21/s21_cy_801f7e98.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_acquire_801f7e98": "0x801f7e98"
+  },
+  "descriptions": {
+    "w3d_s21_acquire_801f7e98": "Appears to look up a shared object for a key: it retains the object from a global registry, initializes it, stores it in the output on success or releases it and returns the failure status."
+  }
+}

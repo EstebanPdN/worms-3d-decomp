@@ -1,0 +1,17 @@
+{
+  "unit": "b_null_instance",
+  "source": "source/matching/game/b_null_instance.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_null_instance_not_implemented": "0x801831d4",
+    "w3d_null_instance_owner_flags": "0x801831e0",
+    "w3d_null_instance_shutdown": "0x80183214",
+    "w3d_null_instance_unbind": "0x80183298"
+  },
+  "descriptions": {
+    "w3d_null_instance_not_implemented": "Returns the not-implemented status code; a default virtual method.",
+    "w3d_null_instance_owner_flags": "Returns the first flag byte reported by the instance's owner object.",
+    "w3d_null_instance_shutdown": "Unregisters an XNullInstance from the scene list, runs base shutdown and detaches it from its owner.",
+    "w3d_null_instance_unbind": "Clears the instance's bound marker and the bound flag on its scene node's render state."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "s4_text_edit_state",
+  "source": "source/matching/game/s4_text_edit_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_text_edit_set_active": "0x802a26b4",
+    "w3d_s4_text_edit_refresh_value": "0x802a2768"
+  },
+  "descriptions": {
+    "w3d_s4_text_edit_set_active": "Updates editor activation, plays an allowed activation sound or hides the cursor and clears pending input.",
+    "w3d_s4_text_edit_refresh_value": "Refreshes an idle editor value, hides its cursor and updates the stored text length."
+  }
+}

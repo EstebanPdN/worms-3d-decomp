@@ -1,0 +1,15 @@
+{
+  "module": "message_arena_open",
+  "function": "w3d_message_arena_open",
+  "original_entry": "0x8016136c",
+  "candidate_entry": "0x80500000",
+  "data_entry": "0x80510000",
+  "additional_bindings": [
+    {
+      "name": "w3d_message_storage",
+      "kind": "sda21",
+      "site": "0x80102344",
+      "expected": "0x804b1754"
+    }
+  ]
+}

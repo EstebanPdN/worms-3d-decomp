@@ -1,0 +1,17 @@
+{
+  "unit": "s2_stats_service",
+  "source": "source/matching/game/s2_stats_service.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_stats_clear_counts_80109ae4": "0x80109ae4",
+    "w3d_small_service_construct_8010a740": "0x8010a740",
+    "w3d_small_service_destroy_8010a784": "0x8010a784",
+    "w3d_small_service_dispatch_8010a7e4": "0x8010a7e4"
+  },
+  "descriptions": {
+    "w3d_stats_clear_counts_80109ae4": "Clears eight statistics counters.",
+    "w3d_small_service_construct_8010a740": "Constructs the small service and clears its held resource.",
+    "w3d_small_service_destroy_8010a784": "Releases the held resource and forwards destruction to the service base.",
+    "w3d_small_service_dispatch_8010a7e4": "Runs the service start handler after successful base handling of message 64."
+  }
+}

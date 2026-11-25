@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_add_triple_80201160",
+  "source": "source/matching/game/d28e/d28e_add_triple_80201160.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_add_triple_80201160": "0x80201160"
+  },
+  "descriptions": {
+    "w3d_d28e_add_triple_80201160": "Append a cleared 12-byte entry holding three values to the vector at +44 (inlined STLport push_back). Returns 0."
+  }
+}

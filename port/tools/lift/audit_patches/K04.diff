@@ -1,0 +1,13 @@
+--- a/port/core/game/d25l/d25l_panel_scroller_create_802b8430.cpp
++++ b/port/core/game/d25l/d25l_panel_scroller_create_802b8430.cpp
+@@ -7,7 +7,9 @@
+ struct Obj;
+ struct ObjVt { Ptr32<void> s0[3]; Ptr32<void (Ptr32<Obj>)> retain; Ptr32<void (Ptr32<Obj>)> release; };
+ struct Obj { Ptr32<ObjVt> vt; };
+-struct ObjRef { Ptr32<Obj> value; ObjRef(const ObjRef &o) : value(o.value) { if (value) value->vt->retain(value); } };
++struct ObjRef { Ptr32<Obj> value; ObjRef(const ObjRef &o) : value(o.value) { if (value) value->vt->retain(value); }
++ // 0x802bc098 suelta sus dos argumentos en el PPC (GCC 2.95); aquí los suelta quien llama.
++ ~ObjRef() { if (value) value->vt->release(value); } };
+ struct Bar { char pad[92]; float a92; };
+ struct Box;
+ struct Data { char pad[20]; float a20; char pad24[112]; float a136; char pad140[4]; int a144; };

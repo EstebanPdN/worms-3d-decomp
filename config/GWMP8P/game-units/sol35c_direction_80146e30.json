@@ -1,0 +1,11 @@
+{
+  "unit": "sol35c_direction_80146e30",
+  "source": "source/matching/game/sol35c/sol35c_direction_80146e30.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35c_direction_80146e30": "0x80146e30"
+  },
+  "descriptions": {
+    "sol35c_direction_80146e30": "Normalize the observed actor direction vector, using the original zero-length fallback; experimental two-word store-order mismatch."
+  }
+}

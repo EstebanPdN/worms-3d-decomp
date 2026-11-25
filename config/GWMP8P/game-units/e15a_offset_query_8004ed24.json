@@ -1,0 +1,11 @@
+{
+  "unit": "e15a_offset_query_8004ed24",
+  "source": "source/matching/game/e15a/e15a_offset_query_8004ed24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_e15a_offset_query_8004ed24": "0x8004ed24"
+  },
+  "descriptions": {
+    "w3d_e15a_offset_query_8004ed24": "Copies the three-float offset vector at object+96 through a stack local, and when the unsigned caller value exceeds the object's integer base at +92 plus 1000, replaces the local's y with (float)(value-1000-base) times the float at 0x80377898 plus that y; then forwards the object and the adjusted vector to virtual slot 40 of the object's vtable, returning that call's result in r3."
+  }
+}

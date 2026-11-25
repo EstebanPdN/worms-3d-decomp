@@ -1,0 +1,11 @@
+{
+  "unit": "cc32b_pop_line_802cbb5c",
+  "source": "source/matching/game/cc32b/cc32b_pop_line_802cbb5c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc32b_pop_line_802cbb5c": "0x802cbb5c"
+  },
+  "descriptions": {
+    "w3d_cc32b_pop_line_802cbb5c": "When endpoint logging is enabled and the unsigned slot index is below sixteen, copies the first queued shared string into the original return buffer, shifts remaining four-byte handles forward with retain-before-release ownership, destroys the old final handle and returns the original buffer. Empty or disabled queues return null. Types and names are inferred; the four-byte element stride is observed, complete original class declarations are unknown. Referenced global queue storage and return buffer remain externally owned."
+  }
+}

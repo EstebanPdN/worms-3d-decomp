@@ -1,0 +1,15 @@
+{
+  "unit": "d20b_water_init_800c8e90",
+  "source": "source/matching/game/d20b/d20b_water_init_800c8e90.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d20b_water_init_800c8e90": "0x800c8e90"
+  },
+  "descriptions": {
+    "d20b_water_init_800c8e90": "Store the water instance pointer, clear the offset (+360) and fill the 20-entry ring (+88) with (cos a, 0, sin a) for a = i*2pi/20, i = 1..20; load WaterPlane (game mode 7) or FE.WaterPlane into the plane handle (+28); read Water.Level into +356; build the plane (0x800c9260) and its waves (0x800c96f0 with a zero 2D vector and 0.1, 0.35, 100, 1); scale the plane uniformly by 8700 and position it at (0, (int(level*16)|1)/16, 0); read GlobalLight.Diffuse into +372; look up the Water.TweakName object, load its mesh name (+128) into the mesh handle (+36), tint the mesh with the tweak colour (+120, bytes divided by 255), position it like the plane, scale it by (0.5, 0.8, 0.5) and make it visible."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_stream_format_801d6000",
+  "source": "source/matching/game/cx16b/cx16b_stream_format_801d6000.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_stream_format_801d6000": "0x801d6000"
+  },
+  "descriptions": {
+    "w3d_cx16b_stream_format_801d6000": "Formats variadic arguments into an observed 1024-byte buffer using the reference inline va-list copy and sends text and length through stream virtual slot +24."
+  }
+}

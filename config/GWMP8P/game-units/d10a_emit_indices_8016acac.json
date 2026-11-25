@@ -1,0 +1,11 @@
+{
+  "unit": "d10a_emit_indices_8016acac",
+  "source": "source/matching/game/d10a/d10a_emit_indices_8016acac_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10a_emit_indices_8016acac": "0x8016acac"
+  },
+  "descriptions": {
+    "d10a_emit_indices_8016acac": "Emit enabled GX attribute indices in original order using byte or halfword FIFO writes. Preserve split-stream flag selection, shared-stream cursor advancement, loop bounds, and all source reloads around volatile MMIO stores."
+  }
+}

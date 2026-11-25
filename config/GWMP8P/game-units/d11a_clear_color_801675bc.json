@@ -1,0 +1,14 @@
+{
+  "unit": "d11a_clear_color_801675bc",
+  "source": "source/matching/game/d11a/d11a_clear_color_801675bc_v0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d11a_clear_color_801675bc": "0x801675bc"
+  },
+  "descriptions": {
+    "d11a_clear_color_801675bc": "Store the supplied float RGBA clear color, convert all four channels to unsigned bytes with the original quantized conversion, set the GX copy-clear color and 24-bit maximum depth, and return zero."
+  }
+}

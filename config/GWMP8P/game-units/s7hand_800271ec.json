@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_800271ec",
+  "source": "source/matching/game/s7/s7hand_800271ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800271ec": "0x800271ec"
+  },
+  "descriptions": {
+    "w3d_auto_800271ec": "Checks the current handle, initializes a temporary tagged 0xe3a8, resolves it in the current handle context, writes a computed float at +0x74 and releases the temporary with mode 2."
+  }
+}

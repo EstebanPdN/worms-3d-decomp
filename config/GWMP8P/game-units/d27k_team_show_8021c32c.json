@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_team_show_8021c32c",
+  "source": "source/matching/game/d27k/d27k_team_show_8021c32c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_team_show_8021c32c": "0x8021c32c"
+  },
+  "descriptions": {
+    "w3d_d27k_team_show_8021c32c": "Reads CurrentTeamIndex; on a valid index enters the app state if not paused, sets the shown global, then either dispatches with the current time, sets the config flag, clears the team start time and posts an int message 0, or flushes a pending dispatch with -1, sets the config flag, clears the control word and posts 1."
+  }
+}

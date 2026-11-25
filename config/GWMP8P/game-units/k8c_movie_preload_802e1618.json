@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_movie_preload_802e1618",
+  "source": "source/matching/game/k8c/k8c_movie_preload_802e1618.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8c_movie_preload_802e1618": "0x802e1618"
+  },
+  "descriptions": {
+    "w3d_k8c_movie_preload_802e1618": "Preload original movie frame data when opened and idle, choose its observed preload limit and preserve failure notifications."
+  }
+}

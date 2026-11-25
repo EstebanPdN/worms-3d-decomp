@@ -1,0 +1,11 @@
+--- a/port/core/game/cc26a/cc26a_grid_build_path_8001ebe0.cpp
++++ b/port/core/game/cc26a/cc26a_grid_build_path_8001ebe0.cpp
+@@ -2,7 +2,7 @@
+ #line 1 "cc26a_grid_build_path_8001ebe0.cpp"
+ // Original synchronous grid path search and result extraction. Names inferred.
+ struct cc26a_VecEbe0 {float x,y,z;};
+-struct cc26a_StepEbe0 {unsigned char unknown[4];unsigned char mode; char w3d_tag_rest[3];};
++struct cc26a_StepEbe0 {unsigned char unknown[7];unsigned char mode;};
+ struct cc26a_SearchEbe0 {unsigned char unknown[32828];int limit;};
+ struct cc26a_GridEbe0 {unsigned char unknown[68];Ptr32<cc26a_SearchEbe0> search;};
+ struct cc26a_PathEbe0;

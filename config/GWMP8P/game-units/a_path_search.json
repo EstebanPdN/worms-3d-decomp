@@ -1,0 +1,37 @@
+{
+  "unit": "a_path_search",
+  "source": "source/matching/game/a_path_search.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_path_search_destroy": "0x800042c0",
+    "w3d_path_node_distance": "0x8000443c",
+    "w3d_path_bucket_find": "0x80005248",
+    "w3d_path_table_find": "0x800052d4",
+    "w3d_path_bucket_clear_8000532c": "0x8000532c",
+    "w3d_path_table_clear_80005398": "0x80005398",
+    "w3d_path_table_erase": "0x8000553c",
+    "w3d_path_search_pop": "0x8000577c",
+    "w3d_path_search_remove_candidate": "0x800059dc",
+    "w3d_path_search_status": "0x80005e10",
+    "w3d_path_search_remaining": "0x800062b0",
+    "w3d_path_search_next_step": "0x800062bc",
+    "w3d_path_cost_construct": "0x80006360",
+    "w3d_path_cost_destroy": "0x80006388"
+  },
+  "descriptions": {
+    "w3d_path_search_destroy": "Tears down the AI path search: resets it, frees the path, clears the global instance and frees all bucket storage.",
+    "w3d_path_node_distance": "Returns an octile-style grid distance between two path nodes (14 per diagonal step, 10 per straight step).",
+    "w3d_path_bucket_find": "Searches one hash bucket for a node with the same grid cell, optionally returning its index in the bucket.",
+    "w3d_path_table_find": "Hashes a node's x coordinate to a bucket and looks up the node there, optionally reporting bucket and index.",
+    "w3d_path_bucket_clear_8000532c": "Deletes every node stored in a hash bucket, removing them from the back.",
+    "w3d_path_table_clear_80005398": "Clears all 1024 buckets of a node hash table and resets its node count.",
+    "w3d_path_table_erase": "Removes the node at a given bucket and index from a hash table and decrements its count.",
+    "w3d_path_search_status": "Returns the path search's status word.",
+    "w3d_path_search_remaining": "Returns how many path steps remain to be consumed.",
+    "w3d_path_search_next_step": "Returns the next node of the computed path and advances the path cursor.",
+    "w3d_path_cost_construct": "Initializes a small path cost object with a very large negative limit and enables it.",
+    "w3d_path_cost_destroy": "Destroys a path cost object and optionally frees its memory.",
+    "w3d_path_search_pop": "Takes the next node to expand: from the candidate list if non-empty, else the best entry of the open table.",
+    "w3d_path_search_remove_candidate": "Removes a node from the ordered candidate list if present and updates the lowest recorded candidate cost."
+  }
+}

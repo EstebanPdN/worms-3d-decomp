@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e6a_team_name_check_8029d89c",
+  "source": "source/matching/game/sol35e6a/sol35e6a_team_name_check_8029d89c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e6a_team_name_check_8029d89c": "0x8029d89c"
+  },
+  "descriptions": {
+    "sol35e6a_team_name_check_8029d89c": "Reads and owns the current team name, handles empty or space-prefixed input, then searches the selected barracks records and returns the matching record flag while releasing the held interface and string. Names are inferred."
+  }
+}

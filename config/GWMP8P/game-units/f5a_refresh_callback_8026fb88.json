@@ -1,0 +1,14 @@
+{
+  "unit": "f5a_refresh_callback_8026fb88",
+  "source": "source/matching/game/f5a/f5a_refresh_callback_8026fb88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_refresh_callback_8026fb88": "0x8026fb88"
+  },
+  "descriptions": {
+    "w3d_f5a_refresh_callback_8026fb88": "Observed refresh_callback with inferred field layout and semantic roles."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

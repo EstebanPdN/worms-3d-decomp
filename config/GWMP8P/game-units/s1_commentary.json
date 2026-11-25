@@ -1,0 +1,25 @@
+{
+  "unit": "s1_commentary",
+  "source": "source/matching/game/s1_commentary.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80044244": "0x80044244",
+    "w3d_fn_80044a80": "0x80044a80",
+    "w3d_fn_80044bc0": "0x80044bc0",
+    "w3d_fn_8004527c": "0x8004527c",
+    "w3d_fn_80045cb4": "0x80045cb4",
+    "w3d_fn_80045fa4": "0x80045fa4",
+    "w3d_fn_80046408": "0x80046408",
+    "w3d_fn_80047b6c": "0x80047b6c"
+  },
+  "descriptions": {
+    "w3d_fn_80044244": "Appears to select and display localized teamwin commentary.",
+    "w3d_fn_80044a80": "Appears to select and display localized reinforce commentary.",
+    "w3d_fn_80044bc0": "Appears to select and display localized crate commentary.",
+    "w3d_fn_8004527c": "Appears to select and display localized turn commentary.",
+    "w3d_fn_80045cb4": "Appears to select and display localized water commentary.",
+    "w3d_fn_80045fa4": "Appears to select and display localized teamdeath commentary.",
+    "w3d_fn_80046408": "Appears to select and display localized sickness commentary.",
+    "w3d_fn_80047b6c": "Appears to select and display localized scales commentary."
+  }
+}

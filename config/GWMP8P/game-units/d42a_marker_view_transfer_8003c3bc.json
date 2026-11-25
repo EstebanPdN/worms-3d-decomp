@@ -1,0 +1,11 @@
+{
+  "unit": "d42a_marker_view_transfer_8003c3bc",
+  "source": "source/matching/game/d42a/d42a_marker_view_transfer_8003c3bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42a_marker_view_transfer_8003c3bc": "0x8003c3bc"
+  },
+  "descriptions": {
+    "w3d_d42a_marker_view_transfer_8003c3bc": "Carries a world position through one scene camera, the marker screen projection and the inverse of another camera, then sets the marker node's position."
+  }
+}

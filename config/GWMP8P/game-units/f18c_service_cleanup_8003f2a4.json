@@ -1,0 +1,11 @@
+{
+  "unit": "f18c_service_cleanup_8003f2a4",
+  "source": "source/matching/game/f18c/f18c_service_cleanup_8003f2a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f18c_service_cleanup_8003f2a4": "0x8003f2a4"
+  },
+  "descriptions": {
+    "f18c_service_cleanup_8003f2a4": "Install the witnessed service vtable and clear the global service slot, release held interfaces at+28 of each 32-byte external range record through vtable slot4, reset that range end to its original begin, clear the external byte range using the original zero-byte memcpy and removed-span adjustment, and forward receiver/flags to the service destructor. Receiver, held objects, global ranges and 32-byte iteration records are external destruction-only partial views; unknown record bytes are explicit. No local object construction, complete receiver extent, original class identity, external allocation or external data ownership is asserted. memcpy pointer return and variadic call convention match original evidence."
+  }
+}

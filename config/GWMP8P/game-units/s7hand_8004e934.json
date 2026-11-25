@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8004e934",
+  "source": "source/matching/game/s7/s7hand_8004e934.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8004e934": "0x8004e934"
+  },
+  "descriptions": {
+    "w3d_auto_8004e934": "Installs vtable 0x8040ea40 and invokes the HUD text base destructor with the original object."
+  }
+}

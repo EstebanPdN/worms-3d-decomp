@@ -1,0 +1,12 @@
+{
+  "unit": "d28l_channel_apply_config_802ad0d4",
+  "source": "source/matching/game/d28l/d28l_channel_apply_config_802ad0d4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d28l_channel_apply_config_802ad0d4": "0x802ad0d4"
+  },
+  "descriptions": {
+    "d28l_channel_apply_config_802ad0d4": "Applies a channel configuration, opens the device and stores a result code from its status."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "r24b_has_content_v4_80270300",
+  "source": "source/matching/game/r24b/r24b_has_content_v4_80270300.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r24b_has_content_v4_80270300": "0x80270300"
+  },
+  "descriptions": {
+    "w3d_r24b_has_content_v4_80270300": "Test the disabled field and four prefixed string lengths in observed order; names inferred."
+  }
+}

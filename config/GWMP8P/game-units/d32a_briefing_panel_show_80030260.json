@@ -1,0 +1,14 @@
+{
+  "unit": "d32a_briefing_panel_show_80030260",
+  "source": "source/matching/game/d32a/d32a_briefing_panel_show_80030260.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_briefing_panel_show_80030260": "0x80030260"
+  },
+  "descriptions": {
+    "w3d_d32a_briefing_panel_show_80030260": "Creates the briefing panel on the owner's screen from its position and size values, sets its font, text and colour names, adds it to the list and announces it."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

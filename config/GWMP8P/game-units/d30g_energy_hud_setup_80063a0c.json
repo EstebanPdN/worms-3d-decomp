@@ -1,0 +1,11 @@
+{
+  "unit": "d30g_energy_hud_setup_80063a0c",
+  "source": "source/matching/game/d30g/d30g_energy_hud_setup_80063a0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30g_energy_hud_setup_80063a0c": "0x80063a0c"
+  },
+  "descriptions": {
+    "w3d_d30g_energy_hud_setup_80063a0c": "Energy HUD setup: caches eleven HUD.Energy tweakables in the reference slots +104..+144 (each released then replaced), loads the team energy gradient and England flag by name and scales the flag from the flag scale tweakables, runs the bar layout (0x80064a80), loads FE.Font and sizes it from the text scale with flags 8, copies the on-screen vector into +60 and runs the two property updates (0x800642ac, 0x80064198)."
+  }
+}

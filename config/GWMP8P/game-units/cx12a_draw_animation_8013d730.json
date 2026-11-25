@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_draw_animation_8013d730",
+  "source": "source/matching/game/cx12a/cx12a_draw_animation_8013d730.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_draw_animation_8013d730": "0x8013d730"
+  },
+  "descriptions": {
+    "w3d_cx12a_draw_animation_8013d730": "Choose and play an external named draw animation for seven observed item kinds; names inferred."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "s20_small_ak",
+  "source": "source/matching/game/s20/s20_small_ak.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_play_sound_pair_800edc28": "0x800edc28",
+    "w3d_s20_play_sound_pair_800edca0": "0x800edca0",
+    "w3d_s20_play_sound_single_800edd1c": "0x800edd1c"
+  },
+  "descriptions": {
+    "w3d_s20_play_sound_pair_800edc28": "Appears to bind two named resources from a handle and a field, then start a sound with a global handle and a float volume used for both parameters.",
+    "w3d_s20_play_sound_pair_800edca0": "Appears to bind two named resources from a handle and a field, then start a sound with a global handle and two float parameters.",
+    "w3d_s20_play_sound_single_800edd1c": "Appears to bind two named resources from a handle and a field, then start a sound with a global handle and one float parameter."
+  }
+}

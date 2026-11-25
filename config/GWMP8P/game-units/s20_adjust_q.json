@@ -1,0 +1,11 @@
+{
+  "unit": "s20_adjust_q",
+  "source": "source/matching/game/s20/s20_adjust_q.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_apply_two_textures_8016a72c": "0x8016a72c"
+  },
+  "descriptions": {
+    "w3d_s20_apply_two_textures_8016a72c": "Appears to dispatch two item textures through the secondary base handler table and set render states, or run a fallback helper when absent."
+  }
+}

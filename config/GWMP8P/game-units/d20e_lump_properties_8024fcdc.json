@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_lump_properties_8024fcdc",
+  "source": "source/matching/game/d20e/d20e_lump_properties_8024fcdc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d20e_register_lump_properties_8024fcdc": "0x8024fcdc"
+  },
+  "descriptions": {
+    "w3d_d20e_register_lump_properties_8024fcdc": "Registers the Connectors and Bounds properties (0x801eff8c) with guarded function-local static descriptors built once from zero-filled temporaries (type object 0x8045e004, member records 0x8040106c/0x80401078), registers Outline (0x801ecc6c), creates the PreviewPos/PreviewOrientation/PreviewScale vector bindings (0x801f0210) reset to 0x803c59ac (0.0f), registers PreviewType ... YPlacement (descriptors 0x803c5858..0x803c5984) through their binding helpers, calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+--- a/port/core/game/d41l/d41l_list_scroll_rows_802bc1d4.cpp
++++ b/port/core/game/d41l/d41l_list_scroll_rows_802bc1d4.cpp
+@@ -11,6 +11,8 @@
+ struct Held {
+     Ptr32<void> p;
+     Held(const Held &a) : p(a.p) { retain(p); }
++    // 0x802c0c24 y 0x802bdc88 sueltan su argumento en el PPC (GCC 2.95); aquí lo suelta quien llama.
++    ~Held() { if (p) (*(Ptr32<Ptr32<Ptr32<void (Ptr32<void>)>>>)p)[4](p); }
+ };
+ struct Vec {
+     float x, y, z;

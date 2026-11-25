@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_item_emit_8016b640",
+  "source": "source/matching/game/k8b/k8b_item_emit_8016b640.c",
+  "language": "c",
+  "functions": {"w3d_k8b_item_emit_8016b640": "0x8016b640"},
+  "descriptions": {"w3d_k8b_item_emit_8016b640": "Appears to dispatch item fields, bind the handle on the secondary base and emit an index stream when dispatch reports no error."}
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_gd_80206314",
+  "source": "source/matching/game/s21/s21_gd_80206314.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_get_record_80206314": "0x80206314"
+  },
+  "descriptions": {
+    "w3d_s21_get_record_80206314": "Appears to read fields of a twelve-byte record selected by index: it stores the second and third words through optional output pointers and returns the first word."
+  }
+}

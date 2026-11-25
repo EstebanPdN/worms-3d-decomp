@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_801d0da0",
+  "source": "source/matching/game/generated/s10param_801d0da0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_set_record_flags_801d0da0": "0x801d0da0"
+  },
+  "descriptions": {
+    "w3d_s10_set_record_flags_801d0da0": "Copies the observed 16-byte record into the object and sets bit 1 in its associated flags byte."
+  }
+}

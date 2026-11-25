@@ -1,0 +1,19 @@
+{
+  "unit": "h1_newlib_stdio_io",
+  "source": "source/matching/game/h1/h1_newlib_stdio_io.c",
+  "language": "c",
+  "functions": {
+    "__srefill": "0x802ec088",
+    "fread": "0x802eb624",
+    "ungetc": "0x802ec584",
+    "__swsetup": "0x802ed6b0",
+    "sscanf": "0x802ec334"
+  },
+  "descriptions": {
+    "__srefill": "SN newlib __srefill: prepares a stream for reading (flushing a write stream, restoring after ungetc) and refills its buffer through the read hook.",
+    "fread": "SN newlib fread: copies size*count bytes from the stream buffer with SN's byte copier, refilling as needed; returns the number of whole items read.",
+    "ungetc": "SN newlib ungetc: pushes c back into the buffer or the 10-byte in-FILE ungetc buffer; prints an overflow message and returns EOF when that is full.",
+    "__swsetup": "SN newlib __swsetup: switches a stream to writing (dropping read state), makes its buffer and sets the write space and line-buffer size.",
+    "sscanf": "newlib sscanf: scans the variable arguments from str through a read-only string FILE whose read hook returns 0 (EOF)."
+  }
+}

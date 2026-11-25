@@ -1,0 +1,11 @@
+{
+  "unit": "f19a_clear_entries_8029f48c",
+  "source": "source/matching/game/f19a/f19a_clear_entries_8029f48c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f19a_clear_entries_8029f48c": "0x8029f48c"
+  },
+  "descriptions": {
+    "w3d_f19a_clear_entries_8029f48c": "Clear externally stored UI entries from owner offset336 through340. Each nonnull twenty-byte entry unregisters its held interface through observed virtual slots6 and24, releases and zeros the interface, then native member destruction finishes/releases the four-byte shared text at8 and revisits the held interface before class delete backend0x801fe1f8. Reset end to begin. Original factory0x8029f714 allocates20bytes and initializes all five observed fields; owner prefix and unknown scalar meanings remain inferred and owner is never locally constructed. Provisional six-word container setup mismatch: no identity, ownership of extern data, runtime, emulator or hardware validation claimed."
+  }
+}

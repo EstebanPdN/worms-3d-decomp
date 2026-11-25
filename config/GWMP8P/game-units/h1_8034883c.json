@@ -1,0 +1,19 @@
+{
+  "unit": "h1_8034883c",
+  "source": "source/matching/game/h1/h1_8034883c.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_set_and_register_8034883c": "0x8034883c",
+    "w3d_h1_fill_allocated_blocks_80353454": "0x80353454",
+    "w3d_h1_set_and_register_80349b20": "0x80349b20",
+    "w3d_h1_string_tree_erase_8035a3f8": "0x8035a3f8",
+    "w3d_h1_fill_allocated_blocks_8035ec0c": "0x8035ec0c"
+  },
+  "descriptions": {
+    "w3d_h1_set_and_register_8034883c": "Stores the value at offset 84, passes it with the list at offset 72 to 0x80210b90 and returns zero.",
+    "w3d_h1_fill_allocated_blocks_80353454": "Fills each slot of [begin, end) with a new 128-byte block from the handle storage allocator, using the fallback allocator when the first fails.",
+    "w3d_h1_set_and_register_80349b20": "Same as 0x8034883c: stores the value at offset 84, passes it with the list at offset 72 to 0x80210b90 and returns zero.",
+    "w3d_h1_string_tree_erase_8035a3f8": "Recursively erases a red-black tree of string-valued nodes: erases the right subtree, destroys the node's string and releases the node, then continues with the left child.",
+    "w3d_h1_fill_allocated_blocks_8035ec0c": "Same as 0x80353454: fills each slot of [begin, end) with a new 128-byte block, using the fallback allocator when needed."
+  }
+}

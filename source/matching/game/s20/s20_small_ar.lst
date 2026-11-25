@@ -1,0 +1,4 @@
+c source/matching/game/s20/s20_small_ar.c
+w3d_s20_set_vector_if_changed_80178fa4|0x80178fa4|Appears to compare a vector with the one stored in the owner at offset 28, return 1 when equal, otherwise copy it, call an update helper and return 0.
+w3d_s20_clear_tables_8017ccdc|0x8017ccdc|Appears to release 1920 held objects through virtual method 4, reset 256 name/id entries and clear a counter, returning 0.
+w3d_s20_register_item_8017cd80|0x8017cd80|Appears to return 0x80004005 when the item's slot flag is set, otherwise mark it, dispatch to one of two registration helpers by a mode flag and return the result.

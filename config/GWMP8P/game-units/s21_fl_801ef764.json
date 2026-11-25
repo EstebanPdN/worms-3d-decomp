@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fl_801ef764",
+  "source": "source/matching/game/s21/s21_fl_801ef764.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_equal_arrays_801ef764": "0x801ef764"
+  },
+  "descriptions": {
+    "w3d_s21_equal_arrays_801ef764": "Appears to compare the element arrays of two objects at the descriptor offset: equal lengths are required, then all element bytes are compared, reporting equality."
+  }
+}

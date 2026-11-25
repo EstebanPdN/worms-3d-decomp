@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dw_802cd198",
+  "source": "source/matching/game/s21/s21_dw_802cd198.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_dump_request_802cd198": "0x802cd198"
+  },
+  "descriptions": {
+    "w3d_s21_dump_request_802cd198": "Appears to run a setup helper on a temporary string, issue the same request 25 times with a shared global argument and then write the result to the sink, when the subsystem is enabled."
+  }
+}

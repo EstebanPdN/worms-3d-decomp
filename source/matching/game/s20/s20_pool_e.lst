@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_pool_e.c
+w3d_s20_store_float_pair_801738c0|0x801738c0|Appears to hold a reference to an object, acquire its pool entry, store a float pair at the indexed slot and release the reference.

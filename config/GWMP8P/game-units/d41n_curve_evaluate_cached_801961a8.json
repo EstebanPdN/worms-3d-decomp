@@ -1,0 +1,14 @@
+{
+  "unit": "d41n_curve_evaluate_cached_801961a8",
+  "source": "source/matching/game/d41n/d41n_curve_evaluate_cached_801961a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41n_curve_evaluate_cached_801961a8": "0x801961a8"
+  },
+  "descriptions": {
+    "w3d_d41n_curve_evaluate_cached_801961a8": "Curve evaluation: extrapolates outside the key range, walks a cached key index forward when possible, falls back to binary search, prepares the segment's cubic on a segment change, then samples it."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

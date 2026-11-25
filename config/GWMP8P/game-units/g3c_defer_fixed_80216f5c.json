@@ -1,0 +1,11 @@
+{
+  "unit": "g3c_defer_fixed_80216f5c",
+  "source": "source/matching/game/g3c/g3c_defer_fixed_80216f5c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g3c_defer_fixed_80216f5c": "0x80216f5c"
+  },
+  "descriptions": {
+    "g3c_defer_fixed_80216f5c": "Defers a nonnull fixed-pool block through the state pointer atheap+48. In non-direct mode rejects active0x2000 or missing fixed size atstate+8, sets0x4000, and validates the payload with80216e7c. Validation failure optionally calls the error callback atowner+44 table slot4 with heap,event3,payload,and that original table pointer preserved inr6, then returns minus1. This fourth argument is inferred from the actual original live argument register, not asserted as an original source prototype. Successful validation sets0x2000. Writes marker0x55555555 to payload+4 and pushes payload through state+16. For non-direct mode and state flag2, calls optional original callback8040077c with heap,payload,zero,fixed extent. Independently clears0x2000 only for non-direct mode, preserving the saved original condition across the callback. Null and successful paths return zero. Error tables, heaps and blocks are partial external views accessed through typed pointers; no complete external object is locally constructed, no initialized data is owned and no extra flags or artificial frame storage are used."
+  }
+}

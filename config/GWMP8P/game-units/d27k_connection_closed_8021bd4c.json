@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_connection_closed_8021bd4c",
+  "source": "source/matching/game/d27k/d27k_connection_closed_8021bd4c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_connection_closed_8021bd4c": "0x8021bd4c"
+  },
+  "descriptions": {
+    "w3d_d27k_connection_closed_8021bd4c": "If flag 64 is set and the connection reports state 2: stores 16 in the team flags, posts the closed message from the arena, erases the pool entry, touches the owner strings, leaves the app if paused, clears the shared state, posts two follow-up messages and clears the active field."
+  }
+}

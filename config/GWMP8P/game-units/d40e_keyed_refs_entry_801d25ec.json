@@ -1,0 +1,19 @@
+{
+  "unit": "d40e_keyed_refs_entry_801d25ec",
+  "source": "source/matching/game/d40e/d40e_keyed_refs_entry_801d25ec.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d40e_keyed_refs_entry_801d25ec": "0x801d25ec"
+  },
+  "descriptions": {
+    "w3d_d40e_keyed_refs_entry_801d25ec": "Sets the entry for key (id, object) in a map to a value holding a copy of the given array of object references, using inlined STLport map operator[] with the hinted tree insert at 0x80355fa0; returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

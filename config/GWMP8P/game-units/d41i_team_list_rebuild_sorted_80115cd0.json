@@ -1,0 +1,17 @@
+{
+  "unit": "d41i_team_list_rebuild_sorted_80115cd0",
+  "source": "source/matching/game/d41i/d41i_team_list_rebuild_sorted_80115cd0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41i"
+  ],
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d41i_team_list_rebuild_sorted_80115cd0": "0x80115cd0"
+  },
+  "descriptions": {
+    "d41i_team_list_rebuild_sorted_80115cd0": "Reads a settings bank and inserts its unlocked items in sorted order into parallel label, value and id arrays held by a list and a new table, which it then appends to the list."
+  }
+}

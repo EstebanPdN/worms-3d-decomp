@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_80207340",
+  "source": "source/matching/game/generated/s10param_80207340.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_create_named_entry_80207340": "0x80207340"
+  },
+  "descriptions": {
+    "w3d_s10_create_named_entry_80207340": "Checks factory availability, allocates and constructs an entry, assigns its registry, owner, name and 16-bit metadata, then attaches and returns it."
+  }
+}

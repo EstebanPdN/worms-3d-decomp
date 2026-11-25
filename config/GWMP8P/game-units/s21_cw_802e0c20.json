@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cw_802e0c20",
+  "source": "source/matching/game/s21/s21_cw_802e0c20.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_value_int_802e0c20": "0x802e0c20"
+  },
+  "descriptions": {
+    "w3d_s21_value_int_802e0c20": "Appears to return minus one when a field of the linked record is zero, else the float at offset 208 of the record converted to an integer."
+  }
+}

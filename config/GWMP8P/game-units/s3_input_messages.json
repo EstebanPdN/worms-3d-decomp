@@ -1,0 +1,23 @@
+{
+  "unit": "s3_input_messages",
+  "source": "source/matching/game/s3_input_messages.c",
+  "language": "c",
+  "functions": {
+    "w3d_entity_class_destroy": "0x80160080",
+    "w3d_input_owner_initialize": "0x80160430",
+    "w3d_input_owner_poll": "0x8016051c",
+    "w3d_input_key_press": "0x80160558",
+    "w3d_input_key_release": "0x801605c0",
+    "w3d_input_button_press": "0x80160628",
+    "w3d_input_button_release": "0x80160698"
+  },
+  "descriptions": {
+    "w3d_entity_class_destroy": "Restores both entity-class vtables and invokes base destruction.",
+    "w3d_input_owner_initialize": "Acquires the input service and registers three input handlers.",
+    "w3d_input_owner_poll": "Polls the input service when one is installed.",
+    "w3d_input_key_press": "Builds and dispatches a key-press message.",
+    "w3d_input_key_release": "Builds and dispatches a key-release message.",
+    "w3d_input_button_press": "Builds and dispatches a button-press message.",
+    "w3d_input_button_release": "Builds and dispatches a button-release message."
+  }
+}

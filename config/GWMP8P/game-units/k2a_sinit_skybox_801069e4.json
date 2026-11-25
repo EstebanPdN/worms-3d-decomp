@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_sinit_skybox_801069e4",
+  "source": "source/matching/game/k2a/k2a_sinit_skybox_801069e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_sinit_skybox_801069e4": "0x801069e4"
+  },
+  "descriptions": {
+    "k2a_sinit_skybox_801069e4": "Appears to be a static initializer that constructs the sky box entity type object and sets two three-word vectors and a counter."
+  }
+}

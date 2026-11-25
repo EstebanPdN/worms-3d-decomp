@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_water_construct_8011f66c",
+  "source": "source/matching/game/d25i/d25i_water_construct_8011f66c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_water_construct_8011f66c": "0x8011f66c"
+  },
+  "descriptions": {
+    "d25i_water_construct_8011f66c": "Water object constructor: base constructor 0x8015a0d4 with the name and type 15, vtable 0x80410ae0 at +72, clears +88 and +152..+164, initializes the handle member at +144 (0x80126184, slot 0, word 23, float 5.0f at 0x8039b5ec), sets +76 and +80 to -1, resolves retained settings Water.Level, Land.Radius, Land.Center (vector) and Water.RiseSpeed.Graphic into +152..+164, and returns self."
+  }
+}

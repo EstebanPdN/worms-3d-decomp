@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ae_801de950",
+  "source": "source/matching/game/s21/s21_ae_801de950.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_vectors_801de950": "0x801de950"
+  },
+  "descriptions": {
+    "w3d_s21_set_vectors_801de950": "Appears to copy two three-word vectors from the arguments into the object at offsets 32 and 44 and return zero."
+  }
+}

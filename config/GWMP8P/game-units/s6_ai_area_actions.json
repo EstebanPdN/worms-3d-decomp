@@ -1,0 +1,17 @@
+{
+  "unit": "s6_ai_area_actions",
+  "source": "source/matching/game/s6_ai_area_actions.c",
+  "language": "c",
+  "functions": {
+    "w3d_ai_push_area_trajectory_80011d00": "0x80011d00",
+    "w3d_ai_execute_all_actors_80011fd4": "0x80011fd4",
+    "w3d_ai_execute_other_teams_800120c8": "0x800120c8",
+    "w3d_ai_execute_average_damage_80012278": "0x80012278"
+  },
+  "descriptions": {
+    "w3d_ai_push_area_trajectory_80011d00": "Scales an area trajectory and submits its result.",
+    "w3d_ai_execute_all_actors_80011fd4": "Executes a plan affecting all actors.",
+    "w3d_ai_execute_other_teams_800120c8": "Executes a plan affecting other teams.",
+    "w3d_ai_execute_average_damage_80012278": "Executes a plan based on average actor damage."
+  }
+}

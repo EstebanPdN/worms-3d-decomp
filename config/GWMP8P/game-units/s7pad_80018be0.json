@@ -1,0 +1,11 @@
+{
+  "unit": "s7pad_80018be0",
+  "source": "source/matching/game/s7/s7pad_80018be0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80018be0": "0x80018be0"
+  },
+  "descriptions": {
+    "w3d_auto_80018be0": "Preserves the observed operations and calls; a volatile scratch reservation accounts for the original stack-frame storage without adding instructions. Semantic field and temporary types remain inferred."
+  }
+}

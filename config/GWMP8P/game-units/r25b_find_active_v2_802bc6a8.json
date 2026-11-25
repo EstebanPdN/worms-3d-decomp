@@ -1,0 +1,11 @@
+{
+  "unit": "r25b_find_active_v2_802bc6a8",
+  "source": "source/matching/game/r25b/r25b_find_active_v2_802bc6a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25b_find_active_v2_802bc6a8": "0x802bc6a8"
+  },
+  "descriptions": {
+    "w3d_r25b_find_active_v2_802bc6a8": "Inferred active-entry lookup. Observed: vector at +0x38, active word at"
+  }
+}

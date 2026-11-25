@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80038894",
+  "source": "source/matching/game/s7/s7hand_80038894.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80038894": "0x80038894"
+  },
+  "descriptions": {
+    "w3d_auto_80038894": "Constructs the base, installs the derived vtable, clears the observed word fields in declaration order and returns the object."
+  }
+}

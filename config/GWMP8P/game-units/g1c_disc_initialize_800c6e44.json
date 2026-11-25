@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_disc_initialize_800c6e44",
+  "source": "source/matching/game/g1c/g1c_disc_initialize_800c6e44.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_disc_initialize_800c6e44": "0x800c6e44"
+  },
+  "descriptions": {
+    "g1c_disc_initialize_800c6e44": "Initialize the native252-byte disc-owner type, whose factory800c6d70 allocates252 bytes. Call original base constructor801628b0, install the derived vtable, default-initialize eight held entries and one held member, reset the witnessed state words, release/reset held values through virtual slot4, and clear original flag bits. Complete receiver extent comes from the factory; unknown fields are explicit and no opaque stack storage or guessed array tail is used."
+  }
+}

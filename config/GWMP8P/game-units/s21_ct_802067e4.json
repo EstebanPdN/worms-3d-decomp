@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ct_802067e4",
+  "source": "source/matching/game/s21/s21_ct_802067e4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_clear_texts_802067e4": "0x802067e4"
+  },
+  "descriptions": {
+    "w3d_s21_clear_texts_802067e4": "Appears to destroy every string held in the embedded vector at offset 48, empty the vector, clear the task list at offset 36 and return zero."
+  }
+}

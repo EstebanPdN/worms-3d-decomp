@@ -1,0 +1,11 @@
+{
+  "unit": "cc34a_actor_range_warning_80070e94",
+  "source": "source/matching/game/cc34a/cc34a_actor_range_warning_80070e94.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc34a_actor_range_warning_80070e94": "0x80070e94"
+  },
+  "descriptions": {
+    "cc34a_actor_range_warning_80070e94": "Update actor range warning using raw sign-bit magnitude and fused threshold, restoring original deadline or issuing warning and delayed integer message."
+  }
+}

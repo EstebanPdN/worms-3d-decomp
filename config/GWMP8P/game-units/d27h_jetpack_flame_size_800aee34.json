@@ -1,0 +1,15 @@
+{
+  "unit": "d27h_jetpack_flame_size_800aee34",
+  "source": "source/matching/game/d27h/d27h_jetpack_flame_size_800aee34.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27h_jetpack_flame_size_800aee34": "0x800aee34"
+  },
+  "descriptions": {
+    "d27h_jetpack_flame_size_800aee34": "Jetpack flame update: with up set adds ms*0.0001 to the height at +104 clamped to 10; with hold set moves it toward 5; otherwise subtracts ms*0.0005 clamped to 0. At zero hides the parts at +44 and +48; otherwise shows them and applies the size at +100 with y scaled by a sine of ms modulo 500."
+  }
+}

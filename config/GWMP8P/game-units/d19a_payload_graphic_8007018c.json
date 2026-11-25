@@ -1,0 +1,16 @@
+{
+  "unit": "d19a_payload_graphic_8007018c",
+  "source": "source/matching/game/d19a/d19a_payload_graphic_8007018c.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d19a_payload_graphic_message_8007018c": "0x8007018c",
+    "w3d_d19a_payload_graphic_update_800702a4": "0x800702a4",
+    "w3d_d19a_clip_blend_80070490": "0x80070490"
+  },
+  "descriptions": {
+    "w3d_d19a_payload_graphic_message_8007018c": "FlyingPayloadGraphicEntity message handler: id 64 runs the base handler 0x800e81a0 and on success caches the clips (0x80070678, returns 0) or returns 0x80004005; id 66 calls 0x80070708; the cached message 0x804ad894 sets the cached flag (+240), loads the light node from the settings (+228), plays the settings' fly clip (+580) at rate 1.0 from 0.0 into +188 and checks it, and refreshes the light when +196 is not -1; other ids fall through to the base handler.",
+    "w3d_d19a_payload_graphic_update_800702a4": "Per-frame update: builds a transform from the controls object's orientation (virtual slot 14 at the current time) and the entity position (+60), applies it to the mesh (virtual slot 42), updates the member at +212 with the position, and unless cached blends the roll (+220) and pitch (+216) clips from the control inputs (+316..+328) with the settings speeds (+612/+608) over the ticks since +164, then stores the time in +164.",
+    "w3d_d19a_clip_blend_80070490": "Updates an animation clip blend value: steps it by speed*ticks towards -1 while decreasing, towards +1 while increasing, or back towards 0 when idle (clamped with min/max), then applies scale*(value*0.5+0.5) with rate 1.0 to the clip of the mesh at +32 through 0x80181884 and returns the new value."
+  }
+}

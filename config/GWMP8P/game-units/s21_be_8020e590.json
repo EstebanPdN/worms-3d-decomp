@@ -1,0 +1,11 @@
+{
+  "unit": "s21_be_8020e590",
+  "source": "source/matching/game/s21/s21_be_8020e590.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_unpack_bools_8020e590": "0x8020e590"
+  },
+  "descriptions": {
+    "w3d_s21_unpack_bools_8020e590": "Appears to widen each source byte to a boolean word in the destination for a given count and return zero."
+  }
+}

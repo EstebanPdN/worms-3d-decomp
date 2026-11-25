@@ -1,0 +1,14 @@
+{
+  "unit": "cc24a_planner_named_score_8000da8c",
+  "source": "source/matching/game/cc24a/cc24a_planner_named_score_8000da8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_named_score_8000da8c": "0x8000da8c"
+  },
+  "descriptions": {
+    "cc24a_planner_named_score_8000da8c": "Accumulate named-plan area and distance costs and apply mode, flag, exposure and weight factors in original float order."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

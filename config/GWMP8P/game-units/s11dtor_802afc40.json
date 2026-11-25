@@ -1,0 +1,11 @@
+{
+  "unit": "s11dtor_802afc40",
+  "source": "source/matching/game/generated/s11dtor_802afc40.c",
+  "language": "c",
+  "functions": {
+    "w3d_dtor_802afc40": "0x802afc40"
+  },
+  "descriptions": {
+    "w3d_dtor_802afc40": "Destructor: installs the class vtable, makes 24 member/base release calls in original order, and frees the object when bit 0 of flags is set."
+  }
+}

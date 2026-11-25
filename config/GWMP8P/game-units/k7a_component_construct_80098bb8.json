@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_component_construct_80098bb8",
+  "source": "source/matching/game/k7a/k7a_component_construct_80098bb8.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_component_construct_80098bb8": "0x80098bb8"},
+  "descriptions": {"w3d_k7a_component_construct_80098bb8": "Appears to construct a singleton component: base constructor, vtable, cleared counters, invalid slot and mode 7, registering itself in a global."}
+}

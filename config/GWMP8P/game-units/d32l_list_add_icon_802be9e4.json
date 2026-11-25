@@ -1,0 +1,19 @@
+{
+  "unit": "d32l_list_add_icon_802be9e4",
+  "source": "source/matching/game/d32l/d32l_list_add_icon_802be9e4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d32l_list_add_icon_802be9e4": "0x802be9e4"
+  },
+  "descriptions": {
+    "d32l_list_add_icon_802be9e4": "Adds one icon cell to a list row: parses its name and frame, sizes and places the sprite, sets its alpha colour and records it in the list's vector."
+  }
+}

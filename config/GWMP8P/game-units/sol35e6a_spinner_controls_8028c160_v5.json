@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e6a_spinner_controls_8028c160_v5",
+  "source": "source/matching/game/sol35e6a/sol35e6a_spinner_controls_8028c160_v5.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e6a_spinner_controls_8028c160_v5": "0x8028c160"
+  },
+  "descriptions": {
+    "sol35e6a_spinner_controls_8028c160_v5": "Updates three virtual controls and three related controls from the observed mode flags, copies a four-byte color, sets its final byte when active, and applies it to the optional target. Names are inferred."
+  }
+}

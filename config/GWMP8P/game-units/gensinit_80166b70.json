@@ -1,0 +1,35 @@
+{
+  "unit": "gensinit_80166b70",
+  "source": "source/matching/game/generated/gensinit_80166b70.c",
+  "language": "c",
+  "functions": {
+    "w3d_sinit_80166b70": "0x80166b70",
+    "w3d_sinit_8016a278": "0x8016a278",
+    "w3d_sinit_801a4cf4": "0x801a4cf4",
+    "w3d_sinit_801a5f44": "0x801a5f44",
+    "w3d_sinit_801a6ff8": "0x801a6ff8",
+    "w3d_sinit_801aafb8": "0x801aafb8",
+    "w3d_sinit_801abf20": "0x801abf20",
+    "w3d_sinit_801ac520": "0x801ac520",
+    "w3d_sinit_801d3fd0": "0x801d3fd0",
+    "w3d_sinit_801d5b44": "0x801d5b44",
+    "w3d_sinit_801d6740": "0x801d6740",
+    "w3d_sinit_801d9e68": "0x801d9e68",
+    "w3d_sinit_802e3088": "0x802e3088"
+  },
+  "descriptions": {
+    "w3d_sinit_80166b70": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_8016a278": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801a4cf4": "Static initializer (priority 0xffff): makes 1 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801a5f44": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801a6ff8": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801aafb8": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801abf20": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801ac520": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801d3fd0": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801d5b44": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801d6740": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_801d9e68": "Static initializer (priority 0xffff): makes 2 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_802e3088": "Static initializer (priority 0xffff): makes 1 registration/initialization calls with constant and address arguments."
+  }
+}

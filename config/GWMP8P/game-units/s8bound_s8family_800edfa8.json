@@ -1,0 +1,11 @@
+{
+  "unit": "s8bound_s8family_800edfa8",
+  "source": "source/matching/game/s8bound_s8family_800edfa8.c",
+  "language": "c",
+  "functions": {
+    "s8_bound_800edfa8": "0x800edfa8"
+  },
+  "descriptions": {
+    "s8_bound_800edfa8": "Initializes cached lookup offsets and registers parachute, turn, fire and inventory messages at priority 0xffff."
+  }
+}

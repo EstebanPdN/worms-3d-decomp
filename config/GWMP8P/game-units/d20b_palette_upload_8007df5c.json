@@ -1,0 +1,15 @@
+{
+  "unit": "d20b_palette_upload_8007df5c",
+  "source": "source/matching/game/d20b/d20b_palette_upload_8007df5c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d20b_palette_upload_8007df5c": "0x8007df5c"
+  },
+  "descriptions": {
+    "d20b_palette_upload_8007df5c": "Lock the source RGB array (+48: kind 1 increments the lock count and uses the inline data, otherwise reserve count x 1 bytes with flags 2), write 256 RGBA4444 entries ((r&0xf0)<<8 | (g&0xf0)<<4 | (b&0xf0) | 0xf) into the target palette (+372); set the ambient value (+2784) to the first entry scaled to 0..1 with contrast 0.75 around 0.5, and the range value (+2788) to the last entry (bytes 765..767) scaled to 0..1 minus that ambient colour; return 0."
+  }
+}

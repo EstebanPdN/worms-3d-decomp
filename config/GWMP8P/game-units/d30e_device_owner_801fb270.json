@@ -1,0 +1,19 @@
+{
+  "unit": "d30e_device_owner_801fb270",
+  "source": "source/matching/game/d30e/d30e_device_owner_801fb270.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "__15D30eDeviceOwner": "0x801fb270"
+  },
+  "descriptions": {
+    "__15D30eDeviceOwner": "Constructs the device owner: base table 0x804182d0, tagged link at +8 cleared with kind 2, final table 0x80418210, two empty pointer vectors at +36 and +52, then runs 0x80301cb4 and, for each of four channels, gets a device from service 0x804181f0, opens it through slot 22, appends it (or null on failure) to the vector at +52 and, with an added reference, to the one at +36. Vectors are unmodified STLport. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

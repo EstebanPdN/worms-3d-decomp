@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_status_refresh_8021e054",
+  "source": "source/matching/game/d26k/d26k_status_refresh_8021e054.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_status_refresh_8021e054": "0x8021e054"
+  },
+  "descriptions": {
+    "w3d_d26k_status_refresh_8021e054": "Refreshes active worm index, team reference, stamp and title, copies the camera view matrix and active worm name when a camera exists, and resolves three sounds through 0x80178c48."
+  }
+}

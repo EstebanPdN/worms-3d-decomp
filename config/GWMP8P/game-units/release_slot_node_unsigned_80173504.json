@@ -1,0 +1,11 @@
+{
+  "unit": "release_slot_node_unsigned_80173504",
+  "source": "source/matching/game/resource_slots/release_slot_node_unsigned_80173504.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_release_slot_node_80173504": "0x80173504"
+  },
+  "descriptions": {
+    "w3d_release_slot_node_80173504": "Releases one slot node and returns the status of the admitted base node reset 0x801859f8. Reaches the slot group through the held handle (+128, group at +48), opens the group's copy-on-write byte array at +96 for writing (unshared store locked in place with its +28 count incremented, otherwise reserved through 0x801ef048 with element size 1 and append flag 2) and clears the byte at the node's index (+124). Releases the held handle through its table slot 4 and clears it, fetches the group bitset 0x801720c0 for the resource at +116 (via the identity accessor 0x80343808) and the node's group byte at +4, clears the index bit, unregisters the node through the resource's table slot 15, and sets bit 2 of the group's flag byte at +11 when the bitset has no set bit below its bit count. Names inferred; offsets observed; no owned data. Uses an unsigned mask for all32bit positions."
+  }
+}

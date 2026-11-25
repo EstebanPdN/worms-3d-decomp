@@ -1,0 +1,11 @@
+{
+  "unit": "cc29b_update_text_8018c3a0",
+  "source": "source/matching/game/cc29b/cc29b_update_text_8018c3a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc29b_update_text_8018c3a0": "0x8018c3a0"
+  },
+  "descriptions": {
+    "w3d_cc29b_update_text_8018c3a0": "Adds the time step, updates and queries every held controller through its observed virtual slots, and preserves unordered/nonzero result activity. Removes the text from the manager and clears active state when all queried values equal the original constant, then rebuilds its text state and returns zero. Result view covers the modeled frame, not a recovered original class size."
+  }
+}

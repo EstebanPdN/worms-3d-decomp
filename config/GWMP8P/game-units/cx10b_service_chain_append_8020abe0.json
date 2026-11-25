@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_service_chain_append_8020abe0",
+  "source": "source/matching/game/cx10b/cx10b_service_chain_append_8020abe0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_service_chain_append_8020abe0": "0x8020abe0"
+  },
+  "descriptions": {
+    "w3d_cx10b_service_chain_append_8020abe0": "Append another service to the raw pointer vector, growing storage and retaining it after insertion."
+  }
+}

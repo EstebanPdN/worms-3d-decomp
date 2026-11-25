@@ -1,0 +1,14 @@
+{
+  "unit": "f4b_signed_direction_800af580",
+  "source": "source/matching/game/f4b/f4b_signed_direction_800af580.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4b_signed_direction_800af580": "0x800af580"
+  },
+  "descriptions": {
+    "f4b_signed_direction_800af580": "Resolve the object service at offset 192, invoke virtual slot 48 to fill the output vector, and normalize it when squared length exceeds the original zero constant. Set the signs of output components 0 and 8 from object offsets 72 and 80, using sign-bit clearing for absolute values. Semantic direction roles are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

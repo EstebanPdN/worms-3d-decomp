@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cb_8028a2b0",
+  "source": "source/matching/game/s21/s21_cb_8028a2b0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_split_line_8028a2b0": "0x8028a2b0"
+  },
+  "descriptions": {
+    "w3d_s21_split_line_8028a2b0": "Appears to split a text at its first newline: it terminates the first line, copies the remainder to the destination and returns one, or returns zero without a newline."
+  }
+}

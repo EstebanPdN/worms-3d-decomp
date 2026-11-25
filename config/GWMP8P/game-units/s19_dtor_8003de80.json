@@ -1,0 +1,11 @@
+{
+  "unit": "s19_dtor_8003de80",
+  "source": "source/matching/game/s19/s19_dtor_8003de80.c",
+  "language": "c",
+  "functions": {
+    "s19_actor_destroy_8003de80": "0x8003de80"
+  },
+  "descriptions": {
+    "s19_actor_destroy_8003de80": "Appears to install a vtable, release four held interfaces from +0x60, destroy the handle member at +0x44 and run the actor base destroy."
+  }
+}

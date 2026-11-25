@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_state_manager_sinit_801a3648",
+  "source": "source/matching/game/cc17c/cc17c_state_manager_sinit_801a3648.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_sinit_801a3648": "0x801a3648"
+  },
+  "descriptions": {
+    "w3d_cc17c_sinit_801a3648": "Static initializer for the StateManager module: registers its factory record, constructs the global state manager (base and derived vtables around an inlined STLport tree with a freshly allocated header node), clears a three-word range object and builds a type descriptor."
+  }
+}

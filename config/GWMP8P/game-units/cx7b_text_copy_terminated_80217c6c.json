@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_text_copy_terminated_80217c6c",
+  "source": "source/matching/game/cx7b/cx7b_text_copy_terminated_80217c6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_text_copy_terminated_80217c6c": "0x80217c6c"
+  },
+  "descriptions": {
+    "w3d_cx7b_text_copy_terminated_80217c6c": "Copy the source string bytes, append the low terminator byte, then return the end pointer advanced once when that signed byte is nonzero."
+  }
+}

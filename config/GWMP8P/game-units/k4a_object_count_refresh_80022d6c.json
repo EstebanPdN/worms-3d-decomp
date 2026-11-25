@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_object_count_refresh_80022d6c",
+  "source": "source/matching/game/k4a/k4a_object_count_refresh_80022d6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_object_count_refresh_80022d6c": "0x80022d6c"
+  },
+  "descriptions": {
+    "k4a_object_count_refresh_80022d6c": "Appears to resolve the ObjectCount.Active interface, replace the globally held interface with it (retain new, release old) and push an initial value to it."
+  }
+}

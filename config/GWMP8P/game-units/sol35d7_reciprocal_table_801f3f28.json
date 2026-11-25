@@ -1,0 +1,12 @@
+{
+  "unit": "sol35d7_reciprocal_table_801f3f28",
+  "source": "source/matching/game/sol35d7/sol35d7_reciprocal_table_801f3f28.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_reciprocal_table_801f3f28": "0x801f3f28"
+  },
+  "description": "Allocate and populate an inferred 128-byte reciprocal lookup using IEEE32 word rounding and a native scalar dependency.",
+  "function_descriptions": {
+    "sol35d7_reciprocal_table_801f3f28": "Allocate and populate an inferred 128-byte reciprocal lookup using IEEE32 word rounding and a native scalar dependency."
+  }
+}

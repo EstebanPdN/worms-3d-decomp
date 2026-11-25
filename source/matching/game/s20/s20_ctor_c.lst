@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_ctor_c.c
+w3d_s20_construct_header_801b440c|0x801b440c|Appears to install vtables around a small flagged header and zero two extra words at offsets 24 and 20, returning this.

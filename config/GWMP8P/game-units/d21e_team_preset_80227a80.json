@@ -1,0 +1,14 @@
+{
+  "unit": "d21e_team_preset_80227a80",
+  "source": "source/matching/game/d21e/d21e_team_preset_80227a80.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "__14D21eTeamPresetUs": "0x80227a80"
+  },
+  "descriptions": {
+    "__14D21eTeamPresetUs": "Constructs a derived team object: runs the team constructor 0x80227398 with the caller's 16-bit id, installs the table 0x8041a140, zeroes +68 and +72, opens six entries of the string array (0x80231f14), formats \"Worm 1\"..\"Worm 6\" (0x803b506c) into a local string and assigns each with reference counting, appends the retained result of the service lookup 0x8020b680 (key 0x80419ea8) to the object array (0x80231fd0), and returns this. Names are inferred; offsets are observed."
+  }
+}

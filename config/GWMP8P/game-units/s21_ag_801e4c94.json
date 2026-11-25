@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ag_801e4c94",
+  "source": "source/matching/game/s21/s21_ag_801e4c94.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_reset_801e4c94": "0x801e4c94"
+  },
+  "descriptions": {
+    "w3d_s21_reset_801e4c94": "Appears to call a virtual slot through the vtable field at offset 28 and then clear four words of the object."
+  }
+}

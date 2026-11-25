@@ -1,0 +1,11 @@
+{
+  "unit": "e14b_publish_8016a4f4",
+  "source": "source/matching/game/e14b/e14b_publish_8016a4f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "e14b_publish_8016a4f4": "0x8016a4f4"
+  },
+  "descriptions": {
+    "e14b_publish_8016a4f4": "Publish whether a message enables a feature: normalise its word at +24 into the shared volatile flag byte at 0x804ab520, pass that flag and the small-data table base 0x804ab51c to the dispatcher at 0x8030ba64 with mode 1, and return 0. The first parameter is not read."
+  }
+}

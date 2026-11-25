@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d13_resize_refs_80210b90_adopt",
+  "source": "source/matching/game/sol35d13/sol35d13_resize_refs_80210b90_adopt.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_resize_refs_80210b90_adopt": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d13_resize_refs_80210b90_adopt": "Resize retained interfaces using the actual I7 provider declaration and a genuine post-destruction array adoption boundary; signed capacity comparison, unsigned loops, native retain/release/reload and new[] lifetimes preserved."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

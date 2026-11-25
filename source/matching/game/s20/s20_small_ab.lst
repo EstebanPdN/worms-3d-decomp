@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_small_ab.c
+w3d_s20_forward_resolved_800e45d0|0x800e45d0|Appears to resolve a handle, ask the owner for an object through virtual method 5 and call its virtual method 9 with the resolved value.

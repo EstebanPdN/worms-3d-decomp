@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ef_801de160",
+  "source": "source/matching/game/s21/s21_ef_801de160.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_array_801de160": "0x801de160"
+  },
+  "descriptions": {
+    "w3d_s21_write_array_801de160": "Appears to serialize the object through a writer: it writes the element count, each element of the counted array and an embedded block through virtual slots, returning zero."
+  }
+}

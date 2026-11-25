@@ -1,0 +1,11 @@
+{
+  "unit": "f4b_reflect_vector_8003ee4c",
+  "source": "source/matching/game/f4b/f4b_reflect_vector_8003ee4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4b_reflect_vector_8003ee4c": "0x8003ee4c"
+  },
+  "descriptions": {
+    "f4b_reflect_vector_8003ee4c": "Compute the dot product of object vector offset 40 with the input, clamp it to the original lower and upper constants, subtract the input vector scaled by twice that dot product, and multiply the resulting object vector by the original scale constant. Reflection and damping roles are inferred."
+  }
+}

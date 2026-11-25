@@ -1,0 +1,11 @@
+{
+  "unit": "d40z_cvt",
+  "source": "source/matching/game/d40z/d40z_cvt.c",
+  "language": "c",
+  "functions": {
+    "w3d_d40z_cvt_802f0118": "0x802f0118"
+  },
+  "descriptions": {
+    "w3d_d40z_cvt_802f0118": "SN's float conversion for printf: writes sign, digits, point and exponent for e and f formats into a static buffer, optionally trimming zeros; special values return fixed strings."
+  }
+}

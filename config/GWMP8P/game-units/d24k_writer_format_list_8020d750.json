@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_writer_format_list_8020d750",
+  "source": "source/matching/game/d24k/d24k_writer_format_list_8020d750.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_writer_format_list_8020d750": "0x8020d750"
+  },
+  "descriptions": {
+    "w3d_d24k_writer_format_list_8020d750": "Formats text with vsnprintf into a 512-byte stack buffer and writes it to the sink (virtual +24); on overflow retries with temporary buffers from 1024 bytes, doubling until it fits, then writes and releases; returns the writer."
+  }
+}

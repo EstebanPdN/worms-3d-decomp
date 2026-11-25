@@ -1,0 +1,11 @@
+--- a/port/core/game/d40n/d40n_rebuild_active_bits_801979fc.cpp
++++ b/port/core/game/d40n/d40n_rebuild_active_bits_801979fc.cpp
+@@ -8,7 +8,7 @@
+ #include "compat/module_allocator.h"
+ #include <vector>
+ struct D40nKey { int enabled; int a, b; };
+-struct D40nSample { int flags; int a, b; unsigned short Index() const { return ((Ptr32<const unsigned short>)&flags)[1]; } };
++struct D40nSample { int flags; int a, b; unsigned short Index() const { return ((Ptr32<const unsigned short>)&flags)[0] /* PPC +2: mitad baja de la palabra */; } };
+ struct D40nColumn { _STL::vector<D40nSample, ModuleAllocator<D40nSample> > samples; };
+ struct D40nSource { char u0[52]; Ptr32<D40nColumn> columns; };
+ struct D40nPlayback {

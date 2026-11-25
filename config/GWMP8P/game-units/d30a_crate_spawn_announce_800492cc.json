@@ -1,0 +1,14 @@
+{
+  "unit": "d30a_crate_spawn_announce_800492cc",
+  "source": "source/matching/game/d30a/d30a_crate_spawn_announce_800492cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_crate_spawn_announce_800492cc": "0x800492cc"
+  },
+  "descriptions": {
+    "w3d_d30a_crate_spawn_announce_800492cc": "Plays the crate spawn effects at the position, finds the nearest living team and posts the crate kind and target messages for it."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d16b_sync_tracked_body_8009785c",
+  "source": "source/matching/game/d16b/d16b_sync_tracked_body_8009785c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d16b_sync_tracked_body_8009785c": "0x8009785c"
+  },
+  "descriptions": {
+    "d16b_sync_tracked_body_8009785c": "Look up the tracked body handle; when missing, clear the handle and run the owner finish routine. Otherwise copy the body position, lower it by the body offset, pass it and the body orientation to the target's virtual setters, update the member query with the position and, in mode 2, apply the body's kind and two scalars. Returns 0. Partial observed layouts; no owned initialized data. Compiled with the original paired-single float switch -mps-float (reserves the FPR pair frame slots)."
+  }
+}

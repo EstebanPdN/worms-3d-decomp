@@ -1,0 +1,11 @@
+{
+  "unit": "cc40a_service_result_8017b50c",
+  "source": "source/matching/game/cc40a/cc40a_service_result_8017b50c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc40a_service_result_8017b50c": "0x8017b50c"
+  },
+  "descriptions": {
+    "cc40a_service_result_8017b50c": "Acquire the addressed service, supply the input, evaluate the owner context, return zero for negative status or the service result otherwise, releasing the local reference on both paths."
+  }
+}

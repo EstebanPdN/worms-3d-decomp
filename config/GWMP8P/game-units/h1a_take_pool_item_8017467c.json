@@ -1,0 +1,11 @@
+{
+  "unit": "h1a_take_pool_item_8017467c",
+  "source": "source/matching/game/h1a/h1a_take_pool_item_8017467c.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1a_take_pool_item_8017467c": "0x8017467c"
+  },
+  "descriptions": {
+    "h1a_take_pool_item_8017467c": "Fails with 0x80004005 if the unsigned-short free count is zero. Resolves mode 255 from request byte 25, reads a free index before decrementing the count, addresses the selected 172-byte pool item, retains it, releases the previous output and replaces the output pointer. Dispatches item slot 40 with request and mode; on success increments the request-type counter, calls 0x80190438 with selector 255, and optionally invokes the request callback at offset 36 after the observed empty helper."
+  }
+}

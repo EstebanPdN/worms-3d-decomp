@@ -1,0 +1,14 @@
+{
+  "unit": "d30e_read_tga_801da28c",
+  "source": "source/matching/game/d30e/d30e_read_tga_801da28c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_read_tga_801da28c": "0x801da28c"
+  },
+  "descriptions": {
+    "w3d_d30e_read_tga_801da28c": "Reads a TGA image from a stream into a new generic image (Mark Kilgard's public gliReadTGA, with stream reads and seeks through virtual slots 3 and 5): checks footer and header, decodes the image type, validates channel sizes, reads the optional color map with BGR to RGB swap, reads each row through the plain or run-length reader, reverses rows when needed, and fills the 36-byte result. Errors format into the buffer at 0x8045d818 and return null."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

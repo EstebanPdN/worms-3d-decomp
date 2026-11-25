@@ -1,0 +1,14 @@
+{
+  "unit": "d34b_logic_message_800882b0",
+  "source": "source/matching/game/d34b/d34b_logic_message_800882b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d34b_logic_message_800882b0": "0x800882b0"
+  },
+  "descriptions": {
+    "d34b_logic_message_800882b0": "Game logic message handler: compares the message id against the cached ids and dispatches each to its handler or inline property, spawn or inventory code, then returns the base handler 0x8016293c. Message 64 runs the base handler and logic init (0x80088f80) and returns 0, or 0x80004005 on failure."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

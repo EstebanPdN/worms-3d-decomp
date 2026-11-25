@@ -1,0 +1,11 @@
+{
+  "unit": "f2c_tag_init_801a25c8",
+  "source": "source/matching/game/f2c/f2c_tag_init_801a25c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2c_tag_init_801a25c8": "0x801a25c8"
+  },
+  "descriptions": {
+    "f2c_tag_init_801a25c8": "Initialize the observed tag, word pair and four word triples; clear scalar fields, link the previous global object at 32 and replace that global. Layout and names inferred."
+  }
+}

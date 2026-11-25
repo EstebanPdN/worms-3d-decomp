@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_static_descriptor_table_80210f5c",
+  "source": "source/matching/game/cx11b/cx11b_static_descriptor_table_80210f5c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_static_descriptor_table_80210f5c": "0x80210f5c"
+  },
+  "descriptions": {
+    "w3d_cx11b_static_descriptor_table_80210f5c": "Initialize the original static descriptor table once and return its first entry."
+  }
+}

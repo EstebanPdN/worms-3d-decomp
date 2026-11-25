@@ -1,0 +1,11 @@
+{
+  "unit": "cx15a_refresh_follow_800f02a8",
+  "source": "source/matching/game/cx15a/cx15a_refresh_follow_800f02a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_refresh_follow_800f02a8": "0x800f02a8"
+  },
+  "descriptions": {
+    "w3d_cx15a_refresh_follow_800f02a8": "Update fade and follow state, optionally pass a copied indexed position to the held interface, and refresh the displayed position."
+  }
+}

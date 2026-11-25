@@ -1,0 +1,15 @@
+{
+  "unit": "s9init_80172a0c",
+  "source": "source/matching/game/generated/s9init_80172a0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s9_initialize_shared_properties_80172a0c": "0x80172a0c",
+    "s9_initialize_shared_properties_80184fe4": "0x80184fe4",
+    "s9_initialize_shared_properties_8018893c": "0x8018893c"
+  },
+  "descriptions": {
+    "s9_initialize_shared_properties_80172a0c": "Registers the descriptor type and clears its shared resource slots and owner count during static initialization.",
+    "s9_initialize_shared_properties_80184fe4": "Registers the descriptor type and clears its shared resource slots and owner count during static initialization.",
+    "s9_initialize_shared_properties_8018893c": "Registers the descriptor type and clears its shared resource slots and owner count during static initialization."
+  }
+}

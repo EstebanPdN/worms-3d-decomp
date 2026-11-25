@@ -1,0 +1,11 @@
+{
+  "unit": "s9perm_8018b4cc",
+  "source": "source/matching/game/perm/s9perm_8018b4cc.c",
+  "language": "c",
+  "functions": {
+    "s9_permute_8018b4cc": "0x8018b4cc"
+  },
+  "descriptions": {
+    "s9_permute_8018b4cc": "Converts the second argument with a helper, computes a float from the first argument and temporary, cleans up the temporary and returns the float."
+  }
+}

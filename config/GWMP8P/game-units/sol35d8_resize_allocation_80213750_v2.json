@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d8_resize_allocation_80213750_v2",
+  "source": "source/matching/game/sol35d8/sol35d8_resize_allocation_80213750_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d8_resize_allocation_80213750_v2": "0x80213750"
+  },
+  "descriptions": {
+    "sol35d8_resize_allocation_80213750_v2": "Resize a native allocation by forward coalescing, fresh allocation and word copying, or remainder splitting; mapped allocations and oversized requests fail through native errno."
+  }
+}

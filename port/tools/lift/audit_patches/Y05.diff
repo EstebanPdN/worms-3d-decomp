@@ -1,0 +1,38 @@
+diff -ru a/port/core/game/d29d/d29d_worm_drown_80149f18.cpp b/port/core/game/d29d/d29d_worm_drown_80149f18.cpp
+--- a/port/core/game/d29d/d29d_worm_drown_80149f18.cpp	2026-11-05 13:07:43
++++ b/port/core/game/d29d/d29d_worm_drown_80149f18.cpp	2026-11-05 13:07:43
+@@ -45,7 +45,7 @@
+ int falling_8014fcac(Ptr32<Worm>);
+ void track_80150828(Ptr32<Worm>);
+ // v26 (core/native/ahogo.cpp): ahogo de Ultimate Mayhem y prueba de ahogo.
+-int w3d_ahogo_um_entrar(int, int);
++int w3d_ahogo_um_entrar(int, int, unsigned);
+ int w3d_prueba_ahogo_toca(int);
+ int w3d_prueba_ahogo_somero(void);
+ float w3d_prueba_ahogo_altura(void);
+@@ -185,11 +185,12 @@
+     if (owner_8014c488(self)) clear_links_8014df84(self, 1);
+     // 8014fcac da 1 si no hay suelo a menos de 100 unidades bajo el worm: agua honda.
+     int deep = falling_8014fcac(self);
+-    // v26 (pedido del dueño): con el ahogo de UM activado (core/native/ahogo.cpp), todo ahogo flota y explota como en UM.
+-    int um = w3d_ahogo_um_entrar(self->f584, deep);
+-    if (um) {
++    // v26-v27 (pedido del dueño): con el ahogo de UM activado (core/native/ahogo.cpp), la mitad de los ahogos flota y
++    // explota como en UM (1) y la otra mitad se hunde (2), aunque haya suelo cerca.
++    int um = w3d_ahogo_um_entrar(self->f584, deep, (unsigned)engine_80165254()->now);
++    if (um == 1) {
+         entrada_um(self);
+-    } else if (!deep) {
++    } else if (!deep && um != 2) {
+         self->f760 = 27;
+         set_state_801492ec(self, 33);
+         *(Ptr32<Triple>)&self->f676 = *triple_8045e788;
+@@ -204,7 +205,7 @@
+     }
+     if (owner_8014c488(self)) post_plain(&cache_804afb68);
+     self->f688 = *triple_8045e788;
+-    if (!um) {
++    if (um != 1) {
+         self->f676.x *= 0.4f;
+         self->f676.z *= 0.4f;
+         self->f676.y *= 0.6f;

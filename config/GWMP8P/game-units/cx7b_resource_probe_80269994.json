@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_resource_probe_80269994",
+  "source": "source/matching/game/cx7b/cx7b_resource_probe_80269994.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_resource_probe_80269994": "0x80269994"
+  },
+  "descriptions": {
+    "w3d_cx7b_resource_probe_80269994": "When the word at owner +496 is zero, call the probe and release the local held interface if nonnull; return zero."
+  }
+}

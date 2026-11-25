@@ -1,0 +1,59 @@
+{
+  "schema": "sol35c4-pal-rev0-ctors-v1",
+  "admitted_wrapper": {
+    "name": "w3d_static_init_80141c18",
+    "address": "0x80141c18",
+    "bytes": 44,
+    "body_sha256": "9c20bc25197f8e40ba79b1453f1e8e29ca7f73af3e8ca49747b05dd7568be622",
+    "source": "source/matching/game/generated/gen2_800f6e94.cpp",
+    "exact_linked_match": true,
+    "receipt": "analysis/receipts/lua-game-game_gen2_800f6e94-linked-comparison.json"
+  },
+  "inputs": {
+    "original/extracted/sys/main.dol": "bb1b36b9bbb806688e616208254907ae2af59d2e191ff839b3a046a6c2c6f514",
+    "analysis/dtk/asm/auto_02_8035F3E0_data.s": "d3aa54072e8faa98fc5bde47718a6f9364db2896918705855fba93a1cf6d14d5",
+    "analysis/dtk/asm/auto_01_80003300_text.s": "28169cfdd3c3567d67de2ee4d361cb6bb7ab3a5cb477466a70c5b0615c25939d",
+    "analysis/dtk/asm/auto_00_80003100_init.s": "b5eaa7cc68de1207e25c53d5916b53cff410ef8b22efbf26290825f26f4a1639",
+    "analysis/receipts/lua-game-game_gen2_800f6e94-linked-comparison.json": "68f85b345771b62dff1ee8af540eb4dc0e83b37c4626c1925fca0a5bfe822771",
+    "analysis/receipts/lua-game-game_gen2_800f6e94-compile.json": "812732d526d435120e7a0443dfcd417d0c387096ca8c1127372c5bf623fcc903",
+    "source/matching/game/generated/gen2_800f6e94.cpp": "68fbd32924c19dd3d8f245f0af639de13485364613aec4fca27944d8e23435e0"
+  },
+  "table_base": "0x8035f3e0",
+  "slot": "0x8035f724",
+  "index": 209,
+  "first_null_index": 412,
+  "entry_count": 411,
+  "original_regions": [
+    {
+      "address": "0x80003100",
+      "bytes": 292,
+      "sha256": "8744dfca2c60ba3e5011aacb5ff827a33300e147c6e3370ceb2f0a67b399982c"
+    },
+    {
+      "address": "0x8015ad40",
+      "bytes": 32,
+      "sha256": "e048e76c700df4b252144ae3a74349c36a04b8ba48ed4da4dbf962bae820b45b"
+    },
+    {
+      "address": "0x802f35fc",
+      "bytes": 56,
+      "sha256": "1d3d97d9b634c3af5298288f348ff320aa89c039439d355255881fe168046d5e"
+    },
+    {
+      "address": "0x802f356c",
+      "bytes": 144,
+      "sha256": "2d2052b8602ddff4b61dbf9dcb24fe04140f2861d566c5adda0788cf19cfdc43"
+    },
+    {
+      "address": "0x8035f3e0",
+      "bytes": 1664,
+      "sha256": "8299ddf82446567d166624cfa8b933579e308e0ba830729ceebe572b73926706"
+    },
+    {
+      "address": "0x80141c18",
+      "bytes": 44,
+      "sha256": "9c20bc25197f8e40ba79b1453f1e8e29ca7f73af3e8ca49747b05dd7568be622"
+    }
+  ],
+  "interpretation": "Entry startup calls 8015ad40, which calls guarded 802f35fc, which calls reverse constructor walker 802f356c. The walker references the sentinel table at8035f3e0. Slot index209 is80141c18, between801410cc and801547c8; 411 callable entries, first zero at8035fa50."
+}

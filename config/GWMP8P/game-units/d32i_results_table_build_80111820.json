@@ -1,0 +1,15 @@
+{
+  "unit": "d32i_results_table_build_80111820",
+  "source": "source/matching/game/d32i/d32i_results_table_build_80111820.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d32i_results_table_build_80111820": "0x80111820"
+  },
+  "descriptions": {
+    "d32i_results_table_build_80111820": "Reads the game init object named by a setting, builds the name, score and skill label columns on the list, grows their arrays by the team count, and inserts each team's formatted row sorted by rounds won, then skill and name."
+  }
+}

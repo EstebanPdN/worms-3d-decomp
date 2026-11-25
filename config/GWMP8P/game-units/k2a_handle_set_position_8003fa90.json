@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_handle_set_position_8003fa90",
+  "source": "source/matching/game/k2a/k2a_handle_set_position_8003fa90.c",
+  "language": "c",
+  "functions": {
+    "k2a_handle_set_position_8003fa90": "0x8003fa90"
+  },
+  "descriptions": {
+    "k2a_handle_set_position_8003fa90": "Appears to copy a three-float position into a handle slot (32-byte stride) and refresh the slot's resource."
+  }
+}

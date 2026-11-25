@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_8024dac8",
+  "source": "source/matching/game/k5b/k5b_a_8024dac8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_labelled_frame_construct_8024dac8": "0x8024dac8"
+  },
+  "descriptions": {
+    "w3d_k5b_labelled_frame_construct_8024dac8": "Appears to construct a derived named colour object over 0x801b4bcc: vtable 0x8041b7f8, four zero vectors and two empty shared strings at +92 and +96."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "d30s_guid_map_attach_80211a14",
+  "source": "source/matching/game/d30s/d30s_guid_map_attach_80211a14.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_guid_map_attach_80211a14": "0x80211a14"
+  },
+  "descriptions": {
+    "d30s_guid_map_attach_80211a14": "Stores a service in the map at +64, appends it to the list chosen by a 4-bit field at +32, and returns the result of the registry's table slot at +20."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

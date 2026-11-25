@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f2_byte_fill_insert_80342ddc",
+  "source": "source/matching/game/sol35f2/sol35f2_byte_fill_insert_80342ddc.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f2_byte_fill_insert_80342ddc": "0x80342ddc"
+  },
+  "descriptions": {
+    "sol35f2_byte_fill_insert_80342ddc": "Inserts repeated bytes before a position in an observed 16-byte GC32 vector: shifts the suffix and fills in place when storage permits; otherwise allocates a larger block, copies the prefix and suffix, fills the inserted range, releases old storage, and updates begin, finish and storage end."
+  }
+}

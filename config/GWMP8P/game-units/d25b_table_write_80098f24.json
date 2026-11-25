@@ -1,0 +1,11 @@
+{
+  "unit": "d25b_table_write_80098f24",
+  "source": "source/matching/game/d25b/d25b_table_write_80098f24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_table_write_80098f24": "0x80098f24"
+  },
+  "descriptions": {
+    "w3d_d25b_table_write_80098f24": "Character-table write: builds a string (0x803426b8, 0x802cd220, 0x802cd128), appends every entry of the null-terminated table 0x803f4b50 with mode 7 (0x802cbf2c), writes the text to the sink at +32 with mode 9 (0x802cbdf8), clears +36 and +40 and destroys the string."
+  }
+}

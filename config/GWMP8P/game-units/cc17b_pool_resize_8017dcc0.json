@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_pool_resize_8017dcc0",
+  "source": "source/matching/game/cc17b/cc17b_pool_resize_8017dcc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_pool_resize_8017dcc0": "0x8017dcc0"
+  },
+  "descriptions": {
+    "w3d_cc17b_pool_resize_8017dcc0": "When the observed signed owner guard is nonnegative, dispatches the requested count to the original service for categories zero through six; unsupported categories and inactive owners return 0x80004005."
+  }
+}

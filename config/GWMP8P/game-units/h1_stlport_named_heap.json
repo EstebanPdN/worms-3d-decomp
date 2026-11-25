@@ -1,0 +1,15 @@
+{
+  "unit": "h1_stlport_named_heap",
+  "source": "source/matching/game/h1/h1_stlport_named_heap.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_push_heap_8034a400": "0x8034a400",
+    "w3d_adjust_heap_8034a568": "0x8034a568",
+    "w3d_pop_heap_8034a7fc": "0x8034a7fc"
+  },
+  "descriptions": {
+    "w3d_push_heap_8034a400": "STLport push_heap for {handle, priority} entries: moves the last entry up while its parent compares lower (priority, then object name).",
+    "w3d_adjust_heap_8034a568": "STLport __adjust_heap for {handle, priority} entries ordered by priority, then by the handles' object names.",
+    "w3d_pop_heap_8034a7fc": "STLport pop_heap for {handle, priority} entries: moves the top entry to the end and re-heaps the rest."
+  }
+}

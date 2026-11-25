@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bg_8020dbf8",
+  "source": "source/matching/game/s21/s21_bg_8020dbf8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_text_8020dbf8": "0x8020dbf8"
+  },
+  "descriptions": {
+    "w3d_s21_write_text_8020dbf8": "Appears to write a C string through the writer's stream slot using its length and return the writer."
+  }
+}

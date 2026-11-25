@@ -1,0 +1,11 @@
+{
+  "unit": "f15c_component_initialize_80068570",
+  "source": "source/matching/game/f15c/f15c_component_initialize_80068570.cpp",
+  "language": "cpp",
+  "functions": {
+    "f15c_component_initialize_80068570": "0x80068570"
+  },
+  "descriptions": {
+    "f15c_component_initialize_80068570": "Placement-initializes the observed receiver prefix: calls native base constructor8015fef0, installs vtable8040ef28, clears interface words28,32,96,100,108, default-constructs ten four-byte shared strings at160 and ten at280 using native member-array construction in the inferred shared subobject+120, then constructs strings364 and368. Clears six held interface words372 through392, sets global804aaa9c to1, clears handle104 and returns the original receiver. Native string constructor803426b8 writes one pointer; base constructor footprint is verified through8015fa40. Original factory8006849c allocates400 bytes; this external396-byte prefix leaves the last four bytes unmodeled and asserts neither a complete original class nor a local allocation."
+  }
+}

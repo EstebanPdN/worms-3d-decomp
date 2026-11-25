@@ -1,0 +1,11 @@
+{
+  "unit": "d41f_scheme_delete_80292d4c",
+  "source": "source/matching/game/d41f/d41f_scheme_delete_80292d4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41f_scheme_delete_80292d4c": "0x80292d4c"
+  },
+  "descriptions": {
+    "w3d_d41f_scheme_delete_80292d4c": "Deletes a game scheme: reads the name property, returns if empty, looks up the scheme list, searches it for the name and erases the entry unless its locked field is 1; a missing name only copies the name for a compiled-out note."
+  }
+}

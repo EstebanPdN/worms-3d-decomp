@@ -1,0 +1,14 @@
+{
+  "unit": "d25j_switch_parts_8017b15c",
+  "source": "source/matching/game/d25j/d25j_switch_parts_8017b15c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25j_switch_parts_8017b15c": "0x8017b15c"
+  },
+  "descriptions": {
+    "d25j_switch_parts_8017b15c": "Holds the shape under the key at +4, calls 0x8017b6dc, then finds part +124 (flag set) or part +120 (flag clear) in the shape's list; on a hit notifies the shape through 0x801ef380 and 0x801ef174 with the other part and clears (flag set) or sets to part +120 (flag clear) the reference at +20 of part +124; returns 0, or 0x80004005 on a miss."
+  }
+}

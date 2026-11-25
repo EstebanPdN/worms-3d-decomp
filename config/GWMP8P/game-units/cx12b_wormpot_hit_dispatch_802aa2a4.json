@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_wormpot_hit_dispatch_802aa2a4",
+  "source": "source/matching/game/cx12b/cx12b_wormpot_hit_dispatch_802aa2a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_wormpot_hit_dispatch_802aa2a4": "0x802aa2a4"
+  },
+  "descriptions": {
+    "w3d_cx12b_wormpot_hit_dispatch_802aa2a4": "Check original hit bounds and selected entry, dispatching selection only when the panel is active."
+  }
+}

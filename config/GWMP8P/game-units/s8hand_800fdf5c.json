@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800fdf5c",
+  "source": "source/matching/game/s8hand_800fdf5c.c",
+  "language": "c",
+  "functions": {
+    "s8_clear_flags_800fdf5c": "0x800fdf5c"
+  },
+  "descriptions": {
+    "s8_clear_flags_800fdf5c": "Forwards two values to a resolved interface and conditionally clears one of the object flag bits."
+  }
+}

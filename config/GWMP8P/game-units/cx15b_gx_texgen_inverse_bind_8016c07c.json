@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_gx_texgen_inverse_bind_8016c07c",
+  "source": "source/matching/game/cx15b/cx15b_gx_texgen_inverse_bind_8016c07c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_gx_texgen_inverse_bind_8016c07c": "0x8016c07c"
+  },
+  "descriptions": {
+    "w3d_cx15b_gx_texgen_inverse_bind_8016c07c": "Load inverse object and context texture matrices, configure texgen, and cache mode two."
+  }
+}

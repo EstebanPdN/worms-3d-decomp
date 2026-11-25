@@ -1,0 +1,14 @@
+{
+  "unit": "d21b_camera_oscillate_800a439c",
+  "source": "source/matching/game/d21b/d21b_camera_oscillate_800a439c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d21b_camera_oscillate_800a439c": "0x800a439c"
+  },
+  "descriptions": {
+    "d21b_camera_oscillate_800a439c": "Camera oscillation step: on first use set static vector A (0x80438544) to zero, vector B (0x80438550) to (0, 0, -450) and vector C (0x8043855c) to zero, each behind its own init flag; set B.y = (sin(tick * 0.0004) + 1) * 400 and C.z = (sin(tick * 0.0002) + 1) * 500, call the context camera's (+48) virtual slots 11 with B and 12 with C, run the logic hook 0x800c88c4 on the global hook object when present, and return 0."
+  }
+}

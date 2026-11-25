@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_sweep_step_800df570",
+  "source": "source/matching/game/d24c/d24c_sweep_step_800df570.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_sweep_step_800df570": "0x800df570"
+  },
+  "descriptions": {
+    "d24c_sweep_step_800df570": "Call 0x800b0824 on +68 with vectors built from pool floats, 60 and 1. If global 0x804b1764 exceeds 59 return 0. Otherwise copy 0x8043ae20 to +68, add settings +128 member-wise, store globals 0x804b17a8 and 0x804b17ac at +120 and +124, and return 1 when +72 is not below the value of setting +208, else 0."
+  }
+}

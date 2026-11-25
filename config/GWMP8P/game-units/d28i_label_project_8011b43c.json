@@ -1,0 +1,17 @@
+{
+  "unit": "d28i_label_project_8011b43c",
+  "source": "source/matching/game/d28i/d28i_label_project_8011b43c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28i_label_project_8011b43c": "0x8011b43c"
+  },
+  "descriptions": {
+    "d28i_label_project_8011b43c": "Projects an object's anchor through the world and HUD camera matrices and places its two graphics at the resulting point."
+  }
+}

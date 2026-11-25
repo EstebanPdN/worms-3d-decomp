@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_match_node_801d3930",
+  "source": "source/matching/game/d28e/d28e_match_node_801d3930.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_match_node_801d3930": "0x801d3930"
+  },
+  "descriptions": {
+    "w3d_d28e_match_node_801d3930": "Match a parsed node against the expected name. In sequence mode it compares with the name at the current index of the list at +48 and returns 1 until the last name; otherwise with the single name at +40. A full match records the node at +44, pushes it on the stack at +72 and returns 0x90000005. Otherwise 0. Reached through the secondary base at +4."
+  }
+}

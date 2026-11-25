@@ -1,0 +1,17 @@
+{
+  "unit": "s20_dispatch_a",
+  "source": "source/matching/game/s20/s20_dispatch_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_dispatch_item_record_801a37a0": "0x801a37a0",
+    "w3d_s20_dispatch_owner_record_801a3944": "0x801a3944",
+    "w3d_s20_dispatch_owner_record_801a39c4": "0x801a39c4",
+    "w3d_s20_dispatch_two_targets_801a3adc": "0x801a3adc"
+  },
+  "descriptions": {
+    "w3d_s20_dispatch_item_record_801a37a0": "Appears to dispatch every target of the record at offset 44 of the item through the handler table, stopping at the first failure.",
+    "w3d_s20_dispatch_owner_record_801a3944": "Appears to dispatch every target of the owner's record at offset 44 through the handler table, stopping at the first failure.",
+    "w3d_s20_dispatch_owner_record_801a39c4": "Appears to dispatch every target of the owner's record at offset 44 through the handler table, stopping at the first failure.",
+    "w3d_s20_dispatch_two_targets_801a3adc": "Appears to dispatch the item's targets at offsets 52 and 48 through the handler table and return zero."
+  }
+}

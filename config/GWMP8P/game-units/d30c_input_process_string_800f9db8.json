@@ -1,0 +1,18 @@
+{
+  "unit": "d30c_input_process_string_800f9db8",
+  "source": "source/matching/game/d30c/d30c_input_process_string_800f9db8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25c",
+    "source/matching/game/d24f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30c_input_process_string_800f9db8": "0x800f9db8"
+  },
+  "descriptions": {
+    "d30c_input_process_string_800f9db8": "Records a string input; past 100 records flushes a list object to the sink."
+  }
+}

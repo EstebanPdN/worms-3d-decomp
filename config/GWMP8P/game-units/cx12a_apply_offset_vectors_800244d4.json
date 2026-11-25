@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_apply_offset_vectors_800244d4",
+  "source": "source/matching/game/cx12a/cx12a_apply_offset_vectors_800244d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_apply_offset_vectors_800244d4": "0x800244d4"
+  },
+  "descriptions": {
+    "w3d_cx12a_apply_offset_vectors_800244d4": "Read one base vector and four offsets, forwarding resulting value vectors to five observed interface slots; names inferred."
+  }
+}

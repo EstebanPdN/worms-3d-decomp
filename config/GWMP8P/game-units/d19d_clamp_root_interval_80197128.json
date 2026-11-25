@@ -1,0 +1,14 @@
+{
+  "unit": "d19d_clamp_root_interval_80197128",
+  "source": "source/matching/game/d28j/d28j_find_root_8019727c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d19d_clamp_root_interval_80197128": "0x80197128"
+  },
+  "descriptions": {
+    "d19d_clamp_root_interval_80197128": "While x = *first + epsilon < 4/3, clamp *second (with margin epsilon) between the real roots of t^2 + (x - 2) t + (x - 1)^2 computed with sqrt 0x802e82c0; otherwise set the pair to (4/3, 1/3) minus epsilon. Owns its float literal pool (4/3, 2, 1, 4, 0.5, 1/3)."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "unit": "autok_80015d40",
+  "source": "source/matching/game/auto/autok_80015d40.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80015d40": "0x80015d40",
+    "w3d_auto_80060088": "0x80060088",
+    "w3d_auto_8013f57c": "0x8013f57c",
+    "w3d_auto_801626c8": "0x801626c8",
+    "w3d_auto_801676e0": "0x801676e0",
+    "w3d_auto_8016f8a0": "0x8016f8a0",
+    "w3d_auto_801788e4": "0x801788e4",
+    "w3d_auto_8018ef3c": "0x8018ef3c",
+    "w3d_auto_801d67e4": "0x801d67e4",
+    "w3d_auto_80208fd8": "0x80208fd8",
+    "w3d_auto_80209030": "0x80209030",
+    "w3d_auto_8020b138": "0x8020b138",
+    "w3d_auto_802ba3fc": "0x802ba3fc",
+    "w3d_auto_802e0c78": "0x802e0c78",
+    "w3d_auto_80358118": "0x80358118",
+    "w3d_auto_80359cd8": "0x80359cd8"
+  },
+  "descriptions": {
+    "w3d_auto_80015d40": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80060088": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8013f57c": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_801626c8": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_801676e0": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8016f8a0": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_801788e4": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8018ef3c": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_801d67e4": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80208fd8": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80209030": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8020b138": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_802ba3fc": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_802e0c78": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80358118": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80359cd8": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review."
+  }
+}

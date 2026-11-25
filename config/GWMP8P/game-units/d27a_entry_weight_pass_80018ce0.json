@@ -1,0 +1,14 @@
+{
+  "unit": "d27a_entry_weight_pass_80018ce0",
+  "source": "source/matching/game/d27a/d27a_entry_weight_pass_80018ce0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_entry_weight_pass_80018ce0": "0x80018ce0"
+  },
+  "descriptions": {
+    "w3d_d27a_entry_weight_pass_80018ce0": "For each entry of the table at 0x804aa750, sums into 0x8041d3b8 a penalty from entries whose weight has the opposite sign and lie within 100 units, adds a bonus scaled by settings +164 when the nearest such entry is at least 1000 away, then adds every sum to the entry's weight at +12."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

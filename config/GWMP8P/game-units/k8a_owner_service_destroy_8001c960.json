@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_owner_service_destroy_8001c960",
+  "source": "source/matching/game/k8a/k8a_owner_service_destroy_8001c960.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_owner_service_destroy_8001c960": "0x8001c960"},
+  "descriptions": {"w3d_k8a_owner_service_destroy_8001c960": "Appears to destroy an owner service: releases its owner link and global pointer, seven held interfaces, two storage blocks and an entry table, then calls the base destructor."}
+}

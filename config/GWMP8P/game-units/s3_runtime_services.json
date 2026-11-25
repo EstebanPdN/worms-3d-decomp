@@ -1,0 +1,33 @@
+{
+  "unit": "s3_runtime_services",
+  "source": "source/matching/game/s3_runtime_services.c",
+  "language": "c",
+  "functions": {
+    "w3d_runtime_service_lookup": "0x8015ae3c",
+    "w3d_runtime_service_query": "0x8015ae74",
+    "w3d_runtime_service_set_pair": "0x8015aea8",
+    "w3d_runtime_service_set_byte_a": "0x8015aee8",
+    "w3d_runtime_service_set_byte_b": "0x8015af24",
+    "w3d_runtime_singleton_construct": "0x8015b084",
+    "w3d_runtime_singleton_destroy": "0x8015b0c4",
+    "w3d_runtime_singleton_dispatch": "0x8015b114",
+    "w3d_arguments_construct": "0x8015b254",
+    "w3d_arguments_destroy": "0x8015b2a4",
+    "w3d_arguments_assign_vector": "0x8015b330",
+    "w3d_runtime_destroy_owned_resources": "0x8015b630"
+  },
+  "descriptions": {
+    "w3d_runtime_service_lookup": "Forwards an integer lookup to the global context service virtual slot.",
+    "w3d_runtime_service_query": "Returns the global context service virtual query result.",
+    "w3d_runtime_service_set_pair": "Forwards two integers to the global context service virtual slot.",
+    "w3d_runtime_service_set_byte_a": "Passes a byte by address to the first global context service byte setter.",
+    "w3d_runtime_service_set_byte_b": "Passes a byte by address to the second global context service byte setter.",
+    "w3d_runtime_singleton_construct": "Constructs the base service, installs its virtual table, and stores the singleton.",
+    "w3d_runtime_singleton_destroy": "Runs service cleanup, clears its singleton, and destroys the base service.",
+    "w3d_runtime_singleton_dispatch": "Handles message sixty-four after base validation and delegates other messages to the base service.",
+    "w3d_arguments_construct": "Allocates an argument string store and clears its begin, end, and spare fields.",
+    "w3d_arguments_destroy": "Releases stored strings and storage, then optionally deletes the argument owner.",
+    "w3d_arguments_assign_vector": "Resizes the argument string store and assigns the supplied text pointers.",
+    "w3d_runtime_destroy_owned_resources": "Destroys owned runtime state, releases held interfaces, and destroys its base without deleting it."
+  }
+}

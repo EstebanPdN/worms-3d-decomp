@@ -1,0 +1,11 @@
+{
+  "unit": "s12_open_resource_8021840c",
+  "source": "source/matching/game/s12/s12_open_resource_typed.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s12_open_resource_8021840c": "0x8021840c"
+  },
+  "descriptions": {
+    "w3d_s12_open_resource_8021840c": "Builds and normalizes a resource path, selects the observed stream implementation by prefix, opens it, and releases a failed stream before returning its status."
+  }
+}

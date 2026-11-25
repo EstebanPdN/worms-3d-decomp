@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_setup_selection_sprites_802b49b0",
+  "source": "source/matching/game/d26l/d26l_setup_selection_sprites_802b49b0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_setup_selection_sprites_802b49b0": "0x802b49b0"
+  },
+  "descriptions": {
+    "d26l_setup_selection_sprites_802b49b0": "Formats resource names from the context's prefix: Highlight (attached to the host, sized from context +20 or from that size times the +116 scale with z 1.0, then shown), Grey (attached and shown if found) and, when the +120 colour is non-zero, Blue, Green, Blue, Purple or Red for colours 1 to 5, else the text at 0x803d7e4c (attached). Missing Highlight or colour resources write an error string at +108. Layer comes from +35 plus 30 or 29 by mode +216. Finishes with 0x802b4e10 and destroys the name string."
+  }
+}

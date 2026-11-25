@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800e73f0",
+  "source": "source/matching/game/s8hand_800e73f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_guarded_stop_800e73f0": "0x800e73f0"
+  },
+  "descriptions": {
+    "s8_guarded_stop_800e73f0": "Tests a held handle against an embedded descriptor, conditionally invokes operation three and clears the handle."
+  }
+}

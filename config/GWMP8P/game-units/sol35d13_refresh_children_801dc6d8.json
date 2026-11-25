@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d13_refresh_children_801dc6d8",
+  "source": "source/matching/game/sol35d13/sol35d13_refresh_children_801dc6d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_refresh_children_801dc6d8": "0x801dc6d8"
+  },
+  "descriptions": {
+    "sol35d13_refresh_children_801dc6d8": "Refresh active child interfaces, traverse pending child keys backward and retain the last nonzero application result, then resize pending refs to zero. Inferred partial GC32 owner/child contracts."
+  }
+}

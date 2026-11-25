@@ -1,0 +1,11 @@
+{
+  "unit": "f7a_lookup_team_skill_80281ea4",
+  "language": "cpp",
+  "source": "source/matching/game/f7a/f7a_lookup_team_skill_80281ea4.cpp",
+  "functions": {
+    "w3d_f7a_lookup_team_skill_80281ea4": "0x80281ea4"
+  },
+  "descriptions": {
+    "w3d_f7a_lookup_team_skill_80281ea4": "Resolve the observed team-name key, look up its interface and return the field at offset32, or999 after lookup failure. Explicit C++ lifetimes reuse the returned-name storage for the later handle, as observed. Names, semantic roles and returned-object ABI view inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f11a_team_changed_802997fc",
+  "source": "source/matching/game/f11a/f11a_team_changed_802997fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f11a_team_changed_802997fc": "0x802997fc"
+  },
+  "descriptions": {
+    "w3d_f11a_team_changed_802997fc": "Look up FE.TempTeamStore and return false on lookup failure. Compare the observed team grave, weapon and skill integers against User.Grave/User.SWeapon/User.Skill; compare each stored worm name against formatted User.HumanWorm%d properties, then compare flag and speech shared text against User.Flag/User.Speech. Return whether any comparison differs, releasing the looked-up interface and both local shared strings along all observed exits. Team, key and text roles inferred; state and variable name storage are partial views, and referenced data remains external and unowned."
+  }
+}

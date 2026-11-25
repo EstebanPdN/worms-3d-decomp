@@ -1,0 +1,17 @@
+{
+  "unit": "d27d_aim_beam_place_80140b24",
+  "source": "source/matching/game/d27d/d27d_aim_beam_place_80140b24.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27d_aim_beam_place_80140b24": "0x80140b24"
+  },
+  "descriptions": {
+    "d27d_aim_beam_place_80140b24": "Place two aiming beam nodes along the camera up axis above a point."
+  }
+}

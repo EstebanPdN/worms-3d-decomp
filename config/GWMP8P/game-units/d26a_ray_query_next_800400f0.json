@@ -1,0 +1,14 @@
+{
+  "unit": "d26a_ray_query_next_800400f0",
+  "source": "source/matching/game/d26a/d26a_ray_query_next_800400f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_ray_query_next_800400f0": "0x800400f0"
+  },
+  "descriptions": {
+    "w3d_d26a_ray_query_next_800400f0": "Advances the global cursor over the item vector 0x804273ec, skipping the ignored index, items whose mask misses the query mask and the excluded owner. Solves the ray-sphere quadratic for each item; on a hit within the limit it stores the entry time, a flag for the exit time being past the limit, the integer time and the index. Returns the index, or 0xffff at the end."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

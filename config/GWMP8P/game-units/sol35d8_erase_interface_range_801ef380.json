@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d8_erase_interface_range_801ef380",
+  "source": "source/matching/game/sol35d8/sol35d8_erase_interface_range_801ef380.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d8_erase_interface_range_801ef380": "0x801ef380"
+  },
+  "descriptions": {
+    "sol35d8_erase_interface_range_801ef380": "Make a native interface array writable when shared, release an indexed range, reduce its count and compact the remaining pointer slots."
+  }
+}

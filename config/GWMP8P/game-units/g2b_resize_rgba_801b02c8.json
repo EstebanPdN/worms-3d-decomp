@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_resize_rgba_801b02c8",
+  "source": "source/matching/game/g2b/g2b_resize_rgba_801b02c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_resize_rgba_801b02c8": "0x801b02c8"
+  },
+  "descriptions": {
+    "g2b_resize_rgba_801b02c8": "For exactly half-size destination, averages each2x2 group of four-byte pixels by unsigned component sums shifted2, preserving original source and destination pitch arithmetic. Otherwise forms complete20B channel views with width,height,data,pitch and stride4 and calls801d7750 separately for each of four component offsets using mode4. View footprint is independently read by801d6ca8 via801d7750; no invented local padding, no owned data, names inferred."
+  }
+}

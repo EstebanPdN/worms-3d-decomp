@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800eebf8",
+  "source": "source/matching/game/s8hand_800eebf8.c",
+  "language": "c",
+  "functions": {
+    "s8_countdown_events_800eebf8": "0x800eebf8"
+  },
+  "descriptions": {
+    "s8_countdown_events_800eebf8": "Decrements an object counter and posts different messages according to the remaining count, object name and current state."
+  }
+}

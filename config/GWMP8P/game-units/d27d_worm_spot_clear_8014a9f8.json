@@ -1,0 +1,17 @@
+{
+  "unit": "d27d_worm_spot_clear_8014a9f8",
+  "source": "source/matching/game/d27d/d27d_worm_spot_clear_8014a9f8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27d_worm_spot_clear_8014a9f8": "0x8014a9f8"
+  },
+  "descriptions": {
+    "d27d_worm_spot_clear_8014a9f8": "Test whether a worm's destination is blocked by a nearby worm or a ground trace."
+  }
+}

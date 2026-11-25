@@ -1,0 +1,19 @@
+{
+  "unit": "genparamc_8002f6dc",
+  "source": "source/matching/game/generated/genparamc_8002f6dc.c",
+  "language": "c",
+  "functions": {
+    "w3d_assign_interface_arg_8002f6dc": "0x8002f6dc",
+    "w3d_assign_interface_arg_8009afe8": "0x8009afe8",
+    "w3d_assign_interface_arg_800e8fb4": "0x800e8fb4",
+    "w3d_assign_interface_arg_800eb65c": "0x800eb65c",
+    "w3d_assign_interface_arg_802c0c24": "0x802c0c24"
+  },
+  "descriptions": {
+    "w3d_assign_interface_arg_8002f6dc": "Assigns an interface field from a by-value smart-pointer argument: retains the new interface, releases the old one, stores it, then releases the argument copy.",
+    "w3d_assign_interface_arg_8009afe8": "Assigns an interface field from a by-value smart-pointer argument: retains the new interface, releases the old one, stores it, then releases the argument copy.",
+    "w3d_assign_interface_arg_800e8fb4": "Assigns an interface field from a by-value smart-pointer argument: retains the new interface, releases the old one, stores it, then releases the argument copy.",
+    "w3d_assign_interface_arg_800eb65c": "Assigns an interface field from a by-value smart-pointer argument: retains the new interface, releases the old one, stores it, then releases the argument copy.",
+    "w3d_assign_interface_arg_802c0c24": "Assigns an interface field from a by-value smart-pointer argument: retains the new interface, releases the old one, stores it, then releases the argument copy."
+  }
+}

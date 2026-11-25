@@ -1,0 +1,11 @@
+{
+  "unit": "cx15a_probe_actor_80017c38",
+  "source": "source/matching/game/cx15a/cx15a_probe_actor_80017c38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_probe_actor_80017c38": "0x80017c38"
+  },
+  "descriptions": {
+    "w3d_cx15a_probe_actor_80017c38": "Probe an actor region when no active planner is present, release the returned holder, and return whether no hit was found."
+  }
+}

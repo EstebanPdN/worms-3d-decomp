@@ -1,0 +1,14 @@
+{
+  "unit": "d40a_chicken_wander_8003b330",
+  "source": "source/matching/game/d40a/d40a_chicken_wander_8003b330.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40a_chicken_wander_8003b330": "0x8003b330"
+  },
+  "descriptions": {
+    "w3d_d40a_chicken_wander_8003b330": "Random walk step of a chicken: turns, traces down and along the step, reflects or lands, and sets the velocity in state 2."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

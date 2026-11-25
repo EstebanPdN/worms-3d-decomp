@@ -1,0 +1,14 @@
+{
+  "unit": "s21_ak_801f75c0",
+  "source": "source/matching/game/s21/s21_ak_801f75c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_801f75c0": "0x801f75c0"
+  },
+  "descriptions": {
+    "w3d_s21_construct_801f75c0": "Appears to construct an object with a base constructor and set an embedded three-float member from the three float arguments."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

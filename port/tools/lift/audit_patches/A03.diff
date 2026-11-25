@@ -1,0 +1,11 @@
+--- a/port/core/open/open_801a7680.cpp
++++ b/port/core/open/open_801a7680.cpp
+@@ -2662,7 +2662,7 @@
+     w3d_u32 cr0 = 0, lr = 0;
+     { w3d_u32 t_ = r1 - 8; S32(t_, r1); r1 = t_; }
+     r9 = L32(r3);
+-    r0 = L8(r9 + 4);
++    r0 = L8(r9 + 7);  /* lbz +7: byte de flags del descriptor, en crudo */
+     r9 = r0 & 0x4u; cr0 = CMPS(r9, 0);
+     if (!(cr0 & 2)) goto L_801eb0e8;
+     r9 = r0 & 0x20u; cr0 = CMPS(r9, 0);

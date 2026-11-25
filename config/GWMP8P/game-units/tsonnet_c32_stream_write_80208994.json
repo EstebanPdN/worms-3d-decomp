@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c32_stream_write_80208994",
+  "source": "source/matching/game/tsonnet_c32/tsonnet_c32_stream_write_80208994.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c32_stream_write_80208994": "0x80208994"
+  },
+  "descriptions": {
+    "tsonnet_c32_stream_write_80208994": "While the pending flag at offset 28 is set, formats the header string at offset 24 with the elapsed-millisecond value into a 128-byte local buffer and writes it through the sixth virtual slot of the stream at offset 20, returning early on a negative result and clearing the flag otherwise; then writes the caller's data and size through the same slot and returns its result; field meanings are inferred. The 128-byte formatting buffer and caller lengths are not validated for arbitrary inputs."
+  }
+}

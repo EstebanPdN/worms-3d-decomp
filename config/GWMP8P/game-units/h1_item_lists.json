@@ -1,0 +1,21 @@
+{
+  "unit": "h1_item_lists",
+  "source": "source/matching/game/h1/h1_item_lists.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_items_remove_key_80357c90": "0x80357c90",
+    "w3d_items_derive_key_80357d78": "0x80357d78",
+    "w3d_items_remove_key_80357ea0": "0x80357ea0",
+    "w3d_items_derive_key_80357f88": "0x80357f88",
+    "w3d_items_remove_key_8035d960": "0x8035d960",
+    "w3d_items_derive_key_8035da48": "0x8035da48"
+  },
+  "descriptions": {
+    "w3d_items_remove_key_80357c90": "Under the owner lock, erases from its item list every item whose key (vtable slot 0x08) equals key.",
+    "w3d_items_derive_key_80357d78": "Under the owner lock, appends to its item list the item derived (slot 0x14, with arg) from every item whose key equals key.",
+    "w3d_items_remove_key_80357ea0": "Under the owner lock, erases from its item list every item whose key (vtable slot 0x08) equals key.",
+    "w3d_items_derive_key_80357f88": "Under the owner lock, appends to its item list the item derived (slot 0x14, with arg) from every item whose key equals key.",
+    "w3d_items_remove_key_8035d960": "Under the owner lock, erases from its item list every item whose key (vtable slot 0x08) equals key.",
+    "w3d_items_derive_key_8035da48": "Under the owner lock, appends to its item list the item derived (slot 0x14, with arg) from every item whose key equals key."
+  }
+}

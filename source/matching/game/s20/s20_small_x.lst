@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_small_x.c
+w3d_s20_construct_counted_8019b424|0x8019b424|Appears to run a base constructor, retain a shared global object, set two fields to 5 and clear four fields, returning this.
+w3d_s20_find_or_create_801a692c|0x801a692c|Appears to find an entry for a key or create and register one, release it and return 1 when it already existed, else 0.

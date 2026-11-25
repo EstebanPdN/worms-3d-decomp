@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_pending_header_write_802086dc",
+  "source": "source/matching/game/cx9b/cx9b_pending_header_write_802086dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_pending_header_write_802086dc": "0x802086dc"
+  },
+  "descriptions": {
+    "w3d_cx9b_pending_header_write_802086dc": "Flush the pending length-prefixed header once, clear its pending flag on success, then write the requested bytes."
+  }
+}

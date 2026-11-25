@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_textbox_caption_802c459c",
+  "source": "source/matching/game/d24l/d24l_textbox_caption_802c459c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_textbox_caption_802c459c": "0x802c459c"
+  },
+  "descriptions": {
+    "d24l_textbox_caption_802c459c": "Rebuilds a text box caption: when the panel +36 exists and the name +252 is not empty, detaches and releases the old caption +244, clears the text +256, loads the caption with type base+30, attaches it, scales it to (30,30,1), and, when the property name +248 resolves, formats its text into +256, stores the integer value at +264 and switches to keyboard mode 2 when non-zero. Always finishes with 0x802c4744."
+  }
+}

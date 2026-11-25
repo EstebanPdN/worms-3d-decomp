@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_hash_copy_from_8035ded0",
+  "source": "source/matching/game/d29s/d29s_hash_copy_from_8035ded0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "_M_copy_from__Q24_STLt9hashtable6ZQ24_STLt4pair2ZCUiZiZUiZQ24_STLt4hash1ZUiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt8equal_to1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZiRCQ24_STLt9hashtable6ZQ24_STLt4pair2ZCUiZiZUiZQ24_STLt4hash1ZUiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt8equal_to1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZi": "0x8035ded0"
+  },
+  "descriptions": {
+    "_M_copy_from__Q24_STLt9hashtable6ZQ24_STLt4pair2ZCUiZiZUiZQ24_STLt4hash1ZUiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt8equal_to1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZiRCQ24_STLt9hashtable6ZQ24_STLt4pair2ZCUiZiZUiZQ24_STLt4hash1ZUiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt8equal_to1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZi": "std::hash_map copy helper from STLport 4.5.3: sizes the bucket vector like the source and clones every bucket chain, then copies the element count."
+  }
+}

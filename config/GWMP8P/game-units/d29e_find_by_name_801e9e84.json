@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_find_by_name_801e9e84",
+  "source": "source/matching/game/d29e/d29e_find_by_name_801e9e84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_find_by_name_801e9e84": "0x801e9e84"
+  },
+  "descriptions": {
+    "w3d_d29e_find_by_name_801e9e84": "Finds a registered item by name: builds the name hash table at +72 on first use (32-byte object from 0x801fe1d8, 16 buckets) from the vector at +60, then looks the name up through 0x8020cbcc and returns the vector element (0x801e9db8) or null. Names are inferred."
+  }
+}

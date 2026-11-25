@@ -1,0 +1,14 @@
+--- a/port/core/sdk/libm_zone.cpp
++++ b/port/core/sdk/libm_zone.cpp
+@@ -24,9 +24,9 @@
+ float A802e79e0(float x) { return acosf(x); }
+ float A802e7c30(float x) { return asinf(x); }
+ float A802e7e5c(float y, float x) { return atan2f(y, x); }
+-float A802e8094(float x, float y) { return fmodf(x, y); }
++float A802e8094(float x) { return expf(x); }
+ float A802e82c0(float x) { return sqrtf(x); }
+-float A802e83cc(float x) { return sqrtf(x); }
++float A802e83cc(float x) { return logf(x); }
+ float A802e83ec(float x) { return atanf(x); }
+ float A802e85fc(float x) { return ceilf(x); }
+ float A802e86d4(float x) { return cosf(x); }

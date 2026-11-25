@@ -1,0 +1,12 @@
+{
+  "unit": "d29l_game_start_state_8029d0ec",
+  "source": "source/matching/game/d29l/d29l_game_start_state_8029d0ec.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d29l_game_start_state_8029d0ec": "0x8029d0ec"
+  },
+  "descriptions": {
+    "d29l_game_start_state_8029d0ec": "Decides whether a game can start and more teams can be added, and publishes the start tip, from the game type and team records."
+  }
+}

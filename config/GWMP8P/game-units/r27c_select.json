@@ -1,0 +1,1 @@
+{"unit":"r27c_select","source":"source/matching/game/r27c/r27c_select.cpp","language":"cpp","functions":{"r27c_select_802bc8b4":"0x802bc8b4"},"descriptions":{"r27c_select_802bc8b4":"Clamp an out-of-range selected index to -1, update each child's selection flag, and store the selected index."}}

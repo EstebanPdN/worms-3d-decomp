@@ -1,0 +1,11 @@
+/* Generated reference-only placements. All bodies are source-built. */
+OUTPUT_FORMAT("elf32-powerpc")
+OUTPUT_ARCH(powerpc)
+ENTRY(insert_unique__Q24_STLt8_Rb_tree5ZUiZQ24_STLt4pair2ZCUiZiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt4less1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZiGQ24_STLt17_Rb_tree_iterator2ZQ24_STLt4pair2ZCUiZiZQ24_STLt16_Nonconst_traits1ZQ24_STLt4pair2ZCUiZiRCQ24_STLt4pair2ZCUiZi)
+_SDA_BASE_ = 0x804b2540;
+_SDA2_BASE_ = 0x804c2540;
+_M_insert__Q24_STLt8_Rb_tree5ZUiZQ24_STLt4pair2ZCUiZiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt4less1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZiPQ24_STL18_Rb_tree_node_baseT1RCQ24_STLt4pair2ZCUiZiT1 = 0x80352f8c;
+SECTIONS {
+  .text.insert_unique__Q24_STLt8_Rb_tree5ZUiZQ24_STLt4pair2ZCUiZiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt4less1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZiGQ24_STLt17_Rb_tree_iterator2ZQ24_STLt4pair2ZCUiZiZQ24_STLt16_Nonconst_traits1ZQ24_STLt4pair2ZCUiZiRCQ24_STLt4pair2ZCUiZi 0x803531e8 : { *(.text.insert_unique__Q24_STLt8_Rb_tree5ZUiZQ24_STLt4pair2ZCUiZiZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZiZQ24_STLt4less1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZiGQ24_STLt17_Rb_tree_iterator2ZQ24_STLt4pair2ZCUiZiZQ24_STLt16_Nonconst_traits1ZQ24_STLt4pair2ZCUiZiRCQ24_STLt4pair2ZCUiZi) }
+  /DISCARD/ : { *(.text*) *(.rodata*) *(.data*) *(.bss*) *(.sdata*) *(.sbss*) *(.comment) }
+}

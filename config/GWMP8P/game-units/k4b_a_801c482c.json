@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801c482c",
+  "source": "source/matching/game/k4b/k4b_a_801c482c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_segment_construct_801c482c": "0x801c482c"
+  },
+  "descriptions": {
+    "w3d_k4b_segment_construct_801c482c": "Appears to construct an object over 0x801ea0ec: vtable 0x80414bf0, two zero vectors, a retained shared interface at +44 and three cleared counters."
+  }
+}

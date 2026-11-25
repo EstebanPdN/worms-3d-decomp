@@ -1,0 +1,19 @@
+{
+  "unit": "sol35c11_static_vectors_80141b14",
+  "source": "source/matching/game/sol35c11/sol35c11_static_vectors_80141b14.cpp",
+  "language": "cpp",
+  "functions": {
+    "__static_initialization_and_destruction_0": "0x80141b14"
+  },
+  "descriptions": {
+    "__static_initialization_and_destruction_0": "Compiler-generated guarded static initialization: derives nine pointers from the external base at 0x804ab3c8 and constructs ten three-float vectors using the witnessed constants."
+  },
+  "constructor_metadata": {
+    "section": ".ctors",
+    "address": "0x8035f724",
+    "target": "0x80141c18",
+    "context": "config/GWMP8P/constructor-evidence/pal-80141b14.json",
+    "context_sha256": "7c4d2feb5ba27c9f6d3085159cbf8883042e27f7edb6fc9b284865429d39bc6a",
+    "schema": "w3d-pal-rev0-constructor-metadata-v1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d16c_hud_text_load_8011b010",
+  "source": "source/matching/game/d16c/d16c_hud_text_load_8011b010.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16c_hud_text_load_8011b010": "0x8011b010"
+  },
+  "descriptions": {
+    "d16c_hud_text_load_8011b010": "Look up and retain the FE.Font service for the duration of the call and set its scale to (-1, 0); load the FE.Font text resource, retain it as the HUD font (+28) releasing the previous one; load the Text.Backing.Green resource into the backing handle (+32); attach the font with mode 1; then release the looked-up service."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_80098c88",
+  "source": "source/matching/game/s8family_80098c88.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_message_initialize_80098c88": "0x80098c88"
+  },
+  "descriptions": {
+    "s8_message_initialize_80098c88": "Handles message 64 through the base handler and an initialization hook, returning zero on success or 0x80004005 on failure; otherwise forwards the message."
+  }
+}

@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_adjust_f.c
+w3d_s20_dispatch_two_targets_80166a70|0x80166a70|Appears to dispatch two targets of an item through the handler table of the secondary base subobject when their enabling fields are set.

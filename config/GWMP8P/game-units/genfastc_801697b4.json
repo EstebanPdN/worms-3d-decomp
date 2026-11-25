@@ -1,0 +1,18 @@
+{
+  "unit": "genfastc_801697b4",
+  "source": "source/matching/game/generated/genfastc_801697b4.c",
+  "language": "c",
+  "functions": {
+    "w3d_set_color_from_message_801697b4": "0x801697b4",
+    "w3d_open_stream_801e6b1c": "0x801e6b1c",
+    "w3d_set_render_mode_8026b334": "0x8026b334"
+  },
+  "descriptions": {
+    "w3d_set_color_from_message_801697b4": "Adjusts a secondary-base pointer, converts the four message floats to colour bytes (scaled, quantized store), marks the object changed and counts the update.",
+    "w3d_open_stream_801e6b1c": "Gets the sample volume from the sound manager, converts it to a byte (quantized store) and opens a stereo or mono stream for the object, storing the handle.",
+    "w3d_set_render_mode_8026b334": "Changes the render mode if different: refreshes visible text in mode 1, otherwise refreshes the alpha fields from the colour alpha (quantized load); reapplies tint."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

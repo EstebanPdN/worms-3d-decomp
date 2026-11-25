@@ -1,0 +1,513 @@
+--- a/port/core/game/d24l/d24l_textbox_cursor_802a2524.cpp
++++ b/port/core/game/d24l/d24l_textbox_cursor_802a2524.cpp
+@@ -97,7 +97,7 @@
+ struct NRef { Ptr32<Nd> value; NRef() : value(0) {} NRef(const NRef &); ~NRef() { if (value) value->vt->release(value); } };
+ extern "C" int w3d_set_name_8015adf4(const D24lString &, Ptr32<Ptr32<Nd>>, unsigned char);
+ extern "C" Ptr32<Nd> w3d_as_8034357c(Ptr32<Nd>);
+-struct Tb { char pad0[35]; unsigned char base; char pad36[272]; Ptr32<Nd> panel; char pad312[80]; Ptr32<Nd> cursor; };
++struct Tb { char pad0[32]; unsigned char base; char w3d_tag_rest[3]; char pad36[272]; Ptr32<Nd> panel; char pad312[80]; Ptr32<Nd> cursor; };
+ extern "C" void d24l_textbox_cursor_802a2524(Ptr32<Tb> self)
+ {
+  if (self->cursor != 0) return;
+--- a/port/core/game/d24l/d24l_audio_bars_802a6b30.cpp
++++ b/port/core/game/d24l/d24l_audio_bars_802a6b30.cpp
+@@ -71,7 +71,7 @@
+ extern "C" void fn_802a64a8(Ptr32<struct Bar>);
+ struct S8 { Ptr32<D24lObject> value; operator Ptr32<D24lObject>() const { return (D24lObject *)this->operator D24lObject *(); }
+  operator D24lObject *() const { return value; } };
+-struct Bar { char pad0[35]; unsigned char base; char pad36[188]; Ptr32<D24lObject> panel; char pad228[48]; S8 bars[8]; };
++struct Bar { char pad0[32]; unsigned char base; char w3d_tag_rest[3]; char pad36[188]; Ptr32<D24lObject> panel; char pad228[48]; S8 bars[8]; };
+ extern "C" void d24l_audio_bars_802a6b30(Ptr32<Bar> self)
+ {
+  Ptr32<Mesh> m = w3d_cast_mesh_80343808(w3d_runtime_service_lookup_8015ae3c(D24lString("FE.AudioBar")));
+--- a/port/core/game/d41k/d41k_frame_box_parts_8026a16c.cpp
++++ b/port/core/game/d41k/d41k_frame_box_parts_8026a16c.cpp
+@@ -32,7 +32,7 @@
+ struct Colour { unsigned char r, g, b, a; };
+ struct Info { char u0[20]; Vec size; char u32[108]; int style; };
+ struct Self {
+- char u0[35]; unsigned char b35; char u36[4]; Ptr32<Info> info; char u44[68]; Ptr32<Res> mgr; char u116[60]; int f176; char u180[40];
++ char u0[32]; unsigned char b35; char w3d_tag_rest[3]; char u36[4]; Ptr32<Info> info; char u44[68]; Ptr32<Res> mgr; char u116[60]; int f176; char u180[40];
+  Ptr32<Res> part[8][2]; Ptr32<Res> box; char u288[12]; Ptr32<void> colours; char u304[140]; int built;
+ };
+ extern "C" {
+--- a/port/core/game/d31l/d31l_box_load_parts_802b8da8.cpp
++++ b/port/core/game/d31l/d31l_box_load_parts_802b8da8.cpp
+@@ -48,8 +48,8 @@
+ };
+ struct Cfg { char u0[20]; Vec size; char u32[116]; int w148; };
+ struct Box {
+-    char u0[35];
+-    unsigned char font;
++    char u0[32];
++    unsigned char font; char w3d_tag_rest[3];
+     char u36[4];
+     Ptr32<Cfg> cfg;
+     char u44[68];
+--- a/port/core/game/d32k/d32k_list_box_layout_8026ed00.cpp
++++ b/port/core/game/d32k/d32k_list_box_layout_8026ed00.cpp
+@@ -33,7 +33,7 @@
+ struct Obj;
+ struct Info { char u0[20]; Vec size; char u32[28]; Str f60; char u64[64]; int kind; void SetSize(const Vec &o) { size = o; } };
+ struct Panel {
+- char u0[35]; unsigned char b35; char u36[4]; Ptr32<Info> info; char u44[68]; Ptr32<Res> mgr; char u116[60]; int f176; char u180[36]; Ref box[2]; Ptr32<Obj> bars[3]; Ptr32<Obj> scrolls[3]; int f248; float border; char u256[8]; int f264; char u268[8]; Ptr32<Res> f276; char u280[12]; int f292;
++ char u0[32]; unsigned char b35; char w3d_tag_rest[3]; char u36[4]; Ptr32<Info> info; char u44[68]; Ptr32<Res> mgr; char u116[60]; int f176; char u180[36]; Ref box[2]; Ptr32<Obj> bars[3]; Ptr32<Obj> scrolls[3]; int f248; float border; char u256[8]; int f264; char u268[8]; Ptr32<Res> f276; char u280[12]; int f292;
+ };
+ extern "C" {
+ Ptr32<const char> fn_80263bb8(int);
+--- a/port/core/game/f1p/f1p_create_blue_box_802a31fc.cpp
++++ b/port/core/game/f1p/f1p_create_blue_box_802a31fc.cpp
+@@ -6,7 +6,7 @@
+  F1pBlueText_8020bb54(const F1pBlueText_8020bb54 &);Ptr32<char> p;template <class W3dU> F1pBlueText_8020bb54(Ptr32<W3dU> w3d_p) : F1pBlueText_8020bb54((const char *)w3d_p.get()) {}
+  F1pBlueText_8020bb54(const char*s);~F1pBlueText_8020bb54(){fn_8020c5c4(this);fn_80341588(this);}};
+ struct F1pBlueVec{float x,y,z;F1pBlueVec(const F1pBlueVec&v):x(v.x),y(v.y),z(v.z){}};extern F1pBlueVec vector_8045e788;extern float scalar_803d2e24[];extern char text_803d2e08[],text_803d2e14[];
+-struct F1pBlueData{char unknown0[20];float width,height;char unknown28[104];int enabled;};struct F1pBlueOwner{char unknown0[35];unsigned char layer;char unknown36[4];Ptr32<F1pBlueData> data;char unknown44[68];Ptr32<void> parent;char unknown116[100];Ptr32<void> box;};
++struct F1pBlueData{char unknown0[20];float width,height;char unknown28[104];int enabled;};struct F1pBlueOwner{char unknown0[32];unsigned char layer; char w3d_tag_rest[3];char unknown36[4];Ptr32<F1pBlueData> data;char unknown44[68];Ptr32<void> parent;char unknown116[100];Ptr32<void> box;};
+ extern "C" Ptr32<void> fn_801fe1d8(unsigned);extern "C" Ptr32<void> fn_8025dffc(Ptr32<void>,Ptr32<const char>,unsigned char);extern "C" void fn_8025e128(Ptr32<void>,float,float,float),fn_8025ee60(Ptr32<void>,Ptr32<const F1pBlueVec>),fn_8025ee94(Ptr32<void>,Ptr32<void>);
+ extern "C" void w3d_create_blue_box_802a31fc(Ptr32<F1pBlueOwner> s){F1pBlueText_8020bb54 text(text_803d2e08);Ptr32<F1pBlueData> d=s->data;if(!d->enabled)return;F1pBlueVec position=vector_8045e788;s->box=fn_8025dffc(fn_801fe1d8(4),text_803d2e14,s->layer+29);fn_8025e128(s->box,*scalar_803d2e24,d->width,d->height);fn_8025ee60(s->box,&position);fn_8025ee94(s->box,s->parent);}
+ 
+--- a/port/core/game/d30l/d30l_title_line_802a3784.cpp
++++ b/port/core/game/d30l/d30l_title_line_802a3784.cpp
+@@ -39,8 +39,8 @@
+ struct Uv { float x, y; };
+ struct Cfg { char u0[20]; Vec pos; char u32[84]; float f116; char u120[16]; int w136; };
+ struct Title {
+-    char u0[35];
+-    unsigned char font;
++    char u0[32];
++    unsigned char font; char w3d_tag_rest[3];
+     char u36[4];
+     Ptr32<Cfg> cfg;
+     char u44[68];
+--- a/port/core/game/d44l/d44l_bordered_panel_build_8029fc78.cpp
++++ b/port/core/game/d44l/d44l_bordered_panel_build_8029fc78.cpp
+@@ -51,8 +51,8 @@
+ struct Cfg { char u0[20]; Vec size; char u32[28]; Str s60; char u64[64]; int w128; };
+ struct Mesh; struct Scroll;
+ struct Item {
+-    char u0[35];
+-    unsigned char font;
++    char u0[32];
++    unsigned char font; char w3d_tag_rest[3];
+     char u36[4];
+     Ptr32<Cfg> cfg;
+     char u44[68];
+--- a/port/core/game/d25l/d25l_custom_frame_create_802ba710.cpp
++++ b/port/core/game/d25l/d25l_custom_frame_create_802ba710.cpp
+@@ -10,7 +10,7 @@
+ struct D25lString_803426b8 { Ptr32<char> text; D25lString_803426b8();  D25lString_803426b8(const D25lString_803426b8 &); ~D25lString_803426b8() { w3d_string_base_finish_8020c5c4(this); w3d_string_release_80341588(this); } };
+ struct Data { char pad[20]; Vec pos; char pad32[84]; int a116; char pad120[4]; float a124; };
+ struct Named;
+-struct View { char pad0[35]; unsigned char a35; char pad36[4]; Ptr32<Data> data; char pad44[68]; int a112; char pad116[104]; Ptr32<Named> named; };
++struct View { char pad0[32]; unsigned char a35; char w3d_tag_rest[3]; char pad36[4]; Ptr32<Data> data; char pad44[68]; int a112; char pad116[104]; Ptr32<Named> named; };
+ extern "C" Ptr32<void> w3d_heap_allocate_entry_801fe1d8(unsigned);
+ extern "C" Ptr32<Named> s11_named_handle_802badf0(Ptr32<void>, Ptr32<const char>, unsigned char);
+ extern "C" void fn_802baf1c(Ptr32<Named>, float, float, float);
+--- a/port/core/game/d30l/d30l_text_item_setup_802ba818.cpp
++++ b/port/core/game/d30l/d30l_text_item_setup_802ba818.cpp
+@@ -68,8 +68,7 @@
+ struct Panel {
+     char u0[28];
+     Sub sub;
+-    char u32[3];
+-    unsigned char font;
++    unsigned char font; char u32[3];
+     char u36[4];
+     Ptr32<Cfg> cfg;
+     char u44[68];
+--- a/port/core/game/f13c/f13c_preview_properties_8026b6cc.cpp
++++ b/port/core/game/f13c/f13c_preview_properties_8026b6cc.cpp
+@@ -44,11 +44,11 @@
+  fn_800fc1b0(F13cSelectKey(border_803cba00),&held);float thickness=fn_80178df0(fn_80342a74(held.p));
+  size.x-=thickness*two_803cbadc[0];size.y-=thickness*two_803cbadc[0];
+  if(F(self,void*,216)){p=F(self,void*,112);(*(Ptr32<Ptr32<Ptr32<void (Ptr32<void>, Ptr32<void>)>>>)(p))[24](p,F(self,void*,216));p=F(self,void*,216);if(p)(*(Ptr32<Ptr32<Ptr32<void (Ptr32<void>)>>>)(p))[4](p);F(self,void*,216)=0;}
+- fn_8015adf4(&name,(Ptr32<char>)self+216,(unsigned char)(F(self,unsigned char,35)+29));
++ fn_8015adf4(&name,(Ptr32<char>)self+216,(unsigned char)(F(self,unsigned char,32)+29));
+  p=F(self,void*,216);(*(Ptr32<Ptr32<Ptr32<void (Ptr32<void>, const F13cPreviewSize &, int)>>>)(p))[21](p,size,0);
+  p=F(self,void*,112);(*(Ptr32<Ptr32<Ptr32<void (Ptr32<void>, Ptr32<void>, int)>>>)(p))[23](p,F(self,void*,216),0);
+  if(image==1){p=fn_8034357c(F(self,void*,216));Ptr32<void> resource=(*(Ptr32<Ptr32<Ptr32<Ptr32<void> (Ptr32<void>)>>>)(p))[16](p);
+- if(fn_801712c4(fn_80343808(resource),F(self,F13cSelectText,428).p)<0){fn_8020c510((Ptr32<char>)self+108,missing_803cbaa8,F(self,F13cSelectText,428).p);F13cSelectFrom_8020bb54 error(info_803cbacc);fn_8015adf4(&error,(Ptr32<char>)self+216,(unsigned char)(F(self,unsigned char,35)+30));}}
++ if(fn_801712c4(fn_80343808(resource),F(self,F13cSelectText,428).p)<0){fn_8020c510((Ptr32<char>)self+108,missing_803cbaa8,F(self,F13cSelectText,428).p);F13cSelectFrom_8020bb54 error(info_803cbacc);fn_8015adf4(&error,(Ptr32<char>)self+216,(unsigned char)(F(self,unsigned char,32)+30));}}
+ }
+ 
+ 
+--- a/port/core/game/d32f/d32f_parse_image_list_8028640c.cpp
++++ b/port/core/game/d32f/d32f_parse_image_list_8028640c.cpp
+@@ -49,7 +49,7 @@
+ };
+ struct Config { char u0[20]; char place[116]; String names; };
+ struct Box {
+-    char u0[28]; char sub[4]; char u32[3]; unsigned char base; char u36[4]; Ptr32<Config> config; char u44[64]; char error[4]; Ptr32<Obj> owner; char u116[100]; int mode; char u220[4];
++    char u0[28]; char sub[4]; unsigned char base; char u32[3]; char u36[4]; Ptr32<Config> config; char u44[64]; char error[4]; Ptr32<Obj> owner; char u116[100]; int mode; char u220[4];
+     std::vector<Entry> items;
+ };
+ extern char lbl_803cf460[], lbl_803cf494[], lbl_803cf498[], lbl_803cf418[];
+--- a/port/core/open/open_80238ff0.cpp
++++ b/port/core/open/open_80238ff0.cpp
+@@ -446,7 +446,7 @@
+     r5 = r29 + 236;
+     cr0 = CMPS(r0, 0);
+     if ((cr0 & 2)) goto L_80260574;
+-    r9 = L8(r29 + 35);
++    r9 = L8(r29 + 32);
+     r6 = r9 + 30;
+     goto L_80260588;
+ L_80260534:
+@@ -454,7 +454,7 @@
+     r0 = r0 ^ 0x4u;
+     r9 = r0 & 0x4u; cr0 = CMPS(r9, 0);
+     if (!(cr0 & 2)) goto L_8026055c;
+-    r6 = L8(r29 + 35);
++    r6 = L8(r29 + 32);
+     r3 = r29 + 28;
+     r4 = L32(r19);
+     r5 = r29 + 240;
+@@ -468,11 +468,11 @@
+     cr0 = CMPS(r0, 0);
+     if (!(cr0 & 2)) goto L_80260580;
+ L_80260574:
+-    r9 = L8(r29 + 35);
++    r9 = L8(r29 + 32);
+     r6 = r9 + 31;
+     goto L_80260588;
+ L_80260580:
+-    r9 = L8(r29 + 35);
++    r9 = L8(r29 + 32);
+     r6 = r9 + 29;
+ L_80260588:
+     r6 = r6 & 0xffu;
+@@ -1143,7 +1143,7 @@
+     r9 = r9 + 1;
+     S16(r11, r9);
+     ((void (*)(w3d_u64, w3d_u64, w3d_u64, w3d_u64, w3d_u64, w3d_u64))A80263608)(W(r3), W(r4), W(r5), W(r6), W(r7), W(r8));
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r4 = r1 + 80;
+     S32(r1 + 80, r28);
+     r3 = r29;
+@@ -1177,7 +1177,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_8026754c:
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r0 = 0x0u;
+     S32(r1 + 72, r0);
+     r4 = r16;
+@@ -1212,7 +1212,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802675cc:
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r0 = 0x0u;
+     S32(r1 + 72, r0);
+     r4 = r16;
+@@ -1247,7 +1247,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_8026764c:
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r0 = 0x0u;
+     S32(r1 + 72, r0);
+     r4 = r16;
+@@ -1282,7 +1282,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802676cc:
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r29 = 0x0u;
+     r4 = r27;
+     S32(r1 + 72, r29);
+@@ -1317,7 +1317,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_8026774c:
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r4 = r16;
+     S32(r1 + 72, r29);
+     r3 = r1 + 64;
+@@ -1351,7 +1351,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802677c8:
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r4 = r16;
+     S32(r1 + 72, r29);
+     r3 = r1 + 64;
+@@ -1385,7 +1385,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_80267844:
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r4 = r16;
+     S32(r1 + 72, r29);
+     r3 = r1 + 64;
+@@ -1800,7 +1800,7 @@
+     r30 = r28 << 2;
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64, w3d_u64))A8020bb54)(W(r3), W(r4));
+     f29 = (float)(f30 * f26);
+-    r5 = L8(r31 + 35);
++    r5 = L8(r31 + 32);
+     r4 = r27 + r30;
+     r3 = r25;
+     r5 = r5 + 29;
+--- a/port/core/open/open_8029cdb4.cpp
++++ b/port/core/open/open_8029cdb4.cpp
+@@ -1099,7 +1099,7 @@
+     if (!(cr0 & 2)) goto L_802a0b20;
+     r9 = L8(r28 + 219);
+     r4 = r1 + 64;
+-    r5 = L8(r28 + 35);
++    r5 = L8(r28 + 32);
+     r3 = r27 + 140;
+     r9 = r9 + 30;
+     S32(r1 + 64, r0);
+@@ -1418,7 +1418,7 @@
+     if (!(cr0 & 2)) goto L_802a1344;
+     r9 = L8(r27 + 219);
+     r4 = r28;
+-    r5 = L8(r27 + 35);
++    r5 = L8(r27 + 32);
+     r3 = r25 + 140;
+     r9 = r9 + 30;
+     S32(r1 + 64, r0);
+--- a/port/core/open/open_802b6efc.cpp
++++ b/port/core/open/open_802b6efc.cpp
+@@ -139,7 +139,7 @@
+     r9 = r9 + 1;
+     S16(r11, r9);
+     ((void (*)(w3d_u64, w3d_u64, w3d_u64, w3d_u64, w3d_u64, w3d_u64))A80263608)(W(r3), W(r4), W(r5), W(r6), W(r7), W(r8));
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r1 + 40;
+     S32(r1 + 40, r28);
+     r3 = r31;
+@@ -173,7 +173,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b70b4:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r27;
+     S32(r1 + 32, r28);
+     r3 = r31;
+@@ -207,7 +207,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b7130:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r3 = r31;
+     S32(r1 + 32, r28);
+     r4 = r27;
+@@ -278,7 +278,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b723c:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r31 = r1 + 8;
+     r0 = 0x0u;
+     r4 = r27;
+@@ -314,7 +314,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b72c0:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r0 = 0x0u;
+     S32(r1 + 32, r0);
+     r4 = r27;
+@@ -349,7 +349,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b7340:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r0 = 0x0u;
+     S32(r1 + 32, r0);
+     r4 = r27;
+@@ -384,7 +384,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b73c0:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r0 = 0x0u;
+     S32(r1 + 32, r0);
+     r4 = r27;
+@@ -419,7 +419,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b7440:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r0 = 0x0u;
+     S32(r1 + 32, r0);
+     r4 = r27;
+@@ -454,7 +454,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b74c0:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r28 = 0x0u;
+     r4 = r27;
+     S32(r1 + 32, r28);
+@@ -489,7 +489,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b7540:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r27;
+     S32(r1 + 32, r28);
+     r3 = r1 + 16;
+@@ -523,7 +523,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b75bc:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r27;
+     S32(r1 + 32, r28);
+     r3 = r1 + 16;
+@@ -557,7 +557,7 @@
+     lr = r0;
+     r3 = CU(g2h(lr), r3, r4, r5, r6, r7, r8, r9, r10, f1, f2, f3, f4, f5, f6, f7, f8);
+ L_802b7638:
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r27;
+     S32(r1 + 32, r28);
+     r3 = r1 + 16;
+@@ -1005,7 +1005,7 @@
+     r3 = r27;
+     r4 = D(0x803d8040u);
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64, w3d_u64))A8020bb54)(W(r3), W(r4));
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r20;
+     S32(r1 + 392, r26);
+     r3 = r27;
+@@ -1090,7 +1090,7 @@
+     r3 = r20;
+     r4 = D(0x803d8050u);
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64, w3d_u64))A8020bb54)(W(r3), W(r4));
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r3 = r20;
+     r4 = L32(r1 + 492);
+     r5 = r5 + 32;
+@@ -1132,7 +1132,7 @@
+     r4 = D(0x803e0000u);
+     r4 = D(0x803d8060u);
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64, w3d_u64))A8020bb54)(W(r3), W(r4));
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r20;
+     r3 = L32(r1 + 492);
+     r5 = r5 + 32;
+@@ -1244,7 +1244,7 @@
+     r30 = r3;
+     r3 = L32(r21 + 148);
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64))A80263c24)(W(r3));
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = r3;
+     r3 = r30;
+     r5 = r5 + 32;
+@@ -1253,7 +1253,7 @@
+     S32(r29 + 224, r3);
+     r3 = 0x4u;
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64))A801fe1d8)(W(r3));
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = D(0x803e0000u);
+     r4 = D(0x803d806cu);
+     r5 = r5 + 35;
+@@ -1266,7 +1266,7 @@
+     if ((cr0 & 2)) goto L_802b8124;
+     r3 = 0x4u;
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64))A801fe1d8)(W(r3));
+-    r5 = L8(r29 + 35);
++    r5 = L8(r29 + 32);
+     r4 = D(0x803e0000u);
+     r4 = D(0x803d8080u);
+     r5 = r5 + 32;
+--- a/port/core/game/d31l/d31l_info_item_start_802b43a0.cpp
++++ b/port/core/game/d31l/d31l_info_item_start_802b43a0.cpp
+@@ -50,7 +50,7 @@
+     Ptr32<Res> w252;
+     Ptr32<Ent> e256; Ptr32<Ent> e260;
+ };
+-inline unsigned char &font_of(Ptr32<Item> s) { return *((Ptr32<unsigned char>)s + 35); }
++inline unsigned char &font_of(Ptr32<Item> s) { return *((Ptr32<unsigned char>)s + 32); }
+ inline Ptr32<Cfg> & cfg_of(Ptr32<Item> s) { return *(Ptr32<Ptr32<Cfg>>)((Ptr32<char>)s + 40); }
+ inline Str &err_of(Ptr32<Item> s) { return *(Ptr32<Str>)((Ptr32<char>)s + 108); }
+ inline Ptr32<Res> & node_of(Ptr32<Item> s) { return *(Ptr32<Ptr32<Res>>)((Ptr32<char>)s + 112); }
+--- a/port/core/open/open_8029cdb4.cpp
++++ b/port/core/open/open_8029cdb4.cpp
+@@ -1097,7 +1097,7 @@
+     r0 = L32(r9);
+     cr0 = CMPS(r0, 0);
+     if (!(cr0 & 2)) goto L_802a0b20;
+-    r9 = L8(r28 + 219);
++    r9 = L8(r28 + 216);
+     r4 = r1 + 64;
+     r5 = L8(r28 + 32);
+     r3 = r27 + 140;
+@@ -1416,7 +1416,7 @@
+     r0 = L32(r9);
+     cr0 = CMPS(r0, 0);
+     if (!(cr0 & 2)) goto L_802a1344;
+-    r9 = L8(r27 + 219);
++    r9 = L8(r27 + 216);
+     r4 = r28;
+     r5 = L8(r27 + 32);
+     r3 = r25 + 140;
+--- a/port/core/game/d32l/d32l_list_add_cell_fit_802bdf10.cpp
++++ b/port/core/game/d32l/d32l_list_add_cell_fit_802bdf10.cpp
+@@ -55,8 +55,8 @@
+     unsigned cur; unsigned char alpha; char u5[47]; float f52; float f56; char u60[16]; float f76;
+     std::vector<Rec> recs;
+     Ptr32<Res> parent;
+-    char u100[39];
+-    unsigned char style;
++    char u100[36];
++    unsigned char style; char w3d_tag_rest[3];  // palabra en PPC +0x88 escrita con stw; lbz +0x8b es el byte bajo
+ };
+ extern "C" {
+ unsigned fn_8020c5cc(Ptr32<const Str>);
+--- a/port/core/game/d32l/d32l_list_add_cell_802c00dc.cpp
++++ b/port/core/game/d32l/d32l_list_add_cell_802c00dc.cpp
+@@ -54,8 +54,8 @@
+     unsigned cur; unsigned char alpha; char u5[47]; float f52; float f56; char u60[16]; float f76;
+     std::vector<Rec> recs;
+     Ptr32<Res> parent;
+-    char u100[39];
+-    unsigned char style;
++    char u100[36];
++    unsigned char style; char w3d_tag_rest[3];  // palabra en PPC +0x88 escrita con stw; lbz +0x8b es el byte bajo
+ };
+ extern "C" {
+ unsigned strlen(Ptr32<const char>);
+--- a/port/core/game/d32l/d32l_list_add_icon_802be9e4.cpp
++++ b/port/core/game/d32l/d32l_list_add_icon_802be9e4.cpp
+@@ -56,8 +56,8 @@
+     unsigned cur; unsigned char alpha; char u5[31]; float f36; char u40[12]; float f52; float f56; float f60; float f64; Ptr32<void> w68; char u72[4]; float f76;
+     std::vector<Rec> recs;
+     Ptr32<Res> parent;
+-    char u100[39];
+-    unsigned char style;
++    char u100[36];
++    unsigned char style; char w3d_tag_rest[3];  // palabra en PPC +0x88 escrita con stw; lbz +0x8b es el byte bajo
+ };
+ extern "C" {
+ float fn_80178df0(Ptr32<void>);

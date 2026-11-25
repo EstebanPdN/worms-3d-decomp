@@ -1,0 +1,11 @@
+{
+  "unit": "d17c_rain_splash_init_800f26a8",
+  "source": "source/matching/game/d17c/d17c_rain_splash_init_800f26a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d17c_rain_splash_init_800f26a8": "0x800f26a8"
+  },
+  "descriptions": {
+    "d17c_rain_splash_init_800f26a8": "Load the \"Particle.RainSplash\" mesh into the water owner's mesh slot (+28, retained, previous released), read the \"Water.Level\" setting into +1040, allocate 50 splashes, clear their flags, set each UV pair to 0.1 and colour to (255,255,255,200), and store the engine context tick at +1036."
+  }
+}

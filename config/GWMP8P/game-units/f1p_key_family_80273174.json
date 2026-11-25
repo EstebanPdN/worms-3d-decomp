@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_key_family_80273174",
+  "source": "source/matching/game/f1p/f1p_key_family_80273174.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_key_family_80273174": "0x80273174"
+  },
+  "descriptions": {
+    "w3d_key_family_80273174": "Handle key27 through the witnessed base-editor helper; otherwise search the two original key strings and map their offsets to the original selection messages through0x802761b8 and owner field92. UI meaning and layout inferred."
+  }
+}

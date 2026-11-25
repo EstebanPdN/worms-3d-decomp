@@ -1,0 +1,11 @@
+{
+  "unit": "cc28a_planner_update_gates_80020b44",
+  "source": "source/matching/game/cc28a/cc28a_planner_update_gates_80020b44.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc28a_planner_update_gates_80020b44": "0x80020b44"
+  },
+  "descriptions": {
+    "cc28a_planner_update_gates_80020b44": "Apply timer/enable/team/count/queue gates, initialize registry and team once, dispatch one state7 message, otherwise tick planner or update waiting flags; return20."
+  }
+}

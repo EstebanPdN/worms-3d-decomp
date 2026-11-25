@@ -1,0 +1,11 @@
+{
+  "unit": "d31e_set_class_hook_flagged_801f3a00",
+  "source": "source/matching/game/d31e/d31e_set_class_hook_flagged_801f3a00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_set_class_hook_flagged_801f3a00": "0x801f3a00"
+  },
+  "descriptions": {
+    "w3d_d31e_set_class_hook_flagged_801f3a00": "Registers a hook for a class index with override rules: the low two state bits select the rule. A locked slot (low bits 0 or 1, top bits clear) keeps its hook; a slot with low bits 2 or 3 accepts only new states 2 or 3. Stores hook at +20 and state at +52 when accepted. Unless the new state has low bit 1 set or the slot rule stops it, recurses into each direct child class with state 128 using the child iterator. Names are inferred."
+  }
+}

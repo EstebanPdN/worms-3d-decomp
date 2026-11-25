@@ -1,0 +1,19 @@
+{
+  "unit": "s1_popup",
+  "source": "source/matching/game/s1_popup.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004862c": "0x8004862c",
+    "w3d_fn_80048ec4": "0x80048ec4",
+    "w3d_fn_80048f1c": "0x80048f1c",
+    "w3d_fn_80049108": "0x80049108",
+    "w3d_fn_80049180": "0x80049180"
+  },
+  "descriptions": {
+    "w3d_fn_8004862c": "Releases seven held interfaces and destroys the popup base.",
+    "w3d_fn_80048ec4": "Appears to update popup resources or animation state.",
+    "w3d_fn_80048f1c": "Appears to update popup resources or animation state.",
+    "w3d_fn_80049108": "Appears to update popup resources or animation state.",
+    "w3d_fn_80049180": "Appears to update popup resources or animation state."
+  }
+}

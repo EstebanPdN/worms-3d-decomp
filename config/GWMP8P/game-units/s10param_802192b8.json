@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_802192b8",
+  "source": "source/matching/game/generated/s10param_802192b8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_assign_interface_802192b8": "0x802192b8"
+  },
+  "descriptions": {
+    "w3d_s10_assign_interface_802192b8": "Retains the incoming interface through virtual slot 3, releases the previous interface through slot 4, and replaces the observed field."
+  }
+}

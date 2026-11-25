@@ -1,0 +1,15 @@
+{
+  "unit": "d27h_clock_display_update_800a1d4c",
+  "source": "source/matching/game/d27h/d27h_clock_display_update_800a1d4c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27h_clock_display_update_800a1d4c": "0x800a1d4c"
+  },
+  "descriptions": {
+    "d27h_clock_display_update_800a1d4c": "Clock display update: converts the round time at +68 to minutes and seconds in the text at +56, reads the display mode into +152, then for the text at +52 blanks it in mode 0, shows retreat time in mode 1, or in mode 2 shows turn time with a flashing colour below 6 seconds, calling 0x800a2e78 when the second changes and posting cached messages at 5 and 15 seconds; finally writes the colours and digits and runs 0x800a30bc and 0x800a34f4. Returns 0."
+  }
+}

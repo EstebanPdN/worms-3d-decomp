@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f4r_record64_insert_8035ab00",
+  "source": "source/matching/game/sol35f4r/sol35f4r_record64_insert_8035ab00.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f4r_record64_insert_8035ab00": "0x8035ab00"
+  },
+  "descriptions": {
+    "sol35f4r_record64_insert_8035ab00": "Inserts repeated opaque 64-byte records into an observed GC32 vector. Copies the value before spare-capacity updates and uses whole-record assignment for backward movement and filling. Growth allocates through the observed allocator and fallback, constructs prefix, repeated values and suffix, then releases old storage and updates vector bounds."
+  }
+}

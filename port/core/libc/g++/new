@@ -1,0 +1,22 @@
+// Parte de <new> que STLport pide al compilador nativo. Sin excepciones.
+#ifndef W3D_NEW_H
+#define W3D_NEW_H
+struct bad_alloc {};
+struct nothrow_t {};
+extern const nothrow_t nothrow;
+typedef void (*new_handler)();
+new_handler set_new_handler(new_handler);
+namespace std {
+using ::bad_alloc;
+using ::nothrow_t;
+using ::nothrow;
+using ::new_handler;
+using ::set_new_handler;
+}
+void *operator new(__SIZE_TYPE__);
+void *operator new[](__SIZE_TYPE__);
+void operator delete(void *) noexcept;
+void operator delete[](void *) noexcept;
+inline void *operator new(__SIZE_TYPE__, void *p) noexcept { return p; }
+inline void *operator new[](__SIZE_TYPE__, void *p) noexcept { return p; }
+#endif

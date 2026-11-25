@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_clear_indexes_80204850",
+  "source": "source/matching/game/h1b/h1b_clear_indexes_80204850.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_clear_indexes_80204850": "0x80204850"
+  },
+  "descriptions": {
+    "h1b_clear_indexes_80204850": "Clears external64-byte record range28/32, erases populated tree roots at owner44 and60 through their original backends, restores each header sentinel and zero count, clears status24 and resets word range92/96. All views are external, none locally constructed; no padding, owned data or portable complete-type claim."
+  }
+}

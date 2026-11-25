@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_script_find_80102a34",
+  "source": "source/matching/game/cc38a/cc38a_script_find_80102a34.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_script_find_80102a34": "0x80102a34"
+  },
+  "descriptions": {
+    "cc38a_script_find_80102a34": "Find a script by its shared-string name, releasing each temporary before testing equality and clearing the output on failure."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d10b_rebuild_layout_802b3d04",
+  "source": "source/matching/game/d10b/d10b_rebuild_layout_802b3d04_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10b_rebuild_layout_802b3d04": "0x802b3d04"
+  },
+  "descriptions": {
+    "d10b_rebuild_layout_802b3d04": "When either observed layout dimension changes, store both values and, only when readiness equals one, drain the child queue with captured table/object item-zero and remove calls. Release and clear six held interfaces in order, clear readiness, then invoke build and apply layout callbacks. Preserve null checks, live reloads, full-width dimensions and ready equality. Native inline handle reset accounts for constant lifetimes. Partial inferred owner/interface views; full classes and ignored callback return types unknown. No owned initialized data."
+  }
+}

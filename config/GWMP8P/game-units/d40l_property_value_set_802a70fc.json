@@ -1,0 +1,12 @@
+{
+  "unit": "d40l_property_value_set_802a70fc",
+  "source": "source/matching/game/d40l/d40l_property_value_set_802a70fc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d40l_property_value_set_802a70fc": "0x802a70fc"
+  },
+  "descriptions": {
+    "d40l_property_value_set_802a70fc": "Writes a panel's value to the selected field of the property named by the current entry, reporting an error if the name is missing, then refreshes the panel."
+  }
+}

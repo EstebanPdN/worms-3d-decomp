@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_text_properties_80220c24",
+  "source": "source/matching/game/d24e/d24e_text_properties_80220c24.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_text_properties_80220c24": "0x80220c24"
+  },
+  "descriptions": {
+    "w3d_d24e_register_text_properties_80220c24": "Sets the FontResource string binding (0x801ed24c) to a temporary string made from \"FE.Font\" (0x803b6408, constructor 0x8020bb54); resets the TextResource string binding (0x801ed24c) to the shared empty string; resets the Colour colour binding (0x801f15e0) to (255, 255, 255, 255); registers Underline (0x801eb674); registers BorderOn (0x801eb674); registers BorderSize (0x801ec52c); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

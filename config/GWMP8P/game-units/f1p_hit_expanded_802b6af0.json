@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_hit_expanded_802b6af0",
+  "source": "source/matching/game/f1p/f1p_hit_expanded_802b6af0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hit_expanded_802b6af0": "0x802b6af0"
+  },
+  "descriptions": {
+    "w3d_hit_expanded_802b6af0": "After active guard, forwards mode zero to the original panel hit dispatcher with the observed promoted floating arguments. Otherwise obtains center/extent vectors, expands the top boundary using optional related state and the original constants, conditionally insets horizontal bounds by cached width, and tests inclusive x/y bounds. Structural types and UI meaning inferred; complete portable cross-module ABI remains pending."
+  }
+}

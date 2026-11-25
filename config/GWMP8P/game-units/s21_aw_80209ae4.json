@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aw_80209ae4",
+  "source": "source/matching/game/s21/s21_aw_80209ae4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_clear_table_80209ae4": "0x80209ae4"
+  },
+  "descriptions": {
+    "w3d_s21_clear_table_80209ae4": "Appears to clear a table of 256 words and return the table."
+  }
+}

@@ -1,0 +1,6 @@
+// Inferred motion sample and owner field layout.
+struct F8MotionVec{float x,y,z;F8MotionVec(){}F8MotionVec(const F8MotionVec&o){float a=o.x,b=o.y,c=o.z;x=a;y=b;z=c;}F8MotionVec operator*(float k)const{F8MotionVec r;r.x=x*k;r.y=y*k;r.z=z*k;return r;}F8MotionVec operator+(const F8MotionVec&o)const{F8MotionVec r;r.x=x+o.x;r.y=y+o.y;r.z=z+o.z;return r;}};
+struct F8MotionOwner{char p[184];F8MotionVec finalPosition,start;char p2[12];F8MotionVec velocity;char p3[68];unsigned timestamp;float yaw;char p4[16];float pitch;char p5[360];int state;};
+extern const float zero_8037eba8[],one_8037ebb8[],side_8037ebbc[],middle_8037ebc0[];
+extern "C" void clamp_800949a8(F8MotionOwner*,F8MotionVec*);
+extern "C" void f8b_sample_motion_800959d0(F8MotionOwner*s,unsigned now,F8MotionVec*p,F8MotionVec*angles,F8MotionVec*scale){unsigned time=now-s->timestamp;if(time>19){*p=s->finalPosition;angles->x=s->pitch;angles->y=s->yaw;angles->z=zero_8037eba8[0];}else{*p=s->start+s->velocity*(float)time;clamp_800949a8(s,p);angles->x=s->pitch;angles->y=s->yaw;angles->z=zero_8037eba8[0];}if(s->state==1){scale->x=one_8037ebb8[0];scale->y=one_8037ebb8[0];scale->z=one_8037ebb8[0];}else{scale->x=side_8037ebbc[0];scale->y=middle_8037ebc0[0];scale->z=side_8037ebbc[0];}}

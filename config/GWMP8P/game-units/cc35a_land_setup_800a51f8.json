@@ -1,0 +1,11 @@
+{
+  "unit": "cc35a_land_setup_800a51f8",
+  "source": "source/matching/game/cc35a/cc35a_land_setup_800a51f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc35a_land_setup_800a51f8": "0x800a51f8"
+  },
+  "descriptions": {
+    "cc35a_land_setup_800a51f8": "Initialize land materials and map file messages, register five event routes and run final callback; native property reads and conditional Maps/%s formatting."
+  }
+}

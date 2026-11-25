@@ -1,0 +1,96 @@
+/* Generated reference-only placements. All bodies are source-built. */
+OUTPUT_FORMAT("elf32-powerpc")
+OUTPUT_ARCH(powerpc)
+ENTRY(w3d_cc18b_type_chain_8024838c)
+_SDA_BASE_ = 0x804b2540;
+_SDA2_BASE_ = 0x804c2540;
+fn_801e8a88 = 0x801e8a88;
+fn_80241b00 = 0x80241b00;
+fn_80241edc = 0x80241edc;
+fn_8024278c = 0x8024278c;
+fn_8024298c = 0x8024298c;
+fn_80242bc8 = 0x80242bc8;
+fn_80242d40 = 0x80242d40;
+fn_80242e10 = 0x80242e10;
+fn_802433c8 = 0x802433c8;
+fn_802441c8 = 0x802441c8;
+fn_8024434c = 0x8024434c;
+fn_80244480 = 0x80244480;
+fn_802445f8 = 0x802445f8;
+fn_802446c8 = 0x802446c8;
+fn_80244840 = 0x80244840;
+fn_80244910 = 0x80244910;
+fn_80244df0 = 0x80244df0;
+fn_80245710 = 0x80245710;
+fn_8024588c = 0x8024588c;
+fn_80245938 = 0x80245938;
+fn_80245ac8 = 0x80245ac8;
+fn_80245bd8 = 0x80245bd8;
+fn_80245da8 = 0x80245da8;
+fn_80245ff4 = 0x80245ff4;
+fn_8024645c = 0x8024645c;
+fn_80246b8c = 0x80246b8c;
+fn_80246d2c = 0x80246d2c;
+fn_80246e70 = 0x80246e70;
+fn_80247050 = 0x80247050;
+fn_8024730c = 0x8024730c;
+fn_8024744c = 0x8024744c;
+fn_80247498 = 0x80247498;
+fn_802475fc = 0x802475fc;
+fn_802476b8 = 0x802476b8;
+fn_802477f8 = 0x802477f8;
+fn_80247844 = 0x80247844;
+fn_80247a44 = 0x80247a44;
+fn_80247bac = 0x80247bac;
+fn_80247cec = 0x80247cec;
+fn_80247d38 = 0x80247d38;
+fn_80247eac = 0x80247eac;
+fn_80247fa8 = 0x80247fa8;
+fn_80248198 = 0x80248198;
+lbl_80365788 = 0x80365788;
+lbl_80367748 = 0x80367748;
+lbl_80367798 = 0x80367798;
+lbl_803677e8 = 0x803677e8;
+lbl_80367838 = 0x80367838;
+lbl_80367888 = 0x80367888;
+lbl_803678d8 = 0x803678d8;
+lbl_80367928 = 0x80367928;
+lbl_80367978 = 0x80367978;
+lbl_803679c8 = 0x803679c8;
+lbl_80367a18 = 0x80367a18;
+lbl_80367a68 = 0x80367a68;
+lbl_80367ab8 = 0x80367ab8;
+lbl_80367b08 = 0x80367b08;
+lbl_80367b58 = 0x80367b58;
+lbl_80367ba8 = 0x80367ba8;
+lbl_80367bf8 = 0x80367bf8;
+lbl_80367c48 = 0x80367c48;
+lbl_80367c98 = 0x80367c98;
+lbl_80367ce8 = 0x80367ce8;
+lbl_80367d38 = 0x80367d38;
+lbl_80367d88 = 0x80367d88;
+lbl_803ead00 = 0x803ead00;
+lbl_803ead1c = 0x803ead1c;
+lbl_803ead38 = 0x803ead38;
+lbl_803ead54 = 0x803ead54;
+lbl_803ead70 = 0x803ead70;
+lbl_803ead8c = 0x803ead8c;
+lbl_803eada8 = 0x803eada8;
+lbl_803eadc4 = 0x803eadc4;
+lbl_803eade0 = 0x803eade0;
+lbl_803eadfc = 0x803eadfc;
+lbl_803eae18 = 0x803eae18;
+lbl_803eae34 = 0x803eae34;
+lbl_803eae50 = 0x803eae50;
+lbl_803eae6c = 0x803eae6c;
+lbl_803eae88 = 0x803eae88;
+lbl_803eaea4 = 0x803eaea4;
+lbl_803eaec0 = 0x803eaec0;
+lbl_803eaedc = 0x803eaedc;
+lbl_803eaef8 = 0x803eaef8;
+lbl_803eaf14 = 0x803eaf14;
+lbl_803eaf30 = 0x803eaf30;
+SECTIONS {
+  .text.w3d_cc18b_type_chain_8024838c 0x8024838c : { *(.text.w3d_cc18b_type_chain_8024838c) }
+  /DISCARD/ : { *(.text*) *(.rodata*) *(.data*) *(.bss*) *(.sdata*) *(.sbss*) *(.comment) }
+}

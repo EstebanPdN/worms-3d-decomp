@@ -1,0 +1,14 @@
+{
+  "unit": "d29g_earthquake_start_80061a80",
+  "source": "source/matching/game/d29g/d29g_earthquake_start_80061a80.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_earthquake_start_80061a80": "0x80061a80"
+  },
+  "descriptions": {
+    "w3d_d29g_earthquake_start_80061a80": "Earthquake effect start: asserts the type is not one of the two world entity types, subscribes a message into +32, copies Earthquake.CameraShakeMagnitude and Earthquake.Length into the camera shake properties and sets Camera.Orbit.IgnoreInput, starts the Orbit sound, posts a message, reads the shake handle into +40 and fades with alpha from magnitude times 200 clamped to 255 over 1000 ms."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

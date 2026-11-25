@@ -1,0 +1,11 @@
+{
+  "unit": "cc42a_clear_group_80177d1c",
+  "source": "source/matching/game/cc42a/cc42a_clear_group_80177d1c_v4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc42a_clear_group_80177d1c": "0x80177d1c"
+  },
+  "descriptions": {
+    "cc42a_clear_group_80177d1c": "Visit the cached table range and clear matching group properties by signed kind: release kind 5 targets, assign the original empty string to kind 4, ignore kinds 0\u20133 and 6\u20137, and retain an error for other kinds."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "s9complex_8017c904",
+  "source": "source/matching/game/generated/s9complex_8017c904.c",
+  "language": "c",
+  "functions": {
+    "s9_import_descriptors_8017c904": "0x8017c904",
+    "s9_import_descriptors_8017cafc": "0x8017cafc",
+    "s9_import_descriptors_8017cbec": "0x8017cbec"
+  },
+  "descriptions": {
+    "s9_import_descriptors_8017c904": "Creates and retains a temporary object for each descriptor, imports it, releases it, updates the maximum stored count and returns failure if any import fails.",
+    "s9_import_descriptors_8017cafc": "Creates and retains a temporary object for each descriptor, imports it, releases it, updates the maximum stored count and returns failure if any import fails.",
+    "s9_import_descriptors_8017cbec": "Creates and retains a temporary object for each descriptor, imports it, releases it, updates the maximum stored count and returns failure if any import fails."
+  }
+}

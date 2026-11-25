@@ -1,0 +1,19 @@
+{
+  "unit": "s3_runtime_driver",
+  "source": "source/matching/game/s3_runtime_driver.c",
+  "language": "c",
+  "functions": {
+    "w3d_runtime_create_service": "0x8015b904",
+    "w3d_runtime_release_service": "0x8015b9d0",
+    "w3d_runtime_service_toggle": "0x8015ba30",
+    "w3d_runtime_handle_message": "0x8015bcb0",
+    "w3d_runtime_service_finish": "0x8015bd08"
+  },
+  "descriptions": {
+    "w3d_runtime_create_service": "Creates the retained runtime service using owner configuration.",
+    "w3d_runtime_release_service": "Stops and releases the runtime service.",
+    "w3d_runtime_service_toggle": "Forwards a toggle request to the runtime service.",
+    "w3d_runtime_handle_message": "Updates runtime flags for stop and service-toggle messages.",
+    "w3d_runtime_service_finish": "Forwards a completion request to the runtime service."
+  }
+}

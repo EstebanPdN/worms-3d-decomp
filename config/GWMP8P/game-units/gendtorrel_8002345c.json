@@ -1,0 +1,41 @@
+{
+  "unit": "gendtorrel_8002345c",
+  "source": "source/matching/game/generated/gendtorrel_8002345c.c",
+  "language": "c",
+  "functions": {
+    "w3d_destroy_8002345c": "0x8002345c",
+    "w3d_destroy_80024d50": "0x80024d50",
+    "w3d_destroy_800251c0": "0x800251c0",
+    "w3d_destroy_80025878": "0x80025878",
+    "w3d_destroy_80025d74": "0x80025d74",
+    "w3d_destroy_8002a434": "0x8002a434",
+    "w3d_destroy_8002a978": "0x8002a978",
+    "w3d_destroy_8002b890": "0x8002b890",
+    "w3d_destroy_8002ddc4": "0x8002ddc4",
+    "w3d_destroy_8002e93c": "0x8002e93c",
+    "w3d_destroy_8002fa40": "0x8002fa40",
+    "w3d_destroy_8003a970": "0x8003a970",
+    "w3d_destroy_8003ba8c": "0x8003ba8c",
+    "w3d_destroy_801e828c": "0x801e828c",
+    "w3d_destroy_8025d8a0": "0x8025d8a0",
+    "w3d_destroy_802b2c7c": "0x802b2c7c"
+  },
+  "descriptions": {
+    "w3d_destroy_8002345c": "Destructor body: installs the class vtable, releases 27 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_80024d50": "Destructor body: installs the class vtable, releases 2 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_800251c0": "Destructor body: installs the class vtable, releases 7 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_80025878": "Destructor body: installs the class vtable, releases 2 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_80025d74": "Destructor body: installs the class vtable, releases 10 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8002a434": "Destructor body: installs the class vtable, releases 3 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8002a978": "Destructor body: installs the class vtable, releases 5 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8002b890": "Destructor body: installs the class vtable, releases 6 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8002ddc4": "Destructor body: installs the class vtable, releases 6 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8002e93c": "Destructor body: installs the class vtable, releases 4 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8002fa40": "Destructor body: installs the class vtable, releases 10 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8003a970": "Destructor body: installs the class vtable, releases 3 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8003ba8c": "Destructor body: installs the class vtable, releases 14 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_801e828c": "Destructor body: releases 1 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_8025d8a0": "Destructor body: installs the class vtable, releases 8 held interface member(s) (virtual release) in reverse order, then runs the base destructor.",
+    "w3d_destroy_802b2c7c": "Destructor body: installs the class vtable, releases 8 held interface member(s) (virtual release) in reverse order, then runs the base destructor."
+  }
+}

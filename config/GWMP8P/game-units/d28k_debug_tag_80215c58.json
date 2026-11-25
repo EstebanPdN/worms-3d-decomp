@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_debug_tag_80215c58",
+  "source": "source/matching/game/d28k/d28k_debug_tag_80215c58.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_debug_tag_80215c58": "0x80215c58"
+  },
+  "descriptions": {
+    "w3d_d28k_debug_tag_80215c58": "Debug block tag: interned file name list, line, size and 0xAD guard fill around the payload."
+  }
+}

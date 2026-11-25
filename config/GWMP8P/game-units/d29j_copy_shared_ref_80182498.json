@@ -1,0 +1,17 @@
+{
+  "unit": "d29j_copy_shared_ref_80182498",
+  "source": "source/matching/game/d29j/d29j_copy_shared_ref_80182498.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d29j_copy_shared_ref_80182498": "0x80182498"
+  },
+  "descriptions": {
+    "d29j_copy_shared_ref_80182498": "Copy item 11's counted data reference from another node, or return E_FAIL when the type lacks flag 8."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_property_stream_deserialize_801e20e0",
+  "source": "source/matching/game/cx12b/cx12b_property_stream_deserialize_801e20e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_property_stream_deserialize_801e20e0": "0x801e20e0"
+  },
+  "descriptions": {
+    "w3d_cx12b_property_stream_deserialize_801e20e0": "Read the original property field sequence, replace its heap byte payload and preserve stream slot/order and heap release protocol."
+  }
+}

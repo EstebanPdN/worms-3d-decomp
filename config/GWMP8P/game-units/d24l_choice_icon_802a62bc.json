@@ -1,0 +1,14 @@
+{
+  "unit": "d24l_choice_icon_802a62bc",
+  "source": "source/matching/game/d24l/d24l_choice_icon_802a62bc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d24l_choice_icon_802a62bc": "0x802a62bc"
+  },
+  "descriptions": {
+    "d24l_choice_icon_802a62bc": "Updates the current choice icon: splits the lines if not done (+596), retints when the index +600 reached the count +580, computes a scale from the data vector's y times 1.1875 and an x offset, detaches and releases the old icon +236, loads the icon named at +420[index] (or 'FE.I.Padlock' when +240 is set) with type byte(+35)+32 through 0x802b1510, reports a missing resource into +108, otherwise attaches, scales and positions it."
+  }
+}

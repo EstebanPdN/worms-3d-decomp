@@ -1,0 +1,14 @@
+{
+  "unit": "s20_lua_c",
+  "source": "source/matching/game/s20/s20_lua_c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_call_lua_number_8019dfec": "0x8019dfec"
+  },
+  "descriptions": {
+    "w3d_s20_call_lua_number_8019dfec": "Appears to look up a named Lua global function, call it with one float argument and return 0x80004005 when the global is missing."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

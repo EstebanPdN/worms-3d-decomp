@@ -1,0 +1,14 @@
+{
+  "unit": "d40k_element_wrappers_80262a58",
+  "source": "source/matching/game/d40k/d40k_element_wrappers_80262a58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40k_element_wrappers_80262a58": "0x80262a58"
+  },
+  "descriptions": {
+    "w3d_d40k_element_wrappers_80262a58": "Looks up the last name in a list, creates a type-specific wrapper for each element of the resolved source, then posts a completion message."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

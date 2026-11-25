@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8020cab0",
+  "source": "source/matching/game/k6b/k6b_a_8020cab0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_hash_table_construct_8020cab0": "0x8020cab0"
+  },
+  "descriptions": {
+    "w3d_k6b_hash_table_construct_8020cab0": "Appears to construct a table: clear +12/+16/+24, round the capacity to a power of two, store count and mask, allocate and zero 2-byte buckets and reserve 8 entries."
+  }
+}

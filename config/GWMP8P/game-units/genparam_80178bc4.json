@@ -1,0 +1,21 @@
+{
+  "unit": "genparam_80178bc4",
+  "source": "source/matching/game/generated/genparam_80178bc4.c",
+  "language": "c",
+  "functions": {
+    "w3d_ctor_lookup_80178bc4": "0x80178bc4",
+    "w3d_ctor_lookup_80178c98": "0x80178c98",
+    "w3d_ctor_lookup_80178d6c": "0x80178d6c",
+    "w3d_ctor_lookup_80178e40": "0x80178e40",
+    "w3d_ctor_lookup_80178ed0": "0x80178ed0",
+    "w3d_ctor_lookup_80179038": "0x80179038"
+  },
+  "descriptions": {
+    "w3d_ctor_lookup_80178bc4": "Constructor: runs the base constructor, installs the class vtable, looks up an interface by key and retains it, releases the previous member at +4 and stores the new one.",
+    "w3d_ctor_lookup_80178c98": "Constructor: runs the base constructor, installs the class vtable, looks up an interface by key and retains it, releases the previous member at +4 and stores the new one.",
+    "w3d_ctor_lookup_80178d6c": "Constructor: runs the base constructor, installs the class vtable, looks up an interface by key and retains it, releases the previous member at +4 and stores the new one.",
+    "w3d_ctor_lookup_80178e40": "Constructor: runs the base constructor, installs the class vtable, looks up an interface by key and retains it, releases the previous member at +4 and stores the new one.",
+    "w3d_ctor_lookup_80178ed0": "Constructor: runs the base constructor, installs the class vtable, looks up an interface by key and retains it, releases the previous member at +4 and stores the new one.",
+    "w3d_ctor_lookup_80179038": "Constructor: runs the base constructor, installs the class vtable, looks up an interface by key and retains it, releases the previous member at +4 and stores the new one."
+  }
+}

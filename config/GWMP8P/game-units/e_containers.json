@@ -1,0 +1,31 @@
+{
+  "unit": "e_containers",
+  "source": "source/matching/game/e_containers.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_char_to_lower": "0x80341260",
+    "w3d_service_request_8034127c": "0x8034127c",
+    "w3d_empty_80341348": "0x80341348",
+    "w3d_vector_clear_8034134c": "0x8034134c",
+    "w3d_range_limits_reset": "0x8034141c",
+    "w3d_empty_80341448": "0x80341448",
+    "w3d_empty_8034144c": "0x8034144c",
+    "w3d_vector_destroy_virtual16": "0x80341450",
+    "w3d_vector_destroy_virtual12": "0x803414b4",
+    "w3d_vector_destroy_named": "0x80341518",
+    "w3d_empty_80341584": "0x80341584"
+  },
+  "descriptions": {
+    "w3d_char_to_lower": "Converts a character to lower case when the character class table marks it as upper case.",
+    "w3d_service_request_8034127c": "Forwards two arguments to a request routine on a service object held by a global holder.",
+    "w3d_empty_80341348": "Empty function that does nothing.",
+    "w3d_vector_clear_8034134c": "Pops every pointer from the end of a pointer vector and frees each one until the vector is empty.",
+    "w3d_range_limits_reset": "Resets a limits record: two indices to -1, three limits to 32767, and a flag and value to zero.",
+    "w3d_empty_80341448": "Empty function that does nothing.",
+    "w3d_empty_8034144c": "Empty function that does nothing.",
+    "w3d_vector_destroy_virtual16": "Empties a pointer vector from the end, destroying each non-null object through its virtual destructor.",
+    "w3d_vector_destroy_virtual12": "Empties a pointer vector from the end, destroying each non-null object through a virtual destructor slot.",
+    "w3d_vector_destroy_named": "Empties a vector of named entries, releasing each entry's string and freeing the entry.",
+    "w3d_empty_80341584": "Empty function that does nothing."
+  }
+}

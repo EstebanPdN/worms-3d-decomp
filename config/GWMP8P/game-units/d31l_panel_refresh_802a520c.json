@@ -1,0 +1,14 @@
+{
+  "unit": "d31l_panel_refresh_802a520c",
+  "source": "source/matching/game/d31l/d31l_panel_refresh_802a520c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31l_panel_refresh_802a520c": "0x802a520c"
+  },
+  "descriptions": {
+    "d31l_panel_refresh_802a520c": "Builds the panel's highlight, border and infinity sprites on first use, lays them out from the panel size, and updates their visibility and colour from the panel state."
+  }
+}

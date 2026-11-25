@@ -1,0 +1,11 @@
+{
+  "unit": "s11recompute_80268f18",
+  "source": "source/matching/game/s11_auto/s11recompute_80268f18.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80268f18": "0x80268f18"
+  },
+  "descriptions": {
+    "w3d_auto_80268f18": "Appears to calls 0x8015fb34, 0x802691fc, 0x80269694, 0x802b264c, 0x8015f65c. m2c types and names are provisional."
+  }
+}

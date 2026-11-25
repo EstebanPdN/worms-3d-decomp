@@ -1,0 +1,35 @@
+{
+  "unit": "s3_actor_links",
+  "source": "source/matching/game/s3_actor_links.c",
+  "language": "c",
+  "functions": {
+    "w3d_actor_fire_punch_jump": "0x8014d65c",
+    "w3d_actor_link_c_state": "0x8014dc04",
+    "w3d_actor_link_b_query": "0x8014dc60",
+    "w3d_actor_link_b_active": "0x8014dcbc",
+    "w3d_actor_post_pair_query": "0x8014de20",
+    "w3d_actor_link_a_flag": "0x8014de70",
+    "w3d_actor_link_a_state": "0x8014decc",
+    "w3d_actor_link_a_second_flag": "0x8014df28",
+    "w3d_actor_clear_links": "0x8014df84",
+    "w3d_actor_timed_value": "0x8014e104",
+    "w3d_actor_link_c_falling_message": "0x8014e3d4",
+    "w3d_actor_link_a_falling_step": "0x8014e44c",
+    "w3d_actor_other_entity_reaction": "0x8014e774"
+  },
+  "descriptions": {
+    "w3d_actor_fire_punch_jump": "Starts the fire punch jump state and posts its message for an eligible entity.",
+    "w3d_actor_link_c_state": "Reads the third linked object state and clears a stale identifier.",
+    "w3d_actor_link_b_query": "Queries the second linked object and clears a stale identifier.",
+    "w3d_actor_link_b_active": "Reads the second linked object active field and clears a stale identifier.",
+    "w3d_actor_post_pair_query": "Posts the stored pair of values and returns whether the global result is zero.",
+    "w3d_actor_link_a_flag": "Reads the first linked object flag and clears a stale identifier.",
+    "w3d_actor_link_a_state": "Reads the first linked object state and clears a stale identifier.",
+    "w3d_actor_link_a_second_flag": "Reads the first linked object second flag and clears a stale identifier.",
+    "w3d_actor_clear_links": "Clears three linked identifiers, optionally posts notifications, and resets the matching owner state.",
+    "w3d_actor_timed_value": "Sets a timed actor value and schedules its next update from a scaled clock reading.",
+    "w3d_actor_link_c_falling_message": "Posts a notification when the third link exists and vertical velocity is below its threshold.",
+    "w3d_actor_link_a_falling_step": "Updates an eligible first linked object while falling and clears a stale identifier.",
+    "w3d_actor_other_entity_reaction": "Chooses an actor reaction based on whether the other entity is on the same team."
+  }
+}

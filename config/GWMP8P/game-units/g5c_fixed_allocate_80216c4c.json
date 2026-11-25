@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_fixed_allocate_80216c4c",
+  "source": "source/matching/game/g5c/g5c_fixed_allocate_v3_80216c4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_fixed_allocate_80216c4c": "0x80216c4c"
+  },
+  "descriptions": {
+    "g5c_fixed_allocate_80216c4c": "Allocates one fixed-size runtime pool block. Rejects zero size, active non-direct guard, or size mismatch; initializes the pool size and carves existing region remainder blocks at eight-byte strides, marking free cells with 0x55555555. Pops a cell or requests an aligned region from original callback80400768, retries once per original 0x1000 request flag, and carves the remaining cells. Emits original optional allocation callback8040077c under the observed flags and clears the active guard. Heap, region, state and block layouts remain external views; no complete aggregate or initialized data is owned. Names and allocation roles are inferred."
+  }
+}

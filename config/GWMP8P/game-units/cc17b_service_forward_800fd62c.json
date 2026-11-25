@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_service_forward_800fd62c",
+  "source": "source/matching/game/cc17b/cc17b_service_forward_800fd62c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_service_forward_800fd62c": "0x800fd62c"
+  },
+  "descriptions": {
+    "w3d_cc17b_service_forward_800fd62c": "Copies a one-word name handle to the observed stack slot and forwards the three word arguments through virtual service slot 128 from singleton field 100."
+  }
+}

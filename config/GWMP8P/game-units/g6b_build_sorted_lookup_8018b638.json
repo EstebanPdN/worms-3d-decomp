@@ -1,0 +1,11 @@
+{
+  "unit": "g6b_build_sorted_lookup_8018b638",
+  "source": "source/matching/game/g6b/g6b_build_sorted_lookup_v1_8018b638.cpp",
+  "language": "cpp",
+  "functions": {
+    "g6b_build_sorted_lookup_8018b638": "0x8018b638"
+  },
+  "descriptions": {
+    "g6b_build_sorted_lookup_8018b638": "Rebuilds six-byte key/value/index entries from a two-level original lookup table and sorts them with the original comparator. Releases prior storage and allocates exactly count times six bytes. All source headers/pages remain external views; no partial header is locally constructed. Lookup and key semantics inferred."
+  }
+}

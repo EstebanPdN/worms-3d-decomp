@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_part_play_anims_800e99cc",
+  "source": "source/matching/game/d26c/d26c_part_play_anims_800e99cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_part_play_anims_800e99cc": "0x800e99cc"
+  },
+  "descriptions": {
+    "d26c_part_play_anims_800e99cc": "Set state +156 from 1 to 2. Copy the Desc+284 and Desc+196 strings. If +188 is not -1 and the first is not empty stop it on the mesh at +32 (0x8018179c). Play the first when not empty (0x80181640) with a local handle. Play the second when not empty storing the handle at +188 and start it."
+  }
+}

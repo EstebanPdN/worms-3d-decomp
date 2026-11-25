@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_select_fallbacks_801ab614",
+  "source": "source/matching/game/d24e/d24e_select_fallbacks_801ab614.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_select_fallbacks_801ab614": "0x801ab614"
+  },
+  "descriptions": {
+    "w3d_d24e_select_fallbacks_801ab614": "For each of the eleven rows at 0x803aa2b0 stores in the map at +124, indexed by the row's code, the first of the code and its alternates found in the supported list, or the last one tried. Returns 0."
+  }
+}

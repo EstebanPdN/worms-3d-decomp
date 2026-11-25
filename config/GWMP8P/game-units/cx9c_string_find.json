@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_string_find",
+  "source": "source/matching/game/cx9c/cx9c_string_find.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_find_8035c220": "0x8035c220"
+  },
+  "descriptions": {
+    "w3d_cx9c_find_8035c220": "Inferred four-way STL string equality search over pointer range."
+  }
+}

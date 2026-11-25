@@ -1,0 +1,11 @@
+{
+  "unit": "cc29a_controller_team_label_80024448",
+  "source": "source/matching/game/cc29a/cc29a_controller_team_label_80024448.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc29a_controller_team_label_80024448": "0x80024448"
+  },
+  "descriptions": {
+    "cc29a_controller_team_label_80024448": "Enable the controller for a valid player, resolve and assign its team label through an observed eight-byte property workspace, and refresh its count text."
+  }
+}

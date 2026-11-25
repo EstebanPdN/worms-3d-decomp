@@ -1,0 +1,12 @@
+{
+  "unit": "d31l_info_item_start_802b43a0",
+  "source": "source/matching/game/d31l/d31l_info_item_start_802b43a0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d31l_info_item_start_802b43a0": "0x802b43a0"
+  },
+  "descriptions": {
+    "d31l_info_item_start_802b43a0": "Starts an info menu item: loads its icon and cross sprites, subscribes its messages, attaches the sprites and resolves its game-data value."
+  }
+}

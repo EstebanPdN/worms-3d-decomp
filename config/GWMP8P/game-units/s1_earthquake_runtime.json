@@ -1,0 +1,17 @@
+{
+  "unit": "s1_earthquake_runtime",
+  "source": "source/matching/game/s1_earthquake_runtime.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_800619e4": "0x800619e4",
+    "w3d_fn_80061cd4": "0x80061cd4",
+    "w3d_fn_80062228": "0x80062228",
+    "w3d_fn_800622bc": "0x800622bc"
+  },
+  "descriptions": {
+    "w3d_fn_800619e4": "Posts an earthquake impulse and returns a random delay from 20 through 199 when the timer is inactive.",
+    "w3d_fn_80061cd4": "Ends camera shake, restores orbit input, releases its held reference, and finishes the entity.",
+    "w3d_fn_80062228": "Releases the held effect and pending message, then posts the earthquake completion message.",
+    "w3d_fn_800622bc": "Starts an idle earthquake, schedules its configured delay, posts a start message, and marks it active."
+  }
+}

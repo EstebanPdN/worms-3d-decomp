@@ -1,0 +1,23 @@
+{
+  "unit": "c_sound_volume",
+  "source": "source/matching/game/c_sound_volume.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sound_manager_update": "0x801e0380",
+    "w3d_sound_manager_create_emitter": "0x801e0680",
+    "w3d_sound_emitter_set_float": "0x801e0cbc",
+    "w3d_sound_emitter_attach_801e117c": "0x801e117c",
+    "w3d_sound_emitter_update_attenuation": "0x801e1424",
+    "w3d_sound_emitter_list_insert": "0x801e16b0",
+    "w3d_sound_manager_set_voice_parameter": "0x801e1a0c"
+  },
+  "descriptions": {
+    "w3d_sound_manager_update": "Per-frame sound update: ranks audible emitters by priority, keeps or frees voices, assigns free voices and advances all emitters.",
+    "w3d_sound_manager_create_emitter": "Allocates and constructs a sound emitter and appends it to the manager's emitter list, growing the list when full.",
+    "w3d_sound_emitter_set_float": "Sets the emitter volume (properties 1 and 11) scaled by the master volume; reports failure for other properties.",
+    "w3d_sound_emitter_attach_801e117c": "Attaches a sample to an emitter and derives its randomised rate and volume from the sample, scaled by master volume.",
+    "w3d_sound_emitter_update_attenuation": "Computes the emitter's distance attenuation from the listener and returns 0 when it is in range and audible, else 1.",
+    "w3d_sound_emitter_list_insert": "Inserts an emitter into the 32-slot priority list before the first entry with a higher priority value, shifting the rest.",
+    "w3d_sound_manager_set_voice_parameter": "Passes a numbered float parameter to every allocated voice in the manager."
+  }
+}

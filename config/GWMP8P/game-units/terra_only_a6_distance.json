@@ -1,0 +1,7 @@
+{
+  "unit": "terra_only_a6_distance",
+  "source": "source/matching/game/terra_only_a6/distance.c",
+  "language": "c",
+  "functions": {"terra_only_a6_distance_800a1534": "0x800a1534"},
+  "descriptions": {"terra_only_a6_distance_800a1534": "Compare an indexed position with a point extracted from an inverted matrix."}
+}

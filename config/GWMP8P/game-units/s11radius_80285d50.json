@@ -1,0 +1,11 @@
+{
+  "unit": "s11radius_80285d50",
+  "source": "source/matching/game/generated/s11radius_80285d50.cpp",
+  "language": "cpp",
+  "functions": {
+    "s11_radius_test_80285d50": "0x80285d50"
+  },
+  "descriptions": {
+    "s11_radius_test_80285d50": "Appears to test a 2D point against a scaled radius around the owner position, with an override path and a global disable flag."
+  }
+}

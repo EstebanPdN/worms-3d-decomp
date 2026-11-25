@@ -1,0 +1,11 @@
+{
+  "unit": "d29c_script_set_data_80101b00",
+  "source": "source/matching/game/d29c/d29c_script_set_data_80101b00.cpp",
+  "language": "cpp",
+  "functions": {
+    "d29c_script_set_data_80101b00": "0x80101b00"
+  },
+  "descriptions": {
+    "d29c_script_set_data_80101b00": "Script binding that stores a Lua value into a named data entry"
+  }
+}

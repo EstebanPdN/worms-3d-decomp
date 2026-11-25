@@ -1,0 +1,14 @@
+{
+  "unit": "d26a_distance_effect_8003694c",
+  "source": "source/matching/game/d26a/d26a_distance_effect_8003694c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_distance_effect_8003694c": "0x8003694c"
+  },
+  "descriptions": {
+    "w3d_d26a_distance_effect_8003694c": "Reads properties +20, +24 and +28 through 0x80178df0, scaled by the two float arguments. Measures the distance from the current body (0x804aa8c8) to the given point. If it is inside the radius and the unsigned count is non-zero, it continues with 0x8003671c and 0x80036abc using the falloff strength."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

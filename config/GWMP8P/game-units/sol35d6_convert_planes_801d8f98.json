@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d6_convert_planes_801d8f98",
+  "source": "source/matching/game/sol35d6/sol35d6_convert_planes_801d8f98.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d6_convert_planes_801d8f98": "0x801d8f98"
+  },
+  "descriptions": {
+    "sol35d6_convert_planes_801d8f98": "Allocate native word scratch for at least 8192 pixels, invoke observed full and half-resolution conversions, then release and clear scratch. Names inferred."
+  }
+}

@@ -1,0 +1,46 @@
+diff -ru a/port/core/game/d30e/d30e_voice_start_801e5b80.cpp b/port/core/game/d30e/d30e_voice_start_801e5b80.cpp
+--- a/port/core/game/d30e/d30e_voice_start_801e5b80.cpp	2026-11-08 00:08:40
++++ b/port/core/game/d30e/d30e_voice_start_801e5b80.cpp	2026-11-08 00:08:40
+@@ -25,7 +25,12 @@
+ extern "C" Ptr32<void> w3d_aligned_allocate(int, int);
+ extern "C" void fn_801e59b4(Ptr32<void>, Ptr32<void>);
+ struct Voice {
+-  int id; unsigned short slot[2]; unsigned short :5; unsigned short active:1; unsigned short opened:1; unsigned short started:1; unsigned short count:8;
++  int id; unsigned short slot[2];
++  // v33: la palabra de +8 como en el original y en sus otros escritores (constructor 801e5a60: &= 0xff1fffff; parada
++  // 801e5dfc: 0x400000; ocupado 801e5fd4: 0x200000 y 0x800000): bits 21-23 y el contador en el byte alto. Antes era un
++  // campo de 16 bits (bits 5-7 del byte +8) que el constructor no limpiaba: con basura en la memoria nueva (la consola)
++  // el canal se creía cargando cabeceras, no abría nunca el archivo y la música no sonaba.
++  unsigned int :21; unsigned int active:1; unsigned int opened:1; unsigned int started:1; unsigned int count:8;
+   char q[4]; unsigned n; char r[28]; int x48; int y; int h; Ptr32<void> buf[2];
+ };
+ extern "C" int w3d_auto_801e64c0(Ptr32<Voice>, Ptr32<Stream>);
+diff -ru a/port/core/game/d30e/d30e_voice_update_801e6054.cpp b/port/core/game/d30e/d30e_voice_update_801e6054.cpp
+--- a/port/core/game/d30e/d30e_voice_update_801e6054.cpp	2026-11-08 00:08:40
++++ b/port/core/game/d30e/d30e_voice_update_801e6054.cpp	2026-11-08 00:08:40
+@@ -25,7 +25,12 @@
+ struct Fmt { int w[8]; };
+ struct Block { Ptr32<File> file; unsigned short kind; int size; unsigned len; Fmt fmt; };
+ struct Voice {
+-  int id; unsigned short slot[2]; unsigned short :5; unsigned short active:1; unsigned short opened:1; unsigned short started:1; unsigned short count:8;
++  int id; unsigned short slot[2];
++  // v33: la palabra de +8 como en el original y en sus otros escritores (constructor 801e5a60: &= 0xff1fffff; parada
++  // 801e5dfc: 0x400000; ocupado 801e5fd4: 0x200000 y 0x800000): bits 21-23 y el contador en el byte alto. Antes era un
++  // campo de 16 bits (bits 5-7 del byte +8) que el constructor no limpiaba: con basura en la memoria nueva (la consola)
++  // el canal se creía cargando cabeceras, no abría nunca el archivo y la música no sonaba.
++  unsigned int :21; unsigned int active:1; unsigned int opened:1; unsigned int started:1; unsigned int count:8;
+   char q[4]; unsigned n; char r[24]; int sample; int x48; int y; int h; Ptr32<Info> buf[2]; Block block[2]; Ptr32<Source> src;
+ };
+ extern "C" int w3d_stream_is_open(Ptr32<Mgr>, int);
+diff -ru a/port/core/game/tsonnet_c29/tsonnet_c29_slots_801e59b4.cpp b/port/core/game/tsonnet_c29/tsonnet_c29_slots_801e59b4.cpp
+--- a/port/core/game/tsonnet_c29/tsonnet_c29_slots_801e59b4.cpp	2026-11-08 00:08:40
++++ b/port/core/game/tsonnet_c29/tsonnet_c29_slots_801e59b4.cpp	2026-11-08 00:08:40
+@@ -36,7 +36,7 @@
+             }
+         }
+     }
+-    *(Ptr32<unsigned char>)&self->list.flags = 0;
++    self->list.flags &= 0x00ffffffu;   // v33: el contador es el byte alto de la palabra (stb +8 en la del original)
+     self->list.flags &= ~0x200000;
+ }
+ 

@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_delete_barracks_team_80298abc",
+  "source": "source/matching/game/d27f/d27f_delete_barracks_team_80298abc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_delete_barracks_team_80298abc": "0x80298abc"
+  },
+  "descriptions": {
+    "d27f_delete_barracks_team_80298abc": "Frontend team deletion: reads User.HumanTeam, finds the team in DATA.TeamBarracks, removes it through 0x801ef380 unless the check refuses it, then selects the default team name; an unknown name only copies the string for an empty debug note."
+  }
+}

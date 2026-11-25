@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c31_text_size_802b1880",
+  "source": "source/matching/game/tsonnet_c31/tsonnet_c31_text_size_802b1880.cpp",
+  "language": "cpp",
+  "functions": {
+    "tsonnet_c31_text_size_802b1880": "0x802b1880"
+  },
+  "descriptions": {
+    "tsonnet_c31_text_size_802b1880": "Returns the cached float at offset 172 of the owner; when it equals the zero constant, refills it from the float at offset 64 of the object at offset 12 and, if still equal to zero, from a named property lookup converted by two helpers, releasing the lookup reference through its fifth virtual slot; field meanings are inferred and the lookup string and constant are external originals."
+  }
+}

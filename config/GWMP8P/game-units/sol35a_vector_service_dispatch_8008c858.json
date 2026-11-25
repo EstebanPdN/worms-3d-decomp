@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a_vector_service_dispatch_8008c858",
+  "source": "source/matching/game/sol35a/sol35a_vector_service_dispatch_8008c858.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a_vector_service_dispatch_8008c858": "0x8008c858"
+  },
+  "descriptions": {
+    "sol35a_vector_service_dispatch_8008c858": "Create and retain an original vector service, refresh position from the packet vector at +8, inline-copy the returned offset vector at +20 to service+120, copy the byte at packet+32 to service+116 and word at packet+36 to service+132, register with receiver+20, then release. Natural const-reference temporary lifetimes and a class offset setter reproduce the original PPC32 ABI and reload order; referenced data ownership remains external."
+  }
+}

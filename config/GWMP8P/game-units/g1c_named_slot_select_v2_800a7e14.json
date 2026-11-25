@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_named_slot_select_v2_800a7e14",
+  "source": "source/matching/game/g1c/g1c_named_slot_select_v2_800a7e14.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_named_slot_select_v2_800a7e14": "0x800a7e14"
+  },
+  "descriptions": {
+    "g1c_named_slot_select_v2_800a7e14": "Select an external indexed slot by name. For null or the original empty-name string, set the32-bit word at byte offset132+slot*4 to -1 and invoke original800a7ee4; otherwise resolve through800a7da4 and update/invoke only for a nonnegative result. Receiver is an opaque incomplete type; indexed access converts the externally supplied allocation through void* to a byte pointer and then to the addressed int lvalue. No constructed local receiver, fixed array extent, one-element tail array, or external data ownership is asserted. Slot validity remains the original caller contract. The indexed accessor uses a complete four-byte local pointer view with no array member or invented bound; its base is formed from the original byte offset132."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "mx15ob_ranged_names_v2_8022ce9c",
+  "source": "source/matching/game/mx15ob/mx15ob_ranged_names_v2_8022ce9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "__17Mx15obRangedNamesUs": "0x8022ce9c"
+  },
+  "descriptions": {
+    "__17Mx15obRangedNamesUs": "Constructs a ranged name record: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the table 0x80419f88, copies the floats at +20, +24 from the original constants 0x803ba748, 0x803ba74c; copy-constructs the strings at +28, +36, +40, +48, +52, +56, +60, +64, +68, +72 from the shared empty string 0x804b06a0 (retaining each); sets the words at +32=0, +44=0, +76=1, in member order. Names and member meanings are inferred; offsets are observed."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d6_reset_vector_801e8128_v5",
+  "source": "source/matching/game/sol35d6/sol35d6_reset_vector_801e8128_v5.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d6_reset_vector_801e8128_v5": "0x801e8128"
+  },
+  "descriptions": {
+    "sol35d6_reset_vector_801e8128_v5": "Erase the observed global pointer-vector range, swap with an empty vector, and release old backing storage. SGI-shaped type and helper identities inferred."
+  }
+}

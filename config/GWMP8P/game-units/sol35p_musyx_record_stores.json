@@ -1,0 +1,13 @@
+{
+  "unit": "sol35p_musyx_record_stores",
+  "source": "source/matching/game/sol35p/sol35p_musyx_record_stores.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35p_musyx_store_word_80333ccc": "0x80333ccc",
+    "sol35p_musyx_store_byte_803340ec": "0x803340ec"
+  },
+  "descriptions": {
+    "sol35p_musyx_store_word_80333ccc": "Store a word at +28 in a record selected by a 244-byte stride from the pointer at 0x804b1744; preserve the selected address in r3. MusyX record identity, valid indices and semantic return type remain inferred.",
+    "sol35p_musyx_store_byte_803340ec": "Store the low input byte at +160 in a record selected by a 244-byte stride from the pointer at 0x804b1744; preserve the selected address in r3. MusyX record identity, valid indices and semantic return type remain inferred."
+  }
+}

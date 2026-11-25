@@ -1,0 +1,14 @@
+{
+  "unit": "d32e_purge_unused_801b37cc",
+  "source": "source/matching/game/d32e/d32e_purge_unused_801b37cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32e_purge_unused_801b37cc": "0x801b37cc"
+  },
+  "descriptions": {
+    "w3d_d32e_purge_unused_801b37cc": "Garbage collects a cache: optionally releases the lists first, then repeatedly scans the three object lists and removes every object whose reference count is one (probed with AddRef and Release), together with its parallel name where it has one, until a full pass removes nothing. Returns 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

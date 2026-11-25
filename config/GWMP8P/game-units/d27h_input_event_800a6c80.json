@@ -1,0 +1,15 @@
+{
+  "unit": "d27h_input_event_800a6c80",
+  "source": "source/matching/game/d27h/d27h_input_event_800a6c80.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27h_input_event_800a6c80": "0x800a6c80"
+  },
+  "descriptions": {
+    "d27h_input_event_800a6c80": "Raw input event: kind 0 stores the mouse scale values, adds the deltas to +100 and +104, multiplies by 320 and 240, sets the moved flag and flushes pending messages when the runtime allows; kinds 2 and 3 update items of kind 5 for the button and send range and entry-name messages (kind 2 also sends a press message first); kind 4 sends wheel direction messages and the wheel amount to items of kind 4."
+  }
+}

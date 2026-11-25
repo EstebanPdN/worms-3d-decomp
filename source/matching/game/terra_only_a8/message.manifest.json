@@ -1,0 +1,7 @@
+{
+  "unit": "terra_only_a8_message",
+  "source": "source/matching/game/terra_only_a8/message.cpp",
+  "language": "cpp",
+  "functions": {"terra_only_a8_message_8002165c": "0x8002165c"},
+  "descriptions": {"terra_only_a8_message_8002165c": "Accumulate a context value and post a type-four message carrying three components."}
+}

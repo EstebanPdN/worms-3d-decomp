@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_panel_children_destroy_802b40c8",
+  "source": "source/matching/game/cx16c/cx16c_panel_children_destroy_802b40c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_panel_children_destroy_802b40c8": "0x802b40c8"
+  },
+  "descriptions": {
+    "w3d_cx16c_panel_children_destroy_802b40c8": "Restore the two original dispatch tables, release six individual held interfaces and a reverse three-element interface array, destroy the embedded context with mode zero, then forward flags to the base destructor."
+  }
+}

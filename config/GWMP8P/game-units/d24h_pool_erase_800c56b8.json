@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_pool_erase_800c56b8",
+  "source": "source/matching/game/d24h/d24h_pool_erase_800c56b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_pool_erase_800c56b8": "0x800c56b8"
+  },
+  "descriptions": {
+    "w3d_d24h_pool_erase_800c56b8": "Pool handle release: finds the id in vector 0x8043e448 whose handle (id + generation 0x804a87d8[id] * 128) equals the argument, frees it (0x800c58a8), pushes the id on the free vector 0x8043e438 with the inlined STLport-shaped push_back, erases it from the active vector, increments the free count 0x803f5718 and returns 0; returns 0x80004005 when no handle matches."
+  }
+}

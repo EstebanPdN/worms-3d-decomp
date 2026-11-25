@@ -1,0 +1,11 @@
+{
+  "unit": "f7a_card_message_80288354",
+  "language": "cpp",
+  "source": "source/matching/game/f7a/f7a_card_message_80288354.cpp",
+  "functions": {
+    "w3d_f7a_card_message_80288354": "0x80288354"
+  },
+  "descriptions": {
+    "w3d_f7a_card_message_80288354": "Dispatch the observed card UI messages: initialize or release resources, check on boot, wrap selected-entry navigation, mark the selection flag and trigger save or load while idle. Field layout, message roles and types inferred."
+  }
+}

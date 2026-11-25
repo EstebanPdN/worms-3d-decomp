@@ -1,0 +1,11 @@
+{
+  "unit": "g3a_wrap_text_80289a34",
+  "source": "source/matching/game/g3a/g3a_wrap_text_80289a34.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g3a_wrap_text_80289a34": "0x80289a34"
+  },
+  "descriptions": {
+    "w3d_g3a_wrap_text_80289a34": "Loads the front-end font, sets its size and text, splits newline and width-limited words into external twenty-byte line records, accumulates character counts and widths, and centers the resulting line positions vertically. Releases font and temporary lookup handles with native scoped lifetimes. Font, card UI and line-record semantics are inferred from original operations."
+  }
+}

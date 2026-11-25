@@ -1,0 +1,11 @@
+{
+  "unit": "s5_disc_cleanup",
+  "source": "source/matching/game/s5_disc_cleanup.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_disc_screen_destroy_800c6f20": "0x800c6f20"
+  },
+  "descriptions": {
+    "w3d_disc_screen_destroy_800c6f20": "Clears eight disc-screen interfaces, releases its held resources and destroys the service base."
+  }
+}

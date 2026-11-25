@@ -1,0 +1,11 @@
+{
+  "unit": "s21_db_801eb240",
+  "source": "source/matching/game/s21/s21_db_801eb240.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_apply_unless_two_801eb240": "0x801eb240"
+  },
+  "descriptions": {
+    "w3d_s21_apply_unless_two_801eb240": "Appears to return one when the described object's kind is not two, else call virtual slot 8 of the described object."
+  }
+}

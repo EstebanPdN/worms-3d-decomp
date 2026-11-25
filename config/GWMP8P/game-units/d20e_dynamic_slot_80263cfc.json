@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_dynamic_slot_80263cfc",
+  "source": "source/matching/game/d20e/d20e_dynamic_slot_80263cfc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d20e_dynamic_slot_80263cfc": "0x80263cfc"
+  },
+  "descriptions": {
+    "w3d_d20e_dynamic_slot_80263cfc": "Releases slot (clears bit slot-15 of the mask 0x804abb64, returns -1) or, for slot -1, allocates the lowest free slot: looks up the named service (0x8015ae3c/0x80343808), acquires two entries with code 79 (0x80171ee0), sets the slot entry of the first pair table (0x80171fa0) to (value 0x803cb1fc, 0) and of the second (0x80171ff8) to (0.109375, scale/128), marks the bit and returns slot+15; destroys the by-value name string (0x8020c5c4, 0x80341588) on both paths."
+  }
+}

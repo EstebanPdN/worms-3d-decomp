@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_small_f.c
+w3d_s20_publish_current_801673f0|0x801673f0|Appears to publish this in a global, pass a copy of a field with another global to a helper and return zero.
+w3d_s20_dispatch_target_801a3b58|0x801a3b58|Appears to call the handler for the item's target from the table at offset 24 of this when a target exists, and returns zero.

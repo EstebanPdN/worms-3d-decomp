@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_paired_visibility_apply_802c68bc",
+  "source": "source/matching/game/cx7b/cx7b_paired_visibility_apply_802c68bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_paired_visibility_apply_802c68bc": "0x802c68bc"
+  },
+  "descriptions": {
+    "w3d_cx7b_paired_visibility_apply_802c68bc": "If enabled at +36, apply complementary states from +40 to the interfaces at +48 and +52 through vtable slot +88."
+  }
+}

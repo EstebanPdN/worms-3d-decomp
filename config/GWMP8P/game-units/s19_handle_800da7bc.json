@@ -1,0 +1,11 @@
+{
+  "unit": "s19_handle_800da7bc",
+  "source": "source/matching/game/s19/s19_handle_800da7bc.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_value_800da7bc": "0x800da7bc"
+  },
+  "descriptions": {
+    "s19_handle_value_800da7bc": "Appears to return the value at +0xa4 of the object for the handle at +0x1c, clearing the handle when the lookup fails, or minus one."
+  }
+}

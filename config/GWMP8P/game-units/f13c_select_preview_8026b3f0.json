@@ -1,0 +1,11 @@
+{
+  "unit": "f13c_select_preview_8026b3f0",
+  "source": "source/matching/game/f13c/f13c_select_preview_8026b3f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f13c_select_preview_8026b3f0": "0x8026b3f0"
+  },
+  "descriptions": {
+    "w3d_f13c_select_preview_8026b3f0": "Resolves the configured editor resource name into a held interface, uses the resource name when present, distinguishes the random-land and supported game-data type chain, preserves the observed temporary string copy/release on error, and switches editor strings, properties, controls and preview activation between the standard and game-data paths. Native scoped keys preserve lookup evaluation boundaries; string retain/release, virtual type checks and cleanup follow the original. Layouts and editor roles are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_a31_erase",
+  "source": "source/matching/game/tterra_a31/tterra_a31_erase.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_a31_erase_8008db88": "0x8008db88"
+  },
+  "descriptions": {
+    "tterra_a31_erase_8008db88": "Find an integer identifier in the observed vector and erase the first match."
+  }
+}

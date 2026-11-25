@@ -1,0 +1,11 @@
+{
+  "unit": "f5b_choose_motion_message_801518f8",
+  "source": "source/matching/game/f5b/f5b_choose_motion_message_801518f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_choose_motion_message_801518f8": "0x801518f8"
+  },
+  "descriptions": {
+    "f5b_choose_motion_message_801518f8": "Compute the position delta, preserve its absolute vertical component and clear the planar vector middle component; emit the observed construction/reset message when planar or vertical displacement is below the corresponding threshold, otherwise copy the planar delta to the output. Threshold roles and message semantics remain inferred. The ordered less-than tests preserve the original unordered-comparison behavior."
+  }
+}

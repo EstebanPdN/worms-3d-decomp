@@ -1,0 +1,11 @@
+{
+  "unit": "cc27a_grid_message_v2_8001cb94",
+  "source": "source/matching/game/cc27a/cc27a_grid_message_v2_8001cb94.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc27a_grid_message_v2_8001cb94": "0x8001cb94"
+  },
+  "descriptions": {
+    "cc27a_grid_message_v2_8001cb94": "Route grid reset/update/radius messages with original unsigned16 ID, native 0/100 bound initialization, float position copy and base failure result."
+  }
+}

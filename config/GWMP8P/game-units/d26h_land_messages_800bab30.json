@@ -1,0 +1,15 @@
+{
+  "unit": "d26h_land_messages_800bab30",
+  "source": "source/matching/game/d26h/d26h_land_messages_800bab30.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26h_land_messages_800bab30": "0x800bab30"
+  },
+  "descriptions": {
+    "d26h_land_messages_800bab30": "Handles land messages: 64 runs the base handler then starts the land (0x800bb114), returning 0x80004005 if the base failed; 66 shuts the land down. Cached ids dispatch to test cell, apply cell, indexed dispatch, map load (XOM extension selects 0x800bc5d0, otherwise 0x800bc350; with no name loads the held map 0x800bc7c4), collision, registry clear, name broadcast and grid rebuild, each posting or falling through to the base handler 0x8015fb34."
+  }
+}

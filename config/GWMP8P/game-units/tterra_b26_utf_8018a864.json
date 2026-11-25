@@ -1,0 +1,1 @@
+{"unit":"tterra_b26_utf_8018a864","source":"source/matching/game/tterra_b26_utf_8018a864.c","language":"c","functions":{"tterra_b26_utf_8018a864":"0x8018a864"},"descriptions":{"tterra_b26_utf_8018a864":"Allocates and converts a byte string into 16-bit units, releasing on decoder failure."}}

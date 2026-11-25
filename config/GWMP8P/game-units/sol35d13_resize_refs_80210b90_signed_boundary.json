@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d13_resize_refs_80210b90_signed_boundary",
+  "source": "source/matching/game/sol35d13/sol35d13_resize_refs_80210b90_signed_boundary.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_resize_refs_80210b90_signed_boundary": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d13_resize_refs_80210b90_signed_boundary": "Implement the unsigned I7 provider through a genuine inline signed requested-count resize boundary, as evidenced by signed capacity comparisons in resize/grow; unsigned logical loops and genuine array lifetimes retained."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

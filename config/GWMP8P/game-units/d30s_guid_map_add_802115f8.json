@@ -1,0 +1,16 @@
+{
+  "unit": "d30s_guid_map_add_802115f8",
+  "source": "source/matching/game/d30s/d30s_guid_map_add_802115f8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_guid_map_add_802115f8": "0x802115f8"
+  },
+  "descriptions": {
+    "d30s_guid_map_add_802115f8": "Stores a service under its 16-byte identifier (from 0x801fff3c) in the hash_map at +36 and returns 0."
+  }
+}

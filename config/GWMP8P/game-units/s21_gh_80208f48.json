@@ -1,0 +1,11 @@
+{
+  "unit": "s21_gh_80208f48",
+  "source": "source/matching/game/s21/s21_gh_80208f48.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_load_80208f48": "0x80208f48"
+  },
+  "descriptions": {
+    "w3d_s21_load_80208f48": "Appears to reset a memory stream and load it from a buffer: it reserves room through virtual slot 8, records the size and copies the data, or clears the fields when no data is given, then rewinds and returns zero."
+  }
+}

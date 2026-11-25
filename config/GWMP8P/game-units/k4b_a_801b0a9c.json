@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b0a9c",
+  "source": "source/matching/game/k4b/k4b_a_801b0a9c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_image_classify_alpha_801b0a9c": "0x801b0a9c"
+  },
+  "descriptions": {
+    "w3d_k4b_image_classify_alpha_801b0a9c": "Appears to scan RGBA pixel rows and return 1 for any partial alpha, 2 when some pixels are fully transparent, otherwise 0."
+  }
+}

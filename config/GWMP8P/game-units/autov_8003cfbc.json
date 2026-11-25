@@ -1,0 +1,13 @@
+{
+  "unit": "autov_8003cfbc",
+  "source": "source/matching/game/auto/autov_8003cfbc.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003cfbc": "0x8003cfbc",
+    "w3d_auto_800a1524": "0x800a1524"
+  },
+  "descriptions": {
+    "w3d_auto_8003cfbc": "Automatically decompiled (m2c, type-adjusted) and verified exact; behavior description pending review.",
+    "w3d_auto_800a1524": "Automatically decompiled (m2c, type-adjusted) and verified exact; behavior description pending review."
+  }
+}

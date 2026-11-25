@@ -1,0 +1,9 @@
+// Names, roles, types, qualifiers and layouts are inferred from original instructions.
+// Inferred native member cleanup; no constructor is defined for the owner.
+extern "C" void fn_8020c5c4(void*);extern "C" void fn_80341588(void*);
+extern void*vt_8041a118[];
+struct F10c_80228038_Text{char*text;~F10c_80228038_Text(){fn_8020c5c4(this);fn_80341588(this);}};
+struct F10c_80228038_Base_801ea138{void**table;char unknown[ 20-4 ];~F10c_80228038_Base_801ea138();};
+struct F10c_80228038_Owner:F10c_80228038_Base_801ea138{char unknown20[12];F10c_80228038_Text text32;F10c_80228038_Text text36;F10c_80228038_Text text40;F10c_80228038_Text text44;F10c_80228038_Text text48;F10c_80228038_Text text52;char unknown56[4];F10c_80228038_Text text60;F10c_80228038_Text text64;char unknown68[20];F10c_80228038_Text text88;char unknown92[4];F10c_80228038_Text text96;char unknown100[12];F10c_80228038_Text text112;F10c_80228038_Text text116;F10c_80228038_Text text120;F10c_80228038_Text text124;F10c_80228038_Text text128;F10c_80228038_Text text132;char unknown136[4];F10c_80228038_Text text140;F10c_80228038_Text text144;char unknown148[8];F10c_80228038_Text text156;F10c_80228038_Text text160;F10c_80228038_Text text164;F10c_80228038_Text text168;char unknown172[12];F10c_80228038_Text text184;F10c_80228038_Text text188;F10c_80228038_Text text192;F10c_80228038_Text text196;F10c_80228038_Text text200;F10c_80228038_Text text204;char unknown208[4];F10c_80228038_Text text212;F10c_80228038_Text text216;char unknown220[20];F10c_80228038_Text text240;F10c_80228038_Text text244;char unknown248[12];F10c_80228038_Text text260;F10c_80228038_Text text264;F10c_80228038_Text text268;F10c_80228038_Text text272;F10c_80228038_Text text276;F10c_80228038_Text text280;char unknown284[4];F10c_80228038_Text text288;F10c_80228038_Text text292;char unknown296[20];~F10c_80228038_Owner();static void operator delete(void*);};
+F10c_80228038_Owner::~F10c_80228038_Owner(){table=(void**)vt_8041a118;}
+

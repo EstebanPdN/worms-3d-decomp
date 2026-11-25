@@ -1,0 +1,12 @@
+{
+  "unit": "d25l_expand_text_properties_8029eb3c",
+  "source": "source/matching/game/d25l/d25l_expand_text_properties_8029eb3c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d25l_expand_text_properties_8029eb3c": "0x8029eb3c"
+  },
+  "descriptions": {
+    "d25l_expand_text_properties_8029eb3c": "Copies a string byte by byte through the global output pointer at 0x804b0e6c. A /* marker starts a name, read into a 128-byte buffer up to the closing */; if the property lookup 0x800fc1b0 finds that name, its text is expanded recursively. The last byte before the terminator is copied and the held property is released on return."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_resize_slots_801a2d68",
+  "source": "source/matching/game/d28e/d28e_resize_slots_801a2d68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_resize_slots_801a2d68": "0x801a2d68"
+  },
+  "descriptions": {
+    "w3d_d28e_resize_slots_801a2d68": "Resize two parallel pointer vectors at +48 and +72 to n entries, then fill the first with the value read from the global at 0x804ab74c through 0x801a2420. The vector is byte addressed with memcpy growth to the larger of need and 1.5 times capacity; a fill insert writes at the insert point without advancing."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_r_801e8f64",
+  "source": "source/matching/game/s21/s21_r_801e8f64.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_find_item_class_801e8f64": "0x801e8f64"
+  },
+  "descriptions": {
+    "w3d_s21_find_item_class_801e8f64": "Appears to scan a global list of registered objects for one whose 16-byte identifier equals the given one and return its packed field."
+  }
+}

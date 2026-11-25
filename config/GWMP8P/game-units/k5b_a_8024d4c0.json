@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_8024d4c0",
+  "source": "source/matching/game/k5b/k5b_a_8024d4c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_buffer_pair_construct_8024d4c0": "0x8024d4c0"
+  },
+  "descriptions": {
+    "w3d_k5b_buffer_pair_construct_8024d4c0": "Appears to construct an object over 0x8024bc08: vtable 0x8041b848, cleared counters, three retained shared default interfaces, then opens two 256-entry arrays."
+  }
+}

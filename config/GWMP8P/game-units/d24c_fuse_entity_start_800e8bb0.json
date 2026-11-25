@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_fuse_entity_start_800e8bb0",
+  "source": "source/matching/game/d24c/d24c_fuse_entity_start_800e8bb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_fuse_entity_start_800e8bb0": "0x800e8bb0"
+  },
+  "descriptions": {
+    "d24c_fuse_entity_start_800e8bb0": "Read FuseTime into +100; subscribe eleven handlers at +104..+144; fetch settings; store the engine tick at +164; release and clear held references +172 and +168; call virtual +44; copy the shared origin 0x8045e788 to +36; call 0x800e96a0 with +84; call 0x800e9204 with a copy of +84 and +36; copy +36 to +48; store settings +276 at +156; create the HUD entry from 0x80410a10 into +96, register it with the entity id through 0x80164514 and hide it; attach the payload when the settings' kind differs from the 0x8038b1f8 text; call 0x800e9e04; call 0x800e9528, 0x800e95e0 and 0x800e962c with the current tick."
+  }
+}

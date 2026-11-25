@@ -1,0 +1,39 @@
+--- a/port/core/sdk/sdk_core.cpp
++++ b/port/core/sdk/sdk_core.cpp
+@@ -13,6 +13,7 @@
+ #include <string.h>
+ #include <string>
+ #include <vector>
++unsigned w3d_retrace_count(void);
+ 
+ using namespace w3d;
+ typedef w3d_u32 GA;
+@@ -72,8 +73,18 @@
+ unsigned A802ff730(void) { return 1; }                 // OSGetSoundMode: estéreo
+ void A802ff7b0(unsigned) {}                            // OSSetSoundMode
+ unsigned A802ff854(void) { return 0; }                 // OSGetLanguage: inglés
+-long long A80300aa0(void) { w3d_dvd_poll(); return (long long)(plat::now_seconds() * 40500000.0); }  // OSGetTime
+-unsigned A80300ab8(void) { w3d_dvd_poll(); return (unsigned)(long long)(plat::now_seconds() * 40500000.0); }  // OSGetTick
++// W3D_FIXED_CLOCK: el reloj avanza 20 ms por retrazo, como en Dolphin, para repetir una partida igual.
++static double w3d_game_now(void) {
++    static const bool fixed = getenv("W3D_FIXED_CLOCK") != 0;
++    if (!fixed) return plat::now_seconds();
++    // Una espera activa dentro de un retrazo (arranque, tarjeta) tiene que terminar: tras muchas lecturas seguidas el reloj avanza por su cuenta.
++    static unsigned last, reads; static double extra;
++    unsigned r = ::w3d_retrace_count();
++    if (r != last) { last = r; reads = 0; } else if (++reads > 5000) extra += 1e-4;
++    return r * (1.0 / 50.0) + extra;
++}
++long long A80300aa0(void) { w3d_dvd_poll(); return (long long)(w3d_game_now() * 40500000.0); }  // OSGetTime
++unsigned A80300ab8(void) { w3d_dvd_poll(); return (unsigned)(long long)(w3d_game_now() * 40500000.0); }  // OSGetTick
+ void A8030cefc(void) {}                                // DBInit
+ }
+ 
+@@ -209,6 +220,7 @@
+ GA g_pre_retrace; unsigned g_retrace; double g_next_frame;
+ const double kFrame = 1.0 / 50.0;  // PAL.
+ }
++unsigned w3d_retrace_count(void) { return g_retrace; }
+ extern "C" {
+ GA A803031d0(GA cb) { GA o = g_pre_retrace; g_pre_retrace = cb; return o; }   // VISetPreRetraceCallback
+ void A803034b4(void) {}                                                    // VIInit

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ho_8020d82c",
+  "source": "source/matching/game/s21/s21_ho_8020d82c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_text_8020d82c": "0x8020d82c"
+  },
+  "descriptions": {
+    "w3d_s21_write_text_8020d82c": "Pass the text pointer and 16-bit length stored four bytes before it to stream virtual slot 6 with final argument zero, then return the writer; interface meanings inferred."
+  }
+}

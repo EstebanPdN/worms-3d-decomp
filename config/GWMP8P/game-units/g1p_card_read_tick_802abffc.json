@@ -1,0 +1,11 @@
+{
+  "unit": "g1p_card_read_tick_802abffc",
+  "source": "source/matching/game/g1p/g1p_card_read_tick_802abffc.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1p_card_read_tick_802abffc": "0x802abffc"
+  },
+  "descriptions": {
+    "g1p_card_read_tick_802abffc": "Reports observed card-read state, dispatches native read/open/status/transfer/CRC/close/delete helpers for192..198, and sets the start field before192. Error states-34/-36/-37/-38/-39 invoke their original message helpers and return the same code. States0..3 initialize state192 and return their prior value; unknown states invoke original assertion path/line163/message and return0. All external callback/receiver roles and names inferred; no local construction, invented array extent, owned data or artificial frame storage."
+  }
+}

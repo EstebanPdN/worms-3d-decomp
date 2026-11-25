@@ -1,0 +1,11 @@
+{
+  "unit": "k1a_popup_set_mode_8004eae4",
+  "source": "source/matching/game/k1a/k1a_popup_set_mode_8004eae4.c",
+  "language": "c",
+  "functions": {
+    "k1a_popup_set_mode_8004eae4": "0x8004eae4"
+  },
+  "descriptions": {
+    "k1a_popup_set_mode_8004eae4": "Appears to store a mode value at offset 84 and set a green HUD property colour when the value is negative."
+  }
+}

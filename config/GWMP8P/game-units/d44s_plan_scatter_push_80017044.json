@@ -1,0 +1,14 @@
+{
+  "unit": "d44s_plan_scatter_push_80017044",
+  "source": "source/matching/game/d44s/d44s_plan_scatter_push_80017044.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d44s_plan_scatter_push_80017044": "0x80017044"
+  },
+  "descriptions": {
+    "w3d_d44s_plan_scatter_push_80017044": "Sets the plan-request flag and, when a game is running and not busy, pushes five inactive path plans at random offsets from the centre, projected onto the grid."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

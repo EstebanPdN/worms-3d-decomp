@@ -1,0 +1,11 @@
+{
+  "unit": "k1d_a_8017e1c4",
+  "source": "source/matching/game/k1d/k1d_a_8017e1c4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k1d_hash_name_8017e1c4": "0x8017e1c4"
+  },
+  "descriptions": {
+    "w3d_k1d_hash_name_8017e1c4": "Appears to compute an ELF-style string hash and reduce it modulo a table size."
+  }
+}

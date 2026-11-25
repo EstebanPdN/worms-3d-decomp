@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_triangle_dispatch_8010b318",
+  "source": "source/matching/game/cc38a/cc38a_triangle_dispatch_8010b318.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_triangle_dispatch_8010b318": "0x8010b318"
+  },
+  "descriptions": {
+    "cc38a_triangle_dispatch_8010b318": "Prepare a triangle and dispatch its low/high layers according to all three vertex flag masks and packed lookup-table indices."
+  }
+}

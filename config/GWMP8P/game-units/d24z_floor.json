@@ -1,0 +1,16 @@
+{
+  "unit": "d24z_floor",
+  "source": "source/matching/game/d24z/d24z_floor.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24z_floor_802e75d0": "0x802e75d0"
+  },
+  "descriptions": {
+    "w3d_d24z_floor_802e75d0": "newlib fdlibm floor adapted from vendored s_floor.c; constants are original small-data externs and the carry step is written as a bool-derived mask, behaviourally the same as if(j<i1) i0+=1. Names inferred."
+  },
+  "include_dirs": [
+    "source/vendor/newlib-1.10.0/newlib/libc/include",
+    "source/vendor/newlib-1.10.0/newlib/libm/common",
+    "source/vendor/newlib-1.10.0/newlib/libm/math"
+  ]
+}

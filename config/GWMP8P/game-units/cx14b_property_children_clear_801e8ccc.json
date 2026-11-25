@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_property_children_clear_801e8ccc",
+  "source": "source/matching/game/cx14b/cx14b_property_children_clear_801e8ccc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_property_children_clear_801e8ccc": "0x801e8ccc"
+  },
+  "descriptions": {
+    "w3d_cx14b_property_children_clear_801e8ccc": "Delete all held child objects, preserve the original zero-length vector erase call and delete the cached string table."
+  }
+}

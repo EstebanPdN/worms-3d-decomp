@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_push_triple_80201160",
+  "source": "source/matching/game/d29s/d29s_push_triple_80201160.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d29s_push_triple_80201160": "0x80201160"
+  },
+  "descriptions": {
+    "d29s_push_triple_80201160": "Zeroes a three-word record, stores the three arguments in it, appends it to the vector at +44, returns 0."
+  }
+}

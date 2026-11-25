@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b1e48",
+  "source": "source/matching/game/k4b/k4b_a_801b1e48.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_scanner_has_missing_801b1e48": "0x801b1e48"
+  },
+  "descriptions": {
+    "w3d_k4b_scanner_has_missing_801b1e48": "Appears to prepare a lookup object, then return one if any item of the list is not found by its sixth-slot query, otherwise zero."
+  }
+}

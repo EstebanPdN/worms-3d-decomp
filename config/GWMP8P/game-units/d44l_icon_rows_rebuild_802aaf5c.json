@@ -1,0 +1,14 @@
+{
+  "unit": "d44l_icon_rows_rebuild_802aaf5c",
+  "source": "source/matching/game/d44l/d44l_icon_rows_rebuild_802aaf5c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d44l_icon_rows_rebuild_802aaf5c": "0x802aaf5c"
+  },
+  "descriptions": {
+    "d44l_icon_rows_rebuild_802aaf5c": "Rebuilds the five icons of each menu row from first to last: removes and releases the old ones, then loads, scales, places and attaches new ones chosen from the row's name-order table."
+  }
+}

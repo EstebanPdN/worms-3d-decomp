@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_team_list_properties_8022763c",
+  "source": "source/matching/game/d24e/d24e_team_list_properties_8022763c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_team_list_properties_8022763c": "0x8022763c"
+  },
+  "descriptions": {
+    "w3d_d24e_register_team_list_properties_8022763c": "Sets the TeamName string binding (0x801ed24c) to a temporary string made from \"TeamName\" (0x803b81a8, constructor 0x8020bb54); registers Worms (0x801efff0) with a guarded function-local static descriptor built once from a zero-filled temporary; registers Campaign (0x801eff8c) with a guarded function-local static descriptor built once from a zero-filled temporary; registers TutorialsDone (0x801ebf38); registers NewTeam (0x801ebf38); registers Skill (0x801ec0f8); registers Grave (0x801ec0f8); registers SWeapon (0x801ec0f8); sets the Flag string binding (0x801ed24c) to a temporary string made from \"0\" (0x803b81a4, constructor 0x8020bb54); sets the Speech string binding (0x801ed24c) to a temporary string made from \"Classic\" (0x803b819c, constructor 0x8020bb54); registers InGame (0x801eb674); sets the Player string binding (0x801ed24c) to a temporary string made from \"\" (0x803b8198, constructor 0x8020bb54); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

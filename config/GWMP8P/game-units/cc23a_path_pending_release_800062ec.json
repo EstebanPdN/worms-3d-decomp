@@ -1,0 +1,11 @@
+{
+  "unit": "cc23a_path_pending_release_800062ec",
+  "source": "source/matching/game/cc23a/cc23a_path_pending_release_800062ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_path_pending_release_800062ec": "0x800062ec"
+  },
+  "descriptions": {
+    "cc23a_path_pending_release_800062ec": "Read and remove each pending path allocation in reverse order, then destroy nonnull allocations. Load-before-end-store ordering and observed range offsets preserved; names inferred."
+  }
+}

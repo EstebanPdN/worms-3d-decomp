@@ -1,0 +1,11 @@
+{
+  "unit": "r27b_metric",
+  "source": "source/matching/game/r27b/r27b_metric.cpp",
+  "language": "cpp",
+  "functions": {
+    "r27b_metric_8018c8bc": "0x8018c8bc"
+  },
+  "descriptions": {
+    "r27b_metric_8018c8bc": "Sum metrics for encoded entries and scale by the object metric and table divisor."
+  }
+}

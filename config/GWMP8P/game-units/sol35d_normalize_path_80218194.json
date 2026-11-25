@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d_normalize_path_80218194",
+  "source": "source/matching/game/sol35d/sol35d_normalize_path_80218194.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d_normalize_path_80218194": "0x80218194"
+  },
+  "descriptions": {
+    "w3d_sol35d_normalize_path_80218194": "Replace each run of backslashes with one forward slash while retaining all other signed-byte input; preserve an empty input, assign the rebuilt native shared string with retain-before-release ownership, then destroy the temporary."
+  }
+}

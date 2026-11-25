@@ -1,0 +1,14 @@
+{
+  "unit": "d18d_blend_channels_80195ea8",
+  "source": "source/matching/game/d18d/d18d_blend_channels_80195ea8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d18d_blend_channels_80195ea8": "0x80195ea8"
+  },
+  "descriptions": {
+    "d18d_blend_channels_80195ea8": "Blend channel group `index`: for each entry take the stored channel value (0 when reset), and for entries with the sign bit set record the entry in the group cache, evaluate it with 0x801961a8 at `time` and store value * weight + base; other entries store the base. Owns its 0.0 float literal."
+  }
+}

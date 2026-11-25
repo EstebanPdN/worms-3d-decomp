@@ -1,0 +1,19 @@
+{
+  "unit": "k9b_thunks_b",
+  "source": "source/matching/game/k9b/k9b_thunks_b.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/k9b"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "__thunk_28_run_80270c00__6K9bTC0": "0x8035eabc",
+    "__thunk_28_run_8029eb04__6K9bTC1": "0x8035f234"
+  },
+  "descriptions": {
+    "__thunk_28_run_80270c00__6K9bTC0": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x80270c00.",
+    "__thunk_28_run_8029eb04__6K9bTC1": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x8029eb04."
+  }
+}

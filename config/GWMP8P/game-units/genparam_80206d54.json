@@ -1,0 +1,11 @@
+{
+  "unit": "genparam_80206d54",
+  "source": "source/matching/game/generated/genparam_80206d54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_singleton_create_80206d54": "0x80206d54"
+  },
+  "descriptions": {
+    "w3d_singleton_create_80206d54": "Creates the class singleton with its class allocator, registers its second base and counts it, publishes it by name through the manager, then installs the registry callback and runs setup."
+  }
+}

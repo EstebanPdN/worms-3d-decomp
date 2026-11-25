@@ -1,0 +1,13 @@
+{
+  "unit": "s1_donkey_motion",
+  "source": "source/matching/game/s1_donkey_motion.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_800610fc": "0x800610fc",
+    "w3d_fn_8006119c": "0x8006119c"
+  },
+  "descriptions": {
+    "w3d_fn_800610fc": "Writes an upward normal and the payload position when its handle is valid.",
+    "w3d_fn_8006119c": "Plays a positioned sound on a vertical velocity sign change and saves the current velocity."
+  }
+}

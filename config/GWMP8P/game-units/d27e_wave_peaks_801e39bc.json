@@ -1,0 +1,14 @@
+{
+  "unit": "d27e_wave_peaks_801e39bc",
+  "source": "source/matching/game/d27e/d27e_wave_peaks_801e39bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27e_wave_peaks_801e39bc": "0x801e39bc"
+  },
+  "descriptions": {
+    "w3d_d27e_wave_peaks_801e39bc": "Builds the peak overview of a 16-bit sound buffer: copies the samples, smooths them with a running average over rate/smooth samples, reduces them to count = samples/rate*pointRate points by taking the absolute peak of each block, applies a one-pole smear (gain 0.2, decay 0.8), normalises to the highest peak and stores each point as a byte 0..255. Returns E_FAIL without data. Field names are inferred from the arithmetic."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

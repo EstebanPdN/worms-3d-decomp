@@ -1,0 +1,11 @@
+{
+  "unit": "g6b_archive_directory_801f8838",
+  "source": "source/matching/game/g6b/g6b_archive_directory_801f8838.cpp",
+  "language": "cpp",
+  "functions": {
+    "g6b_archive_directory_801f8838": "0x801f8838"
+  },
+  "descriptions": {
+    "g6b_archive_directory_801f8838": "Scans a stream backwards for the ZIP end signature, reads and decodes its central directory, allocates64-byte entry records and normalizes backslashes in entry names. Complete24-byte end and48-byte central local records cover every observed helper write. Partial archive/stream objects remain external views. The information and byte-count output schemas are provisional pending concrete virtual-callee footprint confirmation. Not a readiness claim; names inferred."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "f2b_intersect_height_801211a0",
+  "source": "source/matching/game/f2b/f2b_intersect_height_801211a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2b_intersect_height_801211a0": "0x801211a0"
+  },
+  "descriptions": {
+    "f2b_intersect_height_801211a0": "Copy the supplied position, subtract the second point, and compare squared delta length with the original zero constant. If the service height yields a fraction strictly between the original bounds, replace the supplied position with the second point plus that fraction of the delta. Geometry and unused-copy purpose are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

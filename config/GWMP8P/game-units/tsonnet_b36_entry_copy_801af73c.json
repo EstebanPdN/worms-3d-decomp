@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_b36_entry_copy_801af73c",
+  "source": "source/matching/game/tsonnet_b36_entry_copy_801af73c.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b36_entry_copy_801af73c": "0x801af73c"
+  },
+  "descriptions": {
+    "tsonnet_b36_entry_copy_801af73c": "Copies a 16-byte record from a table of 24-byte entries (table pointer at +20) into the first output, stores the entry's object pointer through the second output after calling its virtual slot 3, and, when a string output is given, retains the entry's shared string (+20 in the entry) and releases the string previously held there. Always returns 0. Field meanings are inferred. A negative or out-of-range index and a null object have not been behaviorally tested."
+  }
+}

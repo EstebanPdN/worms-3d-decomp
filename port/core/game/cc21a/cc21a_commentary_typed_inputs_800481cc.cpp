@@ -1,0 +1,120 @@
+#include "w3d_ptr.h"
+#line 1 "cc21a_commentary_typed_inputs_800481cc.cpp"
+// Inferred commentary name cache initializer; three disjoint 12-byte vectors.
+// Double-width constructor inputs retain observed float storage and original scheduling.
+inline void *operator new(__SIZE_TYPE__, void *place) { return place; }
+typedef struct Cc21aSmallObject { int word0; int word1; } Cc21aSmallObject;
+struct Cc21aVec3 { float x, y, z; template <class A,class B,class C> Cc21aVec3(A a,B b,C c) { x = a; y = b; z = c; } };
+extern Cc21aVec3 cc21a_lbl_80427474;
+extern "C" const float cc21a_lbl_80376654[];
+extern "C" const float cc21a_lbl_8037665c[];
+extern Cc21aVec3 cc21a_lbl_8042745c;
+extern "C" const float cc21a_lbl_80376658[];
+extern Cc21aVec3 cc21a_lbl_80427468;
+extern "C" Cc21aSmallObject cc21a_lbl_804ad1e0;
+extern "C" char cc21a_lbl_803763c8[];
+extern "C" Ptr32<void> cc21a_fn_8015f518(Ptr32<void>, Ptr32<void>);
+extern "C" Cc21aSmallObject cc21a_lbl_804ad1e8;
+extern "C" char cc21a_lbl_803763e4[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad1f0;
+extern "C" char cc21a_lbl_80376400[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad1f8;
+extern "C" char cc21a_lbl_8037641c[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad200;
+extern "C" char cc21a_lbl_8037642c[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad208;
+extern "C" char cc21a_lbl_8037643c[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad210;
+extern "C" char cc21a_lbl_8037644c[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad218;
+extern "C" char cc21a_lbl_80376468[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad220;
+extern "C" char cc21a_lbl_8037647c[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad228;
+extern "C" char cc21a_lbl_80376490[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad230;
+extern "C" char cc21a_lbl_803764a8[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad238;
+extern "C" char cc21a_lbl_803764c4[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad240;
+extern "C" char cc21a_lbl_803764e0[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad248;
+extern "C" char cc21a_lbl_803764f8[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad250;
+extern "C" char cc21a_lbl_80376514[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad258;
+extern "C" char cc21a_lbl_80376530[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad260;
+extern "C" char cc21a_lbl_8037654c[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad268;
+extern "C" char cc21a_lbl_80376564[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad270;
+extern "C" char cc21a_lbl_80376574[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad278;
+extern "C" char cc21a_lbl_80376584[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad280;
+extern "C" char cc21a_lbl_803765a4[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad288;
+extern "C" char cc21a_lbl_803765b4[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad290;
+extern "C" char cc21a_lbl_803765c8[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad298;
+extern "C" char cc21a_lbl_803765e0[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad2a0;
+extern "C" char cc21a_lbl_803765fc[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad2a8;
+extern "C" char cc21a_lbl_80376610[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad2b0;
+extern "C" char cc21a_lbl_80376624[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad2b8;
+extern "C" char cc21a_lbl_80376638[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad2c0;
+extern "C" char cc21a_lbl_803759f4[];
+extern "C" Cc21aSmallObject cc21a_lbl_804ad2c8;
+extern "C" char cc21a_lbl_80376644[];
+extern "C" char cc21a_lbl_80360060[];
+extern "C" char cc21a_lbl_803e7a40[];
+extern "C" char cc21a_lbl_803617d0[];
+extern "C" Ptr32<void> cc21a_fn_80041c54(void);
+extern "C" Ptr32<void> cc21a_fn_80160038(Ptr32<void>, Ptr32<void>, Ptr32<void>, Ptr32<void>, int, int);
+extern "C" void cc21a_commentary_typed_inputs_800481cc(int initialize, int priority)
+{
+    if (priority == 0xffff && initialize) {
+new (&cc21a_lbl_8042745c) Cc21aVec3(float(float(cc21a_lbl_80376654[0])),float(cc21a_lbl_80376658[0]),cc21a_lbl_80376654[0]);
+new (&cc21a_lbl_80427468) Cc21aVec3(double(double(cc21a_lbl_80376654[0])),double(cc21a_lbl_8037665c[0]),cc21a_lbl_80376654[0]);
+new (&cc21a_lbl_80427474) Cc21aVec3(float(float(cc21a_lbl_80376654[0])),float(cc21a_lbl_8037665c[0]),cc21a_lbl_80376654[0]);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad1e0, cc21a_lbl_803763c8);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad1e8, cc21a_lbl_803763e4);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad1f0, cc21a_lbl_80376400);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad1f8, cc21a_lbl_8037641c);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad200, cc21a_lbl_8037642c);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad208, cc21a_lbl_8037643c);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad210, cc21a_lbl_8037644c);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad218, cc21a_lbl_80376468);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad220, cc21a_lbl_8037647c);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad228, cc21a_lbl_80376490);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad230, cc21a_lbl_803764a8);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad238, cc21a_lbl_803764c4);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad240, cc21a_lbl_803764e0);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad248, cc21a_lbl_803764f8);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad250, cc21a_lbl_80376514);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad258, cc21a_lbl_80376530);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad260, cc21a_lbl_8037654c);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad268, cc21a_lbl_80376564);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad270, cc21a_lbl_80376574);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad278, cc21a_lbl_80376584);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad280, cc21a_lbl_803765a4);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad288, cc21a_lbl_803765b4);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad290, cc21a_lbl_803765c8);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad298, cc21a_lbl_803765e0);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad2a0, cc21a_lbl_803765fc);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad2a8, cc21a_lbl_80376610);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad2b0, cc21a_lbl_80376624);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad2b8, cc21a_lbl_80376638);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad2c0, cc21a_lbl_803759f4);
+        cc21a_fn_8015f518(&cc21a_lbl_804ad2c8, cc21a_lbl_80376644);
+        cc21a_fn_80160038(cc21a_lbl_80360060, cc21a_lbl_803e7a40, cc21a_lbl_803617d0, (Ptr32<void>)cc21a_fn_80041c54, 9, 0);
+    }
+}
+
+

@@ -1,0 +1,11 @@
+{
+  "unit": "cc45a_video_buffers_8016f004_v5",
+  "source": "source/matching/game/cc45a/cc45a_video_buffers_8016f004_v5.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc45a_video_buffers_8016f004_v5": "0x8016f004"
+  },
+  "descriptions": {
+    "cc45a_video_buffers_8016f004_v5": "Release and clear both old framebuffers, allocate two aligned buffers from halfword render-mode dimensions, reset active index, configure video and display buffer, flush and wait, then set copy gamma and perform the optional second retrace wait."
+  }
+}

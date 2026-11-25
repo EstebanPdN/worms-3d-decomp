@@ -1,0 +1,11 @@
+{
+  "unit": "sol11a_airstrike_target_800ef680",
+  "source": "source/matching/game/sol11a/sol11a_airstrike_target_800ef680.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11a_airstrike_target_800ef680": "0x800ef680"
+  },
+  "descriptions": {
+    "sol11a_airstrike_target_800ef680": "Posts an initial cached message, checks Airstrike.HasTarget and Camera.CurrentMode, and when valid copies Airstrike.TargetPoint into Payload.Target and posts a second cached message."
+  }
+}

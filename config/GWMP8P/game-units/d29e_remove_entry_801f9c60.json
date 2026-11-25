@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_remove_entry_801f9c60",
+  "source": "source/matching/game/d29e/d29e_remove_entry_801f9c60.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_remove_entry_801f9c60": "0x801f9c60"
+  },
+  "descriptions": {
+    "w3d_d29e_remove_entry_801f9c60": "Removes from a vector of 24-byte entries the first one equal to a key and a 20-byte descriptor (the sibling of the append at 0x801f99d8; the descriptor's constructor writes defaults 3, 4, 0, 0 before the copy overwrites them), shifting later entries down. Returns 0, or 0x80004005 if not found. Names are inferred."
+  }
+}

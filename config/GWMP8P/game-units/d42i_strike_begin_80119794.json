@@ -1,0 +1,17 @@
+{
+  "unit": "d42i_strike_begin_80119794",
+  "source": "source/matching/game/d42i/d42i_strike_begin_80119794.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d42i"
+  ],
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d42i_strike_begin_80119794": "0x80119794"
+  },
+  "descriptions": {
+    "d42i_strike_begin_80119794": "Runs once per object: fetches the owner and its info, takes the target position from the Airstrike setting or the owner's spawn point, overrides it from the AI setting when an AI team is active, and either moves the owner and posts its messages, or posts the target messages and spawns the marker at the configured start position."
+  }
+}

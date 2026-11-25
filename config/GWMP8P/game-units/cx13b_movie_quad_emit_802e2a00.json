@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_movie_quad_emit_802e2a00",
+  "source": "source/matching/game/cx13b/cx13b_movie_quad_emit_802e2a00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_movie_quad_emit_802e2a00": "0x802e2a00"
+  },
+  "descriptions": {
+    "w3d_cx13b_movie_quad_emit_802e2a00": "Bind three movie textures and submit four signed-coordinate vertices to the original GX FIFO."
+  }
+}

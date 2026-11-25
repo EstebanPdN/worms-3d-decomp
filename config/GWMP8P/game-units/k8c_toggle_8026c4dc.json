@@ -1,0 +1,7 @@
+{
+  "unit": "k8c_toggle_8026c4dc",
+  "source": "source/matching/game/k8c/k8c_toggle_8026c4dc.c",
+  "language": "c",
+  "functions": {"w3d_k8c_widget_set_state_8026c4dc": "0x8026c4dc"},
+  "descriptions": {"w3d_k8c_widget_set_state_8026c4dc": "Appears to store a state value at +412, forward its negation as a flag to the target at +408 and, when the owner's name string is not empty, pass it to 0x802b1258."}
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s19_ctor_80015c6c",
+  "source": "source/matching/game/s19/s19_ctor_80015c6c.c",
+  "language": "c",
+  "functions": {
+    "s19_marker_ctor_80015c6c": "0x80015c6c"
+  },
+  "descriptions": {
+    "s19_marker_ctor_80015c6c": "Appears to construct a marker with unit scale, two ids, a resolved target vector, a copied position vector and a final value, returning the object."
+  }
+}

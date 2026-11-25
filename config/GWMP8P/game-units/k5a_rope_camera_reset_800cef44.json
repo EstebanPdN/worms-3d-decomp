@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_rope_camera_reset_800cef44",
+  "source": "source/matching/game/k5a/k5a_rope_camera_reset_800cef44.cpp",
+  "language": "cpp",
+  "functions": {"k5a_rope_camera_reset_800cef44": "0x800cef44"},
+  "descriptions": {"k5a_rope_camera_reset_800cef44": "Appears to leave rope mode when swinging, restore the default camera view when it is not the path view and post a message."}
+}

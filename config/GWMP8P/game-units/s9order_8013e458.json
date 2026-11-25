@@ -1,0 +1,11 @@
+{
+  "unit": "s9order_8013e458",
+  "source": "source/matching/game/auto/s9order_8013e458.c",
+  "language": "c",
+  "functions": {
+    "s9_auto_80189190": "0x80189190"
+  },
+  "descriptions": {
+    "s9_auto_80189190": "Runs cleanup, detaches the inner object, decrements the instance count, releases the held interface and clears its pointer; returns the base result."
+  }
+}

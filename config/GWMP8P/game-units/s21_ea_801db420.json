@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ea_801db420",
+  "source": "source/matching/game/s21/s21_ea_801db420.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_start_once_801db420": "0x801db420"
+  },
+  "descriptions": {
+    "w3d_s21_start_once_801db420": "Appears to start an object once: when not yet started it calls virtual slot 36, marks it started and returns the slot's result, otherwise it returns 0x80004005."
+  }
+}

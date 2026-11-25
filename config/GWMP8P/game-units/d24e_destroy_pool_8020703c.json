@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_destroy_pool_8020703c",
+  "source": "source/matching/game/d24e/d24e_destroy_pool_8020703c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_destroy_pool_8020703c": "0x8020703c"
+  },
+  "descriptions": {
+    "w3d_d24e_destroy_pool_8020703c": "Pool destructor: sets the vtable, unlinks the free list threaded through the item slots, destroys each live item through 0x802074c4, erases and frees the vector, clears the counter at 0x804b18f0, destroys the member at +20 and the base part at +4; bit 0 of flags deletes self."
+  }
+}

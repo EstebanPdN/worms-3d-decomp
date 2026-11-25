@@ -1,0 +1,11 @@
+{
+  "unit": "s1_text_events",
+  "source": "source/matching/game/s1_text_events.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80044994": "0x80044994"
+  },
+  "descriptions": {
+    "w3d_fn_80044994": "Formats a localized Lightside message with an actor name and queues it for display."
+  }
+}

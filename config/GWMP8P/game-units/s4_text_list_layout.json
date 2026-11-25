@@ -1,0 +1,13 @@
+{
+  "unit": "s4_text_list_layout",
+  "source": "source/matching/game/s4_text_list_layout.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_text_list_remove_box": "0x802a0664",
+    "w3d_s4_text_list_clear_labels": "0x802a0e20"
+  },
+  "descriptions": {
+    "w3d_s4_text_list_remove_box": "Removes the text-list box and reapplies the widget state.",
+    "w3d_s4_text_list_clear_labels": "Destroys selected sets of three label or scroll-image handles."
+  }
+}

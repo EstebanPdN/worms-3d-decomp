@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_log_int_802cc264",
+  "source": "source/matching/game/k8c/k8c_log_int_802cc264.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8c_log_int_802cc264": "0x802cc264"
+  },
+  "descriptions": {
+    "w3d_k8c_log_int_802cc264": "Appears to format an integer into a temporary string and log it with an extra argument."
+  }
+}

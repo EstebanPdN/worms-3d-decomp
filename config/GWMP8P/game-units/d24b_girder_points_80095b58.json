@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_girder_points_80095b58",
+  "source": "source/matching/game/d24b/d24b_girder_points_80095b58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_girder_points_80095b58": "0x80095b58"
+  },
+  "descriptions": {
+    "w3d_d24b_girder_points_80095b58": "Girder point transform: builds the matrix from the identity 0x8045e748 and the axis (+332, +312, 0) (0x801a3eb0), sets its translation from the position +208, scales it (0x801f781c, 2.0 when +688 is 1, else 1.0), transforms the eight corners and four markers at +348 into the table 144 bytes further on, and copies the position to +172."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

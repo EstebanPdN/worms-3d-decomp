@@ -1,0 +1,11 @@
+{
+  "unit": "f10b_idle_animation_8013caf8",
+  "source": "source/matching/game/f10b/f10b_idle_animation_8013caf8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f10b_idle_animation_8013caf8": "0x8013caf8"
+  },
+  "descriptions": {
+    "f10b_idle_animation_8013caf8": "Select idle animations for the observed weapon cases, including random grenade/header and pigeon alternatives; coordinate held meshes, hat attachment and effect callbacks, then mark idle setup complete. Partial field and virtual interface names are inferred; all external object storage remains caller-owned."
+  }
+}

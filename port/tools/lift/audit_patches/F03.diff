@@ -1,0 +1,21 @@
+--- a/port/core/game/s7/s7broad_8004b3c8.cpp
++++ b/port/core/game/s7/s7broad_8004b3c8.cpp
+@@ -21,16 +21,9 @@
+ typedef s64 M2C_UNK64;
+ M2C_UNK fn_8004B3F0(Ptr32<f32>, f32);
+ extern f32 lbl_80377108[];
+-void w3d_auto_8004b3c8(void)
++void w3d_auto_8004b3c8(Ptr32<f32> self)
+ {
+-  Ptr32<f32> new_var;
+-  f32 new_var3;
+-  Ptr32<f32> new_var4[2];
+-  new_var = new_var4[0];
+-  new_var4[1] = &(*lbl_80377108);
+-  new_var4[0] = new_var4[1];
+-  fn_8004B3F0(new_var, new_var3 = *lbl_80377108);
+-  return;
++  fn_8004B3F0(self, *lbl_80377108);
+ }
+ 
+ }

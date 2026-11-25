@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_8017d488",
+  "source": "source/matching/game/k5b/k5b_a_8017d488.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_key_binding_set_8017d488": "0x8017d488"
+  },
+  "descriptions": {
+    "w3d_k5b_key_binding_set_8017d488": "Appears to store a binding in the table at 0x804a8bd8 indexed by the key byte, then forwards to virtual slot 16 when the key is active and not suppressed."
+  }
+}

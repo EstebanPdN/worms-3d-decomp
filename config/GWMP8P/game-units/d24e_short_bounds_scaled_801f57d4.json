@@ -1,0 +1,14 @@
+{
+  "unit": "d24e_short_bounds_scaled_801f57d4",
+  "source": "source/matching/game/d24e/d24e_short_bounds_scaled_801f57d4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "w3d_d24e_short_bounds_scaled_801f57d4": "0x801f57d4"
+  },
+  "descriptions": {
+    "w3d_d24e_short_bounds_scaled_801f57d4": "Finds the per-axis minimum and maximum of count packed short vectors and writes six floats, min then max, each axis multiplied by scale[axis] and the constant 0x803b15c0."
+  }
+}

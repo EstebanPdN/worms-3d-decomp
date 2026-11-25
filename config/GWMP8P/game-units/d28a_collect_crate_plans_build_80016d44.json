@@ -1,0 +1,14 @@
+{
+  "unit": "d28a_collect_crate_plans_build_80016d44",
+  "source": "source/matching/game/d28a/d28a_collect_crate_plans_build_80016d44.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_collect_crate_plans_build_80016d44": "0x80016d44"
+  },
+  "descriptions": {
+    "w3d_d28a_collect_crate_plans_build_80016d44": "Pushes CollectCrate plans for reachable crates and for nodes of the configured route list."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

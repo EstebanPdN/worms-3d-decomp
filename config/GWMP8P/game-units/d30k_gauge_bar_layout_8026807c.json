@@ -1,0 +1,14 @@
+{
+  "unit": "d30k_gauge_bar_layout_8026807c",
+  "source": "source/matching/game/d30k/d30k_gauge_bar_layout_8026807c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d30k_gauge_bar_layout_8026807c": "0x8026807c"
+  },
+  "descriptions": {
+    "w3d_d30k_gauge_bar_layout_8026807c": "Moves the bar value toward its target and lays out the fill and edge nodes."
+  }
+}

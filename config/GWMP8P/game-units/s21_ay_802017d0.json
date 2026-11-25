@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ay_802017d0",
+  "source": "source/matching/game/s21/s21_ay_802017d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_select_string_802017d0": "0x802017d0"
+  },
+  "descriptions": {
+    "w3d_s21_select_string_802017d0": "Appears to replace a shared string pointer with an entry of a string table chosen by a helper, adjusting reference counts and releasing the old header at zero."
+  }
+}

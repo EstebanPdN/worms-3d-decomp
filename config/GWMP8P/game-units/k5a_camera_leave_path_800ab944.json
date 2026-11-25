@@ -1,0 +1,11 @@
+{
+  "unit": "k5a_camera_leave_path_800ab944",
+  "source": "source/matching/game/k5a/k5a_camera_leave_path_800ab944.cpp",
+  "language": "cpp",
+  "functions": {
+    "k5a_camera_leave_path_800ab944": "0x800ab944"
+  },
+  "descriptions": {
+    "k5a_camera_leave_path_800ab944": "Appears to switch the camera set to its default view when following and the current view is not the path view, then clear the flag and post a message."
+  }
+}

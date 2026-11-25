@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d_initialize_bindings_80239e44",
+  "source": "source/matching/game/sol35d/sol35d_initialize_bindings_80239e44.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d_initialize_bindings_80239e44": "0x80239e44"
+  },
+  "descriptions": {
+    "w3d_sol35d_initialize_bindings_80239e44": "Create four descriptor-backed bindings in original order, initialize the second binding string at +8 from native shared empty string 0x804b06a0 using a scoped retained copy and retain-before-release assignment, finalize the owner and return zero."
+  }
+}

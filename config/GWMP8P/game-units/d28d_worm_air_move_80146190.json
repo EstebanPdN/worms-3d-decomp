@@ -1,0 +1,17 @@
+{
+  "unit": "d28d_worm_air_move_80146190",
+  "source": "source/matching/game/d28d/d28d_worm_air_move_80146190.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28d_worm_air_move_80146190": "0x80146190"
+  },
+  "descriptions": {
+    "d28d_worm_air_move_80146190": "Airborne worm step: hands state 19 to 0x80146aa4, skips an idle worm, tries the two landing tests, sums escape directions from the collision sweep at the position raised by 10, traces 20 time units with 0x801412a4, then either integrates position and velocity or takes the surface normal, averaged with the swept directions, and refreshes slope state with 0x80149348."
+  }
+}

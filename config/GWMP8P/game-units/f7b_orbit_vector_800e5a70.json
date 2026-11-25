@@ -1,0 +1,14 @@
+{
+  "unit": "f7b_orbit_vector_800e5a70",
+  "source": "source/matching/game/f7b/f7b_orbit_vector_800e5a70.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7b_orbit_vector_800e5a70": "0x800e5a70"
+  },
+  "descriptions": {
+    "f7b_orbit_vector_800e5a70": "Sample an angle and construct its cosine/zero/sine direction. Sample scale and mode; mode zero writes one scale, mode one writes the twice-scaled vector, and other modes retain the destination. Eight stack bytes reserved by two volatile float locals have unknown original purpose. All type names, roles and layouts inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

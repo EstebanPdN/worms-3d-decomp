@@ -1,0 +1,11 @@
+{
+  "unit": "s21_am_801fe7b4",
+  "source": "source/matching/game/s21/s21_am_801fe7b4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_u8_to_text_801fe7b4": "0x801fe7b4"
+  },
+  "descriptions": {
+    "w3d_s21_u8_to_text_801fe7b4": "Appears to format an unsigned byte read through a pointer into the output string with a global format string, returning zero."
+  }
+}

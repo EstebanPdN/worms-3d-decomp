@@ -1,0 +1,23 @@
+{
+  "unit": "autof_800e4f38",
+  "source": "source/matching/game/auto/autof_800e4f38.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800e4f38": "0x800e4f38",
+    "w3d_auto_800e50cc": "0x800e50cc",
+    "w3d_auto_800e6390": "0x800e6390",
+    "w3d_auto_800e6738": "0x800e6738",
+    "w3d_auto_800e783c": "0x800e783c",
+    "w3d_auto_800e78d4": "0x800e78d4",
+    "w3d_auto_800eabb0": "0x800eabb0"
+  },
+  "descriptions": {
+    "w3d_auto_800e4f38": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800e50cc": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800e6390": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800e6738": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800e783c": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800e78d4": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800eabb0": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review."
+  }
+}

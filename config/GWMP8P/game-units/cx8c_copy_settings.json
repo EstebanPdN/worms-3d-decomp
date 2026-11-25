@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_copy_settings",
+  "source": "source/matching/game/cx8c/cx8c_copy_settings.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_copy_settings_80349a48": "0x80349a48"
+  },
+  "descriptions": {
+    "w3d_cx8c_copy_settings_80349a48": "Copies the observed 32-byte settings value into offset +116 and returns zero."
+  }
+}

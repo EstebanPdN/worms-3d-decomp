@@ -1,0 +1,14 @@
+{
+  "unit": "d25j_update_one_target_8017a07c",
+  "source": "source/matching/game/d25j/d25j_update_one_target_8017a07c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25j_update_one_target_8017a07c": "0x8017a07c"
+  },
+  "descriptions": {
+    "d25j_update_one_target_8017a07c": "Builds the frame for target i from rotation, scale and translation under the flags byte, combines it with the local frame when the node has one, gives target i that frame or its source object's frame, and notifies it through virtual +76 with the value of virtual +100."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_bomber_ground_velocity_8002f2d8",
+  "source": "source/matching/game/k5a/k5a_bomber_ground_velocity_8002f2d8.cpp",
+  "language": "cpp",
+  "functions": {"k5a_bomber_ground_velocity_8002f2d8": "0x8002f2d8"},
+  "descriptions": {"k5a_bomber_ground_velocity_8002f2d8": "Appears to scale a direction vector by the Bomber.GroundSpeed property and return it by value."}
+}

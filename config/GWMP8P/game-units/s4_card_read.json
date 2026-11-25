@@ -1,0 +1,31 @@
+{
+  "unit": "s4_card_read",
+  "source": "source/matching/game/s4_card_read.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_read_open": "0x802ac224",
+    "w3d_s4_card_read_status": "0x802ac2ec",
+    "w3d_s4_card_read_transfer": "0x802ac37c",
+    "w3d_s4_card_read_crc": "0x802ac438",
+    "w3d_s4_card_read_close": "0x802ac4bc",
+    "w3d_s4_card_read_delete": "0x802ac564",
+    "w3d_s4_card_read_corrupt_message": "0x802ac600",
+    "w3d_s4_card_read_missing_message": "0x802ac668",
+    "w3d_s4_card_read_done_message": "0x802ac6ec",
+    "w3d_s4_card_read_failed_message": "0x802ac74c",
+    "w3d_s4_card_read_ready_message": "0x802ac7b0"
+  },
+  "descriptions": {
+    "w3d_s4_card_read_open": "Opens the requested card file and maps its result to the next read state.",
+    "w3d_s4_card_read_status": "Reads card-file status and advances or retries the read state.",
+    "w3d_s4_card_read_transfer": "Reads the file buffer and invalidates its cache on success.",
+    "w3d_s4_card_read_crc": "Validates the read buffer size and checksum before selecting the next state.",
+    "w3d_s4_card_read_close": "Closes the card file and marks the file record complete on success.",
+    "w3d_s4_card_read_delete": "Deletes the selected card file and chooses the resulting read state.",
+    "w3d_s4_card_read_corrupt_message": "Handles the corrupt-file prompt and optional deletion request.",
+    "w3d_s4_card_read_missing_message": "Handles the missing-file prompt and restart request.",
+    "w3d_s4_card_read_done_message": "Handles acknowledgment of the completed read prompt.",
+    "w3d_s4_card_read_failed_message": "Handles acknowledgment of the failed read prompt.",
+    "w3d_s4_card_read_ready_message": "Handles confirmation to begin opening the card file."
+  }
+}

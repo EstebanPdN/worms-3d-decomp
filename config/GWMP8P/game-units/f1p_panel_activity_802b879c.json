@@ -1,0 +1,14 @@
+{
+  "unit": "f1p_panel_activity_802b879c",
+  "source": "source/matching/game/f1p/f1p_panel_activity_802b879c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_panel_activity_802b879c": "0x802b879c"
+  },
+  "descriptions": {
+    "w3d_panel_activity_802b879c": "Computes desired activity from a related nonempty collection, doubled scaled width versus +0x1a0, and carrier +0xb4 or an observed minimum-clamped ratio versus collection count. Starts an inactive owner when desired is one, rereads activity +0x120 after that callback, and stops it when no longer desired. Exact float/unsigned conversion, source constants and callback order; names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

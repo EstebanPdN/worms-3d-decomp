@@ -1,0 +1,17 @@
+{
+  "unit": "d26d_worm_look_blend_801381f0",
+  "source": "source/matching/game/d26d/d26d_worm_look_blend_801381f0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26d_worm_look_blend_801381f0": "0x801381f0"
+  },
+  "descriptions": {
+    "d26d_worm_look_blend_801381f0": "Map the angle between worm forward and record direction to a 0..1 look blend."
+  }
+}

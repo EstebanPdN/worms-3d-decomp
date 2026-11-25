@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_camera_side_points_800f1a70",
+  "source": "source/matching/game/d27c/d27c_camera_side_points_800f1a70.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_camera_side_points_800f1a70": "0x800f1a70"
+  },
+  "descriptions": {
+    "d27c_camera_side_points_800f1a70": "Update two child objects with points five units left and right of the camera position."
+  }
+}

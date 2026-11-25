@@ -1,0 +1,11 @@
+{
+  "unit": "f4b_normalized_snapshot_80067770",
+  "source": "source/matching/game/f4b/f4b_normalized_snapshot_80067770.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4b_normalized_snapshot_80067770": "0x80067770"
+  },
+  "descriptions": {
+    "f4b_normalized_snapshot_80067770": "Allocate and post an eight-byte message with the cached ID and original payload address. Invoke the refresh helper when the original readiness word is zero, snapshot the global vector, and return its normalized form when squared length exceeds zero; otherwise return the original zero/one/zero fallback. Message and vector roles are inferred."
+  }
+}

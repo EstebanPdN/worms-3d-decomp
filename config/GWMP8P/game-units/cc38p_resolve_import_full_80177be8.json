@@ -1,0 +1,11 @@
+{
+  "unit": "cc38p_resolve_import_full_80177be8",
+  "source": "source/matching/game/cc38p/cc38p_resolve_import_full_80177be8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38p_resolve_import_full_80177be8": "0x80177be8"
+  },
+  "descriptions": {
+    "cc38p_resolve_import_full_80177be8": "Resolve an owned interface, require the observed runtime parent-chain type, retain a second scoped reference, and import it with the complete 32-bit group argument; preserve query errors and release both scoped references."
+  }
+}

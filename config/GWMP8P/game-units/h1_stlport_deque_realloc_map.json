@@ -1,0 +1,13 @@
+{
+  "unit": "h1_stlport_deque_realloc_map",
+  "source": "source/matching/game/h1/h1_stlport_deque_realloc_map.cpp",
+  "language": "cpp",
+  "functions": {
+    "reallocate_map__12W3dPtrDequeAUib": "0x803536d0",
+    "reallocate_map__12W3dPtrDequeBUib": "0x8035ef1c"
+  },
+  "descriptions": {
+    "reallocate_map__12W3dPtrDequeAUib": "STLport deque::_M_reallocate_map: recentres or grows the node map to make room for nodes_to_add nodes at the front or back, then resets start and finish.",
+    "reallocate_map__12W3dPtrDequeBUib": "STLport deque::_M_reallocate_map: recentres or grows the node map to make room for nodes_to_add nodes at the front or back, then resets start and finish."
+  }
+}

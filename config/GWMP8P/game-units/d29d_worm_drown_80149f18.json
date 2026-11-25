@@ -1,0 +1,18 @@
+{
+  "unit": "d29d_worm_drown_80149f18",
+  "source": "source/matching/game/d29d/d29d_worm_drown_80149f18.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29d"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ],
+  "functions": {
+    "d29d_worm_drown_80149f18": "0x80149f18"
+  },
+  "descriptions": {
+    "d29d_worm_drown_80149f18": "Worm drowning check. Returns if already drowning or above the water level minus the drown height. Otherwise clears hit points, flags death, posts a message, clears links; a shallow fall sets state 27 and zero velocity, deep water sets state 19, a timer and a splash at the water surface, with log lines. Damps the velocity. If the active index is valid, either posts a message for the current turn object, or for the same team picks the nearest living worm in range and posts it as the next."
+  }
+}

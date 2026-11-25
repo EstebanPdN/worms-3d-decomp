@@ -1,0 +1,11 @@
+{
+  "unit": "d10d_rgb5551_tile_801d814c",
+  "source": "source/matching/game/d10d/d10d_rgb5551_tile_801d814c_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10d_rgb5551_tile_801d814c": "0x801d814c"
+  },
+  "descriptions": {
+    "d10d_rgb5551_tile_801d814c": "Convert the 4x4 block at (x, y) of an image of 16-bit 1-5-5-5 pixels stored in 32-bit slots (first halfword; bits 0-4, 5-9 and 10-14 widened by << 3 into r, g, b; bit 15 into alpha 255 or 0) into one big-endian RGB5A3 tile with 8-byte rows. Edge blocks are clipped (unsigned extents, at most 4); alpha above 223 gives an opaque texel (1, r5, g5, b5), otherwise a translucent one (0, a3, r4, g4, b4)."
+  }
+}

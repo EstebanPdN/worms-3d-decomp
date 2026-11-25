@@ -1,0 +1,11 @@
+{
+  "unit": "cc39c_worm_moving_message_800376ac",
+  "source": "source/matching/game/cc39c/cc39c_worm_moving_message_800376ac_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39c_worm_moving_message_800376ac": "0x800376ac"
+  },
+  "descriptions": {
+    "cc39c_worm_moving_message_800376ac": "For the first cached message id, compare the message text (temporary engine string) with the original \"WormMoving\" literal and, outside the optional context and while the handle state's word at +168 is set, start the original \"Default\" entry with 0.0f; for the second id, read the integer property \"Payload.Deleted.Id\" and clear the global float at +820 when it equals the owner's id at +208."
+  }
+}

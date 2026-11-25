@@ -1,0 +1,14 @@
+{
+  "unit": "d25h_jet_sound_800aec68",
+  "source": "source/matching/game/d25h/d25h_jet_sound_800aec68.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d25h_jet_sound_800aec68": "0x800aec68"
+  },
+  "descriptions": {
+    "w3d_d25h_jet_sound_800aec68": "Jet sound update: when the speed is positive, starts the looping sound if idle, sets its position, computes a pitch ratio from speed over the clip value at +112 clamped to 0..1, sets the ratio and raises the frequency parameter by that ratio; otherwise stops the sound if it is playing."
+  }
+}

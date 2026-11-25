@@ -1,0 +1,14 @@
+{
+  "unit": "cc24a_planner_relative_health_score_8001210c",
+  "source": "source/matching/game/cc24a/cc24a_planner_relative_health_score_8001210c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_relative_health_score_8001210c": "0x8001210c"
+  },
+  "descriptions": {
+    "cc24a_planner_relative_health_score_8001210c": "Average health across entries with valid owners, convert toward zero and sum weighted deviations; retain original unguarded division and signed-width arithmetic."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

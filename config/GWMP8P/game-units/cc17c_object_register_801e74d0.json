@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_object_register_801e74d0",
+  "source": "source/matching/game/cc17c/cc17c_object_register_801e74d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_object_register_801e74d0": "0x801e74d0"
+  },
+  "descriptions": {
+    "w3d_cc17c_object_register_801e74d0": "Registers an object in the global object table: reuses the first null slot or appends it, stores the slot number in the object's 10-bit index field at +32, notifies 0x801ffea8 and, when the global flag 0x804ab894 is set, returns the result of 0x801e7e24 for it."
+  }
+}

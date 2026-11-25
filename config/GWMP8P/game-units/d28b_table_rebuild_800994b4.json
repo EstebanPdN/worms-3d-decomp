@@ -1,0 +1,14 @@
+{
+  "unit": "d28b_table_rebuild_800994b4",
+  "source": "source/matching/game/d28b/d28b_table_rebuild_800994b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28b_table_rebuild_800994b4": "0x800994b4"
+  },
+  "descriptions": {
+    "w3d_d28b_table_rebuild_800994b4": "Table list rebuild: zeroes and empties the item vector at +64, resizes it to the service entry count (0x8015ae74), fills it through the iterator 0x8015aea8, dropping entries whose count is zero when +56 is set, whose byte differs from +60 unless -1, or whose kind differs from +76 unless 7, then resizes it to the kept count."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_owner_release_8015c540",
+  "source": "source/matching/game/cc20a/cc20a_owner_release_8015c540.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_owner_release_8015c540": "0x8015c540"
+  },
+  "descriptions": {
+    "w3d_cc20a_owner_release_8015c540": "Installs the owner vtable, releases and clears three held interfaces, releases five member interfaces in observed reverse order, and destroys base resources with zero flags."
+  }
+}

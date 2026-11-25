@@ -1,0 +1,9 @@
+--- a/port/core/game/d42g/d42g_palette_cells_fill_8007bb54.cpp
++++ b/port/core/game/d42g/d42g_palette_cells_fill_8007bb54.cpp
+@@ -7,5 +7,5 @@
+ extern "C" Ptr32<void> memset(Ptr32<void>, int, unsigned);
+ // Tile palette: one byte value and the cell index it paints.
+-struct Tile { unsigned char value; unsigned char pad; unsigned short index; };
++struct Tile { unsigned short index; unsigned char pad; unsigned char value; }; /* palabra de 32 bits: PPC value +0, index +2 */
+ struct Palette { char u0[24]; unsigned count; char u28[4]; Tile tiles[1]; };
+ struct Source { char u0[76]; Ptr32<Palette> palette; };

@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_ceilf",
+  "source": "source/matching/game/cx9c/cx9c_ceilf.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_ceilf_802e85fc": "0x802e85fc"
+  },
+  "descriptions": {
+    "w3d_cx9c_ceilf_802e85fc": "Inferred IEEE float ceiling with signed-zero and inexact handling."
+  }
+}

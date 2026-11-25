@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_hash_service_lookup_802117ec",
+  "source": "source/matching/game/cx10b/cx10b_hash_service_lookup_802117ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_hash_service_lookup_802117ec": "0x802117ec"
+  },
+  "descriptions": {
+    "w3d_cx10b_hash_service_lookup_802117ec": "Look up the observed sixteen-byte key in a chained bucket table and return its stored value."
+  }
+}

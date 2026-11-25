@@ -1,0 +1,11 @@
+{
+  "unit": "gen7_802c6dc8",
+  "source": "source/matching/game/generated/gen7_802c6dc8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_msg_handler_802c6dc8": "0x802c6dc8"
+  },
+  "descriptions": {
+    "w3d_msg_handler_802c6dc8": "Message handler: on message 64 runs the base handler then a creation hook (0x80004005 on failure); on 66 runs a teardown hook; everything goes to the base handler."
+  }
+}

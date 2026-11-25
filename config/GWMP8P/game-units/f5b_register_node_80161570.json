@@ -1,0 +1,11 @@
+{
+  "unit": "f5b_register_node_80161570",
+  "source": "source/matching/game/f5b/f5b_register_node_80161570.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_register_node_80161570": "0x80161570"
+  },
+  "descriptions": {
+    "f5b_register_node_80161570": "Remove the observed node from its existing registry via the witnessed helper, append a separate local copy of its pointer to the global dynamic array using the observed byte-based growth and copy limits, then set state1, identifier-1, kind0 and value0. Array semantics, names and layout roles remain inferred."
+  }
+}

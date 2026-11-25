@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d_find_named_tail_8021eb70",
+  "source": "source/matching/game/sol35d/sol35d_find_named_tail_8021eb70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d_find_named_tail_8021eb70": "0x8021eb70"
+  },
+  "descriptions": {
+    "w3d_sol35d_find_named_tail_8021eb70": "Find the first interface entry whose resolved object name compares equal to the requested C string; obtain the name through a by-value shared-string getter, retain its 16-bit reference count, compare, finish and release the temporary before returning the entry. Observed GC32 owner/table/object offsets are +20, +24/+32, and +52. Entry storage is addressed past the 32-byte native header without declaring a one-element tail array."
+  }
+}

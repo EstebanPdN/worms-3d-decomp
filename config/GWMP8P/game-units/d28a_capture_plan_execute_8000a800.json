@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_capture_plan_execute_8000a800",
+  "source": "source/matching/game/d28a/d28a_capture_plan_execute_8000a800.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_capture_plan_execute_8000a800": "0x8000a800"
+  },
+  "descriptions": {
+    "w3d_d28a_capture_plan_execute_8000a800": "Runs the capture plan's trace and query."
+  }
+}

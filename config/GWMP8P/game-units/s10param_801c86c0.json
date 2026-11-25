@@ -1,0 +1,21 @@
+{
+  "unit": "s10param_801c86c0",
+  "source": "source/matching/game/generated/s10param_801c86c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_copy_record_801c86c0": "0x801c86c0",
+    "w3d_s10_copy_record_801c882c": "0x801c882c",
+    "w3d_s10_copy_record_801c88a0": "0x801c88a0",
+    "w3d_s10_copy_record_801c8a74": "0x801c8a74",
+    "w3d_s10_copy_record_801c8bf0": "0x801c8bf0",
+    "w3d_s10_copy_record_801d16f8": "0x801d16f8"
+  },
+  "descriptions": {
+    "w3d_s10_copy_record_801c86c0": "Copies a 64-byte record into the observed inline record field using a typed structure assignment.",
+    "w3d_s10_copy_record_801c882c": "Copies a 64-byte record into the observed inline record field using a typed structure assignment.",
+    "w3d_s10_copy_record_801c88a0": "Copies a 64-byte record into the observed inline record field using a typed structure assignment.",
+    "w3d_s10_copy_record_801c8a74": "Copies a 64-byte record into the observed inline record field using a typed structure assignment.",
+    "w3d_s10_copy_record_801c8bf0": "Copies a 64-byte record into the observed inline record field using a typed structure assignment.",
+    "w3d_s10_copy_record_801d16f8": "Copies a 64-byte record into the observed inline record field using a typed structure assignment."
+  }
+}

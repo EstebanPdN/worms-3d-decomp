@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80016d0c",
+  "source": "source/matching/game/s7/s7hand_80016d0c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80016d0c": "0x80016d0c"
+  },
+  "descriptions": {
+    "w3d_auto_80016d0c": "Adds the global context float at +0xdc to the object float at +4, then calls the object callback at 0x80016bec."
+  }
+}

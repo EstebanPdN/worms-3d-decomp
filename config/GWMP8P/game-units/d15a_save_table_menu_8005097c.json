@@ -1,0 +1,11 @@
+{
+  "unit": "d15a_save_table_menu_8005097c",
+  "source": "source/matching/game/d15a/d15a_save_table_menu_8005097c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d15a_save_table_menu_8005097c": "0x8005097c"
+  },
+  "descriptions": {
+    "w3d_d15a_save_table_menu_8005097c": "Builds the save-data table menu text: introduction, blank separator, fourteen formatted key/label bank lines, a positioned footer prompt; writes it to the owner's sink and sets the menu state to 5, releasing the temporary strings."
+  }
+}

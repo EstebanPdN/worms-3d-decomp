@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_change_menu_8028e7e0",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_change_menu_8028e7e0": "0x8028e7e0"
+  },
+  "descriptions": {
+    "w3d_f6a_change_menu_8028e7e0": "Increment menu depth and item count, notify the app in mode seven, post the nonempty requested menu name through a temporary cache, and set the observed state field. Cache and semantic layouts inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_change_menu_8028e7e0.cpp"
+}

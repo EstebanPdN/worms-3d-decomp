@@ -1,0 +1,11 @@
+{
+  "unit": "s11luamath_802dfda4",
+  "source": "source/matching/game/generated/s11luamath_802dfda4.cpp",
+  "language": "cpp",
+  "functions": {
+    "s11_lua_ldexp_802dfda4": "0x802dfda4"
+  },
+  "descriptions": {
+    "s11_lua_ldexp_802dfda4": "Lua ldexp wrapper: checks a numeric mantissa and integer exponent, pushes the float-rounded scaled result, and returns one result. An empty RAII local preserves the observed frame slot."
+  }
+}

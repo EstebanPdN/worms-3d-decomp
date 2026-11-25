@@ -1,0 +1,12 @@
+{
+  "unit": "d18e_bounds_property_reset_801c3da8",
+  "source": "source/matching/game/d18e/d18e_bounds_property_reset_801c3da8.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18e_reset_bounds_801c3da8": "0x801c3da8"
+  },
+  "descriptions": {
+    "w3d_d18e_reset_bounds_801c3da8": "Looks up the Min and Max vector properties (binding helper 0x801f0504), sets both three-float values at +8 to the constant at 0x803ac9f8 (0.0f), registers the ShapeCount, ShapeIndex, Left and Right typed properties (0x801ebbb8), calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_chat_initialize_80038c74",
+  "source": "source/matching/game/k4a/k4a_chat_initialize_80038c74.c",
+  "language": "c",
+  "functions": {
+    "k4a_chat_initialize_80038c74": "0x80038c74"
+  },
+  "descriptions": {
+    "k4a_chat_initialize_80038c74": "Appears to resolve the chat message list, look up the chat service for the owner, clear two counters and set the private, ally and anonymous chat prefix strings."
+  }
+}

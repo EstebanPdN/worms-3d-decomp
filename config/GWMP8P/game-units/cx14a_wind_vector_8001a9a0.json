@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_wind_vector_8001a9a0",
+  "source": "source/matching/game/cx14a/cx14a_wind_vector_8001a9a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_wind_vector_8001a9a0": "0x8001a9a0"
+  },
+  "descriptions": {
+    "w3d_cx14a_wind_vector_8001a9a0": "Reads wind direction and speed through the original scalar property interface, computes horizontal cosine/sine components, and returns the observed vector with the original vertical zero and thirty-two-byte query workspace."
+  }
+}

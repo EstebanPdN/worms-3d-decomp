@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_show_picture_edit_80272cc0",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_show_picture_edit_80272cc0": "0x80272cc0"
+  },
+  "descriptions": {
+    "w3d_f5a_show_picture_edit_80272cc0": "Compose the observed picture-viewer editing text with resource and animation names, set state five, append cursor help, and publish to the sink. Partial types and roles inferred."
+  },
+  "source": "source/matching/game/f5a/f5a_show_picture_edit_80272cc0.cpp"
+}

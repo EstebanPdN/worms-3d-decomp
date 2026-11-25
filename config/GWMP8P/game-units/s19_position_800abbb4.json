@@ -1,0 +1,11 @@
+{
+  "unit": "s19_position_800abbb4",
+  "source": "source/matching/game/s19/s19_position_800abbb4.c",
+  "language": "c",
+  "functions": {
+    "s19_set_position_800abbb4": "0x800abbb4"
+  },
+  "descriptions": {
+    "s19_set_position_800abbb4": "Appears to notify the held interface at +0x78 through virtual slot 10 and copy a three-float vector into +0x84."
+  }
+}

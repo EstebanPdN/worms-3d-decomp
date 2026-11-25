@@ -1,0 +1,11 @@
+{
+  "unit": "f10b_crate_defaults_8008a044",
+  "source": "source/matching/game/f10b/f10b_crate_defaults_8008a044.cpp",
+  "language": "cpp",
+  "functions": {
+    "f10b_crate_defaults_8008a044": "0x8008a044"
+  },
+  "descriptions": {
+    "f10b_crate_defaults_8008a044": "Initialize the observed crate integer, float and text properties to their original defaults using independent one-pointer property-name locals. Names and external signatures are inferred; referenced strings and constants remain externally owned."
+  }
+}

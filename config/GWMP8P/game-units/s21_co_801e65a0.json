@@ -1,0 +1,11 @@
+{
+  "unit": "s21_co_801e65a0",
+  "source": "source/matching/game/s21/s21_co_801e65a0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_finish_801e65a0": "0x801e65a0"
+  },
+  "descriptions": {
+    "w3d_s21_finish_801e65a0": "Appears to finish an object: it runs a cleanup helper and, when a check succeeds, closes its stream handle through the global stream and returns one, else zero."
+  }
+}

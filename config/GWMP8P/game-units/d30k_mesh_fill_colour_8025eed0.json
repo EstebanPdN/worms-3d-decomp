@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_mesh_fill_colour_8025eed0",
+  "source": "source/matching/game/d30k/d30k_mesh_fill_colour_8025eed0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_mesh_fill_colour_8025eed0": "0x8025eed0"
+  },
+  "descriptions": {
+    "w3d_d30k_mesh_fill_colour_8025eed0": "Sets every entry of the mesh colour array to one colour."
+  }
+}

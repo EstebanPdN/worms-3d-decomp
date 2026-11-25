@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_find_entry_801d2360",
+  "source": "source/matching/game/cc17c/cc17c_find_entry_801d2360.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_find_entry_801d2360": "0x801d2360"
+  },
+  "descriptions": {
+    "w3d_cc17c_find_entry_801d2360": "Looks up an entry in the list at +52 through the search helper; when found, notifies the owner with the iterator and returns a pointer 36 bytes into the node (0), otherwise stores null and returns 0x80004005."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c30_record_80207b30",
+  "source": "source/matching/game/tsonnet_c30/tsonnet_c30_record_80207b30.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c30_record_80207b30": "0x80207b30"
+  },
+  "descriptions": {
+    "tsonnet_c30_record_80207b30": "Flushes queued records when the optional service object and its enable word are set, optionally joins the data with a trailing text in a stack buffer, then forwards the record id (low 15 bits), data and length to the service object's third virtual slot if it exists; the service object and field meanings are inferred. The length sum and stack allocation are unvalidated for arbitrary inputs."
+  }
+}

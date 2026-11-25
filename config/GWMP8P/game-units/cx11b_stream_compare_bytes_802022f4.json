@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_stream_compare_bytes_802022f4",
+  "source": "source/matching/game/cx11b/cx11b_stream_compare_bytes_802022f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_stream_compare_bytes_802022f4": "0x802022f4"
+  },
+  "descriptions": {
+    "w3d_cx11b_stream_compare_bytes_802022f4": "Read bytes into temporary storage and compare them with the expected block."
+  }
+}

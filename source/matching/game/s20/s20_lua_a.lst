@@ -1,0 +1,5 @@
+c source/matching/game/s20/s20_lua_a.c
+w3d_s20_load_script_8019e1a8|0x8019e1a8|Appears to run a script loader on the stored Lua state with a constant name and return 0x80004005 on failure, else 0.
+w3d_s20_apply_user_value_8019f9ec|0x8019f9ec|Appears to convert a value from the first Lua argument and pass it to virtual method 7 of the object held by the owner, returning 1.
+w3d_s20_forward_user_values_8019e7e8|0x8019e7e8|Appears to read two userdata words from the Lua stack and forward them with a global record's fields to a helper, returning zero.
+w3d_s20_query_object_8019dd80|0x8019dd80|Appears to query the first object of a pair through virtual method 5 into an output and return the secondary address when found.

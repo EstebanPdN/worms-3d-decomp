@@ -1,0 +1,39 @@
+{
+  "unit": "autow_80020880",
+  "source": "source/matching/game/auto/autow_80020880.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80020880": "0x80020880",
+    "w3d_auto_800231ec": "0x800231ec",
+    "w3d_auto_8002709c": "0x8002709c",
+    "w3d_auto_8003a490": "0x8003a490",
+    "w3d_auto_800b912c": "0x800b912c",
+    "w3d_auto_800c6a20": "0x800c6a20",
+    "w3d_auto_800da250": "0x800da250",
+    "w3d_auto_801626ec": "0x801626ec",
+    "w3d_auto_80178870": "0x80178870",
+    "w3d_auto_801797ec": "0x801797ec",
+    "w3d_auto_801d5f60": "0x801d5f60",
+    "w3d_auto_80200340": "0x80200340",
+    "w3d_auto_8021cbc8": "0x8021cbc8",
+    "w3d_auto_8034f190": "0x8034f190",
+    "w3d_auto_8035a230": "0x8035a230"
+  },
+  "descriptions": {
+    "w3d_auto_80020880": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800231ec": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8002709c": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8003a490": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800b912c": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800c6a20": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800da250": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_801626ec": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_80178870": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_801797ec": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_801d5f60": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_80200340": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8021cbc8": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8034f190": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8035a230": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review."
+  }
+}

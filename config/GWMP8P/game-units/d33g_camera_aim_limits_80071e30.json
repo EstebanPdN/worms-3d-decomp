@@ -1,0 +1,14 @@
+{
+  "unit": "d33g_camera_aim_limits_80071e30",
+  "source": "source/matching/game/d33g/d33g_camera_aim_limits_80071e30.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33g_camera_aim_limits_80071e30": "0x80071e30"
+  },
+  "descriptions": {
+    "w3d_d33g_camera_aim_limits_80071e30": "Sets the camera's aim-too-high and aim-too-low flags from the flattened direction of the path at 0x8042ff68, with a swap once the path end is behind the view."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

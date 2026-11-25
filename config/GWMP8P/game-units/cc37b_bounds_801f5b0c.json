@@ -1,0 +1,11 @@
+{
+  "unit": "cc37b_bounds_801f5b0c",
+  "source": "source/matching/game/cc37b/cc37b_bounds_801f5b0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc37b_bounds_801f5b0c": "0x801f5b0c"
+  },
+  "descriptions": {
+    "w3d_cc37b_bounds_801f5b0c": "Scans a signed positive count of packed 12-byte points to produce component bounds, retaining original ordered comparisons, NaN branch behavior, local Vec3 lifetimes and final raw aggregate copies. Names and partial Vec3/Box views are inferred. The maximum finite float initial bounds are independently decoded at803b15d4/803b15d8; eight source-owned data bytes lie outside worker text range and require parent ownership review."
+  }
+}

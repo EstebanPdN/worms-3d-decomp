@@ -1,0 +1,11 @@
+{
+  "unit": "d25c_bullet_update_800e4414",
+  "source": "source/matching/game/d25c/d25c_bullet_update_800e4414.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25c_bullet_update_800e4414": "0x800e4414"
+  },
+  "descriptions": {
+    "d25c_bullet_update_800e4414": "Step the sub-object at +28 with the frame value. Flag 16: zero the 3-float vector at +108. Flag 64: copy +96 to +108 and look up the target at +68; a target of type 0x80360e10 gets virtual +44 with the last argument and the vector; otherwise treat it as a part (object +28) and if 0x800dfd48 accepts key +144 call its virtual +16. When no target handles it set state +176 to 3."
+  }
+}

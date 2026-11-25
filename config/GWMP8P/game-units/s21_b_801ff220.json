@@ -1,0 +1,11 @@
+{
+  "unit": "s21_b_801ff220",
+  "source": "source/matching/game/s21/s21_b_801ff220.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_double_801ff220": "0x801ff220"
+  },
+  "descriptions": {
+    "w3d_s21_read_double_801ff220": "Appears to convert an integer argument through a helper and store the result as a double through the output pointer, returning zero."
+  }
+}

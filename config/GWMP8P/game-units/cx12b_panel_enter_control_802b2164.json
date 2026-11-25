@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_panel_enter_control_802b2164",
+  "source": "source/matching/game/cx12b/cx12b_panel_enter_control_802b2164.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_panel_enter_control_802b2164": "0x802b2164"
+  },
+  "descriptions": {
+    "w3d_cx12b_panel_enter_control_802b2164": "Apply the original enter text callback, reset its timer and resume the mesh control only under the observed playing/stopped guards."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_j_8021bf3c",
+  "source": "source/matching/game/s21/s21_j_8021bf3c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_expire_entry_8021bf3c": "0x8021bf3c"
+  },
+  "descriptions": {
+    "w3d_s21_expire_entry_8021bf3c": "Appears to drop and release an active timed entry once the elapsed time exceeds the configured limit."
+  }
+}

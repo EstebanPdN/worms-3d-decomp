@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cj_802b4e8c",
+  "source": "source/matching/game/s21/s21_cj_802b4e8c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_sync_802b4e8c": "0x802b4e8c"
+  },
+  "descriptions": {
+    "w3d_s21_sync_802b4e8c": "Appears to forward the object's value to a held interface through virtual slot 22 and call a function pointer of the owner on the embedded part when a flag is set."
+  }
+}

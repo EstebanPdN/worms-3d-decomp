@@ -1,0 +1,13 @@
+{
+  "unit": "s19_lookup_8008c454",
+  "source": "source/matching/game/s19/s19_lookup_8008c454.c",
+  "language": "c",
+  "functions": {
+    "s19_lookup_slot_8008c454": "0x8008c454",
+    "s19_lookup_slot_8008c548": "0x8008c548"
+  },
+  "descriptions": {
+    "s19_lookup_slot_8008c454": "Appears to look up the handle stored at the given index of the array at +0x134 and return the object or zero.",
+    "s19_lookup_slot_8008c548": "Appears to look up the handle stored at the given index of the array at +0x140 and return the object or zero."
+  }
+}

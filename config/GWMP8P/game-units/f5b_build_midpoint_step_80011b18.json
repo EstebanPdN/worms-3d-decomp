@@ -1,0 +1,11 @@
+{
+  "unit": "f5b_build_midpoint_step_80011b18",
+  "source": "source/matching/game/f5b/f5b_build_midpoint_step_80011b18.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_build_midpoint_step_80011b18": "0x80011b18"
+  },
+  "descriptions": {
+    "f5b_build_midpoint_step_80011b18": "Release and clear the held move queue, copy the current step and indexed target position, allocate and externally construct a48-byte queue object, retain it in the observed owner field, increment its counter, submit a midpoint raised by the observed constant with kind5, and reset the trajectory timer. All semantic roles and the external constructor identity are inferred from original call sites."
+  }
+}

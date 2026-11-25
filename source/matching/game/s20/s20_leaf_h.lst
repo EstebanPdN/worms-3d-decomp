@@ -1,0 +1,4 @@
+c source/matching/game/s20/s20_leaf_h.c
+w3d_s20_lookup_handle_object_80164fc8|0x80164fc8|Appears to look up a handle in a slot table of 36-byte entries and return the slot's object when the stored id matches, otherwise null.
+w3d_s20_get_vector_item_800ffca4|0x800ffca4|Appears to read an element of a four-byte item vector into the output, returning 0x80004005 when the index is out of range.
+w3d_s20_init_registry_8016130c|0x8016130c|Appears to clear a four-word registry object, publish it in a global and return it.

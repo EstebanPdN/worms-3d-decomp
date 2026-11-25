@@ -1,0 +1,11 @@
+{
+  "unit": "d33a_bomber_start_8002ead8",
+  "source": "source/matching/game/d33a/d33a_bomber_start_8002ead8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33a_bomber_start_8002ead8": "0x8002ead8"
+  },
+  "descriptions": {
+    "w3d_d33a_bomber_start_8002ead8": "Starts the airstrike bomber: computes its flight path, schedules bomb drop messages and starts its animation and effects."
+  }
+}

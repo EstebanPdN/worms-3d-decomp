@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_names_dtor_801d31d0",
+  "source": "source/matching/game/k8b/k8b_names_dtor_801d31d0.c",
+  "language": "c",
+  "functions": {"w3d_k8b_names_dtor_801d31d0": "0x801d31d0"},
+  "descriptions": {"w3d_k8b_names_dtor_801d31d0": "Appears to run a deleting destructor that frees a storage block, destroys a vector of strings and one string member, then the actor node."}
+}

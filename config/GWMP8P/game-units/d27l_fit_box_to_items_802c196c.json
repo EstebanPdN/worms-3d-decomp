@@ -1,0 +1,14 @@
+{
+  "unit": "d27l_fit_box_to_items_802c196c",
+  "source": "source/matching/game/d27l/d27l_fit_box_to_items_802c196c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27l_fit_box_to_items_802c196c": "0x802c196c"
+  },
+  "descriptions": {
+    "d27l_fit_box_to_items_802c196c": "Computes a 2D bounding box of the items in a named resource and stores its centre and half size."
+  }
+}

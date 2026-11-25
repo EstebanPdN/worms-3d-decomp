@@ -1,0 +1,7 @@
+{
+  "unit": "terra_only_a4_flags",
+  "source": "source/matching/game/terra_only_a4/flags.cpp",
+  "language": "cpp",
+  "functions": {"terra_only_a4_flags_8006ee18": "0x8006ee18"},
+  "descriptions": {"terra_only_a4_flags_8006ee18": "Test state flags and two predicates."}
+}

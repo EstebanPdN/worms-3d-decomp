@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c34_reset_progress_802ba0cc",
+  "source": "source/matching/game/tsonnet_c34/tsonnet_c34_reset_progress_802ba0cc.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c34_reset_progress_802ba0cc": "0x802ba0cc"
+  },
+  "descriptions": {
+    "tsonnet_c34_reset_progress_802ba0cc": "When the float at offset 416 differs from the constant at 0x803d8118, calls two virtual hooks (slots at +52 and +20 of the table at +208) on the embedded object at +28, zeroes the floats at +412 and +416, calls an external refresh routine, sets the word at +244 to 1 and passes a three-float vector (0, 0, member416 / member312 * constant at 0x803d811c) to slot +80 of the interface at +364; field meanings are inferred."
+  }
+}

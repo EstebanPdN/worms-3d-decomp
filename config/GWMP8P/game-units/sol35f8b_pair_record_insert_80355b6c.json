@@ -1,0 +1,14 @@
+{
+  "unit": "sol35f8b_pair_record_insert_80355b6c",
+  "source": "source/matching/game/sol35f8b/sol35f8b_pair_record_insert_80355b6c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "sol35f8b_pair_record_insert_80355b6c": "0x80355b6c"
+  },
+  "descriptions": {
+    "sol35f8b_pair_record_insert_80355b6c": "Inserts an inferred unsigned-pair-key tree node with a retained interface, counted-reference array and 48-byte record member; constructs an 84-byte node, maintains extreme links, rebalances and returns its iterator. GC32 partial class identities remain inferred."
+  }
+}

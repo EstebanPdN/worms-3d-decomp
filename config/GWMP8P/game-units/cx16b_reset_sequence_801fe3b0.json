@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_reset_sequence_801fe3b0",
+  "source": "source/matching/game/cx16b/cx16b_reset_sequence_801fe3b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_reset_sequence_801fe3b0": "0x801fe3b0"
+  },
+  "descriptions": {
+    "w3d_cx16b_reset_sequence_801fe3b0": "Runs the observed platform reset service sequence, conditionally requests reset when the queried service is absent, then forwards the requested mode."
+  }
+}

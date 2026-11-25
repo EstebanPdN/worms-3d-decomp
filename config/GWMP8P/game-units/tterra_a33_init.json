@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_a33_init",
+  "source": "source/matching/game/tterra_a33/tterra_a33_init.c",
+  "language": "c",
+  "functions": {
+    "tterra_a33_init_800c1580": "0x800c1580"
+  },
+  "descriptions": {
+    "tterra_a33_init_800c1580": "Initialize observed small-data pointers and zero three objects."
+  }
+}

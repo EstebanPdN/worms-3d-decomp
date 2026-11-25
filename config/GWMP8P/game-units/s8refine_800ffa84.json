@@ -1,0 +1,11 @@
+{
+  "unit": "s8refine_800ffa84",
+  "source": "source/matching/game/auto/s8refine_800ffa84.c",
+  "language": "c",
+  "functions": {
+    "s8_recovered_800ffa84": "0x800ffa84"
+  },
+  "descriptions": {
+    "s8_recovered_800ffa84": "Calls 1 external routines including 0x80160038."
+  }
+}

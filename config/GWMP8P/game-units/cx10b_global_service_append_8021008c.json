@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_global_service_append_8021008c",
+  "source": "source/matching/game/cx10b/cx10b_global_service_append_8021008c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_global_service_append_8021008c": "0x8021008c"
+  },
+  "descriptions": {
+    "w3d_cx10b_global_service_append_8021008c": "Append and retain an interface in the observed global slot vector."
+  }
+}

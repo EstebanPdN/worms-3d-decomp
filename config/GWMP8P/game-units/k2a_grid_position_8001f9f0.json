@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_grid_position_8001f9f0",
+  "source": "source/matching/game/k2a/k2a_grid_position_8001f9f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_grid_position_8001f9f0": "0x8001f9f0"
+  },
+  "descriptions": {
+    "k2a_grid_position_8001f9f0": "Appears to convert a grid cell index to column, row and layer, then return the 3D position of that cell by value."
+  }
+}

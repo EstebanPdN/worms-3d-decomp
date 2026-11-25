@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_matrix3_inverse_801f65f0",
+  "source": "source/matching/game/cx13b/cx13b_matrix3_inverse_801f65f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_matrix3_inverse_801f65f0": "0x801f65f0"
+  },
+  "descriptions": {
+    "w3d_cx13b_matrix3_inverse_801f65f0": "Write the original three-by-three matrix cofactor inverse and return the observed zero status without determinant validation."
+  }
+}

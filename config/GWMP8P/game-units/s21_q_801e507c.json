@@ -1,0 +1,11 @@
+{
+  "unit": "s21_q_801e507c",
+  "source": "source/matching/game/s21/s21_q_801e507c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_query_held_801e507c": "0x801e507c"
+  },
+  "descriptions": {
+    "w3d_s21_query_held_801e507c": "Appears to forward a held object pointer to a helper, or return zero when none is held."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_geometry_types_sinit_801c4ab8",
+  "source": "source/matching/game/cc17c/cc17c_geometry_types_sinit_801c4ab8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_sinit_801c4ab8": "0x801c4ab8"
+  },
+  "descriptions": {
+    "w3d_cc17c_sinit_801c4ab8": "Static initializer: constructs the 96 geometry type descriptors (XGeometry, geo sets, indexed sets, vertex/coord/normal/color/texcoord/weight sets, index arrays, XSwitch and related classes) in original order."
+  }
+}

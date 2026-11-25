@@ -1,0 +1,115 @@
+/* Generated reference-only placements. All bodies are source-built. */
+OUTPUT_FORMAT("elf32-powerpc")
+OUTPUT_ARCH(powerpc)
+ENTRY(d27f_scheme_from_properties_80290204)
+_SDA_BASE_ = 0x804b2540;
+_SDA2_BASE_ = 0x804c2540;
+_._19Descriptor_80178474 = 0x80178474;
+__14Cache_8015f704PCc = 0x8015f704;
+__15String_803426b8 = 0x803426b8;
+lbl_803d0174 = 0x803d0174;
+lbl_803d01ac = 0x803d01ac;
+lbl_803d01c0 = 0x803d01c0;
+lbl_803d01dc = 0x803d01dc;
+lbl_803d01e8 = 0x803d01e8;
+lbl_803d01f0 = 0x803d01f0;
+lbl_803d01f8 = 0x803d01f8;
+lbl_803d0204 = 0x803d0204;
+lbl_803d0210 = 0x803d0210;
+lbl_803d0218 = 0x803d0218;
+lbl_803d0220 = 0x803d0220;
+lbl_803d0228 = 0x803d0228;
+lbl_803d0230 = 0x803d0230;
+lbl_803d0238 = 0x803d0238;
+lbl_803d0244 = 0x803d0244;
+lbl_803d024c = 0x803d024c;
+lbl_803d0254 = 0x803d0254;
+lbl_803d025c = 0x803d025c;
+lbl_803d0264 = 0x803d0264;
+lbl_803d0270 = 0x803d0270;
+lbl_803d0278 = 0x803d0278;
+lbl_803d0284 = 0x803d0284;
+lbl_803d0290 = 0x803d0290;
+lbl_803d0298 = 0x803d0298;
+lbl_803d02a0 = 0x803d02a0;
+lbl_803d02ac = 0x803d02ac;
+lbl_803d02b4 = 0x803d02b4;
+lbl_803d02bc = 0x803d02bc;
+lbl_803d02c4 = 0x803d02c4;
+lbl_803d02cc = 0x803d02cc;
+lbl_803d02d4 = 0x803d02d4;
+lbl_803d02dc = 0x803d02dc;
+lbl_803d02e4 = 0x803d02e4;
+lbl_803d02ec = 0x803d02ec;
+lbl_803d02f8 = 0x803d02f8;
+lbl_803d0300 = 0x803d0300;
+lbl_803d0308 = 0x803d0308;
+lbl_803d0310 = 0x803d0310;
+lbl_803d031c = 0x803d031c;
+lbl_803d0324 = 0x803d0324;
+lbl_803d0330 = 0x803d0330;
+lbl_803d0338 = 0x803d0338;
+lbl_803d0340 = 0x803d0340;
+lbl_803d0348 = 0x803d0348;
+lbl_803d0350 = 0x803d0350;
+lbl_803d0358 = 0x803d0358;
+lbl_803d0360 = 0x803d0360;
+lbl_803d0368 = 0x803d0368;
+lbl_803d0370 = 0x803d0370;
+lbl_803d037c = 0x803d037c;
+lbl_803d0384 = 0x803d0384;
+lbl_803d038c = 0x803d038c;
+lbl_803d0394 = 0x803d0394;
+lbl_803d039c = 0x803d039c;
+lbl_803d03a8 = 0x803d03a8;
+lbl_803d03b0 = 0x803d03b0;
+lbl_803d03b8 = 0x803d03b8;
+lbl_803d03c4 = 0x803d03c4;
+lbl_803d03cc = 0x803d03cc;
+lbl_803d03d4 = 0x803d03d4;
+lbl_803d03e0 = 0x803d03e0;
+lbl_803d03e8 = 0x803d03e8;
+lbl_803d03f0 = 0x803d03f0;
+lbl_803d03f8 = 0x803d03f8;
+lbl_803d0400 = 0x803d0400;
+lbl_803d0408 = 0x803d0408;
+lbl_803d0414 = 0x803d0414;
+lbl_803d041c = 0x803d041c;
+lbl_803d0428 = 0x803d0428;
+lbl_803d0430 = 0x803d0430;
+lbl_803d0438 = 0x803d0438;
+lbl_803d0444 = 0x803d0444;
+lbl_803d044c = 0x803d044c;
+lbl_803d0454 = 0x803d0454;
+lbl_803d0460 = 0x803d0460;
+lbl_803d046c = 0x803d046c;
+lbl_803d0478 = 0x803d0478;
+lbl_803d0484 = 0x803d0484;
+lbl_803d0494 = 0x803d0494;
+lbl_803d04a4 = 0x803d04a4;
+lbl_803d04b8 = 0x803d04b8;
+s8_property_read_800fc550 = 0x800fc550;
+strcmp = 0x802ef234;
+tsonnet_b33_arena_801613f0 = 0x801613f0;
+w3d_auto_800fc1f0 = 0x800fc1f0;
+w3d_auto_800fc2b0 = 0x800fc2b0;
+w3d_auto_8015f558 = 0x8015f558;
+w3d_auto_80179598 = 0x80179598;
+w3d_auto_8028fa34 = 0x8028fa34;
+w3d_cached_message_id = 0x8015f5a0;
+w3d_constructor_lookup_name = 0x800fc1b0;
+w3d_empty_80341584 = 0x80341584;
+w3d_message_post_current = 0x8016239c;
+w3d_message_string_init = 0x8010a8e0;
+w3d_string_assign = 0x8020bd38;
+w3d_string_base_finish = 0x8020c5c4;
+w3d_string_format = 0x8020c510;
+w3d_string_release = 0x80341588;
+w3d_string_release_header = 0x8020bb2c;
+SECTIONS {
+  .text.d27f_scheme_from_properties_80290204 0x80290204 : { *(.text.d27f_scheme_from_properties_80290204) }
+  .sdata 0x804b1754 (NOLOAD) : {
+    . = 0x0; lbl_804b1754 = .;
+    . += 1; }
+  /DISCARD/ : { *(.text*) *(.rodata*) *(.data*) *(.bss*) *(.sdata*) *(.sbss*) *(.comment) }
+}

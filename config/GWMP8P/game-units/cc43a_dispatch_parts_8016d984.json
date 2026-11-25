@@ -1,0 +1,11 @@
+{
+  "unit": "cc43a_dispatch_parts_8016d984",
+  "source": "source/matching/game/cc43a/cc43a_dispatch_parts_8016d984_v9.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43a_dispatch_parts_8016d984": "0x8016d984"
+  },
+  "descriptions": {
+    "cc43a_dispatch_parts_8016d984": "Skip empty input, obtain the render state, dispatch each part in order, increment the wrapping byte counter and invoke the indexed secondary-base callback between parts, then clear the counter and return zero."
+  }
+}

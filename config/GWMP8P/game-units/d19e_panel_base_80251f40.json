@@ -1,0 +1,12 @@
+{
+  "unit": "d19e_panel_base_80251f40",
+  "source": "source/matching/game/d19e/d19e_panel_base_80251f40.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "__9D19ePanelUs": "0x80251f40"
+  },
+  "descriptions": {
+    "__9D19ePanelUs": "Front-end panel constructor: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the table 0x8041bab8, zeroes the vectors at +20 and +32, copy-constructs 22 string members (+44, +48, +72..+148) from the shared empty string 0x804b06a0 (retaining it), zeroes the values at +52..+68, the bytes at +152/+153 and the ints at +156/+160, in member order. Names are structural; offsets are observed."
+  }
+}

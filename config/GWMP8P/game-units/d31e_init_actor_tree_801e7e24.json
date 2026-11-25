@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_init_actor_tree_801e7e24",
+  "source": "source/matching/game/d31e/d31e_init_actor_tree_801e7e24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_init_actor_tree_801e7e24": "0x801e7e24"
+  },
+  "descriptions": {
+    "w3d_d31e_init_actor_tree_801e7e24": "Initializes an actor and its children: on first use creates the worker from class record 0x803657d8, keeps it in the reference at +48, sets its owner and flag and attaches it to the parent's worker (or null for a root); then sets up hooks through 0x801e7658, recurses into each direct child found with the child iterator, and calls the worker's prepare slot. Bracketed by 0x8020b5c8(-1) and 0x8020b5d0. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

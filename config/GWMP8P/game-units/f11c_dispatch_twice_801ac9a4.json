@@ -1,0 +1,11 @@
+{
+  "unit": "f11c_dispatch_twice_801ac9a4",
+  "source": "source/matching/game/f11c/f11c_dispatch_twice_801ac9a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f11c_dispatch_801ac9a4": "0x801ac9a4"
+  },
+  "descriptions": {
+    "f11c_dispatch_801ac9a4": "Dispatch through the observed primary object and node subobject APIs. Cache the virtual type/context result and peer handler table, run the virtual pre-handler, invoke the selector-indexed handler on the node at offset4 when status is nonnegative, then run the virtual post-handler and preserve the handler status. When the low flag bits equal3, temporarily clear bit0, perform that sequence once, restore bit0 and return on failure; otherwise perform the final sequence. The native inline once and node run methods reproduce both original call sequences and this adjustment. Owner88-byte, node28-byte, peer and header layouts are partial observed views rather than complete class footprints; meanings, names and signatures remain inferred. No external data ownership is claimed."
+  }
+}

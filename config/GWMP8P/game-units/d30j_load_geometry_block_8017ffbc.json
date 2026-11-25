@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_load_geometry_block_8017ffbc",
+  "source": "source/matching/game/d30j/d30j_load_geometry_block_8017ffbc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30j_load_geometry_block_8017ffbc": "0x8017ffbc"
+  },
+  "descriptions": {
+    "d30j_load_geometry_block_8017ffbc": "Read a geometry data block into temporary memory, parse it into an object, register it under the name GeoMoik!!! and keep a reference."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d28l_menu_select_slot_802aa8a4",
+  "source": "source/matching/game/d28l/d28l_menu_select_slot_802aa8a4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28l_menu_select_slot_802aa8a4": "0x802aa8a4"
+  },
+  "descriptions": {
+    "d28l_menu_select_slot_802aa8a4": "Switches a menu to the slot with the given id, swapping clips and refreshing the highlight."
+  }
+}

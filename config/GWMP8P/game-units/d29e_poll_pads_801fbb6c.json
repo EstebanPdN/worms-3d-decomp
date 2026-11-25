@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_poll_pads_801fbb6c",
+  "source": "source/matching/game/d29e/d29e_poll_pads_801fbb6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_poll_pads_801fbb6c": "0x801fbb6c"
+  },
+  "descriptions": {
+    "w3d_d29e_poll_pads_801fbb6c": "Reads the pad states at 0x8045e824 (0x80301e04) and notes whether any were read; for each of 4 pads sets its bit in the mask at +28 for error states 0 and -3, or collects it for reset for -1; clears and resets the collected pads (0x80301a90), runs virtual slot 5 with 1, clamps (0x8030110c), then sets the connected bit at +264 of each device in the list at +52 and updates it (slot 4 of the device's table), returning the last negative result or 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

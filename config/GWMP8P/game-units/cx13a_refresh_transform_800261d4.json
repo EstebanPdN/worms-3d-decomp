@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_refresh_transform_800261d4",
+  "source": "source/matching/game/cx13a/cx13a_refresh_transform_800261d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_refresh_transform_800261d4": "0x800261d4"
+  },
+  "descriptions": {
+    "w3d_cx13a_refresh_transform_800261d4": "Refresh two observed transform vectors and forward them to two callbacks on the held interface; names inferred."
+  }
+}

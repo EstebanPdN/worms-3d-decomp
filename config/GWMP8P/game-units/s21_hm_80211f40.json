@@ -1,0 +1,11 @@
+{
+  "unit": "s21_hm_80211f40",
+  "source": "source/matching/game/s21/s21_hm_80211f40.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_run_inner_target_80211f40": "0x80211f40"
+  },
+  "descriptions": {
+    "w3d_s21_run_inner_target_80211f40": "Appears to ask its embedded inner object for a related object through a virtual slot and then invoke another virtual slot on the result."
+  }
+}

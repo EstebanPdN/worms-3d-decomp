@@ -1,0 +1,11 @@
+{
+  "unit": "s1_camera_messages",
+  "source": "source/matching/game/s1_camera_messages.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80067a04": "0x80067a04"
+  },
+  "descriptions": {
+    "w3d_fn_80067a04": "Copies camera vectors, looks up its task, enables camera selection, and disables gameplay input groups."
+  }
+}

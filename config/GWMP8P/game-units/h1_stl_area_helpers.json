@@ -1,0 +1,15 @@
+{
+  "unit": "h1_stl_area_helpers",
+  "source": "source/matching/game/h1/h1_stl_area_helpers.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_trace_stub_80347324": "0x80347324",
+    "w3d_block_owner_set_80348764": "0x80348764",
+    "w3d_bits_assign_8034bef8": "0x8034bef8"
+  },
+  "descriptions": {
+    "w3d_trace_stub_80347324": "Variadic trace function compiled out: saves the argument registers and returns.",
+    "w3d_block_owner_set_80348764": "Copies a 32-byte block into the owner at +0x74 and returns 0.",
+    "w3d_bits_assign_8034bef8": "Sets or clears bit index in the owner's word array depending on value."
+  }
+}

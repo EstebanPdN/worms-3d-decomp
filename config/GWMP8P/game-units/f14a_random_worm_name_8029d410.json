@@ -1,0 +1,11 @@
+{
+  "unit": "f14a_random_worm_name_8029d410",
+  "source": "source/matching/game/f14a/f14a_random_worm_name_8029d410.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f14a_random_worm_name_8029d410": "0x8029d410"
+  },
+  "descriptions": {
+    "w3d_f14a_random_worm_name_8029d410": "Choose and publish one random worm name from the original FE.RandomWormNames property: count delimiter-separated entries, reduce the original RNG word modulo the count, rescan with the same cursor lifetime, copy and truncate the selected name, format User.HumanWorm%d with the supplied worm index, and write the text property. Native shared-text cleanup order is preserved. Names and roles inferred; borrowed strings, delimiter bytes, and all external data remain outside ownership. Property-read failure control flow is preserved without adding a fallback."
+  }
+}

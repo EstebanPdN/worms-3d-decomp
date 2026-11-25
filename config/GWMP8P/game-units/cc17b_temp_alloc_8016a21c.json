@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_temp_alloc_8016a21c",
+  "source": "source/matching/game/cc17b/cc17b_temp_alloc_8016a21c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_temp_alloc_8016a21c": "0x8016a21c"
+  },
+  "descriptions": {
+    "w3d_cc17b_temp_alloc_8016a21c": "Rounds temporary-buffer requests to 128 bytes, advances the cursor and returns its previous address. Overflow forwards both the original diagnostic and unrounded request, as confirmed by the two-word diagnostic callee."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_grid_scan_alt_8010d0a0",
+  "source": "source/matching/game/d24i/d24i_grid_scan_alt_8010d0a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_grid_scan_alt_8010d0a0": "0x8010d0a0"
+  },
+  "descriptions": {
+    "d24i_grid_scan_alt_8010d0a0": "Variant of the grid cell scan 0x8010c494 using edge test 0x8010bda0 and triangles 0x8010b43c, reading corners without a header offset: for each passing cell seeks the run-length cursor at +28 and draws corners +2, +74, +1298 with flag 0 and +74, +1298, +1370 with flag 1."
+  }
+}

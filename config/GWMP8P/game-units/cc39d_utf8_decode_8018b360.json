@@ -1,0 +1,11 @@
+{
+  "unit": "cc39d_utf8_decode_8018b360",
+  "source": "source/matching/game/cc39d/cc39d_utf8_decode_8018b360_v10.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39d_utf8_decode_8018b360": "0x8018b360"
+  },
+  "descriptions": {
+    "cc39d_utf8_decode_8018b360": "Decode one UTF-8 sequence of one, two or three bytes to a 16-bit code unit and report its length (a local receives it when no output is supplied); other lead bytes give length 0 and value 0, and continuation bytes are not validated. Counterpart of the admitted 16-bit encoder at 0x8018b2b0; original names unknown."
+  }
+}

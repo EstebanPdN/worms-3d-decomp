@@ -1,0 +1,11 @@
+{
+  "unit": "g1b_preserve_interface_801d782c",
+  "source": "source/matching/game/g1b/g1b_preserve_interface_v1_801d782c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1b_preserve_interface_801d782c": "0x801d782c"
+  },
+  "descriptions": {
+    "g1b_preserve_interface_801d782c": "Preserves the external receiver interface field at20 across801ea18c(self,arg). A complete native one-pointer local held value retains the saved interface through observed slot12, clears the receiver field before releasing its old value through slot16, invokes801ea18c, then assigns the saved value back before retaining it and releasing the displaced interface. The local destructor finally releases the saved reference and the function returns zero. All local constructor, assignment, clear and destructor effects are defined inline; local held size is4 bytes and its original pointer storage is at stack8. The receiver and pointed interface remain partial external ABI views, never locally allocated or constructed; no external sizeof is asserted. Names and virtual return semantics are inferred. Owns no initialized data and uses no extra compiler flags."
+  }
+}

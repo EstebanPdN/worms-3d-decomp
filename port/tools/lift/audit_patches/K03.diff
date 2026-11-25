@@ -1,0 +1,11 @@
+--- a/port/core/game/d30k/d30k_scroll_list_create_8026f528.cpp
++++ b/port/core/game/d30k/d30k_scroll_list_create_8026f528.cpp
+@@ -15,6 +15,8 @@
+  template <class W3dU> Ref(Ptr32<W3dU> w3d_p) : Ref((Obj *)w3d_p.get()) {}
+  Ref(Obj *o) : p(o) { if (o) o->vt->retain(o); }
+  Ref(const Ref &);
++ // 0x802bc098 suelta sus dos argumentos en el PPC (GCC 2.95); aquí los suelta quien llama.
++ ~Ref() { if (p) p->vt->release(p); }
+ };
+ struct Vec { float x, y, z; Vec() {} Vec(float a, float b, float c) { Ptr32<Vec> p = this; x = a; y = b; p->z = c; } };
+ struct Info { char u[20]; float x, y; char u28[92]; float f120; int f124; };

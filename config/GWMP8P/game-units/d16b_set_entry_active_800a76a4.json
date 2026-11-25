@@ -1,0 +1,14 @@
+{
+  "unit": "d16b_set_entry_active_800a76a4",
+  "source": "source/matching/game/d16b/d16b_set_entry_active_800a76a4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d16b_set_entry_active_800a76a4": "0x800a76a4"
+  },
+  "descriptions": {
+    "d16b_set_entry_active_800a76a4": "Set the active flag of the entry whose name (after its first character) matches the given name with strcmp, or, for an empty name, call itself for every one of the 15 entries. When an active entry is switched off, first reset its items as 0x800a7488 does (inline copy): types 0 and 5 clear a latch, type 2 clears a flag, type 1 resets a nonzero float level to 0.0 (sending it by float message in mode 0, clearing an armed flag in modes 1 and 2), announcing each item that returns to idle with its cached message and the entry name text. Partial observed layouts; cached message keys referenced by address; owns the 4-byte 0.0f literal at 0x803814cc. Compiled with the original paired-single float switch -mps-float (reserves the FPR pair frame slot)."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_textbox_cursor_802a2524",
+  "source": "source/matching/game/d24l/d24l_textbox_cursor_802a2524.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_textbox_cursor_802a2524": "0x802a2524"
+  },
+  "descriptions": {
+    "d24l_textbox_cursor_802a2524": "Creates a text box cursor when +392 is empty: reads the 'FE.TextBoxTextSize' property into a vector's y (0x800fc270), halves it for x and y, loads 'FE.Textbox.Cursor' with type byte(+35)+30, stores the cast mesh retained at +392, calls its virtual +88 with 0, scales it (+84) and attaches it to the panel +308 (+92)."
+  }
+}

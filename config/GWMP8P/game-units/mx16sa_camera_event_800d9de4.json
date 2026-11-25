@@ -1,0 +1,11 @@
+{
+  "unit": "mx16sa_camera_event_800d9de4",
+  "source": "source/matching/game/mx16sa/mx16sa_camera_event_800d9de4.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx16sa_camera_event_800d9de4": "0x800d9de4"
+  },
+  "descriptions": {
+    "mx16sa_camera_event_800d9de4": "Dispatches a camera event when name +304 is nonempty, handle +20 resolves and elapsed +380 is positive. Queries the named entry, obtains its descriptor through slot +20 and walks parent links +20 until the requested descriptor or a self-linked root. For type 0x80367b08, reads Camera.Track.MinEventTime, tests visibility of the position vector +276, and calls 0x800edc28 when the position is not visible or unsigned elapsed exceeds the minimum. Otherwise type 0x80367b58 calls 0x800edca0. External object and descriptor ownership remains pending."
+  }
+}

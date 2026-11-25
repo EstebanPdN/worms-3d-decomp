@@ -1,0 +1,11 @@
+{
+  "unit": "f1c_lookup_byte_80202494",
+  "source": "source/matching/game/f1c/f1c_lookup_byte_80202494.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1c_lookup_byte_80202494": "0x80202494"
+  },
+  "descriptions": {
+    "f1c_lookup_byte_80202494": "Look up a word key in the record table at object offset 124; return record byte at offset 4 when found, otherwise call the byte fallback helper with the key. The addressable local key and table bound accesses preserve the original instruction order; class and field meanings are inferred."
+  }
+}

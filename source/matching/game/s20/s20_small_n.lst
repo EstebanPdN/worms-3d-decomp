@@ -1,0 +1,5 @@
+c source/matching/game/s20/s20_small_n.c
+w3d_s20_acquire_pooled_80171fa0|0x80171fa0|Appears to reuse the pool entry at offset 40 of the owner by counting a reference, or request a new entry through a helper.
+w3d_s20_acquire_pooled_80171ff8|0x80171ff8|Appears to reuse the pool entry at offset 36 of the owner by counting a reference, or request a new entry through a helper.
+w3d_s20_set_quad_and_forward_801a55f0|0x801a55f0|Appears to copy a four-word value into the object at offset 44 and pass it with the range at offset 60 to a helper, returning zero.
+w3d_s20_dispatch_stored_801a3c6c|0x801a3c6c|Appears to dispatch the first stored target of an item's record through the handler table at offset 24, returning a negative result or 0.

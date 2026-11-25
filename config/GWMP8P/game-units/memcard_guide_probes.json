@@ -1,0 +1,21 @@
+{
+  "unit": "memcard_guide_probes",
+  "source": "source/matching/game/memcard_guide_probes.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_card_guide_probe": "0x802c5238",
+    "w3d_card_guide_mount": "0x802c5314",
+    "w3d_card_guide_check": "0x802c5404",
+    "w3d_card_guide_format": "0x802c54d4",
+    "w3d_card_guide_unformat": "0x802c556c",
+    "w3d_card_guide_get": "0x802c5c18"
+  },
+  "descriptions": {
+    "w3d_card_guide_probe": "Memory-card guide: probes the card for memory and sector size, logs the result and maps it to a guide message.",
+    "w3d_card_guide_mount": "Memory-card guide: mounts the card with the guide's work area, logs the result and maps it to a guide message.",
+    "w3d_card_guide_check": "Memory-card guide: checks the mounted card's file system, logs the result and maps it to a guide message.",
+    "w3d_card_guide_format": "Memory-card guide: formats the card, logs the result and maps it to a guide message.",
+    "w3d_card_guide_unformat": "Memory-card guide: unformats the card, logs the result and maps it to a guide message.",
+    "w3d_card_guide_get": "Returns the global registry list at 0x80368bd8 used by the reference-counted objects created at 0x802c5c68."
+  }
+}

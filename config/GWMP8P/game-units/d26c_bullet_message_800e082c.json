@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_bullet_message_800e082c",
+  "source": "source/matching/game/d26c/d26c_bullet_message_800e082c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_bullet_message_800e082c": "0x800e082c"
+  },
+  "descriptions": {
+    "d26c_bullet_message_800e082c": "Id 64: run the base handler and on success start through 0x800e1420 and return 0, else return 0x80004005. Id 66: stop through 0x800e1cbc. Cached ids: an owner match sets state 3, a link through 0x800dfd8c sets state 3 when the Desc allows it, an owner match sets state 1, or clears +48 and the state. Other paths return the base handler result (0x8015fb34)."
+  }
+}

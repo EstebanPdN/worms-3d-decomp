@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b2_update_800e8934",
+  "source": "source/matching/game/sol35b2/sol35b2_update_800e8934.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b2_update_800e8934": "0x800e8934"
+  },
+  "descriptions": {
+    "sol35b2_update_800e8934": "Skip updates while the scene timer helper reports paused; otherwise synchronize, update three attached-object paths and two virtual entries, then conditionally refresh display and trail state. Return zero; semantic type names are inferred."
+  }
+}

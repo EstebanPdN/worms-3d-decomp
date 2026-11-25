@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dz_801daf5c",
+  "source": "source/matching/game/s21/s21_dz_801daf5c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_clearing_801daf5c": "0x801daf5c"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_clearing_801daf5c": "Appears to be a deleting destructor that releases the held interface through virtual slot 4, clears the pointer and deletes the object when the low flag bit is set."
+  }
+}

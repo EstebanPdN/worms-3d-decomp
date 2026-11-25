@@ -1,0 +1,12 @@
+{
+  "unit": "d24f_registry_destroy_80352cf4",
+  "source": "source/matching/game/d24f/d24f_registry_destroy_80352cf4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24f_registry_destroy_80352cf4": "0x80352cf4"
+  },
+  "descriptions": {
+    "d24f_registry_destroy_80352cf4": "Sets vtable 0x80413a38; under a guard calling virtual slots 12 and 16 it notifies every listener in the set through the listener's slot 20 with the registry, then erases all nodes (clear when the range is whole, otherwise node-by-node with the rebalance helper 0x80352010). Clears and releases the tree header, sets base vtable 0x80413a50, and deletes itself when flag bit 0 is set."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_801bcb0c",
+  "source": "source/matching/game/k2b/k2b_a_801bcb0c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_node_construct_801bcb0c": "0x801bcb0c"
+  },
+  "descriptions": {
+    "w3d_k2b_node_construct_801bcb0c": "Appears to construct a node on its base constructor, install its vtable, set three vectors and a link, and set a flag bit."
+  }
+}

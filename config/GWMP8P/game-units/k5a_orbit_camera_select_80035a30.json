@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_orbit_camera_select_80035a30",
+  "source": "source/matching/game/k5a/k5a_orbit_camera_select_80035a30.cpp",
+  "language": "cpp",
+  "functions": {"k5a_orbit_camera_select_80035a30": "0x80035a30"},
+  "descriptions": {"k5a_orbit_camera_select_80035a30": "Appears to announce the first living worm, or fall back to the orbit camera with input ignored when none is found."}
+}

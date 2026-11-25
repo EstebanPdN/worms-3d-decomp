@@ -1,0 +1,11 @@
+{
+  "unit": "cx10a_flag_scales_80086160",
+  "source": "source/matching/game/cx10a/cx10a_flag_scales_80086160.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10a_flag_scales_80086160": "0x80086160"
+  },
+  "descriptions": {
+    "w3d_cx10a_flag_scales_80086160": "Selects float scale outputs from eight observed flag masks with ordered small-data accesses; names and volatile qualifiers inferred."
+  }
+}

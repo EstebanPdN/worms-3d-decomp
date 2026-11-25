@@ -1,0 +1,17 @@
+{
+  "unit": "d26h_camera_spline_step_800b01b0",
+  "source": "source/matching/game/d26h/d26h_camera_spline_step_800b01b0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26h_camera_spline_step_800b01b0": "0x800b01b0"
+  },
+  "descriptions": {
+    "d26h_camera_spline_step_800b01b0": "With no next node, copies the current node position to the output and returns 1. Otherwise computes cardinal spline weights from the tension and phase, fetches four segment points (0x800afeb8), writes the blended point, advances the phase by one over the frame count, and on passing 1.0 moves to the next node, renames the loop item (0x801790bc), posts an 8-byte message and returns 0."
+  }
+}

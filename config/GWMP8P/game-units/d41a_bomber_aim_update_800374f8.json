@@ -1,0 +1,14 @@
+{
+  "unit": "d41a_bomber_aim_update_800374f8",
+  "source": "source/matching/game/d41a/d41a_bomber_aim_update_800374f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41a_bomber_aim_update_800374f8": "0x800374f8"
+  },
+  "descriptions": {
+    "w3d_d41a_bomber_aim_update_800374f8": "Updates the bomber aim marker's angles from the owner actor's direction."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "unit": "gensinitc_800616a8",
+  "source": "source/matching/game/generated/gensinitc_800616a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sinit_800616a8": "0x800616a8",
+    "w3d_sinit_80070780": "0x80070780",
+    "w3d_sinit_80118120": "0x80118120",
+    "w3d_sinit_8012b000": "0x8012b000",
+    "w3d_sinit_801686a4": "0x801686a4",
+    "w3d_sinit_8019401c": "0x8019401c",
+    "w3d_sinit_8019e398": "0x8019e398",
+    "w3d_sinit_801fbeac": "0x801fbeac",
+    "w3d_sinit_801fc6d0": "0x801fc6d0",
+    "w3d_sinit_802c1dd8": "0x802c1dd8"
+  },
+  "descriptions": {
+    "w3d_sinit_800616a8": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_80070780": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_80118120": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_8012b000": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_801686a4": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_8019401c": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_8019e398": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_801fbeac": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_801fc6d0": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls.",
+    "w3d_sinit_802c1dd8": "Static initializer (priority 0xffff): constructs 1 file-scope object(s) in place and makes 1 other registration calls."
+  }
+}

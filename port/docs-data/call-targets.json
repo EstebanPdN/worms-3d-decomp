@@ -1,0 +1,44 @@
+{
+"source/matching/game/d31s/d31s_queue_dump_80165018.cpp": {
+"__ZN4_STL8pop_heapI5Ptr32I15D31sQueueRecordE13D31sQueueLessEEvT_S5_T0_": "0x8034a7fc"
+},
+"source/matching/game/d40j/d40j_reset_queue_times_80164070.cpp": {
+"__ZN4_STL8pop_heapI5Ptr32I15D31sQueueRecordE13D31sQueueLessEEvT_S5_T0_": "0x8034a7fc",
+"__ZN4_STL9push_heapI5Ptr32I15D31sQueueRecordE13D31sQueueLessEEvT_S5_T0_": "0x8034a400"
+},
+"source/matching/game/d42x/d42x_mask_list_fill_insert_80350dd8.cpp": {
+"__ZN4_STL6vectorIi15ModuleAllocatorIiEE14_M_fill_insertE5Ptr32IiEjRKi": "0x80350a78"
+},
+"source/matching/game/d43k/d43k_pair_tree_insert_hint_80355fa0.cpp": {
+"__ZN4_STL8_Rb_treeI14D43kPairRecordS1_NS_9_IdentityIS1_EENS_4lessIS1_EENS_9allocatorIS1_EEE13insert_uniqueERKS1_": "0x80355e40"
+},
+"source/matching/game/d31e/d31e_dump_object_801b25e8.cpp": {
+"__ZN6WriterlsEPKc": "0x8020dbf8",
+"__ZN6WriterlsERK6String": "0x8020d82c",
+"__ZN6WriterlsEj": "0x8020d980"
+},
+"source/matching/game/d32a/d32a_chat_message_receive_800396a8.cpp": {
+"__ZN6StringC1EPKc": "0x8020bb54",
+"__ZN6StringC1Ei": "0x8020bcc0"
+},
+"source/matching/game/d32a/d32a_chat_target_name_80039c1c.cpp": {
+"__ZN6StringC1EPKc": "0x8020bb54",
+"__ZN6StringC1Ei": "0x8020bcc0"
+},
+"source/matching/game/d32s/d32s_anim_bind_80195838.cpp": {
+"__ZN4_STL6vectorI15D32sAnimBinding15ModuleAllocatorIS1_EE14_M_fill_insertE5Ptr32IS1_EjRKS1_": "0x803501ac",
+"__ZN4_STL6vectorIf15ModuleAllocatorIfEE14_M_fill_insertE5Ptr32IfEjRKf": "0x80350848"
+},
+"source/matching/game/d32s/d32s_anim_load_801953e8.cpp": {
+"__ZN4_STL6vectorI15D32sAnimBinding15ModuleAllocatorIS1_EE14_M_fill_insertE5Ptr32IS1_EjRKS1_": "0x803501ac",
+"__ZN4_STL6vectorIf15ModuleAllocatorIfEE14_M_fill_insertE5Ptr32IfEjRKf": "0x80350848"
+},
+"source/matching/game/d32s/d32s_stream_init_801fa20c.cpp": {
+"__ZN4_STL6vectorIfNS_9allocatorIfEEE14_M_fill_insertE5Ptr32IfEjRKf": "0x80359f84",
+"__ZN4_STL6vectorIhNS_9allocatorIhEEE14_M_fill_insertE5Ptr32IhEjRKh": "0x80359d9c"
+},
+"source/matching/game/d33j/d33j_set_track_source_801944d0.cpp": {
+"__ZN4_STL6vectorI7D33jKey15ModuleAllocatorIS1_EE14_M_fill_insertE5Ptr32IS1_EjRKS1_": "0x8034f47c",
+"__ZN4_STL6vectorI9D33jTrack15ModuleAllocatorIS1_EE14_M_fill_insertE5Ptr32IS1_EjRKS1_": "0x8034f9e8"
+}
+}

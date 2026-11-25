@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_hud_text_start_8011ae58",
+  "source": "source/matching/game/d24i/d24i_hud_text_start_8011ae58.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_hud_text_start_8011ae58": "0x8011ae58"
+  },
+  "descriptions": {
+    "d24i_hud_text_start_8011ae58": "Start a HUD text element: calls its virtual +52, resolves its text object (+28, 0x80343580) and applies a stack style record through the text's virtual +84 (scale 5.0f on three axes, white colour, opaque black shadow, flag 0); then calls 0x8011adf8 with the small-data settings 0x804af3b0 and 0x804af3b4, its virtual +48 with state 2, and subscribes to the cached message 0x804af3a8 with slot +48."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "e12d_select_music_802644a8",
+  "source": "source/matching/game/e12d/e12d_select_music_802644a8_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "e12d_select_music_802644a8": "0x802644a8"
+  },
+  "descriptions": {
+    "e12d_select_music_802644a8": "Front-end music selection on the music owner: save the old mode, store neutral mode 3, compare the requested name against Normal (using the comparison result itself as the normal mode value), Vocal and Credits, remembering the corresponding track name. When the mode changed, fade the playing handle with 2000 ms (200 ms when no new track) or release it when it is not playing, then create and start the new track when one was selected. Preserve comparison order, mode stores, handle release/reset lifetime, callback order and live service reloads. Partial owner, music and audio-service views; complete class sizes unknown. No owned initialized data."
+  }
+}

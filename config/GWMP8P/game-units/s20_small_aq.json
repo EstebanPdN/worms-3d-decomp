@@ -1,0 +1,15 @@
+{
+  "unit": "s20_small_aq",
+  "source": "source/matching/game/s20/s20_small_aq.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_trigger_effect_800e64e8": "0x800e64e8",
+    "w3d_s20_check_then_count_8016b6d8": "0x8016b6d8",
+    "w3d_s20_init_global_object_8016f574": "0x8016f574"
+  },
+  "descriptions": {
+    "w3d_s20_trigger_effect_800e64e8": "Appears to look up a resource key through a helper, prime an effect with constants 6 and 1 and start a second effect when the returned flag byte is nonzero.",
+    "w3d_s20_check_then_count_8016b6d8": "Appears to return a nonzero helper result unchanged, otherwise loop over an item's count field without per-element work and return 0.",
+    "w3d_s20_init_global_object_8016f574": "Appears to initialize a global object with a vtable, constants and links, register it with a helper and return 0."
+  }
+}

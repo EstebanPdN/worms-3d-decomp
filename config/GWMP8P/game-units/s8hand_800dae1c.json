@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800dae1c",
+  "source": "source/matching/game/s8hand_800dae1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_register_fields_800dae1c": "0x800dae1c"
+  },
+  "descriptions": {
+    "s8_register_fields_800dae1c": "Registers ten object fields using cached message identifiers, then initializes and posts a created message for the object ID."
+  }
+}

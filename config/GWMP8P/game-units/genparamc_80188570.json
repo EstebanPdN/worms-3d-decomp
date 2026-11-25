@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_80188570",
+  "source": "source/matching/game/generated/genparamc_80188570.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_set_highlight_80188570": "0x80188570",
+    "w3d_set_highlight_80188618": "0x80188618"
+  },
+  "descriptions": {
+    "w3d_set_highlight_80188570": "Holds a reference to the node, applies the highlighted or normal style value to it and sets or clears the highlight flag; returns zero.",
+    "w3d_set_highlight_80188618": "Holds a reference to the node, applies the highlighted or normal style value to it and sets or clears the highlight flag; returns zero."
+  }
+}

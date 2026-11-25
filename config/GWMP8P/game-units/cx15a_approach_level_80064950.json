@@ -1,0 +1,14 @@
+{
+  "unit": "cx15a_approach_level_80064950",
+  "source": "source/matching/game/cx15a/cx15a_approach_level_80064950.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_approach_level_80064950": "0x80064950"
+  },
+  "descriptions": {
+    "w3d_cx15a_approach_level_80064950": "Move a level toward its target by the queried step, clamp close or negative deltas, and refresh the effect."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

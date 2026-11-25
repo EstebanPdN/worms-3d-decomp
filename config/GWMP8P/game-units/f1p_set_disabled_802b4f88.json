@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_set_disabled_802b4f88",
+  "source": "source/matching/game/f1p/f1p_set_disabled_802b4f88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_set_disabled_802b4f88": "0x802b4f88"
+  },
+  "descriptions": {
+    "w3d_set_disabled_802b4f88": "When carrier +0x28 has a value at +0x9c, raises update guard +0xf4, writes the inverse of the incoming disabled word into optional property +0xfc according to kind zero/one through original helpers, stores the disabled word at +0xdc, and clears the update guard. Inferred field meanings; exact bool-copy and callback order."
+  }
+}

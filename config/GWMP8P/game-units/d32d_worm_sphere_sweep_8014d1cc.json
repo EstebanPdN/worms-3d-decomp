@@ -1,0 +1,14 @@
+{
+  "unit": "d32d_worm_sphere_sweep_8014d1cc",
+  "source": "source/matching/game/d32d/d32d_worm_sphere_sweep_8014d1cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32d_worm_sphere_sweep_8014d1cc": "0x8014d1cc"
+  },
+  "descriptions": {
+    "w3d_d32d_worm_sphere_sweep_8014d1cc": "Test a moving sphere against a worm and record the earliest hit."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

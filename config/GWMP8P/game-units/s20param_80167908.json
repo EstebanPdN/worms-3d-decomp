@@ -1,0 +1,13 @@
+{
+  "unit": "s20param_80167908",
+  "source": "source/matching/game/generated/s20param_80167908.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_get_matrix_80167908": "0x80167908",
+    "w3d_s20_set_matrix_801a0890": "0x801a0890"
+  },
+  "descriptions": {
+    "w3d_s20_get_matrix_80167908": "Appears to copy a 48-byte matrix from the object into the caller's output and return the output.",
+    "w3d_s20_set_matrix_801a0890": "Appears to copy a 48-byte matrix from the argument into the object and return zero."
+  }
+}

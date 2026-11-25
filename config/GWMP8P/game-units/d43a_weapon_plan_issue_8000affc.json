@@ -1,0 +1,14 @@
+{
+  "unit": "d43a_weapon_plan_issue_8000affc",
+  "source": "source/matching/game/d43a/d43a_weapon_plan_issue_8000affc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43a_weapon_plan_issue_8000affc": "0x8000affc"
+  },
+  "descriptions": {
+    "w3d_d43a_weapon_plan_issue_8000affc": "Issues the ordered AI command list for a planned weapon use, driven by the plan's flag bits: settle wait, spread randomisation of the aim vector, weapon select, optional point commands, aim angle and power, fuse, target part, and finishing commands."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

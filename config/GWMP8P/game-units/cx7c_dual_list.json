@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_dual_list",
+  "source": "source/matching/game/cx7c/cx7c_dual_list.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_dual_list_construct_80357568": "0x80357568"
+  },
+  "descriptions": {
+    "w3d_cx7c_dual_list_construct_80357568": "Constructs two 12-byte polymorphic list-owner subobjects, at offsets +0 and +12, each with an allocated circular sentinel and allocation fallback; class meanings inferred."
+  }
+}

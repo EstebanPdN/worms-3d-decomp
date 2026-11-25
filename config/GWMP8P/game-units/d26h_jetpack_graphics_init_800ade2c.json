@@ -1,0 +1,17 @@
+{
+  "unit": "d26h_jetpack_graphics_init_800ade2c",
+  "source": "source/matching/game/d26h/d26h_jetpack_graphics_init_800ade2c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26h_jetpack_graphics_init_800ade2c": "0x800ade2c"
+  },
+  "descriptions": {
+    "d26h_jetpack_graphics_init_800ade2c": "Loads the Jetpack body and two Jetpack.Afterburn and two Rocket.Flames effects at +32 to +48, hides and rotates the afterburns by pi/2, attaches all four to the body at the two global bones, sets the flame scale at +100, posts the target message with the id at +20, clears six counters, resolves the four jetpack sounds into +84 to +96 and binds the Jetpack.SuperThrustMax property at +112."
+  }
+}

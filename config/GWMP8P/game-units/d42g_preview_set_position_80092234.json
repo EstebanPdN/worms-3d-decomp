@@ -1,0 +1,15 @@
+{
+  "unit": "d42g_preview_set_position_80092234",
+  "source": "source/matching/game/d42g/d42g_preview_set_position_80092234.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d42g"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d42g_preview_set_position_80092234": "0x80092234"
+  },
+  "descriptions": {
+    "d42g_preview_set_position_80092234": "Store a position in the preview, project it through two row pairs with offsets minus the given points into two output vectors, then reset and reposition the chunk cursor at the truncated integer coordinates."
+  }
+}

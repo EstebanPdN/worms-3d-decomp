@@ -1,0 +1,13 @@
+{
+  "unit": "gensinitdc_8019bc9c",
+  "source": "source/matching/game/generated/gensinitdc_8019bc9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sinit_8019bc9c": "0x8019bc9c",
+    "w3d_sinit_8021c884": "0x8021c884"
+  },
+  "descriptions": {
+    "w3d_sinit_8019bc9c": "Static initializer (priority 0xffff): sets 0 file-scope pointer(s) from a shared base pointer, then makes 5 constructor/registration call(s).",
+    "w3d_sinit_8021c884": "Static initializer (priority 0xffff): sets 0 file-scope pointer(s) from a shared base pointer, then makes 26 constructor/registration call(s)."
+  }
+}

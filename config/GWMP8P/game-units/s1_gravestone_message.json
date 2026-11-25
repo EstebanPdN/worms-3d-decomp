@@ -1,0 +1,1 @@
+{"unit":"s1_gravestone_message","source":"source/matching/game/s1_gravestone_message.cpp","language":"cpp","functions":{"w3d_fn_8004d870":"0x8004d870"},"descriptions":{"w3d_fn_8004d870":"Initializes a gravestone creation message with two vectors, a style byte, and an owner field."}}

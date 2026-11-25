@@ -1,0 +1,11 @@
+{
+  "unit": "f7a_team_message_80296de0",
+  "language": "cpp",
+  "source": "source/matching/game/f7a/f7a_team_message_80296de0.cpp",
+  "functions": {
+    "w3d_f7a_team_message_80296de0": "0x80296de0"
+  },
+  "descriptions": {
+    "w3d_f7a_team_message_80296de0": "Dispatch the observed frontend team messages, including initialization, selection, property publication, text-copy updates, parsed numeric settings and game-type refreshes. Calls and both overloaded string constructors are bound by original instruction witnesses; semantic roles and string storage inferred."
+  }
+}

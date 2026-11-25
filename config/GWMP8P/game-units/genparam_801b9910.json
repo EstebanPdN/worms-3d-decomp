@@ -1,0 +1,25 @@
+{
+  "unit": "genparam_801b9910",
+  "source": "source/matching/game/generated/genparam_801b9910.c",
+  "language": "c",
+  "functions": {
+    "w3d_ctor_held_801b9910": "0x801b9910",
+    "w3d_ctor_held_801c3f60": "0x801c3f60",
+    "w3d_ctor_held_801c9320": "0x801c9320",
+    "w3d_ctor_held_801ca254": "0x801ca254",
+    "w3d_ctor_held_80229c80": "0x80229c80",
+    "w3d_ctor_held_8023b738": "0x8023b738",
+    "w3d_ctor_held_8023befc": "0x8023befc",
+    "w3d_ctor_held_8023c470": "0x8023c470"
+  },
+  "descriptions": {
+    "w3d_ctor_held_801b9910": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12.",
+    "w3d_ctor_held_801c3f60": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12.",
+    "w3d_ctor_held_801c9320": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12.",
+    "w3d_ctor_held_801ca254": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12.",
+    "w3d_ctor_held_80229c80": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12.",
+    "w3d_ctor_held_8023b738": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12.",
+    "w3d_ctor_held_8023befc": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12.",
+    "w3d_ctor_held_8023c470": "Constructor: runs the base constructor, installs the class vtable, and stores the shared global interface in two members, retaining it each time through virtual slot 12."
+  }
+}

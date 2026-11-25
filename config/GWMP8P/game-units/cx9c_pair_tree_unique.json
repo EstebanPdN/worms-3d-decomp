@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_pair_tree_unique",
+  "source": "source/matching/game/cx9c/cx9c_pair_tree_unique.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_pair_tree_unique_80355e40": "0x80355e40"
+  },
+  "descriptions": {
+    "w3d_cx9c_pair_tree_unique_80355e40": "Inferred unique insertion for an unsigned-pair-key red-black tree."
+  }
+}

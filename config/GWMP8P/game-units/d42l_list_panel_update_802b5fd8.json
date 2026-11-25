@@ -1,0 +1,14 @@
+{
+  "unit": "d42l_list_panel_update_802b5fd8",
+  "source": "source/matching/game/d42l/d42l_list_panel_update_802b5fd8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d42l_list_panel_update_802b5fd8": "0x802b5fd8"
+  },
+  "descriptions": {
+    "d42l_list_panel_update_802b5fd8": "Runs the panel's fixed 20 ms ticks: activates when pending, steps the spinner rotation toward its target and eases the scroll offset, then pushes it to the list and tracker."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fl_801f3ccc",
+  "source": "source/matching/game/s21/s21_fl_801f3ccc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_clear_flags_801f3ccc": "0x801f3ccc"
+  },
+  "descriptions": {
+    "w3d_s21_clear_flags_801f3ccc": "Appears to walk every node of a global list and clear the top bit of its flag word at offset 32."
+  }
+}

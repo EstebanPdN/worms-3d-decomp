@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801f725c",
+  "source": "source/matching/game/k5b/k5b_a_801f725c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_matrix4_axis_angle_801f725c": "0x801f725c"
+  },
+  "descriptions": {
+    "w3d_k5b_matrix4_axis_angle_801f725c": "Appears to build a 4x4 rotation matrix (no translation) from a unit axis and an angle (sine 0x802e88ac, cosine 0x802e86d4)."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

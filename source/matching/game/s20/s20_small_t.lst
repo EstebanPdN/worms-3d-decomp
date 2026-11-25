@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_small_t.c
+w3d_s20_destruct_counted_80172b64|0x80172b64|Appears to install a vtable, decrement a global instance count, release the held object and forward to a base destructor.

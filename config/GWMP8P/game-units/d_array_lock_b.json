@@ -1,0 +1,19 @@
+{
+  "unit": "d_array_lock_b",
+  "source": "source/matching/game/d_array_lock_b.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_array_write_8024b8dc": "0x8024b8dc",
+    "w3d_array_write_8024b998": "0x8024b998",
+    "w3d_array_write_80251064": "0x80251064",
+    "w3d_array_write_802514f8": "0x802514f8",
+    "w3d_array_write_802515b4": "0x802515b4"
+  },
+  "descriptions": {
+    "w3d_array_write_8024b8dc": "Opens the record's shared array for writing, resizing or appending as flags ask; likely copies it first if shared.",
+    "w3d_array_write_8024b998": "Opens the record's shared array for writing, resizing or appending as flags ask; likely copies it first if shared.",
+    "w3d_array_write_80251064": "Opens the record's shared array for writing, resizing or appending as flags ask; likely copies it first if shared.",
+    "w3d_array_write_802514f8": "Opens the record's shared array for writing, resizing or appending as flags ask; likely copies it first if shared.",
+    "w3d_array_write_802515b4": "Opens the record's shared array for writing, resizing or appending as flags ask; likely copies it first if shared."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "unit": "d41g_terrain_mesh_build_b_80087128",
+  "source": "source/matching/game/d41g/d41g_terrain_mesh_build_b_80087128.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41g"
+  ],
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d41g_terrain_mesh_build_b_80087128": "0x80087128"
+  },
+  "descriptions": {
+    "d41g_terrain_mesh_build_b_80087128": "Rebuilds a terrain mesh: optional preview setup, clears the per-group counters and the index buffer, builds seven rows, offsets each vertex, interpolates the low and high layer tables by height, transforms it through the mesh matrix and snaps y to a sixteenth, runs the water shade, assigns the group buffers and draw callbacks and renders the grid layers."
+  }
+}

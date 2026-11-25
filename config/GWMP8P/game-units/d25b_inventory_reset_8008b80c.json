@@ -1,0 +1,11 @@
+{
+  "unit": "d25b_inventory_reset_8008b80c",
+  "source": "source/matching/game/d25b/d25b_inventory_reset_8008b80c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_inventory_reset_8008b80c": "0x8008b80c"
+  },
+  "descriptions": {
+    "w3d_d25b_inventory_reset_8008b80c": "Inventory weapon slots reset: formats sixteen and then four resource names into a string (0x8020c510, formats 0x8037de84 and 0x8037de98), loads each inventory object through one handle (0x800fc1b0, 0x80341584, 0x80179598) and clears its counters at +20 and +24 to +64."
+  }
+}

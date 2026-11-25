@@ -1,0 +1,11 @@
+{
+  "unit": "f8a_destroy_selection_802856b4",
+  "language": "cpp",
+  "source": "source/matching/game/f8a/f8a_destroy_selection_802856b4.cpp",
+  "functions": {
+    "_._21F8aSelection_802856b4": "0x802856b4"
+  },
+  "descriptions": {
+    "_._21F8aSelection_802856b4": "Destroy the complete 272-byte selection UI object with native C++ lifetimes: release four interfaces and a three-element interface array, destroy every 12-byte interface/index/string entry and its storage, then destroy the bases with observed flags. Storage matches the original 0x110-byte factory allocation; types and semantic names inferred."
+  }
+}

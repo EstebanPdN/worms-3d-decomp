@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_msg_a.c
+w3d_s20_reset_with_message_80156190|0x80156190|Appears to post a message, notify two helpers and set sixteen slots starting at offset 312 to minus one.

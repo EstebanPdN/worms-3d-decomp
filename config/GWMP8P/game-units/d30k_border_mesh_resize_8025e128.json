@@ -1,0 +1,14 @@
+{
+  "unit": "d30k_border_mesh_resize_8025e128",
+  "source": "source/matching/game/d30k/d30k_border_mesh_resize_8025e128.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d30k_border_mesh_resize_8025e128": "0x8025e128"
+  },
+  "descriptions": {
+    "w3d_d30k_border_mesh_resize_8025e128": "Updates the vertex positions and bounds of a nine-patch border mesh for a new size."
+  }
+}

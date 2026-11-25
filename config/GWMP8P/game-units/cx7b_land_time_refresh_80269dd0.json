@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_land_time_refresh_80269dd0",
+  "source": "source/matching/game/cx7b/cx7b_land_time_refresh_80269dd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_land_time_refresh_80269dd0": "0x80269dd0"
+  },
+  "descriptions": {
+    "w3d_cx7b_land_time_refresh_80269dd0": "When owner +496 is zero, read FE.Land.Time into a local integer, select state 1, and refresh the owner."
+  }
+}

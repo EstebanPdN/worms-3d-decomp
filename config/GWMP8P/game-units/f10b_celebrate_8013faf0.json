@@ -1,0 +1,11 @@
+{
+  "unit": "f10b_celebrate_8013faf0",
+  "source": "source/matching/game/f10b/f10b_celebrate_8013faf0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f10b_celebrate_8013faf0": "0x8013faf0"
+  },
+  "descriptions": {
+    "f10b_celebrate_8013faf0": "Guard current-worm celebration, choose one of nine original animation paths with the observed salute-to-taunt fallthrough, and conditionally select one of three praise lines. Random results are unsigned; names and interfaces are inferred."
+  }
+}

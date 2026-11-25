@@ -1,0 +1,15 @@
+{
+  "unit": "d30d_message_service_ctor_8016169c",
+  "source": "source/matching/game/d30d/d30d_message_service_ctor_8016169c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30d_message_service_ctor_8016169c": "0x8016169c"
+  },
+  "descriptions": {
+    "d30d_message_service_ctor_8016169c": "Message service constructor: base constructor, vtable, global self pointer, reads MRS.MaxMessages and MRS.MaxInterests with defaults 500 and 4096, allocates the table, the pool of 20-byte records, and four arrays of three-word lists with a count cookie, clears the table, resizes the free pool vector at 0x80455244 to the interest count and points each element at its pool record. Returns this."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_du_802cd26c",
+  "source": "source/matching/game/s21/s21_du_802cd26c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_append_position_802cd26c": "0x802cd26c"
+  },
+  "descriptions": {
+    "w3d_s21_append_position_802cd26c": "Appears to format a message from two one-based numbers into a temporary string and append it to the first argument's text."
+  }
+}

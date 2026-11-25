@@ -1,0 +1,11 @@
+{
+  "unit": "s21_k_8026f948",
+  "source": "source/matching/game/s21/s21_k_8026f948.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_gauge_sync_8026f948": "0x8026f948"
+  },
+  "descriptions": {
+    "w3d_s21_gauge_sync_8026f948": "Appears to refresh a gauge value from its source, optionally store it as the target and notify a held object."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d40f_follower_update_80284f84",
+  "source": "source/matching/game/d40f/d40f_follower_update_80284f84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40f_follower_update_80284f84": "0x80284f84"
+  },
+  "descriptions": {
+    "w3d_d40f_follower_update_80284f84": "Moves the follower target to a fixed distance from its position along their difference, then sets the part rotation from the arc of the x component (pi offset, negated when y is positive) and the part position to the new position minus the offset; returns 0."
+  }
+}

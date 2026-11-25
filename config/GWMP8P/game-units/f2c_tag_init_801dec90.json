@@ -1,0 +1,11 @@
+{
+  "unit": "f2c_tag_init_801dec90",
+  "source": "source/matching/game/f2c/f2c_tag_init_801dec90.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2c_tag_init_801dec90": "0x801dec90"
+  },
+  "descriptions": {
+    "f2c_tag_init_801dec90": "Initialize the observed tag and two strings, assign the external text, set scalar and float fields, then conditionally release the held interface and clear it. Layout and names inferred."
+  }
+}

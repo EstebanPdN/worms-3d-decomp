@@ -1,0 +1,11 @@
+{
+  "unit": "cc25a_grid_rectangle_init_8001ee00",
+  "source": "source/matching/game/cc25a/cc25a_grid_rectangle_init_8001ee00.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc25a_grid_rectangle_init_8001ee00": "0x8001ee00"
+  },
+  "descriptions": {
+    "cc25a_grid_rectangle_init_8001ee00": "Initialize horizontal grid rectangle from center/radius using original float conversions, then reset iteration cursors and state."
+  }
+}

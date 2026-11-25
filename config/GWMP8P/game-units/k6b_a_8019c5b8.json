@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8019c5b8",
+  "source": "source/matching/game/k6b/k6b_a_8019c5b8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_dispatcher_run_8019c5b8": "0x8019c5b8"
+  },
+  "descriptions": {
+    "w3d_k6b_dispatcher_run_8019c5b8": "Appears to release and clear the result at +44 of the primary object, dispatch to the target through 0x801a4874 and hand any new result to the target at +64."
+  }
+}

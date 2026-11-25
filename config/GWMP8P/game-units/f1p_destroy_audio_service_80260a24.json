@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_destroy_audio_service_80260a24",
+  "source": "source/matching/game/f1p/f1p_destroy_audio_service_80260a24.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._13F1pAudioOwner": "0x80260a24"
+  },
+  "descriptions": {
+    "_._13F1pAudioOwner": "Install the observed service table, stop and clear the two active interfaces, reset state and global publication, then destroy the string and held interface members in native C++ order before the original service base. Partial field roles inferred from original instructions; twenty trailing slots reflect the observed constructor storage."
+  }
+}

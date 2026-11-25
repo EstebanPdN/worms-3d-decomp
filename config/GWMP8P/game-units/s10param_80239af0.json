@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_80239af0",
+  "source": "source/matching/game/generated/s10param_80239af0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_init_two_properties_80239af0": "0x80239af0"
+  },
+  "descriptions": {
+    "w3d_s10_init_two_properties_80239af0": "Initializes two named properties through the observed helper and invokes the final registration helper, returning zero."
+  }
+}

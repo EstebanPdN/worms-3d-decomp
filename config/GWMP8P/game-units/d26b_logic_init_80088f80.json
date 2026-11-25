@@ -1,0 +1,11 @@
+{
+  "unit": "d26b_logic_init_80088f80",
+  "source": "source/matching/game/d26b/d26b_logic_init_80088f80.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26b_logic_init_80088f80": "0x80088f80"
+  },
+  "descriptions": {
+    "w3d_d26b_logic_init_80088f80": "Game logic initialization: subscribes the object to 55 cached messages through 0x8015f5a0 and 0x80162024, each with its handler slot, reads the random number, wind, active worm and mine settings into +248 to +284 (0x800fc1b0), loads the sudden damage object into +360 (0x80342a78), runs 0x8008c954 and 0x8008cf40, clears +288, +292, +364, +368, +372, and loads the good shot and random crate objects as retained references into +376 and +380 (0x803426b4)."
+  }
+}

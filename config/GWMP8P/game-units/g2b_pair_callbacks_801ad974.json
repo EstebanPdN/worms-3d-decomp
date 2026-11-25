@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_pair_callbacks_801ad974",
+  "source": "source/matching/game/g2b/g2b_pair_callbacks_v1_801ad974.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_pair_callbacks_801ad974": "0x801ad974"
+  },
+  "descriptions": {
+    "g2b_pair_callbacks_801ad974": "Clears owner next item, invokes each present item callback through the secondary indexed callback table, retains each resulting next item in a complete native one-pointer local holder and clears the owner slot. If either result exists, queries801ad108, assigns the saved second and first references to matching result fields, and retains the queried item in owner next. Destroys both local holders and returns zero. All receivers are partial external views, never locally constructed; names inferred, no owned data. Explicit temporary initialization and nontrivial held copy construction recover original native local lifetimes; reset is a pointer-parameter assignment that retains before release and stores after release. No artificial reservation or padding."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_child_services_clear_802c7014",
+  "source": "source/matching/game/cx11b/cx11b_child_services_clear_802c7014.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_child_services_clear_802c7014": "0x802c7014"
+  },
+  "descriptions": {
+    "w3d_cx11b_child_services_clear_802c7014": "Drain child services, release the child container, and release the remaining held interfaces."
+  }
+}

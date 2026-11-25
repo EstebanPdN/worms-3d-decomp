@@ -1,0 +1,15 @@
+{
+  "unit": "d41d_worm_sim_update_80144904",
+  "source": "source/matching/game/d41d/d41d_worm_sim_update_80144904.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d41d_worm_sim_update_80144904": "0x80144904"
+  },
+  "descriptions": {
+    "w3d_d41d_worm_sim_update_80144904": "Per-frame update of a worm's simulation: reads the simulation entry, runs behaviour and targeting, steps the state machine (idle, walking, jumping, falling, swimming, drowning, parachute stages, death), selects the animation and control mode, copies position, rotation, velocity and other state back to the entry, and reschedules itself on a 20 ms step."
+  }
+}

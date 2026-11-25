@@ -1,0 +1,11 @@
+{
+  "unit": "f9a_image_resolve_8028d8ec",
+  "source": "source/matching/game/f9a/f9a_image_resolve_8028d8ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f9a_image_resolve_8028d8ec": "0x8028d8ec"
+  },
+  "descriptions": {
+    "w3d_f9a_image_resolve_8028d8ec": "Copy the supplied by-value shared string into the caller output, look up its interface, and for virtual kind4 register the observed callback when the listener field at212 is empty and replace output from the looked-up string. Empty input or resolved text assigns the observed fallback and returns0; otherwise return the suffix parser result. Explicit native string and handle lifetimes match observed cleanup. Image and listener roles and class names inferred; self and interface layouts are partial views, and extern data remains unowned."
+  }
+}

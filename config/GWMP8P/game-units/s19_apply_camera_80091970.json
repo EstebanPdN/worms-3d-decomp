@@ -1,0 +1,11 @@
+{
+  "unit": "s19_apply_camera_80091970",
+  "source": "source/matching/game/s19/s19_apply_camera_80091970.c",
+  "language": "c",
+  "functions": {
+    "s19_apply_camera_80091970": "0x80091970"
+  },
+  "descriptions": {
+    "s19_apply_camera_80091970": "Appears to call virtual slot 8 of the secondary table at +0xae8 with two vectors of the new object and remember it when it changed."
+  }
+}

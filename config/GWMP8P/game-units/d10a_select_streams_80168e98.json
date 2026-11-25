@@ -1,0 +1,11 @@
+{
+  "unit": "d10a_select_streams_80168e98",
+  "source": "source/matching/game/d10a/d10a_select_streams_80168e98_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10a_select_streams_80168e98": "0x80168e98"
+  },
+  "descriptions": {
+    "d10a_select_streams_80168e98": "Bind mandatory position and optional normal/color/texture streams through descriptor-indexed handlers, copy the current index-width bit to each stream, assemble attribute masks, and publish split/shared state while preserving callback and pointer-store order."
+  }
+}

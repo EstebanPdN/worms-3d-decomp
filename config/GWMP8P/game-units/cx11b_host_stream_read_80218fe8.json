@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_host_stream_read_80218fe8",
+  "source": "source/matching/game/cx11b/cx11b_host_stream_read_80218fe8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_host_stream_read_80218fe8": "0x80218fe8"
+  },
+  "descriptions": {
+    "w3d_cx11b_host_stream_read_80218fe8": "Read from the original host handle, trace the transfer, and return the original zero-transfer or failure status."
+  }
+}

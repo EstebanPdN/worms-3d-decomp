@@ -1,0 +1,341 @@
+{
+  "origin": "https://ftp.gnu.org/gnu/gcc/gcc-2.95.3/gcc-everything-2.95.3.tar.gz",
+  "archive_sha256": "2a950e220c2f64c4abf781be3bb6d4c472ef8b3685873e77061788df85c6d5da",
+  "license": "SGI/HP permissive STL notices in each header; libstdc++ COPYING (GPL with runtime exception)",
+  "copied_without_source_edits": true,
+  "selected_files": "libstdc++/stl and gcc/cp/inc (new, typeinfo, exception) headers",
+  "files": [
+    {
+      "path": "gcc/cp/inc/exception",
+      "sha256": "6956b782485f45fe3dbc00caf8311e85df005e097d0d4d43ee511231e0d22232"
+    },
+    {
+      "path": "gcc/cp/inc/new",
+      "sha256": "07412b2ff8c6818fcad2186c06c15bda88e0d8f4f2f0faf660981e48c603b3b1"
+    },
+    {
+      "path": "gcc/cp/inc/new.h",
+      "sha256": "e9e7e99c08fb6e33bdd8ababaf9ef0300b8deb797dc0b58f550415148bb57131"
+    },
+    {
+      "path": "gcc/cp/inc/typeinfo",
+      "sha256": "c6e77173f1ab39bc19e03902183fe4b8bab0799d6340946fe276539d7311a430"
+    },
+    {
+      "path": "libstdc++/stl/ChangeLog",
+      "sha256": "4207fa8e2237b989f33b52ca81de2e6a9600eb45b4edd7415a4c7a4aebda4ba6"
+    },
+    {
+      "path": "libstdc++/stl/README",
+      "sha256": "89efe48881b3eff9e760bfff4f44b5db4a6d38f95ad52e8a933449ee4074afa5"
+    },
+    {
+      "path": "libstdc++/stl/algo.h",
+      "sha256": "07421d8b070c4023c2e60833b824038970ea66304f0fa6b815a6430eb341b2be"
+    },
+    {
+      "path": "libstdc++/stl/algobase.h",
+      "sha256": "0da564a323acd60fb932b40a0fbd699b1b5794ef9b679e80633826d725b265c8"
+    },
+    {
+      "path": "libstdc++/stl/algorithm",
+      "sha256": "4b26fa58a6c27c9fbdd5e98de181ac783755dac3549b3fc23675dfdf479c0162"
+    },
+    {
+      "path": "libstdc++/stl/alloc.h",
+      "sha256": "5f646b1869d242252cf0fb20c0bc8358e021997a8df3311d61ab80af6c38620f"
+    },
+    {
+      "path": "libstdc++/stl/bitset",
+      "sha256": "a5c4d4af77a076ad6915b7df80ef806818a87e26a5115861c10e04c528ba882b"
+    },
+    {
+      "path": "libstdc++/stl/bvector.h",
+      "sha256": "8b9d4bd80e0216109de70773c8d098ee5b9e74da4da2568828ccf3c519c20e57"
+    },
+    {
+      "path": "libstdc++/stl/defalloc.h",
+      "sha256": "7eb676f8c3c916755e0d6c04494193b618b93f6b119a17c317ed6f0b01fbc0d7"
+    },
+    {
+      "path": "libstdc++/stl/deque",
+      "sha256": "a52b3531fd78b7b131d9aa9ae6b884696fcc585b3393d36ed529918725363124"
+    },
+    {
+      "path": "libstdc++/stl/deque.h",
+      "sha256": "833261d495de0c7348b2db81a22b63629fa2fc4be216325e4a5d8040a5ba923d"
+    },
+    {
+      "path": "libstdc++/stl/function.h",
+      "sha256": "7b03d43682c0a7de2d2ecba24c2bc2a6e6846b471dfb649db197b288c3dd64b8"
+    },
+    {
+      "path": "libstdc++/stl/functional",
+      "sha256": "0e91e89486adf1a4467af9ac1cd53c51dbae1f38b371ba144379093fc8520e0c"
+    },
+    {
+      "path": "libstdc++/stl/hash_map",
+      "sha256": "65e1d5939cfdf9bb8f2f17607d4221d6d3d824d43236ced2d1537d52072bd86a"
+    },
+    {
+      "path": "libstdc++/stl/hash_map.h",
+      "sha256": "b70da7cfcc9a0c1df86fca6d93d6af940ad03044a90ee11cfa3fbffcaca399ae"
+    },
+    {
+      "path": "libstdc++/stl/hash_set",
+      "sha256": "8f84715a8cd8f4b538107716670fed7033d007f827b476f26a066c2aeac704c2"
+    },
+    {
+      "path": "libstdc++/stl/hash_set.h",
+      "sha256": "c0b6def4afa9761cc6c73e35b192874229614e215796ecda79d6e91ca99afc47"
+    },
+    {
+      "path": "libstdc++/stl/hashtable.h",
+      "sha256": "0b8a701eebcd380d30a1fd19dcd260d6a09a5582462f3f8253ebca2aec77ed27"
+    },
+    {
+      "path": "libstdc++/stl/heap.h",
+      "sha256": "81b53ed8f459e98b1fddb12c89fc1425dfaa566180a2f330352bcd4f89477413"
+    },
+    {
+      "path": "libstdc++/stl/iterator",
+      "sha256": "ebbc095fda5a34be9dbf1e137aef67cb04ab0a031d8a1da78070cf429844fc80"
+    },
+    {
+      "path": "libstdc++/stl/iterator.h",
+      "sha256": "919fa206cecd2eb8a2e11d0ebe14c570e4ac5b3620bfe886e2256f90ae510504"
+    },
+    {
+      "path": "libstdc++/stl/list",
+      "sha256": "95faeda2c418361b56dfc238a11ddc11a51eaa05c116c041af84dbdbfef2c89b"
+    },
+    {
+      "path": "libstdc++/stl/list.h",
+      "sha256": "03a46d05c72a7ef87684d9bbb38ba11a12454784a1e3ebe8b3c56906b0cfaf8b"
+    },
+    {
+      "path": "libstdc++/stl/map",
+      "sha256": "f236426842603789a37a542e72955a39deaaed65a6e651be7e80eceed438a55a"
+    },
+    {
+      "path": "libstdc++/stl/map.h",
+      "sha256": "cafbc053c1ec70f151575cfd9549d297cff47514623eecc6d2063ce742d7161e"
+    },
+    {
+      "path": "libstdc++/stl/memory",
+      "sha256": "07d0ed6d70212761e0582ef7caa21ce4f21773ea0db7c22979ffd2c2743e1dc1"
+    },
+    {
+      "path": "libstdc++/stl/multimap.h",
+      "sha256": "9f41ba6dfac28b6f9e6f524adc06670244ff0f8c60c531a747d06d3f9df9ef6c"
+    },
+    {
+      "path": "libstdc++/stl/multiset.h",
+      "sha256": "f65bd389874a38f510d25c9ebcb245596b2e0e8620b167937e559cb7d1e11fb4"
+    },
+    {
+      "path": "libstdc++/stl/numeric",
+      "sha256": "a8cc712a2b307f48e841c0867197a68a286e57c1a7f6190a3e69e6b522fcbae7"
+    },
+    {
+      "path": "libstdc++/stl/pair.h",
+      "sha256": "b51396cfe920329ac97636cc180b3a3afae4ba3c12712f2e193a3d29bbc6268e"
+    },
+    {
+      "path": "libstdc++/stl/pthread_alloc",
+      "sha256": "d59949579921641595abf85c857becf8a42fa0bb98de41433b71f3df573f8d5b"
+    },
+    {
+      "path": "libstdc++/stl/pthread_alloc.h",
+      "sha256": "43219995a269188bf6b2923b63de1dd80a5486fa3ec38ed5459ab566c62ad5fd"
+    },
+    {
+      "path": "libstdc++/stl/queue",
+      "sha256": "304dbd3720d365fd1ea5f8985cfc3251c4f1d91f659eb8221b12bc3ded50c934"
+    },
+    {
+      "path": "libstdc++/stl/rope",
+      "sha256": "ae2aa2c711ee4036a2ab0247c1a5bc0498a2581010ba5904d4f3ebd896dbe433"
+    },
+    {
+      "path": "libstdc++/stl/rope.h",
+      "sha256": "2e60bfa05e431d3bdbdfede946386a29352d5a072cd799a71f29b6a75546164a"
+    },
+    {
+      "path": "libstdc++/stl/ropeimpl.h",
+      "sha256": "dbefd2e7746b28dd857ff8b7046b8c24450044673b677fcd3685c15e94a8904c"
+    },
+    {
+      "path": "libstdc++/stl/set",
+      "sha256": "1d99e630a7222d42c11be42d523f47417f1c790a8e9a19e491fa93d6d25b3de9"
+    },
+    {
+      "path": "libstdc++/stl/set.h",
+      "sha256": "2a3e26993899e91df1d0b2782df0c1dcdc63a5c50704433251fb7c98fe769276"
+    },
+    {
+      "path": "libstdc++/stl/slist",
+      "sha256": "f234961776209b05a7d9945ffee9fe4f5aa2f8ed28f2d85bf30e94abc167025d"
+    },
+    {
+      "path": "libstdc++/stl/slist.h",
+      "sha256": "391fe80cd0d0102fac49375e788619eb8178763cd6f6cdec8892a08d3accb646"
+    },
+    {
+      "path": "libstdc++/stl/stack",
+      "sha256": "20d2a7d723ac1dc666e36ac7c635e0bb2ff1816f6dc87f257b140704201702c1"
+    },
+    {
+      "path": "libstdc++/stl/stack.h",
+      "sha256": "3c3e1d11a5044d69dbc0190780046280b4d14b841bd487f4bcc833c277a31265"
+    },
+    {
+      "path": "libstdc++/stl/stl_algo.h",
+      "sha256": "5d17d172f69f15f86eb199d4dbe15c290a9bb0092659542743d444c729ba36fb"
+    },
+    {
+      "path": "libstdc++/stl/stl_algobase.h",
+      "sha256": "2e59da60b4f9b7e837000b8e459b43491a8b11e4f700a6587f081168eaa370d1"
+    },
+    {
+      "path": "libstdc++/stl/stl_alloc.h",
+      "sha256": "25d2d31bff341893b694f9085ff2f2d9a772f0e9c7e5ce3308fe6f6341c99124"
+    },
+    {
+      "path": "libstdc++/stl/stl_bvector.h",
+      "sha256": "c1fc202bc5b0f0211017264735a9b0df22499d17046fdf4b15df8ecd4bf64cf4"
+    },
+    {
+      "path": "libstdc++/stl/stl_config.h",
+      "sha256": "831e6c5322d4ed959ed13c03d5e1330d7e47b386eb2185837e79b18ed996f591"
+    },
+    {
+      "path": "libstdc++/stl/stl_construct.h",
+      "sha256": "4b4e8a7c77c607f6363f08bedba9fe1c6619baea9f25c3da761c8634dd3af4a9"
+    },
+    {
+      "path": "libstdc++/stl/stl_deque.h",
+      "sha256": "9c47559317ff97908bf9aabbcaa57ed21ddc7f9c0135fa43800f5a8aa06452b6"
+    },
+    {
+      "path": "libstdc++/stl/stl_function.h",
+      "sha256": "390359bf9395c3adbe69725e57eeba67b5a67707bad730d5e943585bd56bdb6c"
+    },
+    {
+      "path": "libstdc++/stl/stl_hash_fun.h",
+      "sha256": "edf2e3ef491998c9263372f7da767cd9fc7f36ce18878f0fbafe8fb47a17792a"
+    },
+    {
+      "path": "libstdc++/stl/stl_hash_map.h",
+      "sha256": "cff5d52b35f3b1928923100d41c79fe5557ab0fc3252baee61c52198d5cb5ccd"
+    },
+    {
+      "path": "libstdc++/stl/stl_hash_set.h",
+      "sha256": "2c4fd7d8f60ed5aa59a4db41fa04ad2be53db1ee80819ef3b5bdb5b670cca9ae"
+    },
+    {
+      "path": "libstdc++/stl/stl_hashtable.h",
+      "sha256": "128ff3f89fd80e665de17d9b87560a05936ed4cf51a4b4ed6b5f71e255ce0e0c"
+    },
+    {
+      "path": "libstdc++/stl/stl_heap.h",
+      "sha256": "a0f17ab388f6ae584236f7190a99bc72b7095275eb729475656fc13970362514"
+    },
+    {
+      "path": "libstdc++/stl/stl_iterator.h",
+      "sha256": "ea933fe81e87cadf2c32970c8881662cad2bbc542db192afac32ef419aa3ff0d"
+    },
+    {
+      "path": "libstdc++/stl/stl_list.h",
+      "sha256": "ed5aa6649dc52dc3d4fa91231451769e597d5c7bb269459c78d12f5203e8c3a0"
+    },
+    {
+      "path": "libstdc++/stl/stl_map.h",
+      "sha256": "591af6d0cffb191d3e9b35611d7a47c14a0834efa0700dd7dbeedfa6c5b0c58e"
+    },
+    {
+      "path": "libstdc++/stl/stl_multimap.h",
+      "sha256": "72f727db2a490d8f6bdc0fd6a19bd7ba12aa202563cd6e39d3884ce5b0950ff7"
+    },
+    {
+      "path": "libstdc++/stl/stl_multiset.h",
+      "sha256": "34684a3ce700020352ca67ed3c9062be71cd612d98ae506a48345d57d7e90337"
+    },
+    {
+      "path": "libstdc++/stl/stl_numeric.h",
+      "sha256": "49efdffb54a93f832b6db064f1d989bdf60c8d4bac2bd651a29ed4bf8db8caf9"
+    },
+    {
+      "path": "libstdc++/stl/stl_pair.h",
+      "sha256": "256f94c7c00e11bbcc71b637b1477e12d9afa897bacda9f5f43a6577e3f95de3"
+    },
+    {
+      "path": "libstdc++/stl/stl_queue.h",
+      "sha256": "a36dd668cb6fa081f87caddc206bd791d72166ae2685cd52461970495446c71a"
+    },
+    {
+      "path": "libstdc++/stl/stl_raw_storage_iter.h",
+      "sha256": "0989b1d1489dbcce376b632f93be5da05899cb77a4555e860828997a3a647329"
+    },
+    {
+      "path": "libstdc++/stl/stl_relops.h",
+      "sha256": "684315cc5a8ffbba7db56752ed35263200981a10f195e1b1c0d4fe4a7c3e7518"
+    },
+    {
+      "path": "libstdc++/stl/stl_rope.h",
+      "sha256": "3f22e39e7db45e9bcb73958dd79d931b7e4505cad69f10e0474fb804eae1f414"
+    },
+    {
+      "path": "libstdc++/stl/stl_set.h",
+      "sha256": "712463ab18d09b9641798fbb402d9b18ac27356b0fff8996606177e0d194fde4"
+    },
+    {
+      "path": "libstdc++/stl/stl_slist.h",
+      "sha256": "4896a5e904ebe2a06663c712a40beb16795241b264fcac9c40140108210d734b"
+    },
+    {
+      "path": "libstdc++/stl/stl_stack.h",
+      "sha256": "0f27400121dcc97fc536ea6440681e9f9a1f1d1cb142f8f1d681d9a25d7a6fe1"
+    },
+    {
+      "path": "libstdc++/stl/stl_tempbuf.h",
+      "sha256": "12bbe301536e64984b9d945dc6bf9f67faf3c711234b76328cac95a4db76d204"
+    },
+    {
+      "path": "libstdc++/stl/stl_tree.h",
+      "sha256": "8fb676967f91f85670b0371a58eb0049e4f39c25002f50a5dda220257ac4d395"
+    },
+    {
+      "path": "libstdc++/stl/stl_uninitialized.h",
+      "sha256": "31a7740afa34505d9a2aff4bc475af3b53c2784f20349666d0d364b0debdd900"
+    },
+    {
+      "path": "libstdc++/stl/stl_vector.h",
+      "sha256": "e77b871327e81a5449f699fba4d9498ad4d2f55544f1533e2d84a87674d65ae4"
+    },
+    {
+      "path": "libstdc++/stl/tempbuf.h",
+      "sha256": "9adf62771bebd10a1542366f9ddfcb7827fc2ca4f6f473b80b8a871b39823997"
+    },
+    {
+      "path": "libstdc++/stl/tree.h",
+      "sha256": "f8a759ef88dec9e8b2d6b1a590eb597be21bc7dc2d4edc55d6ebd0f5a61ccb52"
+    },
+    {
+      "path": "libstdc++/stl/type_traits.h",
+      "sha256": "f86bf3aed5c0322aae8e53fab94df7e78c992a38e0ee69e1aa9368a36f660e44"
+    },
+    {
+      "path": "libstdc++/stl/utility",
+      "sha256": "726981183b22106f5624513b0b94465f48f8f4480ec799ae873798a50e93e041"
+    },
+    {
+      "path": "libstdc++/stl/vector",
+      "sha256": "07a256832d9b3c3f07155c04c73319ed9a9152a086908fcc801b16c273eaf268"
+    },
+    {
+      "path": "libstdc++/stl/vector.h",
+      "sha256": "237dbd687ea8ee42e1bb1f8582028bd649fe4c950631b21f1ea9d35b0960dcb1"
+    }
+  ]
+}

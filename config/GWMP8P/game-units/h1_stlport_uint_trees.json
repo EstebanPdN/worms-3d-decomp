@@ -1,0 +1,31 @@
+{
+  "unit": "h1_stlport_uint_trees",
+  "source": "source/matching/game/h1/h1_stlport_uint_trees.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_rb_decrement_803526a0": "0x803526a0",
+    "insert_node__19W3dUintSet_80352710P9W3dRbNodeT1RCUiT1": "0x8035256c",
+    "insert_unique__19W3dUintSet_80352710RCUi": "0x80352710",
+    "insert_node__22W3dUintIntMap_803530d0P9W3dRbNodeT1RC14W3dUintIntPairT1": "0x80352f8c",
+    "insert_unique__22W3dUintIntMap_803530d0RC14W3dUintIntPair": "0x803530d0",
+    "insert_node__22W3dUintIntMap_8035bad8P9W3dRbNodeT1RC14W3dUintIntPairT1": "0x8035b994",
+    "insert_unique__22W3dUintIntMap_8035bad8RC14W3dUintIntPair": "0x8035bad8",
+    "insert_node__26W3dUintValue16Map_8035bf94P9W3dRbNodeT1RC18W3dUintValue16PairT1": "0x8035be10",
+    "insert_unique__26W3dUintValue16Map_8035bf94RC18W3dUintValue16Pair": "0x8035bf94",
+    "insert_node__22W3dUintIntMap_8035cdb8P9W3dRbNodeT1RC14W3dUintIntPairT1": "0x8035cc74",
+    "insert_unique__22W3dUintIntMap_8035cdb8RC14W3dUintIntPair": "0x8035cdb8"
+  },
+  "descriptions": {
+    "w3d_rb_decrement_803526a0": "STLport _Rb_global<bool>::_M_decrement: returns the in-order predecessor of a node (the rightmost node when given the header).",
+    "insert_node__19W3dUintSet_80352710P9W3dRbNodeT1RCUiT1": "STLport _Rb_tree::_M_insert: allocates and links a new node under y (left or right by key), keeps leftmost/rightmost, rebalances and counts it.",
+    "insert_unique__19W3dUintSet_80352710RCUi": "STLport _Rb_tree::insert_unique for unsigned keys: finds the insertion point, inserts when the key is absent and returns (iterator, inserted).",
+    "insert_node__22W3dUintIntMap_803530d0P9W3dRbNodeT1RC14W3dUintIntPairT1": "STLport _Rb_tree::_M_insert: allocates and links a new node under y (left or right by key), keeps leftmost/rightmost, rebalances and counts it.",
+    "insert_unique__22W3dUintIntMap_803530d0RC14W3dUintIntPair": "STLport _Rb_tree::insert_unique for unsigned keys: finds the insertion point, inserts when the key is absent and returns (iterator, inserted).",
+    "insert_node__22W3dUintIntMap_8035bad8P9W3dRbNodeT1RC14W3dUintIntPairT1": "STLport _Rb_tree::_M_insert: allocates and links a new node under y (left or right by key), keeps leftmost/rightmost, rebalances and counts it.",
+    "insert_unique__22W3dUintIntMap_8035bad8RC14W3dUintIntPair": "STLport _Rb_tree::insert_unique for unsigned keys: finds the insertion point, inserts when the key is absent and returns (iterator, inserted).",
+    "insert_node__26W3dUintValue16Map_8035bf94P9W3dRbNodeT1RC18W3dUintValue16PairT1": "STLport _Rb_tree::_M_insert: allocates and links a new node under y (left or right by key), keeps leftmost/rightmost, rebalances and counts it.",
+    "insert_unique__26W3dUintValue16Map_8035bf94RC18W3dUintValue16Pair": "STLport _Rb_tree::insert_unique for unsigned keys: finds the insertion point, inserts when the key is absent and returns (iterator, inserted).",
+    "insert_node__22W3dUintIntMap_8035cdb8P9W3dRbNodeT1RC14W3dUintIntPairT1": "STLport _Rb_tree::_M_insert: allocates and links a new node under y (left or right by key), keeps leftmost/rightmost, rebalances and counts it.",
+    "insert_unique__22W3dUintIntMap_8035cdb8RC14W3dUintIntPair": "STLport _Rb_tree::insert_unique for unsigned keys: finds the insertion point, inserts when the key is absent and returns (iterator, inserted)."
+  }
+}

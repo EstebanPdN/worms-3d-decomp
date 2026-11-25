@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_buffered_stream_read_80219610",
+  "source": "source/matching/game/cx10b/cx10b_buffered_stream_read_80219610.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_buffered_stream_read_80219610": "0x80219610"
+  },
+  "descriptions": {
+    "w3d_cx10b_buffered_stream_read_80219610": "Read buffered stream data in blocks, updating optional transferred-byte output and accepting the original refill sentinel."
+  }
+}

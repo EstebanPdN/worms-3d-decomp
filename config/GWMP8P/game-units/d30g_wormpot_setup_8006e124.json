@@ -1,0 +1,11 @@
+{
+  "unit": "d30g_wormpot_setup_8006e124",
+  "source": "source/matching/game/d30g/d30g_wormpot_setup_8006e124.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30g_wormpot_setup_8006e124": "0x8006e124"
+  },
+  "descriptions": {
+    "w3d_d30g_wormpot_setup_8006e124": "Wormpot setup: fetches the WormPot object, copies tags and the five floats +20..+36 from two fresh instances of the prototype at 0x8041b170, reads FE.Wormpot.Reel1..3 (17 when absent, else the option code from 0x80178d1c) and for each reel sets the option flag of the object chosen by its code."
+  }
+}

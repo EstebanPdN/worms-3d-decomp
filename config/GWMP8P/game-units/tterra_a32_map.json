@@ -1,0 +1,7 @@
+{
+  "unit": "tterra_a32_map",
+  "source": "source/matching/game/tterra_a32/tterra_a32_map.cpp",
+  "language": "cpp",
+  "functions": {"tterra_a32_map_8007bb54": "0x8007bb54"},
+  "descriptions": {"tterra_a32_map_8007bb54": "Fill a byte buffer with an average and apply indexed byte entries."}
+}

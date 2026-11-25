@@ -1,0 +1,17 @@
+{
+  "unit": "s20_ctor_a",
+  "source": "source/matching/game/s20/s20_ctor_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_construct_header_8016f7cc": "0x8016f7cc",
+    "w3d_s20_construct_header_8019d78c": "0x8019d78c",
+    "w3d_s20_construct_header_801a0078": "0x801a0078",
+    "w3d_s20_construct_header_801d47b8": "0x801d47b8"
+  },
+  "descriptions": {
+    "w3d_s20_construct_header_8016f7cc": "Appears to install a base vtable, initialize a small header with flag value 2 and zeroed fields, then install the final vtable and return this.",
+    "w3d_s20_construct_header_8019d78c": "Appears to install a base vtable, initialize a small header with flag value 2 and zeroed fields, then install the final vtable and return this.",
+    "w3d_s20_construct_header_801a0078": "Appears to install a base vtable, initialize a small header with flag value 2 and zeroed fields, then install the final vtable and return this.",
+    "w3d_s20_construct_header_801d47b8": "Appears to install a base vtable, initialize a small header with flag value 2 and zeroed fields, then install the final vtable and return this."
+  }
+}

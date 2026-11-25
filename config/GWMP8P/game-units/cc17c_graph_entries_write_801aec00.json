@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_graph_entries_write_801aec00",
+  "source": "source/matching/game/cc17c/cc17c_graph_entries_write_801aec00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_graph_entries_write_801aec00": "0x801aec00"
+  },
+  "descriptions": {
+    "w3d_cc17c_graph_entries_write_801aec00": "Writes the owner's 24-byte graph entries to a writer: an array header with the entry count under \"Type\", then per entry its type value (\"Type\"), graph number (\"Graph\") and name value (\"Name\")."
+  }
+}

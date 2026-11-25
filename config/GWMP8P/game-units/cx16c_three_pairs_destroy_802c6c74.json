@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_three_pairs_destroy_802c6c74",
+  "source": "source/matching/game/cx16c/cx16c_three_pairs_destroy_802c6c74.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_three_pairs_destroy_802c6c74": "0x802c6c74"
+  },
+  "descriptions": {
+    "w3d_cx16c_three_pairs_destroy_802c6c74": "Finish and release shared text, release two later interface fields, destroy three two-element interface arrays in reverse order, release the earlier interface, and forward flags to the base destructor."
+  }
+}

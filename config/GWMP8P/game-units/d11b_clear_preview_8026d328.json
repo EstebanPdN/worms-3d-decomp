@@ -1,0 +1,11 @@
+{
+  "unit": "d11b_clear_preview_8026d328",
+  "source": "source/matching/game/d11b/d11b_clear_preview_8026d328_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11b_clear_preview_8026d328": "0x8026d328"
+  },
+  "descriptions": {
+    "d11b_clear_preview_8026d328": "When the root preview exists, remove PreviewLight through service slot 0xc4 with category 4. Drain the second and then first child collections while count is nonzero; capture each object/table for the item-zero and remove callback pair. Release and clear first then second handles, release the root and clear it. Preserve null checks, callback order and live owner reloads. Partial original service, owner and collection views; complete class sizes unknown. No owned initialized data."
+  }
+}

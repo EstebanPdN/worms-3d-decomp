@@ -1,0 +1,12 @@
+{
+  "unit": "d18a_register_path_command_800089c8",
+  "source": "source/matching/game/d18a/d18a_register_path_command_800089c8.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18a_register_path_command_800089c8": "0x800089c8"
+  },
+  "descriptions": {
+    "w3d_d18a_register_path_command_800089c8": "Appends a path command to the command storage at 0x804aa564 (growing it through 0x80212fd4/0x802eee50/0x802134fc when full) and registers it with 0x8002274c on 0x804aa5a4; if the jitter setting (+140 of 0x804aa6d8) is non-zero, moves each later waypoint of type 3..5 to previous + randomized offset (0x80015910); then copies the last waypoint position to 0x8041d3a0, sets 0x804aa58c and refreshes the world map 0x804b1758 through 0x8001f2cc."
+  }
+}

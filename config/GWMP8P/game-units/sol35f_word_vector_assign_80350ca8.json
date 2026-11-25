@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f_word_vector_assign_80350ca8",
+  "source": "source/matching/game/sol35f/sol35f_word_vector_assign_80350ca8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f_word_vector_assign_80350ca8": "0x80350ca8"
+  },
+  "descriptions": {
+    "sol35f_word_vector_assign_80350ca8": "Assigns a vector of four-byte words with self-assignment protection. Allocates and copies when capacity is insufficient, otherwise copies the existing prefix and any extra tail, releases replaced storage, and updates the finish pointer. GC32 layout inferred from original instructions."
+  }
+}

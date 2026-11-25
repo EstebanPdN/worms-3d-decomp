@@ -1,0 +1,8 @@
+--- a/port/core/game/d19e/d19e_widget_base_8021ef08.cpp
++++ b/port/core/game/d19e/d19e_widget_base_8021ef08.cpp
+@@ -26,4 +26,4 @@
+     unsigned short id;             // +6
++    unsigned char flags;           // PPC +11, anfitrión +8
+     unsigned char unknown8[3];
+-    unsigned char flags;           // +11
+     void clearFlag() { flags &= ~4; }

@@ -1,0 +1,11 @@
+{
+  "unit": "cc41a_import_records_8017c9f4",
+  "source": "source/matching/game/cc41a/cc41a_import_records_8017c9f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc41a_import_records_8017c9f4": "0x8017c9f4"
+  },
+  "descriptions": {
+    "cc41a_import_records_8017c9f4": "For each 24-byte input record, acquire and retain the service interface, copy with its type-selected definition, insert into the owner, and release the local reference. Track any failed insertion and update the unsigned peak count by reference selection."
+  }
+}

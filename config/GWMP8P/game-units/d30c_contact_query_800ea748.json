@@ -1,0 +1,14 @@
+{
+  "unit": "d30c_contact_query_800ea748",
+  "source": "source/matching/game/d30c/d30c_contact_query_800ea748.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30c_contact_query_800ea748": "0x800ea748"
+  },
+  "descriptions": {
+    "d30c_contact_query_800ea748": "Physics query walk: collects seen contacts, reports the first new contact, replaces the contact list."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "s2_worm_resources_r3",
+  "source": "source/matching/game/s2_worm_resources_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_worm_attach_alternate_80139858": "0x80139858",
+    "w3d_worm_attach_component_mesh_80139900": "0x80139900",
+    "w3d_worm_update_movement_80139f1c": "0x80139f1c",
+    "w3d_worm_update_blend_8013a0d4": "0x8013a0d4",
+    "w3d_angle_delta_8013aa10": "0x8013aa10"
+  },
+  "descriptions": {
+    "w3d_worm_attach_alternate_80139858": "Attaches an alternate component mesh and applies the stored weapon resource value.",
+    "w3d_worm_attach_component_mesh_80139900": "Obtains a component mesh through its accessor, attaches it and applies the stored weapon resource value.",
+    "w3d_worm_update_movement_80139f1c": "Updates the movement transform and selects directional and secondary animation controls.",
+    "w3d_worm_update_blend_8013a0d4": "Updates the named animation blend from the component while the primary control is playing.",
+    "w3d_angle_delta_8013aa10": "Returns the angular difference, adjusting values beyond either wrap threshold."
+  }
+}

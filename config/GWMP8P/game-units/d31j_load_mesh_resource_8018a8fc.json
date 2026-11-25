@@ -1,0 +1,17 @@
+{
+  "unit": "d31j_load_mesh_resource_8018a8fc",
+  "source": "source/matching/game/d31j/d31j_load_mesh_resource_8018a8fc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d31j_load_mesh_resource_8018a8fc": "0x8018a8fc"
+  },
+  "descriptions": {
+    "d31j_load_mesh_resource_8018a8fc": "Opens the object's mesh file through the loader interface, stores the mesh, node and instance references, marks parts dirty, registers the mesh with four services, sets colours, applies the option flags through virtual setters, computes a bounding box from a default sphere and rebuilds sorted edges; returns the rebuild result or 0x80004005."
+  }
+}

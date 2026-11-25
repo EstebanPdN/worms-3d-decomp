@@ -1,0 +1,20 @@
+{
+  "unit": "d40j_material_add_key_801720fc",
+  "source": "source/matching/game/d40j/d40j_material_add_key_801720fc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d40j_material_add_key_801720fc": "0x801720fc"
+  },
+  "descriptions": {
+    "w3d_d40j_material_add_key_801720fc": "Returns the index of a key byte in the set's key array; for a new key, creates two parts through 0x8020b680, adds them to the compact slot arrays at +52 and +64, appends the key and an empty 16-byte entry (STLport vector), attaches them under the object returned by the lookup service, chooses the shader type by flags bits 4 and 0x800, copies the name and shared interface, registers with both global lists, sets zero bounds and a sphere of radius 5e10 centred on the origin, and converts it to the 24-byte box with 0x801f5724. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

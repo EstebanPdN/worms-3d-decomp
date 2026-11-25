@@ -1,0 +1,11 @@
+{
+  "unit": "cc24a_planner_category_score_8001752c",
+  "source": "source/matching/game/cc24a/cc24a_planner_category_score_8001752c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_category_score_8001752c": "0x8001752c"
+  },
+  "descriptions": {
+    "cc24a_planner_category_score_8001752c": "Apply category-specific cost multipliers after initial bonus and distance falloff, including active-owner and signed-count threshold ratio."
+  }
+}

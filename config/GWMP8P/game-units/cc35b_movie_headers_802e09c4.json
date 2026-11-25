@@ -1,0 +1,11 @@
+{
+  "unit": "cc35b_movie_headers_802e09c4",
+  "source": "source/matching/game/cc35b/cc35b_movie_headers_802e09c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc35b_movie_headers_802e09c4": "0x802e09c4"
+  },
+  "descriptions": {
+    "w3d_cc35b_movie_headers_802e09c4": "Reads movie component headers in original unsigned component order. Component0 copies the three-word video header and advances the read offset12; component1 copies the four-word audio header, marks audio present and advances16. Preserves original 32-byte service reads, shared failure logging, close and mode7, unknown-component return, struct-copy store order and repeated state loads. Partial header/player views and field names are inferred from observed offsets; no complete original class-size claim. Original callees and strings803db228/803db25c remain unowned."
+  }
+}

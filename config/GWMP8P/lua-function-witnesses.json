@@ -1,0 +1,549 @@
+[
+  {
+    "module": "native_heap_adapters",
+    "variant": "game",
+    "name": "w3d_heap_allocate_entry_a",
+    "address": "0x801fe1d8",
+    "original_call_site": "0x8000344c",
+    "address_evidence_receipt": "analysis/receipts/heap-adapters-original-witnesses.json",
+    "basis": "Direct original DOL call identifies the complete native body. Inferred names/types; full resolved-byte comparison is required."
+  },
+  {
+    "module": "native_heap_adapters",
+    "variant": "game",
+    "name": "w3d_heap_allocate_entry_b",
+    "address": "0x801fe220",
+    "original_call_site": "0x8001fe0c",
+    "address_evidence_receipt": "analysis/receipts/heap-adapters-original-witnesses.json",
+    "basis": "Direct original DOL call identifies the complete native body. Inferred names/types; full resolved-byte comparison is required."
+  },
+  {
+    "module": "native_heap_adapters",
+    "variant": "game",
+    "name": "w3d_heap_allocate_with_metadata",
+    "address": "0x801fe268",
+    "original_call_site": "0x80209078",
+    "address_evidence_receipt": "analysis/receipts/heap-adapters-original-witnesses.json",
+    "basis": "Direct original DOL call identifies the complete native body. Inferred names/types; full resolved-byte comparison is required."
+  },
+  {
+    "module": "native_heap_adapters",
+    "variant": "game",
+    "name": "w3d_heap_allocate_file_line",
+    "address": "0x80209060",
+    "original_call_site": "0x801fe1e4",
+    "address_evidence_receipt": "analysis/receipts/heap-adapters-original-witnesses.json",
+    "basis": "Direct original DOL call identifies the complete native body. Inferred names/types; full resolved-byte comparison is required."
+  },
+  {
+    "module": "native_temporary_owner",
+    "variant": "game",
+    "name": "w3d_temporary_owner_allocate",
+    "address": "0x80198248",
+    "original_call_site": "0x80197db0",
+    "address_evidence_receipt": "analysis/receipts/heap-adapters-original-witnesses.json",
+    "basis": "Direct original DOL call identifies the complete native body. Inferred names/types; full resolved-byte comparison is required."
+  },
+  {
+    "module": "native_temporary_owner",
+    "variant": "game",
+    "name": "w3d_temporary_owner_release",
+    "address": "0x80198280",
+    "original_call_site": "0x80197e50",
+    "address_evidence_receipt": "analysis/receipts/heap-adapters-original-witnesses.json",
+    "basis": "Direct original DOL call identifies the complete native body. Inferred names/types; full resolved-byte comparison is required."
+  },
+  {
+    "module": "native_temporary_release",
+    "variant": "game",
+    "name": "w3d_temporary_release",
+    "address": "0x801fe160",
+    "original_call_site": "0x800bc73c",
+    "address_evidence_receipt": "analysis/receipts/temporary-release-original-witnesses.json",
+    "basis": "Direct original caller identifies this complete native temporary-release body; full resolved-byte comparison is required."
+  },
+  {
+    "module": "lstate",
+    "name": "default_panic",
+    "address": "0x802d5640",
+    "basis": "Matched f_luaopen source references this exact sibling section. Independent final-byte comparison is still required.",
+    "address_evidence_receipt": "analysis/receipts/lua-game-lstate-linked-comparison.json"
+  },
+  {
+    "module": "lua_platform",
+    "name": "w3d_heap_allocate",
+    "address": "0x802098d8",
+    "basis": "Original allocator/release entry instructions call this specific heap wrapper; complete source-built byte comparison remains required.",
+    "original_call_site": "0x8019e28c",
+    "address_evidence_receipt": "analysis/rea/engine-messaging-allocation-followup.json"
+  },
+  {
+    "module": "lua_platform",
+    "name": "w3d_heap_release",
+    "address": "0x80209920",
+    "basis": "Original allocator/release entry instructions call this specific heap wrapper; complete source-built byte comparison remains required.",
+    "original_call_site": "0x8019e2a8",
+    "address_evidence_receipt": "analysis/rea/engine-messaging-allocation-followup.json"
+  },
+  {
+    "module": "lua_platform",
+    "name": "w3d_heap_resize",
+    "address": "0x80209944",
+    "basis": "Original allocator/release entry instructions call this specific heap wrapper; complete source-built byte comparison remains required.",
+    "original_call_site": "0x8019e2b8",
+    "address_evidence_receipt": "analysis/rea/engine-messaging-allocation-followup.json"
+  },
+  {
+    "module": "lua_platform",
+    "name": "w3d_aligned_allocate",
+    "address": "0x801fe2a8",
+    "basis": "Compiler-matched heap-core branch calls this exact aligned allocator/release address. Final unmasked body comparison is required.",
+    "original_call_site": "0x8020960c",
+    "address_evidence_receipt": "analysis/receipts/lua-game-lua_platform-linked-comparison.json"
+  },
+  {
+    "module": "lua_platform",
+    "name": "w3d_aligned_release",
+    "address": "0x801fe2e0",
+    "basis": "Compiler-matched heap-core branch calls this exact aligned allocator/release address. Final unmasked body comparison is required.",
+    "original_call_site": "0x802096a0",
+    "address_evidence_receipt": "analysis/receipts/lua-game-lua_platform-linked-comparison.json"
+  },
+  {
+    "module": "lbaselib",
+    "variant": "gamelib",
+    "name": "luaB_yield",
+    "address": "0x802df564",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamelib-lbaselib/registration-proof.json",
+    "evidence_sha256": "a0733ba7edfe58cf3fa7c5b969d56abf7d4f5ed96cfc3dcd5ddc05a4f78370e5",
+    "original_data_site": "0x803dadf8"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_sin",
+    "address": "0x802df840",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daec8"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_cos",
+    "address": "0x802df884",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daed0"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_tan",
+    "address": "0x802df8c8",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daed8"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_asin",
+    "address": "0x802df90c",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daee0"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_acos",
+    "address": "0x802df950",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daee8"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_atan",
+    "address": "0x802df994",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daef0"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_ceil",
+    "address": "0x802dfa3c",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daf00"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_floor",
+    "address": "0x802dfa80",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daf08"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_sqrt",
+    "address": "0x802dfb28",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daf28"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_log",
+    "address": "0x802dfbd0",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daf40"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_log10",
+    "address": "0x802dfc14",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daf48"
+  },
+  {
+    "module": "lmathlib",
+    "variant": "gamemath",
+    "name": "math_exp",
+    "address": "0x802dfc58",
+    "basis": "Native source-owned registration data matches completely, including this function pointer. The body must also match after full relocation resolution.",
+    "address_evidence_receipt": "analysis/lua-witnesses/lua-gamemath-lmathlib/registration-proof.json",
+    "evidence_sha256": "47479e5a5359f6ed0c8621615c4c60d1956174bea21febe82508ece8f28cbad2",
+    "original_data_site": "0x803daf50"
+  },
+  {
+    "module": "message_registry_cxx",
+    "name": "w3d_message_dispatch",
+    "address": "0x8015fc38",
+    "basis": "The verified current-context post entry calls this exact dispatch wrapper at801623bc. Final complete body bytes must match.",
+    "original_call_site": "0x801623bc",
+    "address_evidence_receipt": "analysis/receipts/lua-game-message_registry_cxx-linked-comparison.json"
+  },
+  {
+    "module": "engine_dispatch",
+    "name": "w3d_engine_get_context",
+    "address": "0x80165254",
+    "basis": "Original dispatch instructions call this getter at80163580; its SDA load references the same engine context read by the dispatch body. All linked bytes must still match.",
+    "original_call_site": "0x80163580",
+    "address_evidence_receipt": "source/recovered/refined/functions/8016/80163510.asm"
+  },
+  {
+    "module": "engine_string",
+    "name": "w3d_string_base_init",
+    "address": "0x8020c5c0",
+    "original_call_site": "0x8020bb6c",
+    "basis": "Original verified from-text constructor calls this one-instruction base lifecycle entry. Complete linked body and call destination are still independently checked.",
+    "address_evidence_receipt": "analysis/receipts/lua-game-engine_string-linked-comparison.json"
+  },
+  {
+    "module": "engine_string",
+    "name": "w3d_string_base_finish",
+    "address": "0x8020c5c4",
+    "original_call_site": "0x801011d0",
+    "basis": "Original SendMessage cleanup calls this one-instruction base lifecycle entry before releasing the name. Complete linked body and call destination are still independently checked.",
+    "address_evidence_receipt": "source/recovered/refined/functions/8010/8010109c.asm"
+  },
+  {
+    "module": "message_payload",
+    "name": "w3d_message_float_init",
+    "address": "0x80069a0c",
+    "original_call_site": "0x80101300",
+    "basis": "Original typed Lua send service calls this initializer; every linked instruction must independently match.",
+    "address_evidence_receipt": "source/recovered/refined/functions/8010/80101218.asm"
+  },
+  {
+    "module": "message_payload",
+    "name": "w3d_message_int_init",
+    "address": "0x800a82f0",
+    "original_call_site": "0x801014a0",
+    "basis": "Original typed Lua send service calls this initializer; every linked instruction must independently match.",
+    "address_evidence_receipt": "source/recovered/refined/functions/8010/801013b0.asm"
+  },
+  {
+    "module": "message_payload",
+    "name": "w3d_message_string_init",
+    "address": "0x8010a8e0",
+    "original_call_site": "0x8010163c",
+    "basis": "Original typed Lua send service calls this initializer; every linked instruction must independently match.",
+    "address_evidence_receipt": "source/recovered/refined/functions/8010/80101550.asm"
+  },
+  {
+    "module": "lua_number",
+    "name": "w3d_lua_parse_number",
+    "address": "0x802d21f4",
+    "original_call_site": "0x802d2470",
+    "basis": "Original direct call from compiler-verified luaO_str2d identifies the custom float decimal reader; full unmasked byte proof is still required.",
+    "address_evidence_receipt": "analysis/receipts/lua-game-lobject-linked-comparison.json"
+  },
+  {
+    "module": "script_errors",
+    "name": "w3d_script_output_hook",
+    "address": "0x801022e8",
+    "original_call_site": "0x80102340",
+    "basis": "Original decoded call identifies the diagnostic/source support entry; final unmasked source-body comparison remains required.",
+    "address_evidence_receipt": "analysis/rea/script-error-source-dependencies.json"
+  },
+  {
+    "module": "script_errors",
+    "name": "w3d_source_line_data",
+    "address": "0x800ffb68",
+    "original_call_site": "0x80102934",
+    "basis": "Original decoded call identifies the diagnostic/source support entry; final unmasked source-body comparison remains required.",
+    "address_evidence_receipt": "analysis/rea/script-error-source-dependencies.json"
+  },
+  {
+    "module": "script_errors",
+    "name": "w3d_cached_message_base_init",
+    "address": "0x8015f4c4",
+    "original_call_site": "0x8015f53c",
+    "basis": "Original decoded call identifies the diagnostic/source support entry; final unmasked source-body comparison remains required.",
+    "address_evidence_receipt": "analysis/rea/script-error-source-dependencies.json"
+  },
+  {
+    "module": "script_errors",
+    "name": "w3d_cached_message_name_init",
+    "address": "0x8015f518",
+    "original_call_site": "0x80104044",
+    "basis": "Original decoded call identifies the diagnostic/source support entry; final unmasked source-body comparison remains required.",
+    "address_evidence_receipt": "analysis/rea/script-error-source-dependencies.json"
+  },
+  {
+    "module": "actor_type_registry",
+    "name": "w3d_actor_types_first",
+    "address": "0x8020ff3c",
+    "original_call_site": "0x8034adc4",
+    "basis": "Original type-broadcast routine calls this registry-head getter; full body and decoded call destination remain independently checked.",
+    "address_evidence_receipt": "source/recovered/refined/functions/8034/8034ad50.asm"
+  },
+  {
+    "module": "task_array_release",
+    "variant": "game",
+    "name": "w3d_task_array_release_backend",
+    "address": "0x801fe288",
+    "original_call_site": "0x801fe254",
+    "basis": "Original null-check adapter calls this entry directly; the call distinguishes the otherwise identical forwarding bodies at801fe268 and801fe288."
+  },
+  {
+    "module": "native_heap_platform",
+    "variant": "game",
+    "name": "w3d_heap_arena_low",
+    "address": "0x802fa670",
+    "original_call_site": "0x801fdfe8",
+    "basis": "Original MORECORE direct call selects this otherwise ambiguous complete getter body. Independent auditor re-decodes this branch and compares the fully relocated source body.",
+    "address_evidence_receipt": "analysis/parallel/native-heap-platform/native-bindings.json"
+  },
+  {
+    "module": "native_heap_platform",
+    "variant": "game",
+    "name": "w3d_heap_arena_high",
+    "address": "0x802fa668",
+    "original_call_site": "0x801fe008",
+    "basis": "Original MORECORE direct call selects this otherwise ambiguous complete getter body. Independent auditor re-decodes this branch and compares the fully relocated source body.",
+    "address_evidence_receipt": "analysis/parallel/native-heap-platform/native-bindings.json"
+  },
+  {
+    "module": "native_arena_setters",
+    "variant": "game",
+    "name": "w3d_arena_set_high",
+    "address": "0x802fa678",
+    "original_call_site": "0x802f8464",
+    "address_evidence_receipt": "analysis/receipts/arena-setter-original-witnesses.json",
+    "basis": "Direct original PPC call identifies the complete setter entry; full unmasked linked-byte comparison remains required."
+  },
+  {
+    "module": "native_arena_setters",
+    "variant": "game",
+    "name": "w3d_arena_set_low",
+    "address": "0x802fa680",
+    "original_call_site": "0x802f97f0",
+    "address_evidence_receipt": "analysis/receipts/arena-setter-original-witnesses.json",
+    "basis": "Direct original PPC call identifies the complete setter entry; full unmasked linked-byte comparison remains required."
+  },
+  {
+    "module": "native_request_service",
+    "variant": "game",
+    "name": "w3d_buffer_request_service",
+    "address": "0x80343944",
+    "original_call_site": "0x80197e38",
+    "address_evidence_receipt": "analysis/receipts/native-request-original-witnesses.json",
+    "basis": "Original direct call identifies the complete source-built body; all relocation-resolved bytes must match."
+  },
+  {
+    "module": "native_request_service",
+    "variant": "game",
+    "name": "w3d_buffer_request_state",
+    "address": "0x8020f3b0",
+    "original_call_site": "0x8019807c",
+    "address_evidence_receipt": "analysis/receipts/native-request-original-witnesses.json",
+    "basis": "Original direct call identifies the complete source-built body; all relocation-resolved bytes must match."
+  },
+  {
+    "module": "native_request_storage",
+    "variant": "game",
+    "name": "w3d_request_service_shutdown",
+    "address": "0x80069a64",
+    "address_evidence_receipt": "analysis/receipts/request-storage-original-witnesses.json",
+    "basis": "Original guarded getter materializes this shutdown callback in its address evidence; complete REA body and independent review disambiguate repeated wrappers."
+  },
+  {
+    "module": "native_request_storage",
+    "variant": "game",
+    "name": "w3d_request_service_destroy",
+    "address": "0x80341398",
+    "address_evidence_receipt": "analysis/receipts/request-storage-original-witnesses.json",
+    "basis": "Direct original DOL call identifies the complete destructor wrapper; full resolved bytes required.",
+    "original_call_site": "0x80069a7c"
+  },
+  {
+    "module": "native_request_storage",
+    "variant": "game",
+    "name": "w3d_request_storage_finish",
+    "address": "0x8020f938",
+    "address_evidence_receipt": "analysis/receipts/request-storage-original-witnesses.json",
+    "basis": "Direct original DOL call identifies this complete return-one body; not a reconstructed success placeholder.",
+    "original_call_site": "0x8020f498"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_SendMessage",
+    "address": "0x80101078",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_SendFloatMessage",
+    "address": "0x801011f4",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_SendIntMessage",
+    "address": "0x8010138c",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_SendStringMessage",
+    "address": "0x8010152c",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_GetData",
+    "address": "0x801016c8",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_SetData",
+    "address": "0x80101adc",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_globals",
+    "address": "0x8010208c",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_StartTimer",
+    "address": "0x80102b08",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_CancelTimer",
+    "address": "0x80102ca0",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_EditContainer",
+    "address": "0x80102dd8",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_CloseContainer",
+    "address": "0x80103230",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_QueryContainer",
+    "address": "0x8010306c",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_CopyContainer",
+    "address": "0x80103348",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_Print",
+    "address": "0x80103ea8",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "script_bridge",
+    "name": "w3d_lua_panic",
+    "address": "0x80101f90",
+    "basis": "Original initialization instructions establish the callback argument for this registration name.",
+    "address_evidence_receipt": "analysis/lua-native-bindings.json"
+  },
+  {
+    "module": "native_base_lifecycle",
+    "variant": "game",
+    "name": "w3d_state_release_reference",
+    "address": "0x8017eb50",
+    "basis": "Original complete state vtable at80412980 has function pointer8017eb50 in slot+10; complete92-byte body also agrees with fresh REA and DTK bounds.",
+    "address_evidence_receipt": "analysis/receipts/native-state-release-reference-address.json",
+    "evidence_sha256": "4d2b18e89a7c3e5ceec23437274925a979a6a3eb1ed2c195cad7de2256acf3bb",
+    "original_data_site": "0x80412990"
+  }
+]

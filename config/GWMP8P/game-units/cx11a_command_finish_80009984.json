@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_command_finish_80009984",
+  "source": "source/matching/game/cx11a/cx11a_command_finish_80009984.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_command_finish_80009984": "0x80009984"
+  },
+  "descriptions": {
+    "w3d_cx11a_command_finish_80009984": "Optionally appends an observed timing-derived command before releasing and clearing the command slot. Names inferred."
+  }
+}

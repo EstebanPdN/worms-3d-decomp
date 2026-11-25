@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_show_base_edit_80275f18",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_show_base_edit_80275f18": "0x80275f18"
+  },
+  "descriptions": {
+    "w3d_f5a_show_base_edit_80275f18": "Compose and publish the observed item base-attribute editor, including vectors, linked names, font override and enable flag; set state nineteen. Partial types and semantic roles inferred."
+  },
+  "source": "source/matching/game/f5a/f5a_show_base_edit_80275f18.cpp"
+}

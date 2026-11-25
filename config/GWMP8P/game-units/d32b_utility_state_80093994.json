@@ -1,0 +1,11 @@
+{
+  "unit": "d32b_utility_state_80093994",
+  "source": "source/matching/game/d32b/d32b_utility_state_80093994.cpp",
+  "language": "cpp",
+  "functions": {
+    "__16D32bUtilityState": "0x80093994"
+  },
+  "descriptions": {
+    "__16D32bUtilityState": "Utility state constructor: runs the actor base constructor 0x8002a914, installs the table 0x8040f1f8, zeroes the word block +64..+168, default-constructs its four Vec3 arrays (the empty counted loops), then resets its vectors and scalars; +716 and +740 are set to 1 and +760 to 750.0."
+  }
+}

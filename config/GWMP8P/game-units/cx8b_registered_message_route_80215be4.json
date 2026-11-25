@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_registered_message_route_80215be4",
+  "source": "source/matching/game/cx8b/cx8b_registered_message_route_80215be4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_registered_message_route_80215be4": "0x80215be4"
+  },
+  "descriptions": {
+    "w3d_cx8b_registered_message_route_80215be4": "Scan registered IDs backwards with the observed signed address comparison; on a match route reordered payloads with route 4."
+  }
+}

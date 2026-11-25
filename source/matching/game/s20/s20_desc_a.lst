@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_desc_a.c
+w3d_s20_register_attributes_801c99c8|0x801c99c8|Appears to register two entries and the Attributes property descriptor once, then finish through a shared routine, returning zero.

@@ -1,0 +1,13 @@
+{
+  "unit": "h1_newlib_stdio_init",
+  "source": "source/matching/game/h1/h1_newlib_stdio_init.c",
+  "language": "c",
+  "functions": {
+    "__sflags": "0x802f34c8",
+    "__sinit": "0x802eb1d4"
+  },
+  "descriptions": {
+    "__sflags": "SN newlib __sflags: maps an fopen mode string (r, w, a, optional +) to stream flags and open flags; sets EINVAL and returns 0 for other modes.",
+    "__sinit": "SN newlib __sinit: installs the cleanup hook, initializes stdin/stdout/stderr and chains a static glue block of 10 more FILEs."
+  }
+}

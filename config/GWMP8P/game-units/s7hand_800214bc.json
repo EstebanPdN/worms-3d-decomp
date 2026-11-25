@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_800214bc",
+  "source": "source/matching/game/s7/s7hand_800214bc.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800214bc": "0x800214bc"
+  },
+  "descriptions": {
+    "w3d_auto_800214bc": "Forwards the preceding call result as an explicit leading argument of the next operation, retaining the recovered field accesses and conditional flow; argument types are inferred from the original registers."
+  }
+}

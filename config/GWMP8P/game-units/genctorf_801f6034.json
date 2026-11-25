@@ -1,0 +1,13 @@
+{
+  "unit": "genctorf_801f6034",
+  "source": "source/matching/game/generated/genctorf_801f6034.c",
+  "language": "c",
+  "functions": {
+    "w3d_construct_801f6034": "0x801f6034",
+    "w3d_construct_801f67e0": "0x801f67e0"
+  },
+  "descriptions": {
+    "w3d_construct_801f6034": "Constructor: makes 0 base/member constructor call(s), stores 0 vtable or address field(s) and 9 constant field(s); leaf constructor with no return value.",
+    "w3d_construct_801f67e0": "Constructor: makes 0 base/member constructor call(s), stores 0 vtable or address field(s) and 16 constant field(s); leaf constructor with no return value."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unit": "k11b_sdk_accessors",
+  "source": "source/matching/game/k11b/k11b_sdk_accessors.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k11b_swap_value_802f778c": "0x802f778c",
+    "w3d_k11b_clear_pair_802ffcf8": "0x802ffcf8",
+    "w3d_k11b_clear_pair_802f9f64": "0x802f9f64",
+    "w3d_k11b_raise_flag_80300c18": "0x80300c18",
+    "w3d_k11b_get_word_80304c00": "0x80304c00",
+    "w3d_k11b_get_word_80306cb8": "0x80306cb8",
+    "w3d_k11b_copy_first_word_803096a4": "0x803096a4",
+    "w3d_k11b_get_field_14_8030a080": "0x8030a080",
+    "w3d_k11b_get_half_80314840": "0x80314840",
+    "w3d_k11b_get_field_88_80314bd4": "0x80314bd4",
+    "w3d_k11b_get_field_84_80314fd8": "0x80314fd8"
+  },
+  "descriptions": {
+    "w3d_k11b_swap_value_802f778c": "Appears to exchange a small-data global with a new value and return the previous value.",
+    "w3d_k11b_clear_pair_802ffcf8": "Appears to zero a two-word record, first word then second.",
+    "w3d_k11b_clear_pair_802f9f64": "Appears to zero a two-word record, second word then first.",
+    "w3d_k11b_raise_flag_80300c18": "Appears to set a small-data flag word to 1.",
+    "w3d_k11b_get_word_80304c00": "Returns a small-data word global.",
+    "w3d_k11b_get_word_80306cb8": "Returns a small-data word global.",
+    "w3d_k11b_copy_first_word_803096a4": "Copies the first word of a source block into the word at offset 12 of a record.",
+    "w3d_k11b_get_field_14_8030a080": "Returns the word at offset 20 of a record.",
+    "w3d_k11b_get_half_80314840": "Returns an unsigned halfword small-data global.",
+    "w3d_k11b_get_field_88_80314bd4": "Returns the word at offset 136 of a record.",
+    "w3d_k11b_get_field_84_80314fd8": "Returns the word at offset 132 of a record."
+  }
+}

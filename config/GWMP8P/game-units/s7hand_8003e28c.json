@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8003e28c",
+  "source": "source/matching/game/s7/s7hand_8003e28c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003e28c": "0x8003e28c"
+  },
+  "descriptions": {
+    "w3d_auto_8003e28c": "Stores the supplied word at +0x70, then passes it with the object member at +0x44 to 0x80126308."
+  }
+}

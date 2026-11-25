@@ -1,0 +1,11 @@
+{
+  "unit": "cc18b_array_write_80231f14",
+  "source": "source/matching/game/cc18b/cc18b_array_write_80231f14.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18b_array_write_80231f14": "0x80231f14"
+  },
+  "descriptions": {
+    "w3d_cc18b_array_write_80231f14": "Opens the word array at owner +56 for writing; supports append/no-shrink flags and locks an exclusive matching store in place."
+  }
+}

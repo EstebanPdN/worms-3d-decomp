@@ -1,0 +1,11 @@
+{
+  "unit": "s8small_800cfc80",
+  "source": "source/matching/game/s8small_800cfc80.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_field_test_800cfc80": "0x800cfc80"
+  },
+  "descriptions": {
+    "s8_field_test_800cfc80": "Returns whether the object word at offset 44 is nonzero."
+  }
+}

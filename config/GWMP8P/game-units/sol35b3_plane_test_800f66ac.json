@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b3_plane_test_800f66ac",
+  "source": "source/matching/game/sol35b3/sol35b3_plane_test_800f66ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b3_plane_test_800f66ac": "0x800f66ac"
+  },
+  "descriptions": {
+    "sol35b3_plane_test_800f66ac": "Test flagged entries in an indexed group against the observed three-term floating bound expression, returning zero on the first value below the external threshold and one otherwise. Native pointer-array and tail-storage views, field names and semantic interpretation remain inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_heap_resize_contiguous_802155b0",
+  "source": "source/matching/game/cx8b/cx8b_heap_resize_contiguous_802155b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_heap_resize_contiguous_802155b0": "0x802155b0"
+  },
+  "descriptions": {
+    "w3d_cx8b_heap_resize_contiguous_802155b0": "Resize a contiguous heap span through morecore and return the retained or new base, with zero for either failure."
+  }
+}

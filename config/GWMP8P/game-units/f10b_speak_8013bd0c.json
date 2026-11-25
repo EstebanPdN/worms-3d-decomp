@@ -1,0 +1,11 @@
+{
+  "unit": "f10b_speak_8013bd0c",
+  "source": "source/matching/game/f10b/f10b_speak_8013bd0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f10b_speak_8013bd0c": "0x8013bd0c"
+  },
+  "descriptions": {
+    "f10b_speak_8013bd0c": "Honor voice settings, classify special voice names, construct a reference-counted sound-bank path and replace/start the owner voice effect through observed callbacks. Native string copy/destruction and an explicit held-field reference reproduce the witnessed lifetimes. String storage is one pointer; names and virtual interfaces remain inferred."
+  }
+}

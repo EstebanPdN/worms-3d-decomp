@@ -1,0 +1,11 @@
+{
+  "unit": "s19_misc_g",
+  "source": "source/matching/game/s19/s19_misc_g.c",
+  "language": "c",
+  "functions": {
+    "s19_dispatch_indexed_800bd920": "0x800bd920"
+  },
+  "descriptions": {
+    "s19_dispatch_indexed_800bd920": "Appears to pass the table entry selected by a global index to a helper."
+  }
+}

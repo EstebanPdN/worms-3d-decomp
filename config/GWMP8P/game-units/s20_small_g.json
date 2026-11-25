@@ -1,0 +1,21 @@
+{
+  "unit": "s20_small_g",
+  "source": "source/matching/game/s20/s20_small_g.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_make_message_800fb9e0": "0x800fb9e0",
+    "w3d_s20_unregister_801655b0": "0x801655b0",
+    "w3d_s20_unregister_8017b7e8": "0x8017b7e8",
+    "w3d_s20_select_entry_8016a570": "0x8016a570",
+    "w3d_s20_set_record_flag_80199fa4": "0x80199fa4",
+    "w3d_s20_construct_pair_801bc394": "0x801bc394"
+  },
+  "descriptions": {
+    "w3d_s20_make_message_800fb9e0": "Appears to allocate an 8-byte message from a global pool, store the id copied from the argument and a table pointer, and return it.",
+    "w3d_s20_unregister_801655b0": "Appears to run a base cleanup, unregister this subobject from a global list and decrement a 16-bit count.",
+    "w3d_s20_unregister_8017b7e8": "Appears to run a base cleanup, unregister this subobject from a global list and decrement a 16-bit count.",
+    "w3d_s20_select_entry_8016a570": "Appears to pass zero or the table entry selected by an item field to a helper and return zero.",
+    "w3d_s20_set_record_flag_80199fa4": "Appears to find a record by key and set its flag bit to the given value, returning 1 when found.",
+    "w3d_s20_construct_pair_801bc394": "Appears to run a base constructor, clear two words and install a vtable pointer, returning this."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_stats_append_8010a01c",
+  "source": "source/matching/game/cc38a/cc38a_stats_append_8010a01c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_stats_append_8010a01c": "0x8010a01c"
+  },
+  "descriptions": {
+    "cc38a_stats_append_8010a01c": "Read accumulated statistics text, preserve its short-lived shared copy, append the new line and separator, and write the property back."
+  }
+}

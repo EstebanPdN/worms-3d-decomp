@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_leaf_c.c
+w3d_s20_clear_flag_for_kind_801a2324|0x801a2324|Appears to clear a byte of a global table selected by the high bits of an item word when its kind field equals 3, and returns zero.

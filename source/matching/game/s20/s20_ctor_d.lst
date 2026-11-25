@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_ctor_d.c
+w3d_s20_construct_scaled_801bd6b8|0x801bd6b8|Appears to run a base constructor, set three floats to one constant, retain a shared global object and return this.
+w3d_s20_construct_flagged_801cdd48|0x801cdd48|Appears to run a base constructor, install a vtable, set a flag, retain a shared global object and clear two bytes.

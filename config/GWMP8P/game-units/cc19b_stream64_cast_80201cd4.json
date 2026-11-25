@@ -1,0 +1,11 @@
+{
+  "unit": "cc19b_stream64_cast_80201cd4",
+  "source": "source/matching/game/cc19b/cc19b_stream64_cast_80201cd4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc19b_stream64_cast_80201cd4": "0x80201cd4"
+  },
+  "descriptions": {
+    "w3d_cc19b_stream64_cast_80201cd4": "Transfers count times eight bytes through the observed stream virtual interface; for a destination buffer applies the original 64-bit helper call and byte-swapped upper-word combination, preserving transfer status."
+  }
+}

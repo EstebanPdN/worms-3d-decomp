@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8014d59c",
+  "source": "source/matching/game/k2b/k2b_a_8014d59c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k2b_is_near_ground_8014d59c": "0x8014d59c"
+  },
+  "descriptions": {
+    "w3d_k2b_is_near_ground_8014d59c": "Appears to probe downward from the worm and report whether the contact point lies within ten units below it."
+  }
+}

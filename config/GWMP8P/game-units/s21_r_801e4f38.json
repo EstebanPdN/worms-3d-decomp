@@ -1,0 +1,11 @@
+{
+  "unit": "s21_r_801e4f38",
+  "source": "source/matching/game/s21/s21_r_801e4f38.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_hold_tick_801e4f38": "0x801e4f38"
+  },
+  "descriptions": {
+    "w3d_s21_hold_tick_801e4f38": "Appears to count down a hold counter and, when it reaches zero with a held object, notify it and send an event."
+  }
+}

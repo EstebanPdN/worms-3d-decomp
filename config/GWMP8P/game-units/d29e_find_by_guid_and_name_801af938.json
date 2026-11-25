@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_find_by_guid_and_name_801af938",
+  "source": "source/matching/game/d29e/d29e_find_by_guid_and_name_801af938.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_find_by_guid_and_name_801af938": "0x801af938"
+  },
+  "descriptions": {
+    "w3d_d29e_find_by_guid_and_name_801af938": "Searches the 24-byte-ish entries at +20 for one matching a 16-byte id and a name held in a temporary String; on a hit stores the entry's object through out, adds a reference and returns 0, otherwise stores null and returns 0x80004005. As in the original the search loop has no advance: a non-matching first entry never ends. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

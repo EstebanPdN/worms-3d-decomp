@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8019ed40",
+  "source": "source/matching/game/k6b/k6b_a_8019ed40.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_iface_array_set_8019ed40": "0x8019ed40"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_iface_array_set_8019ed40": "Appears to be a Lua binding storing a userdata interface at index n of an array field, or forwarding a table argument to 0x8019e96c."
+  }
+}

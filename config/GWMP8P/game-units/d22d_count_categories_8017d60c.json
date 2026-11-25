@@ -1,0 +1,11 @@
+{
+  "unit": "d22d_count_categories_8017d60c",
+  "source": "source/matching/game/d22d/d22d_count_categories_8017d60c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d22d_count_categories_8017d60c": "0x8017d60c"
+  },
+  "descriptions": {
+    "w3d_d22d_count_categories_8017d60c": "Category census: zeroes 1920 per-category counters on the stack, runs the five pool counters 0x80170b2c/0x8017453c/0x8017f540/0x8018a800/0x80187768 on them, then for each non-empty category copies the name string returned by the category object's slot 17 (table at +24) into a temporary reference-counted string that is destroyed immediately; returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_binder_dispatch_800ef568",
+  "source": "source/matching/game/k4a/k4a_binder_dispatch_800ef568.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_binder_dispatch_800ef568": "0x800ef568"
+  },
+  "descriptions": {
+    "k4a_binder_dispatch_800ef568": "Appears to hold a service interface, hand it a retained copy of the binder's interface and dispatch it with a settings value to the context."
+  }
+}

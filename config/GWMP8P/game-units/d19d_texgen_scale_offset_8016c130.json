@@ -1,0 +1,14 @@
+{
+  "unit": "d19d_texgen_scale_offset_8016c130",
+  "source": "source/matching/game/d19d/d19d_texgen_scale_offset_8016c130.c",
+  "language": "c",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d19d_texgen_scale_offset_8016c130": "0x8016c130"
+  },
+  "descriptions": {
+    "d19d_texgen_scale_offset_8016c130": "Build an identity 3x4 texture matrix in the render context (+968), set its S/T scale and S/T offsets, load it into the texture matrix for coordinate 'coord' (id from the const table 0x803a56b0) and generate that coordinate from 'source' through it (post matrix identity); then clear the owner's dirty word and set the coordinate state to 4."
+  }
+}

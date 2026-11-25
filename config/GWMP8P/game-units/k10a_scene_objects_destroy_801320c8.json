@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_scene_objects_destroy_801320c8",
+  "source": "source/matching/game/k10a/k10a_scene_objects_destroy_801320c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_scene_objects_destroy_801320c8": "0x801320c8"
+  },
+  "descriptions": {
+    "w3d_k10a_scene_objects_destroy_801320c8": "Appears to be the destructor of a service-derived object that releases about a hundred held interfaces, two strings and a handle member."
+  }
+}

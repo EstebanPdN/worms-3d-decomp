@@ -1,0 +1,15 @@
+{
+  "unit": "d43p_grid_pick_empty_cell_8001dd28",
+  "source": "source/matching/game/d40a/d40a_grid_finish_setup_8001d9ac.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d43p_grid_pick_empty_cell_8001dd28": "0x8001dd28"
+  },
+  "descriptions": {
+    "w3d_d43p_grid_pick_empty_cell_8001dd28": "Picks a random grid layer weighted by area, then a random cell and level of it; retries up to 500 times until the cell is empty and returns its coordinates."
+  }
+}

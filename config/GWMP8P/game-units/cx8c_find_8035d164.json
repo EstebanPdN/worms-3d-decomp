@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_find_8035d164",
+  "source": "source/matching/game/cx8c/cx8c_find_8035d164.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_find_8035d164": "0x8035d164"
+  },
+  "descriptions": {
+    "w3d_cx8c_find_8035d164": "Finds a matching signed word with four-way unrolling and a remainder switch."
+  }
+}

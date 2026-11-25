@@ -1,0 +1,11 @@
+{
+  "unit": "f13a_clip_list_800e2464",
+  "source": "source/matching/game/f13a/f13a_clip_list_800e2464.cpp",
+  "language": "cpp",
+  "functions": {
+    "f13a_clip_list_800e2464": "0x800e2464"
+  },
+  "descriptions": {
+    "f13a_clip_list_800e2464": "Parse the original mesh clip-list syntax using a 256-byte name buffer and a four-byte integer clip output: ignore spaces, start a clip on plus/comma separators, use comma to enable the next blend, recognize the colon-prefixed control marker, and apply the observed integer control flag to each started clip including the final token. Preserve the signed-character dispatch, per-iteration output-pointer lifetime, original unbounded name-copy behavior, and four-byte output footprint verified through the native clip-play helper. Mesh and registry types remain external receiver views; no game object is allocated."
+  }
+}

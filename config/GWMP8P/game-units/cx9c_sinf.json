@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_sinf",
+  "source": "source/matching/game/cx9c/cx9c_sinf.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_sinf_802e88ac": "0x802e88ac"
+  },
+  "descriptions": {
+    "w3d_cx9c_sinf_802e88ac": "Inferred newlib sinf dispatcher with argument reduction and quadrant selection."
+  }
+}

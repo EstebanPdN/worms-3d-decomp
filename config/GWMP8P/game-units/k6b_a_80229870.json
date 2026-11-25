@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80229870",
+  "source": "source/matching/game/k6b/k6b_a_80229870.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_text_triple_construct_80229870": "0x80229870"
+  },
+  "descriptions": {
+    "w3d_k6b_text_triple_construct_80229870": "Appears to construct an object over 0x801ea0ec with vtable 0x8041a0f0, zeroed +20/+28/+36 and empty shared strings at +24, +32 and +40."
+  }
+}

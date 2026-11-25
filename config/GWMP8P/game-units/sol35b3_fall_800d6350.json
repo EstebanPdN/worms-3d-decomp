@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b3_fall_800d6350",
+  "source": "source/matching/game/sol35b3/sol35b3_fall_800d6350.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b3_fall_800d6350": "0x800d6350"
+  },
+  "descriptions": {
+    "sol35b3_fall_800d6350": "Reset the observed three-component velocity, add its scaled step to position, refresh bounds and request removal below the external vertical limit. Named aggregate return and explicit float copy lifetimes reproduce native instructions; names and partial object layout remain inferred."
+  }
+}

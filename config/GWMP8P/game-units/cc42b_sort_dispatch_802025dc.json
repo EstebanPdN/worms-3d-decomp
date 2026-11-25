@@ -1,0 +1,11 @@
+{
+  "unit": "cc42b_sort_dispatch_802025dc",
+  "source": "source/matching/game/cc42b/cc42b_sort_dispatch_802025dc_v10.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc42b_sort_dispatch_802025dc": "0x802025dc"
+  },
+  "descriptions": {
+    "cc42b_sort_dispatch_802025dc": "Stably bubble-sorts observed 12-byte callback records by descending signed priority, dispatches all entries with their opaque 32-bit contexts and this owner, then clears the live range and returns zero. Callback iteration captures the end before calls; clear reloads the live endpoints after callbacks. Partial C++ range and record layouts; no whole owner-size or data ownership claim."
+  }
+}

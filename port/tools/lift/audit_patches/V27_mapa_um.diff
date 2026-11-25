@@ -1,0 +1,32 @@
+diff -ru a/port/core/game/d21a/d21a_level_load_8006d610.cpp b/port/core/game/d21a/d21a_level_load_8006d610.cpp
+--- a/port/core/game/d21a/d21a_level_load_8006d610.cpp	2026-11-05 13:07:43
++++ b/port/core/game/d21a/d21a_level_load_8006d610.cpp	2026-11-05 13:07:43
+@@ -74,6 +74,8 @@
+ extern FogRange w3d_fog_range_804aa78c;
+ extern "C" const char *w3d_mapa_um_tierra(const char *level);       /* port, v26 */
+ extern "C" const char *w3d_mapa_um_materiales(const char *level);   /* port, v26 */
++extern "C" const char *w3d_mapa_um_tema(const char *level);         /* port, v27: tema y hora del mapa de UM */
++extern "C" const char *w3d_mapa_um_hora(const char *level);
+ extern "C" char w3d_string_8037bb64[]; /* "Game.NextLevel" */
+ extern "C" char w3d_string_8037c0d4[]; /* "Land.File" */
+ extern "C" char w3d_string_8037c0e0[]; /* "GameLogic.CurrentScript" */
+@@ -102,15 +104,17 @@
+     // Port (v26): partida rápida con el mapa de Ultimate Mayhem (core/native/mapa_um.cpp): su paisaje y sus materiales.
+     const char *um_tierra = w3d_mapa_um_tierra(levelName.name.get());
+     const char *um_materiales = w3d_mapa_um_materiales(levelName.name.get());
++    const char *um_tema = w3d_mapa_um_tema(levelName.name.get());
++    const char *um_hora = w3d_mapa_um_hora(levelName.name.get());
+     if (um_tierra) SetStringProperty(w3d_string_8037c0d4, um_tierra);
+     else SetStringProperty(w3d_string_8037c0d4, level->landFile.text);
+     SetStringProperty(w3d_string_8037c0e0, level->currentScript.text);
+     Ptr32<Message> message = w3d_arena_alloc_801613f0(w3d_message_arena_804b1754, 12);
+     w3d_message_post_8016239c(w3d_message_string_init_8010a8e0(message,
+-        w3d_cached_message_id_8015f5a0(&w3d_message_804ad75c, 1), level->text64.text));
++        w3d_cached_message_id_8015f5a0(&w3d_message_804ad75c, 1), um_tema ? Ptr32<const char>(um_tema) : Ptr32<const char>(level->text64.text)));
+     message = w3d_arena_alloc_801613f0(w3d_message_arena_804b1754, 12);
+     w3d_message_post_8016239c(w3d_message_string_init_8010a8e0(message,
+-        w3d_cached_message_id_8015f5a0(&w3d_message_804ad764, 1), level->text52.text));
++        w3d_cached_message_id_8015f5a0(&w3d_message_804ad764, 1), um_hora ? Ptr32<const char>(um_hora) : Ptr32<const char>(level->text52.text)));
+     if (level->particleFile.Length()) {
+         DebugNote(level->particleFile);
+         message = w3d_arena_alloc_801613f0(w3d_message_arena_804b1754, 12);

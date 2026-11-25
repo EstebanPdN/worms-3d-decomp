@@ -1,0 +1,21 @@
+{
+  "unit": "d31s_param_float_80165e10",
+  "source": "source/matching/game/d31s/d31s_param_float_80165e10.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching",
+    "source/matching/game/d31s"
+  ],
+  "functions": {
+    "set_float__9D31sOwnerP10D31sTargeti": "0x80165e10"
+  },
+  "descriptions": {
+    "set_float__9D31sOwnerP10D31sTargeti": "Appends a default type 1 parameter item to the list, fills it and binds it to the target."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

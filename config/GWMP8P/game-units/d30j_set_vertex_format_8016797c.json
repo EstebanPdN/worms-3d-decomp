@@ -1,0 +1,14 @@
+{
+  "unit": "d30j_set_vertex_format_8016797c",
+  "source": "source/matching/game/d30j/d30j_set_vertex_format_8016797c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "functions": {
+    "d30j_set_vertex_format_8016797c": "0x8016797c"
+  },
+  "descriptions": {
+    "d30j_set_vertex_format_8016797c": "Set the GX vertex attribute format and descriptors for a format mask and lighting mode, then apply the material render state."
+  }
+}

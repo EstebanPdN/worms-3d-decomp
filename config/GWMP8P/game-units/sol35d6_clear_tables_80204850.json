@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d6_clear_tables_80204850",
+  "source": "source/matching/game/sol35d6/sol35d6_clear_tables_80204850.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d6_clear_tables_80204850": "0x80204850"
+  },
+  "descriptions": {
+    "sol35d6_clear_tables_80204850": "Clear observed vectors of 64-byte and four-byte values, clear both native trees and restore their headers, then reset state. Partial classes and names inferred."
+  }
+}

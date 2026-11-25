@@ -1,0 +1,11 @@
+{
+  "unit": "f15c_component_cleanup_80068648",
+  "source": "source/matching/game/f15c/f15c_component_cleanup_80068648.cpp",
+  "language": "cpp",
+  "functions": {
+    "f15c_component_cleanup_80068648": "0x80068648"
+  },
+  "descriptions": {
+    "f15c_component_cleanup_80068648": "Installs the observed vtable8040ef28, clears global804aaa9c and, if present, destroys the handle at receiver+104 with flags3 and clears it. Native member destruction then releases six held interfaces at392 down through372 through virtual slot16, destroys strings368 and364, destroys two ten-string arrays at280 and160 in reverse order through native array lifetimes in the inferred common subobject at+120, and releases interfaces108,100,96,32,28. Each string invokes8020c5c4 then80341588. Finally forwards the original destructor flags and receiver to8015ff2c. Factory8006849c allocates400 bytes and constructor80068570 independently establishes the string offsets; the modeled396-byte external prefix is not a claimed complete allocation or original class definition."
+  }
+}

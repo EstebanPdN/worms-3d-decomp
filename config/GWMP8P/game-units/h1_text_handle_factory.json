@@ -1,0 +1,13 @@
+{
+  "unit": "h1_text_handle_factory",
+  "source": "source/matching/game/h1/h1_text_handle_factory.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_text_handle_make_80348e34": "0x80348e34",
+    "w3d_text_handle_make_8034a128": "0x8034a128"
+  },
+  "descriptions": {
+    "w3d_text_handle_make_80348e34": "Builds the widget's text from source, stores a new tagged handle (type 10, mode 6) to it at +0x2c, refreshes the widget through vtable slot 0x88 and returns the handle.",
+    "w3d_text_handle_make_8034a128": "Builds the widget's text from source, stores a new tagged handle (type 10, mode 6) to it at +0x2c, refreshes the widget through vtable slot 0x88 and returns the handle."
+  }
+}

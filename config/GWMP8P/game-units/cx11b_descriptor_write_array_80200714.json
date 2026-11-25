@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_descriptor_write_array_80200714",
+  "source": "source/matching/game/cx11b/cx11b_descriptor_write_array_80200714.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_descriptor_write_array_80200714": "0x80200714"
+  },
+  "descriptions": {
+    "w3d_cx11b_descriptor_write_array_80200714": "Write descriptor fields, batching contiguous homogeneous fields when the stream supports that path."
+  }
+}

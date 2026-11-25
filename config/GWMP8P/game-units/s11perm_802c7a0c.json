@@ -1,0 +1,11 @@
+{
+  "unit": "s11perm_802c7a0c",
+  "source": "source/matching/game/s11_auto/s11perm_802c7a0c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802c7a0c": "0x802c7a0c"
+  },
+  "descriptions": {
+    "w3d_auto_802c7a0c": "Appears to calls 0x8020c5c0, 0x80341884, 0x802c78f4, 0x802c7894, 0x8020c5c4. m2c types and names are provisional."
+  }
+}

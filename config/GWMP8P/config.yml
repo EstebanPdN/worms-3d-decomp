@@ -1,0 +1,9 @@
+object: original/extracted/sys/main.dol
+hash: 2cd07c56dfa27413f0d8f71ab6f655b0136f504f
+
+symbols: config/GWMP8P/symbols.txt
+splits: config/GWMP8P/splits.txt
+write_asm: true
+skip_cfa_ranges:
+- start: .text:0x802E4888
+  end: .text:0x802E49C4

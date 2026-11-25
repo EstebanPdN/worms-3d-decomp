@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_child_view_initialize_802c72e4",
+  "source": "source/matching/game/cx12b/cx12b_child_view_initialize_802c72e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_child_view_initialize_802c72e4": "0x802c72e4"
+  },
+  "descriptions": {
+    "w3d_cx12b_child_view_initialize_802c72e4": "Attach the child view, invoke its original setup sequence and return a retained interface while releasing the input handle."
+  }
+}

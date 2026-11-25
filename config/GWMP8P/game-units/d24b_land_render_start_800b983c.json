@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_land_render_start_800b983c",
+  "source": "source/matching/game/d24b/d24b_land_render_start_800b983c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_land_render_start_800b983c": "0x800b983c"
+  },
+  "descriptions": {
+    "w3d_d24b_land_render_start_800b983c": "Land render start: subscribes the object (0x80162024) to three cached message ids with handler slots +28, +32, +36; creates the 2796-byte renderer (0x802098d8, 0x8008fb3c) into the global 0x804b183c; clears +40, reads settings (key 0x804aace0 into 0x804ae548, Land.Changed into +44, Sun.LightVector) and passes the vector to the renderer interface slot +20 at +2792; loads Land.LightGradientResource by name (0x800fc2b0, 0x8015adf4, cast 0x8034357c) into the retained +6208, passes member +60 of its lookup (0x80174074) to interface slot +28, releases it and clears +6208 and the globals 0x804b180c and 0x804b17fc."
+  }
+}

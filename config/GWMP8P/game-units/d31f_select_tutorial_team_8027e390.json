@@ -1,0 +1,15 @@
+{
+  "unit": "d31f_select_tutorial_team_8027e390",
+  "source": "source/matching/game/d31f/d31f_select_tutorial_team_8027e390.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d31f_select_tutorial_team_8027e390": "0x8027e390"
+  },
+  "descriptions": {
+    "d31f_select_tutorial_team_8027e390": "Tutorial team selection: copies the team into the game init data, clamps the mission and posts the populate message."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_string_allocator_initialize_8020c9a4",
+  "source": "source/matching/game/cx14b/cx14b_string_allocator_initialize_8020c9a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_string_allocator_initialize_8020c9a4": "0x8020c9a4"
+  },
+  "descriptions": {
+    "w3d_cx14b_string_allocator_initialize_8020c9a4": "Initialize the default string and allocator handle then register the original string allocator descriptor."
+  }
+}

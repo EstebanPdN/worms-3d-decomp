@@ -1,0 +1,11 @@
+{
+  "unit": "cc18a_palette_cursor_sinit_801190d8",
+  "source": "source/matching/game/cc18a/cc18a_palette_cursor_sinit_801190d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18a_palette_cursor_sinit_801190d8": "0x801190d8"
+  },
+  "descriptions": {
+    "w3d_cc18a_palette_cursor_sinit_801190d8": "Builds four observed RGBA palette entries through byte-wise color temporaries under the static-initialization guard."
+  }
+}

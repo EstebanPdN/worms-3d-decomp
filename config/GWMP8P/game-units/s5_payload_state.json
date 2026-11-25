@@ -1,0 +1,15 @@
+{
+  "unit": "s5_payload_state",
+  "source": "source/matching/game/s5_payload_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_payload_state_init_800cc8a0": "0x800cc8a0",
+    "w3d_payload_state_destroy_800cc908": "0x800cc908",
+    "w3d_payload_pending_clear_800ccd54": "0x800ccd54"
+  },
+  "descriptions": {
+    "w3d_payload_state_init_800cc8a0": "Initializes payload resource fields, a deferred container, an invalid index and mode one.",
+    "w3d_payload_state_destroy_800cc908": "Releases four held interfaces, destroys deferred storage and then destroys the payload base.",
+    "w3d_payload_pending_clear_800ccd54": "Releases and clears every deferred payload interface before clearing the container."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_trail_endpoints_800e9d08",
+  "source": "source/matching/game/cx14a/cx14a_trail_endpoints_800e9d08.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_trail_endpoints_800e9d08": "0x800e9d08"
+  },
+  "descriptions": {
+    "w3d_cx14a_trail_endpoints_800e9d08": "Resolves the trail object, reads two interface transforms into the observed matrix workspace, copies their position components, and submits both endpoints with the original zero segment flag."
+  }
+}

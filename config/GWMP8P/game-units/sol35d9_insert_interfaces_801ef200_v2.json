@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d9_insert_interfaces_801ef200_v2",
+  "source": "source/matching/game/sol35d9/sol35d9_insert_interfaces_801ef200_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d9_insert_interfaces_801ef200_v2": "0x801ef200"
+  },
+  "descriptions": {
+    "sol35d9_insert_interfaces_801ef200_v2": "Make the native interface array writable, shift its tail backward, insert pointers in reverse order and retain each inserted interface."
+  }
+}

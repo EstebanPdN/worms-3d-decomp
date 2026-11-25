@@ -1,0 +1,17 @@
+{
+  "unit": "s20_dtor_a",
+  "source": "source/matching/game/s20/s20_dtor_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_destroy_registered_80166f5c": "0x80166f5c",
+    "w3d_s20_destroy_lua_ref_8019e600": "0x8019e600",
+    "w3d_s20_destroy_list_owner_80165af0": "0x80165af0",
+    "w3d_s20_destroy_service_801a1cf0": "0x801a1cf0"
+  },
+  "descriptions": {
+    "w3d_s20_destroy_registered_80166f5c": "Appears to unregister this from a global when registered, install vtables, destroy the header sub-object and delete this when bit 0 of the flags is set.",
+    "w3d_s20_destroy_lua_ref_8019e600": "Appears to release a Lua registry reference through the owner, install vtables, destroy the header sub-object and delete this on request.",
+    "w3d_s20_destroy_list_owner_80165af0": "Appears to destroy an embedded list, free a buffer, release the held object, destroy the header sub-object and delete this on request.",
+    "w3d_s20_destroy_service_801a1cf0": "Appears to destroy a service object: run base cleanups, clear a global, release a held object, free a buffer and delete this on request."
+  }
+}

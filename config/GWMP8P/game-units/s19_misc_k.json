@@ -1,0 +1,11 @@
+{
+  "unit": "s19_misc_k",
+  "source": "source/matching/game/s19/s19_misc_k.c",
+  "language": "c",
+  "functions": {
+    "s19_unit_step_8000d568": "0x8000d568"
+  },
+  "descriptions": {
+    "s19_unit_step_8000d568": "Appears to run two setup helpers, add the selected registry entry weight scaled by a global factor to the float at +4, then scale it by a global damping and the rate at +0x64."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx16a_cache_clips_80070678",
+  "source": "source/matching/game/cx16a/cx16a_cache_clips_80070678.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16a_cache_clips_80070678": "0x80070678"
+  },
+  "descriptions": {
+    "w3d_cx16a_cache_clips_80070678": "Resolve two named mesh clips, cache both durations and reset their observed playback fields."
+  }
+}

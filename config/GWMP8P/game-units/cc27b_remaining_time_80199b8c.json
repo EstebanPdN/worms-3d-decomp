@@ -1,0 +1,11 @@
+{
+  "unit": "cc27b_remaining_time_80199b8c",
+  "source": "source/matching/game/cc27b/cc27b_remaining_time_80199b8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc27b_remaining_time_80199b8c": "0x80199b8c"
+  },
+  "descriptions": {
+    "w3d_cc27b_remaining_time_80199b8c": "Initializes the output from owner time24, traverses two observed24-byte interval ranges at32/36 and48/52 using a reference-returning maximum, and reports the final end-time difference. Stops with result0 on flag0x8000, otherwise returns1. Original comparison branch tree and alias-sensitive load/store order reproduced; semantic names are inferred."
+  }
+}

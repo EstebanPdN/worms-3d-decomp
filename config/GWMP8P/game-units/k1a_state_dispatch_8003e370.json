@@ -1,0 +1,11 @@
+{
+  "unit": "k1a_state_dispatch_8003e370",
+  "source": "source/matching/game/k1a/k1a_tick_state_8003e370.c",
+  "language": "c",
+  "functions": {
+    "k1a_state_dispatch_8003e370": "0x8003e370"
+  },
+  "descriptions": {
+    "k1a_state_dispatch_8003e370": "Appears to call a state handler when the object's state field at offset 84 equals one."
+  }
+}

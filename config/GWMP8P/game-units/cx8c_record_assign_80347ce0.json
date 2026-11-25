@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_record_assign_80347ce0",
+  "source": "source/matching/game/cx8c/cx8c_record_assign_80347ce0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_record_assign_80347ce0": "0x80347ce0"
+  },
+  "descriptions": {
+    "w3d_cx8c_record_assign_80347ce0": "Copies a record with three held interfaces, retaining each incoming pointer before releasing the old pointer, then assigns its embedded subrecord and tail."
+  }
+}

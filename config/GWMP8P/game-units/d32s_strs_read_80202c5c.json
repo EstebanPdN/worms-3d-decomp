@@ -1,0 +1,20 @@
+{
+  "unit": "d32s_strs_read_80202c5c",
+  "source": "source/matching/game/d32s/d32s_strs_read_80202c5c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "strs__14D32sStrsReader": "0x80202c5c"
+  },
+  "descriptions": {
+    "strs__14D32sStrsReader": "Reads a STRS string table into the name vector, byte-swapping the header and offsets."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

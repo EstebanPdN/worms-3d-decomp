@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_leave_menu_8028e8ec",
+  "source": "source/matching/game/f1p/f1p_leave_menu_8028e8ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_leave_menu_8028e8ec": "0x8028e8ec"
+  },
+  "descriptions": {
+    "w3d_leave_menu_8028e8ec": "Construct the witnessed FE.KillCurrentMenu cache, allocate and post its eight-byte message, decrement the two original counters, clear owner offset64, and invoke the observed leave calls only for global mode7. Cache representation and semantic roles inferred."
+  }
+}

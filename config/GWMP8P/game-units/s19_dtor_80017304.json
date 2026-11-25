@@ -1,0 +1,11 @@
+{
+  "unit": "s19_dtor_80017304",
+  "source": "source/matching/game/s19/s19_dtor_80017304.c",
+  "language": "c",
+  "functions": {
+    "s19_path_owner_destroy_80017304": "0x80017304"
+  },
+  "descriptions": {
+    "s19_path_owner_destroy_80017304": "Appears to install a vtable at +0xc, release the held object at +0x20 through its secondary table, run the path cost destructor and optionally delete."
+  }
+}

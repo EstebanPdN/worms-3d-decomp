@@ -1,0 +1,17 @@
+{
+  "unit": "d26d_worm_step_clear_801418dc",
+  "source": "source/matching/game/d26d/d26d_worm_step_clear_801418dc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26d_worm_step_clear_801418dc": "0x801418dc"
+  },
+  "descriptions": {
+    "d26d_worm_step_clear_801418dc": "Check the corner edge along the move to a target and accept or refuse the new position."
+  }
+}

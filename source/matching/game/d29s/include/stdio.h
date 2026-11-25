@@ -1,0 +1,6 @@
+#ifndef D28_STDIO
+#define D28_STDIO
+#include <../include/stddef.h>
+#include <stdarg.h>
+extern "C" { typedef struct _F FILE; typedef long fpos_t; extern FILE *stderr,*stdout,*stdin; int puts(const char*); int fprintf(FILE*,const char*,...); int printf(const char*,...); int sprintf(char*,const char*,...); int vfprintf(FILE*,const char*,char*); int vprintf(const char*,char*); int vsprintf(char*,const char*,char*); int scanf(const char*,...); int sscanf(const char*,const char*,...); int fscanf(FILE*,const char*,...); void clearerr(FILE*); int fclose(FILE*); int feof(FILE*); int ferror(FILE*); int fflush(FILE*); int fgetc(FILE*); int fgetpos(FILE*,fpos_t*); char *fgets(char*,int,FILE*); FILE *fopen(const char*,const char*); int fputc(int,FILE*); int fputs(const char*,FILE*); size_t fread(void*,size_t,size_t,FILE*); FILE *freopen(const char*,const char*,FILE*); int fseek(FILE*,long,int); int fsetpos(FILE*,const fpos_t*); long ftell(FILE*); size_t fwrite(const void*,size_t,size_t,FILE*); int getc(FILE*); int getchar(); char *gets(char*); void perror(const char*); int putc(int,FILE*); int putchar(int); int remove(const char*); int rename(const char*,const char*); void rewind(FILE*); void setbuf(FILE*,char*); int setvbuf(FILE*,char*,int,size_t); FILE *tmpfile(); char *tmpnam(char*); int ungetc(int,FILE*); }
+#endif

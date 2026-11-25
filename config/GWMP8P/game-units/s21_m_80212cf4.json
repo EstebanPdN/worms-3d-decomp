@@ -1,0 +1,11 @@
+{
+  "unit": "s21_m_80212cf4",
+  "source": "source/matching/game/s21/s21_m_80212cf4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_negative_80212cf4": "0x80212cf4"
+  },
+  "descriptions": {
+    "w3d_s21_forward_negative_80212cf4": "Appears to forward a value with a sign flag set only for kind ten with a negative value, and return its second argument."
+  }
+}

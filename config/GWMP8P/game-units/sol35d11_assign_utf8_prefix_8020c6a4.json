@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d11_assign_utf8_prefix_8020c6a4",
+  "source": "source/matching/game/sol35d11/sol35d11_assign_utf8_prefix_8020c6a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d11_assign_utf8_prefix_8020c6a4": "0x8020c6a4"
+  },
+  "descriptions": {
+    "sol35d11_assign_utf8_prefix_8020c6a4": "Assign a native shared string from a bounded UTF-8 character prefix using two scoped by-value queries and copy-on-write storage; inferred GC32 API."
+  }
+}

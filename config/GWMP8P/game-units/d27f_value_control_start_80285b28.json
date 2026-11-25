@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_value_control_start_80285b28",
+  "source": "source/matching/game/d27f/d27f_value_control_start_80285b28.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_value_control_start_80285b28": "0x80285b28"
+  },
+  "descriptions": {
+    "d27f_value_control_start_80285b28": "Frontend value control start: base init, record copy, selection setup, property binding with change callback, initial value selection by property kind, message holder setup, and activation."
+  }
+}

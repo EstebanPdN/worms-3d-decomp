@@ -1,0 +1,17 @@
+{
+  "unit": "genparam_80171c74",
+  "source": "source/matching/game/generated/genparam_80171c74.c",
+  "language": "c",
+  "functions": {
+    "w3d_pool_next_80171c74": "0x80171c74",
+    "w3d_pool_next_80174914": "0x80174914",
+    "w3d_pool_next_80184df8": "0x80184df8",
+    "w3d_pool_next_80188750": "0x80188750"
+  },
+  "descriptions": {
+    "w3d_pool_next_80171c74": "Returns the pool slot at *index, then advances *index to the next slot that is in use or whose key (virtual slot 16) equals key; -1 at the end of the pool.",
+    "w3d_pool_next_80174914": "Returns the pool slot at *index, then advances *index to the next slot that is in use or whose key (virtual slot 16) equals key; -1 at the end of the pool.",
+    "w3d_pool_next_80184df8": "Returns the pool slot at *index, then advances *index to the next slot that is in use or whose key (virtual slot 16) equals key; -1 at the end of the pool.",
+    "w3d_pool_next_80188750": "Returns the pool slot at *index, then advances *index to the next slot that is in use or whose key (virtual slot 16) equals key; -1 at the end of the pool."
+  }
+}

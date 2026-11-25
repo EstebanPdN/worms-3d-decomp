@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_read_object_file_80202714",
+  "source": "source/matching/game/d31e/d31e_read_object_file_80202714.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_read_object_file_80202714": "0x80202714"
+  },
+  "descriptions": {
+    "w3d_d31e_read_object_file_80202714": "Reads an object file into a table of objects: runs the header reader (tracing and returning on failure) and the section readers, allocates the object table at +28, creates the objects of each class record at +124 through the factory from 0x8020b648 and each class's maker, stores the root object in the result with a reference, lets each object read itself and reports it to the optional listener at +36, frees the table, and runs the sort pass with state 2. Returns 0, or E_FAIL when a class has no maker. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

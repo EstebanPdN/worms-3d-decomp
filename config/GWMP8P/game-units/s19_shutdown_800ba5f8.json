@@ -1,0 +1,11 @@
+{
+  "unit": "s19_shutdown_800ba5f8",
+  "source": "source/matching/game/s19/s19_shutdown_800ba5f8.c",
+  "language": "c",
+  "functions": {
+    "s19_shutdown_800ba5f8": "0x800ba5f8"
+  },
+  "descriptions": {
+    "s19_shutdown_800ba5f8": "Appears to run two shutdown helpers, release the global interface at sda 0x804ae548, destroy the global object and clear the global slots."
+  }
+}

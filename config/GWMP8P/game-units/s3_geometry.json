@@ -1,0 +1,29 @@
+{
+  "unit": "s3_geometry",
+  "source": "source/matching/game/s3_geometry.c",
+  "language": "c",
+  "functions": {
+    "w3d_collision_state_is_contact": "0x801418c4",
+    "w3d_motion_get_direction": "0x80146f10",
+    "w3d_motion_refresh_velocity": "0x80146f34",
+    "w3d_motion_set_actor_value": "0x801492ec",
+    "w3d_motion_has_combined_flags": "0x8014b3b4",
+    "w3d_motion_apply_velocity_constraint": "0x8014b40c",
+    "w3d_motion_get_input_direction": "0x8014c260",
+    "w3d_motion_owner_matches": "0x8014c488",
+    "w3d_motion_get_contact_point": "0x8014c4cc",
+    "w3d_motion_slope_allowed": "0x8014c7fc"
+  },
+  "descriptions": {
+    "w3d_collision_state_is_contact": "Returns whether the collision state lies between five and nine inclusive.",
+    "w3d_motion_get_direction": "Copies the stored direction to the output vector.",
+    "w3d_motion_refresh_velocity": "Refreshes velocity and doubles it when the observed speed flag is set.",
+    "w3d_motion_set_actor_value": "Sets a held actor field using a temporary handle.",
+    "w3d_motion_has_combined_flags": "Tests whether the sum of two interface integer values is nonzero.",
+    "w3d_motion_apply_velocity_constraint": "Applies two configured constraints to the stored velocity and direction.",
+    "w3d_motion_get_input_direction": "Builds a direction from input and override flags and limits its length.",
+    "w3d_motion_owner_matches": "Tests whether the owner handle identifies the stored entity.",
+    "w3d_motion_get_contact_point": "Copies the global collision contact point to the output vector.",
+    "w3d_motion_slope_allowed": "Tests whether the vector slope is within the configured maximum."
+  }
+}

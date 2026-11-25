@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_create_barracks_team_80297f7c",
+  "source": "source/matching/game/d27f/d27f_create_barracks_team_80297f7c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_create_barracks_team_80297f7c": "0x80297f7c"
+  },
+  "descriptions": {
+    "d27f_create_barracks_team_80297f7c": "Frontend new team: validates the name and barracks capacity (max 20, no duplicates), allocates a team record, sets flag and speech defaults by SAVE.Language (ten cases), applies the skill flag, appends to the barracks, writes MCa.Team and optionally selects the new team through 0x80297620."
+  }
+}

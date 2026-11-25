@@ -1,0 +1,12 @@
+{
+  "unit": "d18a_grid_register_region_8001f394",
+  "source": "source/matching/game/d18a/d18a_grid_register_region_8001f394.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18a_grid_register_region_8001f394": "0x8001f394"
+  },
+  "descriptions": {
+    "w3d_d18a_grid_register_region_8001f394": "Registers a grid region: finds an existing region with the same centre and radius through 0x8001f30c and sets its requested flag (+24); otherwise allocates a 28-byte region through 0x8001523c (position copy at +4, radius +16, active 0 +20, requested 1 +24) and appends its pointer to the grid storage at +32, growing it through 0x80212fd4/0x802eee50/0x802134fc when full."
+  }
+}

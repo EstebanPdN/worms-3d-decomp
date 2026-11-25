@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dq_8020e09c",
+  "source": "source/matching/game/s21/s21_dq_8020e09c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_list_object_8020e09c": "0x8020e09c"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_list_object_8020e09c": "Appears to be a deleting destructor that clears an embedded circular list, frees its sentinel node, installs the base vtable, destroys an embedded node and deletes the object when the low flag bit is "
+  }
+}

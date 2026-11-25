@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801ac79c",
+  "source": "source/matching/game/k4b/k4b_a_801ac79c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_lookup_component_construct_801ac79c": "0x801ac79c"
+  },
+  "descriptions": {
+    "w3d_k4b_lookup_component_construct_801ac79c": "Appears to construct a component with an ordered tree (20-byte header node from handle storage), a zeroed range pair, a link and cleared fields."
+  }
+}

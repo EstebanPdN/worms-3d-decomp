@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_vector_push_word_801f9df8",
+  "source": "source/matching/game/d24e/d24e_vector_push_word_801f9df8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_vector_push_word_801f9df8": "0x801f9df8"
+  },
+  "descriptions": {
+    "w3d_d24e_vector_push_word_801f9df8": "Appends a word to the vector and returns 0."
+  }
+}

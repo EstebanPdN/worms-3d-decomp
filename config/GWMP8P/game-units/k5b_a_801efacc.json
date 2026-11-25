@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801efacc",
+  "source": "source/matching/game/k5b/k5b_a_801efacc.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_array_field_write_801efacc": "0x801efacc"
+  },
+  "descriptions": {
+    "w3d_k5b_array_field_write_801efacc": "Appears to write an array field to a stream: its count (stream slot 40), then raw bytes (slot 38) for byte elements or per-element writes through the element type (slot 15)."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8019e848",
+  "source": "source/matching/game/k6b/k6b_a_8019e848.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_send_message_8019e848": "0x8019e848"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_send_message_8019e848": "Appears to be a Lua binding: read a target object, a number and a userdata word and send them with the message type from 0x804ab728 through 0x801ef200."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_802ddd4c",
+  "source": "source/matching/game/k6b/k6b_a_802ddd4c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_print_802ddd4c": "0x802ddd4c"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_print_802ddd4c": "Appears to be Lua 5.0 lbaselib luaB_print: convert each argument with the global tostring and write it to stdout separated by tabs, ending with a newline."
+  }
+}

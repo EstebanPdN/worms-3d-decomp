@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_push_tagged_800053e4",
+  "source": "source/matching/game/d29s/d29s_push_tagged_800053e4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d29s_push_tagged_800053e4": "0x800053e4"
+  },
+  "descriptions": {
+    "d29s_push_tagged_800053e4": "Pushes the pointer onto one of 1024 vectors picked by a 10-bit hash of its 16-bit id at +2 and increments the total at +16384."
+  }
+}

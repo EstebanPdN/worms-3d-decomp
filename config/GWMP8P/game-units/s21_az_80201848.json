@@ -1,0 +1,11 @@
+{
+  "unit": "s21_az_80201848",
+  "source": "source/matching/game/s21/s21_az_80201848.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_items_80201848": "0x80201848"
+  },
+  "descriptions": {
+    "w3d_s21_read_items_80201848": "Appears to call a virtual slot of a stream for each element of an array, advancing a non-null element pointer, stopping at the first negative status and returning zero otherwise."
+  }
+}

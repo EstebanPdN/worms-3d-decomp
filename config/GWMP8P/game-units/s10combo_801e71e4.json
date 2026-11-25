@@ -1,0 +1,13 @@
+{
+  "unit": "s10combo_801e71e4",
+  "source": "source/matching/game/auto/s10combo_801e71e4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801e71e4": "0x801e71e4",
+    "w3d_auto_801e8b04": "0x801e8b04"
+  },
+  "descriptions": {
+    "w3d_auto_801e71e4": "Installs the observed vtables, releases two held buffers and the held interface through virtual slot 4, and invokes base cleanup with the original flags.",
+    "w3d_auto_801e8b04": "Unlinks the object from the observed global list, releases its two held buffers, and invokes the base cleanup with the original flags."
+  }
+}

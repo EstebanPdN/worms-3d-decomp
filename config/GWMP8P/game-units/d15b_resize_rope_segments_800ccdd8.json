@@ -1,0 +1,14 @@
+{
+  "unit": "d15b_resize_rope_segments_800ccdd8",
+  "source": "source/matching/game/d15b/d15b_resize_rope_segments_800ccdd8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_resize_rope_segments_800ccdd8": "0x800ccdd8"
+  },
+  "descriptions": {
+    "d15b_resize_rope_segments_800ccdd8": "Resize the ninja rope's retained segment array. When growing, for each new slot look up a segment by the original NinjaRope.Rope name (limit 255) through a temporary string, grow the array by one, assign the segment with retain-before-release ownership, increment the count and release the local handle. When shrinking, release and clear every slot past the new count, then resize the array. Unsigned comparisons; partial native GC32 layouts; string referenced by address; no owned initialized data."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

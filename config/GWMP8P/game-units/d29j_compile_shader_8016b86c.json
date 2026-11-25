@@ -1,0 +1,14 @@
+{
+  "unit": "d29j_compile_shader_8016b86c",
+  "source": "source/matching/game/d29j/d29j_compile_shader_8016b86c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29j"
+  ],
+  "functions": {
+    "d29j_compile_shader_8016b86c": "0x8016b86c"
+  },
+  "descriptions": {
+    "d29j_compile_shader_8016b86c": "Compile a shader's display buffer on first use, bind it to the device and mark it in use."
+  }
+}

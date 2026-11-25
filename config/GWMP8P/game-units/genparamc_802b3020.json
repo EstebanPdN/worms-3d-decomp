@@ -1,0 +1,15 @@
+{
+  "unit": "genparamc_802b3020",
+  "source": "source/matching/game/generated/genparamc_802b3020.c",
+  "language": "c",
+  "functions": {
+    "w3d_set_triple_802b3020": "0x802b3020",
+    "w3d_set_triple_802c61fc": "0x802c61fc",
+    "w3d_set_triple_802c71d8": "0x802c71d8"
+  },
+  "descriptions": {
+    "w3d_set_triple_802b3020": "Stores a three-word value at a fixed field only if it differs from the current one, then notifies the attached listener (virtual call) with the new value.",
+    "w3d_set_triple_802c61fc": "Stores a three-word value at a fixed field only if it differs from the current one, then notifies the attached listener (virtual call) with the new value.",
+    "w3d_set_triple_802c71d8": "Stores a three-word value at a fixed field only if it differs from the current one, then notifies the attached listener (virtual call) with the new value."
+  }
+}

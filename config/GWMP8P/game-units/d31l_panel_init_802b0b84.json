@@ -1,0 +1,12 @@
+{
+  "unit": "d31l_panel_init_802b0b84",
+  "source": "source/matching/game/d31l/d31l_panel_init_802b0b84.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d31l_panel_init_802b0b84": "0x802b0b84"
+  },
+  "descriptions": {
+    "d31l_panel_init_802b0b84": "Initialises a menu panel: subscribes its messages, resolves tooltip and highlight data, sets up frame nodes and evaluates the config's enable switch."
+  }
+}

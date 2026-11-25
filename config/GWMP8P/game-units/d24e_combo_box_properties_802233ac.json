@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_combo_box_properties_802233ac",
+  "source": "source/matching/game/d24e/d24e_combo_box_properties_802233ac.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_combo_box_properties_802233ac": "0x802233ac"
+  },
+  "descriptions": {
+    "w3d_d24e_register_combo_box_properties_802233ac": "Resets the GameDataId string binding (0x801ed24c) to the shared empty string; resets the DataIndexId string binding (0x801ed24c) to the shared empty string; resets the HighlightedMessage string binding (0x801ed24c) to the shared empty string; resets the SelectedMessage string binding (0x801ed24c) to the shared empty string; resets the ControlHighlightMessage string binding (0x801ed24c) to the shared empty string; registers BorderColour (0x801ece2c); registers SliderAlwaysOn (0x801eb674); registers SliderTabExpand (0x801eb674); registers BackGroundType (0x801ece2c); registers DropDownSize (0x801ec52c); registers ItemHeight (0x801ec52c); registers ButtonArea (0x801ec52c); registers ControlFontSize (0x801ec52c); sets the OpenAudio string binding (0x801ed24c) to a temporary string made from \"A.MenuDown\" (0x803b7250, constructor 0x8020bb54); sets the CloseAudio string binding (0x801ed24c) to a temporary string made from \"A.MenuDown\" (0x803b7250, constructor 0x8020bb54); registers KeepComboOpen (0x801eb674); registers BorderSize (0x801ec52c); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

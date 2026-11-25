@@ -1,0 +1,14 @@
+{
+  "unit": "d31d_named_holder_setup_8015bf74",
+  "source": "source/matching/game/d31d/d31d_named_holder_setup_8015bf74.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31d_named_holder_setup_8015bf74": "0x8015bf74"
+  },
+  "descriptions": {
+    "w3d_d31d_named_holder_setup_8015bf74": "Setup of a named holder. Passes the name as a temporary string to the service's slot 19, assigns it to the string at +12, creates the entry from descriptor 0x80419378 into the reference at +16, stores the singleton in the reference at +20, makes the default string, registers the entry as current, applies an empty string through this object's slot 5, moves the entry's slot 15 value to its slot 13, and calls this object's slot 10."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

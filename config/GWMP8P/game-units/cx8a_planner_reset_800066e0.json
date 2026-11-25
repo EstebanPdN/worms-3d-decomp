@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_planner_reset_800066e0",
+  "source": "source/matching/game/cx8a/cx8a_planner_reset_800066e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_planner_reset_800066e0": "0x800066e0"
+  },
+  "descriptions": {
+    "w3d_cx8a_planner_reset_800066e0": "Clear planner-owned interface and named vectors, empty two byte ranges, reset planner timer/index/mode fields, then enter planner state 2."
+  }
+}

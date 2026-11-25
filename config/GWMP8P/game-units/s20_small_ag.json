@@ -1,0 +1,11 @@
+{
+  "unit": "s20_small_ag",
+  "source": "source/matching/game/s20/s20_small_ag.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_touch_items_800f6760": "0x800f6760"
+  },
+  "descriptions": {
+    "w3d_s20_touch_items_800f6760": "Appears to count the pointer entries in a vector and iterate over them without doing any per-item work, then return 1."
+  }
+}

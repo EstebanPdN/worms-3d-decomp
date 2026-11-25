@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_debug_alloc_80215fd8",
+  "source": "source/matching/game/d28k/d28k_debug_alloc_80215fd8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_debug_alloc_80215fd8": "0x80215fd8"
+  },
+  "descriptions": {
+    "w3d_d28k_debug_alloc_80215fd8": "Debug malloc: pending file/line, re-entry guard, optional full check, oversized allocation, block tagging, watch hook and trace."
+  }
+}

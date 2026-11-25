@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d12_assign_byte_suffix_8020c0fc",
+  "source": "source/matching/game/sol35d12/sol35d12_assign_byte_suffix_8020c0fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d12_assign_byte_suffix_8020c0fc": "0x8020c0fc"
+  },
+  "descriptions": {
+    "sol35d12_assign_byte_suffix_8020c0fc": "Assign the byte suffix through native shared-string ownership with self-assignment temporary; inferred GC32 API."
+  }
+}

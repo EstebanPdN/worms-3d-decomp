@@ -1,0 +1,11 @@
+{
+  "unit": "f3c_update_transform_801a44ac",
+  "source": "source/matching/game/f3c/f3c_update_transform_801a44ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3c_update_transform_801a44ac": "0x801a44ac"
+  },
+  "descriptions": {
+    "f3c_update_transform_801a44ac": "When the observed dirty bit is set, clear it, derive three temporary transforms, compose them into the object, apply the three float values and copy the position triple; dispatch the selected global-table callback. Layout and names inferred."
+  }
+}

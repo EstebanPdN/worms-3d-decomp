@@ -1,0 +1,14 @@
+{
+  "unit": "d30e_prune_voices_801dc7d8",
+  "source": "source/matching/game/d30e/d30e_prune_voices_801dc7d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_prune_voices_801dc7d8": "0x801dc7d8"
+  },
+  "descriptions": {
+    "w3d_d30e_prune_voices_801dc7d8": "Per-frame update of a sound object: returns 0x80004005 until ready (+176). Updates each listener in the array at +48 through virtual slot 10, steps each 16-byte gain entry in the vector at +60 with 0x801db06c, erasing finished ones (element copy with AddRef and Release, out-of-line destructor), then erases dead entries of the array at +76 (virtual slot 7). Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

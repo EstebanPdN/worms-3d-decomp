@@ -1,0 +1,9 @@
+#include "w3d_ptr.h"
+#line 1 "f9b_freeze_effect_8013db60.cpp"
+struct F9FreezeVec{float x,y,z;};struct F9FreezeEffect{char p[28];unsigned owner;};struct F9FreezeOwner{char p[20];unsigned owner;char p2[28];F9FreezeVec position,angles;char p3[76];int effect;char p4[4];int choice;char p5[308];int animation;};
+extern const char type_8040f558[];extern Ptr32<void> service_804b178c;
+extern const float rate_8039fb5c[],blend_8039fb60[],zero_8039fb64[];extern Ptr32<const char> freeze1_804ab1d4; extern Ptr32<const char> freeze2_804ab1d8; extern Ptr32<const char> freeze3_804ab1dc;
+extern "C" unsigned typeid_8020b680(Ptr32<const char>);extern "C" int create_80164514(Ptr32<void>,Ptr32<void>,unsigned);extern "C" Ptr32<F9FreezeEffect> lookup_80164fc8(int);extern "C" void position_800a4d3c(Ptr32<F9FreezeEffect>,Ptr32<const F9FreezeVec>),angles_800a4d70(Ptr32<F9FreezeEffect>,Ptr32<const F9FreezeVec>),start_800a4c70(Ptr32<F9FreezeEffect>);extern "C" unsigned random_80162c20();extern "C" int play_801359ec(Ptr32<F9FreezeOwner>,Ptr32<void>,Ptr32<const char>,Ptr32<int>,float,float,float);
+extern "C" void f9b_freeze_effect_8013db60(Ptr32<F9FreezeOwner> s,Ptr32<void> mesh){unsigned type=typeid_8020b680(type_8040f558);s->effect=create_80164514(service_804b178c,(Ptr32<void>)w3d::G(type),s->owner);Ptr32<F9FreezeEffect> e=lookup_80164fc8(s->effect);if(e){position_800a4d3c(e,&s->position);angles_800a4d70(e,&s->angles);e->owner=s->owner;start_800a4c70(e);s->choice=random_80162c20()%3;switch(s->choice){case 0:play_801359ec(s,mesh,freeze1_804ab1d4,&s->animation,rate_8039fb5c[0],blend_8039fb60[0],zero_8039fb64[0]);break;case 1:play_801359ec(s,mesh,freeze2_804ab1d8,&s->animation,rate_8039fb5c[0],blend_8039fb60[0],zero_8039fb64[0]);break;case 2:play_801359ec(s,mesh,freeze3_804ab1dc,&s->animation,rate_8039fb5c[0],blend_8039fb60[0],zero_8039fb64[0]);break;}}}
+
+

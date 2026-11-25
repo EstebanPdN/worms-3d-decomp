@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_rope_update_velocity_800d0fa0",
+  "source": "source/matching/game/d27c/d27c_rope_update_velocity_800d0fa0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_rope_update_velocity_800d0fa0": "0x800d0fa0"
+  },
+  "descriptions": {
+    "d27c_rope_update_velocity_800d0fa0": "Recompute a velocity toward a computed target and post it in a vector message."
+  }
+}

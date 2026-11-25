@@ -1,0 +1,42 @@
+{
+  "unit": "h1_method_callbacks",
+  "source": "source/matching/game/h1/h1_method_callbacks.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "w3d_method_callback_call_803528b8": "0x803528b8",
+    "w3d_method_callback_clone_80352918": "0x80352918",
+    "w3d_method_callback_rebind_80352970": "0x80352970",
+    "w3d_method_callback_call_803529d0": "0x803529d0",
+    "w3d_method_callback_clone_80352a30": "0x80352a30",
+    "w3d_method_callback_rebind_80352a88": "0x80352a88",
+    "w3d_method_callback_call_803556f0": "0x803556f0",
+    "w3d_method_callback_clone_80355750": "0x80355750",
+    "w3d_method_callback_rebind_803557a8": "0x803557a8",
+    "w3d_method_callback_call_80356774": "0x80356774",
+    "w3d_method_callback_clone_803567d4": "0x803567d4",
+    "w3d_method_callback_rebind_8035682c": "0x8035682c",
+    "w3d_method_callback_call_80356d18": "0x80356d18",
+    "w3d_method_callback_clone_80356d78": "0x80356d78",
+    "w3d_method_callback_rebind_80356dd0": "0x80356dd0"
+  },
+  "descriptions": {
+    "w3d_method_callback_call_803528b8": "Calls the callback's pointer to member function on its target object (callback class with vtable 0x80413980).",
+    "w3d_method_callback_clone_80352918": "Allocates a 16-byte copy of the callback (vtable 0x80413980) with the same target object and member function.",
+    "w3d_method_callback_rebind_80352970": "Allocates a callback (vtable 0x80413980) with the same member function bound to another target object.",
+    "w3d_method_callback_call_803529d0": "Calls the callback's pointer to member function on its target object (callback class with vtable 0x804139a0).",
+    "w3d_method_callback_clone_80352a30": "Allocates a 16-byte copy of the callback (vtable 0x804139a0) with the same target object and member function.",
+    "w3d_method_callback_rebind_80352a88": "Allocates a callback (vtable 0x804139a0) with the same member function bound to another target object.",
+    "w3d_method_callback_call_803556f0": "Calls the callback's pointer to member function on its target object (callback class with vtable 0x80413c88).",
+    "w3d_method_callback_clone_80355750": "Allocates a 16-byte copy of the callback (vtable 0x80413c88) with the same target object and member function.",
+    "w3d_method_callback_rebind_803557a8": "Allocates a callback (vtable 0x80413c88) with the same member function bound to another target object.",
+    "w3d_method_callback_call_80356774": "Calls the callback's pointer to member function on its target object (callback class with vtable 0x804170d8).",
+    "w3d_method_callback_clone_803567d4": "Allocates a 16-byte copy of the callback (vtable 0x804170d8) with the same target object and member function.",
+    "w3d_method_callback_rebind_8035682c": "Allocates a callback (vtable 0x804170d8) with the same member function bound to another target object.",
+    "w3d_method_callback_call_80356d18": "Calls the callback's pointer to member function on its target object (callback class with vtable 0x80417130).",
+    "w3d_method_callback_clone_80356d78": "Allocates a 16-byte copy of the callback (vtable 0x80417130) with the same target object and member function.",
+    "w3d_method_callback_rebind_80356dd0": "Allocates a callback (vtable 0x80417130) with the same member function bound to another target object."
+  }
+}

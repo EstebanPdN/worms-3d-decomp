@@ -1,0 +1,11 @@
+{
+  "unit": "sol32b_erase_entry_801af48c",
+  "source": "source/matching/game/sol32b/sol32b_erase_entry_801af48c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol32b_erase_entry_801af48c": "0x801af48c"
+  },
+  "descriptions": {
+    "sol32b_erase_entry_801af48c": "Releases the interface in an indexed 24-byte entry of the vector at receiver +20, shifts later entries by assigning the interface word, four-word aggregate and shared string with retain-before-release semantics, destroys the final string and returns zero. Entry meanings and original type names are inferred; assumes GC32 pointer layout and valid original vector/string domains."
+  }
+}

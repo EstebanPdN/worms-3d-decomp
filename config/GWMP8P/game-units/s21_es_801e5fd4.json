@@ -1,0 +1,11 @@
+{
+  "unit": "s21_es_801e5fd4",
+  "source": "source/matching/game/s21/s21_es_801e5fd4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_is_busy_801e5fd4": "0x801e5fd4"
+  },
+  "descriptions": {
+    "w3d_s21_is_busy_801e5fd4": "Appears to report whether a voice should count as busy: flag bit 0x200000 set, a linked query succeeding together with bit 0x800000, or an open stream handle."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d10d_flags_empty_801aae7c",
+  "source": "source/matching/game/d10d/d10d_flags_empty_801aae7c_v5.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10d_flags_empty_801aae7c": "0x801aae7c"
+  },
+  "descriptions": {
+    "d10d_flags_empty_801aae7c": "Flag-table emptiness test; the first argument is unused. Returns 1 when the owner record (+100) has a zero count at +24, 0 when the table (+96) has a zero length at +24, and otherwise 1 only if no flag byte at table +32 (one per entry, unsigned length) is set. Partial observed views; full types and sizeof unknown."
+  }
+}

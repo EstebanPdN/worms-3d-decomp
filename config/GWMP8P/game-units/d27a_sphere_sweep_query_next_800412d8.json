@@ -1,0 +1,14 @@
+{
+  "unit": "d27a_sphere_sweep_query_next_800412d8",
+  "source": "source/matching/game/d27a/d27a_sphere_sweep_query_next_800412d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_sphere_sweep_query_next_800412d8": "0x800412d8"
+  },
+  "descriptions": {
+    "w3d_d27a_sphere_sweep_query_next_800412d8": "Walks items from cursor 0x804aa95c, skipping the ignored index, items that miss the mask and items of the same owner. An item within the summed radius hits at time 0. Otherwise it projects the offset on the axis 0x8042742c, solves four quadratics in the plane normal to the axis (0x8009ee18) for the band edges, drops roots past the time limit, and lets 0x800406b8 choose. Returns the item index or 0xffff."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

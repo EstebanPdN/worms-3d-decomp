@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_nearest_sphere_801263fc",
+  "source": "source/matching/game/d19c/d19c_nearest_sphere_801263fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_nearest_sphere_801263fc": "0x801263fc"
+  },
+  "descriptions": {
+    "d19c_nearest_sphere_801263fc": "Begin a sphere query from the owner's slot and mask, select the nearest result whose registry owner differs from the excluded value, publish the selected distance, fraction and handle, end the query and return the handle (65535 when none)."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

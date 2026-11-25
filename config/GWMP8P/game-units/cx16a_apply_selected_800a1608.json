@@ -1,0 +1,11 @@
+{
+  "unit": "cx16a_apply_selected_800a1608",
+  "source": "source/matching/game/cx16a/cx16a_apply_selected_800a1608.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16a_apply_selected_800a1608": "0x800a1608"
+  },
+  "descriptions": {
+    "w3d_cx16a_apply_selected_800a1608": "For a selected index below sixteen, construct an eight-byte property carrier and apply it to the resolved target."
+  }
+}

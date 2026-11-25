@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_80226e20",
+  "source": "source/matching/game/k4b/k4b_a_80226e20.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_font_ref_construct_80226e20": "0x80226e20"
+  },
+  "descriptions": {
+    "w3d_k4b_font_ref_construct_80226e20": "Appears to construct a font reference over 0x801ea0ec: vtable 0x8041a1b8, zero size, name string FE.Font and two retained shared default interfaces."
+  }
+}

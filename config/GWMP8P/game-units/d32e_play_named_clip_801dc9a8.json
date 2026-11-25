@@ -1,0 +1,14 @@
+{
+  "unit": "d32e_play_named_clip_801dc9a8",
+  "source": "source/matching/game/d32e/d32e_play_named_clip_801dc9a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32e_play_named_clip_801dc9a8": "0x801dc9a8"
+  },
+  "descriptions": {
+    "w3d_d32e_play_named_clip_801dc9a8": "Plays a named sound clip from a bank: hands the bank's interface (at +124) to the caller's reference, fails with E_FAIL if the bank is not ready, then searches the categories for the name. When several consecutive items share the name, picks one at random; finds the player whose id equals the clip key and forwards to its play method. Returns 0 if nothing was found."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

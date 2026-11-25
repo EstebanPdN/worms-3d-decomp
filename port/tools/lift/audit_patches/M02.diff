@@ -1,0 +1,16 @@
+--- a/port/core/open/open_800923f8.cpp
++++ b/port/core/open/open_800923f8.cpp
+@@ -1558,5 +1558,5 @@
+     r3 = r29;
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64))A80126174)(W(r3));
+-    r0 = L8(D(0x804b17f7u));
++    r0 = L8(D(0x804b17f4u));
+     cr0 = CMPU(r3, r0);
+     if ((cr0 & 8)) goto L_800b2d6c;
+@@ -1565,5 +1565,5 @@
+     r3 = r29;
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64))A8012617c)(W(r3));
+-    r0 = L8(D(0x804b17f7u));
++    r0 = L8(D(0x804b17f4u));
+     cr0 = CMPU(r3, r0);
+     if ((cr0 & 8)) goto L_800b2d84;

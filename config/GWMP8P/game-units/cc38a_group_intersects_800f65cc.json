@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_group_intersects_800f65cc",
+  "source": "source/matching/game/cc38a/cc38a_group_intersects_800f65cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_group_intersects_800f65cc": "0x800f65cc"
+  },
+  "descriptions": {
+    "cc38a_group_intersects_800f65cc": "Return whether any pair of bounds from two groups intersects, re-reading array sizes after each callback; preserve unsigned counts and early success."
+  }
+}

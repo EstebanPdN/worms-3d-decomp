@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_body_position_at_800de40c",
+  "source": "source/matching/game/k5a/k5a_body_position_at_800de40c.cpp",
+  "language": "cpp",
+  "functions": {"k5a_body_position_at_800de40c": "0x800de40c"},
+  "descriptions": {"k5a_body_position_at_800de40c": "Appears to compute a trajectory position at a given time from its origin and velocity and store it through an output pointer."}
+}

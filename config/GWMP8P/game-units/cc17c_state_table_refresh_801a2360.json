@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_state_table_refresh_801a2360",
+  "source": "source/matching/game/cc17c/cc17c_state_table_refresh_801a2360.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_state_table_refresh_801a2360": "0x801a2360"
+  },
+  "descriptions": {
+    "w3d_cc17c_state_table_refresh_801a2360": "Clears the global per-index state byte table, then for every non-null item in the owner's list asks it (virtual slot +20) for its record and stores the item's state byte at the record's 10-bit index when it is inside the table."
+  }
+}

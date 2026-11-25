@@ -1,0 +1,11 @@
+{
+  "unit": "d46k_heap_reclaim_80213f98",
+  "source": "source/matching/game/d46k/d46k_heap_reclaim_80213f98.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d46k_heap_reclaim_80213f98": "0x80213f98"
+  },
+  "descriptions": {
+    "w3d_d46k_heap_reclaim_80213f98": "Reclaims a heap's delayed free blocks: merges each with free neighbours, files small ones on the tiny lists and inserts the rest into the size tree; returns the number of blocks visited."
+  }
+}

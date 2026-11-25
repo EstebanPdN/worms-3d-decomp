@@ -1,0 +1,14 @@
+{
+  "unit": "k3b_a_801d6b7c",
+  "source": "source/matching/game/k3b/k3b_a_801d6b7c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k3b_math_lanczos3_801d6b7c": "0x801d6b7c"
+  },
+  "descriptions": {
+    "w3d_k3b_math_lanczos3_801d6b7c": "Appears to evaluate the Lanczos window kernel with radius three: sinc(x) * sinc(x/3) for |x| below three, otherwise zero."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

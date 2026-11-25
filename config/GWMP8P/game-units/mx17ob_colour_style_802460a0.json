@@ -1,0 +1,11 @@
+{
+  "unit": "mx17ob_colour_style_802460a0",
+  "source": "source/matching/game/mx17ob/mx17ob_colour_style_802460a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "__17Mx17obColourStyleUs": "0x802460a0"
+  },
+  "descriptions": {
+    "__17Mx17obColourStyleUs": "Constructs a colour style record: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the table 0x8041b388, clears the four-byte colour groups at +20..+84 (17), +92, +96, +120 and +140..+160 (6); sets the floats at +88, +100, +104, +108, +112, +116 to 0.0f from the pooled literal 0x803c2bbc; copy-constructs the strings at +124, +128, +132, +136 from the shared empty string 0x804b06a0 (retaining each), in member order. Names and the colour meaning are inferred; offsets are observed."
+  }
+}

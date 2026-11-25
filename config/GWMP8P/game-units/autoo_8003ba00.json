@@ -1,0 +1,15 @@
+{
+  "unit": "autoo_8003ba00",
+  "source": "source/matching/game/auto/autoo_8003ba00.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003ba00": "0x8003ba00",
+    "w3d_auto_800fe8f4": "0x800fe8f4",
+    "w3d_auto_8034cc0c": "0x8034cc0c"
+  },
+  "descriptions": {
+    "w3d_auto_8003ba00": "Automatically decompiled (m2c, reordered, widened, argument-trimmed or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_800fe8f4": "Automatically decompiled (m2c, reordered, widened, argument-trimmed or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8034cc0c": "Automatically decompiled (m2c, reordered, widened, argument-trimmed or guard-forwarded) and verified exact; behavior description pending review."
+  }
+}

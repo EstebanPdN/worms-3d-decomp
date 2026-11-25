@@ -1,0 +1,20 @@
+--- a/port/core/game/d28l/d28l_menu_item_set_mode_802a2924.cpp
++++ b/port/core/game/d28l/d28l_menu_item_set_mode_802a2924.cpp
+@@ -97,7 +97,16 @@
+ extern "C" float fn_802b1880(Ptr32<Panel>);
+ extern "C" void fn_802c4a70(Ptr32<TextBox>, float, float);
+ extern "C" void fn_802c4d34(Ptr32<TextBox>, int);
+-extern "C" void fn_802c4eb0(Ptr32<TextBox>, Str);
++// El llamado destruye el argumento (GCC 2.95): esta copia no lleva destructor.
++struct StrArg : StrBase {
++    StrArg(const Str &o) {
++        p = o.p;
++        Ptr32<Header> h = fn_80341884(this);
++        ++h->refs;
++    }
++    StrArg(const StrArg &);
++};
++extern "C" void fn_802c4eb0(Ptr32<TextBox>, StrArg);
+ extern "C" void fn_802c4d3c(Ptr32<TextBox>, Vec, Vec);
+ extern "C" void fn_802c4f28(Ptr32<TextBox>, Ptr32<Panel>);
+ extern "C" void fn_802c2aac(Ptr32<TextBox>);

@@ -1,0 +1,20 @@
+{
+  "unit": "d30s_xaction_static_init_801e85f4",
+  "source": "source/matching/game/d30s/d30s_xaction_static_init_801e85f4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "d30s_xaction_static_init_801e85f4": "0x801e85f4"
+  },
+  "descriptions": {
+    "d30s_xaction_static_init_801e85f4": "Static initializer: constructs the XAction receiver, connects it to a signal, registers its type node and class."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

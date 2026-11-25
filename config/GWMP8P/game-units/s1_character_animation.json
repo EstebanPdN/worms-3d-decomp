@@ -1,0 +1,13 @@
+{
+  "unit": "s1_character_animation",
+  "source": "source/matching/game/s1_character_animation.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8006947c": "0x8006947c",
+    "w3d_fn_80069590": "0x80069590"
+  },
+  "descriptions": {
+    "w3d_fn_8006947c": "Applies the current visibility to both meshes and selects animation one when visible.",
+    "w3d_fn_80069590": "Reports whether both enabled mesh animations are in the playing state."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_input_process_float_800fae44",
+  "source": "source/matching/game/d24c/d24c_input_process_float_800fae44.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_input_process_float_800fae44": "0x800fae44"
+  },
+  "descriptions": {
+    "d24c_input_process_float_800fae44": "When +432 is set and 0x800f899c accepts the record, push it on the vector at +380. When the vector holds more than 100 records: create the list object (retained), get one array per field, copy every record, empty the vector, send the list through virtual +40 of the sink at 0x804abac0, and release it."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d10b_clear_controls_80265fb4",
+  "source": "source/matching/game/d10b/d10b_clear_controls_80265fb4_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10b_clear_controls_80265fb4": "0x80265fb4"
+  },
+  "descriptions": {
+    "d10b_clear_controls_80265fb4": "Drain the current child queue through count, item-zero and remove callbacks, keeping the captured table/object for each item/remove pair. Release a six-by-seven grid in row order using the observed unsigned-byte column counter, unlink/release the queue, release a held interface, stop and release optional audio, clear two state words, and call base cleanup at owner+28. Native handle getter/reset maintain witnessed double null checks, live pointer reloads and constant lifetimes. Partial field/vtable views; full original class size unknown. No owned data."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_af_801df0c4",
+  "source": "source/matching/game/s21/s21_af_801df0c4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_stream_process_801df0c4": "0x801df0c4"
+  },
+  "descriptions": {
+    "w3d_s21_stream_process_801df0c4": "Appears to ask a stream object through a virtual slot to process this object's embedded block at offset 24 and return zero."
+  }
+}

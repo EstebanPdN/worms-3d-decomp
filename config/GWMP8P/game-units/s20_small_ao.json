@@ -1,0 +1,13 @@
+{
+  "unit": "s20_small_ao",
+  "source": "source/matching/game/s20/s20_small_ao.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_classify_item_bytes_801d5844": "0x801d5844",
+    "w3d_s20_find_value_801a688c": "0x801a688c"
+  },
+  "descriptions": {
+    "w3d_s20_classify_item_bytes_801d5844": "Appears to set a mode on the secondary base to 1 when blocked, else 0, 1 or 2 from the alpha bytes of an item's records (255 neutral, 0 partial).",
+    "w3d_s20_find_value_801a688c": "Appears to look up an unsigned key in an ordered tree at offset 76 and return the stored value, or 0 when the key is absent."
+  }
+}

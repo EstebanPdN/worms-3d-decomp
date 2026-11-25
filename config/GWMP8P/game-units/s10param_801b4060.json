@@ -1,0 +1,13 @@
+{
+  "unit": "s10param_801b4060",
+  "source": "source/matching/game/generated/s10param_801b4060.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_find_string_801b4060": "0x801b4060",
+    "w3d_s10_find_string_801b40d0": "0x801b40d0"
+  },
+  "descriptions": {
+    "w3d_s10_find_string_801b4060": "Searches an observed string pointer range with strcmp semantics and returns its element index or -1.",
+    "w3d_s10_find_string_801b40d0": "Searches an observed string pointer range with strcmp semantics and returns its element index or -1."
+  }
+}

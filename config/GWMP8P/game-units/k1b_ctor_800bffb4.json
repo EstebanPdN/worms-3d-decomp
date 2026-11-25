@@ -1,0 +1,11 @@
+{
+  "unit": "k1b_ctor_800bffb4",
+  "source": "source/matching/game/k1b/k1b_ctor_800bffb4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k1b_ctor_800bffb4": "0x800bffb4"
+  },
+  "descriptions": {
+    "w3d_k1b_ctor_800bffb4": "Appears to construct an object of a class derived from the base at 0x801628b0, installing its vtable and clearing two fields."
+  }
+}

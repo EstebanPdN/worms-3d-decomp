@@ -1,0 +1,14 @@
+{
+  "unit": "d26e_doppler_factor_801e560c",
+  "source": "source/matching/game/d26e/d26e_doppler_factor_801e560c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_doppler_factor_801e560c": "0x801e560c"
+  },
+  "descriptions": {
+    "w3d_d26e_doppler_factor_801e560c": "Doppler factor of a 3D sound: listener velocity and position (listener virtual slot 17, kinds 4 and 3), emitter position and velocity, direction normalized, speeds along it scaled by emitter slot 11, emitter slot 13 scales (1 - v_e) / (1 + v_l), minus 1, clamped to [-1, 1]. Reading of the physics is inferred from the arithmetic; virtual slot names are unknown."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_weapon_panel_properties_802240e0",
+  "source": "source/matching/game/d24e/d24e_weapon_panel_properties_802240e0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_weapon_panel_properties_802240e0": "0x802240e0"
+  },
+  "descriptions": {
+    "w3d_d24e_register_weapon_panel_properties_802240e0": "Resets the WeaponGrafixID string binding (0x801ed24c) to the shared empty string; resets the DataContainerID string binding (0x801ed24c) to the shared empty string; resets the LockedID string binding (0x801ed24c) to the shared empty string; resets the PageID string binding (0x801ed24c) to the shared empty string; resets the TypeID string binding (0x801ed24c) to the shared empty string; resets the ToolTipID string binding (0x801ed24c) to the shared empty string; sets the BorderResource string binding (0x801ed24c) to a temporary string made from \"FE.Brd.%s\" (0x803b76e4, constructor 0x8020bb54); registers BorderColour (0x801ece2c); resets the HighlightedMessage string binding (0x801ed24c) to the shared empty string; resets the SelectedMessage string binding (0x801ed24c) to the shared empty string; calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

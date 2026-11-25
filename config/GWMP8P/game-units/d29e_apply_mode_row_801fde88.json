@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_apply_mode_row_801fde88",
+  "source": "source/matching/game/d29e/d29e_apply_mode_row_801fde88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_apply_mode_row_801fde88": "0x801fde88"
+  },
+  "descriptions": {
+    "w3d_d29e_apply_mode_row_801fde88": "Reads a row index from 0x802ff854, then by the kind word at the start of self (1 to 5) passes the three words of that row from one of five consecutive tables (0x803b2700 to 0x803b2730, 60-byte stride) to 0x801fdf60. Returns 0, or 1 for an unknown kind. Names are inferred."
+  }
+}

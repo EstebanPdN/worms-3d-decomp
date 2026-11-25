@@ -1,0 +1,11 @@
+{
+  "unit": "f15c_service_cleanup_80104984",
+  "source": "source/matching/game/f15c/f15c_service_cleanup_80104984.cpp",
+  "language": "cpp",
+  "functions": {
+    "f15c_service_cleanup_80104984": "0x80104984"
+  },
+  "descriptions": {
+    "f15c_service_cleanup_80104984": "Installs vtable80410690, clears global804aafa4 and receiver word56, then resets the held interface at global804af1e8 by null-checked virtual release at slot16 followed by storing null. Computes the original byte difference between external buffer end/begin at8044b694, performs the observed variadic zero-length copy with begin/end, and subtracts the saved byte count from the reloaded end. Native destruction releases receiver interfaces560,52,48,44, then two-element interface arrays36 and28 in reverse order, each through slot16 if present. Forwards receiver and original destructor flags to8015ff2c. The564-byte receiver and buffer begin/end are external partial views; original class identity, remaining fields and allocation extent are unknown."
+  }
+}

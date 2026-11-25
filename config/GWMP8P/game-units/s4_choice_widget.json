@@ -1,0 +1,21 @@
+{
+  "unit": "s4_choice_widget",
+  "source": "source/matching/game/s4_choice_widget.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_choice_next": "0x802a6e3c",
+    "w3d_s4_choice_previous": "0x802a6ee4",
+    "w3d_s4_choice_update_selection": "0x802a7490",
+    "w3d_s4_choice_cursor_changed": "0x802a7500",
+    "w3d_s4_choice_selection_changed": "0x802a7550",
+    "w3d_s4_choice_refresh_changed": "0x802a75a0"
+  },
+  "descriptions": {
+    "w3d_s4_choice_next": "Advances an idle choice index with mode-specific wrapping, or signals the navigation boundary.",
+    "w3d_s4_choice_previous": "Moves an idle choice index backward with mode-specific wrapping, or signals the navigation boundary.",
+    "w3d_s4_choice_update_selection": "Reads a boolean or integer property into the current choice selection.",
+    "w3d_s4_choice_cursor_changed": "Refreshes an idle choice cursor property and resets its animation target.",
+    "w3d_s4_choice_selection_changed": "Refreshes an idle choice selection property and resets its secondary animation target.",
+    "w3d_s4_choice_refresh_changed": "Refreshes choice content and state when the widget is not busy."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d29c_script_get_data_801016ec",
+  "source": "source/matching/game/d29c/d29c_script_get_data_801016ec.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29c_script_get_data_801016ec": "0x801016ec"
+  },
+  "descriptions": {
+    "d29c_script_get_data_801016ec": "Script binding that pushes a named data entry value to Lua"
+  }
+}

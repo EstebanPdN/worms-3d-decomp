@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801a61c0",
+  "source": "source/matching/game/k4b/k4b_a_801a61c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_indexed_component_construct_801a61c0": "0x801a61c0"
+  },
+  "descriptions": {
+    "w3d_k4b_indexed_component_construct_801a61c0": "Appears to construct a component with a zeroed triple and an ordered tree whose 24-byte header node is allocated through handle storage."
+  }
+}

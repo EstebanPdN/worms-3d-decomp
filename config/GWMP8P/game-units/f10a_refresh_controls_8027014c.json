@@ -1,0 +1,11 @@
+{
+  "unit": "f10a_refresh_controls_8027014c",
+  "source": "source/matching/game/f10a/f10a_refresh_controls_8027014c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f10a_refresh_controls_8027014c": "0x8027014c"
+  },
+  "descriptions": {
+    "w3d_f10a_refresh_controls_8027014c": "Builds a three-state control selection, refreshes two groups of control interfaces, applies enabled/disabled RGBA colours to their first two entries, forwards activity to optional widgets, and clears a panel state when disabled; partial layout and UI roles are inferred."
+  }
+}

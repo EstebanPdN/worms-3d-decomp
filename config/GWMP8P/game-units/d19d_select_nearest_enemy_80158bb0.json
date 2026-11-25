@@ -1,0 +1,14 @@
+{
+  "unit": "d19d_select_nearest_enemy_80158bb0",
+  "source": "source/matching/game/d19d/d19d_select_nearest_enemy_80158bb0.c",
+  "language": "c",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d19d_select_nearest_enemy_80158bb0": "0x80158bb0"
+  },
+  "descriptions": {
+    "d19d_select_nearest_enemy_80158bb0": "Turn-control handler: when idle and the game phase (0x80023128) is at most 2, find the active worm of another, non-allied team nearest to the message position within 300 units (squared distance <= 90000) and post its index and team, then post the current worm's index and team. Owns its 90000.0 float literal."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "mx25oc_word_vector_fill_insert_8034f1a0",
+  "source": "source/matching/game/mx25oc/mx25oc_word_vector_fill_insert_8034f1a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx25oc_word_vector_fill_insert_8034f1a0": "0x8034f1a0"
+  },
+  "descriptions": {
+    "mx25oc_word_vector_fill_insert_8034f1a0": "Inserts n copies of a 4-byte value before a position in a vector: with enough spare capacity it shifts the tail up (constructing past the end, copying backwards, then assigning the gap from a saved copy of the value); otherwise it allocates old size plus the larger of old size and n, copies the head, the new values and the tail, destroys and frees the old block, and sets begin, finish and storage end."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8006456c",
+  "source": "source/matching/game/s7/s7hand_8006456c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8006456c": "0x8006456c"
+  },
+  "descriptions": {
+    "w3d_auto_8006456c": "Converts the supplied integer to float, stores it at +0x28 and sets +0x60 to 1 when it exceeds the global threshold."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_actor_array_803449cc",
+  "source": "source/matching/game/cx9c/cx9c_actor_array_803449cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_actor_array_803449cc": "0x803449cc"
+  },
+  "descriptions": {
+    "w3d_cx9c_actor_array_803449cc": "Inferred allocation and construction of a 176-byte-element array with context attachment."
+  }
+}

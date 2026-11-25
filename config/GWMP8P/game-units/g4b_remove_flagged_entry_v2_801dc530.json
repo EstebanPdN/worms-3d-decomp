@@ -1,0 +1,11 @@
+{
+  "unit": "g4b_remove_flagged_entry_v2_801dc530",
+  "source": "source/matching/game/g4b/g4b_remove_flagged_entry_v2_801dc530.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4b_remove_flagged_entry_801dc530": "0x801dc530"
+  },
+  "descriptions": {
+    "g4b_remove_flagged_entry_801dc530": "Finds an external entry with matching flags36 in compact list36, walks its children in reverse, and dispatches removal to compatible services in list48. Equal child/service kinds remove once and stop; child kind3 additionally removes from service kind4. Erases the matching entry via80210dd8 and returns zero, otherwise80004005. External lists expose only observed12-byte prefixes with counted opaque storage; no local external objects or owned data. Source contains only the required external views and APIs; no append helper or integer pointer conversion."
+  }
+}

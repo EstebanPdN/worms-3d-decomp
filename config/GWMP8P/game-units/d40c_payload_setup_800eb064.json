@@ -1,0 +1,17 @@
+{
+  "unit": "d40c_payload_setup_800eb064",
+  "source": "source/matching/game/d40c/d40c_payload_setup_800eb064.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40c"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d40c_payload_setup_800eb064": "0x800eb064"
+  },
+  "descriptions": {
+    "d40c_payload_setup_800eb064": "Payload setup: subscribes two messages, reads eight settings, loads two graphics, constructs the motion handle, fills the id list from the handle clock until the 0xffff end value, then builds the optional second handle."
+  }
+}

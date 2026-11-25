@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_dispatch_e.c
+w3d_s20_dispatch_until_done_801689e4|0x801689e4|Appears to repeat dispatching an item's targets through the handler table and a helper, counting passes at offset 152 until the first handler stops returning 1.

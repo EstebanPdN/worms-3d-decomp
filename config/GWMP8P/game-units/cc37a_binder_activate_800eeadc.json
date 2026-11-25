@@ -1,0 +1,11 @@
+{
+  "unit": "cc37a_binder_activate_800eeadc",
+  "source": "source/matching/game/cc37a/cc37a_binder_activate_800eeadc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc37a_binder_activate_800eeadc": "0x800eeadc"
+  },
+  "descriptions": {
+    "cc37a_binder_activate_800eeadc": "Notify the active worm using two separately tested byte flags, dispatch binder mode, then post immediate and context-time-delayed messages with native key truncation."
+  }
+}

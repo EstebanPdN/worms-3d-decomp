@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_80178958",
+  "source": "source/matching/game/k4b/k4b_a_80178958.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_holder_delete_80178958": "0x80178958"
+  },
+  "descriptions": {
+    "w3d_k4b_holder_delete_80178958": "Appears to be a deleting destructor that releases a held interface through its fifth slot, clears it, marks the slot byte 255 and frees the object when flag bit one is set."
+  }
+}

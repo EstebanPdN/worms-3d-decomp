@@ -1,0 +1,13 @@
+{
+  "unit": "h1_stlport_deque_init_map",
+  "source": "source/matching/game/h1/h1_stlport_deque_init_map.cpp",
+  "language": "cpp",
+  "functions": {
+    "initialize_map__16W3dPtrDequeBaseAUi": "0x803534b0",
+    "initialize_map__16W3dPtrDequeBaseBUi": "0x8035ec68"
+  },
+  "descriptions": {
+    "initialize_map__16W3dPtrDequeBaseAUi": "STLport _Deque_base::_M_initialize_map: allocates a node map of max(8, nodes + 2) slots, creates the buffers for the elements and sets start and finish.",
+    "initialize_map__16W3dPtrDequeBaseBUi": "STLport _Deque_base::_M_initialize_map: allocates a node map of max(8, nodes + 2) slots, creates the buffers for the elements and sets start and finish."
+  }
+}

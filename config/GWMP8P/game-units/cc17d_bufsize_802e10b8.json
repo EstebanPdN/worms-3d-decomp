@@ -1,0 +1,11 @@
+{
+ "unit": "cc17d_bufsize_802e10b8",
+ "source": "source/matching/game/cc17d/cc17d_bufsize_802e10b8.c",
+ "language": "c",
+ "functions": {
+  "w3d_cc17d_video_buffer_size_802e10b8": "0x802e10b8"
+ },
+ "descriptions": {
+  "w3d_cc17d_video_buffer_size_802e10b8": "Returns 0 unless the +160 word of the info object at +4 is set; otherwise sums ten 32-byte-aligned copies of the +68 value, the aligned product of +128 and +132, twice the aligned quarter of that product and, when +172 is set, four times the aligned 4*(+72) value, plus 4096."
+ }
+}

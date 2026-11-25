@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d12_resize_refs_80210b90",
+  "source": "source/matching/game/sol35d12/sol35d12_resize_refs_80210b90.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d12_resize_refs_80210b90": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d12_resize_refs_80210b90": "Resize native retained interfaces through genuine C++ array allocation, owning assignment and reverse destruction, preserving signed capacity comparison and unsigned count loops; inferred GC32 API."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

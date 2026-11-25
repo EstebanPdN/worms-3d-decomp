@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_combine_chain_801d2400",
+  "source": "source/matching/game/d31e/d31e_combine_chain_801d2400.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_combine_chain_801d2400": "0x801d2400"
+  },
+  "descriptions": {
+    "w3d_d31e_combine_chain_801d2400": "Multiplies the local matrices of a bone chain: visits each bone through the visitor at +68, copies the first bone's matrix into a pair of working matrices, then multiplies each next bone into the other working matrix with 0x801f740c. Stores the final product, or the identity at 0x8045e748 when the chain is empty, in the chain's matrix at +36. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s11luamath_802dfe10",
+  "source": "source/matching/game/generated/s11luamath_802dfe10.cpp",
+  "language": "cpp",
+  "functions": {
+    "s11_lua_extreme_802dfe10": "0x802dfe10"
+  },
+  "descriptions": {
+    "s11_lua_extreme_802dfe10": "Lua numeric minimum: scans the checked numeric arguments, pushes the extremum, and returns one result. An empty RAII local preserves the original frame slot."
+  }
+}

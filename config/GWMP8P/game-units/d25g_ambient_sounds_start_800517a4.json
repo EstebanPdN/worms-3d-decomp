@@ -1,0 +1,14 @@
+{
+  "unit": "d25g_ambient_sounds_start_800517a4",
+  "source": "source/matching/game/d25g/d25g_ambient_sounds_start_800517a4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "w3d_d25g_ambient_sounds_start_800517a4": "0x800517a4"
+  },
+  "descriptions": {
+    "w3d_d25g_ambient_sounds_start_800517a4": "Starts the four ambient loops: when the audio loader exists, stamps the current time, gives each slot a random due time up to 870 ticks away and a clear wait, picks a random name that differs from the previous pick, loads it into the slot, sends it its position and calls its setup slot with (1, 0.0f); finally stores the level. Without a loader it calls the base start."
+  }
+}

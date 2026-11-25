@@ -1,0 +1,11 @@
+{
+  "unit": "h1_801ee410",
+  "source": "source/matching/game/h1/h1_801ee410.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_result_then_finish_801ee410": "0x801ee410"
+  },
+  "descriptions": {
+    "w3d_h1_result_then_finish_801ee410": "Calls virtual slot 24 to get a result, then virtual slot 16, and returns the result."
+  }
+}

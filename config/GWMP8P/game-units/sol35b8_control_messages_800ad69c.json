@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b8_control_messages_800ad69c",
+  "source": "source/matching/game/sol35b8/sol35b8_control_messages_800ad69c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b8_control_messages_800ad69c": "0x800ad69c"
+  },
+  "descriptions": {
+    "sol35b8_control_messages_800ad69c": "Copy three native control-state vectors, snapshot the second at +156, forward the actual source pointer to the base virtual boundary, then publish seven string messages selecting movement and camera modes. Names, partial GC32 views and full callback APIs are inferred; backend ownership remains external."
+  }
+}

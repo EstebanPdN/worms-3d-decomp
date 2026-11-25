@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fp_801f79d4",
+  "source": "source/matching/game/s21/s21_fp_801f79d4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_static_identity_quat_801f79d4": "0x801f79d4"
+  },
+  "descriptions": {
+    "w3d_s21_static_identity_quat_801f79d4": "Appears to be a static initialization entry that sets a global quaternion to identity (three zeros and a one from global constants) through a helper when called with the final priority."
+  }
+}

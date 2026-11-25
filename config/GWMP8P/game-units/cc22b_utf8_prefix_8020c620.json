@@ -1,0 +1,11 @@
+{
+  "unit": "cc22b_utf8_prefix_8020c620",
+  "source": "source/matching/game/cc22b/cc22b_utf8_prefix_8020c620.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc22b_utf8_prefix_8020c620": "0x8020c620"
+  },
+  "descriptions": {
+    "w3d_cc22b_utf8_prefix_8020c620": "Returns the byte length of the prefix containing at most the requested number of non-continuation bytes, using the original signed-byte extension and continuation-bit tests without validating UTF8. A zero limit returns zero."
+  }
+}

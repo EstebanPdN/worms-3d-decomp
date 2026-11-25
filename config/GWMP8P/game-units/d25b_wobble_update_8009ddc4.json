@@ -1,0 +1,14 @@
+{
+  "unit": "d25b_wobble_update_8009ddc4",
+  "source": "source/matching/game/d25b/d25b_wobble_update_8009ddc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_wobble_update_8009ddc4": "0x8009ddc4"
+  },
+  "descriptions": {
+    "w3d_d25b_wobble_update_8009ddc4": "Gun wobble update: from the elapsed time since +4 and the amplitude and period read from +8 and +12 (0x80178df0, 0x80178d1c) computes a cosine decay (0x802e86d4), sums the four X and four Y curves (0x8009dfd4 indices 0-3 and 4-7), and when the flag argument is set and the interval of the settings from +128 (0x801797b4) has passed advances +116, +120 and +124 with random jitter (0x80162bc8). Stores the results at +148 and +144 of the object loaded through +16 (0x80178c48, 0x800fc710, 0x80178474)."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

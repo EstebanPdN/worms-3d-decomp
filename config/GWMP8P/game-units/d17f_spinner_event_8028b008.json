@@ -1,0 +1,17 @@
+{
+  "unit": "d17f_spinner_event_8028b008",
+  "source": "source/matching/game/d17f/d17f_spinner_event_8028b008.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d17f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "handle_event__11D17fSpinnerP9D17fEvent": "0x8028b008"
+  },
+  "descriptions": {
+    "handle_event__11D17fSpinnerP9D17fEvent": "Spinner message handler: opens on message 64 (E_FAIL if the base handler fails) and resets on 66; otherwise, when its control is ready and input is unlocked, starts editing on the edit message, steps the value on up/down and accepted pointer messages (reporting an edge when the value cannot move), clears editing on four leave messages, forwards other messages to the control, and finishes in the base handler."
+  }
+}

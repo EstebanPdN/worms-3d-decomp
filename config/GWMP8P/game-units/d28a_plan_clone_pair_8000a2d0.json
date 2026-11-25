@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_plan_clone_pair_8000a2d0",
+  "source": "source/matching/game/d28a/d28a_plan_clone_pair_8000a2d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_plan_clone_pair_8000a2d0": "0x8000a2d0"
+  },
+  "descriptions": {
+    "w3d_d28a_plan_clone_pair_8000a2d0": "Pushes two clones of the plan."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d25g_hands_transform_800697ac",
+  "source": "source/matching/game/d25g/d25g_hands_transform_800697ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25g_hands_transform_800697ac": "0x800697ac"
+  },
+  "descriptions": {
+    "w3d_d25g_hands_transform_800697ac": "Builds the first-person mesh transform: rotates by pi about the Y axis, applies the +72 scale and the +60 translation, multiplies by the inverted camera view matrix, hands the result to the body mesh and, when present, the arms mesh through slot +168, then calls 0x800694f4."
+  }
+}

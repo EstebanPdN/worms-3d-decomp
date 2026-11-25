@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ey_801eb338",
+  "source": "source/matching/game/s21/s21_ey_801eb338.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_read_801eb338": "0x801eb338"
+  },
+  "descriptions": {
+    "w3d_s21_forward_read_801eb338": "Appears to call virtual slot 16 of the described object with its arguments, the second adjusted by the descriptor offset when nonzero, descriptor fields and an optional linked value."
+  }
+}

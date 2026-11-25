@@ -1,0 +1,12 @@
+{
+  "unit": "d40l_item_default_name_802ab3e8",
+  "source": "source/matching/game/d40l/d40l_item_default_name_802ab3e8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d40l_item_default_name_802ab3e8": "0x802ab3e8"
+  },
+  "descriptions": {
+    "d40l_item_default_name_802ab3e8": "Refreshes the current menu item's label, taking a default name from the order table for its kind when the item string is empty."
+  }
+}

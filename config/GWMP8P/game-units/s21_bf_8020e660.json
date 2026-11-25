@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bf_8020e660",
+  "source": "source/matching/game/s21/s21_bf_8020e660.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_unpack_words_8020e660": "0x8020e660"
+  },
+  "descriptions": {
+    "w3d_s21_unpack_words_8020e660": "Appears to copy each source word into consecutive destination words for a given count and return zero."
+  }
+}

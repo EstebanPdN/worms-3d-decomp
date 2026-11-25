@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800ac278",
+  "source": "source/matching/game/s8contextfix_800ac278.c",
+  "language": "c",
+  "functions": {
+    "s8_activate_and_post_800ac278": "0x800ac278"
+  },
+  "descriptions": {
+    "s8_activate_and_post_800ac278": "Appears to activate an object, post three conditional messages, record the current tick and enable an associated effect."
+  }
+}

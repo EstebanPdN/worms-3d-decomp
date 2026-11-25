@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_skip_duplicate_b_801a7d40",
+  "source": "source/matching/game/d24e/d24e_skip_duplicate_b_801a7d40.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_skip_duplicate_b_801a7d40": "0x801a7d40"
+  },
+  "descriptions": {
+    "w3d_d24e_skip_duplicate_b_801a7d40": "Duplicate check keyed on the field at +44. When the target's field at +44 is zero and the target and the deque's last element report the same key through virtual slot 5 and the tail's field is also zero, returns 0; otherwise forwards self and target to 0x801a7680."
+  }
+}

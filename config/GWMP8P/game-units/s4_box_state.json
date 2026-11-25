@@ -1,0 +1,23 @@
+{
+  "unit": "s4_box_state",
+  "source": "source/matching/game/s4_box_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_box_destroy": "0x80294810",
+    "w3d_s4_box_reset": "0x80295204",
+    "w3d_s4_box_set_position": "0x80295468",
+    "w3d_s4_box_stop_sound": "0x802962f8",
+    "w3d_s4_box_update_border": "0x80296498",
+    "w3d_s4_box_update_properties": "0x80296598",
+    "w3d_s4_box_border_thickness": "0x802966f8"
+  },
+  "descriptions": {
+    "w3d_s4_box_destroy": "Releases the box widget property and interface handles, destroys its border string and invokes the base destructor.",
+    "w3d_s4_box_reset": "Stops the widget sound, clears editing and input capture, then restores its held interface.",
+    "w3d_s4_box_set_position": "Updates a changed three-word position and forwards it when the box is ready.",
+    "w3d_s4_box_stop_sound": "Stops an active widget sound and clears its identifier.",
+    "w3d_s4_box_update_border": "Chooses a highlighted, grey or style-specific border name.",
+    "w3d_s4_box_update_properties": "Updates eight property values from editing, highlight and enabled flags.",
+    "w3d_s4_box_border_thickness": "Looks up the border thickness setting and returns its scaled value."
+  }
+}

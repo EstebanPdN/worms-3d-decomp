@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_80021958",
+  "source": "source/matching/game/s19/s19_prop_80021958.c",
+  "language": "c",
+  "functions": {
+    "s19_check_bullet_count_80021958": "0x80021958"
+  },
+  "descriptions": {
+    "s19_check_bullet_count_80021958": "Appears to read the AI.BulletCount property and mark the task done when it exceeds the limit at +0x14."
+  }
+}

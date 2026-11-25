@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_entry_property_value_800fd388",
+  "source": "source/matching/game/k4a/k4a_entry_property_value_800fd388.c",
+  "language": "c",
+  "functions": {
+    "k4a_entry_property_value_800fd388": "0x800fd388"
+  },
+  "descriptions": {
+    "k4a_entry_property_value_800fd388": "Appears to look up an entry in a global table by slot, read its indexed property and return the value by struct."
+  }
+}

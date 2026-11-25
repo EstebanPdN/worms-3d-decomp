@@ -1,0 +1,23 @@
+{
+  "unit": "genparam_80220f7c",
+  "source": "source/matching/game/generated/genparam_80220f7c.c",
+  "language": "c",
+  "functions": {
+    "w3d_props_reset_80220f7c": "0x80220f7c",
+    "w3d_props_reset_80235cd4": "0x80235cd4",
+    "w3d_props_reset_8023754c": "0x8023754c",
+    "w3d_props_reset_80237ab4": "0x80237ab4",
+    "w3d_props_reset_8023d7f0": "0x8023d7f0",
+    "w3d_props_reset_8023dc64": "0x8023dc64",
+    "w3d_props_reset_8023df70": "0x8023df70"
+  },
+  "descriptions": {
+    "w3d_props_reset_80220f7c": "Looks up two named string properties on the object, assigns each the shared empty string with reference counting, then runs the follow-up step; returns 0.",
+    "w3d_props_reset_80235cd4": "Looks up two named string properties on the object, assigns each the shared empty string with reference counting, then runs the follow-up step; returns 0.",
+    "w3d_props_reset_8023754c": "Looks up two named string properties on the object, assigns each the shared empty string with reference counting, then runs the follow-up step; returns 0.",
+    "w3d_props_reset_80237ab4": "Looks up two named string properties on the object, assigns each the shared empty string with reference counting, then runs the follow-up step; returns 0.",
+    "w3d_props_reset_8023d7f0": "Looks up two named string properties on the object, assigns each the shared empty string with reference counting, then runs the follow-up step; returns 0.",
+    "w3d_props_reset_8023dc64": "Looks up two named string properties on the object, assigns each the shared empty string with reference counting, then runs the follow-up step; returns 0.",
+    "w3d_props_reset_8023df70": "Looks up two named string properties on the object, assigns each the shared empty string with reference counting, then runs the follow-up step; returns 0."
+  }
+}

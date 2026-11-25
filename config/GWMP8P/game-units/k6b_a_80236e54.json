@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80236e54",
+  "source": "source/matching/game/k6b/k6b_a_80236e54.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_label_record_construct_80236e54": "0x80236e54"
+  },
+  "descriptions": {
+    "w3d_k6b_label_record_construct_80236e54": "Appears to construct an object over 0x801ea0ec with vtable 0x8041a7c0, zeroed +20..+36 and +48, and empty shared strings at +40 and +44."
+  }
+}

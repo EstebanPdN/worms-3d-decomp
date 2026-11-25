@@ -1,0 +1,7 @@
+{
+  "unit": "k10b_registry_acquire_801b3610",
+  "source": "source/matching/game/k10b/k10b_registry_acquire_801b3610.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k10b_registry_acquire_801b3610": "0x801b3610"},
+  "descriptions": {"w3d_k10b_registry_acquire_801b3610": "Appears to look a name up in a registry: a local hit is retained and returned; otherwise the parent resolver is asked and the registry hook is notified on success; bad arguments and a missing parent return the original failure codes. Registry, item and resolver views are partial."}
+}

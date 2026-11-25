@@ -1,0 +1,14 @@
+{
+  "unit": "s7hand_80010e74",
+  "source": "source/matching/game/s7/s7hand_80010e74.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80010e74": "0x80010e74"
+  },
+  "descriptions": {
+    "w3d_auto_80010e74": "Initializes the score, obtains a base score and float weight, forwards that weight into the four-float scoring call, and applies the observed context/object scaling."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

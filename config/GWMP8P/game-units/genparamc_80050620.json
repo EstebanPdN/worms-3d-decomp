@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_80050620",
+  "source": "source/matching/game/generated/genparamc_80050620.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_show_options_line_80050620": "0x80050620",
+    "w3d_show_options_line_80099998": "0x80099998"
+  },
+  "descriptions": {
+    "w3d_show_options_line_80050620": "Builds a temporary text string with padding around a fixed options message, passes its characters to the held text display; the string is destroyed on exit.",
+    "w3d_show_options_line_80099998": "Builds a temporary text string with padding around a fixed options message, passes its characters to the held text display; the string is destroyed on exit."
+  }
+}

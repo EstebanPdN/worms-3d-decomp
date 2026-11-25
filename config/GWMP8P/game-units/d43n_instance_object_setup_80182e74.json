@@ -1,0 +1,14 @@
+{
+  "unit": "d43n_instance_object_setup_80182e74",
+  "source": "source/matching/game/d43n/d43n_instance_object_setup_80182e74.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43n_instance_object_setup_80182e74": "0x80182e74"
+  },
+  "descriptions": {
+    "w3d_d43n_instance_object_setup_80182e74": "After the base initialiser succeeds, stores an instance reference, creates a texture, names the instance 'Instance-' plus the item's text through a string temporary, sets default colour vectors and pushes them to the texture, assigns the texture to the instance, stores the item reference, appends the instance to the registry found by kind, sets the object's flags and default fields, and bumps the global object count. Field names inferred from use."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

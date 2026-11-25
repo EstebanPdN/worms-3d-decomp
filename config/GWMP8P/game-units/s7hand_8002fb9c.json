@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002fb9c",
+  "source": "source/matching/game/s7/s7hand_8002fb9c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002fb9c": "0x8002fb9c"
+  },
+  "descriptions": {
+    "w3d_auto_8002fb9c": "Dispatches message IDs 0x40 and 0x42 and cached IDs; handles briefing-panel state and then forwards to the base message handler, returning 0x80004005 on initialization failure."
+  }
+}

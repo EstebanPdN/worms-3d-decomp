@@ -1,0 +1,21 @@
+{
+  "unit": "s1_random_messages",
+  "source": "source/matching/game/s1_random_messages.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80044ef8": "0x80044ef8",
+    "w3d_fn_800450a4": "0x800450a4",
+    "w3d_fn_80046290": "0x80046290",
+    "w3d_fn_80046764": "0x80046764",
+    "w3d_fn_80047d50": "0x80047d50",
+    "w3d_fn_80047fcc": "0x80047fcc"
+  },
+  "descriptions": {
+    "w3d_fn_80044ef8": "Selects a localized health message and queues it for display.",
+    "w3d_fn_800450a4": "Selects a localized utility message and queues it for display.",
+    "w3d_fn_80046290": "Selects a localized sudden-death message and queues it for display.",
+    "w3d_fn_80046764": "Selects a localized radiation message and queues it for display.",
+    "w3d_fn_80047d50": "Selects a localized baseball message and queues it for display.",
+    "w3d_fn_80047fcc": "Selects a localized sudden-death message and queues it for display."
+  }
+}

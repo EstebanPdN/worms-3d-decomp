@@ -1,0 +1,11 @@
+{
+  "unit": "s21_q_80200c44",
+  "source": "source/matching/game/s21/s21_q_80200c44.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_finish_node_80200c44": "0x80200c44"
+  },
+  "descriptions": {
+    "w3d_s21_finish_node_80200c44": "Appears to finish a child, notify its registered listener, clear a link field and return the finish result."
+  }
+}

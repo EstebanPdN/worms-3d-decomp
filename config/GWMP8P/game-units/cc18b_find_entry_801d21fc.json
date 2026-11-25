@@ -1,0 +1,11 @@
+{
+  "unit": "cc18b_find_entry_801d21fc",
+  "source": "source/matching/game/cc18b/cc18b_find_entry_801d21fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18b_find_entry_801d21fc": "0x801d21fc"
+  },
+  "descriptions": {
+    "w3d_cc18b_find_entry_801d21fc": "Finds an entry in the list at owner +20; notifies on success and returns its payload, otherwise clears output and returns failure."
+  }
+}

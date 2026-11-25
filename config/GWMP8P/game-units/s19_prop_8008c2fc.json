@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_8008c2fc",
+  "source": "source/matching/game/s19/s19_prop_8008c2fc.c",
+  "language": "c",
+  "functions": {
+    "s19_chicken_setup_8008c2fc": "0x8008c2fc"
+  },
+  "descriptions": {
+    "s19_chicken_setup_8008c2fc": "Appears to read the Chicken.Spawn property into ChickenSpawn and write minus one to Chicken.HitPoints."
+  }
+}

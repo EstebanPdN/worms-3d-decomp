@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801bf6a4",
+  "source": "source/matching/game/k4b/k4b_a_801bf6a4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_placement_construct_801bf6a4": "0x801bf6a4"
+  },
+  "descriptions": {
+    "w3d_k4b_placement_construct_801bf6a4": "Appears to construct a placement over 0x801b4bcc: vtable 0x80414f60, matrix copied from global 0x8045e708, zero position and rotation, unit scale, visible, index -1."
+  }
+}

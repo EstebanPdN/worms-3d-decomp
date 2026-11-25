@@ -1,0 +1,14 @@
+{
+  "unit": "d42e_ref_array_resize_801f282c",
+  "source": "source/matching/game/d42e/d42e_ref_array_resize_801f282c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42e_ref_array_resize_801f282c": "0x801f282c"
+  },
+  "descriptions": {
+    "w3d_d42e_ref_array_resize_801f282c": "Resize of a reference array: shrinking clears the dropped references; growing allocates a new counted array, copies the references with add-ref and release, destroys the old array and stores the new capacity."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

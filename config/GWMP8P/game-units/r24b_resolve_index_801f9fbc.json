@@ -1,0 +1,11 @@
+{
+  "unit": "r24b_resolve_index_801f9fbc",
+  "source": "source/matching/game/r24b/r24b_resolve_index_801f9fbc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r24b_resolve_index_801f9fbc": "0x801f9fbc"
+  },
+  "descriptions": {
+    "w3d_r24b_resolve_index_801f9fbc": "Select an index only for modes two or three, then check signed nonnegativity and pointer-range element count; names inferred."
+  }
+}

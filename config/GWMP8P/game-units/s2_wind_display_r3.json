@@ -1,0 +1,25 @@
+{
+  "unit": "s2_wind_display_r3",
+  "source": "source/matching/game/s2_wind_display_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_wind_dispatch_80130320": "0x80130320",
+    "w3d_wind_update_ratio_80130d1c": "0x80130d1c",
+    "w3d_wind_ratio_80130dd4": "0x80130dd4",
+    "w3d_wind_digits_80130e24": "0x80130e24",
+    "w3d_wind_clear_animation_80130f78": "0x80130f78",
+    "w3d_wind_direction_80131520": "0x80131520",
+    "w3d_wind_set_visible_801315a0": "0x801315a0",
+    "w3d_motion_message_construct_80131a84": "0x80131a84"
+  },
+  "descriptions": {
+    "w3d_wind_dispatch_80130320": "Handles wind-display creation and visibility messages, forwarding other messages to the base.",
+    "w3d_wind_update_ratio_80130d1c": "Updates the wind ratio, refreshes changed graphics and adjusts timing when visibility changes.",
+    "w3d_wind_ratio_80130dd4": "Returns the current wind speed divided by the maximum wind speed.",
+    "w3d_wind_digits_80130e24": "Computes the displayed wind value and writes its tens and units mesh indices.",
+    "w3d_wind_clear_animation_80130f78": "Clears the wind mesh animation control and resets the stored control identifier.",
+    "w3d_wind_direction_80131520": "Returns a direction vector using the sine and cosine of the held direction value.",
+    "w3d_wind_set_visible_801315a0": "Applies the supplied visibility value to the three wind-display resources.",
+    "w3d_motion_message_construct_80131a84": "Initializes a motion message with its cached identifier, vectors, timing and method member."
+  }
+}

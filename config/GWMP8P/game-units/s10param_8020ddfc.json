@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_8020ddfc",
+  "source": "source/matching/game/generated/s10param_8020ddfc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_registry_remove_8020ddfc": "0x8020ddfc"
+  },
+  "descriptions": {
+    "w3d_s10_registry_remove_8020ddfc": "Invokes object cleanup, removes its inline list node from the observed registry, and decrements the registry member count."
+  }
+}

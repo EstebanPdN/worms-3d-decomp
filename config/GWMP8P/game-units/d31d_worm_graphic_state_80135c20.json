@@ -1,0 +1,14 @@
+{
+  "unit": "d31d_worm_graphic_state_80135c20",
+  "source": "source/matching/game/d31d/d31d_worm_graphic_state_80135c20.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31d_worm_graphic_state_80135c20": "0x80135c20"
+  },
+  "descriptions": {
+    "w3d_d31d_worm_graphic_state_80135c20": "Worm graphic state change. Reads the wanted state from the worm's record, fades the look clip, stops the idle effects unless the state is 27, then leaves the old animation state and enters the new one, starting clips and effects through the world's effect manager and playing speech, and finally runs the per-frame movement, aim and blend updates."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

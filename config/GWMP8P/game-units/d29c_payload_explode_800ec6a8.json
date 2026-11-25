@@ -1,0 +1,11 @@
+{
+  "unit": "d29c_payload_explode_800ec6a8",
+  "source": "source/matching/game/d29c/d29c_payload_explode_800ec6a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d29c_payload_explode_800ec6a8": "0x800ec6a8"
+  },
+  "descriptions": {
+    "d29c_payload_explode_800ec6a8": "Payload explosion entry with effects, message and optional bomblets"
+  }
+}

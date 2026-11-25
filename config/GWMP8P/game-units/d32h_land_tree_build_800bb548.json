@@ -1,0 +1,18 @@
+{
+  "unit": "d32h_land_tree_build_800bb548",
+  "source": "source/matching/game/d32h/d32h_land_tree_build_800bb548.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32h"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d32h_land_tree_build_800bb548": "0x800bb548"
+  },
+  "descriptions": {
+    "d32h_land_tree_build_800bb548": "Builds the land object tree recursively from a node list and records bounding boxes."
+  }
+}

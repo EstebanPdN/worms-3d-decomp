@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_add_draw_block_801aa15c",
+  "source": "source/matching/game/d28e/d28e_add_draw_block_801aa15c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_add_draw_block_801aa15c": "0x801aa15c"
+  },
+  "descriptions": {
+    "w3d_d28e_add_draw_block_801aa15c": "Append a draw block to list index: skips kind 3 lists. When the current material differs from the entry at the mark it stores the source matrix into the material and pushes it; a changed transform takes a 512-per-chunk pool element, copies the matrix and pushes it. Then it takes a 16-byte block from the arena at +232, sets its depth from kind (zero, or the matrix's z), packs the transform index, current and mark into the word at +12, stores key and link, and pushes the block on the list."
+  }
+}

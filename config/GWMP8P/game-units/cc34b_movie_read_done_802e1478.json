@@ -1,0 +1,11 @@
+{
+  "unit": "cc34b_movie_read_done_802e1478",
+  "source": "source/matching/game/cc34b/cc34b_movie_read_done_802e1478.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc34b_movie_read_done_802e1478": "0x802e1478"
+  },
+  "descriptions": {
+    "w3d_cc34b_movie_read_done_802e1478": "Completes an original asynchronous movie-frame read: handles errors minus1 and cancellation minus3, advances byte offset, publishes the completed block, wraps the ten-block index, advances frame and loops at the original unsigned bound when enabled. Decrements pending reads, marks preparation complete at zero, otherwise schedules the next original read and notifies the original service. Uses an inline byte-offset buffer accessor to preserve observed indexed load and argument lifetimes. Inferred field views describe observed offsets; external data and routines remain unowned; no complete original class-size or runtime claim."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d29l_frame_layout_802b38d4",
+  "source": "source/matching/game/d29l/d29l_frame_layout_802b38d4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29l_frame_layout_802b38d4": "0x802b38d4"
+  },
+  "descriptions": {
+    "d29l_frame_layout_802b38d4": "Lays out the corners, edges and centre of a nine-slice frame from its size and border, then updates the inner object."
+  }
+}

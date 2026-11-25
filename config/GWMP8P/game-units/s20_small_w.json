@@ -1,0 +1,13 @@
+{
+  "unit": "s20_small_w",
+  "source": "source/matching/game/s20/s20_small_w.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_query_slot_80176cd4": "0x80176cd4",
+    "w3d_s20_copy_record_80174274": "0x80174274"
+  },
+  "descriptions": {
+    "w3d_s20_query_slot_80176cd4": "Appears to look up a slot for a key and output the result of virtual method 6 of its object, or 8 with 0x80004005 when missing.",
+    "w3d_s20_copy_record_80174274": "Appears to copy fields of a source record into this object, clearing flag bit 0x8000, and return zero."
+  }
+}

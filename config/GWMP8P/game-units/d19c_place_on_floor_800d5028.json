@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_place_on_floor_800d5028",
+  "source": "source/matching/game/d19c/d19c_place_on_floor_800d5028.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_place_on_floor_800d5028": "0x800d5028"
+  },
+  "descriptions": {
+    "d19c_place_on_floor_800d5028": "Read an id through 0x80178c48 from +56; for ids 0..16 whose record (0x800fc6dc) is enabled, compare the record position's Y with the floor height (0x80178df0 of +64 minus that of +204): above it, copy the record's position, velocity and auxiliary vectors to +140/+164/+152; otherwise store the position with Y set to the floor height and reset the velocity to the shared default vector."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

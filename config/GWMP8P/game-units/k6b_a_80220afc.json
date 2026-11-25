@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80220afc",
+  "source": "source/matching/game/k6b/k6b_a_80220afc.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_font_label_construct_80220afc": "0x80220afc"
+  },
+  "descriptions": {
+    "w3d_k6b_font_label_construct_80220afc": "Appears to construct a label over base 0x8021ef08: vtable 0x8041a550, scale from 0x803b6654, white colour, empty name and font string FE.Font, flags at +132/+136 set."
+  }
+}

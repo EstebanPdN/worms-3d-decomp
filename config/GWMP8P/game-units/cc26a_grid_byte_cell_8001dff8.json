@@ -1,0 +1,11 @@
+{
+  "unit": "cc26a_grid_byte_cell_8001dff8",
+  "source": "source/matching/game/cc26a/cc26a_grid_byte_cell_8001dff8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc26a_grid_byte_cell_8001dff8": "0x8001dff8"
+  },
+  "descriptions": {
+    "cc26a_grid_byte_cell_8001dff8": "Locate a grid byte cell with signed16 coordinate narrowing and layer stride16, or reset and return the shared fallback byte."
+  }
+}

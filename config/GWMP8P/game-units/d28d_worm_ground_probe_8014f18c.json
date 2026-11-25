@@ -1,0 +1,17 @@
+{
+  "unit": "d28d_worm_ground_probe_8014f18c",
+  "source": "source/matching/game/d28d/d28d_worm_ground_probe_8014f18c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28d_worm_ground_probe_8014f18c": "0x8014f18c"
+  },
+  "descriptions": {
+    "d28d_worm_ground_probe_8014f18c": "Worm ground probe: starts a nearest-hit query from the position raised by 10 along the given direction; on no hit or too many hits returns 0. A hit inside the start point takes the surface normal and tests the slide direction against it; otherwise moves the worm to the hit point, stores the normal, sets the grounded flag and refreshes slope state, with state 9 on steep ground. Returns 1 when the worm stays grounded."
+  }
+}

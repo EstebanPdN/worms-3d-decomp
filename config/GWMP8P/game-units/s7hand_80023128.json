@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80023128",
+  "source": "source/matching/game/s7/s7hand_80023128.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80023128": "0x80023128"
+  },
+  "descriptions": {
+    "w3d_auto_80023128": "Returns the number of 4-byte elements between the begin and end pointers of the global vector at 0x804200a4."
+  }
+}

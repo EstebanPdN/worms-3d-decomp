@@ -1,0 +1,11 @@
+{
+  "unit": "s20_pool_d",
+  "source": "source/matching/game/s20/s20_pool_d.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_store_byte_value_80173f88": "0x80173f88"
+  },
+  "descriptions": {
+    "w3d_s20_store_byte_value_80173f88": "Appears to update a cached byte and, when it changed, store it at the indexed byte of the held object's pool entry."
+  }
+}

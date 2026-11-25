@@ -1,0 +1,11 @@
+{
+  "unit": "s19_name_8002732c",
+  "source": "source/matching/game/s19/s19_name_8002732c.c",
+  "language": "c",
+  "functions": {
+    "s19_on_name_8002732c": "0x8002732c"
+  },
+  "descriptions": {
+    "s19_on_name_8002732c": "Appears to call a helper on the target when virtual slot 8 of the object returns the name ActiveWormIndex, then return zero."
+  }
+}

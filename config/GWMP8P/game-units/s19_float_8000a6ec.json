@@ -1,0 +1,14 @@
+{
+  "unit": "s19_float_8000a6ec",
+  "source": "source/matching/game/s19/s19_float_8000a6ec.c",
+  "language": "c",
+  "functions": {
+    "s19_ai_query_step_8000a6ec": "0x8000a6ec"
+  },
+  "descriptions": {
+    "s19_ai_query_step_8000a6ec": "Appears to advance a global float by one hundred, set the AI query origin and capture the query using a helper result for the field at +0x18."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

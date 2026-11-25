@@ -1,0 +1,11 @@
+{
+  "unit": "cc35b_movie_buffers_802e1134",
+  "source": "source/matching/game/cc35b/cc35b_movie_buffers_802e1134.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc35b_movie_buffers_802e1134": "0x802e1134"
+  },
+  "descriptions": {
+    "w3d_cc35b_movie_buffers_802e1134": "Lays out a caller-supplied movie arena after original opened/playing/busy guards. Preserves unsigned width-height product, original 32-byte alignment, three plane cache operations, ten12-byte video slots and conditional four12-byte audio slots, per-slot state reloads and final end pointer. Native inline layout helper and index-based audio traversal preserve original receiver lifetime and store/argument order. Offset names and partial views are inferred; no original class sizeof claim. Original cache-service routine remains external and unowned. No initialized data ownership."
+  }
+}

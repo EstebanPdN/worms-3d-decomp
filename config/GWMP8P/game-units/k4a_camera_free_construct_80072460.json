@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_camera_free_construct_80072460",
+  "source": "source/matching/game/k4a/k4a_camera_free_construct_80072460.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_camera_free_construct_80072460": "0x80072460"
+  },
+  "descriptions": {
+    "k4a_camera_free_construct_80072460": "Appears to construct the Camera.Free.Pitching camera mode: base init, vtable, resolve its input interface (retain new, release old) and set two float fields from a constant."
+  }
+}

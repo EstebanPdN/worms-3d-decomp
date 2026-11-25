@@ -1,0 +1,11 @@
+{
+  "unit": "f8c_skin_801a1460",
+  "source": "source/matching/game/f8c/f8c_skin_801a1460.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8c_skin_801a1460": "0x801a1460"
+  },
+  "descriptions": {
+    "f8c_skin_801a1460": "Inferred weighted affine position transform over strided float triplets, byte matrix indices and per-influence weights; skips additional weights whose raw bits are zero. Matrix view covers observed offsets through56; roles, layout and input contract inferred. No unexplained stack reservation."
+  }
+}

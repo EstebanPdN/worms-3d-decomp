@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_eyebrow_init_80066c9c",
+  "source": "source/matching/game/k4a/k4a_eyebrow_init_80066c9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_eyebrow_init_80066c9c": "0x80066c9c"
+  },
+  "descriptions": {
+    "k4a_eyebrow_init_80066c9c": "Appears to bind the Eyebrow name to a handle field and copy a global three-word origin into the object."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_write_schema_801ea18c",
+  "source": "source/matching/game/g2b/g2b_write_schema_801ea18c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_write_schema_801ea18c": "0x801ea18c"
+  },
+  "descriptions": {
+    "g2b_write_schema_801ea18c": "Writes external four-byte tag803b0a1c under Tag via writer slot156, then InternalFlags with mask13 and omission when zero, UserFlags zero omitted and DxFieldCount zero omitted through slot52. Traverses the external descriptor chain from owner slot20 to sentinel80365788, obtains each count through slot32 and invokes801eb0b0 on each pointer in the descriptor field storage at48. Returns zero. Receiver views are partial and never locally constructed, external pointer storage has no declared fixed array extent, no owned data; names inferred from original strings."
+  }
+}

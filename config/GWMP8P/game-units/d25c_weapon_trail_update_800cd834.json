@@ -1,0 +1,14 @@
+{
+  "unit": "d25c_weapon_trail_update_800cd834",
+  "source": "source/matching/game/d25c/d25c_weapon_trail_update_800cd834.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25c_weapon_trail_update_800cd834": "0x800cd834"
+  },
+  "descriptions": {
+    "d25c_weapon_trail_update_800cd834": "When handle +32 is -1, create the trail object (retained), register it with 0x80164514, store the handle and initialize it with the name Weapon.Trail, then release the reference. Look the handle up; on failure reset it to -1. Otherwise read the path count, get the spawn point, write ten degenerate segments if the trail was just created, and write one segment from the spawn point to the last path point (index clamped at 0)."
+  }
+}

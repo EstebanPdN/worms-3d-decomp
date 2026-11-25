@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_pending_flush_801fc8ac",
+  "source": "source/matching/game/cc17c/cc17c_pending_flush_801fc8ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_pending_flush_801fc8ac": "0x801fc8ac"
+  },
+  "descriptions": {
+    "w3d_cc17c_pending_flush_801fc8ac": "Drains the global pending-node list: appends each node to the pointer vector of its bucket in the global bucket table, calls the node's optional callback, then clears the list head."
+  }
+}

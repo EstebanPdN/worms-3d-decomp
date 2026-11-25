@@ -1,0 +1,27 @@
+#define W3D_LOOSE_C 1
+#include "w3d_ptr.h"
+extern "C" {
+#line 1 "s10param_801d22ec.c"
+/* Instances of a hand-matched template written by tools/gen_param_units.py and
+ * verified identical to the original after linking. Offsets, constants and
+ * address-named externs differ per instance; names are structural. */
+
+typedef struct S10TreeValue { char reserved[16]; int second, first; } S10TreeValue;
+typedef struct S10TreeRoot { char reserved[8]; Ptr32<S10TreeValue> first; } S10TreeRoot;
+typedef struct S10TreeContainer { char reserved[56]; Ptr32<S10TreeRoot> root; } S10TreeContainer;
+extern Ptr32<S10TreeValue> fn_80351ef8(Ptr32<S10TreeValue>);
+
+int w3d_s10_read_tree_value_801d22ec(Ptr32<const S10TreeContainer> object, unsigned int index, Ptr32<int> first, Ptr32<int> second)
+{
+    Ptr32<S10TreeValue> volatile cursor = object->root->first;
+    while (index--)
+        cursor = fn_80351ef8(cursor);
+    {
+        Ptr32<S10TreeValue> current = cursor;
+        *first = current->first;
+        *second = current->second;
+    }
+    return 0;
+}
+
+}

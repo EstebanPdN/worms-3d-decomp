@@ -1,0 +1,11 @@
+{
+  "unit": "r24b_release_global_802cafd0",
+  "source": "source/matching/game/r24b/r24b_release_global_802cafd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r24b_release_global_802cafd0": "0x802cafd0"
+  },
+  "descriptions": {
+    "w3d_r24b_release_global_802cafd0": "Invoke virtual release slot +0x10 if global is nonnull, then clear two global words; names inferred."
+  }
+}

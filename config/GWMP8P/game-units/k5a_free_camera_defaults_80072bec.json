@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_free_camera_defaults_80072bec",
+  "source": "source/matching/game/k5a/k5a_free_camera_defaults_80072bec.c",
+  "language": "c",
+  "functions": {"k5a_free_camera_defaults_80072bec": "0x80072bec"},
+  "descriptions": {"k5a_free_camera_defaults_80072bec": "Appears to set default basis vectors for the free camera and read its move and rotate speed properties."}
+}

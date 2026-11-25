@@ -1,0 +1,11 @@
+{
+  "unit": "mx16sa_locked_names_8006b8a0",
+  "source": "source/matching/game/mx16sa/mx16sa_locked_names_8006b8a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx16sa_locked_names_8006b8a0": "0x8006b8a0"
+  },
+  "descriptions": {
+    "mx16sa_locked_names_8006b8a0": "Queries MCa.LockedName, MCa.LockedName2 and MCa.LockedName3 into one shared text pointer and records whether any is nonempty. If runtime flags +188 contain bit 64 and a locked name exists, sets owner flag 0x02000000 at +240, looks up service key 0x8040fa58, attaches it with owner handle +20, allocates an eight-byte message, writes the ID cached at 0x804ad7ac and table 0x8040db38, then posts it. Otherwise calls mode helper with (6,1,0,0). Sets owner state +208 to 9. Runtime, owner, service key and message table remain externally owned."
+  }
+}

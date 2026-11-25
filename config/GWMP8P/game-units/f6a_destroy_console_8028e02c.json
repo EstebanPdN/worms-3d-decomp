@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_destroy_console_8028e02c",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_destroy_console_8028e02c": "0x8028e02c"
+  },
+  "descriptions": {
+    "w3d_f6a_destroy_console_8028e02c": "Destroy the observed pointer-deque range through by-value iterator helpers, release both strings, destroy the two name lists and eight held interfaces, then forward flags to the base destructor. Container and semantic layouts inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_destroy_console_8028e02c.cpp"
+}

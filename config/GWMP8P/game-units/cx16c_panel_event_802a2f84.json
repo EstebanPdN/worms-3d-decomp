@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_panel_event_802a2f84",
+  "source": "source/matching/game/cx16c/cx16c_panel_event_802a2f84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_panel_event_802a2f84": "0x802a2f84"
+  },
+  "descriptions": {
+    "w3d_cx16c_panel_event_802a2f84": "Handle initialize and release events with the original panel helpers, forward other events through the optional embedded context, and preserve the original base-handler result."
+  }
+}

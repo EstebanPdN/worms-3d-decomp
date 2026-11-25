@@ -1,0 +1,14 @@
+{
+  "unit": "d30e_rle_fread_801d9fb0",
+  "source": "source/matching/game/d30e/d30e_rle_fread_801d9fb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_rle_fread_801d9fb0": "0x801d9fb0"
+  },
+  "descriptions": {
+    "w3d_d30e_rle_fread_801d9fb0": "Decodes run-length TGA data from a stream (Mark Kilgard's public gliReadTGA rle_fread): copies pending decoded bytes from the state buffer, reads a packet count, then a repeated value or raw bytes directly into the output or into the lazily allocated state buffer, with verbose tracing; returns elements read. fgetc and fread are stream read calls through virtual slot 3, with end of file reported as 0x90000001."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

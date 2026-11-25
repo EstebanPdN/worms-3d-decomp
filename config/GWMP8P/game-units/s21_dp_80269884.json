@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dp_80269884",
+  "source": "source/matching/game/s21/s21_dp_80269884.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_mode_80269884": "0x80269884"
+  },
+  "descriptions": {
+    "w3d_s21_set_mode_80269884": "Appears to set a mode on the embedded component and, when it changed, refresh the object and notify a text-bearing owner under flag conditions, then update the component again."
+  }
+}

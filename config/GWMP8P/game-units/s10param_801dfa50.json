@@ -1,0 +1,19 @@
+{
+  "unit": "s10param_801dfa50",
+  "source": "source/matching/game/generated/s10param_801dfa50.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_release_801dfa50": "0x801dfa50",
+    "w3d_s10_release_801f9854": "0x801f9854",
+    "w3d_s10_release_801f991c": "0x801f991c",
+    "w3d_s10_release_801fc1ac": "0x801fc1ac",
+    "w3d_s10_release_801fc274": "0x801fc274"
+  },
+  "descriptions": {
+    "w3d_s10_release_801dfa50": "Decrements the 16-bit reference count; at zero invokes cleanup and the deleting destructor with flags 3, then returns the remaining count.",
+    "w3d_s10_release_801f9854": "Decrements the 16-bit reference count; at zero invokes cleanup and the deleting destructor with flags 3, then returns the remaining count.",
+    "w3d_s10_release_801f991c": "Decrements the 16-bit reference count; at zero invokes cleanup and the deleting destructor with flags 3, then returns the remaining count.",
+    "w3d_s10_release_801fc1ac": "Decrements the 16-bit reference count; at zero invokes cleanup and the deleting destructor with flags 3, then returns the remaining count.",
+    "w3d_s10_release_801fc274": "Decrements the 16-bit reference count; at zero invokes cleanup and the deleting destructor with flags 3, then returns the remaining count."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bi_8020dcc8",
+  "source": "source/matching/game/s21/s21_bi_8020dcc8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_float_8020dcc8": "0x8020dcc8"
+  },
+  "descriptions": {
+    "w3d_s21_write_float_8020dcc8": "Appears to format a float with width and precision taken from the writer's format bits into a stack buffer, write it through the stream slot and return the writer."
+  }
+}

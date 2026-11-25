@@ -1,0 +1,11 @@
+{
+  "unit": "cc41a_clone_binding_8017f078",
+  "source": "source/matching/game/cc41a/cc41a_clone_binding_8017f078.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc41a_clone_binding_8017f078": "0x8017f078"
+  },
+  "descriptions": {
+    "cc41a_clone_binding_8017f078": "Copy the observed binding fields and flag, update its scene, query a secondary interface through a zero-initialized local owner, and replace the held reference with retain-before-release semantics while releasing the temporary on both outcomes."
+  }
+}

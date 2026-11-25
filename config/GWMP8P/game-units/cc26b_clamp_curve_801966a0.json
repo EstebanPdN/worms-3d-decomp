@@ -1,0 +1,11 @@
+{
+  "unit": "cc26b_clamp_curve_801966a0",
+  "source": "source/matching/game/cc26b/cc26b_clamp_curve_801966a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc26b_clamp_curve_801966a0": "0x801966a0"
+  },
+  "descriptions": {
+    "w3d_cc26b_clamp_curve_801966a0": "For a non-null curve and nonzero endpoint span, normalizes the two interior abscissae, updates the observed linear flag, clamps their range through the original helper, adjusts both interior ordinates with original fused arithmetic, caches endpoint values and computes two sets of forward differences. The original32-byte local extent is modeled explicitly; the unused portion and source declaration remain unknown. Names are inferred."
+  }
+}

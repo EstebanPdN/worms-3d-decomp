@@ -1,0 +1,12 @@
+{
+  "unit": "d21e_texture_properties_801cd828",
+  "source": "source/matching/game/d21e/d21e_texture_properties_801cd828.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d21e_register_texture_properties_801cd828": "0x801cd828"
+  },
+  "descriptions": {
+    "w3d_d21e_register_texture_properties_801cd828": "Resets the Name string binding (0x801ed24c) to the shared empty string; registers Width (0x801ebbb8); registers Height (0x801ebbb8); registers MipLevels (0x801ebbb8); registers Flags (0x801ebbb8); registers Strides (0x801efdfc) with a guarded function-local static descriptor built once from a zero-filled temporary; registers Offsets (0x801efdfc) with a guarded function-local static descriptor built once from a zero-filled temporary; registers Format (0x801ece2c); registers Data (0x801efd34) with a guarded function-local static descriptor built once from a zero-filled temporary; registers Palette (0x801ecc6c); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

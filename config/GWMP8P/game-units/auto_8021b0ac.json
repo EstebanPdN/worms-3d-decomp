@@ -1,0 +1,11 @@
+{
+  "unit": "auto_8021b0ac",
+  "source": "source/matching/game/auto/auto_8021b0ac.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8021b0ac": "0x8021b0ac"
+  },
+  "descriptions": {
+    "w3d_auto_8021b0ac": "Automatically decompiled (m2c) and verified exact; behavior description pending review."
+  }
+}

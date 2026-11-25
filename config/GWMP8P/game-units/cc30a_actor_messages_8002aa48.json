@@ -1,0 +1,11 @@
+{
+  "unit": "cc30a_actor_messages_8002aa48",
+  "source": "source/matching/game/cc30a/cc30a_actor_messages_8002aa48.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc30a_actor_messages_8002aa48": "0x8002aa48"
+  },
+  "descriptions": {
+    "cc30a_actor_messages_8002aa48": "Handle actor initialization and shutdown, post the pending eight-byte message, route three cached events through virtual callbacks, and preserve base-handler status."
+  }
+}

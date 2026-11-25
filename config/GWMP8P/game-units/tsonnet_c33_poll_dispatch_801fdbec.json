@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c33_poll_dispatch_801fdbec",
+  "source": "source/matching/game/tsonnet_c33/tsonnet_c33_poll_dispatch_801fdbec.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c33_poll_dispatch_801fdbec": "0x801fdbec"
+  },
+  "descriptions": {
+    "tsonnet_c33_poll_dispatch_801fdbec": "Calls two external service routines, then maps the status code returned by a third (5, 4, 6, 11 and -1 to states 1 to 5, status 2 leaves the state unchanged, anything else sets 0) into the word at offset 0, and finally calls the function pointer at offset 4 with that state if it is set, or an external default handler with the object otherwise; state values and meanings are inferred."
+  }
+}

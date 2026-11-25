@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_movie_async_read_complete_802e1360",
+  "source": "source/matching/game/cx13b/cx13b_movie_async_read_complete_802e1360.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_movie_async_read_complete_802e1360": "0x802e1360"
+  },
+  "descriptions": {
+    "w3d_cx13b_movie_async_read_complete_802e1360": "Handle asynchronous read errors or mark a queued video frame ready and issue the next read when the ring has room."
+  }
+}

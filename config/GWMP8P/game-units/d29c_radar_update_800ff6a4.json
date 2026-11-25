@@ -1,0 +1,14 @@
+{
+  "unit": "d29c_radar_update_800ff6a4",
+  "source": "source/matching/game/d29c/d29c_radar_update_800ff6a4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29c_radar_update_800ff6a4": "0x800ff6a4"
+  },
+  "descriptions": {
+    "d29c_radar_update_800ff6a4": "Fills the radar mesh arrays from the player list"
+  }
+}

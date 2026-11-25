@@ -1,0 +1,11 @@
+{
+  "unit": "cx16a_initialize_fields_800878dc",
+  "source": "source/matching/game/cx16a/cx16a_initialize_fields_800878dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16a_initialize_fields_800878dc": "0x800878dc"
+  },
+  "descriptions": {
+    "w3d_cx16a_initialize_fields_800878dc": "Call the base constructor, install the observed vtable, clear the field region and five headers, then publish the singleton pointer."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d26b_spawn_message_80096db4",
+  "source": "source/matching/game/d26b/d26b_spawn_message_80096db4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26b_spawn_message_80096db4": "0x80096db4"
+  },
+  "descriptions": {
+    "w3d_d26b_spawn_message_80096db4": "Object replication message: looks up the object named by message +8 (0x80164fc8), reads its type through slot +20 and, for each of 23 type records, creates the matching replica through 0x8020b680, fills it (id at +28, +32, +36 or +192, held references +192 or +28 passed by value to 0x800e8fb4 or 0x8009afe8, value +584 through 0x80133d64, the vectors +32 and +44 through 0x8002e558, the fields +116 and +120 to +132) and posts it to the system 0x804b178c with the id through 0x80164514. Unknown types do nothing."
+  }
+}

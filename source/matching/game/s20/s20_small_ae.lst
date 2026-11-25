@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_small_ae.c
+w3d_s20_clear_held_pair_801882c8|0x801882c8|Appears to clear flag bit 0x8000, release the two held objects at offsets 48 and 52 through virtual method 4 and clear both pointers.
+w3d_s20_set_range_8017dfb4|0x8017dfb4|Appears to store a low and a high byte at offsets 9808 and 9809 when both are below the count of virtual method 44, else return 0x80004005.

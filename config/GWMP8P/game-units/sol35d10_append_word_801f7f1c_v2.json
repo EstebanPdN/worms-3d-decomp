@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d10_append_word_801f7f1c_v2",
+  "source": "source/matching/game/sol35d10/sol35d10_append_word_801f7f1c_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d10_append_word_801f7f1c_v2": "0x801f7f1c"
+  },
+  "descriptions": {
+    "sol35d10_append_word_801f7f1c_v2": "Append a native four-byte value, growing storage by the old size or one, transferring the old range and releasing its allocation."
+  }
+}

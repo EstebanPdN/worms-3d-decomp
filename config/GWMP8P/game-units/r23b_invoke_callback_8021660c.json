@@ -1,0 +1,11 @@
+{
+  "unit": "r23b_invoke_callback_8021660c",
+  "source": "source/matching/game/r23b/r23b_invoke_callback_8021660c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23b_invoke_callback_8021660c": "0x8021660c"
+  },
+  "descriptions": {
+    "w3d_r23b_invoke_callback_8021660c": "Invoke the no-argument callback at +0x14 of the global callback block; names inferred."
+  }
+}

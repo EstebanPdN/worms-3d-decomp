@@ -1,0 +1,15 @@
+#include "w3d_ptr.h"
+#line 1 "cx12b_movie_audio_initialize_802e20e4.cpp"
+// Original PPC32 layouts; movie field names are inferred from diagnostics and calls.
+struct Movie;struct Vtable{Ptr32<void> unused[6];Ptr32<void (Ptr32<Movie>)> close;Ptr32<void> gap[1];Ptr32<void (Ptr32<Movie>)> stop;};
+struct Frame{Ptr32<void> buffer;unsigned int a,b;};
+struct Decoder{unsigned char opaque[80];unsigned int frames,first;unsigned char middle[12];unsigned int base;unsigned char tail[56];unsigned int opened,busy,counter,flag172,error,loop,offset,pending,unused192,index,bytes,ordinal;float volume,pitch,rate;int audio;Frame queue[16];};
+struct Movie{Ptr32<Vtable> vtable;Ptr32<Decoder> decoder;Ptr32<void> textures;int initialized;Ptr32<void> audio[2];unsigned int selected;Ptr32<void> callback;int s32,s36,mode;unsigned char pad[12];Ptr32<void> buffer;unsigned char pad60[8];unsigned int preloads;unsigned char pad72[8];int active,state;};
+
+
+extern "C" unsigned int lock_802fdb6c();extern "C" int unlock_802fdb94(unsigned int);extern "C" Ptr32<void> heap_804ab8b4;extern "C" Ptr32<void> allocate_802098fc(Ptr32<void>,unsigned int,unsigned int);extern "C" void callback_802e1f88();extern "C" Ptr32<void> install_80311210(Ptr32<void (void)>);extern "C" void trace_802fb7ac(Ptr32<const char>,...);extern "C" char message_803db370[];extern "C" Ptr32<void> clear_802eefe0(Ptr32<void>,int,unsigned int);extern "C" void cache_802fa988(Ptr32<void>,unsigned int);extern "C" void submit_80311254(Ptr32<void>,unsigned int);extern "C" void start_803112dc();
+extern "C" int w3d_cx12b_movie_audio_initialize_802e20e4(Ptr32<Movie> self,int mode){unsigned int state=lock_802fdb6c();self->mode=mode;self->selected=0;self->s32=0;self->s36=0;self->audio[0]=allocate_802098fc(heap_804ab8b4,640,32);self->audio[1]=allocate_802098fc(heap_804ab8b4,640,32);self->callback=install_80311210(callback_802e1f88);if(!self->callback&&self->mode){install_80311210(0);unlock_802fdb94(state);trace_802fb7ac(message_803db370);return 0;}unlock_802fdb94(state);if(!self->mode){clear_802eefe0(self->audio[0],0,640);clear_802eefe0(self->audio[1],0,640);cache_802fa988(self->audio[0],640);cache_802fa988(self->audio[1],640);submit_80311254(self->audio[self->selected],640);start_803112dc();}return 1;}
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "unit": "cc35a_actor_capacity_query_800afb78",
+  "source": "source/matching/game/cc35a/cc35a_actor_capacity_query_800afb78.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc35a_actor_capacity_query_800afb78": "0x800afb78"
+  },
+  "descriptions": {
+    "cc35a_actor_capacity_query_800afb78": "Query available actor capacity, post completion notification, flush pending state and report vector-height threshold plus unsigned capacity result; inferred names."
+  }
+}

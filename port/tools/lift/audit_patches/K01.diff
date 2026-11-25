@@ -1,0 +1,11 @@
+--- a/port/core/game/generated/gen_801dea84.cpp
++++ b/port/core/game/generated/gen_801dea84.cpp
+@@ -206,5 +206,8 @@
+ 
+ unsigned int w3d_get_801df288(Ptr32<const W3dFieldU32At54> object)
+ {
++    // 0x801e029c suelta el sonido y deja el emisor en la lista: el PPC lee entonces 0x54 de la memoria baja, que aquí no existe.
++    if (!object)
++        return 0;
+     return object->value;
+ }

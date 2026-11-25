@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f4r_nested_buffer_insert_80354f08",
+  "source": "source/matching/game/sol35f4r/sol35f4r_nested_buffer_insert_80354f08.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f4r_nested_buffer_insert_80354f08": "0x80354f08"
+  },
+  "descriptions": {
+    "sol35f4r_nested_buffer_insert_80354f08": "Inserts repeated 16-byte owned-buffer records into an observed GC32 vector. Copies the inserted value before spare-capacity updates; buffer copy construction allocates and copies bytes, assignment resizes and copies, and destruction releases storage. Growth allocates with fallback, constructs the prefix, repeated values and suffix, then releases the old records and storage."
+  }
+}

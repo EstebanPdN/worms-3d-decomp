@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_alliance_member_count_8008ac48",
+  "source": "source/matching/game/k5a/k5a_alliance_member_count_8008ac48.cpp",
+  "language": "cpp",
+  "functions": {"k5a_alliance_member_count_8008ac48": "0x8008ac48"},
+  "descriptions": {"k5a_alliance_member_count_8008ac48": "Appears to count teams whose alliance matches the given value by incrementing a per-team counter for each match."}
+}

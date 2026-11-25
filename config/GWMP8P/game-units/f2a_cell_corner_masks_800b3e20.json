@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_cell_corner_masks_800b3e20",
+  "source": "source/matching/game/f2a/f2a_cell_corner_masks_800b3e20.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_cell_corner_masks_800b3e20": "0x800b3e20"
+  },
+  "descriptions": {
+    "w3d_f2a_cell_corner_masks_800b3e20": "Walks inclusive z, x, y bounds with byte-sized loop counters and writes one mask byte per iteration. Queries 0x8002c73c at eight adjacent coordinate combinations with final argument 4; each nonzero result sets its corresponding bit. Grid and corner names are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g1b_parse_enum_801ffa68",
+  "source": "source/matching/game/g1b/g1b_parse_enum_v3_801ffa68.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1b_parse_enum_801ffa68": "0x801ffa68"
+  },
+  "descriptions": {
+    "g1b_parse_enum_801ffa68": "Parses an external null-terminated label table by first finding the common byte prefix shared by all labels, then accepting either a whole-label or prefix-stripped exact strcmp match. Shrinks the prefix only upon a mismatch, preserving the original empty-table precondition (strlen(table[0]) is unconditional). If no label matches, parses text with original atoi802ed89c and accepts its unsigned result only when less than the number of labels minus one; this off-by-one bound and atoi behavior are preserved, not corrected. Writes the index on success and returns zero, otherwise returns0x80004005 without writing the output. The first ABI argument is unused. The two original comparisons branch separately to a shared found block. All state is scalar or external pointers; no local external object construction, owned initialized data or compiler-option override. Names and enum meaning remain inferred."
+  }
+}

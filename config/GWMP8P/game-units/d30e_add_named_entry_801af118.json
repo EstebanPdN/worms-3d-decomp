@@ -1,0 +1,19 @@
+{
+  "unit": "d30e_add_named_entry_801af118",
+  "source": "source/matching/game/d30e/d30e_add_named_entry_801af118.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d30e_add_named_entry_801af118": "0x801af118"
+  },
+  "descriptions": {
+    "w3d_d30e_add_named_entry_801af118": "Appends a 24-byte entry (interface pointer, 16-byte identifier, name string) to the vector at +20 with unmodified STLport push_back, then adds a reference to the interface. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

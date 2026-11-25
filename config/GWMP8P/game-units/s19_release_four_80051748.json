@@ -1,0 +1,11 @@
+{
+  "unit": "s19_release_four_80051748",
+  "source": "source/matching/game/s19/s19_release_four_80051748.c",
+  "language": "c",
+  "functions": {
+    "s19_release_four_80051748": "0x80051748"
+  },
+  "descriptions": {
+    "s19_release_four_80051748": "Appears to release and clear four held interface pointers stored at +0x2c through +0x38."
+  }
+}

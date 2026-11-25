@@ -1,0 +1,11 @@
+{
+  "unit": "s21_t_801fe688",
+  "source": "source/matching/game/s21/s21_t_801fe688.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_parse_flag_name_801fe688": "0x801fe688"
+  },
+  "descriptions": {
+    "w3d_s21_parse_flag_name_801fe688": "Appears to parse a name into a boolean output (first literal gives one, second gives zero) or return the failure status 0x80004005."
+  }
+}

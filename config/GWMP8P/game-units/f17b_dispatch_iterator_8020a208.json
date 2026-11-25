@@ -1,0 +1,11 @@
+{
+  "unit": "f17b_dispatch_iterator_8020a208",
+  "source": "source/matching/game/f17b/f17b_dispatch_iterator_8020a208.cpp",
+  "language": "cpp",
+  "functions": {
+    "f17b_dispatch_8020a208": "0x8020a208"
+  },
+  "descriptions": {
+    "f17b_dispatch_8020a208": "Dispatches through inferred external interface vector begin/end at20/24 and optional preferred interface at32. Captures vector iterators before entering the shared counter through8020b85c(1); original helper increments804b069c. If preferred is nonnull and flags intersect10, invokes observed vtable slot24 with unchanged payload,flags,payload and returns its nonnegative result after8020b85c(0). Otherwise traverses the captured vector with a native next iterator, leaves the counter before calling the last element, and on earlier successful elements leaves it after the call. Returns the last signed result, initially0x80004005; an empty vector preserves the original unmatched counter increment. Original branch and counter behavior retained without claiming intended semantics. Partial receiver prefix through35 and target vptr view only; names,payload types,slot semantics and complete external object sizes remain inferred. No local object construction or allocation, owned data, compiler-option override, or ownership of external counter storage."
+  }
+}

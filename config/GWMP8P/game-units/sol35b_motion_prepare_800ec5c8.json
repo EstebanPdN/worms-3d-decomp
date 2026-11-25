@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b_motion_prepare_800ec5c8",
+  "source": "source/matching/game/sol35b/sol35b_motion_prepare_800ec5c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b_motion_prepare_800ec5c8": "0x800ec5c8"
+  },
+  "descriptions": {
+    "sol35b_motion_prepare_800ec5c8": "Prepare a motion vector using the current configuration, publish the observed eight-byte event when its squared magnitude exceeds a reference threshold, then forward the vector to the speed helper; layout and semantic names are inferred."
+  }
+}

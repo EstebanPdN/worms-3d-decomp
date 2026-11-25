@@ -1,0 +1,11 @@
+{
+  "unit": "d33a_turn_item_message_80022360",
+  "source": "source/matching/game/d33a/d33a_turn_item_message_80022360.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33a_turn_item_message_80022360": "0x80022360"
+  },
+  "descriptions": {
+    "w3d_d33a_turn_item_message_80022360": "Handles a message for a queue of turn items, finishing the first item when its state allows it, then forwards the message to the base handler."
+  }
+}

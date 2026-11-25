@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fg_801eb79c",
+  "source": "source/matching/game/s21/s21_fg_801eb79c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_read_set_u8_801eb79c": "0x801eb79c"
+  },
+  "descriptions": {
+    "w3d_s21_read_set_u8_801eb79c": "Appears to read an unsigned byte through the stream's virtual slot 18 and pass it to a bound member-function pointer on the target object, returning the read status."
+  }
+}

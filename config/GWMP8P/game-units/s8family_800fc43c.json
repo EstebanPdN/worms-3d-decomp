@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_800fc43c",
+  "source": "source/matching/game/s8family_800fc43c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_property_write_800fc43c": "0x800fc43c"
+  },
+  "descriptions": {
+    "s8_property_write_800fc43c": "Resolves a named property, applies an integer value when lookup succeeds, releases the held interface and returns status."
+  }
+}

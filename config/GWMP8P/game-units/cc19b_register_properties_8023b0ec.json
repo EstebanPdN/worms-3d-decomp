@@ -1,0 +1,11 @@
+{
+  "unit": "cc19b_register_properties_8023b0ec",
+  "source": "source/matching/game/cc19b/cc19b_register_properties_8023b0ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc19b_register_properties_8023b0ec": "0x8023b0ec"
+  },
+  "descriptions": {
+    "w3d_cc19b_register_properties_8023b0ec": "Registers observed entries and lazily constructs typed property descriptors with original names, sizes, element type bytes, descriptor addresses and final helper."
+  }
+}

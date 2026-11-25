@@ -1,0 +1,15 @@
+{
+  "unit": "d40g_tweak_page_8004ff24",
+  "source": "source/matching/game/d40g/d40g_tweak_page_8004ff24.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40g"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d40g_tweak_page_8004ff24": "0x8004ff24"
+  },
+  "descriptions": {
+    "d40g_tweak_page_8004ff24": "Build the debug tweak page: for each of twenty rows take the tweak at index row plus page times twenty, or print the closing line if past the end; otherwise format its name, type name, value by kind (pointer, float, int, string, hex, unsigned, vector) and help text, fit each to its column width, append them at their column positions on line row plus two, then position at line 24 and write the page to the sink."
+  }
+}

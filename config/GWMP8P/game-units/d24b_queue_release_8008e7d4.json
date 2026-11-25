@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_queue_release_8008e7d4",
+  "source": "source/matching/game/d24b/d24b_queue_release_8008e7d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_queue_release_8008e7d4": "0x8008e7d4"
+  },
+  "descriptions": {
+    "w3d_d24b_queue_release_8008e7d4": "Input release queueing: when the system 0x804aab68 is active and the object's info +472 (flag +24, team index +32) names a different owner in a copy of the team list 0x8043bb64 (0x800b4d98), sets the owner's message (0x80251398) when +107 is set and forwards to that owner; otherwise, unless +109 is set, clears +108, sets +109 and queues the (object, message) pair in the list 0x80431e88."
+  }
+}

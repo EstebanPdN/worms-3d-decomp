@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f9_string_tree_hint_8035a6f8",
+  "source": "source/matching/game/sol35f9/sol35f9_string_tree_hint_8035a6f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f9_string_tree_hint_8035a6f8": "0x8035a6f8"
+  },
+  "descriptions": {
+    "sol35f9_string_tree_hint_8035a6f8": "Use a bidirectional iterator hint in the observed GC32 string-key ordered tree: check leftmost/end/interior positions, compare native string keys, use adjacent gaps when valid, preserve equal entries and otherwise forward to unique insertion. Native iterator/result return ABI and all strcmp, traversal, unique-insertion and node-insertion identities are witnessed by original instructions. Class names and STL identity inferred; external string/value ownership and tree lifetimes remain preconditions."
+  }
+}

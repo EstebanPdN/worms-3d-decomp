@@ -1,0 +1,11 @@
+{
+  "unit": "cc34a_consume_property_8008aacc",
+  "source": "source/matching/game/cc34a/cc34a_consume_property_8008aacc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc34a_consume_property_8008aacc": "0x8008aacc"
+  },
+  "descriptions": {
+    "cc34a_consume_property_8008aacc": "Consume first positive group/team/player property with original initial zero counts, signed id guards, negative-count exits and scoped handle release."
+  }
+}

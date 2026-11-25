@@ -1,0 +1,11 @@
+{
+  "unit": "s11bool_80287600",
+  "source": "source/matching/game/s11_auto/s11bool_80287600.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80287600": "0x80287600"
+  },
+  "descriptions": {
+    "w3d_auto_80287600": "Appears to calls 0x80160e34, 0x800fc43c, 0x80129878, 0x801613f0, 0x8010a8e0; accesses fields at 0x34, 0x44, 0x38, 0x1C. m2c types and names are provisional."
+  }
+}

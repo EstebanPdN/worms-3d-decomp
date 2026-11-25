@@ -1,0 +1,11 @@
+{
+  "unit": "d25h_spawn_b_800a5a94",
+  "source": "source/matching/game/d25h/d25h_spawn_b_800a5a94.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25h_spawn_800a5a94": "0x800a5a94"
+  },
+  "descriptions": {
+    "w3d_d25h_spawn_800a5a94": "Team spawn: formats the spawnN name, posts the spawn message for the team, reads the spawn position from the placed object, creates the worm through 0x800fc710 with a retained reference, marks it active, assigns its team name from table 0x803f4bf8 and sets position, zero velocity, colour, health 100 and the default state fields."
+  }
+}

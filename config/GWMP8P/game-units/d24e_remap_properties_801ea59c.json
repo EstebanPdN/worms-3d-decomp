@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_remap_properties_801ea59c",
+  "source": "source/matching/game/d24e/d24e_remap_properties_801ea59c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_remap_properties_801ea59c": "0x801ea59c"
+  },
+  "descriptions": {
+    "w3d_d24e_remap_properties_801ea59c": "Walks the type list (0x8020ff3c); for types of kind 2 visits each object (0x8020fe00, 0x8020fe18) and each property (0x801e9db8). When bit 0 of the property's flag byte is set, a field at its offset equal to from[j] is replaced by to[j], stopping at the first hit. Returns the number of fields changed."
+  }
+}

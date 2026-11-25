@@ -1,0 +1,9 @@
+#include "w3d_ptr.h"
+#line 1 "f4b_reflect_vector_8003ee4c.cpp"
+// Observed dot/clamp, vector difference and scaling. Reflection and damping roles are inferred from these operations.
+extern const float low_8037468c[],high_80374690[],scale_80374694[];
+struct Vec3{float x,y,z;Vec3(){}Vec3(const Vec3&o){float a=o.x,b=o.y,c=o.z;x=a;y=b;z=c;}float dot(const Vec3&o)const{return x*o.x+y*o.y+z*o.z;}Vec3 operator*(float f)const{Vec3 r;r.x=x*f;r.y=y*f;r.z=z*f;return r;}Vec3 operator-(const Vec3&o)const{Vec3 r;r.x=x-o.x;r.y=y-o.y;r.z=z-o.z;return r;}};
+struct Owner{char pad[40];Vec3 vector;};struct Scalar{float value;Scalar(float f):value(f){}};inline const float&minimum(const float&a,const float&b){return a<b?a:b;}inline const float&maximum(const float&a,const float&b){return a<b?b:a;}inline const float&clamp(const float&v,const float&low,const float&high){return maximum(minimum(v,high),low);}
+extern "C" void f4b_reflect_vector_8003ee4c(Ptr32<Owner> s,Ptr32<const Vec3> n){Scalar dot(s->vector.dot(*n)),low(low_8037468c[0]),high(high_80374690[0]);dot.value=clamp(dot.value,low.value,high.value);float factor=scale_80374694[0];s->vector=s->vector-*n*(dot.value+dot.value);s->vector=s->vector*factor;}
+
+

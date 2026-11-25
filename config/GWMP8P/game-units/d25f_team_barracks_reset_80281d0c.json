@@ -1,0 +1,15 @@
+{
+  "unit": "d25f_team_barracks_reset_80281d0c",
+  "source": "source/matching/game/d25f/d25f_team_barracks_reset_80281d0c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d25f_team_barracks_reset_80281d0c": "0x80281d0c"
+  },
+  "descriptions": {
+    "d25f_team_barracks_reset_80281d0c": "Resets the +64 field of every entry in the DATA.TeamBarracks list; returns early when the lookup fails."
+  }
+}

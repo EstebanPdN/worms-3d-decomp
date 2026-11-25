@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_camera_mode_construct_800e7278",
+  "source": "source/matching/game/k4a/k4a_camera_mode_construct_800e7278.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_camera_mode_construct_800e7278": "0x800e7278"
+  },
+  "descriptions": {
+    "k4a_camera_mode_construct_800e7278": "Appears to construct the Camera.Path.IgnoreInput camera mode: base init, vtable, resolve its input interface (retain new, release old) and clear two fields."
+  }
+}

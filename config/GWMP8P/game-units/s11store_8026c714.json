@@ -1,0 +1,11 @@
+{
+  "unit": "s11store_8026c714",
+  "source": "source/matching/game/s11_auto/s11store_8026c714.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8026c714": "0x8026c714"
+  },
+  "descriptions": {
+    "w3d_auto_8026c714": "Appears to calls 0x803426b8, 0x802eefe0, 0x800fc43c; accesses fields at 0x10, 0x14, 0x18, 0xC, 0x1C, 0x20. m2c types and names are provisional."
+  }
+}

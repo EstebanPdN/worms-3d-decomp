@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_team_balance_800fe5b0",
+  "source": "source/matching/game/d19c/d19c_team_balance_800fe5b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_team_balance_800fe5b0": "0x800fe5b0"
+  },
+  "descriptions": {
+    "d19c_team_balance_800fe5b0": "Sum available (+170) minus used (+164) over the 16 active worm records, divide by the player count (0x80158f68), give each of the 4 active teams that average divided by its member count through 0x80158ea4, write \"RetreatTime\" = 0 and call 0x8002ae70."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8021931c",
+  "source": "source/matching/game/k6b/k6b_a_8021931c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_file_reader_query_size_8021931c": "0x8021931c"
+  },
+  "descriptions": {
+    "w3d_k6b_file_reader_query_size_8021931c": "Appears to fill a file info record: clear +4, set kind 2, and measure the size by seeking the file at +24 to its end and back."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d42i_application_construct_80126bfc",
+  "source": "source/matching/game/d42i/d42i_application_construct_80126bfc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d42i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d42i_application_construct_80126bfc": "0x80126bfc"
+  },
+  "descriptions": {
+    "d42i_application_construct_80126bfc": "Application object constructor: runs the owner base constructor, installs the vtable, constructs three strings, sets the default flag bits and scale, publishes itself in the global pointer, releases and clears its two references, and zeroes its remaining fields."
+  }
+}

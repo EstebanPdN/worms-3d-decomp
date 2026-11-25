@@ -1,0 +1,252 @@
+--- a/port/core/sdk/sdk_audio.cpp
++++ b/port/core/sdk/sdk_audio.cpp
+@@ -1,6 +1,7 @@
+ // Audio nativo que sustituye a MusyX y al AI del SDK: mezclador propio, ADPCM de Nintendo,
+ // streams del juego, efectos por proyecto MusyX (proj, pool, sdir, samp) y salida del reproductor THP.
+-// Macros de sonido: solo se interpreta la muestra que arrancan; envolventes y modulaciones aún no.
++// Macros de sonido: las 149 del juego son dos plantillas; se leen la muestra y la caída de 1 s tras soltar la tecla.
++// Mezcla a 32 kHz, como la DSP de MusyX (160 cuadros cada 5 ms); SDL la lleva a la frecuencia del dispositivo.
+ #include "../../platform/common/arena.h"
+ #include "../../platform/platform.h"
+ #include "w3d_ptr.h"
+@@ -16,7 +17,7 @@
+ typedef w3d_u32 GA;
+ 
+ namespace {
+-const int kOutRate = 48000;
++const int kOutRate = 32000;
+ inline uint16_t be16(const uint8_t *p) { return (uint16_t)(p[0] << 8 | p[1]); }
+ inline uint32_t be32(const uint8_t *p) { return (uint32_t)p[0] << 24 | p[1] << 16 | p[2] << 8 | p[3]; }
+ inline int16_t clamp16(int v) { return v < -32768 ? -32768 : v > 32767 ? 32767 : (int16_t)v; }
+@@ -38,13 +39,36 @@
+     }
+ };
+ 
+-void pan_gains(int vol, int pan, float *l, float *r) {
+-    float v = (float)vol / 127.0f;
+-    float p = (float)(pan < 0 ? 0 : pan > 127 ? 127 : pan) / 127.0f;
+-    // Ley lineal: el juego centra a la vez las dos pistas de la música, y con -3 dB su suma saturaba cientos de muestras por segundo.
+-    *l = v * (1.0f - p);
+-    *r = v * p;
++// Curva de volumen de MusyX (0x8040c728, 129 flotantes); la tabla se lee del DOL, no se copia al binario.
++extern "C" char w3d_dol_image[];
++float vol_curve(float v) {
++    static float table[129];
++    if (table[127] == 0.0f) {
++        const uint8_t *p = (const uint8_t *)w3d_dol_image + (0x8040c728u - 0x8035f3e0u);
++        uint32_t last; memcpy(&last, p + 127 * 4, 4);
++        bool host = last == 0x3f800000u;  // 1.0 ya convertido.
++        for (int i = 0; i < 129; i++) {
++            uint32_t w; memcpy(&w, p + i * 4, 4);
++            if (!host) w = __builtin_bswap32(w);
++            memcpy(&table[i], &w, 4);
++        }
++    }
++    float x = (v < 0 ? 0 : v > 1 ? 1 : v) * 127.0f;
++    int i = (int)x;
++    return table[i] + (table[i + 1] - table[i]) * (x - (float)i);
+ }
++// Ley de panorama de salCalcVolume (0x80340b70): tramos 0, 0.7079, 1 sobre (pan - 1) / 63. En el centro, -3 dB por canal.
++float pan_curve(float x) {
++    x = x < 0 ? 0 : x > 2 ? 2 : x;
++    return x < 1 ? 0.7079f * x : 0.7079f + (1.0f - 0.7079f) * (x - 1.0f);
++}
++void pan_gains(float vol, int pan, float *l, float *r) {
++    float v = vol_curve(vol);
++    if (pan == 0x80) pan = 0;
++    float x = (float)((pan < 1 ? 1 : pan > 127 ? 127 : pan) - 1) / 63.0f;
++    *l = v * pan_curve(2.0f - x);
++    *r = v * pan_curve(x);
++}
+ 
+ std::mutex g_mix;
+ float g_master = 1.0f;
+@@ -89,11 +113,12 @@
+ // --- Efectos: proyecto MusyX ---
+ struct Sample { std::vector<uint8_t> adpcm; int16_t coef[16]; uint32_t samples, loop_start, loop_len; uint32_t rate; int hist1, hist2; };
+ struct FxDef { uint16_t macro; uint8_t prio, vel, pan; };
++struct MacroInfo { int sample; int fade_ms; };  // fade_ms: caída al soltar la tecla; 0 si la macro no reacciona a ella.
+ std::vector<Sample> g_samples;
+ int g_sample_of_id[0x10000];
+ FxDef g_fx[0x10000];
+ bool g_fx_used[0x10000];
+-int g_macro_sample[0x10000];
++MacroInfo g_macro[0x10000];
+ 
+ struct Voice {
+     bool active;
+@@ -104,13 +129,22 @@
+     int frame_index, last_sample;
+     double pos;
+     float pitch;
+-    int vol, pan;
++    int vel, ctrl_vol, pan_base, ctrl_pan;
++    int fade_ms;             // De la macro.
++    int fade_left, fade_len; // Cuadros de salida restantes de la caída tras soltar la tecla.
+     float gain_l, gain_r;
+ };
+-const int kVoices = 48;
++const int kVoices = 64;
+ Voice g_voices[kVoices];
+ uint32_t g_next_voice = 1;
+ 
++// Velocidad, control 7 y caída se multiplican antes de la curva; el panorama es el de inicio más el control 10.
++void voice_gains(Voice &v) {
++    float vol = (float)v.vel / 127.0f * (float)v.ctrl_vol / 127.0f;
++    if (v.fade_len) vol *= (float)(v.fade_left < 0 ? 0 : v.fade_left) / (float)v.fade_len;
++    pan_gains(vol, v.pan_base + v.ctrl_pan - 0x40, &v.gain_l, &v.gain_r);
++}
++
+ void voice_mix(Voice &v, int *out, int frames) {
+     const Sample &sm = *v.sample;
+     const double step = (double)sm.rate * v.pitch / kOutRate;
+@@ -124,6 +158,10 @@
+         int si = (int)v.pos;
+         if (si != v.last_sample) { v.last_sample = si; v.prev = v.cur; v.cur = v.frame[si % 14]; }
+         float sample = v.prev + (v.cur - v.prev) * (float)(v.pos - si);
++        if (v.fade_len) {
++            if (v.fade_left-- <= 0) { v.active = false; break; }
++            if (!(i & 31)) voice_gains(v);
++        }
+         out[i * 2] += (int)(sample * v.gain_l);
+         out[i * 2 + 1] += (int)(sample * v.gain_r);
+         v.pos += step;
+@@ -194,16 +232,20 @@
+     }
+ }
+ 
++// Comandos de 8 B (dos palabras): 0x10 arranca la muestra, 0x07 espera y 0x0f es la envolvente. La espera con el bit 8 acaba al soltar la tecla.
+ void parse_pool(const uint8_t *pool) {
+-    memset(g_macro_sample, -1, sizeof g_macro_sample);
++    for (auto &m : g_macro) { m.sample = -1; m.fade_ms = 0; }
+     const uint8_t *m = pool + be32(pool);
+     for (;;) {
+         uint32_t size = be32(m);
+         if (size == 0xffffffffu || size == 0) break;
+-        uint16_t id = be16(m + 4);
++        MacroInfo &info = g_macro[be16(m + 4)];
++        bool key_wait = false;
+         for (const uint8_t *c = m + 8; c + 8 <= m + size; c += 8) {
+-            uint32_t w = be32(c);
+-            if ((w & 0xff) == 0x10) { g_macro_sample[id] = (int)((w >> 8) & 0xffff); break; }
++            uint32_t w = be32(c), w2 = be32(c + 4);
++            if ((w & 0xff) == 0x10 && info.sample < 0) info.sample = (int)((w >> 8) & 0xffff);
++            if ((w & 0xff) == 0x07 && (w & 0x100)) key_wait = true;
++            if ((w & 0xff) == 0x0f && key_wait) info.fade_ms = (int)(w2 >> 16);
+         }
+         m += size;
+     }
+@@ -253,7 +295,7 @@
+     while (g_ai_on && g_ai_callback && g_ai_start) {
+         uint32_t queued;
+         { std::lock_guard<std::mutex> lock(g_mix); queued = (g_ai_write + kAiRing - g_ai_read) % kAiRing; }
+-        if (queued > kOutRate / 5) break;
++        if (queued > kOutRate / 20) break;
+         const int16_t *src = (const int16_t *)g2h(g_ai_start);
+         uint32_t frames = g_ai_len / 4;
+         {
+@@ -289,14 +331,14 @@
+ void A803112dc(void) { ensure_started(); g_ai_on = true; }                   // AIStartDMA
+ // AIGetDMAStartAddr: dirección física; el juego le suma 0x80000000 y debe volver a la real.
+ unsigned A8031130c(void) { return g_ai_start - 0x80000000u; }
+-unsigned A803114f0(void) { return 1; }                                       // AIGetDSPSampleRate: 48 kHz
++unsigned A803114f0(void) { return 0; }                                       // AIGetDSPSampleRate: 32 kHz, medido en Dolphin
+ void A80311640(GA) {}                                                        // AIInit
+ 
+ // --- MusyX: sistema ---
+ int A80331928(unsigned, unsigned, unsigned, unsigned, unsigned, unsigned) { ensure_started(); return 0; }  // sndInit
+ void A80331a40(void) {}                                                      // sndQuit
+ void A8033499c(GA) {}                                                        // sndSetHooks
+-void A80322a5c(unsigned) {}                                                  // sndOutputMode
++void A80322a5c(unsigned) {}                                                  // sndOutputMode: salida estéreo siempre; en estéreo MusyX ignora el canal envolvente (span).
+ void A803229fc(unsigned vol, unsigned, unsigned) { g_master = (float)vol / 127.0f; }  // sndVolume
+ int A8032f828(GA proj, unsigned gid, GA samples, GA sdir, GA pool) {         // sndPushGroup
+     std::lock_guard<std::mutex> lock(g_mix);
+@@ -317,9 +359,14 @@
+ unsigned A80322938(unsigned fid, unsigned vol, unsigned pan, unsigned) {     // sndFXStartEx
+     fid &= 0xffff;
+     if (!g_fx_used[fid]) return 0xffffffffu;
+-    int sid = g_macro_sample[g_fx[fid].macro];
++    const MacroInfo &macro = g_macro[g_fx[fid].macro];
++    int sid = macro.sample;
+     if (sid < 0 || g_sample_of_id[sid] < 0) return 0xffffffffu;
++    if ((vol & 0xff) == 0xff) vol = g_fx[fid].vel;
++    if ((pan & 0xff) == 0xff) pan = g_fx[fid].pan;
+     std::lock_guard<std::mutex> lock(g_mix);
++    static FILE *log = getenv("W3D_SND_LOG") ? fopen(getenv("W3D_SND_LOG"), "w") : nullptr;
++    if (log) { fprintf(log, "fx %u vol %u pan %u muestra %d\n", fid, vol & 0xff, pan & 0xff, sid); fflush(log); }
+     for (auto &v : g_voices) {
+         if (v.active) continue;
+         const Sample &s = g_samples[g_sample_of_id[sid]];
+@@ -329,8 +376,9 @@
+         memcpy(v.dec.coef, s.coef, sizeof s.coef);
+         v.dec.hist1 = s.hist1; v.dec.hist2 = s.hist2;
+         v.frame_index = -1; v.last_sample = -1; v.prev = v.cur = 0; v.pos = 0; v.pitch = 1.0f;
+-        v.vol = (int)(vol & 0xff); v.pan = (int)(pan & 0xff);
+-        pan_gains(v.vol, v.pan, &v.gain_l, &v.gain_r);
++        v.vel = (int)(vol & 0xff); v.ctrl_vol = 127; v.pan_base = (int)(pan & 0xff); v.ctrl_pan = 0x40;
++        v.fade_ms = macro.fade_ms; v.fade_left = v.fade_len = 0;
++        voice_gains(v);
+         return v.id;
+     }
+     return 0xffffffffu;
+@@ -343,23 +391,24 @@
+     std::lock_guard<std::mutex> lock(g_mix);
+     Voice *v = voice_of(vid);
+     if (!v) return 0;
+-    if ((ctrl & 0xff) == 7) v->vol = (int)(value & 0xff);
+-    else if ((ctrl & 0xff) == 10) v->pan = (int)(value & 0xff);
+-    pan_gains(v->vol, v->pan, &v->gain_l, &v->gain_r);
++    if ((ctrl & 0xff) == 7) v->ctrl_vol = (int)(value & 0xff);
++    else if ((ctrl & 0xff) == 10) v->ctrl_pan = (int)(value & 0xff);
++    voice_gains(*v);
+     return 1;
+ }
+-int A80322898(unsigned vid, unsigned ctrl, unsigned value) {                 // sndFXCtrl14: rueda de tono, centro 0x2000.
++int A80322898(unsigned vid, unsigned ctrl, unsigned value) {                 // sndFXCtrl14: rueda de tono (0x80) y Doppler (0x84), centro 0x2000.
+     std::lock_guard<std::mutex> lock(g_mix);
+     Voice *v = voice_of(vid);
+     if (!v) return 0;
+-    if ((ctrl & 0xff) == 0x80) v->pitch = powf(2.0f, ((float)(value & 0xffff) - 8192.0f) / 8192.0f * 2.0f / 12.0f);
++    if ((ctrl & 0xff) == 0x80 || (ctrl & 0xff) == 0x84) v->pitch = powf(2.0f, ((float)(value & 0xffff) - 8192.0f) / 8192.0f * 2.0f / 12.0f);
+     return 1;
+ }
+ int A803228f8(unsigned vid) {                                                // sndFXKeyOff
+     std::lock_guard<std::mutex> lock(g_mix);
+     Voice *v = voice_of(vid);
+     if (!v) return 0;
+-    v->active = false;
++    // Plantilla sin espera de tecla: la muestra sigue hasta su final. Con ella: caída y fin.
++    if (v->fade_ms && !v->fade_len) { v->fade_len = v->fade_left = v->fade_ms * kOutRate / 1000; }
+     return 1;
+ }
+ unsigned A803229bc(unsigned vid) {                                           // sndFXCheck
+@@ -379,7 +428,7 @@
+         s.buffer = buffer.v; s.samples = (uint32_t)samples; s.rate = (float)frq;
+         s.callback = cb.v; s.user = user.v;
+         s.frame_index = -1;
+-        pan_gains(vol, pan, &s.gain_l, &s.gain_r);
++        pan_gains((float)vol / 127.0f, pan, &s.gain_l, &s.gain_r);
+         return (unsigned)i;
+     }
+     return 0xffffffffu;
+@@ -387,7 +436,7 @@
+ void A803254e4(unsigned id) { std::lock_guard<std::mutex> lock(g_mix); if (id < kStreams) g_streams[id].used = g_streams[id].active = false; }  // sndStreamFree
+ void A80324920(unsigned id, unsigned vol, unsigned pan, unsigned, unsigned, unsigned) {  // sndStreamMixParameterEx
+     std::lock_guard<std::mutex> lock(g_mix);
+-    if (id < kStreams) pan_gains((int)(vol & 0xff), (int)(pan & 0xff), &g_streams[id].gain_l, &g_streams[id].gain_r);
++    if (id < kStreams) pan_gains((float)(vol & 0xff) / 127.0f, (int)(pan & 0xff), &g_streams[id].gain_l, &g_streams[id].gain_r);
+ }
+ void A80324e7c(unsigned id, unsigned frq) { std::lock_guard<std::mutex> lock(g_mix); if (id < kStreams) g_streams[id].rate = (float)frq; }  // sndStreamFrq
+ void A80324224(unsigned id, GA info) {                                       // sndStreamADPCMParameter
+--- a/port/platform/macos/platform_macos.mm
++++ b/port/platform/macos/platform_macos.mm
+@@ -194,7 +194,7 @@
+ bool audio_start(AudioPull pull) {
+     g_audio_pull = pull;
+     if (!SDL_InitSubSystem(SDL_INIT_AUDIO)) { fprintf(stderr, "audio: %s\n", SDL_GetError()); return false; }
+-    SDL_AudioSpec spec = {SDL_AUDIO_S16, 2, 48000};
++    SDL_AudioSpec spec = {SDL_AUDIO_S16, 2, 32000};  // La frecuencia de la DSP de MusyX; SDL remuestrea al dispositivo.
+     SDL_AudioStream *st = SDL_OpenAudioDeviceStream(SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, audio_feed, nullptr);
+     if (!st) { fprintf(stderr, "audio: %s\n", SDL_GetError()); return false; }
+     SDL_ResumeAudioStreamDevice(st);

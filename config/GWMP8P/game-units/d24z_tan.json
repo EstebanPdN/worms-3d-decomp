@@ -1,0 +1,16 @@
+{
+  "unit": "d24z_tan",
+  "source": "source/matching/game/d24z/d24z_tan.c",
+  "language": "c",
+  "functions": {
+    "w3d_d24z_tan_802e795c": "0x802e795c"
+  },
+  "descriptions": {
+    "w3d_d24z_tan_802e795c": "newlib fdlibm tan, adapted from vendored s_tan.c with constants kept as original small-data externs; names inferred."
+  },
+  "include_dirs": [
+    "source/vendor/newlib-1.10.0/newlib/libc/include",
+    "source/vendor/newlib-1.10.0/newlib/libm/common",
+    "source/vendor/newlib-1.10.0/newlib/libm/math"
+  ]
+}

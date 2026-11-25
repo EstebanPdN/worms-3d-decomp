@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_sphere_next_overlap_8003ffb8",
+  "source": "source/matching/game/g1c/g1c_sphere_next_overlap_8003ffb8.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_sphere_next_overlap_8003ffb8": "0x8003ffb8"
+  },
+  "descriptions": {
+    "g1c_sphere_next_overlap_8003ffb8": "Scan32-byte external sphere records from the shared16-bit cursor to the original range count, excluding the selected index, absent mask bits and excluded identity. Store the position difference and squared distance in original globals, test against squared combined radius, then copy the successful difference, advance the cursor, record the selected index and return it; return65535 when exhausted. Record layout covers the observed stride with unknown fields explicit; all storage remains external, with no constructed receiver or owned data."
+  }
+}

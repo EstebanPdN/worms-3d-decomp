@@ -1,0 +1,11 @@
+{
+  "unit": "mx15ob_name_triple_8022c860",
+  "source": "source/matching/game/mx15ob/mx15ob_name_triple_8022c860.cpp",
+  "language": "cpp",
+  "functions": {
+    "__16Mx15obNameTripleUs": "0x8022c860"
+  },
+  "descriptions": {
+    "__16Mx15obNameTripleUs": "Constructs a three-name record: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the record table 0x80419fd8, copy-constructs the strings at +20, +24 and +28 from the shared empty string 0x804b06a0 (retaining each), and clears the word at +32. Names and member meanings are inferred; offsets are observed."
+  }
+}

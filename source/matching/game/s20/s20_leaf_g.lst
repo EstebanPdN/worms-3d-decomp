@@ -1,0 +1,5 @@
+c source/matching/game/s20/s20_leaf_g.c
+w3d_s20_service_call_800fc668|0x800fc668|Appears to call virtual method 28 of the service object held at offset 100 of a global.
+w3d_s20_service_call4_800fc110|0x800fc110|Appears to forward four arguments to virtual method 13 of the service object held at offset 100 of a global.
+w3d_s20_service_call4_800fc160|0x800fc160|Appears to forward four arguments to virtual method 14 of the service object held at offset 100 of a global.
+w3d_s20_service_call3_800fd440|0x800fd440|Appears to forward two integers and a byte to virtual method 42 of the service object held at offset 100 of a global.

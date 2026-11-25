@@ -1,0 +1,11 @@
+{
+  "unit": "d29b_corner_rotate_80090f84",
+  "source": "source/matching/game/d29b/d29b_corner_rotate_80090f84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29b_box_set_80090f84": "0x80090f84"
+  },
+  "descriptions": {
+    "w3d_d29b_box_set_80090f84": "Corner rotation: copies the two matrices into +320 and +272, runs 0x80090dac, sets the translation of +320 from the vector at +104 of the object 0x804b17e0, rotates the eight vectors at 0x80433700 by the rows of +320 (0x80343bb4) into the eight vectors at 0x804336a0, returns 0."
+  }
+}

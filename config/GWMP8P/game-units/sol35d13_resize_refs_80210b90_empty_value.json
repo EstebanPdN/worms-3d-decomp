@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d13_resize_refs_80210b90_empty_value",
+  "source": "source/matching/game/sol35d13/sol35d13_resize_refs_80210b90_empty_value.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_resize_refs_80210b90_empty_value": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d13_resize_refs_80210b90_empty_value": "Resize retained array with real empty held-value assignment during shrink and genuine new[]/delete[] lifetimes during growth. Native signed capacity and unsigned count semantics retained; GC32 identities inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

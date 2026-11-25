@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801c90c0",
+  "source": "source/matching/game/k4b/k4b_a_801c90c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_named_construct_801c90c0": "0x801c90c0"
+  },
+  "descriptions": {
+    "w3d_k4b_named_construct_801c90c0": "Appears to construct a named object over 0x801ea0ec: vtable 0x804163c0, name string at +20 set to the shared empty string (reference count bumped), value cleared."
+  }
+}

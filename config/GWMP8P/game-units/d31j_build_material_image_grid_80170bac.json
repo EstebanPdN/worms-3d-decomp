@@ -1,0 +1,18 @@
+{
+  "unit": "d31j_build_material_image_grid_80170bac",
+  "source": "source/matching/game/d31j/d31j_build_material_image_grid_80170bac.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d31j_build_material_image_grid_80170bac": "0x80170bac"
+  },
+  "descriptions": {
+    "d31j_build_material_image_grid_80170bac": "Creates the image and names it from the path; loads the texture through the loader, reporting failure through discarded string copies; creates the material with wrap mode by option bit 128; adds three blocks; marks the selected material and applies it; stores the texture size, derives cell size or cell count by option bit 32, fills UV and step arrays row by row; sets the loaded flag, applies three option setters and the texture options unless bit 256 is set."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d15b_init_blender_800a9ee0",
+  "source": "source/matching/game/d15b/d15b_init_blender_800a9ee0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_init_blender_800a9ee0": "0x800a9ee0"
+  },
+  "descriptions": {
+    "d15b_init_blender_800a9ee0": "Initialize an actor-derived blender object in place and return it: run the actor base initializer, install the original table pointer, clear its state words, copy the neutral vector into two vector members, set scalars to 0.5 and 0.0, set the enabled word to 1 and clear the remaining words. Partial observed layout; vector and float constants are original data referenced by address; no owned initialized data."
+  }
+}

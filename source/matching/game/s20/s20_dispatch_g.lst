@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_dispatch_g.c
+w3d_s20_dispatch_record_two_targets_801a3cc4|0x801a3cc4|Appears to dispatch every target of the item's record and then two fixed targets through the handler table, stopping at the first failure.

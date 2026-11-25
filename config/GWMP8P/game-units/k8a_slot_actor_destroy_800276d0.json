@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_slot_actor_destroy_800276d0",
+  "source": "source/matching/game/k8a/k8a_slot_actor_destroy_800276d0.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_slot_actor_destroy_800276d0": "0x800276d0"},
+  "descriptions": {"w3d_k8a_slot_actor_destroy_800276d0": "Appears to destroy an object that holds interfaces in a 20-slot array plus single and top slots and two handle members, then calls its base destructor."}
+}

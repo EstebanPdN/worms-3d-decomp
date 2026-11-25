@@ -1,0 +1,11 @@
+{
+  "unit": "d26b_scheme_load_8008cf40",
+  "source": "source/matching/game/d26b/d26b_scheme_load_8008cf40.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26b_scheme_load_8008cf40": "0x8008cf40"
+  },
+  "descriptions": {
+    "w3d_d26b_scheme_load_8008cf40": "Scheme data load: looks up the property \"GM.SchemeData\" (0x800fc330), resets the weapon tables 0x80431c80 (39 entries) and 0x80431db8 (20 entries) to count 0 with their indices, then for each of 48 settings of the info pointer array copies the value +28 into the entry count when the setting +32 is not -1, or in fallback mode writes a fixed count of 1 to 4 instead; seven entries are always set to 0."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d25g_explosion_message_800666b4",
+  "source": "source/matching/game/d25g/d25g_explosion_message_800666b4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d25g_explosion_message_800666b4": "0x800666b4"
+  },
+  "descriptions": {
+    "w3d_d25g_explosion_message_800666b4": "Fills an explosion message: message id and type table, position and impulse vectors, five floats. Doubles the five floats when the DoubleDamage setting is 1, then publishes the original position, impulse and floats to the Explosion.* settings. Returns the message."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_projection_visible_800f66ac",
+  "source": "source/matching/game/g1c/g1c_projection_visible_800f66ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_projection_visible_800f66ac": "0x800f66ac"
+  },
+  "descriptions": {
+    "g1c_projection_visible_800f66ac": "Traverse the external projection-pointer range and selected visibility-flag group; for flag bit1 records compute y*extentY minus the absolute x and z contributions, reject when below the original external threshold, otherwise return one. All hierarchy and record layouts are external views with explicit unknown fields, never constructed; no external data ownership or original semantic type identity asserted."
+  }
+}

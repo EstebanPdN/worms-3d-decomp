@@ -1,0 +1,14 @@
+{
+  "unit": "k6b_a_802de708",
+  "source": "source/matching/game/k6b/k6b_a_802de708.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_ipairs_802de708": "0x802de708"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_ipairs_802de708": "Appears to be Lua 5.0 lbaselib luaB_ipairs: on the first step push the ipairs generator, table and 0, else push the next index and its raw table value."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

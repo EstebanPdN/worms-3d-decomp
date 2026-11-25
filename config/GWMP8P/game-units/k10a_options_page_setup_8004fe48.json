@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_options_page_setup_8004fe48",
+  "source": "source/matching/game/k10a/k10a_options_page_setup_8004fe48.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_options_page_setup_8004fe48": "0x8004fe48"
+  },
+  "descriptions": {
+    "w3d_k10a_options_page_setup_8004fe48": "Appears to build an options page line from three text pieces, write it to the sink, reset the page state and refresh the page."
+  }
+}

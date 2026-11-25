@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_refresh_toggle_states_802a0ebc",
+  "source": "source/matching/game/f1p/f1p_refresh_toggle_states_802a0ebc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_refresh_toggle_states_802a0ebc": "0x802a0ebc"
+  },
+  "descriptions": {
+    "w3d_refresh_toggle_states_802a0ebc": "Set the three-word state array from mode and selection, update both observed arrays of three controls, then refresh the optional held control with the active word. Roles and partial layout inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8mcontextregs_80090d24",
+  "source": "source/matching/game/auto/s8mcontextregs_80090d24.c",
+  "language": "c",
+  "functions": {
+    "s8_recovered_80090d24": "0x80090d24"
+  },
+  "descriptions": {
+    "s8_recovered_80090d24": "Accesses observed fields 4, 0xAD0. Calls 1 external routines including 0x802eee50."
+  }
+}

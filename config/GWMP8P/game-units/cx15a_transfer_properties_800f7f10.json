@@ -1,0 +1,11 @@
+{
+  "unit": "cx15a_transfer_properties_800f7f10",
+  "source": "source/matching/game/cx15a/cx15a_transfer_properties_800f7f10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_transfer_properties_800f7f10": "0x800f7f10"
+  },
+  "descriptions": {
+    "w3d_cx15a_transfer_properties_800f7f10": "Transfer six property pairs while the owner flag is set, commit six destination pairs, then finish the transfer batch."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_texture_set_destroy_800f2bac",
+  "source": "source/matching/game/k10a/k10a_texture_set_destroy_800f2bac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_texture_set_destroy_800f2bac": "0x800f2bac"
+  },
+  "descriptions": {
+    "w3d_k10a_texture_set_destroy_800f2bac": "Appears to be the destructor of a service-derived object that owns held interfaces, storage blocks, a string and a trailing member."
+  }
+}

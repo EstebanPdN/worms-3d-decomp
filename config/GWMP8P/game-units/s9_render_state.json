@@ -1,0 +1,11 @@
+{
+  "unit": "s9_render_state",
+  "source": "source/matching/game/s9/s9_render_state.c",
+  "language": "c",
+  "functions": {
+    "s9_apply_render_state_80167dd4": "0x80167dd4"
+  },
+  "descriptions": {
+    "s9_apply_render_state_80167dd4": "Appears to update cached render-state mode when dirty or changed, derive material and blend settings from mode flags, and call the platform graphics-state functions."
+  }
+}

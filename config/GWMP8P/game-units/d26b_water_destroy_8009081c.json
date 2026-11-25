@@ -1,0 +1,11 @@
+{
+  "unit": "d26b_water_destroy_8009081c",
+  "source": "source/matching/game/d26b/d26b_water_destroy_8009081c.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._9D26bWater": "0x8009081c"
+  },
+  "descriptions": {
+    "_._9D26bWater": "Water mesh destructor: installs the table 0x8040f150 at +2792, clears the flag 0x804aab68, frees the buffers +724, +2496, 0x804b1800 and thirteen more to the heap 0x804adde4 (0x80209920), clears them, releases +368, sets +536, runs 0x8008eb98 and 0x80078db8; member destructors release the held objects +2788 to +2780, +560, +556, +368 and +240 to +192 through slot +16, delete the storage +2768 and +2460 to +2304 (0x802134fc) and destroy the lists +180 to +60 (0x801f2758); the base destructor clears +28; bit 0 of the flag frees the object."
+  }
+}

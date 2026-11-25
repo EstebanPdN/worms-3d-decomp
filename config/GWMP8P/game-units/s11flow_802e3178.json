@@ -1,0 +1,11 @@
+{
+  "unit": "s11flow_802e3178",
+  "source": "source/matching/game/s11_auto/s11flow_802e3178.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802e3178": "0x802e3178"
+  },
+  "descriptions": {
+    "w3d_auto_802e3178": "Appears to calls 0x8020ee9c, 0x802e3110. m2c types and names are provisional."
+  }
+}

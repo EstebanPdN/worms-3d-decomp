@@ -1,0 +1,17 @@
+{
+  "unit": "d15f_apply_to_subtree_8034ab10",
+  "source": "source/matching/game/d15f/d15f_apply_to_subtree_8034ab10.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d15f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d15f_apply_to_subtree_8034ab10": "0x8034ab10"
+  },
+  "descriptions": {
+    "d15f_apply_to_subtree_8034ab10": "Resolves a 12-bit-indexed node handle (E_FAIL if invalid), sets the engine context mode to 8, 6 or 7 when the node target's type derives from one of three type descriptors, calls the target's apply slot with the argument and, if requested and successful, applies it to each direct child's target (resolved by handle) until a call fails; returns the last result."
+  }
+}

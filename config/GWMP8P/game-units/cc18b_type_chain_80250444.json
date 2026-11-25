@@ -1,0 +1,11 @@
+{
+  "unit": "cc18b_type_chain_80250444",
+  "source": "source/matching/game/cc18b/cc18b_type_chain_80250444.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18b_type_chain_80250444": "0x80250444"
+  },
+  "descriptions": {
+    "w3d_cc18b_type_chain_80250444": "At initialization priority 65535, constructs the observed type descriptors in order using their original names, parent descriptors and factory callbacks."
+  }
+}

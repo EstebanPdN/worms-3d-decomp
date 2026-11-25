@@ -1,0 +1,13 @@
+{
+  "unit": "h1_newlib_fopen_atof",
+  "source": "source/matching/game/h1/h1_newlib_fopen_atof.c",
+  "language": "c",
+  "functions": {
+    "fopen": "0x802eb4b4",
+    "atof": "0x802ed878"
+  },
+  "descriptions": {
+    "fopen": "newlib-style fopen: calls the reentrant open routine at 0x802eb3c8 with the global reentrancy structure, file name and mode.",
+    "atof": "Appears to be newlib atof: returns the strtod routine at 0x802ee800 applied to s with a null end pointer."
+  }
+}

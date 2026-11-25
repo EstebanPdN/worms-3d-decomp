@@ -1,0 +1,11 @@
+{
+  "unit": "cc30b_share_names_80193ef0",
+  "source": "source/matching/game/cc30b/cc30b_share_names_80193ef0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc30b_share_names_80193ef0": "0x80193ef0"
+  },
+  "descriptions": {
+    "w3d_cc30b_share_names_80193ef0": "Calls the original prepare/update virtual slots, then shares equal adjacent names through unsigned16 header reference counts. Retains the incoming string before releasing the old string, reloads the dynamic unsigned count each iteration, and finishes/releases the native temporary. Four-byte string view suffices; original complete class size remains unknown."
+  }
+}

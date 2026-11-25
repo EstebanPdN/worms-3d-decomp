@@ -1,0 +1,13 @@
+{
+  "unit": "s5_motion_adjust",
+  "source": "source/matching/game/s5_motion_adjust.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_motion_step_800d3160": "0x800d3160",
+    "w3d_motion_test_pair_800d4cec": "0x800d4cec"
+  },
+  "descriptions": {
+    "w3d_motion_step_800d3160": "Dispatches a motion step and then runs adjustment, application and finish phases.",
+    "w3d_motion_test_pair_800d4cec": "Builds a direction and returns whether either of two motion tests succeeds."
+  }
+}

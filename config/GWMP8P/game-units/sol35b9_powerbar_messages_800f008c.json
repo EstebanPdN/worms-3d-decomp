@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b9_powerbar_messages_800f008c",
+  "source": "source/matching/game/sol35b9/sol35b9_powerbar_messages_800f008c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b9_powerbar_messages_800f008c": "0x800f008c"
+  },
+  "descriptions": {
+    "sol35b9_powerbar_messages_800f008c": "Handle native powerbar initialization, visibility, fade deadlines and effect position messages; preserve unsigned property arithmetic, the genuine three-float copy and base-message fallback. Inferred GC32 field/API identities; nonzero divisors and external graphic/property lifetimes required."
+  }
+}

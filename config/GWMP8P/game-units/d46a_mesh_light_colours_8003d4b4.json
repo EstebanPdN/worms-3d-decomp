@@ -1,0 +1,14 @@
+{
+  "unit": "d46a_mesh_light_colours_8003d4b4",
+  "source": "source/matching/game/d46a/d46a_mesh_light_colours_8003d4b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d46a_mesh_light_colours_8003d4b4": "0x8003d4b4"
+  },
+  "descriptions": {
+    "w3d_d46a_mesh_light_colours_8003d4b4": "Rebuilds the mesh vertex stream: transforms each point and normal by the rotating matrix, writes position, flag, UV, palette colour with view-based alpha, and tag."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

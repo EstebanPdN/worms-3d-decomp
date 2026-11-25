@@ -1,0 +1,11 @@
+{
+  "unit": "mx14sa_box_row_800370cc",
+  "source": "source/matching/game/mx14sa/mx14sa_box_row_800370cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx14sa_box_row_800370cc": "0x800370cc"
+  },
+  "descriptions": {
+    "mx14sa_box_row_800370cc": "Constructs ten FE_NewBox_Blue named handles with cyclic indices 28 through 32, applies the observed scale arguments, positions each box and advances the position by the observed step vector."
+  }
+}

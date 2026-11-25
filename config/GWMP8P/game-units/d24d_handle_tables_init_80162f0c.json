@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_handle_tables_init_80162f0c",
+  "source": "source/matching/game/d24d/d24d_handle_tables_init_80162f0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_handle_tables_init_80162f0c": "0x80162f0c"
+  },
+  "descriptions": {
+    "d24d_handle_tables_init_80162f0c": "Reads four table settings, initializes the object at +32, creates two handle tables (36-byte slot array, three index ranges, two 8 KB buffers, three lists) at +20 and +24, sets +28 to the first, clears +48..+56 and returns 0."
+  }
+}

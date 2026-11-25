@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_attachment_position_80135af4",
+  "source": "source/matching/game/k7a/k7a_attachment_position_80135af4.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_attachment_position_80135af4": "0x80135af4"},
+  "descriptions": {"w3d_k7a_attachment_position_80135af4": "Appears to return the world position of an attached mesh: the object's own position in mode 47, otherwise the translation of the attachment or mesh transform."}
+}

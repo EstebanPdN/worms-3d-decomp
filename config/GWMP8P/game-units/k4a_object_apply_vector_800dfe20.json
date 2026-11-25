@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_object_apply_vector_800dfe20",
+  "source": "source/matching/game/k4a/k4a_object_apply_vector_800dfe20.c",
+  "language": "c",
+  "functions": {
+    "k4a_object_apply_vector_800dfe20": "0x800dfe20"
+  },
+  "descriptions": {
+    "k4a_object_apply_vector_800dfe20": "Appears to fetch an object, build a 3-float vector from its negated and plain fields plus a constant, pass it to a helper with the argument and return the object."
+  }
+}

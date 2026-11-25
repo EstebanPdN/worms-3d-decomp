@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_initialize_index_801192ec",
+  "source": "source/matching/game/cx14a/cx14a_initialize_index_801192ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_initialize_index_801192ec": "0x801192ec"
+  },
+  "descriptions": {
+    "w3d_cx14a_initialize_index_801192ec": "Initializes the observed five index/list fields, installs the original interface table, queries ActiveWormIndex, and retains the selected property while releasing the temporary holder."
+  }
+}

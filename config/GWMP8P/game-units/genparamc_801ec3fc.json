@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_801ec3fc",
+  "source": "source/matching/game/generated/genparamc_801ec3fc.c",
+  "language": "c",
+  "functions": {
+    "w3d_copy_float_property_801ec3fc": "0x801ec3fc",
+    "w3d_copy_float_property_801ec5b8": "0x801ec5b8"
+  },
+  "descriptions": {
+    "w3d_copy_float_property_801ec3fc": "Copies a float property: calls the getter of one binding on the source object and passes the result to the setter of another on the target (pointers to member functions).",
+    "w3d_copy_float_property_801ec5b8": "Copies a float property: calls the getter of one binding on the source object and passes the result to the setter of another on the target (pointers to member functions)."
+  }
+}

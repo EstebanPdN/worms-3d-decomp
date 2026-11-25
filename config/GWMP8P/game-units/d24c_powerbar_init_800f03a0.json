@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_powerbar_init_800f03a0",
+  "source": "source/matching/game/d24c/d24c_powerbar_init_800f03a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_powerbar_init_800f03a0": "0x800f03a0"
+  },
+  "descriptions": {
+    "d24c_powerbar_init_800f03a0": "Load the HUD.Powerbar mesh into +28 retaining it; read active worm, fill, maximum, next, position, size and chat settings into retained references +92..+116, releasing previous values; read the bar size setting; copy the position value to +32 and pass it to the mesh (virtual +76); set the mesh mode 1 and size 1; clear its first index byte and set its first flag to 1; set its colour from the shared colour 0x804af024 with alpha from the next setting; set its two 2D pairs from pool floats 0x8038c214 and 0x8038c218; subscribe five handlers at +44..+60; open the bazooka power sound into +88."
+  }
+}

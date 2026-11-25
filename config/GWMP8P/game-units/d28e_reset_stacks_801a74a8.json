@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_reset_stacks_801a74a8",
+  "source": "source/matching/game/d28e/d28e_reset_stacks_801a74a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_reset_stacks_801a74a8": "0x801a74a8"
+  },
+  "descriptions": {
+    "w3d_d28e_reset_stacks_801a74a8": "Empty the two pointer deques at +48 and +96 (pop_back with the helper 0x8035366c at a node boundary), then push the given value on the second and the current value at +40 on the first (helper 0x80353880). Returns 0."
+  }
+}

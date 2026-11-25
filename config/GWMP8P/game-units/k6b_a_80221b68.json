@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80221b68",
+  "source": "source/matching/game/k6b/k6b_a_80221b68.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_label_pair_construct_80221b68": "0x80221b68"
+  },
+  "descriptions": {
+    "w3d_k6b_label_pair_construct_80221b68": "Appears to construct an object over base 0x8021ef08 with vtable 0x8041a4d8, 1 at +116 and empty shared strings at +120 and +124."
+  }
+}

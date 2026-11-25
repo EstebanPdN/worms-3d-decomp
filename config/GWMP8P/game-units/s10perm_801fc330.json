@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801fc330",
+  "source": "source/matching/game/perm/s10perm_801fc330.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801fc330": "0x801fc330"
+  },
+  "descriptions": {
+    "w3d_auto_801fc330": "Writes the observed byte-range length and returns the range start, or zero when empty."
+  }
+}

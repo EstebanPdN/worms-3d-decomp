@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_fall_camera_enter_80071d28",
+  "source": "source/matching/game/k5a/k5a_fall_camera_enter_80071d28.cpp",
+  "language": "cpp",
+  "functions": {"k5a_fall_camera_enter_80071d28": "0x80071d28"},
+  "descriptions": {"k5a_fall_camera_enter_80071d28": "Appears to post a Flying message, record the engine task id, publish the entity id property, switch to the fall camera and send a message to the base handler."}
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc19a_service_release_800205e8",
+  "source": "source/matching/game/cc19a/cc19a_service_release_800205e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc19a_service_release_800205e8": "0x800205e8"
+  },
+  "descriptions": {
+    "w3d_cc19a_service_release_800205e8": "Installs the observed service vtable, resets its external service hook and global flag, releases seventeen consecutive interfaces and the offset28 interface, then forwards destructor flags to the base service."
+  }
+}

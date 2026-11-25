@@ -1,0 +1,17 @@
+{
+  "unit": "genparamc_8018e348",
+  "source": "source/matching/game/generated/genparamc_8018e348.c",
+  "language": "c",
+  "functions": {
+    "w3d_clear_named_string_8018e348": "0x8018e348",
+    "w3d_clear_named_string_801c2260": "0x801c2260",
+    "w3d_clear_named_string_80225348": "0x80225348",
+    "w3d_clear_named_string_8024f250": "0x8024f250"
+  },
+  "descriptions": {
+    "w3d_clear_named_string_8018e348": "Looks up a named member and assigns it a temporary empty shared string (retain new, release old), then registers a binding and finishes registration; returns zero.",
+    "w3d_clear_named_string_801c2260": "Looks up a named member and assigns it a temporary empty shared string (retain new, release old), then registers a binding and finishes registration; returns zero.",
+    "w3d_clear_named_string_80225348": "Looks up a named member and assigns it a temporary empty shared string (retain new, release old), then registers a binding and finishes registration; returns zero.",
+    "w3d_clear_named_string_8024f250": "Looks up a named member and assigns it a temporary empty shared string (retain new, release old), then registers a binding and finishes registration; returns zero."
+  }
+}

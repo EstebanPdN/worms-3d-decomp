@@ -1,0 +1,11 @@
+{
+  "unit": "f9b_choose_weapon_crate_8008a66c",
+  "source": "source/matching/game/f9b/f9b_choose_weapon_crate_8008a66c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f9b_choose_weapon_crate_8008a66c": "0x8008a66c"
+  },
+  "descriptions": {
+    "f9b_choose_weapon_crate_8008a66c": "Select a crate weapon through the weighted table, retain shared interior failure returns and set the special count for weapon23 before writing the selected content. Table strides and original external properties are observed; roles are inferred. Roles, types and layouts are inferred."
+  }
+}

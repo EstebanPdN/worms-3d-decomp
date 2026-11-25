@@ -1,0 +1,11 @@
+{
+  "unit": "s12_member_binding_801eb674",
+  "source": "source/matching/game/s12/s12_member_binding.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s12_create_member_binding_801eb674": "0x801eb674"
+  },
+  "descriptions": {
+    "w3d_s12_create_member_binding_801eb674": "Allocates an observed property binding, installs its method table, copies two member-function pointers and its state, and registers it with the owner."
+  }
+}

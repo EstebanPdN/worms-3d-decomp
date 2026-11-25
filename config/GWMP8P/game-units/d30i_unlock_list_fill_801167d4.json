@@ -1,0 +1,15 @@
+{
+  "unit": "d30i_unlock_list_fill_801167d4",
+  "source": "source/matching/game/d30i/d30i_unlock_list_fill_801167d4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30i_unlock_list_fill_801167d4": "0x801167d4"
+  },
+  "descriptions": {
+    "d30i_unlock_list_fill_801167d4": "Fills the unlocks list with every entry of the expected type, sorted by lock state, skill text and name, then writes the unlocked percentage to Lock.Percent."
+  }
+}

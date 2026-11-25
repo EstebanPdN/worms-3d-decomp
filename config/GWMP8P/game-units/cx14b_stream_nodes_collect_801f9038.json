@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_stream_nodes_collect_801f9038",
+  "source": "source/matching/game/cx14b/cx14b_stream_nodes_collect_801f9038.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_stream_nodes_collect_801f9038": "0x801f9038"
+  },
+  "descriptions": {
+    "w3d_cx14b_stream_nodes_collect_801f9038": "Collect requested twelve-byte node descriptors from a held stream using first/next lookup and preserve the original output-count clear."
+  }
+}

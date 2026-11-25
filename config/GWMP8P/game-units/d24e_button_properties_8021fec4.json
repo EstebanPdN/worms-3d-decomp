@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_button_properties_8021fec4",
+  "source": "source/matching/game/d24e/d24e_button_properties_8021fec4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_button_properties_8021fec4": "0x8021fec4"
+  },
+  "descriptions": {
+    "w3d_d24e_register_button_properties_8021fec4": "Resets the ResourceName string binding (0x801ed24c) to the shared empty string; resets the HighlightedMessage string binding (0x801ed24c) to the shared empty string; resets the SelectedMessage string binding (0x801ed24c) to the shared empty string; sets the BorderResource string binding (0x801ed24c) to a temporary string made from \"FE.Button.%s\" (0x803b61f8, constructor 0x8020bb54); registers BorderColour (0x801ece2c); registers SquareButton (0x801eb674); registers BorderBehind (0x801eb674); registers HighlightSize (0x801ec52c); registers OnRelease (0x801eb674); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

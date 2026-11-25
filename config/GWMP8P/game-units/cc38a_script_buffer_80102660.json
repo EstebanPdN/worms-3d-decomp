@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_script_buffer_80102660",
+  "source": "source/matching/game/cc38a/cc38a_script_buffer_80102660.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_script_buffer_80102660": "0x80102660"
+  },
+  "descriptions": {
+    "cc38a_script_buffer_80102660": "Load and execute a Lua buffer, preserving parse-error reporting, runtime error handling, shared-string lifetime, and the original failure code."
+  }
+}

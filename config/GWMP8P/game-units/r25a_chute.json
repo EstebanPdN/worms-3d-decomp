@@ -1,0 +1,11 @@
+{
+  "unit": "r25a_chute",
+  "source": "source/matching/game/r25a/r25a_chute_final.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25a_initialize_chute_message_800da3fc": "0x800da3fc"
+  },
+  "descriptions": {
+    "w3d_r25a_initialize_chute_message_800da3fc": "Initializes handle at +32 from original Worm.Chute string, destroys temporary string, allocates a twelve-byte message, constructs it with the truncated sixteen-bit cached identifier and target at +20, and posts the returned message."
+  }
+}

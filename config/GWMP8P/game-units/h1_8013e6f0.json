@@ -1,0 +1,4 @@
+{"unit":"h1_8013e6f0","source":"source/matching/game/h1/h1_8013e6f0.c","language":"c",
+"functions":{"w3d_h1_worm_script_speech_apply_8013e6f0":"0x8013e6f0","w3d_h1_current_team_value_8021eb00":"0x8021eb00"},
+"descriptions":{"w3d_h1_worm_script_speech_apply_8013e6f0":"Reads the Worm.ScriptSpeech property (default 0) and passes it to 0x8013bd0c for the object.",
+"w3d_h1_current_team_value_8021eb00":"Reads the CurrentTeamIndex property (default -1), looks up that team record and returns its word at offset 32."}}

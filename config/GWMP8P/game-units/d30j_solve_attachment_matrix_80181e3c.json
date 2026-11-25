@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_solve_attachment_matrix_80181e3c",
+  "source": "source/matching/game/d30j/d30j_solve_attachment_matrix_80181e3c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30j_solve_attachment_matrix_80181e3c": "0x80181e3c"
+  },
+  "descriptions": {
+    "d30j_solve_attachment_matrix_80181e3c": "Solve an object's attachment matrix through temporary services and copy the 48-byte result out."
+  }
+}

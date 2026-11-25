@@ -1,0 +1,14 @@
+{
+  "unit": "d43n_mesh_clone_object_setup_typed_80188b38",
+  "source": "source/matching/game/d43n/d43n_mesh_clone_object_setup_typed_80188b38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43n_mesh_clone_object_setup_typed_80188b38": "0x80188b38"
+  },
+  "descriptions": {
+    "w3d_d43n_mesh_clone_object_setup_typed_80188b38": "After the base initialiser succeeds, stores item and instance references, creates a texture and geometry copy, walks the geometry resource's type chain twice to pick one of three services, duplicates two 8-byte element arrays through the array lock inline, appends geometry and instance to their registries, sets default colour vectors, pushes them to the texture and bumps the global object count. Field names inferred from use."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

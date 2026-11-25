@@ -1,0 +1,15 @@
+{
+  "unit": "genparamc_801bcdc0",
+  "source": "source/matching/game/generated/genparamc_801bcdc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_vectors_801bcdc0": "0x801bcdc0",
+    "w3d_construct_vectors_801bcfec": "0x801bcfec",
+    "w3d_construct_vectors_801c1638": "0x801c1638"
+  },
+  "descriptions": {
+    "w3d_construct_vectors_801bcdc0": "Constructor: runs the base constructor, installs the vtable and fills two three-float vectors with the same constant; returns the object.",
+    "w3d_construct_vectors_801bcfec": "Constructor: runs the base constructor, installs the vtable and fills two three-float vectors with the same constant; returns the object.",
+    "w3d_construct_vectors_801c1638": "Constructor: runs the base constructor, installs the vtable and fills two three-float vectors with the same constant; returns the object."
+  }
+}

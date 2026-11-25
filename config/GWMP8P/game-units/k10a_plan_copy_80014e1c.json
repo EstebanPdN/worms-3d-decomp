@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_plan_copy_80014e1c",
+  "source": "source/matching/game/k10a/k10a_plan_copy_80014e1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_plan_copy_80014e1c": "0x80014e1c"
+  },
+  "descriptions": {
+    "w3d_k10a_plan_copy_80014e1c": "Appears to copy-construct a path plan with an extra method member, retaining both held queue references and tagging it with kind 29."
+  }
+}

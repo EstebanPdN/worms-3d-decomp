@@ -1,0 +1,41 @@
+{
+  "unit": "b_scene_node",
+  "source": "source/matching/game/b_scene_node.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8018573c": "0x8018573c",
+    "w3d_pset_instance_owner_flags": "0x80185744",
+    "w3d_pset_instance_shutdown": "0x80185778",
+    "w3d_node_construct": "0x801857f4",
+    "w3d_node_destruct": "0x801858fc",
+    "w3d_node_add_ref": "0x80185970",
+    "w3d_node_release": "0x80185990",
+    "w3d_node_query_interface": "0x801859e4",
+    "w3d_node_reset": "0x801859f8",
+    "w3d_node_set_type": "0x80185af0",
+    "w3d_node_not_implemented": "0x80185b00",
+    "w3d_node_in_use": "0x80185b0c",
+    "w3d_node_slot": "0x80185b24",
+    "w3d_node_set_id": "0x80185b2c",
+    "w3d_node_id": "0x80185b38",
+    "w3d_node_set_mode": "0x80185b40"
+  },
+  "descriptions": {
+    "w3d_fn_8018573c": "Returns 0; likely a default virtual method of XParticleSetInstance.",
+    "w3d_pset_instance_owner_flags": "Returns the first flag byte reported by the particle-set instance's owner.",
+    "w3d_pset_instance_shutdown": "Runs base shutdown, detaches the particle-set instance from its owner and releases its emitter.",
+    "w3d_node_construct": "Constructs a scene node: clears children, resets ids, zero/one vectors, copies the identity transform.",
+    "w3d_node_destruct": "Destroys a scene node: releases its attachment and child storage, and frees it when asked.",
+    "w3d_node_add_ref": "Increments the node's 15-bit reference count and returns the new value.",
+    "w3d_node_release": "Decrements the node's reference count and destroys it through its vtable when it reaches zero.",
+    "w3d_node_query_interface": "Clears the output and reports that no extra interface is supported.",
+    "w3d_node_reset": "Detaches the node from its parent, removes all children and resets its three vectors.",
+    "w3d_node_set_type": "Stores a type byte and returns the not-implemented status.",
+    "w3d_node_not_implemented": "Returns the not-implemented status; a default virtual method.",
+    "w3d_node_in_use": "Returns 1 when the node has any references, otherwise 0.",
+    "w3d_node_slot": "Returns the node's 16-bit slot number.",
+    "w3d_node_set_id": "Sets the node's 16-bit id and returns success.",
+    "w3d_node_id": "Returns the node's 16-bit id.",
+    "w3d_node_set_mode": "Changes the node's mode byte and reapplies it through virtual methods when it differs."
+  }
+}

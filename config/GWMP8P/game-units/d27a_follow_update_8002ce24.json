@@ -1,0 +1,14 @@
+{
+  "unit": "d27a_follow_update_8002ce24",
+  "source": "source/matching/game/d27a/d27a_follow_update_8002ce24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_follow_update_8002ce24": "0x8002ce24"
+  },
+  "descriptions": {
+    "w3d_d27a_follow_update_8002ce24": "Reads rates from properties at +132..+148 with 0x80178df0. Lerps the angle +80 to +84 and builds the goal direction +112 from its cosine and sine. Speeds the rates of +4 and +16 when their squared distance to the goals +88 and +100 passes 500, clamps them to 0..1, lerps the three vectors, normalizes the direction +28, and limits +8 and +92 by property +172."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_interface_key_nth_801af870",
+  "source": "source/matching/game/cx16b/cx16b_interface_key_nth_801af870.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_interface_key_nth_801af870": "0x801af870"
+  },
+  "descriptions": {
+    "w3d_cx16b_interface_key_nth_801af870": "Finds the requested matching sixteen-byte key in twenty-four-byte interface records, retaining the resulting interface or returning the original failure code and null output."
+  }
+}

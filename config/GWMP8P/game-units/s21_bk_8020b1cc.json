@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bk_8020b1cc",
+  "source": "source/matching/game/s21/s21_bk_8020b1cc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_global_8020b1cc": "0x8020b1cc"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_global_8020b1cc": "Appears to be a static destruction entry that installs a vtable pointer in a global object and destroys its embedded node."
+  }
+}

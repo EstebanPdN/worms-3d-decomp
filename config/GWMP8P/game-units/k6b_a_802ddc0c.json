@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_802ddc0c",
+  "source": "source/matching/game/k6b/k6b_a_802ddc0c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_callalert_802ddc0c": "0x802ddc0c"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_callalert_802ddc0c": "Appears to be Lua 5.0 lauxlib callalert: on error call the global _ALERT with the message, or print it to stderr and pop two values."
+  }
+}

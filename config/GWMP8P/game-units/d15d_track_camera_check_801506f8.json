@@ -1,0 +1,11 @@
+{
+  "unit": "d15d_track_camera_check_801506f8",
+  "source": "source/matching/game/d15d/d15d_track_camera_check_801506f8.c",
+  "language": "c",
+  "functions": {
+    "d15d_actor_check_track_camera_801506f8": "0x801506f8"
+  },
+  "descriptions": {
+    "d15d_actor_check_track_camera_801506f8": "When the current scene exists, compute the actor's camera target position, look up the WormTrackCamera interface and its camera range, query the scene and visibility tests for that position and measure its distance to the scene's current view. If either test fails or the distance exceeds the camera range, switch the actor's camera (0x80150828). Releases the looked-up interface. Partial observed layouts; no owned initialized data."
+  }
+}

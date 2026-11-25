@@ -1,0 +1,11 @@
+{
+  "unit": "s21_az_802016d0",
+  "source": "source/matching/game/s21/s21_az_802016d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_guid_802016d0": "0x802016d0"
+  },
+  "descriptions": {
+    "w3d_s21_read_guid_802016d0": "Appears to read a sixteen-byte identifier from the inner stream and byte-swap its leading word and two halfwords when the read succeeds, returning the status."
+  }
+}

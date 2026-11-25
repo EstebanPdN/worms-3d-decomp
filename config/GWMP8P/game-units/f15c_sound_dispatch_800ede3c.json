@@ -1,0 +1,11 @@
+{
+  "unit": "f15c_sound_dispatch_800ede3c",
+  "source": "source/matching/game/f15c/f15c_sound_dispatch_800ede3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f15c_sound_dispatch_800ede3c": "0x800ede3c"
+  },
+  "descriptions": {
+    "f15c_sound_dispatch_800ede3c": "Returns without action if the observed handle at receiver+20 has no object. Otherwise reads the property name pointer at+304 into a local and resolves it through800fc330, then obtains its type descriptor via virtual slot20 with the resolved object as receiver. Walks parent pointers at descriptor+20 until each target or a self-parent root is found: membership in80367b08 invokes800edc28 independently; membership in80367ba8 invokes800edca0, otherwise membership in80367bf8 invokes800edd1c. Preserves native boolean materialization and the independent first sound branch. Type identities, exact external classes and sound roles remain inferred; all modeled views are external prefixes."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s10_tree_clear",
+  "source": "source/matching/game/s10/s10_tree_clear.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_tree_clear_801a6458": "0x801a6458"
+  },
+  "descriptions": {
+    "w3d_s10_tree_clear_801a6458": "Clears the observed tree through its helper, restores the sentinel links, and resets its element count."
+  }
+}

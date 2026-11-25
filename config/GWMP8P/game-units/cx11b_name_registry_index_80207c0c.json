@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_name_registry_index_80207c0c",
+  "source": "source/matching/game/cx11b/cx11b_name_registry_index_80207c0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_name_registry_index_80207c0c": "0x80207c0c"
+  },
+  "descriptions": {
+    "w3d_cx11b_name_registry_index_80207c0c": "Find a registered name or append it and return its sixteen-bit ordinal."
+  }
+}

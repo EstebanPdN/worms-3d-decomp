@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_channel_update_8005166c",
+  "source": "source/matching/game/k8a/k8a_channel_update_8005166c.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_channel_update_8005166c": "0x8005166c"},
+  "descriptions": {"w3d_k8a_channel_update_8005166c": "Appears to update four channels: starts idle channels once the requested time passes their start time, polls started channels, and notifies the owner when all are idle."}
+}

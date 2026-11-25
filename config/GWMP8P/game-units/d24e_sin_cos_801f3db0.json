@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_sin_cos_801f3db0",
+  "source": "source/matching/game/d24e/d24e_sin_cos_801f3db0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_sin_cos_801f3db0": "0x801f3db0"
+  },
+  "descriptions": {
+    "w3d_d24e_sin_cos_801f3db0": "Writes the sine and cosine of an angle through a 16-bit fixed-point angle, a quadrant fold and two polynomials."
+  }
+}

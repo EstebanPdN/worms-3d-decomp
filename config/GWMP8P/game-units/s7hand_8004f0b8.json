@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8004f0b8",
+  "source": "source/matching/game/s7/s7hand_8004f0b8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8004f0b8": "0x8004f0b8"
+  },
+  "descriptions": {
+    "w3d_auto_8004f0b8": "Constructs the base, installs vtable 0x8040eaa0, clears nine contiguous word slots and resets the trailing field."
+  }
+}

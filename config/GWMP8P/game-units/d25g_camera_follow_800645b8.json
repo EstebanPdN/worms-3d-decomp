@@ -1,0 +1,11 @@
+{
+  "unit": "d25g_camera_follow_800645b8",
+  "source": "source/matching/game/d25g/d25g_camera_follow_800645b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25g_camera_follow_800645b8": "0x800645b8"
+  },
+  "descriptions": {
+    "w3d_d25g_camera_follow_800645b8": "Moves a position toward its target: reads the +116 anchor vector and lowers it by the +56 height times the +108 speed; while the +40 blend is positive shows the marker, otherwise uses the +112 anchor. Within 0.3 on every axis it snaps and returns 1, hiding the marker once the blend is zero; otherwise it steps by the +136 rate and returns 0. Refreshes either way."
+  }
+}

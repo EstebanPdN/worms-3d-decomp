@@ -1,0 +1,15 @@
+{
+  "unit": "genparam_801f17f4",
+  "source": "source/matching/game/generated/genparam_801f17f4.c",
+  "language": "c",
+  "functions": {
+    "w3d_pmf_forward_801f17f4": "0x801f17f4",
+    "w3d_pmf_forward_801f1954": "0x801f1954",
+    "w3d_pmf_forward_801f1a5c": "0x801f1a5c"
+  },
+  "descriptions": {
+    "w3d_pmf_forward_801f17f4": "Forwards its three arguments and copies of the two 8-byte member-function pointers at fixed object offsets to a per-class callee.",
+    "w3d_pmf_forward_801f1954": "Forwards its three arguments and copies of the two 8-byte member-function pointers at fixed object offsets to a per-class callee.",
+    "w3d_pmf_forward_801f1a5c": "Forwards its three arguments and copies of the two 8-byte member-function pointers at fixed object offsets to a per-class callee."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_8026d488",
+  "source": "source/matching/game/generated/genparamc_8026d488.c",
+  "language": "c",
+  "functions": {
+    "w3d_set_triple_notify_8026d488": "0x8026d488",
+    "w3d_set_triple_notify_8026d524": "0x8026d524"
+  },
+  "descriptions": {
+    "w3d_set_triple_notify_8026d488": "Stores a three-word value at a fixed field only if it differs from the current one, then passes the new value to the attached object (virtual call).",
+    "w3d_set_triple_notify_8026d524": "Stores a three-word value at a fixed field only if it differs from the current one, then passes the new value to the attached object (virtual call)."
+  }
+}

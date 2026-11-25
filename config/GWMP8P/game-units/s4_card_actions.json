@@ -1,0 +1,19 @@
+{
+  "unit": "s4_card_actions",
+  "source": "source/matching/game/s4_card_actions.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_reset": "0x80289914",
+    "w3d_s4_card_add_record": "0x80289d2c",
+    "w3d_s4_card_set_name": "0x80289d70",
+    "w3d_s4_card_check_boot": "0x80289da4",
+    "w3d_s4_card_begin_load": "0x80289e80"
+  },
+  "descriptions": {
+    "w3d_s4_card_reset": "Resets card UI resources, releases both handle arrays, and clears card selection state.",
+    "w3d_s4_card_add_record": "Initializes and returns the next card record, then increments the record count.",
+    "w3d_s4_card_set_name": "Passes a name and destination to the property setter with limits 255 and 5.",
+    "w3d_s4_card_check_boot": "Starts the boot card check once and marks its flag.",
+    "w3d_s4_card_begin_load": "Prepares card state and starts a card load with its loading flag set."
+  }
+}

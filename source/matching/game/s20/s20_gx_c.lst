@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_gx_c.c
+w3d_s20_draw_textured_quad_8016dfcc|0x8016dfcc|Appears to submit four vertices of a textured rectangle to the graphics write pipe from the texture origin plus the given offsets and sizes.

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_hit_related_802b9bac",
+  "source": "source/matching/game/f1p/f1p_hit_related_802b9bac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hit_related_802b9bac": "0x802b9bac"
+  },
+  "descriptions": {
+    "w3d_hit_related_802b9bac": "After active/mode/ready/related guards, obtains the panel center, copies related extent and offset vectors, adds the offset to the center, optionally subtracts cached width from the right boundary, and performs the observed inclusive x/y bounds test. Inferred UI meaning; exact float operation and comparison order."
+  }
+}

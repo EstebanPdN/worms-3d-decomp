@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801f7a58",
+  "source": "source/matching/game/k5b/k5b_a_801f7a58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_axis_vectors_sinit_801f7a58": "0x801f7a58"
+  },
+  "descriptions": {
+    "w3d_k5b_axis_vectors_sinit_801f7a58": "Appears to be a static initializer constructing the zero vector and the X, Y and Z unit vectors at 0x8045e788..0x8045e7ac."
+  }
+}

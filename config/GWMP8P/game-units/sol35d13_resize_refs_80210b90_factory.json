@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d13_resize_refs_80210b90_factory",
+  "source": "source/matching/game/sol35d13/sol35d13_resize_refs_80210b90_factory.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_resize_refs_80210b90_factory": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d13_resize_refs_80210b90_factory": "Resize retained array through genuine inline array construction factory and native owning lifetimes; signed capacity comparison and unsigned loops retained. Inferred GC32 types."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

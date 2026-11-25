@@ -1,0 +1,11 @@
+{
+  "unit": "s19_locator_refresh_800a4de4",
+  "source": "source/matching/game/s19/s19_locator_refresh_800a4de4.c",
+  "language": "c",
+  "functions": {
+    "s19_locator_refresh_800a4de4": "0x800a4de4"
+  },
+  "descriptions": {
+    "s19_locator_refresh_800a4de4": "Appears to release an existing locator when set, then create a new IceGasLocator UtilityFreeze locator for the owner at +0x20."
+  }
+}

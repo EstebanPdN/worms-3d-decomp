@@ -1,0 +1,11 @@
+{
+  "unit": "h2a_resource_reset_80169f80",
+  "source": "source/matching/game/h2a/h2a_resource_reset_80169f80.cpp",
+  "language": "cpp",
+  "functions": {
+    "h2a_resource_reset_80169f80": "0x80169f80"
+  },
+  "descriptions": {
+    "h2a_resource_reset_80169f80": "Resets resource fields, lazily acquires and retains the descriptor service, allocates aligned capacity when missing, clears eight slot words and resets the external graphics context; returns zero."
+  }
+}

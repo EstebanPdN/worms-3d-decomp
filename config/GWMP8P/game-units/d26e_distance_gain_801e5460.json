@@ -1,0 +1,14 @@
+{
+  "unit": "d26e_distance_gain_801e5460",
+  "source": "source/matching/game/d26e/d26e_distance_gain_801e5460.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_distance_gain_801e5460": "0x801e5460"
+  },
+  "descriptions": {
+    "w3d_d26e_distance_gain_801e5460": "Distance gain of a 3D sound: emitter position (slot 14) against listener position (slot 17, kind 3), scaled by emitter slot 11. Below the near distance the gain is 1; beyond it falls linearly over near..far. The result times the listener volume (slot 16, kind 1) is clamped to [0, 1]. Range getters 0x801df1c4 and 0x801df1bc are read here as near and far; those names are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

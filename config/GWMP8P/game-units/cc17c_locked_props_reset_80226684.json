@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_locked_props_reset_80226684",
+  "source": "source/matching/game/cc17c/cc17c_locked_props_reset_80226684.c",
+  "language": "c",
+  "functions": {
+    "w3d_cc17c_locked_props_reset_80226684": "0x80226684"
+  },
+  "descriptions": {
+    "w3d_cc17c_locked_props_reset_80226684": "Binds the Locked member property, resets the LockedTitle string property to the shared empty string (adjusting reference counts), binds LockedIcon and finishes the property set."
+  }
+}

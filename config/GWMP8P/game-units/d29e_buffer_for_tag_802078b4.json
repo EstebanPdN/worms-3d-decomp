@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_buffer_for_tag_802078b4",
+  "source": "source/matching/game/d29e/d29e_buffer_for_tag_802078b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_buffer_for_tag_802078b4": "0x802078b4"
+  },
+  "descriptions": {
+    "w3d_d29e_buffer_for_tag_802078b4": "Returns the data pointer of the record buffer selected by the 24-bit id in a tag word. An unset id gets a new buffer from 0x8020777c, stored back in the tag, and the buffer is grown to need; otherwise the buffer is grown only if its capacity is below need. Names are inferred."
+  }
+}

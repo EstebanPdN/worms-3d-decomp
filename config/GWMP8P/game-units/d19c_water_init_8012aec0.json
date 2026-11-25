@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_water_init_8012aec0",
+  "source": "source/matching/game/d19c/d19c_water_init_8012aec0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_water_init_8012aec0": "0x8012aec0"
+  },
+  "descriptions": {
+    "d19c_water_init_8012aec0": "Water ripple initialisation: subscribe to the cached message id, load the \"Water.Ripple\" mesh into +928, reserve 150 indices, set position (0, 0, 0) and rotation (pi/2, 0, 0), and set each of the 150 ripple start times to now minus a random 11-bit offset."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

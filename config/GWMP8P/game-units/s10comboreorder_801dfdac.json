@@ -1,0 +1,17 @@
+{
+  "unit": "s10comboreorder_801dfdac",
+  "source": "source/matching/game/auto/s10comboreorder_801dfdac.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801dfdac": "0x801dfdac",
+    "w3d_auto_80209b2c": "0x80209b2c",
+    "w3d_auto_80209b78": "0x80209b78",
+    "w3d_auto_8020a09c": "0x8020a09c"
+  },
+  "descriptions": {
+    "w3d_auto_801dfdac": "Rejects repeated initialization, acquires the held interface, allocates 32 child objects, configures the observed context with 100, and invokes the final helper.",
+    "w3d_auto_80209b2c": "Visits the supplied 256-entry handle array, invokes the observed helper for every nonzero entry, and returns zero.",
+    "w3d_auto_80209b78": "Obtains the shared 256-entry handle array, invokes the observed helper for every nonzero entry, and returns zero.",
+    "w3d_auto_8020a09c": "Releases the held interface array, extra interface and array buffer, installs the base vtable, invokes base cleanup, and conditionally deletes the object."
+  }
+}

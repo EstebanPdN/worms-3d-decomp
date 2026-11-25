@@ -1,0 +1,10 @@
+{
+  "unit": "f_component_parts_c",
+  "source": "source/matching/game/f_component_parts_c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_component_construct_80062c24": "0x80062c24",
+    "w3d_component_construct_80098bb8": "0x80098bb8"
+  },
+  "descriptions": {}
+}

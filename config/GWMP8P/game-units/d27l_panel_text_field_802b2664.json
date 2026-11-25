@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_panel_text_field_802b2664",
+  "source": "source/matching/game/d27l/d27l_panel_text_field_802b2664.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_panel_text_field_802b2664": "0x802b2664"
+  },
+  "descriptions": {
+    "d27l_panel_text_field_802b2664": "Extracts one backslash-separated field from a text by index."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_gravity_water_start_800670e0",
+  "source": "source/matching/game/d24a/d24a_gravity_water_start_800670e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_gravity_water_start_800670e0": "0x800670e0"
+  },
+  "descriptions": {
+    "w3d_d24a_gravity_water_start_800670e0": "Loads the Gravity and Low.Gravity.Multiplier resources into +72/+76 through one handle with retain/release, reads Water.Level into +80, sets the vector at +52 from the constant 0x8037a0c0, copies word +52 of the engine context (0x80165254) to +92 and posts a 12-byte created message (0x800c1620) for the id at +20."
+  }
+}

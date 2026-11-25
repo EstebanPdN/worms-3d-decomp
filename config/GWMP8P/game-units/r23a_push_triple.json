@@ -1,0 +1,11 @@
+{
+  "unit": "r23a_push_triple",
+  "source": "source/matching/game/r23a/r23a_push_triple.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23a_push_triple_8016e57c": "0x8016e57c"
+  },
+  "descriptions": {
+    "w3d_r23a_push_triple_8016e57c": "Appends three signed 32-bit words to 12-byte-stride records at offsets 4/8/12 using count +552, initializes through 0x8016e608 when readiness +556 is zero, then increments count. Capacity and complete class identity remain unresolved."
+  }
+}

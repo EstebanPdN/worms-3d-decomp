@@ -1,0 +1,16 @@
+{
+  "unit": "d30s_key_map_add_801a6724",
+  "source": "source/matching/game/d30s/d30s_key_map_add_801a6724.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_key_map_add_801a6724": "0x801a6724"
+  },
+  "descriptions": {
+    "d30s_key_map_add_801a6724": "Adds a value to the map at +76: returns E_FAIL if the key exists, otherwise stores it and returns 0."
+  }
+}

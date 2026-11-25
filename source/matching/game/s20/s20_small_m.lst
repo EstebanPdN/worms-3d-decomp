@@ -1,0 +1,6 @@
+c source/matching/game/s20/s20_small_m.c
+w3d_s20_add_count_80190438|0x80190438|Appears to increment a 15-bit count held in the top bits of the word at offset 28 and return zero.
+w3d_s20_release_count_80190458|0x80190458|Appears to decrement a 15-bit count held in the top bits of the word at offset 28 and return zero.
+w3d_s20_reset_800f6c64|0x800f6c64|Appears to clear the fields of an object, set the field at offset 28 to minus one and return it.
+w3d_s20_forward_indexed_800fd4c8|0x800fd4c8|Appears to forward the global table entry selected by an index, the index and a value to a helper.
+w3d_s20_shrink_range_801b25ac|0x801b25ac|Appears to reduce the length at offset 56 by the amount at offset 44 and pass the new length with the range at offset 60 to a helper.

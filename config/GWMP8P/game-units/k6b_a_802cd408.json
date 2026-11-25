@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_802cd408",
+  "source": "source/matching/game/k6b/k6b_a_802cd408.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_table_length_802cd408": "0x802cd408"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_table_length_802cd408": "Appears to return a table's length (LuaExtras.c): its numeric n field, else the larger of the last non-nil array index and the largest numeric hash key."
+  }
+}

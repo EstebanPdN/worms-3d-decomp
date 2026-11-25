@@ -1,0 +1,11 @@
+{
+  "unit": "f1a_clamp_vector_800949a8",
+  "source": "source/matching/game/f1a/f1a_clamp_vector_800949a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f1a_clamp_vector_800949a8": "0x800949a8"
+  },
+  "descriptions": {
+    "w3d_f1a_clamp_vector_800949a8": "Computes the three-float difference between the caller vector and the object center at offset 280. For each axis whose absolute difference exceeds the object extent at offset 344, sets that caller coordinate to center minus or plus the extent according to which side of the center it lies on. Preserves the observed ordered floating comparisons."
+  }
+}

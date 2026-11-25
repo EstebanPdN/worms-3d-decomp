@@ -1,0 +1,11 @@
+{
+  "unit": "d25c_resource_load_800fd504",
+  "source": "source/matching/game/d25c/d25c_resource_load_800fd504.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25c_resource_load_800fd504": "0x800fd504"
+  },
+  "descriptions": {
+    "d25c_resource_load_800fd504": "Copy the name into a string with bit 1 of the flags cleared and bit 0 set. If the name has a dot, truncate the copy at it. If the copy has no dot, append .xom when flag 1 is set, else .xml when flag 2 is set. Call the loader service with the text, the argument and the low flag byte, destroy the string and return the result."
+  }
+}

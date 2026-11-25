@@ -1,0 +1,7 @@
+{
+  "unit": "k10b_reset_poll_801fe314",
+  "source": "source/matching/game/k10b/k10b_reset_poll_801fe314.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k10b_reset_poll_801fe314": "0x801fe314"},
+  "descriptions": {"w3d_k10b_reset_poll_801fe314": "Appears to poll the reset button: when no reset was handled yet and a press was already seen, it starts the reset sequence once the button is released; otherwise it samples the button, records a press and logs RESET PRESSED. The two leading flag bits are a partial view of the state word."}
+}

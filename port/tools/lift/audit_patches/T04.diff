@@ -1,0 +1,7 @@
+--- a/port/core/game/f3c/f3c_propagate_tag_801ea4c8.cpp
++++ b/port/core/game/f3c/f3c_propagate_tag_801ea4c8.cpp
+@@ -9,3 +9,3 @@
+ while(count--){Ptr32<Node> entry=fn_801e9db8(list,count);Ptr32<Tag> object=*(Ptr32<Ptr32<Tag>>)entry;if(!(object->word[3]&32)){Ptr32<Ptr32<void>> vtable=*(Ptr32<Ptr32<Ptr32<void>>>)((Ptr32<char>)entry+4);((Ptr32<void (Ptr32<Node>, Ptr32<Node>, Ptr32<Node>, Ptr32<Node>)>)vtable[2])(entry,self,other,entry);}}
+-Ptr32<Tag> tag=&self->tag;tag->word[3]=(tag->word[3]&242)|(other->tag.word[3]&13);}
++Ptr32<Tag> tag=&self->tag;tag->word[0]=(tag->word[0]&242)|(other->tag.word[0]&13);}
+ 

@@ -1,0 +1,11 @@
+{
+  "unit": "h1c_editor_keys_80278e38",
+  "source": "source/matching/game/h1c/h1c_editor_keys_80278e38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_h1c_editor_keys_80278e38": "0x80278e38"
+  },
+  "descriptions": {
+    "w3d_h1c_editor_keys_80278e38": "Dispatches editor keys: Escape returns to the list; Space walks each observed runtime-type parent chain to select a specialized editor, releasing an unsupported selection; Delete finds and removes the selected array entry and refreshes state; other keys select a property editor through two accepted key alphabets. Type identities and field offsets are observed external views; original class names remain unknown."
+  }
+}

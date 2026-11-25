@@ -1,0 +1,11 @@
+{
+  "unit": "d10a_release_tables_800fbf64",
+  "source": "source/matching/game/d10a/d10a_release_tables_800fbf64_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10a_release_tables_800fbf64": "0x800fbf64"
+  },
+  "descriptions": {
+    "d10a_release_tables_800fbf64": "Release and clear held property interfaces in the original interleaved order: three sixteen-entry tables, three four-entry tables, then one four-entry table. Null entries skip release; each slot clears only after its callback."
+  }
+}

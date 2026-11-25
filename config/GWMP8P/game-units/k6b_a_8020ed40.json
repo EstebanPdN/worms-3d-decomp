@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8020ed40",
+  "source": "source/matching/game/k6b/k6b_a_8020ed40.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_service_copy_setting_8020ed40": "0x8020ed40"
+  },
+  "descriptions": {
+    "w3d_k6b_service_copy_setting_8020ed40": "Appears to read the setting named by 0x80419500 through virtual slot 23 of the 0x8020b648 service and write it back through slot 25."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_state_create_800cdaf8",
+  "source": "source/matching/game/k7a/k7a_state_create_800cdaf8.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_state_create_800cdaf8": "0x800cdaf8"},
+  "descriptions": {"w3d_k7a_state_create_800cdaf8": "Appears to allocate and construct a 316-byte state object, register it in its class list and count it."}
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "terra_only_a11_camera",
+  "source": "source/matching/game/terra_only_a11/camera.cpp",
+  "language": "cpp",
+  "functions": {
+    "terra_only_a11_camera_80036218": "0x80036218"
+  },
+  "descriptions": {
+    "terra_only_a11_camera_80036218": "Initialize camera shake scale references from named properties and release the temporary reference."
+  }
+}

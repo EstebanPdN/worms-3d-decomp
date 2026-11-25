@@ -1,0 +1,12 @@
+{
+  "unit": "d29l_team_menu_flags_8029d578",
+  "source": "source/matching/game/d29l/d29l_team_menu_flags_8029d578.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d29l_team_menu_flags_8029d578": "0x8029d578"
+  },
+  "descriptions": {
+    "d29l_team_menu_flags_8029d578": "Refreshes the team menu flags from the skill property, team state queries and the six User.Human slots."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_input_turn_aim_actions_80054434",
+  "source": "source/matching/game/d24g/d24g_input_turn_aim_actions_80054434.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_input_turn_aim_actions_80054434": "0x80054434"
+  },
+  "descriptions": {
+    "w3d_d24g_input_turn_aim_actions_80054434": "Appends input actions to the owner's pointer vector at +36: Input.TurnLeftPressed (0, 1), Input.TurnLeftReleased (0, 0), Input.TurnRightPressed (1, 1), Input.TurnRightReleased (1, 0), Input.AimUpPressed (3, 1), Input.AimUpReleased (3, 0), Input.AimDownPressed (2, 1), Input.AimDownReleased (2, 0). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

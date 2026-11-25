@@ -1,0 +1,11 @@
+{
+  "unit": "f13c_activate_vector_8026a048",
+  "source": "source/matching/game/f13c/f13c_activate_vector_8026a048.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f13c_activate_vector_8026a048": "0x8026a048"
+  },
+  "descriptions": {
+    "w3d_f13c_activate_vector_8026a048": "If a preview interface is present, attaches and releases its pending child, enables the related control when configured, transfers a retained preview handle by value on first activation, copies the configured three-float position by value, marks activation, rebuilds the land preview, and enables vector mode. Partial object layouts and preview roles are inferred; original callee consumes the retained handle."
+  }
+}

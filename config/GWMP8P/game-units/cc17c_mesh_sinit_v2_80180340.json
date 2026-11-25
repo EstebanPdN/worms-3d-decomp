@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_mesh_sinit_v2_80180340",
+  "source": "source/matching/game/cc17c/cc17c_mesh_sinit_v2_80180340.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_mesh_sinit_v2_80180340": "0x80180340"
+  },
+  "descriptions": {
+    "w3d_cc17c_mesh_sinit_v2_80180340": "Static initializer: builds the XMeshDescriptor type descriptor (name, parent descriptor and factory) and zeroes ten file-scope pointer objects in ascending address order."
+  }
+}

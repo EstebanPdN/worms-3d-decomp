@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_binary_tree_unique",
+  "source": "source/matching/game/cx7c/cx7c_binary_tree_unique.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_binary_tree_insert_unique_8035b478": "0x8035b478"
+  },
+  "descriptions": {
+    "w3d_cx7c_binary_tree_insert_unique_8035b478": "Searches an inferred binary-key red-black tree, inserts only when absent, and returns the iterator with an inserted flag; predecessor check handles the final lower neighbor."
+  }
+}

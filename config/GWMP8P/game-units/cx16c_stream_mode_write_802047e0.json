@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_stream_mode_write_802047e0",
+  "source": "source/matching/game/cx16c/cx16c_stream_mode_write_802047e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_stream_mode_write_802047e0": "0x802047e0"
+  },
+  "descriptions": {
+    "w3d_cx16c_stream_mode_write_802047e0": "Return success in mode one, forward buffer and length to stream slot 24 in mode two, and return 0x80004005 for other modes."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_child_services_clear_802c60ec",
+  "source": "source/matching/game/cx12b/cx12b_child_services_clear_802c60ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_child_services_clear_802c60ec": "0x802c60ec"
+  },
+  "descriptions": {
+    "w3d_cx12b_child_services_clear_802c60ec": "Drain child item zero through the original cached table and release three independently guarded held services."
+  }
+}

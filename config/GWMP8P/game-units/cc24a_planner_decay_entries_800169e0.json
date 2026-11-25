@@ -1,0 +1,14 @@
+{
+  "unit": "cc24a_planner_decay_entries_800169e0",
+  "source": "source/matching/game/cc24a/cc24a_planner_decay_entries_800169e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_decay_entries_800169e0": "0x800169e0"
+  },
+  "descriptions": {
+    "cc24a_planner_decay_entries_800169e0": "Decay and destroy below-threshold sibling entries, compact original pointer range and revisit shifted slot."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

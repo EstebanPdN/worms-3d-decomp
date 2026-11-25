@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_choice_stats_802a77a4",
+  "source": "source/matching/game/d24l/d24l_choice_stats_802a77a4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_choice_stats_802a77a4": "0x802a77a4"
+  },
+  "descriptions": {
+    "d24l_choice_stats_802a77a4": "Reads the current choice's stats: when the name at +460[index +600] is not empty and +376 is set, looks it up as a property. A failed lookup copies the name and formats \"ERROR: '%s' does not exist\" into +108. When the property is of kind 5 and its object class derives from 0x80366578 (parent chain at +20), stores one stats field in +616: +32, +24 or +20 for modes +612 0, 1, 2, otherwise +28."
+  }
+}

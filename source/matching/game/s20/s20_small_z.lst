@@ -1,0 +1,5 @@
+c source/matching/game/s20/s20_small_z.c
+w3d_s20_query_int_80176b2c|0x80176b2c|Appears to look up a slot for a key and output an integer read through two helpers from its table entry, or return 0x80004005.
+w3d_s20_query_int_80176c68|0x80176c68|Appears to look up a slot for a key and output an integer read through two helpers from its table entry, or return 0x80004005.
+w3d_s20_replace_owned_801784e4|0x801784e4|Appears to replace the owned object, releasing the previous one through virtual method 16 and clearing its fields first.
+w3d_s20_destruct_counted_80188ab8|0x80188ab8|Appears to install a vtable, decrement a global instance count, release the held object and forward to a base destructor.

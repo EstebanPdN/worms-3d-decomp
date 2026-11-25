@@ -1,0 +1,15 @@
+{
+  "unit": "d33g_water_shade_cells_8007ef70",
+  "source": "source/matching/game/d33g/d33g_water_shade_cells_8007ef70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33g_water_shade_cells_8007ef70": "0x8007ef70"
+  },
+  "descriptions": {
+    "w3d_d33g_water_shade_cells_8007ef70": "Traces each cell toward the light, stores the shade byte and copies three colour nibbles from the palette entry for the shade."
+  },
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast"
+  ]
+}

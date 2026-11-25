@@ -1,0 +1,11 @@
+{
+  "unit": "cc23a_planner_inventory_delays_80007a28",
+  "source": "source/matching/game/cc23a/cc23a_planner_inventory_delays_80007a28.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_planner_inventory_delays_80007a28": "0x80007a28"
+  },
+  "descriptions": {
+    "cc23a_planner_inventory_delays_80007a28": "Read Inventory.WeaponDelays and fill 59 current-team entries, apply observed flag override and release temporary interface. Full-width returns, observed 8-byte query carriers and address-width indexed stores; names inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_800fcc9c",
+  "source": "source/matching/game/s8family_800fcc9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_handle_800fcc9c": "0x800fcc9c"
+  },
+  "descriptions": {
+    "s8_handle_800fcc9c": "Looks up an indexed interface, retains it through two scoped handles, releases both handles and returns the interface pointer."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d30l_textbox_start_8029e584",
+  "source": "source/matching/game/d30l/d30l_textbox_start_8029e584.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d30l_textbox_start_8029e584": "0x8029e584"
+  },
+  "descriptions": {
+    "d30l_textbox_start_8029e584": "Resolves a textbox's style properties, back sprite and initial alpha, and sets its text from the configured game data."
+  }
+}

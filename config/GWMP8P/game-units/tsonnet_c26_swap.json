@@ -1,0 +1,1 @@
+{"unit": "tsonnet_c26_swap", "source": "source/matching/game/tsonnet_c26/tsonnet_c26_swap.c", "language": "c", "functions": {"tsonnet_c26_read_u32_swapped_80201630": "0x80201630"}, "descriptions": {"tsonnet_c26_read_u32_swapped_80201630": "Read four bytes through virtual slot 5 of the stream at +20 and byte-swap the word in place."}}

@@ -1,0 +1,17 @@
+{
+  "unit": "s20_leaf_d",
+  "source": "source/matching/game/s20/s20_leaf_d.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_vector_all_ge_800f5894": "0x800f5894",
+    "w3d_s20_point_in_rect_8010b594": "0x8010b594",
+    "w3d_s20_scan_high_nibbles_801b0b10": "0x801b0b10",
+    "w3d_s20_evaluate_cubic_8019661c": "0x8019661c"
+  },
+  "descriptions": {
+    "w3d_s20_vector_all_ge_800f5894": "Appears to return 1 when each of three floats in the first vector is greater than or equal to the matching float in the second.",
+    "w3d_s20_point_in_rect_8010b594": "Appears to test whether a point lies inside one of the integer rectangles of a global table, inclusive of its edges.",
+    "w3d_s20_scan_high_nibbles_801b0b10": "Appears to scan groups of bytes and return 7 when any byte has a high nibble set, otherwise 8.",
+    "w3d_s20_evaluate_cubic_8019661c": "Appears to evaluate a cubic polynomial of the value offset by a constant when the field is set, otherwise return a constant."
+  }
+}

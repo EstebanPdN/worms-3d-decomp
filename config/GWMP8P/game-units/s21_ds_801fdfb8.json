@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ds_801fdfb8",
+  "source": "source/matching/game/s21/s21_ds_801fdfb8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_top_bit_801fdfb8": "0x801fdfb8"
+  },
+  "descriptions": {
+    "w3d_s21_set_top_bit_801fdfb8": "Appears to store the low bit of the argument into the top bit of the flag word at offset 8."
+  }
+}

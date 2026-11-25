@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_export_scheme_8028fb10",
+  "source": "source/matching/game/f1p/f1p_export_scheme_8028fb10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_export_scheme_8028fb10": "0x8028fb10"
+  },
+  "descriptions": {
+    "w3d_export_scheme_8028fb10": "Look up the current scheme, bracket its property export with the original changing flag, write24 scalar/text properties, and propagate52 original named target handles in witnessed order. Property names/field meanings and interfaces inferred. Full game-owned receiver allocations remain external."
+  }
+}

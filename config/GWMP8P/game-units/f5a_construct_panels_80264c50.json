@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_construct_panels_80264c50",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_construct_panels_80264c50": "0x80264c50"
+  },
+  "descriptions": {
+    "w3d_f5a_construct_panels_80264c50": "Construct observed member arrays, clear records, release pending interface, initialize colors and float fields; inferred layout and semantic roles."
+  },
+  "source": "source/matching/game/f5a/f5a_construct_panels_80264c50.cpp"
+}

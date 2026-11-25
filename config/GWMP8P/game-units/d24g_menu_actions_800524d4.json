@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_menu_actions_800524d4",
+  "source": "source/matching/game/d24g/d24g_menu_actions_800524d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_menu_actions_800524d4": "0x800524d4"
+  },
+  "descriptions": {
+    "w3d_d24g_menu_actions_800524d4": "Appends input actions to the owner's pointer vector at +36: App.Pause (12, 0), Input.StartButton (12, 1), Input.QuitMovie (8, 1), Input.QuitMovie (12, 1), Input.QuitMovie (9, 1), Input.Menu.Left (0, 1), Input.Menu.Right (1, 1), Input.Menu.Up (3, 1), Input.Menu.Down (2, 1), Input.Menu.Left.Release (0, 0), Input.Menu.Right.Release (1, 0), Input.Menu.Up.Release (3, 0), Input.Menu.Down.Release (2, 0), Input.Menu.Left (0, 1, axis 1), Input.Menu.Right (0, 1, axis 2), Input.Menu.Up (1, 1, axis 1), Input.Menu.Down (1, 1, axis 2), Input.Menu.Left.Release (0, 0, axis 1), Input.Menu.Right.Release (0, 0, axis 2), Input.Menu.Up.Release (1, 0, axis 1), Input.Menu.Down.Release (1, 0, axis 2), Input.Menu.Select (8, 1), Input.Menu.SelectReleased (8, 0), Input.Menu.Select (12, 0), FE.Backup (9, 1), Input.Menu.Cancel (9, 1), Input.Menu.CancelReleased (9, 0), Input.ClosePanelPressed (10, 1). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

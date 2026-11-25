@@ -1,0 +1,11 @@
+{
+  "unit": "f17b_query_interfaces_8020b460",
+  "source": "source/matching/game/f17b/f17b_query_interfaces_8020b460.cpp",
+  "language": "cpp",
+  "functions": {
+    "f17b_query_8020b460": "0x8020b460"
+  },
+  "descriptions": {
+    "f17b_query_8020b460": "Queries an inferred interface map made of12-byte external entries: optional16-byte comparison key, signed object-byte adjustment, and32-bit callback/sentinel. A null output pointer returns0x80004003; otherwise clears it. Comparing requested key with external16-byte key8040c950 through802eedc0 selects the first entry adjustment directly. Otherwise scans until callback0, accepts wildcard key0 or equal16-byte key, treats callback1 as a direct adjusted interface, and invokes other callbacks with original receiver,key,output,adjustment. Returns callback0 or a negative result from a keyed entry; wildcard failures continue. Direct selection invokes observed virtual slot12 on the adjusted external receiver, stores its pointer and returns0. Exhaustion returns0x80004002. A shared result exit preserves original callback result lifetime. Names,query semantics,GUID interpretation,callback signature and complete external receiver layout remain inferred. All entries,comparison key and target object are external partial views; no type is locally constructed or allocated, no owned data or compiler-option override."
+  }
+}

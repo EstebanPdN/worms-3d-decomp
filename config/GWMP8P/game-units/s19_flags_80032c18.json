@@ -1,0 +1,11 @@
+{
+  "unit": "s19_flags_80032c18",
+  "source": "source/matching/game/s19/s19_flags_80032c18.c",
+  "language": "c",
+  "functions": {
+    "s19_set_priority_flags_80032c18": "0x80032c18"
+  },
+  "descriptions": {
+    "s19_set_priority_flags_80032c18": "Appears to set or clear a flag bit at +0x2d8 depending on a float query of the converted handle at +0x2f0 and always set it at +0x254."
+  }
+}

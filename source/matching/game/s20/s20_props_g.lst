@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_props_g.c
+w3d_s20_register_properties_801c04f8|0x801c04f8|Appears to register a lazily initialized property descriptor and an entry whose default is a 48-byte block copied from a global, then finish through a shared routine.

@@ -1,0 +1,19 @@
+{
+  "unit": "s19_misc_b",
+  "source": "source/matching/game/s19/s19_misc_b.c",
+  "language": "c",
+  "functions": {
+    "s19_held_call5_8003864c": "0x8003864c",
+    "s19_held_call6_80038684": "0x80038684",
+    "s19_handle_is_one_8003cf8c": "0x8003cf8c",
+    "s19_handle_not_minus1_80049298": "0x80049298",
+    "s19_handle_cast_query_80096564": "0x80096564"
+  },
+  "descriptions": {
+    "s19_held_call5_8003864c": "Appears to call virtual slot 5 on the held object at +0x60 when it is set.",
+    "s19_held_call6_80038684": "Appears to call virtual slot 6 on the held object at +0x60 when it is set.",
+    "s19_handle_is_one_8003cf8c": "Appears to return whether the query of the handle at +0x64 yields exactly one.",
+    "s19_handle_not_minus1_80049298": "Appears to return whether the query of the handle at +0x50 differs from minus one.",
+    "s19_handle_cast_query_80096564": "Appears to query the converted handle at +0x2e0 and return the result, or zero when it is unset."
+  }
+}

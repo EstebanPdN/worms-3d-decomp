@@ -1,0 +1,33 @@
+{
+  "unit": "auto_80024f64",
+  "source": "source/matching/game/auto/auto_80024f64.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80024f64": "0x80024f64",
+    "w3d_auto_800255e0": "0x800255e0",
+    "w3d_auto_80025b04": "0x80025b04",
+    "w3d_auto_80026034": "0x80026034",
+    "w3d_auto_80026e14": "0x80026e14",
+    "w3d_auto_80027114": "0x80027114",
+    "w3d_auto_80027d20": "0x80027d20",
+    "w3d_auto_8002a68c": "0x8002a68c",
+    "w3d_auto_8002a6ac": "0x8002a6ac",
+    "w3d_auto_8002ad7c": "0x8002ad7c",
+    "w3d_auto_8002b070": "0x8002b070",
+    "w3d_auto_8002c0bc": "0x8002c0bc"
+  },
+  "descriptions": {
+    "w3d_auto_80024f64": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_800255e0": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_80025b04": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_80026034": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_80026e14": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_80027114": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_80027d20": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_8002a68c": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_8002a6ac": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_8002ad7c": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_8002b070": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_8002c0bc": "Automatically decompiled (m2c) and verified exact; behavior description pending review."
+  }
+}

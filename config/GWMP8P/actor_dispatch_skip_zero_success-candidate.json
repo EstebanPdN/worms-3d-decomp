@@ -1,0 +1,30 @@
+{
+  "module": "actor_dispatch_skip_zero_success",
+  "function": "w3d_message_dispatch_core",
+  "original_entry": "0x80163510",
+  "candidate_entry": "0x80500000",
+  "data_entry": "0x80510000",
+  "additional_bindings": [
+    {
+      "name": "w3d_dispatch_type_phase8",
+      "kind": "ha_lo",
+      "high_site": "0x80163598",
+      "low_site": "0x8016359c",
+      "expected": "0x803618f0"
+    },
+    {
+      "name": "w3d_dispatch_type_phase6",
+      "kind": "ha_lo",
+      "high_site": "0x801635f0",
+      "low_site": "0x801635f4",
+      "expected": "0x80361860"
+    },
+    {
+      "name": "w3d_dispatch_type_phase7",
+      "kind": "ha_lo",
+      "high_site": "0x80163648",
+      "low_site": "0x8016364c",
+      "expected": "0x803617d0"
+    }
+  ]
+}

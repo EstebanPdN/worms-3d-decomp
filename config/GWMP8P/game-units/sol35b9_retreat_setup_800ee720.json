@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b9_retreat_setup_800ee720",
+  "source": "source/matching/game/sol35b9/sol35b9_retreat_setup_800ee720.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b9_retreat_setup_800ee720": "0x800ee720"
+  },
+  "descriptions": {
+    "sol35b9_retreat_setup_800ee720": "Set native retreat mode from configuration; publish current and target-ID messages, register selected services through the actor registry, and copy default or overridden retreat time into a named property. Names and GC32 views inferred; external property initialization and lifetime obligations remain."
+  }
+}

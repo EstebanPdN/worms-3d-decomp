@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_deque_push_front",
+  "source": "source/matching/game/cx7c/cx7c_deque_push_front.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_deque_push_front_aux_8035f0cc": "0x8035f0cc"
+  },
+  "descriptions": {
+    "w3d_cx7c_deque_push_front_aux_8035f0cc": "Pointer-deque push-front auxiliary: reserves one map slot, allocates a 128-byte node, moves the start iterator to its last pointer, and placement-constructs a copy of the argument."
+  }
+}

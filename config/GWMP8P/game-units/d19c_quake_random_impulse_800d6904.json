@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_quake_random_impulse_800d6904",
+  "source": "source/matching/game/d19c/d19c_quake_random_impulse_800d6904.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_quake_random_impulse_800d6904": "0x800d6904"
+  },
+  "descriptions": {
+    "d19c_quake_random_impulse_800d6904": "When offset 92 is zero: if the maximum magnitude (+136) is 0.0, read \"Earthquake.ImpulseMagnitudeMax\" into +136 and \"Earthquake.ImpulseMagnitudeMin\" into +140; sample 0x80162bc8 three times to form (2a-1, 0.5, 2b-1), scale it by the third sample times (max - min) and copy the result to +40. The random impulse interpretation is inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

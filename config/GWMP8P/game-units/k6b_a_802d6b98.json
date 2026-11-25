@@ -1,0 +1,14 @@
+{
+  "unit": "k6b_a_802d6b98",
+  "source": "source/matching/game/k6b/k6b_a_802d6b98.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_table_getnum_802d6b98": "0x802d6b98"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_table_getnum_802d6b98": "Appears to be Lua 5.0 ltable luaH_getnum: return the array slot for an in-range integer key, else search the hash chain for the numeric key or return the nil object."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

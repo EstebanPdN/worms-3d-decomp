@@ -1,0 +1,13 @@
+{
+  "unit": "h1_newlib_stdio_alloc",
+  "source": "source/matching/game/h1/h1_newlib_stdio_alloc.c",
+  "language": "c",
+  "functions": {
+    "__sfp": "0x802eb284",
+    "__smakebuf": "0x802ebee4"
+  },
+  "descriptions": {
+    "__sfp": "SN newlib __sfp: finds a free FILE (chaining the static 10-FILE glue block on first use), resets it and gives it a preallocated buffer or the unbuffered byte.",
+    "__smakebuf": "SN newlib __smakebuf: marks regular seekable files for fseek optimization (blksize 1024), others not, and always makes the stream unbuffered."
+  }
+}

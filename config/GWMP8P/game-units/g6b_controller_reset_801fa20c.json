@@ -1,0 +1,11 @@
+{
+  "unit": "g6b_controller_reset_801fa20c",
+  "source": "source/matching/game/g6b/g6b_controller_reset_v4_801fa20c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g6b_controller_reset_801fa20c": "0x801fa20c"
+  },
+  "descriptions": {
+    "g6b_controller_reset_801fa20c": "Resizes three current and previous controller input vectors to sixteen bytes, eight floats and four floats; clears paired values, polls the original controller records and bounds retry of pending status. All vectors and controller records are external views and are never locally constructed. Value temporaries have native scalar lifetimes. Names and controller semantics are inferred."
+  }
+}

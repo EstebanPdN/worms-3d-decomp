@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fv_801fb768",
+  "source": "source/matching/game/s21/s21_fv_801fb768.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_sync_slots_801fb768": "0x801fb768"
+  },
+  "descriptions": {
+    "w3d_s21_sync_slots_801fb768": "Appears to synchronize a four-entry table with a source table: it records a source object when its virtual slot 13 reports one and the slot is empty, and clears the slot otherwise, returning zero."
+  }
+}

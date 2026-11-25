@@ -1,0 +1,11 @@
+{
+  "unit": "f5b_blend_positions_80067c4c",
+  "source": "source/matching/game/f5b/f5b_blend_positions_80067c4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_blend_positions_80067c4c": "0x80067c4c"
+  },
+  "descriptions": {
+    "f5b_blend_positions_80067c4c": "Resolve the observed handle, obtain a virtual target position, blend object vectors at offsets16 and4 by their respective factors, and pass the two remaining float parameters to the witnessed bounds helper. Semantic names remain inferred."
+  }
+}

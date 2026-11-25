@@ -1,0 +1,11 @@
+{
+  "unit": "mx21ob_v2_font_panel_80224cd4",
+  "source": "source/matching/game/mx21ob/mx21ob_v2_font_panel_80224cd4.cpp",
+  "language": "cpp",
+  "functions": {
+    "__17Mx21obFeFontPanelUs": "0x80224cd4"
+  },
+  "descriptions": {
+    "__17Mx21obFeFontPanelUs": "Constructs a font widget extension: runs the font-bearing widget constructor 0x8022240c with the caller's 16-bit id, installs the table 0x8041a370, copy-constructs the string at +156 from the shared empty string 0x804b06a0, clears the ints at +160 and +164, copy-constructs the strings at +168, +172, +176, +180 from the shared empty string (retaining each) and clears the int at +184, in member order. Names are structural; offsets are observed."
+  }
+}

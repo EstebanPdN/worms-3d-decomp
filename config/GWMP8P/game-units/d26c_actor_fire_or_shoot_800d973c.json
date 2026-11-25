@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_actor_fire_or_shoot_800d973c",
+  "source": "source/matching/game/d26c/d26c_actor_fire_or_shoot_800d973c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_actor_fire_or_shoot_800d973c": "0x800d973c"
+  },
+  "descriptions": {
+    "d26c_actor_fire_or_shoot_800d973c": "With a positive count at Desc+392, schedule through 0x800d8ed8 with a zero vector and the cached fire id, and play the Desc+440 sound through the audio service when it is not empty. Otherwise fire through 0x800ec6a8. Then allocate an 8-byte message with the cached done id and send it through 0x8015fc58."
+  }
+}

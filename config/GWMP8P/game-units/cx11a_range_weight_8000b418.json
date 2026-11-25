@@ -1,0 +1,14 @@
+{
+  "unit": "cx11a_range_weight_8000b418",
+  "source": "source/matching/game/cx11a/cx11a_range_weight_8000b418.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_range_weight_8000b418": "0x8000b418"
+  },
+  "descriptions": {
+    "w3d_cx11a_range_weight_8000b418": "Computes an observed linear actor range weight using scalar distance and shared neutral-return control flow. Names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

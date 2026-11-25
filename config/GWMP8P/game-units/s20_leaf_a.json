@@ -1,0 +1,27 @@
+{
+  "unit": "s20_leaf_a",
+  "source": "source/matching/game/s20/s20_leaf_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_get_byte_slot_801a9b04": "0x801a9b04",
+    "w3d_s20_set_byte_slot_801a9af4": "0x801a9af4",
+    "w3d_s20_clear_word_slot_801a314c": "0x801a314c",
+    "w3d_s20_sum_bytes_80177e04": "0x80177e04",
+    "w3d_s20_sum_bytes_8017e1a0": "0x8017e1a0",
+    "w3d_s20_has_record_key_80199f68": "0x80199f68",
+    "w3d_s20_evaluate_polynomial_80197244": "0x80197244",
+    "w3d_s20_select_band_801d69dc": "0x801d69dc",
+    "w3d_s20_any_handle_set_8013f844": "0x8013f844"
+  },
+  "descriptions": {
+    "w3d_s20_get_byte_slot_801a9b04": "Appears to return the byte at the given index of the byte table at offset 304.",
+    "w3d_s20_set_byte_slot_801a9af4": "Appears to store a byte at the given index of the byte table at offset 304 and return zero.",
+    "w3d_s20_clear_word_slot_801a314c": "Appears to clear one word of the array pointed to at offset 72 and return zero.",
+    "w3d_s20_sum_bytes_80177e04": "Appears to add the four bytes of a 32-bit value and return the low byte of the sum.",
+    "w3d_s20_sum_bytes_8017e1a0": "Appears to add the four bytes of a 32-bit value and return the low byte of the sum.",
+    "w3d_s20_has_record_key_80199f68": "Appears to scan 24-byte records between two pointers for a 16-bit key at offset 18 and return 1 if found.",
+    "w3d_s20_evaluate_polynomial_80197244": "Appears to evaluate a polynomial of the given degree with Horner's rule over a float coefficient array.",
+    "w3d_s20_select_band_801d69dc": "Appears to return one of two float constants depending on whether the value lies in a range between two constants.",
+    "w3d_s20_any_handle_set_8013f844": "Appears to return 1 if any of three handle fields at offsets 144, 140 and 148 is not minus one."
+  }
+}

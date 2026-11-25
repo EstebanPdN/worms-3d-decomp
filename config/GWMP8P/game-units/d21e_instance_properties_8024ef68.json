@@ -1,0 +1,12 @@
+{
+  "unit": "d21e_instance_properties_8024ef68",
+  "source": "source/matching/game/d21e/d21e_instance_properties_8024ef68.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d21e_register_instance_properties_8024ef68": "0x8024ef68"
+  },
+  "descriptions": {
+    "w3d_d21e_register_instance_properties_8024ef68": "Resets the Name string binding (0x801ed24c) to the shared empty string; registers MaxInstanceCount (0x801efdfc) with a guarded function-local static descriptor built once from a zero-filled temporary; calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

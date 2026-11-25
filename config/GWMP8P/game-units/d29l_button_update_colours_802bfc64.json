@@ -1,0 +1,14 @@
+{
+  "unit": "d29l_button_update_colours_802bfc64",
+  "source": "source/matching/game/d29l/d29l_button_update_colours_802bfc64.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29l_button_update_colours_802bfc64": "0x802bfc64"
+  },
+  "descriptions": {
+    "d29l_button_update_colours_802bfc64": "Sets the glyphs and state-dependent colours of a five-part button, then calls the common element update."
+  }
+}

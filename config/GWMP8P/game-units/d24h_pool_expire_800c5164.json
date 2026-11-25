@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_pool_expire_800c5164",
+  "source": "source/matching/game/d24h/d24h_pool_expire_800c5164.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_pool_expire_800c5164": "0x800c5164"
+  },
+  "descriptions": {
+    "w3d_d24h_pool_expire_800c5164": "Pool expiry: for each active id (vector 0x8043e448) whose object's order (0x800f7508) is below the given value, takes the object's message and blob (0x800f7518, 0x800f7528), destroys the object (0x800f74d0 with 3), clears its table slot, moves the id to the free vector, posts the message, counts the expiry at 0x803f5720, releases the blob to the arena 0x804af100 and restarts from the first id. Returns 10."
+  }
+}

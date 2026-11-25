@@ -1,0 +1,11 @@
+{
+  "unit": "s21_at_80200ca4",
+  "source": "source/matching/game/s21/s21_at_80200ca4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_run_callbacks_80200ca4": "0x80200ca4"
+  },
+  "descriptions": {
+    "w3d_s21_run_callbacks_80200ca4": "Appears to recurse through a first-child pointer, then call the function pointer at offset 12 and return its negative status or zero."
+  }
+}

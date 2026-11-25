@@ -1,0 +1,14 @@
+{
+  "unit": "d32c_rope_swing_step_800d0108",
+  "source": "source/matching/game/d32c/d32c_rope_swing_step_800d0108.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "step__4RopePC3VecP3Vec": "0x800d0108"
+  },
+  "descriptions": {
+    "step__4RopePC3VecP3Vec": "Integrates the rope swing angle and returns the free end position, retrying once when blocked."
+  }
+}

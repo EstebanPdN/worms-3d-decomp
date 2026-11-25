@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_close_node_801d3be0",
+  "source": "source/matching/game/d28e/d28e_close_node_801d3be0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_close_node_801d3be0": "0x801d3be0"
+  },
+  "descriptions": {
+    "w3d_d28e_close_node_801d3be0": "Finish a node: runs the match at 0x801d3930, pushes the node on the stack at +72, then in sequence mode advances the name index (a completed sequence records the node and returns 0x90000005) and dispatches the node through 0x801a37a0, restoring the index; outside sequence mode it only dispatches. Pops the stack and returns 0 unless an error is returned."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "s4_panel_widget",
+  "source": "source/matching/game/s4_panel_widget.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_panel_destroy": "0x802a2eb8",
+    "w3d_s4_panel_reset": "0x802a30b0"
+  },
+  "descriptions": {
+    "w3d_s4_panel_destroy": "Releases panel children and handle before destroying the embedded control and base object.",
+    "w3d_s4_panel_reset": "Destroys the panel label, detaches retained children and resets the embedded control."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_release_owner_80343588",
+  "source": "source/matching/game/cx9c/cx9c_release_owner_80343588.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_release_owner_80343588": "0x80343588"
+  },
+  "descriptions": {
+    "w3d_cx9c_release_owner_80343588": "Release held interfaces, destroy the base, and conditionally free the complete owner."
+  }
+}

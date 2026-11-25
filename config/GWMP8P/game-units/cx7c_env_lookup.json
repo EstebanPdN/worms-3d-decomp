@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_env_lookup",
+  "source": "source/matching/game/cx7c/cx7c_env_lookup.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_env_lookup_802eda34": "0x802eda34"
+  },
+  "descriptions": {
+    "w3d_cx7c_env_lookup_802eda34": "Searches the original environment vector under its lock, compares name prefixes through the equals separator, returns the value and writes the matching slot; preserves null-vector early return."
+  }
+}

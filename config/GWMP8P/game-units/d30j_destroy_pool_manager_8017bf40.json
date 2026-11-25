@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_destroy_pool_manager_8017bf40",
+  "source": "source/matching/game/d30j/d30j_destroy_pool_manager_8017bf40.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "_._15D30jPoolManager": "0x8017bf40"
+  },
+  "descriptions": {
+    "_._15D30jPoolManager": "Destroy the pool manager: pool shutdown calls, release of the sixty-four global type references, clearing of the singleton, member destructors and optional delete."
+  }
+}

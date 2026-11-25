@@ -1,0 +1,11 @@
+{
+  "unit": "f19b_resize_string_members_801920b8",
+  "source": "source/matching/game/f19b/f19b_resize_string_members_801920b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f19b_resize_801920b8": "0x801920b8"
+  },
+  "descriptions": {
+    "f19b_resize_801920b8": "PROVISIONAL NOT READY: Resizes inferred external owner entry vector at20 with8-byte entries. Local8-byte entry contains four-byte native string member default-constructed by803426b8 plus observed byte attributes4/5 and halfword6; attributes are not initialized by the observed constructor. Full112-byte constructor reads/writes only member0, and1420-byte insert helper8034cc3c witnesses all attribute copies and8-byte stride. Shrinking destructs string members through8020c5c4 then80341588; expanding forwards vector/end/count-delta/localentry to8034cc3c. Local value is destroyed before writing owner count76. Receiver is partial and never constructed/allocated here; no full external owner size claimed. Constructor native linkage inferred from original call. This attempt180B has18 differing words; no byte identity claimed."
+  }
+}

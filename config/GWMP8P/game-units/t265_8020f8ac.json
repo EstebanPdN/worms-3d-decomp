@@ -1,0 +1,7 @@
+{
+  "unit": "t265_8020f8ac",
+  "source": "source/matching/game/t265/t265_8020f8ac.cpp",
+  "language": "cpp",
+  "functions": {"t265_pop_pair_8020f8ac": "0x8020f8ac"},
+  "descriptions": {"t265_pop_pair_8020f8ac": "Decrements the count at offset 0x810 and copies the corresponding eight-byte entry from the array at offset 0x10 to the output."}
+}

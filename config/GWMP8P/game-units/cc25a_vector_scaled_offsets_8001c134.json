@@ -1,0 +1,11 @@
+{
+  "unit": "cc25a_vector_scaled_offsets_8001c134",
+  "source": "source/matching/game/cc25a/cc25a_vector_scaled_offsets_8001c134.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc25a_vector_scaled_offsets_8001c134": "0x8001c134"
+  },
+  "descriptions": {
+    "cc25a_vector_scaled_offsets_8001c134": "Apply vertical drop and two scaled vector offsets, preserving original float expression order and fused scalar factor."
+  }
+}

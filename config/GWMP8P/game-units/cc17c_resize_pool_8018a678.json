@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_resize_pool_8018a678",
+  "source": "source/matching/game/cc17c/cc17c_resize_pool_8018a678.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_resize_pool_8018a678": "0x8018a678"
+  },
+  "descriptions": {
+    "w3d_cc17c_resize_pool_8018a678": "Resizes a global pool of 276-byte elements unless it is busy (then returns 0x80004005): destroys the old array and index table, allocates and constructs the new ones, records the count twice and assigns each element its index."
+  }
+}

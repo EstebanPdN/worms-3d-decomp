@@ -1,0 +1,11 @@
+{
+  "unit": "cc44a_release_resource_801656d4",
+  "source": "source/matching/game/cc44a/cc44a_release_resource_801656d4_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc44a_release_resource_801656d4": "0x801656d4"
+  },
+  "descriptions": {
+    "cc44a_release_resource_801656d4": "Decrement the wrapping unsigned 16-bit reference count; at zero, queue the kind-specific allocations in original order and notify the owner through its corresponding slot, then return the remaining count."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "genparamc_80201b64",
+  "source": "source/matching/game/generated/genparamc_80201b64.c",
+  "language": "c",
+  "functions": {
+    "w3d_transfer_swapped32_80201b64": "0x80201b64",
+    "w3d_transfer_swapped32_80201c1c": "0x80201c1c",
+    "w3d_offer_to_children_8020a304": "0x8020a304",
+    "w3d_offer_to_children_8020a3b0": "0x8020a3b0",
+    "w3d_string_to_lower_8020c230": "0x8020c230"
+  },
+  "descriptions": {
+    "w3d_transfer_swapped32_80201b64": "Skips or transfers count 32-bit values through the held stream (virtual calls), then byte-swaps the transferred values in place; returns the transfer result.",
+    "w3d_transfer_swapped32_80201c1c": "Skips or transfers count 32-bit values through the held stream (virtual calls), then byte-swaps the transferred values in place; returns the transfer result.",
+    "w3d_offer_to_children_8020a304": "Offers a request to an optional first handler (when the flags ask for it), then to each child in turn; returns the first success or the last failure.",
+    "w3d_offer_to_children_8020a3b0": "Offers a request to an optional first handler (when the flags ask for it), then to each child in turn; returns the first success or the last failure.",
+    "w3d_string_to_lower_8020c230": "Lowercases a shared string, first copying it if it is shared (releasing the old buffer), using the character class table."
+  }
+}

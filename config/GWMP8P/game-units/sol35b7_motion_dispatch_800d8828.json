@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b7_motion_dispatch_800d8828",
+  "source": "source/matching/game/sol35b7/sol35b7_motion_dispatch_800d8828.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b7_motion_dispatch_800d8828": "0x800d8828"
+  },
+  "descriptions": {
+    "sol35b7_motion_dispatch_800d8828": "Select a configured motion mode from native 64-bit event flags, route active or armed payloads, otherwise prepare velocity and dispatch according to its squared length. Names and partial GC32 layouts are inferred; backend and floating-point behavior remain external."
+  }
+}

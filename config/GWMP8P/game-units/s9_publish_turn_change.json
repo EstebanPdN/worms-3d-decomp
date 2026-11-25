@@ -1,0 +1,11 @@
+{
+  "unit": "s9_publish_turn_change",
+  "source": "source/matching/game/s9/s9_publish_turn_change.c",
+  "language": "c",
+  "functions": {
+    "s9_publish_turn_change_80155e24": "0x80155e24"
+  },
+  "descriptions": {
+    "s9_publish_turn_change_80155e24": "Publishes turn counts and active/last team and worm properties, selects the next team and worm, posts change messages, updates the active objects and clears the transition flag."
+  }
+}

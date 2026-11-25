@@ -1,0 +1,11 @@
+{
+  "unit": "d17a_water_level_probe_8004d23c",
+  "source": "source/matching/game/d17a/d17a_water_level_probe_8004d23c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d17a_water_level_probe_8004d23c": "0x8004d23c"
+  },
+  "descriptions": {
+    "w3d_d17a_water_level_probe_8004d23c": "Copies the object's position (+40), reads the float setting \"Water.Level\" (key string 0x80376eb0) through 0x800fc270, builds a downward direction of length |position.y - world water base (+12552 of 0x804b17e0)| / 1000 and a zero offset, traces with 0x800b0824 (range 1000), then stores position.x, the hit point's y from 0x8043ae20 (or the water level when the trace distance 0x804b1764 exceeds 1000) and position.z into the result at +260. Names are inferred; offsets are observed."
+  }
+}

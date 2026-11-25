@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_strike_setup_80021aec",
+  "source": "source/matching/game/k4a/k4a_strike_setup_80021aec.c",
+  "language": "c",
+  "functions": {
+    "k4a_strike_setup_80021aec": "0x80021aec"
+  },
+  "descriptions": {
+    "k4a_strike_setup_80021aec": "Appears to read the airstrike target and payload properties into a target vector, play a Blimp sound, set the has-target property and clear the water-target property."
+  }
+}

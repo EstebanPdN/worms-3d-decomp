@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b2550",
+  "source": "source/matching/game/k4b/k4b_a_801b2550.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_writer_append_indent_801b2550": "0x801b2550"
+  },
+  "descriptions": {
+    "w3d_k4b_writer_append_indent_801b2550": "Appears to append the current indentation as spaces to a text writer line and advance its column by the indent width."
+  }
+}

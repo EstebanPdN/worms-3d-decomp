@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ca_8026cde8",
+  "source": "source/matching/game/s21/s21_ca_8026cde8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_hash_string_8026cde8": "0x8026cde8"
+  },
+  "descriptions": {
+    "w3d_s21_hash_string_8026cde8": "Appears to compute a 4-bit-shift string hash with the top nibble folded back in, over a NUL-terminated string."
+  }
+}

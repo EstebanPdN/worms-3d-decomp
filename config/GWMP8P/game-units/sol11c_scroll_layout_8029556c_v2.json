@@ -1,0 +1,11 @@
+{
+  "unit": "sol11c_scroll_layout_8029556c_v2",
+  "source": "source/matching/game/sol11c/sol11c_scroll_layout_8029556c_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11c_scroll_layout_8029556c": "0x8029556c"
+  },
+  "descriptions": {
+    "sol11c_scroll_layout_8029556c": "Lays out scrollbar child dimensions and positions from the owner extents, updates geometry, acquires a slot using a consumed shared-string copy, and applies the owner alpha value. Partial fields remain borrowed GameCube ABI views."
+  }
+}

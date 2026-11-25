@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_801668d8",
+  "source": "source/matching/game/k2b/k2b_a_801668d8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_replace_held_interface_801668d8": "0x801668d8"
+  },
+  "descriptions": {
+    "w3d_k2b_replace_held_interface_801668d8": "Appears to look up an interface by type, retain it and replace the held interface after releasing the old one."
+  }
+}

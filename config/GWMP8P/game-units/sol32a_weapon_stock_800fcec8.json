@@ -1,0 +1,11 @@
+{
+  "unit": "sol32a_weapon_stock_800fcec8",
+  "source": "source/matching/game/sol32a/weapon_stock_800fcec8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol32a_weapon_stock_800fcec8": "0x800fcec8"
+  },
+  "descriptions": {
+    "sol32a_weapon_stock_800fcec8": "Resolves the active worm when passed index -1, selects its current weapon for selector 60, rejects delayed or disabled weapons, then sums worm, team and alliance stock with -1 as the unlimited sentinel. Inline byte-index getters preserve the original nonnegative checks. All partial layouts describe the GC32 reference ABI only; no portable adaptation or runtime behavior is established."
+  }
+}

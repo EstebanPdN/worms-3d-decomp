@@ -1,0 +1,11 @@
+{
+  "unit": "cc19b_held_slots_destroy_80287b30",
+  "source": "source/matching/game/cc19b/cc19b_held_slots_destroy_80287b30.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc19b_held_slots_destroy_80287b30": "0x80287b30"
+  },
+  "descriptions": {
+    "w3d_cc19b_held_slots_destroy_80287b30": "Installs the observed vtable, releases the 64 held interfaces in reverse order through virtual slot 16, then calls the base destructor with original flags."
+  }
+}

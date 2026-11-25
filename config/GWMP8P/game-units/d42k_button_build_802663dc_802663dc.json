@@ -1,0 +1,14 @@
+{
+  "unit": "d42k_button_build_802663dc_802663dc",
+  "source": "source/matching/game/d42k/d42k_button_build_802663dc_802663dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42k_button_build_802663dc_802663dc": "0x802663dc"
+  },
+  "descriptions": {
+    "w3d_d42k_button_build_802663dc_802663dc": "Builds a front-end button: loads its body, base, overlay and kind textures, attaches them, then configures the two arrows."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

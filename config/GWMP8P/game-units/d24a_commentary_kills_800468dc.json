@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_commentary_kills_800468dc",
+  "source": "source/matching/game/d24a/d24a_commentary_kills_800468dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_commentary_kills_800468dc": "0x800468dc"
+  },
+  "descriptions": {
+    "w3d_d24a_commentary_kills_800468dc": "Takes and clears the kill counter (+256); when the commentary is enabled (+252), the counter is non-zero and the active worm index (+128) is a valid player, discounts one kill if word +220 of the player record is 0, picks a Comment.nKill string (0x800fc2b0) from a random number by the kill count, formats it with the record name if it contains %s (0x8020c510) and plays it (0x80043134)."
+  }
+}

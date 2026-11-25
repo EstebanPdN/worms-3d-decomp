@@ -1,0 +1,11 @@
+{
+  "unit": "f5b_update_tilt_targets_800285a8",
+  "source": "source/matching/game/f5b/f5b_update_tilt_targets_800285a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_update_tilt_targets_800285a8": "0x800285a8"
+  },
+  "descriptions": {
+    "f5b_update_tilt_targets_800285a8": "Update the stored phase input and dispatch the observed tilt/phase calls for modes1,2,3; compute the first target from the owner position plus the polar helper and property offset, then dispatch two virtual slot76 target updates with mode0. A no-op mode0 case preserves the original comparison tree; external callback return type int is an inference required by matching."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d43a_map_marks_collect_8001977c",
+  "source": "source/matching/game/d43a/d43a_map_marks_collect_8001977c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43a_map_marks_collect_8001977c": "0x8001977c"
+  },
+  "descriptions": {
+    "w3d_d43a_map_marks_collect_8001977c": "Queries all matching objects through an actor handle, pushing a copy of each object's position onto the marks array until the handle clock returns 0xffff, then collects objects for the game's named set when the name is not empty, and destroys the handle."
+  }
+}

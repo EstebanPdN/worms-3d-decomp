@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_file_extent_query_8021d830",
+  "source": "source/matching/game/cx12b/cx12b_file_extent_query_8021d830.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_file_extent_query_8021d830": "0x8021d830"
+  },
+  "descriptions": {
+    "w3d_cx12b_file_extent_query_8021d830": "Open a temporary twenty-four-byte stream, fetch its sixteen-byte extent output and close/destroy it on each observed path."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unit": "d32s_anim_load_801953e8",
+  "source": "source/matching/game/d32s/d32s_anim_load_801953e8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "load__8D32sAnimP11D32sAnimObj": "0x801953e8"
+  },
+  "descriptions": {
+    "load__8D32sAnimP11D32sAnimObj": "Resolves every prototype slot through the property reader and fills the binding and weight vectors."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

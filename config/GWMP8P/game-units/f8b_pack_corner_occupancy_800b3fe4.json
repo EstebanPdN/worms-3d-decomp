@@ -1,0 +1,11 @@
+{
+  "unit": "f8b_pack_corner_occupancy_800b3fe4",
+  "source": "source/matching/game/f8b/f8b_pack_corner_occupancy_800b3fe4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8b_pack_corner_occupancy_800b3fe4": "0x800b3fe4"
+  },
+  "descriptions": {
+    "f8b_pack_corner_occupancy_800b3fe4": "Iterate inclusive byte-valued grid extents in z/x/y order, test all eight corners through the witnessed sampler with mode4, and write one occupancy bitmask per indexed output cell. Roles, types and layouts are inferred."
+  }
+}

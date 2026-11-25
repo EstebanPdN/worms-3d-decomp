@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_team_timer_tick_8021c144",
+  "source": "source/matching/game/d26k/d26k_team_timer_tick_8021c144.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_team_timer_tick_8021c144": "0x8021c144"
+  },
+  "descriptions": {
+    "w3d_d26k_team_timer_tick_8021c144": "Decrements the timer at +112 by the step at +116 under the active/value/paused/flag guards; on underflow looks up services 0x8041aac8 and optionally 0x8041aae8, applies them to the team through 0x8021e930 with retain/release around each, and resets the timer to 100."
+  }
+}

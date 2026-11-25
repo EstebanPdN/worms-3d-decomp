@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d2_initialize_matrices_801be8a0",
+  "source": "source/matching/game/sol35d2/sol35d2_initialize_matrices_801be8a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d2_initialize_matrices_801be8a0": "0x801be8a0"
+  },
+  "descriptions": {
+    "w3d_sol35d2_initialize_matrices_801be8a0": "Create PoseMatrix and Transform bindings, assign the native 64-byte matrix at 0x8045e708 into each value at +8 using default class assignment, create the Affine binding, finalize the owner and return zero. Native matrix initialization and descriptors remain external."
+  }
+}

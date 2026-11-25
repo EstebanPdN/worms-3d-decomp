@@ -1,0 +1,11 @@
+{
+  "unit": "s19_message_8002779c",
+  "source": "source/matching/game/s19/s19_message_8002779c.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_message_8002779c": "0x8002779c"
+  },
+  "descriptions": {
+    "s19_handle_message_8002779c": "Appears to handle message 64 by running the base handler and a setup helper, otherwise test a cached message id and forward to the base handler."
+  }
+}

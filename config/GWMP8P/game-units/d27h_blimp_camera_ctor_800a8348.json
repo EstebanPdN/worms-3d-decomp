@@ -1,0 +1,15 @@
+{
+  "unit": "d27h_blimp_camera_ctor_800a8348",
+  "source": "source/matching/game/d27h/d27h_blimp_camera_ctor_800a8348.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27h_blimp_camera_ctor_800a8348": "0x800a8348"
+  },
+  "descriptions": {
+    "d27h_blimp_camera_ctor_800a8348": "Blimp camera constructor: runs the base constructor 0x8015a0d4, sets the table pointer at +72, clears the retained references +120..+180, resolves Land.MaxHeight, the Camera.Blimp settings and Land.Center into them, then writes AIStrike.SeekTarget as 0 and returns self."
+  }
+}

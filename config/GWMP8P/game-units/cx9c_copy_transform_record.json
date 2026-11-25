@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_copy_transform_record",
+  "source": "source/matching/game/cx9c/cx9c_copy_transform_record.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_copy_transform_record_8034736c": "0x8034736c"
+  },
+  "descriptions": {
+    "w3d_cx9c_copy_transform_record_8034736c": "Inferred copy construction of a float-triple record with two raw blocks and vtable replacement."
+  }
+}

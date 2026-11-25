@@ -1,0 +1,14 @@
+{
+  "unit": "f4b_planar_offset_800cb868",
+  "source": "source/matching/game/f4b/f4b_planar_offset_800cb868.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4b_planar_offset_800cb868": "0x800cb868"
+  },
+  "descriptions": {
+    "f4b_planar_offset_800cb868": "Copy object vector offset 100 to offset 16. Form the difference between offsets 4 and 16, clear its middle component, set its first component to the original one constant when squared length is zero, then normalize. Add that vector scaled successively by two original constants to offset 16 and store at offset 4; snapshot to offset 76. Set offset 28 to zero/one/zero and snapshot to offset 88. Position and basis roles are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

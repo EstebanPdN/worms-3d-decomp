@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_panel_mesh_reset_802b1cec",
+  "source": "source/matching/game/cx12b/cx12b_panel_mesh_reset_802b1cec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_panel_mesh_reset_802b1cec": "0x802b1cec"
+  },
+  "descriptions": {
+    "w3d_cx12b_panel_mesh_reset_802b1cec": "Stop original mesh playback, optionally apply the Reset control and clear the original playing/stopped/timer fields."
+  }
+}

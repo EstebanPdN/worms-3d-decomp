@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_focus_reverse_802c3de4",
+  "source": "source/matching/game/cx13b/cx13b_focus_reverse_802c3de4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_focus_reverse_802c3de4": "0x802c3de4"
+  },
+  "descriptions": {
+    "w3d_cx13b_focus_reverse_802c3de4": "Move focus backwards through the observed item groups and update current/previous focus state."
+  }
+}

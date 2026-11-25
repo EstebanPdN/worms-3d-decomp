@@ -1,0 +1,11 @@
+{
+  "unit": "d41f_scheme_new_80291b90",
+  "source": "source/matching/game/d41f/d41f_scheme_new_80291b90.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41f_scheme_new_80291b90": "0x80291b90"
+  },
+  "descriptions": {
+    "w3d_d41f_scheme_new_80291b90": "Creates a game scheme from the current one: reads the name property, looks up the scheme list and the current scheme data, returns if the name is already used, resets the scheme fields and registers a fresh copy, then exports."
+  }
+}

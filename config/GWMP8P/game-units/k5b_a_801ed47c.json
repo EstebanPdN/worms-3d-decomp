@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801ed47c",
+  "source": "source/matching/game/k5b/k5b_a_801ed47c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_binding_write_object_801ed47c": "0x801ed47c"
+  },
+  "descriptions": {
+    "w3d_k5b_binding_write_object_801ed47c": "Appears to read an object through the member-function getter, query it for interface 0x8040c970, write it with the writer's virtual slot 8 and release the queried reference."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

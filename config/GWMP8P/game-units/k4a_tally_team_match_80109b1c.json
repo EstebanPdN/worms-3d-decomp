@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_tally_team_match_80109b1c",
+  "source": "source/matching/game/k4a/k4a_tally_team_match_80109b1c.c",
+  "language": "c",
+  "functions": {
+    "k4a_tally_team_match_80109b1c": "0x80109b1c"
+  },
+  "descriptions": {
+    "k4a_tally_team_match_80109b1c": "Appears to compare the team of the active worm with another record's team and, unless locked, bump a same-team or other-team counter."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_type_pair_convert_8020e220",
+  "source": "source/matching/game/d24k/d24k_type_pair_convert_8020e220.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_type_pair_convert_8020e220": "0x8020e220"
+  },
+  "descriptions": {
+    "w3d_d24k_type_pair_convert_8020e220": "Copies the elements when both types are the same, then finds the converter for the packed type pair in the tree at +20 and calls it, or returns 0x80004001 when absent."
+  }
+}

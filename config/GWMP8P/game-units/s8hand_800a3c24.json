@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800a3c24",
+  "source": "source/matching/game/s8hand_800a3c24.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_visibility_800a3c24": "0x800a3c24"
+  },
+  "descriptions": {
+    "s8_visibility_800a3c24": "Resolves eight held objects and forwards the group visibility value to each resolved object."
+  }
+}

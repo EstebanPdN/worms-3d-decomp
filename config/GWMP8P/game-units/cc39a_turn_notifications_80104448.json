@@ -1,0 +1,11 @@
+{
+  "unit": "cc39a_turn_notifications_80104448",
+  "source": "source/matching/game/cc39a/cc39a_turn_notifications_80104448.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39a_turn_notifications_80104448": "0x80104448"
+  },
+  "descriptions": {
+    "cc39a_turn_notifications_80104448": "Issue the one-shot active-worm integer notification and three ordered empty messages, then run both original transition actions."
+  }
+}

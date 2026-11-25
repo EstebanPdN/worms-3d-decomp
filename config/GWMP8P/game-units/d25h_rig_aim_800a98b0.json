@@ -1,0 +1,14 @@
+{
+  "unit": "d25h_rig_aim_800a98b0",
+  "source": "source/matching/game/d25h/d25h_rig_aim_800a98b0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d25h_rig_aim_800a98b0": "0x800a98b0"
+  },
+  "descriptions": {
+    "w3d_d25h_rig_aim_800a98b0": "Camera rig aim: takes the target from the linked object (position and heading) or from the goal, computes the heading from the flattened goal direction with acos, reads the pitch, distance and lift values, and places the camera origin at the target offset by the run computed from the tilt and heading before finishing with 0x800a9b60."
+  }
+}

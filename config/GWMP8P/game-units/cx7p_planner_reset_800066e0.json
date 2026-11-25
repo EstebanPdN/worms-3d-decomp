@@ -1,0 +1,11 @@
+{
+  "unit": "cx7p_planner_reset_800066e0",
+  "source": "source/matching/game/cx7p/cx7p_planner_reset_800066e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7p_planner_reset_800066e0": "0x800066e0"
+  },
+  "descriptions": {
+    "w3d_cx7p_planner_reset_800066e0": "Appears to reset planner containers and ranges, restore its time constant, clear three globals and enter state two."
+  }
+}

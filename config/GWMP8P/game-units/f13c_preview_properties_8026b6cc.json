@@ -1,0 +1,11 @@
+{
+  "unit": "f13c_preview_properties_8026b6cc",
+  "source": "source/matching/game/f13c/f13c_preview_properties_8026b6cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f13c_preview_properties_8026b6cc": "0x8026b6cc"
+  },
+  "descriptions": {
+    "w3d_f13c_preview_properties_8026b6cc": "Disables vector mode, retains the chosen preview name, uppercases a copy to recognize the .TGA suffix, substitutes the temporary-mission resource when required, disables the control, obtains border thickness, reduces the three-float preview size, detaches/releases and resolves the preview child, sets its size and parent, and for image resources performs lookup with an error message and fallback resource. Native string, held-interface and scoped-key lifetimes follow original instructions; field roles are inferred."
+  }
+}

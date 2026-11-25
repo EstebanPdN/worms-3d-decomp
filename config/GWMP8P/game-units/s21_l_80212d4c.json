@@ -1,0 +1,11 @@
+{
+  "unit": "s21_l_80212d4c",
+  "source": "source/matching/game/s21/s21_l_80212d4c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_sign_80212d4c": "0x80212d4c"
+  },
+  "descriptions": {
+    "w3d_s21_forward_sign_80212d4c": "Appears to forward a value with a sign flag for kind ten and return its second argument."
+  }
+}

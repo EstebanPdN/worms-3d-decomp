@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8019f93c",
+  "source": "source/matching/game/k6b/k6b_a_8019f93c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k6b_lua_container_attach_8019f93c": "0x8019f93c"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_container_attach_8019f93c": "Appears to be a Lua binding: look up the service 0x80414310, call its slot 12 with 0x8020b208() and pass the container userdata to its slot 6."
+  }
+}

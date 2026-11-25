@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_small_al.c
+w3d_s20_query_position_800e25dc|0x800e25dc|Appears to fetch a vector through a helper, ask the sub-object at offset 300 to fill a scratch block through virtual method 31 and copy the vector out, or return 0x80004005.
+w3d_s20_apply_indexed_801a3164|0x801a3164|Appears to read an entry from the table at offset 48 by index and pass it with the index to a helper.

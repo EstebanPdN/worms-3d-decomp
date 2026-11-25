@@ -1,0 +1,11 @@
+{
+  "unit": "f14b_static_groups_801f5e08",
+  "source": "source/matching/game/f14b/f14b_static_groups_801f5e08.cpp",
+  "language": "cpp",
+  "functions": {
+    "f14b_static_groups_801f5e08": "0x801f5e08"
+  },
+  "descriptions": {
+    "f14b_static_groups_801f5e08": "Inferred guarded static math-state initialization. For priority 65535 and nonzero initialize, initializes three external 16-byte four-float views at 0x8045e62c/0x8045e63c/0x8045e64c to (0,0,0,0), (0,0,0,-1), and (0,0,0,1e38f); an external 28-byte parameter view at 0x8045e65c to floats (-1,1,-1,1,0.1f,1000) and integer zero; and two external 24-byte paired-vector views at 0x8045e678/0x8045e690 to zero/zero and positive/negative maximum finite float bounds. Parameterized native constructors preserve actual field and literal lifetimes. Placement initialization uses external storage without allocation. Owns only reproduced literal data; external storage remains unowned. Projection/bounds interpretations, names and original API/class identities are inferred, and no complete external type, gameplay behavior, hardware validation or portable integration is claimed."
+  }
+}

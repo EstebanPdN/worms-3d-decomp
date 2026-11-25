@@ -1,0 +1,11 @@
+{
+  "unit": "s21_v_802c43ec",
+  "source": "source/matching/game/s21/s21_v_802c43ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_player_open_802c43ec": "0x802c43ec"
+  },
+  "descriptions": {
+    "w3d_s21_player_open_802c43ec": "Appears to open a named resource through a global service, store the returned interface and notify it, or close the current one for an empty name."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "cx10a_randomize_800dd998",
+  "source": "source/matching/game/cx10a/cx10a_randomize_800dd998.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10a_randomize_800dd998": "0x800dd998"
+  },
+  "descriptions": {
+    "w3d_cx10a_randomize_800dd998": "Randomizes observed scalar state from a shared or local generator, retaining the original reserved inline stack workspace."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800cb040",
+  "source": "source/matching/game/s8contextfix_800cb040.c",
+  "language": "c",
+  "functions": {
+    "s8_initialize_registry_800cb040": "0x800cb040"
+  },
+  "descriptions": {
+    "s8_initialize_registry_800cb040": "Static initializer: registers a descriptor and cached message name, then clears a four-word array at priority 0xffff."
+  }
+}

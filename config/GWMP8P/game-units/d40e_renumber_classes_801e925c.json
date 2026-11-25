@@ -1,0 +1,14 @@
+{
+  "unit": "d40e_renumber_classes_801e925c",
+  "source": "source/matching/game/d40e/d40e_renumber_classes_801e925c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40e_renumber_classes_801e925c": "0x801e925c"
+  },
+  "descriptions": {
+    "w3d_d40e_renumber_classes_801e925c": "Renumbers the class registry at 0x8045e080 so each class with a wanted index takes it and the rest take free slots; if any index moved, rebuilds the table in the new order, tells moved classes their index, runs the hook list of 0x801ea954 under its lock and calls 0x801e80f0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_payload_message_800d7d7c",
+  "source": "source/matching/game/d27c/d27c_payload_message_800d7d7c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_payload_message_800d7d7c": "0x800d7d7c"
+  },
+  "descriptions": {
+    "d27c_payload_message_800d7d7c": "Dispatch a payload's messages to its force, hit and earthquake handlers."
+  }
+}

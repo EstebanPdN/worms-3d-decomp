@@ -1,0 +1,11 @@
+{
+  "unit": "s2_transition_dispatch_r3",
+  "source": "source/matching/game/s2_transition_dispatch_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_transition_setup_options_80124668": "0x80124668"
+  },
+  "descriptions": {
+    "w3d_transition_setup_options_80124668": "Creates transition options, resolves the output object and configures the transition service."
+  }
+}

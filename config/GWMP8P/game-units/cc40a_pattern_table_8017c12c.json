@@ -1,0 +1,11 @@
+{
+  "unit": "cc40a_pattern_table_8017c12c",
+  "source": "source/matching/game/cc40a/cc40a_pattern_table_8017c12c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc40a_pattern_table_8017c12c": "0x8017c12c"
+  },
+  "descriptions": {
+    "cc40a_pattern_table_8017c12c": "Initialize the indexed table with alternating zero/one entries, preserving the signed refresh failure, flag update and ordered virtual callbacks; inferred partial interface views."
+  }
+}

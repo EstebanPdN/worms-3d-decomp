@@ -1,0 +1,15 @@
+{
+  "unit": "d27h_jetpack_start_800aaf5c",
+  "source": "source/matching/game/d27h/d27h_jetpack_start_800aaf5c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27h_jetpack_start_800aaf5c": "0x800aaf5c"
+  },
+  "descriptions": {
+    "d27h_jetpack_start_800aaf5c": "Jetpack start-up: subscribes eleven cached message ids to +28..+68, creates the HUD element at +120 and registers it through 0x80164514, sets its colour 200,200,200,255 and hides it, posts the created message with the object id, reads ActiveWormIndex, Jetpack.MaxAltitude, Jetpack.InitFuel and Jetpack.Fuel, applies the initial fuel through 0x800ac11c, then resolves Water.Level and the Jetpack settings into retained references +176 and +184..+236."
+  }
+}

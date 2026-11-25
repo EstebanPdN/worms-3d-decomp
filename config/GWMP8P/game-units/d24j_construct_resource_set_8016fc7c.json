@@ -1,0 +1,8 @@
+{
+  "unit": "d24j_construct_resource_set_8016fc7c",
+  "source": "source/matching/game/d24j/d24j_construct_resource_set_8016fc7c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {"d24j_construct_resource_set_8016fc7c": "0x8016fc7c"},
+  "descriptions": {"d24j_construct_resource_set_8016fc7c": "Constructs the base, sets the vtable, initializes two embedded descriptors with 0x802109dc and clears a held value; on the first instance lazily acquires twelve shared resources and sets their values and flags; increments the shared instance count and allocates a 28-byte record holding an empty STLport vector and three cleared words."}
+}

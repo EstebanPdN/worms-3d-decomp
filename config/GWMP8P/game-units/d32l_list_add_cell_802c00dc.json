@@ -1,0 +1,20 @@
+{
+  "unit": "d32l_list_add_cell_802c00dc",
+  "source": "source/matching/game/d32l/d32l_list_add_cell_802c00dc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d32l_list_add_cell_802c00dc": "0x802c00dc"
+  },
+  "descriptions": {
+    "d32l_list_add_cell_802c00dc": "Adds one text cell to a list row: resolves its string and colour, fits the text to the column width with an ellipsis, creates the text object and records it in the list's vector."
+  }
+}

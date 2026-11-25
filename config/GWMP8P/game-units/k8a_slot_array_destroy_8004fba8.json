@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_slot_array_destroy_8004fba8",
+  "source": "source/matching/game/k8a/k8a_slot_array_destroy_8004fba8.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_slot_array_destroy_8004fba8": "0x8004fba8"},
+  "descriptions": {"w3d_k8a_slot_array_destroy_8004fba8": "Appears to destroy a service owning an array of held interfaces: releases and clears each slot, clears a global pointer, destroys the array and calls the base destructor."}
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "cc17a_select_plans_800071ec",
+  "source": "source/matching/game/cc17a/cc17a_select_plans_800071ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17a_select_plans_800071ec": "0x800071ec"
+  },
+  "descriptions": {
+    "w3d_cc17a_select_plans_800071ec": "Sort pending AI plans, move at most thirty to the selected queue, record terminal-cost plans and enter planner state three; delegate empty queues to the original fallback."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

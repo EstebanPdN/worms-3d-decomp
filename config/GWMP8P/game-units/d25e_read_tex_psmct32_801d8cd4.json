@@ -1,0 +1,11 @@
+{
+  "unit": "d25e_read_tex_psmct32_801d8cd4",
+  "source": "source/matching/game/d25e/d25e_read_tex_psmct32_801d8cd4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25e_read_tex_psmct32_801d8cd4": "0x801d8cd4"
+  },
+  "descriptions": {
+    "w3d_d25e_read_tex_psmct32_801d8cd4": "Reads a 32-bit image rectangle from the emulated GS memory buffer 0x804b0554 using GS PSMCT32 addressing: for each pixel derives page (64x32), block via table 0x803ff1d4, column and word via 0x803ff254, and stores one word to the destination."
+  }
+}

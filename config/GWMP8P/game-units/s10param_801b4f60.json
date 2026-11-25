@@ -1,0 +1,15 @@
+{
+  "unit": "s10param_801b4f60",
+  "source": "source/matching/game/generated/s10param_801b4f60.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_register_array_801b4f60": "0x801b4f60",
+    "w3d_s10_register_array_801be5a0": "0x801be5a0",
+    "w3d_s10_register_array_801c9728": "0x801c9728"
+  },
+  "descriptions": {
+    "w3d_s10_register_array_801b4f60": "Lazily initializes a named array property descriptor including element/type bytes and an extra descriptor pointer, registers it, and returns zero.",
+    "w3d_s10_register_array_801be5a0": "Lazily initializes a named array property descriptor including element/type bytes and an extra descriptor pointer, registers it, and returns zero.",
+    "w3d_s10_register_array_801c9728": "Lazily initializes a named array property descriptor including element/type bytes and an extra descriptor pointer, registers it, and returns zero."
+  }
+}

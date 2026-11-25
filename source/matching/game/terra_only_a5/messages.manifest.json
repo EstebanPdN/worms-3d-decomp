@@ -1,0 +1,7 @@
+{
+  "unit": "terra_only_a5_messages",
+  "source": "source/matching/game/terra_only_a5/messages.c",
+  "language": "c",
+  "functions": {"terra_only_a5_messages_800a7fdc": "0x800a7fdc"},
+  "descriptions": {"terra_only_a5_messages_800a7fdc": "Send range and entry messages for a pending flag and clear pending fields."}
+}

@@ -1,0 +1,46 @@
+{
+  "module": "actor_destruction",
+  "function": "w3d_concrete_actor_delete",
+  "original_entry": "0x801421c8",
+  "candidate_entry": "0x80560000",
+  "data_entry": "0x80570000",
+  "additional_bindings": [
+    {
+      "name": "w3d_system_release",
+      "kind": "rel24",
+      "site": "0x80142230",
+      "expected": "0x802134fc"
+    },
+    {
+      "name": "w3d_actor_member_optional_delete",
+      "kind": "rel24",
+      "site": "0x801423a8",
+      "expected": "0x8014127c"
+    },
+    {
+      "name": "w3d_actor_handle_member_destroy",
+      "kind": "rel24",
+      "site": "0x801423b4",
+      "expected": "0x80126230"
+    },
+    {
+      "name": "w3d_actor_method_member_destroy",
+      "kind": "rel24",
+      "site": "0x80142cf0",
+      "expected": "0x80118200"
+    },
+    {
+      "name": "w3d_actor_base_destroy",
+      "kind": "rel24",
+      "site": "0x80142d24",
+      "expected": "0x80161050"
+    },
+    {
+      "name": "w3d_concrete_actor_methods",
+      "kind": "ha_lo",
+      "high_site": "0x801421dc",
+      "low_site": "0x801421e4",
+      "expected": "0x80410f00"
+    }
+  ]
+}

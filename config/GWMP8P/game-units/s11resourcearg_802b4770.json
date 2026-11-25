@@ -1,0 +1,11 @@
+{
+  "unit": "s11resourcearg_802b4770",
+  "source": "source/matching/game/s11_auto/s11resourcearg_802b4770.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802b4770": "0x802b4770"
+  },
+  "descriptions": {
+    "w3d_auto_802b4770": "Appears to calls 0x802b1258, 0x802b0990, 0x802b4d58; accesses fields at 0xB0, 0x28, 0x84, 0xB, 0x8C, 0x100. m2c types and names are provisional."
+  }
+}

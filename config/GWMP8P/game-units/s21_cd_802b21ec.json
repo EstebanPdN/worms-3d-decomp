@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cd_802b21ec",
+  "source": "source/matching/game/s21/s21_cd_802b21ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_report_text_802b21ec": "0x802b21ec"
+  },
+  "descriptions": {
+    "w3d_s21_report_text_802b21ec": "Appears to call the error callback of the owner with this object and a text when the text at offset 48 of the linked record is not empty."
+  }
+}

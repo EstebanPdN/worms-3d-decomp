@@ -1,0 +1,16 @@
+{
+  "unit": "d30s_id_map_replace_8020e334",
+  "source": "source/matching/game/d30s/d30s_id_map_replace_8020e334.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_id_map_replace_8020e334": "0x8020e334"
+  },
+  "descriptions": {
+    "d30s_id_map_replace_8020e334": "Stores a value under the key (id of a << 16 | id of b) in the map at +20 and returns the replaced value or null."
+  }
+}

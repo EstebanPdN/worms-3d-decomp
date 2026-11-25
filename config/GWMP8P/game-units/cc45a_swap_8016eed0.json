@@ -1,0 +1,11 @@
+{
+  "unit": "cc45a_swap_8016eed0",
+  "source": "source/matching/game/cc45a/cc45a_swap_8016eed0_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc45a_swap_8016eed0": "0x8016eed0"
+  },
+  "descriptions": {
+    "cc45a_swap_8016eed0": "Scale the display filter, conditionally finish and copy the active framebuffer through the original graphics callback, install the buffer, perform the two-stage startup black-screen transition, flush and wait for retrace, then flip the active buffer index."
+  }
+}

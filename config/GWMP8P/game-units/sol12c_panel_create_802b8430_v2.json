@@ -1,0 +1,11 @@
+{
+  "unit": "sol12c_panel_create_802b8430_v2",
+  "source": "source/matching/game/sol12c/sol12c_panel_create_802b8430_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol12c_panel_create_802b8430": "0x802b8430"
+  },
+  "descriptions": {
+    "sol12c_panel_create_802b8430": "Creates the missing retained-interface panel, attaches and configures its position, layer and child values, updates the optional companion box, and marks the panel dirty. External layouts remain borrowed GameCube ABI views."
+  }
+}

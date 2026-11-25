@@ -1,0 +1,20 @@
+{
+  "unit": "d32s_fader_set_80195cd4",
+  "source": "source/matching/game/d32s/d32s_fader_set_80195cd4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "set__9D32sFaderif": "0x80195cd4"
+  },
+  "descriptions": {
+    "set__9D32sFaderif": "Sets one channel level, sizing or clearing its word vector and marking the owner dirty when the zero state changes."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

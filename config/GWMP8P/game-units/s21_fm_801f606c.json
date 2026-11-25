@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fm_801f606c",
+  "source": "source/matching/game/s21/s21_fm_801f606c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_multiply3_801f606c": "0x801f606c"
+  },
+  "descriptions": {
+    "w3d_s21_multiply3_801f606c": "Appears to multiply two three-by-three float matrices and store the product in the first argument."
+  }
+}

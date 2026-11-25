@@ -1,0 +1,11 @@
+{
+  "unit": "s8deepctor_800e35fc",
+  "source": "source/matching/game/s8deepctor_800e35fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "__23s8_Constructed_800e35fc": "0x800e35fc"
+  },
+  "descriptions": {
+    "__23s8_Constructed_800e35fc": "Constructor: calls the observed base/member initializers, installs vtable pointers and initializes the observed trailing fields."
+  }
+}

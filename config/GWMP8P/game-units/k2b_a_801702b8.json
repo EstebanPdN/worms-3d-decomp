@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_801702b8",
+  "source": "source/matching/game/k2b/k2b_a_801702b8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_entry_init_801702b8": "0x801702b8"
+  },
+  "descriptions": {
+    "w3d_k2b_entry_init_801702b8": "Appears to initialize a table entry from a spec record: name, kind bytes, value, flags and a flag-dependent pair of ranges."
+  }
+}

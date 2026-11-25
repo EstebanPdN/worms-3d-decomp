@@ -1,0 +1,11 @@
+{
+  "unit": "f18b_write_float_802041d4",
+  "source": "source/matching/game/f18b/f18b_write_float_union_802041d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f18b_write_float_802041d4": "0x802041d4"
+  },
+  "descriptions": {
+    "f18b_write_float_802041d4": "Write reversed IEEE single-precision bits through external stream writer 0x802047e0. Local 4-byte union models the observed stfs/lwz bit reinterpretation; receiver is an incomplete external type never allocated or constructed here. Callee returns a 32-bit status. This caller forwards r3 unchanged in original bytes, but its semantic return typedef and signedness remain unknown; provisional unsigned signature only."
+  }
+}

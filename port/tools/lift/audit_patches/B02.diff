@@ -1,0 +1,19 @@
+--- a/port/core/open/open_800ddb28.cpp
++++ b/port/core/open/open_800ddb28.cpp
+@@ -359,14 +359,14 @@
+     S32(r1 + 52, r0);
+     f30 = f1;
+     r11 = L32(r5 + 24);
+-    r7 = r1 + 27;
++    r7 = r1 + 24; /* PPC r1+0x1b: byte bajo de la palabra de r1+0x18; en el anfitrión está en +0 */
+     S32(r1 + 48, r29);
+     r30 = r5 + 32;
+     S32(r1 + 24, r11);
+     r8 = r1 + 28;
+     f0 = LDS(r1 + 48);
+     r10 = L8(r31 + 426);
+-    r9 = L8(r1 + 27);
++    r9 = L8(r1 + 24);
+     f0 = f0 - f13;
+     r11 = L32(r31 + 276);
+     f0 = (float)f0;

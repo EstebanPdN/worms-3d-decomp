@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_adjust_m.c
+w3d_s20_collect_item_modes_801d58d0|0x801d58d0|Appears to dispatch two item targets through the secondary base handler table, collect their mode values and store the combined mode bits in the item.

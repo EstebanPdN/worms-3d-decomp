@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ah_801ea470",
+  "source": "source/matching/game/s21/s21_ah_801ea470.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_fetch_801ea470": "0x801ea470"
+  },
+  "descriptions": {
+    "w3d_s21_fetch_801ea470": "Appears to fetch an object through two virtual slots, pass it to a helper together with this and return it."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f3a_hit_inner_8026f820",
+  "source": "source/matching/game/f3a/f3a_hit_inner_8026f820.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f3a_hit_inner_8026f820": "0x8026f820"
+  },
+  "descriptions": {
+    "w3d_f3a_hit_inner_8026f820": "Tests observed enable field at offset 296, obtains position and carrier extent, reads and conditionally scales the offset-272 value, checks four float bounds with inset at offset 252, and forwards the hit to the offset-288 object. UI and field roles are inferred; referenced external data ownership is not claimed."
+  }
+}

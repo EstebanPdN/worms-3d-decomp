@@ -1,0 +1,15 @@
+{
+  "unit": "genparamc_8003ad14",
+  "source": "source/matching/game/generated/genparamc_8003ad14.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_find_spawn_point_8003ad14": "0x8003ad14",
+    "w3d_find_spawn_point_8004a608": "0x8004a608",
+    "w3d_find_spawn_point_801254a0": "0x801254a0"
+  },
+  "descriptions": {
+    "w3d_find_spawn_point_8003ad14": "Copies the global group vector, searches each group item for one whose name equals the argument and copies its position; otherwise logs and uses a default position.",
+    "w3d_find_spawn_point_8004a608": "Copies the global group vector, searches each group item for one whose name equals the argument and copies its position; otherwise logs and uses a default position.",
+    "w3d_find_spawn_point_801254a0": "Copies the global group vector, searches each group item for one whose name equals the argument and copies its position; otherwise logs and uses a default position."
+  }
+}

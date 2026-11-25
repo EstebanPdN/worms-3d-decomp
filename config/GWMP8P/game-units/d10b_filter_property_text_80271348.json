@@ -1,0 +1,11 @@
+{
+  "unit": "d10b_filter_property_text_80271348",
+  "source": "source/matching/game/d10b/d10b_filter_property_text_80271348_v6.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10b_filter_property_text_80271348": "0x80271348"
+  },
+  "descriptions": {
+    "d10b_filter_property_text_80271348": "Compact a mutable NUL-terminated byte string in place, keeping printable ASCII 32 through 126 except ampersand; write a terminator when the original string is nonempty. Dispatch the filtered text and original editor to string/vector/integer/float/color/name handlers for kinds 20,21,24,25,22,34 respectively; leave other kinds without a handler call. Preserve byte unsigned comparisons and case order. Partial editor field view; no owned initialized data."
+  }
+}

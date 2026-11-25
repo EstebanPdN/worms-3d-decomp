@@ -1,0 +1,11 @@
+{
+  "unit": "f7b_reflect_800675fc",
+  "source": "source/matching/game/f7b/f7b_reflect_800675fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7b_reflect_800675fc": "0x800675fc"
+  },
+  "descriptions": {
+    "f7b_reflect_800675fc": "Obtain the observed normalized direction, clamp its dot product with velocity between the two witnessed scalar bounds, subtract twice that projection from velocity, then apply the sampled damping coefficient. Names, physical roles and class layouts inferred from original instructions."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_particle_update_800dc740",
+  "source": "source/matching/game/d27c/d27c_particle_update_800dc740.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_particle_update_800dc740": "0x800dc740"
+  },
+  "descriptions": {
+    "d27c_particle_update_800dc740": "Update one particle for a time and write its batch array entries; returns whether it is active."
+  }
+}

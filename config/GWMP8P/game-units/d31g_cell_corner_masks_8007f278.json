@@ -1,0 +1,11 @@
+{
+  "unit": "d31g_cell_corner_masks_8007f278",
+  "source": "source/matching/game/d31g/d31g_cell_corner_masks_8007f278.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31g_cell_corner_masks_8007f278": "0x8007f278"
+  },
+  "descriptions": {
+    "w3d_d31g_cell_corner_masks_8007f278": "Cell corner masks: from the neighbour flag words 0x804addec..0x804ade08 computes which of the eight corners of each vertex set need building, in 0x804adb24 from the edge pairs and in 0x804adb20 from the low and high nibble states, then ORs the second into the first. The masks are consumed by the cube corner function 0x800840f0."
+  }
+}

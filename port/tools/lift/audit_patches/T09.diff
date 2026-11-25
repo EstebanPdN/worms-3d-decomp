@@ -1,0 +1,7 @@
+--- a/port/core/game/generated/genfastc_801697b4.cpp
++++ b/port/core/game/generated/genfastc_801697b4.cpp
+@@ -59,3 +59,3 @@
+             Ptr32<char> text = FIELD(node, char *, 148);
+-            if (FIELD(text, unsigned short, -4) != 0 && ((FIELD(node, unsigned char, 11) ^ 4) & 4)
++            if (FIELD(text, unsigned short, -4) != 0 && ((FIELD(node, unsigned char, 8) ^ 4) & 4)
+                 && FIELD(self, int, 140) != 0)

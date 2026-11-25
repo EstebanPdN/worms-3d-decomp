@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_land_settings_save_8026bdf0",
+  "source": "source/matching/game/d27k/d27k_land_settings_save_8026bdf0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_land_settings_save_8026bdf0": "0x8026bdf0"
+  },
+  "descriptions": {
+    "w3d_d27k_land_settings_save_8026bdf0": "Sets +496, writes FE.Land.Amount, Bridges, LObjects, SObjects, Size, Space and Height from the settings block at +312, formats the seed from 0x8026ce4c into FE.Land.Seed, maps the theme index to its lump name (Pirate, War, Lunar, England, Horror, Arctic) for FE.Land.Theme and clears +496. A second string local at sp+16 is constructed and destroyed unread."
+  }
+}

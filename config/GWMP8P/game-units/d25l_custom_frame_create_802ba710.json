@@ -1,0 +1,14 @@
+{
+  "unit": "d25l_custom_frame_create_802ba710",
+  "source": "source/matching/game/d25l/d25l_custom_frame_create_802ba710.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25l_custom_frame_create_802ba710": "0x802ba710"
+  },
+  "descriptions": {
+    "d25l_custom_frame_create_802ba710": "When the handle at +220 is empty, allocates 4 bytes, constructs a named handle 'FE.NewFrame.Cust' with a type byte from +35 and the data's +116 plus 28, stores it at +220, configures it through 0x802baf1c from the data's +124 and position, passes the vector at 0x8045e788 to 0x802bbc90 and the owner at +112 to 0x802bbcc4."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "s5_rope_mode_messages",
+  "source": "source/matching/game/s5_rope_mode_messages.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_rope_enter_mode_800d0d6c": "0x800d0d6c",
+    "w3d_rope_exit_mode_800d0e60": "0x800d0e60"
+  },
+  "descriptions": {
+    "w3d_rope_enter_mode_800d0d6c": "Posts mode messages for roping, aiming, moving and first-person aiming.",
+    "w3d_rope_exit_mode_800d0e60": "Posts the complementary mode messages for aiming, moving, first-person aiming and roping."
+  }
+}

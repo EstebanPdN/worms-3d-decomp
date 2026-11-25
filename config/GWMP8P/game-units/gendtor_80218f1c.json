@@ -1,0 +1,17 @@
+{
+  "unit": "gendtor_80218f1c",
+  "source": "source/matching/game/generated/gendtor_80218f1c.c",
+  "language": "c",
+  "functions": {
+    "w3d_dtor_80218f1c": "0x80218f1c",
+    "w3d_dtor_80219578": "0x80219578",
+    "w3d_dtor_802e028c": "0x802e028c",
+    "w3d_dtor_802e2ca0": "0x802e2ca0"
+  },
+  "descriptions": {
+    "w3d_dtor_80218f1c": "Destructor: installs the class vtable, makes 2 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_80219578": "Destructor: installs the class vtable, makes 4 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_802e028c": "Destructor: installs the class vtable, makes 1 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_802e2ca0": "Destructor: installs the class vtable, makes 3 member/base release calls in original order, and frees the object when bit 0 of flags is set."
+  }
+}

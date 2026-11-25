@@ -1,0 +1,11 @@
+{
+  "unit": "d40a_commentary_destroy_80042004",
+  "source": "source/matching/game/d40a/d40a_commentary_destroy_80042004.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._19Commentary_80042004": "0x80042004"
+  },
+  "descriptions": {
+    "_._19Commentary_80042004": "Commentary destructor: clears both queues and the current global, releases 32 held interfaces, destroys both vectors and calls the base destructor with the in-charge flag."
+  }
+}

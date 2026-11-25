@@ -1,0 +1,11 @@
+{
+  "unit": "s19_dtor_80021468",
+  "source": "source/matching/game/s19/s19_dtor_80021468.c",
+  "language": "c",
+  "functions": {
+    "s19_dtor_80021468": "0x80021468"
+  },
+  "descriptions": {
+    "s19_dtor_80021468": "Appears to clear the field at +0xc, install a vtable at +0x10 and optionally delete the object when the low flag bit is set."
+  }
+}

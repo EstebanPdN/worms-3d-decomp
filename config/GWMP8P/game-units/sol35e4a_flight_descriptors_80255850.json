@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e4a_flight_descriptors_80255850",
+  "source": "source/matching/game/sol35e4a/sol35e4a_flight_descriptors_80255850.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e4a_flight_descriptors_80255850": "0x80255850"
+  },
+  "descriptions": {
+    "sol35e4a_flight_descriptors_80255850": "Registers twenty-three observed flight descriptors, assigns the shared empty string to seven returned string bindings through retaining temporaries, and finalizes the descriptor owner."
+  }
+}

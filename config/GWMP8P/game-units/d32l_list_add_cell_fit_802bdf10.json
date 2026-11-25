@@ -1,0 +1,20 @@
+{
+  "unit": "d32l_list_add_cell_fit_802bdf10",
+  "source": "source/matching/game/d32l/d32l_list_add_cell_fit_802bdf10.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d32l_list_add_cell_fit_802bdf10": "0x802bdf10"
+  },
+  "descriptions": {
+    "d32l_list_add_cell_fit_802bdf10": "Adds one text cell to a list row with optional shrink-to-fit and measured column width, creating the text object and recording it in the list's vector."
+  }
+}

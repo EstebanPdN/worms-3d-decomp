@@ -1,0 +1,60 @@
+typedef struct s8_SmallObject { int a,b; } s8_SmallObject;
+extern int lbl_804aac48;
+extern int lbl_804ae21c;
+extern int lbl_804ae224;
+extern int lbl_804ae228;
+extern int lbl_804ae220;
+extern int lbl_804ae22c;
+extern int lbl_804ae23c;
+extern int lbl_804ae230;
+extern int lbl_804ae234;
+extern int lbl_804ae238;
+extern char lbl_803607b0[];
+extern char lbl_803e7e84[];
+extern char lbl_80361860[];
+void * fn_800a4fd4(void);
+int fn_8016115c(void *, void *, void *, void (*)(void), int, int);
+extern s8_SmallObject lbl_804ae240;
+extern char lbl_80381028[];
+int fn_8015f518(void *, void *);
+extern s8_SmallObject lbl_804ae248;
+extern char lbl_8038103c[];
+extern s8_SmallObject lbl_804ae250;
+extern char lbl_80381048[];
+extern s8_SmallObject lbl_804ae258;
+extern char lbl_80381054[];
+extern s8_SmallObject lbl_804ae260;
+extern char lbl_80381068[];
+extern s8_SmallObject lbl_804ae268;
+extern char lbl_8038107c[];
+extern s8_SmallObject lbl_804ae270;
+extern char lbl_80381098[];
+void s8_static_init_800a5394(int initialize,int priority)
+{
+    if(priority==0xffff && initialize) {
+        int base0=lbl_804aac48;
+        int offset1=base0+16384;
+        int offset2=base0+736;
+        int offset3=base0+12400;
+        int offset4=base0+16368;
+        int offset5=base0+16304;
+        int offset6=base0+16176;
+        lbl_804ae21c=offset1;
+        lbl_804ae224=offset2;
+        lbl_804ae228=offset3;
+        lbl_804ae220=base0;
+        lbl_804ae22c=base0;
+        lbl_804ae23c=base0;
+        lbl_804ae230=offset4;
+        lbl_804ae234=offset5;
+        lbl_804ae238=offset6;
+        fn_8016115c(lbl_803607b0, lbl_803e7e84, lbl_80361860, fn_800a4fd4, 11, 0);
+        fn_8015f518(&lbl_804ae240, lbl_80381028);
+        fn_8015f518(&lbl_804ae248, lbl_8038103c);
+        fn_8015f518(&lbl_804ae250, lbl_80381048);
+        fn_8015f518(&lbl_804ae258, lbl_80381054);
+        fn_8015f518(&lbl_804ae260, lbl_80381068);
+        fn_8015f518(&lbl_804ae268, lbl_8038107c);
+        fn_8015f518(&lbl_804ae270, lbl_80381098);
+    }
+}

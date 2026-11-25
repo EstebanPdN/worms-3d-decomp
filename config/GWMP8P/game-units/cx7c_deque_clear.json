@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_deque_clear",
+  "source": "source/matching/game/cx7c/cx7c_deque_clear.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_deque_clear_8035ee24": "0x8035ee24"
+  },
+  "descriptions": {
+    "w3d_cx7c_deque_clear_8035ee24": "Clears a deque by releasing intermediate and finish buffers while retaining its start buffer, then copying its 16-byte start iterator to finish; observed layout documented."
+  }
+}

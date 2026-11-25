@@ -1,0 +1,11 @@
+{
+  "unit": "g1p_choice_tick_802a49d0",
+  "source": "source/matching/game/g1p/g1p_choice_tick_802a49d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1p_choice_tick_802a49d0": "0x802a49d0"
+  },
+  "descriptions": {
+    "g1p_choice_tick_802a49d0": "Advances the choice panel base, eases two observed float coordinates toward targets with quarter-step and signed0.01 snap thresholds, commits pending selections at zero and resets targets to1, refreshes inferred captions/colours and layout, and passes complete12-byte native vectors to control virtualslot21. Vertical selection0/2 sets8 items and1/3 sets4; hover-1 triggers colour refresh. External receiver layouts are partial unconstructed views; field roles/names inferred. Inline selection API takes pending index and reset value by value, matching observed load/store lifetimes. Literal pool is owned and independently compared; no frame padding, artificial liveness, assembly or fixed-register controls."
+  }
+}

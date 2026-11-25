@@ -1,0 +1,11 @@
+{
+  "unit": "s21_df_801ecc6c",
+  "source": "source/matching/game/s21/s21_df_801ecc6c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_typed_801ecc6c": "0x801ecc6c"
+  },
+  "descriptions": {
+    "w3d_s21_create_typed_801ecc6c": "Appears to create a 28-byte typed entry with a zeroed word, copying two callback pairs and appending it to the container."
+  }
+}

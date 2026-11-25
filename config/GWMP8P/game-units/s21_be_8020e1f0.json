@@ -1,0 +1,11 @@
+{
+  "unit": "s21_be_8020e1f0",
+  "source": "source/matching/game/s21/s21_be_8020e1f0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_flagged_8020e1f0": "0x8020e1f0"
+  },
+  "descriptions": {
+    "w3d_s21_forward_flagged_8020e1f0": "Appears to call virtual slot 7 of the object with its four arguments and a trailing one."
+  }
+}

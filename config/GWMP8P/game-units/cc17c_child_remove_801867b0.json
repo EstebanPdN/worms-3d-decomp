@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_child_remove_801867b0",
+  "source": "source/matching/game/cc17c/cc17c_child_remove_801867b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_child_remove_801867b0": "0x801867b0"
+  },
+  "descriptions": {
+    "w3d_cc17c_child_remove_801867b0": "Removes a child from the node's child pointer vector at +104 (shifting later entries down) and detaches it through the child's virtual slot +20 with a null parent; returns 0x80004005 when the child is not present."
+  }
+}

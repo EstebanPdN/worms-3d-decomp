@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cu_801eb4e4",
+  "source": "source/matching/game/s21/s21_cu_801eb4e4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_equal_801eb4e4": "0x801eb4e4"
+  },
+  "descriptions": {
+    "w3d_s21_equal_801eb4e4": "Appears to compare the bytes at a descriptor's halfword offset in two buffers over a length from a helper and report whether they are equal."
+  }
+}

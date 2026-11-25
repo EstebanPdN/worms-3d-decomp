@@ -1,0 +1,16 @@
+{
+  "unit": "genfastc_800fdcf4",
+  "source": "source/matching/game/generated/genfastc_800fdcf4.c",
+  "language": "c",
+  "functions": {
+    "w3d_init_timed_fade_800fdcf4": "0x800fdcf4",
+    "w3d_inverse_ratio_802bf798": "0x802bf798"
+  },
+  "descriptions": {
+    "w3d_init_timed_fade_800fdcf4": "Initializes a timed fade record: start, duration and optional delay, start and end bytes converted to floats (quantized load), and sets the active flag.",
+    "w3d_inverse_ratio_802bf798": "Computes a clamped ratio from four fields and returns 255 minus its byte value (quantized store), or 255 when the ratio is below a threshold."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_follow_target_80131610",
+  "source": "source/matching/game/cx13a/cx13a_follow_target_80131610.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_follow_target_80131610": "0x80131610"
+  },
+  "descriptions": {
+    "w3d_cx13a_follow_target_80131610": "Move toward queried vector targets and snap within the observed squared threshold; names inferred."
+  }
+}

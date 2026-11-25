@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_set_language_80127ba0",
+  "source": "source/matching/game/d24i/d24i_set_language_80127ba0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_set_language_80127ba0": "0x80127ba0"
+  },
+  "descriptions": {
+    "d24i_set_language_80127ba0": "Set the language to entry index, where above 9 keeps the current one and an equal value does nothing: logs the change, saves the settings NGC.Disc.CoverOpen, Insert, ReadError and FatalError into a four-string local array, calls virtual +188 of the renderer at +100 of service 0x804b1788 with 1, writes the settings back, refreshes 0x804b06a4 (0x80209968), stores the index at +176 and loads the entry name from 0x803fcd30 (0x800fd504, mode 1 then mode 2 on failure)."
+  }
+}

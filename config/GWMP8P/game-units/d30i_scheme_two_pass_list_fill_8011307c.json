@@ -1,0 +1,15 @@
+{
+  "unit": "d30i_scheme_two_pass_list_fill_8011307c",
+  "source": "source/matching/game/d30i/d30i_scheme_two_pass_list_fill_8011307c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30i_scheme_two_pass_list_fill_8011307c": "0x8011307c"
+  },
+  "descriptions": {
+    "d30i_scheme_two_pass_list_fill_8011307c": "Fills the scheme list from DATA.Schemes and DATA.LockedSchemes, translating names on the second pass and adding the current GM.SchemeData scheme when no entry matched it."
+  }
+}

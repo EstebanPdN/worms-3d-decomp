@@ -1,0 +1,11 @@
+{
+  "unit": "g7c_apply_8034ab10",
+  "source": "source/matching/game/g7c/g7c_apply_8034ab10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g7c_apply_8034ab10": "0x8034ab10"
+  },
+  "descriptions": {
+    "w3d_g7c_apply_8034ab10": "Apply an operation to a validated registry actor, select a context mode through type ancestry, and optionally snapshot and visit child handles."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "cx15a_step_four_800660d4",
+  "source": "source/matching/game/cx15a/cx15a_step_four_800660d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_step_four_800660d4": "0x800660d4"
+  },
+  "descriptions": {
+    "w3d_cx15a_step_four_800660d4": "Advance four resolved entries, preserve their completion predicate, and scale rates when the observed maximum increases."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

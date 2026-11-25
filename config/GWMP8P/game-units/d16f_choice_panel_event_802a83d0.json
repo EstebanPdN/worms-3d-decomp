@@ -1,0 +1,17 @@
+{
+  "unit": "d16f_choice_panel_event_802a83d0",
+  "source": "source/matching/game/d16f/d16f_choice_panel_event_802a83d0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d16f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "handle_event__15D16fChoicePanelP9D16fEvent": "0x802a83d0"
+  },
+  "descriptions": {
+    "handle_event__15D16fChoicePanelP9D16fEvent": "Choice panel message handler: opens on message 64 (E_FAIL if the base handler fails) and closes on 66; otherwise, when its control is ready and idle, handles pointer picks (posting a selected-name message after an accepted point), the four entry-choice messages and cancel, forwards remaining or successful messages to the control, and finishes in the base handler."
+  }
+}

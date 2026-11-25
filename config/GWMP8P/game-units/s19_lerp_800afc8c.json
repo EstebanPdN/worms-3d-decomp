@@ -1,0 +1,14 @@
+{
+  "unit": "s19_lerp_800afc8c",
+  "source": "source/matching/game/s19/s19_lerp_800afc8c.c",
+  "language": "c",
+  "functions": {
+    "s19_lerp_800afc8c": "0x800afc8c"
+  },
+  "descriptions": {
+    "s19_lerp_800afc8c": "Appears to interpolate between two floats using the value returned by a helper."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

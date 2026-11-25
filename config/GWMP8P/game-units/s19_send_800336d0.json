@@ -1,0 +1,11 @@
+{
+  "unit": "s19_send_800336d0",
+  "source": "source/matching/game/s19/s19_send_800336d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "s19_send_range_800336d0": "0x800336d0"
+  },
+  "descriptions": {
+    "s19_send_range_800336d0": "Appears to look up a service handle and send it the range stored at +0x31c through +0x324 before forwarding the same values to the global sink."
+  }
+}

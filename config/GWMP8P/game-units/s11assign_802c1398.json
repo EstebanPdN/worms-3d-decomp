@@ -1,0 +1,11 @@
+{
+  "unit": "s11assign_802c1398",
+  "source": "source/matching/game/s11_auto/s11assign_802c1398.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802c1398": "0x802c1398"
+  },
+  "descriptions": {
+    "w3d_auto_802c1398": "Appears to calls 0x8015fd1c; accesses fields at 0x10, 0x30, 0x6C, 0x60, 0x54, 0x64. m2c types and names are provisional."
+  }
+}

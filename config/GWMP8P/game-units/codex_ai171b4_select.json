@@ -1,0 +1,14 @@
+{
+  "unit": "codex_ai171b4_select",
+  "source": "source/matching/game/codex_ai171b4_select.c",
+  "language": "c",
+  "functions": {
+    "codex_ai171b4_select": "0x800171b4"
+  },
+  "descriptions": {
+    "codex_ai171b4_select": "Iterates an external range of entry pointers, tests each weight against a constant and builds a 48-byte plan for qualifying entries, then sets a global flag. Layouts and roles are inferred from observed offsets; external allocator, initializer, plan submitter and data remain separate."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e6a_gauge_update_8026e884",
+  "source": "source/matching/game/sol35e6a/sol35e6a_gauge_update_8026e884.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e6a_gauge_update_8026e884": "0x8026e884"
+  },
+  "descriptions": {
+    "sol35e6a_gauge_update_8026e884": "Calls the observed secondary-interface tick, captures a changed control value, smooths the target using witnessed thresholds and blend constants, then propagates the value to two optional controls. Names and complete class identities are inferred."
+  }
+}

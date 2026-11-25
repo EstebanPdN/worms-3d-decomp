@@ -1,0 +1,11 @@
+{
+  "unit": "d42k_player_list_page_8021cd10",
+  "source": "source/matching/game/d42k/d42k_player_list_page_8021cd10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42k_player_list_page_8021cd10": "0x8021cd10"
+  },
+  "descriptions": {
+    "w3d_d42k_player_list_page_8021cd10": "Builds the page's list of player entries from the list property, flagging the local player's entry."
+  }
+}

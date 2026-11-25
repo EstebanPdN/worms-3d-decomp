@@ -1,0 +1,11 @@
+{
+  "unit": "cc25a_vector_elevation_angle_8001b734",
+  "source": "source/matching/game/cc25a/cc25a_vector_elevation_angle_8001b734.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc25a_vector_elevation_angle_8001b734": "0x8001b734"
+  },
+  "descriptions": {
+    "cc25a_vector_elevation_angle_8001b734": "Compute elevation from a normalized vector and up-vector dot using the original acos expression, fused multiply order, and zero-vector behavior."
+  }
+}

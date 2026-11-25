@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_detail_set_release_800b8e50",
+  "source": "source/matching/game/k8a/k8a_detail_set_release_800b8e50.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_detail_set_release_800b8e50": "0x800b8e50"},
+  "descriptions": {"w3d_k8a_detail_set_release_800b8e50": "Appears to release a detail set: releases one held interface, destroys every detail object in its pointer vector clearing each slot, then empties the vector."}
+}

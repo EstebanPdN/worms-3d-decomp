@@ -1,0 +1,14 @@
+{
+  "unit": "d28c_rope_change_length_800d1130",
+  "source": "source/matching/game/d28c/d28c_rope_change_length_800d1130.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28c_rope_change_length_800d1130": "0x800d1130"
+  },
+  "descriptions": {
+    "d28c_rope_change_length_800d1130": "Extend or retract the last rope segment toward a target point within its limits and move the end when nothing blocks it."
+  }
+}

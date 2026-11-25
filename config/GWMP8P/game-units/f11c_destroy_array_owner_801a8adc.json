@@ -1,0 +1,11 @@
+{
+  "unit": "f11c_destroy_array_owner_801a8adc",
+  "source": "source/matching/game/f11c/f11c_destroy_array_owner_801a8adc.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._13F11c_Owner588": "0x801a8adc"
+  },
+  "descriptions": {
+    "_._13F11c_Owner588": "Install the witnessed owner table; destroy the short vector and cached-end buffer vector, release three backing allocations and the node member, destroy owned fixed arrays of32 and512 observed84-byte elements through original in-charge2 destructor backends, release pointer-vector allocations and three held interfaces, restore the base table and original base cleanup, then honor the native deleting-destructor flag. Factory801a8010 allocates328 bytes; constructor801a81c4 initializes the full represented outer footprint and allocates2688-byte/43008-byte element arrays with84-byte constructor strides. Item adapters preserve witnessed cleanup flags; tree/base/record views, storage roles, types and names remain inferred. No constructor or external data ownership is claimed."
+  }
+}

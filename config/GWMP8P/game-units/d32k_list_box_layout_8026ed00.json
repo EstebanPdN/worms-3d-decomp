@@ -1,0 +1,14 @@
+{
+  "unit": "d32k_list_box_layout_8026ed00",
+  "source": "source/matching/game/d32k/d32k_list_box_layout_8026ed00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32k_list_box_layout_8026ed00": "0x8026ed00"
+  },
+  "descriptions": {
+    "w3d_d32k_list_box_layout_8026ed00": "With no style, releases both boxes and the controls and returns. On first use loads the two box resources, attaches them, clamps the info size to the border and positions both. Then creates either the bar or the scroll parts depending on the flag at 292, releasing the other set, shows the active box and refreshes the controls."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

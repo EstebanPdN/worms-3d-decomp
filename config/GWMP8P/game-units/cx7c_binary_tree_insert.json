@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_binary_tree_insert",
+  "source": "source/matching/game/cx7c/cx7c_binary_tree_insert.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_binary_tree_insert_8035b32c": "0x8035b32c"
+  },
+  "descriptions": {
+    "w3d_cx7c_binary_tree_insert_8035b32c": "Inserts an inferred binary-key tree node at a searched position, allocates and copies its value, maintains extreme links, rebalances, increments count, and returns its iterator."
+  }
+}

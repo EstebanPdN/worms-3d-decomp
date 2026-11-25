@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_projectile_step_800d610c",
+  "source": "source/matching/game/d27c/d27c_projectile_step_800d610c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_projectile_step_800d610c": "0x800d610c"
+  },
+  "descriptions": {
+    "d27c_projectile_step_800d610c": "Step a projectile by constant acceleration, handling trace hits and water entry."
+  }
+}

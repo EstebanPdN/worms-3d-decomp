@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80270df0",
+  "source": "source/matching/game/k6b/k6b_a_80270df0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_widget_ctor_80270df0": "0x80270df0"
+  },
+  "descriptions": {
+    "w3d_k6b_widget_ctor_80270df0": "Appears to construct an object over base 0x801628b0: clear +28, install vtable 0x8041be80, construct the member at +52 and clear +64, +68, +76, +88, +92."
+  }
+}

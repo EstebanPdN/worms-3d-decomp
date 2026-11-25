@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_dispatch_f.c
+w3d_s20_dispatch_record_then_lookup_801a3ba0|0x801a3ba0|Appears to dispatch every target of the item's record through the handler table, then an optional looked-up target, stopping at the first failure.

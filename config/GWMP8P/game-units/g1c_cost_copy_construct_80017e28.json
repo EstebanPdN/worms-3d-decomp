@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_cost_copy_construct_80017e28",
+  "source": "source/matching/game/g1c/g1c_cost_copy_construct_80017e28.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_cost_copy_construct_80017e28": "0x80017e28"
+  },
+  "descriptions": {
+    "g1c_cost_copy_construct_80017e28": "Construct the native52-byte path-cost copy type at caller-supplied storage using its original80006360 base constructor, initialize witnessed derived state, then perform native assignment from the source while preserving the derived vtable. Original factory80017df0 allocates52 bytes before this constructor; unknown fields remain explicit, and no unproved frame or opaque temporary storage is introduced."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d26e_voice_volume_801e68d4",
+  "source": "source/matching/game/d26e/d26e_voice_volume_801e68d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_voice_volume_801e68d4": "0x801e68d4"
+  },
+  "descriptions": {
+    "w3d_d26e_voice_volume_801e68d4": "Sound volume for a playing voice: the base volume from the mixer (slot 33, keyed by the sound id), and for a positioned emitter the distance gain: full below near, 0 beyond far, linear between, times the listener volume and clamped to [0, 1]. The first near read in the falloff branch is discarded, as in the original. Reading of near and far (slots 33 and 32) is inferred from the arithmetic."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_construct_pair_control_802c5d3c",
+  "source": "source/matching/game/f1p/f1p_construct_pair_control_802c5d3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_pair_control_802c5d3c": "0x802c5d3c"
+  },
+  "descriptions": {
+    "w3d_construct_pair_control_802c5d3c": "Initialize the original28-byte base, held pointers and native pair array, copy the observed global three-vector and scalar defaults, release/reclear the first interface, then assign the witnessed zero and minus-one control fields through byte83. Native placement construction supplies genuine array lifetimes. Names and field meanings inferred; no whole-class constructor integration or data ownership is claimed."
+  }
+}

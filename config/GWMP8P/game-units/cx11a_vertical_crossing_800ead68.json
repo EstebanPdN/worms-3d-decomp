@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_vertical_crossing_800ead68",
+  "source": "source/matching/game/cx11a/cx11a_vertical_crossing_800ead68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_vertical_crossing_800ead68": "0x800ead68"
+  },
+  "descriptions": {
+    "w3d_cx11a_vertical_crossing_800ead68": "Checks an observed downward crossing of a plane after a fixed vector step. Names inferred."
+  }
+}

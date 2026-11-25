@@ -1,0 +1,11 @@
+{
+  "unit": "cc31a_camera_initialize_8002bd88",
+  "source": "source/matching/game/cc31a/cc31a_camera_initialize_8002bd88.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc31a_camera_initialize_8002bd88": "0x8002bd88"
+  },
+  "descriptions": {
+    "cc31a_camera_initialize_8002bd88": "Initialize camera mode and five subscriptions, assign original aim-angle bounds, post four arena messages and capture two seven-word service records."
+  }
+}

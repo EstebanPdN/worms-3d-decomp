@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dy_801f804c",
+  "source": "source/matching/game/s21/s21_dy_801f804c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_erase_item_801f804c": "0x801f804c"
+  },
+  "descriptions": {
+    "w3d_s21_erase_item_801f804c": "Appears to erase one pointer from the vector at offset 20: it locates the element through a helper, shifts the tail down with memmove and shrinks the vector by one entry."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_802392d8",
+  "source": "source/matching/game/generated/s10param_802392d8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_init_string_property_802392d8": "0x802392d8"
+  },
+  "descriptions": {
+    "w3d_s10_init_string_property_802392d8": "Looks up the named string binding, replaces its held string with the retained shared empty string, releases the temporary, and invokes final initialization."
+  }
+}

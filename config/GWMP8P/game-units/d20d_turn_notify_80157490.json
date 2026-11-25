@@ -1,0 +1,14 @@
+{
+  "unit": "d20d_turn_notify_80157490",
+  "source": "source/matching/game/d20d/d20d_turn_notify_80157490.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d20d_turn_notify_80157490": "0x80157490"
+  },
+  "descriptions": {
+    "d20d_turn_notify_80157490": "Pick the active worm (of 16 records from 0x800fc6dc) with the highest positive score and post turn messages: if it is the current worm, a plain message plus the current team; else the current worm when a selection is pending or the selected worm, clearing the pending flag. With no selection and a new sequence number, find the nearest worm of another team to the stored position by squared distance and post its index, its team and the current team. Finally remember the sequence number. Messages are arena-allocated and posted to the current queue; field meanings are inferred."
+  }
+}

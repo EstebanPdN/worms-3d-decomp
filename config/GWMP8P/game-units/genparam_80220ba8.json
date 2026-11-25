@@ -1,0 +1,33 @@
+{
+  "unit": "genparam_80220ba8",
+  "source": "source/matching/game/generated/genparam_80220ba8.c",
+  "language": "c",
+  "functions": {
+    "w3d_dtor_strings_80220ba8": "0x80220ba8",
+    "w3d_dtor_strings_80220f00": "0x80220f00",
+    "w3d_dtor_strings_80221c08": "0x80221c08",
+    "w3d_dtor_strings_80222928": "0x80222928",
+    "w3d_dtor_strings_80235c58": "0x80235c58",
+    "w3d_dtor_strings_80236f08": "0x80236f08",
+    "w3d_dtor_strings_802374d0": "0x802374d0",
+    "w3d_dtor_strings_80237a38": "0x80237a38",
+    "w3d_dtor_strings_8023d774": "0x8023d774",
+    "w3d_dtor_strings_8023dbe8": "0x8023dbe8",
+    "w3d_dtor_strings_8023def4": "0x8023def4",
+    "w3d_dtor_strings_8024dba8": "0x8024dba8"
+  },
+  "descriptions": {
+    "w3d_dtor_strings_80220ba8": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_80220f00": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_80221c08": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_80222928": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_80235c58": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_80236f08": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_802374d0": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_80237a38": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_8023d774": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_8023dbe8": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_8023def4": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_strings_8024dba8": "Destructor: installs the class vtable, finishes and releases two string members, runs the base destructor, and frees the object when bit 0 of flags is set."
+  }
+}

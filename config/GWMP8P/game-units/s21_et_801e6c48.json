@@ -1,0 +1,11 @@
+{
+  "unit": "s21_et_801e6c48",
+  "source": "source/matching/game/s21/s21_et_801e6c48.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_is_playing_801e6c48": "0x801e6c48"
+  },
+  "descriptions": {
+    "w3d_s21_is_playing_801e6c48": "Appears to report whether a stream handle is already playing: it logs and returns one when more than five streams are active, else returns one when the handle is in the global table, otherwise zero."
+  }
+}

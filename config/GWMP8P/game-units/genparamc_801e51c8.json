@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_801e51c8",
+  "source": "source/matching/game/generated/genparamc_801e51c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_facing_term_801e51c8": "0x801e51c8",
+    "w3d_facing_term_801e663c": "0x801e663c"
+  },
+  "descriptions": {
+    "w3d_facing_term_801e51c8": "Returns a trig term of the angle between a target heading and the direction to a goal point, wrapped to range and folded at a limit; a constant if there is no target.",
+    "w3d_facing_term_801e663c": "Returns a trig term of the angle between a target heading and the direction to a goal point, wrapped to range and folded at a limit; a constant if there is no target."
+  }
+}

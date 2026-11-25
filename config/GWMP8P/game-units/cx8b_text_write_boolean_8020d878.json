@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_text_write_boolean_8020d878",
+  "source": "source/matching/game/cx8b/cx8b_text_write_boolean_8020d878.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_text_write_boolean_8020d878": "0x8020d878"
+  },
+  "descriptions": {
+    "w3d_cx8b_text_write_boolean_8020d878": "Write original true/false text with lengths 4 or 5 through sink slot +24 and return the writer."
+  }
+}

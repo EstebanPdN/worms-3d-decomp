@@ -1,0 +1,11 @@
+{
+  "unit": "s8transplantcpp_800d1104",
+  "source": "source/matching/game/s8transplantcpp_800d1104.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_transplant_800d1104": "0x800d1104"
+  },
+  "descriptions": {
+    "s8_transplant_800d1104": "Appears to implement the observed field accesses and external calls; instantiated from the matched instruction family at 0x80066894."
+  }
+}

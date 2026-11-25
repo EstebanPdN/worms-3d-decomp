@@ -1,0 +1,14 @@
+{
+  "unit": "d25j_create_from_defs_8017c788",
+  "source": "source/matching/game/d25j/d25j_create_from_defs_8017c788.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25j_create_from_defs_8017c788": "0x8017c788"
+  },
+  "descriptions": {
+    "d25j_create_from_defs_8017c788": "For each 20-byte definition gets an object from service lookup 0x8020b680 under one of two keys chosen by flag 8 at +16, initializes it through 0x80187158 or 0x801702b8 and passes it to 0x8017c464, marking failure on a zero result; raises global 0x804ab5e8 to the value at +9752 when larger; returns 0, or 0x80004005 after any failure."
+  }
+}

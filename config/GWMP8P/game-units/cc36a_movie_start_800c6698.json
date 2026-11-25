@@ -1,0 +1,11 @@
+{
+  "unit": "cc36a_movie_start_800c6698",
+  "source": "source/matching/game/cc36a/cc36a_movie_start_800c6698.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc36a_movie_start_800c6698": "0x800c6698"
+  },
+  "descriptions": {
+    "cc36a_movie_start_800c6698": "Start a selected movie when enabled and ready, preserve state transitions, or clear mode flags and post the original failure notification."
+  }
+}

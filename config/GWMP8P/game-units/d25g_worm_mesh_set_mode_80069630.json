@@ -1,0 +1,11 @@
+{
+  "unit": "d25g_worm_mesh_set_mode_80069630",
+  "source": "source/matching/game/d25g/d25g_worm_mesh_set_mode_80069630.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25g_worm_mesh_set_mode_80069630": "0x80069630"
+  },
+  "descriptions": {
+    "w3d_d25g_worm_mesh_set_mode_80069630": "Switches the two meshes to a new mode: stops the clip of the current mode on each mesh that has one, plays the new mode's clip by id and name on each mesh that has one, stores the mode, and in mode 3 starts the effect when both effect flags are set."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d30a_mine_like_update_80048840",
+  "source": "source/matching/game/d30a/d30a_mine_like_update_80048840.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_mine_like_update_80048840": "0x80048840"
+  },
+  "descriptions": {
+    "w3d_d30a_mine_like_update_80048840": "Keeps a body and its attached members on the target's position, shows them on first activation, plays the part's clip and detaches the part when the clip ends."
+  }
+}

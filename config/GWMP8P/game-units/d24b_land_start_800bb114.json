@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_land_start_800bb114",
+  "source": "source/matching/game/d24b/d24b_land_start_800bb114.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_land_start_800bb114": "0x800bb114"
+  },
+  "descriptions": {
+    "w3d_d24b_land_start_800bb114": "Landscape start: subscribes the object (0x80162024) to eight cached message ids with handler slots +28, +32, +36, +44, +48, +56, +60, +64; loads three settings through one handle (0x800fc1b0, key 0x804aad4c, Land.Changed, Land.Indestructable) into the globals 0x804ae5d8, 0x804ae5dc, 0x804ae5e0 (casts 0x80342a74, 0x80342a78) with retain/release; loads the Test.Landscape resource into the handle at +12544 (0x8015adf4, flags 255) and releases the temporaries."
+  }
+}

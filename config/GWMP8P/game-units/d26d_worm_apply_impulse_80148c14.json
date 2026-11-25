@@ -1,0 +1,17 @@
+{
+  "unit": "d26d_worm_apply_impulse_80148c14",
+  "source": "source/matching/game/d26d/d26d_worm_apply_impulse_80148c14.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26d_worm_apply_impulse_80148c14": "0x80148c14"
+  },
+  "descriptions": {
+    "d26d_worm_apply_impulse_80148c14": "Apply a scaled impulse to the worm velocity and start the blasted or hit reaction."
+  }
+}

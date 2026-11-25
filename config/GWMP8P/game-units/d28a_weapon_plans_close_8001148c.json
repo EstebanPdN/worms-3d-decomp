@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_weapon_plans_close_8001148c",
+  "source": "source/matching/game/d28a/d28a_weapon_plans_close_8001148c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_weapon_plans_close_8001148c": "0x8001148c"
+  },
+  "descriptions": {
+    "w3d_d28a_weapon_plans_close_8001148c": "Pushes clones of the plan for weapons 2, 17, 26 and 43."
+  }
+}

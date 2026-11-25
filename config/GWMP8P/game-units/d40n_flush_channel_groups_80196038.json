@@ -1,0 +1,20 @@
+{
+  "unit": "d40n_flush_channel_groups_80196038",
+  "source": "source/matching/game/d40n/d40n_flush_channel_groups_80196038.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "flush__9D40fMixer": "0x80196038"
+  },
+  "descriptions": {
+    "flush__9D40fMixer": "Groups active channel values by sink, type and id into a buffer and channel mask, and calls the sink's setter for each finished group."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

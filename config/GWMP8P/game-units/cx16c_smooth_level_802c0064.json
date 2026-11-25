@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_smooth_level_802c0064",
+  "source": "source/matching/game/cx16c/cx16c_smooth_level_802c0064.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_smooth_level_802c0064": "0x802c0064"
+  },
+  "descriptions": {
+    "w3d_cx16c_smooth_level_802c0064": "Move the current scalar toward the target using the original weight, snap to the target inside the original tolerance interval, and refresh when the scalar changed."
+  }
+}

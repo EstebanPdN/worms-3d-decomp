@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ff_801ed824",
+  "source": "source/matching/game/s21/s21_ff_801ed824.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_set_int_b_801ed824": "0x801ed824"
+  },
+  "descriptions": {
+    "w3d_s21_set_int_b_801ed824": "Appears to convert a float to an integer and call a bound member-function pointer of the target object with it, returning the call's result."
+  }
+}

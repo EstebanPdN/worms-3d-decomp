@@ -1,0 +1,11 @@
+{
+  "unit": "d29g_utility_crate_setup_8004af78",
+  "source": "source/matching/game/d29g/d29g_utility_crate_setup_8004af78.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_utility_crate_setup_8004af78": "0x8004af78"
+  },
+  "descriptions": {
+    "w3d_d29g_utility_crate_setup_8004af78": "Utility crate setup: applies scale 7, reads Crate.Contents and maps the name to kinds 39 to 58; kinds 54 to 58 take their display text from a Text.kUtility key and return, an unknown name logs and sets an error text; the rest read the utility record's text key and build the display text at +148 as the count (or the encoded glyph when -1), ' x ' and the title."
+  }
+}

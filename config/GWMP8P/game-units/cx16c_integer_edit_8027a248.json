@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_integer_edit_8027a248",
+  "source": "source/matching/game/cx16c/cx16c_integer_edit_8027a248.c",
+  "language": "c",
+  "functions": {
+    "w3d_cx16c_integer_edit_8027a248": "0x8027a248"
+  },
+  "descriptions": {
+    "w3d_cx16c_integer_edit_8027a248": "Parse nonempty integer text, look up the selected field offset on the receiver type, write the integer to that field, then refresh and notify the editor."
+  }
+}

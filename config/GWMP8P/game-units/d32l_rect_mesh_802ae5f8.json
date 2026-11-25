@@ -1,0 +1,14 @@
+{
+  "unit": "d32l_rect_mesh_802ae5f8",
+  "source": "source/matching/game/d32l/d32l_rect_mesh_802ae5f8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d32l_rect_mesh_802ae5f8": "0x802ae5f8"
+  },
+  "descriptions": {
+    "d32l_rect_mesh_802ae5f8": "Rebuilds the vertices of a bordered rectangle mesh from half sizes and border, and refreshes its bounding box and sphere."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "s19_misc_d",
+  "source": "source/matching/game/s19/s19_misc_d.c",
+  "language": "c",
+  "functions": {
+    "s19_release_ref_80023200": "0x80023200",
+    "s19_fire_once_8002ad9c": "0x8002ad9c",
+    "s19_set_pose_8002e558": "0x8002e558",
+    "s19_reset_cell_80022704": "0x80022704"
+  },
+  "descriptions": {
+    "s19_release_ref_80023200": "Appears to decrement the count at +8, call virtual slot 5 when it reaches zero and return the new count.",
+    "s19_fire_once_8002ad9c": "Appears to set the flag at +0x30 and call virtual slot 14 the first time it runs.",
+    "s19_set_pose_8002e558": "Appears to copy two three-float vectors into fields at +0x40 and +0x34 and set the word at +0x4c.",
+    "s19_reset_cell_80022704": "Appears to clear one word and set another in the referenced cell, then call its virtual slot 5."
+  }
+}

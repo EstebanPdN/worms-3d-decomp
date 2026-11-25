@@ -1,0 +1,11 @@
+{
+  "unit": "s21_br_802185c8",
+  "source": "source/matching/game/s21/s21_br_802185c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_open_masked_802185c8": "0x802185c8"
+  },
+  "descriptions": {
+    "w3d_s21_open_masked_802185c8": "Appears to call virtual slot 5 of the object with its arguments, clearing bit 4 of the last one."
+  }
+}

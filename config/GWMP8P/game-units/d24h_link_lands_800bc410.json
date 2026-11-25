@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_link_lands_800bc410",
+  "source": "source/matching/game/d24h/d24h_link_lands_800bc410.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_link_lands_800bc410": "0x800bc410"
+  },
+  "descriptions": {
+    "w3d_d24h_link_lands_800bc410": "Links land chunks: for each land in the list 0x8043bb64 that passes the filter 0x800bc390 with tag 0xffff, collects up to ten land indices whose chunks pass the filter with this chunk's tag and key (+470, +424), while the summed counts (+468) stay at most 256; when more than one index was found, copies the index list into each listed chunk's copy-on-write halfword array at +472 (reused when unshared at the right capacity, otherwise 0x801ef048)."
+  }
+}

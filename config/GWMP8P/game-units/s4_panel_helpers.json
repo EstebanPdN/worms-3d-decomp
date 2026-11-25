@@ -1,0 +1,15 @@
+{
+  "unit": "s4_panel_helpers",
+  "source": "source/matching/game/s4_panel_helpers.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_frontend_register": "0x802a3d64",
+    "w3d_s4_panel_clear_container": "0x802a4f98",
+    "w3d_s4_panel_set_active": "0x802a511c"
+  },
+  "descriptions": {
+    "w3d_s4_frontend_register": "Initializes and registers the frontend descriptor.",
+    "w3d_s4_panel_clear_container": "Releases panel members, removes all container children and resets the embedded control.",
+    "w3d_s4_panel_set_active": "Updates panel activation, selection property values and content, with an allowed activation sound."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k1d_a_80154f58",
+  "source": "source/matching/game/k1d/k1d_a_80154f58.c",
+  "language": "c",
+  "functions": {
+    "w3d_k1d_empty_80154f58": "0x80154f58"
+  },
+  "descriptions": {
+    "w3d_k1d_empty_80154f58": "Appears to be an empty function that only reserves a stack frame."
+  }
+}

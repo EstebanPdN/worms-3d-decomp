@@ -1,0 +1,17 @@
+{
+  "unit": "r23c_tail_lookup",
+  "source": "source/matching/game/r23c_tail_lookup.cpp",
+  "language": "cpp",
+  "functions": {
+    "r23c_indexed_entry_803486f0": "0x803486f0",
+    "r23c_row_entry_80348c64": "0x80348c64",
+    "r23c_row_value_80348d74": "0x80348d74",
+    "r23c_lower_bound_8035c4d0": "0x8035c4d0"
+  },
+  "descriptions": {
+    "r23c_indexed_entry_803486f0": "Load the indexed word through the pointer at offset 80.",
+    "r23c_row_entry_80348c64": "Load an indexed word from the offset-24 array in a 32-byte row selected through object offset 24.",
+    "r23c_row_value_80348d74": "Return row offset 12 for a nonzero index or object offset 100 for index zero.",
+    "r23c_lower_bound_8035c4d0": "Return the lower-bound position using unsigned word comparisons and a signed range length."
+  }
+}

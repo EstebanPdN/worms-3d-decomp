@@ -1,0 +1,15 @@
+{
+  "unit": "s2_script_runtime",
+  "source": "source/matching/game/s2_script_runtime.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_script_debug_hook_80101dd4": "0x80101dd4",
+    "w3d_fn_80101e08": "0x80101e08",
+    "w3d_script_lua_error_80102028": "0x80102028"
+  },
+  "descriptions": {
+    "w3d_script_debug_hook_80101dd4": "Forwards a Lua debug event to its script service.",
+    "w3d_fn_80101e08": "Reports a script breakpoint and polls debug input while the script remains paused.",
+    "w3d_script_lua_error_80102028": "Pops a Lua error string and forwards it to the script log and output hook."
+  }
+}

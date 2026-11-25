@@ -1,0 +1,11 @@
+{
+  "unit": "cc36a_disc_status_800c70e4",
+  "source": "source/matching/game/cc36a/cc36a_disc_status_800c70e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc36a_disc_status_800c70e4": "0x800c70e4"
+  },
+  "descriptions": {
+    "cc36a_disc_status_800c70e4": "Update the disc status and select its localized warning while preserving suppress/unchanged guards and fallback clearing."
+  }
+}

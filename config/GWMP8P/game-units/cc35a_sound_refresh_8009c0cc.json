@@ -1,0 +1,11 @@
+{
+  "unit": "cc35a_sound_refresh_8009c0cc",
+  "source": "source/matching/game/cc35a/cc35a_sound_refresh_8009c0cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc35a_sound_refresh_8009c0cc": "0x8009c0cc"
+  },
+  "descriptions": {
+    "cc35a_sound_refresh_8009c0cc": "Post notification, release held actor state, check sound readiness and replace completed sound from configured name with owner binding; helper result is ignored and inferred."
+  }
+}

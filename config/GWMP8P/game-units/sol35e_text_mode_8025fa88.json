@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e_text_mode_8025fa88",
+  "source": "source/matching/game/sol35e/sol35e_text_mode_8025fa88.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e_text_mode_8025fa88": "0x8025fa88"
+  },
+  "descriptions": {
+    "sol35e_text_mode_8025fa88": "Updates enabled text colour and conditional payload notification, invokes the secondary-interface mode setter, and refreshes the text controls."
+  }
+}

@@ -1,0 +1,10 @@
+--- a/port/core/game/s1_airstrike_cursor_verified.cpp
++++ b/port/core/game/s1_airstrike_cursor_verified.cpp
+@@ -141,6 +141,7 @@
+         Ptr32<W3dS1AirColor> color=water?w3d::R(&w3d_color_804ad45c):w3d::R(&w3d_color_804ad458);
+         w3d_fn_80173df0((Ptr32<void>)w3d::G(object),color);
+     } else w3d_fn_80173df0((Ptr32<void>)w3d::G((*target)),&w3d_color_804ad454);
++    release_air(*target); /* El llamador retiene y esta función suelta: `lwz r3,0(r31)` y vtable+0x10 en 0x8004e2f4. */
+ }
+ int w3d_fn_8004e324(Ptr32<unsigned int> self)
+ {

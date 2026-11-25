@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801f8de0",
+  "source": "source/matching/game/perm/s10perm_801f8de0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801f8de0": "0x801f8de0"
+  },
+  "descriptions": {
+    "w3d_auto_801f8de0": "Returns the observed pointer/value at offset 36, yielding zero when that field is empty."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d43l_label_text_refresh_802a32e0",
+  "source": "source/matching/game/d43l/d43l_label_text_refresh_802a32e0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d43l_label_text_refresh_802a32e0": "0x802a32e0"
+  },
+  "descriptions": {
+    "d43l_label_text_refresh_802a32e0": "Refreshes a label's text object from its style: resolves the key via the table or wraps it in markers when missing, creates the text resource, fits its scale to the limit, then sets string, justification, position and colour."
+  }
+}

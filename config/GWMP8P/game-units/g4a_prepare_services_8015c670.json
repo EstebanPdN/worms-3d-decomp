@@ -1,0 +1,11 @@
+{
+  "unit": "g4a_prepare_services_8015c670",
+  "source": "source/matching/game/g4a/g4a_prepare_services_8015c670.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4a_prepare_services_8015c670": "0x8015c670"
+  },
+  "descriptions": {
+    "g4a_prepare_services_8015c670": "Query the root service for descriptor804143e0, then acquire/retain services80412240 and804118f8, replacing receiver held slots100/96 and releasing their previous contents. Invoke the renderer slot6, hold service80411960 locally and bind it to the renderer with key0x0babe000. Run8015b72c and8015c994, optionally acquire804168b0 into slot108 when receiver+88 is zero, then run8015ca48, acquire80411698 into slot104 and bind it with the same key. Release the temporary held service and return zero. The inline root-query boundary evaluates its descriptor before root lookup, as original code requires. The receiver112-byte prefix is an external partial view, never locally constructed; the local retained-interface owner is a complete one-pointer value. No external service/data ownership or complete receiver allocation is asserted."
+  }
+}

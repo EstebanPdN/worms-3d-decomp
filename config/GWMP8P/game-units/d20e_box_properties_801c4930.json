@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_box_properties_801c4930",
+  "source": "source/matching/game/d20e/d20e_box_properties_801c4930.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d20e_register_box_properties_801c4930": "0x801c4930"
+  },
+  "descriptions": {
+    "w3d_d20e_register_box_properties_801c4930": "Creates the Min and Max vector bindings (0x801f0504) reset to the constant 0x803acb38 (0.0f), registers the XSize/YSize/ZSize member bindings (0x801ebf38), registers the \"Data\" property (0x801efec4) with a guarded function-local static descriptor (size 44, element type 5, type 9, type object 0x8045ed7c) built once from a zero-filled temporary, calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

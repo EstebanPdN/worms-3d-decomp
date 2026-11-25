@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_rsqrt_table_801a118c",
+  "source": "source/matching/game/d20e/d20e_rsqrt_table_801a118c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d20e_rsqrt_table_801a118c": "0x801a118c"
+  },
+  "descriptions": {
+    "w3d_d20e_rsqrt_table_801a118c": "Allocates a 128-byte table through 0x801fe220 into the global at 0x804ab744 and fills it with the rounded upper mantissa bits of 1.0f (literal 0x803a9b48) divided by the square-root routine 0x802e82c0 applied to the 128 floats 0x3f000000 | (i << 17) in [0.5, 1); sets entry 64 to 255 and returns 0."
+  }
+}

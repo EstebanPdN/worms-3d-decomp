@@ -1,0 +1,14 @@
+{
+  "unit": "d30e_load_sample_801dd0e8",
+  "source": "source/matching/game/d30e/d30e_load_sample_801dd0e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_load_sample_801dd0e8": "0x801dd0e8"
+  },
+  "descriptions": {
+    "w3d_d30e_load_sample_801dd0e8": "Creates a sound sample object from a description: loads a .wav or .vag file by extension, or copies an already registered sample found by name when it reports ready; applies the description's fields through virtual slots 9 and 11 and setters at 0x801df1dc to 0x801df280, then appends it to the manager. Returns 0 or 0x80004005. Reference counted through a one-word holder. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

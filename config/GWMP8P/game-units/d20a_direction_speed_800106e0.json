@@ -1,0 +1,12 @@
+{
+  "unit": "d20a_direction_speed_800106e0",
+  "source": "source/matching/game/d20a/d20a_direction_speed_800106e0.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d20a_direction_speed_800106e0": "0x800106e0"
+  },
+  "descriptions": {
+    "w3d_d20a_direction_speed_800106e0": "Returns 0 unless 0x8000f804 reports the object ready; otherwise reads the speed (+188) of the tuning record from 0x80341694(self, 0), using 0.05 times +184 when it is zero, normalizes the direction at +36 in place, scales it by the speed and returns 0x8000feb8(self, time + 20.0f)."
+  }
+}

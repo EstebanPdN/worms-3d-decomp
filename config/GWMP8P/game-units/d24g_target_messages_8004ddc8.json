@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_target_messages_8004ddc8",
+  "source": "source/matching/game/d24g/d24g_target_messages_8004ddc8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_target_messages_8004ddc8": "0x8004ddc8"
+  },
+  "descriptions": {
+    "w3d_d24g_target_messages_8004ddc8": "Target message handler: start and stop messages with the base handler; one message clips the target; one searches and stores found and calls virtual slot +44 or +48; one ends through 0x8015fd1c; others go to the base handler."
+  }
+}

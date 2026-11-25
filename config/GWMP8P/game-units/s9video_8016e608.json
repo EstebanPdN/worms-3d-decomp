@@ -1,0 +1,11 @@
+{
+  "unit": "s9video_8016e608",
+  "source": "source/matching/game/generated/s9video_8016e608.c",
+  "language": "c",
+  "functions": {
+    "s9_initialize_video_buffer_8016e608": "0x8016e608"
+  },
+  "descriptions": {
+    "s9_initialize_video_buffer_8016e608": "Allocates video memory for the platform format, logs the format, initializes the buffer and marks the video state ready."
+  }
+}

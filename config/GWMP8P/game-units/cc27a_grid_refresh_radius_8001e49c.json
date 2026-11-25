@@ -1,0 +1,11 @@
+{
+  "unit": "cc27a_grid_refresh_radius_8001e49c",
+  "source": "source/matching/game/cc27a/cc27a_grid_refresh_radius_8001e49c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc27a_grid_refresh_radius_8001e49c": "0x8001e49c"
+  },
+  "descriptions": {
+    "cc27a_grid_refresh_radius_8001e49c": "Compute original grid midpoint and horizontal radius plus1 via native vector operators and original timestamp updates."
+  }
+}

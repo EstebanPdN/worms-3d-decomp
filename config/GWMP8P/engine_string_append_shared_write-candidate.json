@@ -1,0 +1,47 @@
+{
+  "module": "engine_string_append_shared_write",
+  "function": "w3d_string_append",
+  "original_entry": "0x8020bf2c",
+  "candidate_entry": "0x80500000",
+  "data_entry": "0x80510000",
+  "additional_bindings": [
+    {
+      "name": "w3d_log_enabled",
+      "kind": "sda21",
+      "site": "0x802cbeac",
+      "expected": "0x804abce4"
+    },
+    {
+      "name": "w3d_log_channels",
+      "kind": "ha_lo",
+      "high_site": "0x802cbec4",
+      "low_site": "0x802cbecc",
+      "expected": "0x80473724"
+    },
+    {
+      "name": "w3d_log_channel_write",
+      "kind": "rel24",
+      "site": "0x802cbf04",
+      "expected": "0x802cc01c"
+    },
+    {
+      "name": "w3d_log_prepare_text",
+      "kind": "rel24",
+      "site": "0x802cc064",
+      "expected": "0x802cc0ac"
+    },
+    {
+      "name": "w3d_log_prefixes",
+      "kind": "ha_lo",
+      "high_site": "0x802cc0bc",
+      "low_site": "0x802cc0c4",
+      "expected": "0x80403f54"
+    },
+    {
+      "name": "strchr",
+      "kind": "rel24",
+      "site": "0x802cc0e8",
+      "expected": "0x802ef198"
+    }
+  ]
+}

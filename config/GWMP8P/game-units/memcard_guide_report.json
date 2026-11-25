@@ -1,0 +1,11 @@
+{
+  "unit": "memcard_guide_report",
+  "source": "source/matching/game/memcard_guide_report.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_card_guide_show_message": "0x802c59e8"
+  },
+  "descriptions": {
+    "w3d_card_guide_show_message": "Memory-card guide: logs the name of a guide message when it changes; panics on an unknown message."
+  }
+}

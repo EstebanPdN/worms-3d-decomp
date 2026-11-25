@@ -1,0 +1,15 @@
+{
+  "unit": "s20_small_v",
+  "source": "source/matching/game/s20/s20_small_v.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_flush_pending_80167094": "0x80167094",
+    "w3d_s20_destroy_pooled_800e7344": "0x800e7344",
+    "w3d_s20_bind_names_8013e35c": "0x8013e35c"
+  },
+  "descriptions": {
+    "w3d_s20_flush_pending_80167094": "Appears to pass each pending value to a pool helper, flush through another helper when any were queued and clear the count.",
+    "w3d_s20_destroy_pooled_800e7344": "Appears to install a vtable, run cleanups, release a held object and return this to a pool when bit 0 of the flags is set.",
+    "w3d_s20_bind_names_8013e35c": "Appears to look up two named entries for the handle at offset 168 and store the results at offsets 560 and 564."
+  }
+}

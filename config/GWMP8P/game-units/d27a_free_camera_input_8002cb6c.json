@@ -1,0 +1,14 @@
+{
+  "unit": "d27a_free_camera_input_8002cb6c",
+  "source": "source/matching/game/d27a/d27a_free_camera_input_8002cb6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_free_camera_input_8002cb6c": "0x8002cb6c"
+  },
+  "descriptions": {
+    "w3d_d27a_free_camera_input_8002cb6c": "If a team at 0x804b1760 is active, delegates to 0x8002c840. Otherwise adjusts the pitch at +84 from buttons and the turn axis, moves both camera points in the xz plane along the rotated yaw +80 from buttons and two axes scaled by properties, raises or lowers the height +92 from buttons, and keeps it at least the sum of two properties."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

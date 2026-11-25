@@ -1,0 +1,14 @@
+{
+  "unit": "d42e_slot_table_acquire_8020777c",
+  "source": "source/matching/game/d42e/d42e_slot_table_acquire_8020777c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42e_slot_table_acquire_8020777c": "0x8020777c"
+  },
+  "descriptions": {
+    "w3d_d42e_slot_table_acquire_8020777c": "Slot table allocation: acquires a cleared record, reuses the head of the free list when one is available, otherwise appends to the slot array, growing it by half through malloc, and returns the slot index."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

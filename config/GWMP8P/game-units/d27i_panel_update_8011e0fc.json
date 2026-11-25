@@ -1,0 +1,17 @@
+{
+  "unit": "d27i_panel_update_8011e0fc",
+  "source": "source/matching/game/d27i/d27i_panel_update_8011e0fc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27i"
+  ],
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d27i_panel_update_8011e0fc": "0x8011e0fc"
+  },
+  "descriptions": {
+    "d27i_panel_update_8011e0fc": "Advances a panel's state machine and colour fade for the current time, then notifies the stage when it became active."
+  }
+}

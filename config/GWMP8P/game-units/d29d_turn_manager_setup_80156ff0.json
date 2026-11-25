@@ -1,0 +1,15 @@
+{
+  "unit": "d29d_turn_manager_setup_80156ff0",
+  "source": "source/matching/game/d29d/d29d_turn_manager_setup_80156ff0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29d_turn_manager_setup_80156ff0": "0x80156ff0"
+  },
+  "descriptions": {
+    "d29d_turn_manager_setup_80156ff0": "Turn manager setup: runs the static defaults at 0x8015776c, binds the ActiveWormIndex, CurrentTeamIndex, SurvivingTeamIndex, Detail.Position, Detail.Orientation and DeadWorm.Id properties, subscribes 24 cached message ids to fields 200..292, binds the Worm.CollidedID, IgnoreCollisionID, StillWithinIgnored and GlobalLight properties, registers a Water.Level watcher with callback 0x80158fbc, copies a global triple and clears two fields."
+  }
+}

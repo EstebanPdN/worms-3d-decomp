@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_802dda0c",
+  "source": "source/matching/game/k6b/k6b_a_802dda0c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_loadfile_802dda0c": "0x802dda0c"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_loadfile_802dda0c": "Appears to be Lua 5.0 lauxlib luaL_loadfile: open the file (or stdin), reopen binary chunks in rb mode, load it through getF and report read errors."
+  }
+}

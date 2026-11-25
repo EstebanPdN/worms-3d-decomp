@@ -1,0 +1,11 @@
+{
+  "unit": "f10c_destroy_interface_owner_8022b11c",
+  "source": "source/matching/game/f10c/f10c_destroy_interface_owner_8022b11c.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._19F10c_8022b11c_Owner": "0x8022b11c"
+  },
+  "descriptions": {
+    "_._19F10c_8022b11c_Owner": "Install the witnessed owner table and explicitly release the observed held interface fields through virtual slot16 in their original order. Native C++ cleanup then destroys the string members at84 and20, calls the original20-byte tagged base destructor with flags zero, and uses the class deallocator if requested. The factory8022a0d4 allocates336 bytes; constructor8022a180 and its callees establish the full storage footprint. Names and roles are inferred; unused storage remains unknown."
+  }
+}

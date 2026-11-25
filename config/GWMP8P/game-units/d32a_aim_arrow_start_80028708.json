@@ -1,0 +1,11 @@
+{
+  "unit": "d32a_aim_arrow_start_80028708",
+  "source": "source/matching/game/d32a/d32a_aim_arrow_start_80028708.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_aim_arrow_start_80028708": "0x80028708"
+  },
+  "descriptions": {
+    "w3d_d32a_aim_arrow_start_80028708": "Loads the aim arrow and base objects and the angle meter settings, positions and scales them, and subscribes their handlers."
+  }
+}

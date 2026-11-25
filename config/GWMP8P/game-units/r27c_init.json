@@ -1,0 +1,1 @@
+{"unit":"r27c_init","source":"source/matching/game/r27c/r27c_init.cpp","language":"cpp","functions":{"r27c_initialize_802cd308":"0x802cd308"},"descriptions":{"r27c_initialize_802cd308":"On static initialization at priority 65535, clear a flag, four arrays of 16 pointers, and three pointer fields in each of 16 records."}}

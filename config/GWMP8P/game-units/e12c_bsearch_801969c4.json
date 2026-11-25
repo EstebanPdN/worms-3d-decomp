@@ -1,0 +1,7 @@
+{
+ "unit": "e12c_bsearch_801969c4",
+ "source": "source/matching/game/e12c/e12c_bsearch_801969c4.cpp",
+ "language": "cpp",
+ "functions": {"e12c_bsearch_801969c4": "0x801969c4"},
+ "descriptions": {"e12c_bsearch_801969c4": "Binary search of a float key in the sorted entry table of a node (entries at +4, signed short count at +8, stride 24 bytes, key first). Returns 1 and writes the index when the key is found; otherwise writes the insertion index (0 for an empty table) and returns 0. Null table node or null out returns 0."}
+}

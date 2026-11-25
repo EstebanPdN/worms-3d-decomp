@@ -1,0 +1,11 @@
+{
+  "unit": "cc44a_apply_blend_8016a650",
+  "source": "source/matching/game/cc44a/cc44a_apply_blend_8016a650_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc44a_apply_blend_8016a650": "0x8016a650"
+  },
+  "descriptions": {
+    "cc44a_apply_blend_8016a650": "Map the original material blend-factor words through the original external table, handle the two special factors and opaque case, and issue blend/alpha/depth-location updates in original order; return zero."
+  }
+}

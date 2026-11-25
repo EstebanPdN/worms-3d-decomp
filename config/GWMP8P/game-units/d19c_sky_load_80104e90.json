@@ -1,0 +1,11 @@
+{
+  "unit": "d19c_sky_load_80104e90",
+  "source": "source/matching/game/d19c/d19c_sky_load_80104e90.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_sky_load_80104e90": "0x80104e90"
+  },
+  "descriptions": {
+    "d19c_sky_load_80104e90": "Read the \"Land.SkyBoxResource\" setting, load that sky box layer into +28 and a Y-mirrored copy into +32 with unit scale and the shared layer position; when the box has a \"Sun\" bone, store its translation as the sun position, set +68 and apply the sky's lighting kind from the 13-entry table to the light service object added to the light scene; then run 0x80105164 and the cloud and moon loaders and store the sky's cloud speed table index at +64."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f10c_destroy_extended_text_owner_802539c4",
+  "source": "source/matching/game/f10c/f10c_destroy_extended_text_owner_802539c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._19F10c_802539c4_Owner": "0x802539c4"
+  },
+  "descriptions": {
+    "_._19F10c_802539c4_Owner": "Install the witnessed derived owner table, destroy the observed string members and release the held interface at offset232 through virtual slot16 in native member destruction order, call the original base destructor at802523b4 with flags zero, and honor the class deleting-destructor flag. Layout and roles remain inferred partial storage views. Complete observed allocation footprint is 544 bytes (factory80253284, constructor80253330); base footprint164 bytes."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx9a_service_result_append_8008df50",
+  "source": "source/matching/game/cx9a/cx9a_service_result_append_8008df50.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9a_service_result_append_8008df50": "0x8008df50"
+  },
+  "descriptions": {
+    "w3d_cx9a_service_result_append_8008df50": "Retain the interface resolved from original key 0x8040fcf8, copy the incoming three-word position to +0x1c, create a service result, append it at owner +0x140 and release the interface."
+  }
+}

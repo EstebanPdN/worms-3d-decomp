@@ -1,0 +1,14 @@
+{
+  "unit": "d26a_emitters_update_80036f88",
+  "source": "source/matching/game/d26a/d26a_emitters_update_80036f88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_emitters_update_80036f88": "0x80036f88"
+  },
+  "descriptions": {
+    "w3d_d26a_emitters_update_80036f88": "Converts the time to an angle (t/1000 * 2 pi) and sets ten emitters at +36 through 0x8025e128 with position (cos*10+100, sin*10+50). If the emitter at +76 is present, calls 0x8029358c with a size of sin*5+5. Returns 0."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d20a_bomber_position_8002f098",
+  "source": "source/matching/game/d20a/d20a_bomber_position_8002f098.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d20a_bomber_position_8002f098": "0x8002f098"
+  },
+  "descriptions": {
+    "w3d_d20a_bomber_position_8002f098": "Bomber start position: reads Gravity (or Gravity.Slow when the owner's +516 flag is set) scaled by Low.Gravity.Multiplier, Bomber.ExtraHeight, Land.MaxHeight and Bomber.GroundSpeed through 0x800fc270; returns the position at height MaxHeight+ExtraHeight, moved back along the normalized direction by GroundSpeed times the fall ticks (int sqrt(2*drop/-gravity)) unless the +480 flag is set."
+  }
+}

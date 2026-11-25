@@ -1,0 +1,14 @@
+{
+  "unit": "d26a_queue_float_command_80003710",
+  "source": "source/matching/game/d26a/d26a_queue_float_command_80003710.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_queue_float_command_80003710": "0x80003710"
+  },
+  "descriptions": {
+    "w3d_d26a_queue_float_command_80003710": "Allocates a 16-byte command (0x801fe1d8), sets kind 12 and the float at +4, and appends the pointer to the vector at +20; when full it allocates 1.5 times the storage (0x80212fd4), copies, releases and updates the three bounds."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f3a_suffix_8028dcd8",
+  "language": "cpp",
+  "source": "source/matching/game/f3a/f3a_suffix_8028dcd8.cpp",
+  "functions": {
+    "w3d_f3a_suffix_8028dcd8": "0x8028dcd8"
+  },
+  "descriptions": {
+    "w3d_f3a_suffix_8028dcd8": "Copies and retains the by-value text parameter, uppercases the copy, returns whether length exceeds four and the final four bytes equal the external .TGA string, and destroys both text wrappers. Wrapper and method names are inferred; referenced external data ownership is not claimed."
+  }
+}

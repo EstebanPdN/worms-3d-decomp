@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aw_80207950",
+  "source": "source/matching/game/s21/s21_aw_80207950.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_find_data_80207950": "0x80207950"
+  },
+  "descriptions": {
+    "w3d_s21_find_data_80207950": "Appears to look up a table entry by a halfword of the key and return its data pointer when its limit is at least the requested size, else zero."
+  }
+}

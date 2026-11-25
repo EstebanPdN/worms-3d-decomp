@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_small_ai.c
+w3d_s20_compute_scaled_offset_8013c844|0x8013c844|Appears to compute twice the difference between a constant and a field offset by a constant and divided by another constant, and return it.

@@ -1,0 +1,17 @@
+{
+  "unit": "s2_target_cursor_r2",
+  "source": "source/matching/game/s2_target_cursor_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_target_cursor_create_80118bf0": "0x80118bf0",
+    "w3d_target_cursor_release_80118c68": "0x80118c68",
+    "w3d_target_cursor_tick_80118edc": "0x80118edc",
+    "w3d_target_cursor_dispatch_80118f5c": "0x80118f5c"
+  },
+  "descriptions": {
+    "w3d_target_cursor_create_80118bf0": "Allocates a target cursor, initializes its shadow field and registers it.",
+    "w3d_target_cursor_release_80118c68": "Releases a target cursor and destroys its shadow and base when its reference count reaches zero.",
+    "w3d_target_cursor_tick_80118edc": "Updates target cursor state and forwards a retained object to its update helper.",
+    "w3d_target_cursor_dispatch_80118f5c": "Routes active target updates to the camera-mode callback and forwards other messages."
+  }
+}

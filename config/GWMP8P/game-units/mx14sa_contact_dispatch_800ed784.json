@@ -1,0 +1,11 @@
+{
+  "unit": "mx14sa_contact_dispatch_800ed784",
+  "source": "source/matching/game/mx14sa/mx14sa_contact_dispatch_800ed784.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx14sa_contact_dispatch_800ed784": "0x800ed784"
+  },
+  "descriptions": {
+    "mx14sa_contact_dispatch_800ed784": "Queries contact outputs using the observed position and velocity members, dispatches the virtual contact operation with the returned 64-bit value, retries through the alternate virtual query using 0x40000000 on success, and otherwise runs the fallback update."
+  }
+}

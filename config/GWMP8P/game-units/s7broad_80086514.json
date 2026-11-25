@@ -1,0 +1,11 @@
+{
+  "unit": "s7broad_80086514",
+  "source": "source/matching/game/s7/s7broad_80086514.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80086514": "0x80086514"
+  },
+  "descriptions": {
+    "w3d_auto_80086514": "Appears to execute the recovered field operations and conditional flow, calling 0x8007f278, 0x8007fa08, 0x80085ff8, 0x80086288, 0x80086324; exact expression and local type ordering verified after linking."
+  }
+}

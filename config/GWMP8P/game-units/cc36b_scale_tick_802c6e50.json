@@ -1,0 +1,11 @@
+{
+  "unit": "cc36b_scale_tick_802c6e50",
+  "source": "source/matching/game/cc36b/cc36b_scale_tick_802c6e50.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc36b_scale_tick_802c6e50": "0x802c6e50"
+  },
+  "descriptions": {
+    "w3d_cc36b_scale_tick_802c6e50": "Updates an enabled render node scale from its signed countdown. Preserves -1 sentinel, signed short mode32 test, separate float rounding of two products and subtractions, native three-float construction, virtual slot84 callback before countdown decrement, and zero return. Partial views and names are inferred, not original class declarations. Compiler-owned eight-byte conversion bias at803d8dd0 requires parent data ownership review; three original scale constants remain external and unowned."
+  }
+}

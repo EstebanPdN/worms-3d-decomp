@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801ecff0",
+  "source": "source/matching/game/k5b/k5b_a_801ecff0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_binding_write_enum_801ecff0": "0x801ecff0"
+  },
+  "descriptions": {
+    "w3d_k5b_binding_write_enum_801ecff0": "Appears to read an enum value (getter or fallback) and write its name without the common prefix of the type's name list, a number when unnamed, or \"Invalid (%d)\"."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

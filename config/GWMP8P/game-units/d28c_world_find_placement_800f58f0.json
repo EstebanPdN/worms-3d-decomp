@@ -1,0 +1,11 @@
+{
+  "unit": "d28c_world_find_placement_800f58f0",
+  "source": "source/matching/game/d28c/d28c_world_find_placement_800f58f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d28c_world_find_placement_800f58f0": "0x800f58f0"
+  },
+  "descriptions": {
+    "d28c_world_find_placement_800f58f0": "Search empty slots across all objects for the next item that fits, starting from saved indices, and store the indices on success."
+  }
+}

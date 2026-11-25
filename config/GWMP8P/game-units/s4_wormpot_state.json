@@ -1,0 +1,13 @@
+{
+  "unit": "s4_wormpot_state",
+  "source": "source/matching/game/s4_wormpot_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_wormpot_start": "0x802aa33c",
+    "w3d_s4_wormpot_stop": "0x802aa3a4"
+  },
+  "descriptions": {
+    "w3d_s4_wormpot_start": "Starts the selected reel mode when no transition is active.",
+    "w3d_s4_wormpot_stop": "Saves the current reel mode and requests its stopped state."
+  }
+}

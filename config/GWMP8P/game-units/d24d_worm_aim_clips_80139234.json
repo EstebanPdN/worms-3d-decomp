@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_worm_aim_clips_80139234",
+  "source": "source/matching/game/d24d/d24d_worm_aim_clips_80139234.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_worm_aim_clips_80139234": "0x80139234"
+  },
+  "descriptions": {
+    "d24d_worm_aim_clips_80139234": "Updates a worm graphic's aim clips: with an aim clip (+648) stores the blended yaw and fades the clip and, in mode 16, AimPigeon; otherwise plays the clips, the resource idle for types 43 and 50, or the Hold.Quake sound for type 17."
+  }
+}

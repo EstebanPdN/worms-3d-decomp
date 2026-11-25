@@ -1,0 +1,11 @@
+{
+  "unit": "cc28b_describe_map_8018b88c",
+  "source": "source/matching/game/cc28b/cc28b_describe_map_8018b88c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc28b_describe_map_8018b88c": "0x8018b88c"
+  },
+  "descriptions": {
+    "w3d_cc28b_describe_map_8018b88c": "Calls the original base descriptor and preserves its negative error. On success writes TextGroup and NumChars, then each6-byte entry as Index,MappedVal,Unicode through observed writer virtual slots; returns zero after success. Field labels and original targets checked from DOL. Original class names and complete owner extent unknown."
+  }
+}

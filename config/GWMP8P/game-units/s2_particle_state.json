@@ -1,0 +1,21 @@
+{
+  "unit": "s2_particle_state",
+  "source": "source/matching/game/s2_particle_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_particle_create_80106afc": "0x80106afc",
+    "w3d_fn_80106bd0": "0x80106bd0",
+    "w3d_particle_destroy_80106c88": "0x80106c88",
+    "w3d_particle_wrap_80107ab8": "0x80107ab8",
+    "w3d_particle_update_bounds_80107ccc": "0x80107ccc",
+    "w3d_particle_vector_message_80108154": "0x80108154"
+  },
+  "descriptions": {
+    "w3d_particle_create_80106afc": "Allocates a particle state, constructs it, and inserts its link into the state registry.",
+    "w3d_fn_80106bd0": "Constructs a bounded particle state with zero vectors, 200-unit extents, and mode 2.",
+    "w3d_particle_destroy_80106c88": "Releases the particle resource, destroys the base, and frees storage when requested.",
+    "w3d_particle_wrap_80107ab8": "Wraps coordinates into the particle bounds and reports a vertical wrap.",
+    "w3d_particle_update_bounds_80107ccc": "Computes lower and upper particle bounds from its center and unsigned extents.",
+    "w3d_particle_vector_message_80108154": "Initializes a message and stores a shared handle with two vector payloads."
+  }
+}

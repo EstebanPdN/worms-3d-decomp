@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_earthquake_names_8014e4c8",
+  "source": "source/matching/game/cc17b/cc17b_earthquake_names_8014e4c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_earthquake_names_8014e4c8": "0x8014e4c8"
+  },
+  "descriptions": {
+    "w3d_cc17b_earthquake_names_8014e4c8": "Resolves four observed named Earthquake and RandomNumber properties into the fields at offsets 816, 820, 1128 and 1132 using separate stack name handles."
+  }
+}

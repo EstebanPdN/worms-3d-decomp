@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_801f2b04",
+  "source": "source/matching/game/generated/genparamc_801f2b04.c",
+  "language": "c",
+  "functions": {
+    "w3d_assign_refs_801f2b04": "0x801f2b04",
+    "w3d_assign_refs_80210eb4": "0x80210eb4"
+  },
+  "descriptions": {
+    "w3d_assign_refs_801f2b04": "Copy-assigns an array of interface references: resizes to the source count, then retains each new entry, releases the old one and stores it; returns the object.",
+    "w3d_assign_refs_80210eb4": "Copy-assigns an array of interface references: resizes to the source count, then retains each new entry, releases the old one and stores it; returns the object."
+  }
+}

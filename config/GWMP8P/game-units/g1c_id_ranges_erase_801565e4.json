@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_id_ranges_erase_801565e4",
+  "source": "source/matching/game/g1c/g1c_id_ranges_erase_801565e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_id_ranges_erase_801565e4": "0x801565e4"
+  },
+  "descriptions": {
+    "g1c_id_ranges_erase_801565e4": "When the external receiver flag at384 is set, search its four12-byte range headers beginning100 for the first matching32-bit key, shift following entries using the witnessed variadic original memcpy only when needed, decrement that range end, and return. Headers expose begin/end and an unknown word; no capacity role or complete native receiver size is asserted. All views refer to external storage, never constructed; no data ownership claimed."
+  }
+}

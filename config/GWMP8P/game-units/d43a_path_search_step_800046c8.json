@@ -1,0 +1,11 @@
+{
+  "unit": "d43a_path_search_step_800046c8",
+  "source": "source/matching/game/d43a/d43a_path_search_step_800046c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43a_path_search_step_800046c8": "0x800046c8"
+  },
+  "descriptions": {
+    "w3d_d43a_path_search_step_800046c8": "Runs up to 100 search iterations: rebuilds the path if the open table is empty or the step limit is hit; pops the best node, and if it equals the goal copies cost and layer to the goal, frees the node, stores the path and clears both tables and the list; otherwise pushes it to the closed table and expands it."
+  }
+}

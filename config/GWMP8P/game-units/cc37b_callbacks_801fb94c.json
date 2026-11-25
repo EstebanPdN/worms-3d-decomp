@@ -1,0 +1,11 @@
+{
+  "unit": "cc37b_callbacks_801fb94c",
+  "source": "source/matching/game/cc37b/cc37b_callbacks_801fb94c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc37b_callbacks_801fb94c": "0x801fb94c"
+  },
+  "descriptions": {
+    "w3d_cc37b_callbacks_801fb94c": "Dispatches callback mode2 to four nullable fixed slots, ignoring callback results; mode3 visits the reloaded current vector length, preserving callback order and last-negative-error return. All other modes return original80004005 error, with original signed comparison tree retained via cases0/1. Typed partial object/vector/vtable views expose observed offsets only; callbacks and collection objects remain unowned. No owned initialized data."
+  }
+}

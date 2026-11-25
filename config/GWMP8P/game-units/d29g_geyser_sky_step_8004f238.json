@@ -1,0 +1,14 @@
+{
+  "unit": "d29g_geyser_sky_step_8004f238",
+  "source": "source/matching/game/d29g/d29g_geyser_sky_step_8004f238.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_geyser_sky_step_8004f238": "0x8004f238"
+  },
+  "descriptions": {
+    "w3d_d29g_geyser_sky_step_8004f238": "Geyser sky step: lazily initialises three static vectors, passes two of them to the camera service, moves the 3 by 3 sprite grid at +28 by the scroll vector, advances the two scroll angles with wrap-around, and at random intervals of 500 to 2500 ms starts the Part_Geyser particle at a random position. Returns 20."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

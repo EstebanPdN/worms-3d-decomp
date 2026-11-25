@@ -1,0 +1,11 @@
+{
+  "unit": "f3b_advance_direction_8014c6f4",
+  "source": "source/matching/game/f3b/f3b_advance_direction_8014c6f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3b_advance_direction_8014c6f4": "0x8014c6f4"
+  },
+  "descriptions": {
+    "f3b_advance_direction_8014c6f4": "When offset 716 is nonzero or offset 824 is negative, fetch the vector from 0x80146f10. If its squared length exceeds the original threshold, scale it and add it to offset 676. Increment offset 844 and, after positive and greater-than-20 tests, copy the original vector at 0x8045e788 to offset 676 and store 10 at offset 760. Field roles are inferred."
+  }
+}

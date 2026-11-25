@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_free_registry_801e8128",
+  "source": "source/matching/game/d24e/d24e_free_registry_801e8128.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_free_registry_801e8128": "0x801e8128"
+  },
+  "descriptions": {
+    "w3d_d24e_free_registry_801e8128": "Erases all elements of the vector at 0x80365770 and swaps with an empty temporary whose destructor frees the old storage through 0x802134fc. Returns 0."
+  }
+}

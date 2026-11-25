@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_motion_integrate_acceleration_8003ed10",
+  "source": "source/matching/game/cx8a/cx8a_motion_integrate_acceleration_8003ed10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_motion_integrate_acceleration_8003ed10": "0x8003ed10"
+  },
+  "descriptions": {
+    "w3d_cx8a_motion_integrate_acceleration_8003ed10": "Integrate position +0x1c with velocity +0x28 and acceleration +0x34 using shared timestep and half-step coefficient; update velocity with acceleration times timestep."
+  }
+}

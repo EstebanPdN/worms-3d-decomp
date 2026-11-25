@@ -1,0 +1,14 @@
+{
+  "unit": "d30k_button_radius_test_80266234",
+  "source": "source/matching/game/d30k/d30k_button_radius_test_80266234.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d30k_button_radius_test_80266234": "0x80266234"
+  },
+  "descriptions": {
+    "w3d_d30k_button_radius_test_80266234": "Tests whether a screen point lies inside a round button."
+  }
+}

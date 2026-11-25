@@ -1,0 +1,14 @@
+{
+  "unit": "cc23a_planner_create_choices_800077f4",
+  "source": "source/matching/game/cc23a/cc23a_planner_create_choices_800077f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_planner_create_choices_800077f4": "0x800077f4"
+  },
+  "descriptions": {
+    "cc23a_planner_create_choices_800077f4": "Create base choices; enumerate positive-cost entries into 104-byte plans and append fallback. Exact zero/one float literals, sparse held slots and twelve-byte copies; original extra sixteen-byte stack extent retained with unknown purpose."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx7a_active_worm_select_8004c29c",
+  "source": "source/matching/game/cx7a/cx7a_active_worm_select_8004c29c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7a_active_worm_select_8004c29c": "0x8004c29c"
+  },
+  "descriptions": {
+    "w3d_cx7a_active_worm_select_8004c29c": "Read ActiveWormIndex into an output local and forward it with the controller to the observed selection helper; key and index stack lifetimes reproduce original layout."
+  }
+}

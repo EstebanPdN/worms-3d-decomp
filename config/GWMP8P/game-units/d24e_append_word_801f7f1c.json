@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_append_word_801f7f1c",
+  "source": "source/matching/game/d24e/d24e_append_word_801f7f1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_append_word_801f7f1c": "0x801f7f1c"
+  },
+  "descriptions": {
+    "w3d_d24e_append_word_801f7f1c": "Appends a word to the vector at +20."
+  }
+}

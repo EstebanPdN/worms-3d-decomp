@@ -1,0 +1,11 @@
+{
+  "unit": "d25c_script_start_timer_80102b2c",
+  "source": "source/matching/game/d25c/d25c_script_start_timer_80102b2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25c_script_start_timer_80102b2c": "0x80102b2c"
+  },
+  "descriptions": {
+    "d25c_script_start_timer_80102b2c": "With exactly two Lua arguments, a string and a number: find the first timer with a non-zero +28, start it with the name and the truncated number, pop both and push the result as a float, returning 1. On a wrong count pop the arguments and report; on a wrong type or no free timer report and pop two. Those paths return 0."
+  }
+}

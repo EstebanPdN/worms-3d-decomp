@@ -1,0 +1,14 @@
+{
+  "unit": "d40k_frontend_messages_80260f64",
+  "source": "source/matching/game/d40k/d40k_frontend_messages_80260f64.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40k_frontend_messages_80260f64": "0x80260f64"
+  },
+  "descriptions": {
+    "w3d_d40k_frontend_messages_80260f64": "Handles front-end screen messages (tooltip, level load, backup/restore, briefing, error text, screen position, language, sound mode) and forwards to the base handler."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d40l_console_commands_802b1258",
+  "source": "source/matching/game/d40l/d40l_console_commands_802b1258.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d40l_console_commands_802b1258": "0x802b1258"
+  },
+  "descriptions": {
+    "d40l_console_commands_802b1258": "Runs a backslash-separated command string, posting a string, float, int or empty message for each named command."
+  }
+}

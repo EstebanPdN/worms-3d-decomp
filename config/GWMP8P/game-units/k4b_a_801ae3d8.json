@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801ae3d8",
+  "source": "source/matching/game/k4b/k4b_a_801ae3d8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_component_construct_801ae3d8": "0x801ae3d8"
+  },
+  "descriptions": {
+    "w3d_k4b_component_construct_801ae3d8": "Appears to construct a component: base vtable, member at +4 via 0x801e81c8, derived vtable 0x804140e0, then zero the state, range pair and link count."
+  }
+}

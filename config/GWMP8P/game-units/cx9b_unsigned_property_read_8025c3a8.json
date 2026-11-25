@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_unsigned_property_read_8025c3a8",
+  "source": "source/matching/game/cx9b/cx9b_unsigned_property_read_8025c3a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_unsigned_property_read_8025c3a8": "0x8025c3a8"
+  },
+  "descriptions": {
+    "w3d_cx9b_unsigned_property_read_8025c3a8": "Select the observed unsigned byte field for the property identifier; reserved and unknown identifiers return zero."
+  }
+}

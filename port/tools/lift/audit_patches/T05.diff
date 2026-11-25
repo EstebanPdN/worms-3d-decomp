@@ -1,0 +1,7 @@
+--- a/port/core/game/e12b/e12b_release_slot_8017192c_v0.cpp
++++ b/port/core/game/e12b/e12b_release_slot_8017192c_v0.cpp
+@@ -14,3 +14,3 @@
+ struct e12b_Slot { Ptr32<e12b_SlotTable> table; };
+-struct e12b_Flags { unsigned char unknown[7], value; void mark_available() { value |= 4; } };
++struct e12b_Flags { unsigned char unknown[4], value, w3d_tag_rest[3]; void mark_available() { value |= 4; } };
+ struct e12b_Selected { unsigned unknown; e12b_Flags flags; };

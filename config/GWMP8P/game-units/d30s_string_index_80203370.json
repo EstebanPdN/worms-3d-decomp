@@ -1,0 +1,16 @@
+{
+  "unit": "d30s_string_index_80203370",
+  "source": "source/matching/game/d30s/d30s_string_index_80203370.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_string_index_80203370": "0x80203370"
+  },
+  "descriptions": {
+    "d30s_string_index_80203370": "Returns the index of a string in the map at +0, adding it with the next index when absent."
+  }
+}

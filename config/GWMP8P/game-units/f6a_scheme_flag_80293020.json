@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_scheme_flag_80293020",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_scheme_flag_80293020": "0x80293020"
+  },
+  "descriptions": {
+    "w3d_f6a_scheme_flag_80293020": "Set the named scheme property flag according to whether the observed scheme list exceeds fifteen entries, dispatching its supported zero/one interface variants. Layouts and semantic roles inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_scheme_flag_80293020.cpp"
+}

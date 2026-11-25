@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_string_c.c
+w3d_s20_assign_string_801789ec|0x801789ec|Appears to copy a shared string argument, release the string held at offset 24 of the inner object, store the copy there and destroy the temporary.

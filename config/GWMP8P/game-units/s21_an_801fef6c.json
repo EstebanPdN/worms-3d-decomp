@@ -1,0 +1,11 @@
+{
+  "unit": "s21_an_801fef6c",
+  "source": "source/matching/game/s21/s21_an_801fef6c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_u64_to_text_helper_801fef6c": "0x801fef6c"
+  },
+  "descriptions": {
+    "w3d_s21_u64_to_text_helper_801fef6c": "Appears to pass a 64-bit value read through a pointer to a second text conversion helper for the output string, returning its result."
+  }
+}

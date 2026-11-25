@@ -1,0 +1,16 @@
+{
+  "unit": "d30s_guid_map_remove_802116f0",
+  "source": "source/matching/game/d30s/d30s_guid_map_remove_802116f0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_guid_map_remove_802116f0": "0x802116f0"
+  },
+  "descriptions": {
+    "d30s_guid_map_remove_802116f0": "Erases a service's entry from the identifier map at +36; returns 0 or E_FAIL when absent."
+  }
+}

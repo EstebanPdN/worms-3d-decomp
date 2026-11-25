@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ec_801dcb80",
+  "source": "source/matching/game/s21/s21_ec_801dcb80.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_get_held_801dcb80": "0x801dcb80"
+  },
+  "descriptions": {
+    "w3d_s21_get_held_801dcb80": "Appears to hand out a held interface: it fails with 0x80004005 when none is held, otherwise retains it, releases the previous value of the output and stores it, returning zero."
+  }
+}

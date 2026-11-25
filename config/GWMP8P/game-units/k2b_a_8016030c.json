@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8016030c",
+  "source": "source/matching/game/k2b/k2b_a_8016030c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_input_owner_construct_8016030c": "0x8016030c"
+  },
+  "descriptions": {
+    "w3d_k2b_input_owner_construct_8016030c": "Appears to construct an input owner on its base constructor, register it as the global input owner and set default tuning values."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d5_defaults_80220c24",
+  "source": "source/matching/game/sol35d5/sol35d5_defaults_80220c24.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d5_defaults_80220c24": "0x80220c24"
+  },
+  "descriptions": {
+    "sol35d5_defaults_80220c24": "Initialize independently witnessed descriptor bindings and their native defaults with actual C++ value lifetimes. Partial GC32 types and semantic names remain inferred."
+  }
+}

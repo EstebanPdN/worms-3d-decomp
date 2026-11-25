@@ -1,0 +1,11 @@
+{
+  "unit": "g3c_allocate_zeroed_80213c30",
+  "source": "source/matching/game/g3c/g3c_allocate_zeroed_80213c30.cpp",
+  "language": "cpp",
+  "functions": {
+    "g3c_allocate_zeroed_80213c30": "0x80213c30"
+  },
+  "descriptions": {
+    "g3c_allocate_zeroed_80213c30": "Multiplies the two unsigned allocation counts and calls the original allocator80212fd4. On a nonnull result, reads its preceding32-bit allocation header, clears the low two flags, subtracts4 and divides by4 to obtain the payload word extent. For extents above9 words, clears through a fallthrough eight-word Duff loop using a signed remaining-group test; for smaller extents, clears three words then conditionally two more at thresholds4,6,8. Returns the original allocated pointer or null. No overflow guard is added because none occurs in the original. Header interpretation and allocator role are inferred; no complete external allocator type is locally constructed. No owned initialized data, padding, custom compiler flags, raw instructions or forced registers."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s11branch_802c1030",
+  "source": "source/matching/game/s11_auto/s11branch_802c1030.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802c1030": "0x802c1030"
+  },
+  "descriptions": {
+    "w3d_auto_802c1030": "Appears to calls 0x8015fb34, 0x802c1248, 0x802c1398, 0x8015f65c, 0x802c1c90; accesses fields at 0x48, 0x4C, 0x28. m2c types and names are provisional."
+  }
+}

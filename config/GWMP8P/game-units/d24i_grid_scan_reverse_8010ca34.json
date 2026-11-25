@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_grid_scan_reverse_8010ca34",
+  "source": "source/matching/game/d24i/d24i_grid_scan_reverse_8010ca34.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_grid_scan_reverse_8010ca34": "0x8010ca34"
+  },
+  "descriptions": {
+    "d24i_grid_scan_reverse_8010ca34": "Variant of the grid cell scan 0x8010c494 walking rows downward from 6 for each column: for each cell passing edge test 0x8010bd74, seek the run-length cursor at +28 to (layer << 10) + row + (column << 5), read the run value and draw two triangles (0x8010b318) from corners +1370, +74, +1298 with flag 0 and +74, +1298, +2 with flag 1."
+  }
+}

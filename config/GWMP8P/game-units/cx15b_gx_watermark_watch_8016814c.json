@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_gx_watermark_watch_8016814c",
+  "source": "source/matching/game/cx15b/cx15b_gx_watermark_watch_8016814c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_gx_watermark_watch_8016814c": "0x8016814c"
+  },
+  "descriptions": {
+    "w3d_cx15b_gx_watermark_watch_8016814c": "Poll GX progress, track repeated high-watermark hangs and emit original diagnostics and halt path."
+  }
+}

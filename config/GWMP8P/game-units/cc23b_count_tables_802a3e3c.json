@@ -1,0 +1,11 @@
+{
+  "unit": "cc23b_count_tables_802a3e3c",
+  "source": "source/matching/game/cc23b/cc23b_count_tables_802a3e3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc23b_count_tables_802a3e3c": "0x802a3e3c"
+  },
+  "descriptions": {
+    "w3d_cc23b_count_tables_802a3e3c": "For initialization priority65535, counts five sentinel-terminated tables with observed record strides20,20,24,24,8 and stores their counts. Indexed counting reproduces original strength-reduced loops. Table and counter identities are original-instruction witnesses; their domain names remain inferred."
+  }
+}

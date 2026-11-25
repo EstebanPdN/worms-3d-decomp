@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_record_append_extent_802076c8",
+  "source": "source/matching/game/cx10b/cx10b_record_append_extent_802076c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_record_append_extent_802076c8": "0x802076c8"
+  },
+  "descriptions": {
+    "w3d_cx10b_record_append_extent_802076c8": "Append and retain an interface in the observed slot vector and accumulate its extent."
+  }
+}

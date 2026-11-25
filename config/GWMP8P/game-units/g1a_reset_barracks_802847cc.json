@@ -1,0 +1,11 @@
+{
+  "unit": "g1a_reset_barracks_802847cc",
+  "source": "source/matching/game/g1a/g1a_reset_barracks_802847cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g1a_reset_barracks_802847cc": "0x802847cc"
+  },
+  "descriptions": {
+    "w3d_g1a_reset_barracks_802847cc": "Provisional native C++ reset of selection/state word64 on every TeamBarracks entry. Constructs an observed eight-byte descriptor with value0 and tag0xe3a8, looks up DATA.TeamBarracks, resolves and retains the matching interface, traverses external count24/entries32 and releases temporary and held interfaces. Key and held-pointer classes contain only observed four-byte pointer storage; no unknown local words or padding added. All external interface/container/entry views remain partial and are never locally constructed. Current draft does not match original frame or handle lifetimes and is not ready, admitted, or a behavior/runtime validation."
+  }
+}

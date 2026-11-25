@@ -1,0 +1,11 @@
+{
+  "unit": "g4b_bind_lua_callbacks_8019fa44",
+  "source": "source/matching/game/g4b/g4b_bind_lua_callbacks_8019fa44.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4b_bind_lua_callbacks_8019fa44": "0x8019fa44"
+  },
+  "descriptions": {
+    "g4b_bind_lua_callbacks_8019fa44": "Binds the external host and retains this binding, releases the prior host binding, obtains the Lua state through host slot36, creates two referenced tables and registers index/newindex closures with distinct write callbacks plus XomCreateInstance in the globals table. Stores registry references at24 and28, restores stack levels, returns zero. Partial external receiver views are never locally constructed; all keys, callbacks and registration lists remain external."
+  }
+}

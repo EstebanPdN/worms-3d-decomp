@@ -1,0 +1,11 @@
+{
+  "unit": "cxa2_grid_storage_8002c2f8",
+  "source": "source/matching/game/cxa2/cxa2_grid_storage_8002c2f8.c",
+  "language": "c",
+  "functions": {
+    "cxa2_grid_storage_8002c2f8": "0x8002c2f8"
+  },
+  "descriptions": {
+    "cxa2_grid_storage_8002c2f8": "Compute five even grid dimensions and their areas, use supplied storage or allocate its words, clear it, initialize coarse-to-fine offsets and width/height tables, write marker 0xbaadf00d and return the owner."
+  }
+}

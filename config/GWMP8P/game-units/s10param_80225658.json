@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_80225658",
+  "source": "source/matching/game/generated/s10param_80225658.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_string_ctor_80225658": "0x80225658"
+  },
+  "descriptions": {
+    "w3d_s10_string_ctor_80225658": "Invokes the base constructor, installs the observed vtable, initializes the name field from the shared empty string, retains its header, and returns the object."
+  }
+}

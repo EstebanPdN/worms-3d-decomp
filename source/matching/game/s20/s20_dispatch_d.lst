@@ -1,0 +1,4 @@
+c source/matching/game/s20/s20_dispatch_d.c
+w3d_s20_dispatch_two_results_801ac41c|0x801ac41c|Appears to dispatch the item's targets at offsets 52 and 48 through the handler table and return the last handler result.
+w3d_s20_dispatch_masked_801a3a44|0x801a3a44|Appears to dispatch the owner's record targets through the handler table when the item mask intersects the object flags, otherwise return zero.
+w3d_s20_dispatch_target_or_record_801a381c|0x801a381c|Appears to dispatch the item's single target, recording the item first, or else every target of its record through the handler table.

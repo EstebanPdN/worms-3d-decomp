@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_classify_801d57ac",
+  "source": "source/matching/game/k8b/k8b_classify_801d57ac.c",
+  "language": "c",
+  "functions": {"w3d_k8b_classify_801d57ac": "0x801d57ac"},
+  "descriptions": {"w3d_k8b_classify_801d57ac": "Appears to scan an item's 16-byte float records and store 0, 2 or 1 on the secondary base for all-one, zero-containing or other values."}
+}

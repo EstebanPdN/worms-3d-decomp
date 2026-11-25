@@ -1,0 +1,11 @@
+{
+  "unit": "s20props_801c0914",
+  "source": "source/matching/game/s20/s20props_801c0914.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_register_properties_801c0914": "0x801c0914"
+  },
+  "descriptions": {
+    "w3d_s20_register_properties_801c0914": "Registers 6 lazily initialized property descriptors and 4 plain entries with observed names and sizes, then invokes the final registration helper."
+  }
+}

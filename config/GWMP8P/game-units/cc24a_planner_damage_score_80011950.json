@@ -1,0 +1,11 @@
+{
+  "unit": "cc24a_planner_damage_score_80011950",
+  "source": "source/matching/game/cc24a/cc24a_planner_damage_score_80011950.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_damage_score_80011950": "0x80011950"
+  },
+  "descriptions": {
+    "cc24a_planner_damage_score_80011950": "Recover original typed planner scoring with property-query workspace, exact integer conversion, ordered float comparisons and score accumulation."
+  }
+}

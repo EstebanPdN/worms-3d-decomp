@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bh_8020dc54",
+  "source": "source/matching/game/s21/s21_bh_8020dc54.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_hex_8020dc54": "0x8020dc54"
+  },
+  "descriptions": {
+    "w3d_s21_write_hex_8020dc54": "Appears to format an unsigned value as hexadecimal into a stack buffer, write the text through the writer's stream slot and return the writer."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d28l_keyboard_type_char_802c4a7c",
+  "source": "source/matching/game/d28l/d28l_keyboard_type_char_802c4a7c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28l_keyboard_type_char_802c4a7c": "0x802c4a7c"
+  },
+  "descriptions": {
+    "d28l_keyboard_type_char_802c4a7c": "Inserts a typed character at the cursor if the resulting text still fits the box."
+  }
+}

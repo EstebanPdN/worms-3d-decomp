@@ -1,0 +1,14 @@
+{
+  "unit": "d24e_short_bounds_fixed_801f5970",
+  "source": "source/matching/game/d24e/d24e_short_bounds_fixed_801f5970.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "w3d_d24e_short_bounds_fixed_801f5970": "0x801f5970"
+  },
+  "descriptions": {
+    "w3d_d24e_short_bounds_fixed_801f5970": "Finds the per-axis minimum and maximum of count packed short vectors and writes six floats, min then max, each axis multiplied by 1 / (1 << shift)."
+  }
+}

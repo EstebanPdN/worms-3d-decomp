@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ag_801e5024",
+  "source": "source/matching/game/s21/s21_ag_801e5024.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_is_idle_801e5024": "0x801e5024"
+  },
+  "descriptions": {
+    "w3d_s21_is_idle_801e5024": "Appears to report whether a poll helper succeeded, no count remains and the handle field equals minus one."
+  }
+}

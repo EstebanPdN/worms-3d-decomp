@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ai_801ee2f8",
+  "source": "source/matching/game/s21/s21_ai_801ee2f8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_power_of_two_801ee2f8": "0x801ee2f8"
+  },
+  "descriptions": {
+    "w3d_s21_power_of_two_801ee2f8": "Appears to round an unsigned value to a power of two: zero gives one, powers of two are kept, other values give the next lower bit found by a scan."
+  }
+}

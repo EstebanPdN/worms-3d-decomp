@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_focus_vertical_1_802c3c80",
+  "source": "source/matching/game/cx13b/cx13b_focus_vertical_1_802c3c80.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_focus_vertical_1_802c3c80": "0x802c3c80"
+  },
+  "descriptions": {
+    "w3d_cx13b_focus_vertical_1_802c3c80": "Map focus through original ten-entry and six-entry direction tables and record the direction mode."
+  }
+}

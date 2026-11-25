@@ -1,0 +1,14 @@
+{
+  "unit": "f4c_adjugate_801f6cb8",
+  "source": "source/matching/game/f4c/f4c_adjugate_801f6cb8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4c_adjugate_801f6cb8": "0x801f6cb8"
+  },
+  "descriptions": {
+    "f4c_adjugate_801f6cb8": "Read sixteen input floats before writing output; call the witnessed nine-float minor helper sixteen times and store alternating signed results in the observed transposed order. Adjugate role inferred; additional 128-byte frame reservation has unknown purpose."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

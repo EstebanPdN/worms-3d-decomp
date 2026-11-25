@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_material_link_8010682c",
+  "source": "source/matching/game/d24i/d24i_material_link_8010682c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_material_link_8010682c": "0x8010682c"
+  },
+  "descriptions": {
+    "d24i_material_link_8010682c": "Create two objects from the class records 0x80416560 and 0x80415c30 (0x8020b680), query the source for record 0x8040e078 (virtual +56), clear +24 of the second object and set bit 2 of its flag byte, convert it through the manager 0x8020b648 (virtual +88 with 0x804143e0, then virtual +44), keep the result, hand it and the queried object to the first object (virtual +48 and +24) and return 0. References are one word, held in nested inline helpers."
+  }
+}

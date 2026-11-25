@@ -1,0 +1,15 @@
+{
+  "unit": "s4_wormpot_events",
+  "source": "source/matching/game/s4_wormpot_events.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_wormpot_first_changed": "0x802aa3ec",
+    "w3d_s4_wormpot_second_changed": "0x802aa498",
+    "w3d_s4_wormpot_third_changed": "0x802aa544"
+  },
+  "descriptions": {
+    "w3d_s4_wormpot_first_changed": "Updates the first reel target from its named property.",
+    "w3d_s4_wormpot_second_changed": "Updates the second reel target from its named property.",
+    "w3d_s4_wormpot_third_changed": "Updates the third reel target from its named property."
+  }
+}

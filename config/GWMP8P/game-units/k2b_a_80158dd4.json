@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_80158dd4",
+  "source": "source/matching/game/k2b/k2b_a_80158dd4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_current_slot_busy_80158dd4": "0x80158dd4"
+  },
+  "descriptions": {
+    "w3d_k2b_current_slot_busy_80158dd4": "Appears to report whether the object in the current slot has any of three busy counters set."
+  }
+}

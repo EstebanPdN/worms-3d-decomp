@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_bank_key_80051234",
+  "source": "source/matching/game/d24g/d24g_bank_key_80051234.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_bank_key_80051234": "0x80051234"
+  },
+  "descriptions": {
+    "w3d_d24g_bank_key_80051234": "Load-table key handler: space selects all 14 banks and returns to the options page, escape returns, newline toggles the format (Binary or XML) and redraws, any other key is uppercased and looked up in the bank key string to select that bank."
+  }
+}

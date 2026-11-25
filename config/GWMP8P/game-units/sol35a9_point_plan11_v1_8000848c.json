@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a9_point_plan11_v1_8000848c",
+  "source": "source/matching/game/sol35a9/sol35a9_point_plan11_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a9_point_plan11_v1_8000848c": "0x8000848c"
+  },
+  "descriptions": {
+    "sol35a9_point_plan11_v1_8000848c": "Create, append, initialize and register a type-11 three-float point plan. Registry interface uses the observed base-pointer contract, consistent with the separately frozen type12/type13 draft. This alternative covers the same original368 bytes as v0."
+  }
+}

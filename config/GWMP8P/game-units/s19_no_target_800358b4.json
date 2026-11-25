@@ -1,0 +1,11 @@
+{
+  "unit": "s19_no_target_800358b4",
+  "source": "source/matching/game/s19/s19_no_target_800358b4.c",
+  "language": "c",
+  "functions": {
+    "s19_no_target_800358b4": "0x800358b4"
+  },
+  "descriptions": {
+    "s19_no_target_800358b4": "Appears to look up the name NoTargetAquired through the global lookup service into the field at +0x35c and then call virtual slot 5 on the result."
+  }
+}

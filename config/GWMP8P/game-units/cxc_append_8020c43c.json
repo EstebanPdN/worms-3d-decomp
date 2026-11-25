@@ -1,0 +1,11 @@
+{
+  "unit": "cxc_append_8020c43c",
+  "source": "source/matching/game/cxc/cxc_append_8020c43c.c",
+  "language": "c",
+  "functions": {
+    "cxc_append_8020c43c": "0x8020c43c"
+  },
+  "descriptions": {
+    "cxc_append_8020c43c": "Append count bytes to the shared string at +0. Reuse its six-byte header only when refs is one and capacity covers old length plus count plus terminator; otherwise allocate, copy old bytes, decrement/release the old header, append bytes, update the 16-bit length and write a zero terminator. Header fields are observed unsigned 16-bit refs, length and capacity."
+  }
+}

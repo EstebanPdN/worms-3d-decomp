@@ -1,0 +1,33 @@
+{
+  "module": "task_heap_adjust",
+  "function": "w3d_task_heap_adjust",
+  "original_entry": "0x8034a568",
+  "candidate_entry": "0x805a0000",
+  "data_entry": "0x805b0000",
+  "additional_bindings": [
+    {
+      "name": "w3d_heap_actor_from_handle",
+      "kind": "rel24",
+      "site": "0x8034a46c",
+      "expected": "0x80164fc8"
+    },
+    {
+      "name": "w3d_heap_actor_type_name",
+      "kind": "rel24",
+      "site": "0x8034a4b4",
+      "expected": "0x801ffea8"
+    },
+    {
+      "name": "w3d_heap_name_compare",
+      "kind": "rel24",
+      "site": "0x8034a4dc",
+      "expected": "0x802ef234"
+    },
+    {
+      "name": "w3d_task_heap_adjust",
+      "kind": "rel24",
+      "site": "0x8034a848",
+      "expected": "0x8034a568"
+    }
+  ]
+}

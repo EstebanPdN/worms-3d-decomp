@@ -1,0 +1,14 @@
+{
+  "unit": "f1b_spherical_point_800d4d64",
+  "source": "source/matching/game/f1b/f1b_spherical_point_800d4d64.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1b_spherical_point_800d4d64": "0x800d4d64"
+  },
+  "descriptions": {
+    "f1b_spherical_point_800d4d64": "Produce a three-float point using the scalar at owner offset 188 and two angles: Y=radius*sin(second), X=cos(second)*sin(first)*radius, Z=cos(second)*cos(first)*radius, then add the owner vector at offset 140. Spherical-coordinate roles and the reserved stack slot purpose remain inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

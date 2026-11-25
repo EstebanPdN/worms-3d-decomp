@@ -1,0 +1,11 @@
+{
+  "unit": "d23a_worm_select_start_8003c0f0",
+  "source": "source/matching/game/d23a/d23a_worm_select_start_8003c0f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d23a_worm_select_start_8003c0f0": "0x8003c0f0"
+  },
+  "descriptions": {
+    "w3d_d23a_worm_select_start_8003c0f0": "Selects the worm (0x8003bf70), loads the Camera.CurrentMode and ActiveWormIndex resources (0x800fc1b0, casts 0x80342a78/0x803426b4) into +100 and +40 through one handle with retain/release, subscribes the object (0x80162024) to eight cached message ids with handler slots +52, +44, +48, +56, +60, +64, +68 and +80, posts an 8-byte notification (cache 0x804ad170, vtable 0x8040db38), runs 0x8003cdcc and clears +88 and +96."
+  }
+}

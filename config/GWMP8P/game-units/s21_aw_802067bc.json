@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aw_802067bc",
+  "source": "source/matching/game/s21/s21_aw_802067bc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_lookup_pair_802067bc": "0x802067bc"
+  },
+  "descriptions": {
+    "w3d_s21_lookup_pair_802067bc": "Appears to optionally store an entry of one indexed table through an output pointer and return the entry of a second indexed table."
+  }
+}

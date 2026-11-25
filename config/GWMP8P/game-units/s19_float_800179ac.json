@@ -1,0 +1,11 @@
+{
+  "unit": "s19_float_800179ac",
+  "source": "source/matching/game/s19/s19_float_800179ac.c",
+  "language": "c",
+  "functions": {
+    "s19_advance_by_weight_800179ac": "0x800179ac"
+  },
+  "descriptions": {
+    "s19_advance_by_weight_800179ac": "Appears to add the selected registry entry weight times ten to the float at +4 and then call a helper on the object."
+  }
+}

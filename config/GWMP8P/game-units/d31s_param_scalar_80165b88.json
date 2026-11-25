@@ -1,0 +1,21 @@
+{
+  "unit": "d31s_param_scalar_80165b88",
+  "source": "source/matching/game/d31s/d31s_param_scalar_80165b88.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching",
+    "source/matching/game/d31s"
+  ],
+  "functions": {
+    "set_scalar__9D31sOwnerP10D31sTargeti": "0x80165b88"
+  },
+  "descriptions": {
+    "set_scalar__9D31sOwnerP10D31sTargeti": "Appends a default type 0 parameter item to the list, fills it and binds it to the target."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

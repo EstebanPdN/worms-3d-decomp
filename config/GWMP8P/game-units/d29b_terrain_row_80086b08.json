@@ -1,0 +1,14 @@
+{
+  "unit": "d29b_terrain_row_80086b08",
+  "source": "source/matching/game/d29b/d29b_terrain_row_80086b08.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29b_row_80086b08": "0x80086b08"
+  },
+  "descriptions": {
+    "w3d_d29b_row_80086b08": "Terrain row walk: reads corner heights from the float grid (bounded by +488, stride byte +492) and bounds-checked samples of the images +8 and +4 (the latter doubled) shifted by +504; for 7 cells shifts the windows one column, reads the next column, derives the midpoints +2552..+2568 and draws the cell (0x80086660) with a position copy, advancing the output 18 bytes, flags 9, position x by 1.0 and the tag byte."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_quintet_release_8002d804",
+  "source": "source/matching/game/k7a/k7a_quintet_release_8002d804.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_quintet_release_8002d804": "0x8002d804"},
+  "descriptions": {"w3d_k7a_quintet_release_8002d804": "Appears to drop one reference of the five-part object and, on the last one, unlink it, release its parts in reverse order and run the base destructor."}
+}

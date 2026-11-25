@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_802af41c",
+  "source": "source/matching/game/generated/genparamc_802af41c.c",
+  "language": "c",
+  "functions": {
+    "w3d_destroy_two_bases_802af41c": "0x802af41c",
+    "w3d_destroy_two_bases_802ba45c": "0x802ba45c"
+  },
+  "descriptions": {
+    "w3d_destroy_two_bases_802af41c": "Destructor body: installs both vtables, releases two held interfaces, destroys an embedded member, then runs the base destructor.",
+    "w3d_destroy_two_bases_802ba45c": "Destructor body: installs both vtables, releases two held interfaces, destroys an embedded member, then runs the base destructor."
+  }
+}

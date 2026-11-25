@@ -1,0 +1,17 @@
+{
+  "unit": "s5_chute_actor",
+  "source": "source/matching/game/s5_chute_actor.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_chute_actor_destroy_800daad8": "0x800daad8",
+    "w3d_chute_smooth_value_800dc0b4": "0x800dc0b4",
+    "w3d_chute_visual_create_800dc184": "0x800dc184",
+    "w3d_chute_visual_hide_800dc20c": "0x800dc20c"
+  },
+  "descriptions": {
+    "w3d_chute_actor_destroy_800daad8": "Releases the parachute visual and ten held interfaces before destroying the actor base.",
+    "w3d_chute_smooth_value_800dc0b4": "Clamps an input, smoothly adjusts the parachute scalar toward a scaled target and clamps the result.",
+    "w3d_chute_visual_create_800dc184": "Looks up the parachute visual, starts it with configured parameters and shows it.",
+    "w3d_chute_visual_hide_800dc20c": "Hides the parachute visual when one is held."
+  }
+}

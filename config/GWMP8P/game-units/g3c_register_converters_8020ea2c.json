@@ -1,0 +1,11 @@
+{
+  "unit": "g3c_register_converters_8020ea2c",
+  "source": "source/matching/game/g3c/g3c_register_converters_8020ea2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g3c_register_converters_8020ea2c": "0x8020ea2c"
+  },
+  "descriptions": {
+    "g3c_register_converters_8020ea2c": "Obtains the global engine service at8020b648 and queries its slot92 with the original external registry identity80419500. Registers nineteen directed conversion callbacks through registry slot32, preserving every original source/destination descriptor and function address in order. The pairs connect descriptors8045ed10,1c,28,34,40,4c,58,7c with the original callbacks8020e560 through8020e9d0. Slot32 returns a previous mapping/status value that this routine ignores, consistent with original registration implementation8020e334. Returns zero. The query helper models the observed identity-argument lifetime across singleton acquisition. All descriptors, callback implementations and registry storage are external original dependencies; no object is constructed locally and no initialized data is owned. Names, registry semantics and interface types are inferred; no custom flags or artificial frame storage."
+  }
+}

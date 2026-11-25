@@ -1,0 +1,11 @@
+{
+  "unit": "f6b_height_step_80151d64",
+  "source": "source/matching/game/f6b/f6b_height_step_80151d64.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6b_height_step_80151d64": "0x80151d64"
+  },
+  "descriptions": {
+    "f6b_height_step_80151d64": "For observed states six and seven, construct and configure a local trajectory object, query it at the target height, and copy the target-minus-hit vector on success. Destroy the temporary and post message value five for states outside the six observed exceptions. All type, field and semantic roles are inferred."
+  }
+}

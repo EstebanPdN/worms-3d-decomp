@@ -1,0 +1,11 @@
+{
+  "unit": "s9perm_80178dfc",
+  "source": "source/matching/game/perm/s9perm_80178dfc.c",
+  "language": "c",
+  "functions": {
+    "s9_permute_80178dfc": "0x80178dfc"
+  },
+  "descriptions": {
+    "s9_permute_80178dfc": "Returns one when the inner float value is unchanged; otherwise stores the supplied value, calls the update helper and returns zero."
+  }
+}

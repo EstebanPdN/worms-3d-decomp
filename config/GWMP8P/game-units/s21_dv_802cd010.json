@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dv_802cd010",
+  "source": "source/matching/game/s21/s21_dv_802cd010.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_shutdown_handles_802cd010": "0x802cd010"
+  },
+  "descriptions": {
+    "w3d_s21_shutdown_handles_802cd010": "Appears to shut down a sixteen-entry table of handles when the subsystem is enabled and initialized: it releases every nonzero entry and clears the initialized flag."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc43a_slot_table_destroy_801757a4",
+  "source": "source/matching/game/cc43a/cc43a_slot_table_destroy_801757a4_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43a_slot_table_destroy_801757a4": "0x801757a4"
+  },
+  "descriptions": {
+    "cc43a_slot_table_destroy_801757a4": "Release all table entries, clear the global table, destroy the held-interface array in reverse order using native array deletion, free remaining storage, destroy the base, and conditionally delete the object."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_service_try_chain_8020a158",
+  "source": "source/matching/game/cx9b/cx9b_service_try_chain_8020a158.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_service_try_chain_8020a158": "0x8020a158"
+  },
+  "descriptions": {
+    "w3d_cx9b_service_try_chain_8020a158": "Try the preferred service for selected flags, then each fallback until one returns a nonnegative status."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_at_80200bfc",
+  "source": "source/matching/game/s21/s21_at_80200bfc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_finish_chain_80200bfc": "0x80200bfc"
+  },
+  "descriptions": {
+    "w3d_s21_finish_chain_80200bfc": "Appears to walk a linked chain recursively through a child pointer at offset 12, starting from a global root when none is given, and finish the node."
+  }
+}

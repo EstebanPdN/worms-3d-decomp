@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b2_select_800e2368",
+  "source": "source/matching/game/sol35b2/sol35b2_select_800e2368.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b2_select_800e2368": "0x800e2368"
+  },
+  "descriptions": {
+    "sol35b2_select_800e2368": "Select a three-float position from an indexed property array, a node virtual getter, or a configured actor virtual dispatch according to the observed mode; preserve native aggregate-copy and call ABI. Type and field names remain inferred."
+  }
+}

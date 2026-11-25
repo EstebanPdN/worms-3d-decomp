@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_settings_panel_80241bac",
+  "source": "source/matching/game/d20e/d20e_settings_panel_80241bac.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__17D20eSettingsPanelUs": "0x80241bac"
+  },
+  "descriptions": {
+    "__17D20eSettingsPanelUs": "Settings panel constructor: runs the tagged base constructor 0x801ea0ec with the caller's id, installs the table 0x8041b540, zeroes seven vectors at +20..+92, copy-constructs strings at +108/+140/+152 from the shared empty string 0x804b06a0 (incrementing its reference count), sets the byte flags at +172..+179, +224..+246, +252 and +264..+282 and the ints at +188/+256 to 1 and every other member up to +282 to 0, calls 0x802487c4 on the object and returns this."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "d30e_split_names_801d33b0",
+  "source": "source/matching/game/d30e/d30e_split_names_801d33b0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d30e_split_names_801d33b0": "0x801d33b0"
+  },
+  "descriptions": {
+    "w3d_d30e_split_names_801d33b0": "Parses a list of names separated by vertical bars: clears the string vector at +48, then appends each name through unmodified STLport push_back using a 64-byte copy buffer and sets the multiple flag at +64; a text with no bar is assigned to the single string at +40 and clears the flag. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_property_update_value_802bfba4",
+  "source": "source/matching/game/f1p/f1p_property_update_value_802bfba4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_property_update_value_802bfba4": "0x802bfba4"
+  },
+  "descriptions": {
+    "w3d_property_update_value_802bfba4": "On a change to mode +0x84, reads either the original float constant or unsigned property +0x48, stores the resulting float at +0x18 and, when state +0x14 is zero, +0x1c; invokes 0x802bfc64 when state equals one. Observed offsets, conversion and call order; naming inferred."
+  }
+}

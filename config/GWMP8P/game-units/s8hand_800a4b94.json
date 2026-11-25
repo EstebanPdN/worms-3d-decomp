@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800a4b94",
+  "source": "source/matching/game/s8hand_800a4b94.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_mesh_update_800a4b94": "0x800a4b94"
+  },
+  "descriptions": {
+    "s8_mesh_update_800a4b94": "Appears to test mesh animation playback, update its context and invoke a flagged follow-up action; returns zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx7a_vector_set_refresh_8003e1f8",
+  "source": "source/matching/game/cx7a/cx7a_vector_set_refresh_8003e1f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7a_vector_set_refresh_8003e1f8": "0x8003e1f8"
+  },
+  "descriptions": {
+    "w3d_cx7a_vector_set_refresh_8003e1f8": "Copy the three observed words into object +0x1c/+0x20/+0x24 with typed field temporaries, then refresh embedded member +0x44; vector meaning is inferred, bitwise copy is proven."
+  }
+}

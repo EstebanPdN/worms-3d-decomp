@@ -1,0 +1,11 @@
+{
+  "unit": "f7c_guids_80204f08",
+  "source": "source/matching/game/f7c/f7c_guids_80204f08.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7c_guids_80204f08": "0x80204f08"
+  },
+  "descriptions": {
+    "f7c_guids_80204f08": "Serialize an inferred identifier-list header with a byte-swapped count, then traverse a typed tree iterator and send each 16-byte identifier payload through the witnessed output virtual slot. Names, types, roles, qualifiers and layout inferred; unknown storage explicit."
+  }
+}

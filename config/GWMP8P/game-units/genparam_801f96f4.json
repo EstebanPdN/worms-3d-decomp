@@ -1,0 +1,17 @@
+{
+  "unit": "genparam_801f96f4",
+  "source": "source/matching/game/generated/genparam_801f96f4.c",
+  "language": "c",
+  "functions": {
+    "w3d_registry_unlink_801f96f4": "0x801f96f4",
+    "w3d_registry_unlink_801f97a4": "0x801f97a4",
+    "w3d_registry_unlink_801fc04c": "0x801fc04c",
+    "w3d_registry_unlink_801fc0fc": "0x801fc0fc"
+  },
+  "descriptions": {
+    "w3d_registry_unlink_801f96f4": "Removes the object's list entry at +4 from its class registry list and decrements the registry count.",
+    "w3d_registry_unlink_801f97a4": "Removes the object's list entry at +4 from its class registry list and decrements the registry count.",
+    "w3d_registry_unlink_801fc04c": "Removes the object's list entry at +4 from its class registry list and decrements the registry count.",
+    "w3d_registry_unlink_801fc0fc": "Removes the object's list entry at +4 from its class registry list and decrements the registry count."
+  }
+}

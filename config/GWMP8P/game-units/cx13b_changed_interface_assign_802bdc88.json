@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_changed_interface_assign_802bdc88",
+  "source": "source/matching/game/cx13b/cx13b_changed_interface_assign_802bdc88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_changed_interface_assign_802bdc88": "0x802bdc88"
+  },
+  "descriptions": {
+    "w3d_cx13b_changed_interface_assign_802bdc88": "Replace the +104 held interface only when changed, notify the object, and release the incoming handle."
+  }
+}

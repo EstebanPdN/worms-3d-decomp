@@ -1,0 +1,19 @@
+{
+  "unit": "s2_turn_dispatch",
+  "source": "source/matching/game/s2_turn_dispatch.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_land_clear_message_801040d0": "0x801040d0",
+    "w3d_turn_state_construct_8010430c": "0x8010430c",
+    "w3d_turn_state_destroy_80104350": "0x80104350",
+    "w3d_turn_clear_retreat_time_80104410": "0x80104410",
+    "w3d_service_update_delta_80104b90": "0x80104b90"
+  },
+  "descriptions": {
+    "w3d_land_clear_message_801040d0": "Initializes a land-clear message and stores its two shared argument words.",
+    "w3d_turn_state_construct_8010430c": "Constructs the turn state and clears its launch guard.",
+    "w3d_turn_state_destroy_80104350": "Installs the turn-state vtable and forwards destruction to its base.",
+    "w3d_turn_clear_retreat_time_80104410": "Sets the RetreatTime property to zero.",
+    "w3d_service_update_delta_80104b90": "Updates the shared timestamp and forwards its delta to two service updates."
+  }
+}

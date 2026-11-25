@@ -1,0 +1,11 @@
+{
+  "unit": "s21_x_802040a8",
+  "source": "source/matching/game/s21/s21_x_802040a8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_u16_swapped_802040a8": "0x802040a8"
+  },
+  "descriptions": {
+    "w3d_s21_write_u16_swapped_802040a8": "Appears to swap the bytes of a 16-bit argument into a stack temporary and pass it to a two-byte write helper."
+  }
+}

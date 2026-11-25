@@ -1,0 +1,19 @@
+{
+  "unit": "d33e_renderer_ctor_801a81c4",
+  "source": "source/matching/game/d33e/d33e_renderer_ctor_801a81c4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "__8Renderer": "0x801a81c4"
+  },
+  "descriptions": {
+    "__8Renderer": "Constructs the renderer state object: base table 0x80413d30 with tag at +4, final table 0x80413cc0, two item pools, three layer arrays of 64 slots with flags 2, 0 and 1, and a function-local static slot holder (table 0x80413ca8) connected once to the second signal of 0x801ea954. Allocates 512 items of class 0x80363bf4 and 32 of class 0x80363c44, stores them in the pools and takes a reference to a new 0x80363b54 object at +176. Names are inferred; connection shape follows the public sigslot library."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

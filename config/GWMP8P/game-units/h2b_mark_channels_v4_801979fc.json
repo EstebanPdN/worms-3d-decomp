@@ -1,0 +1,11 @@
+{
+  "unit": "h2b_mark_channels_v4_801979fc",
+  "source": "source/matching/game/h2b/h2b_mark_channels_v4_801979fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "h2b_mark_channels_v4_801979fc": "0x801979fc"
+  },
+  "descriptions": {
+    "h2b_mark_channels_v4_801979fc": "Clears the packed channel bit range, walks enabled records and corresponding groups, marks negative-key entries by their low16-bit channel index, and clears the dirty word. Packed iterators and assignment proxies retain authentic pointer/bit and pointer/mask lifetimes; external owner and group prefixes are not locally instantiated."
+  }
+}

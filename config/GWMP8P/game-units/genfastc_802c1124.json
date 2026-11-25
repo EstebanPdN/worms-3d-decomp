@@ -1,0 +1,14 @@
+{
+  "unit": "genfastc_802c1124",
+  "source": "source/matching/game/generated/genfastc_802c1124.c",
+  "language": "c",
+  "functions": {
+    "w3d_update_overlay_fade_802c1124": "0x802c1124"
+  },
+  "descriptions": {
+    "w3d_update_overlay_fade_802c1124": "Sets a black overlay colour whose alpha comes from the fade value (quantized store), then steps the fade towards its target and runs the finish callback when it arrives."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_teleport_message_80119470",
+  "source": "source/matching/game/d24i/d24i_teleport_message_80119470.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_teleport_message_80119470": "0x80119470"
+  },
+  "descriptions": {
+    "d24i_teleport_message_80119470": "Teleport weapon message handler: message 64 forwards to the base handler and runs setup 0x80119590 on success, returning 0x80004005 on failure; message 66 runs shutdown 0x801196d8 and forwards to the base handler; the cached message 0x804af32c either starts the jump 0x80119794 when test 0x80119aa8 passes or posts an 8-byte arena notification; the cached message 0x804af31c runs 0x8015fd1c; all others go to the base handler."
+  }
+}

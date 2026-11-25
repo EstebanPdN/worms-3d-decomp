@@ -1,0 +1,4 @@
+#include "w3d_ptr.h"
+#line 1 "f5c_box_sphere_801f55ec.cpp"
+extern "C" float fn_802e82c0(float);extern const float lbl_803b15ac[],lbl_803b15b0[];struct Vec3{float x,y,z;Vec3(){}Vec3(float a,float b,float c):x(a),y(b),z(c){}Vec3(const Vec3&o){float a=o.x,b=o.y,c=o.z;x=a;y=b;z=c;}Vec3 operator+(const Vec3&o)const{Vec3 r;r.x=x+o.x;r.y=y+o.y;r.z=z+o.z;return r;}Vec3 operator-(const Vec3&o)const{Vec3 r;r.x=x-o.x;r.y=y-o.y;r.z=z-o.z;return r;}Vec3 operator*(float v)const{Vec3 r;r.x=x*v;r.y=y*v;r.z=z*v;return r;}float length()const{return fn_802e82c0(x*x+y*y+z*z);}};struct Box{Vec3 min,max;int empty()const{return min.x>max.x;}};struct Sphere{Vec3 center;float radius;};extern "C" Ptr32<Sphere> f5c_box_sphere_801f55ec(Ptr32<Sphere> out,Ptr32<const Box> box){if(box->empty()){out->radius=lbl_803b15ac[0];}else{float half=lbl_803b15b0[0];out->center=(box->max+box->min)*half;out->radius=(box->max-box->min).length()*half;}return out;}
+

@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_string_replace_all_801099a4",
+  "source": "source/matching/game/d24i/d24i_string_replace_all_801099a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_string_replace_all_801099a4": "0x801099a4"
+  },
+  "descriptions": {
+    "d24i_string_replace_all_801099a4": "Replace every occurrence of one text in a shared string: builds engine strings for the search and replacement texts, reads the search length from its header, and for each strstr match rebuilds a local string from the prefix (0x8020c048), the replacement and the remainder (0x8020bf2c), shares it back into the target with reference counting, then destroys the three local strings."
+  }
+}

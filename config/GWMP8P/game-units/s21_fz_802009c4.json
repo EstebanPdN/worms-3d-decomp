@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fz_802009c4",
+  "source": "source/matching/game/s21/s21_fz_802009c4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_static_register_value_type_802009c4": "0x802009c4"
+  },
+  "descriptions": {
+    "w3d_s21_static_register_value_type_802009c4": "Appears to be a static initialization entry that fills the ValueType descriptor with its name, two callbacks and link, clears a global pointer and registers it in an ordered list when called with the "
+  }
+}

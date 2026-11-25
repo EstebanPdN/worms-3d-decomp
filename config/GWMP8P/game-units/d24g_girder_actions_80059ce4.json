@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_girder_actions_80059ce4",
+  "source": "source/matching/game/d24g/d24g_girder_actions_80059ce4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_girder_actions_80059ce4": "0x80059ce4"
+  },
+  "descriptions": {
+    "w3d_d24g_girder_actions_80059ce4": "Appends input actions to the owner's pointer vector at +36: App.Pause (12, 0), Girder.Place (8, 1), Girder.Cancel (9, 1), Girder.ChangeType.Pressed (4, 1), Girder.ChangeType.Released (4, 0), Girder.Raise.Pressed (6, 1), Girder.Raise.Released (6, 0), Girder.Lower.Pressed (5, 1), Girder.Lower.Released (5, 0), Girder.Rotate.Forward.Pressed (3, 1), Girder.Rotate.Forward.Released (3, 0), Girder.Rotate.Backward.Pressed (2, 1), Girder.Rotate.Backward.Released (2, 0), Girder.Rotate.Left.Pressed (0, 1), Girder.Rotate.Left.Released (0, 0), Girder.Rotate.Right.Pressed (1, 1), Girder.Rotate.Right.Released (1, 0), Girder.Move.Forward.Pressed (1, 1, axis 1), Girder.Move.Forward.Released (1, 0, axis 1), Girder.Move.Backward.Pressed (1, 1, axis 2), Girder.Move.Backward.Released (1, 0, axis 2), Girder.Move.Left.Pressed (0, 1, axis 1), Girder.Move.Left.Released (0, 0, axis 1), Girder.Move.Right.Pressed (0, 1, axis 2), Girder.Move.Right.Released (0, 0, axis 2), Camera.RotateLeftPressed (3, 1, axis 1), Camera.RotateLeftReleased (3, 0, axis 1), Camera.RotateRightPressed (3, 1, axis 2), Camera.RotateRightReleased (3, 0, axis 2), Camera.RotateDownPressed (4, 1, axis 1), Camera.RotateDownReleased (4, 0, axis 1), Camera.RotateUpPressed (4, 1, axis 2), Camera.RotateUpReleased (4, 0, axis 2), Input.OpenPanelPressed (10, 1). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

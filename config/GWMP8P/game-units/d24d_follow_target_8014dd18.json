@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_follow_target_8014dd18",
+  "source": "source/matching/game/d24d/d24d_follow_target_8014dd18.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_follow_target_8014dd18": "0x8014dd18"
+  },
+  "descriptions": {
+    "d24d_follow_target_8014dd18": "Updates motion from the tracked object at +788: empty returns 0, stale clears it; in mode two adjusts motion (0x800cfe68) and returns the mode result; otherwise with +716 set or +824 negative posts a message for an active object and returns 0; else adds speed (+268) * 20.0 * 0.5 to +572."
+  }
+}

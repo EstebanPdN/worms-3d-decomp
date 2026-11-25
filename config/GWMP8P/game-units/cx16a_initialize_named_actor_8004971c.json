@@ -1,0 +1,11 @@
+{
+  "unit": "cx16a_initialize_named_actor_8004971c",
+  "source": "source/matching/game/cx16a/cx16a_initialize_named_actor_8004971c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16a_initialize_named_actor_8004971c": "0x8004971c"
+  },
+  "descriptions": {
+    "w3d_cx16a_initialize_named_actor_8004971c": "Initialize the actor base, string and handle members, then install the observed vtable, scalar defaults and cleared fields."
+  }
+}

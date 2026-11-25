@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_movie_close_request_802e0b2c",
+  "source": "source/matching/game/cx13b/cx13b_movie_close_request_802e0b2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_movie_close_request_802e0b2c": "0x802e0b2c"
+  },
+  "descriptions": {
+    "w3d_cx13b_movie_close_request_802e0b2c": "Stop playback, close an idle decoder when permitted, or release its held buffer and reset the allocator."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "sol35p_musyx_empty_callbacks",
+  "source": "source/matching/game/sol35p/sol35p_musyx_empty_callbacks.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35p_musyx_empty_80334f84": "0x80334f84",
+    "sol35p_musyx_empty_80335abc": "0x80335abc"
+  },
+  "descriptions": {
+    "sol35p_musyx_empty_80334f84": "Empty MusyX callback reached from the routine at 0x80334840; original body is only blr, consuming no input and leaving return registers unchanged. Semantic callback signature is unknown.",
+    "sol35p_musyx_empty_80335abc": "Empty MusyX callback reached from the routine at 0x80333c60; original body is only blr, consuming no input and leaving return registers unchanged. Semantic callback signature is unknown."
+  }
+}

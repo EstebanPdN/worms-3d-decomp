@@ -1,0 +1,14 @@
+{
+  "unit": "cx11a_sum_kind_800168b0",
+  "source": "source/matching/game/cx11a/cx11a_sum_kind_800168b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_sum_kind_800168b0": "0x800168b0"
+  },
+  "descriptions": {
+    "w3d_cx11a_sum_kind_800168b0": "Sums the observed transformed matching-kind values from the shared vector. Names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

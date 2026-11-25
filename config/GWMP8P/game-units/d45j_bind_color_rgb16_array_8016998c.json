@@ -1,0 +1,15 @@
+{
+  "unit": "d45j_bind_color_rgb16_array_8016998c",
+  "source": "source/matching/game/d45j/d45j_bind_color_rgb16_array_8016998c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching"
+  ],
+  "functions": {
+    "bind_color_rgb16_array_8016998c": "0x8016998c"
+  },
+  "descriptions": {
+    "bind_color_rgb16_array_8016998c": "Flushes the command's dirty vertex buffer, points GX attribute 11 at it with stride 2 and marks the driver state changed."
+  },
+  "extra_flags": []
+}

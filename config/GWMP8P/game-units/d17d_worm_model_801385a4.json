@@ -1,0 +1,11 @@
+{
+  "unit": "d17d_worm_model_801385a4",
+  "source": "source/matching/game/d17d/d17d_worm_model_801385a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d17d_worm_refresh_model_801385a4": "0x801385a4"
+  },
+  "descriptions": {
+    "d17d_worm_refresh_model_801385a4": "Set the graphic mode (+684) from the worm data type (0x800fc6dc of +112); modes 13/16/39/40/44/45/51/52 release the actor (0x8013e458) and 41/42/48 return. Otherwise look up the type's resource (0x800fc330 on table 0x803eb63c); if its model text (+72, copied into a shared string) is non-empty, load the model handle (0x8015adf4, flags 255), retain its mesh (0x80343584) as the attachment (+164), set the graphic mesh scale (1,1,1) via virtual +84 and attach the model via +92 with id 0x804ab328 (0x804ab32c in mode 11), then set the resource value (0x80182410) to +596 for kind \"Prod\" and +600 otherwise. Mode 5 and 43 call their enter hooks (0x8013ef98, 0x8013efe8); a non-empty idle animation (+80) is played (0x801359ec, 1.0, 0.0, 0.0, control +488) and checked (0x8018179c). Partial observed layouts; owns its string and float literal pool."
+  }
+}

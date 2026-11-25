@@ -1,0 +1,11 @@
+{
+  "unit": "s8small_800f58dc",
+  "source": "source/matching/game/s8small_800f58dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_mask_test_800f58dc": "0x800f58dc"
+  },
+  "descriptions": {
+    "s8_mask_test_800f58dc": "Returns whether any bit selected by mask 0x5555 is set."
+  }
+}

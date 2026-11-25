@@ -1,0 +1,32 @@
+{
+  "unit": "g_logic_entities_e",
+  "source": "source/matching/game/g_logic_entities_e.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_camera_attach_default_800c9d98": "0x800c9d98",
+    "w3d_ninja_camera_construct_800cc6d0": "0x800cc6d0",
+    "w3d_ninja_camera_reset_800cc728": "0x800cc728",
+    "w3d_ninja_camera_update_800cc75c": "0x800cc75c",
+    "w3d_logic_type_get_800cc77c": "0x800cc77c",
+    "w3d_logic_unlink_800cc788": "0x800cc788",
+    "w3d_logic_create_800cc7cc": "0x800cc7cc",
+    "w3d_logic_release_800cc82c": "0x800cc82c",
+    "w3d_logic_retain_800cc888": "0x800cc888",
+    "w3d_logic_construct_800cc8a0": "0x800cc8a0",
+    "w3d_logic_destroy_800cc908": "0x800cc908",
+    "w3d_logic_kind_800ccaf0": "0x800ccaf0",
+    "w3d_logic_detach_800ccbf4": "0x800ccbf4",
+    "w3d_logic_held_28_800ccd04": "0x800ccd04",
+    "w3d_logic_clear_800ccd54": "0x800ccd54",
+    "w3d_tracker_position_800cd0d0": "0x800cd0d0",
+    "w3d_tracker_heading_800cd13c": "0x800cd13c",
+    "w3d_tracker_state_800cd7fc": "0x800cd7fc",
+    "w3d_tracker_drop_target_800cd990": "0x800cd990",
+    "w3d_logic_type_get_800cdaa8": "0x800cdaa8",
+    "w3d_logic_unlink_800cdab4": "0x800cdab4",
+    "w3d_logic_create_800cdaf8": "0x800cdaf8",
+    "w3d_logic_release_800cdb58": "0x800cdb58",
+    "w3d_logic_retain_800cdbb4": "0x800cdbb4"
+  },
+  "descriptions": {}
+}

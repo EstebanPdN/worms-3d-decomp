@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dm_801eec04",
+  "source": "source/matching/game/s21/s21_dm_801eec04.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_801eec04": "0x801eec04"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_801eec04": "Appears to be a destructor body that releases every shared string of the counted array at offset 32, installs the base vtable and destroys the embedded node."
+  }
+}

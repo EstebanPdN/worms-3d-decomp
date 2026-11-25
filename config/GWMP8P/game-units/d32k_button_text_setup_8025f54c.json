@@ -1,0 +1,14 @@
+{
+  "unit": "d32k_button_text_setup_8025f54c",
+  "source": "source/matching/game/d32k/d32k_button_text_setup_8025f54c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32k_button_text_setup_8025f54c": "0x8025f54c"
+  },
+  "descriptions": {
+    "w3d_d32k_button_text_setup_8025f54c": "Initialises the inner panel, copies the info flags, then for a non-empty label tries to load it as a named sprite. On failure it drops any old object, looks the label up in the text table (or builds a marked-up fallback), loads FE.Font, attaches, sizes and colours the text object. On success it attaches and positions the sprite. Finishes with the shared sprite setup and refresh."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

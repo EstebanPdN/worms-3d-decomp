@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dn_801e6d30",
+  "source": "source/matching/game/s21/s21_dn_801e6d30.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_remove_handle_801e6d30": "0x801e6d30"
+  },
+  "descriptions": {
+    "w3d_s21_remove_handle_801e6d30": "Appears to remove a handle from a global table by swapping the last entry into its slot, shrinking the count and marking the freed slot with minus one."
+  }
+}

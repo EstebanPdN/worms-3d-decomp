@@ -1,0 +1,11 @@
+{
+  "unit": "s1_border_runtime",
+  "source": "source/matching/game/s1_border_runtime.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80063434": "0x80063434"
+  },
+  "descriptions": {
+    "w3d_fn_80063434": "Clears the active border flag and posts border-ready and HUD-show messages."
+  }
+}

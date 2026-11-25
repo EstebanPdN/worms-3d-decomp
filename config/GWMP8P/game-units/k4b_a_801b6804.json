@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b6804",
+  "source": "source/matching/game/k4b/k4b_a_801b6804.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_linked_box_construct_801b6804": "0x801b6804"
+  },
+  "descriptions": {
+    "w3d_k4b_linked_box_construct_801b6804": "Appears to construct a derived bounds object over 0x801b5b30: vtable 0x80415a50, six cleared link words, cleared owner and cleared slots."
+  }
+}

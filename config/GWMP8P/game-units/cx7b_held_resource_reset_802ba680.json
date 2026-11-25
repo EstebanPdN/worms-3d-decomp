@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_held_resource_reset_802ba680",
+  "source": "source/matching/game/cx7b/cx7b_held_resource_reset_802ba680.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_held_resource_reset_802ba680": "0x802ba680"
+  },
+  "descriptions": {
+    "w3d_cx7b_held_resource_reset_802ba680": "Release the held interface at +216 if present, clear it, refresh the owner, and reset its member at +28."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_as_80200af8",
+  "source": "source/matching/game/s21/s21_as_80200af8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_insert_sorted_80200af8": "0x80200af8"
+  },
+  "descriptions": {
+    "w3d_s21_insert_sorted_80200af8": "Appears to insert a node into a singly linked list kept in descending order of an integer key at offset 16."
+  }
+}

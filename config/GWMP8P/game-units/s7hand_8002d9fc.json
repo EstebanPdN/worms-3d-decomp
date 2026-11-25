@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002d9fc",
+  "source": "source/matching/game/s7/s7hand_8002d9fc.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002d9fc": "0x8002d9fc"
+  },
+  "descriptions": {
+    "w3d_auto_8002d9fc": "Calls the base initializer, creates and activates a mesh handle using the configured animation parameters, then calls virtual +0x58 with flag 1 on each of five interfaces."
+  }
+}

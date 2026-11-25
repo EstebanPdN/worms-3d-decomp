@@ -1,0 +1,11 @@
+{
+  "unit": "cc26a_grid_update_queue_8001ea34",
+  "source": "source/matching/game/cc26a/cc26a_grid_update_queue_8001ea34.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc26a_grid_update_queue_8001ea34": "0x8001ea34"
+  },
+  "descriptions": {
+    "cc26a_grid_update_queue_8001ea34": "Process pending grid updates under original one-success budget, compact completed records, finish missing-chunk records, and mark layer-zero changes dirty."
+  }
+}

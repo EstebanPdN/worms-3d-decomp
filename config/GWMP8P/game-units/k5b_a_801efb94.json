@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801efb94",
+  "source": "source/matching/game/k5b/k5b_a_801efb94.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_array_field_read_801efb94": "0x801efb94"
+  },
+  "descriptions": {
+    "w3d_k5b_array_field_read_801efb94": "Appears to read an array field from a stream: its count (slot 42), lock the object's array for that count, then raw bytes (slot 40) or per-element reads (slot 16)."
+  }
+}

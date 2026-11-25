@@ -1,0 +1,11 @@
+{
+  "unit": "f3c_tag_init_801db144",
+  "source": "source/matching/game/f3c/f3c_tag_init_801db144.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3c_tag_init_801db144": "0x801db144"
+  },
+  "descriptions": {
+    "f3c_tag_init_801db144": "Initialize the observed tag, pairs and three members, publish this object, acquire and retain the service interface, release the previous interface, seed the random generator with 203 and initialize scalar and float fields. Layout and names inferred."
+  }
+}

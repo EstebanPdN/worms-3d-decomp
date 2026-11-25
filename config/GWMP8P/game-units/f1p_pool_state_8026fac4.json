@@ -1,0 +1,14 @@
+{
+  "unit": "f1p_pool_state_8026fac4",
+  "source": "source/matching/game/f1p/f1p_pool_state_8026fac4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_pool_state_8026fac4": "0x8026fac4"
+  },
+  "descriptions": {
+    "w3d_pool_state_8026fac4": "Computes desired activity from an optional pool unsigned count versus its float limit, or carrier +0xa0. Starts an inactive owner when desired is one, rereads activity +0x124 after the callback, and stops an active owner when no longer desired. Original float conversion/branch order; stack reservation purpose unknown."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

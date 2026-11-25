@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_select_named_record_802b9ae0",
+  "source": "source/matching/game/f1p/f1p_select_named_record_802b9ae0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_select_named_record_802b9ae0": "0x802b9ae0"
+  },
+  "descriptions": {
+    "w3d_select_named_record_802b9ae0": "Resolve the observed text-list data, search its names with the original comparison order, publish the matching index or zero, refresh the record view and notify the active selection panel. Partial data/container fields and semantic roles inferred from original instructions."
+  }
+}

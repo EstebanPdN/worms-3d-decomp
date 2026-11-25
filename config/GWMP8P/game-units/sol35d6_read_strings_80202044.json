@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d6_read_strings_80202044",
+  "source": "source/matching/game/sol35d6/sol35d6_read_strings_80202044.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d6_read_strings_80202044": "0x80202044"
+  },
+  "descriptions": {
+    "sol35d6_read_strings_80202044": "Read count serialized indexes and optionally assign native shared strings through retain-before-release ownership. Names and partial native layout inferred."
+  }
+}

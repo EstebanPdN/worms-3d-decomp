@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_801c3ce0",
+  "source": "source/matching/game/k2b/k2b_a_801c3ce0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_region_construct_801c3ce0": "0x801c3ce0"
+  },
+  "descriptions": {
+    "w3d_k2b_region_construct_801c3ce0": "Appears to construct a region on its base constructor, install its vtable and zero two vectors and four counters."
+  }
+}

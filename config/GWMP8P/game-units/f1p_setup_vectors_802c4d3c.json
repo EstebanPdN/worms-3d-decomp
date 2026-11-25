@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_setup_vectors_802c4d3c",
+  "source": "source/matching/game/f1p/f1p_setup_vectors_802c4d3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_setup_vectors_802c4d3c": "0x802c4d3c"
+  },
+  "descriptions": {
+    "w3d_setup_vectors_802c4d3c": "Sets scale +0x13c to ten, copies the incoming vector at +0x10c, computes and negates its reciprocal-scale vector at +0x124, resets that vector z to zero, normalizes the supplied x/y sizes by 214/155 at +0x118, and derives complementary scaled x/y values at +0x130. Observed floating arithmetic, temporary copies and numeric constants; semantic names inferred."
+  }
+}

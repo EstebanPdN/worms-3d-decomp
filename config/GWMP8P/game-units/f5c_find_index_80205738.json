@@ -1,0 +1,11 @@
+{
+  "unit": "f5c_find_index_80205738",
+  "source": "source/matching/game/f5c/f5c_find_index_80205738.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5c_find_index_80205738": "0x80205738"
+  },
+  "descriptions": {
+    "f5c_find_index_80205738": "Walk observed tree nodes using the witnessed increment helper and return the first matching value index as sixteen unsigned bits, or 65535 when absent. Names, owner padding and iterator/node types inferred from observed offsets; nontrivial iterator copy preserves stack lifetimes."
+  }
+}

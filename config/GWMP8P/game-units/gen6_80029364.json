@@ -1,0 +1,27 @@
+{
+  "unit": "gen6_80029364",
+  "source": "source/matching/game/generated/gen6_80029364.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sinit_body_80029364": "0x80029364",
+    "w3d_sinit_body_8002b678": "0x8002b678",
+    "w3d_sinit_body_8002dbb8": "0x8002dbb8",
+    "w3d_sinit_body_8003a774": "0x8003a774",
+    "w3d_member_8003af58": "0x8003af58",
+    "w3d_member_8003af60": "0x8003af60",
+    "w3d_copy12_8003e23c": "0x8003e23c",
+    "w3d_member_8003e304": "0x8003e304",
+    "w3d_getf_8003e30c": "0x8003e30c"
+  },
+  "descriptions": {
+    "w3d_sinit_body_80029364": "Module static initializer: constructs the global object at 0x8035fca0 with its name, owner and callback when called for initialization.",
+    "w3d_sinit_body_8002b678": "Module static initializer: constructs the global object at 0x8035fd60 with its name, owner and callback when called for initialization.",
+    "w3d_sinit_body_8002dbb8": "Module static initializer: constructs the global object at 0x8035fdc0 with its name, owner and callback when called for initialization.",
+    "w3d_sinit_body_8003a774": "Module static initializer: constructs the global object at 0x8035ff40 with its name, owner and callback when called for initialization.",
+    "w3d_member_8003af58": "Returns the address of the member at +0x1c of its object.",
+    "w3d_member_8003af60": "Returns the address of the member at +0x28 of its object.",
+    "w3d_copy12_8003e23c": "Copies a 12-byte value (three words, e.g. a 3D vector) into the field at +0x28.",
+    "w3d_member_8003e304": "Returns the address of the member at +0x1c of its object.",
+    "w3d_getf_8003e30c": "Returns the float field at +0x40 of its object."
+  }
+}

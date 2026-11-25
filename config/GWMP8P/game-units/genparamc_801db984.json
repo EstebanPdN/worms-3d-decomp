@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_801db984",
+  "source": "source/matching/game/generated/genparamc_801db984.c",
+  "language": "c",
+  "functions": {
+    "w3d_update_typed_children_801db984": "0x801db984",
+    "w3d_update_typed_children_801dbadc": "0x801dbadc"
+  },
+  "descriptions": {
+    "w3d_update_typed_children_801db984": "Walks the child array and forwards the argument to each child whose type is 1 or 2 (virtual calls), re-reading the child from the array each time; returns zero.",
+    "w3d_update_typed_children_801dbadc": "Walks the child array and forwards the argument to each child whose type is 1 or 2 (virtual calls), re-reading the child from the array each time; returns zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_worm_pot_physics_800e58fc",
+  "source": "source/matching/game/d24c/d24c_worm_pot_physics_800e58fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_worm_pot_physics_800e58fc": "0x800e58fc"
+  },
+  "descriptions": {
+    "d24c_worm_pot_physics_800e58fc": "Read the Worm.Bounce and Worm.Slide settings and the WormPot record. Return (releasing the record) if the pot's mode +76 or +80 is 1. Otherwise read the alternate bounce and slide settings; when the second argument is non-zero multiply slide by the pot's scale +24 and bounce by 1.0/scale; write both values back to the original settings; release the record."
+  }
+}

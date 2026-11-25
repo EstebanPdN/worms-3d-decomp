@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_8018f0f8",
+  "source": "source/matching/game/k5b/k5b_a_8018f0f8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_link_set_construct_8018f0f8": "0x8018f0f8"
+  },
+  "descriptions": {
+    "w3d_k5b_link_set_construct_8018f0f8": "Appears to construct an object over 0x801ea0ec: vtable 0x80413098, eight retained shared default interfaces at +20..+48 and a cleared byte flag at +52."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bz_8026cc20",
+  "source": "source/matching/game/s21/s21_bz_8026cc20.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_wrap_value_8026cc20": "0x8026cc20"
+  },
+  "descriptions": {
+    "w3d_s21_wrap_value_8026cc20": "Appears to wrap a value modulo a global halfword limit, store it in two fields and call a follow-up helper."
+  }
+}

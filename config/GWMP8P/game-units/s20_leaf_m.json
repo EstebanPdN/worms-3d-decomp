@@ -1,0 +1,13 @@
+{
+  "unit": "s20_leaf_m",
+  "source": "source/matching/game/s20/s20_leaf_m.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_set_inner_matrix_8017b0b8": "0x8017b0b8",
+    "w3d_s20_get_inner_matrix_8017b5f4": "0x8017b5f4"
+  },
+  "descriptions": {
+    "w3d_s20_set_inner_matrix_8017b0b8": "Appears to copy a 48-byte matrix into the inner object and clear a flag bit there, returning zero.",
+    "w3d_s20_get_inner_matrix_8017b5f4": "Appears to copy the 48-byte matrix of the inner object into the caller's output and return zero."
+  }
+}

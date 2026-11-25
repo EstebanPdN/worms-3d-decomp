@@ -1,0 +1,17 @@
+{
+  "unit": "d25d_worm_strafe_clip_8013de54",
+  "source": "source/matching/game/d25d/d25d_worm_strafe_clip_8013de54.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25d_worm_strafe_clip_8013de54": "0x8013de54"
+  },
+  "descriptions": {
+    "d25d_worm_strafe_clip_8013de54": "Worm directional clip: rotate direction by yaw and choose between four walk clips."
+  }
+}

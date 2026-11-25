@@ -1,0 +1,11 @@
+{
+  "unit": "g5a_display_services_8015e598",
+  "source": "source/matching/game/g5a/g5a_display_services_8015e598.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5a_display_services_8015e598": "0x8015e598"
+  },
+  "descriptions": {
+    "g5a_display_services_8015e598": "Acquires and retains services for descriptors80411e50,80411ee8,80411c00,80411cf0,80411b40 in order, releasing the previous held member at receiver offsets88,92,96,100,104. If selectMode140 is nonzero, enumerates display mode pointers through virtual slot28 into a four-byte count, then selects the last mode whose two dimensions equal receiver116/120 and whose depth/rate values lie in inclusive receiver132..136 and124..128 bounds. Defaults to index0, preserving original behavior even for an empty returned range; installs selected mode with flag2 through slot36. Creates the window using original external AppName text803a450c, position100/100, requested dimensions, zero, mode flag140 and flags144. Connects renderer to window, prepares it, sets viewport0/0/width/height, then connects scene to renderer and input to scene. Returns0. External partial148-byte owner and interfaces are never locally constructed. Only three local words are passed by address: count and two dimension outputs; original8016ed18 writes one count word and mode slot8016f86c writes exactly one word to each dimension pointer. Mode arrays are pointer ranges, with no fixed undersized local array. Referenced descriptors and text remain external data; all names and role labels are inferred."
+  }
+}

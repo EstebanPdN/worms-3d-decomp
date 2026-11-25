@@ -1,0 +1,11 @@
+{
+  "unit": "s11byteorder_80257528",
+  "source": "source/matching/game/s11_auto/s11byteorder_80257528.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80257528": "0x80257528"
+  },
+  "descriptions": {
+    "w3d_auto_80257528": "Appears to calls 0x801ea0ec, 0x8025c2d8; accesses fields at 0x14, 0x15, 0x16, 0x17, 0x18, 0x19. m2c types and names are provisional."
+  }
+}

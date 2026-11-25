@@ -1,0 +1,12 @@
+{
+  "unit": "d25k_gauge_smooth_8026e884",
+  "source": "source/matching/game/d25k/d25k_gauge_smooth_8026e884.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d25k_gauge_smooth_8026e884": "0x8026e884"
+  },
+  "descriptions": {
+    "w3d_d25k_gauge_smooth_8026e884": "Runs the base update on the sub-object at +28, follows the bound target's value (active targets snap current and desired), eases current towards desired with snap limits 0x803cbdf8/0x803cbdfc and gain 0x803cbe00, forwards the value to both bound widgets and returns 0."
+  }
+}

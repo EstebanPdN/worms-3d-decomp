@@ -1,0 +1,11 @@
+{
+  "unit": "s10_cleanup_80205ae0",
+  "source": "source/matching/game/s10/s10_cleanup_80205ae0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_cleanup_80205ae0": "0x80205ae0"
+  },
+  "descriptions": {
+    "w3d_s10_cleanup_80205ae0": "Destroys the string and composite-record arrays, releases each held interface and buffer, invokes base cleanup, and conditionally deletes the object."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_particle_random_velocity_800dcbe0",
+  "source": "source/matching/game/d19c/d19c_particle_random_velocity_800dcbe0.c",
+  "language": "c",
+  "functions": {
+    "d19c_particle_random_velocity_800dcbe0": "0x800dcbe0"
+  },
+  "descriptions": {
+    "d19c_particle_random_velocity_800dcbe0": "Set the vector at +12 to base + spread * (2r - 1) per component, with r from 0x80162bc8 when +108 is set or from the local LCG seed (x * 1103515245 + 12345, times 2^-32) otherwise; when normalize is set, make it unit length and scale it by base.x + spread.x; when scale is non-zero, multiply it by scale."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

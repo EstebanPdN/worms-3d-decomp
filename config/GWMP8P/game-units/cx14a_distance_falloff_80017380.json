@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_distance_falloff_80017380",
+  "source": "source/matching/game/cx14a/cx14a_distance_falloff_80017380.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_distance_falloff_80017380": "0x80017380"
+  },
+  "descriptions": {
+    "w3d_cx14a_distance_falloff_80017380": "Runs the original base scoring step, applies radial attenuation when the observed distance meets the limit, and applies the original secondary scalar falloff below its configured threshold."
+  }
+}

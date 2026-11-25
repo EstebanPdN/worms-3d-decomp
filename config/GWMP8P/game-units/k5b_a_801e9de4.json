@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801e9de4",
+  "source": "source/matching/game/k5b/k5b_a_801e9de4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_class_find_member_kind_801e9de4": "0x801e9de4"
+  },
+  "descriptions": {
+    "w3d_k5b_class_find_member_kind_801e9de4": "Appears to walk a class chain up to the root at 0x80365788 and return the first class with a member whose descriptor kind byte equals the argument."
+  }
+}

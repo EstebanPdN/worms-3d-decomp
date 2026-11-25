@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800f1e2c",
+  "source": "source/matching/game/s8contextfix_800f1e2c.c",
+  "language": "c",
+  "functions": {
+    "s8_initialize_large_object_800f1e2c": "0x800f1e2c"
+  },
+  "descriptions": {
+    "s8_initialize_large_object_800f1e2c": "Appears to initialize an object, install its vtable, run a fixed-count loop and clear two trailing fields."
+  }
+}

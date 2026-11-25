@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_worm_hud_start_80023944",
+  "source": "source/matching/game/d24a/d24a_worm_hud_start_80023944.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_worm_hud_start_80023944": "0x80023944"
+  },
+  "descriptions": {
+    "w3d_d24a_worm_hud_start_80023944": "Sets +136 to -1, resolves five named handles (0x8015adf4) into +28..+44, loads WormPot into +104, subscribes to seven cached messages with slots +108..+132, loads ActiveWormIndex, the HUD.ActWormInfo resources and EFMV.Active, WeaponPanel.Open and Chat.Open into +48..+100, then runs 0x80024448, 0x80024844, 0x800246e4 and 0x800244d4."
+  }
+}

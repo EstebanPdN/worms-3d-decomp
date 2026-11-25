@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cd_802ba070",
+  "source": "source/matching/game/s21/s21_cd_802ba070.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_release_slots_802ba070": "0x802ba070"
+  },
+  "descriptions": {
+    "w3d_s21_release_slots_802ba070": "Appears to release the three objects held in an array at offset 224 through a helper and clear their slots."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a_camera_group_8008ed58",
+  "source": "source/matching/game/sol35a/sol35a_camera_group_8008ed58.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a_camera_group_8008ed58": "0x8008ed58"
+  },
+  "descriptions": {
+    "sol35a_camera_group_8008ed58": "Apply selected resource/instance camera callbacks, finish a nonempty group, and report whether any visited instance has a nonzero unsigned halfword at +104; empty groups use the single-entry flag at resource+451. Observed PPC32 offsets and original external identities are retained; resource ownership remains external."
+  }
+}

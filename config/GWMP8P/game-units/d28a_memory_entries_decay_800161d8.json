@@ -1,0 +1,14 @@
+{
+  "unit": "d28a_memory_entries_decay_800161d8",
+  "source": "source/matching/game/d28a/d28a_memory_entries_decay_800161d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_memory_entries_decay_800161d8": "0x800161d8"
+  },
+  "descriptions": {
+    "w3d_d28a_memory_entries_decay_800161d8": "Decays and prunes the remembered entry list."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

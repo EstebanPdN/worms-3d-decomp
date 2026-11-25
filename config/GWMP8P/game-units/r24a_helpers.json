@@ -1,0 +1,17 @@
+{
+  "unit": "r24a_helpers",
+  "source": "source/matching/game/r24a/r24a_helpers.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r24a_copy_retain_800ccd04": "0x800ccd04",
+    "w3d_r24a_damp_value_800dbd74": "0x800dbd74",
+    "w3d_r24a_append_empty_entry_8016e908": "0x8016e908",
+    "w3d_r24a_check_container_userdata_8019e68c": "0x8019e68c"
+  },
+  "descriptions": {
+    "w3d_r24a_copy_retain_800ccd04": "Copies the interface pointer from source +40 to holder +0, invokes observed virtual retain slot +12 when nonnull, and returns the holder.",
+    "w3d_r24a_damp_value_800dbd74": "Updates float velocity +140 using fused negative position +136 times external stiffness plus old velocity, multiplies by external damping, adds velocity to position, and leaves the new position in f1.",
+    "w3d_r24a_append_empty_entry_8016e908": "Indexes a 20-byte record at queue +388 using count +548, clears its first four words while preserving its fifth, increments count, and returns the record.",
+    "w3d_r24a_check_container_userdata_8019e68c": "Checks Lua type 7, compares the value metatable with environment index -10002, reports external ctr type error on mismatch, pops the metatable and returns userdata."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d25b_corner_tint_80086324",
+  "source": "source/matching/game/d25b/d25b_corner_tint_80086324.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_corner_tint_80086324": "0x80086324"
+  },
+  "descriptions": {
+    "w3d_d25b_corner_tint_80086324": "Corner tint selection: reads eight colour components from the records at +388 and +392 at the byte offsets 0x804addec to 0x804ade08 into the corner sets 0x804ada74 and 0x804ada94, sets 0x7f00 on the corners whose flag words +656, +664, +660, +668 have bit 2 and then bit 1 set, and stores the averaged rows in 0x804adb28 and 0x804adb30."
+  }
+}

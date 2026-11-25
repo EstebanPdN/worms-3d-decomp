@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_tga_read_801d9f0c",
+  "source": "source/matching/game/k8b/k8b_tga_read_801d9f0c.c",
+  "language": "c",
+  "functions": {"w3d_k8b_tga_read_801d9f0c": "0x801d9f0c"},
+  "descriptions": {"w3d_k8b_tga_read_801d9f0c": "Appears to read bytes through a stream interface for the TGA loader, trace the byte total when verbose and return the element count read."}
+}

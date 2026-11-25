@@ -1,0 +1,41 @@
+{
+  "unit": "genparamc_80024f94",
+  "source": "source/matching/game/generated/genparamc_80024f94.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sinit_messages_80024f94": "0x80024f94",
+    "w3d_sinit_messages_80025b38": "0x80025b38",
+    "w3d_sinit_messages_800386bc": "0x800386bc",
+    "w3d_sinit_messages_80052048": "0x80052048",
+    "w3d_sinit_messages_80131818": "0x80131818",
+    "w3d_sinit_type_cache_8019c980": "0x8019c980",
+    "w3d_sinit_type_cache_8019d494": "0x8019d494",
+    "w3d_sinit_type_cache_801a7e34": "0x801a7e34",
+    "w3d_sinit_type_cache_801ae15c": "0x801ae15c",
+    "w3d_sinit_type_cache_801ae8a4": "0x801ae8a4",
+    "w3d_sinit_type_cache_801b1444": "0x801b1444",
+    "w3d_sinit_type_cache_801b2020": "0x801b2020",
+    "w3d_sinit_type_cache_801b29bc": "0x801b29bc",
+    "w3d_sinit_type_cache_801d449c": "0x801d449c",
+    "w3d_sinit_type_cache_801d51d0": "0x801d51d0",
+    "w3d_sinit_messages_8026c660": "0x8026c660"
+  },
+  "descriptions": {
+    "w3d_sinit_messages_80024f94": "Static initializer: constructs a file-scope type object in place (name, parent, factory, type id), then caches each named message identifier used by the file.",
+    "w3d_sinit_messages_80025b38": "Static initializer: constructs a file-scope type object in place (name, parent, factory, type id), then caches each named message identifier used by the file.",
+    "w3d_sinit_messages_800386bc": "Static initializer: constructs a file-scope type object in place (name, parent, factory, type id), then caches each named message identifier used by the file.",
+    "w3d_sinit_messages_80052048": "Static initializer: constructs a file-scope type object in place (name, parent, factory, type id), then caches each named message identifier used by the file.",
+    "w3d_sinit_messages_80131818": "Static initializer: constructs a file-scope type object in place (name, parent, factory, type id), then caches each named message identifier used by the file.",
+    "w3d_sinit_type_cache_8019c980": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_8019d494": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801a7e34": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801ae15c": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801ae8a4": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801b1444": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801b2020": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801b29bc": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801d449c": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_type_cache_801d51d0": "Static initializer: constructs a file-scope type object in place (name, parent, factory, flags, release hook), then publishes a global descriptor and registers it.",
+    "w3d_sinit_messages_8026c660": "Static initializer: constructs a file-scope type object in place (name, parent, factory, type id), then caches each named message identifier used by the file."
+  }
+}

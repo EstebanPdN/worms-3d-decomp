@@ -1,0 +1,11 @@
+{
+  "unit": "f13c_preview_theme_8026b9bc",
+  "source": "source/matching/game/f13c/f13c_preview_theme_8026b9bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f13c_preview_theme_8026b9bc": "0x8026b9bc"
+  },
+  "descriptions": {
+    "w3d_f13c_preview_theme_8026b9bc": "Builds theme and time-of-day strings from the editor category and FE.Land.Time value, with explicit final enum cases sharing the default branches; resolves the configured resource and checks its game-data type chain; acquires a retained resource interface through a native owned descriptor, assigns the theme for the random-land name and assigns the time string, then releases all interface, descriptor and string lifetimes. Partial layouts and semantic labels are inferred from original strings and instructions."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f8b_record_nearest_hit_800d8fdc",
+  "source": "source/matching/game/f8b/f8b_record_nearest_hit_800d8fdc.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8b_record_nearest_hit_800d8fdc": "0x800d8fdc"
+  },
+  "descriptions": {
+    "f8b_record_nearest_hit_800d8fdc": "Call the witnessed scalar intersection helper with three owner vectors and the forwarded level, reject negative or non-nearest results, store the identifier and ceil time, dispatch two callbacks and copy an up vector to the normal. The helper writes one float; twelve following reserved bytes have unknown original purpose. Roles, types and layouts are inferred."
+  }
+}

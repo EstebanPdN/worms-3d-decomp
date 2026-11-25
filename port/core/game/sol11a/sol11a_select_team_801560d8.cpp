@@ -1,0 +1,30 @@
+#include "w3d_ptr.h"
+#line 1 "sol11a_select_team_801560d8.cpp"
+// Team, owner and blocking meanings are inferred; the borrow tag meaning is unknown.
+// GC ABI external views. Only observed offsets are named; these views are never constructed.
+struct Sol11aTeam { unsigned char external_prefix[213]; unsigned char owner; unsigned char external_gap[6]; int active; };
+struct Sol11aOwner { unsigned char external_prefix[44]; int blocked; };
+struct Sol11aSelection { unsigned char external_prefix[308]; Ptr32<void> value; };
+struct Sol11aBorrow_80178474 { Ptr32<void> object; unsigned tag; Sol11aBorrow_80178474():object(0),tag(0xe3a8) {} ~Sol11aBorrow_80178474(); };
+extern "C" {
+ Ptr32<Sol11aTeam> team_800fc6dc(unsigned);
+ Ptr32<Sol11aOwner> owner_800fc7f8(unsigned);
+ Ptr32<void> identity_803426b4(Ptr32<void>);
+ int update_80178c54(Ptr32<void>,Ptr32<const unsigned int>);
+}
+extern "C" void sol11a_select_team_801560d8(Ptr32<Sol11aSelection> self) {
+ unsigned selected=0;
+ unsigned i=0;
+ do {
+  Ptr32<Sol11aTeam> team=team_800fc6dc(i);
+  unsigned ownerIndex=team->owner;
+  Sol11aBorrow_80178474 borrow;
+  Ptr32<Sol11aOwner> owner=owner_800fc7f8(ownerIndex);
+  if(team->active==1 && owner->blocked==0) { selected=team->owner; break; }
+ } while(++i<=15);
+ Ptr32<void> property=identity_803426b4(self->value);
+ unsigned value=selected;
+ update_80178c54(property,&value);
+}
+
+

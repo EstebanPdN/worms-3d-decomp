@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_create_if_derived_801a01f0",
+  "source": "source/matching/game/d29e/d29e_create_if_derived_801a01f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_create_if_derived_801a01f0": "0x801a01f0"
+  },
+  "descriptions": {
+    "w3d_d29e_create_if_derived_801a01f0": "Queries the service at 0x8020b648 for the interface 0x804138b0 into a held reference, looks up an entry by name (slot 3) and, if the entry exists and base is null or found on the entry's parent chain at +20, returns the result of the entry's create call at table offset 88; otherwise returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

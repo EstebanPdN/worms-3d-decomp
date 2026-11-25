@@ -1,0 +1,14 @@
+{
+  "unit": "f5b_build_two_steps_80011d40",
+  "source": "source/matching/game/f5b/f5b_build_two_steps_80011d40.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5b_build_two_steps_80011d40": "0x80011d40"
+  },
+  "descriptions": {
+    "f5b_build_two_steps_80011d40": "Release and clear the held queue, copy the current and indexed target vectors, construct a48-byte queue and retain it, increment its observed counter, submit an extrapolated point with kind0, call the witnessed duration helper, then submit a raised midpoint with kind5 and reset the trajectory timer. Names and semantic roles remain inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

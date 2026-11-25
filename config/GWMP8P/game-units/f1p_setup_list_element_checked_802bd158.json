@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_setup_list_element_checked_802bd158",
+  "source": "source/matching/game/f1p/f1p_setup_list_element_checked_802bd158.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_setup_list_element_802bd158": "0x802bd158"
+  },
+  "descriptions": {
+    "w3d_setup_list_element_802bd158": "Construct the native string for the original NULL resource, bind the receiver child slot with layer255, and finish the temporary string. Attach that child to the observed parent, apply the original (1,1,1) vector and receiver vector through virtual slots84/76, and set the enabled word. Resolve FE.ListControlElementBorderSize into a reused native held slot, retain its cast result before releasing/replacing the receiver border interface, invoke both native setup helpers and release the local slot. Names and vector roles are inferred partial external views. Owns only the matching one-float literal pool; no complete receiver class or allocation is asserted."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "s9_collections",
+  "source": "source/matching/game/s9/s9_collections.c",
+  "language": "c",
+  "functions": {
+    "s9_remove_by_key_801625dc": "0x801625dc",
+    "s9_forward_global_80166fd0": "0x80166fd0",
+    "s9_lookup_optional_80174074": "0x80174074",
+    "s9_set_record_bytes_8017df5c": "0x8017df5c",
+    "s9_get_record_bytes_8017df80": "0x8017df80"
+  },
+  "descriptions": {
+    "s9_remove_by_key_801625dc": "Removes the first item whose second word equals the supplied key by replacing it with the last pointer and shrinking the range; returns success or 0x80004005.",
+    "s9_forward_global_80166fd0": "Forwards the second argument and constant size 32 to a helper operating on the small-data object at 0x804b00dc.",
+    "s9_lookup_optional_80174074": "Looks up a handle through the inner object, returning the first result word only when the helper sets its found flag.",
+    "s9_set_record_bytes_8017df5c": "Writes the two supplied bytes to offsets 25 and 24 of the indexed record.",
+    "s9_get_record_bytes_8017df80": "Reads bytes at offsets 25 and 24 of the indexed record into the supplied output pointers."
+  }
+}

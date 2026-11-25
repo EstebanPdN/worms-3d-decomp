@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_update_uv_80104d78",
+  "source": "source/matching/game/cx12a/cx12a_update_uv_80104d78.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_update_uv_80104d78": "0x80104d78"
+  },
+  "descriptions": {
+    "w3d_cx12a_update_uv_80104d78": "Advance two scalar offsets and copy them with constant coordinates into an external list of nodes; names inferred."
+  }
+}

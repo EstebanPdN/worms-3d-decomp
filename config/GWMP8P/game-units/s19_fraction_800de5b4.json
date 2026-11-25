@@ -1,0 +1,11 @@
+{
+  "unit": "s19_fraction_800de5b4",
+  "source": "source/matching/game/s19/s19_fraction_800de5b4.c",
+  "language": "c",
+  "functions": {
+    "s19_time_fraction_800de5b4": "0x800de5b4"
+  },
+  "descriptions": {
+    "s19_time_fraction_800de5b4": "Appears to return the float ratio of the time since +0x64 to the sum of the words at +0x64 and +0x5c."
+  }
+}

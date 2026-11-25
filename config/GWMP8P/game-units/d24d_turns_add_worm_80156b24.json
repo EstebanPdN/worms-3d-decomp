@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_turns_add_worm_80156b24",
+  "source": "source/matching/game/d24d/d24d_turns_add_worm_80156b24.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_turns_add_worm_80156b24": "0x80156b24"
+  },
+  "descriptions": {
+    "d24d_turns_add_worm_80156b24": "If the worm has no actor (+312 slot is -1), creates and registers one storing the worm id at +584; a live worm joins its team list (+52) and the team joins the index-selected list (+100) unless present; applies the scene value (0x80158810), gathers two local lists (0x80158358), processes them (0x80157c58), clears the first and releases both."
+  }
+}

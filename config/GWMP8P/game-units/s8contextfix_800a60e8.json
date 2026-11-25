@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800a60e8",
+  "source": "source/matching/game/s8contextfix_800a60e8.c",
+  "language": "c",
+  "functions": {
+    "s8_destroy_owned_resources_800a60e8": "0x800a60e8"
+  },
+  "descriptions": {
+    "s8_destroy_owned_resources_800a60e8": "Destructor: destroys an owned element array, frees its buffers, releases four held interfaces, clears embedded state and calls the base destructor."
+  }
+}

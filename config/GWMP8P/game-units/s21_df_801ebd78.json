@@ -1,0 +1,11 @@
+{
+  "unit": "s21_df_801ebd78",
+  "source": "source/matching/game/s21/s21_df_801ebd78.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_typed_801ebd78": "0x801ebd78"
+  },
+  "descriptions": {
+    "w3d_s21_create_typed_801ebd78": "Appears to create a 28-byte typed entry with a halfword field and a third vtable, copying two callback pairs and appending it to the container."
+  }
+}

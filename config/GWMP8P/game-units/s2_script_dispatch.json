@@ -1,0 +1,15 @@
+{
+  "unit": "s2_script_dispatch",
+  "source": "source/matching/game/s2_script_dispatch.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_script_poll_8010045c": "0x8010045c",
+    "w3d_fn_80100748": "0x80100748",
+    "w3d_fn_80100bbc": "0x80100bbc"
+  },
+  "descriptions": {
+    "w3d_script_poll_8010045c": "Polls the script service when the engine debug flag is set and returns 20.",
+    "w3d_fn_80100748": "Creates the script Lua state and registers message, data, timer, container, and print callbacks.",
+    "w3d_fn_80100bbc": "Polls script-debug input and forwards available input to the script command processor."
+  }
+}

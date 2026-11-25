@@ -1,0 +1,29 @@
+{
+  "unit": "s4_spinner",
+  "source": "source/matching/game/s4_spinner.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_spinner_repeat_step": "0x8028b414",
+    "w3d_s4_spinner_reset": "0x8028b750",
+    "w3d_s4_spinner_set_active": "0x8028b990",
+    "w3d_s4_spinner_increment": "0x8028c508",
+    "w3d_s4_spinner_decrement": "0x8028c5b4",
+    "w3d_s4_spinner_set_editing": "0x8028c6b0",
+    "w3d_s4_spinner_value_changed": "0x8028c71c",
+    "w3d_s4_spinner_read_value": "0x8028c768",
+    "w3d_s4_spinner_write_value": "0x8028c7fc",
+    "w3d_s4_spinner_clear_texts": "0x8028c888"
+  },
+  "descriptions": {
+    "w3d_s4_spinner_repeat_step": "Advances the repeat timer and repeatedly increments or decrements an editing spinner.",
+    "w3d_s4_spinner_reset": "Resets the spinner base, releases its held interface, and clears editing state and text resources.",
+    "w3d_s4_spinner_set_active": "Updates active state, reports its configured name, and refreshes controls and visibility.",
+    "w3d_s4_spinner_increment": "Increments and clamps the spinner value, wraps when unchanged, and writes back changed values.",
+    "w3d_s4_spinner_decrement": "Decrements the spinner value with wraparound and writes back changed values.",
+    "w3d_s4_spinner_set_editing": "Changes editing state, updates the input flag, resets repeat timers, and refreshes controls.",
+    "w3d_s4_spinner_value_changed": "Reads the current value and refreshes the spinner unless a write is in progress.",
+    "w3d_s4_spinner_read_value": "Reads an integer or float property, clamps it to the configured limit, and returns the current value.",
+    "w3d_s4_spinner_write_value": "Writes the spinner value to an integer or float property while guarding recursive callbacks.",
+    "w3d_s4_spinner_clear_texts": "Destroys and clears each of three text objects when present."
+  }
+}

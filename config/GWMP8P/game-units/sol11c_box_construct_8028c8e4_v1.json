@@ -1,0 +1,11 @@
+{
+  "unit": "sol11c_box_construct_8028c8e4_v1",
+  "source": "source/matching/game/sol11c/sol11c_box_construct_8028c8e4_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11c_box_construct_8028c8e4": "0x8028c8e4"
+  },
+  "descriptions": {
+    "sol11c_box_construct_8028c8e4": "Constructs and attaches the spinner background and three named border handles, configures dimensions and positions, applies the current color, and refreshes control states. External object layouts remain borrowed partial GameCube ABI views."
+  }
+}

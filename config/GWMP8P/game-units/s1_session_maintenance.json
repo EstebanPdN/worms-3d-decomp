@@ -1,0 +1,13 @@
+{
+  "unit": "s1_session_maintenance",
+  "source": "source/matching/game/s1_session_maintenance.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8006e004": "0x8006e004",
+    "w3d_fn_8006eebc": "0x8006eebc"
+  },
+  "descriptions": {
+    "w3d_fn_8006e004": "Runs selected resource maintenance steps, reports progress, and loads the menu tweak configuration.",
+    "w3d_fn_8006eebc": "Refreshes the session deadline using the configured delay for phase five or six."
+  }
+}

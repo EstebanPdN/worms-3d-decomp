@@ -1,0 +1,14 @@
+{
+  "unit": "k6b_a_802d77e8",
+  "source": "source/matching/game/k6b/k6b_a_802d77e8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_undump_load_header_802d77e8": "0x802d77e8"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_undump_load_header_802d77e8": "Appears to be Lua 5.0 lundump LoadHeader: check the signature, version 5.0, byte order, type sizes and the test number of a precompiled chunk."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

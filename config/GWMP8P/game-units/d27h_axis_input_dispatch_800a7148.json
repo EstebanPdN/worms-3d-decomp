@@ -1,0 +1,17 @@
+{
+  "unit": "d27h_axis_input_dispatch_800a7148",
+  "source": "source/matching/game/d27h/d27h_axis_input_dispatch_800a7148.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27h_axis_input_dispatch_800a7148": "0x800a7148"
+  },
+  "descriptions": {
+    "d27h_axis_input_dispatch_800a7148": "Analog axis event dispatch: zeroes values inside the dead zone at +88, derives stepped level and threshold flags, then for each entry from +164 to +168 of the table at +172 (all, or only active ones unless bit 10 of +96 is set) finds items of kind 1 bound to the event button and device, and sends the level, press and entry-name messages according to the item's mode, recording level and state."
+  }
+}

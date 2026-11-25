@@ -1,0 +1,15 @@
+{
+  "unit": "sol35p11_aligned_allocate_80213a8c",
+  "source": "source/matching/game/sol35d7/sol35d7_aligned_allocate_80213a8c_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_aligned_allocate_80213a8c_v2": "0x80213a8c"
+  },
+  "description": "Native aligned allocation: normalize alignment, check request overflow, split and release leading/trailing chunks, and adjust mapped-chunk headers when indicated.",
+  "function_descriptions": {
+    "sol35d7_aligned_allocate_80213a8c_v2": "Native aligned allocation: normalize alignment, check request overflow, split and release leading/trailing chunks, and adjust mapped-chunk headers when indicated."
+  },
+  "descriptions": {
+    "sol35d7_aligned_allocate_80213a8c_v2": "Allocates an aligned GC32 heap payload with native power-of-two normalization, errno12 rejection, mapped-header adjustment and leading/trailing chunk release. External allocator/header lifetime and unsigned-wrap contracts remain required; exact original library version and portable behavior are unproved."
+  }
+}

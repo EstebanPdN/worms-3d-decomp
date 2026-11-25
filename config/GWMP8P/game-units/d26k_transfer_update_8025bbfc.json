@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_transfer_update_8025bbfc",
+  "source": "source/matching/game/d26k/d26k_transfer_update_8025bbfc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_transfer_update_8025bbfc": "0x8025bbfc"
+  },
+  "descriptions": {
+    "w3d_d26k_transfer_update_8025bbfc": "Finds the transfer for the team, opens the file by mode 1 or 0, creates a 0x8041aa08 packet with +36 from the request and +40 zero, then either finishes locally through 0x8021dd04 or sends through 0x8021e930 and stamps +24 with the engine time."
+  }
+}

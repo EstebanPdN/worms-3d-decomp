@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ef618",
+  "source": "source/matching/game/k5b/k5b_a_801ef618.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_array_field_lock_801ef618": "0x801ef618"
+  },
+  "descriptions": {
+    "w3d_k5b_array_field_lock_801ef618": "Appears to lock the array field of an object for writing: optional previous count, append (flag 2) or grow-only (flag 4) sizing, then the inline lock path."
+  }
+}

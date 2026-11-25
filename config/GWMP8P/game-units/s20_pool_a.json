@@ -1,0 +1,11 @@
+{
+  "unit": "s20_pool_a",
+  "source": "source/matching/game/s20/s20_pool_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_acquire_pair_entry_801a91e8": "0x801a91e8"
+  },
+  "descriptions": {
+    "w3d_s20_acquire_pair_entry_801a91e8": "Appears to reuse the pool entry of the owner when it matches twice the count, or request a new entry, unless the field at offset 160 is set."
+  }
+}

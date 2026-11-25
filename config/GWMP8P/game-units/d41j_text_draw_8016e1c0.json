@@ -1,0 +1,17 @@
+{
+  "unit": "d41j_text_draw_8016e1c0",
+  "source": "source/matching/game/d41j/d41j_text_draw_8016e1c0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d41j_text_draw_8016e1c0": "0x8016e1c0"
+  },
+  "descriptions": {
+    "w3d_d41j_text_draw_8016e1c0": "Text drawing: x == -1 wraps the string into centred lines (newlines, and spaces when the next word passes the frame buffer width less 64), positions them around the screen centre at 32 pixels per line and draws them, '$' as a space; otherwise draws one run at (x, y). Returns the last run's width. Names are inferred."
+  }
+}

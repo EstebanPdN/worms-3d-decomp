@@ -1,0 +1,14 @@
+{
+  "unit": "d41d_worm_look_at_target_8013eab8",
+  "source": "source/matching/game/d41d/d41d_worm_look_at_target_8013eab8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d41d_worm_look_at_target_8013eab8": "0x8013eab8"
+  },
+  "descriptions": {
+    "w3d_d41d_worm_look_at_target_8013eab8": "Per-frame look-at update of a worm mesh: drops the tracked handle if the object is gone and resets the mesh, computes eye and target positions, continues or stops an active aim through the facing, range, elevation and turn helpers, and when idle and within 50 units starts the aim animation and plays a mood-dependent pose, sound and spoken line."
+  }
+}

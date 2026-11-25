@@ -1,0 +1,37 @@
+{
+  "unit": "genparam_80013a18",
+  "source": "source/matching/game/generated/genparam_80013a18.c",
+  "language": "c",
+  "functions": {
+    "w3d_ai_clone_plan_80013a18": "0x80013a18",
+    "w3d_ai_clone_plan_80013b6c": "0x80013b6c",
+    "w3d_ai_clone_plan_80013cc8": "0x80013cc8",
+    "w3d_ai_clone_plan_80013e1c": "0x80013e1c",
+    "w3d_ai_clone_plan_80013f70": "0x80013f70",
+    "w3d_ai_clone_plan_800140c4": "0x800140c4",
+    "w3d_ai_clone_plan_80014220": "0x80014220",
+    "w3d_ai_clone_plan_80014374": "0x80014374",
+    "w3d_ai_clone_plan_800144c8": "0x800144c8",
+    "w3d_ai_clone_plan_8001461c": "0x8001461c",
+    "w3d_ai_clone_plan_80014770": "0x80014770",
+    "w3d_ai_clone_plan_800148c4": "0x800148c4",
+    "w3d_ai_clone_plan_80014b74": "0x80014b74",
+    "w3d_ai_clone_plan_80014cc8": "0x80014cc8"
+  },
+  "descriptions": {
+    "w3d_ai_clone_plan_80013a18": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80013b6c": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80013cc8": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80013e1c": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80013f70": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_800140c4": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80014220": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80014374": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_800144c8": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_8001461c": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80014770": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_800148c4": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80014b74": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id.",
+    "w3d_ai_clone_plan_80014cc8": "Copy-constructs a 104-byte AI plan: copies the source but keeps its vtable, resets the score, retains both queue references, then sets class flags, vtable and weapon id."
+  }
+}

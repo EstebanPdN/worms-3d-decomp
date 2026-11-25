@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_frontend_start_8006ba08",
+  "source": "source/matching/game/d24g/d24g_frontend_start_8006ba08.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_frontend_start_8006ba08": "0x8006ba08"
+  },
+  "descriptions": {
+    "w3d_d24g_frontend_start_8006ba08": "Front-end start: prepares, copies the next state to the current, clears FE.ShowMenuBackdrop, trims the menu list at +188 and refills it with the default menu and FE.LanguageSelect when needed, creates eleven part types with the owner id, posts one message if FE.UseMouse is set, posts two menu messages, steps 0x800a7ea0, posts an int message and runs storage maintenance."
+  }
+}

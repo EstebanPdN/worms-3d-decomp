@@ -1,0 +1,31 @@
+{
+  "unit": "b_mesh_animation",
+  "source": "source/matching/game/b_mesh_animation.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_mesh_instance_advance": "0x8018136c",
+    "w3d_mesh_instance_owner_flags": "0x80181478",
+    "w3d_mesh_instance_shutdown": "0x801814ac",
+    "w3d_mesh_instance_find_clip": "0x80181598",
+    "w3d_mesh_instance_play_index": "0x801816d0",
+    "w3d_mesh_instance_check_control": "0x8018179c",
+    "w3d_mesh_instance_control_3c": "0x801817e0",
+    "w3d_mesh_instance_is_playing": "0x80181ccc",
+    "w3d_mesh_instance_control_34": "0x80181d00",
+    "w3d_mesh_instance_clip_length_named": "0x80181d30",
+    "w3d_mesh_instance_clip_length_index": "0x80181de4"
+  },
+  "descriptions": {
+    "w3d_mesh_instance_advance": "Advances the instance's animation time, updates its controller and children, and unregisters it when playback ends.",
+    "w3d_mesh_instance_owner_flags": "Returns the first flag byte reported by the instance's owner object.",
+    "w3d_mesh_instance_shutdown": "Stops and unregisters a mesh instance, detaches it from its owner, and releases its clip, blend and control objects.",
+    "w3d_mesh_instance_find_clip": "Looks up an animation clip by name and stores its index; returns a failure status when no clip matches.",
+    "w3d_mesh_instance_play_index": "Starts an animation clip by index on the controller and registers the instance for updates on first use.",
+    "w3d_mesh_instance_check_control": "Queries the animation controller and returns success only when it reports a nonzero state.",
+    "w3d_mesh_instance_control_3c": "Forwards one call to the animation controller and returns success; its exact role is unclear.",
+    "w3d_mesh_instance_is_playing": "Returns whether the animation controller is still playing (the inverse of its stopped flag).",
+    "w3d_mesh_instance_control_34": "Forwards one call to the animation controller; its exact role is unclear.",
+    "w3d_mesh_instance_clip_length_named": "Returns a named clip's length, or a default value when the clip is not found.",
+    "w3d_mesh_instance_clip_length_index": "Returns the length stored in the clip entry at an index."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_8008e144",
+  "source": "source/matching/game/s8hand_8008e144.c",
+  "language": "c",
+  "functions": {
+    "s8_threshold_event_8008e144": "0x8008e144"
+  },
+  "descriptions": {
+    "s8_threshold_event_8008e144": "Posts a message once when the object delta exceeds its configured threshold and the global state is at most two."
+  }
+}

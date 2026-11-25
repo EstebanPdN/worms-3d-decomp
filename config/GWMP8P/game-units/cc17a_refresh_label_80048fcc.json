@@ -1,0 +1,11 @@
+{
+  "unit": "cc17a_refresh_label_80048fcc",
+  "source": "source/matching/game/cc17a/cc17a_refresh_label_80048fcc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17a_refresh_label_80048fcc": "0x80048fcc"
+  },
+  "descriptions": {
+    "w3d_cc17a_refresh_label_80048fcc": "Create the HUD binding when absent, apply its fixed color and marker mode, and publish the marker position with the original vertical offset."
+  }
+}

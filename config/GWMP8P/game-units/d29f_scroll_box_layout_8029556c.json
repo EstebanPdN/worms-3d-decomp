@@ -1,0 +1,17 @@
+{
+  "unit": "d29f_scroll_box_layout_8029556c",
+  "source": "source/matching/game/d29f/d29f_scroll_box_layout_8029556c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29f_scroll_box_layout_8029556c": "0x8029556c"
+  },
+  "descriptions": {
+    "d29f_scroll_box_layout_8029556c": "Frontend scroll box layout: sizes and positions the box parts and the text from the box dimensions."
+  }
+}

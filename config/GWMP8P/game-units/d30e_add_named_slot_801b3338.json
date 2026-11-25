@@ -1,0 +1,19 @@
+{
+  "unit": "d30e_add_named_slot_801b3338",
+  "source": "source/matching/game/d30e/d30e_add_named_slot_801b3338.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d30e_add_named_slot_801b3338": "0x801b3338"
+  },
+  "descriptions": {
+    "w3d_d30e_add_named_slot_801b3338": "Appends a name string to the vector at +72 through unmodified STLport push_back, grows the compact array at +60 by one and stores the interface in the new slot with reference counting. Returns 0x80070057 for a null name or interface, otherwise 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

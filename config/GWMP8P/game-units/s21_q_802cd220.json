@@ -1,0 +1,11 @@
+{
+  "unit": "s21_q_802cd220",
+  "source": "source/matching/game/s21/s21_q_802cd220.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_repeat_request_802cd220": "0x802cd220"
+  },
+  "descriptions": {
+    "w3d_s21_repeat_request_802cd220": "Appears to run a setup helper and then issue the same request 25 times with a shared global argument."
+  }
+}

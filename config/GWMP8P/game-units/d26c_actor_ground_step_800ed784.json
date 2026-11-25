@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_actor_ground_step_800ed784",
+  "source": "source/matching/game/d26c/d26c_actor_ground_step_800ed784.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_actor_ground_step_800ed784": "0x800ed784"
+  },
+  "descriptions": {
+    "d26c_actor_ground_step_800ed784": "Query 0x800ea748 with position +36 and velocity +48. On a hit call virtual +84 with the returned 64-bit value; otherwise try virtual +64 and on success call virtual +84 with 0x40000000; otherwise run 0x800eaf14."
+  }
+}

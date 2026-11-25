@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_801b5c24",
+  "source": "source/matching/game/k6b/k6b_a_801b5c24.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_register_bounds_bindings_801b5c24": "0x801b5c24"
+  },
+  "descriptions": {
+    "w3d_k6b_register_bounds_bindings_801b5c24": "Appears to create the binding named at 0x803ab078 with the default six-word bounds from 0x8045e690, add the member binding 0x803ab0a8 and finish with 0x801e8d9c."
+  }
+}

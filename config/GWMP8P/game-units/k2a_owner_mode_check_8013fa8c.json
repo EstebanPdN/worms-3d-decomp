@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_owner_mode_check_8013fa8c",
+  "source": "source/matching/game/k2a/k2a_owner_mode_check_8013fa8c.c",
+  "language": "c",
+  "functions": {
+    "k2a_owner_mode_check_8013fa8c": "0x8013fa8c"
+  },
+  "descriptions": {
+    "k2a_owner_mode_check_8013fa8c": "Appears to check whether the worm slot owned by this object has a valid record whose mode field equals one."
+  }
+}

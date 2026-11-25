@@ -1,0 +1,9 @@
+{
+  "unit": "d47j_write_schema_chunk_80204ffc",
+  "source": "source/matching/game/d47j/d47j_write_schema_chunk_80204ffc.cpp",
+  "language": "cpp",
+  "include_dirs": ["source/vendor/stlport-4.5.3/stlport","source/matching/game/d29s/compat","source/matching/game/d29s","source/matching"],
+  "functions": {"d47j_write_schema_chunk_80204ffc": "0x80204ffc"},
+  "descriptions": {"d47j_write_schema_chunk_80204ffc": "Writes the 'SCHM' chunk: a byte-swapped header with version 1 and the entry count, one 8-byte record for each schema entry, then one 8-byte record for each of the entries' typed values. Names and layouts inferred from the original instructions."},
+  "extra_flags": ["-fvtable-thunks"]
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d31b_cube_lattice_8007fa08",
+  "source": "source/matching/game/d31b/d31b_cube_lattice_8007fa08.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31b_cube_lattice_8007fa08": "0x8007fa08"
+  },
+  "descriptions": {
+    "w3d_d31b_cube_lattice_8007fa08": "Cube lattice vertices: for nine top and nine bottom points of a cell and two vertex sets gated by the masks 0x804adb20/0x804adb24, when the point's 16-bit link at +2492 is still 0xffff, builds the position plus lattice and height offset plus rotated offset (+2572, not for the centre), publishes it in 0x80431460, appends grid index, position, uv from the planes +400..+436 with bias +464/+472 and colour, and records the vertex number from +2478 in the link."
+  },
+  "search_window": 24576
+}

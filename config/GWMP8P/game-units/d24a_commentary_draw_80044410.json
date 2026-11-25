@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_commentary_draw_80044410",
+  "source": "source/matching/game/d24a/d24a_commentary_draw_80044410.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_commentary_draw_80044410": "0x80044410"
+  },
+  "descriptions": {
+    "w3d_d24a_commentary_draw_80044410": "When the commentary is enabled (+252) picks one of ten Comment.Draw string properties (0x800fc2b0) from a random number modulo 10 (0x8015ff5c) and plays it (0x80043134) with a copy of the resulting string."
+  }
+}

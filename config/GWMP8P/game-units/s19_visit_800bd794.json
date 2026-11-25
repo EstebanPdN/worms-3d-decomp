@@ -1,0 +1,11 @@
+{
+  "unit": "s19_visit_800bd794",
+  "source": "source/matching/game/s19/s19_visit_800bd794.c",
+  "language": "c",
+  "functions": {
+    "s19_visit_marked_800bd794": "0x800bd794"
+  },
+  "descriptions": {
+    "s19_visit_marked_800bd794": "Appears to walk the global context list with a bit mask over the words at +0x80 and run a helper on each entry whose bit is set."
+  }
+}

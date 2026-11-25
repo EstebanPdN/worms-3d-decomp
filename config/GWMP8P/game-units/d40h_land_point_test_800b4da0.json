@@ -1,0 +1,18 @@
+{
+  "unit": "d40h_land_point_test_800b4da0",
+  "source": "source/matching/game/d40h/d40h_land_point_test_800b4da0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40h"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d40h_land_point_test_800b4da0": "0x800b4da0"
+  },
+  "descriptions": {
+    "d40h_land_point_test_800b4da0": "Tests a point against the land voxel grid with bilinear corner blending and records the hit voxel."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801f74d0",
+  "source": "source/matching/game/k5b/k5b_a_801f74d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_mtx34_from_mtx44_801f74d0": "0x801f74d0"
+  },
+  "descriptions": {
+    "w3d_k5b_mtx34_from_mtx44_801f74d0": "Appears to copy the 3x3 rotation and the translation row of a 4x4 float matrix into a 3x4 matrix with a separate translation vector."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "gensinit_802af9ec",
+  "source": "source/matching/game/generated/gensinit_802af9ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_sinit_802af9ec": "0x802af9ec",
+    "w3d_sinit_802ba1a4": "0x802ba1a4",
+    "w3d_sinit_802c4f30": "0x802c4f30"
+  },
+  "descriptions": {
+    "w3d_sinit_802af9ec": "Static initializer (priority 0xffff): makes 11 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_802ba1a4": "Static initializer (priority 0xffff): makes 11 registration/initialization calls with constant and address arguments.",
+    "w3d_sinit_802c4f30": "Static initializer (priority 0xffff): makes 7 registration/initialization calls with constant and address arguments."
+  }
+}

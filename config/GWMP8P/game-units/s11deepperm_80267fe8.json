@@ -1,0 +1,11 @@
+{
+  "unit": "s11deepperm_80267fe8",
+  "source": "source/matching/game/s11_auto/s11deepperm_80267fe8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80267fe8": "0x80267fe8"
+  },
+  "descriptions": {
+    "w3d_auto_80267fe8": "Appears to calls 0x802b16c4, 0x8026710c, 0x80268568. m2c types and names are provisional."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_crc_table_initialize_8021d70c",
+  "source": "source/matching/game/cx12b/cx12b_crc_table_initialize_8021d70c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_crc_table_initialize_8021d70c": "0x8021d70c"
+  },
+  "descriptions": {
+    "w3d_cx12b_crc_table_initialize_8021d70c": "Build the 256-entry reflected CRC table using the observed bit-transform helper and polynomial 0x04c11db7."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f5c_write_uuid_80204250",
+  "source": "source/matching/game/f5c/f5c_write_uuid_80204250.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5c_write_uuid_80204250": "0x80204250"
+  },
+  "descriptions": {
+    "f5c_write_uuid_80204250": "Copy an observed sixteen-byte record, byte-swap its first word and following two halfwords while preserving the final eight bytes, then forward all sixteen bytes to the witnessed stream helper. UUID role, names and record type inferred."
+  }
+}

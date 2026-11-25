@@ -1,0 +1,11 @@
+{
+  "unit": "cc36a_transform_cache_800b8cf0",
+  "source": "source/matching/game/cc36a/cc36a_transform_cache_800b8cf0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc36a_transform_cache_800b8cf0": "0x800b8cf0"
+  },
+  "descriptions": {
+    "cc36a_transform_cache_800b8cf0": "Compose two stored transforms with the input and cache the inverse of the first composed transform."
+  }
+}

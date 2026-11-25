@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_command_registry_destroy_800310b0",
+  "source": "source/matching/game/k10a/k10a_command_registry_destroy_800310b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_command_registry_destroy_800310b0": "0x800310b0"
+  },
+  "descriptions": {
+    "w3d_k10a_command_registry_destroy_800310b0": "Appears to be the destructor of a service-derived registry that releases about a hundred held interfaces, storage blocks and several member objects."
+  }
+}

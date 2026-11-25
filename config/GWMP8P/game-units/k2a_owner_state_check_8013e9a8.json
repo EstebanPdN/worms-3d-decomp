@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_owner_state_check_8013e9a8",
+  "source": "source/matching/game/k2a/k2a_owner_state_check_8013e9a8.c",
+  "language": "c",
+  "functions": {
+    "k2a_owner_state_check_8013e9a8": "0x8013e9a8"
+  },
+  "descriptions": {
+    "k2a_owner_state_check_8013e9a8": "Appears to check whether the worm slot owned by this object is valid, has kind ten and a state of ten, twelve or thirteen."
+  }
+}

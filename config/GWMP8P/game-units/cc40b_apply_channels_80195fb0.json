@@ -1,0 +1,11 @@
+{
+  "unit": "cc40b_apply_channels_80195fb0",
+  "source": "source/matching/game/cc40b/cc40b_apply_channels_80195fb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc40b_apply_channels_80195fb0": "0x80195fb0"
+  },
+  "descriptions": {
+    "cc40b_apply_channels_80195fb0": "Applies selected channel samples to indexed float outputs, preserving the signed flag test, low unsigned 16-bit output index, unsigned sample selector, zero-selector fallback and original do/while behavior. Partial entry/payload/sample views and field names inferred from original offsets; external default and referenced storage remain unowned."
+  }
+}

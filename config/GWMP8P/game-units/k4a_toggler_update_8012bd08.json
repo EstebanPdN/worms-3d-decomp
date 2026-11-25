@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_toggler_update_8012bd08",
+  "source": "source/matching/game/k4a/k4a_toggler_update_8012bd08.c",
+  "language": "c",
+  "functions": {
+    "k4a_toggler_update_8012bd08": "0x8012bd08"
+  },
+  "descriptions": {
+    "k4a_toggler_update_8012bd08": "Appears to enable or disable a held interface depending on a mode query of its source, then run a follow-up helper and return 0."
+  }
+}

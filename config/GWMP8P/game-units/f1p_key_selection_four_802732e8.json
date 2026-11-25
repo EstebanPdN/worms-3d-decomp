@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_key_selection_four_802732e8",
+  "source": "source/matching/game/f1p/f1p_key_selection_four_802732e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_key_selection_four_802732e8": "0x802732e8"
+  },
+  "descriptions": {
+    "w3d_key_selection_four_802732e8": "Handles key 27 through 0x80275f18; searches the two original key strings and maps offsets zero through three to selection messages 20 through 23 through 0x802761b8. Inferred role; original instruction order."
+  }
+}

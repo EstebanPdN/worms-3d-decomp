@@ -1,0 +1,20 @@
+{
+  "unit": "d24f_timed_record_sweep_80345330",
+  "source": "source/matching/game/d24f/d24f_timed_record_sweep_80345330.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching/game/d24f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d24f_timed_record_sweep_80345330": "0x80345330"
+  },
+  "descriptions": {
+    "d24f_timed_record_sweep_80345330": "Walks the record vector: each record whose due word at +4 is not above the limit fires (table slot at +8), posts the current message (0x8016239c), is appended to the destination vector if flag 0x8000 of the object at 0x804b1788 (+188) is set, growing through 0x80212fd4/0x803413d8 when full, and is erased with a tail move. Records hold two extra words and install table 0x804104d0."
+  }
+}

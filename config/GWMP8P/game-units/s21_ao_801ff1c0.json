@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ao_801ff1c0",
+  "source": "source/matching/game/s21/s21_ao_801ff1c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_double_to_text_801ff1c0": "0x801ff1c0"
+  },
+  "descriptions": {
+    "w3d_s21_double_to_text_801ff1c0": "Appears to pass a double read through a pointer to a text conversion helper for the output string, returning its result."
+  }
+}

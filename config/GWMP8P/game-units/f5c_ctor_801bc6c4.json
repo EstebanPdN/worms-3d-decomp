@@ -1,0 +1,11 @@
+{
+  "unit": "f5c_ctor_801bc6c4",
+  "source": "source/matching/game/f5c/f5c_ctor_801bc6c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5c_ctor_801bc6c4": "0x801bc6c4"
+  },
+  "descriptions": {
+    "f5c_ctor_801bc6c4": "Call the witnessed base initializer, install the original table, construct the observed vector subobject through its external C++ constructor, copy nine rotation words and three position words from the original matrix object, and clear the final word. Names, matrix/vector roles, owner layout and unknown padding inferred."
+  }
+}

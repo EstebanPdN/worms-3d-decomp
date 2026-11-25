@@ -1,0 +1,13 @@
+{
+  "unit": "s4_card_text",
+  "source": "source/matching/game/s4_card_text.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_format_text": "0x8028a1c0",
+    "w3d_s4_card_replace_marker": "0x8028a31c"
+  },
+  "descriptions": {
+    "w3d_s4_card_format_text": "Formats card text and substitutes the load/save, slot, and block-count markers.",
+    "w3d_s4_card_replace_marker": "Replaces the first occurrence of a marker while preserving the surrounding input text."
+  }
+}

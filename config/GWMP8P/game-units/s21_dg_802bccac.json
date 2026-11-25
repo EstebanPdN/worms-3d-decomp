@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dg_802bccac",
+  "source": "source/matching/game/s21/s21_dg_802bccac.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_positions_802bccac": "0x802bccac"
+  },
+  "descriptions": {
+    "w3d_s21_set_positions_802bccac": "Appears to copy two three-float vectors into the object at offsets 32 and 44 and call a follow-up helper when the mode field at offset 80 equals one."
+  }
+}

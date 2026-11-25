@@ -1,0 +1,14 @@
+{
+  "unit": "d24a_camera_manager_message_80031bb4",
+  "source": "source/matching/game/d24a/d24a_camera_manager_message_80031bb4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_camera_manager_message_80031bb4": "0x80031bb4"
+  },
+  "descriptions": {
+    "w3d_d24a_camera_manager_message_80031bb4": "Message 64 runs the base handler (0x8016293c; negative returns 0x80004005) and start-up 0x8003379c; message 66 runs 0x80035388. Otherwise forwards the message to the current camera (virtual +28 of its interface at +72) and dispatches cached ids: slot forwarding (0x800fd4c8), spectator and network slots (0x800a7e14), camera mode changes (0x80035714), shake (0x800364d0, 0x800368ac, 0x8003694c), flags and counters of the input states at +728 and +596. The base handler runs at the end of every path."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

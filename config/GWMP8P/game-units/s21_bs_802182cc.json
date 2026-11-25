@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bs_802182cc",
+  "source": "source/matching/game/s21/s21_bs_802182cc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_802182cc": "0x802182cc"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_802182cc": "Appears to install a vtable pointer, clear a global singleton pointer and forward to the base destructor helper."
+  }
+}

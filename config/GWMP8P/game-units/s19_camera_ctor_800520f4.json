@@ -1,0 +1,11 @@
+{
+  "unit": "s19_camera_ctor_800520f4",
+  "source": "source/matching/game/s19/s19_camera_ctor_800520f4.c",
+  "language": "c",
+  "functions": {
+    "s19_camera_ctor_800520f4": "0x800520f4"
+  },
+  "descriptions": {
+    "s19_camera_ctor_800520f4": "Appears to construct a shoulder camera: calls the base constructor with the name Shoulder, installs a vtable, clears +0xd0 and registers the name ShoulderCamera."
+  }
+}

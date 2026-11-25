@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_worm_reaction_animation_8013ff58",
+  "source": "source/matching/game/cc20a/cc20a_worm_reaction_animation_8013ff58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_worm_reaction_animation_8013ff58": "0x8013ff58"
+  },
+  "descriptions": {
+    "w3d_cc20a_worm_reaction_animation_8013ff58": "For a matching non-current worm with a playing mesh animation, selects one of four observed named animations using two random bits and updates the animation state through the common playback helper."
+  }
+}

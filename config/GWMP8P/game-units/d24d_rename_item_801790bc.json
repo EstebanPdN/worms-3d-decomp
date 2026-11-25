@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_rename_item_801790bc",
+  "source": "source/matching/game/d24d/d24d_rename_item_801790bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_rename_item_801790bc": "0x801790bc"
+  },
+  "descriptions": {
+    "d24d_rename_item_801790bc": "If the data record's shared name (+28) already equals the text returns 1; otherwise replaces it with a string built from the text, destroys the string, calls the refresh routine 0x80178b5c and returns 0."
+  }
+}

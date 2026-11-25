@@ -1,0 +1,35 @@
+{
+  "unit": "genparamc_8002b62c",
+  "source": "source/matching/game/generated/genparamc_8002b62c.c",
+  "language": "c",
+  "functions": {
+    "w3d_release_interface_8002b62c": "0x8002b62c",
+    "w3d_release_interface_800382a8": "0x800382a8",
+    "w3d_release_interface_8009af9c": "0x8009af9c",
+    "w3d_release_interface_800bf2d4": "0x800bf2d4",
+    "w3d_format_value_801fec2c": "0x801fec2c",
+    "w3d_format_value_801fed48": "0x801fed48",
+    "w3d_format_value_801ff448": "0x801ff448",
+    "w3d_format_value_801ff694": "0x801ff694",
+    "w3d_forward_to_member_802013c8": "0x802013c8",
+    "w3d_forward_to_member_80201400": "0x80201400",
+    "w3d_forward_to_member_802015c0": "0x802015c0",
+    "w3d_forward_to_member_802015f8": "0x802015f8",
+    "w3d_forward_to_member_80201698": "0x80201698"
+  },
+  "descriptions": {
+    "w3d_release_interface_8002b62c": "Releases the interface held at a fixed field (virtual release) if present and clears the field.",
+    "w3d_release_interface_800382a8": "Releases the interface held at a fixed field (virtual release) if present and clears the field.",
+    "w3d_release_interface_8009af9c": "Releases the interface held at a fixed field (virtual release) if present and clears the field.",
+    "w3d_release_interface_800bf2d4": "Releases the interface held at a fixed field (virtual release) if present and clears the field.",
+    "w3d_format_value_801fec2c": "Formats the integer pointed to by the third argument into the output string with a fixed format and returns zero.",
+    "w3d_format_value_801fed48": "Formats the integer pointed to by the third argument into the output string with a fixed format and returns zero.",
+    "w3d_format_value_801ff448": "Formats the integer pointed to by the third argument into the output string with a fixed format and returns zero.",
+    "w3d_format_value_801ff694": "Formats the integer pointed to by the third argument into the output string with a fixed format and returns zero.",
+    "w3d_forward_to_member_802013c8": "Forwards the argument to a virtual method of the object held at a fixed field, with two constant extra arguments, and returns its result.",
+    "w3d_forward_to_member_80201400": "Forwards the argument to a virtual method of the object held at a fixed field, with two constant extra arguments, and returns its result.",
+    "w3d_forward_to_member_802015c0": "Forwards the argument to a virtual method of the object held at a fixed field, with two constant extra arguments, and returns its result.",
+    "w3d_forward_to_member_802015f8": "Forwards the argument to a virtual method of the object held at a fixed field, with two constant extra arguments, and returns its result.",
+    "w3d_forward_to_member_80201698": "Forwards the argument to a virtual method of the object held at a fixed field, with two constant extra arguments, and returns its result."
+  }
+}

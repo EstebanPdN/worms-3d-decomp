@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_a27_release_trail",
+  "source": "source/matching/game/tterra_a27/tterra_a27_release_trail.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_a27_release_trail_800cd990": "0x800cd990"
+  },
+  "descriptions": {
+    "tterra_a27_release_trail_800cd990": "Looks up and flags the trail referenced by the external object handle at byte 32, then resets the handle to minus one."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc18b_handle_key_80277c14",
+  "source": "source/matching/game/cc18b/cc18b_handle_key_80277c14.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18b_handle_key_80277c14": "0x80277c14"
+  },
+  "descriptions": {
+    "w3d_cc18b_handle_key_80277c14": "Handles escape or maps the input character through either key set, then dispatches its observed command ID with the current selection."
+  }
+}

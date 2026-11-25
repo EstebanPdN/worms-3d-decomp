@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d4_initialize_strings_80222db8",
+  "source": "source/matching/game/sol35d4/sol35d4_initialize_strings_80222db8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d4_initialize_strings_80222db8": "0x80222db8"
+  },
+  "descriptions": {
+    "w3d_sol35d4_initialize_strings_80222db8": "Create each independently witnessed native binding in original order, copy shared-string defaults with genuine scoped C++ lifetimes and retain-before-release assignment, finalize and return zero. Names and partial GC32 layouts remain inferred."
+  }
+}

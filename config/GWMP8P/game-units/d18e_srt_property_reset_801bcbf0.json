@@ -1,0 +1,12 @@
+{
+  "unit": "d18e_srt_property_reset_801bcbf0",
+  "source": "source/matching/game/d18e/d18e_srt_property_reset_801bcbf0.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18e_reset_srt_801bcbf0": "0x801bcbf0"
+  },
+  "descriptions": {
+    "w3d_d18e_reset_srt_801bcbf0": "Looks up the Translate, Rotate and Scale vector properties (binding helper 0x801f0210), sets Translate and Rotate to (0,0,0) and Scale to (1,1,1) in the three-float values at +8, registers the RotateOrder member property (0x801ece2c), calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

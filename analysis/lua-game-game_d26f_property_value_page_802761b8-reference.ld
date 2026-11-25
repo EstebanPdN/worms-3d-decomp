@@ -1,0 +1,90 @@
+/* Generated reference-only placements. All bodies are source-built. */
+OUTPUT_FORMAT("elf32-powerpc")
+OUTPUT_ARCH(powerpc)
+ENTRY(d26f_property_value_page_802761b8)
+_SDA_BASE_ = 0x804b2540;
+_SDA2_BASE_ = 0x804c2540;
+__17D26fText_803426b8 = 0x803426b8;
+lbl_803cc0d8 = 0x803cc0d8;
+lbl_803cde24 = 0x803cde24;
+lbl_803cde3c = 0x803cde3c;
+lbl_803cde54 = 0x803cde54;
+lbl_803cde68 = 0x803cde68;
+lbl_803cde80 = 0x803cde80;
+lbl_803cdeb8 = 0x803cdeb8;
+lbl_803cdec4 = 0x803cdec4;
+lbl_803cded0 = 0x803cded0;
+lbl_803cdedc = 0x803cdedc;
+lbl_803cdee8 = 0x803cdee8;
+lbl_803cdf10 = 0x803cdf10;
+lbl_803cdf14 = 0x803cdf14;
+lbl_803cdf18 = 0x803cdf18;
+lbl_803cdf1c = 0x803cdf1c;
+lbl_803cdf50 = 0x803cdf50;
+lbl_803cdf84 = 0x803cdf84;
+lbl_803cdfb8 = 0x803cdfb8;
+lbl_803cdfec = 0x803cdfec;
+lbl_803ce014 = 0x803ce014;
+lbl_803ce020 = 0x803ce020;
+lbl_803ce048 = 0x803ce048;
+lbl_803ce05c = 0x803ce05c;
+lbl_803ce06c = 0x803ce06c;
+lbl_803ce084 = 0x803ce084;
+lbl_803ce094 = 0x803ce094;
+lbl_803ce09c = 0x803ce09c;
+lbl_803ce0a8 = 0x803ce0a8;
+lbl_803ce0b4 = 0x803ce0b4;
+lbl_803ce0c0 = 0x803ce0c0;
+lbl_803ce0c8 = 0x803ce0c8;
+lbl_803ce0e0 = 0x803ce0e0;
+lbl_803ce0f4 = 0x803ce0f4;
+lbl_803ce114 = 0x803ce114;
+lbl_803ce120 = 0x803ce120;
+lbl_803ce130 = 0x803ce130;
+lbl_803ce140 = 0x803ce140;
+lbl_803ce150 = 0x803ce150;
+lbl_803ce164 = 0x803ce164;
+lbl_803ce174 = 0x803ce174;
+lbl_803ce184 = 0x803ce184;
+lbl_803ce198 = 0x803ce198;
+lbl_803ce1a8 = 0x803ce1a8;
+lbl_803ce1c0 = 0x803ce1c0;
+lbl_803ce1d4 = 0x803ce1d4;
+lbl_803ce1e4 = 0x803ce1e4;
+lbl_803ce1f8 = 0x803ce1f8;
+lbl_803ce208 = 0x803ce208;
+lbl_803ce21c = 0x803ce21c;
+lbl_803ce238 = 0x803ce238;
+lbl_803ce25c = 0x803ce25c;
+lbl_803ce264 = 0x803ce264;
+lbl_803ce270 = 0x803ce270;
+lbl_803ce284 = 0x803ce284;
+lbl_803ce2d0 = 0x803ce2d0;
+lbl_803ce2e4 = 0x803ce2e4;
+lbl_803ce300 = 0x803ce300;
+lbl_803ce314 = 0x803ce314;
+lbl_803ce32c = 0x803ce32c;
+lbl_803ce340 = 0x803ce340;
+lbl_8045e23c = 0x8045e23c;
+strcmp = 0x802ef234;
+w3d_auto_801ffea8 = 0x801ffea8;
+w3d_auto_801fffc8 = 0x801fffc8;
+w3d_auto_802cbf2c = 0x802cbf2c;
+w3d_auto_802cbf68 = 0x802cbf68;
+w3d_auto_802cbfa4 = 0x802cbfa4;
+w3d_auto_802cd128 = 0x802cd128;
+w3d_cc32b_append_lines_v2_802cc0ac = 0x802cc0ac;
+w3d_cx7b_script_flag_set_8027a934 = 0x8027a934;
+w3d_dtor_node_8020d36c = 0x8020d36c;
+w3d_k8c_log_float_802cc2d8 = 0x802cc2d8;
+w3d_registry_retain_8020d2b8 = 0x8020d2b8;
+w3d_s21_repeat_request_802cd220 = 0x802cd220;
+w3d_s21_sink_write_indexed_802cbdf8 = 0x802cbdf8;
+w3d_s21_vector_get_801e9db8 = 0x801e9db8;
+w3d_string_base_finish = 0x8020c5c4;
+w3d_string_release = 0x80341588;
+w3d_tagged_construct_8020d318 = 0x8020d318;
+SECTIONS {
+  .text.d26f_property_value_page_802761b8 0x802761b8 : { *(.text.d26f_property_value_page_802761b8) }
+  /DISCARD/ : { *(.text*) *(.rodata*) *(.data*) *(.bss*) *(.sdata*) *(.sbss*) *(.comment) }
+}

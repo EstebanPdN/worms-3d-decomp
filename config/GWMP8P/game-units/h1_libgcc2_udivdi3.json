@@ -1,0 +1,11 @@
+{
+  "unit": "h1_libgcc2_udivdi3",
+  "source": "source/matching/game/h1/h1_libgcc2_udivdi3.c",
+  "language": "c",
+  "functions": {
+    "__udivdi3": "0x802f4460"
+  },
+  "descriptions": {
+    "__udivdi3": "libgcc2 __udivdi3: unsigned 64-bit division through the inlined __udivmoddi4 (normalizing long division with 16-bit digit steps)."
+  }
+}

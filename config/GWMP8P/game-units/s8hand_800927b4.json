@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800927b4",
+  "source": "source/matching/game/s8hand_800927b4.c",
+  "language": "c",
+  "functions": {
+    "s8_attach_object_800927b4": "0x800927b4"
+  },
+  "descriptions": {
+    "s8_attach_object_800927b4": "Appears to configure an object and replace three retained interfaces, releasing their previous values."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_indexed_assign_80348bd0",
+  "source": "source/matching/game/cx8c/cx8c_indexed_assign_80348bd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_indexed_assign_80348bd0": "0x80348bd0"
+  },
+  "descriptions": {
+    "w3d_cx8c_indexed_assign_80348bd0": "Reserves a record reference array, retains the incoming interface, releases the old indexed interface, and stores the replacement."
+  }
+}

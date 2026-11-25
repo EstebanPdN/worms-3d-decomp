@@ -1,0 +1,15 @@
+{
+  "unit": "d27h_jetpack_camera_ctor_800ac588",
+  "source": "source/matching/game/d27h/d27h_jetpack_camera_ctor_800ac588.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27h_jetpack_camera_ctor_800ac588": "0x800ac588"
+  },
+  "descriptions": {
+    "d27h_jetpack_camera_ctor_800ac588": "Jetpack camera constructor: runs the base constructor 0x8015a0d4 with kind 9, sets the table pointer at +72, clears the retained references +76..+128, resolves the 14 Camera.Jetpack settings into them and returns self."
+  }
+}

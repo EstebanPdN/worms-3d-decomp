@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_actor_ground_arrive_800d911c",
+  "source": "source/matching/game/d26c/d26c_actor_ground_arrive_800d911c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_actor_ground_arrive_800d911c": "0x800d911c"
+  },
+  "descriptions": {
+    "d26c_actor_ground_arrive_800d911c": "Step through 0x800b0824. Return when the current frame is past the planned time, or equal unless the plan is -1. Otherwise set the message id and the time, post the 8-byte tick message, make sure the global table is ready (0x800bd920), copy and normalize the global direction, copy the global up vector, call virtual +48 with time plus +368, and copy the global stamp to +360 and +364."
+  }
+}

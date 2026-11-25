@@ -1,0 +1,14 @@
+{
+  "unit": "d18c_sky_moon_load_801058f0",
+  "source": "source/matching/game/d18c/d18c_sky_moon_load_801058f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d18c_sky_moon_load_801058f0": "0x801058f0"
+  },
+  "descriptions": {
+    "d18c_sky_moon_load_801058f0": "For the first of four sky table entries with a cloud entry whose moon entry names the given sky, load its moon layer node into +44, set unit scale and the shared moon position, and for \"ARCTIC.NIGHTSky\" play the looping borealis clip on the node through a retained reference."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

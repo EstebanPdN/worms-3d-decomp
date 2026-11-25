@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a10_request_pair_80015f80",
+  "source": "source/matching/game/sol35a10/sol35a10_request_pair_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a10_request_pair_80015f80": "0x80015f80"
+  },
+  "descriptions": {
+    "sol35a10_request_pair_80015f80": "Test the ready byte through a boolean accessor; when clear, use the indexed external specification to construct two 48-byte markers, cache the first, and append the second to independent typed byte-growth storage. Original constructor and native index/call witnesses retained."
+  }
+}

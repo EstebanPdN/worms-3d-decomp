@@ -1,0 +1,11 @@
+{
+  "unit": "s11assign_8026da58",
+  "source": "source/matching/game/s11_auto/s11assign_8026da58.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8026da58": "0x8026da58"
+  },
+  "descriptions": {
+    "w3d_auto_8026da58": "Appears to calls 0x800f339c, 0x800f342c, 0x80162c18, 0x8020bd38; accesses fields at 0x10, 0x44, 0x4C, 0x74, 0xC4, 0x60. m2c types and names are provisional."
+  }
+}

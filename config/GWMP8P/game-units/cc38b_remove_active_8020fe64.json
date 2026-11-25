@@ -1,0 +1,11 @@
+{
+  "unit": "cc38b_remove_active_8020fe64",
+  "source": "source/matching/game/cc38b/cc38b_remove_active_8020fe64.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38b_remove_active_8020fe64": "0x8020fe64"
+  },
+  "descriptions": {
+    "cc38b_remove_active_8020fe64": "Conditionally notifies external service then removes node from flag-selected intrusive list, preserving head/interior cases and clearing next even when absent. Original conditional flags/callback order preserved. Globals unowned; names/partial views inferred."
+  }
+}

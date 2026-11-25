@@ -1,0 +1,16 @@
+{
+  "unit": "d27a_fade_out_update_80043f00",
+  "source": "source/matching/game/d27a/d27a_fade_out_update_80043f00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_fade_out_update_80043f00": "0x80043f00"
+  },
+  "descriptions": {
+    "w3d_d27a_fade_out_update_80043f00": "Starting from the colour at +48, if the time since +88 is past 0x804aa97c, it clears +64, stores the time in +88 and sets the position to 0x80427468. Otherwise it lerps the position from 0x80427468 to 0x8042745c by a sine of the elapsed fraction, and lerps +32 to +48 by the clamped fraction, clamping each channel to 0..1. Then it finds the object by handle +68, sets the position through a virtual call, converts the colour to bytes and passes it to 0x8011adf8."
+  },
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast",
+    "-fvtable-thunks"
+  ]
+}

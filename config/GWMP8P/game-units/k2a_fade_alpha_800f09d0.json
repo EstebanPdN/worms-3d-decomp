@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_fade_alpha_800f09d0",
+  "source": "source/matching/game/k2a/k2a_fade_alpha_800f09d0.c",
+  "language": "c",
+  "functions": {
+    "k2a_fade_alpha_800f09d0": "0x800f09d0"
+  },
+  "descriptions": {
+    "k2a_fade_alpha_800f09d0": "Appears to compute a byte alpha from elapsed time over a duration, scaled to a full value, either forward or reversed."
+  }
+}

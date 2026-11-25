@@ -1,0 +1,14 @@
+{
+  "unit": "d29j_diagnose_gp_hang_801683c4",
+  "source": "source/matching/game/d29j/d29j_diagnose_gp_hang_801683c4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29j"
+  ],
+  "functions": {
+    "d29j_diagnose_gp_hang_801683c4": "0x801683c4"
+  },
+  "descriptions": {
+    "d29j_diagnose_gp_hang_801683c4": "Diagnose a graphics processor hang from two counter samples and the GP status (Nintendo DEMO __DEMODiagnoseHang)."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_timer_advance_800d4734",
+  "source": "source/matching/game/g1c/g1c_timer_advance_800d4734.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_timer_advance_800d4734": "0x800d4734"
+  },
+  "descriptions": {
+    "g1c_timer_advance_800d4734": "Resolve the original external timer configuration, decrease remaining value toward its threshold at rate*step, carry only unused step after crossing that threshold, then add that step to the timer and cap at configuration maximum using the native reference-returning minimum operation. Float temporaries are complete native scalar locals; receiver/configuration are external prefix views and never constructed. Original zero constant stays external."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801a4c8c",
+  "source": "source/matching/game/k4b/k4b_a_801a4c8c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_visit_prepared_item_801a4c8c": "0x801a4c8c"
+  },
+  "descriptions": {
+    "w3d_k4b_visit_prepared_item_801a4c8c": "Appears to prepare an item when its flag bit two is set, then dispatch it through the handler slot named by a global type descriptor."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_setup_stream_chain_801db478",
+  "source": "source/matching/game/d31e/d31e_setup_stream_chain_801db478.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_setup_stream_chain_801db478": "0x801db478"
+  },
+  "descriptions": {
+    "w3d_d31e_setup_stream_chain_801db478": "Builds a sound object's stream chain. With a source at +104, creates the object of class 0x80416cb8, initializes it, keeps its output in the reference at +172 and appends it to the list at +48, returning any error. If +116 is set and the mode at +108 is 0 or 1, creates the player of class 0x80416e78, initializes it, connects the output through 0x801e344c, and appends it. Otherwise sets +176. Returns the last result. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

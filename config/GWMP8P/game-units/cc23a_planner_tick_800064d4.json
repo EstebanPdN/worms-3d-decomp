@@ -1,0 +1,11 @@
+{
+  "unit": "cc23a_planner_tick_800064d4",
+  "source": "source/matching/game/cc23a/cc23a_planner_tick_800064d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_planner_tick_800064d4": "0x800064d4"
+  },
+  "descriptions": {
+    "cc23a_planner_tick_800064d4": "Advance seven planner states: initialize or release subsystems, prepare inventory, wait, create and queue a base plan, then poll, score or execute. Observed full-width state and float time; meanings inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d15a_angle_messages_80026c40",
+  "source": "source/matching/game/d15a/d15a_angle_messages_80026c40.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d15a_angle_messages_80026c40": "0x80026c40"
+  },
+  "descriptions": {
+    "w3d_d15a_angle_messages_80026c40": "Angle-limit controller message handler: message 64 forwards to the base handler and initializes on success (else returns 0x80004005), message 66 notifies and forwards; other ids matched against six cached messages save both channel values and set them to -pi/2 and +pi/2, set either limit flag on or off, or forward a queried nonzero value; unmatched messages go to the base handler."
+  }
+}

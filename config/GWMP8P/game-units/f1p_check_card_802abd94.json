@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_check_card_802abd94",
+  "source": "source/matching/game/f1p/f1p_check_card_802abd94.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_check_card_802abd94": "0x802abd94"
+  },
+  "descriptions": {
+    "w3d_check_card_802abd94": "Call the original card-check helper with a command-dependent flag, store and reload its status, map observed status/command combinations to the original state codes, and issue the witnessed file/line diagnostic for unexpected commands. State roles and volatile access view inferred."
+  }
+}

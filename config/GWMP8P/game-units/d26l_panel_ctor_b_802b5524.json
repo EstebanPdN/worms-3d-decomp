@@ -1,0 +1,14 @@
+{
+  "unit": "d26l_panel_ctor_b_802b5524",
+  "source": "source/matching/game/d26l/d26l_panel_ctor_b_802b5524.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26l_panel_ctor_b_802b5524": "0x802b5524"
+  },
+  "descriptions": {
+    "d26l_panel_ctor_b_802b5524": "Runs the two base constructors, installs vtables 0x8041c740 at +208 and 0x8041c790 at +0, clears the scalar words, the arrays at +316 (2), +324, +336, +348 (3 each), the count+pair records at +360 and +372, and the pairs at +384 and +392. Sets the floats to 0.0 and +312 to 100.0, releases the object held at +280 if any (slot +16) and nulls it. Returns the object. Built with -mps-float: the unflagged build differs by the 8-byte frame gap only."
+  }
+}

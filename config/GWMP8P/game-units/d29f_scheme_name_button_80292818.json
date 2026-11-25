@@ -1,0 +1,15 @@
+{
+  "unit": "d29f_scheme_name_button_80292818",
+  "source": "source/matching/game/d29f/d29f_scheme_name_button_80292818.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29f_scheme_name_button_80292818": "0x80292818"
+  },
+  "descriptions": {
+    "d29f_scheme_name_button_80292818": "Scheme name button handler: finds a new numbered name or validates the current name and publishes the validity flag."
+  }
+}

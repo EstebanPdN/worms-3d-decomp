@@ -1,0 +1,11 @@
+{
+  "unit": "cc41a_refresh_group_8017d294",
+  "source": "source/matching/game/cc41a/cc41a_refresh_group_8017d294.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc41a_refresh_group_8017d294": "0x8017d294"
+  },
+  "descriptions": {
+    "cc41a_refresh_group_8017d294": "Clear the dirty flag for the selected byte group, refresh matching active items across 1920 slots, retain the last negative status, then reset the addressed control and end the operation."
+  }
+}

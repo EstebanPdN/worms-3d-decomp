@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_energy_bar_set_team_80064384",
+  "source": "source/matching/game/d24g/d24g_energy_bar_set_team_80064384.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_energy_bar_set_team_80064384": "0x80064384"
+  },
+  "descriptions": {
+    "w3d_d24g_energy_bar_set_team_80064384": "Selects the energy bar team: when the team colour at +60 of the team record differs from the stored one, stores the team and colour, fills the +36 text with the team name and opaque black, reloads the bar texture HUD.TeamEnergy{P,G,B,R,Y,C} into +28, relays it, and updates the layout and vectors."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_trim_regions_802150b0",
+  "source": "source/matching/game/g5c/g5c_trim_regions_802150b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_trim_regions_802150b0": "0x802150b0"
+  },
+  "descriptions": {
+    "g5c_trim_regions_802150b0": "Trims external runtime heap regions after consolidating pending blocks through80213f98. Applies the original non-direct guard, walks saved next-region links, detects a free tail through its boundary flag/backlink, unlinks it from the size tree or small-bin chain, and invokes release slot4 of the observed80400768 callback table. Recomputes remaining tail size after a successful release and returns any remainder to its pending-size bucket. Clears the guard and returns zero; an active non-direct guard returns minus1. All heap, region and variable block accesses are external32-bit metadata views; no local aggregate or initialized data is owned. Names and trimming roles are inferred."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d18e_transform_property_reset_8024f6fc",
+  "source": "source/matching/game/d18e/d18e_transform_property_reset_8024f6fc.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18e_reset_flagged_transform_8024f6fc": "0x8024f6fc",
+    "w3d_d18e_reset_typed_transform_8024f990": "0x8024f990"
+  },
+  "descriptions": {
+    "w3d_d18e_reset_flagged_transform_8024f6fc": "Adds the Flags link descriptor (0x801ebf38), looks up the Position, Size and Orientation vector properties (binding helper 0x801f0210), sets each three-float value at +8 to the constant at 0x803c56c4 (0.0f), calls the refresh routine 0x801e8d9c and returns 0.",
+    "w3d_d18e_reset_typed_transform_8024f990": "Looks up the Position, Size and Orientation vector properties (binding helper 0x801f0210), sets each three-float value at +8 to the constant at 0x803c5768 (0.0f), registers the Type property (0x801eb834), calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

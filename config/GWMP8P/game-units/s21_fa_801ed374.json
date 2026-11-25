@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fa_801ed374",
+  "source": "source/matching/game/s21/s21_fa_801ed374.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_write_text_801ed374": "0x801ed374"
+  },
+  "descriptions": {
+    "w3d_s21_write_text_801ed374": "Appears to build a temporary string from a text and pass it to a bound member-function pointer called on the target object, returning zero."
+  }
+}

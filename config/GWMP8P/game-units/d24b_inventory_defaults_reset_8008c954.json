@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_inventory_defaults_reset_8008c954",
+  "source": "source/matching/game/d24b/d24b_inventory_defaults_reset_8008c954.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_inventory_defaults_reset_8008c954": "0x8008c954"
+  },
+  "descriptions": {
+    "w3d_d24b_inventory_defaults_reset_8008c954": "Inventory defaults reset: loads Inventory.Worm.Default, Inventory.Team.Default, Inventory.Alliance.Default, Inventory.WeaponDelays.Default and Inventory.WeaponDelays through one handle (0x800fc1b0, 0x80341584, cast 0x80179598) keeping them retained to the end, clears the defaults (0x8025ca78, 0x8025c2d8), and propagates the default tags (0x800fc330, 0x801ea4c8) to the live delays, the sixteen worm (0x800fca64), four team (0x800fcc9c) and four alliance (0x800fcdb8) inventories."
+  }
+}

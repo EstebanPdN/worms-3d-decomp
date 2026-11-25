@@ -1,0 +1,11 @@
+{
+  "unit": "g4b_propagate_schema_801e7270",
+  "source": "source/matching/game/g4b/g4b_propagate_schema_801e7270.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4b_propagate_schema_801e7270": "0x801e7270"
+  },
+  "descriptions": {
+    "g4b_propagate_schema_801e7270": "Propagates a schema slot value to active direct descendants whose state is zero. Preserves state1 and conditional state2 slots; stores value/state before recursively visiting descriptors selected by owner equality. Native iterators retain owner/cursor/two high flag bits and skip unrelated descriptors, with pending-chain fallback represented as in original instructions. External receiver and descriptor views are partial and never locally constructed; no owned data."
+  }
+}

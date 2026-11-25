@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_panel_text_line_802b509c",
+  "source": "source/matching/game/d27l/d27l_panel_text_line_802b509c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_panel_text_line_802b509c": "0x802b509c"
+  },
+  "descriptions": {
+    "d27l_panel_text_line_802b509c": "Selects one backslash-separated line of the panel's text, resolves it and displays it."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_transform_sphere_801f5214",
+  "source": "source/matching/game/d24e/d24e_transform_sphere_801f5214.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_transform_sphere_801f5214": "0x801f5214"
+  },
+  "descriptions": {
+    "w3d_d24e_transform_sphere_801f5214": "Transforms a sphere by a 4x4 matrix (16-byte rows): centre through the matrix, radius times the square root of the largest squared axis length unless that value is within 0.01 of 1.0."
+  }
+}

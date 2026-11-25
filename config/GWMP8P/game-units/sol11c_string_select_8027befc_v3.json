@@ -1,0 +1,11 @@
+{
+  "unit": "sol11c_string_select_8027befc_v3",
+  "source": "source/matching/game/sol11c/sol11c_string_select_8027befc_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11c_string_select_8027befc": "0x8027befc"
+  },
+  "descriptions": {
+    "sol11c_string_select_8027befc": "Returns a retained shared string from one of five category tables, falling back to the original failure text for unsupported categories. Models the observed eight-byte string wrapper and its reference-counted copy/destruction lifetime."
+  }
+}

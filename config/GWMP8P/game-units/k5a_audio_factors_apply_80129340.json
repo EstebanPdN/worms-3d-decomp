@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_audio_factors_apply_80129340",
+  "source": "source/matching/game/k5a/k5a_audio_factors_apply_80129340.c",
+  "language": "c",
+  "functions": {"k5a_audio_factors_apply_80129340": "0x80129340"},
+  "descriptions": {"k5a_audio_factors_apply_80129340": "Appears to read the audio distance, doppler and rolloff factor properties and apply them to the audio device."}
+}

@@ -1,0 +1,29 @@
+{
+  "unit": "s3_runtime_metrics",
+  "source": "source/matching/game/s3_runtime_metrics.c",
+  "language": "c",
+  "functions": {
+    "w3d_runtime_reset_time": "0x8015cbe0",
+    "w3d_runtime_pause_retain": "0x8015cc24",
+    "w3d_runtime_pause_release": "0x8015cc64",
+    "w3d_runtime_is_paused": "0x8015ccbc",
+    "w3d_runtime_service_request": "0x8015cd04",
+    "w3d_runtime_service_bind_view": "0x8015cd34",
+    "w3d_history_tick": "0x8015ce60",
+    "w3d_history_construct": "0x8015ced4",
+    "w3d_text_owner_destroy": "0x8015d1ac",
+    "w3d_text_owner_make_handle": "0x8015d278"
+  },
+  "descriptions": {
+    "w3d_runtime_reset_time": "Sets core time and records the new runtime total.",
+    "w3d_runtime_pause_retain": "Increments the runtime pause count and pauses the core.",
+    "w3d_runtime_pause_release": "Decrements the pause count and resumes the core when it reaches zero.",
+    "w3d_runtime_is_paused": "Reports a local pause or the global context pause value.",
+    "w3d_runtime_service_request": "Forwards a runtime service request.",
+    "w3d_runtime_service_bind_view": "Forwards runtime service view arguments.",
+    "w3d_history_tick": "Records elapsed clock ticks for the next history frame.",
+    "w3d_history_construct": "Initializes and resets an empty timing history.",
+    "w3d_text_owner_destroy": "Releases text-owner interfaces, strings and backing storage.",
+    "w3d_text_owner_make_handle": "Retains the text-owner service and initializes handle flags."
+  }
+}

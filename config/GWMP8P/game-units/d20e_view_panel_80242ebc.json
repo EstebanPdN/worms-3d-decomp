@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_view_panel_80242ebc",
+  "source": "source/matching/game/d20e/d20e_view_panel_80242ebc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__13D20eViewPanelUs": "0x80242ebc"
+  },
+  "descriptions": {
+    "__13D20eViewPanelUs": "View panel constructor: runs the tagged base constructor 0x801ea0ec with the caller's id, installs the table 0x8041b4c8, zeroes seventeen vectors (+20..+216) and every float/int/short/byte member up to +493, copy-constructs six strings (+296..+340) from the shared empty string 0x804b06a0 (incrementing its reference count), stores the shared object pointers read from 0x804b05a8 (+140, +276) and 0x804b05b0 (+332) and retains each through its table slot at +12 when non-null, and returns this."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_logo_init_801084b4",
+  "source": "source/matching/game/k7a/k7a_logo_init_801084b4.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_logo_init_801084b4": "0x801084b4"},
+  "descriptions": {"w3d_k7a_logo_init_801084b4": "Appears to set the intro logo resource by name, place it at a fixed position through its vtable and store the engine tick."}
+}

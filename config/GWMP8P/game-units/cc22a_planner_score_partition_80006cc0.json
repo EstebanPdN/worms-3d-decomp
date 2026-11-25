@@ -1,0 +1,11 @@
+{
+  "unit": "cc22a_planner_score_partition_80006cc0",
+  "source": "source/matching/game/cc22a/cc22a_planner_score_partition_80006cc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc22a_planner_score_partition_80006cc0": "0x80006cc0"
+  },
+  "descriptions": {
+    "cc22a_planner_score_partition_80006cc0": "Evaluate sentinel plan scores, partition forty candidates and exchange overflow candidates with original unordered-float behavior; explicit widths and native range accessors."
+  }
+}

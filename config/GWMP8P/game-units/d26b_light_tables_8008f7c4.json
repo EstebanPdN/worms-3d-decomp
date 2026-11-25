@@ -1,0 +1,14 @@
+{
+  "unit": "d26b_light_tables_8008f7c4",
+  "source": "source/matching/game/d26b/d26b_light_tables_8008f7c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26b_light_tables_8008f7c4": "0x8008f7c4"
+  },
+  "descriptions": {
+    "w3d_d26b_light_tables_8008f7c4": "Light table setup: fills the 256-entry table 0x80433760 with 1 for every index whose high nibble has a bit set outside its low nibble unless that masked value is 0 or 0xf0, normalizes the first vectors of four records (0x804336a0, 0x804336b8, 0x804336d0, 0x804336e8) through 0x802e82c0, halves them, then normalizes their second vectors (0x804336ac, 0x804336c4, 0x804336dc, 0x804336f4)."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

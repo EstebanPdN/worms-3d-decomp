@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_scheme_from_properties_80290204",
+  "source": "source/matching/game/d27f/d27f_scheme_from_properties_80290204.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_scheme_from_properties_80290204": "0x80290204"
+  },
+  "descriptions": {
+    "d27f_scheme_from_properties_80290204": "Frontend scheme apply: reads the Q.* settings into GM.SchemeData (23 integers, name, 52 weapon slots through 0x8028fa34), handling the modified-name marker, then posts a repopulate message if the flag was set."
+  }
+}

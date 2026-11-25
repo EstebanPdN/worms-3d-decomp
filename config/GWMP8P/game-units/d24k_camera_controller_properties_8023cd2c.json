@@ -1,0 +1,14 @@
+{
+  "unit": "d24k_camera_controller_properties_8023cd2c",
+  "source": "source/matching/game/d24k/d24k_camera_controller_properties_8023cd2c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24k_camera_controller_properties_8023cd2c": "0x8023cd2c"
+  },
+  "descriptions": {
+    "w3d_d24k_camera_controller_properties_8023cd2c": "Registers WormIndex (0x801ebf38); registers Random (0x801ebf38); registers WormData (0x801ecc6c); resets the TaskVerificationString string binding (0x801ed24c) to the shared empty string; registers ViewMatrix (0x801f0d2c); resets the CurrentCamera string binding (0x801ed24c) to the shared empty string; creates the TargetPosition vector binding (0x801f0210) reset to 0.0f; creates the TargetLookAt vector binding (0x801f0210) reset to 0.0f; creates the TargetUpVector vector binding (0x801f0210) reset to 0.0f; creates the TargetLookAhead vector binding (0x801f0210) reset to 0.0f; creates the LookAhead vector binding (0x801f0210) reset to 0.0f; creates the ObjectPos vector binding (0x801f0210) reset to 0.0f; creates the ObjectRot vector binding (0x801f0210) reset to 0.0f; creates the ObjectVelocity vector binding (0x801f0210) reset to 0.0f; registers fYaw (0x801ec52c); registers fPitch (0x801ec52c); registers fLookAbove (0x801ec52c); registers fDist (0x801ec52c); registers fTargetDist (0x801ec52c); creates the Position vector binding (0x801f0210) reset to 0.0f; creates the LookAt vector binding (0x801f0210) reset to 0.0f; creates the UpVector vector binding (0x801f0210) reset to 0.0f; registers RoundTime (0x801ebf38); registers HotSeattime (0x801ebf38); registers TurnTime (0x801ebf38); calls the refresh routine 0x801e8d9c and returns 0. Vector resets use 0x803bc3b0 (0.0f)."
+  }
+}

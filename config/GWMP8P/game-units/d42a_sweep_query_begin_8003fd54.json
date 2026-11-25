@@ -1,0 +1,11 @@
+{
+  "unit": "d42a_sweep_query_begin_8003fd54",
+  "source": "source/matching/game/d42a/d42a_sweep_query_begin_8003fd54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42a_sweep_query_begin_8003fd54": "0x8003fd54"
+  },
+  "descriptions": {
+    "w3d_d42a_sweep_query_begin_8003fd54": "Sets the query globals for a sweep from one item along two vectors and selects the sphere, ray or swept next-item function."
+  }
+}

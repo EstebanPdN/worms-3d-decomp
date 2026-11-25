@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_gx_b.c
+w3d_s20_set_blend_mode_8016830c|0x8016830c|Appears to write one of two fixed command sequences to the graphics write pipe depending on the enable argument.

@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_host_stream_open_80219184",
+  "source": "source/matching/game/cx11b/cx11b_host_stream_open_80219184.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_host_stream_open_80219184": "0x80219184"
+  },
+  "descriptions": {
+    "w3d_cx11b_host_stream_open_80219184": "Close the old host handle and translate the observed mode bits before opening and tracing the new handle."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_particle_place_800df7b8",
+  "source": "source/matching/game/d27c/d27c_particle_place_800df7b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_particle_place_800df7b8": "0x800df7b8"
+  },
+  "descriptions": {
+    "d27c_particle_place_800df7b8": "Set a particle's position according to its placement mode flags."
+  }
+}

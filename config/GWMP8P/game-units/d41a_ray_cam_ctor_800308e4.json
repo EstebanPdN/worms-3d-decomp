@@ -1,0 +1,14 @@
+{
+  "unit": "d41a_ray_cam_ctor_800308e4",
+  "source": "source/matching/game/d41a/d41a_ray_cam_ctor_800308e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41a_ray_cam_ctor_800308e4": "0x800308e4"
+  },
+  "descriptions": {
+    "w3d_d41a_ray_cam_ctor_800308e4": "Constructs the RayCam camera object and loads its property handles."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

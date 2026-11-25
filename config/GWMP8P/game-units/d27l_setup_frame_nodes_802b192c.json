@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_setup_frame_nodes_802b192c",
+  "source": "source/matching/game/d27l/d27l_setup_frame_nodes_802b192c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_setup_frame_nodes_802b192c": "0x802b192c"
+  },
+  "descriptions": {
+    "d27l_setup_frame_nodes_802b192c": "Creates and places the panel's base and frame nodes from its configuration."
+  }
+}

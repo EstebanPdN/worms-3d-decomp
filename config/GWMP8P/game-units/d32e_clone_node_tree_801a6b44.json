@@ -1,0 +1,14 @@
+{
+  "unit": "d32e_clone_node_tree_801a6b44",
+  "source": "source/matching/game/d32e/d32e_clone_node_tree_801a6b44.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32e_clone_node_tree_801a6b44": "0x801a6b44"
+  },
+  "descriptions": {
+    "w3d_d32e_clone_node_tree_801a6b44": "Clone visitor over an object tree, entered through a secondary-base pointer: decides by 0x801a69a8 whether a node is shared (returns an existing clone or the node) or copied; for a copy, walks the class properties from last to first and, for each object-valued property (type 24), reads the child, queries the object interface, and when its class derives from 0x80365788 replaces it with the clone found by 0x801a688c or, in deep mode, the result of visiting it. Handles array properties by index and single properties through member-function getters and setters. Returns 0, 1 if already handled, or the negative error."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

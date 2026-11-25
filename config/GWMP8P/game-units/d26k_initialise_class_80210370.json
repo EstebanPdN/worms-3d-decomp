@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_initialise_class_80210370",
+  "source": "source/matching/game/d26k/d26k_initialise_class_80210370.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_initialise_class_80210370": "0x80210370"
+  },
+  "descriptions": {
+    "w3d_d26k_initialise_class_80210370": "Recursively initialises the parent, moves the class between lists 0x804b1908 and 0x804b1904, traces it through 0x80347324 with name and size, runs the callback at +28, sets the initialised bit and calls 0x8021020c."
+  }
+}

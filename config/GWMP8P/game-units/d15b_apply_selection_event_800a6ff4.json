@@ -1,0 +1,11 @@
+{
+  "unit": "d15b_apply_selection_event_800a6ff4",
+  "source": "source/matching/game/d15b/d15b_apply_selection_event_800a6ff4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_apply_selection_event_800a6ff4": "0x800a6ff4"
+  },
+  "descriptions": {
+    "d15b_apply_selection_event_800a6ff4": "Apply a selection event: when its value is nonzero send the cached selection message; then for each entry in the unsigned active window, including inactive entries only when the all-entries bit is set, find type-2 items whose owner and slot byte match the event, store the event value in each and, when the item's expected value equals it, send the item's cached message followed by the entry name text (from its second character). Partial observed layouts; cached message keys referenced by address; no owned initialized data."
+  }
+}

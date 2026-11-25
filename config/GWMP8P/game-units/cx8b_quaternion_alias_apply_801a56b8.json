@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_quaternion_alias_apply_801a56b8",
+  "source": "source/matching/game/cx8b/cx8b_quaternion_alias_apply_801a56b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_quaternion_alias_apply_801a56b8": "0x801a56b8"
+  },
+  "descriptions": {
+    "w3d_cx8b_quaternion_alias_apply_801a56b8": "Apply a quaternion operation to member +44, copying the four-float input first when it aliases the destination; return zero."
+  }
+}

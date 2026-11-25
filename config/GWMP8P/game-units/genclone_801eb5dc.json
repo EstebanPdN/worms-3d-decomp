@@ -1,0 +1,21 @@
+{
+  "unit": "genclone_801eb5dc",
+  "source": "source/matching/game/generated/genclone_801eb5dc.c",
+  "language": "c",
+  "functions": {
+    "w3d_pmf_read_801eb5dc": "0x801eb5dc",
+    "w3d_pmf_read_801ebea0": "0x801ebea0",
+    "w3d_pmf_read_801ec060": "0x801ec060",
+    "w3d_pmf_read_801ec784": "0x801ec784",
+    "w3d_pmf_read_801ecbd4": "0x801ecbd4",
+    "w3d_pmf_read_801ecd94": "0x801ecd94"
+  },
+  "descriptions": {
+    "w3d_pmf_read_801eb5dc": "Reads a value through the bound reader's virtual slot 18; on success passes it to the binding's pointer-to-member setter on target; returns the read result.",
+    "w3d_pmf_read_801ebea0": "Reads a value through the bound reader's virtual slot 18; on success passes it to the binding's pointer-to-member setter on target; returns the read result.",
+    "w3d_pmf_read_801ec060": "Reads a value through the bound reader's virtual slot 18; on success passes it to the binding's pointer-to-member setter on target; returns the read result.",
+    "w3d_pmf_read_801ec784": "Reads a value through the bound reader's virtual slot 18; on success passes it to the binding's pointer-to-member setter on target; returns the read result.",
+    "w3d_pmf_read_801ecbd4": "Reads a value through the bound reader's virtual slot 18; on success passes it to the binding's pointer-to-member setter on target; returns the read result.",
+    "w3d_pmf_read_801ecd94": "Reads a value through the bound reader's virtual slot 18; on success passes it to the binding's pointer-to-member setter on target; returns the read result."
+  }
+}

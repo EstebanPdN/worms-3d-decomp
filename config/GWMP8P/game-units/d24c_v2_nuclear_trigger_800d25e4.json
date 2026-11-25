@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_v2_nuclear_trigger_800d25e4",
+  "source": "source/matching/game/d24c/d24c_v2_nuclear_trigger_800d25e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_v2_nuclear_trigger_800d25e4": "0x800d25e4"
+  },
+  "descriptions": {
+    "d24c_v2_nuclear_trigger_800d25e4": "Return 20 at once when 0x8006e71c reports true. When state +60 is 1 and the time argument exceeds +72: set state 2; assert when the type derives from 0x80361860 or 0x803618f0; set global 0x804aae44 to 1; call 0x800d2924; read the kWeaponNuclear settings; copy settings +52 to +56; call 0x800fdd80 with settings bytes +153 and +152, origin 0x8045e788, 4000 and 0; set +84 to 1; call 0x8002ae70; release the settings reference. Returns 20."
+  }
+}

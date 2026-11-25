@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d2_initialize_transfer_8023a9c4",
+  "source": "source/matching/game/sol35d2/sol35d2_initialize_transfer_8023a9c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d2_initialize_transfer_8023a9c4": "0x8023a9c4"
+  },
+  "descriptions": {
+    "w3d_sol35d2_initialize_transfer_8023a9c4": "Initialize the Filename binding at +8 from the native shared empty string through scoped copy, retain-before-release assignment and destruction; create the thirteen remaining witnessed transfer-state bindings in original order, finalize the owner and return zero."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_key_border_uvs_802c7f60",
+  "source": "source/matching/game/d26l/d26l_key_border_uvs_802c7f60.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_key_border_uvs_802c7f60": "0x802c7f60"
+  },
+  "descriptions": {
+    "d26l_key_border_uvs_802c7f60": "Looks up FE.K.KeyBdr (0x8015ae3c, cast 0x80343808). If its entry count (0x80171f90) is not already 10, resizes it to 10 (0x80171ee0), obtains the two 80-byte tables (0x80171fa0, 0x80171ff8), clears them, writes the fixed coordinates and then for each of the ten pairs sets the first table's y to 1 minus its y minus the second table's y. Owns its literal pool in .rodata; the name string stays external."
+  }
+}

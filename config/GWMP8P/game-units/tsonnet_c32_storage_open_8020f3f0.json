@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c32_storage_open_8020f3f0",
+  "source": "source/matching/game/tsonnet_c32/tsonnet_c32_storage_open_8020f3f0.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c32_storage_open_8020f3f0": "0x8020f3f0"
+  },
+  "descriptions": {
+    "tsonnet_c32_storage_open_8020f3f0": "First-use initialization of a storage request: returns 0 when the state word at offset 0 is already 1; otherwise initializes the backing store, appends a block, rounds the size at offset 4 up to a multiple of 32 and stores it in the block, stores the limit at offset 12 rounded down to a multiple of 32 as the block's second word, sets the state to 1 and returns 1; field meanings are inferred."
+  }
+}

@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_leaf_q.c
+w3d_s20_notify_if_flagged_800e8ee0|0x800e8ee0|Appears to call two virtual methods, on a global's held object and on the target object, when the flag byte is set.

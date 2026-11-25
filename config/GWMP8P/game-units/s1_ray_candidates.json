@@ -1,0 +1,25 @@
+{
+  "unit": "s1_ray_candidates",
+  "source": "source/matching/game/s1_ray_candidates.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004035c": "0x8004035c",
+    "w3d_fn_80040440": "0x80040440",
+    "w3d_fn_800405d4": "0x800405d4",
+    "w3d_fn_800406b8": "0x800406b8",
+    "w3d_fn_8004084c": "0x8004084c",
+    "w3d_fn_80040b0c": "0x80040b0c",
+    "w3d_fn_80040ca0": "0x80040ca0",
+    "w3d_fn_80040d84": "0x80040d84"
+  },
+  "descriptions": {
+    "w3d_fn_8004035c": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates.",
+    "w3d_fn_80040440": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates.",
+    "w3d_fn_800405d4": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates.",
+    "w3d_fn_800406b8": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates.",
+    "w3d_fn_8004084c": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates.",
+    "w3d_fn_80040b0c": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates.",
+    "w3d_fn_80040ca0": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates.",
+    "w3d_fn_80040d84": "Appears to choose the next nonnegative intersection distance and dispatch its remaining candidates."
+  }
+}

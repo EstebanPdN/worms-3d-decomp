@@ -1,0 +1,11 @@
+{
+  "unit": "h1_tagged_80203970",
+  "source": "source/matching/game/h1/h1_tagged_80203970.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_tagged_construct_80203970": "0x80203970"
+  },
+  "descriptions": {
+    "w3d_tagged_construct_80203970": "Constructs a tagged object: base vtable 0x80419038, tag type 2, cleared pair and tag halves, derived vtable 0x80418f88, then initializes its own fields (calls fn_80203204, w3d_list_init, w3d_s21_construct_list_8020351c). Returns the object."
+  }
+}

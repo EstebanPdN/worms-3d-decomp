@@ -1,0 +1,11 @@
+{
+  "unit": "s19_message_80037bac",
+  "source": "source/matching/game/s19/s19_message_80037bac.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_message_80037bac": "0x80037bac"
+  },
+  "descriptions": {
+    "s19_handle_message_80037bac": "Appears to handle messages 64 and 66 and two cached message ids by dispatching to setup, release and state helpers, otherwise forward to the base handler."
+  }
+}

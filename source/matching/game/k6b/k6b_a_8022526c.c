@@ -1,0 +1,25 @@
+struct K6bString { char *text; };
+struct K6bNamedPanel {
+    void **vtable;
+    char base[148];
+    struct K6bString name;
+    int enabled;
+};
+extern char *lbl_804b06a0[];
+extern void *lbl_8041a348[];
+extern int fn_8021fd28(struct K6bNamedPanel *self, void *);
+extern void w3d_string_base_init(struct K6bString *string);
+extern unsigned short *w3d_string_header(struct K6bString *string);
+struct K6bNamedPanel *w3d_k6b_named_panel_construct_8022526c(struct K6bNamedPanel *self, void * arg_r4)
+{
+    struct K6bString *name = &self->name;
+    char **empty = lbl_804b06a0;
+    fn_8021fd28(self, arg_r4);
+    self->vtable = lbl_8041a348;
+    w3d_string_base_init(name);
+    self->name.text = *empty;
+    ++*w3d_string_header(name);
+    self->enabled = 1;
+    return self;
+}
+// desc: w3d_k6b_named_panel_construct_8022526c: Appears to construct an object over base 0x8021fd28 with vtable 0x8041a348, an empty shared string at +152 and 1 at +156.

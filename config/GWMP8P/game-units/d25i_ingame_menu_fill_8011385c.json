@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_ingame_menu_fill_8011385c",
+  "source": "source/matching/game/d25i/d25i_ingame_menu_fill_8011385c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_ingame_menu_fill_8011385c": "0x8011385c"
+  },
+  "descriptions": {
+    "d25i_ingame_menu_fill_8011385c": "In-game menu fill: resolves the list object from the table at +108, empties its commands, creates the label table (class 0x80419e68), reads GameOver.GameType into a String, sizes the names, commands and ids arrays to 3 for Multiplayer and Network and 2 otherwise, then fills Lang.Continue, Lang.Quit and, for three entries, Lang.DrawRound with their FE.KillPopUp commands and the id +40, and attaches the table."
+  }
+}

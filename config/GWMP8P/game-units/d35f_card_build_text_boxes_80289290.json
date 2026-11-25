@@ -1,0 +1,17 @@
+{
+  "unit": "d35f_card_build_text_boxes_80289290",
+  "source": "source/matching/game/d35f/d35f_card_build_text_boxes_80289290.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d35f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d35f_card_build_text_boxes_80289290": "0x80289290"
+  },
+  "descriptions": {
+    "d35f_card_build_text_boxes_80289290": "Builds the memory card message page: creates and positions FE.Font text boxes for the wrapped title lines and record entries, then sizes the panel and sets up border and navigation."
+  }
+}

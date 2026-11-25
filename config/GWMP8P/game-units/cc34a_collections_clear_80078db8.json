@@ -1,0 +1,11 @@
+{
+  "unit": "cc34a_collections_clear_80078db8",
+  "source": "source/matching/game/cc34a/cc34a_collections_clear_80078db8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc34a_collections_clear_80078db8": "0x80078db8"
+  },
+  "descriptions": {
+    "cc34a_collections_clear_80078db8": "Clear eleven lists, release owned nullable entries, erase four pointer ranges and reset collection state; original call order and zero-byte copy calls retained."
+  }
+}

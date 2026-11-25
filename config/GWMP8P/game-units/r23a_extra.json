@@ -1,0 +1,21 @@
+{
+  "unit": "r23a_extra",
+  "source": "source/matching/game/r23a/r23a_extra_final.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23a_default_pair_8005200c": "0x8005200c",
+    "w3d_r23a_dual_teardown_801611a4": "0x801611a4",
+    "w3d_r23a_dual_teardown_80162a40": "0x80162a40",
+    "w3d_r23a_const_member_error_8019f8f0": "0x8019f8f0",
+    "w3d_r23a_query_flag_800dfd48": "0x800dfd48",
+    "w3d_r23a_shared_node_construct_80188a68": "0x80188a68"
+  },
+  "descriptions": {
+    "w3d_r23a_default_pair_8005200c": "Constructs two adjacent stack floats from external constant 0x8037821c and forwards their address as the third argument to 0x80052044.",
+    "w3d_r23a_dual_teardown_801611a4": "Installs observed dispatch tables 0x80411728 at +12 and 0x80411750 at +0, then calls cleanup 0x8020fc60.",
+    "w3d_r23a_dual_teardown_80162a40": "Installs observed dispatch tables 0x80411868 at +12 and 0x80411890 at +0, then calls cleanup 0x8020fc60.",
+    "w3d_r23a_const_member_error_8019f8f0": "Pushes the external const-container modification error string, concatenates two Lua stack values, raises a Lua error, and returns zero if that call returns.",
+    "w3d_r23a_query_flag_800dfd48": "Calls virtual slot +20 on the object held at +4, reads the returned object byte at +104, and returns one when nonzero or zero otherwise.",
+    "w3d_r23a_shared_node_construct_80188a68": "Calls shared-node construction, installs dispatch table 0x80412e20, clears word +168, increments shared global count 0x804ab69c, and returns the object."
+  }
+}

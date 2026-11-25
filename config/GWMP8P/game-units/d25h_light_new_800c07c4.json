@@ -1,0 +1,11 @@
+{
+  "unit": "d25h_light_new_800c07c4",
+  "source": "source/matching/game/d25h/d25h_light_new_800c07c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25h_light_new_800c07c4": "0x800c07c4"
+  },
+  "descriptions": {
+    "w3d_d25h_light_new_800c07c4": "Light allocation: when the system is on, reuses an id from the free list 0x8043c394 or appends a default 60-byte light with the inlined STLport push_back to vector 0x8043c384, attaches the shared resource from 0x8020b680 (reference counted), marks it active, registers it under the name Light.%d with the sound bank, notifies the manager, resets position, state, kind and colour fields, adds the id to the active list 0x8043c3a0 with the hand-made array growth, and returns the id."
+  }
+}

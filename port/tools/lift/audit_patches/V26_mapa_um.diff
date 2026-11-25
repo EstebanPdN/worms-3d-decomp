@@ -1,0 +1,86 @@
+diff -ru a/port/core/game/cx12a/cx12a_register_catalogs_80127544.cpp b/port/core/game/cx12a/cx12a_register_catalogs_80127544.cpp
+--- a/port/core/game/cx12a/cx12a_register_catalogs_80127544.cpp	2026-11-05 09:58:49
++++ b/port/core/game/cx12a/cx12a_register_catalogs_80127544.cpp	2026-11-05 09:58:49
+@@ -7,6 +7,7 @@
+ extern unsigned count_804af12c,count_804af130,count_804af134,count_804af138,count_804b0eb4,count_804b0eb8,count_804b0ebc,count_804b0ec0,count_804b0ec4;
+ extern unsigned char table_803f5e60[],table_803f7a6c[],table_803fcbc0[],table_803fcc80[],table_804021e8[],table_804024a4[],table_80403980[],table_804039b0[],table_804abc28[];
+ extern "C" void w3d_hat_register(void);
++extern "C" void w3d_mapa_um_register(void);
+ extern "C" void w3d_cx12a_register_catalogs_80127544(){
+  {Ptr32<void> svc=FIELD(service_804b17ec,void *,0x74);VCALL(svc,void (*)(void *,void *,unsigned),0x28)(svc,table_803f5e60,count_804af12c);}
+  {Ptr32<void> svc=FIELD(service_804b17ec,void *,0x74);VCALL(svc,void (*)(void *,void *,unsigned),0x24)(svc,table_803f7a6c,count_804af130);}
+@@ -19,6 +20,7 @@
+  {Ptr32<void> svc=FIELD(service_804b17ec,void *,0x74);VCALL(svc,void (*)(void *,void *,unsigned),0x34)(svc,table_804abc28,count_804b0ec4);}
+  unsigned char index=0;do{Ptr32<void> svc=FIELD(service_804b17ec,void *,0x74);VCALL(svc,void (*)(void *,unsigned char *,int),0x48)(svc,&index,0);svc=FIELD(service_804b17ec,void *,0x74);VCALL(svc,void (*)(void *,unsigned char *,int),0x54)(svc,&index,1);++index;}while(index<0x59);
+  w3d_hat_register();  // Port: recursos y bundle 0x59 de la ropa de prueba (core/native/hat_militar.cpp).
++ w3d_mapa_um_register();  // Port (v26): texturas y bundle 0x5A del mapa de Ultimate Mayhem (core/native/mapa_um.cpp).
+ }
+ 
+ 
+diff -ru a/port/core/game/d21a/d21a_level_load_8006d610.cpp b/port/core/game/d21a/d21a_level_load_8006d610.cpp
+--- a/port/core/game/d21a/d21a_level_load_8006d610.cpp	2026-11-05 09:58:49
++++ b/port/core/game/d21a/d21a_level_load_8006d610.cpp	2026-11-05 09:58:49
+@@ -72,6 +72,8 @@
+ extern Ptr32<void> w3d_message_arena_804b1754;
+ extern MessageCache w3d_message_804ad75c, w3d_message_804ad764, w3d_message_804ad774;
+ extern FogRange w3d_fog_range_804aa78c;
++extern "C" const char *w3d_mapa_um_tierra(const char *level);       /* port, v26 */
++extern "C" const char *w3d_mapa_um_materiales(const char *level);   /* port, v26 */
+ extern "C" char w3d_string_8037bb64[]; /* "Game.NextLevel" */
+ extern "C" char w3d_string_8037c0d4[]; /* "Land.File" */
+ extern "C" char w3d_string_8037c0e0[]; /* "GameLogic.CurrentScript" */
+@@ -97,7 +99,11 @@
+     Ptr32<LevelRecord> record;
+     if (w3d_level_lookup_800fc330(&levelName, &record) < 0) return 0;
+     Ptr32<LevelRecord> level = record;
+-    SetStringProperty(w3d_string_8037c0d4, level->landFile.text);
++    // Port (v26): partida rápida con el mapa de Ultimate Mayhem (core/native/mapa_um.cpp): su paisaje y sus materiales.
++    const char *um_tierra = w3d_mapa_um_tierra(levelName.name.get());
++    const char *um_materiales = w3d_mapa_um_materiales(levelName.name.get());
++    if (um_tierra) SetStringProperty(w3d_string_8037c0d4, um_tierra);
++    else SetStringProperty(w3d_string_8037c0d4, level->landFile.text);
+     SetStringProperty(w3d_string_8037c0e0, level->currentScript.text);
+     Ptr32<Message> message = w3d_arena_alloc_801613f0(w3d_message_arena_804b1754, 12);
+     w3d_message_post_8016239c(w3d_message_string_init_8010a8e0(message,
+@@ -112,7 +118,8 @@
+             w3d_cached_message_id_8015f5a0(&w3d_message_804ad774, 1), level->particleFile.text));
+     }
+     SetStringProperty(w3d_string_8037c110, level->particleFile.text);
+-    if (level->landMaterials.Length()) {
++    if (um_materiales) SetStringProperty(w3d_string_8037bbbc, um_materiales);
++    else if (level->landMaterials.Length()) {
+         DebugNote(level->landMaterials);
+         SetStringProperty(w3d_string_8037bbbc, level->landMaterials.text);
+     }
+diff -ru a/port/core/game/d32f/d32f_start_game_mode_80281ff0.cpp b/port/core/game/d32f/d32f_start_game_mode_80281ff0.cpp
+--- a/port/core/game/d32f/d32f_start_game_mode_80281ff0.cpp	2026-11-05 09:58:49
++++ b/port/core/game/d32f/d32f_start_game_mode_80281ff0.cpp	2026-11-05 09:58:49
+@@ -73,6 +73,8 @@
+ extern "C" void fn_802847cc(Ptr32<void>), fn_80280370(Ptr32<void>);
+ extern "C" unsigned fn_80162c20(), fn_80162ba8(), fn_801fe45c();
+ extern "C" int w3d_env_int(const char *, int *);
++extern "C" void w3d_mapa_um_modo(void);
++extern "C" const char *w3d_mapa_um_partida_rapida(const char *);
+ extern "C" unsigned w3d_r25b_category_count_8027be7c(Ptr32<void>, unsigned);
+ extern "C" String sol35e2_choose_string_8027befc(Ptr32<void>, unsigned, unsigned);
+ extern Ptr32<void> lbl_804abbac;
+@@ -86,6 +88,7 @@
+ extern "C" void d32f_start_game_mode_80281ff0(Ptr32<void> self, Ptr32<const char> mode) {
+ Handle h, h2;
+ Descriptor_80178474 d1, d2, d3;
++w3d_mapa_um_modo();   // Port (v26): cualquier modo borra la marca del mapa de UM (core/native/mapa_um.cpp).
+ if (!w3d_d24z_strcasecmp_802ef074(mode, lbl_803cf0b0)) {
+ if (w3d_constructor_lookup_name(lbl_803cea68, h) < 0) return;
+ Handle data;
+@@ -208,7 +211,10 @@
+ String level;
+ level = sol35e2_choose_string_8027befc(lbl_804abbac, 5, r);
+ Cache set(lbl_803cec64);
+-w3d_message_post_current(w3d_message_string_init(tsonnet_b33_arena_801613f0(lbl_804b1754, 12), set.Id(), level.text));
++// Port (v26): con el mapa de UM elegido en la pantalla de abajo, la partida rápida va a su nivel anfitrión.
++Ptr32<const char> elegido = level.text;
++if (const char *um = w3d_mapa_um_partida_rapida(level.text.get())) elegido = um;
++w3d_message_post_current(w3d_message_string_init(tsonnet_b33_arena_801613f0(lbl_804b1754, 12), set.Id(), elegido));
+ } else if (!w3d_d24z_strcasecmp_802ef074(mode, lbl_803cf1f8)) {
+ s8_property_write_800fc43c(lbl_803cf0bc, 1);
+ s8_property_write_800fc43c(lbl_803cf0cc, 0);

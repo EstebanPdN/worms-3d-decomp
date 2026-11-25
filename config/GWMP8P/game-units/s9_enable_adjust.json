@@ -1,0 +1,11 @@
+{
+  "unit": "s9_enable_adjust",
+  "source": "source/matching/game/s9/s9_enable_adjust.c",
+  "language": "c",
+  "functions": {
+    "s9_adjust_enable_8016d428": "0x8016d428"
+  },
+  "descriptions": {
+    "s9_adjust_enable_8016d428": "Null-checks and adjusts the object pointer to the preceding base, forwards the caller value and enable flag one, and returns zero."
+  }
+}

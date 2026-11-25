@@ -1,0 +1,11 @@
+{
+  "unit": "cc27a_planner_action_tick_80022850",
+  "source": "source/matching/game/cc27a/cc27a_planner_action_tick_80022850.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc27a_planner_action_tick_80022850": "0x80022850"
+  },
+  "descriptions": {
+    "cc27a_planner_action_tick_80022850": "Tick original action queue unless timer gate is active, erase completed action, initialize next and call its dispatch with original context; preserve return20."
+  }
+}

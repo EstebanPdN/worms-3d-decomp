@@ -1,0 +1,11 @@
+{
+  "unit": "cc40a_pool_available_8017e0c4",
+  "source": "source/matching/game/cc40a/cc40a_pool_available_8017e0c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc40a_pool_available_8017e0c4": "0x8017e0c4"
+  },
+  "descriptions": {
+    "cc40a_pool_available_8017e0c4": "Dispatch signed pool selectors 0 through 6, subtract the original unsigned 16-bit used query from capacity with unsigned 16-bit result wrapping, and return zero for other selectors."
+  }
+}

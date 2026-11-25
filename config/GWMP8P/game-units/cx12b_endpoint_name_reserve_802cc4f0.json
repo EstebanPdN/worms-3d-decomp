@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_endpoint_name_reserve_802cc4f0",
+  "source": "source/matching/game/cx12b/cx12b_endpoint_name_reserve_802cc4f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_endpoint_name_reserve_802cc4f0": "0x802cc4f0"
+  },
+  "descriptions": {
+    "w3d_cx12b_endpoint_name_reserve_802cc4f0": "Find an empty 128-byte endpoint name slot, terminate its final byte, mark the registry dirty and copy at most 127 input bytes."
+  }
+}

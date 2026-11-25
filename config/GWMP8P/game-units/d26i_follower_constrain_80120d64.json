@@ -1,0 +1,17 @@
+{
+  "unit": "d26i_follower_constrain_80120d64",
+  "source": "source/matching/game/d26i/d26i_follower_constrain_80120d64.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26i_follower_constrain_80120d64": "0x80120d64"
+  },
+  "descriptions": {
+    "d26i_follower_constrain_80120d64": "Compares distances from the old and new reference points to the position; when the new distance is positive, within reach and not greater, moves a goal to the reach along the direction from the target, runs three adjustment passes on it and blends the position towards the goal by the configured factor."
+  }
+}

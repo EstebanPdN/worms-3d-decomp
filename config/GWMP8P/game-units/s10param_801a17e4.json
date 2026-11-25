@@ -1,0 +1,15 @@
+{
+  "unit": "s10param_801a17e4",
+  "source": "source/matching/game/generated/s10param_801a17e4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_initialize_type_801a17e4": "0x801a17e4",
+    "w3d_s10_initialize_type_801f4064": "0x801f4064",
+    "w3d_s10_initialize_type_802090b8": "0x802090b8"
+  },
+  "descriptions": {
+    "w3d_s10_initialize_type_801a17e4": "Under the initialization/priority guard, fills the observed type name, constructor/destructor callbacks, size and parent, then registers the descriptor.",
+    "w3d_s10_initialize_type_801f4064": "Under the initialization/priority guard, fills the observed type name, constructor/destructor callbacks, size and parent, then registers the descriptor.",
+    "w3d_s10_initialize_type_802090b8": "Under the initialization/priority guard, fills the observed type name, constructor/destructor callbacks, size and parent, then registers the descriptor."
+  }
+}

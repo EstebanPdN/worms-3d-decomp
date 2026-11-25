@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_actor_die_or_spawn_800ed13c",
+  "source": "source/matching/game/d26c/d26c_actor_die_or_spawn_800ed13c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_actor_die_or_spawn_800ed13c": "0x800ed13c"
+  },
+  "descriptions": {
+    "d26c_actor_die_or_spawn_800ed13c": "With Desc+456 set read position and velocity at the context time and fire through 0x800ec6a8 with a zero vector. Otherwise when the descriptor type is exactly 0x80368418 create an object from key 0x8040f038, give it the descriptor handle, copy position, rotation and velocity, set its timer +32 to +84 minus the time when +84 is not negative (a negative value is stored as is), attach it to the service with the owner id and finish through 0x8015fd1c."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_commit_scheme_store_802924e4",
+  "source": "source/matching/game/d27f/d27f_commit_scheme_store_802924e4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_commit_scheme_store_802924e4": "0x802924e4"
+  },
+  "descriptions": {
+    "d27f_commit_scheme_store_802924e4": "Frontend scheme commit: looks up DATA.Schemes and GM.SchemeData, skips records flagged at +332, finds the entry with the same name, and propagates a new object holding the record onto it."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_size_lists_801a9908",
+  "source": "source/matching/game/d28e/d28e_size_lists_801a9908.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_size_lists_801a9908": "0x801a9908"
+  },
+  "descriptions": {
+    "w3d_d28e_size_lists_801a9908": "Resize the list of word vectors at +288 to n default elements (erase destroys the tail, growth goes through the fill insert 0x80354f08) and reserve 16 words in each element. Returns 0."
+  }
+}

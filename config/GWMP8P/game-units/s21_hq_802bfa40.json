@@ -1,0 +1,11 @@
+{
+  "unit": "s21_hq_802bfa40",
+  "source": "source/matching/game/s21/s21_hq_802bfa40.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_clamped_ratio_802bfa40": "0x802bfa40"
+  },
+  "descriptions": {
+    "w3d_s21_clamped_ratio_802bfa40": "Appears to compute a clamped ratio from three float fields of a projection-like object, capping the result at a global limit."
+  }
+}

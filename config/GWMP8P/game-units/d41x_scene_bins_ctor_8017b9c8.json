@@ -1,0 +1,19 @@
+{
+  "unit": "d41x_scene_bins_ctor_8017b9c8",
+  "source": "source/matching/game/d41x/d41x_scene_bins_ctor_8017b9c8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "__18SceneBins_804127a0": "0x8017b9c8"
+  },
+  "descriptions": {
+    "__18SceneBins_804127a0": "Constructs the scene bin manager: registers itself in the global at 0x804ab5fc, clears its slot and reference tables and three global tables, finds the pool service, creates 64 named bins ('Scene Bin %d') with their entities, sets its ranges, creates the service at the second reference and applies the GRM.Max* settings through 0x8017dcc0. Names are inferred."
+  }
+}

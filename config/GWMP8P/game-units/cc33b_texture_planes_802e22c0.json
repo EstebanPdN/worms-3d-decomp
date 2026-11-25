@@ -1,0 +1,11 @@
+{
+  "unit": "cc33b_texture_planes_802e22c0",
+  "source": "source/matching/game/cc33b/cc33b_texture_planes_802e22c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc33b_texture_planes_802e22c0": "0x802e22c0"
+  },
+  "descriptions": {
+    "w3d_cc33b_texture_planes_802e22c0": "Initializes three original 32-byte texture slots from the supplied Y, U and V buffers. The first plane uses the full unsigned dimensions; both chroma planes use dimensions shifted right by one. Each image is followed by original filtering parameters with three zero float literals. Original zero constant independently decoded from DOL at803db3b8. Types and names are inferred from observed ABI and call sites; referenced image/filter routines remain external. No complete original class declaration or runtime behavior claim."
+  }
+}

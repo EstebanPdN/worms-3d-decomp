@@ -1,0 +1,20 @@
+{
+  "unit": "d40k_scheme_list_page_80271518",
+  "source": "source/matching/game/d40k/d40k_scheme_list_page_80271518.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40k_scheme_list_page_80271518": "0x80271518"
+  },
+  "descriptions": {
+    "w3d_d40k_scheme_list_page_80271518": "Rebuilds the scheme list and writes one page of it (heading, up to twenty lines, footer) to the text sink."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ]
+}

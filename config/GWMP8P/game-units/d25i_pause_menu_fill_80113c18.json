@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_pause_menu_fill_80113c18",
+  "source": "source/matching/game/d25i/d25i_pause_menu_fill_80113c18.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_pause_menu_fill_80113c18": "0x80113c18"
+  },
+  "descriptions": {
+    "d25i_pause_menu_fill_80113c18": "Pause menu fill: resolves the list object from the table at +108 (0x80341584, 0x80179598), begins it (0x801ef380) and empties its commands, creates the label table (class 0x80419e68), sizes the names, commands and ids arrays to 2, assigns the translated Lang.Continue with the command App.Resume and Lang.Quit with the command at 0x8039a710, stores id +40 for both, and attaches the table (0x801ef174)."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_8024df2c",
+  "source": "source/matching/game/k5b/k5b_a_8024df2c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_light_rig_construct_8024df2c": "0x8024df2c"
+  },
+  "descriptions": {
+    "w3d_k5b_light_rig_construct_8024df2c": "Appears to construct an object over 0x801b4e94: vtable 0x8041b7d0, eight zero vectors, zero colour and intensity, five retained shared interfaces, an empty name string and cleared parameters."
+  }
+}

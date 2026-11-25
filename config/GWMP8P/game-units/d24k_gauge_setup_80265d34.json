@@ -1,0 +1,14 @@
+{
+  "unit": "d24k_gauge_setup_80265d34",
+  "source": "source/matching/game/d24k/d24k_gauge_setup_80265d34.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24k_gauge_setup_80265d34": "0x80265d34"
+  },
+  "descriptions": {
+    "w3d_d24k_gauge_setup_80265d34": "Gauge panel setup: forwards the context service to the panel base, reads FE.BorderThickness through a handle (0x800fc1b0) into +556 and +560 (0.7x), clamps the limits at settings +128/+124 to [0,100] with write-back, runs 0x802663dc and 0x802672cc, reads the optional named value with watcher 0x8026836c, calls the optional root service slot 23, applies the value through 0x802683b8, subscribes to messages 0x804b0aac/0x804b0ab4, resets with 0x80268568, stores the context service in +492 and releases the handle."
+  }
+}

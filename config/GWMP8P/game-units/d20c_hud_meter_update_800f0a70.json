@@ -1,0 +1,14 @@
+{
+  "unit": "d20c_hud_meter_update_800f0a70",
+  "source": "source/matching/game/d20c/d20c_hud_meter_update_800f0a70.cpp",
+  "language": "cpp",
+  "functions": {
+    "d20c_hud_meter_update_800f0a70": "0x800f0a70"
+  },
+  "descriptions": {
+    "d20c_hud_meter_update_800f0a70": "Poll the meter timers (+104, +100) and scale the texture size of +112 by 64 and 128; when enabled (+68, +72), the engine is idle, the game state is 7 and timer +116 is zero, show the sprite (+28), read the level of the object behind handle +64 and write its origin, scale (1, level), colour, offset and size properties, otherwise hide it and clear the visible byte."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

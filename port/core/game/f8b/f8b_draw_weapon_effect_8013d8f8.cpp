@@ -1,0 +1,10 @@
+#include "w3d_ptr.h"
+#line 1 "f8b_draw_weapon_effect_8013d8f8.cpp"
+// Inferred weapon-draw effect dispatch. Numeric cases and names come from original instructions.
+struct F8DrawInterface{Ptr32<Ptr32<void>> vtable;};struct F8DrawContext{char p[108];Ptr32<F8DrawInterface> effects;};extern Ptr32<F8DrawContext> context_804b1788;
+struct F8DrawOwner{char p[52];float position[3];char p2[472];Ptr32<F8DrawInterface> effect;};
+extern char bazooka_8039fa90[],grenade_8039faa0[],cow_8039fab0[],sheep_8039fabc[],shotgun_8039fac8[],uzi_8039fad8[],axe_8039fae4[],bat_8039faf0[],pigeon_8039fafc[],nuke_8039fb08[],quake_8039fb14[],punch_8039fb20[],woman_8039fb30[],redbull_8039fb40[],item_8039fb50[];
+#define F8_DRAW(name) ((void(*)(F8DrawInterface*,const char*,Ptr32<F8DrawInterface> *))context_804b1788->effects->vtable[23])(context_804b1788->effects,name,&s->effect)
+extern "C" void f8b_draw_weapon_effect_8013d8f8(Ptr32<F8DrawOwner> s,unsigned weapon){if(!context_804b1788->effects)return;switch(weapon){case 0:F8_DRAW(bazooka_8039fa90);break;case 1:case 2:case 5:case 6:case 20:case 21:F8_DRAW(grenade_8039faa0);break;case 23:F8_DRAW(cow_8039fab0);break;case 18:case 29:F8_DRAW(sheep_8039fabc);break;case 8:F8_DRAW(shotgun_8039fac8);break;case 9:F8_DRAW(uzi_8039fad8);break;case 12:F8_DRAW(axe_8039fae4);break;case 10:F8_DRAW(bat_8039faf0);break;case 16:F8_DRAW(pigeon_8039fafc);break;case 26:F8_DRAW(nuke_8039fb08);break;case 17:F8_DRAW(quake_8039fb14);break;case 13:F8_DRAW(punch_8039fb20);break;case 24:F8_DRAW(woman_8039fb30);break;case 53:F8_DRAW(redbull_8039fb40);break;case 11:return;default:F8_DRAW(item_8039fb50);break;}((Ptr32<void (Ptr32<F8DrawInterface>, int, Ptr32<const float>)>)s->effect->vtable[14])(s->effect,3,s->position);((Ptr32<void (Ptr32<F8DrawInterface>)>)s->effect->vtable[5])(s->effect);}
+
+

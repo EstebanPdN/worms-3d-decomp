@@ -1,0 +1,25 @@
+{
+  "unit": "f_component_inline",
+  "source": "source/matching/game/f_component_inline.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_component_list_get_800af330": "0x800af330",
+    "w3d_component_unlink_800af33c": "0x800af33c",
+    "w3d_component_create_800af380": "0x800af380",
+    "w3d_component_release_800af3f0": "0x800af3f0",
+    "w3d_component_retain_800af458": "0x800af458",
+    "w3d_component_handle_message_800af470": "0x800af470",
+    "w3d_component_stop_800af4f8": "0x800af4f8",
+    "w3d_component_update_800af4fc": "0x800af4fc"
+  },
+  "descriptions": {
+    "w3d_component_list_get_800af330": "Returns the global registry list that tracks every instance of this component type.",
+    "w3d_component_unlink_800af33c": "Removes a component from its type registry list and decrements the registry count.",
+    "w3d_component_create_800af380": "Allocates a component, runs the base constructor, installs its vtable, registers it and increments the count.",
+    "w3d_component_release_800af3f0": "Drops one reference; when none remain, unlinks the component and destroys it through the base destructor.",
+    "w3d_component_retain_800af458": "Adds one reference and returns the previous reference count.",
+    "w3d_component_handle_message_800af470": "On message 64 runs the base handler then a follow-up step; on 66 runs another step first; otherwise defers to the base.",
+    "w3d_component_stop_800af4f8": "Empty handler step that does nothing.",
+    "w3d_component_update_800af4fc": "Touches the component's resource, then refreshes it when active or applies a value when no blocking flag bits are set."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k9a_grid_plans_spawn_80017a90",
+  "source": "source/matching/game/k9a/k9a_grid_plans_spawn_80017a90.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k9a_grid_plans_spawn_80017a90": "0x80017a90"},
+  "descriptions": {"w3d_k9a_grid_plans_spawn_80017a90": "Appears to try thirty times to pick a free grid cell and queue a new path plan at its coordinates for each hit; returns whether any was queued."}
+}

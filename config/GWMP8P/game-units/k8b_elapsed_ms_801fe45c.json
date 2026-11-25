@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_elapsed_ms_801fe45c",
+  "source": "source/matching/game/k8b/k8b_elapsed_ms_801fe45c.c",
+  "language": "c",
+  "functions": {"w3d_k8b_elapsed_ms_801fe45c": "0x801fe45c"},
+  "descriptions": {"w3d_k8b_elapsed_ms_801fe45c": "Appears to return milliseconds elapsed since the first call, from the time base and bus clock."}
+}

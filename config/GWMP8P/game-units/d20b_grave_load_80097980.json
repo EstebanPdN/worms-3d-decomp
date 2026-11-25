@@ -1,0 +1,11 @@
+{
+  "unit": "d20b_grave_load_80097980",
+  "source": "source/matching/game/d20b/d20b_grave_load_80097980.cpp",
+  "language": "cpp",
+  "functions": {
+    "d20b_grave_load_80097980": "0x80097980"
+  },
+  "descriptions": {
+    "d20b_grave_load_80097980": "By grave style (+40: 0 marble, 1 flame, 2 eye, 3 brown, 4 pyramid, 5 obelisk) load the Grave.* resource into the mesh handle (+28) and select the main* clip name (the eye style also reads the ActiveWormIndex setting into +60); play the clip on the mesh with rate 1.0, start 0, 0 and flag 1 (clip id to +36), check its control unless the style is the eye, create a light member of the mesh's kind (+68), attach a retained mesh reference to it and set its scale to 0."
+  }
+}

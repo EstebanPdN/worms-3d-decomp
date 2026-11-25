@@ -1,0 +1,11 @@
+{
+  "unit": "d30a_plan_next_step_800072b0",
+  "source": "source/matching/game/d30a/d30a_plan_next_step_800072b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_plan_next_step_800072b0": "0x800072b0"
+  },
+  "descriptions": {
+    "w3d_d30a_plan_next_step_800072b0": "Runs one planner step: a path cost query when a plan is active, otherwise queues aim and wait commands or a release with a new item, then resets the planner."
+  }
+}

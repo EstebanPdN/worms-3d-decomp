@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bz_8026462c",
+  "source": "source/matching/game/s21/s21_bz_8026462c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_slot_is_free_8026462c": "0x8026462c"
+  },
+  "descriptions": {
+    "w3d_s21_slot_is_free_8026462c": "Appears to report whether the slot selected by a global index holds zero, treating an out-of-range index as true."
+  }
+}

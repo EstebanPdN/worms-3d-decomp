@@ -1,0 +1,11 @@
+{
+  "unit": "cc31b_promote_endpoint_802cccbc",
+  "source": "source/matching/game/cc31b/cc31b_promote_endpoint_802cccbc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc31b_promote_endpoint_802cccbc": "0x802cccbc"
+  },
+  "descriptions": {
+    "w3d_cc31b_promote_endpoint_802cccbc": "For an enabled original service, unsigned index below17 and nonnull pending endpoint, queries four words from its position interface and seeks to the unsigned sum of the second and fourth. Scans sixteen active endpoint slots. If full, writes the original rejection and clears the pending slot and status. Otherwise retains the pending endpoint, releases the old active slot, publishes it, releases and clears the pending reference and status, then calls the original setup helper. Marks the original changed flag. Names and interface views are inferred; no original complete-class sizeof claim."
+  }
+}

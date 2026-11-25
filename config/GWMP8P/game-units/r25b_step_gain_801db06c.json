@@ -1,0 +1,11 @@
+{
+  "unit": "r25b_step_gain_801db06c",
+  "source": "source/matching/game/r25b/r25b_step_gain_801db06c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25b_step_gain_801db06c": "0x801db06c"
+  },
+  "descriptions": {
+    "w3d_r25b_step_gain_801db06c": "Inferred countdown/gain update. Observed state: interface +0, duration +4,"
+  }
+}

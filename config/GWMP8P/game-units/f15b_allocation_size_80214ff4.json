@@ -1,0 +1,11 @@
+{
+  "unit": "f15b_allocation_size_80214ff4",
+  "source": "source/matching/game/f15b/f15b_allocation_size_80214ff4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f15b_allocation_size_80214ff4": "0x80214ff4"
+  },
+  "descriptions": {
+    "f15b_allocation_size_80214ff4": "Inferred allocation-size query through a partial heap-owner view with state pointer at +48. Unless flag bit 0 is set, rejects an already-set bit 0x2000 and otherwise sets it. Searches linked regions starting at state +12, checks unsigned input address strictly inside each region payload, then traverses eight-byte block headers using size masked with ~7. An exact payload pointer returns the masked size only when header flags &5 equals1; all other paths return 0xffffffff. Clears state flag 0x2000 on the common exit, including when bit0 was initially set. Native region/header views cover only observed fields and imply no complete heap class identity, allocation footprint, thread safety or portable pointer-order semantics. No local allocation, external symbol references or owned data; original names and API meanings remain inferred."
+  }
+}

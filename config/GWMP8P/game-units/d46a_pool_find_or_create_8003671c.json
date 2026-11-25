@@ -1,0 +1,11 @@
+{
+  "unit": "d46a_pool_find_or_create_8003671c",
+  "source": "source/matching/game/d46a/d46a_pool_find_or_create_8003671c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d46a_pool_find_or_create_8003671c": "0x8003671c"
+  },
+  "descriptions": {
+    "w3d_d46a_pool_find_or_create_8003671c": "Scans the pool item list for the first entry the 0x80036c8c test rejects; if none, allocates a new 16 B item and pushes it, growing the storage by half when full."
+  }
+}

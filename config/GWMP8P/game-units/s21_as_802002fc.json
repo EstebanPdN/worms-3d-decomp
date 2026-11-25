@@ -1,0 +1,11 @@
+{
+  "unit": "s21_as_802002fc",
+  "source": "source/matching/game/s21/s21_as_802002fc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_release_singleton_802002fc": "0x802002fc"
+  },
+  "descriptions": {
+    "w3d_s21_release_singleton_802002fc": "Appears to release a global singleton through a virtual slot, clear the global pointer and return zero."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d24g_super_sheep_start_80070fec",
+  "source": "source/matching/game/d24g/d24g_super_sheep_start_80070fec.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24g_super_sheep_start_80070fec": "0x80070fec"
+  },
+  "descriptions": {
+    "w3d_d24g_super_sheep_start_80070fec": "Super Sheep start-up: subscribes to twelve cached messages with slots +364..+408, reads CommentaryPanel.Comment into +360, clears its state, posts the Flying commentary message, rotates its matrix at +124 by -pi/2 about the axis index 2, runs its start-up steps and, when the handle resolves, assigns the SuperSheepFlyCamera name and plays the start sound, then forwards the team colours to 0x800fdc80."
+  }
+}

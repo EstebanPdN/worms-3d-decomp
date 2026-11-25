@@ -1,0 +1,11 @@
+{
+  "unit": "s6_ai_lifecycle",
+  "source": "source/matching/game/s6_ai_lifecycle.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ai_initialize_vectors_800067a8": "0x800067a8"
+  },
+  "descriptions": {
+    "w3d_ai_initialize_vectors_800067a8": "Allocates planner vectors and weapon delay storage before selecting planner state 1."
+  }
+}

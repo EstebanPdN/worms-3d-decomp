@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_camera_turn_angle_800d1c1c",
+  "source": "source/matching/game/d27c/d27c_camera_turn_angle_800d1c1c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_camera_turn_angle_800d1c1c": "0x800d1c1c"
+  },
+  "descriptions": {
+    "d27c_camera_turn_angle_800d1c1c": "Compute the signed view angle produced by a velocity from a position."
+  }
+}

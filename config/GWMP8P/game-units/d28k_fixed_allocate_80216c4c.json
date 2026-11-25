@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_fixed_allocate_80216c4c",
+  "source": "source/matching/game/d28k/d28k_fixed_allocate_80216c4c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_fixed_allocate_80216c4c": "0x80216c4c"
+  },
+  "descriptions": {
+    "w3d_d28k_fixed_allocate_80216c4c": "Fixed-size pool allocator: fixes the slot size on first use, carves spare chunks and new blocks into slots, pops a slot and notifies the watch hook."
+  }
+}

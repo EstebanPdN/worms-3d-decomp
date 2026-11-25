@@ -1,0 +1,14 @@
+{
+  "unit": "d29a_hop_path_build_80009b04",
+  "source": "source/matching/game/d29a/d29a_hop_path_build_80009b04.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29a_hop_path_build_80009b04": "0x80009b04"
+  },
+  "descriptions": {
+    "w3d_d29a_hop_path_build_80009b04": "Builds a hop move queue after tracing the three flight segments."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

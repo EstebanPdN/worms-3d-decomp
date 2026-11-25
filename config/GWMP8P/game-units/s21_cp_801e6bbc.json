@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cp_801e6bbc",
+  "source": "source/matching/game/s21/s21_cp_801e6bbc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_reset_801e6bbc": "0x801e6bbc"
+  },
+  "descriptions": {
+    "w3d_s21_reset_801e6bbc": "Appears to reset an object: it runs optional cleanup, releases the held interface, clears two flag fields and sets two handles to minus one."
+  }
+}

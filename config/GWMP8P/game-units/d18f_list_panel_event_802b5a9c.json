@@ -1,0 +1,18 @@
+{
+  "unit": "d18f_list_panel_event_802b5a9c",
+  "source": "source/matching/game/d18f/d18f_list_panel_event_802b5a9c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d18f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ],
+  "functions": {
+    "handle_event__13D18fListPanelP9D18fEvent": "0x802b5a9c"
+  },
+  "descriptions": {
+    "handle_event__13D18fListPanelP9D18fEvent": "List panel message handler: opens on message 64 (E_FAIL if the base handler fails) and closes on 66; otherwise resets on two reset messages, and when its control is ready and input is unlocked selects the row under the pointer, confirms or dismisses on drag release, moves the selection up/down with scroll direction and clamping to the item count, confirms or releases on accept, releases on back, passes left/right through, forwards other messages to the control, and finishes in the base handler."
+  }
+}

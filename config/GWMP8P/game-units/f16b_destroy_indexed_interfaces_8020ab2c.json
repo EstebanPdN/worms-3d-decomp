@@ -1,0 +1,11 @@
+{
+  "unit": "f16b_destroy_indexed_interfaces_8020ab2c",
+  "source": "source/matching/game/f16b/f16b_destroy_indexed_interfaces_8020ab2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._8F16bO180": "0x8020ab2c"
+  },
+  "descriptions": {
+    "_._8F16bO180": "Native deleting destructor for an inferred32-byte owner, supported by factory8020a9a8 allocating32B and constructor8020aad0 initializing through byte31. Installs vtable80419430, captures the signed pointer-vector element count at20..31, then visits indices0..count-1 and invokes observed interface vtable slot16 without a null guard. Frees the vector storage at20 via802134fc, restores base vtable804181c0 and cleans the node at4 through80210990(node,0). Conditionally calls class-specific deallocation801fe1f8 when destructor flag bit0 is set; its mangled static operator-delete extern is witnessed by original call8020abc8. Native indexed-loop and member/base cleanup reproduce the original counter lifetime. Names, interface semantics, signatures and hidden base fields remain inferred; no local construction/allocation and no owned data. External vtables remain unowned."
+  }
+}

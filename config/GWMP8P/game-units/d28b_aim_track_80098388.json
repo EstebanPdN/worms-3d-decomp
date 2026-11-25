@@ -1,0 +1,14 @@
+{
+  "unit": "d28b_aim_track_80098388",
+  "source": "source/matching/game/d28b/d28b_aim_track_80098388.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28b_aim_track_80098388": "0x80098388"
+  },
+  "descriptions": {
+    "w3d_d28b_aim_track_80098388": "Aim tracking: in mode 2 (+116) with a valid value (+152), sweeps from the eye point (member 0x8003e304 plus 8) to the target worm +136 unless gone or the own worm, then to the worm named by +152; when blocked sets +140 and derives head +148 and yaw +144, each wrapped, scaled by pi/2 and clamped to -1..1, using the yaw +124 through a built matrix (0x801f7538); otherwise clears +140."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

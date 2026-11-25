@@ -1,0 +1,11 @@
+{
+  "unit": "s1_session_cache",
+  "source": "source/matching/game/s1_session_cache.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8006bce4": "0x8006bce4"
+  },
+  "descriptions": {
+    "w3d_fn_8006bce4": "Retains the shared cache, reconciles 89 resource states against the requested table, and clears the busy flag."
+  }
+}

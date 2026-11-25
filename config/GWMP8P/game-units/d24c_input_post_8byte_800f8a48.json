@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_input_post_8byte_800f8a48",
+  "source": "source/matching/game/d24c/d24c_input_post_8byte_800f8a48.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_input_post_8byte_800f8a48": "0x800f8a48"
+  },
+  "descriptions": {
+    "d24c_input_post_8byte_800f8a48": "Build a 12-byte record with vtable 0x80410500, id and value; push it on the vector at +124 of the 0x804aaf48 service when +428 is non-zero, else on the vector at +28, growing by reallocation through 0x80212fd4 with fallback 0x803413d8 and freeing the old block through 0x802134fc; then call 0x800f8dcc with the service and the record."
+  }
+}

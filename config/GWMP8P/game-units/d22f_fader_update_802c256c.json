@@ -1,0 +1,14 @@
+{
+  "unit": "d22f_fader_update_802c256c",
+  "source": "source/matching/game/d22f/d22f_fader_update_802c256c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d22f_fader_update_802c256c": "0x802c256c"
+  },
+  "descriptions": {
+    "d22f_fader_update_802c256c": "Per-tick update of a fading element: divides the time by the timer period and, when a panel exists, shows frame 0 and clears the state on odd ticks or shows (state != 1) on even ticks; when the active resource reports done it clears it; while the fade counter is non-zero it steps the counter toward zero (down or up by 1.0 by direction), then resets position/scale to 0/1 (or runs the finish callback) when it reaches zero, otherwise adds or subtracts the per-step position and scale deltas, hands both vectors to the node (slots 19 and 21), and sets the mesh colour (254,234,213) with alpha 115 - fade*10 or -fade*10 + 5. Returns 0. Field names describe observed use only."
+  }
+}

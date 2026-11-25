@@ -1,0 +1,17 @@
+{
+  "unit": "d33f_border_mesh_8029358c_x_8029358c",
+  "source": "source/matching/game/d33f/d33f_border_mesh_8029358c_x_8029358c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d33f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d33f_border_mesh_8029358c_x_8029358c": "0x8029358c"
+  },
+  "descriptions": {
+    "d33f_border_mesh_8029358c_x_8029358c": "Rebuilds the vertices of a bordered rectangle mesh from half sizes, border and inset, and refreshes its bounding box and sphere."
+  }
+}

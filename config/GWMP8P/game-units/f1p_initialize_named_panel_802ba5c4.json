@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_initialize_named_panel_802ba5c4",
+  "source": "source/matching/game/f1p/f1p_initialize_named_panel_802ba5c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_initialize_named_panel_802ba5c4": "0x802ba5c4"
+  },
+  "descriptions": {
+    "w3d_initialize_named_panel_802ba5c4": "Bind the receiver subobject at offset 28 to the original context service, create an empty native held lookup slot, and for a nonempty resource name resolve it before registering the original callback address, receiver and handle-field output. Invoke both native panel setup routines and release the local lookup interface. The resource-name address remains live across lookup as in the original. Type and role names, callback API and receiver/data/context prefixes are inferred partial external views; the callback declaration identifies its address without claiming its invocation signature. No complete class or initialized-data ownership is claimed."
+  }
+}

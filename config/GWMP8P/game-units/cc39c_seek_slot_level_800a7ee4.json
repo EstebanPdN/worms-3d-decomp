@@ -1,0 +1,11 @@
+{
+  "unit": "cc39c_seek_slot_level_800a7ee4",
+  "source": "source/matching/game/cc39c/cc39c_seek_slot_level_800a7ee4_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39c_seek_slot_level_800a7ee4": "0x800a7ee4"
+  },
+  "descriptions": {
+    "cc39c_seek_slot_level_800a7ee4": "Scan eight requested slot words from the top for the first one not -1, step the 52-byte element array from both stored indices to it through 0x800a7488 with unsigned compares, store it as both indices and set flag 0x200000; with none, reset the indices to 0 and 14 and clear the flag."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc18a_land_tables_sinit_800beb80",
+  "source": "source/matching/game/cc18a/cc18a_land_tables_sinit_800beb80.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18a_land_tables_sinit_800beb80": "0x800beb80"
+  },
+  "descriptions": {
+    "w3d_cc18a_land_tables_sinit_800beb80": "Initializes observed landscape base aliases, its type descriptor, eleven message caches, four zero pointer objects and one empty range."
+  }
+}

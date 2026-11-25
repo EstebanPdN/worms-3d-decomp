@@ -1,0 +1,11 @@
+{
+  "unit": "f16b_destroy_nested_vectors_801908bc",
+  "source": "source/matching/game/f16b/f16b_destroy_nested_vectors_801908bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._12F16bOwner492": "0x801908bc"
+  },
+  "descriptions": {
+    "_._12F16bOwner492": "Native deleting destructor for an inferred80-byte owner. Factory80190680 allocates80B and constructor80190800 initializes through byte79. Installs vtable804132e0, obtains external service803439d8 and invokes80198710(service,this). For each84-byte record in the vector at36, clears its buffer subobject at+8 using the corresponding16-byte nested vector entry at52. Destroys the8-byte text view at68, the nested vector of16-byte vector objects (whose trivial12-byte elements still induce the observed traversal), the vector of84-byte text/buffer records, and the vector of8-byte text elements. All three storage releases use801907d0. Restores base vtable80413338, cleans node at4 via80210990(node,0), and calls class-specific deallocation at801fe1f8 only when destructor flags bit0 is set. Native template and member destructor boundaries reproduce every cleanup loop. The static operator-delete mangled extern is bound from original call80190a90 to801fe1f8. Layouts, names, allocator semantics and text/buffer API signatures remain inferred; raw hidden storage is not a complete original type reconstruction. No local construction or allocation, no owned data, and external service/vtables remain unowned."
+  }
+}

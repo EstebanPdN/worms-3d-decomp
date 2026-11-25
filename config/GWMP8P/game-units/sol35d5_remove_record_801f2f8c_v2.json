@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d5_remove_record_801f2f8c_v2",
+  "source": "source/matching/game/sol35d5/sol35d5_remove_record_801f2f8c_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d5_remove_record_801f2f8c_v2": "0x801f2f8c"
+  },
+  "descriptions": {
+    "sol35d5_remove_record_801f2f8c_v2": "Remove the first matching twelve-byte pair-key record, copy following storage down, decrease end and update the observed empty bit. Partial layout and names inferred."
+  }
+}

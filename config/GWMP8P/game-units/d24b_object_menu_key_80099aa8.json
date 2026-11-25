@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_object_menu_key_80099aa8",
+  "source": "source/matching/game/d24b/d24b_object_menu_key_80099aa8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_object_menu_key_80099aa8": "0x80099aa8"
+  },
+  "descriptions": {
+    "w3d_d24b_object_menu_key_80099aa8": "Debug object-menu key handler: dispatches on the state +40. List state: N/P page through the entries (19 per page, refresh 0x800990a4, options 0x80099998), ?/ show help (0x80099a20), T toggles +56, S cycles the filter +60 up to +28 then -1, Y cycles +76 through 0..7, R rebuilds (0x800994b4), other keys select an entry through the key tables 0x804aabc8/0x804aabcc when its slot +80 reports lines (0x80099dc0). Detail state: N/P move through the lines, R returns (0x80098fc8). States 0 and 2 set up the page."
+  }
+}

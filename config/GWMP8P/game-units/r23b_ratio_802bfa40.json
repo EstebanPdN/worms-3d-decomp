@@ -1,0 +1,11 @@
+{
+  "unit": "r23b_ratio_802bfa40",
+  "source": "source/matching/game/r23b/r23b_ratio_802bfa40.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23b_ratio_802bfa40": "0x802bfa40"
+  },
+  "descriptions": {
+    "w3d_r23b_ratio_802bfa40": "Return the float sum at +0x40/+0x3c divided by twice +0x24, capped by external bound; names inferred."
+  }
+}

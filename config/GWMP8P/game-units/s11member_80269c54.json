@@ -1,0 +1,11 @@
+{
+  "unit": "s11member_80269c54",
+  "source": "source/matching/game/s11_auto/s11member_80269c54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_auto_80269c54": "0x80269c54"
+  },
+  "descriptions": {
+    "w3d_auto_80269c54": "Appears to calls 0x8026b3f0, 0x8026bdf0, 0x8026c008, 0x8026c54c, 0x8026c8a8; accesses fields at 0x1F0. m2c types and names are provisional."
+  }
+}

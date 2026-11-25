@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_dispatch_editor_key_8027113c",
+  "source": "source/matching/game/f1p/f1p_dispatch_editor_key_8027113c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_dispatch_editor_key_8027113c": "0x8027113c"
+  },
+  "descriptions": {
+    "w3d_dispatch_editor_key_8027113c": "Dispatch the input argument to one of thirty-one original editor handlers according to the observed category field at offset36. Category roles and input semantics inferred; sparse switch case map recovered directly from original branch destinations."
+  }
+}

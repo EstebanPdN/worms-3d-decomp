@@ -1,0 +1,11 @@
+{
+  "unit": "s4_card_check_report",
+  "source": "source/matching/game/s4_card_check_report.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_check_report": "0x802ae2dc"
+  },
+  "descriptions": {
+    "w3d_s4_card_check_report": "Reports each change of card-file recovery-check state and rejects unknown states."
+  }
+}

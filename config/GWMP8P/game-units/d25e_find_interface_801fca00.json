@@ -1,0 +1,11 @@
+{
+  "unit": "d25e_find_interface_801fca00",
+  "source": "source/matching/game/d25e/d25e_find_interface_801fca00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25e_find_interface_801fca00": "0x801fca00"
+  },
+  "descriptions": {
+    "w3d_d25e_find_interface_801fca00": "Iterator constructor: records the 16-byte key and the table index, takes the begin and end of row i of the 12-byte vector table 0x8045e890, then advances the cursor until an entry whose id pointer (entry+12) compares equal to the key with memcmp, or the end. Returns self."
+  }
+}

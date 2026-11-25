@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_node_scene_setup_802c17bc",
+  "source": "source/matching/game/d24l/d24l_node_scene_setup_802c17bc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_node_scene_setup_802c17bc": "0x802c17bc"
+  },
+  "descriptions": {
+    "d24l_node_scene_setup_802c17bc": "Loads the empty model handle ('NULL', type 255) into +32 and the 'Frontend.Anim' node into +28, then positions the anim at 0 and rotates it by a copy of the global vector 0x8045e788, attaches the model at 'locator1' (virtual slots +76,+80,+92), zeroes the model position and rotation with flag 1, and sets both scales to 1.0 (+84)."
+  }
+}

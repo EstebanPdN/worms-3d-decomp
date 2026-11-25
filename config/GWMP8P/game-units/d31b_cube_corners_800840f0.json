@@ -1,0 +1,11 @@
+{
+  "unit": "d31b_cube_corners_800840f0",
+  "source": "source/matching/game/d31b/d31b_cube_corners_800840f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31b_cube_corners_800840f0": "0x800840f0"
+  },
+  "descriptions": {
+    "w3d_d31b_cube_corners_800840f0": "Cube corner vertices: for eight cell corners and two vertex sets gated by the masks 0x804adb20/0x804adb24, when the corner's 16-bit link at +2492 is still 0xffff, builds the position plus size and height offset plus rotated offset (+2572), publishes it in 0x80431460, appends grid index, position, uv from the planes +400..+436 with bias +464/+472 and doubled corner colour, and records the vertex number from +2478 in the link."
+  }
+}

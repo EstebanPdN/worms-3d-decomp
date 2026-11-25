@@ -1,0 +1,14 @@
+{
+  "unit": "d41d_worm_downward_contact_search_80146b84",
+  "source": "source/matching/game/d41d/d41d_worm_downward_contact_search_80146b84.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d41d_worm_downward_contact_search_80146b84": "0x80146b84"
+  },
+  "descriptions": {
+    "w3d_d41d_worm_downward_contact_search_80146b84": "Starts a contact search along the worm's velocity, normalises the velocity, walks the found contacts, and for each contact's position takes the unit vector to the worm's raised position; returns 1 for the first surface facing up by more than 45 degrees that is hit while stationary or against the motion; ends the search and returns 0 otherwise."
+  }
+}

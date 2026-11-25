@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_string_panel_destroy_802c0f68",
+  "source": "source/matching/game/cx13b/cx13b_string_panel_destroy_802c0f68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_string_panel_destroy_802c0f68": "0x802c0f68"
+  },
+  "descriptions": {
+    "w3d_cx13b_string_panel_destroy_802c0f68": "Release the held interface at +68, finish the shared string at +44, release three more interfaces and destroy the base."
+  }
+}

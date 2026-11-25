@@ -1,0 +1,11 @@
+{
+  "unit": "d25c_actor_align_rotation_800ed440",
+  "source": "source/matching/game/d25c/d25c_actor_align_rotation_800ed440.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25c_actor_align_rotation_800ed440": "0x800ed440"
+  },
+  "descriptions": {
+    "d25c_actor_align_rotation_800ed440": "Read a direction through virtual +52, normalize it, take the cross and dot product with (0, 0, 1) and set the rotation at +124 from that axis and the arc cosine of the dot product (0x801f656c). Returns the rotation."
+  }
+}

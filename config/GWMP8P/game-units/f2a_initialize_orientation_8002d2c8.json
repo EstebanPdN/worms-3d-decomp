@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_initialize_orientation_8002d2c8",
+  "source": "source/matching/game/f2a/f2a_initialize_orientation_8002d2c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_initialize_orientation_8002d2c8": "0x8002d2c8"
+  },
+  "descriptions": {
+    "w3d_f2a_initialize_orientation_8002d2c8": "Clears offset 76, sums two original float-property queries into the vector at offset 88, and initializes scalar fields from 0x80372964. For a nonnegative resolved index, copies x/z from the resolved object and derives two scalar fields from 0x80372968 minus its offset-72 value. Copies and flattens the position vector, computes cosine/sine direction, and copies it to offset 28. Names are inferred; external data ownership is not claimed."
+  }
+}

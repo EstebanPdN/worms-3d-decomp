@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_apply_actor_types",
+  "source": "source/matching/game/cx9c/cx9c_apply_actor_types.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_apply_actor_types_8034ad50": "0x8034ad50"
+  },
+  "descriptions": {
+    "w3d_cx9c_apply_actor_types_8034ad50": "Inferred callback propagation over one actor type and optional descendant types, stopping on negative result."
+  }
+}

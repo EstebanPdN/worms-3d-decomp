@@ -1,0 +1,11 @@
+{
+  "unit": "s21_g_801de2dc",
+  "source": "source/matching/game/s21/s21_g_801de2dc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_query_value_801de2dc": "0x801de2dc"
+  },
+  "descriptions": {
+    "w3d_s21_query_value_801de2dc": "Appears to query a value through a helper and store it to the output pointer only when the status is not negative."
+  }
+}

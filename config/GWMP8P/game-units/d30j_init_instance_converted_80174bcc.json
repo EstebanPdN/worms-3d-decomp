@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_init_instance_converted_80174bcc",
+  "source": "source/matching/game/d30j/d30j_init_instance_converted_80174bcc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30j_init_instance_converted_80174bcc": "0x80174bcc"
+  },
+  "descriptions": {
+    "d30j_init_instance_converted_80174bcc": "Initialise a resource instance: optionally convert its source image, create an instance named Instance-<item> with its colours, link the image and register it."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "genreg_801b695c",
+  "source": "source/matching/game/generated/genreg_801b695c.c",
+  "language": "c",
+  "functions": {
+    "w3d_register_801b695c": "0x801b695c",
+    "w3d_register_801ce0d4": "0x801ce0d4",
+    "w3d_register_80245da8": "0x80245da8"
+  },
+  "descriptions": {
+    "w3d_register_801b695c": "Registers 7 named properties or bindings of the object through the registration helpers, then finishes registration; returns zero.",
+    "w3d_register_801ce0d4": "Registers 13 named properties or bindings of the object through the registration helpers, then finishes registration; returns zero.",
+    "w3d_register_80245da8": "Registers 33 named properties or bindings of the object through the registration helpers, then finishes registration; returns zero."
+  }
+}

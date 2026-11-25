@@ -1,0 +1,31 @@
+{
+  "unit": "h1_newlib_stdio_core",
+  "source": "source/matching/game/h1/h1_newlib_stdio_core.c",
+  "language": "c",
+  "functions": {
+    "_close_r": "0x802f3228",
+    "_fstat_r": "0x802f3278",
+    "_lseek_r": "0x802f32d0",
+    "_read_r": "0x802f3384",
+    "_write_r": "0x802f33dc",
+    "__sread": "0x802ec424",
+    "__swrite": "0x802ec488",
+    "__sseek": "0x802ec4f8",
+    "__sclose": "0x802ec55c",
+    "_fwalk": "0x802ebe64",
+    "w3d_newlib_std_802eb178": "0x802eb178"
+  },
+  "descriptions": {
+    "_close_r": "newlib _close_r: clears errno, calls the close syscall stub and copies a nonzero errno into the reentrancy structure on failure.",
+    "_fstat_r": "newlib _fstat_r: clears errno, calls the fstat syscall stub and copies a nonzero errno into the reentrancy structure on failure.",
+    "_lseek_r": "newlib _lseek_r: clears errno, calls the lseek syscall stub and copies a nonzero errno into the reentrancy structure on failure.",
+    "_read_r": "newlib _read_r: clears errno, calls the read syscall stub and copies a nonzero errno into the reentrancy structure on failure.",
+    "_write_r": "newlib _write_r: clears errno, calls the write syscall stub and copies a nonzero errno into the reentrancy structure on failure.",
+    "__sread": "newlib __sread: reads from the stream's file with _read_r and advances the cached offset, or clears the offset-valid flag on error.",
+    "__swrite": "newlib __swrite: seeks to the end for append streams, clears the offset-valid flag and writes with _write_r.",
+    "__sseek": "newlib __sseek: seeks with _lseek_r and caches the new offset, or clears the offset-valid flag on error.",
+    "__sclose": "newlib __sclose: closes the stream's file with _close_r.",
+    "_fwalk": "newlib _fwalk: calls a function on every open stream of every glue block of the reentrancy structure and ORs the results.",
+    "w3d_newlib_std_802eb178": "SN version of newlib std (findfp.c): initializes a FILE with flags, file number, default read/write/seek/close hooks and reentrancy pointer; leaves _bf._size."
+  }
+}

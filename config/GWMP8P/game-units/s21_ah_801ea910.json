@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ah_801ea910",
+  "source": "source/matching/game/s21/s21_ah_801ea910.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_global_801ea910": "0x801ea910"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_global_801ea910": "Appears to be a static destruction helper that finishes two parts of a global object with the argument two."
+  }
+}

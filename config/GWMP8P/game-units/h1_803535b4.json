@@ -1,0 +1,19 @@
+{
+  "unit": "h1_803535b4",
+  "source": "source/matching/game/h1/h1_803535b4.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_deque_destroy_nodes_803535b4": "0x803535b4",
+    "w3d_h1_deque_base_destroy_80353604": "0x80353604",
+    "w3d_h1_deque_next_buffer_8035eec4": "0x8035eec4",
+    "w3d_h1_deque_destroy_nodes_8035ed6c": "0x8035ed6c",
+    "w3d_h1_deque_base_destroy_8035edbc": "0x8035edbc"
+  },
+  "descriptions": {
+    "w3d_h1_deque_destroy_nodes_803535b4": "Releases every non-null buffer in the deque node range [start, finish).",
+    "w3d_h1_deque_base_destroy_80353604": "Deque base destructor: if the node map at offset 36 exists, releases the buffers from the start node through the finish node and then the map; deletes the object when flag bit 0 is set.",
+    "w3d_h1_deque_next_buffer_8035eec4": "Releases the iterator's current buffer and advances it to the next node, setting first, last (first + 128) and cur.",
+    "w3d_h1_deque_destroy_nodes_8035ed6c": "Second instance of 0x803535b4: releases every non-null buffer in the node range.",
+    "w3d_h1_deque_base_destroy_8035edbc": "Second instance of 0x80353604: deque base destructor releasing node buffers and the map, deleting the object when flag bit 0 is set."
+  }
+}

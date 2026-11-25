@@ -1,0 +1,11 @@
+{
+  "unit": "f14a_load_game_data_80289eec",
+  "language": "cpp",
+  "source": "source/matching/game/f14a/f14a_load_game_data_80289eec.cpp",
+  "functions": {
+    "w3d_f14a_load_game_data_80289eec": "0x80289eec"
+  },
+  "descriptions": {
+    "w3d_f14a_load_game_data_80289eec": "Log the original setting-game-data message, set card flag 0x40000000, obtain and retain a resource, request and copy 0x11800 bytes through its data view, bind and update a retained service, post the original Schemes and Q.Room messages, refresh frontend game state and apply saved sound, then release both local interfaces. Names and roles inferred; eight-byte local reservations and external data remain explicitly partial."
+  }
+}

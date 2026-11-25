@@ -1,0 +1,13 @@
+{
+  "unit": "s20_adjust_k",
+  "source": "source/matching/game/s20/s20_adjust_k.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_refresh_item_block_801a5a6c": "0x801a5a6c",
+    "w3d_s20_refresh_item_block_801a58d0": "0x801a58d0"
+  },
+  "descriptions": {
+    "w3d_s20_refresh_item_block_801a5a6c": "Appears to refresh an item's 16-byte block from the secondary base subobject after notifying it and dispatching the item's target.",
+    "w3d_s20_refresh_item_block_801a58d0": "Appears to refresh an item's 16-byte block from the secondary base subobject, forwarding to a helper when the item has no target."
+  }
+}

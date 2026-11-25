@@ -1,0 +1,11 @@
+{
+  "unit": "s20_math_b",
+  "source": "source/matching/game/s20/s20_math_b.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_normalize_after_call_800ed38c": "0x800ed38c"
+  },
+  "descriptions": {
+    "w3d_s20_normalize_after_call_800ed38c": "Appears to resolve a handle, call virtual method 12 with a vector and normalize that vector when its squared length exceeds a constant."
+  }
+}

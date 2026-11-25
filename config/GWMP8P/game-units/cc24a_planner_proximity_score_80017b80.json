@@ -1,0 +1,11 @@
+{
+  "unit": "cc24a_planner_proximity_score_80017b80",
+  "source": "source/matching/game/cc24a/cc24a_planner_proximity_score_80017b80.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_proximity_score_80017b80": "0x80017b80"
+  },
+  "descriptions": {
+    "cc24a_planner_proximity_score_80017b80": "Apply owner factor and ordered distance falloff with exact single-precision FMA norm and threshold."
+  }
+}

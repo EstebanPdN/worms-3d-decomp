@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_node_construct",
+  "source": "source/matching/game/cx8c/cx8c_node_construct.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_node_construct_8034baf8": "0x8034baf8"
+  },
+  "descriptions": {
+    "w3d_cx8c_node_construct_8034baf8": "Installs vtables at offsets +0/+12 and invokes the original node initializer."
+  }
+}

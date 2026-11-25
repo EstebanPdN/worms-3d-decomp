@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_80159fec",
+  "source": "source/matching/game/k2b/k2b_a_80159fec.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_call_twice_80159fec": "0x80159fec"
+  },
+  "descriptions": {
+    "w3d_k2b_call_twice_80159fec": "Appears to call a global object's handler twice with an argument and return the second result, else a fallback global."
+  }
+}

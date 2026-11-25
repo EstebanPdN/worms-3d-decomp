@@ -1,0 +1,13 @@
+{
+  "unit": "s4_handles",
+  "source": "source/matching/game/s4_handles.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_handles_construct": "0x80287a84",
+    "w3d_s4_handles_clear": "0x80287d30"
+  },
+  "descriptions": {
+    "w3d_s4_handles_construct": "Initializes the 64-handle collection, registers its instance, and clears its dirty flag.",
+    "w3d_s4_handles_clear": "Releases and clears all counted handles and resets the count."
+  }
+}

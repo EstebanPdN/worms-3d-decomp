@@ -1,0 +1,15 @@
+{
+  "unit": "d24b_weapon_projectile_start_8009c248",
+  "source": "source/matching/game/d24b/d24b_weapon_projectile_start_8009c248.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_weapon_projectile_start_8009c248": "0x8009c248"
+  },
+  "descriptions": {
+    "w3d_d24b_weapon_projectile_start_8009c248": "Weapon projectile start: casts the owner +28 (0x80341584, 0x801797b4), derives the count +48 from the ratio of weapon fields +204/+200 times 50 (at least 1), subscribes the object (0x80162024) to five cached message ids with slots +128 to +144, reads ActiveWormIndex, ObjectCount.Active and Water.Level into +32, +36, +40, publishes the aim limits (radians to degrees) and posts the changed and target messages when weapon +304 is set, clears +52 and AI.BulletCount, publishes RetreatTime (weapon +208 overriding DefaultRetreatTime), creates the handle in +92 (0x801261bc, 0x80126308), creates the 132-byte helper in +148 (0x8009daa4, retained owner by value) unless 0x80020834 reports an active team, and sets +108 when Camera.CurrentMode is 1."
+  },
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast"
+  ]
+}

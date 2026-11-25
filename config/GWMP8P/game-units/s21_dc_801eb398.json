@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dc_801eb398",
+  "source": "source/matching/game/s21/s21_dc_801eb398.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_write_801eb398": "0x801eb398"
+  },
+  "descriptions": {
+    "w3d_s21_forward_write_801eb398": "Appears to call virtual slot 15 of the described object with its arguments, the offset-adjusted second argument, descriptor fields and an optional linked value."
+  }
+}

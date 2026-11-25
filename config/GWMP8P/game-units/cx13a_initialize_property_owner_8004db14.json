@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_initialize_property_owner_8004db14",
+  "source": "source/matching/game/cx13a/cx13a_initialize_property_owner_8004db14.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_initialize_property_owner_8004db14": "0x8004db14"
+  },
+  "descriptions": {
+    "w3d_cx13a_initialize_property_owner_8004db14": "Initialize observed owner fields and retain the queried property with temporary and replaced-reference cleanup; names inferred."
+  }
+}

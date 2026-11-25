@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801eec98",
+  "source": "source/matching/game/k5b/k5b_a_801eec98.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_string_array_resized_801eec98": "0x801eec98"
+  },
+  "descriptions": {
+    "w3d_k5b_string_array_resized_801eec98": "Appears to allocate a resized shared-string array through the owner's allocator, copy-construct up to the old count of strings when asked and default-construct the rest."
+  }
+}

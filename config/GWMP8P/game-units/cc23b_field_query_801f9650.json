@@ -1,0 +1,11 @@
+{
+  "unit": "cc23b_field_query_801f9650",
+  "source": "source/matching/game/cc23b/cc23b_field_query_801f9650.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc23b_field_query_801f9650": "0x801f9650"
+  },
+  "descriptions": {
+    "w3d_cc23b_field_query_801f9650": "Copies the observed word at offset40 to an optional output, then checks mode0 against that word, accepts mode1 only for zero and reports original status constants for other requests. Domain meaning is inferred; shared failure paths preserved."
+  }
+}

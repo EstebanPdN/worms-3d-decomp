@@ -1,0 +1,11 @@
+{
+  "unit": "s11luamath_802dff20",
+  "source": "source/matching/game/generated/s11luamath_802dff20.cpp",
+  "language": "cpp",
+  "functions": {
+    "s11_lua_random_802dff20": "0x802dff20"
+  },
+  "descriptions": {
+    "s11_lua_random_802dff20": "Lua random wrapper: supplies a fraction or a bounded integer for zero, one, or two arguments, reports invalid intervals/counts, and retains the original frame slot."
+  }
+}

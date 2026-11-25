@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_chat_open_80038e04",
+  "source": "source/matching/game/k5a/k5a_chat_open_80038e04.cpp",
+  "language": "cpp",
+  "functions": {"k5a_chat_open_80038e04": "0x80038e04"},
+  "descriptions": {"k5a_chat_open_80038e04": "Appears to open the chat window: sets the chat property, posts messages, selects the menu and enters the app state when a team value is set."}
+}

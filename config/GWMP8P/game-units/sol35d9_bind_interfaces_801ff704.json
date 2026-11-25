@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d9_bind_interfaces_801ff704",
+  "source": "source/matching/game/sol35d9/sol35d9_bind_interfaces_801ff704.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d9_bind_interfaces_801ff704": "0x801ff704"
+  },
+  "descriptions": {
+    "sol35d9_bind_interfaces_801ff704": "Query a held interface from each input, bind it to the target, release the temporary on every path and return the first negative status or zero."
+  }
+}

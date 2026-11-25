@@ -1,0 +1,15 @@
+{
+  "unit": "d41a_bazooka_queue_build_80009f08",
+  "source": "source/matching/game/d41a/d41a_bazooka_queue_build_80009f08.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41a_bazooka_queue_build_80009f08": "0x80009f08"
+  },
+  "descriptions": {
+    "w3d_d41a_bazooka_queue_build_80009f08": "Builds an aimed-shot move queue if the target is far enough, open and reachable within the turn time."
+  },
+  "extra_flags": [
+    "-mps-float",
+    "-fvtable-thunks"
+  ]
+}

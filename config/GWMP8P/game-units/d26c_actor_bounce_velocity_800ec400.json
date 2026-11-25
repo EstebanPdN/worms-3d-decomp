@@ -1,0 +1,14 @@
+{
+  "unit": "d26c_actor_bounce_velocity_800ec400",
+  "source": "source/matching/game/d26c/d26c_actor_bounce_velocity_800ec400.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26c_actor_bounce_velocity_800ec400": "0x800ec400"
+  },
+  "descriptions": {
+    "d26c_actor_bounce_velocity_800ec400": "Read factors +304 and +312; both zero gives a zero vector. With a bounce flag read the Bounce.MinSpeed setting and call the response (0x800c2494). Otherwise call the response with minimum 0, then scale the normalized result to at least length 0.02."
+  }
+}

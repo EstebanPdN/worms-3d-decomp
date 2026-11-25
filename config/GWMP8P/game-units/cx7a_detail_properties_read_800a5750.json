@@ -1,0 +1,11 @@
+{
+  "unit": "cx7a_detail_properties_read_800a5750",
+  "source": "source/matching/game/cx7a/cx7a_detail_properties_read_800a5750.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7a_detail_properties_read_800a5750": "0x800a5750"
+  },
+  "descriptions": {
+    "w3d_cx7a_detail_properties_read_800a5750": "Resolve Detail.Position and Detail.Orientation properties into observed fields +0x1c/+0x20, then refresh the object; concrete class inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol11a_target_clips_8004e5ac",
+  "source": "source/matching/game/sol11a/sol11a_target_clips_8004e5ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11a_target_clips_8004e5ac": "0x8004e5ac"
+  },
+  "descriptions": {
+    "sol11a_target_clips_8004e5ac": "Resolves and invokes the NoTargetAquired target, then when the object is ready stops the existing mesh control and starts two clips with the observed blend and speed arguments."
+  }
+}

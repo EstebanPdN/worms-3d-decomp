@@ -1,0 +1,11 @@
+{
+  "unit": "f10c_destroy_text_owner_802523b4",
+  "source": "source/matching/game/f10c/f10c_destroy_text_owner_802523b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._19F10c_802523b4_Owner": "0x802523b4"
+  },
+  "descriptions": {
+    "_._19F10c_802523b4_Owner": "Install the original owner table, destroy the 22 observed shared-string members in native reverse C++ member order, invoke the original 20-byte tagged base destructor with flags zero, and use the original class deallocator when the native deleting-destructor flag requests it. Names and layout are inferred partial views; unobserved bytes remain explicit unknown storage. Complete observed allocation footprint is 164 bytes (factory80251e94, constructor80251f40)."
+  }
+}

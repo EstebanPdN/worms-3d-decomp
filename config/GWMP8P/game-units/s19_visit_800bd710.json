@@ -1,0 +1,11 @@
+{
+  "unit": "s19_visit_800bd710",
+  "source": "source/matching/game/s19/s19_visit_800bd710.c",
+  "language": "c",
+  "functions": {
+    "s19_refresh_marked_800bd710": "0x800bd710"
+  },
+  "descriptions": {
+    "s19_refresh_marked_800bd710": "Appears to run a helper with a zero float and then walk the global context list, running a helper on each entry whose bit in the words at +0x80 is set."
+  }
+}

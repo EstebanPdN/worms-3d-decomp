@@ -1,0 +1,17 @@
+{
+  "unit": "d16f_selection_event_8028581c",
+  "source": "source/matching/game/d16f/d16f_selection_event_8028581c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d16f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "handle_event__18D16fValueSelectionP9D16fEvent": "0x8028581c"
+  },
+  "descriptions": {
+    "handle_event__18D16fValueSelectionP9D16fEvent": "Value selection message handler: opens on message 64 (E_FAIL if the base handler fails) and resets on 66; otherwise, when its control is ready and idle, steps the selection forward or back on two next and two previous messages (reporting an edge when read-only or disabled, else writing the navigated value to the bound kind-0/kind-1 property, highlighting it and announcing the configuration name), forwards other messages to the control and finishes in the base handler."
+  }
+}

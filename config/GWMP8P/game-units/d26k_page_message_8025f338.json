@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_page_message_8025f338",
+  "source": "source/matching/game/d26k/d26k_page_message_8025f338.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_page_message_8025f338": "0x8025f338"
+  },
+  "descriptions": {
+    "w3d_d26k_page_message_8025f338": "Handles ids 64/66; while the view is current, a matching click (cache 0x804b0968) or a press/release pair (0x804b0958, 0x804b0960, mode 1) activates the item label through 0x802b1258 or reports through 0x802b22b0, otherwise forwards to 0x802aff9c, then to the base 0x8015fb34."
+  }
+}

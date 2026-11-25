@@ -1,0 +1,12 @@
+{
+  "unit": "d40l_choice_panel_ctor_802a7f9c",
+  "source": "source/matching/game/d40l/d40l_choice_panel_ctor_802a7f9c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d40l_choice_panel_ctor_802a7f9c": "0x802a7f9c"
+  },
+  "descriptions": {
+    "d40l_choice_panel_ctor_802a7f9c": "Constructs the choice panel: initialises its handles, slot and cell tables, then clears every cell and control handle."
+  }
+}

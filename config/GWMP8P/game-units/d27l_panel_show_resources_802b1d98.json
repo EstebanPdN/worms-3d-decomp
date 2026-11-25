@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_panel_show_resources_802b1d98",
+  "source": "source/matching/game/d27l/d27l_panel_show_resources_802b1d98.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_panel_show_resources_802b1d98": "0x802b1d98"
+  },
+  "descriptions": {
+    "d27l_panel_show_resources_802b1d98": "Resolves and applies the panel's two configured resources when the current id is valid, then notifies the panel."
+  }
+}

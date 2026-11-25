@@ -1,0 +1,15 @@
+{
+  "unit": "s1_crate_collection",
+  "source": "source/matching/game/s1_crate_collection.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004c51c": "0x8004c51c",
+    "w3d_fn_8004c598": "0x8004c598",
+    "w3d_fn_8004c670": "0x8004c670"
+  },
+  "descriptions": {
+    "w3d_fn_8004c51c": "Posts crate commentary unless commentary is suppressed.",
+    "w3d_fn_8004c598": "Reduces an actor field by the crate amount and posts pickup messages.",
+    "w3d_fn_8004c670": "Dispatches utility crate effects by the configured reward type."
+  }
+}

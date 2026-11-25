@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_child_callbacks_apply_801fc5f4",
+  "source": "source/matching/game/cx14b/cx14b_child_callbacks_apply_801fc5f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_child_callbacks_apply_801fc5f4": "0x801fc5f4"
+  },
+  "descriptions": {
+    "w3d_cx14b_child_callbacks_apply_801fc5f4": "Apply the original virtual callback to all nonnull children and return the last negative result."
+  }
+}

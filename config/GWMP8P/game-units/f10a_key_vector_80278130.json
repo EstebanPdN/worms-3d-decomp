@@ -1,0 +1,11 @@
+{
+  "unit": "f10a_key_vector_80278130",
+  "source": "source/matching/game/f10a/f10a_key_vector_80278130.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f10a_key_vector_80278130": "0x80278130"
+  },
+  "descriptions": {
+    "w3d_f10a_key_vector_80278130": "Handles editor escape, searches two original key maps, and dispatches seventeen indexed vector-property edit modes; partial owner layout and semantic role are inferred."
+  }
+}

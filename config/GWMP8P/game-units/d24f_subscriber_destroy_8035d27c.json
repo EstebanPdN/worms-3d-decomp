@@ -1,0 +1,12 @@
+{
+  "unit": "d24f_subscriber_destroy_8035d27c",
+  "source": "source/matching/game/d24f/d24f_subscriber_destroy_8035d27c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24f_subscriber_destroy_8035d27c": "0x8035d27c"
+  },
+  "descriptions": {
+    "d24f_subscriber_destroy_8035d27c": "Sets vtable 0x80419648; under the subscriber's own guard (slots 12/16) walks its list: for each subscription gets the registry (slot 8), locks it, erases this subscriber's key from its set (lower/upper bound, distance, range erase or clear, rebalance 0x80352010), unlocks, and deletes the subscription. Then unlinks and releases every list node, unlocks, clears the list via 0x8035d214, releases the header, sets base vtable 0x80413a50, and deletes itself when flag bit 0 is set."
+  }
+}

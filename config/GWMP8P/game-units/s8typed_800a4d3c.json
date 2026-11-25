@@ -1,0 +1,11 @@
+{
+  "unit": "s8typed_800a4d3c",
+  "source": "source/matching/game/s8typed_800a4d3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_virtual_forward_800a4d3c": "0x800a4d3c"
+  },
+  "descriptions": {
+    "s8_virtual_forward_800a4d3c": "Forwards the child pointer and a zero flag to vtable slot 19 of the held mesh interface."
+  }
+}

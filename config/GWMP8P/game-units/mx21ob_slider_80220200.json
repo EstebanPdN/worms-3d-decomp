@@ -1,0 +1,11 @@
+{
+  "unit": "mx21ob_slider_80220200",
+  "source": "source/matching/game/mx21ob/mx21ob_slider_80220200.cpp",
+  "language": "cpp",
+  "functions": {
+    "__12Mx21obSliderUs": "0x80220200"
+  },
+  "descriptions": {
+    "__12Mx21obSliderUs": "Constructs a slider widget: runs the button widget constructor 0x8021fd28 with the caller's 16-bit id, installs the table 0x8041a5a0, sets the float at +152 to 8.0f (pooled literal 0x803b641c), builds the strings at +156 from \"FE.Font\" (0x803b6408) and +160 from \"A.U.Slider\" (0x803b6410) through 0x8020bb54, copy-constructs +164 and +168 from the shared empty string 0x804b06a0 (retaining each) and sets the int at +172 to 0, in member order. Names and the slider meaning are inferred; offsets are observed."
+  }
+}

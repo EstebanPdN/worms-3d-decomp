@@ -1,0 +1,11 @@
+{
+  "unit": "sol33c_owned_array_clear_80342a7c",
+  "source": "source/matching/game/sol33c/sol33c_owned_array_clear_80342a7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol33c_owned_array_clear_80342a7c": "0x80342a7c"
+  },
+  "descriptions": {
+    "w3d_sol33c_owned_array_clear_80342a7c": "Clear the owner+88 pointer list from its end; destroy each 132-byte arena-owned element through cleanup and three reverse pairs of sixteen-byte slots, release non-null slot data, then call class-specific native arena deallocation at 0x80015264. Replacement at an already admitted address: zero new coverage."
+  }
+}

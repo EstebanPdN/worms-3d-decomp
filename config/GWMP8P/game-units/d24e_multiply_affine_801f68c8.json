@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_multiply_affine_801f68c8",
+  "source": "source/matching/game/d24e/d24e_multiply_affine_801f68c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_multiply_affine_801f68c8": "0x801f68c8"
+  },
+  "descriptions": {
+    "w3d_d24e_multiply_affine_801f68c8": "Multiplies a packed 4x3 affine matrix by a 4x4 matrix: each output row is a[i].x*b[0] + a[i].y*b[1] + a[i].z*b[2]; the translation row also adds b[3]."
+  }
+}

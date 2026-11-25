@@ -1,0 +1,42 @@
+--- a/port/core/sdk/sdk_core.cpp
++++ b/port/core/sdk/sdk_core.cpp
+@@ -9,6 +9,7 @@
+ #include <stdarg.h>
+ #include <stdint.h>
+ #include <stdio.h>
++#include <unistd.h>
+ #include <stdlib.h>
+ #include <string.h>
+ #include <string>
+@@ -67,7 +68,7 @@
+ int A802fdb6c(void) { return 1; }                      // OSDisableInterrupts
+ int A802fdb80(void) { return 1; }                      // OSEnableInterrupts
+ int A802fdb94(int level) { return level; }             // OSRestoreInterrupts
+-void A802fe898(int, unsigned, int) { fflush(stdout); exit(0); }  // OSResetSystem
++void A802fe898(int, unsigned, int) { fflush(nullptr); _exit(0); }  // OSResetSystem: sin destructores globales, ver VIWaitForRetrace
+ unsigned A802feb50(void) { return 0; }                 // OSGetResetCode
+ int A802fec74(void) { return 0; }                      // OSGetResetButtonState
+ unsigned A802ff730(void) { return 1; }                 // OSGetSoundMode: estéreo
+@@ -185,7 +186,11 @@
+ }
+ extern "C" {
+ int A802f4ef0(GA path) { return entry_of((const char *)g2h(path)); }        // DVDConvertPathToEntrynum
+-int A802f51e4(int entry, GA fi) { return fast_open(entry, (FileInfo *)g2h(fi)); }  // DVDFastOpen
++int A802f51e4(int entry, GA fi) {                                            // DVDFastOpen
++    static FILE *log = getenv("W3D_SND_LOG") ? fopen((std::string(getenv("W3D_SND_LOG")) + ".dvd").c_str(), "w") : nullptr;
++    if (log && entry >= 0 && (size_t)entry < g_entries.size()) { fprintf(log, "%s\n", g_entries[entry].c_str()); fflush(log); }
++    return fast_open(entry, (FileInfo *)g2h(fi));
++}
+ int A802f5258(GA path, GA fi) { return fast_open(entry_of((const char *)g2h(path)), (FileInfo *)g2h(fi)); }  // DVDOpen
+ int A802f5320(GA) { return 1; }                                             // DVDClose
+ int A802f5568(GA gfi, GA addr, int len, int off, GA cb, int) {              // DVDReadAsyncPrio
+@@ -221,7 +226,8 @@
+ GA A803031d0(GA cb) { GA o = g_pre_retrace; g_pre_retrace = cb; return o; }   // VISetPreRetraceCallback
+ void A803034b4(void) {}                                                    // VIInit
+ void A80303964(void) {                                                     // VIWaitForRetrace
+-    if (!plat::pump()) { fflush(stdout); exit(0); }
++    // exit() correría los destructores globales del juego, y uno de ellos aborta. Las partidas ya están en disco al cerrar cada archivo.
++    if (!plat::pump()) { fflush(nullptr); _exit(0); }
+     w3d_dvd_poll();
+     w3d_audio_tick();
+     double now = plat::now_seconds();

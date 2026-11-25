@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d10_read_end_record_801f8c48",
+  "source": "source/matching/game/sol35d10/sol35d10_read_end_record_801f8c48.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d10_read_end_record_801f8c48": "0x801f8c48"
+  },
+  "descriptions": {
+    "sol35d10_read_end_record_801f8c48": "Read the native archive end record, optionally decode its signature and decode byte, halfword and word fields through witnessed little-endian helpers."
+  }
+}

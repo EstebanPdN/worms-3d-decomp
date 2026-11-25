@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_counted_release_802180d8",
+  "source": "source/matching/game/cx7b/cx7b_counted_release_802180d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_counted_release_802180d8": "0x802180d8"
+  },
+  "descriptions": {
+    "w3d_cx7b_counted_release_802180d8": "Decrement the unsigned reference count at +4; at zero invoke vtable slot +44 with deleting flags 3; return the remaining count."
+  }
+}

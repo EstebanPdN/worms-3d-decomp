@@ -1,0 +1,11 @@
+{
+  "unit": "s21_e_80270fc8",
+  "source": "source/matching/game/s21/s21_e_80270fc8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_node_update_80270fc8": "0x80270fc8"
+  },
+  "descriptions": {
+    "w3d_s21_node_update_80270fc8": "Appears to poll a source handle and update a node, dispatching on its mode and releasing a temporary shared string, then returning 100."
+  }
+}

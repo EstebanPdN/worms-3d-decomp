@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_class_descriptor_initialize_80210538",
+  "source": "source/matching/game/cx14b/cx14b_class_descriptor_initialize_80210538.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_class_descriptor_initialize_80210538": "0x80210538"
+  },
+  "descriptions": {
+    "w3d_cx14b_class_descriptor_initialize_80210538": "Construct the original class table then register its six-word class descriptor at static initialization priority."
+  }
+}

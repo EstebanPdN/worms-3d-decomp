@@ -1,0 +1,15 @@
+{
+  "unit": "s1_crate_config",
+  "source": "source/matching/game/s1_crate_config.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004a7f4": "0x8004a7f4",
+    "w3d_fn_8004b3f0": "0x8004b3f0",
+    "w3d_fn_8004b908": "0x8004b908"
+  },
+  "descriptions": {
+    "w3d_fn_8004a7f4": "Configures a crate, dispatches its lowercase kind, and optionally snaps it to the ground.",
+    "w3d_fn_8004b3f0": "Reads the crate scale and multiplies it by the supplied scale factor.",
+    "w3d_fn_8004b908": "Posts a query containing two crate fields and tests the shared result for zero."
+  }
+}

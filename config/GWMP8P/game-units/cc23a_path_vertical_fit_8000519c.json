@@ -1,0 +1,14 @@
+{
+  "unit": "cc23a_path_vertical_fit_8000519c",
+  "source": "source/matching/game/cc23a/cc23a_path_vertical_fit_8000519c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_path_vertical_fit_8000519c": "0x8000519c"
+  },
+  "descriptions": {
+    "cc23a_path_vertical_fit_8000519c": "Query two grid heights and reject either difference above path tolerance. Original single-precision arithmetic, unordered behavior and extra 24-byte stack reservation retained; purpose of reservation unknown."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

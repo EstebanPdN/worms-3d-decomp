@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801d6a18",
+  "source": "source/matching/game/perm/s10perm_801d6a18.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801d6a18": "0x801d6a18"
+  },
+  "descriptions": {
+    "w3d_auto_801d6a18": "Appears to compute a clamped linear falloff from the absolute input using the two observed float constants."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s3_worm_pot_tick",
+  "source": "source/matching/game/s3_worm_pot_tick.c",
+  "language": "c",
+  "functions": {
+    "w3d_worm_pot_tick": "0x80140a5c"
+  },
+  "descriptions": {
+    "w3d_worm_pot_tick": "Advances the displayed value toward its target and refreshes text."
+  }
+}

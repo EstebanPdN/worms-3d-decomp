@@ -1,0 +1,11 @@
+{
+  "unit": "d29g_sheep_motion_step_800713c0",
+  "source": "source/matching/game/d29g/d29g_sheep_motion_step_800713c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_sheep_motion_step_800713c0": "0x800713c0"
+  },
+  "descriptions": {
+    "w3d_d29g_sheep_motion_step_800713c0": "Super sheep motion step: runs the debug draw when enabled; while flying free (+332 or +120) it integrates the position at +48 with the velocity at +60 and the frame step; otherwise it reads the speed from the handle at +192, updates the orientation and sets +48 to the rotation's z axis times the speed."
+  }
+}

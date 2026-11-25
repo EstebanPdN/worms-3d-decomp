@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_movie_stop_8006be38",
+  "source": "source/matching/game/k5a/k5a_movie_stop_8006be38.cpp",
+  "language": "cpp",
+  "functions": {"k5a_movie_stop_8006be38": "0x8006be38"},
+  "descriptions": {"k5a_movie_stop_8006be38": "Appears to stop movie playback when the runtime is paused: clear a flag, post notification messages, leave the app state and deactivate the movie device."}
+}

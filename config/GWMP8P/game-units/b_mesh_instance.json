@@ -1,0 +1,29 @@
+{
+  "unit": "b_mesh_instance",
+  "source": "source/matching/game/b_mesh_instance.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_mesh_descriptor_bind_animation": "0x801801b0",
+    "w3d_fn_801803f0": "0x801803f0",
+    "w3d_mesh_type_name": "0x801803f8",
+    "w3d_mesh_descriptor_get_clip": "0x80180404",
+    "w3d_mesh_filter_accepts": "0x801804c8",
+    "w3d_mesh_target_reset_shared": "0x80180804",
+    "w3d_mesh_instance_construct": "0x80180880",
+    "w3d_mesh_instance_destruct": "0x801808f4",
+    "w3d_fn_801809c0": "0x801809c0",
+    "w3d_mesh_instance_type_name": "0x801809c8"
+  },
+  "descriptions": {
+    "w3d_mesh_descriptor_bind_animation": "Appears to swap a mesh descriptor's clip library for a fresh one and re-register the previous clip under a fixed name.",
+    "w3d_fn_801803f0": "Returns the constant 1; likely a class capability flag for the mesh type.",
+    "w3d_mesh_type_name": "Returns the type name string \"Mesh\".",
+    "w3d_mesh_descriptor_get_clip": "Reports a fatal error if the clip library is missing, then fetches and returns a clip object from it.",
+    "w3d_mesh_filter_accepts": "Checks an object's run-time class against several mesh classes selected by instance flags; returns 1 when it matches.",
+    "w3d_mesh_target_reset_shared": "Points a target's shared reference at a global object, releasing the old one, and clears an active flag.",
+    "w3d_mesh_instance_construct": "Constructs a mesh instance: base and member setup, clears its four references and flags, and counts live instances.",
+    "w3d_mesh_instance_destruct": "Destroys a mesh instance: releases its four references, destroys members and base, and decrements the live count.",
+    "w3d_fn_801809c0": "Returns the constant 1; likely a class capability flag for the mesh instance type.",
+    "w3d_mesh_instance_type_name": "Returns the type name string \"XMeshInstance\"."
+  }
+}

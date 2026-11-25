@@ -1,0 +1,18 @@
+{
+  "unit": "d42m_water_surface_update_800c88c8",
+  "source": "source/matching/game/d42m/d42m_water_surface_update_800c88c8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d42m"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "water_surface_update_800c88c8": "0x800c88c8"
+  },
+  "descriptions": {
+    "water_surface_update_800c88c8": "Per-frame water update: offset scroll, tint, plane height, reflection camera matrix, mesh scale, then the wave vertex update at 0x800c96f0."
+  }
+}

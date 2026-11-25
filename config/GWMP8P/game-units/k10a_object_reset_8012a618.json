@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_object_reset_8012a618",
+  "source": "source/matching/game/k10a/k10a_object_reset_8012a618.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_object_reset_8012a618": "0x8012a618"
+  },
+  "descriptions": {
+    "w3d_k10a_object_reset_8012a618": "Appears to reset a scene object: copies its position to an anchor with zero height, then refreshes its placement, events and sound pair."
+  }
+}

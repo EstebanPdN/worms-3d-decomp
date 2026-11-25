@@ -1,0 +1,13 @@
+{
+  "unit": "s19_copy_pair_800b8c50",
+  "source": "source/matching/game/s19/s19_copy_pair_800b8c50.c",
+  "language": "c",
+  "functions": {
+    "s19_copy_pair_800b8c50": "0x800b8c50",
+    "s19_copy_pair_800b8ca0": "0x800b8ca0"
+  },
+  "descriptions": {
+    "s19_copy_pair_800b8c50": "Appears to copy a 48-byte block from offset 0xf0 of the data pointer at +4 into the destination.",
+    "s19_copy_pair_800b8ca0": "Appears to copy a 48-byte block from offset 0x90 of the data pointer at +4 into the destination."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_utf8_encode_16_8018b2b0",
+  "source": "source/matching/game/cx13b/cx13b_utf8_encode_16_8018b2b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_utf8_encode_16_8018b2b0": "0x8018b2b0"
+  },
+  "descriptions": {
+    "w3d_cx13b_utf8_encode_16_8018b2b0": "Encode the original one-, two- or three-byte UTF-8 form with optional length and shared-buffer outputs."
+  }
+}

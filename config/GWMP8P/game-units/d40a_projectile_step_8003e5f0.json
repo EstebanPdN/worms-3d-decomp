@@ -1,0 +1,14 @@
+{
+  "unit": "d40a_projectile_step_8003e5f0",
+  "source": "source/matching/game/d40a/d40a_projectile_step_8003e5f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40a_projectile_step_8003e5f0": "0x8003e5f0"
+  },
+  "descriptions": {
+    "w3d_d40a_projectile_step_8003e5f0": "One physics step of a bouncing projectile: trace or shape collision, position update, then bounce, impulse or rest."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

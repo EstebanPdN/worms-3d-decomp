@@ -1,0 +1,11 @@
+{
+  "unit": "d20d_text_width_8018c8bc",
+  "source": "source/matching/game/d20d/d20d_text_width_8018c8bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d20d_text_width_8018c8bc": "0x8018c8bc"
+  },
+  "descriptions": {
+    "d20d_text_width_8018c8bc": "Width of a laid-out text line: sum the glyph values of every 16-bit glyph reference in the vector at +180/+184 (high byte selects a track handle in slot 7 of the font node at +168, low byte the glyph), starting from the float at 0x803a7e2c, multiply by the text size at +36 and divide by the weight of the first track's first glyph. Field meanings are inferred."
+  }
+}

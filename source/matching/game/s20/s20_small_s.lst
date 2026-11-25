@@ -1,0 +1,5 @@
+c source/matching/game/s20/s20_small_s.c
+w3d_s20_dispatch_kind_801a42fc|0x801a42fc|Appears to run a helper for flagged items, then call the handler selected by a global's kind bits from the table at offset 24.
+w3d_s20_set_block_and_forward_801a5650|0x801a5650|Appears to copy a 24-byte block into the object at offset 60 and pass it with the range at offset 44 to a helper, returning zero.
+w3d_s20_construct_with_global_801c98b8|0x801c98b8|Appears to run a base constructor, install a vtable, retain a global shared object, clear two fields and return this.
+w3d_s20_warn_if_empty_801d66d8|0x801d66d8|Appears to log a warning for the secondary base subobject when the item's record is empty, then forward this and the item.

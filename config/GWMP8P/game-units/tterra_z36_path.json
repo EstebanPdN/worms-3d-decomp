@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_z36_path",
+  "source": "source/matching/game/tterra_z36/tterra_z36_path.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_z36_path_80004394": "0x80004394"
+  },
+  "descriptions": {
+    "tterra_z36_path_80004394": "Experimental reconstruction; layout and dependencies remain provisional."
+  }
+}

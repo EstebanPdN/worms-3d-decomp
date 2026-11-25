@@ -1,0 +1,29 @@
+{
+  "unit": "genparam_8002b3a0",
+  "source": "source/matching/game/generated/genparam_8002b3a0.c",
+  "language": "c",
+  "functions": {
+    "w3d_dtor_forward_8002b3a0": "0x8002b3a0",
+    "w3d_dtor_forward_8003a4e0": "0x8003a4e0",
+    "w3d_dtor_forward_8003d3cc": "0x8003d3cc",
+    "w3d_dtor_forward_800d53ac": "0x800d53ac",
+    "w3d_dtor_forward_800da2a0": "0x800da2a0",
+    "w3d_dtor_forward_800efbb4": "0x800efbb4",
+    "w3d_dtor_forward_800f1e88": "0x800f1e88",
+    "w3d_dtor_forward_800fe3a8": "0x800fe3a8",
+    "w3d_dtor_forward_80174354": "0x80174354",
+    "w3d_dtor_forward_8021cc18": "0x8021cc18"
+  },
+  "descriptions": {
+    "w3d_dtor_forward_8002b3a0": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_8003a4e0": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_8003d3cc": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_800d53ac": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_800da2a0": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_800efbb4": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_800f1e88": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_800fe3a8": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_80174354": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor.",
+    "w3d_dtor_forward_8021cc18": "Destructor: installs the class vtable, releases the held interface through its virtual slot 16, then passes the flags on to the base destructor."
+  }
+}

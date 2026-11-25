@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_debug_menu_show_list_80271420",
+  "source": "source/matching/game/d30k/d30k_debug_menu_show_list_80271420.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_debug_menu_show_list_80271420": "0x80271420"
+  },
+  "descriptions": {
+    "w3d_d30k_debug_menu_show_list_80271420": "Writes the fixed menu text to the console and clears the held interfaces."
+  }
+}

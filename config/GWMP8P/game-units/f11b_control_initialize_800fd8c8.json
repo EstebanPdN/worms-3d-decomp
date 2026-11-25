@@ -1,0 +1,11 @@
+{
+  "unit": "f11b_control_initialize_800fd8c8",
+  "source": "source/matching/game/f11b/f11b_control_initialize_800fd8c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f11b_control_initialize_800fd8c8": "0x800fd8c8"
+  },
+  "descriptions": {
+    "f11b_control_initialize_800fd8c8": "Initialize an existing native control object after its base constructor: install the observed vtable, clear four words and two high flag bits, publish its global pointer, and reset two 24-byte entries with shared scalar limits and zero integer state. The 96-byte view is a caller-field prefix, not an allocation claim."
+  }
+}

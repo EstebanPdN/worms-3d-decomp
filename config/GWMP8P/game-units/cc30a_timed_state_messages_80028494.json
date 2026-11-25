@@ -1,0 +1,11 @@
+{
+  "unit": "cc30a_timed_state_messages_80028494",
+  "source": "source/matching/game/cc30a/cc30a_timed_state_messages_80028494.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc30a_timed_state_messages_80028494": "0x80028494"
+  },
+  "descriptions": {
+    "cc30a_timed_state_messages_80028494": "Dispatch cached controller messages with original initialization status, typed state fields, and original per-event callback order."
+  }
+}

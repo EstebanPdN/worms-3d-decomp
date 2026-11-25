@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_vector_assign_8034a85c",
+  "source": "source/matching/game/d29s/d29s_vector_assign_8034a85c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "__as__Q24_STLt6vector2Z20D29sRecord8_8034a85cZQ24_STLt9allocator1Z20D29sRecord8_8034a85cRCQ24_STLt6vector2Z20D29sRecord8_8034a85cZQ24_STLt9allocator1Z20D29sRecord8_8034a85c": "0x8034a85c"
+  },
+  "descriptions": {
+    "__as__Q24_STLt6vector2Z20D29sRecord8_8034a85cZQ24_STLt9allocator1Z20D29sRecord8_8034a85cRCQ24_STLt6vector2Z20D29sRecord8_8034a85cZQ24_STLt9allocator1Z20D29sRecord8_8034a85c": "std::vector::operator= from STLport 4.5.3 for an 8-byte record with the stock malloc allocator."
+  }
+}

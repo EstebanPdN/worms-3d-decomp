@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_show_animation_edit_8027aa3c",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_show_animation_edit_8027aa3c": "0x8027aa3c"
+  },
+  "descriptions": {
+    "w3d_f5a_show_animation_edit_8027aa3c": "Compose and publish the observed animation/audio editor from delay, animation and audio fields; set state twenty-nine. Partial types and semantic roles inferred."
+  },
+  "source": "source/matching/game/f5a/f5a_show_animation_edit_8027aa3c.cpp"
+}

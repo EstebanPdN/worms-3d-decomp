@@ -1,0 +1,11 @@
+{
+  "unit": "cc44a_acquire_binding_80176718",
+  "source": "source/matching/game/cc44a/cc44a_acquire_binding_80176718_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc44a_acquire_binding_80176718": "0x80176718"
+  },
+  "descriptions": {
+    "cc44a_acquire_binding_80176718": "Resolve a name to a 16-bit group, pop a free 24-byte binding from the index stack, retain it before replacing the output reference, set its fields, and return the group bind callback status; preserve lookup and exhaustion failures."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "f1p_offset_item_vector_802c4998",
+  "source": "source/matching/game/f1p/f1p_offset_item_vector_802c4998.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_offset_item_vector_802c4998": "0x802c4998"
+  },
+  "descriptions": {
+    "w3d_offset_item_vector_802c4998": "For optional interface +0x38, initializes a three-float local from 0x803d87e4, reads source metrics through 0x8018c8bc and 0x8018c938, adjusts x with observed scale/offset constants, forwards through virtual slot +0x4c, and sets word +0x3c to one. Original arithmetic order; stack reservation purpose unknown."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

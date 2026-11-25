@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_construct_three_pair_control_802c6b10",
+  "source": "source/matching/game/f1p/f1p_construct_three_pair_control_802c6b10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_three_pair_control_802c6b10": "0x802c6b10"
+  },
+  "descriptions": {
+    "w3d_construct_three_pair_control_802c6b10": "Initialize the original28-byte base, three native held-interface pairs, shared text, global vector and scalar defaults, then release/reclear two interfaces and assign the observed identifier, minus-one, enabled and zero fields through byte131. Native pair placement constructors retain the original count-loop lifetimes. Names and roles inferred; no complete semantic class or external data ownership is claimed."
+  }
+}

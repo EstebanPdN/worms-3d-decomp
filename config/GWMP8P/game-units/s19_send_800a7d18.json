@@ -1,0 +1,14 @@
+{
+  "unit": "s19_send_800a7d18",
+  "source": "source/matching/game/s19/s19_send_800a7d18.c",
+  "language": "c",
+  "functions": {
+    "s19_send_range_800a7d18": "0x800a7d18"
+  },
+  "descriptions": {
+    "s19_send_range_800a7d18": "Appears to post a two-float range message for an id when the flag at +0xb4 is set, otherwise call a direct helper with the engine tick plus ten."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

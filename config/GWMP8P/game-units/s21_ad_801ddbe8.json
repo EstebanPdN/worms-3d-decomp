@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ad_801ddbe8",
+  "source": "source/matching/game/s21/s21_ad_801ddbe8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_get_float_801ddbe8": "0x801ddbe8"
+  },
+  "descriptions": {
+    "w3d_s21_get_float_801ddbe8": "Appears to return the float stored at an index of an inline float array."
+  }
+}

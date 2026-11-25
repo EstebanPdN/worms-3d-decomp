@@ -1,0 +1,11 @@
+{
+  "unit": "mx14ob_pool_allocate_80216c4c",
+  "source": "source/matching/game/mx14ob/mx14ob_pool_allocate_80216c4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx14ob_pool_allocate_80216c4c": "0x80216c4c"
+  },
+  "descriptions": {
+    "mx14ob_pool_allocate_80216c4c": "Allocates one fixed-size element from an external pool region. Rejects zero or mismatched sizes and a locked untrusted region; on first use records the element size and carves existing segment free blocks into the marked pool free list. Pops the free list or extends the region through the shared extension hook rounded to the increment, carving the remaining segment space into further elements, retries while the again flag is set, then emits the optional trace hook and clears the lock."
+  }
+}

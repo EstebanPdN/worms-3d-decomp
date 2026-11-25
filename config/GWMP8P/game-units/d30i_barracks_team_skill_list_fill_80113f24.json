@@ -1,0 +1,15 @@
+{
+  "unit": "d30i_barracks_team_skill_list_fill_80113f24",
+  "source": "source/matching/game/d30i/d30i_barracks_team_skill_list_fill_80113f24.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30i_barracks_team_skill_list_fill_80113f24": "0x80113f24"
+  },
+  "descriptions": {
+    "d30i_barracks_team_skill_list_fill_80113f24": "Fills a team list from DATA.TeamBarracks, skipping locked teams and showing FE.Skills for each team from its record at the current mission index."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_scale_clamp_80097e7c",
+  "source": "source/matching/game/k2a/k2a_scale_clamp_80097e7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_scale_clamp_80097e7c": "0x80097e7c"
+  },
+  "descriptions": {
+    "k2a_scale_clamp_80097e7c": "Appears to map a value through a scale-and-offset expression and clamp it between a lower and upper float constant."
+  }
+}

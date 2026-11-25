@@ -1,0 +1,17 @@
+{
+  "unit": "s4_scroll_handles",
+  "source": "source/matching/game/s4_scroll_handles.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_scroll_handle_destroy": "0x80293528",
+    "w3d_s4_scroll_set_child": "0x80294398",
+    "w3d_s4_scroll_bind_to": "0x802943cc",
+    "w3d_s4_scroll_refresh": "0x8029459c"
+  },
+  "descriptions": {
+    "w3d_s4_scroll_handle_destroy": "Unregisters and releases a scroll interface handle, optionally freeing its storage.",
+    "w3d_s4_scroll_set_child": "Forwards a child pointer to the held scroll interface with a zero flag.",
+    "w3d_s4_scroll_bind_to": "Passes the held scroll interface to another interface with a zero flag.",
+    "w3d_s4_scroll_refresh": "Invokes the held scroll interface refresh slot."
+  }
+}

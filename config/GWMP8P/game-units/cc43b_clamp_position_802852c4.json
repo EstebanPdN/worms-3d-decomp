@@ -1,0 +1,11 @@
+{
+  "unit": "cc43b_clamp_position_802852c4",
+  "source": "source/matching/game/cc43b/cc43b_clamp_position_802852c4_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43b_clamp_position_802852c4": "0x802852c4"
+  },
+  "descriptions": {
+    "cc43b_clamp_position_802852c4": "Clamp each position coordinate to the original external minimum and maximum by reference-returning comparisons, preserving the original comparison order, aliasing and NaN behavior. Copy all three original float components before stores and return whether any of their three 32-bit representations changed, preserving signed zero and NaN payload distinctions. Partial observed owner view at +32; full original type and sizeof unknown. Bounds remain unowned original externals."
+  }
+}

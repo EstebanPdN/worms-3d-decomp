@@ -1,0 +1,19 @@
+{
+  "unit": "f_component_parts_b",
+  "source": "source/matching/game/f_component_parts_b.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_component_construct_80068570": "0x80068570",
+    "w3d_component_destroy_80098c2c": "0x80098c2c",
+    "w3d_component_construct_800a50a8": "0x800a50a8",
+    "w3d_component_destroy_800a50f4": "0x800a50f4",
+    "w3d_component_destroy_800beeb0": "0x800beeb0"
+  },
+  "descriptions": {
+    "w3d_component_construct_80068570": "Constructs a component with two banks of ten names and two titles, clears its interfaces and marks the type active.",
+    "w3d_component_destroy_80098c2c": "Clears the published instance pointer, releases a handle, then runs the base destructor.",
+    "w3d_component_construct_800a50a8": "Runs the base constructor, installs the vtable, default-constructs a label and clears a held interface.",
+    "w3d_component_destroy_800a50f4": "Releases a held interface and the label string, then runs the base destructor.",
+    "w3d_component_destroy_800beeb0": "Deletes an owned member, releases three held interfaces, then runs the base destructor."
+  }
+}

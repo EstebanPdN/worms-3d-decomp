@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_three_child_view_construct_802b4030",
+  "source": "source/matching/game/cx12b/cx12b_three_child_view_construct_802b4030.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_three_child_view_construct_802b4030": "0x802b4030"
+  },
+  "descriptions": {
+    "w3d_cx12b_three_child_view_construct_802b4030": "Construct the original base and member, install both interface tables, initialize three child slots and clear trailing owner fields."
+  }
+}

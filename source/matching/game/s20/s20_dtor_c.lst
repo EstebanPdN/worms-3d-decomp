@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_dtor_c.c
+w3d_s20_destroy_listed_801a2668|0x801a2668|Appears to unlink this from a global singly linked list, free four owned buffers, destroy the header sub-object and delete this on request.

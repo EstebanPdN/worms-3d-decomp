@@ -1,0 +1,12 @@
+{
+  "unit": "d28l_ports_shutdown_802cb01c",
+  "source": "source/matching/game/d28l/d28l_ports_shutdown_802cb01c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d28l_ports_shutdown_802cb01c": "0x802cb01c"
+  },
+  "descriptions": {
+    "d28l_ports_shutdown_802cb01c": "Closes all ports and client connections, sending each a final message, and clears the open flag."
+  }
+}

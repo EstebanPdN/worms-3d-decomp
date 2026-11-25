@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_game_stats_start_8010a0f0",
+  "source": "source/matching/game/d25i/d25i_game_stats_start_8010a0f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_game_stats_start_8010a0f0": "0x8010a0f0"
+  },
+  "descriptions": {
+    "d25i_game_stats_start_8010a0f0": "Game stats tracker start: subscribes 14 cached messages to +28..+80; when GameOver.RoundNumber is 0, for each of the 16 GameStats.Worm%.2d entries resolves the stats object through 0x80341584 and 0x80179598 and clears its twelve counters +20..+64, then writes the empty text to GameStats.StatString through 0x800fc550; calls 0x80109ae4 and clears +120."
+  }
+}

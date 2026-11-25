@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_blend_basis_800a93fc",
+  "source": "source/matching/game/cx11a/cx11a_blend_basis_800a93fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_blend_basis_800a93fc": "0x800a93fc"
+  },
+  "descriptions": {
+    "w3d_cx11a_blend_basis_800a93fc": "Interpolates three observed basis vectors toward goal vectors with one property factor. Names inferred."
+  }
+}

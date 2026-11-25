@@ -1,0 +1,11 @@
+{
+  "unit": "cc38b_prune_elements_802bc600",
+  "source": "source/matching/game/cc38b/cc38b_prune_elements_802bc600.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38b_prune_elements_802bc600": "0x802bc600"
+  },
+  "descriptions": {
+    "cc38b_prune_elements_802bc600": "Prunes elements whose+16 field is zero, calls deleting teardown with flags3, shifts tail through original memcpy ABI, decrements vector end and retains iterator on deletion. Native end/erase views preserve reload order and original dereference-before-null-check behavior. Partial inferred views; no ownership claim."
+  }
+}

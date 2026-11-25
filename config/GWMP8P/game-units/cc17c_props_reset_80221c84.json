@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_props_reset_80221c84",
+  "source": "source/matching/game/cc17c/cc17c_props_reset_80221c84.c",
+  "language": "c",
+  "functions": {
+    "w3d_cc17c_props_reset_80221c84": "0x80221c84"
+  },
+  "descriptions": {
+    "w3d_cc17c_props_reset_80221c84": "Resets the ItemHighlightedMessage and ItemSelectedMessage string properties to the shared empty string (adjusting reference counts), binds the BorderColour member property and finishes the property set."
+  }
+}

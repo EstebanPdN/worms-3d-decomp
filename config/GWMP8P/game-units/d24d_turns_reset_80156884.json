@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_turns_reset_80156884",
+  "source": "source/matching/game/d24d/d24d_turns_reset_80156884.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_turns_reset_80156884": "0x80156884"
+  },
+  "descriptions": {
+    "d24d_turns_reset_80156884": "Clears the lists at +100 and +52, rebuilds worm state (0x80157afc), then per worm with nonzero state (+220) creates a missing actor (0x80156ac4), adds live worms to their team list and applies the scene value (0x80158810); sets displays +296 and +304 to -1 and runs 0x80156214 in mode 1 (+384)."
+  }
+}

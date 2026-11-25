@@ -1,0 +1,14 @@
+{
+  "unit": "d32e_remove_nth_by_guid_801af59c",
+  "source": "source/matching/game/d32e/d32e_remove_nth_by_guid_801af59c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32e_remove_nth_by_guid_801af59c": "0x801af59c"
+  },
+  "descriptions": {
+    "w3d_d32e_remove_nth_by_guid_801af59c": "Removes the index-th record whose 16-byte id equals the key from a vector of 24-byte records (interface, id, name): returns E_FAIL if there are too few, releases the interface, copies later records down one place and destroys the last name."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

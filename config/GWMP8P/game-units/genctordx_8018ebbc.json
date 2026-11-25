@@ -1,0 +1,25 @@
+{
+  "unit": "genctordx_8018ebbc",
+  "source": "source/matching/game/generated/genctordx_8018ebbc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_8018ebbc": "0x8018ebbc",
+    "w3d_construct_801b9358": "0x801b9358",
+    "w3d_construct_801bab68": "0x801bab68",
+    "w3d_construct_801bfa54": "0x801bfa54",
+    "w3d_construct_801bfe64": "0x801bfe64",
+    "w3d_construct_801cedc8": "0x801cedc8",
+    "w3d_construct_8024f630": "0x8024f630",
+    "w3d_construct_8024f8c4": "0x8024f8c4"
+  },
+  "descriptions": {
+    "w3d_construct_8018ebbc": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 0 constant field(s), and initializes 1 embedded member(s) inline; returns the object.",
+    "w3d_construct_801b9358": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 0 constant field(s), and initializes 1 embedded member(s) inline; returns the object.",
+    "w3d_construct_801bab68": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 0 constant field(s), and initializes 1 embedded member(s) inline; returns the object.",
+    "w3d_construct_801bfa54": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 0 constant field(s), and initializes 1 embedded member(s) inline; returns the object.",
+    "w3d_construct_801bfe64": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 0 constant field(s), and initializes 1 embedded member(s) inline; returns the object.",
+    "w3d_construct_801cedc8": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 1 constant field(s), and initializes 1 embedded member(s) inline; returns the object.",
+    "w3d_construct_8024f630": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 1 constant field(s), and initializes 3 embedded member(s) inline; returns the object.",
+    "w3d_construct_8024f8c4": "Constructor: makes 1 base/member constructor call(s), stores 1 vtable or address field(s) and 1 constant field(s), and initializes 3 embedded member(s) inline; returns the object."
+  }
+}

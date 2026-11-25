@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_setup_flag_802707f0",
+  "source": "source/matching/game/f1p/f1p_setup_flag_802707f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_setup_flag_802707f0": "0x802707f0"
+  },
+  "descriptions": {
+    "w3d_setup_flag_802707f0": "Initialize the observed child state from the current context ID, construct the FE.Flag name and bind owner offset212, forward context position/size to interface slots76/84, then send the original repeated scalar vector to slot80. Semantic roles, partial layouts and ignored helper result types inferred."
+  }
+}

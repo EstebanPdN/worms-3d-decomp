@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ee4f8",
+  "source": "source/matching/game/k5b/k5b_a_801ee4f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_iface_array_resized_801ee4f8": "0x801ee4f8"
+  },
+  "descriptions": {
+    "w3d_k5b_iface_array_resized_801ee4f8": "Appears to allocate a resized interface array through the owner's allocator, copy and retain up to the old count of entries when asked, and null the rest."
+  }
+}

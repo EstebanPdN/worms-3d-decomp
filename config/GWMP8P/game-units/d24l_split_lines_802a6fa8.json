@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_split_lines_802a6fa8",
+  "source": "source/matching/game/d24l/d24l_split_lines_802a6fa8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_split_lines_802a6fa8": "0x802a6fa8"
+  },
+  "descriptions": {
+    "d24l_split_lines_802a6fa8": "Splits the data text at +148 of the +40 record into the line table at +456 (one-word strings, 1-based): each round stores the remaining text as the next line, stops after 10 lines, truncates a line at its backslash separator (strcspn with 0x803d611c, 0x8020c3a0) and continues after it. The line count is kept at +584."
+  }
+}

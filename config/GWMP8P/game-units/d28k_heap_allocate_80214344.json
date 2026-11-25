@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_allocate_80214344",
+  "source": "source/matching/game/d28k/d28k_heap_allocate_80214344.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_allocate_80214344": "0x80214344"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_allocate_80214344": "Allocator malloc: fresh bins, pending chunk split, small bins, consolidation, size tree, top chunk and system growth with tail split."
+  }
+}

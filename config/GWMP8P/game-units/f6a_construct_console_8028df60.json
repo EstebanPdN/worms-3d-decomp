@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_construct_console_8028df60",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_construct_console_8028df60": "0x8028df60"
+  },
+  "descriptions": {
+    "w3d_f6a_construct_console_8028df60": "Construct the observed base, two name-list members, two strings and the pointer deque, install its interface table, publish the instance, and clear the trailing state fields. Partial layouts and semantic roles inferred; original frame reservation retained explicitly."
+  },
+  "source": "source/matching/game/f6a/f6a_construct_console_8028df60.cpp"
+}

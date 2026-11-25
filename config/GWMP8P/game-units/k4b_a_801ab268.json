@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801ab268",
+  "source": "source/matching/game/k4b/k4b_a_801ab268.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_channel_set_construct_801ab268": "0x801ab268"
+  },
+  "descriptions": {
+    "w3d_k4b_channel_set_construct_801ab268": "Appears to construct a four-channel set: vtables, member at +4 via 0x801e81c8, size pairs 8x256, modes, identity maps for 4 and 26 entries and a unit scale."
+  }
+}

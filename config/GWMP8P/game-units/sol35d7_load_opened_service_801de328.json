@@ -1,0 +1,12 @@
+{
+  "unit": "sol35d7_load_opened_service_801de328",
+  "source": "source/matching/game/sol35d7/sol35d7_load_opened_service_801de328.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_load_opened_service_801de328": "0x801de328"
+  },
+  "description": "Open a native interface through a selected provider, retain a loader service, bind and load into the destination, then release both held interfaces on their observed scopes.",
+  "function_descriptions": {
+    "sol35d7_load_opened_service_801de328": "Open a native interface through a selected provider, retain a loader service, bind and load into the destination, then release both held interfaces on their observed scopes."
+  }
+}

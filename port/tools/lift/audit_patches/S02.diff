@@ -1,0 +1,11 @@
+--- a/port/core/game/d27j/d27j_load_stream_80191a70.cpp
++++ b/port/core/game/d27j/d27j_load_stream_80191a70.cpp
+@@ -25,7 +25,7 @@
+ struct Stage { float x0, x1, a, b, c, d; };
+ struct Inner { Inner() { fn_8034f190(this); } Ptr32<Stage> stages; int size; };
+ struct Elem {
+-    unsigned short d:6; unsigned short c:3; unsigned short b:3; unsigned short f3:1; unsigned short f2:1; unsigned short f1:1; unsigned short f0:1; unsigned short w;
++    unsigned short w; /* palabra PPC: bits y luego índice; el índice es la mitad baja del anfitrión */ unsigned short d:6; unsigned short c:3; unsigned short b:3; unsigned short f3:1; unsigned short f2:1; unsigned short f1:1; unsigned short f0:1;
+     Inner inner;
+ };
+ struct ElemVec { Ptr32<Elem> start; Elem &operator[](unsigned i) { return start[i]; } };

@@ -1,0 +1,11 @@
+{
+  "unit": "s11recompute_802a18a0",
+  "source": "source/matching/game/s11_auto/s11recompute_802a18a0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802a18a0": "0x802a18a0"
+  },
+  "descriptions": {
+    "w3d_auto_802a18a0": "Appears to calls 0x8029e02c, 0x802a1a80, 0x802a1bbc, 0x802b264c, 0x8015f65c; accesses fields at 0x80, 0xB0, 0x28, 0x8C, 0xBC, 0x1A8. m2c types and names are provisional."
+  }
+}

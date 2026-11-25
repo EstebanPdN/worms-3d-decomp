@@ -1,0 +1,14 @@
+{
+  "unit": "s21_cv_802dd10c",
+  "source": "source/matching/game/s21/s21_cv_802dd10c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_check_number_802dd10c": "0x802dd10c"
+  },
+  "descriptions": {
+    "w3d_s21_check_number_802dd10c": "Appears to be a Lua argument checker: it reads a number, and for a zero value verifies that the argument really is a number, raising a type error otherwise."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_panel_set_enabled_800a3010",
+  "source": "source/matching/game/k4a/k4a_panel_set_enabled_800a3010.c",
+  "language": "c",
+  "functions": {
+    "k4a_panel_set_enabled_800a3010": "0x800a3010"
+  },
+  "descriptions": {
+    "k4a_panel_set_enabled_800a3010": "Appears to forward an enabled flag to three child switches, gating the first on a state query and the second on a flag."
+  }
+}

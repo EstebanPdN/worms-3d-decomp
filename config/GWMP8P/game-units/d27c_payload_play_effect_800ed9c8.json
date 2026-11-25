@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_payload_play_effect_800ed9c8",
+  "source": "source/matching/game/d27c/d27c_payload_play_effect_800ed9c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_payload_play_effect_800ed9c8": "0x800ed9c8"
+  },
+  "descriptions": {
+    "d27c_payload_play_effect_800ed9c8": "Start a payload's named effect, attached to its mesh or at its predicted world position."
+  }
+}

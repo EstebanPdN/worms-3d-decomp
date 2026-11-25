@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_movie_frame_decode_802e1854",
+  "source": "source/matching/game/d26l/d26l_movie_frame_decode_802e1854.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_movie_frame_decode_802e1854": "0x802e1854"
+  },
+  "descriptions": {
+    "d26l_movie_frame_decode_802e1854": "Returns 2 if the read slot at +192 is not valid. Component sizes are at slot data +8 with payload after them. With the audio flag at +172: a frame below 0 or at least the frame count at +152 reports through 0x802fb7ac and returns 4; a busy audio ring segment returns 3; otherwise type 0 decodes through 0x802e1a98 (0 result returns 1) and type 1 decodes audio through 0x80322308 into the ring segment, updating its count and cursor with interrupts disabled (0x802fdb6c, 0x802fdb94) and wrapping the ring index 0..3. Without it only type 0 components decode. Then clears the slot, advances the read index with wrap above 9, runs 0x802e2248 and returns 0."
+  }
+}

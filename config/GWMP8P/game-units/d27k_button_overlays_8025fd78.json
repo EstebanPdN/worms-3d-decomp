@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_button_overlays_8025fd78",
+  "source": "source/matching/game/d27k/d27k_button_overlays_8025fd78.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_button_overlays_8025fd78": "0x8025fd78"
+  },
+  "descriptions": {
+    "w3d_d27k_button_overlays_8025fd78": "Formats the highlight, grey and colour-specific names (colour 1 and 3 Blue, 2 Green, 4 Purple, 5 Red, otherwise a plain name) from the settings string at +124, loads each through 0x802b1510 and adds it to the scene at +112, sizing it from the settings at +20, scaled by +116 for the highlight; a failed load formats the error string. Finally calls 0x8026026c."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_strip_text_codes_802cc3d0",
+  "source": "source/matching/game/d24l/d24l_strip_text_codes_802cc3d0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_strip_text_codes_802cc3d0": "0x802cc3d0"
+  },
+  "descriptions": {
+    "d24l_strip_text_codes_802cc3d0": "When the switch at 0x804abce4 is set, strips control codes from a text buffer in place: backspace (8) removes itself and the preceding character (only itself at the buffer start); a 0xFF escape followed by 0xFA is removed through its next 0xF0, one followed by 0xFB..0xFE is removed with its parameter byte, any other code after 0xFF is not consumed and the loop does not advance past it."
+  }
+}

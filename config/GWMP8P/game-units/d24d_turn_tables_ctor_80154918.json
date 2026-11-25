@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_turn_tables_ctor_80154918",
+  "source": "source/matching/game/d24d/d24d_turn_tables_ctor_80154918.cpp",
+  "language": "cpp",
+  "functions": {
+    "__15d24d_TurnTables": "0x80154918"
+  },
+  "descriptions": {
+    "__15d24d_TurnTables": "Turn table constructor: base 0x801628b0, vtable 0x80410f40, null references (+28..+48, +200..+308), empty lists (+52, +100), registers the instance in 0x804ab400, initializes team tables (+148 = 0, +164 = -1), 16 actor slots (+312 = -1) and flags (+376..+420)."
+  }
+}

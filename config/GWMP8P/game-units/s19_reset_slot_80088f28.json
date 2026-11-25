@@ -1,0 +1,11 @@
+{
+  "unit": "s19_reset_slot_80088f28",
+  "source": "source/matching/game/s19/s19_reset_slot_80088f28.c",
+  "language": "c",
+  "functions": {
+    "s19_reset_slot_80088f28": "0x80088f28"
+  },
+  "descriptions": {
+    "s19_reset_slot_80088f28": "Appears to release and clear the interface at +0x164, call a helper and return twenty."
+  }
+}

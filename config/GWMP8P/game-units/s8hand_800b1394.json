@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800b1394",
+  "source": "source/matching/game/s8hand_800b1394.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_acquire_service_800b1394": "0x800b1394"
+  },
+  "descriptions": {
+    "s8_acquire_service_800b1394": "Acquires and retains a service, releases the previous service, replaces the held pointer and increments its global count."
+  }
+}

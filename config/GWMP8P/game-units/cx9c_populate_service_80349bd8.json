@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_populate_service_80349bd8",
+  "source": "source/matching/game/cx9c/cx9c_populate_service_80349bd8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_populate_service_80349bd8": "0x80349bd8"
+  },
+  "descriptions": {
+    "w3d_cx9c_populate_service_80349bd8": "Inferred service preparation and indexed population through driver and target callbacks."
+  }
+}

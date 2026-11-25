@@ -1,0 +1,11 @@
+{
+  "unit": "cc34b_movie_init_802e02ec",
+  "source": "source/matching/game/cc34b/cc34b_movie_init_802e02ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc34b_movie_init_802e02ec": "0x802e02ec"
+  },
+  "descriptions": {
+    "w3d_cc34b_movie_init_802e02ec": "Initializes the movie player with original 416-byte state and 96-byte auxiliary allocations, zeroes movie state, initializes movie/audio services and preserves failure returns. Successful initialization sets mode2, a zero step, zero duration and both volume fields to127.0, independently decoded from original DOL constants803db050/803db054. Repeated initialization logs the original warning. Explicit field views describe observed offsets, not a complete original class size; external routines/data remain unowned."
+  }
+}

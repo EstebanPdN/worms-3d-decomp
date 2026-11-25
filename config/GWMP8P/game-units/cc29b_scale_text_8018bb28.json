@@ -1,0 +1,11 @@
+{
+  "unit": "cc29b_scale_text_8018bb28",
+  "source": "source/matching/game/cc29b/cc29b_scale_text_8018bb28.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc29b_scale_text_8018bb28": "0x8018bb28"
+  },
+  "descriptions": {
+    "w3d_cc29b_scale_text_8018bb28": "For both original unit scale values, finds and removes an existing scale component by class/index. Otherwise allocates a scale component, stores each axis and marks its native dirty flag after each store, then adds it to the component set. Observed56-byte frame and stack8 index output are preserved;20- and24-byte workspace models both fit, so the original local declaration/sizeof is unknown."
+  }
+}

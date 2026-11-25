@@ -1,0 +1,11 @@
+{
+  "unit": "cx9a_service_result_append_80089eec",
+  "source": "source/matching/game/cx9a/cx9a_service_result_append_80089eec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9a_service_result_append_80089eec": "0x80089eec"
+  },
+  "descriptions": {
+    "w3d_cx9a_service_result_append_80089eec": "Retain the interface resolved from original key 0x8040e9a8, create a service result using owner argument +0x14, append it to storage +0x128 and release the held interface."
+  }
+}

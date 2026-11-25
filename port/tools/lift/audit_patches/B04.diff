@@ -1,0 +1,11 @@
+--- a/port/core/open/open_801a7680.cpp
++++ b/port/core/open/open_801a7680.cpp
+@@ -3004,7 +3004,7 @@
+     r3 = r29;
+     r0 = r0 & 0xfeffffffu;
+     S32(r30 + 4, r0);
+-    S8(r30 + 5, r11);
++    S8(r30 + 6, r11); /* PPC +5: bits 16-23 de la palabra +4; en el anfitrión es +6 */
+     r0 = L32(r30 + 4);
+     r0 = (ROTL(r10, 11) & 0xf800u) | (r0 & 0xffff07ffu);
+     S32(r30 + 4, r0);

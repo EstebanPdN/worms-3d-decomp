@@ -1,0 +1,11 @@
+{
+  "unit": "cc43b_update_controls_80260144",
+  "source": "source/matching/game/cc43b/cc43b_update_controls_80260144_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43b_update_controls_80260144": "0x80260144"
+  },
+  "descriptions": {
+    "cc43b_update_controls_80260144": "Compute three full-width control values from the observed state, phase, optional third control, core amount equality against original zero, availability, and flag bit two. Invoke each nonnull control at virtual slot +88 in original order, preserving live pointer/core reloads after callbacks, full-width XOR values, null handling and exact ordered floating-point comparison. Partial field/vtable views; original callback return type ignored and complete interface identity/sizeof unknown. Original zero remains an unowned external."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_record_flush_800a7964",
+  "source": "source/matching/game/k8a/k8a_record_flush_800a7964.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_record_flush_800a7964": "0x800a7964"},
+  "descriptions": {"w3d_k8a_record_flush_800a7964": "Appears to flush an owner's pending records: reports each 40-byte record's text and value to a handler, then empties the record list."}
+}

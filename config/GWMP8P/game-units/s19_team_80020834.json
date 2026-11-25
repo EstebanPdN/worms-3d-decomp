@@ -1,0 +1,11 @@
+{
+  "unit": "s19_team_80020834",
+  "source": "source/matching/game/s19/s19_team_80020834.c",
+  "language": "c",
+  "functions": {
+    "s19_active_team_value_80020834": "0x80020834"
+  },
+  "descriptions": {
+    "s19_active_team_value_80020834": "Appears to return a field of the team record selected by the indexed record of the handle at +0x1c, or zero when no handle is set."
+  }
+}

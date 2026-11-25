@@ -1,0 +1,11 @@
+{
+  "unit": "genctorfx_800ad680",
+  "source": "source/matching/game/generated/genctorfx_800ad680.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_800ad680": "0x800ad680"
+  },
+  "descriptions": {
+    "w3d_construct_800ad680": "Constructor: makes 0 base/member constructor call(s), stores 0 vtable or address field(s) and 0 constant field(s), and initializes 1 embedded member(s) inline; leaf constructor with no return value."
+  }
+}

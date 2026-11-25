@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801ecf54",
+  "source": "source/matching/game/k5b/k5b_a_801ecf54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_binding_fetch_apply_int_801ecf54": "0x801ecf54"
+  },
+  "descriptions": {
+    "w3d_k5b_binding_fetch_apply_int_801ecf54": "Appears to fetch an integer through virtual slot 18 of the host source within the host context scope and, on success, pass it to the bound member-function setter."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

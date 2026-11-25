@@ -1,0 +1,11 @@
+{
+  "unit": "f7b_interpolate_800647cc",
+  "source": "source/matching/game/f7b/f7b_interpolate_800647cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7b_interpolate_800647cc": "0x800647cc"
+  },
+  "descriptions": {
+    "f7b_interpolate_800647cc": "Compare a sampled target vector componentwise against the current vector with a 0.3 tolerance. Snap to the target and optionally clear the observed state when close; otherwise scale their difference by the sampled rate and add it in place. Finally update the observed dependent state and return whether snapped. Types, names and layout inferred."
+  }
+}

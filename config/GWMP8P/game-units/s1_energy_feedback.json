@@ -1,0 +1,11 @@
+{
+  "unit": "s1_energy_feedback",
+  "source": "source/matching/game/s1_energy_feedback.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80064c6c": "0x80064c6c"
+  },
+  "descriptions": {
+    "w3d_fn_80064c6c": "Alternates the energy text between its team color and white at fixed tick intervals."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "s9resources_8015caec",
+  "source": "source/matching/game/generated/s9resources_8015caec.c",
+  "language": "c",
+  "functions": {
+    "s9_update_render_clock_8015caec": "0x8015caec",
+    "s9_construct_resource_owner_8017917c": "0x8017917c",
+    "s9_construct_shared_node_8017990c": "0x8017990c",
+    "s9_ensure_resource_8017b6dc": "0x8017b6dc"
+  },
+  "descriptions": {
+    "s9_update_render_clock_8015caec": "Lazily initializes update labels, advances the clock unless the context is paused, forwards the delta to the child and updates the renderer with the clock address.",
+    "s9_construct_resource_owner_8017917c": "Constructs the base, installs the vtable, counts instances, and acquires and initializes the shared resource for the first owner.",
+    "s9_construct_shared_node_8017990c": "Constructs the base and embedded members, lazily acquires a shared interface, increments the owner count and enables the instance.",
+    "s9_ensure_resource_8017b6dc": "Lazily replaces an empty held interface with the named resource and sets two bytes from manager virtual getters."
+  }
+}

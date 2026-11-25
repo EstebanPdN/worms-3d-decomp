@@ -1,0 +1,11 @@
+{
+  "unit": "d41f_mission_result_8027eb24",
+  "source": "source/matching/game/d41f/d41f_mission_result_8027eb24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41f_mission_result_8027eb24": "0x8027eb24"
+  },
+  "descriptions": {
+    "w3d_d41f_mission_result_8027eb24": "Handles the end of a mission once: sets the pending flag, reads category, mission and team name, then by category (0, 4, 3) updates the medal and next mission, records best times, or advances the team progress, and finally calls 0x802814c4."
+  }
+}

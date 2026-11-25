@@ -1,0 +1,17 @@
+{
+  "unit": "genparamc_801ee78c",
+  "source": "source/matching/game/generated/genparamc_801ee78c.c",
+  "language": "c",
+  "functions": {
+    "w3d_resize_refs_801ee78c": "0x801ee78c",
+    "w3d_resize_refs_801eeb58": "0x801eeb58",
+    "w3d_write_lines_8020863c": "0x8020863c",
+    "w3d_write_lines_802088f4": "0x802088f4"
+  },
+  "descriptions": {
+    "w3d_resize_refs_801ee78c": "Resizes an inline array of interface references: clears new slots when growing, releases removed entries when shrinking; stores the count and returns the object.",
+    "w3d_resize_refs_801eeb58": "Resizes an inline array of interface references: clears new slots when growing, releases removed entries when shrinking; stores the count and returns the object.",
+    "w3d_write_lines_8020863c": "Writes text in pieces split after each newline through the line writer, setting a flag after each line and stopping on error; writes any remainder.",
+    "w3d_write_lines_802088f4": "Writes text in pieces split after each newline through the line writer, setting a flag after each line and stopping on error; writes any remainder."
+  }
+}

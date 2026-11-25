@@ -1,0 +1,11 @@
+{
+  "unit": "d10b_decode_radices_8026c96c",
+  "source": "source/matching/game/d10b/d10b_decode_radices_8026c96c_v4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10b_decode_radices_8026c96c": "0x8026c96c"
+  },
+  "descriptions": {
+    "d10b_decode_radices_8026c96c": "Decode an unsigned encoded value into descending cumulative radix quotients and a permuted ten-field result. Preserve unsigned division and remainder, signed product-loop bounds, modulo-width product arithmetic and the saved original encoded return. Original unsigned-halfword table at 0x803cbcb0 independently decoded from the DOL and remains an unowned const external; partial state view only."
+  }
+}

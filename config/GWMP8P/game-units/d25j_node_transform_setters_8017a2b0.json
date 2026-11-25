@@ -1,0 +1,18 @@
+{
+  "unit": "d25j_node_transform_setters_8017a2b0",
+  "source": "source/matching/game/d25j/d25j_node_transform_setters_8017a2b0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25j_set_translation_8017a2b0": "0x8017a2b0",
+    "d25j_set_rotation_8017a670": "0x8017a670",
+    "d25j_set_scale_8017aa28": "0x8017aa28"
+  },
+  "descriptions": {
+    "d25j_set_translation_8017a2b0": "Stores the new translation unless it is unchanged and not forced; a node with no local transform and no targets finishes through virtual +140. Otherwise it builds the world frame from rotation, scale and translation, combines it with the local frame when the node has one, passes it to virtual +148, builds the target frame from the components selected by the flags byte unless that byte is 7, then gives each target that frame or its source object's frame and notifies it through virtual +76 with the value of virtual +100. Returns 0 when unchanged, else the +148 result.",
+    "d25j_set_rotation_8017a670": "Stores the new rotation unless it is unchanged and not forced; a node with no local transform and no targets finishes through virtual +144. Otherwise it builds the world frame from rotation, scale and translation, combines it with the local frame when the node has one, passes it to virtual +148, builds the target frame from the components selected by the flags byte unless that byte is 7, then gives each target that frame or its source object's frame and notifies it through virtual +80 with the value of virtual +104. Returns 0 when unchanged, else the +148 result.",
+    "d25j_set_scale_8017aa28": "Stores the new scale unless it is unchanged and not forced; a node with no local transform and no targets finishes through virtual +152. Otherwise it builds the world frame from rotation, scale and translation, combines it with the local frame when the node has one, passes it to virtual +148, builds the target frame from the components selected by the flags byte unless that byte is 7, then gives each target that frame or its source object's frame and notifies it through virtual +84 with the value of virtual +108. Returns 0 when unchanged, else the +148 result."
+  }
+}

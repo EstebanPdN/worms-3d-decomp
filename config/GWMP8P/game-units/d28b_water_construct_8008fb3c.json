@@ -1,0 +1,11 @@
+{
+  "unit": "d28b_water_construct_8008fb3c",
+  "source": "source/matching/game/d28b/d28b_water_construct_8008fb3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "__9D28bWater": "0x8008fb3c"
+  },
+  "descriptions": {
+    "__9D28bWater": "Water mesh constructor: base and member setup (vptr +2792, lists +60 to +180 via 0x801f2678, null held objects and storage), publishes the object in 0x804aab68, allocates the mesh buffers from the heap 0x804adde4, creates the held objects through 0x8020b680, locks the array of +368, sets the default vectors and matrix +272, sets material fields with dirty bits, fills three guarded static colours, builds the group +192 through 0x801ef174, runs 0x8008f410, 0x8008f478, 0x8008f7c4 and reads the water and light properties."
+  }
+}

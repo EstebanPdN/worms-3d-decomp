@@ -1,0 +1,11 @@
+{
+  "unit": "s21_h_801f656c",
+  "source": "source/matching/game/s21/s21_h_801f656c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_vector_801f656c": "0x801f656c"
+  },
+  "descriptions": {
+    "w3d_s21_forward_vector_801f656c": "Appears to forward the three components of a vector and an extra float to a helper."
+  }
+}

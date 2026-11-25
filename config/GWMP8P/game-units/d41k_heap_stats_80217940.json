@@ -1,0 +1,11 @@
+{
+  "unit": "d41k_heap_stats_80217940",
+  "source": "source/matching/game/d41k/d41k_heap_stats_80217940.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41k_heap_stats_80217940": "0x80217940"
+  },
+  "descriptions": {
+    "w3d_d41k_heap_stats_80217940": "Heap statistics, Vmalloc vmstat with an added per-block callback; returns -1 for a null stats pointer or a locked heap, otherwise 0."
+  }
+}

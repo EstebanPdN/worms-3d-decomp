@@ -1,0 +1,11 @@
+{
+  "unit": "s4_card_read_report",
+  "source": "source/matching/game/s4_card_read_report.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_read_report": "0x802ac814"
+  },
+  "descriptions": {
+    "w3d_s4_card_read_report": "Reports each change of card-read state and rejects unknown states."
+  }
+}

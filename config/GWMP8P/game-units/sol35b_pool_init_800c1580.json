@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b_pool_init_800c1580",
+  "source": "source/matching/game/sol35b/sol35b_pool_init_800c1580.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b_pool_init_800c1580": "0x800c1580"
+  },
+  "descriptions": {
+    "sol35b_pool_init_800c1580": "Initialize section pointers from the shared pool base and clear three pointer slots when the static-initialization priority and flag permit it; native addresses and offsets are observed."
+  }
+}

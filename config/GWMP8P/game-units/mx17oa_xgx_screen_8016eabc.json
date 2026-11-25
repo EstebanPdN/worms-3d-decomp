@@ -1,0 +1,14 @@
+{
+  "unit": "mx17oa_xgx_screen_8016eabc",
+  "source": "source/matching/game/mx17oa/mx17oa_xgx_screen_8016eabc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/mx17oa"
+  ],
+  "functions": {
+    "__15Mx17oaXGXScreen": "0x8016eabc"
+  },
+  "descriptions": {
+    "__15Mx17oaXGXScreen": "Constructs the XGXScreen object: installs the abstract root table 0x80411ea0, initializes the tag word at +4 (kind 2, null pointer field) and clears the pair at +12, installs table 0x80411e60, constructs the +20 list and +104 render members, publishes itself as the screen instance, selects the SDK render mode and filter scale from the TV format (panicking on an unknown format), widens and offsets that mode, writes its overscan-adjusted copy to +44, then sets up the video buffers and reapplies the stored filter scale."
+  }
+}

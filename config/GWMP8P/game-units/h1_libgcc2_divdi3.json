@@ -1,0 +1,11 @@
+{
+  "unit": "h1_libgcc2_divdi3",
+  "source": "source/matching/game/h1/h1_libgcc2_divdi3.c",
+  "language": "c",
+  "functions": {
+    "__divdi3": "0x802f36f0"
+  },
+  "descriptions": {
+    "__divdi3": "libgcc2 __divdi3: signed 64-bit division through the inlined __udivmoddi4, negating operands and result as needed."
+  }
+}

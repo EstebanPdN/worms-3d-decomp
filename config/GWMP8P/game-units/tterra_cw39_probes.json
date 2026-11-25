@@ -1,0 +1,21 @@
+{
+  "unit": "tterra_cw39_probes",
+  "source": "source/matching/game/tterra_cw39/probes.c",
+  "language": "c",
+  "functions": {
+    "tterra_cw39_shift_80333a4c": "0x80333a4c",
+    "tterra_cw39_set_byte_80333c94": "0x80333c94",
+    "tterra_cw39_get_byte_80333c9c": "0x80333c9c",
+    "tterra_cw39_set_word_80333cc4": "0x80333cc4",
+    "tterra_cw39_reset_word_803349b0": "0x803349b0",
+    "tterra_cw39_shift_word_803339f4": "0x803339f4"
+  },
+  "descriptions": {
+    "tterra_cw39_shift_80333a4c": "Shift the unsigned input right eight bits.",
+    "tterra_cw39_set_byte_80333c94": "Store the input byte at external address 0x804b1648.",
+    "tterra_cw39_get_byte_80333c9c": "Load the byte at external address 0x804b1648.",
+    "tterra_cw39_set_word_80333cc4": "Store the input word at external address 0x804b1748.",
+    "tterra_cw39_reset_word_803349b0": "Clear the external word at 0x804b1734.",
+    "tterra_cw39_shift_word_803339f4": "Shift the pointed-to word left eight bits."
+  }
+}

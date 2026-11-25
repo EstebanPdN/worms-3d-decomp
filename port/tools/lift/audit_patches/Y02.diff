@@ -1,0 +1,54 @@
+--- a/port/core/game/d41d/d41d_worm_sim_update_80144904.cpp
++++ b/port/core/game/d41d/d41d_worm_sim_update_80144904.cpp
+@@ -165,6 +165,10 @@
+ void e104_8014e104(Ptr32<Worm>, unsigned);
+ int dcbc_8014dcbc(Ptr32<Worm>);
+ void mode_8012f964(int);
++// v26 (core/native/ahogo.cpp): ahogo de Ultimate Mayhem.
++int w3d_ahogo_um_flotando(int);
++int w3d_ahogo_um_restaurar(int, int, float *);
++int w3d_ahogo_um_tic(int, float *, float *, float, int);
+ }
+ extern Ptr32<void> heap_804b1754;
+ extern unsigned char vt_8040db38[];
+@@ -203,8 +207,19 @@
+     }
+     if (self->f300) behaviour_801515a4(self);
+     target_8015324c(self);
++    // v26: UM no deja que nada cambie a un worm que flota (0x5AD203, 0x5ADBF0). Si el empujón de una explosión
++    // (0x80148c14) lo sacó del modo 27, vuelve a él con su velocidad de antes y sigue flotando. +668 = 0xffffffff solo lo
++    // pone la entrada de UM (d29d) en este worm: una marca vieja de otra partida no vale.
++    if (self->f648 && self->f760 != 27 && self->f668 == 0xffffffffu && w3d_ahogo_um_flotando(self->f584) &&
++        w3d_ahogo_um_restaurar(self->f584, self->f760, &self->f676.x)) {
++        self->f760 = 27;
++        self->f668 = 0xffffffffu;
++        set_801492ec(self, 33);
++    }
+     self->f764 = self->f760;
+-    air_move_80146190(self);
++    // v26: un worm que flota como en Ultimate Mayhem no pasa por la física normal: UM (0x5AA130) no lo hace chocar ni
++    // caer. Lo mueve el caso 27.
++    if (self->f760 != 27 || !w3d_ahogo_um_flotando(self->f584)) air_move_80146190(self);
+     drown_80149f18(self);
+     if (self->f760 != 9) self->f844 = r;
+     int zero = 0;
+@@ -374,12 +389,19 @@
+         }
+         break;
+     case 27:
++        // v26: ahogo de Ultimate Mayhem (core/native/ahogo.cpp, como UpdateDrownFloat 0x5AA130). Empieza el tic siguiente
++        // a la entrada, como en UM. Cuando explota, +668 vence ya y sigue la retirada de abajo (d24d pone la explosión).
++        if (w3d_ahogo_um_flotando(self->f584)) {
++            if (w3d_ahogo_um_tic(self->f584, &self->f560.x, &self->f676.x, value_80178df0(self->f1232), self->f764 == 27))
++                self->f668 = engine_80165254()->now;
++        } else {
+         self->f676 = *zero_8045e788;
+         {
+             float a = value_80178df0(self->f1232);
+             a -= value_80178df0(self->f1228);
+             if (self->f560.y > a) self->f560.y = a;
+         }
++        }
+     case 19: case 20:
+         if (self->f648 && self->f668 <= engine_80165254()->now) {
+             self->f668 = 1000;

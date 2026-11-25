@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_8008ecac",
+  "source": "source/matching/game/s8hand_8008ecac.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_clear_pair_8008ecac": "0x8008ecac"
+  },
+  "descriptions": {
+    "s8_clear_pair_8008ecac": "Releases and clears the two held interface pointers at offsets 556 and 560."
+  }
+}

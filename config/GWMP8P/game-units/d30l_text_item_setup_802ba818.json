@@ -1,0 +1,14 @@
+{
+  "unit": "d30l_text_item_setup_802ba818",
+  "source": "source/matching/game/d30l/d30l_text_item_setup_802ba818.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30l_text_item_setup_802ba818": "0x802ba818"
+  },
+  "descriptions": {
+    "d30l_text_item_setup_802ba818": "Creates a panel's text sprite from the configured font and string, aligns it by mode, and sets its text and colour."
+  }
+}

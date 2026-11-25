@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_destroy_panels_80264f60",
+  "source": "source/matching/game/f1p/f1p_destroy_panels_80264f60.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._13F1pPanelOwner": "0x80264f60"
+  },
+  "descriptions": {
+    "_._13F1pPanelOwner": "Install the witnessed panel-owner tables, release the observed interface fields and arrays in native C++ reverse destruction order, destroy the two point records with their explicit clear operations, then destroy original bases at28 and0. Native destructor ABI restores the original array null guard, complete register lifetimes and base flags. Partial ownership/storage views inferred; no whole-program layout claim."
+  }
+}

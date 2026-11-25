@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_format_timer_800abaf8",
+  "source": "source/matching/game/cx14a/cx14a_format_timer_800abaf8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_format_timer_800abaf8": "0x800abaf8"
+  },
+  "descriptions": {
+    "w3d_cx14a_format_timer_800abaf8": "Computes the rounded remaining timer value using the observed signed idle and unsigned running calculations, formats it into an eight-byte buffer, and forwards the text to the display interface."
+  }
+}

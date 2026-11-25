@@ -1,0 +1,11 @@
+{
+  "unit": "d43e_children_update_unbind_801dc6d8",
+  "source": "source/matching/game/d43e/d43e_children_update_unbind_801dc6d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43e_children_update_unbind_801dc6d8": "0x801dc6d8"
+  },
+  "descriptions": {
+    "w3d_d43e_children_update_unbind_801dc6d8": "Node teardown pass: updates every ready child of the child list (slot 7 reports ready, slot 15 updates), then walks the bound list from the end calling the node's slot 21 with each entry's handle, keeps the last nonzero result, empties the bound list and returns that result."
+  }
+}

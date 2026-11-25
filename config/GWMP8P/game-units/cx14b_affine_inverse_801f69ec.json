@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_affine_inverse_801f69ec",
+  "source": "source/matching/game/cx14b/cx14b_affine_inverse_801f69ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_affine_inverse_801f69ec": "0x801f69ec"
+  },
+  "descriptions": {
+    "w3d_cx14b_affine_inverse_801f69ec": "Invert an affine four-by-four float matrix after the original epsilon checks; preserve sequential alias-sensitive stores and original invalid-argument status."
+  }
+}

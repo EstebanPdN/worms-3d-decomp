@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_body_launch_8004b7e0",
+  "source": "source/matching/game/d24g/d24g_body_launch_8004b7e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_body_launch_8004b7e0": "0x8004b7e0"
+  },
+  "descriptions": {
+    "w3d_d24g_body_launch_8004b7e0": "Starts a launched body: initialises position +40 from the two vectors with the 9000000 limit (0x800b0824); when the global 0x804b1764 exceeds the limit, stores setting +184 in the Y position, sets +128 and runs 0x8004cd08; otherwise copies the start position 0x8043ae20, sets +100, advances Y by +64 and runs 0x8004b8f4; then clears +112, releases the reference at +244 and clears +256."
+  }
+}

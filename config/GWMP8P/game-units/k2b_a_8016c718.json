@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8016c718",
+  "source": "source/matching/game/k2b/k2b_a_8016c718.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_apply_cull_mode_8016c718": "0x8016c718"
+  },
+  "descriptions": {
+    "w3d_k2b_apply_cull_mode_8016c718": "Appears to apply a command's cull mode through a four-way mapping and mark the global GX state dirty."
+  }
+}

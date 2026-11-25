@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_update_masked_caption_802c4744",
+  "source": "source/matching/game/f1p/f1p_update_masked_caption_802c4744.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_update_masked_caption_802c4744": "0x802c4744"
+  },
+  "descriptions": {
+    "w3d_update_masked_caption_802c4744": "For an active receiver with a nonempty name and caption interface, cast the held caption and hide it when its current text is empty. Otherwise set either the original text or a native temporary string assigned from the original 48-character mask literal using the original length, then show the caption. Preserve the original unchecked mask-length precondition, native temporary constructor and cleanup, and the helper-held source-text address across construction. Type and field roles are inferred partial external views. No complete owner layout or initialized-data ownership is claimed."
+  }
+}

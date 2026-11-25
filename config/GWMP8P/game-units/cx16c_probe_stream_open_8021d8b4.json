@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_probe_stream_open_8021d8b4",
+  "source": "source/matching/game/cx16c/cx16c_probe_stream_open_8021d8b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_probe_stream_open_8021d8b4": "0x8021d8b4"
+  },
+  "descriptions": {
+    "w3d_cx16c_probe_stream_open_8021d8b4": "Construct a temporary stream, attempt opening the source in mode one, release a successfully opened stream, destroy the temporary in both paths, and return success as one or failure as zero."
+  }
+}

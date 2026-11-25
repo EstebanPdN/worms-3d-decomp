@@ -1,0 +1,11 @@
+{
+  "unit": "d25e_read_floats_swapped_80201ea4",
+  "source": "source/matching/game/d25e/d25e_read_floats_swapped_80201ea4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25e_read_floats_swapped_80201ea4": "0x80201ea4"
+  },
+  "descriptions": {
+    "w3d_d25e_read_floats_swapped_80201ea4": "Stream reader for n big-endian floats: with a null output skips n*4 bytes through virtual slot 7 (origin 1); otherwise reads n*4 bytes through slot 5 and byte-swaps each float in place."
+  }
+}

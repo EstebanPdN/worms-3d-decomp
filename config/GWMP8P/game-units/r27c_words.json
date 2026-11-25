@@ -1,0 +1,1 @@
+{"unit":"r27c_words","source":"source/matching/game/r27c/r27c_words.cpp","language":"cpp","functions":{"r27c_read_words_80201ea4":"0x80201ea4"},"descriptions":{"r27c_read_words_80201ea4":"Read and byte-swap an array of 32-bit words, or skip the corresponding byte count when the output is null, returning stream status."}}

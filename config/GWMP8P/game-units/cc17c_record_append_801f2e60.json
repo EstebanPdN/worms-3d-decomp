@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_record_append_801f2e60",
+  "source": "source/matching/game/cc17c/cc17c_record_append_801f2e60.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_record_append_801f2e60": "0x801f2e60"
+  },
+  "descriptions": {
+    "w3d_cc17c_record_append_801f2e60": "Appends a 12-byte record (two words and a 16-bit value) to the owner's record vector at +40, growing the storage when full, then clears flag bit 0x20000000 at +32."
+  }
+}

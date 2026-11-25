@@ -1,0 +1,11 @@
+{
+  "unit": "d31g_stage_cache_80078f48",
+  "source": "source/matching/game/d31g/d31g_stage_cache_80078f48.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31g_stage_cache_80078f48": "0x80078f48"
+  },
+  "descriptions": {
+    "w3d_d31g_stage_cache_80078f48": "Stage cache: for keys a, b, c, d searches the lists at +120 and +180 for an object whose first stage equals the key, else creates it (0x8020b680), sets its stage, appends the objects at +224, the handle from +216, +208 (and +196 for the second list), grows parallel arrays at +2304/+2316/+2364 or +2376/+2388/+2436, and pushes it on a destination list; then adds an optional tail object to +108 with a heap block at +2448 and a zero at +2460, publishes the last array's count to 0x804b17f4, stores the eight indexes into six 128-entry byte table pairs at +768 and increments +764."
+  }
+}

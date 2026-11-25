@@ -1,0 +1,11 @@
+{
+  "unit": "sol35p2_sdk_zero_80317920",
+  "source": "source/matching/game/sol35p2/sol35p2_sdk_zero_80317920.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35p2_sdk_zero_80317920": "0x80317920"
+  },
+  "descriptions": {
+    "w3d_sol35p2_sdk_zero_80317920": "Return integer zero to the confirmed original caller at 0x803185e0. Complete eight-byte body; original SDK API name and full parameter types remain unknown."
+  }
+}

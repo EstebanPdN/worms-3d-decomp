@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bq_802156c8",
+  "source": "source/matching/game/s21/s21_bq_802156c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_swap_restore_802156c8": "0x802156c8"
+  },
+  "descriptions": {
+    "w3d_s21_swap_restore_802156c8": "Appears to swap in a minus-one handler through a helper and, when the previous value is not negative, restore it."
+  }
+}

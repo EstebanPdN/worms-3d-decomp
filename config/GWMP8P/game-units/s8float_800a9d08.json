@@ -1,0 +1,11 @@
+{
+  "unit": "s8float_800a9d08",
+  "source": "source/matching/game/s8float_800a9d08.c",
+  "language": "c",
+  "functions": {
+    "s8_float_init_800a9d08": "0x800a9d08"
+  },
+  "descriptions": {
+    "s8_float_init_800a9d08": "Appears to initialize observed floating-point global fields and perform the surrounding original calls."
+  }
+}

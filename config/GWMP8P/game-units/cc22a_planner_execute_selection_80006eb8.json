@@ -1,0 +1,11 @@
+{
+  "unit": "cc22a_planner_execute_selection_80006eb8",
+  "source": "source/matching/game/cc22a/cc22a_planner_execute_selection_80006eb8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc22a_planner_execute_selection_80006eb8": "0x80006eb8"
+  },
+  "descriptions": {
+    "cc22a_planner_execute_selection_80006eb8": "Select and poll a scored plan, copy three observed global words, then publish or execute and release the plan, reset or advance planner state. Scalar widths and dispatch offsets observed; interpretation inferred."
+  }
+}

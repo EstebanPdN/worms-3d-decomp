@@ -1,0 +1,14 @@
+{
+  "unit": "f5a_setup_pointer_8026f6e0",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_setup_pointer_8026f6e0": "0x8026f6e0"
+  },
+  "descriptions": {
+    "w3d_f5a_setup_pointer_8026f6e0": "Create the observed pointer object when absent, register it, set fields, size and copied position, forward context fields and a retained interface, then refresh. Partial layouts and semantic roles inferred."
+  },
+  "source": "source/matching/game/f5a/f5a_setup_pointer_8026f6e0.cpp",
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

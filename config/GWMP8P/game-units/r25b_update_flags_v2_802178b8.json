@@ -1,0 +1,11 @@
+{
+  "unit": "r25b_update_flags_v2_802178b8",
+  "source": "source/matching/game/r25b/r25b_update_flags_v2_802178b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25b_update_flags_v2_802178b8": "0x802178b8"
+  },
+  "descriptions": {
+    "w3d_r25b_update_flags_v2_802178b8": "Inferred guarded flag update. Observed pointer at +0x30, word at pointee +0."
+  }
+}

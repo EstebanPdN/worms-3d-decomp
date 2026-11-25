@@ -1,0 +1,14 @@
+{
+  "unit": "d24e_colour_properties_801cb6a4",
+  "source": "source/matching/game/d24e/d24e_colour_properties_801cb6a4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24e_register_colour_properties_801cb6a4": "0x801cb6a4"
+  },
+  "descriptions": {
+    "w3d_d24e_register_colour_properties_801cb6a4": "Creates four colour bindings (0x801f0b70) with grey and alpha values from the constants 0x803adf44..0x803adf50, registers four member bindings (0x801ece2c) and one typed binding (0x801ec52c), calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

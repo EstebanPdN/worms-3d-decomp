@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801ec8c4",
+  "source": "source/matching/game/k5b/k5b_a_801ec8c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_binding_fetch_apply_801ec8c4": "0x801ec8c4"
+  },
+  "descriptions": {
+    "w3d_k5b_binding_fetch_apply_801ec8c4": "Appears to fetch a value through virtual slot 18 of the host source and, on success, pass it by value to the bound member-function setter on the object."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

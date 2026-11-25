@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_global_service_refresh_80200278",
+  "source": "source/matching/game/cx9b/cx9b_global_service_refresh_80200278.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_global_service_refresh_80200278": "0x80200278"
+  },
+  "descriptions": {
+    "w3d_cx9b_global_service_refresh_80200278": "Resolve the original named service, retain its interface, release the old global service, and install the replacement."
+  }
+}

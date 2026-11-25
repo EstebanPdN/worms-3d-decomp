@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_listener_subscribe_8002547c",
+  "source": "source/matching/game/k4a/k4a_listener_subscribe_8002547c.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_listener_subscribe_8002547c": "0x8002547c"
+  },
+  "descriptions": {
+    "k4a_listener_subscribe_8002547c": "Appears to resolve a named source interface and subscribe the listener to six cached message ids, storing each subscription in consecutive fields."
+  }
+}

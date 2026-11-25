@@ -1,0 +1,11 @@
+{
+  "unit": "cc21b_converter_sinit_8020eda8",
+  "source": "source/matching/game/cc21b/cc21b_converter_sinit_8020eda8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc21b_converter_sinit_8020eda8": "0x8020eda8"
+  },
+  "descriptions": {
+    "w3d_cc21b_converter_sinit_8020eda8": "During priority65535 initialization constructs the type-converter descriptor, installs original interface vtables, initializes the BaseTypeConverters callback/table registration while preserving its first word, and inserts it into the sorted registry. Referenced data is external."
+  }
+}

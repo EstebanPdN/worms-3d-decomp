@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_mesh_find_next_8017f954",
+  "source": "source/matching/game/cx16b/cx16b_mesh_find_next_8017f954.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_mesh_find_next_8017f954": "0x8017f954"
+  },
+  "descriptions": {
+    "w3d_cx16b_mesh_find_next_8017f954": "Advances the mesh index until an in-use record matches the owner callback, changes an exhausted index to minus one, and preserves the original starting-record return value."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g1p_choice_tint_802a6878",
+  "source": "source/matching/game/g1p/g1p_choice_tint_802a6878.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1p_choice_tint_802a6878": "0x802a6878"
+  },
+  "descriptions": {
+    "g1p_choice_tint_802a6878": "Updates observed choice-control enables and tints after native availability and busy queries. Enables confirm with the availability result; constructs grey150 or255 RGB and opaque alpha. Disabled/busy uses200,150,200 tint and observed alternate controls; active state uses opaque white and selects left/right through the secondary panel index at+28. Applies shade and grey to alternating observed labels and cast controls. Complete local RGBA values are4 bytes; all receiver/secondary/control views are partial and external. Guarded and unguarded enable calls preserve exact original null-check locations; names/roles inferred. No owned data, artificial storage or instruction controls."
+  }
+}

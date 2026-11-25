@@ -1,0 +1,11 @@
+{
+  "unit": "h1_80162e10",
+  "source": "source/matching/game/h1/h1_80162e10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_h1_registry_owner_construct_80162e10": "0x80162e10"
+  },
+  "descriptions": {
+    "w3d_h1_registry_owner_construct_80162e10": "Constructs a tagged object (base vtable 0x80411940, tag type 2, derived vtable 0x80411908), initializes the registry member at offset 32, records the object in a global owner pointer, clears a global state word and the word at offset 60, and returns the object."
+  }
+}

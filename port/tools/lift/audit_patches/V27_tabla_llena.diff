@@ -1,0 +1,21 @@
+diff -ru a/port/core/game/d30j/d30j_insert_pool_item_8017c464.cpp b/port/core/game/d30j/d30j_insert_pool_item_8017c464.cpp
+--- a/port/core/game/d30j/d30j_insert_pool_item_8017c464.cpp	2026-11-05 13:21:07
++++ b/port/core/game/d30j/d30j_insert_pool_item_8017c464.cpp	2026-11-05 13:21:07
+@@ -31,6 +31,7 @@
+ struct Table { char p0[24]; Ref slots[1920]; 
+   char names[8 * 256]; int count; };
+ extern "C" unsigned int w3d_k1d_hash_name_8017e1c4(Ptr32<Table>, Ptr32<const char>);
++extern "C" void w3d_dbg(const char *, ...);
+ extern unsigned int lbl_804ab5e4, lbl_804ab5ec, lbl_804ab5f0;
+ template <class T> inline const T &mx(const T &a, const T &b) { return a < b ? b : a; }
+ #define SLOT(i) (self->slots[i])
+@@ -57,6 +58,9 @@
+         use(item->text());
+       }
+       probe++;
++      // Port (v27): con la tabla llena, el original da vueltas sin fin. Con los mapas de Ultimate Mayhem quedan unos 48
++      // huecos libres (core/native/mapa_um.cpp): si alguna vez se llena, no se inserta y queda en el registro.
++      if (probe >= 1920) { w3d_dbg("[tabla] la tabla de 1920 recursos esta llena: %s no cabe\n", item->text().p.get()); return false; }
+     }
+     lbl_804ab5ec = mx(lbl_804ab5ec, probe);
+     lbl_804ab5f0 += probe;

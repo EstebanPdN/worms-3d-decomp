@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_writer_reset_80204850",
+  "source": "source/matching/game/d28e/d28e_writer_reset_80204850.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_writer_reset_80204850": "0x80204850"
+  },
+  "descriptions": {
+    "w3d_d28e_writer_reset_80204850": "Reset a serializer: clears the 64-byte record vector at +28, the two tree maps at +44 and +60 (0x8035b84c, 0x8035b8a4), the state word at +24, and the word vector at +92."
+  }
+}

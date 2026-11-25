@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_clip_frames_8002f764",
+  "source": "source/matching/game/k7a/k7a_clip_frames_8002f764.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_clip_frames_8002f764": "0x8002f764"},
+  "descriptions": {"w3d_k7a_clip_frames_8002f764": "Appears to look up the clip library service by name, query a clip's length and return it scaled to an integer frame count."}
+}

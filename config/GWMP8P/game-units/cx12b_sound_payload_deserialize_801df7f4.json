@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_sound_payload_deserialize_801df7f4",
+  "source": "source/matching/game/cx12b/cx12b_sound_payload_deserialize_801df7f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_sound_payload_deserialize_801df7f4": "0x801df7f4"
+  },
+  "descriptions": {
+    "w3d_cx12b_sound_payload_deserialize_801df7f4": "Read two original sound payload lengths, replace their owned arrays and read both byte payloads plus two trailing words."
+  }
+}

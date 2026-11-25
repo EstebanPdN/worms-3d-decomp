@@ -1,0 +1,11 @@
+{
+  "unit": "cc41a_create_typed_8017e884",
+  "source": "source/matching/game/cc41a/cc41a_create_typed_8017e884.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc41a_create_typed_8017e884": "0x8017e884"
+  },
+  "descriptions": {
+    "cc41a_create_typed_8017e884": "Resolve a byte-keyed definition, configure the stored factory in original callback order, create an object, and return it only when its runtime parent chain contains the required type."
+  }
+}

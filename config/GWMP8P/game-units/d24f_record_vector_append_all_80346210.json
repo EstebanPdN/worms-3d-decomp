@@ -1,0 +1,17 @@
+{
+  "unit": "d24f_record_vector_append_all_80346210",
+  "source": "source/matching/game/d24f/d24f_record_vector_append_all_80346210.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24f_record_vector_append_all_80346210": "0x80346210"
+  },
+  "descriptions": {
+    "d24f_record_vector_append_all_80346210": "Appends every 16-byte record (halfword, word, table, word) of the source vector to this vector, growing through allocation 0x80212fd4 with fallback 0x803413d8 when full and releasing old storage via 0x802134fc; record copies install table 0x80410500 then 0x804104f0. Then empties the source vector."
+  },
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ]
+}

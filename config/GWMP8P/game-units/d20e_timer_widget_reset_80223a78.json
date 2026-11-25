@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_timer_widget_reset_80223a78",
+  "source": "source/matching/game/d20e/d20e_timer_widget_reset_80223a78.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d20e_reset_timer_widget_80223a78": "0x80223a78"
+  },
+  "descriptions": {
+    "w3d_d20e_reset_timer_widget_80223a78": "Resets the LumpFileId, HighlightedMessage, SelectedMessage and ChangedRenderState string properties (0x801ed24c) to the shared empty string 0x804b06a0 through a temporary copy, registers the BorderColour binding (0x801ece2c), sets the TimerPosition vector binding (0x801f0210) to (0, 0, 0) and TimerScale to (20, 20, 0) from the constants 0x803b76c8/0x803b76cc, calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

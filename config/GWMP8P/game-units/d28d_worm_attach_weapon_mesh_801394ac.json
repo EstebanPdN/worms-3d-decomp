@@ -1,0 +1,15 @@
+{
+  "unit": "d28d_worm_attach_weapon_mesh_801394ac",
+  "source": "source/matching/game/d28d/d28d_worm_attach_weapon_mesh_801394ac.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d28d_worm_attach_weapon_mesh_801394ac": "0x801394ac"
+  },
+  "descriptions": {
+    "d28d_worm_attach_weapon_mesh_801394ac": "Attaches the weapon model: keeps an existing handle unless the weapon is 48, 41 or 42; picks the model name for the weapon from the global names table (no model clears the actor handles); loads the mesh by name into the worm's held reference, attaches it to the worm mesh, sets its lights, and binds names for weapon 44 or plays DrawParachute or DrawJetpack for weapons 42 and 48."
+  }
+}

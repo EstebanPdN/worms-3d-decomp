@@ -1,0 +1,15 @@
+{
+  "unit": "s12_member_binding_801ebf38",
+  "source": "source/matching/game/generated/s12_member_binding_801ebf38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s12_create_member_binding_801ebf38": "0x801ebf38",
+    "w3d_s12_create_member_binding_801ec0f8": "0x801ec0f8",
+    "w3d_s12_create_member_binding_801ece2c": "0x801ece2c"
+  },
+  "descriptions": {
+    "w3d_s12_create_member_binding_801ebf38": "Allocates an observed property binding, installs its method table, copies two member-function pointers and its state, and registers it with the owner.",
+    "w3d_s12_create_member_binding_801ec0f8": "Allocates an observed property binding, installs its method table, copies two member-function pointers and its state, and registers it with the owner.",
+    "w3d_s12_create_member_binding_801ece2c": "Allocates an observed property binding, installs its method table, copies two member-function pointers and its state, and registers it with the owner."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d32a_bomber_setup_8002df8c",
+  "source": "source/matching/game/d32a/d32a_bomber_setup_8002df8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_bomber_setup_8002df8c": "0x8002df8c"
+  },
+  "descriptions": {
+    "w3d_d32a_bomber_setup_8002df8c": "Initialises the bomber airstrike object: heading from its direction, model and parts, light, animation clips, effects and engine sounds."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

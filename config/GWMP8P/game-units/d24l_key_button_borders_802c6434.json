@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_key_button_borders_802c6434",
+  "source": "source/matching/game/d24l/d24l_key_button_borders_802c6434.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_key_button_borders_802c6434": "0x802c6434"
+  },
+  "descriptions": {
+    "d24l_key_button_borders_802c6434": "Builds a keyboard button's borders: loads 'FE.K.BtnBdr' and 'FE.K.BtnBdrH' with the same type byte (base+31) through handles built from the names, stores the cast meshes retained at +48 and +52, scales both to half the button size (+72,+76), attaches them to the panel +28 and sets the ready flag +36."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_follow_transform_8002e670",
+  "source": "source/matching/game/k7a/k7a_follow_transform_8002e670.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_follow_transform_8002e670": "0x8002e670"},
+  "descriptions": {"w3d_k7a_follow_transform_8002e670": "Appears to read the transform of the followed source through its vtable and report its translation to the light and the global notifier."}
+}

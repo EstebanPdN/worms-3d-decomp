@@ -1,0 +1,11 @@
+{
+  "unit": "s21_au_80201438",
+  "source": "source/matching/game/s21/s21_au_80201438.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_u16_swapped_80201438": "0x80201438"
+  },
+  "descriptions": {
+    "w3d_s21_read_u16_swapped_80201438": "Appears to read two bytes from the inner stream into a stack halfword, byte-swap it and store it through the output pointer."
+  }
+}

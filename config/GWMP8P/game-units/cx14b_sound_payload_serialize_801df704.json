@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_sound_payload_serialize_801df704",
+  "source": "source/matching/game/cx14b/cx14b_sound_payload_serialize_801df704.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_sound_payload_serialize_801df704": "0x801df704"
+  },
+  "descriptions": {
+    "w3d_cx14b_sound_payload_serialize_801df704": "Serialize two length-prefixed sound payloads followed by the original constant trailer through typed stream methods."
+  }
+}

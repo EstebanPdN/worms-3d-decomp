@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_arena_register_80209bc8",
+  "source": "source/matching/game/cx7b/cx7b_arena_register_80209bc8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_arena_register_80209bc8": "0x80209bc8"
+  },
+  "descriptions": {
+    "w3d_cx7b_arena_register_80209bc8": "Find the first empty slot in a 256-entry arena table, install the arena, and store its byte index at +4; report exhaustion if full."
+  }
+}

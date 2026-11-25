@@ -1,0 +1,11 @@
+{
+  "unit": "s19_timers_80029780",
+  "source": "source/matching/game/s19/s19_timers_80029780.c",
+  "language": "c",
+  "functions": {
+    "s19_tick_timers_80029780": "0x80029780"
+  },
+  "descriptions": {
+    "s19_tick_timers_80029780": "Appears to subtract the elapsed time from two countdowns at +0x28 and +0x24 or fire virtual slot 5 on the held interfaces when they are idle, then return zero."
+  }
+}

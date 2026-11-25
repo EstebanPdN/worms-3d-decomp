@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_interpolate_800ecd60",
+  "source": "source/matching/game/cx11a/cx11a_interpolate_800ecd60.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_interpolate_800ecd60": "0x800ecd60"
+  },
+  "descriptions": {
+    "w3d_cx11a_interpolate_800ecd60": "Refreshes a provider and interpolates between observed endpoint vectors using elapsed time capped at the observed unit constant. Names inferred."
+  }
+}

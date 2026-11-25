@@ -1,0 +1,11 @@
+{
+  "unit": "s19_dtor_800222b8",
+  "source": "source/matching/game/s19/s19_dtor_800222b8.c",
+  "language": "c",
+  "functions": {
+    "s19_destroy_800222b8": "0x800222b8"
+  },
+  "descriptions": {
+    "s19_destroy_800222b8": "Appears to install a vtable, release three held interfaces and a storage handle, then run the actor base destroy with the flags."
+  }
+}

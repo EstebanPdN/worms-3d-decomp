@@ -1,0 +1,12 @@
+{
+  "unit": "d42l_tile_sheet_clear_802a9f54",
+  "source": "source/matching/game/d42l/d42l_tile_sheet_clear_802a9f54.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d42l_tile_sheet_clear_802a9f54": "0x802a9f54"
+  },
+  "descriptions": {
+    "d42l_tile_sheet_clear_802a9f54": "Removes the 15 tile sprites from their row nodes, releases all row, frame and sub handles, then calls the panel base's clear at +28."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_au_802025a8",
+  "source": "source/matching/game/s21/s21_au_802025a8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_forward_802025a8": "0x802025a8"
+  },
+  "descriptions": {
+    "w3d_s21_read_forward_802025a8": "Appears to forward two arguments to the read slot of the inner stream with a trailing zero and return its result."
+  }
+}

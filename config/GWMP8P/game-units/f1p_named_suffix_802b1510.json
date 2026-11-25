@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_named_suffix_802b1510",
+  "source": "source/matching/game/f1p/f1p_named_suffix_802b1510.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_named_suffix_802b1510": "0x802b1510"
+  },
+  "descriptions": {
+    "w3d_named_suffix_802b1510": "Copies the incoming name into a local string, parses an optional colon-separated numeric suffix and truncates the copied name, resolves a handle through 0x8015adf4, preserves negative errors, applies a nonzero suffix as a byte to the resolved object, and destroys the local string on both paths. Constructor and callback identities are bound from original instructions; semantic names inferred."
+  }
+}

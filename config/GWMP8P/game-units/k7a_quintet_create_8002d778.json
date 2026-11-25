@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_quintet_create_8002d778",
+  "source": "source/matching/game/k7a/k7a_quintet_create_8002d778.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_quintet_create_8002d778": "0x8002d778"},
+  "descriptions": {"w3d_k7a_quintet_create_8002d778": "Appears to allocate and construct a 112-byte object with five cleared part slots, register it in its class list and count it."}
+}

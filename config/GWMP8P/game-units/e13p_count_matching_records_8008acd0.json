@@ -1,0 +1,11 @@
+{
+  "unit": "e13p_count_matching_records_8008acd0",
+  "source": "source/matching/game/e13p/e13p_count_matching_records_8008acd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_count_matching_records_8008acd0": "0x8008acd0"
+  },
+  "descriptions": {
+    "w3d_count_matching_records_8008acd0": "Counts the first four indexed records returned by 0x800fc7f8 whose kind byte at +0x3c equals the requested kind and whose state word at +0x2c is zero, and returns that count."
+  }
+}

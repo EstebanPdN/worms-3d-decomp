@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ge_80208da8",
+  "source": "source/matching/game/s21/s21_ge_80208da8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_bytes_80208da8": "0x80208da8"
+  },
+  "descriptions": {
+    "w3d_s21_write_bytes_80208da8": "Appears to append bytes to a memory stream: it grows the stream through virtual slot 8 when the end passes the size, copies the data at the current position, advances the position and reports the coun"
+  }
+}

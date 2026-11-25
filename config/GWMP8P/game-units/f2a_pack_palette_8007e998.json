@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_pack_palette_8007e998",
+  "source": "source/matching/game/f2a/f2a_pack_palette_8007e998.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_pack_palette_8007e998": "0x8007e998"
+  },
+  "descriptions": {
+    "w3d_f2a_pack_palette_8007e998": "Obtains bytes from the array wrapper at input offset 48, retaining kind-1 inline storage or calling 0x801ef048 with the original count and arguments 1,2. Packs the high nibbles of 256 consecutive byte triples into 16-bit output entries through caller offset 372 and returns zero. Palette/channel naming and unused frame reservation are inferred."
+  }
+}

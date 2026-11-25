@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_initialize_property_owner_8011bf6c",
+  "source": "source/matching/game/cx13a/cx13a_initialize_property_owner_8011bf6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_initialize_property_owner_8011bf6c": "0x8011bf6c"
+  },
+  "descriptions": {
+    "w3d_cx13a_initialize_property_owner_8011bf6c": "Initialize observed camera-owner state and retain its queried current-mode property with reference cleanup; names inferred."
+  }
+}

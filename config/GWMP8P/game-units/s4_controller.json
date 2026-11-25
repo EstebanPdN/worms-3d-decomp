@@ -1,0 +1,13 @@
+{
+  "unit": "s4_controller",
+  "source": "source/matching/game/s4_controller.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_controller_construct": "0x802873ac",
+    "w3d_s4_controller_destroy": "0x8028740c"
+  },
+  "descriptions": {
+    "w3d_s4_controller_construct": "Initializes the controller service, clears five interfaces, and clears the top two flag bits.",
+    "w3d_s4_controller_destroy": "Releases five held interfaces and destroys the controller service base."
+  }
+}

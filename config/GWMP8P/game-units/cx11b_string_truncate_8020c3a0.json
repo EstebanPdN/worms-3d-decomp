@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_string_truncate_8020c3a0",
+  "source": "source/matching/game/cx11b/cx11b_string_truncate_8020c3a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_string_truncate_8020c3a0": "0x8020c3a0"
+  },
+  "descriptions": {
+    "w3d_cx11b_string_truncate_8020c3a0": "Detach shared storage if needed and set the observed string length and terminator."
+  }
+}

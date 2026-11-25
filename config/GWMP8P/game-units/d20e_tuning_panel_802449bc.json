@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_tuning_panel_802449bc",
+  "source": "source/matching/game/d20e/d20e_tuning_panel_802449bc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__15D20eTuningPanelUs": "0x802449bc"
+  },
+  "descriptions": {
+    "__15D20eTuningPanelUs": "Tuning panel constructor: runs the tagged base constructor 0x801ea0ec with the caller's id, installs the table 0x8041b428, sets the float members +20..+480 to their default values (pool 0x803c05b4..0x803c0614), copy-constructs strings at +144/+172/+244 from the shared empty string 0x804b06a0 (incrementing its reference count), sets the ints at +484..+496 to 1, calls 0x8021d0fc on the object and returns this."
+  }
+}

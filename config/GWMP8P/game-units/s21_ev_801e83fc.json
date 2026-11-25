@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ev_801e83fc",
+  "source": "source/matching/game/s21/s21_ev_801e83fc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_release_801e83fc": "0x801e83fc"
+  },
+  "descriptions": {
+    "w3d_s21_release_801e83fc": "Appears to drop a reference of a counted object: when the count at offset 4 reaches zero it unlinks and destroys the object and deletes it, returning the new count."
+  }
+}

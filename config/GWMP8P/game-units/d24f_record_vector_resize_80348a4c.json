@@ -1,0 +1,14 @@
+{
+  "unit": "d24f_record_vector_resize_80348a4c",
+  "source": "source/matching/game/d24f/d24f_record_vector_resize_80348a4c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d24f_record_vector_resize_80348a4c": "0x80348a4c"
+  },
+  "descriptions": {
+    "d24f_record_vector_resize_80348a4c": "Resizes the record vector at +24 to n: builds a default record (null interfaces, array via 0x802109dc); shrinking destroys the tail (array via 0x80210abc, interfaces via slot 16) and moves finish, growing calls the repeated insert 0x80347dec. Destroys the default record, stores n at +20 and returns 0."
+  }
+}

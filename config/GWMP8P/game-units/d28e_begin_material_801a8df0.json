@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_begin_material_801a8df0",
+  "source": "source/matching/game/d28e/d28e_begin_material_801a8df0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_begin_material_801a8df0": "0x801a8df0"
+  },
+  "descriptions": {
+    "w3d_d28e_begin_material_801a8df0": "Start a material for a source: copies +168 to +164, clears counters, reads the source's count and matrix through its table, updates the frustum at +64 through 0x801a9f78, takes the pair count through 0x801f5da0, then finds the matrix among the elements at +252 by a 64-byte compare. A new matrix takes an element from the 32-per-chunk pool at +204 and is appended. The index goes to +264. Returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801c3338",
+  "source": "source/matching/game/k4b/k4b_a_801c3338.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_light_construct_801c3338": "0x801c3338"
+  },
+  "descriptions": {
+    "w3d_k4b_light_construct_801c3338": "Appears to construct a derived named colour object over 0x801b4bcc: vtable 0x80414ce0, two retained shared interfaces and a zero offset vector."
+  }
+}

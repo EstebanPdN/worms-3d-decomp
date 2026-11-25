@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_select_campaign_team_8027c480",
+  "source": "source/matching/game/d27f/d27f_select_campaign_team_8027c480.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_select_campaign_team_8027c480": "0x8027c480"
+  },
+  "descriptions": {
+    "d27f_select_campaign_team_8027c480": "Frontend campaign team selection: resolves the team name, marks it in DATA.TeamBarracks, copies its name, flag, speech, grave, weapon and fort strings into the game init data, clamps the current mission, refreshes and posts FE.Populate."
+  }
+}

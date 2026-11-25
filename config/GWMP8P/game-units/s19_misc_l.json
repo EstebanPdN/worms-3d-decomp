@@ -1,0 +1,13 @@
+{
+  "unit": "s19_misc_l",
+  "source": "source/matching/game/s19/s19_misc_l.c",
+  "language": "c",
+  "functions": {
+    "s19_probe_8001744c": "0x8001744c",
+    "s19_forward_8001a02c_80019fb4": "0x80019fb4"
+  },
+  "descriptions": {
+    "s19_probe_8001744c": "Appears to run a primary probe with a global tolerance and, when the flag at +0x28 is set and it failed, a second probe with the same arguments.",
+    "s19_forward_8001a02c_80019fb4": "Appears to look up three values for an id through the global table and forward them with an extra integer and two floats to a helper."
+  }
+}

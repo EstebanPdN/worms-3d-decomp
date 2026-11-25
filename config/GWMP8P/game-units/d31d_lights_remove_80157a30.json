@@ -1,0 +1,14 @@
+{
+  "unit": "d31d_lights_remove_80157a30",
+  "source": "source/matching/game/d31d/d31d_lights_remove_80157a30.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31d_lights_remove_80157a30": "0x80157a30"
+  },
+  "descriptions": {
+    "w3d_d31d_lights_remove_80157a30": "Removes the lights named WormLight.N and WeaponLight.N for N from 0 to 15 through the engine's light manager, using a shared 32-byte name buffer, then calls the finishing slot of the world's manager with 4."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

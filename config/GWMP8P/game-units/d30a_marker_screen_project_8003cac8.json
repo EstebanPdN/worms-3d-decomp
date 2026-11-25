@@ -1,0 +1,14 @@
+{
+  "unit": "d30a_marker_screen_project_8003cac8",
+  "source": "source/matching/game/d30a/d30a_marker_screen_project_8003cac8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_marker_screen_project_8003cac8": "0x8003cac8"
+  },
+  "descriptions": {
+    "w3d_d30a_marker_screen_project_8003cac8": "Projects a point to clamped screen coordinates for a marker, rotates its icon toward off-screen points, and returns the position."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s19_float_80016978",
+  "source": "source/matching/game/s19/s19_float_80016978.c",
+  "language": "c",
+  "functions": {
+    "s19_owner_weight_inverse_80016978": "0x80016978"
+  },
+  "descriptions": {
+    "s19_owner_weight_inverse_80016978": "Appears to sum weights of list entries owned by the global owner id and return one over five times the sum plus one."
+  }
+}

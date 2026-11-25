@@ -1,0 +1,11 @@
+{
+  "unit": "cc24a_planner_utility_choices_v2_80016bf0",
+  "source": "source/matching/game/cc24a/cc24a_planner_utility_choices_v2_80016bf0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_utility_choices_v2_80016bf0": "0x80016bf0"
+  },
+  "descriptions": {
+    "cc24a_planner_utility_choices_v2_80016bf0": "Construct and append eligible16-byte utility plans with plain extern C base initialization and native new ownership; mark done if not ready."
+  }
+}

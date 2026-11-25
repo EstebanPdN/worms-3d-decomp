@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_panel_bounds_publish_802c1c90",
+  "source": "source/matching/game/cx16c/cx16c_panel_bounds_publish_802c1c90.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_panel_bounds_publish_802c1c90": "0x802c1c90"
+  },
+  "descriptions": {
+    "w3d_cx16c_panel_bounds_publish_802c1c90": "Close and clear an optional held object and decrement the original live count, then when dirty publish componentwise minimum and maximum vectors from the two endpoint fields."
+  }
+}

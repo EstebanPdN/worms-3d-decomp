@@ -1,0 +1,14 @@
+{
+  "unit": "d40a_aim_solver_8001bc1c",
+  "source": "source/matching/game/d40a/d40a_aim_solver_8001bc1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40a_aim_solver_8001bc1c": "0x8001bc1c"
+  },
+  "descriptions": {
+    "w3d_d40a_aim_solver_8001bc1c": "AI ballistic aim solver: iterates an aim vector against predicted offsets; returns a fixed vector when no solution exists."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

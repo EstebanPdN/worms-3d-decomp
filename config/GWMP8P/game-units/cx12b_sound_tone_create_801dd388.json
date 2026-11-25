@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_sound_tone_create_801dd388",
+  "source": "source/matching/game/cx12b/cx12b_sound_tone_create_801dd388.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_sound_tone_create_801dd388": "0x801dd388"
+  },
+  "descriptions": {
+    "w3d_cx12b_sound_tone_create_801dd388": "Create the original sound service, apply the complete observed integer/float parameter sequence and append its retained reference."
+  }
+}

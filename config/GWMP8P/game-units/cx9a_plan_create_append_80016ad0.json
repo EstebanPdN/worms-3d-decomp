@@ -1,0 +1,11 @@
+{
+  "unit": "cx9a_plan_create_append_80016ad0",
+  "source": "source/matching/game/cx9a/cx9a_plan_create_append_80016ad0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9a_plan_create_append_80016ad0": "0x80016ad0"
+  },
+  "descriptions": {
+    "w3d_cx9a_plan_create_append_80016ad0": "Allocate and construct a 0x30-byte plan, assign shared context at +0xc and append its address to global plan storage."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d17b_land_sphere_query_800bdb5c",
+  "source": "source/matching/game/d17b/d17b_land_sphere_query_800bdb5c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d17b_land_sphere_query_800bdb5c": "0x800bdb5c"
+  },
+  "descriptions": {
+    "d17b_land_sphere_query_800bdb5c": "Clear the shared land query result through its value update, fill the self mask with the land groups touched by the sphere, then walk the registered land groups with a running mask bit and return 1 at the first selected group whose sphere intersection test succeeds (the position is passed by value), otherwise 0. Partial observed layouts; no owned initialized data. Compiled with the original paired-single float switch -mps-float (reserves the FPR pair frame slot)."
+  }
+}

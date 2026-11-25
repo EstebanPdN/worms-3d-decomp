@@ -1,0 +1,12 @@
+{
+  "unit": "d25k_release_services_8021202c",
+  "source": "source/matching/game/d25k/d25k_release_services_8021202c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d25k_release_services_8021202c": "0x8021202c"
+  },
+  "descriptions": {
+    "w3d_d25k_release_services_8021202c": "Reads the entry count of the hash table at +248, fetches each entry by position (first occupied bucket, then 0x8035c988 at bucket ends), releases each service through table slot 4 and clears the table through 0x8035c81c."
+  }
+}

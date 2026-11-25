@@ -1,0 +1,14 @@
+{
+  "unit": "d40e_prepare_texture_801abab8",
+  "source": "source/matching/game/d40e/d40e_prepare_texture_801abab8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40e_prepare_texture_801abab8": "0x801abab8"
+  },
+  "descriptions": {
+    "w3d_d40e_prepare_texture_801abab8": "Prepares a texture for a device: applies the colour key, clamps the size to the device caps through several power-of-two modes, converts the format if the device asks, and for alpha mode 3 premultiplies a format 1 image and swizzles an 8-bit palette (formats 7 and 8) through a 1,024-byte buffer. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

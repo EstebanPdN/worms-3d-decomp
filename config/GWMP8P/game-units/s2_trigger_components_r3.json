@@ -1,0 +1,17 @@
+{
+  "unit": "s2_trigger_components_r3",
+  "source": "source/matching/game/s2_trigger_components_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_trigger_graphic_setup_80124c5c": "0x80124c5c",
+    "w3d_trigger_collect_80125b44": "0x80125b44",
+    "w3d_handle_registry_init_8012609c": "0x8012609c",
+    "w3d_light_member_attach_80126610": "0x80126610"
+  },
+  "descriptions": {
+    "w3d_trigger_graphic_setup_80124c5c": "Loads the trigger graphic and applies the trigger component radius and position.",
+    "w3d_trigger_collect_80125b44": "Writes trigger collection properties, posts the action-specific message and finishes the component.",
+    "w3d_handle_registry_init_8012609c": "Initializes the handle registry metadata and registers its storage.",
+    "w3d_light_member_attach_80126610": "Retains an attachment temporary, forwards it to the light handle and releases the source reference."
+  }
+}

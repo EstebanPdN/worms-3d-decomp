@@ -1,0 +1,13 @@
+{
+  "unit": "s19_misc_h",
+  "source": "source/matching/game/s19/s19_misc_h.c",
+  "language": "c",
+  "functions": {
+    "s19_init_from_config_8007070c": "0x8007070c",
+    "s19_post_message_80021898": "0x80021898"
+  },
+  "descriptions": {
+    "s19_init_from_config_8007070c": "Appears to initialize an object from the global configuration record: one setup call, two field-address calls and a returned handle stored at +0xbc.",
+    "s19_post_message_80021898": "Appears to build a small typed message, dispatch it to the global target and set the posted flag at +4."
+  }
+}

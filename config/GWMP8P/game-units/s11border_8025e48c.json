@@ -1,0 +1,11 @@
+{
+  "unit": "s11border_8025e48c",
+  "source": "source/matching/game/generated/s11border_8025e48c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s11_attach_border_8025e48c": "0x8025e48c"
+  },
+  "descriptions": {
+    "s11_attach_border_8025e48c": "Creates a border resource, assigns its root name with shared-string reference counting, attaches it to the owner, then releases the temporary resource reference."
+  }
+}

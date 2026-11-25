@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_payload_start_8009f29c",
+  "source": "source/matching/game/d24b/d24b_payload_start_8009f29c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_payload_start_8009f29c": "0x8009f29c"
+  },
+  "descriptions": {
+    "w3d_d24b_payload_start_8009f29c": "Payload targeting start: casts owner +192 to its weapon description (0x80341584, 0x801797b4), reads Land.Radius into +332 and Payload.Target into the vector +308, copies it into +276 and the zero vector 0x8045e788 into +288, reads AIStrike.TargetPoint instead when 0x80020834 reports an active team, starts the flight span (0x800ecee8) with the zero vector, sets +336, copies the position +72 into +320, runs 0x800eb6e4, 0x800ed090 and virtual slot +88 and posts a cached message."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d32c_rope_extend_800d0710",
+  "source": "source/matching/game/d32c/d32c_rope_extend_800d0710.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "grow__4RopePC3VecT1": "0x800d0710"
+  },
+  "descriptions": {
+    "grow__4RopePC3VecT1": "Extends the rope when its free end is blocked, adding a segment at the found point."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_filter_grid_entries_800b2328",
+  "source": "source/matching/game/f2a/f2a_filter_grid_entries_800b2328.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_filter_grid_entries_800b2328": "0x800b2328"
+  },
+  "descriptions": {
+    "w3d_f2a_filter_grid_entries_800b2328": "Retains or locks the array wrapper at nested-body offset 440 using element size 4 and mode 2. Walks the caller pointer range at offset 20, extracts three coordinate bytes from each entry offset 56, queries 0x8002c73c with final argument 4, and calls 0x8006096c for a zero result. Names are inferred."
+  }
+}

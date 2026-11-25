@@ -1,0 +1,1 @@
+{"unit":"tsonnet_b27_ring_8015d018","source":"source/matching/game/tsonnet_b27_ring_8015d018.c","language":"c","functions":{"tsonnet_b27_ring_8015d018":"0x8015d018"},"descriptions":{"tsonnet_b27_ring_8015d018":"Updates a rolling window of elapsed times and float values with running sums; field meanings are inferred."}}

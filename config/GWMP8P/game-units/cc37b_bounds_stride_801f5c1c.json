@@ -1,0 +1,11 @@
+{
+  "unit": "cc37b_bounds_stride_801f5c1c",
+  "source": "source/matching/game/cc37b/cc37b_bounds_stride_801f5c1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc37b_bounds_801f5c1c": "0x801f5c1c"
+  },
+  "descriptions": {
+    "w3d_cc37b_bounds_801f5c1c": "Scans a signed positive count of16-byte-stride points to produce component bounds; fourth input word is not read. Retains original comparison order and NaN branch behavior, native Vec3 local lifetimes and raw aggregate copies. Names and layouts are partial inferred views. Independently decoded maximum finite float literals at803b15dc/803b15e0 produce eight owned initialized data bytes outside text range for parent ownership review."
+  }
+}

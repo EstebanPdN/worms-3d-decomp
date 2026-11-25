@@ -1,0 +1,15 @@
+{
+  "unit": "d31f_scroll_box_parts_80295cec",
+  "source": "source/matching/game/d31f/d31f_scroll_box_parts_80295cec.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d31f_scroll_box_parts_80295cec": "0x80295cec"
+  },
+  "descriptions": {
+    "d31f_scroll_box_parts_80295cec": "Creates or clears the scroll box part handles and lays out the box."
+  }
+}

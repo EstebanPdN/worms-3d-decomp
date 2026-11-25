@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_step_describe_8000a4e4",
+  "source": "source/matching/game/d24a/d24a_step_describe_8000a4e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_step_describe_8000a4e4": "0x8000a4e4"
+  },
+  "descriptions": {
+    "w3d_d24a_step_describe_8000a4e4": "Runs the base description (0x8000756c), then appends \" -> \" and the name of the table entry selected by +16, or \"-> Any\" when +16 is -1."
+  }
+}

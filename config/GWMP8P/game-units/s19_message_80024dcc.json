@@ -1,0 +1,11 @@
+{
+  "unit": "s19_message_80024dcc",
+  "source": "source/matching/game/s19/s19_message_80024dcc.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_message_80024dcc": "0x80024dcc"
+  },
+  "descriptions": {
+    "s19_handle_message_80024dcc": "Appears to handle message 64 with a setup helper and a cached toggle message by flipping the handle owner and posting a typed message, otherwise forward to the base handler."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s9beam_80187208",
+  "source": "source/matching/game/auto/s9beam_80187208.c",
+  "language": "c",
+  "functions": {
+    "s9_beam_80187208": "0x80187208"
+  },
+  "descriptions": {
+    "s9_beam_80187208": "Copies node attributes from a descriptor, marks flags dirty, replaces a retained interface and applies three boolean virtual settings from descriptor bits."
+  }
+}

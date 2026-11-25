@@ -1,0 +1,11 @@
+{
+  "unit": "d43a_commentary_wrap_text_80043134",
+  "source": "source/matching/game/d43a/d43a_commentary_wrap_text_80043134.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43a_commentary_wrap_text_80043134": "0x80043134"
+  },
+  "descriptions": {
+    "w3d_d43a_commentary_wrap_text_80043134": "Word-wraps a commentary string: while text remains, appends it whole if shorter than the width, else searches back from the width for a space or hyphen, appends the prefix (hyphenating when there is no break) and keeps the suffix, halving the display time for each line."
+  }
+}

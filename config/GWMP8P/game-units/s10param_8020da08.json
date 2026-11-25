@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_8020da08",
+  "source": "source/matching/game/generated/s10param_8020da08.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_format_number_8020da08": "0x8020da08"
+  },
+  "descriptions": {
+    "w3d_s10_format_number_8020da08": "Formats a numeric value into a local 16-byte buffer, emits leading spaces to satisfy the stored width, writes the text, and returns the formatter."
+  }
+}

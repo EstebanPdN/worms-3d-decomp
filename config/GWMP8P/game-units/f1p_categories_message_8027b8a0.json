@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_categories_message_8027b8a0",
+  "language": "cpp",
+  "source": "source/matching/game/f1p/f1p_categories_message_8027b8a0.cpp",
+  "functions": {
+    "w3d_categories_message_8027b8a0": "0x8027b8a0"
+  },
+  "descriptions": {
+    "w3d_categories_message_8027b8a0": "Dispatch category-menu initialization and cached messages; compare observed campaign/navigation command strings, read the mission property, and save or restore the three reel properties. Message/cache/key abstractions and state roles inferred from original instructions."
+  }
+}

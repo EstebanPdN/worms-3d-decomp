@@ -1,0 +1,16 @@
+--- a/port/core/sdk/sdk_card.cpp
++++ b/port/core/sdk/sdk_card.cpp
+@@ -26,8 +26,12 @@
+ 
+ std::string dir_path() {
+     const char *home = getenv("HOME");
+-    std::string d = std::string(home ? home : "/tmp") + "/Library/Application Support/Worms3D";
++    std::string d = std::string(home ? home : "/tmp") + "/Library";
+     mkdir(d.c_str(), 0755);
++    d += "/Application Support";
++    mkdir(d.c_str(), 0755);
++    d += "/Worms3D";
++    mkdir(d.c_str(), 0755);
+     d += "/card";
+     mkdir(d.c_str(), 0755);
+     return d;

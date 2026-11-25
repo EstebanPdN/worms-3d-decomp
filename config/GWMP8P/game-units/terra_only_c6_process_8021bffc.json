@@ -1,0 +1,11 @@
+{
+  "unit": "terra_only_c6_process_8021bffc",
+  "source": "source/matching/game/terra_only_c6/terra_only_c6_process_8021bffc.cpp",
+  "language": "cpp",
+  "functions": {
+    "terra_only_c6_process_8021bffc": "0x8021bffc"
+  },
+  "descriptions": {
+    "terra_only_c6_process_8021bffc": "Conditionally iterates an external interface, obtains and invokes objects through virtual calls, and releases a temporary reference; names, layouts and signatures are provisional."
+  }
+}

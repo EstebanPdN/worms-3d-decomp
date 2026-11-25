@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801eea04",
+  "source": "source/matching/game/k5b/k5b_a_801eea04.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_handle_array_resize_owned_801eea04": "0x801eea04"
+  },
+  "descriptions": {
+    "w3d_k5b_handle_array_resize_owned_801eea04": "Appears to resize a solely owned handle array (twin of 0x801ee638): in place when capacity allows, else move entries into a new allocation, null the rest and release the old one."
+  }
+}

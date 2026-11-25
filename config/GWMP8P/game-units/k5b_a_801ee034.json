@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ee034",
+  "source": "source/matching/game/k5b/k5b_a_801ee034.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_component_set_find_class_801ee034": "0x801ee034"
+  },
+  "descriptions": {
+    "w3d_k5b_component_set_find_class_801ee034": "Appears to return the first component in the inline array at +32 reports a class (virtual slot 5) derived from the given class, or null."
+  }
+}

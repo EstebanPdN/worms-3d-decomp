@@ -1,0 +1,11 @@
+{
+  "unit": "d17c_oil_drum_load_800d54b8",
+  "source": "source/matching/game/d17c/d17c_oil_drum_load_800d54b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d17c_oil_drum_load_800d54b8": "0x800d54b8"
+  },
+  "descriptions": {
+    "d17c_oil_drum_load_800d54b8": "Load the \"OilDrum\" resource, release and clear the drum's node slot (+32) and store the retained node, create a handle member of the node's kind (+48) and attach a by-value reference of the resource, publish the worm count, start the idle clip and check its control when the \"WormCount\" setting is below 15, then make the mesh follow its owner."
+  }
+}

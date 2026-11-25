@@ -1,0 +1,13 @@
+{
+  "unit": "s9actor2_8013c890",
+  "source": "source/matching/game/generated/s9actor2_8013c890.c",
+  "language": "c",
+  "functions": {
+    "s9_update_actor_interfaces_8013c890": "0x8013c890",
+    "s9_clear_actor_handles_8013e3d4": "0x8013e3d4"
+  },
+  "descriptions": {
+    "s9_update_actor_interfaces_8013c890": "Saves the inverted interface state and propagates it to the primary, secondary and resolved handle interfaces when allowed.",
+    "s9_clear_actor_handles_8013e3d4": "Releases two saved handles and clears the secondary interface when the actor lookup returns no replacement."
+  }
+}

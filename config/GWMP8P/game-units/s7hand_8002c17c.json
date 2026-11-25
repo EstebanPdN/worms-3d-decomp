@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002c17c",
+  "source": "source/matching/game/s7/s7hand_8002c17c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002c17c": "0x8002c17c"
+  },
+  "descriptions": {
+    "w3d_auto_8002c17c": "Scales the float at +0x5c, clamps it to the global upper limit and clears +0x58 when exceeded; calls the state callback and sets engine-context flag 4."
+  }
+}

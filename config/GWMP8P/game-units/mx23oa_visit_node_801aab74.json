@@ -1,0 +1,11 @@
+{
+  "unit": "mx23oa_visit_node_801aab74",
+  "source": "source/matching/game/mx23oa/mx23oa_visit_node_801aab74.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx23oa_visit_node_801aab74": "0x801aab74"
+  },
+  "descriptions": {
+    "mx23oa_visit_node_801aab74": "Scene visitor entry reached through the secondary base at +4 (null-checked conversion to the primary at -4). If the primary's word at +44 is set, runs the bounds test 0x801a9cbc on the node's +20 block, returns 0 when it fails, restores the +44 word, and dispatches the node's enter callback (+48) through the secondary's table at +24 indexed by the callback's +6 halfword, returning 0 if it reports nonzero; with the +44 word clear it returns 0 when the node has no enter callback. Then selects the byte at +304 (flag bits 1..2 of node+56 equal 0 or 2) or +305 (equal 1), dispatches the leave callback (+52) or clears the halfwords at +230 and +228, and calls 0x801aa15c(primary, byte, node). Always returns 0. Names are inferred; offsets are observed; no owned data."
+  }
+}

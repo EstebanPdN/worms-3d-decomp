@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_debug_resize_80216330",
+  "source": "source/matching/game/d28k/d28k_debug_resize_80216330.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_debug_resize_80216330": "0x80216330"
+  },
+  "descriptions": {
+    "w3d_d28k_debug_resize_80216330": "Debug realloc: validates the block, resizes through the allocator, restores or rewrites the tag, notifies hooks and zeroes grown bytes on request."
+  }
+}

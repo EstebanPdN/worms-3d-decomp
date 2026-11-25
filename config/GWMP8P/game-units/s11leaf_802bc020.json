@@ -1,0 +1,11 @@
+{
+  "unit": "s11leaf_802bc020",
+  "source": "source/matching/game/generated/s11leaf_802bc020.c",
+  "language": "c",
+  "functions": {
+    "s11_reset_vectors_802bc020": "0x802bc020"
+  },
+  "descriptions": {
+    "s11_reset_vectors_802bc020": "Copies the original three-word default vector into the object fields at +0x20 and +0x2c."
+  }
+}

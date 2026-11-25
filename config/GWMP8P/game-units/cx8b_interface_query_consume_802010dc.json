@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_interface_query_consume_802010dc",
+  "source": "source/matching/game/cx8b/cx8b_interface_query_consume_802010dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_interface_query_consume_802010dc": "0x802010dc"
+  },
+  "descriptions": {
+    "w3d_cx8b_interface_query_consume_802010dc": "Query and consume the held interface, release it, and return status."
+  }
+}

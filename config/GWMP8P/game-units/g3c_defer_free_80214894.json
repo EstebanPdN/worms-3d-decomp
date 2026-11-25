@@ -1,0 +1,11 @@
+{
+  "unit": "g3c_defer_free_80214894",
+  "source": "source/matching/game/g3c/g3c_defer_free_80214894.cpp",
+  "language": "cpp",
+  "functions": {
+    "g3c_defer_free_80214894": "0x80214894"
+  },
+  "descriptions": {
+    "g3c_defer_free_80214894": "Defers release of a nonnull runtime allocation. Reads the external heap state through owner+48; for non-direct mode rejects an active0x2000 guard, sets0x4000 and validates the payload through80214718, then sets0x2000. Marks the block header atpayload-4 with bit4 and fills the original marked-size-minus8 payload extent with0xdd. Links small blocks below64 into the original size-indexed free bucket; otherwise installs the first pending block atstate+16 or chains throughstate+84. Calls original optional callback8040077c only for non-direct mode and exact masked flags0x42, passing the original payload extent with low3 flags removed. Clears0x2000 and returns zero; null returns zero and validation failures return minus1. All heap and block types remain external views accessed by typed pointer accessors; no aggregate is constructed locally, no initialized data is owned, and no allocator behavior or safety checks are invented. Names and deferred-release semantics are inferred."
+  }
+}

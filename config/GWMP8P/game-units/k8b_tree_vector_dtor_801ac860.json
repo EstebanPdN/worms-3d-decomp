@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_tree_vector_dtor_801ac860",
+  "source": "source/matching/game/k8b/k8b_tree_vector_dtor_801ac860.c",
+  "language": "c",
+  "functions": {"w3d_k8b_tree_vector_dtor_801ac860": "0x801ac860"},
+  "descriptions": {"w3d_k8b_tree_vector_dtor_801ac860": "Appears to run a deleting destructor that releases held interfaces, destroys a vector of elements, clears an embedded tree and destroys the actor node."}
+}

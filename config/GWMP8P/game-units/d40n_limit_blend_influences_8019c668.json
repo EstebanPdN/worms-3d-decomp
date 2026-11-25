@@ -1,0 +1,14 @@
+{
+  "unit": "d40n_limit_blend_influences_8019c668",
+  "source": "source/matching/game/d40n/d40n_limit_blend_influences_8019c668.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40n_limit_blend_influences_8019c668": "0x8019c668"
+  },
+  "descriptions": {
+    "w3d_d40n_limit_blend_influences_8019c668": "Reduces per-vertex skin weights in a typed input to the owner's influence count: keeps the largest weights, normalises them and stores the bone indices and weights in a retained blend from the service registry. Returns 0, also when the input type does not match."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

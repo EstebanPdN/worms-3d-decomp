@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_projectile_steer_800d489c",
+  "source": "source/matching/game/d27c/d27c_projectile_steer_800d489c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_projectile_steer_800d489c": "0x800d489c"
+  },
+  "descriptions": {
+    "d27c_projectile_steer_800d489c": "Compute a homing projectile's velocity, clamped by top speed and shortened by a trace."
+  }
+}

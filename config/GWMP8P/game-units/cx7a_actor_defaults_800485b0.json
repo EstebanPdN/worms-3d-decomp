@@ -1,0 +1,11 @@
+{
+  "unit": "cx7a_actor_defaults_800485b0",
+  "source": "source/matching/game/cx7a/cx7a_actor_defaults_800485b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7a_actor_defaults_800485b0": "0x800485b0"
+  },
+  "descriptions": {
+    "w3d_cx7a_actor_defaults_800485b0": "Call the actor base constructor, install the observed vtable, initialize invalid sentinel fields +0x1c/+0x48 to -1, and zero the remaining observed word fields through +0x50."
+  }
+}

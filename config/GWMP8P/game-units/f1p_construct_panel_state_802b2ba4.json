@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_construct_panel_state_802b2ba4",
+  "source": "source/matching/game/f1p/f1p_construct_panel_state_802b2ba4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_panel_state_802b2ba4": "0x802b2ba4"
+  },
+  "descriptions": {
+    "w3d_construct_panel_state_802b2ba4": "Initialize the original 28-byte base footprint, install the witnessed vtable, write scalar 13 and the original zero fields, copy the external three-float position as the native aggregate words, write both scalar 80 fields, perform the original held-field release check and final zero/one state assignments, then return the supplied receiver. Field and type names are inferred and the 104-byte receiver view covers only observed fields; no allocation or complete class identity is asserted. Independent field stores use their witnessed ordering. Owns only the exact reproduced scalar literal pool; external vector and vtable remain unowned."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d40n_lua_fill_vertex_stream_8019e96c",
+  "source": "source/matching/game/d40n/d40n_lua_fill_vertex_stream_8019e96c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40n_lua_fill_vertex_stream_8019e96c": "0x8019e96c"
+  },
+  "descriptions": {
+    "w3d_d40n_lua_fill_vertex_stream_8019e96c": "Reads a Lua table of rows into a locked vertex stream, one row per index: a plain number converts to the whole row, a table is read by element name, and if no name is present by position. Returns 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ]
+}

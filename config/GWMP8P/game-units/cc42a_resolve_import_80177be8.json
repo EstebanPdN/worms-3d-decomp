@@ -1,0 +1,11 @@
+{
+  "unit": "cc42a_resolve_import_80177be8",
+  "source": "source/matching/game/cc42a/cc42a_resolve_import_80177be8_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc42a_resolve_import_80177be8": "0x80177be8"
+  },
+  "descriptions": {
+    "cc42a_resolve_import_80177be8": "Resolve an owned interface from the input, return negative resolution status, validate its parent-chain type, copy a retained reference for import with the supplied byte group, and release both scoped references."
+  }
+}

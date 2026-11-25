@@ -1,0 +1,15 @@
+--- a/port/core/boot/boot_main.cpp
++++ b/port/core/boot/boot_main.cpp
+@@ -122,4 +122,12 @@
+ void *w3d_op_new(unsigned long n) { return w3d::g2h(A80212fd4((uint32_t)n)); }
+ void w3d_op_delete(void *p) { if (p) A802134fc(w3d::h2g(p)); }
++}
++
++// Variables de prueba de la comparación con Dolphin (W3D_SEED, W3D_LEVEL_DRAW): solo actúan si están puestas.
++extern "C" int w3d_env_int(const char *name, int *out) {
++    const char *v = getenv(name);
++    if (!v || !*v) return 0;
++    *out = (int)strtoul(v, nullptr, 0);
++    return 1;
+ }
+ 

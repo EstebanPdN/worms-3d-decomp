@@ -1,0 +1,14 @@
+{
+  "unit": "s19_step_800931ac",
+  "source": "source/matching/game/s19/s19_step_800931ac.c",
+  "language": "c",
+  "functions": {
+    "s19_step_all_800931ac": "0x800931ac"
+  },
+  "descriptions": {
+    "s19_step_all_800931ac": "Appears to run the motion step when the handle at +0xd8 is valid, otherwise call virtual slot 8 of the secondary table at +0x48 and two update helpers."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

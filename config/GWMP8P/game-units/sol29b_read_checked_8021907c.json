@@ -1,0 +1,11 @@
+{
+  "unit": "sol29b_read_checked_8021907c",
+  "source": "source/matching/game/sol29b/sol29b_read_checked_8021907c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol29b_read_checked_8021907c": "0x8021907c"
+  },
+  "descriptions": {
+    "sol29b_read_checked_8021907c": "Calls external platform operation 0x802e4cfc with the integer handle at +24 and forwarded buffer/count arguments, optionally stores its result, and returns zero if the result equals the requested count or 0x80004005 otherwise. The PAL implementation at 0x802e4cfc forwards to the unsupported-operation stub 0x802e4ca8. Read-like naming and argument roles are inferred; layout and instructions are observed."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_apply_saved_sound_8028a6c0",
+  "source": "source/matching/game/f1p/f1p_apply_saved_sound_8028a6c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_apply_saved_sound_8028a6c0": "0x8028a6c0"
+  },
+  "descriptions": {
+    "w3d_apply_saved_sound_8028a6c0": "Write zero sound mode when the observed context field is disabled; otherwise read the saved mode, clamp values outside0..2 tozero and pass the resulting mode to the service virtualslot31. Original branch sharing and key storage preserved; field semantics and interface signature inferred."
+  }
+}

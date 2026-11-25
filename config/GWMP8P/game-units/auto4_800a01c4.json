@@ -1,0 +1,11 @@
+{
+  "unit": "auto4_800a01c4",
+  "source": "source/matching/game/auto/auto4_800a01c4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800a01c4": "0x800a01c4"
+  },
+  "descriptions": {
+    "w3d_auto_800a01c4": "Automatically decompiled (m2c) and verified exact; behavior description pending review."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_laser_beam_init_8009af20",
+  "source": "source/matching/game/k4a/k4a_laser_beam_init_8009af20.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_laser_beam_init_8009af20": "0x8009af20"
+  },
+  "descriptions": {
+    "k4a_laser_beam_init_8009af20": "Appears to bind the Laser.Beam name to a handle field and subscribe to a cached message id, storing the subscription in a field."
+  }
+}

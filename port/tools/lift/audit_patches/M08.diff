@@ -1,0 +1,14 @@
+--- a/port/core/game/d30g/d30g_game_init_data_8006e784.cpp
++++ b/port/core/game/d30g/d30g_game_init_data_8006e784.cpp
+@@ -41,4 +41,5 @@
+ extern "C" int seed_b_80162c90(int);
+ extern "C" int elapsed_801fe45c();
++extern "C" int w3d_env_int(const char *, int *);
+ extern "C" unsigned random_80162ba8();
+ extern "C" int lookup_800fc1b0(Ptr32<Key>, Ptr32<void>);
+@@ -67,4 +68,5 @@
+ {
+     if (ready_804abac0 == 0) {
++        w3d_env_int("W3D_SEED", &app_804b1788->seed);
+         if (app_804b1788->seed) {
+             seed_a_80162c18(app_804b1788->seed);

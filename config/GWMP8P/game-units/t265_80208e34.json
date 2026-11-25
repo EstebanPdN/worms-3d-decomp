@@ -1,0 +1,5 @@
+{
+ "unit": "t265_80208e34", "source": "source/matching/game/t265/t265_80208e34.cpp", "language": "cpp",
+ "functions": {"t265_seek_80208e34": "0x80208e34"},
+ "descriptions": {"t265_seek_80208e34": "Optionally returns the previous position, computes a new position relative to the start, current position, or length, and updates it if within the length; otherwise returns an error code."}
+}

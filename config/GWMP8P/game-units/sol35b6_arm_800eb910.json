@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b6_arm_800eb910",
+  "source": "source/matching/game/sol35b6/sol35b6_arm_800eb910.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b6_arm_800eb910": "0x800eb910"
+  },
+  "descriptions": {
+    "sol35b6_arm_800eb910": "Arm the payload, resolve a configured delay, publish its deadline message and log supported payload types through native type ancestry. Partial GC32 layouts, names and external lifetime contracts remain inferred."
+  }
+}

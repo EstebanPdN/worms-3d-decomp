@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ag_801e65fc",
+  "source": "source/matching/game/s21/s21_ag_801e65fc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_link_query_801e65fc": "0x801e65fc"
+  },
+  "descriptions": {
+    "w3d_s21_link_query_801e65fc": "Appears to return the result of a virtual slot of the linked object, or zero when there is no link."
+  }
+}

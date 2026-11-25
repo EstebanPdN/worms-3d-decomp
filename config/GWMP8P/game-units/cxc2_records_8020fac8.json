@@ -1,0 +1,11 @@
+{
+  "unit": "cxc2_records_8020fac8",
+  "source": "source/matching/game/cxc2/cxc2_records_8020fac8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxc2_records_8020fac8": "0x8020fac8"
+  },
+  "descriptions": {
+    "cxc2_records_8020fac8": "Lazily initialize the three twelve-byte records at external storage 0x80463bbc when flag 0x804b06b4 is zero. Clear each record through 0x802eefe0; install tables 0x8040c980/0x8040c990 and words 12/1 in the first two; leave the third cleared; set the flag to one. Return the aggregate address. Field meanings and data ownership remain unresolved."
+  }
+}

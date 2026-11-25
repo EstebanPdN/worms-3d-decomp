@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_name_hash_80177e28",
+  "source": "source/matching/game/cc17b/cc17b_name_hash_80177e28.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_name_hash_80177e28": "0x80177e28"
+  },
+  "descriptions": {
+    "w3d_cc17b_name_hash_80177e28": "Computes the original signed-byte ELF hash using sequential shift/add stages to model the observed accumulator lifetime, then reduces by the table modulus and masks to sixteen bits."
+  }
+}

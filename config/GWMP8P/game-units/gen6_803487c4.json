@@ -1,0 +1,19 @@
+{
+  "unit": "gen6_803487c4",
+  "source": "source/matching/game/generated/gen6_803487c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_member_803487c4": "0x803487c4",
+    "w3d_member_80349aa8": "0x80349aa8",
+    "w3d_member_8034bbd4": "0x8034bbd4",
+    "w3d_getf_8034be5c": "0x8034be5c",
+    "w3d_getf_8035646c": "0x8035646c"
+  },
+  "descriptions": {
+    "w3d_member_803487c4": "Returns the address of the member at +0x74 of its object.",
+    "w3d_member_80349aa8": "Returns the address of the member at +0x74 of its object.",
+    "w3d_member_8034bbd4": "Returns the address of the member at +0x2c of its object.",
+    "w3d_getf_8034be5c": "Returns the float field at +0x28 of its object.",
+    "w3d_getf_8035646c": "Returns the float field at +0x8 of its object."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d22a_weapon_select_8001a7f8",
+  "source": "source/matching/game/d22a/d22a_weapon_select_8001a7f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d22a_weapon_select_8001a7f8": "0x8001a7f8"
+  },
+  "descriptions": {
+    "w3d_d22a_weapon_select_8001a7f8": "Weapon selection set-up: stores the weapon index (0x8001a758) and eye/target vectors (0x8001a770); looks the weapon record up by its type name from table 0x803eb63c (0x800fc330) into 0x804aa77c; sets 0x804b1770 = record+188 + record+184 and 0x804b1774 = record+188; when record+528 is 1 reads Gravity.Slow (record+516 == 1) or Gravity and multiplies it by Low.Gravity.Multiplier; starts the offset at zero, replaces it by the wind vector 0x8001a9a0 when record+480 is 1, adds the gravity to its y, and passes the eye vector 0x8041e844 and the offset to camera 0x8041e780 (0x80118230, 0x80118288)."
+  }
+}

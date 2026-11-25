@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_collection_next_80176594",
+  "source": "source/matching/game/g1c/g1c_collection_next_80176594.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_collection_next_80176594": "0x80176594"
+  },
+  "descriptions": {
+    "g1c_collection_next_80176594": "Advance the caller-owned index past null entries in the external collection, return zero at its witnessed count boundary, otherwise advance once and assign the selected held interface to the external output slot, retaining through vtable slot3 before releasing the previous value through slot4. Collection and interface layouts are external prefix views, never constructed; no complete type identity or data ownership is asserted."
+  }
+}

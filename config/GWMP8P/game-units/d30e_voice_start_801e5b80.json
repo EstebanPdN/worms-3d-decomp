@@ -1,0 +1,14 @@
+{
+  "unit": "d30e_voice_start_801e5b80",
+  "source": "source/matching/game/d30e/d30e_voice_start_801e5b80.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_voice_start_801e5b80": "0x801e5b80"
+  },
+  "descriptions": {
+    "w3d_d30e_voice_start_801e5b80": "Starts a voice from a source: refuses if the source's stream is unusable, there are no channels or it is already playing; takes the id from source virtual slot 16, runs stream slots 23 to 25, and unless the stream is open or the voice active, claims a free entry of the 16-channel table at 0x8045dbc8 for each stream channel, sets it up through 0x802f51e4 and 0x802f5568 with a lazily allocated 96-byte buffer and the 0x801e59b4 callback. On failure it releases through stream slot 21 and returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_hash_erase",
+  "source": "source/matching/game/cx7c/cx7c_hash_erase.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_hash_erase_8035c8c8": "0x8035c8c8"
+  },
+  "descriptions": {
+    "w3d_cx7c_hash_erase_8035c8c8": "Erases the hash node selected by an iterator, handling first/interior nodes, relinking its bucket chain, deallocating the node, and decrementing count only when found."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d30j_init_texture_object_80168744",
+  "source": "source/matching/game/d30j/d30j_init_texture_object_80168744.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "functions": {
+    "d30j_init_texture_object_80168744": "0x80168744"
+  },
+  "descriptions": {
+    "d30j_init_texture_object_80168744": "Initialise a GX texture object from an image's format and size, flushing its texels and binding its palette for indexed formats."
+  }
+}

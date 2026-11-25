@@ -1,0 +1,15 @@
+{
+  "unit": "d30d_spawn_search_80158358",
+  "source": "source/matching/game/d30d/d30d_spawn_search_80158358.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30d_spawn_search_80158358": "0x80158358"
+  },
+  "descriptions": {
+    "d30d_spawn_search_80158358": "Spawn point search: from sources at +40 and +44, sweeps down 130 units from each position, keeps hits above Water.Level plus five whose normal y is at least 0.6, appending hit and companion position to two vectors. Posts a progress message each step; returns the count kept."
+  }
+}

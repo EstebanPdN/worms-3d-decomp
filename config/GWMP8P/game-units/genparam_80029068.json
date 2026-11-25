@@ -1,0 +1,27 @@
+{
+  "unit": "genparam_80029068",
+  "source": "source/matching/game/generated/genparam_80029068.c",
+  "language": "c",
+  "functions": {
+    "w3d_sinit_names_80029068": "0x80029068",
+    "w3d_sinit_names_8002f7e8": "0x8002f7e8",
+    "w3d_sinit_names_80068330": "0x80068330",
+    "w3d_sinit_names_800a40b8": "0x800a40b8",
+    "w3d_sinit_names_800c1b90": "0x800c1b90",
+    "w3d_sinit_names_800cd9dc": "0x800cd9dc",
+    "w3d_sinit_names_802871b4": "0x802871b4",
+    "w3d_sinit_names_802a7da4": "0x802a7da4",
+    "w3d_sinit_names_802b532c": "0x802b532c"
+  },
+  "descriptions": {
+    "w3d_sinit_names_80029068": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_8002f7e8": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_80068330": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_800a40b8": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_800c1b90": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_800cd9dc": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_802871b4": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_802a7da4": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings.",
+    "w3d_sinit_names_802b532c": "Static initializer (priority 0xffff): registers the unit's entry with its callback, then initializes four cached message-name slots from their strings."
+  }
+}

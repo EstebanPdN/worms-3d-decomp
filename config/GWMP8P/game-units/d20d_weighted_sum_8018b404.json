@@ -1,0 +1,14 @@
+{
+  "unit": "d20d_weighted_sum_8018b404",
+  "source": "source/matching/game/d20d/d20d_weighted_sum_8018b404.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d20d_weighted_sum_8018b404": "0x8018b404"
+  },
+  "descriptions": {
+    "d20d_weighted_sum_8018b404": "Sum values over a zero-terminated list of 16-bit keys: the table search 0x8018b260 (on the owner, which is its K1dTable) maps each key to an index into the 16-bit entry table of node slot 9 (node at owner +36); entries with top nibble 0xf are skipped, otherwise the high byte selects a track handle in node slot 7 and the low byte a float in that track's slot-7 data block, divided by the weight of the first track's first value and added to a total that starts at the float at 0x803a7da0. Field meanings are inferred."
+  }
+}

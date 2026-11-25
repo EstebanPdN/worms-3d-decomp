@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_pool_next_8017d6f4",
+  "source": "source/matching/game/cc17b/cc17b_pool_next_8017d6f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_pool_next_8017d6f4": "0x8017d6f4"
+  },
+  "descriptions": {
+    "w3d_cc17b_pool_next_8017d6f4": "Scans the observed 1920-slot table by four-byte byte offsets, copies the next occupied address word and advances the caller index. Returns false only at the exact sentinel index."
+  }
+}

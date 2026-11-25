@@ -1,0 +1,13 @@
+{
+  "unit": "s9extra_8017922c",
+  "source": "source/matching/game/generated/s9extra_8017922c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s9_destroy_shared_owner_8017922c": "0x8017922c",
+    "s9_destroy_shared_owner_80179520": "0x80179520"
+  },
+  "descriptions": {
+    "s9_destroy_shared_owner_8017922c": "Installs the class vtable, decrements the shared owner count, releases the global interface for the final owner and forwards flags to the base destructor.",
+    "s9_destroy_shared_owner_80179520": "Installs the class vtable, decrements the shared owner count, releases the global interface for the final owner and forwards flags to the base destructor."
+  }
+}

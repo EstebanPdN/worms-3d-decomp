@@ -1,0 +1,97 @@
+--- a/port/core/game/d29f/d29f_border_view_setup_8028a784.cpp
++++ b/port/core/game/d29f/d29f_border_view_setup_8028a784.cpp
+@@ -67,6 +67,7 @@
+         w3d_set_triple_802b3020(self->view, Vec3(*p));
+         w3d_auto_802b30c0(self->view, one, one);
+         d10b_rebuild_layout_802b3d04(self->view, 1, 0);
++        retain(self->scene.p);  // La función llamada libera su argumento por valor (GCC 2.95) y clang libera además la copia aquí.
+         w3d_cx12b_child_view_initialize_802b3c5c(self->view, self->scene);
+         self->state = 2;
+     }
+--- a/port/core/game/d43l/d43l_keyboard_layout_build_802c2dc4.cpp
++++ b/port/core/game/d43l/d43l_keyboard_layout_build_802c2dc4.cpp
+@@ -70,7 +70,11 @@
+ }
+ 
+ inline Ref Font(Ptr32<Keyboard> self) { return self->font; }
+-inline Held mk(Ptr32<Keyboard> self) { return fn_802b3c5c(self->w84, Font(self)); }
++// La función llamada libera su argumento por valor (GCC 2.95) y clang libera además la copia en quien llama.
++inline Held view_init(Ptr32<void> view, const Ref &font) { if (font.r) font.r->vt->acquire(font.r); return fn_802b3c5c(view, font); }
++inline void grid_init(Ptr32<void> grid, const Ref &parent) { if (parent.r) parent.r->vt->acquire(parent.r); fn_802c6384(grid, parent); }
++inline void key_init(Ptr32<void> key, const Ref &parent) { if (parent.r) parent.r->vt->acquire(parent.r); fn_802c72e4(key, parent); }
++inline Held mk(Ptr32<Keyboard> self) { return view_init(self->w84, Font(self)); }
+ extern "C" void d43l_keyboard_layout_build_802c2dc4(Ptr32<Keyboard> self) {
+     float h = 250.0f;
+ 
+@@ -99,7 +103,7 @@
+         Vec v(0.0f, -20.0f, 0.0f);
+         fn_802b3020(self->w88, v);
+         fn_802b3d04(self->w88, 1, 1);
+-        self->w40 = fn_802b3c5c(self->w88, self->font);
++        self->w40 = view_init(self->w88, self->font);
+     }
+ 
+     if (!self->w224) {
+@@ -113,7 +117,7 @@
+         Vec v(140.0f, -h * 0.5f + t * 0.5f + 32.0f, 0.0f);
+         fn_802c61fc(self->w224, v);
+         fn_802c6924(self->w224, 6);
+-        fn_802c6384(self->w224, (const Ref &)self->w40);
++        grid_init(self->w224, (const Ref &)self->w40);
+     }
+ 
+     if (!self->w220) {
+@@ -127,7 +131,7 @@
+         Vec v(-140.0f, -h * 0.5f + t * 0.5f + 32.0f, 0.0f);
+         fn_802c61fc(self->w220, v);
+         fn_802c6924(self->w220, 0);
+-        fn_802c6384(self->w220, (const Ref &)self->w40);
++        grid_init(self->w220, (const Ref &)self->w40);
+     }
+ 
+     if (!self->w228) {
+@@ -142,7 +146,7 @@
+         fn_802c71d8(self->w228, v);
+         fn_802c813c(self->w228, 1);
+         fn_802c7cec(self->w228, 0.0f, 0.0f, 0);
+-        fn_802c72e4(self->w228, (const Ref &)self->w40);
++        key_init(self->w228, (const Ref &)self->w40);
+     }
+ 
+     if (!self->w232) {
+@@ -157,7 +161,7 @@
+         fn_802c71d8(self->w232, v);
+         fn_802c813c(self->w232, 1);
+         fn_802c7cec(self->w232, 0.0f, 0.0f, 1);
+-        fn_802c72e4(self->w232, (const Ref &)self->w40);
++        key_init(self->w232, (const Ref &)self->w40);
+     }
+ 
+     float x0 = -180.0f;
+@@ -176,7 +180,7 @@
+             fn_802c7278(k, 40.0f, 40.0f);
+             Vec v(x, y, z);
+             fn_802c71d8(self->keys[i], v);
+-            fn_802c72e4(keys[i], (const Ref &)self->w40);
++            key_init(keys[i], (const Ref &)self->w40);
+             s = 40.0f;
+             x += s;
+             if (col++ == 9) {
+@@ -198,7 +202,7 @@
+         Vec v(sp * 0.5f + x, y, zz);
+         fn_802c71d8(self->w212, v);
+         fn_802c7a0c(self->w212, Str("FE.Font"), 32);
+-        fn_802c72e4(self->w212, (const Ref &)self->w40);
++        key_init(self->w212, (const Ref &)self->w40);
+         }
+         x0 -= sp;
+         x += sp + 1.0f;
+@@ -211,7 +215,7 @@
+         {
+         Vec v(x + s, y, zz);
+         fn_802c71d8(self->w216, v);
+-        fn_802c72e4(self->w216, (const Ref &)self->w40);
++        key_init(self->w216, (const Ref &)self->w40);
+         }
+     }
+     fn_802c38cc(self, 1);

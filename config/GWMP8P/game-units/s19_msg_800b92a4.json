@@ -1,0 +1,14 @@
+{
+  "unit": "s19_msg_800b92a4",
+  "source": "source/matching/game/s19/s19_msg_800b92a4.c",
+  "language": "c",
+  "functions": {
+    "s19_msg_init_800b92a4": "0x800b92a4"
+  },
+  "descriptions": {
+    "s19_msg_init_800b92a4": "Appears to initialize a typed message with a cached id, copy a vector and store a float value, returning the message."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

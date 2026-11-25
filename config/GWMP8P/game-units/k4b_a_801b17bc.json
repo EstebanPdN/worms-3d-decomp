@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b17bc",
+  "source": "source/matching/game/k4b/k4b_a_801b17bc.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_tracker_construct_801b17bc": "0x801b17bc"
+  },
+  "descriptions": {
+    "w3d_k4b_tracker_construct_801b17bc": "Appears to construct an object: base vtable, member at +4 via 0x801e81c8, derived vtable 0x80414270, zero a three-word block, construct a member at +52 and zero five words."
+  }
+}

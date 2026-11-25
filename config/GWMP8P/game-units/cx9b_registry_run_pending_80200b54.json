@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_registry_run_pending_80200b54",
+  "source": "source/matching/game/cx9b/cx9b_registry_run_pending_80200b54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_registry_run_pending_80200b54": "0x80200b54"
+  },
+  "descriptions": {
+    "w3d_cx9b_registry_run_pending_80200b54": "Run uninitialized descriptors and their callbacks, stopping at the first negative callback result."
+  }
+}

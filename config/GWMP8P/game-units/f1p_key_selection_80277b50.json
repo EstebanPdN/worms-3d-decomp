@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_key_selection_80277b50",
+  "source": "source/matching/game/f1p/f1p_key_selection_80277b50.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_key_selection_80277b50": "0x80277b50"
+  },
+  "descriptions": {
+    "w3d_key_selection_80277b50": "Handles key 27 through 0x80275f18; otherwise searches the two original key strings, maps offsets zero/one/two to selection messages 20/21/22 and dispatches through 0x802761b8 with field +0x5c. Inferred role, original branch/call order."
+  }
+}

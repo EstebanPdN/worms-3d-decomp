@@ -1,0 +1,14 @@
+{
+  "unit": "mx14oa_file_owner_8015be3c",
+  "source": "source/matching/game/mx14oa/mx14oa_file_owner_8015be3c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/mx14oa"
+  ],
+  "functions": {
+    "__15Mx14oaFileOwner": "0x8015be3c"
+  },
+  "descriptions": {
+    "__15Mx14oaFileOwner": "Constructs the engine file owner: installs the abstract service table 0x804111a0, initializes the tagged link at +4 with kind 2, installs the owner table 0x80411168, default-constructs the path string at +12, clears the file and archive interfaces at +16/+20, reads setting PS2.RunFromCdRom into the from-CD flag at +24, publishes itself as singleton 0x804b17ec and registers with 0x80165594."
+  }
+}

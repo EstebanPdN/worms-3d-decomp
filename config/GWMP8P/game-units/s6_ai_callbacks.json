@@ -1,0 +1,41 @@
+{
+  "unit": "s6_ai_callbacks",
+  "source": "source/matching/game/s6_ai_callbacks.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ai_clone_and_enqueue_8000c078": "0x8000c078",
+    "w3d_ai_weapon_damage_8000ce84": "0x8000ce84",
+    "w3d_ai_weapon_radius_8000cec0": "0x8000cec0",
+    "w3d_ai_weapon_range_8000cee8": "0x8000cee8",
+    "w3d_ai_test_range_a_8000d068": "0x8000d068",
+    "w3d_ai_test_range_b_8000d0b4": "0x8000d0b4",
+    "w3d_ai_test_range_c_8000d120": "0x8000d120",
+    "w3d_ai_test_raised_origin_8000d1dc": "0x8000d1dc",
+    "w3d_ai_test_range_d_8000d2c8": "0x8000d2c8",
+    "w3d_ai_test_range_e_8000d328": "0x8000d328",
+    "w3d_ai_named_damage_8000d99c": "0x8000d99c",
+    "w3d_ai_named_range_8000da0c": "0x8000da0c",
+    "w3d_ai_named_scaled_count_8000da34": "0x8000da34",
+    "w3d_ai_execute_named_attack_8000dbd4": "0x8000dbd4",
+    "w3d_ai_execute_fixed_a_8000dc78": "0x8000dc78",
+    "w3d_ai_execute_fixed_b_8000dcbc": "0x8000dcbc"
+  },
+  "descriptions": {
+    "w3d_ai_clone_and_enqueue_8000c078": "Marks the plan active, clears its amount byte, clones it, and enqueues the clone.",
+    "w3d_ai_weapon_damage_8000ce84": "Reads weapon damage and applies the damage modifier.",
+    "w3d_ai_weapon_radius_8000cec0": "Reads a weapon radius property.",
+    "w3d_ai_weapon_range_8000cee8": "Reads a weapon range property.",
+    "w3d_ai_test_range_a_8000d068": "Runs a range query and passes its result to the plan continuation.",
+    "w3d_ai_test_range_b_8000d0b4": "Runs a range query, rejects excessive result height, and continues the plan.",
+    "w3d_ai_test_range_c_8000d120": "Runs a query with a fixed range parameter.",
+    "w3d_ai_test_raised_origin_8000d1dc": "Raises the query origin and continues the plan after the query.",
+    "w3d_ai_test_range_d_8000d2c8": "Runs a range query, continues the plan, and sets a fixed result cost.",
+    "w3d_ai_test_range_e_8000d328": "Runs a range query with an alternate fixed parameter and continues the plan.",
+    "w3d_ai_named_damage_8000d99c": "Reads named weapon damage, optionally multiplies by count, and applies the damage modifier.",
+    "w3d_ai_named_range_8000da0c": "Reads the named weapon range property.",
+    "w3d_ai_named_scaled_count_8000da34": "Multiplies a named weapon damage scale by its unsigned count.",
+    "w3d_ai_execute_named_attack_8000dbd4": "Appears to execute a named attack and conditionally release its queue and select a weapon.",
+    "w3d_ai_execute_fixed_a_8000dc78": "Executes a fixed action with tuning value 14.",
+    "w3d_ai_execute_fixed_b_8000dcbc": "Executes a fixed action with tuning value 13."
+  }
+}

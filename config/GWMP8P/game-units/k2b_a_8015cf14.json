@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8015cf14",
+  "source": "source/matching/game/k2b/k2b_a_8015cf14.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_slot_table_resize_8015cf14": "0x8015cf14"
+  },
+  "descriptions": {
+    "w3d_k2b_slot_table_resize_8015cf14": "Appears to replace a slot table's storage with a freshly allocated zeroed array of the given length and reset it."
+  }
+}

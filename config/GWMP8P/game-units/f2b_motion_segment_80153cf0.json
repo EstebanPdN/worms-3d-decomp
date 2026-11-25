@@ -1,0 +1,11 @@
+{
+  "unit": "f2b_motion_segment_80153cf0",
+  "source": "source/matching/game/f2b/f2b_motion_segment_80153cf0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2b_motion_segment_80153cf0": "0x80153cf0"
+  },
+  "descriptions": {
+    "f2b_motion_segment_80153cf0": "Pass the vector at offset 560 and its sum with the input vector to 0x80153f80, store state 6 at offset 760, call 0x801492ec with 32, clear offset 716, and scale the vector at offset 676 by the service result from 0x80178df0. Field roles and original qualifiers remain inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d26e_euler_matrix_801a3eb0",
+  "source": "source/matching/game/d26e/d26e_euler_matrix_801a3eb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_euler_matrix_801a3eb0": "0x801a3eb0"
+  },
+  "descriptions": {
+    "w3d_d26e_euler_matrix_801a3eb0": "Builds a 3x3 rotation matrix from Euler angles for one of six rotation orders; sine and cosine pairs come from 0x801f3db0, and orders outside 0..5 leave the matrix untouched. Row 0 is written directly, rows 1 and 2 through row references. Case 4's first row uses cy*sx where a textbook matrix has cy*sz: this is in the original and kept. Order names are not known."
+  }
+}

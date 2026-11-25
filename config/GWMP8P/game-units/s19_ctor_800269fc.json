@@ -1,0 +1,11 @@
+{
+  "unit": "s19_ctor_800269fc",
+  "source": "source/matching/game/s19/s19_ctor_800269fc.c",
+  "language": "c",
+  "functions": {
+    "s19_ctor_800269fc": "0x800269fc"
+  },
+  "descriptions": {
+    "s19_ctor_800269fc": "Appears to run the actor base initializer, then install a vtable, set two float limits of plus and minus half pi and clear fifteen fields."
+  }
+}

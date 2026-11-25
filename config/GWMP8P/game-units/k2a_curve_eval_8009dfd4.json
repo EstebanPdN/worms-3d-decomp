@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_curve_eval_8009dfd4",
+  "source": "source/matching/game/k2a/k2a_curve_eval_8009dfd4.c",
+  "language": "c",
+  "functions": {
+    "k2a_curve_eval_8009dfd4": "0x8009dfd4"
+  },
+  "descriptions": {
+    "k2a_curve_eval_8009dfd4": "Appears to evaluate a per-channel curve: scale times a math helper of gain times input plus offset, for a channel index."
+  }
+}

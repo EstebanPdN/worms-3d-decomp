@@ -1,0 +1,4 @@
+c source/matching/game/s20/s20_small_b.c
+w3d_s20_release_pair_800e77dc|0x800e77dc|Appears to release two held objects with a deleting call and clear both fields.
+w3d_s20_apply_handle_pair_8013a048|0x8013a048|Appears to resolve a stored handle, clear it when stale, and otherwise submit two values from the object to a helper.
+w3d_s20_state_in_set_8013d88c|0x8013d88c|Appears to test whether the state value at offset 684 belongs to a fixed set of values and returns 1 or 0.

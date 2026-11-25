@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8019ddf4",
+  "source": "source/matching/game/k6b/k6b_a_8019ddf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k6b_script_host_run_file_8019ddf4": "0x8019ddf4"
+  },
+  "descriptions": {
+    "w3d_k6b_script_host_run_file_8019ddf4": "Appears to open a script through the file service (default 0x8020b884), load it into the Lua state at +20 with the stream reader 0x8019dd80 and run it."
+  }
+}

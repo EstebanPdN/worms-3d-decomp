@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_asset_finish_8021dd04",
+  "source": "source/matching/game/d26k/d26k_asset_finish_8021dd04.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_asset_finish_8021dd04": "0x8021dd04"
+  },
+  "descriptions": {
+    "w3d_d26k_asset_finish_8021dd04": "Touches the name at +68 and the two strings of the owner object through copy and destroy pairs, closes the reader at +76 through 0x8020810c and stores 3 at +48."
+  }
+}

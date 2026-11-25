@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ad_801fc790",
+  "source": "source/matching/game/s21/s21_ad_801fc790.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_stamp_record_801fc790": "0x801fc790"
+  },
+  "descriptions": {
+    "w3d_s21_stamp_record_801fc790": "Appears to store a value and a global sequence number into a record, increment the sequence counter and return the record."
+  }
+}

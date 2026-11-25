@@ -1,0 +1,14 @@
+{
+  "unit": "d25g_body_bounce_8004ce58",
+  "source": "source/matching/game/d25g/d25g_body_bounce_8004ce58.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d25g_body_bounce_8004ce58": "0x8004ce58"
+  },
+  "descriptions": {
+    "w3d_d25g_body_bounce_8004ce58": "Bounce response: marks the body bounced, flips and damps its velocity by 0.4, and when the speed falls under 0.02 stops it, settles it at the rest position raised by +64 if it was rolling, and releases the trail; otherwise clears the moving flags and, when audio exists, moves the sound and sets its volume to min((speed-0.02)/0.02, 1) before updating it."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_page_text_802a7c54",
+  "source": "source/matching/game/d24l/d24l_page_text_802a7c54.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_page_text_802a7c54": "0x802a7c54"
+  },
+  "descriptions": {
+    "d24l_page_text_802a7c54": "Shows the current page text: when the index +600 is below +592, +584 and +580 and the error string +108 is empty, copies the name at +540[index] and, when it is not empty, looks up the text resource and renames the label +96 with its text; a failed lookup formats \"ERROR: No such Text Resource '%s'\" into +108 and shows that instead. Otherwise calls 0x802b1714 on the +28 sub-object."
+  }
+}

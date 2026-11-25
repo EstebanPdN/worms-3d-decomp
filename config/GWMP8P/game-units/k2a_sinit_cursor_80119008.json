@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_sinit_cursor_80119008",
+  "source": "source/matching/game/k2a/k2a_sinit_cursor_80119008.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_sinit_cursor_80119008": "0x80119008"
+  },
+  "descriptions": {
+    "k2a_sinit_cursor_80119008": "Appears to be a static initializer that constructs the targeting cursor graphic entity type object and sets a four-byte color constant."
+  }
+}

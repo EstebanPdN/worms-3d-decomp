@@ -1,0 +1,20 @@
+--- a/port/core/game/d32f/d32f_start_game_mode_80281ff0.cpp
++++ b/port/core/game/d32f/d32f_start_game_mode_80281ff0.cpp
+@@ -73,4 +73,5 @@
+ extern "C" void fn_802847cc(Ptr32<void>), fn_80280370(Ptr32<void>);
+ extern "C" unsigned fn_80162c20(), fn_80162ba8(), fn_801fe45c();
++extern "C" int w3d_env_int(const char *, int *);
+ extern "C" unsigned w3d_r25b_category_count_8027be7c(Ptr32<void>, unsigned);
+ extern "C" String sol35e2_choose_string_8027befc(Ptr32<void>, unsigned, unsigned);
+@@ -204,4 +205,5 @@
+ unsigned r = fn_80162c20();
+ r %= w3d_r25b_category_count_8027be7c(lbl_804abbac, 5);
++w3d_env_int("W3D_LEVEL_DRAW", (int *)&r);
+ String level;
+ level = sol35e2_choose_string_8027befc(lbl_804abbac, 5, r);
+@@ -329,4 +331,5 @@
+ unsigned r = fn_80162ba8();
+ r %= w3d_r25b_category_count_8027be7c(lbl_804abbac, 5);
++w3d_env_int("W3D_LEVEL_DRAW", (int *)&r);
+ String level;
+ level = sol35e2_choose_string_8027befc(lbl_804abbac, 5, r);

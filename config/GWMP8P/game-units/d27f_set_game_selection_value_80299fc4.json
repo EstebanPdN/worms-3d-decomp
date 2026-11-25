@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_set_game_selection_value_80299fc4",
+  "source": "source/matching/game/d27f/d27f_set_game_selection_value_80299fc4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_set_game_selection_value_80299fc4": "0x80299fc4"
+  },
+  "descriptions": {
+    "d27f_set_game_selection_value_80299fc4": "Frontend game info update: reads the selected name property, looks up GM.GameInfo, and walks the mode-dependent name fields in descending order, storing the value (0..3) beside the first field that matches."
+  }
+}

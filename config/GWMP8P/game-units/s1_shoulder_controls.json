@@ -1,0 +1,13 @@
+{
+  "unit": "s1_shoulder_controls",
+  "source": "source/matching/game/s1_shoulder_controls.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80052154": "0x80052154",
+    "w3d_fn_80052360": "0x80052360"
+  },
+  "descriptions": {
+    "w3d_fn_80052154": "Posts shoulder-camera input group changes and updates the base camera.",
+    "w3d_fn_80052360": "Selects the blimp or head view when the matching input message arrives."
+  }
+}

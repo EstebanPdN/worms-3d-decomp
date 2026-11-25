@@ -1,0 +1,17 @@
+{
+  "unit": "d17e_record_vector_append_8023f510",
+  "source": "source/matching/game/d17e/d17e_record_vector_append_8023f510.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d17e_load_int_entries_8023f510": "0x8023f510",
+    "w3d_d17e_load_float_entries_8023fb48": "0x8023fb48",
+    "w3d_d17e_load_int_pair_entries_8023f808": "0x8023f808",
+    "w3d_d17e_load_float_pair_entries_8023fe40": "0x8023fe40"
+  },
+  "descriptions": {
+    "w3d_d17e_load_int_entries_8023f510": "Reads the record's id, value and integer extra arrays and appends one sixteen-byte entry (vtable 0x804104f0) per index to the service object's vector at +44, growing it STLport-style when full.",
+    "w3d_d17e_load_float_entries_8023fb48": "Reads the record's id, value and float extra arrays and appends one sixteen-byte entry (vtable 0x804104c0) per index to the service object's vector at +92, growing it STLport-style when full.",
+    "w3d_d17e_load_int_pair_entries_8023f808": "Reads the record's id, value and two integer arrays and appends one twenty-byte entry (vtable 0x804104d0) per index to the service object's vector at +76, growing it STLport-style when full.",
+    "w3d_d17e_load_float_pair_entries_8023fe40": "Reads the record's id, value and two float arrays and appends one twenty-byte entry (vtable 0x804104b0) per index to the service object's vector at +108, growing it STLport-style when full."
+  }
+}

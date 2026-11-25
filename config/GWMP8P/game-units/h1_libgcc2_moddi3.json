@@ -1,0 +1,11 @@
+{
+  "unit": "h1_libgcc2_moddi3",
+  "source": "source/matching/game/h1/h1_libgcc2_moddi3.c",
+  "language": "c",
+  "functions": {
+    "__moddi3": "0x802f3f0c"
+  },
+  "descriptions": {
+    "__moddi3": "libgcc2 __moddi3: signed 64-bit remainder through the inlined __udivmoddi4; the result takes the sign of the dividend."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "s1_energy_controller",
+  "source": "source/matching/game/s1_energy_controller.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80066068": "0x80066068",
+    "w3d_fn_800664f8": "0x800664f8"
+  },
+  "descriptions": {
+    "w3d_fn_80066068": "Steps four energy displays toward their shown positions and updates their targets when all finish.",
+    "w3d_fn_800664f8": "Highlights the display for the selected actor team and clears highlighting for other teams."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_downsample_a_801b01bc",
+  "source": "source/matching/game/d29e/d29e_downsample_a_801b01bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_downsample_a_801b01bc": "0x801b01bc"
+  },
+  "descriptions": {
+    "w3d_d29e_downsample_a_801b01bc": "Halves a one-component image by averaging 2x2 blocks when the destination is exactly half the source; otherwise fills two pixel descriptors and calls the generic filter at 0x801d7750 with mode 4. The row step arithmetic is reproduced from the original. Names are inferred."
+  }
+}

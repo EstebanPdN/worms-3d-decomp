@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_text_format_variadic_8020d6bc",
+  "source": "source/matching/game/cx10b/cx10b_text_format_variadic_8020d6bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_text_format_variadic_8020d6bc": "0x8020d6bc"
+  },
+  "descriptions": {
+    "w3d_cx10b_text_format_variadic_8020d6bc": "Forward formatted text arguments to the original va-list formatting helper."
+  }
+}

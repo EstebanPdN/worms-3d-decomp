@@ -1,0 +1,17 @@
+{
+  "unit": "s2_application_services_r3",
+  "source": "source/matching/game/s2_application_services_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_application_trace_801266d0": "0x801266d0",
+    "w3d_application_entry_801267f8": "0x801267f8",
+    "w3d_application_destroy_80126d1c": "0x80126d1c",
+    "w3d_application_load_language_80127b48": "0x80127b48"
+  },
+  "descriptions": {
+    "w3d_application_trace_801266d0": "Logs registered object addresses and the application entry address.",
+    "w3d_application_entry_801267f8": "Constructs the application, runs initialization and execution, then performs cleanup and destruction.",
+    "w3d_application_destroy_80126d1c": "Clears the application singleton, releases strings and held resources, and destroys the base.",
+    "w3d_application_load_language_80127b48": "Loads the saved language and applies it when its unsigned index is below ten."
+  }
+}

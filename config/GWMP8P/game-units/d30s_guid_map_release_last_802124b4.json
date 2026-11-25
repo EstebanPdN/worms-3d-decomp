@@ -1,0 +1,19 @@
+{
+  "unit": "d30s_guid_map_release_last_802124b4",
+  "source": "source/matching/game/d30s/d30s_guid_map_release_last_802124b4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_guid_map_release_last_802124b4": "0x802124b4"
+  },
+  "descriptions": {
+    "d30s_guid_map_release_last_802124b4": "Looks up a key in the map at +248; if the entry holds the only reference, releases and erases it. Returns 0, 1 when other references remain, or E_FAIL when absent."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

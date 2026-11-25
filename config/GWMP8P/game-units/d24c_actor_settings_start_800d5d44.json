@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_actor_settings_start_800d5d44",
+  "source": "source/matching/game/d24c/d24c_actor_settings_start_800d5d44.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_actor_settings_start_800d5d44": "0x800d5d44"
+  },
+  "descriptions": {
+    "d24c_actor_settings_start_800d5d44": "Call 0x800d5ff0; subscribe four handlers at +72, +76, +80, +84; read Water.Level, Gravity and Low.Gravity settings into retained references +116, +108, +112 through a holder cleared before and released after each read, releasing previous values; post a created message with the id at +20; bind the member handle at +64 to the id."
+  }
+}

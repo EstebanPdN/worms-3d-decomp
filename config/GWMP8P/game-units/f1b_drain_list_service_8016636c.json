@@ -1,0 +1,11 @@
+{
+  "unit": "f1b_drain_list_service_8016636c",
+  "source": "source/matching/game/f1b/f1b_drain_list_service_8016636c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1b_drain_list_service_8016636c": "0x8016636c"
+  },
+  "descriptions": {
+    "f1b_drain_list_service_8016636c": "Repeatedly compare the sentinel at owner offset 28 with its first node; while unequal, invoke virtual byte slot 48 on the service at offset 20 with the first node's offset-40 pointer adjusted by four when nonnull, followed by zero. Re-read the list after each call and return zero when empty. Removal by the service is inferred."
+  }
+}

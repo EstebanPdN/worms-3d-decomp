@@ -1,0 +1,11 @@
+{
+  "unit": "cc42a_bind_typed_8017963c",
+  "source": "source/matching/game/cc42a/cc42a_bind_typed_8017963c_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc42a_bind_typed_8017963c": "0x8017963c"
+  },
+  "descriptions": {
+    "cc42a_bind_typed_8017963c": "Resolve and retain an interface, require the witnessed parent-chain type, replace the binding with retain-before-release ownership, and release the temporary on every return."
+  }
+}

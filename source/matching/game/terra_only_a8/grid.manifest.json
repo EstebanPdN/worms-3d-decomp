@@ -1,0 +1,1 @@
+{"unit":"terra_only_a8_grid","source":"source/matching/game/terra_only_a8/grid.c","language":"c","functions":{"terra_only_a8_grid_8002c73c":"0x8002c73c"},"descriptions":{"terra_only_a8_grid_8002c73c":"Test a hierarchy of packed grid bits and fall back to a base-level bit."}}

@@ -1,0 +1,12 @@
+{
+  "unit": "d32l_cube_mesh_setup_b_802aea3c",
+  "source": "source/matching/game/d32l/d32l_cube_mesh_setup_b_802aea3c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d32l_cube_mesh_setup_b_802aea3c": "0x802aea3c"
+  },
+  "descriptions": {
+    "d32l_cube_mesh_setup_b_802aea3c": "Builds a 48-vertex textured mesh with UVs and white vertex colours, copies a named material and attaches the mesh to the object."
+  }
+}

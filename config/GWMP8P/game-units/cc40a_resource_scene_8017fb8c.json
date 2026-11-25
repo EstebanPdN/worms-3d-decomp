@@ -1,0 +1,11 @@
+{
+  "unit": "cc40a_resource_scene_8017fb8c",
+  "source": "source/matching/game/cc40a/cc40a_resource_scene_8017fb8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc40a_resource_scene_8017fb8c": "0x8017fb8c"
+  },
+  "descriptions": {
+    "cc40a_resource_scene_8017fb8c": "Query the resource, traverse its runtime type parent chain for the scene interface, retain the accepted scene before releasing the previous field, then release the query reference. Original descriptors remain unowned."
+  }
+}

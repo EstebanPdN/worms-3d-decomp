@@ -1,0 +1,11 @@
+{
+  "unit": "g8a_euler_matrix_801a3eb0",
+  "source": "source/matching/game/g8a/g8a_euler_matrix_801a3eb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "g8a_euler_matrix_801a3eb0": "0x801a3eb0"
+  },
+  "descriptions": {
+    "g8a_euler_matrix_801a3eb0": "Computes six scalar sine/cosine outputs through original801f3db0 for three input angles, then fills nine row-major rotation-matrix elements using original six order branches0..5. Other order values preserve the destination. Preserves original operation grouping and single-precision arithmetic; names inferred, static binary proof only. Local scalar outputs match original callee write footprints; no local partial views, pointer truncation, or owned data."
+  }
+}

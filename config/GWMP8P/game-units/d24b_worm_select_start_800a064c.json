@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_worm_select_start_800a064c",
+  "source": "source/matching/game/d24b/d24b_worm_select_start_800a064c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_worm_select_start_800a064c": "0x800a064c"
+  },
+  "descriptions": {
+    "w3d_d24b_worm_select_start_800a064c": "Worm-selection start: selects the worm (0x800a04d4), loads Camera.CurrentMode and ActiveWormIndex (0x800fc1b0, casts 0x80342a78/0x803426b4) into +96 and +40 through one handle with retain/release, subscribes the object (0x80162024) to nine cached message ids with handler slots +52, +44, +48, +56, +60, +64, +68, +72, +76, runs 0x800a12c0 and clears +84 and +92."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_catalog_tables_800fbc00",
+  "source": "source/matching/game/cc17b/cc17b_catalog_tables_800fbc00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_catalog_tables_800fbc00": "0x800fbc00"
+  },
+  "descriptions": {
+    "w3d_cc17b_catalog_tables_800fbc00": "At startup priority 65535, initializes the observed arena pointers and counts four sentinel catalogs with 20/20/24/8-byte strides. Base-alias stores are reordered to preserve original address identities."
+  }
+}

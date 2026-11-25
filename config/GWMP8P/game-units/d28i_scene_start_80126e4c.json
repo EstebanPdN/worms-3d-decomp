@@ -1,0 +1,17 @@
+{
+  "unit": "d28i_scene_start_80126e4c",
+  "source": "source/matching/game/d28i/d28i_scene_start_80126e4c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28i_scene_start_80126e4c": "0x80126e4c"
+  },
+  "descriptions": {
+    "d28i_scene_start_80126e4c": "Starts the game scene: loads the font, creates and configures the light groups, binds render layers to them and creates the top-level game objects."
+  }
+}

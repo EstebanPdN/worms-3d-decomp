@@ -1,0 +1,11 @@
+{
+  "unit": "g7c_capture_80347ab8",
+  "source": "source/matching/game/g7c/g7c_capture_80347ab8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g7c_capture_80347ab8": "0x80347ab8"
+  },
+  "descriptions": {
+    "w3d_g7c_capture_80347ab8": "Capture a renderer surface and write an explicitly named or numbered bitmap through retained surface/file interfaces."
+  }
+}

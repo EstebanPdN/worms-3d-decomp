@@ -1,0 +1,11 @@
+{
+  "unit": "cc42b_remove_slot_801e183c",
+  "source": "source/matching/game/cc42b/cc42b_remove_slot_801e183c_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc42b_remove_slot_801e183c": "0x801e183c"
+  },
+  "descriptions": {
+    "cc42b_remove_slot_801e183c": "For a nonnull indexed slot, releases and clears it, shifts subsequent held interfaces left by acquire-before-release assignment with live slot reloads, clears the final extent slot, and decrements the active count. Preserves unsigned extent-minus-one behavior and callback order. Observed 32-slot partial C++ owner and refcount-interface views; callback return types/full original declarations and full owner size unknown. No data ownership."
+  }
+}

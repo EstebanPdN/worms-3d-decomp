@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_ninja_rope_actions_80058f18",
+  "source": "source/matching/game/d24g/d24g_ninja_rope_actions_80058f18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_ninja_rope_actions_80058f18": "0x80058f18"
+  },
+  "descriptions": {
+    "w3d_d24g_ninja_rope_actions_80058f18": "Appends input actions to the owner's pointer vector at +36: NinjaRope.Shorten.On (4, 1), NinjaRope.Shorten.Off (4, 0), NinjaRope.Lengthen.On (5, 1), NinjaRope.Lengthen.Off (5, 0), NinjaRope.SwingForward.On (1, 1, axis 2), NinjaRope.SwingForward.Off (1, 0, axis 2), NinjaRope.SwingBackward.On (1, 1, axis 1), NinjaRope.SwingBackward.Off (1, 0, axis 1), NinjaRope.SwingLeft.On (0, 1, axis 1), NinjaRope.SwingLeft.Off (0, 0, axis 1), NinjaRope.SwingRight.On (0, 1, axis 2), NinjaRope.SwingRight.Off (0, 0, axis 2). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

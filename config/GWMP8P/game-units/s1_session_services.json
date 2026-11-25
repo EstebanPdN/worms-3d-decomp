@@ -1,0 +1,15 @@
+{
+  "unit": "s1_session_services",
+  "source": "source/matching/game/s1_session_services.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8006d4cc": "0x8006d4cc",
+    "w3d_fn_8006d550": "0x8006d550",
+    "w3d_fn_8006df98": "0x8006df98"
+  },
+  "descriptions": {
+    "w3d_fn_8006d4cc": "Creates a session owner when absent and creates a requested service using its identifier.",
+    "w3d_fn_8006d550": "Posts completion, marks the context, finishes a looked-up service, updates shared slots, and notifies sound.",
+    "w3d_fn_8006df98": "Applies two original sound tables through the current sound manager."
+  }
+}

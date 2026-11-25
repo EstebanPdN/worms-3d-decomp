@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_panel_ctor_8029dd4c",
+  "source": "source/matching/game/d26l/d26l_panel_ctor_8029dd4c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_panel_ctor_8029dd4c": "0x8029dd4c"
+  },
+  "descriptions": {
+    "d26l_panel_ctor_8029dd4c": "Runs the two base constructors, installs vtables 0x8041c2b0 at +208 and 0x8041c300 at +0, clears +220, a two-element word array at +224, words +260..+332, the vector-shaped member at +336 and constructs +352 through 0x802109dc. Clears the three-word member at +364, the words +272, +276, +288, +304, +376, +216 and +256, the two three-word arrays at +232 and +244, sets +380 and +384 to 0.0, and returns the object."
+  }
+}

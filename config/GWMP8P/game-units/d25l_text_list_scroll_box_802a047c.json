@@ -1,0 +1,14 @@
+{
+  "unit": "d25l_text_list_scroll_box_802a047c",
+  "source": "source/matching/game/d25l/d25l_text_list_scroll_box_802a047c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25l_text_list_scroll_box_802a047c": "0x802a047c"
+  },
+  "descriptions": {
+    "d25l_text_list_scroll_box_802a047c": "Removes the box through 0x802a0664 when the data at +40 has no value at +128. Otherwise creates the box at +376 when missing (class record 0x8041c220, registered through 0x80164514, then attributes, size and position from +20, +28, +32, +112, +140, +176 and +316). Then divides twice the visible range by the text size from 0x802b1880, splits it with floor 0x802e87d4 and passes the result to 0x80296378."
+  }
+}

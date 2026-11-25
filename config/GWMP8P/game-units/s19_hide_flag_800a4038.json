@@ -1,0 +1,11 @@
+{
+  "unit": "s19_hide_flag_800a4038",
+  "source": "source/matching/game/s19/s19_hide_flag_800a4038.cpp",
+  "language": "cpp",
+  "functions": {
+    "s19_hide_when_flagged_800a4038": "0x800a4038"
+  },
+  "descriptions": {
+    "s19_hide_when_flagged_800a4038": "Appears to hold the converted owner interface, hide the target when the query on it succeeds and release the interface before returning zero."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "k8c_panel_reset_8026ec30",
+  "source": "source/matching/game/k8c/k8c_panel_reset_8026ec30.c",
+  "language": "c",
+  "functions": {
+    "w3d_k8c_panel_reset_8026ec30": "0x8026ec30",
+    "w3d_k8c_panel_destroy_80270698": "0x80270698"
+  },
+  "descriptions": {
+    "w3d_k8c_panel_reset_8026ec30": "Appears to release the held interface at +212 and the handle at +288, clear both, rerun the base setup and reset the body at +28.",
+    "w3d_k8c_panel_destroy_80270698": "Appears to restore two vtables, release the held interface at +212, destroy the body at +28 and run the base destructor with the flags."
+  }
+}

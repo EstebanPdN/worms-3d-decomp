@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_rope_hooks_bind_800ccaf8",
+  "source": "source/matching/game/k5a/k5a_rope_hooks_bind_800ccaf8.cpp",
+  "language": "cpp",
+  "functions": {"k5a_rope_hooks_bind_800ccaf8": "0x800ccaf8"},
+  "descriptions": {"k5a_rope_hooks_bind_800ccaf8": "Appears to bind the rope hook and gun handles by name, subscribe to two messages and post a targeted message."}
+}

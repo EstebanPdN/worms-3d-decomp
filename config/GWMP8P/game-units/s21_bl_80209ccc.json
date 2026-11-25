@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bl_80209ccc",
+  "source": "source/matching/game/s21/s21_bl_80209ccc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_80209ccc": "0x80209ccc"
+  },
+  "descriptions": {
+    "w3d_s21_construct_80209ccc": "Appears to construct an object holding a global handle value, then notify a helper with it and return the object."
+  }
+}

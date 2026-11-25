@@ -1,0 +1,14 @@
+{
+  "unit": "cx11a_random_vector_800dd424",
+  "source": "source/matching/game/cx11a/cx11a_random_vector_800dd424.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_random_vector_800dd424": "0x800dd424"
+  },
+  "descriptions": {
+    "w3d_cx11a_random_vector_800dd424": "Randomizes three observed vector components through independent optional external/LCG samples, with optional unit conversion or vector scaling. Names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

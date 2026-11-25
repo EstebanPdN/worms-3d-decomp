@@ -1,0 +1,11 @@
+{
+  "unit": "d28g_hud_input_state_step_8006551c",
+  "source": "source/matching/game/d28g/d28g_hud_input_state_step_8006551c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28g_hud_input_state_step_8006551c": "0x8006551c"
+  },
+  "descriptions": {
+    "w3d_d28g_hud_input_state_step_8006551c": "Per-frame step of a four-stage state machine: restamps when the resource at +92 is active with a kind other than 10, sets the flag at +116 when the time argument passes the +96 value plus +120, resets to state 0 when either handle at +100 or +104 reports nonzero, then advances the state at +108 by its step callback."
+  }
+}

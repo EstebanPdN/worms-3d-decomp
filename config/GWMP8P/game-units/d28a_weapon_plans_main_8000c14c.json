@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_weapon_plans_main_8000c14c",
+  "source": "source/matching/game/d28a/d28a_weapon_plans_main_8000c14c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_weapon_plans_main_8000c14c": "0x8000c14c"
+  },
+  "descriptions": {
+    "w3d_d28a_weapon_plans_main_8000c14c": "Pushes weapon plan clones around a temporary target refresh and restore."
+  }
+}

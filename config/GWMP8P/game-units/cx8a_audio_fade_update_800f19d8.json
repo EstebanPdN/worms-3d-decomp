@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_audio_fade_update_800f19d8",
+  "source": "source/matching/game/cx8a/cx8a_audio_fade_update_800f19d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_audio_fade_update_800f19d8": "0x800f19d8"
+  },
+  "descriptions": {
+    "w3d_cx8a_audio_fade_update_800f19d8": "Prepare and advance the two-channel audio fade; when fading reaches the shared stop threshold, stop both interfaces at slot +0x18 and expire the owner."
+  }
+}

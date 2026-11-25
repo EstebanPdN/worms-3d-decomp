@@ -1,0 +1,14 @@
+{
+  "unit": "cc23a_planner_distance_penalty_8000b5f4",
+  "source": "source/matching/game/cc23a/cc23a_planner_distance_penalty_8000b5f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_planner_distance_penalty_8000b5f4": "0x8000b5f4"
+  },
+  "descriptions": {
+    "cc23a_planner_distance_penalty_8000b5f4": "Compute distance scale via observed vector delta/root and guarded range division with lower clamp. Original float operations and16-byte additional stack reservation retained; reservation purpose unknown."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "s5_projectile_events",
+  "source": "source/matching/game/s5_projectile_events.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_projectile_tick_800d5c68": "0x800d5c68",
+    "w3d_projectile_update_bounds_800d60ac": "0x800d60ac",
+    "w3d_projectile_place_ground_800d5ff0": "0x800d5ff0",
+    "w3d_projectile_effect_800d673c": "0x800d673c",
+    "w3d_projectile_post_owner_slot_800d6788": "0x800d6788"
+  },
+  "descriptions": {
+    "w3d_projectile_tick_800d5c68": "Advances projectile motion and delayed activation, then releases completed effects and returns a 20-tick interval.",
+    "w3d_projectile_update_bounds_800d60ac": "Raises the projectile position by a fixed radius and updates the actor handle bounds.",
+    "w3d_projectile_place_ground_800d5ff0": "Traces toward the ground, copies the hit position and owner data, and updates projectile bounds.",
+    "w3d_projectile_effect_800d673c": "Spawns the petrol-bomb effect once at the projectile position.",
+    "w3d_projectile_post_owner_slot_800d6788": "Posts the projectile owner and slot pair and reports whether the shared event state is clear."
+  }
+}

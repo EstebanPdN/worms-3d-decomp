@@ -1,0 +1,17 @@
+{
+  "unit": "s20_small_r",
+  "source": "source/matching/game/s20/s20_small_r.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_enable_slot_flag_8016c014": "0x8016c014",
+    "w3d_s20_forward_owner_801750f4": "0x801750f4",
+    "w3d_s20_get_float_80176a44": "0x80176a44",
+    "w3d_s20_check_lua_function_8019f838": "0x8019f838"
+  },
+  "descriptions": {
+    "w3d_s20_enable_slot_flag_8016c014": "Appears to mark a slot as enabled once, clearing a field and calling a render helper the first time.",
+    "w3d_s20_forward_owner_801750f4": "Appears to forward a field of the owner's record and the item to two owner helpers and return zero.",
+    "w3d_s20_get_float_80176a44": "Appears to look up a slot for a key and store a float derived from its table entry, returning 0x80004005 when not found.",
+    "w3d_s20_check_lua_function_8019f838": "Appears to fetch the table value for the argument at index 2 and return 1 when it is a C function, otherwise the result of an error helper."
+  }
+}

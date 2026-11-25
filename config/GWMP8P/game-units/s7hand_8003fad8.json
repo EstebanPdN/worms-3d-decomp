@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8003fad8",
+  "source": "source/matching/game/s7/s7hand_8003fad8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003fad8": "0x8003fad8"
+  },
+  "descriptions": {
+    "w3d_auto_8003fad8": "Sets the float at +0xc of a 32-byte table entry selected by index, then updates the indexed resource."
+  }
+}

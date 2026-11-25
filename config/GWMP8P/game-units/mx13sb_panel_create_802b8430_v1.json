@@ -1,0 +1,11 @@
+{
+  "unit": "mx13sb_panel_create_802b8430_v1",
+  "source": "source/matching/game/mx13sb/mx13sb_panel_create_802b8430_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx13sb_panel_create_802b8430": "0x802b8430"
+  },
+  "descriptions": {
+    "mx13sb_panel_create_802b8430": "Creates the missing retained-interface panel, attaches and configures its position, layer and child values, updates the optional companion box, and marks the panel dirty. External layouts remain borrowed GameCube ABI views."
+  }
+}

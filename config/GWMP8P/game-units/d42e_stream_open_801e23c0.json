@@ -1,0 +1,11 @@
+{
+  "unit": "d42e_stream_open_801e23c0",
+  "source": "source/matching/game/d42e/d42e_stream_open_801e23c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42e_stream_open_801e23c0": "0x801e23c0"
+  },
+  "descriptions": {
+    "w3d_d42e_stream_open_801e23c0": "Opens a streamed asset from a descriptor: copies the name, file and playback settings, then opens the file with its two channel suffixes, falling back to the plain file name, and records how many channels opened."
+  }
+}

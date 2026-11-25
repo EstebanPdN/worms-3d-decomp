@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_cached_interface_find_801b36f8",
+  "source": "source/matching/game/cx16b/cx16b_cached_interface_find_801b36f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_cached_interface_find_801b36f8": "0x801b36f8"
+  },
+  "descriptions": {
+    "w3d_cx16b_cached_interface_find_801b36f8": "Returns a cached interface or queries and caches the fallback result, using the original success-first fallback branch layout and preserving both observed failure codes."
+  }
+}

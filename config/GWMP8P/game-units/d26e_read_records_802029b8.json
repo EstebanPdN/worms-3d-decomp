@@ -1,0 +1,11 @@
+{
+  "unit": "d26e_read_records_802029b8",
+  "source": "source/matching/game/d26e/d26e_read_records_802029b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_read_records_802029b8": "0x802029b8"
+  },
+  "descriptions": {
+    "w3d_d26e_read_records_802029b8": "Reads the record table of a chunk reader: resizes the 64-byte record vector at +124 to the count at +84 (vector erase with an empty copy loop and a destroy loop, or fill insert), reads count*64 bytes through stream virtual slot 5 and byte-swaps fields a, b, c and d of each record. Field names are inferred from the original instructions."
+  }
+}

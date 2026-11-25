@@ -1,0 +1,15 @@
+{
+  "unit": "d26d_worm_trace_corners_801412a4",
+  "source": "source/matching/game/d26d/d26d_worm_trace_corners_801412a4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26d_worm_trace_corners_801412a4": "0x801412a4"
+  },
+  "descriptions": {
+    "d26d_worm_trace_corners_801412a4": "Trace the worm collision centre and ten corners, recording the nearest accepted hit."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dl_802112f8",
+  "source": "source/matching/game/s21/s21_dl_802112f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_set_text_then_copy_802112f8": "0x802112f8"
+  },
+  "descriptions": {
+    "w3d_s21_set_text_then_copy_802112f8": "Appears to assign the string pointer into the field at offset 24 with reference-count adjustment, then build and discard a temporary copy, returning zero."
+  }
+}

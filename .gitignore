@@ -1,0 +1,7 @@
+/port/build/
+/gamedata/
+__pycache__/
+.DS_Store
+/port/docs-data/lift-census.json
+/port/docs-data/link-report.json
+/port/docs-data/short-strings.json

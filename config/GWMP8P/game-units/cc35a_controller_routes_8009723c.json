@@ -1,0 +1,11 @@
+{
+  "unit": "cc35a_controller_routes_8009723c",
+  "source": "source/matching/game/cc35a/cc35a_controller_routes_8009723c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc35a_controller_routes_8009723c": "0x8009723c"
+  },
+  "descriptions": {
+    "cc35a_controller_routes_8009723c": "Dispatch eight cached controller messages through handle lookup and route activation, propagate two property values and preserve weapon-kind gate and flag updates; inferred names."
+  }
+}

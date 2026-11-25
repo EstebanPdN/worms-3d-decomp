@@ -1,0 +1,17 @@
+{
+ "unit": "cc17d_choice_edit_8027a6e4",
+ "source": "source/matching/game/cc17d/cc17d_choice_edit_8027a6e4.c",
+ "language": "c",
+ "functions": {
+  "w3d_cc17d_choice6_edit_8027a0cc": "0x8027a0cc",
+  "w3d_cc17d_choice9_edit_8027a348": "0x8027a348",
+  "w3d_cc17d_choice6b_edit_8027a568": "0x8027a568",
+  "w3d_cc17d_choice4_edit_8027a6e4": "0x8027a6e4"
+ },
+ "descriptions": {
+  "w3d_cc17d_choice6_edit_8027a0cc": "Six-value choice editor: for the characters '0'..'5' stores the digit's value into the int field located at the offset 0x801e9db8 returns for the editor's key (+96) in the type of the edited object (+92, vtable slot +20); then calls 0x8027ae00 and 0x8027a98c with the editor.",
+  "w3d_cc17d_choice9_edit_8027a348": "Nine-value choice editor: for the characters '0'..'8' stores the digit's value into the int field located at the offset 0x801e9db8 returns for the editor's key (+96) in the type of the edited object (+92, vtable slot +20); then calls 0x8027ae00 and 0x8027a98c with the editor.",
+  "w3d_cc17d_choice6b_edit_8027a568": "Six-value choice editor (second instance): for the characters '0'..'5' stores the digit's value into the int field located at the offset 0x801e9db8 returns for the editor's key (+96) in the type of the edited object (+92, vtable slot +20); then calls 0x8027ae00 and 0x8027a98c with the editor.",
+  "w3d_cc17d_choice4_edit_8027a6e4": "Four-value choice editor: for the characters '0'..'3' stores the digit's value into the int field located at the offset 0x801e9db8 returns for the editor's key (+96) in the type of the edited object (+92, vtable slot +20); then calls 0x8027ae00 and 0x8027a98c with the editor."
+ }
+}

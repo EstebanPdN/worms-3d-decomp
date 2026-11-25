@@ -1,0 +1,17 @@
+{
+  "unit": "d29d_worm_setup_80146fb8",
+  "source": "source/matching/game/d29d/d29d_worm_setup_80146fb8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29d"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d29d_worm_setup_80146fb8": "0x80146fb8"
+  },
+  "descriptions": {
+    "d29d_worm_setup_80146fb8": "Worm logic entity setup: binds DeadWorm.Id, Water.Level, DamageGraphic, gravity, walk and collision properties, once per run also the shared Worm.Jump, Hop and MaxSlope properties, subscribes about sixty cached message ids to its handler fields, posts a created message, queries the entity record; a record flag creates the third link and posts a message; copies the position and orientation, teleports or targets, resets the vector and sixteen -1 slots, and copies the hit points to a field."
+  }
+}

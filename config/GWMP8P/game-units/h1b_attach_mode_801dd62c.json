@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_attach_mode_801dd62c",
+  "source": "source/matching/game/h1b/h1b_attach_mode_801dd62c.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_attach_mode_801dd62c": "0x801dd62c"
+  },
+  "descriptions": {
+    "h1b_attach_mode_801dd62c": "Obtains one held interface via owner slot92, rejects lookup or state-slot40 failure with80004005, clears the held result on state failure, sets mode3 via slot56, invokes slot20 and appends a retained reference to compact list76 before releasing the local holder. Four-byte local holder observed at stack8; all other objects are partial external views. GC32 integer-byte-offset append API follows original indexed operands and is not a portable ABI claim."
+  }
+}

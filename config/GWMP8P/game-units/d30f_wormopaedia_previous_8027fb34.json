@@ -1,0 +1,15 @@
+{
+  "unit": "d30f_wormopaedia_previous_8027fb34",
+  "source": "source/matching/game/d30f/d30f_wormopaedia_previous_8027fb34.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30f_wormopaedia_previous_8027fb34": "0x8027fb34"
+  },
+  "descriptions": {
+    "d30f_wormopaedia_previous_8027fb34": "Move the Wormopaedia page index back to the previous entry that passes the filter, store it in the property and refresh the page."
+  }
+}

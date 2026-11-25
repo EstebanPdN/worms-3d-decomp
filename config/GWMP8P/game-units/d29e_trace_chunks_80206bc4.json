@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_trace_chunks_80206bc4",
+  "source": "source/matching/game/d29e/d29e_trace_chunks_80206bc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_trace_chunks_80206bc4": "0x80206bc4"
+  },
+  "descriptions": {
+    "w3d_d29e_trace_chunks_80206bc4": "When tracing is enabled (0x804ab9a4), reports the length through out if given and prints the text: directly if null-terminated, otherwise in terminated chunks of at most 255 bytes through a 256-byte stack buffer. Returns 0. Names are inferred."
+  }
+}

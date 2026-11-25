@@ -1,0 +1,11 @@
+{
+  "unit": "k1d_a_8018b260",
+  "source": "source/matching/game/k1d/k1d_a_8018b260.c",
+  "language": "c",
+  "functions": {
+    "w3d_k1d_lookup_entry_8018b260": "0x8018b260"
+  },
+  "descriptions": {
+    "w3d_k1d_lookup_entry_8018b260": "Appears to binary-search a table of six-byte entries by a 16-bit key and return the entry value or zero."
+  }
+}

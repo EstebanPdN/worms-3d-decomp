@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_actor_pull_toward_800dfe84",
+  "source": "source/matching/game/d27c/d27c_actor_pull_toward_800dfe84.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_actor_pull_toward_800dfe84": "0x800dfe84"
+  },
+  "descriptions": {
+    "d27c_actor_pull_toward_800dfe84": "Accumulate a time-weighted pull from an actor toward a target position while its fade window lasts."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_gc_802021dc",
+  "source": "source/matching/game/s21/s21_gc_802021dc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_u32_array_checked_802021dc": "0x802021dc"
+  },
+  "descriptions": {
+    "w3d_s21_read_u32_array_checked_802021dc": "Appears to read an array of 32-bit words from the inner stream and byte-swap each in place, stopping on a negative status, or skip the bytes when no buffer is given, returning zero on success."
+  }
+}

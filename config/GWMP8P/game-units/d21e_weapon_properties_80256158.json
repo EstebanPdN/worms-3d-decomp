@@ -1,0 +1,14 @@
+{
+  "unit": "d21e_weapon_properties_80256158",
+  "source": "source/matching/game/d21e/d21e_weapon_properties_80256158.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d21e_register_weapon_properties_80256158": "0x80256158"
+  },
+  "descriptions": {
+    "w3d_d21e_register_weapon_properties_80256158": "Registers IsAimedWeapon (0x801eb674); registers IsAffectedByGravity (0x801eb674); registers IsAffectedByWind (0x801eb674); registers bCanDamageLand (0x801eb674); registers bCanMoveBetweenShots (0x801eb674); registers ImpulseIsNormal (0x801eb674); registers DamageIsPercentage (0x801eb674); registers LaserEffect (0x801eb674); registers RetreatTimeOverride (0x801ebf38); registers NumberOfBullets (0x801ebf38); registers DischargeTime (0x801ebf38); registers Range (0x801ebf38); registers WaitForSoundDelay (0x801ebf38); registers Accuracy (0x801ec52c); registers WormDamageMagnitude (0x801ec52c); registers WormPoisonMagnitude (0x801ec52c); registers LandDamageMagnitude (0x801ec52c); registers ImpulseMagnitude (0x801ec52c); registers BulletRadius (0x801ec52c); registers MinAimAngle (0x801ec52c); registers MaxAimAngle (0x801ec52c); registers WormDamageRadius (0x801ec52c); registers LandDamageRadius (0x801ec52c); registers ImpulseRadius (0x801ec52c); registers LogicalLaunchYOffset (0x801ec52c); resets the DischargeFX string binding (0x801ed24c) to the shared empty string; resets the DischargeEndFX string binding (0x801ed24c) to the shared empty string; resets the SecondaryDischargeFX string binding (0x801ed24c) to the shared empty string; resets the SecondaryDischargeFXLocator string binding (0x801ed24c) to the shared empty string; resets the DischargeSoundFX string binding (0x801ed24c) to the shared empty string; resets the DischargeEndSoundFX string binding (0x801ed24c) to the shared empty string; resets the WormCollisionFX string binding (0x801ed24c) to the shared empty string; resets the LandCollisionFX string binding (0x801ed24c) to the shared empty string; resets the WaterCollisionFX string binding (0x801ed24c) to the shared empty string; creates the LogicalPositionOffset vector binding (0x801f0210) reset to 0.0f; creates the ImpulseDirection vector binding (0x801f0210) reset to 0.0f; registers DischargeFXZOffset (0x801ec52c); registers KickSize (0x801ec52c); registers KickFrequency (0x801ebf38); calls the refresh routine 0x801e8d9c and returns 0. Vector resets use 0x803c8d74 (0.0f)."
+  }
+}

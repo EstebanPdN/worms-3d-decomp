@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_console_help_8004fda4",
+  "source": "source/matching/game/d24g/d24g_console_help_8004fda4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_console_help_8004fda4": "0x8004fda4"
+  },
+  "descriptions": {
+    "w3d_d24g_console_help_8004fda4": "Debug options console help: clears and resets the sink at +28 (0x802cd14c, 0x802cd07c), appends every line of the null-terminated help table 0x803f3f7c to a temporary text with colour 7, writes it to the sink with colour 9, and zeroes +32 and +36."
+  }
+}

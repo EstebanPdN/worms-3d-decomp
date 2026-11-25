@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_trigger_zone_start_80125108",
+  "source": "source/matching/game/d25i/d25i_trigger_zone_start_80125108.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_trigger_zone_start_80125108": "0x80125108"
+  },
+  "descriptions": {
+    "d25i_trigger_zone_start_80125108": "Trigger zone start: subscribes two cached messages to +92 and +96; finds the spawn point named by Trigger.Spawn; reads Trigger.Index, Radius, HitPoints, TeamCollect, WormCollect, TeamDestroy, SheepCollect, AffectsAI and PayloadCollect; sets +84 when Trigger.GirderCollect is nonzero; resolves ActiveWormIndex into +108; resets an invalid radius to 1.0f and invalid hit points to 1 after posting the error texts; posts a created message for the id +20 when Trigger.Visibility is 1; then sets the handle member +100 slot word 64, the filter flags, the id, the position +28 and the radius."
+  }
+}

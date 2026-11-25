@@ -1,0 +1,14 @@
+{
+  "unit": "cx11a_planar_basis_800d9b70",
+  "source": "source/matching/game/cx11a/cx11a_planar_basis_800d9b70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_planar_basis_800d9b70": "0x800d9b70"
+  },
+  "descriptions": {
+    "w3d_cx11a_planar_basis_800d9b70": "Computes an observed vector perpendicular to a direction using planar length, with a unit-axis fallback. Names inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

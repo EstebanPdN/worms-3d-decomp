@@ -1,0 +1,11 @@
+{
+  "unit": "h2c_box_events_80294a60_v2",
+  "source": "source/matching/game/h2c/h2c_box_events_80294a60_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_h2c_box_events_80294a60": "0x80294a60"
+  },
+  "descriptions": {
+    "w3d_h2c_box_events_80294a60": "Routes scrollbar initialization, teardown, dragging, hit regions, pointer release, single-step and page-step messages; clamps drag values and updates the engine capture flag. Owner/message layouts are borrowed views; position return storage is three floats."
+  }
+}

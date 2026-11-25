@@ -1,0 +1,11 @@
+{
+  "unit": "s21_au_80201494",
+  "source": "source/matching/game/s21/s21_au_80201494.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_u16_inplace_80201494": "0x80201494"
+  },
+  "descriptions": {
+    "w3d_s21_read_u16_inplace_80201494": "Appears to read two bytes from the inner stream directly into the output halfword and byte-swap it in place."
+  }
+}

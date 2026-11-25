@@ -1,0 +1,18 @@
+{
+  "unit": "d35f_card_screen_update_80288564",
+  "source": "source/matching/game/d35f/d35f_card_screen_update_80288564.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d35f"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d35f_card_screen_update_80288564": "0x80288564"
+  },
+  "descriptions": {
+    "d35f_card_screen_update_80288564": "Per-frame update of the memory card screen: fade-in and fade-out of the panel and text box alpha, then the idle state's pulse, slot display and card guide stepping; returns 20."
+  }
+}

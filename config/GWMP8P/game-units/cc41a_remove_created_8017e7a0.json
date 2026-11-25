@@ -1,0 +1,11 @@
+{
+  "unit": "cc41a_remove_created_8017e7a0",
+  "source": "source/matching/game/cc41a/cc41a_remove_created_8017e7a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc41a_remove_created_8017e7a0": "0x8017e7a0"
+  },
+  "descriptions": {
+    "cc41a_remove_created_8017e7a0": "Configure the stored factory from a byte-keyed definition, reject a null result, query the result again, find its index in the record table, and remove one interface at that index without changing the original ignored search-status behavior."
+  }
+}

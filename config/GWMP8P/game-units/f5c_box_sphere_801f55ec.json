@@ -1,0 +1,14 @@
+{
+  "unit": "f5c_box_sphere_801f55ec",
+  "source": "source/matching/game/f5c/f5c_box_sphere_801f55ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5c_box_sphere_801f55ec": "0x801f55ec"
+  },
+  "descriptions": {
+    "f5c_box_sphere_801f55ec": "Form a sphere center from the sum of two observed vectors scaled by a witnessed float, and a radius from their difference length; write the witnessed invalid radius when the first bound exceeds the second. Names, vector and bound types inferred. Additional eight-byte frame reservation has unknown purpose."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d30l_fruit_machine_action_802aaa8c",
+  "source": "source/matching/game/d30l/d30l_fruit_machine_action_802aaa8c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30l_fruit_machine_action_802aaa8c": "0x802aaa8c"
+  },
+  "descriptions": {
+    "d30l_fruit_machine_action_802aaa8c": "Applies the selected fruit-machine menu action: nudges a reel or starts the three reels with random stop times."
+  }
+}

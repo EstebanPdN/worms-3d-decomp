@@ -1,0 +1,15 @@
+{
+  "unit": "autof_8013e744",
+  "source": "source/matching/game/auto/autof_8013e744.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8013e744": "0x8013e744",
+    "w3d_auto_8013ef98": "0x8013ef98",
+    "w3d_auto_8013efe8": "0x8013efe8"
+  },
+  "descriptions": {
+    "w3d_auto_8013e744": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8013ef98": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8013efe8": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review."
+  }
+}

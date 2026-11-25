@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_weapon_list_fill_8010fd08",
+  "source": "source/matching/game/d25i/d25i_weapon_list_fill_8010fd08.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_weapon_list_fill_8010fd08": "0x8010fd08"
+  },
+  "descriptions": {
+    "d25i_weapon_list_fill_8010fd08": "Fill a settings list: resolves the list object from the table at +60 (0x80341584, 0x80179598), begins it (0x801ef380) and empties its value array, creates the label table (class 0x80419e68), iterates the settings (0x800fc69c), and for each kind 5 setting whose definition is of type 0x803667a8 with group +44 equal to 2 grows both arrays by one, stores the shared text +72 in the label slot, assigns the setting name to the value slot and, when 0x800fc2b0 resolves the text as a key, assigns the result to the label. Attaches the table to the list (0x801ef174)."
+  }
+}

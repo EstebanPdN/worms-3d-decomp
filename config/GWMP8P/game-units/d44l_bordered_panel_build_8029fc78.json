@@ -1,0 +1,14 @@
+{
+  "unit": "d44l_bordered_panel_build_8029fc78",
+  "source": "source/matching/game/d44l/d44l_bordered_panel_build_8029fc78.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d44l_bordered_panel_build_8029fc78": "0x8029fc78"
+  },
+  "descriptions": {
+    "d44l_bordered_panel_build_8029fc78": "Builds a framed panel: loads and attaches two border sprites, sizes and positions them, creates its child boxes and scroll parts on demand and sets their visibility from the panel's mode."
+  }
+}

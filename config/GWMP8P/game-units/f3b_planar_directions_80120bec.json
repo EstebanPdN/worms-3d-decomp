@@ -1,0 +1,11 @@
+{
+  "unit": "f3b_planar_directions_80120bec",
+  "source": "source/matching/game/f3b/f3b_planar_directions_80120bec.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3b_planar_directions_80120bec": "0x80120bec"
+  },
+  "descriptions": {
+    "f3b_planar_directions_80120bec": "Clear the middle components of two input vectors. For each, copy and normalize it when its squared length is positive. Otherwise copy the fallback vector for the first output and the first output for the second. Planar-direction roles are inferred."
+  }
+}

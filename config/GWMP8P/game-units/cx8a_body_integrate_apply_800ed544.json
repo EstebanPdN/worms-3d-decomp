@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_body_integrate_apply_800ed544",
+  "source": "source/matching/game/cx8a/cx8a_body_integrate_apply_800ed544.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_body_integrate_apply_800ed544": "0x800ed544"
+  },
+  "descriptions": {
+    "w3d_cx8a_body_integrate_apply_800ed544": "Integrate body position +0x24 from velocity +0x30 and shared timestep; apply the new position through unresolved helper 0x800eac84."
+  }
+}

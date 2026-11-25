@@ -1,0 +1,11 @@
+{
+  "unit": "s21_n_801e7174",
+  "source": "source/matching/game/s21/s21_n_801e7174.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_801e7174": "0x801e7174"
+  },
+  "descriptions": {
+    "w3d_s21_construct_801e7174": "Appears to construct an object with a base constructor, two vtable pointers and two zeroed three-word members."
+  }
+}

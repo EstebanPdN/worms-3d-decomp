@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_binary_name_find",
+  "source": "source/matching/game/cx9c/cx9c_binary_name_find.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_binary_name_find_80347194": "0x80347194"
+  },
+  "descriptions": {
+    "w3d_cx9c_binary_name_find_80347194": "Inferred bounded binary string-pointer search with reverse comparator."
+  }
+}

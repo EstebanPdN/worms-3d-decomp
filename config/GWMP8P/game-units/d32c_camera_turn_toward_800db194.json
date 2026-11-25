@@ -1,0 +1,14 @@
+{
+  "unit": "d32c_camera_turn_toward_800db194",
+  "source": "source/matching/game/d32c/d32c_camera_turn_toward_800db194.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d32c_camera_turn_toward_800db194": "0x800db194"
+  },
+  "descriptions": {
+    "d32c_camera_turn_toward_800db194": "Steps the actor's yaw towards the camera-relative input direction by at most 0.02 radians per call."
+  }
+}

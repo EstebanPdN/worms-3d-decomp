@@ -1,0 +1,11 @@
+{
+  "unit": "sol30a_payload_clear_800ea530",
+  "source": "source/matching/game/sol30a/sol30a_payload_clear_800ea530.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol30a_payload_clear_800ea530": "0x800ea530"
+  },
+  "descriptions": {
+    "sol30a_payload_clear_800ea530": "Detaches the payload effect, publishes its deleted ID, deletes handles at +252 and +256, erases the byte range beginning at +260 and releases the held interface at +100. Nonexact draft: shared-zero register lifetime remains unresolved."
+  }
+}

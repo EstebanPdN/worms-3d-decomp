@@ -1,0 +1,11 @@
+{
+  "unit": "s21_h_801ee0e0",
+  "source": "source/matching/game/s21/s21_h_801ee0e0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_table_find_801ee0e0": "0x801ee0e0"
+  },
+  "descriptions": {
+    "w3d_s21_table_find_801ee0e0": "Appears to search a counted table for a value, store its index and return zero, or return the failure status 0x80004005."
+  }
+}

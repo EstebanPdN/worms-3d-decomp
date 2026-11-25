@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_box_hierarchy_mask_800bd53c",
+  "source": "source/matching/game/g1c/g1c_box_hierarchy_mask_800bd53c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_box_hierarchy_mask_800bd53c": "0x800bd53c"
+  },
+  "descriptions": {
+    "g1c_box_hierarchy_mask_800bd53c": "Traverse original32-byte external box hierarchy nodes. Compare both vector differences to the supplied margin; reject a node by advancing its witnessed subtree skip and emitting one zero bit for every witnessed leaf, or descend/emit a set bit for accepted leaves. Flush32-bit masks at wrap and the final word into externally supplied receiver storage beginning128. Native three-float subtraction temporaries are complete types. Receiver/node storage is external, with no constructed owner, guessed output-array extent, or owned data."
+  }
+}

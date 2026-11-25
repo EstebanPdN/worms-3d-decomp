@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_8009c5e8",
+  "source": "source/matching/game/s8contextfix_8009c5e8.c",
+  "language": "c",
+  "functions": {
+    "s8_stop_and_post_8009c5e8": "0x8009c5e8"
+  },
+  "descriptions": {
+    "s8_stop_and_post_8009c5e8": "Posts conditional object messages, runs a cleanup hook and stops two optional handles with operation code three before clearing them."
+  }
+}

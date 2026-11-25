@@ -1,0 +1,17 @@
+{
+  "unit": "d32k_string_table_insert_8020cc90",
+  "source": "source/matching/game/d32k/d32k_string_table_insert_8020cc90.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "Insert__15D32kStringTableRC7D32kStrUs": "0x8020cc90"
+  },
+  "descriptions": {
+    "Insert__15D32kStringTableRC7D32kStrUs": "Hashes the name (hash times 33, xor byte, seed 5381). Walks the bucket's index chain; an existing name has its value replaced and returns 0. A missing name is appended to the entry vector, linked from the bucket or chain tail, and returns 1 when the bucket was empty."
+  }
+}

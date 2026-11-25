@@ -1,0 +1,11 @@
+{
+  "unit": "f11c_tree_find_801d295c",
+  "source": "source/matching/game/f11c/f11c_tree_find_801d295c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f11c_tree_find_801d295c": "0x801d295c"
+  },
+  "descriptions": {
+    "f11c_tree_find_801d295c": "Find an observed unsigned-key/interface-pointer pair in the original ordered tree. Construct a real local8-byte key whose held interface is retained on assignment and released at scope exit; walk the root/left/right links using unsigned lexicographic key and pointer order, validate the lower-bound candidate, use the original header on failure, and copy the resulting native iterator to the caller output. The separate iterator and shared not-found return boundary reproduce the original stack lifetime and assignment. The unused second argument is preserved for the original ABI. Interface,24-byte node, key and tree layouts are partial observed views; names, ownership roles and comparator semantics are inferred, and no complete external class size or constructor implementation is claimed."
+  }
+}

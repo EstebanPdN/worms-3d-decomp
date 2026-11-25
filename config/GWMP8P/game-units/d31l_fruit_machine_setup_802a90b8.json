@@ -1,0 +1,14 @@
+{
+  "unit": "d31l_fruit_machine_setup_802a90b8",
+  "source": "source/matching/game/d31l/d31l_fruit_machine_setup_802a90b8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31l_fruit_machine_setup_802a90b8": "0x802a90b8"
+  },
+  "descriptions": {
+    "d31l_fruit_machine_setup_802a90b8": "Sets up the Wormpot fruit machine: reads its game data, loads the machine and reel models, plays the intro, fills the button and reel slot table and binds the sounds."
+  }
+}

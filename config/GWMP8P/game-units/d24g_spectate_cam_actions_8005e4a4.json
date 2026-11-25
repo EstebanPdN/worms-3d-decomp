@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_spectate_cam_actions_8005e4a4",
+  "source": "source/matching/game/d24g/d24g_spectate_cam_actions_8005e4a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_spectate_cam_actions_8005e4a4": "0x8005e4a4"
+  },
+  "descriptions": {
+    "w3d_d24g_spectate_cam_actions_8005e4a4": "Appends input actions to the owner's pointer vector at +36: SpectateCam.RotateLeftPressed (3, 1, axis 1), SpectateCam.RotateLeftReleased (3, 0, axis 1), SpectateCam.RotateRightPressed (3, 1, axis 2), SpectateCam.RotateRightReleased (3, 0, axis 2), SpectateCam.RotateDownPressed (4, 1, axis 1), SpectateCam.RotateDownReleased (4, 0, axis 1), SpectateCam.RotateUpPressed (4, 1, axis 2), SpectateCam.RotateUpReleased (4, 0, axis 2), SpectateCam.ForwardPressed (1, 1, axis 2), SpectateCam.ForwardReleased (1, 0, axis 2), SpectateCam.BackPressed (1, 1, axis 1), SpectateCam.BackReleased (1, 0, axis 1), SpectateCam.LeftPressed (0, 1, axis 1), SpectateCam.LeftReleased (0, 0, axis 1), SpectateCam.RightPressed (0, 1, axis 2), SpectateCam.RightReleased (0, 0, axis 2), SpectateCam.BlimpViewPressed (6, 1), SpectateCam.BlimpViewReleased (6, 0), Crate.LooseChute (8, 1), SpectateCam.AppPause (12, 0). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_energy_hud_start_800656b4",
+  "source": "source/matching/game/d24a/d24a_energy_hud_start_800656b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_energy_hud_start_800656b4": "0x800656b4"
+  },
+  "descriptions": {
+    "w3d_d24a_energy_hud_start_800656b4": "Creates four parts of type 0x8040edb0 into +28..+40 and initialises each looked-up object with its index (0x80064190, 0x80064384); reads ActiveWormIndex into +44; loads five resources into +88..+104 through one handle with retain/release; subscribes to ten cached messages with slots +48..+84; runs 0x80065ce0 and 0x800664c4."
+  }
+}

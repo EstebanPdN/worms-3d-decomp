@@ -1,0 +1,17 @@
+{
+  "unit": "d27d_worm_probe_ground_normal_80152a80",
+  "source": "source/matching/game/d27d/d27d_worm_probe_ground_normal_80152a80.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27d_worm_probe_ground_normal_80152a80": "0x80152a80"
+  },
+  "descriptions": {
+    "d27d_worm_probe_ground_normal_80152a80": "Trace four probes around a worm and return the most upward ground normal."
+  }
+}

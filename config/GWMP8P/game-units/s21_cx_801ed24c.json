@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cx_801ed24c",
+  "source": "source/matching/game/s21/s21_cx_801ed24c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_entry_801ed24c": "0x801ed24c"
+  },
+  "descriptions": {
+    "w3d_s21_create_entry_801ed24c": "Appears to create a 28-byte entry, initialize it from a source descriptor, copy two eight-byte callback pairs into it and append it to the container, returning the entry."
+  }
+}

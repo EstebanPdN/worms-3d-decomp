@@ -1,0 +1,11 @@
+{
+  "unit": "mx21ob_font_widget_8022240c",
+  "source": "source/matching/game/mx21ob/mx21ob_font_widget_8022240c.cpp",
+  "language": "cpp",
+  "functions": {
+    "__16Mx21obFontWidgetUs": "0x8022240c"
+  },
+  "descriptions": {
+    "__16Mx21obFontWidgetUs": "Constructs a font-bearing widget: runs the widget base constructor 0x8021ef08 with the caller's 16-bit id, installs the table 0x8041a488, sets the four bytes at +116 to 0xff through an inline constructor, the float at +120 to 0.0f (pooled literal 0x803b6c9c), +124 to 4 and +128 to 1, copy-constructs the strings at +132 and +136 from the shared empty string 0x804b06a0, builds +140 from the shared \"FE.Font\" text 0x803b6408 through 0x8020bb54 and clears the ints at +144, +148, +152, in member order. Names, the colour and font meanings are inferred; offsets are observed."
+  }
+}

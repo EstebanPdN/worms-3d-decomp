@@ -1,0 +1,7 @@
+{
+  "unit": "k1e_retreat_props_8010dce8",
+  "source": "source/matching/game/k1e/k1e_retreat_props_8010dce8.c",
+  "language": "c",
+  "functions": {"w3d_k1e_retreat_reset_8010dce8": "0x8010dce8"},
+  "descriptions": {"w3d_k1e_retreat_reset_8010dce8": "Appears to write zero to the RetreatTime property and look up ActiveWormIndex into a field at +64 of the given state."}
+}

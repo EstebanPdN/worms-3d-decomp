@@ -1,0 +1,4 @@
+c source/matching/game/s20/s20_small_p.c
+w3d_s20_push_pending_8016703c|0x8016703c|Appears to append a value to a pending array at offset 1160, flushing first when 1024 entries are held.
+w3d_s20_drop_reference_8019ab0c|0x8019ab0c|Appears to fetch an inner object through two virtual calls and decrement a byte count in the result.
+w3d_s20_matches_handle_8013f168|0x8013f168|Appears to resolve a handle to an object and return whether its helper value equals the field at offset 112.

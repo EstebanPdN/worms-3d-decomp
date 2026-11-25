@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_textbox_background_802b2e30",
+  "source": "source/matching/game/d24l/d24l_textbox_background_802b2e30.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_textbox_background_802b2e30": "0x802b2e30"
+  },
+  "descriptions": {
+    "d24l_textbox_background_802b2e30": "Loads the empty node handle ('NULL', type 255) into +28, sets its position from the vector at +68 (virtual slot +76) and its scale to 1.0 (+84), then reads the 'FE.TextBoxBackground' property through 0x800fc1b0 into a handle, casts it (0x80343df4) and stores it retained at +88 releasing the previous object."
+  }
+}

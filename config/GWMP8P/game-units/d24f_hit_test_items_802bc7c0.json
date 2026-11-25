@@ -1,0 +1,14 @@
+{
+  "unit": "d24f_hit_test_items_802bc7c0",
+  "source": "source/matching/game/d24f/d24f_hit_test_items_802bc7c0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d24f_hit_test_items_802bc7c0": "0x802bc7c0"
+  },
+  "descriptions": {
+    "d24f_hit_test_items_802bc7c0": "Hit-tests a panel's items at (x, y): clears both outputs, fetches the node's box (node slot at +88, vtable +124) into a local, copies its origin (box +36), converts the point to local coordinates, and for each item with id != -1 calls 0x802bfa70; on a hit it stores the item's id and returns 1. Returns 0 otherwise."
+  }
+}

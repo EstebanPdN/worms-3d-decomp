@@ -1,0 +1,14 @@
+{
+  "unit": "cc24a_planner_radial_influence_800167ac",
+  "source": "source/matching/game/cc24a/cc24a_planner_radial_influence_800167ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_radial_influence_800167ac": "0x800167ac"
+  },
+  "descriptions": {
+    "cc24a_planner_radial_influence_800167ac": "Compute two radial falloffs and multiply by field cost, with ordered >= radius rejection and original unordered continuation/FMA behavior."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

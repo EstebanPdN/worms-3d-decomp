@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_music_messages_80051df8",
+  "source": "source/matching/game/d24g/d24g_music_messages_80051df8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_music_messages_80051df8": "0x80051df8"
+  },
+  "descriptions": {
+    "w3d_d24g_music_messages_80051df8": "Music message handler: start and stop messages with the base handler; one message copies a vector value; one loads the named sound into +80, sets its position from the camera and starts it; others go to the base handler."
+  }
+}

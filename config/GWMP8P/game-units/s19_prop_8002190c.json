@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_8002190c",
+  "source": "source/matching/game/s19/s19_prop_8002190c.c",
+  "language": "c",
+  "functions": {
+    "s19_read_launch_velocity_8002190c": "0x8002190c"
+  },
+  "descriptions": {
+    "s19_read_launch_velocity_8002190c": "Appears to read the AI.LaunchVelocity property into the float at +0x14 and mark the task done by setting +4."
+  }
+}

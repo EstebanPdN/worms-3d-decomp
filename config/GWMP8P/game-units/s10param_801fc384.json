@@ -1,0 +1,11 @@
+{
+  "unit": "s10param_801fc384",
+  "source": "source/matching/game/generated/s10param_801fc384.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_range_data_801fc384": "0x801fc384"
+  },
+  "descriptions": {
+    "w3d_s10_range_data_801fc384": "Writes the count of pointers in the observed range and returns its data pointer, or null when the range is empty."
+  }
+}

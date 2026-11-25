@@ -1,0 +1,20 @@
+{
+  "unit": "d33s_name_table_ctor_80069c8c",
+  "source": "source/matching/game/d33s/d33s_name_table_ctor_80069c8c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "__13D33sNameTable": "0x80069c8c"
+  },
+  "descriptions": {
+    "__13D33sNameTable": "Constructs the name table service: clears its held references, builds the name list and name rows, publishes the instance and sets the default flags."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

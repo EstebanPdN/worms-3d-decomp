@@ -1,0 +1,11 @@
+{
+  "unit": "d25h_lamp_update_800c021c",
+  "source": "source/matching/game/d25h/d25h_lamp_update_800c021c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25h_lamp_update_800c021c": "0x800c021c"
+  },
+  "descriptions": {
+    "w3d_d25h_lamp_update_800c021c": "Lamp update: refreshes the light with 0x800c06a0, builds the lamp start from its position and reach along the light direction 0x8043c3b8, calls 0x800b0824 with limit 1000, scales the ramp 0x804b1764/1000 by the lamp power and stores the resulting diffuse, ambient and specular vectors into the light data at +120, +132 and +156."
+  }
+}

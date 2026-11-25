@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_net_connect_8021adb8",
+  "source": "source/matching/game/d26k/d26k_net_connect_8021adb8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_net_connect_8021adb8": "0x8021adb8"
+  },
+  "descriptions": {
+    "w3d_d26k_net_connect_8021adb8": "Formats the loopback address with port 10017, connects the host service, reports an invalid port through Net.ConnectionStatus on failure, otherwise creates and starts the client at +128 and sets team flags to 1."
+  }
+}

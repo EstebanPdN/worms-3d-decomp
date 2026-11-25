@@ -1,0 +1,11 @@
+{
+ "unit": "cc17d_component_edit_80279f54",
+ "source": "source/matching/game/cc17d/cc17d_component_edit_80279f54.cpp",
+ "language": "cpp",
+ "functions": {
+  "w3d_cc17d_color_edit_80279f54": "0x80279f54"
+ },
+ "descriptions": {
+  "w3d_cc17d_color_edit_80279f54": "Colour component editor: when the text is not empty, reads the 4-byte colour field located by the editor's key (+96) in the edited object (+92), replaces byte 0..3 selected by the component index at +48 with atol(text), stores the colour back, builds a default string through 0x802cd26c (0,10), 0x802cc0ac (blank literal 0x803ce688, 7) and 0x802cd26c (0,10), writes it to the sink at +32 with 9 and calls 0x8027a934 with 1; always calls 0x8027a98c with the editor."
+ }
+}

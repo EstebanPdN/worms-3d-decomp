@@ -1,0 +1,15 @@
+{
+  "unit": "d29i_level_list_fill_80112514",
+  "source": "source/matching/game/d29i/d29i_level_list_fill_80112514.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29i_level_list_fill_80112514": "0x80112514"
+  },
+  "descriptions": {
+    "d29i_level_list_fill_80112514": "Fills a level list for one group, sorted by translated name, adding the random level row for group 5."
+  }
+}

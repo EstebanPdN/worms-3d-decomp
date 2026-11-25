@@ -1,0 +1,7 @@
+#include "w3d_ptr.h"
+#line 1 "f1p_construct_panel_state_802b2ba4.cpp"
+// Inferred externally supplied owner prefix; all observed fields through byte103.
+struct F1pPanelStateIface{Ptr32<Ptr32<void>> table;};struct F1pPanelStateVec{float x,y,z;};struct F1pPanelStateOwner{Ptr32<Ptr32<void>> table;char unknown4[24];Ptr32<F1pPanelStateIface> held;int i32,i36,i40,i44,i48,i52,i56,i60;float f64;F1pPanelStateVec position;float f80,f84;int i88,i92,i96,i100;};extern "C" Ptr32<void> fn_8015fef0(Ptr32<void>);extern Ptr32<void> vt_8041c670[];extern float scalar_803d7c88[],scalar_803d7c8c[];extern F1pPanelStateVec vector_8045e788;
+extern "C" Ptr32<F1pPanelStateOwner> w3d_construct_panel_state_802b2ba4(Ptr32<F1pPanelStateOwner> s){int zero=0;fn_8015fef0(s);s->table=vt_8041c670;s->f64=13.0f;s->held=(Ptr32<F1pPanelStateIface>)w3d::G(zero);s->i36=zero;s->i40=zero;s->i44=zero;s->i48=zero;s->i52=zero;s->i56=zero;s->i88=zero;s->i32=zero;s->i60=zero;s->position=vector_8045e788;s->f80=80.0f;s->f84=80.0f;if(s->held)((Ptr32<void (Ptr32<F1pPanelStateIface>)>)s->held->table[4])(s->held);s->held=(Ptr32<F1pPanelStateIface>)w3d::G(zero);s->i92=1;s->i100=zero;s->i96=1;return s;}
+
+

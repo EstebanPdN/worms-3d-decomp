@@ -1,0 +1,14 @@
+{
+  "unit": "d22b_object_reset_800928fc",
+  "source": "source/matching/game/d22b/d22b_object_reset_800928fc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d22b_object_reset_800928fc": "0x800928fc"
+  },
+  "descriptions": {
+    "d22b_object_reset_800928fc": "Bind an item to its owner: call 0x80092388 with the item's colour bytes (+50, +49, +48), set the owner mode (0x800919cc) to (u8)(b50 + 2*b48 - 4*b49), set the owner colour (0x80092234) from the item blocks +60/+52 and the three bytes as floats, append every child interface of the array at +44 to the array at +80 (kind 10) and erase them from +44 (kind 3), release and clear the held objects at +72 and +68 (virtual slot +16), clear halfwords +102/+104, copy the 16-byte placement (+20: float +12 first, then three words) to owner +540, call 0x800927b4 and 0x8008ecac, re-append the non-null interfaces at +88/+92 to +44 (kind 3); return 0."
+  }
+}

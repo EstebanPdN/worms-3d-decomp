@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_taunt_react_8013e790",
+  "source": "source/matching/game/k2a/k2a_taunt_react_8013e790.c",
+  "language": "c",
+  "functions": {
+    "k2a_taunt_react_8013e790": "0x8013e790"
+  },
+  "descriptions": {
+    "k2a_taunt_react_8013e790": "Appears to pick a taunt line by random number modulo seven when a message comes from the tracked actor, or a traitor line for same-team actors."
+  }
+}

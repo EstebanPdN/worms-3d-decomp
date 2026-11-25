@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_binding_slot_dispatch_801d9e18",
+  "source": "source/matching/game/cx8b/cx8b_binding_slot_dispatch_801d9e18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_binding_slot_dispatch_801d9e18": "0x801d9e18"
+  },
+  "descriptions": {
+    "w3d_cx8b_binding_slot_dispatch_801d9e18": "Dispatch indexed method with object and descriptor +52 after the null-checked secondary-base adjustment; return zero."
+  }
+}

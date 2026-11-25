@@ -1,0 +1,11 @@
+{
+  "unit": "s19_trail_8002a0c0",
+  "source": "source/matching/game/s19/s19_trail_8002a0c0.c",
+  "language": "c",
+  "functions": {
+    "s19_start_trail_8002a0c0": "0x8002a0c0"
+  },
+  "descriptions": {
+    "s19_start_trail_8002a0c0": "Appears to register a service for the object when its motion value exceeds twenty and run a helper on the resulting object."
+  }
+}

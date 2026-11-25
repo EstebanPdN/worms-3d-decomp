@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cf_802bcb6c",
+  "source": "source/matching/game/s21/s21_cf_802bcb6c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_value_all_802bcb6c": "0x802bcb6c"
+  },
+  "descriptions": {
+    "w3d_s21_set_value_all_802bcb6c": "Appears to store a changed value at offset 84 and push it to every pointer of the embedded vector at offset 56 through a helper."
+  }
+}

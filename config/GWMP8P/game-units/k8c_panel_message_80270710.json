@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_panel_message_80270710",
+  "source": "source/matching/game/k8c/k8c_panel_message_80270710.c",
+  "language": "c",
+  "functions": {
+    "w3d_k8c_panel_message_80270710": "0x80270710"
+  },
+  "descriptions": {
+    "w3d_k8c_panel_message_80270710": "Appears to handle messages 64 and 66 and forward other messages to the body at +28 when it is active, then pass them to the base handler."
+  }
+}

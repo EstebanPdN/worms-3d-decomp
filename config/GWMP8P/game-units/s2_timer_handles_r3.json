@@ -1,0 +1,15 @@
+{
+  "unit": "s2_timer_handles_r3",
+  "source": "source/matching/game/s2_timer_handles_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_timer_destroy_8011c0ac": "0x8011c0ac",
+    "w3d_timer_clear_elapsed_8011d6a4": "0x8011d6a4",
+    "w3d_effect_destroy_8011dbc0": "0x8011dbc0"
+  },
+  "descriptions": {
+    "w3d_timer_destroy_8011c0ac": "Releases the timer property handles and destroys the actor base.",
+    "w3d_timer_clear_elapsed_8011d6a4": "Writes zero to the elapsed-round-time property.",
+    "w3d_effect_destroy_8011dbc0": "Stops the effect target, releases held objects and destroys the effect base."
+  }
+}

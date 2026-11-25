@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_key_dispatch_801aade4",
+  "source": "source/matching/game/k8b/k8b_key_dispatch_801aade4.c",
+  "language": "c",
+  "functions": {"w3d_k8b_key_dispatch_801aade4": "0x801aade4"},
+  "descriptions": {"w3d_k8b_key_dispatch_801aade4": "Appears to store a folded key hash on the secondary base and dispatch the looked-up entry through its handler table."}
+}

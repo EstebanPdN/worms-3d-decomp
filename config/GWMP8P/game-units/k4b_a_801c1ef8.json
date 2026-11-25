@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801c1ef8",
+  "source": "source/matching/game/k4b/k4b_a_801c1ef8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_service_construct_801c1ef8": "0x801c1ef8"
+  },
+  "descriptions": {
+    "w3d_k4b_service_construct_801c1ef8": "Appears to construct an object over base 0x801ea0ec, install vtable 0x80414d80, retain a shared global interface into +20 and clear the word at +24."
+  }
+}

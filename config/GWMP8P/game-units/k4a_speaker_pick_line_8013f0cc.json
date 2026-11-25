@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_speaker_pick_line_8013f0cc",
+  "source": "source/matching/game/k4a/k4a_speaker_pick_line_8013f0cc.c",
+  "language": "c",
+  "functions": {
+    "k4a_speaker_pick_line_8013f0cc": "0x8013f0cc"
+  },
+  "descriptions": {
+    "k4a_speaker_pick_line_8013f0cc": "Appears to clear a pending flag unless a source is busy, then pick one of two speech lines by the low bit of a random roll and play it."
+  }
+}

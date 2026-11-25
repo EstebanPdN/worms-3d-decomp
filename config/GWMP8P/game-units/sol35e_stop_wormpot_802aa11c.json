@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e_stop_wormpot_802aa11c",
+  "source": "source/matching/game/sol35e/sol35e_stop_wormpot_802aa11c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e_stop_wormpot_802aa11c": "0x802aa11c"
+  },
+  "descriptions": {
+    "sol35e_stop_wormpot_802aa11c": "Checks eleven wormpot controls, sets the owner outro flag, then releases the owner or starts the named machine and audio outro before entering the secondary panel outro."
+  }
+}

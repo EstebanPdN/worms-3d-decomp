@@ -1,0 +1,18 @@
+{
+  "unit": "d41m_lens_flare_update_800bf320",
+  "source": "source/matching/game/d41m/d41m_lens_flare_update_800bf320.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41m"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d41m_lens_flare_update_800bf320": "0x800bf320"
+  },
+  "descriptions": {
+    "d41m_lens_flare_update_800bf320": "Updates the lens flare: projects the sun through the camera transforms, traces toward it for occlusion, fades the flare over time and fills the mesh arrays for every flare element."
+  }
+}

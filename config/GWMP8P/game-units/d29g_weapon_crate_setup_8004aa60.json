@@ -1,0 +1,11 @@
+{
+  "unit": "d29g_weapon_crate_setup_8004aa60",
+  "source": "source/matching/game/d29g/d29g_weapon_crate_setup_8004aa60.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_weapon_crate_setup_8004aa60": "0x8004aa60"
+  },
+  "descriptions": {
+    "w3d_d29g_weapon_crate_setup_8004aa60": "Weapon crate setup: applies scale 7, reads Crate.Contents and maps the name through the 36-entry weapon name table to the kind at +36, logging and setting an error text for an unknown name; then reads the weapon record's text key and builds the display text at +148 as the count (or the encoded infinity glyph when -1), ' x ' and the title."
+  }
+}

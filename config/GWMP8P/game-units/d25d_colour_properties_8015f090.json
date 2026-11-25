@@ -1,0 +1,15 @@
+{
+  "unit": "d25d_colour_properties_8015f090",
+  "source": "source/matching/game/d25d/d25d_colour_properties_8015f090.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d25d_colour_properties_8015f090": "0x8015f090"
+  },
+  "descriptions": {
+    "d25d_colour_properties_8015f090": "Create four properties on a target, then clone and re-add all of its existing properties."
+  }
+}

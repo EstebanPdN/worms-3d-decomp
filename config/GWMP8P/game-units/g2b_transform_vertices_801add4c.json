@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_transform_vertices_801add4c",
+  "source": "source/matching/game/g2b/g2b_transform_vertices_801add4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_transform_vertices_801add4c": "0x801add4c"
+  },
+  "descriptions": {
+    "g2b_transform_vertices_801add4c": "When owner flags include2 and801f76b8 rejects identity at1e-5 tolerance, obtains type80363064 output, retains it and replaces owner next after releasing old next. Locks or reallocates output vertex array with element size12 and transforms every input point through owner affine matrix including translation. Header type at4, count24 and lock28 are original observed fields. No local external object construction; names inferred. Literal tolerance owns a separately proven data word."
+  }
+}

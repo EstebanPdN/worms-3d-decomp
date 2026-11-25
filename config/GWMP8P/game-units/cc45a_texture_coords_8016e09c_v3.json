@@ -1,0 +1,11 @@
+{
+  "unit": "cc45a_texture_coords_8016e09c_v3",
+  "source": "source/matching/game/cc45a/cc45a_texture_coords_8016e09c_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc45a_texture_coords_8016e09c_v3": "0x8016e09c"
+  },
+  "descriptions": {
+    "cc45a_texture_coords_8016e09c_v3": "Initialize and load the image texture, set zero LOD, construct inverse-dimension texture coordinates with signed integer promotion of unsigned halfword dimensions, then upload matrix and configure the texture generator in original order."
+  }
+}

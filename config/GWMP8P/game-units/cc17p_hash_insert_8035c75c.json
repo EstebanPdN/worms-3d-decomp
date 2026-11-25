@@ -1,0 +1,11 @@
+{
+  "unit": "cc17p_hash_insert_8035c75c",
+  "source": "source/matching/game/cc17p/cc17p_hash_insert_8035c75c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17p_hash_insert_8035c75c": "0x8035c75c"
+  },
+  "descriptions": {
+    "w3d_cc17p_hash_insert_8035c75c": "Expands the observed bucket table, hashes key words 0 and 2, allocates a twelve-byte chained node with fallback, copies its two-word payload, prepends it, increments the entry count, and returns the payload address. Higher-level key meanings are inferred."
+  }
+}

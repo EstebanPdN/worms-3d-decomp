@@ -1,0 +1,14 @@
+{
+  "unit": "f3b_direction_angles_800e9204",
+  "source": "source/matching/game/f3b/f3b_direction_angles_800e9204.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3b_direction_angles_800e9204": "0x800e9204"
+  },
+  "descriptions": {
+    "f3b_direction_angles_800e9204": "Compute the negative arcsine of the input middle component into output offset 0 and clear output offset 8. Copy the input, clear its middle component, normalize when its squared length is positive, and derive output offset 4 from the arcsine of the normalized first component, adjusted by the original half-turn constant when the input third component is negative. Otherwise use object offset 40. Angle roles are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

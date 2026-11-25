@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_apply_fit_8001c0d8",
+  "source": "source/matching/game/k2a/k2a_apply_fit_8001c0d8.c",
+  "language": "c",
+  "functions": {
+    "k2a_apply_fit_8001c0d8": "0x8001c0d8"
+  },
+  "descriptions": {
+    "k2a_apply_fit_8001c0d8": "Appears to compute a vector and scale from a source object, pass them to a follow-up helper and return the receiver."
+  }
+}

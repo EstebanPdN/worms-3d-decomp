@@ -1,0 +1,1 @@
+{"unit":"r27c_float","source":"source/matching/game/r27c/r27c_float.cpp","language":"cpp","functions":{"r27c_write_float_802041d4":"0x802041d4"},"descriptions":{"r27c_write_float_802041d4":"Write the byte-swapped bits of a floating point value through the stream helper."}}

@@ -1,0 +1,11 @@
+{
+  "unit": "s4_wormpot_lookup",
+  "source": "source/matching/game/s4_wormpot_lookup.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_wormpot_find_value": "0x802ab378"
+  },
+  "descriptions": {
+    "w3d_s4_wormpot_find_value": "Finds a value in the selected reel table and returns its index or minus one."
+  }
+}

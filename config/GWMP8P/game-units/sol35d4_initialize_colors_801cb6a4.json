@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d4_initialize_colors_801cb6a4",
+  "source": "source/matching/game/sol35d4/sol35d4_initialize_colors_801cb6a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d4_initialize_colors_801cb6a4": "0x801cb6a4"
+  },
+  "descriptions": {
+    "w3d_sol35d4_initialize_colors_801cb6a4": "Initialize four observed 16-byte color binding values through real C++ temporaries and default assignment, create four source bindings and a power binding, finalize and return zero. Color semantics and partial native layouts are inferred."
+  }
+}

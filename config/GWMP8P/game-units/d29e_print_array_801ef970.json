@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_print_array_801ef970",
+  "source": "source/matching/game/d29e/d29e_print_array_801ef970.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_print_array_801ef970": "0x801ef970"
+  },
+  "descriptions": {
+    "w3d_d29e_print_array_801ef970": "Writes the elements of the array property at the prop's offset in object: through the type's write slot if 0x801fff60 says it is a kind-three type, otherwise printing each element into a temporary string and writing that; elements are separated by the text at 0x803b0d60 plus an optional line break and indent, and printing stops with the text at 0x803b0d68 at the given limit. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

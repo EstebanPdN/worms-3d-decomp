@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_audio_ring_refill_802e1f88",
+  "source": "source/matching/game/d26l/d26l_audio_ring_refill_802e1f88.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_audio_ring_refill_802e1f88": "0x802e1f88"
+  },
+  "descriptions": {
+    "d26l_audio_ring_refill_802e1f88": "Refills the idle one of two 640-byte output buffers: toggles the buffer index, calls 0x80311254 on the buffer, disables interrupts (0x802fdb80), mixes 160 stereo frames through 0x802e1f54 and stores the buffer through 0x802fa988, then restores interrupts. Mode 0 mixes with no second source; other modes first run the user callback and record the address from 0x8031130c with the 0x80000000 segment added, as pending (mode 1, which also promotes the earlier pending to current) or current, and call 0x802fa95c on a non-null current buffer before mixing it in. No owned data."
+  }
+}

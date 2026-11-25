@@ -1,0 +1,11 @@
+{
+  "unit": "f9b_choose_crate_8008a76c",
+  "source": "source/matching/game/f9b/f9b_choose_crate_8008a76c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f9b_choose_crate_8008a76c": "0x8008a76c"
+  },
+  "descriptions": {
+    "f9b_choose_crate_8008a76c": "Choose a crate content through the observed weighted table, scanning every second eight-byte entry, and write the chosen weapon property. Unsigned random remainder and signed cumulative comparison are retained. Roles, types and layouts are inferred."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_chute_start_800db014",
+  "source": "source/matching/game/d19c/d19c_chute_start_800db014.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_chute_start_800db014": "0x800db014"
+  },
+  "descriptions": {
+    "d19c_chute_start_800db014": "On the first call (+76): an active object posts the target message for +164; otherwise, unless blocked (+68), set active and launching, call 0x800dc184, read \"Gravity\" x \"Low.Gravity.Multiplier\", \"Wind.Direction\" and \"Wind.Speed\", set the acceleration at +120 to (cos(direction) x speed, gravity, sin(direction) x speed) and, unless +160 is set, post the open message with value 42."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

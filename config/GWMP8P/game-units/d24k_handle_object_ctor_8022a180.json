@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_handle_object_ctor_8022a180",
+  "source": "source/matching/game/d24k/d24k_handle_object_ctor_8022a180.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_handle_object_ctor_8022a180": "0x8022a180"
+  },
+  "descriptions": {
+    "w3d_d24k_handle_object_ctor_8022a180": "Constructor: tagged base 0x801ea0ec, table 0x8041a078, two shared strings at +20 and +84, integer defaults, 54 retained handles to the service with key 0x80419f08, calls 0x802336ec(-1) and 0x802336fc(0) on the 47th, releases them in reverse and returns the object."
+  }
+}

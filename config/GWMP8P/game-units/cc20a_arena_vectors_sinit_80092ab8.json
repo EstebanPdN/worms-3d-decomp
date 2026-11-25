@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_arena_vectors_sinit_80092ab8",
+  "source": "source/matching/game/cc20a/cc20a_arena_vectors_sinit_80092ab8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_arena_vectors_sinit_80092ab8": "0x80092ab8"
+  },
+  "descriptions": {
+    "w3d_cc20a_arena_vectors_sinit_80092ab8": "Initializes land-arena storage aliases and named arena handle, clears two range headers, runs the observed default-construction countdowns and constructs sixteen three-float vectors."
+  }
+}

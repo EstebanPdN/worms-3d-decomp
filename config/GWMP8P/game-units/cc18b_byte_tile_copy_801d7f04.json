@@ -1,0 +1,11 @@
+{
+  "unit": "cc18b_byte_tile_copy_801d7f04",
+  "source": "source/matching/game/cc18b/cc18b_byte_tile_copy_801d7f04.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18b_byte_tile_copy_801d7f04": "0x801d7f04"
+  },
+  "descriptions": {
+    "w3d_cc18b_byte_tile_copy_801d7f04": "Copies at most four rows and eight columns of bytes into eight-byte tile rows, clipping to remaining source dimensions."
+  }
+}

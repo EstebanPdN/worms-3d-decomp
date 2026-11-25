@@ -1,0 +1,21 @@
+{
+  "unit": "h1_newlib_stdio_misc",
+  "source": "source/matching/game/h1/h1_newlib_stdio_misc.c",
+  "language": "c",
+  "functions": {
+    "exit": "0x802ed984",
+    "abort": "0x802ed798",
+    "w3d_abort_forward_802f4ddc": "0x802f4ddc",
+    "fiprintf": "0x802f3434",
+    "w3d_vfprintf_console_write_802f05f0": "0x802f05f0",
+    "w3d_vfiprintf_console_write_802f1be0": "0x802f1be0"
+  },
+  "descriptions": {
+    "exit": "newlib exit: runs the registered atexit functions in reverse order, calls the reentrancy cleanup hook if set, then _exit(code).",
+    "abort": "Appears to be SN's abort: calls _exit(1).",
+    "w3d_abort_forward_802f4ddc": "Calls abort (0x802ed798); does not return.",
+    "fiprintf": "newlib fiprintf: formats the variable arguments to the stream with vfiprintf.",
+    "w3d_vfprintf_console_write_802f05f0": "SN console writer used by vfprintf: buffers bytes in a 128-byte static buffer and writes it to fd when full or when flush is 1.",
+    "w3d_vfiprintf_console_write_802f1be0": "SN console writer used by vfiprintf: buffers bytes in its own static buffer and writes it to fd when full or when flush is 1."
+  }
+}

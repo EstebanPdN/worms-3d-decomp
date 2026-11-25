@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8003f254",
+  "source": "source/matching/game/s7/s7hand_8003f254.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003f254": "0x8003f254"
+  },
+  "descriptions": {
+    "w3d_auto_8003f254": "Constructs the base, installs vtable 0x8040e8f8 and registers the object as the first singleton when the global singleton is empty."
+  }
+}

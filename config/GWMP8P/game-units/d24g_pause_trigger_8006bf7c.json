@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_pause_trigger_8006bf7c",
+  "source": "source/matching/game/d24g/d24g_pause_trigger_8006bf7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_pause_trigger_8006bf7c": "0x8006bf7c"
+  },
+  "descriptions": {
+    "w3d_d24g_pause_trigger_8006bf7c": "Opens the pause menu: unless paused flags 0x00800000 or 0x00400000 are set or the scene timer is one, sets 0x00400000; in state 7 posts the pause messages, sets 0x00800000, selects the Menu slot, picks Pause or SpectatorPause by network team value, enters the application pause state and stops its sound when not spectating, and posts the menu name and FE.PauseMenu."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1b_node_construct_8015b254",
+  "source": "source/matching/game/f1b/f1b_node_construct_8015b254.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1b_node_construct_8015b254": "0x8015b254"
+  },
+  "descriptions": {
+    "f1b_node_construct_8015b254": "Allocate a 16-byte node, clear its words at offsets 0, 4 and 12, publish it through the caller's first pointer field, and return the caller. Node field meanings and the purpose of the original reserved stack slot remain inferred."
+  }
+}

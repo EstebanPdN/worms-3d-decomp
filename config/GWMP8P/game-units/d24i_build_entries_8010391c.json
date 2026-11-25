@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_build_entries_8010391c",
+  "source": "source/matching/game/d24i/d24i_build_entries_8010391c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_build_entries_8010391c": "0x8010391c"
+  },
+  "descriptions": {
+    "d24i_build_entries_8010391c": "Walk the zero-terminated id table 0x803fcdec: for each id allocate a 32-byte entry from the arena 0x804af15c, construct it with the id and the owner (0x8005ff48), and append it to the owner's pointer vector at +384, growing the byte-addressed storage to max(used + 1, used * 3 / 2) entries."
+  }
+}

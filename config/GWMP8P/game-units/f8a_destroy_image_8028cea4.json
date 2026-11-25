@@ -1,0 +1,11 @@
+{
+  "unit": "f8a_destroy_image_8028cea4",
+  "language": "cpp",
+  "source": "source/matching/game/f8a/f8a_destroy_image_8028cea4.cpp",
+  "functions": {
+    "_._17F8aImage_8028cea4": "0x8028cea4"
+  },
+  "descriptions": {
+    "_._17F8aImage_8028cea4": "Destroy the complete 236-byte image UI object: install observed tables, release the two-element held-interface array in reverse order and the preceding interface, then destroy the bases at 28 and 0 with their observed flags. Native C++ lifetime boundaries and field names are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_request_dispatch_8008c280",
+  "source": "source/matching/game/k4a/k4a_request_dispatch_8008c280.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_request_dispatch_8008c280": "0x8008c280"
+  },
+  "descriptions": {
+    "k4a_request_dispatch_8008c280": "Appears to hold a service interface for the duration of a call that passes it and a request value to a dispatcher, retaining and releasing it around the call."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_heap_resize_80213750",
+  "source": "source/matching/game/d24k/d24k_heap_resize_80213750.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_heap_resize_80213750": "0x80213750"
+  },
+  "descriptions": {
+    "w3d_d24k_heap_resize_80213750": "dlmalloc-style realloc: allocates for a null block, fails with error 12 on oversized or mapped blocks, grows into the top or next free chunk, otherwise allocates, copies and frees, and splits off a spare tail of at least 16 bytes."
+  }
+}

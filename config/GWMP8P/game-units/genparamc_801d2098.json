@@ -1,0 +1,11 @@
+{
+  "unit": "genparamc_801d2098",
+  "source": "source/matching/game/generated/genparamc_801d2098.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_find_entry_801d2098": "0x801d2098"
+  },
+  "descriptions": {
+    "w3d_find_entry_801d2098": "Finds the list entry for the key through the search helper; if found, notifies the object with it and returns a pointer into the entry, else stores null and returns E_FAIL."
+  }
+}

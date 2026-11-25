@@ -1,0 +1,17 @@
+{
+  "unit": "s9lookup_80176974",
+  "source": "source/matching/game/generated/s9lookup_80176974.c",
+  "language": "c",
+  "functions": {
+    "s9_lookup_slot_80176974": "0x80176974",
+    "s9_lookup_slot_801769dc": "0x801769dc",
+    "s9_lookup_slot_80176b98": "0x80176b98",
+    "s9_lookup_slot_80176c00": "0x80176c00"
+  },
+  "descriptions": {
+    "s9_lookup_slot_80176974": "Resolves a key to a slot index, converts the stored object through two helpers and writes the output pointer; returns zero or 0x80004005.",
+    "s9_lookup_slot_801769dc": "Resolves a key to a slot index, converts the stored object through two helpers and writes the output pointer; returns zero or 0x80004005.",
+    "s9_lookup_slot_80176b98": "Resolves a key to a slot index, converts the stored object through two helpers and writes the output pointer; returns zero or 0x80004005.",
+    "s9_lookup_slot_80176c00": "Resolves a key to a slot index, converts the stored object through two helpers and writes the output pointer; returns zero or 0x80004005."
+  }
+}

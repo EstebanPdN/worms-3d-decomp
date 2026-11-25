@@ -1,0 +1,11 @@
+{
+  "unit": "cx10a_segment_points_800afeb8",
+  "source": "source/matching/game/cx10a/cx10a_segment_points_800afeb8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10a_segment_points_800afeb8": "0x800afeb8"
+  },
+  "descriptions": {
+    "w3d_cx10a_segment_points_800afeb8": "Copies four adjacent segment control values, using endpoint duplication when previous or second-next links are absent."
+  }
+}

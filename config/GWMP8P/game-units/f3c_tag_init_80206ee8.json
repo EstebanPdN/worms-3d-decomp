@@ -1,0 +1,11 @@
+{
+  "unit": "f3c_tag_init_80206ee8",
+  "source": "source/matching/game/f3c/f3c_tag_init_80206ee8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3c_tag_init_80206ee8": "0x80206ee8"
+  },
+  "descriptions": {
+    "f3c_tag_init_80206ee8": "Initialize the observed tag and member, grow the embedded storage using reference-selected limits, copy and release old storage when present, acquire one element, publish this object and clear scalar fields. Layout and names inferred."
+  }
+}

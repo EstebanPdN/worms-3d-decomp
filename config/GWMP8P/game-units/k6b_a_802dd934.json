@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_802dd934",
+  "source": "source/matching/game/k6b/k6b_a_802dd934.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_getF_802dd934": "0x802dd934"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_getF_802dd934": "Appears to be Lua 5.0 lauxlib getF: return NULL at end of file, else fread up to 1024 bytes into the LoadF buffer and return it when nonempty."
+  }
+}

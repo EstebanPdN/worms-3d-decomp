@@ -1,0 +1,11 @@
+{
+  "unit": "cxb2_remove_active_801554dc",
+  "source": "source/matching/game/cxb2/cxb2_remove_active_801554dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxb2_remove_active_801554dc": "0x801554dc"
+  },
+  "descriptions": {
+    "cxb2_remove_active_801554dc": "Reads ActiveWormIndex through helper 0x800fc1f0; if not -1, obtains the indexed object, reads byte +213, initializes a two-word scoped borrow with 0/0xe3a8, resolves the byte-indexed object through 0x800fc82c, sets its word +44 to 1, calls 0x801565e4 on the receiver and byte ID, then destroys the borrow through 0x80178474 with flag 2. Team/worm meanings inferred; dependencies and text remain external."
+  }
+}

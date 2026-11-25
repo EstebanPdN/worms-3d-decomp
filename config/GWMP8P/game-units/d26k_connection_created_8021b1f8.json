@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_connection_created_8021b1f8",
+  "source": "source/matching/game/d26k/d26k_connection_created_8021b1f8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_connection_created_8021b1f8": "0x8021b1f8"
+  },
+  "descriptions": {
+    "w3d_d26k_connection_created_8021b1f8": "Creates the connection with factory slot 13; on success swaps team connection +60, builds a 0x8041a938 message with cached id 0x804b0704 and the property name, sends it through 0x8021e930 and stores 32 at team +32."
+  }
+}

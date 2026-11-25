@@ -1,0 +1,23 @@
+{
+  "unit": "genparam_80220e68",
+  "source": "source/matching/game/generated/genparam_80220e68.c",
+  "language": "c",
+  "functions": {
+    "w3d_ctor_strings_80220e68": "0x80220e68",
+    "w3d_ctor_strings_80235bc0": "0x80235bc0",
+    "w3d_ctor_strings_80237438": "0x80237438",
+    "w3d_ctor_strings_802379a0": "0x802379a0",
+    "w3d_ctor_strings_8023d6dc": "0x8023d6dc",
+    "w3d_ctor_strings_8023db50": "0x8023db50",
+    "w3d_ctor_strings_8023de5c": "0x8023de5c"
+  },
+  "descriptions": {
+    "w3d_ctor_strings_80220e68": "Constructor: runs the base constructor, installs the class vtable, and initializes two string members to the shared empty string, retaining it each time.",
+    "w3d_ctor_strings_80235bc0": "Constructor: runs the base constructor, installs the class vtable, and initializes two string members to the shared empty string, retaining it each time.",
+    "w3d_ctor_strings_80237438": "Constructor: runs the base constructor, installs the class vtable, and initializes two string members to the shared empty string, retaining it each time.",
+    "w3d_ctor_strings_802379a0": "Constructor: runs the base constructor, installs the class vtable, and initializes two string members to the shared empty string, retaining it each time.",
+    "w3d_ctor_strings_8023d6dc": "Constructor: runs the base constructor, installs the class vtable, and initializes two string members to the shared empty string, retaining it each time.",
+    "w3d_ctor_strings_8023db50": "Constructor: runs the base constructor, installs the class vtable, and initializes two string members to the shared empty string, retaining it each time.",
+    "w3d_ctor_strings_8023de5c": "Constructor: runs the base constructor, installs the class vtable, and initializes two string members to the shared empty string, retaining it each time."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d43c_payload_spawn_scatter_800ebad8",
+  "source": "source/matching/game/d43c/d43c_payload_spawn_scatter_800ebad8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d43c"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d43c_payload_spawn_scatter_800ebad8": "0x800ebad8"
+  },
+  "descriptions": {
+    "d43c_payload_spawn_scatter_800ebad8": "Reflects a payload's direction off a surface normal to build an aim rotation, then creates the description's count of child objects with random spread and speed, and adds each to the task manager."
+  }
+}

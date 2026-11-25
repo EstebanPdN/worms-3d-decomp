@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_property_float_select_8021d100",
+  "source": "source/matching/game/cx9b/cx9b_property_float_select_8021d100.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_property_float_select_8021d100": "0x8021d100"
+  },
+  "descriptions": {
+    "w3d_cx9b_property_float_select_8021d100": "Return the indexed float property for 51 recognized identifiers, or the original default float for other identifiers."
+  }
+}

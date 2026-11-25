@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_particle_emitter_start_800e3e8c",
+  "source": "source/matching/game/d24c/d24c_particle_emitter_start_800e3e8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_particle_emitter_start_800e3e8c": "0x800e3e8c"
+  },
+  "descriptions": {
+    "d24c_particle_emitter_start_800e3e8c": "Subscribe three message handlers; initialise the sub-object at +28; fetch settings; set +180 flags 520 when flagged; choose mode +172 (1 with a name, 2 with a fallback value, else 0) and post a creation message when non-zero; construct the handle at +272 and bind the entity id; when enabled set +276 and allocate a Ref array at +280 of the settings count, loading Trigger.Ball into every stride-th slot and disabling it, clearing the others; clear the 64-byte table at +284; when checked, assert at ParticleEmitterLogicEntity.cpp line 409 if the object's type derives from 0x80361860 or 0x803618f0."
+  }
+}

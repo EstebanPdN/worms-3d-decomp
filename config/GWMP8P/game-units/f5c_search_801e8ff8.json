@@ -1,0 +1,11 @@
+{
+  "unit": "f5c_search_801e8ff8",
+  "source": "source/matching/game/f5c/f5c_search_801e8ff8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5c_search_801e8ff8": "0x801e8ff8"
+  },
+  "descriptions": {
+    "f5c_search_801e8ff8": "Search each observed registry owner entry list until its null key sentinel, compare sixteen key bytes using the witnessed conversion and comparison helpers, and return the matching entry or null. Names, key role, owner layout and unknown padding inferred."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "unit": "s4_card_check",
+  "source": "source/matching/game/s4_card_check.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_check_step": "0x802ada18",
+    "w3d_s4_card_check_begin": "0x802adbf8",
+    "w3d_s4_card_check_open_old": "0x802adc54",
+    "w3d_s4_card_check_open_temp": "0x802add04",
+    "w3d_s4_card_check_status": "0x802addd8",
+    "w3d_s4_card_check_delete_old": "0x802ade80",
+    "w3d_s4_card_check_restore": "0x802adf1c",
+    "w3d_s4_card_check_delete_temp": "0x802adfc8",
+    "w3d_s4_card_check_space": "0x802ae064",
+    "w3d_s4_card_check_delete_message": "0x802ae148",
+    "w3d_s4_card_check_space_message": "0x802ae1ac",
+    "w3d_s4_card_check_initial_space_message": "0x802ae244"
+  },
+  "descriptions": {
+    "w3d_s4_card_check_step": "Dispatches card-file recovery checks and reports completion or a required prompt.",
+    "w3d_s4_card_check_begin": "Prepares original and temporary filenames for the card-file check.",
+    "w3d_s4_card_check_open_old": "Opens the original save file and records its number or absence.",
+    "w3d_s4_card_check_open_temp": "Opens the temporary save file and chooses recovery or free-space checks.",
+    "w3d_s4_card_check_status": "Checks whether the temporary save file has a valid data offset.",
+    "w3d_s4_card_check_delete_old": "Deletes the original save file before restoring the temporary file.",
+    "w3d_s4_card_check_restore": "Renames the temporary file and updates the original file number on success.",
+    "w3d_s4_card_check_delete_temp": "Deletes an invalid temporary save file when it exists.",
+    "w3d_s4_card_check_space": "Checks available card blocks and file slots for the requested save size.",
+    "w3d_s4_card_check_delete_message": "Handles confirmation to delete the temporary card file.",
+    "w3d_s4_card_check_space_message": "Handles the insufficient-space prompt for an existing save context.",
+    "w3d_s4_card_check_initial_space_message": "Handles the insufficient-space prompt during initial file checks."
+  }
+}

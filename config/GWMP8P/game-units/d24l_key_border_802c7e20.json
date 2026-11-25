@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_key_border_802c7e20",
+  "source": "source/matching/game/d24l/d24l_key_border_802c7e20.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_key_border_802c7e20": "0x802c7e20"
+  },
+  "descriptions": {
+    "d24l_key_border_802c7e20": "When the +64 border is not loaded and both +108 and +68 are set, runs 0x802c7f60, loads 'FE.K.KeyBdr' with resource type base+31 (or base+32 when +84 is set) through a handle constructed from the name, stores the cast mesh retained at +64, stores byte value 9 on it (0x80173f88) and attaches it to the +28 object through virtual slot +92. Always finishes with the panel vector update 0x802c7d24."
+  }
+}

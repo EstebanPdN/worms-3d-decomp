@@ -1,0 +1,29 @@
+{
+  "unit": "h1_newlib_misc2",
+  "source": "source/matching/game/h1/h1_newlib_misc2.c",
+  "language": "c",
+  "functions": {
+    "__env_lock": "0x802f3564",
+    "__env_unlock": "0x802f3568",
+    "getenv": "0x802eda04",
+    "vfiprintf": "0x802f1cb8",
+    "w3d_stream_walk_all_802eb4e4": "0x802eb4e4",
+    "w3d_stream_flush_forward_802ec068": "0x802ec068",
+    "w3d_copy_bytes_802eb5f8": "0x802eb5f8",
+    "w3d_stdio_zero_802ec32c": "0x802ec32c",
+    "w3d_stdio_zero_802efe6c": "0x802efe6c",
+    "w3d_libm_forward_802e83cc": "0x802e83cc"
+  },
+  "descriptions": {
+    "__env_lock": "newlib __env_lock stub: does nothing (no threads).",
+    "__env_unlock": "newlib __env_unlock stub: does nothing (no threads).",
+    "getenv": "newlib getenv: calls _findenv_r (0x802eda34) with the global reentrancy structure, the name and a local offset.",
+    "vfiprintf": "newlib vfiprintf: calls the integer-only formatter at 0x802f1cf4 with the stream's reentrancy pointer, stream, format and argument list.",
+    "w3d_stream_walk_all_802eb4e4": "Appears to be SN's _cleanup_r: walks every open stream of the reentrancy structure with the routine at 0x802eb084.",
+    "w3d_stream_flush_forward_802ec068": "Forwards a stream to the stream routine at 0x802eb084 and returns its result.",
+    "w3d_copy_bytes_802eb5f8": "Copies count bytes from src to dst one byte at a time.",
+    "w3d_stdio_zero_802ec32c": "Returns 0.",
+    "w3d_stdio_zero_802efe6c": "Returns 0.",
+    "w3d_libm_forward_802e83cc": "Forwards a double to the math routine at 0x802e9850 and returns its result."
+  }
+}

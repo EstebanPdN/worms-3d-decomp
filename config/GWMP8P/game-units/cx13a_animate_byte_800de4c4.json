@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_animate_byte_800de4c4",
+  "source": "source/matching/game/cx13a/cx13a_animate_byte_800de4c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_animate_byte_800de4c4": "0x800de4c4"
+  },
+  "descriptions": {
+    "w3d_cx13a_animate_byte_800de4c4": "Advance a cyclic byte animation from elapsed time and cap its output to the supplied limit; names inferred."
+  }
+}

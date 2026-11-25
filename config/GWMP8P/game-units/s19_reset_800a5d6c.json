@@ -1,0 +1,11 @@
+{
+  "unit": "s19_reset_800a5d6c",
+  "source": "source/matching/game/s19/s19_reset_800a5d6c.c",
+  "language": "c",
+  "functions": {
+    "s19_reset_range_800a5d6c": "0x800a5d6c"
+  },
+  "descriptions": {
+    "s19_reset_range_800a5d6c": "Appears to clear three words from +0x24 and then run a setup helper, returning the object."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_assign_object_id_801a1e48",
+  "source": "source/matching/game/d28e/d28e_assign_object_id_801a1e48.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_assign_object_id_801a1e48": "0x801a1e48"
+  },
+  "descriptions": {
+    "w3d_d28e_assign_object_id_801a1e48": "Assign a slot id to the object registered at the given index. The byte table at 0x8045ce40 is resized to the object table size for kinds 2 and 3; a kind 3 object with no id gets the largest id plus one, unless it is the special object at 0x803649b4. It creates the object's instance, stores it in the vector at +20, publishes the count at 0x804b18d8, registers it with each linked item through 0x801a2754 and attaches it to the named service."
+  }
+}

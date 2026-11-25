@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_weapon_plans_refine_8000dd7c",
+  "source": "source/matching/game/d28a/d28a_weapon_plans_refine_8000dd7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_weapon_plans_refine_8000dd7c": "0x8000dd7c"
+  },
+  "descriptions": {
+    "w3d_d28a_weapon_plans_refine_8000dd7c": "Refreshes the plan's target and pushes clones for weapons 3 and 25."
+  }
+}

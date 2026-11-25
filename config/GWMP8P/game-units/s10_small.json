@@ -1,0 +1,15 @@
+{
+  "unit": "s10_small",
+  "source": "source/matching/game/s10/s10_small_templates.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_service_forward_8020b680": "0x8020b680",
+    "w3d_s10_create_entry_80208aac": "0x80208aac",
+    "w3d_s10_write_double_80204224": "0x80204224"
+  },
+  "descriptions": {
+    "w3d_s10_service_forward_8020b680": "Obtains a service and forwards the original object to virtual method slot 21.",
+    "w3d_s10_create_entry_80208aac": "Allocates and constructs a 44-byte entry, assigns its owner at offset 40, and initializes it with two zero arguments.",
+    "w3d_s10_write_double_80204224": "Passes the eight-byte double value by address to the observed writer with an explicit size of eight."
+  }
+}

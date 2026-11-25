@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_pool_write_scaled_entry_80264348",
+  "source": "source/matching/game/f1p/f1p_pool_write_scaled_entry_80264348.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_pool_write_scaled_entry_80264348": "0x80264348"
+  },
+  "descriptions": {
+    "w3d_pool_write_scaled_entry_80264348": "Acquires service/pool entries with selector 79, writes the observed float pair at index*8 using original constants 0x803cb284 and 0x803cb280, then finishes and releases the incoming string object. Layout and purpose inferred from the original body; external data ownership remains pending."
+  }
+}

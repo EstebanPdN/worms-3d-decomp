@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_turns_rebuild_80157afc",
+  "source": "source/matching/game/d24d/d24d_turns_rebuild_80157afc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_turns_rebuild_80157afc": "0x80157afc"
+  },
+  "descriptions": {
+    "d24d_turns_rebuild_80157afc": "Gathers two local lists (0x80158358), constructs 16 handle members, then per worm processes the lists (0x80157c58) and configures its handle (word 0, slot word 1, float 10.0, worm field +80); clears the first list, destroys the handles in reverse and releases both lists."
+  }
+}

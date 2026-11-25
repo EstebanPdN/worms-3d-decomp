@@ -1,0 +1,14 @@
+{
+  "unit": "f9b_random_decay_80036b08",
+  "source": "source/matching/game/f9b/f9b_random_decay_80036b08.cpp",
+  "language": "cpp",
+  "functions": {
+    "f9b_random_decay_80036b08": "0x80036b08"
+  },
+  "descriptions": {
+    "f9b_random_decay_80036b08": "Generate three independent random components modulo three with a fixed bias, then scale by strength and an optional elapsed-time decay. Sixteen stack reservation bytes retain an unknown original purpose; all accessed integer and float storage is represented. Roles, types and layouts are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

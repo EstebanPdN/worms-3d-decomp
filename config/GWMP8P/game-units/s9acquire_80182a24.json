@@ -1,0 +1,17 @@
+{
+  "unit": "s9acquire_80182a24",
+  "source": "source/matching/game/generated/s9acquire_80182a24.c",
+  "language": "c",
+  "functions": {
+    "s9_pool_acquire_80182a24": "0x80182a24",
+    "s9_pool_acquire_801849ec": "0x801849ec",
+    "s9_pool_acquire_80188344": "0x80188344",
+    "s9_pool_acquire_8018afb0": "0x8018afb0"
+  },
+  "descriptions": {
+    "s9_pool_acquire_80182a24": "Pops a free pool index, retains the selected element, replaces the output reference, initializes the element, increments its category count and registers it on success.",
+    "s9_pool_acquire_801849ec": "Pops a free pool index, retains the selected element, replaces the output reference, initializes the element, increments its category count and registers it on success.",
+    "s9_pool_acquire_80188344": "Pops a free pool index, retains the selected element, replaces the output reference, initializes the element, increments its category count and registers it on success.",
+    "s9_pool_acquire_8018afb0": "Pops a free pool index, retains the selected element, replaces the output reference, initializes the element, increments its category count and registers it on success."
+  }
+}

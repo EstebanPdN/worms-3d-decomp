@@ -1,0 +1,14 @@
+{
+  "unit": "d30j_remove_scene_node_80164aa8",
+  "source": "source/matching/game/d30j/d30j_remove_scene_node_80164aa8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "functions": {
+    "d30j_remove_scene_node_80164aa8": "0x80164aa8"
+  },
+  "descriptions": {
+    "d30j_remove_scene_node_80164aa8": "Remove a scene-tree node by handle, release its actor, return the slot to the free list and notify the actor."
+  }
+}

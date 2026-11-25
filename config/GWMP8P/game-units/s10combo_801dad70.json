@@ -1,0 +1,11 @@
+{
+  "unit": "s10combo_801dad70",
+  "source": "source/matching/game/auto/s10combo_801dad70.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801dad70": "0x801dad70"
+  },
+  "descriptions": {
+    "w3d_auto_801dad70": "Releases the buffers held at offsets 28 and 24 when non-null, then frees the object itself."
+  }
+}

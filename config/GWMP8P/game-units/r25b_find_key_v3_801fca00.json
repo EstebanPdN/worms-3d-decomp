@@ -1,0 +1,11 @@
+{
+  "unit": "r25b_find_key_v3_801fca00",
+  "source": "source/matching/game/r25b/r25b_find_key_v3_801fca00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25b_find_key_v3_801fca00": "0x801fca00"
+  },
+  "descriptions": {
+    "w3d_r25b_find_key_v3_801fca00": "Inferred registry cursor. Observed cursor fields: current +0, end +4,"
+  }
+}

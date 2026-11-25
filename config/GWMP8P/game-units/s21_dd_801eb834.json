@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dd_801eb834",
+  "source": "source/matching/game/s21/s21_dd_801eb834.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_typed_801eb834": "0x801eb834"
+  },
+  "descriptions": {
+    "w3d_s21_create_typed_801eb834": "Appears to create a 28-byte typed entry, construct and initialize it from a source descriptor, copy two callback pairs and a flag byte and append it to the container."
+  }
+}

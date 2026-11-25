@@ -1,0 +1,11 @@
+{
+  "unit": "d46i_clock_tick_8011c89c",
+  "source": "source/matching/game/d46i/d46i_clock_tick_8011c89c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d46i_clock_tick_8011c89c": "0x8011c89c"
+  },
+  "descriptions": {
+    "w3d_d46i_clock_tick_8011c89c": "Ten-unit timer tick: adds to the play-time setting, counts down round, post-activity, retreat, hot-seat and turn timers, and posts a message when one expires."
+  }
+}

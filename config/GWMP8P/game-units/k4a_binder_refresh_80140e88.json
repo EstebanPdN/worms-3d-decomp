@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_binder_refresh_80140e88",
+  "source": "source/matching/game/k4a/k4a_binder_refresh_80140e88.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_binder_refresh_80140e88": "0x80140e88"
+  },
+  "descriptions": {
+    "k4a_binder_refresh_80140e88": "Appears to look up two service objects for an owner, resolve a named interface and replace the binder's held reference with it (retain new, release old)."
+  }
+}

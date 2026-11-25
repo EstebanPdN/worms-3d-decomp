@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_net_start_8021a9dc",
+  "source": "source/matching/game/d27k/d27k_net_start_8021a9dc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_net_start_8021a9dc": "0x8021a9dc"
+  },
+  "descriptions": {
+    "w3d_d27k_net_start_8021a9dc": "Subscribes to six message ids through 0x80162024, loads three named settings into +76/+80/+84 with retain and release, clears the config flag and control word, calls 0x8021cd10, clears the active field, connects or refreshes, adds a timed int message to the pool (+88), releases and clears the team interface at +48, clears +28, stores the config bit in +120 and 1000/rate*180 in +124."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_sinit_text3d_8011bd84",
+  "source": "source/matching/game/k2a/k2a_sinit_text3d_8011bd84.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_sinit_text3d_8011bd84": "0x8011bd84"
+  },
+  "descriptions": {
+    "k2a_sinit_text3d_8011bd84": "Appears to be a static initializer that constructs the 3D text entity type object, registers a camera message name and sets eight color bytes."
+  }
+}

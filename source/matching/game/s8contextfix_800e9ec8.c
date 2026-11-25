@@ -1,0 +1,169 @@
+typedef signed char s8;
+typedef short s16;
+typedef int s32;
+typedef long long s64;
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned int u32;
+typedef unsigned long long u64;
+typedef float f32;
+typedef double f64;
+/* m2c helper macros (MIT license, see tools/m2c/LICENSE) */
+/*
+ * This header contains macros emitted by m2c in "valid syntax" mode,
+ * which can be enabled by passing `--valid-syntax` on the command line.
+ *
+ * In this mode, unhandled types and expressions are emitted as macros so
+ * that the output is compilable without human intervention.
+ */
+
+
+/* Unknown types */
+typedef s32 M2C_UNK;
+typedef s8  M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+typedef s64 M2C_UNK64;
+
+/* Unknown field access, like `*(type_ptr) &expr->unk_offset` */
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+
+/* Bitwise (reinterpret) cast */
+#define M2C_BITWISE(type, expr) ((type)(expr))
+
+/* Unaligned reads */
+#define M2C_LWL(expr) (expr)
+#define M2C_FIRST3BYTES(expr) (expr)
+#define M2C_UNALIGNED32(expr) (expr)
+
+/* Unhandled instructions */
+#define M2C_ERROR(desc) (0)
+#define M2C_TRAP_IF(cond) (0)
+#define M2C_BREAK() (0)
+#define M2C_SYNC() (0)
+
+#define GLUE_F64(a, b) (0.0)
+#define MULT_HI(a, b) (0)
+#define MULTU_HI(a, b) (0)
+#define DMULT_HI(a, b) (0)
+#define DMULTU_HI(a, b) (0)
+#define CLZ(x) (0)
+#define REVERSE_BITS(x) (0)
+#define ROTATE_RIGHT(x, shift) (0)
+#define ARM_RRX(x, carry) (0)
+#define BSWAP32(x) (0)
+#define BSWAP16(x) (0)
+#define BSWAP16X2(x) (0)
+
+/* Carry/overflow bits from partially-implemented instructions */
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+
+/* Memcpy patterns */
+#define M2C_MEMCPY_ALIGNED memcpy
+#define M2C_MEMCPY_UNALIGNED memcpy
+#define M2C_STRUCT_COPY memcpy
+
+#define NULL ((void *)0)
+/* Inferred prototypes supported by existing matched callers and original register use. */
+void *fn_80341584(void *);
+void *fn_80343584(void *);
+void *fn_803426B4(void *);
+void *fn_80343744(void *);
+void *fn_80179598(void *,int);
+void *fn_801797B4(void *);
+int fn_80178C48(void *);
+void *fn_801613F0(void *,int);
+int fn_8016239C(void *);
+int fn_8015FC58(void *,void *);
+void *fn_800C1620(void *,int *);
+void *fn_80125FDC(void *,unsigned,int);
+unsigned fn_8015F5A0(void *,int);
+int fn_80162024(void *,unsigned short *,void *);
+int fn_8016115C(void *,void *,void *,void (*)(void),int,int);
+int fn_801629F8(void *,void *,void *,void (*)(void),int,int);
+int fn_8015F518(void *,const char *);
+int fn_802EEE50(void *,const void *,unsigned,...);
+int fn_802EF234(const char *,const char *);
+void *fn_8020BB54(void *,const char *);
+int fn_8020C5C4(void *);
+int fn_80341588(void *);
+void *fn_80212FD4(unsigned);
+void fn_802134FC(void *);
+void *fn_80164FC8(void *);
+int fn_80181640(void *,int,void *,int,float,float,float);
+int fn_80181CCC(void *,int);
+int fn_801817E0(void *,int);
+extern void *lbl_804B1754;
+extern void *lbl_804B1788;
+extern char lbl_8040DB38[];
+
+M2C_UNK fn_80160038(M2C_UNK *, M2C_UNK *, M2C_UNK *, M2C_UNK *, M2C_UNK, M2C_UNK); /* extern */
+void * fn_800E7D4C(void);
+extern M2C_UNK lbl_80360DE0[];
+extern M2C_UNK lbl_803617D0[];
+extern s8 lbl_8038B2A8[];
+extern s8 lbl_8038B2B8[];
+extern s8 lbl_8038B2C4[];
+extern s8 lbl_8038B2D4[];
+extern s8 lbl_8038B2E4[];
+extern s8 lbl_8038B2F4[];
+extern s8 lbl_8038B304[];
+extern s8 lbl_8038B318[];
+extern s8 lbl_8038B330[];
+extern s8 lbl_8038B340[];
+extern s8 lbl_8038B350[];
+extern s8 lbl_8038B360[];
+extern s8 lbl_8038B37C[];
+extern s8 lbl_8038B390[];
+extern M2C_UNK lbl_803E8220[];
+extern s8 lbl_804AEE50;
+extern s8 lbl_804AEE51;
+extern s8 lbl_804AEE52;
+extern s8 lbl_804AEE53;
+extern s8 lbl_804AEE54;
+extern s8 lbl_804AEE55;
+extern s8 lbl_804AEE56;
+extern s8 lbl_804AEE57;
+extern M2C_UNK lbl_804AEE58;
+extern M2C_UNK lbl_804AEE60;
+extern M2C_UNK lbl_804AEE68;
+extern M2C_UNK lbl_804AEE70;
+extern M2C_UNK lbl_804AEE78;
+extern M2C_UNK lbl_804AEE80;
+extern M2C_UNK lbl_804AEE88;
+extern M2C_UNK lbl_804AEE90;
+extern M2C_UNK lbl_804AEE98;
+extern M2C_UNK lbl_804AEEA0;
+extern M2C_UNK lbl_804AEEA8;
+extern M2C_UNK lbl_804AEEB0;
+extern M2C_UNK lbl_804AEEB8;
+extern M2C_UNK lbl_804AEEC0;
+
+void s8_initialize_message_flags_800e9ec8(s32 arg0, s32 arg1) {
+    if ((arg1 == 0xFFFF) && (arg0 != 0)) {
+        fn_80160038(&(*lbl_80360DE0), &(*lbl_803E8220), &(*lbl_803617D0), &fn_800E7D4C, 9, 0);
+        lbl_804AEE50 = -1;
+        lbl_804AEE51 = -1;
+        lbl_804AEE52 = -1;
+        lbl_804AEE53 = -1;
+        lbl_804AEE54 = -1;
+        lbl_804AEE55 = 0;
+        lbl_804AEE56 = 0;
+        lbl_804AEE57 = -1;
+        fn_8015F518(&lbl_804AEE58, &(*lbl_8038B2A8));
+        fn_8015F518(&lbl_804AEE60, &(*lbl_8038B2B8));
+        fn_8015F518(&lbl_804AEE68, &(*lbl_8038B2C4));
+        fn_8015F518(&lbl_804AEE70, &(*lbl_8038B2D4));
+        fn_8015F518(&lbl_804AEE78, &(*lbl_8038B2E4));
+        fn_8015F518(&lbl_804AEE80, &(*lbl_8038B2F4));
+        fn_8015F518(&lbl_804AEE88, &(*lbl_8038B304));
+        fn_8015F518(&lbl_804AEE90, &(*lbl_8038B318));
+        fn_8015F518(&lbl_804AEE98, &(*lbl_8038B330));
+        fn_8015F518(&lbl_804AEEA0, &(*lbl_8038B340));
+        fn_8015F518(&lbl_804AEEA8, &(*lbl_8038B350));
+        fn_8015F518(&lbl_804AEEB0, &(*lbl_8038B360));
+        fn_8015F518(&lbl_804AEEB8, &(*lbl_8038B37C));
+        fn_8015F518(&lbl_804AEEC0, &(*lbl_8038B390));
+    }
+}

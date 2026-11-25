@@ -1,0 +1,12 @@
+{
+  "unit": "d28l_panel_update_802b0668",
+  "source": "source/matching/game/d28l/d28l_panel_update_802b0668.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d28l_panel_update_802b0668": "0x802b0668"
+  },
+  "descriptions": {
+    "d28l_panel_update_802b0668": "Per-frame update of a menu panel: mesh control state, highlight effect and active flag."
+  }
+}

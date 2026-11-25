@@ -1,0 +1,20 @@
+{
+  "unit": "d40j_material_set_clear_80171624",
+  "source": "source/matching/game/d40j/d40j_material_set_clear_80171624.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d40j_material_set_clear_80171624": "0x80171624"
+  },
+  "descriptions": {
+    "w3d_d40j_material_set_clear_80171624": "Material set reset: clears flag 0x8000; for each key looks up the owner, finds the selected part in its array field at +44 and removes it through 0x801ef380; clears the compact arrays at +52 and +64, frees every entry's storage, empties the key array and releases the shared interface. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

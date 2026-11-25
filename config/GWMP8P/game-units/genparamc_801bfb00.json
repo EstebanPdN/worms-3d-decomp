@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_801bfb00",
+  "source": "source/matching/game/generated/genparamc_801bfb00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_register_vector_binding_801bfb00": "0x801bfb00",
+    "w3d_register_vector_binding_801bff10": "0x801bff10"
+  },
+  "descriptions": {
+    "w3d_register_vector_binding_801bfb00": "Creates a named binding and gives it a three-float default value built by an inline constructor, then finishes registration; returns zero.",
+    "w3d_register_vector_binding_801bff10": "Creates a named binding and gives it a three-float default value built by an inline constructor, then finishes registration; returns zero."
+  }
+}

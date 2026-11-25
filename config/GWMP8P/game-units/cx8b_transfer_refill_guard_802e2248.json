@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_transfer_refill_guard_802e2248",
+  "source": "source/matching/game/cx8b/cx8b_transfer_refill_guard_802e2248.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_transfer_refill_guard_802e2248": "0x802e2248"
+  },
+  "descriptions": {
+    "w3d_cx8b_transfer_refill_guard_802e2248": "Under the original interrupt guard, refill only when the indexed record and pending state are both empty, then restore the guard."
+  }
+}

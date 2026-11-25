@@ -1,0 +1,14 @@
+{
+  "unit": "d19d_update_flush_pending_8017d760",
+  "source": "source/matching/game/d19d/d19d_update_flush_pending_8017d760.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d19d_update_flush_pending_8017d760": "0x8017d760"
+  },
+  "descriptions": {
+    "d19d_update_flush_pending_8017d760": "If the object is active (flags bit 31): set the updating bit 30, call virtual +0x44, advance by 'time' with 0x8017e49c, clear bit 30, pass each pending item (vector at +0x263c) to virtual +0x7c, empty the vector, then call 0x803439d8 and 0x8019831c. Returns 0."
+  }
+}

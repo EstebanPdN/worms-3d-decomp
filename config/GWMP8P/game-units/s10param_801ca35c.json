@@ -1,0 +1,17 @@
+{
+  "unit": "s10param_801ca35c",
+  "source": "source/matching/game/generated/s10param_801ca35c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_register_two_arrays_801ca35c": "0x801ca35c",
+    "w3d_s10_register_two_arrays_8023b840": "0x8023b840",
+    "w3d_s10_register_two_arrays_8023c004": "0x8023c004",
+    "w3d_s10_register_two_arrays_8023c578": "0x8023c578"
+  },
+  "descriptions": {
+    "w3d_s10_register_two_arrays_801ca35c": "Lazily constructs and registers two named array property descriptors using one reused local descriptor, then invokes the final registration helper.",
+    "w3d_s10_register_two_arrays_8023b840": "Lazily constructs and registers two named array property descriptors using one reused local descriptor, then invokes the final registration helper.",
+    "w3d_s10_register_two_arrays_8023c004": "Lazily constructs and registers two named array property descriptors using one reused local descriptor, then invokes the final registration helper.",
+    "w3d_s10_register_two_arrays_8023c578": "Lazily constructs and registers two named array property descriptors using one reused local descriptor, then invokes the final registration helper."
+  }
+}

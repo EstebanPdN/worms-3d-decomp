@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c35_slot_vector_802ab630",
+  "source": "source/matching/game/tsonnet_c35/tsonnet_c35_slot_vector_802ab630.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c35_slot_vector_802ab630": "0x802ab630"
+  },
+  "descriptions": {
+    "tsonnet_c35_slot_vector_802ab630": "Looks up the object pointer at slot index of a table at offset 1364; if present, calls a virtual query, a second virtual when the query is non-zero, sends the 3-float vector (a, a, b) with count 3 through a virtual, then calls a final virtual; constants are external originals and names and layouts are inferred."
+  }
+}

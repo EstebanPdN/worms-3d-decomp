@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_gun_wobble_construct_8009daa4",
+  "source": "source/matching/game/d24b/d24b_gun_wobble_construct_8009daa4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_gun_wobble_construct_8009daa4": "0x8009daa4"
+  },
+  "descriptions": {
+    "w3d_d24b_gun_wobble_construct_8009daa4": "Gun wobble constructor: clears retained slots +8, +12, +16, +128, retains the by-value owner in +128 and releases it on return, loads GunWobble.MaxAmp, GunWobble.Period and ActiveWormIndex through one handle (casts 0x80342a74, 0x80342a78, 0x803426b4) into +8, +12, +16, reads GunWobble.Speed, fills eight random phase, amplitude and speed entries at +52, +20, +84 (0x80162bc8) and stamps the engine time (0x80165254) into +116 and +4 with zeroed +120 and +124."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

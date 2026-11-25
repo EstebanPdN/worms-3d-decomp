@@ -1,0 +1,14 @@
+{
+  "unit": "d11a_setup_matrices_801685cc",
+  "source": "source/matching/game/d11a/d11a_setup_matrices_801685cc_v4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d11a_setup_matrices_801685cc": "0x801685cc"
+  },
+  "descriptions": {
+    "d11a_setup_matrices_801685cc": "Construct scale and translation matrices and concatenate them into the renderer, initialize texture and auxiliary matrices, and build the aspect transform from unsigned video height/width with the original quantized conversions and independently decoded float literals."
+  }
+}

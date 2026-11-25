@@ -1,0 +1,17 @@
+{
+  "unit": "s20_small_q",
+  "source": "source/matching/game/s20/s20_small_q.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_forward_if_enabled_800e6834": "0x800e6834",
+    "w3d_s20_apply_list_80161dd4": "0x80161dd4",
+    "w3d_s20_replace_target_80174820": "0x80174820",
+    "w3d_s20_set_block_and_notify_801a0910": "0x801a0910"
+  },
+  "descriptions": {
+    "w3d_s20_forward_if_enabled_800e6834": "Appears to run two helpers when the byte at offset 104 is set and return the second result, otherwise zero.",
+    "w3d_s20_apply_list_80161dd4": "Appears to apply a helper to each entry of a zero-terminated list and return the last negative status, or 0.",
+    "w3d_s20_replace_target_80174820": "Appears to replace the held target, retaining the new one through virtual method 3 and releasing the old one through virtual method 4.",
+    "w3d_s20_set_block_and_notify_801a0910": "Appears to copy a 28-byte block into the object at offset 148, notify through a helper and return zero."
+  }
+}

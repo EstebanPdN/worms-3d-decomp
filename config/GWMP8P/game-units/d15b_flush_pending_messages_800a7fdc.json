@@ -1,0 +1,11 @@
+{
+  "unit": "d15b_flush_pending_messages_800a7fdc",
+  "source": "source/matching/game/d15b/d15b_flush_pending_messages_800a7fdc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_flush_pending_messages_800a7fdc": "0x800a7fdc"
+  },
+  "descriptions": {
+    "d15b_flush_pending_messages_800a7fdc": "When the pending flag is set, send the stored low/high range under one of two cached message names (chosen by a mode bit); then for each entry in the unsigned active window, including inactive entries only when the all-entries bit is set, send every type-3 item's cached message with the two stored values followed by the entry name text (from its second character); finally clear both stored values and the pending flag. Partial observed layouts; cached message keys referenced by address; no owned initialized data."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8transplantall_800b9240",
+  "source": "source/matching/game/s8transplantall_800b9240.c",
+  "language": "c",
+  "functions": {
+    "s8_transplant_800b9240": "0x800b9240"
+  },
+  "descriptions": {
+    "s8_transplant_800b9240": "Appears to implement the observed field accesses and external calls; instantiated from the matched instruction family at 0x801a66c0."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "s5_ballistic_queries",
+  "source": "source/matching/game/s5_ballistic_queries.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ballistic_boundary_query_800d92a8": "0x800d92a8",
+    "w3d_ballistic_deadline_query_800d93d0": "0x800d93d0"
+  },
+  "descriptions": {
+    "w3d_ballistic_boundary_query_800d92a8": "Updates the earliest boundary-crossing time and evaluates ballistic position and velocity there.",
+    "w3d_ballistic_deadline_query_800d93d0": "Reports a clamped deadline, evaluates position and velocity, and returns zero acceleration."
+  }
+}

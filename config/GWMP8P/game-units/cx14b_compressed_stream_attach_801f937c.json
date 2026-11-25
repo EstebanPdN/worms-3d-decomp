@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_compressed_stream_attach_801f937c",
+  "source": "source/matching/game/cx14b/cx14b_compressed_stream_attach_801f937c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_compressed_stream_attach_801f937c": "0x801f937c"
+  },
+  "descriptions": {
+    "w3d_cx14b_compressed_stream_attach_801f937c": "Replace both original held interfaces, preserve decompression bounds and initialize the embedded inflater with the original version and ABI size."
+  }
+}

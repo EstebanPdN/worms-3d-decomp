@@ -1,0 +1,14 @@
+{
+  "unit": "d28e_service_add_8020a474",
+  "source": "source/matching/game/d28e/d28e_service_add_8020a474.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_service_add_8020a474": "0x8020a474"
+  },
+  "descriptions": {
+    "w3d_d28e_service_add_8020a474": "Add an interface to the chain vector at +20: returns 0x80004005 if it is already present, otherwise appends it and retains it. Returns 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

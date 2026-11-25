@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bk_8020b9c0",
+  "source": "source/matching/game/s21/s21_bk_8020b9c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_release_singleton_b_8020b9c0": "0x8020b9c0"
+  },
+  "descriptions": {
+    "w3d_s21_release_singleton_b_8020b9c0": "Appears to release a second global singleton through a virtual slot, clear the global pointer and return zero."
+  }
+}

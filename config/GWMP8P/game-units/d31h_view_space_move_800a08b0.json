@@ -1,0 +1,15 @@
+{
+  "unit": "d31h_view_space_move_800a08b0",
+  "source": "source/matching/game/d31h/d31h_view_space_move_800a08b0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d31h_view_space_move_800a08b0": "0x800a08b0"
+  },
+  "descriptions": {
+    "d31h_view_space_move_800a08b0": "Transforms a point through one view's matrices, adjusts it, brings it back through another view's inverse, and passes it on"
+  }
+}

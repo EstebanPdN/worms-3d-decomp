@@ -1,0 +1,11 @@
+{
+  "unit": "s12_retain_members_801b5d68",
+  "source": "source/matching/game/s12/s12_retain_members.c",
+  "language": "c",
+  "functions": {
+    "w3d_s12_retain_members_801b5d68": "0x801b5d68"
+  },
+  "descriptions": {
+    "w3d_s12_retain_members_801b5d68": "Initializes the base object, installs the observed method table, and initializes five interface fields from a shared global while retaining each non-null value."
+  }
+}

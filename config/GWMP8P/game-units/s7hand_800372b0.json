@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_800372b0",
+  "source": "source/matching/game/s7/s7hand_800372b0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800372b0": "0x800372b0"
+  },
+  "descriptions": {
+    "w3d_auto_800372b0": "Forwards both leading parameters and mode 5 to the base constructor, installs the secondary vtable, clears the vector at +0xd4 and initializes +0xd0 to -1."
+  }
+}

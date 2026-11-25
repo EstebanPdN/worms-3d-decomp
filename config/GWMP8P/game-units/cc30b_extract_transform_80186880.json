@@ -1,0 +1,11 @@
+{
+  "unit": "cc30b_extract_transform_80186880",
+  "source": "source/matching/game/cc30b/cc30b_extract_transform_80186880.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc30b_extract_transform_80186880": "0x80186880"
+  },
+  "descriptions": {
+    "w3d_cc30b_extract_transform_80186880": "Constructs an observed48-byte transform workspace through its trailing vector member, populates orientation with mode0, applies the three stored scale components, and copies the position as raw32-bit words. Copies the48-byte result directly when the virtual query returns zero; otherwise calls the original composition helper with the embedded+56 source. Returns zero. Type names are inferred and original complete class declarations remain unknown."
+  }
+}

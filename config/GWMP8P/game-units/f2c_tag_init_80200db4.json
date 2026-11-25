@@ -1,0 +1,11 @@
+{
+  "unit": "f2c_tag_init_80200db4",
+  "source": "source/matching/game/f2c/f2c_tag_init_80200db4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2c_tag_init_80200db4": "0x80200db4"
+  },
+  "descriptions": {
+    "f2c_tag_init_80200db4": "Initialize the observed tag and seven word pairs, install two vtable addresses and clear four scalar words. Layout, names and unused frame storage purpose inferred."
+  }
+}

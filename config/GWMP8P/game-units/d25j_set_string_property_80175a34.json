@@ -1,0 +1,14 @@
+{
+  "unit": "d25j_set_string_property_80175a34",
+  "source": "source/matching/game/d25j/d25j_set_string_property_80175a34.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25j_set_string_property_80175a34": "0x80175a34"
+  },
+  "descriptions": {
+    "d25j_set_string_property_80175a34": "Creates or updates the kind-4 string property named by the second argument: updates an existing slot under the flag rules (1 allow, 4 skip mode, 8 replace mode), otherwise allocates a 20-byte property, stores it with retain/release, sets value, name, mode and masked flags, decrements the free count and increments the global created counter; returns 0 or 0x80004005."
+  }
+}

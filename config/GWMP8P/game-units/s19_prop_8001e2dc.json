@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_8001e2dc",
+  "source": "source/matching/game/s19/s19_prop_8001e2dc.c",
+  "language": "c",
+  "functions": {
+    "s19_hop_test_height_8001e2dc": "0x8001e2dc"
+  },
+  "descriptions": {
+    "s19_hop_test_height_8001e2dc": "Appears to return the Worm.HopTest.Height property scaled by one half."
+  }
+}

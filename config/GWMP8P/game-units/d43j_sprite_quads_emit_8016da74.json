@@ -1,0 +1,20 @@
+{
+  "unit": "d43j_sprite_quads_emit_8016da74",
+  "source": "source/matching/game/d43j/d43j_sprite_quads_emit_8016da74.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "sprite_quads_emit_8016da74": "0x8016da74"
+  },
+  "descriptions": {
+    "sprite_quads_emit_8016da74": "Emits one textured coloured world-transformed quad per sprite to the GX FIFO, with optional sine-table rotation, per-sprite colour and alpha, and optional frame ids."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

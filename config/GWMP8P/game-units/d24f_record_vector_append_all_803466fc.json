@@ -1,0 +1,20 @@
+{
+  "unit": "d24f_record_vector_append_all_803466fc",
+  "source": "source/matching/game/d24f/d24f_record_vector_append_all_803466fc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching/game/d24f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d24f_record_vector_append_all_803466fc": "0x803466fc"
+  },
+  "descriptions": {
+    "d24f_record_vector_append_all_803466fc": "Appends every 16-byte record (halfword, word, table 0x804104e0, shared string) of the source vector to this vector, growing through 0x80212fd4/0x803413d8 when full and destroying the old strings before releasing storage via 0x802134fc. Then destroys the source records and empties the source vector."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_descriptor_apply_80187158",
+  "source": "source/matching/game/cx16b/cx16b_descriptor_apply_80187158.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_descriptor_apply_80187158": "0x80187158"
+  },
+  "descriptions": {
+    "w3d_cx16b_descriptor_apply_80187158": "Copies observed descriptor fields and chooses the active short-pair using flag 32, clearing the unused pair with source order matched to the original stores."
+  }
+}

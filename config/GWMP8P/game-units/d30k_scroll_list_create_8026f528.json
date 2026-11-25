@@ -1,0 +1,14 @@
+{
+  "unit": "d30k_scroll_list_create_8026f528",
+  "source": "source/matching/game/d30k/d30k_scroll_list_create_8026f528.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d30k_scroll_list_create_8026f528": "0x8026f528"
+  },
+  "descriptions": {
+    "w3d_d30k_scroll_list_create_8026f528": "Creates and configures the text box scroll list the first time it is needed."
+  }
+}

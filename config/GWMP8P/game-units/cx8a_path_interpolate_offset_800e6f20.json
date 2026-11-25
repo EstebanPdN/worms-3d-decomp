@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_path_interpolate_offset_800e6f20",
+  "source": "source/matching/game/cx8a/cx8a_path_interpolate_offset_800e6f20.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_path_interpolate_offset_800e6f20": "0x800e6f20"
+  },
+  "descriptions": {
+    "w3d_cx8a_path_interpolate_offset_800e6f20": "Copy base vector, interpolate displacement vectors +0x8c/+0x98 between unsigned tick fields +0x64/+0xa4, and add the displacement to output."
+  }
+}

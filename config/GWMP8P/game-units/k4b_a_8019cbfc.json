@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_8019cbfc",
+  "source": "source/matching/game/k4b/k4b_a_8019cbfc.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_dual_component_construct_8019cbfc": "0x8019cbfc"
+  },
+  "descriptions": {
+    "w3d_k4b_dual_component_construct_8019cbfc": "Appears to construct a component with two range/link member pairs: base vtable, member at +4 via 0x801e81c8, derived vtable 0x80413680, then zeroed fields."
+  }
+}

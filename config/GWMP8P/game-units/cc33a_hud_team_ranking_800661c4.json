@@ -1,0 +1,11 @@
+{
+  "unit": "cc33a_hud_team_ranking_800661c4",
+  "source": "source/matching/game/cc33a/cc33a_hud_team_ranking_800661c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc33a_hud_team_ranking_800661c4": "0x800661c4"
+  },
+  "descriptions": {
+    "cc33a_hud_team_ranking_800661c4": "Accumulate active-player team totals, exclude disabled teams, sort team ids descending and publish rank adjusted by positive-team count."
+  }
+}

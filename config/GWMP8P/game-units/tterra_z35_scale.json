@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_z35_scale",
+  "source": "source/matching/game/tterra_z35/tterra_z35_scale.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_z35_scale_8000b344": "0x8000b344"
+  },
+  "descriptions": {
+    "tterra_z35_scale_8000b344": "Experimental reconstruction of observed scale operation; prefix views and externs remain provisional."
+  }
+}

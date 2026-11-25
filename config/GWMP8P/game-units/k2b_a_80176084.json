@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_80176084",
+  "source": "source/matching/game/k2b/k2b_a_80176084.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_apply_items_80176084": "0x80176084"
+  },
+  "descriptions": {
+    "w3d_k2b_apply_items_80176084": "Appears to apply each item of an array through a virtual handler and return the last negative status, else zero."
+  }
+}

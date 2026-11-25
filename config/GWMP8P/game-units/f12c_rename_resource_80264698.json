@@ -1,0 +1,11 @@
+{
+  "unit": "f12c_rename_resource_80264698",
+  "source": "source/matching/game/f12c/f12c_rename_resource_80264698.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f12c_rename_resource_80264698": "0x80264698"
+  },
+  "descriptions": {
+    "w3d_f12c_rename_resource_80264698": "Under the original engine flag8 and nonempty-name/resource guards, acquire an interface through the owned descriptor tagged58280, retain the temporary and conditionally assign a nonnull interface to the local held slot. Reject state1 or an empty existing text, otherwise construct and assign the shared replacement text with original header refcount ownership. Native external descriptor destruction receives in-charge2, and both early/normal returns clean up the held interface and descriptor. All layouts and resource roles are inferred partial views; no complete external class or initialized-data ownership is claimed."
+  }
+}

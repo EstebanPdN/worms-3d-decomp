@@ -1,0 +1,1 @@
+{"unit":"terra_only_c10_zip_801f8568","source":"source/matching/game/terra_only_c10/terra_only_c10_zip_801f8568.c","language":"c","functions":{"terra_only_c10_zip_801f8568":"0x801f8568"},"descriptions":{"terra_only_c10_zip_801f8568":"Normalizes a path, looks up an entry and attaches a compressed stream; field names and types are provisional."}}

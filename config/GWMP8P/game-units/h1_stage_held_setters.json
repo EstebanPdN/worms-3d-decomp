@@ -1,0 +1,29 @@
+{
+  "unit": "h1_stage_held_setters",
+  "source": "source/matching/game/h1/h1_stage_held_setters.c",
+  "language": "c",
+  "functions": {
+    "w3d_stage_set_flag_8034870c": "0x8034870c",
+    "w3d_stage_set_flag_803499f0": "0x803499f0",
+    "w3d_stage_set_slot_80348878": "0x80348878",
+    "w3d_stage_set_slot_80349b5c": "0x80349b5c",
+    "w3d_stage_set_first_80348c80": "0x80348c80",
+    "w3d_stage_set_first_80349f74": "0x80349f74",
+    "w3d_stage_set_second_80348d04": "0x80348d04",
+    "w3d_stage_set_second_80349ff8": "0x80349ff8",
+    "w3d_stage_set_third_80348d98": "0x80348d98",
+    "w3d_stage_set_third_8034a08c": "0x8034a08c"
+  },
+  "descriptions": {
+    "w3d_stage_set_flag_8034870c": "Stores flag in bit 30 of the word at +0x30 and passes value to the child interface's slot 0x34; returns 0.",
+    "w3d_stage_set_flag_803499f0": "Stores flag in bit 30 of the word at +0x30 and passes value to the child interface's slot 0x34; returns 0.",
+    "w3d_stage_set_slot_80348878": "Retains value, releases the interface in slots[index] and stores value there; returns 0.",
+    "w3d_stage_set_slot_80349b5c": "Retains value, releases the interface in slots[index] and stores value there; returns 0.",
+    "w3d_stage_set_first_80348c80": "Retains value, releases the interface at +0x04 of stage entry index and stores value there; returns 0.",
+    "w3d_stage_set_first_80349f74": "Retains value, releases the interface at +0x04 of stage entry index and stores value there; returns 0.",
+    "w3d_stage_set_second_80348d04": "Retains value, releases the interface at +0x0c of stage entry index and stores value there; returns 0.",
+    "w3d_stage_set_second_80349ff8": "Retains value, releases the interface at +0x0c of stage entry index and stores value there; returns 0.",
+    "w3d_stage_set_third_80348d98": "Retains value, releases the interface at +0x08 of stage entry index and stores value there; returns 0.",
+    "w3d_stage_set_third_8034a08c": "Retains value, releases the interface at +0x08 of stage entry index and stores value there; returns 0."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_label_text_802b1714",
+  "source": "source/matching/game/d24l/d24l_label_text_802b1714.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_label_text_802b1714": "0x802b1714"
+  },
+  "descriptions": {
+    "d24l_label_text_802b1714": "Refreshes a label's text: when the error string +80 is set and bit 0x40000000 of flags +188 at 0x804b1788 is on, shows that error. Otherwise copies the text name at +68 of the +12 context and, unless it is '<NO_CHANGE>', shows the looked-up text resource, an 'ERROR: No such Text Resource' message when the lookup fails, or an empty string when the name is empty."
+  }
+}

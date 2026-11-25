@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_body_predict_position_800196dc",
+  "source": "source/matching/game/k5a/k5a_body_predict_position_800196dc.cpp",
+  "language": "cpp",
+  "functions": {"k5a_body_predict_position_800196dc": "0x800196dc"},
+  "descriptions": {"k5a_body_predict_position_800196dc": "Appears to predict a body position by adding its velocity scaled by a time step, defaulting to the global step."}
+}

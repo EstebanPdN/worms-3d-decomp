@@ -1,0 +1,15 @@
+{
+  "unit": "d26f_edit_page_a_80273dc4",
+  "source": "source/matching/game/d26f/d26f_edit_page_a_80273dc4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26f_edit_page_a_80273dc4": "0x80273dc4"
+  },
+  "descriptions": {
+    "d26f_edit_page_a_80273dc4": "Builds and writes this control's debug edit page text."
+  }
+}

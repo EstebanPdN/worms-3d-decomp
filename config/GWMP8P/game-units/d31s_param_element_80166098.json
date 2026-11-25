@@ -1,0 +1,21 @@
+{
+  "unit": "d31s_param_element_80166098",
+  "source": "source/matching/game/d31s/d31s_param_element_80166098.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching",
+    "source/matching/game/d31s"
+  ],
+  "functions": {
+    "set_element__9D31sOwnerP10D31sTargetii": "0x80166098"
+  },
+  "descriptions": {
+    "set_element__9D31sOwnerP10D31sTargetii": "Updates one element of the item bound to the target, or appends and binds a type 2 item holding it."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

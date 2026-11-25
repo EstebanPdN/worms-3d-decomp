@@ -1,0 +1,7 @@
+{
+  "unit": "d24h_find_movie_800c6100",
+  "source": "source/matching/game/d24h/d24h_find_movie_800c6100.cpp",
+  "language": "cpp",
+  "functions": {"w3d_d24h_find_movie_800c6100": "0x800c6100"},
+  "descriptions": {"w3d_d24h_find_movie_800c6100": "Movie category lookup: selects the 12-byte record table for the TV format (0x80304de0; table 0x803f5728 for format 1, 0x803f58b4 for 0 and 2, panic at line 300 otherwise), scans until an empty name or category 29, and returns the category of the record whose name compares equal, or 29."}
+}

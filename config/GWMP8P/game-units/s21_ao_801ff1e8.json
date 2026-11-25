@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ao_801ff1e8",
+  "source": "source/matching/game/s21/s21_ao_801ff1e8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_double_format_801ff1e8": "0x801ff1e8"
+  },
+  "descriptions": {
+    "w3d_s21_double_format_801ff1e8": "Appears to format a double read through a pointer into the output string with a global format string, returning zero."
+  }
+}

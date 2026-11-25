@@ -1,0 +1,13 @@
+{
+  "unit": "s1_ray_math",
+  "source": "source/matching/game/s1_ray_math.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80041838": "0x80041838",
+    "w3d_fn_800419cc": "0x800419cc"
+  },
+  "descriptions": {
+    "w3d_fn_80041838": "Copies a selected sphere position and radius into the current query state and updates its context.",
+    "w3d_fn_800419cc": "Appears to solve vertical motion for a target height and return a usable intersection time."
+  }
+}

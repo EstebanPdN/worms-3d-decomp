@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_clear_ten_handles_800a3e84",
+  "source": "source/matching/game/cx12a/cx12a_clear_ten_handles_800a3e84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_clear_ten_handles_800a3e84": "0x800a3e84"
+  },
+  "descriptions": {
+    "w3d_cx12a_clear_ten_handles_800a3e84": "Resolve and destroy ten optional handles, then reset every handle slot to the observed invalid sentinel; names inferred."
+  }
+}

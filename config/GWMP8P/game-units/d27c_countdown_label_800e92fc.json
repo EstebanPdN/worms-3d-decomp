@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_countdown_label_800e92fc",
+  "source": "source/matching/game/d27c/d27c_countdown_label_800e92fc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_countdown_label_800e92fc": "0x800e92fc"
+  },
+  "descriptions": {
+    "d27c_countdown_label_800e92fc": "Update an object's on-screen countdown label: position, seconds text and colour."
+  }
+}

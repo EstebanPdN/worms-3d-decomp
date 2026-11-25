@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_three_trees_clear_801d2e04",
+  "source": "source/matching/game/cx16b/cx16b_three_trees_clear_801d2e04.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_three_trees_clear_801d2e04": "0x801d2e04"
+  },
+  "descriptions": {
+    "w3d_cx16b_three_trees_clear_801d2e04": "Empties three observed embedded trees, restores each sentinel left/right self-link and null parent with intervening header reloads, resets the counts and returns success."
+  }
+}

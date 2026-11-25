@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_rope_unwind_segment_800d13d0",
+  "source": "source/matching/game/d27c/d27c_rope_unwind_segment_800d13d0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_rope_unwind_segment_800d13d0": "0x800d13d0"
+  },
+  "descriptions": {
+    "d27c_rope_unwind_segment_800d13d0": "Pop a rope's last anchor segment when the path back to the previous anchor is clear."
+  }
+}

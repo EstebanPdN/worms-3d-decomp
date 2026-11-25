@@ -1,0 +1,11 @@
+{
+  "unit": "g8a_release_channel_locks_8016b040",
+  "source": "source/matching/game/g8a/g8a_release_channel_locks_8016b040.cpp",
+  "language": "cpp",
+  "functions": {
+    "g8a_release_channel_locks_8016b040": "0x8016b040"
+  },
+  "descriptions": {
+    "g8a_release_channel_locks_8016b040": "Releases selected channel array locks for an external owner and clears corresponding cached lock words and active marker. Chooses original lock modes1/2 using state bits29..26, with selected masks3/12/48/384; aggregate path uses bit30 and observed count guard. Single-owner empty-array fast path increments16-bit lock count at header28; otherwise calls original array lock801ef048 with start0 and stride8. Partial external views are never constructed locally; no owned data."
+  }
+}

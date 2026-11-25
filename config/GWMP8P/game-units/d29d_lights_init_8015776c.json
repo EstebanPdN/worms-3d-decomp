@@ -1,0 +1,15 @@
+{
+  "unit": "d29d_lights_init_8015776c",
+  "source": "source/matching/game/d29d/d29d_lights_init_8015776c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29d_lights_init_8015776c": "0x8015776c"
+  },
+  "descriptions": {
+    "d29d_lights_init_8015776c": "Creates the sixteen numbered light slots: initialises three static colours and directions once each behind their guards, normalises the direction, then for each index creates two lights from the descriptor at 0x80414a90 with those values, registers them as WormLight.%d and WeaponLight.%d with the engine's manager, then sets a service mode and clears a flag."
+  }
+}

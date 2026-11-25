@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_movie_play_802e0db8",
+  "source": "source/matching/game/cx12b/cx12b_movie_play_802e0db8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_movie_play_802e0db8": "0x802e0db8"
+  },
+  "descriptions": {
+    "w3d_cx12b_movie_play_802e0db8": "Require initialized movie state, notify the disc monitor and preload when the original playback state requires it."
+  }
+}

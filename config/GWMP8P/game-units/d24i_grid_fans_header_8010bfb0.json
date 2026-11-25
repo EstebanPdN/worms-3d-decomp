@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_grid_fans_header_8010bfb0",
+  "source": "source/matching/game/d24i/d24i_grid_fans_header_8010bfb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_grid_fans_header_8010bfb0": "0x8010bfb0"
+  },
+  "descriptions": {
+    "d24i_grid_fans_header_8010bfb0": "Forward two-pass grid fan scan: seeks the run-length cursor at +28 to the layer start, then for each cell seeks it and reads the cell flags from the grid; type 16 draws a triangle fan (0x8010b318) from corner heights after a 4-byte header, type 17 draws corner triangles whose neighbour low-nibble type (0x8010b57c) matches; a height of 0xffff is absent; the first pass draws the near half, the second the far half."
+  }
+}

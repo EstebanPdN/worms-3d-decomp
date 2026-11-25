@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_load_table_menu_80050aa0",
+  "source": "source/matching/game/d24g/d24g_load_table_menu_80050aa0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_load_table_menu_80050aa0": "0x80050aa0"
+  },
+  "descriptions": {
+    "w3d_d24g_load_table_menu_80050aa0": "Load-data table menu text: writes the introduction, a line per save bank (14 banks), a positioned prompt and the current loading format (Binary, XML, or Unknown, which resets the format to XML), then writes it to the sink and moves to state 4."
+  }
+}

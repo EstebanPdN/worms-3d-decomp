@@ -1,0 +1,15 @@
+{
+  "unit": "s1_data_console_verified",
+  "source": "source/matching/game/s1_data_console_verified.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004fc60": "0x8004fc60",
+    "w3d_fn_8004fcc4": "0x8004fcc4",
+    "w3d_fn_800504d0": "0x800504d0"
+  },
+  "descriptions": {
+    "w3d_fn_8004fc60": "Initializes the data console after its base message handler succeeds.",
+    "w3d_fn_8004fcc4": "Processes console input and returns the next update delay.",
+    "w3d_fn_800504d0": "Compares two listed objects by their virtual name strings."
+  }
+}

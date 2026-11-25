@@ -1,0 +1,11 @@
+{
+  "unit": "s19_cell_800bd9d0",
+  "source": "source/matching/game/s19/s19_cell_800bd9d0.c",
+  "language": "c",
+  "functions": {
+    "s19_apply_cell_800bd9d0": "0x800bd9d0"
+  },
+  "descriptions": {
+    "s19_apply_cell_800bd9d0": "Appears to apply the packed three-byte cell coordinate to the indexed context unless the converted global handle query succeeds."
+  }
+}

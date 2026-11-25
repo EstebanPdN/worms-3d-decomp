@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_hit_shrunken_8026ff6c",
+  "source": "source/matching/game/f1p/f1p_hit_shrunken_8026ff6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hit_shrunken_8026ff6c": "0x8026ff6c"
+  },
+  "descriptions": {
+    "w3d_hit_shrunken_8026ff6c": "After active guard, forwards mode zero to the original panel dispatcher; otherwise obtains center and extent vectors, shrinks the vertical half-extent by +0xfc, adjusts horizontal extent/center depending on +0x124 and original scale 0x803cbf44, and performs inclusive x/y comparisons. Exact caller ABI instructions and float rounding; portable cross-module types remain inferred."
+  }
+}

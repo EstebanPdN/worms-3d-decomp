@@ -1,0 +1,11 @@
+{
+  "unit": "s9forward_8013f038",
+  "source": "source/matching/game/auto/s9forward_8013f038.c",
+  "language": "c",
+  "functions": {
+    "s9_create_tail_effect_8013f038": "0x8013f038"
+  },
+  "descriptions": {
+    "s9_create_tail_effect_8013f038": "Updates the actor and creates the named tail particle effect from its owner, saving the returned effect handle."
+  }
+}

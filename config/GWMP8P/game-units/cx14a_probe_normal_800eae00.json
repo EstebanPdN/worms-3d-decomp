@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_probe_normal_800eae00",
+  "source": "source/matching/game/cx14a/cx14a_probe_normal_800eae00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_probe_normal_800eae00": "0x800eae00"
+  },
+  "descriptions": {
+    "w3d_cx14a_probe_normal_800eae00": "Traces a twenty-unit segment with a copied bias vector, stores the hit position, selects a default hit normal when needed, normalizes that normal, and reports whether the recorded distance is within the segment."
+  }
+}

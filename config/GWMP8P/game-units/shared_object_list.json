@@ -1,0 +1,14 @@
+{
+  "unit": "shared_object_list",
+  "source": "source/matching/game/shared_object_list.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_shared_object_set_mode": "0x802c6924",
+    "w3d_shared_object_mark_state5": "0x802c6954",
+    "w3d_shared_list_get": "0x802c69ec",
+    "w3d_shared_list_unlink": "0x802c69f8",
+    "w3d_shared_object_create": "0x802c6a3c",
+    "w3d_shared_object_release": "0x802c6a9c",
+    "w3d_shared_object_retain": "0x802c6af8"
+  }
+}

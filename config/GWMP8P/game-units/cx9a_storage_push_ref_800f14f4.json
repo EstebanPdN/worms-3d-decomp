@@ -1,0 +1,11 @@
+{
+  "unit": "cx9a_storage_push_ref_800f14f4",
+  "source": "source/matching/game/cx9a/cx9a_storage_push_ref_800f14f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9a_storage_push_ref_800f14f4": "0x800f14f4"
+  },
+  "descriptions": {
+    "w3d_cx9a_storage_push_ref_800f14f4": "Append a referenced word to inferred raw-storage vector +0/+4/+8; grow using max(used+1,used+used/2)*4 and preserve bytes before releasing old storage."
+  }
+}

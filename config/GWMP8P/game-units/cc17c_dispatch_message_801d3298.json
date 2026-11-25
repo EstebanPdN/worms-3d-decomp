@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_dispatch_message_801d3298",
+  "source": "source/matching/game/cc17c/cc17c_dispatch_message_801d3298.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_dispatch_message_801d3298": "0x801d3298"
+  },
+  "descriptions": {
+    "w3d_cc17c_dispatch_message_801d3298": "Refreshes the dispatcher's state word and handler table through its virtual slots, then runs begin, the handler selected by the message's 16-bit index (on the embedded part at +4) and end; maps 0x90000005 to 0, other non-negative results to 0x80004005 and passes failures through."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d41d_worm_attachment_animation_801388cc",
+  "source": "source/matching/game/d41d/d41d_worm_attachment_animation_801388cc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d41d_worm_attachment_animation_801388cc": "0x801388cc"
+  },
+  "descriptions": {
+    "w3d_d41d_worm_attachment_animation_801388cc": "Looks up the worm's weapon resource by weapon type; if it is the wanted class and its name is not empty, prepares the worm and forwards the attachment name and sets field 568 with the result; then, for the attachment if any and for the mesh, plays the animation named by a local that is always null."
+  }
+}

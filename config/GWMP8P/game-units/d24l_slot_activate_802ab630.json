@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_slot_activate_802ab630",
+  "source": "source/matching/game/d24l/d24l_slot_activate_802ab630.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_slot_activate_802ab630": "0x802ab630"
+  },
+  "descriptions": {
+    "d24l_slot_activate_802ab630": "When the one-word slot at +1364[i] holds an object: calls its virtual +24 if its virtual +36 reports true, then calls +56 with channel 3 and the vector (0,0,1) and finally +20."
+  }
+}

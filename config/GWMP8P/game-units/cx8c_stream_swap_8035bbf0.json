@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_stream_swap_8035bbf0",
+  "source": "source/matching/game/cx8c/cx8c_stream_swap_8035bbf0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_stream_swap_8035bbf0": "0x8035bbf0"
+  },
+  "descriptions": {
+    "w3d_cx8c_stream_swap_8035bbf0": "Byte-swaps 16-bit elements, transfers their bytes through the original stream helper, and restores buffer byte order."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_actor_restricted_8009d7e4",
+  "source": "source/matching/game/k2a/k2a_actor_restricted_8009d7e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_actor_restricted_8009d7e4": "0x8009d7e4"
+  },
+  "descriptions": {
+    "k2a_actor_restricted_8009d7e4": "Appears to report whether the active turn actor is restricted or the held object's override flag is set, copying the actor position into an unused local."
+  }
+}

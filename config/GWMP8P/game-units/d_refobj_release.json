@@ -1,0 +1,31 @@
+{
+  "unit": "d_refobj_release",
+  "source": "source/matching/game/d_refobj_release.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_counted_release_80240124": "0x80240124",
+    "w3d_counted_release_80240180": "0x80240180",
+    "w3d_counted_release_802401dc": "0x802401dc",
+    "w3d_counted_release_80240238": "0x80240238",
+    "w3d_counted_hook_80240294": "0x80240294",
+    "w3d_counted_release_80240298": "0x80240298",
+    "w3d_counted_hook_802402f4": "0x802402f4",
+    "w3d_counted_release_802402f8": "0x802402f8",
+    "w3d_counted_release_80240354": "0x80240354",
+    "w3d_counted_release_802403b0": "0x802403b0",
+    "w3d_counted_release_8024040c": "0x8024040c"
+  },
+  "descriptions": {
+    "w3d_counted_release_80240124": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_release_80240180": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_release_802401dc": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_release_80240238": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_hook_80240294": "Does nothing; likely an empty default hook or stub.",
+    "w3d_counted_release_80240298": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_hook_802402f4": "Does nothing; likely an empty default hook or stub.",
+    "w3d_counted_release_802402f8": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_release_80240354": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_release_802403b0": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count.",
+    "w3d_counted_release_8024040c": "Drops the object's 16-bit reference count; at zero it unlinks the object and destroys it. Returns the new count."
+  }
+}

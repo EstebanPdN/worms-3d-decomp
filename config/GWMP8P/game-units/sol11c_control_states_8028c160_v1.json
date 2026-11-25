@@ -1,0 +1,11 @@
+{
+  "unit": "sol11c_control_states_8028c160_v1",
+  "source": "source/matching/game/sol11c/sol11c_control_states_8028c160_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11c_control_states_8028c160": "0x8028c160"
+  },
+  "descriptions": {
+    "sol11c_control_states_8028c160": "Updates three child-control states and their companion handles from owner flags, then copies a color value and overrides its final channel when the second flag is set. Partial engine fields remain borrowed GameCube ABI views."
+  }
+}

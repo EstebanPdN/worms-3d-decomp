@@ -1,0 +1,14 @@
+{
+  "unit": "d25c_oil_drum_check_800d6424",
+  "source": "source/matching/game/d25c/d25c_oil_drum_check_800d6424.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25c_oil_drum_check_800d6424": "0x800d6424"
+  },
+  "descriptions": {
+    "d25c_oil_drum_check_800d6424": "Copy the position at +28 and raise it by 9. Square-compare its distance to the motion's position against the product of two radius reads each plus 9. When inside: set +120, store the engine time at +128 and if the object is-a 0x80361860 or 0x803618f0 report the message through 0x80022e20 with OilDrumLogicEntity.cpp, line 289 and the data at +132."
+  }
+}

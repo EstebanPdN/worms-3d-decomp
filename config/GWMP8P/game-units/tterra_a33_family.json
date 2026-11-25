@@ -1,0 +1,13 @@
+{
+  "unit": "tterra_a33_family",
+  "source": "source/matching/game/tterra_a33/tterra_a33_family.c",
+  "language": "c",
+  "functions": {
+    "tterra_a33_8004fda4": "0x8004fda4",
+    "tterra_a33_80098f24": "0x80098f24"
+  },
+  "descriptions": {
+    "tterra_a33_8004fda4": "Build text from a null-terminated pointer table and write it to a sink.",
+    "tterra_a33_80098f24": "Build text from a null-terminated pointer table and write it to a sink."
+  }
+}

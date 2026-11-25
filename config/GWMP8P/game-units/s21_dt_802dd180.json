@@ -1,0 +1,14 @@
+{
+  "unit": "s21_dt_802dd180",
+  "source": "source/matching/game/s21/s21_dt_802dd180.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_opt_number_802dd180": "0x802dd180"
+  },
+  "descriptions": {
+    "w3d_s21_opt_number_802dd180": "Appears to be a Lua optional-number argument reader: it returns the supplied default when the argument is absent or nil, else the checked number."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

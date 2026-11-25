@@ -1,0 +1,11 @@
+{
+  "unit": "s11flow_802e32d4",
+  "source": "source/matching/game/s11_auto/s11flow_802e32d4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802e32d4": "0x802e32d4"
+  },
+  "descriptions": {
+    "w3d_auto_802e32d4": "Appears to updates or returns values using the operations shown in the source. m2c types and names are provisional."
+  }
+}

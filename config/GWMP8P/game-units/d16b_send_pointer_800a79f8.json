@@ -1,0 +1,14 @@
+{
+  "unit": "d16b_send_pointer_800a79f8",
+  "source": "source/matching/game/d16b/d16b_send_pointer_800a79f8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d16b_send_pointer_800a79f8": "0x800a79f8"
+  },
+  "descriptions": {
+    "d16b_send_pointer_800a79f8": "Divide the pointer x by 320 and y by 240, store the normalised pair in the shared cursor object (offsets 32 and 36), allocate a 36-byte vector input message from the message arena, fill it as id 4100 with the original message type, mode 0, value 8, zero first/second/flag and the normalised x, y with z 0.0, and dispatch it through the state's message handler 0x800a6c80. Partial observed layouts; arena, cursor object and message type referenced by address; owns the 12-byte literal pool 0x803814d0..0x803814db (320.0f, 240.0f, 0.0f). Compiled with the original paired-single float switch -mps-float (reserves the FPR pair frame slots)."
+  }
+}

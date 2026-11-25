@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fu_801fa5c0",
+  "source": "source/matching/game/s21/s21_fu_801fa5c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_submit_b_801fa5c0": "0x801fa5c0"
+  },
+  "descriptions": {
+    "w3d_s21_submit_b_801fa5c0": "Appears to copy a five-word request, accept type two or three (mapping three to two) and forward it with the first argument through a lookup helper, or return 0x80004005 for other types."
+  }
+}

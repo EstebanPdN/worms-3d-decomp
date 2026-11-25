@@ -1,0 +1,13 @@
+{
+  "unit": "s4_image_state",
+  "source": "source/matching/game/s4_image_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_image_construct": "0x8028cde0",
+    "w3d_s4_image_visibility": "0x8028d34c"
+  },
+  "descriptions": {
+    "w3d_s4_image_construct": "Initializes the image controller base, two child handles, and state fields.",
+    "w3d_s4_image_visibility": "Sets two child visibility states from the enabled flag and its inverse."
+  }
+}

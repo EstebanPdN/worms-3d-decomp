@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fg_801ec650",
+  "source": "source/matching/game/s21/s21_fg_801ec650.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_read_set_double_801ec650": "0x801ec650"
+  },
+  "descriptions": {
+    "w3d_s21_read_set_double_801ec650": "Appears to read a double through the stream's virtual slot 18 and pass it to a bound member-function pointer on the target object, returning the read status."
+  }
+}

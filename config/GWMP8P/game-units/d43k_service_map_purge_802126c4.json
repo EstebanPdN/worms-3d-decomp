@@ -1,0 +1,20 @@
+{
+  "unit": "d43k_service_map_purge_802126c4",
+  "source": "source/matching/game/d43k/d43k_service_map_purge_802126c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43k_service_map_purge_802126c4": "0x802126c4"
+  },
+  "descriptions": {
+    "w3d_d43k_service_map_purge_802126c4": "Repeatedly purges a service registry: keeps entries whose object has another reference, releases the rest, and repeats until a pass drops nothing. Returns 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ]
+}

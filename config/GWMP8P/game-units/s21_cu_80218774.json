@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cu_80218774",
+  "source": "source/matching/game/s21/s21_cu_80218774.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_assign_text_80218774": "0x80218774"
+  },
+  "descriptions": {
+    "w3d_s21_assign_text_80218774": "Appears to assign a shared string pointer from the third argument into the field at offset 24, adjusting reference counts and releasing the old header at zero."
+  }
+}

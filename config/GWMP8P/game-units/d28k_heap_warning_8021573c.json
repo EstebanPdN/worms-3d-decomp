@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_warning_8021573c",
+  "source": "source/matching/game/d28k/d28k_heap_warning_8021573c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_warning_8021573c": "0x8021573c"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_warning_8021573c": "Heap diagnostic: formats type, region, block, reason, bad byte and file/line into a 1024-byte message and writes it."
+  }
+}

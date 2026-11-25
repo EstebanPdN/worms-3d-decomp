@@ -1,0 +1,11 @@
+{
+  "unit": "cc33a_hud_remaining_totals_800663a8",
+  "source": "source/matching/game/cc33a/cc33a_hud_remaining_totals_800663a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc33a_hud_remaining_totals_800663a8": "0x800663a8"
+  },
+  "descriptions": {
+    "cc33a_hud_remaining_totals_800663a8": "Accumulate positive remaining player totals per team, clear disabled teams and publish each total to its HUD object."
+  }
+}

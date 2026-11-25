@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_aligned_allocate_80213a8c",
+  "source": "source/matching/game/g5c/g5c_aligned_allocate_80213a8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_aligned_allocate_80213a8c": "0x80213a8c"
+  },
+  "descriptions": {
+    "g5c_aligned_allocate_80213a8c": "Allocates aligned native heap storage. Alignments up to8 delegate to the original allocator; larger requests normalize alignment to a power of two of at least16 and round the chunk size to the observed minimum16/eight-byte boundary. Oversized byte counts set original errno12. Overallocates, splits and releases a leading fragment when required, preserves mapped-chunk predecessor metadata for flag2, then releases a trailing fragment when larger than16. Uses byte cursors through externally allocated variable-sized chunks; constructs no local aggregate and owns no initialized data. Allocator and chunk roles are inferred."
+  }
+}

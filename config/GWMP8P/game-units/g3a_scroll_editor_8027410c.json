@@ -1,0 +1,11 @@
+{
+  "unit": "g3a_scroll_editor_8027410c",
+  "source": "source/matching/game/g3a/g3a_scroll_editor_8027410c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g3a_scroll_editor_8027410c": "0x8027410c"
+  },
+  "descriptions": {
+    "w3d_g3a_scroll_editor_8027410c": "Builds the scroll-list editor page, shows highlighted and selected message names, reads border colour through a tagged string-reader descriptor and writes the completed prompt to the script sink. Scoped reader, descriptor and string lifetimes release retained interfaces in reverse order. External editor and property layouts are partial pointer views."
+  }
+}

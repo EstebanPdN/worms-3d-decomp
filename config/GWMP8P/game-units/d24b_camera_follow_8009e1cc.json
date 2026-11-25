@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_camera_follow_8009e1cc",
+  "source": "source/matching/game/d24b/d24b_camera_follow_8009e1cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_camera_follow_8009e1cc": "0x8009e1cc"
+  },
+  "descriptions": {
+    "w3d_d24b_camera_follow_8009e1cc": "Camera follow step: for an active worm (index setting +56 at most 16, flag +220 of 0x800fc6dc) whose height exceeds setting +64 minus +84, copies its position +80 to +4, adds setting +76, computes the forward vector +88 from pitch and yaw with their offsets (+68, +116, +144, +148), blends the direction +100 towards it by setting +80, places the eye +16 at position plus direction, rebuilds the normalized side vector by a cross product and blends the up vector +28."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

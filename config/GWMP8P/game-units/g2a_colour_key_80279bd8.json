@@ -1,0 +1,11 @@
+{
+  "unit": "g2a_colour_key_80279bd8",
+  "source": "source/matching/game/g2a/g2a_colour_key_80279bd8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g2a_colour_key_80279bd8": "0x80279bd8"
+  },
+  "descriptions": {
+    "w3d_g2a_colour_key_80279bd8": "Handles upper- and lowercase R/G/B/A in the colour editor by composing the selected channel prompt and cursor position, storing channel index zero through three and clearing the script input flag. Escape dispatches the previous state. Resolves the current vector entry before key handling; writes nonempty output to the script sink and destroys the scoped shared string. UI meanings are inferred from original prompt strings; the external editor remains a partial view."
+  }
+}

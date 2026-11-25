@@ -1,0 +1,11 @@
+{
+  "unit": "g6a_construct_resource_service_8016fc7c",
+  "source": "source/matching/game/g6a/g6a_construct_resource_service_8016fc7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g6a_construct_resource_service_8016fc7c": "0x8016fc7c"
+  },
+  "descriptions": {
+    "g6a_construct_resource_service_8016fc7c": "Constructs an external resource service: invokes base801902e8, installs vtable80412008, initializes two distinct12-byte storage subobjects52 and64 via802109dc and clears76. On first shared instance, acquires12 descriptor-selected services into original held slots804b0124..804b0150, retaining replacements and releasing previous values; sets typed resource fields, marks native8-byte status subobjects at+4 dirty/active, including literal float0 at0130 receiver+24. Increments shared804b1898 and allocates28-byte state with observed initialized words0,4,12,16,20,24 and untouched unknown8. Source remains an unverified near miss: six frame instructions differ by8 stack bytes. No readiness or text-coverage claim. External views are partial and never locally constructed. Heap-state member grouping is inferred from original +8/+16 access bases, not complete original class identity."
+  }
+}

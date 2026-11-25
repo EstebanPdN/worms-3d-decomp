@@ -1,0 +1,18 @@
+{
+  "unit": "d30c_input_service_destroy_800f7908",
+  "source": "source/matching/game/d30c/d30c_input_service_destroy_800f7908.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25c",
+    "source/matching/game/d24f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30c_input_service_destroy_800f7908": "0x800f7908"
+  },
+  "descriptions": {
+    "d30c_input_service_destroy_800f7908": "Input service destructor: singleton cleared, raw buffer released, 24 queues destroyed, base destructor called."
+  }
+}

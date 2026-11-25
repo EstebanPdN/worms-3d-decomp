@@ -1,0 +1,13 @@
+{
+  "unit": "d17e_record_vector_append_8023ee88",
+  "source": "source/matching/game/d17e/d17e_record_vector_append_8023ee88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d17e_load_entries_8023ee88": "0x8023ee88",
+    "w3d_d17e_load_named_entries_8023f128": "0x8023f128"
+  },
+  "descriptions": {
+    "w3d_d17e_load_entries_8023ee88": "Reads the record's id and value arrays and appends one twelve-byte base entry (vtable 0x80410500) per index to the service object's vector at +28, growing it STLport-style when full.",
+    "w3d_d17e_load_named_entries_8023f128": "Reads the record's id, value and shared-string arrays and appends one sixteen-byte named entry (vtable 0x804104e0, string assigned with reference counting) per index to the service object's vector at +60, growing it STLport-style when full and destroying the temporary entry's string."
+  }
+}

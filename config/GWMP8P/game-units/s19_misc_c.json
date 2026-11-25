@@ -1,0 +1,23 @@
+{
+  "unit": "s19_misc_c",
+  "source": "source/matching/game/s19/s19_misc_c.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_is_one_800a14f4": "0x800a14f4",
+    "s19_visibility_hide_800a3bb4": "0x800a3bb4",
+    "s19_visibility_show_800a3bec": "0x800a3bec",
+    "s19_mode_is_two_800cfc98": "0x800cfc98",
+    "s19_vec3_copy_800d0f74": "0x800d0f74",
+    "s19_set_vec_pair_800dc3dc": "0x800dc3dc",
+    "s19_reset_800b12c8": "0x800b12c8"
+  },
+  "descriptions": {
+    "s19_handle_is_one_800a14f4": "Appears to return whether the query of the handle at +0x60 yields exactly one.",
+    "s19_visibility_hide_800a3bb4": "Appears to clear the visible flag at +0x1c and notify the visibility helper when it was set.",
+    "s19_visibility_show_800a3bec": "Appears to set the visible flag at +0x1c and notify the visibility helper when it was clear.",
+    "s19_mode_is_two_800cfc98": "Appears to return whether the mode word at +0x2c equals two.",
+    "s19_vec3_copy_800d0f74": "Appears to copy a three-float vector from a 28-byte record array at +0x1c into the destination and return it.",
+    "s19_set_vec_pair_800dc3dc": "Appears to copy two three-float vectors into the fields at +0x60 and +0x54.",
+    "s19_reset_800b12c8": "Appears to clear six integer fields (offsets 4, 8, 16, 20, 24 and 28) and return the object."
+  }
+}

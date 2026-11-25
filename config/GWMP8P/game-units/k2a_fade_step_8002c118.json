@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_fade_step_8002c118",
+  "source": "source/matching/game/k2a/k2a_fade_step_8002c118.c",
+  "language": "c",
+  "functions": {
+    "k2a_fade_step_8002c118": "0x8002c118"
+  },
+  "descriptions": {
+    "k2a_fade_step_8002c118": "Appears to scale a fader level by a constant, clamp it to a floor value (clearing the active flag), call a helper and set bit 2 in the game context flags."
+  }
+}

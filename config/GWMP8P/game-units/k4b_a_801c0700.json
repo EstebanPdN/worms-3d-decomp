@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801c0700",
+  "source": "source/matching/game/k4b/k4b_a_801c0700.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_surface_box_construct_801c0700": "0x801c0700"
+  },
+  "descriptions": {
+    "w3d_k4b_surface_box_construct_801c0700": "Appears to construct a derived bounds object over 0x801b5b30: vtable 0x80414e48, six retained shared default interfaces, cleared parameters and flag, enabled set."
+  }
+}

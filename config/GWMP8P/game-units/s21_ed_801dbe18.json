@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ed_801dbe18",
+  "source": "source/matching/game/s21/s21_ed_801dbe18.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_dispatch_by_id_801dbe18": "0x801dbe18"
+  },
+  "descriptions": {
+    "w3d_s21_dispatch_by_id_801dbe18": "Appears to find the entry of the counted array whose id field matches the third argument, run two helpers on it with the second argument and return the second helper's result, or 0x80004005."
+  }
+}

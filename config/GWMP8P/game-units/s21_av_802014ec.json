@@ -1,0 +1,11 @@
+{
+  "unit": "s21_av_802014ec",
+  "source": "source/matching/game/s21/s21_av_802014ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_u32_swapped_802014ec": "0x802014ec"
+  },
+  "descriptions": {
+    "w3d_s21_read_u32_swapped_802014ec": "Appears to read four bytes from the inner stream into a stack word, byte-swap it and store it through the output pointer."
+  }
+}

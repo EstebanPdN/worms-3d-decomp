@@ -1,0 +1,11 @@
+{
+  "unit": "cc31a_camera_release_8002e3f8",
+  "source": "source/matching/game/cc31a/cc31a_camera_release_8002e3f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc31a_camera_release_8002e3f8": "0x8002e3f8"
+  },
+  "descriptions": {
+    "cc31a_camera_release_8002e3f8": "Post shutdown and two identifier messages, optionally defer two interfaces with value3000, then release and clear both interfaces and the owned handle."
+  }
+}

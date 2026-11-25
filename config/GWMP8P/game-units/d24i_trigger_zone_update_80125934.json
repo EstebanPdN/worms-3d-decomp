@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_trigger_zone_update_80125934",
+  "source": "source/matching/game/d24i/d24i_trigger_zone_update_80125934.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_trigger_zone_update_80125934": "0x80125934"
+  },
+  "descriptions": {
+    "d24i_trigger_zone_update_80125934": "Trigger zone update: starts the object iterator at +100 and walks it until the 0xffff terminator or until flag +76, +80 or +88 is set; for each current object from another team dispatches by object type to worm entered (1), the team checks (136 and 8, limited by counts +64 and +68) or the trigger (512 when +84 is set); then finishes the walk and collects when +88 is set."
+  }
+}

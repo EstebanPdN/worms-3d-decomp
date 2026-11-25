@@ -1,0 +1,11 @@
+{
+  "unit": "f12b_destroy_hash_array_owner_802111a8",
+  "source": "source/matching/game/f12b/f12b_destroy_hash_array_owner_802111a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._12F12bOwner304": "0x802111a8"
+  },
+  "descriptions": {
+    "_._12F12bOwner304": "Deleting destructor for an inferred 276-byte owner: installs the two observed vtables, clears the shared owner pointer, clears and releases the trailing 28-byte hash table, destroys 13 embedded 12-byte storage records in reverse order, clears and releases the two leading hash tables, destroys three shared strings, restores the base vtable, calls the node cleanup backend at offset four with in-charge zero, and conditionally deallocates the outer object. Native hash buffer subobjects and array lifetimes reproduce cleanup. Names and layouts are inferred; referenced data remains externally owned."
+  }
+}

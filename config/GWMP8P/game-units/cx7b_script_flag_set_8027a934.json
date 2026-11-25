@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_script_flag_set_8027a934",
+  "source": "source/matching/game/cx7b/cx7b_script_flag_set_8027a934.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_script_flag_set_8027a934": "0x8027a934"
+  },
+  "descriptions": {
+    "w3d_cx7b_script_flag_set_8027a934": "For states 0 and 1, push the opposite Boolean to the Lua state at +32 and store the selected state at +40; ignore other values."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d18a_earthquake_impulse_8004d428",
+  "source": "source/matching/game/d18a/d18a_earthquake_impulse_8004d428.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d18a_earthquake_impulse_8004d428": "0x8004d428"
+  },
+  "descriptions": {
+    "w3d_d18a_earthquake_impulse_8004d428": "If an earthquake impulse is pending (+100): loads the magnitude range on first use (maximum +272 equal to 0.0) from the float settings \"Earthquake.ImpulseMagnitudeMax\"/\"Earthquake.ImpulseMagnitudeMin\" through 0x800fc270, builds a direction (random*2-1, 0.5, random*2-1) with 0x80162bc8, scales it by random*(max-min), stores it at +52 and clears the pending flag."
+  }
+}

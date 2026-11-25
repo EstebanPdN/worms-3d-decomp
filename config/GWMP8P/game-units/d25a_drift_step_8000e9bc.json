@@ -1,0 +1,14 @@
+{
+  "unit": "d25a_drift_step_8000e9bc",
+  "source": "source/matching/game/d25a/d25a_drift_step_8000e9bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25a_drift_step_8000e9bc": "0x8000e9bc"
+  },
+  "descriptions": {
+    "w3d_d25a_drift_step_8000e9bc": "Random drift step: random vector minus ones, scaled by the frame step, added to the position at +24; copies the vector 0x8045e788 to +36 and continues with 0x8000affc."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

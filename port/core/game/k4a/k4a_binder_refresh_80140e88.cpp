@@ -1,0 +1,39 @@
+#include "w3d_ptr.h"
+#line 1 "k4a_binder_refresh_80140e88.cpp"
+struct K4aRefVtable;
+struct K4aRef { Ptr32<const K4aRefVtable> vtable; };
+struct K4aRefVtable { Ptr32<void (void)> unknown_00[3]; Ptr32<void (Ptr32<K4aRef>)> retain; Ptr32<void (Ptr32<K4aRef>)> release; };
+struct K4aRefSlot {
+    Ptr32<K4aRef> ref;
+    int unused;
+    K4aRefSlot() : ref(0) {}
+    ~K4aRefSlot() { if (ref) ref->vtable->release(ref); }
+};
+struct K4aBinder { char pad0[20]; unsigned int owner; char pad1[4]; Ptr32<void> first; Ptr32<void> second; char pad2[12]; Ptr32<K4aRef> held; };
+extern "C" char w3d_service_80410a10[];
+extern "C" char w3d_str_803a0430[];
+extern "C" Ptr32<K4aRef> w3d_s10_service_forward_8020b680(Ptr32<void>);
+extern "C" Ptr32<void> FUN_80164514(Ptr32<void> context, Ptr32<K4aRef> ref, unsigned int owner);
+extern "C" Ptr32<void> w3d_context_804b178c;
+extern "C" int w3d_constructor_lookup_name(Ptr32<Ptr32<const char>> name, Ptr32<K4aRefSlot> output);
+extern "C" Ptr32<K4aRef> w3d_empty_80341584(Ptr32<K4aRef>);
+
+extern "C" void k4a_binder_refresh_80140e88(Ptr32<K4aBinder> self)
+{
+    Ptr32<void> type = w3d_service_80410a10;
+    Ptr32<K4aRef> service = w3d_s10_service_forward_8020b680(type);
+    self->first = FUN_80164514(w3d_context_804b178c, service, self->owner);
+    service = w3d_s10_service_forward_8020b680(type);
+    self->second = FUN_80164514(w3d_context_804b178c, service, self->owner);
+    Ptr32<const char> name = w3d_str_803a0430;
+    K4aRefSlot slot;
+    w3d_constructor_lookup_name(&name, &slot);
+    Ptr32<K4aRef> ref = w3d_empty_80341584(slot.ref);
+    if (ref != 0)
+        ref->vtable->retain(ref);
+    if (self->held != 0)
+        self->held->vtable->release(self->held);
+    self->held = ref;
+}
+
+

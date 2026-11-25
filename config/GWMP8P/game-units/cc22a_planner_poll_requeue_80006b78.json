@@ -1,0 +1,11 @@
+{
+  "unit": "cc22a_planner_poll_requeue_80006b78",
+  "source": "source/matching/game/cc22a/cc22a_planner_poll_requeue_80006b78.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc22a_planner_poll_requeue_80006b78": "0x80006b78"
+  },
+  "descriptions": {
+    "cc22a_planner_poll_requeue_80006b78": "Poll one active plan; requeue or release it according to global state, then select, swap or sort exhausted plan lists and advance planner state. Observed 32-bit status and single-precision cost; semantic names inferred."
+  }
+}

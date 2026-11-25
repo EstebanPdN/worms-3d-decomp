@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_80201a14",
+  "source": "source/matching/game/generated/genparamc_80201a14.c",
+  "language": "c",
+  "functions": {
+    "w3d_transfer_swapped16_80201a14": "0x80201a14",
+    "w3d_transfer_swapped16_80201abc": "0x80201abc"
+  },
+  "descriptions": {
+    "w3d_transfer_swapped16_80201a14": "Skips or transfers count 16-bit values through the held stream (virtual calls), then byte-swaps the transferred values in place; returns the transfer result.",
+    "w3d_transfer_swapped16_80201abc": "Skips or transfers count 16-bit values through the held stream (virtual calls), then byte-swaps the transferred values in place; returns the transfer result."
+  }
+}

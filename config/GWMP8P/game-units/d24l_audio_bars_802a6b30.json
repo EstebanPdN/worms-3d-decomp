@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_audio_bars_802a6b30",
+  "source": "source/matching/game/d24l/d24l_audio_bars_802a6b30.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_audio_bars_802a6b30": "0x802a6b30"
+  },
+  "descriptions": {
+    "d24l_audio_bars_802a6b30": "Prepares the 'FE.AudioBar' mesh: when its entry count (0x80171f90) is not 2, reserves two entries and writes their UV and position quads, flipping the V coordinates against 1.0; then loads eight bar instances into +276.. with resource type byte(+35)+29, stores byte value 1 on each and attaches them to the panel +224, and finishes with 0x802a64a8."
+  }
+}

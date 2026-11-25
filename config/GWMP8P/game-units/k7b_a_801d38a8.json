@@ -1,0 +1,11 @@
+{
+  "unit": "k7b_a_801d38a8",
+  "source": "source/matching/game/k7b/k7b_a_801d38a8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k7b_item_list_join_names_801d38a8": "0x801d38a8"
+  },
+  "descriptions": {
+    "w3d_k7b_item_list_join_names_801d38a8": "Appears to append the non-empty name string at +36 of each item in the pointer list at +72..+76 to an output string, with the separator 0x803af028 between names; returns 0."
+  }
+}

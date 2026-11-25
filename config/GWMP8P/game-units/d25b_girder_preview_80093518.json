@@ -1,0 +1,11 @@
+{
+  "unit": "d25b_girder_preview_80093518",
+  "source": "source/matching/game/d25b/d25b_girder_preview_80093518.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_girder_preview_80093518": "0x80093518"
+  },
+  "descriptions": {
+    "w3d_d25b_girder_preview_80093518": "Girder preview update: looks up the girder at +28 (0x80164fc8); at the placed limit hides the preview at +32 through slot +88 and returns -1; otherwise samples the motion (0x800959d0) into position, axis and up vectors, picks white or, when +696, +704 or the query 0x80096564 forbid placing, red, applies the tint (0x80343584, 0x80182178), passes the vectors to slots +76, +80, +84, updates the handle at +36 (0x801265ec, 0x801266ac) and returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_retrieve_data_8028a098",
+  "source": "source/matching/game/f1p/f1p_retrieve_data_8028a098.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_retrieve_data_8028a098": "0x8028a098"
+  },
+  "descriptions": {
+    "w3d_retrieve_data_8028a098": "Print the original retrieval message, acquire two held service interfaces, allocate and read the observed 0x11800-byte buffer, obtain its data pointer and copy it to the supplied destination, then release both interfaces. Ownership and service roles inferred."
+  }
+}

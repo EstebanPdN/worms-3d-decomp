@@ -1,0 +1,11 @@
+{
+  "unit": "s9shareddtor_80183ae8",
+  "source": "source/matching/game/generated/s9shareddtor_80183ae8.cpp",
+  "language": "cpp",
+  "functions": {
+    "s9_destroy_resource_set_80183ae8": "0x80183ae8"
+  },
+  "descriptions": {
+    "s9_destroy_resource_set_80183ae8": "Releases two instance interfaces, decrements the owner count, clears twelve shared resources when the final owner exits, then finishes members and forwards destructor flags to the base."
+  }
+}

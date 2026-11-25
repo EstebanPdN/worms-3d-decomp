@@ -1,0 +1,17 @@
+{
+  "unit": "s9near_8013e458",
+  "source": "source/matching/game/generated/s9near_8013e458.c",
+  "language": "c",
+  "functions": {
+    "s9_release_actor_inner_8013e458": "0x8013e458",
+    "s9_adjust_disable_8016d3ec": "0x8016d3ec",
+    "s9_invoke_callback_8017f5c8": "0x8017f5c8",
+    "s9_fill_values_8018d434": "0x8018d434"
+  },
+  "descriptions": {
+    "s9_release_actor_inner_8013e458": "Runs two cleanup helpers, releases the optional held interface and clears its pointer.",
+    "s9_adjust_disable_8016d3ec": "Null-checks and adjusts the object pointer to the preceding base, forwards the caller value and a constant enable flag, and returns zero.",
+    "s9_invoke_callback_8017f5c8": "Requires the ready flag, optionally runs the preparation helper, then calls the stored callback with its context or returns zero.",
+    "s9_fill_values_8018d434": "Obtains the writable element array and fills every entry from the supplied integer pointer, returning failure when the backing object is unavailable."
+  }
+}

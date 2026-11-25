@@ -1,0 +1,17 @@
+{
+  "unit": "registry_80368bd8",
+  "source": "source/matching/game/registry_80368bd8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_registry_80368bd8_unlink": "0x802c5c24",
+    "w3d_registry_80368bd8_create": "0x802c5c68",
+    "w3d_registry_80368bd8_release": "0x802c5cc8",
+    "w3d_registry_80368bd8_retain": "0x802c5d24"
+  },
+  "descriptions": {
+    "w3d_registry_80368bd8_unlink": "Removes an object from the registry list at 0x80368bd8 and decrements the live count.",
+    "w3d_registry_80368bd8_create": "Allocates and constructs an 84-byte object, links it into the registry list at 0x80368bd8 and counts it.",
+    "w3d_registry_80368bd8_release": "Drops one reference; at zero unlinks and destroys the object, returning the remaining count.",
+    "w3d_registry_80368bd8_retain": "Adds one reference and returns the previous reference count."
+  }
+}

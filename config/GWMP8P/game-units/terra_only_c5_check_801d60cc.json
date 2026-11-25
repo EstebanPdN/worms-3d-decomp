@@ -1,0 +1,11 @@
+{
+  "unit": "terra_only_c5_check_801d60cc",
+  "source": "source/matching/game/terra_only_c5/terra_only_c5_check_801d60cc.c",
+  "language": "c",
+  "functions": {
+    "terra_only_c5_check_801d60cc": "0x801d60cc"
+  },
+  "descriptions": {
+    "terra_only_c5_check_801d60cc": "Compares references in an externally supplied array and invokes diagnostic helpers for equal pairs; interface signatures and object layouts are inferred."
+  }
+}

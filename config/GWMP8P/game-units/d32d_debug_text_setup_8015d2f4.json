@@ -1,0 +1,14 @@
+{
+  "unit": "d32d_debug_text_setup_8015d2f4",
+  "source": "source/matching/game/d32d/d32d_debug_text_setup_8015d2f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32d_debug_text_setup_8015d2f4": "0x8015d2f4"
+  },
+  "descriptions": {
+    "w3d_d32d_debug_text_setup_8015d2f4": "Debug text setup: acquires the text mesh and material, loads the font texture through the loader service, appends the render properties, fills a quad size and a uv pair for each 16x16 font cell, names the mesh Debug Text and attaches it to two services."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

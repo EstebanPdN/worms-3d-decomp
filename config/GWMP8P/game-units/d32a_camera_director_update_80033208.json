@@ -1,0 +1,14 @@
+{
+  "unit": "d32a_camera_director_update_80033208",
+  "source": "source/matching/game/d32a/d32a_camera_director_update_80033208.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_camera_director_update_80033208": "0x80033208"
+  },
+  "descriptions": {
+    "w3d_d32a_camera_director_update_80033208": "Updates the current camera, applies blended or direct eye, look and up vectors to the render camera, and posts change messages when any of them differ."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

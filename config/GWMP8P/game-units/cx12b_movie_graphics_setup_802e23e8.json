@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_movie_graphics_setup_802e23e8",
+  "source": "source/matching/game/cx12b/cx12b_movie_graphics_setup_802e23e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_movie_graphics_setup_802e23e8": "0x802e23e8"
+  },
+  "descriptions": {
+    "w3d_cx12b_movie_graphics_setup_802e23e8": "Issue the original fixed graphics state and four texture-coordinate setup calls used by movie rendering."
+  }
+}

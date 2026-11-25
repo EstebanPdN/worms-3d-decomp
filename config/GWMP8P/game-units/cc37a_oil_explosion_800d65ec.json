@@ -1,0 +1,11 @@
+{
+  "unit": "cc37a_oil_explosion_800d65ec",
+  "source": "source/matching/game/cc37a/cc37a_oil_explosion_800d65ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc37a_oil_explosion_800d65ec": "0x800d65ec"
+  },
+  "descriptions": {
+    "cc37a_oil_explosion_800d65ec": "Activate oil-drum explosion, read five magnitude/radius properties in order, post its explosion message, then emit effect and optional sound at the original position."
+  }
+}

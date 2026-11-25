@@ -1,0 +1,11 @@
+{
+  "unit": "r25b_category_count_8027be7c",
+  "source": "source/matching/game/r25b/r25b_category_count_8027be7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25b_category_count_8027be7c": "0x8027be7c"
+  },
+  "descriptions": {
+    "w3d_r25b_category_count_8027be7c": "Inferred category-count query. Five pointer ranges start at offsets"
+  }
+}

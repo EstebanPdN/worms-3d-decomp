@@ -1,0 +1,11 @@
+{
+  "unit": "s19_service_8008e1e0",
+  "source": "source/matching/game/s19/s19_service_8008e1e0.c",
+  "language": "c",
+  "functions": {
+    "s19_register_service_8008e1e0": "0x8008e1e0"
+  },
+  "descriptions": {
+    "s19_register_service_8008e1e0": "Appears to look up a service by type and register it with the global manager using the id at +0x14."
+  }
+}

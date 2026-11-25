@@ -1,0 +1,7 @@
+{
+  "unit": "k10b_barracks_capacity_8029d7b4",
+  "source": "source/matching/game/k10b/k10b_barracks_capacity_8029d7b4.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k10b_barracks_capacity_8029d7b4": "0x8029d7b4"},
+  "descriptions": {"w3d_k10b_barracks_capacity_8029d7b4": "Appears to look up the DATA.TeamBarracks property object, count its list members with a non-zero flag word and return 1 when at most nine are set, 0 otherwise or when the lookup fails; the held interface is released on every path. Property and list views are partial."}
+}

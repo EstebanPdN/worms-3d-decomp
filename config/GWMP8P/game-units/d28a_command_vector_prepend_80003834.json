@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_command_vector_prepend_80003834",
+  "source": "source/matching/game/d28a/d28a_command_vector_prepend_80003834.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_command_vector_prepend_80003834": "0x80003834"
+  },
+  "descriptions": {
+    "w3d_d28a_command_vector_prepend_80003834": "Inserts a new kind/value command at the front of the command vector."
+  }
+}

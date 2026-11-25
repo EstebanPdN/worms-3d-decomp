@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_track_target_8014da00",
+  "source": "source/matching/game/d24d/d24d_track_target_8014da00.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_track_target_8014da00": "0x8014da00"
+  },
+  "descriptions": {
+    "d24d_track_target_8014da00": "Keeps an actor aimed at its tracked target (+792): an inactive target only records detachment in its +68; otherwise creates a missing +804 for two classes, updates the offset +572 from 0x800db194 (flag from +304, +300 and owner match), runs 0x800db60c and copies +68 to +716."
+  }
+}

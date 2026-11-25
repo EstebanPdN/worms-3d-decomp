@@ -1,0 +1,15 @@
+{
+  "unit": "d29d_turn_manager_message_80154f64",
+  "source": "source/matching/game/d29d/d29d_turn_manager_message_80154f64.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29d_turn_manager_message_80154f64": "0x80154f64"
+  },
+  "descriptions": {
+    "d29d_turn_manager_message_80154f64": "Turn manager message handler. Message 64 runs the base handler and then the setup at 0x80156ff0, returning 0x80004005 if the base failed; message 66 runs the shutdown. Otherwise tests the cached message ids in turn and dispatches to worm and team publishing, surrender, death, reinitialise, respawn, position and nearest-enemy selection, movement retain and release, and actor creation, with trace calls; falls through to the base handler."
+  }
+}

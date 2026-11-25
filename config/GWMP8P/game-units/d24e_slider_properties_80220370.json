@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_slider_properties_80220370",
+  "source": "source/matching/game/d24e/d24e_slider_properties_80220370.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_slider_properties_80220370": "0x80220370"
+  },
+  "descriptions": {
+    "w3d_d24e_register_slider_properties_80220370": "Resets the DataResourceName string binding (0x801ed24c) to the shared empty string; resets the LimitResource string binding (0x801ed24c) to the shared empty string; registers ExpandingImage (0x801eb674); sets the IncreaseAudio string binding (0x801ed24c) to a temporary string made from \"A.U.Slider\" (0x803b6410, constructor 0x8020bb54); sets the FontResourceName string binding (0x801ed24c) to a temporary string made from \"FE.Font\" (0x803b6408, constructor 0x8020bb54); registers BorderSize (0x801ec52c); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

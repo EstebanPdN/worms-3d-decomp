@@ -1,0 +1,11 @@
+{
+  "unit": "k1f_a_802abc28",
+  "source": "source/matching/game/k1f/k1f_a_802abc28.c",
+  "language": "c",
+  "functions": {
+    "w3d_k1f_init_mode_record_802abc28": "0x802abc28"
+  },
+  "descriptions": {
+    "w3d_k1f_init_mode_record_802abc28": "Appears to initialize a record's default words and a mode-dependent code (0xa0..0xa4)."
+  }
+}

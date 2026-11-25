@@ -1,0 +1,12 @@
+{
+  "unit": "sol35d7_column_descriptors_802262c4_v2",
+  "source": "source/matching/game/sol35d7/sol35d7_column_descriptors_802262c4_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_column_descriptors_802262c4_v2": "0x802262c4"
+  },
+  "description": "Initialize native column bindings and lazily construct two 20-byte descriptors with fully zeroed metadata; descriptor names and layout inferred from original fields.",
+  "function_descriptions": {
+    "sol35d7_column_descriptors_802262c4_v2": "Initialize native column bindings and lazily construct two 20-byte descriptors with fully zeroed metadata; descriptor names and layout inferred from original fields."
+  }
+}

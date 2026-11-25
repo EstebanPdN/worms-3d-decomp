@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80015db8",
+  "source": "source/matching/game/s7/s7hand_80015db8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80015db8": "0x80015db8"
+  },
+  "descriptions": {
+    "w3d_auto_80015db8": "Releases payload storage and wrapper objects for three global pointer slots, clearing each global after cleanup."
+  }
+}

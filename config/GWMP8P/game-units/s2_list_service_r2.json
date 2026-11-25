@@ -1,0 +1,17 @@
+{
+  "unit": "s2_list_service_r2",
+  "source": "source/matching/game/s2_list_service_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_list_name_greater_8010e698": "0x8010e698",
+    "w3d_list_service_construct_8010e6d0": "0x8010e6d0",
+    "w3d_list_service_destroy_8010e75c": "0x8010e75c",
+    "w3d_list_service_dispatch_8010e9b4": "0x8010e9b4"
+  },
+  "descriptions": {
+    "w3d_list_name_greater_8010e698": "Compares two pointed-to strings and returns whether the first sorts after the second.",
+    "w3d_list_service_construct_8010e6d0": "Constructs the selection-list service and clears nineteen held list objects.",
+    "w3d_list_service_destroy_8010e75c": "Releases nineteen held list objects in reverse order and destroys the base service.",
+    "w3d_list_service_dispatch_8010e9b4": "Routes list-selection messages to the requested list builder and forwards to the base service."
+  }
+}

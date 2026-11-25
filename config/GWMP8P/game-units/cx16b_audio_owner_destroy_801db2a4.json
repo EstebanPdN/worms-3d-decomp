@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_audio_owner_destroy_801db2a4",
+  "source": "source/matching/game/cx16b/cx16b_audio_owner_destroy_801db2a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_audio_owner_destroy_801db2a4": "0x801db2a4"
+  },
+  "descriptions": {
+    "w3d_cx16b_audio_owner_destroy_801db2a4": "Releases and clears the counted interfaces, shuts down the service and snapshots the potentially updated held pointer before the observed zero stores; destroys all embedded members and optionally frees the owner."
+  }
+}

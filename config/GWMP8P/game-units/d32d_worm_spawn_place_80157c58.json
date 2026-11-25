@@ -1,0 +1,15 @@
+{
+  "unit": "d32d_worm_spawn_place_80157c58",
+  "source": "source/matching/game/d32d/d32d_worm_spawn_place_80157c58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32d_worm_spawn_place_80157c58": "0x80157c58"
+  },
+  "descriptions": {
+    "w3d_d32d_worm_spawn_place_80157c58": "Places a worm for a level action: on spawn takes a random stored point or probes up to 100 random land cells, falling back to a random spot around the land centre; other actions post a message and read the current vectors. Then stores the position and the heading."
+  },
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ]
+}

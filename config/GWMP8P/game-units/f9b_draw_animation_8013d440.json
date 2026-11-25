@@ -1,0 +1,11 @@
+{
+  "unit": "f9b_draw_animation_8013d440",
+  "source": "source/matching/game/f9b/f9b_draw_animation_8013d440.cpp",
+  "language": "cpp",
+  "functions": {
+    "f9b_draw_animation_8013d440": "0x8013d440"
+  },
+  "descriptions": {
+    "f9b_draw_animation_8013d440": "Reset the mesh animation, select a weapon draw clip across the observed unsigned cases, specialize thrown weapons and restore an aiming clip offset. External read-only uses retain reloads through unqualified original float views; roles and interfaces are inferred. Roles, types and layouts are inferred."
+  }
+}

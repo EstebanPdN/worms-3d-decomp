@@ -1,0 +1,19 @@
+{
+  "unit": "d30e_add_named_iface_80206358",
+  "source": "source/matching/game/d30e/d30e_add_named_iface_80206358.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d30e_add_named_iface_80206358": "0x80206358"
+  },
+  "descriptions": {
+    "w3d_d30e_add_named_iface_80206358": "Grows the compact array at +36 by one, stores the interface in the new slot with reference counting and appends its name string to the vector at +48 through unmodified STLport push_back. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

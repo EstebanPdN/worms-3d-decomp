@@ -1,0 +1,11 @@
+{
+  "unit": "s11cleanup_802b0fec",
+  "source": "source/matching/game/s11_auto/s11cleanup_802b0fec.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802b0fec": "0x802b0fec"
+  },
+  "descriptions": {
+    "w3d_auto_802b0fec": "Appears to calls 0x802aff50, 0x80342a78, 0x80178d1c, 0x80178d28, 0x802b1cec; accesses fields at 0x48, 0xB4, 0x54, 0x60, 0x74, 0x78. m2c types and names are provisional."
+  }
+}

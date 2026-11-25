@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_midi_read_byte_802cbc68",
+  "source": "source/matching/game/d27l/d27l_midi_read_byte_802cbc68.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_midi_read_byte_802cbc68": "0x802cbc68"
+  },
+  "descriptions": {
+    "d27l_midi_read_byte_802cbc68": "Reads the next byte from a port's input buffer, skipping system messages and returning the first data byte or 0 when none is available."
+  }
+}

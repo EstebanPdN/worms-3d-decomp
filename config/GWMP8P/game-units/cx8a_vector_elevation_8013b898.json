@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_vector_elevation_8013b898",
+  "source": "source/matching/game/cx8a/cx8a_vector_elevation_8013b898.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_vector_elevation_8013b898": "0x8013b898"
+  },
+  "descriptions": {
+    "w3d_cx8a_vector_elevation_8013b898": "Compute the relative elevation from two vectors using their vertical difference and a shared-constant planar squared-length accumulator, then call unresolved root and angle helpers 0x802e82c0/0x802e83ec."
+  }
+}

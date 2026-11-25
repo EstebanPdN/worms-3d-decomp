@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_next_team_8015668c",
+  "source": "source/matching/game/d24d/d24d_next_team_8015668c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_next_team_8015668c": "0x8015668c"
+  },
+  "descriptions": {
+    "d24d_next_team_8015668c": "Finds the next queued worm: for -1 starts from the team count in GM.GameInitData (+84; lookup failure returns -1), otherwise after the worm's team index (+60); walks the four lists at +100 with wrap-around and returns the first value of the first non-empty list, or the given id."
+  }
+}

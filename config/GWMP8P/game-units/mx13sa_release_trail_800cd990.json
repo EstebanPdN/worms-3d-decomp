@@ -1,0 +1,11 @@
+{
+  "unit": "mx13sa_release_trail_800cd990",
+  "source": "source/matching/game/mx13sa/mx13sa_release_trail_800cd990.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx13sa_release_trail_800cd990": "0x800cd990"
+  },
+  "descriptions": {
+    "mx13sa_release_trail_800cd990": "Looks up and flags the trail referenced by the external object handle at byte 32, then resets the handle to minus one."
+  }
+}

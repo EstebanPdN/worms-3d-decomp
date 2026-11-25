@@ -1,0 +1,15 @@
+{
+  "unit": "s1_energy_display",
+  "source": "source/matching/game/s1_energy_display.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80064104": "0x80064104",
+    "w3d_fn_80064198": "0x80064198",
+    "w3d_fn_800649e8": "0x800649e8"
+  },
+  "descriptions": {
+    "w3d_fn_80064104": "Releases and clears the energy bar, flag, and text resources.",
+    "w3d_fn_80064198": "Applies configured horizontal offsets to the energy text and bar and positions the flag.",
+    "w3d_fn_800649e8": "Applies visibility to the energy text, bar, and flag when energy or visibility is active."
+  }
+}

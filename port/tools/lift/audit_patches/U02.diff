@@ -1,0 +1,11 @@
+--- a/port/core/open/open_802b6efc.cpp
++++ b/port/core/open/open_802b6efc.cpp
+@@ -2188,7 +2188,7 @@
+     r0 = L16(r31 + 96);
+     r4 = r1 + 24;
+     r3 = r30;
+-    r9 = r0 << 16;
++    r9 = r0;  // {carácter, 0} como dos u16: en el PPC es r0 << 16, en little-endian es el valor tal cual
+     S32(r1 + 24, r9);
+     ((void (*)(w3d_u64, w3d_u64))A8018c60c)(W(r3), W(r4));
+     r0 = L32(r31 + 36);

@@ -1,0 +1,13 @@
+{
+  "unit": "s1_message_subscription",
+  "source": "source/matching/game/s1_message_subscription.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8005ff48": "0x8005ff48",
+    "w3d_fn_8005ffc8": "0x8005ffc8"
+  },
+  "descriptions": {
+    "w3d_fn_8005ff48": "Initializes a named cached-message subscription and binds it to an owner.",
+    "w3d_fn_8005ffc8": "Assigns a name, posts the cached message at a delayed tick, and saves its result."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_remove_id_8008db88",
+  "source": "source/matching/game/d24b/d24b_remove_id_8008db88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_remove_id_8008db88": "0x8008db88"
+  },
+  "descriptions": {
+    "w3d_d24b_remove_id_8008db88": "Removes an id from the list at +344: compares each entry with the message's id (0x801190d0) and on the first match closes the gap with 0x802eee50 and shrinks the list."
+  }
+}

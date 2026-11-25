@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_next_mission_8027e038",
+  "source": "source/matching/game/f1p/f1p_next_mission_8027e038.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_next_mission_8027e038": "0x8027e038"
+  },
+  "descriptions": {
+    "w3d_next_mission_8027e038": "Read the observed selected mission and category properties, reset retry state, update or bound the mission index, post category-specific table-population messages and refresh the menu. Exact temporary cache lifetimes and switch layout recovered from original instructions; semantic labels inferred."
+  }
+}

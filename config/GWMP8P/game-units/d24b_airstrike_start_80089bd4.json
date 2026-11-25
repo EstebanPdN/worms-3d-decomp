@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_airstrike_start_80089bd4",
+  "source": "source/matching/game/d24b/d24b_airstrike_start_80089bd4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_airstrike_start_80089bd4": "0x80089bd4"
+  },
+  "descriptions": {
+    "w3d_d24b_airstrike_start_80089bd4": "Airstrike start: copies the team list 0x8043bb64, finds the worm named by Airstrike.TargetEntity, publishes its position as Airstrike.TargetPoint, the direction (cos, 0, sin of Airstrike.Direction.Radians) as Airstrike.Direction and the up vector as Airstrike.UpVector, reads Airstrike.WeaponProperties, creates the strike object (0x8020b680, type 0x8040e4a8), loads the weapon resource by that name (0x800fc1b0), passes it by value to 0x8002f6dc, registers the object (0x80164514) and releases everything."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

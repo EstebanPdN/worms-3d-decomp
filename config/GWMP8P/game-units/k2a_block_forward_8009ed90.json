@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_block_forward_8009ed90",
+  "source": "source/matching/game/k2a/k2a_block_forward_8009ed90.c",
+  "language": "c",
+  "functions": {
+    "k2a_block_forward_8009ed90": "0x8009ed90"
+  },
+  "descriptions": {
+    "k2a_block_forward_8009ed90": "Appears to pass a 36-byte block by value to a helper, copying it onto the stack first."
+  }
+}

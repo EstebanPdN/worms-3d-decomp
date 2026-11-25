@@ -1,0 +1,11 @@
+{
+  "unit": "d25a_commentary_interrupt_80044638",
+  "source": "source/matching/game/d25a/d25a_commentary_interrupt_80044638.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25a_commentary_interrupt_80044638": "0x80044638"
+  },
+  "descriptions": {
+    "w3d_d25a_commentary_interrupt_80044638": "Clears the commentary string queue (vector erase of the whole range), plays the given by-value string and advances the commentary."
+  }
+}

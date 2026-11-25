@@ -1,0 +1,11 @@
+{
+  "unit": "f16c_trail_cleanup_800e1cbc",
+  "source": "source/matching/game/f16c/f16c_trail_cleanup_800e1cbc.cpp",
+  "language": "cpp",
+  "functions": {
+    "f16c_trail_cleanup_800e1cbc": "0x800e1cbc"
+  },
+  "descriptions": {
+    "f16c_trail_cleanup_800e1cbc": "For receiver mode172 equal3, looks up handle296 through80164fc8; if found, obtains virtual type slot20, walks parent pointers20 until descriptor803613b0 or self-parent root, and calls80122af8 on a matching object. If held-interface array264 exists, traverses receiver count140 entries: nonnull objects receive virtual slot88 with zero, then the array pointer is reloaded and the held entry is reset by null-checked slot16 release and zero assignment, retaining both entry address and null argument across callback. Destroys the cookie-counted four-byte entries in reverse order, with receiver264 reloaded as loop bound; frees cookie base-8 via801fe240, clears receiver264. Null-checked virtual slot16 releases held300 and clears it. Native inferred member destruction invokes800df684 on receiver28, whose forwarded800e0400 cleanup reads/releases only member+4 via virtual slot8 with3 then clears it. Member is an external eight-byte minimum view, with104 unknown following bytes before count140. Full receiver304-byte, type24-byte, held-interface and member declarations are external partial views, never locally constructed; names, class grouping and semantics are inferred, with original construction/allocation extent unknown."
+  }
+}

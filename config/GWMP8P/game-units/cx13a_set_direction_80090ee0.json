@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_set_direction_80090ee0",
+  "source": "source/matching/game/cx13a/cx13a_set_direction_80090ee0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_set_direction_80090ee0": "0x80090ee0"
+  },
+  "descriptions": {
+    "w3d_cx13a_set_direction_80090ee0": "Copy and normalize an observed direction field, refresh derived state and clear its flag; names inferred."
+  }
+}

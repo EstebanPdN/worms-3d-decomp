@@ -1,0 +1,11 @@
+{
+  "unit": "cc31p_scale_text_zero_8018bb28",
+  "source": "source/matching/game/cc29b/cc29b_scale_text_8018bb28.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc29b_scale_text_8018bb28": "0x8018bb28"
+  },
+  "descriptions": {
+    "w3d_cc29b_scale_text_8018bb28": "When both axes equal the original0.0 constant, find and remove the scale component by class/index. Otherwise allocate the component, store each axis and mark its native dirty flag after each store, then add it to the set. Frame56 and stack8 index output observed;20/24-byte workspaces both fit, so original local declaration/sizeof remains unknown."
+  }
+}

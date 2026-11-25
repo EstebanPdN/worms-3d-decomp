@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8020fc60",
+  "source": "source/matching/game/k6b/k6b_a_8020fc60.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_node_init_8020fc60": "0x8020fc60"
+  },
+  "descriptions": {
+    "w3d_k6b_node_init_8020fc60": "Appears to install the vtables at +0 and +12, then call 0x8020fe64 and 0x801ffe58 with the object and argument."
+  }
+}

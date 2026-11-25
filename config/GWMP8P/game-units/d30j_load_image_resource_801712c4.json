@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_load_image_resource_801712c4",
+  "source": "source/matching/game/d30j/d30j_load_image_resource_801712c4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30j_load_image_resource_801712c4": "0x801712c4"
+  },
+  "descriptions": {
+    "d30j_load_image_resource_801712c4": "Load an image file for a texture resource through the loader service, create its default texture object when needed and store it in the holder's entry."
+  }
+}

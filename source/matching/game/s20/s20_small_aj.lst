@@ -1,0 +1,6 @@
+c source/matching/game/s20/s20_small_aj.c
+w3d_s20_forward_position_800e705c|0x800e705c|Appears to call a helper and, when a field is set, call virtual method 17 of the owner with a local vector, then copy that vector to the output.
+w3d_s20_reset_vectors_800e67d0|0x800e67d0|Appears to call a base helper, copy one field to another, clear a flag and set two vectors to a constant value.
+w3d_s20_release_held_pair_800f339c|0x800f339c|Appears to release two held objects through virtual method 4, clear related fields and reset a handle with a helper call when it is valid.
+w3d_s20_construct_cleared_800efe34|0x800efe34|Appears to run a base constructor, set a vtable pointer and clear a block of fields, returning the object.
+w3d_s20_set_normalized_direction_800ecfe0|0x800ecfe0|Appears to copy a vector into a direction field and scale it to a constant length using its square root length.

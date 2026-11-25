@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_start_named_animation_802b1bd0",
+  "source": "source/matching/game/f1p/f1p_start_named_animation_802b1bd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_start_named_animation_802b1bd0": "0x802b1bd0"
+  },
+  "descriptions": {
+    "w3d_start_named_animation_802b1bd0": "Reset missing animation names and inactive state, probe the original mesh for a clip, read the optional global playback rate and start it with observed blend/flags. Failed lookup formats the original diagnostic. The lookup callee writes one index word; twelve following original frame bytes have unknown purpose. Partial states and semantic roles inferred."
+  }
+}

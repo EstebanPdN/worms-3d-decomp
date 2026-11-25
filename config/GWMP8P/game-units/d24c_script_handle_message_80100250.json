@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_script_handle_message_80100250",
+  "source": "source/matching/game/d24c/d24c_script_handle_message_80100250.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_script_handle_message_80100250": "0x80100250"
+  },
+  "descriptions": {
+    "d24c_script_handle_message_80100250": "On ids 64 and 66 call base 0x8016293c; on success call 0x80100490 or 0x80100744 and return 0, else return 0x80004005. Otherwise scan bindings +384 for an entry whose cached message id equals the id: set its +28 to 1, call 0x801036f0 with its handler name, return 0. When bit 15 of the id is set: cached 0x804af16c calls 0x80103a5c; 0x804af174 calls 0x80103c44; otherwise, unless 0x80102734 returns 2, find the message name, copy it, replace dots with underscores, and call 0x801036f0. Finally forward to the base."
+  }
+}

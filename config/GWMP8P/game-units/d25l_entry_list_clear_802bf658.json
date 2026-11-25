@@ -1,0 +1,12 @@
+{
+  "unit": "d25l_entry_list_clear_802bf658",
+  "source": "source/matching/game/d25l/d25l_entry_list_clear_802bf658.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d25l_entry_list_clear_802bf658": "0x802bf658"
+  },
+  "descriptions": {
+    "d25l_entry_list_clear_802bf658": "Walks the 24-byte record vector at +80 from its start: releases the held object of the first record and nulls it, shifts later records down one place with retain/release assignment, destroys the last record and shrinks the vector, until it is empty."
+  }
+}

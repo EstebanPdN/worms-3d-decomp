@@ -1,0 +1,12 @@
+{
+  "unit": "d21e_table_column_properties_802262c4",
+  "source": "source/matching/game/d21e/d21e_table_column_properties_802262c4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d21e_register_table_column_properties_802262c4": "0x802262c4"
+  },
+  "descriptions": {
+    "w3d_d21e_register_table_column_properties_802262c4": "Resets the ColumnName string binding (0x801ed24c) to the shared empty string; registers WidthPercent (0x801ec52c); registers Ratio (0x801ec52c); registers Justification (0x801ece2c); registers UnevenColumns (0x801eb674); registers Values (0x801efff0) with a guarded function-local static descriptor built once from a zero-filled temporary; registers Data (0x801efe60) with a guarded function-local static descriptor built once from a zero-filled temporary; calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

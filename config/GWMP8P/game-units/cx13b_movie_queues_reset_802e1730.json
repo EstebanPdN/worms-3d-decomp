@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_movie_queues_reset_802e1730",
+  "source": "source/matching/game/cx13b/cx13b_movie_queues_reset_802e1730.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_movie_queues_reset_802e1730": "0x802e1730"
+  },
+  "descriptions": {
+    "w3d_cx13b_movie_queues_reset_802e1730": "Cancel any pending read and reset video/audio frame queues, decoder counters and playback volume state."
+  }
+}

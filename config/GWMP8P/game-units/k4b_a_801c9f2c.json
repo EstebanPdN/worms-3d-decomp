@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801c9f2c",
+  "source": "source/matching/game/k4b/k4b_a_801c9f2c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_named_range_construct_801c9f2c": "0x801c9f2c"
+  },
+  "descriptions": {
+    "w3d_k4b_named_range_construct_801c9f2c": "Appears to construct a derived named object over 0x801c90c0: vtable 0x804162f8, five zero floats, a retained shared interface at +48 and two cleared words."
+  }
+}

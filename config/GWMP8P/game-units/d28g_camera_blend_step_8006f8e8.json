@@ -1,0 +1,11 @@
+{
+  "unit": "d28g_camera_blend_step_8006f8e8",
+  "source": "source/matching/game/d28g/d28g_camera_blend_step_8006f8e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28g_camera_blend_step_8006f8e8": "0x8006f8e8"
+  },
+  "descriptions": {
+    "w3d_d28g_camera_blend_step_8006f8e8": "Camera step: when the target handle at +76 resolves, fetches three target vectors and blends up (+28) and focus (+16) toward them by the rates at +80 and +84; while locked it unlocks past the +96 distance from the position target, and when unlocked it blends the position (+4) by the rate at +88, then extends bounds with +100 and +104."
+  }
+}

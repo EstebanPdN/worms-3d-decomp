@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_endpoint_scan_control_802ccbfc",
+  "source": "source/matching/game/cx12b/cx12b_endpoint_scan_control_802ccbfc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_endpoint_scan_control_802ccbfc": "0x802ccbfc"
+  },
+  "descriptions": {
+    "w3d_cx12b_endpoint_scan_control_802ccbfc": "Query both endpoint receive spans and invoke the original control handler when either contains byte three."
+  }
+}

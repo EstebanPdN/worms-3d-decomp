@@ -1,0 +1,19 @@
+{
+  "unit": "s20_small_j",
+  "source": "source/matching/game/s20/s20_small_j.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_release_held_800e41d8": "0x800e41d8",
+    "w3d_s20_forward_global4_800e5d4c": "0x800e5d4c",
+    "w3d_s20_forward_global4_800fdd80": "0x800fdd80",
+    "w3d_s20_check_limit_800e6ec8": "0x800e6ec8",
+    "w3d_s20_clear_top_flags_800fdecc": "0x800fdecc"
+  },
+  "descriptions": {
+    "w3d_s20_release_held_800e41d8": "Appears to release the held object through virtual method 4, clear the pointer and forward the subobject at offset 28 to a helper.",
+    "w3d_s20_forward_global4_800e5d4c": "Appears to forward four arguments and a global object to a helper when the global exists, otherwise return zero.",
+    "w3d_s20_forward_global4_800fdd80": "Appears to forward four arguments and a global object to a helper when the global exists, otherwise return 0x80004005.",
+    "w3d_s20_check_limit_800e6ec8": "Appears to run a helper on three sub-areas and return whether a global limit is at most the value at offset 92.",
+    "w3d_s20_clear_top_flags_800fdecc": "Appears to clear the top two bits of the flag word at offset 92 and run a helper twice with indexes 0 and 1."
+  }
+}

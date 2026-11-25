@@ -1,0 +1,11 @@
+{
+  "unit": "d15b_init_input_state_800a5fdc",
+  "source": "source/matching/game/d15b/d15b_init_input_state_800a5fdc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_init_input_state_800a5fdc": "0x800a5fdc"
+  },
+  "descriptions": {
+    "d15b_init_input_state_800a5fdc": "Initialize an input/selection state in place: run the base initializer, install the original table pointer, clear a five-word range, set default limits (0, 0.5, step 0.25 and span 1 - 0.25), set packed mode bits, clear targets, cursor and origin, fill eight slots with -1, seek the slot level, publish the object as the current input state and clear the hold and repeat words. Partial observed layout; float constants are original read-only data referenced by address; no owned initialized data."
+  }
+}

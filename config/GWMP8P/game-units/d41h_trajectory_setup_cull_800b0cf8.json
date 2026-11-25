@@ -1,0 +1,17 @@
+{
+  "unit": "d41h_trajectory_setup_cull_800b0cf8",
+  "source": "source/matching/game/d41h/d41h_trajectory_setup_cull_800b0cf8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d41h_trajectory_setup_cull_800b0cf8": "0x800b0cf8"
+  },
+  "descriptions": {
+    "d41h_trajectory_setup_cull_800b0cf8": "Prepares a swept trajectory query from position, velocity and acceleration and culls the collision mesh tree with the given radius."
+  }
+}

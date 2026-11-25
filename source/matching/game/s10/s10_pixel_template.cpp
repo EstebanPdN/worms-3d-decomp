@@ -1,0 +1,26 @@
+struct S10Pixel { unsigned int value; void read(const void *); };
+typedef void (S10Pixel::*S10PixelMethod)(const void *);
+extern S10PixelMethod lbl_803af6ec[];
+extern S10PixelMethod lbl_803af6e4[];
+extern "C" int w3d_s10_convert_pixels_801d906c(void *source, int unused1, unsigned int sourceStride, unsigned int columns, unsigned int rows, void *destination, int unused6, unsigned int destinationStride)
+{
+    S10PixelMethod output = lbl_803af6ec[0];
+    S10PixelMethod input = lbl_803af6e4[0];
+    S10Pixel pixel;
+    unsigned int y = 0;
+    for (; y < rows; ++y) {
+        unsigned int x = 0;
+        if (x < columns) {
+            char *dst = (char *)destination + y * destinationStride;
+            char *src = (char *)source + y * sourceStride;
+            do {
+                (pixel.*input)(src);
+                src += 4;
+                (pixel.*output)(dst);
+                dst += 3;
+                ++x;
+            } while (x < columns);
+        }
+    }
+    return 0;
+}

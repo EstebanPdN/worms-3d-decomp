@@ -1,0 +1,11 @@
+{
+  "unit": "g4b_build_commands_801a9478",
+  "source": "source/matching/game/g4b/g4b_build_commands_801a9478.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4b_build_commands_801a9478": "0x801a9478"
+  },
+  "descriptions": {
+    "g4b_build_commands_801a9478": "Builds an external command word stream from16-byte ranges of item pointers. Sizes storage from three words per item, emits changed group/index/mode table values followed by each item value, adjusts storage to emitted length, clears owner dirty at284 and returns command object at176. Reuses kind1/count-matched array storage through lock-count increments or calls801ef048. All receiver/header/range views are external and never locally constructed; table extents remain opaque."
+  }
+}

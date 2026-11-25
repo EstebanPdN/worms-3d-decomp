@@ -1,0 +1,21 @@
+{
+  "unit": "s3_service_modes",
+  "source": "source/matching/game/s3_service_modes.c",
+  "language": "c",
+  "functions": {
+    "w3d_choose_worm_construct": "0x801594bc",
+    "w3d_choose_worm_finish": "0x80159978",
+    "w3d_service_mode_destroy": "0x8015a39c",
+    "w3d_service_mode_virtual_query": "0x8015a6b8",
+    "w3d_service_mode_is_inactive": "0x8015ab1c",
+    "w3d_service_optional_context_query": "0x8015abcc"
+  },
+  "descriptions": {
+    "w3d_choose_worm_construct": "Initializes the worm selection actor, clears held interfaces, and enables ChooseWorm.",
+    "w3d_choose_worm_finish": "Posts the selection finish message, clears the selection flag, and finishes the actor.",
+    "w3d_service_mode_destroy": "Releases held interfaces and text, then optionally frees the mode through its heap.",
+    "w3d_service_mode_virtual_query": "Calls the query slot in the mode secondary virtual table.",
+    "w3d_service_mode_is_inactive": "Tests whether the mode state word is zero.",
+    "w3d_service_optional_context_query": "Returns zero without the optional context or returns its query result."
+  }
+}

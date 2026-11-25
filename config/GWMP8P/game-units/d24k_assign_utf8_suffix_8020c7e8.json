@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_assign_utf8_suffix_8020c7e8",
+  "source": "source/matching/game/d24k/d24k_assign_utf8_suffix_8020c7e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_assign_utf8_suffix_8020c7e8": "0x8020c7e8"
+  },
+  "descriptions": {
+    "w3d_d24k_assign_utf8_suffix_8020c7e8": "Assigns to the string the last count UTF-8 characters of the source string, using a temporary when source is the same object; reallocates when the buffer is shared or too small, copies the bytes and terminates them; returns the string."
+  }
+}

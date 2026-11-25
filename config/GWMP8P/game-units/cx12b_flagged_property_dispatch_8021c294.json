@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_flagged_property_dispatch_8021c294",
+  "source": "source/matching/game/cx12b/cx12b_flagged_property_dispatch_8021c294.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_flagged_property_dispatch_8021c294": "0x8021c294"
+  },
+  "descriptions": {
+    "w3d_cx12b_flagged_property_dispatch_8021c294": "Create and retain the original service descriptor when property flag 64 is set, assign payload and dispatch before releasing it."
+  }
+}

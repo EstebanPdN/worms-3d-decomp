@@ -1,0 +1,8 @@
+#include "w3d_ptr.h"
+#line 1 "f7c_header_80204c18.cpp"
+// Names, roles, types, qualifiers and layout are inferred from original instructions.
+// Unknown base storage is explicit; referenced constants and strings remain external.
+extern "C" Ptr32<void> fn_802eefe0(Ptr32<void>,int,unsigned);extern "C" int fn_802047ac(Ptr32<void>,Ptr32<const void>,unsigned);struct Node{unsigned color;Ptr32<Node> parent; Ptr32<Node> left; Ptr32<Node> right;unsigned key,value;};struct Iter{Ptr32<Node> node;template <class W3dU> Iter(Ptr32<W3dU> w3d_p) : Iter((Node *)w3d_p.get()) {}
+ Iter(Node*p):node(p){}Iter(const Iter&o){node=o.node;}Ptr32<Node> operator->(){return node;}};struct Map{unsigned unknown;Ptr32<Node> root;unsigned count;unsigned size()const{return count;}Iter find(const unsigned&key){Ptr32<Node> found=root;Ptr32<Node> cursor=root->parent;while(cursor){if(cursor->key>=key){found=cursor;cursor=cursor->left;}else cursor=cursor->right;}if(found==root||key<found->key)found=root;return Iter(found);}};struct Stream{char unknown0[52];unsigned first;char unknown1[4];Map map;char unknown2[76];unsigned key;};struct Header{unsigned magic,version,z0,z1,z2,reserved,count0,count1,count2;char unknown[28];};inline unsigned swap(unsigned n){return n;}extern "C" void f7c_header_80204c18(Ptr32<Stream> self){Header h;fn_802eefe0(&h,0,64);h.magic=0x4b494f4d;h.version=0x02000000;h.z0=0;h.z1=0;h.z2=0;h.count0=self->first;h.count1=self->map.size();Iter result=self->map.find(self->key);unsigned value=result->value;h.version=swap(h.version);h.count0=swap(h.count0);h.count1=swap(h.count1);h.count2=swap(value);fn_802047ac(self,&h,64);}
+
+

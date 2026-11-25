@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800eba70",
+  "source": "source/matching/game/s8hand_800eba70.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_reset_typed_800eba70": "0x800eba70"
+  },
+  "descriptions": {
+    "s8_reset_typed_800eba70": "Clears the object state, constructs an eight-byte cached-ID message and dispatches the message to the object."
+  }
+}

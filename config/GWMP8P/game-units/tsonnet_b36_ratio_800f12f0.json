@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_b36_ratio_800f12f0",
+  "source": "source/matching/game/tsonnet_b36_ratio_800f12f0.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b36_ratio_800f12f0": "0x800f12f0"
+  },
+  "descriptions": {
+    "tsonnet_b36_ratio_800f12f0": "Returns an elapsed-count ratio: a first global constant when the count is below the object's start (+44), a second global constant when the elapsed count exceeds the span length returned by a helper chain on the context pointer (+32), otherwise the elapsed count divided by the span length, both as signed integers converted to float. Field meanings are inferred. Division by a zero span and the constants' values have not been behaviorally tested."
+  }
+}

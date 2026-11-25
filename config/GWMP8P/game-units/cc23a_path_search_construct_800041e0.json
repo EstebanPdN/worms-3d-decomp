@@ -1,0 +1,11 @@
+{
+  "unit": "cc23a_path_search_construct_800041e0",
+  "source": "source/matching/game/cc23a/cc23a_path_search_construct_800041e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc23a_path_search_construct_800041e0": "0x800041e0"
+  },
+  "descriptions": {
+    "cc23a_path_search_construct_800041e0": "Initialize two 1024-bucket tables and two sparse ranges, publish search and reset it. Native tail clear preserves observed receiver and store order; extra32-byte frame purpose unknown."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_bind_text_control_properties_802c28a0",
+  "source": "source/matching/game/f1p/f1p_bind_text_control_properties_802c28a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_bind_text_control_properties_802c28a0": "0x802c28a0"
+  },
+  "descriptions": {
+    "w3d_bind_text_control_properties_802c28a0": "Resolve the original FE.BorderThickness and FE.TextCursor.Flash properties through one reused native held slot; retain each cast result before releasing and replacing the receiver field. Increment the original global identity counter, store the receiver identity and current identity, advance the global offset by six, invoke the native refresh, and release the local held interface. Names and field roles are inferred; receiver and member layouts are partial external views. The local held slot uses the witnessed eight-byte reservation with its second word unspecified. No complete class size, resource ownership or initialized-data bytes are claimed."
+  }
+}

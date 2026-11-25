@@ -1,0 +1,15 @@
+{
+  "unit": "d31i_panel_build_80105ac8",
+  "source": "source/matching/game/d31i/d31i_panel_build_80105ac8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d31i_panel_build_80105ac8": "0x80105ac8"
+  },
+  "descriptions": {
+    "d31i_panel_build_80105ac8": "Creates a panel with background, inner, four colour box and extra widgets, sets the static colours once (white, clear, grey), binds the theme to the panel at +52 and +56, stores the panel at +52 of the owner and appends it to the global panel array, growing it by half."
+  }
+}

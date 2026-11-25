@@ -1,0 +1,11 @@
+{
+  "unit": "h2p_set_named_value_802aa71c",
+  "source": "source/matching/game/h2p/h2p_set_named_value_802aa71c.cpp",
+  "language": "cpp",
+  "functions": {
+    "h2p_set_named_value_802aa71c": "0x802aa71c"
+  },
+  "descriptions": {
+    "h2p_set_named_value_802aa71c": "Updates an externally named scalar property while holding its lookup interface. An empty name returns immediately; failed lookup copies and releases the diagnostic name then returns. Success sets the external owner update flag, dispatches tag0 through the first native cast/value writer and tag1 through the second writer with a by-value scalar copy, and copies/releases the name for other tags. Clears the flag, releases the held interface and destroys the by-value input string. String and held reference are complete four-byte GC32 values; owner/interface views and semantic names are inferred, diagnostic purpose unknown. No owned data."
+  }
+}

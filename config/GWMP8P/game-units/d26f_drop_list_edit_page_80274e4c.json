@@ -1,0 +1,15 @@
+{
+  "unit": "d26f_drop_list_edit_page_80274e4c",
+  "source": "source/matching/game/d26f/d26f_drop_list_edit_page_80274e4c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26f_drop_list_edit_page_80274e4c": "0x80274e4c"
+  },
+  "descriptions": {
+    "d26f_drop_list_edit_page_80274e4c": "Builds and writes the drop-down list's debug edit page text."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_pointer_vector_remove_801f9f2c",
+  "source": "source/matching/game/cx15b/cx15b_pointer_vector_remove_801f9f2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_pointer_vector_remove_801f9f2c": "0x801f9f2c"
+  },
+  "descriptions": {
+    "w3d_cx15b_pointer_vector_remove_801f9f2c": "Find and erase the first matching raw pointer, shifting following entries and returning original failure code."
+  }
+}

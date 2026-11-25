@@ -1,0 +1,14 @@
+{
+  "unit": "d41a_jump_reach_tables_8001fa68",
+  "source": "source/matching/game/d41a/d41a_jump_reach_tables_8001fa68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41a_jump_reach_tables_8001fa68": "0x8001fa68"
+  },
+  "descriptions": {
+    "w3d_d41a_jump_reach_tables_8001fa68": "Builds the two AI jump reach tables from the jump, gravity and walk speed properties."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

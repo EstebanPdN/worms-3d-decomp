@@ -1,0 +1,14 @@
+{
+  "unit": "cc24a_planner_influence_attenuation_800165cc",
+  "source": "source/matching/game/cc24a/cc24a_planner_influence_attenuation_800165cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_influence_attenuation_800165cc": "0x800165cc"
+  },
+  "descriptions": {
+    "cc24a_planner_influence_attenuation_800165cc": "Sum ordered-positive spatial influences and attenuate f1 value by fused affine denominator; plan receiver remains r3 under independent argument-register banks."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

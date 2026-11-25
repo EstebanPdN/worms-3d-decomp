@@ -1,0 +1,11 @@
+{
+  "unit": "memcard_guide_step",
+  "source": "source/matching/game/memcard_guide_step.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_card_guide_step": "0x802c501c"
+  },
+  "descriptions": {
+    "w3d_card_guide_step": "Memory-card guide: reports the current message, runs the next card operation or failure message and returns the flow state."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_type_pair_lookup_8020e4bc",
+  "source": "source/matching/game/d24k/d24k_type_pair_lookup_8020e4bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_type_pair_lookup_8020e4bc": "0x8020e4bc"
+  },
+  "descriptions": {
+    "w3d_d24k_type_pair_lookup_8020e4bc": "Packs the ids of two type objects into one unsigned key, finds it in the red-black tree at +20 and returns the value at +20 of the node, or 0 when absent."
+  }
+}

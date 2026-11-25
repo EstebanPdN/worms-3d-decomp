@@ -1,0 +1,14 @@
+{
+  "unit": "d30l_fruit_machine_update_802a8650",
+  "source": "source/matching/game/d30l/d30l_fruit_machine_update_802a8650.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30l_fruit_machine_update_802a8650": "0x802a8650"
+  },
+  "descriptions": {
+    "d30l_fruit_machine_update_802a8650": "Per-frame Wormpot update: drives the reel spin and nudge state machine and stops each reel on its target symbol."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_first_active_property_8021ec2c",
+  "source": "source/matching/game/cx7b/cx7b_first_active_property_8021ec2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_first_active_property_8021ec2c": "0x8021ec2c"
+  },
+  "descriptions": {
+    "w3d_cx7b_first_active_property_8021ec2c": "Search the count at collection +24 and pointer table at +32; return the first entry whose object helper reports active."
+  }
+}

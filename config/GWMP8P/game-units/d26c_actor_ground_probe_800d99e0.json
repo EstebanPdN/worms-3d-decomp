@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_actor_ground_probe_800d99e0",
+  "source": "source/matching/game/d26c/d26c_actor_ground_probe_800d99e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_actor_ground_probe_800d99e0": "0x800d99e0"
+  },
+  "descriptions": {
+    "d26c_actor_ground_probe_800d99e0": "Step through 0x800b0824 from p with a straight down vector, zero second vector and time (int)p->y + 1. Return 0 when the global frame is past it. Otherwise post the tick message, make sure the table is ready (0x800bd920), copy and normalize the global direction, copy the global up vector, copy the global stamp to +360 and +364 and return 1."
+  }
+}

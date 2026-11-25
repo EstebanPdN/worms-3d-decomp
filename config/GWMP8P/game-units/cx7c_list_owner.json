@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_list_owner",
+  "source": "source/matching/game/cx7c/cx7c_list_owner.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_list_owner_construct_8035d5b4": "0x8035d5b4"
+  },
+  "descriptions": {
+    "w3d_cx7c_list_owner_construct_8035d5b4": "Constructs an inferred list owner with base/derived vtables and a 12-byte self-linked sentinel at object offset +8; retains the allocation fallback."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_80166404",
+  "source": "source/matching/game/k2b/k2b_a_80166404.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_service_lookup_entry_80166404": "0x80166404"
+  },
+  "descriptions": {
+    "w3d_k2b_service_lookup_entry_80166404": "Appears to ask a held service for a table keyed by the object's secondary base and return one of its entries."
+  }
+}

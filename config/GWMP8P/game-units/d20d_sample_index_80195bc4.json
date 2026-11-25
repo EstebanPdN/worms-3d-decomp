@@ -1,0 +1,14 @@
+{
+  "unit": "d20d_sample_index_80195bc4",
+  "source": "source/matching/game/d20d/d20d_sample_index_80195bc4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d20d_sample_index_80195bc4": "0x80195bc4"
+  },
+  "descriptions": {
+    "d20d_sample_index_80195bc4": "Evaluate one track of a channel mixer alone: return 0x80004005 with no channels; else clear the output values to the float at 0x803a8480, apply the channels for the track (0x80195fb0), save the track weight, set it to the float at 0x803a8484 through virtual slot 16, run the optional post-process (0x801979fc), restore the saved weight through the same slot, finish (0x80196038) and return 0. Field meanings are inferred."
+  }
+}

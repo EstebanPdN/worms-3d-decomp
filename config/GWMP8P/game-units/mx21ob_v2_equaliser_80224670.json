@@ -1,0 +1,11 @@
+{
+  "unit": "mx21ob_v2_equaliser_80224670",
+  "source": "source/matching/game/mx21ob/mx21ob_v2_equaliser_80224670.cpp",
+  "language": "cpp",
+  "functions": {
+    "__17Mx21obFeEqualiserUs": "0x80224670"
+  },
+  "descriptions": {
+    "__17Mx21obFeEqualiserUs": "Constructs a graphic-equaliser widget: runs the widget base constructor 0x8021ef08 with the caller's 16-bit id, installs the table 0x8041a398, copy-constructs the strings at +116 and +120 from the shared empty string 0x804b06a0, sets the floats at +124 to 65.0f and +128 to 30.0f (pooled literals 0x803b78bc, 0x803b78c0) and the int at +132 to 1, builds +136 from the shared \"FE.Button.%s\" text 0x803b61f8 through 0x8020bb54, copy-constructs +140, +144, +148 from the shared empty string, then sets +152 to 1 and +156 to 0, in member order. Names and the equaliser meaning are inferred; offsets are observed."
+  }
+}

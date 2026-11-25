@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801f7084",
+  "source": "source/matching/game/perm/s10perm_801f7084.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801f7084": "0x801f7084"
+  },
+  "descriptions": {
+    "w3d_auto_801f7084": "Computes the determinant of a 3-by-3 matrix supplied as nine floating-point components."
+  }
+}

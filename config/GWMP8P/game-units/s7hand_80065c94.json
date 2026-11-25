@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80065c94",
+  "source": "source/matching/game/s7/s7hand_80065c94.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80065c94": "0x80065c94"
+  },
+  "descriptions": {
+    "w3d_auto_80065c94": "Resolves each of four interface slots at +0x1c and forwards the resolved object plus the supplied argument to 0x800649e8."
+  }
+}

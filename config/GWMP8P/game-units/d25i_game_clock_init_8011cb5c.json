@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_game_clock_init_8011cb5c",
+  "source": "source/matching/game/d25i/d25i_game_clock_init_8011cb5c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_game_clock_init_8011cb5c": "0x8011cb5c"
+  },
+  "descriptions": {
+    "d25i_game_clock_init_8011cb5c": "Game clock setup: clears the values +104..+132, subscribes the 18 cached message ids to the slots +28..+96, resolves RoundTime, TurnTime, HotSeatTime, PostActivityTime, RetreatTime and their Remaining values, ClockDisplayMode, ActiveWormIndex and ElapsedRoundTime into retained references +136..+184, then sets the display mode to 0 through 0x80178d28."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_words_notify_802bd430",
+  "source": "source/matching/game/f1p/f1p_words_notify_802bd430.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_words_notify_802bd430": "0x802bd430"
+  },
+  "descriptions": {
+    "w3d_words_notify_802bd430": "Compares the three stored words at +0x28 with the supplied record, copies them only on a bitwise change, notifies optional interface +0x60 through slot +0x4c and 0x802bf81c after a change, then always invokes 0x802bd354. Word representation observed; semantic meaning unknown."
+  }
+}

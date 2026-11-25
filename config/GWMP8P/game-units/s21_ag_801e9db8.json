@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ag_801e9db8",
+  "source": "source/matching/game/s21/s21_ag_801e9db8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_vector_get_801e9db8": "0x801e9db8"
+  },
+  "descriptions": {
+    "w3d_s21_vector_get_801e9db8": "Appears to return the pointer at an index of a pointer vector, or zero when the index is out of range."
+  }
+}

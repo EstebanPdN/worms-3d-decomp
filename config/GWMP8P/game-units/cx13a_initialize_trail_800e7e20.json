@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_initialize_trail_800e7e20",
+  "source": "source/matching/game/cx13a/cx13a_initialize_trail_800e7e20.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_initialize_trail_800e7e20": "0x800e7e20"
+  },
+  "descriptions": {
+    "w3d_cx13a_initialize_trail_800e7e20": "Initialize observed trail state and three invalid-handle fields after base construction; names inferred."
+  }
+}

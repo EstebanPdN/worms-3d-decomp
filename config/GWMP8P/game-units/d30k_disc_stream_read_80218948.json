@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_disc_stream_read_80218948",
+  "source": "source/matching/game/d30k/d30k_disc_stream_read_80218948.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_disc_stream_read_80218948": "0x80218948"
+  },
+  "descriptions": {
+    "w3d_d30k_disc_stream_read_80218948": "Reads bytes from a disc file stream into memory, directly when aligned and through a 1 KB cache otherwise."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_string_vector_destroy_8020cb38",
+  "source": "source/matching/game/cx14b/cx14b_string_vector_destroy_8020cb38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_string_vector_destroy_8020cb38": "0x8020cb38"
+  },
+  "descriptions": {
+    "w3d_cx14b_string_vector_destroy_8020cb38": "Release the owned buffer and every eight-byte string element, release vector storage, then honor the original deleting-destructor flag."
+  }
+}

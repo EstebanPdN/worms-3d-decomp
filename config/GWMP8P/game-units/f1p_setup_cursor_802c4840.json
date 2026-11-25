@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_setup_cursor_802c4840",
+  "source": "source/matching/game/f1p/f1p_setup_cursor_802c4840.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_setup_cursor_802c4840": "0x802c4840"
+  },
+  "descriptions": {
+    "w3d_setup_cursor_802c4840": "Create the observed cursor resource once, retain its interface, set its mode and scale, attach it to the main object, and refresh its position. Exact call/lifetime/relocation proof; partial interface roles and the ignored virtual-slot return type remain inferred."
+  }
+}

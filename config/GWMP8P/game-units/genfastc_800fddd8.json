@@ -1,0 +1,24 @@
+{
+  "unit": "genfastc_800fddd8",
+  "source": "source/matching/game/generated/genfastc_800fddd8.c",
+  "language": "c",
+  "functions": {
+    "w3d_init_fade_800fddd8": "0x800fddd8",
+    "w3d_set_voice_pan_801e58b0": "0x801e58b0",
+    "w3d_set_voice_pan_801e5908": "0x801e5908",
+    "w3d_set_voice_pitch_801e5960": "0x801e5960",
+    "w3d_update_tint_8026b2c4": "0x8026b2c4",
+    "w3d_update_tint_802a0d44": "0x802a0d44"
+  },
+  "descriptions": {
+    "w3d_init_fade_800fddd8": "Initializes a fade record: clears and resets its fields, converts the start and end bytes to floats (quantized load), sets the active flag and the duration if positive.",
+    "w3d_set_voice_pan_801e58b0": "Offsets and scales the value, converts it to a byte (quantized store) and sends it as sound control 10 for the held voice.",
+    "w3d_set_voice_pan_801e5908": "Offsets and scales the value, converts it to a byte (quantized store) and sends it as sound control 10 for the held voice.",
+    "w3d_set_voice_pitch_801e5960": "Scales the value, converts it to a signed 16-bit control (quantized store), offsets it by 8192 and sends it as sound control 132 for the held voice.",
+    "w3d_update_tint_8026b2c4": "If enabled and a target exists, copies the current colour, sets its alpha from a float field (quantized store) and applies it to the target.",
+    "w3d_update_tint_802a0d44": "If enabled and a target exists, copies the current colour, sets its alpha from a float field (quantized store) and applies it to the target."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

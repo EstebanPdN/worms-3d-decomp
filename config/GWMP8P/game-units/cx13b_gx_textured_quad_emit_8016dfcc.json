@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_gx_textured_quad_emit_8016dfcc",
+  "source": "source/matching/game/cx13b/cx13b_gx_textured_quad_emit_8016dfcc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_gx_textured_quad_emit_8016dfcc": "0x8016dfcc"
+  },
+  "descriptions": {
+    "w3d_cx13b_gx_textured_quad_emit_8016dfcc": "Emit a signed-coordinate quad with texture dimensions supplied by the object at +16 and +18."
+  }
+}

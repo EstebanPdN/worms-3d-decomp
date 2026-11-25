@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_dispatch_h.c
+w3d_s20_dispatch_two_records_801a3d90|0x801a3d90|Appears to dispatch every target of two records of the item through the handler table, stopping at the first failure.
+w3d_s20_dispatch_five_targets_801a4874|0x801a4874|Appears to dispatch five optional item targets through the handler table and return zero.

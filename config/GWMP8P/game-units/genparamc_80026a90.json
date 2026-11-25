@@ -1,0 +1,15 @@
+{
+  "unit": "genparamc_80026a90",
+  "source": "source/matching/game/generated/genparamc_80026a90.c",
+  "language": "c",
+  "functions": {
+    "w3d_destroy_interfaces_80026a90": "0x80026a90",
+    "w3d_destroy_interfaces_800282e4": "0x800282e4",
+    "w3d_destroy_interfaces_800379fc": "0x800379fc"
+  },
+  "descriptions": {
+    "w3d_destroy_interfaces_80026a90": "Destructor body: installs the class vtable, releases each held interface member (virtual release) in reverse order, then runs the base actor destructor.",
+    "w3d_destroy_interfaces_800282e4": "Destructor body: installs the class vtable, releases each held interface member (virtual release) in reverse order, then runs the base actor destructor.",
+    "w3d_destroy_interfaces_800379fc": "Destructor body: installs the class vtable, releases each held interface member (virtual release) in reverse order, then runs the base actor destructor."
+  }
+}

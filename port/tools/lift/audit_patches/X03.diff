@@ -1,0 +1,11 @@
+--- a/port/core/game/d30l/d30l_text_item_setup_802ba818.cpp
++++ b/port/core/game/d30l/d30l_text_item_setup_802ba818.cpp
+@@ -63,7 +63,7 @@
+ struct Res;
+ struct ResVt { char u0[16]; Ptr32<void (Ptr32<Res>)> destroy; char u20[56]; Ptr32<int (Ptr32<Res>, const Vec &, int)> pos; char u80[4]; Ptr32<int (Ptr32<Res>, const Vec &, int)> scale; char u88[4]; Ptr32<void (Ptr32<Res>, Ptr32<Res>, int)> add; Ptr32<void (Ptr32<Res>, Ptr32<Res>)> remove; };
+ struct Res { Ptr32<ResVt> vt; };
+-struct Cfg { char u0[20]; Vec pos; char u32[84]; int bias; int align; float off; unsigned char u128[3], b131, u132[3], b135, u136[3], b139; Str s140, s144; };
++struct Cfg { char u0[20]; Vec pos; char u32[84]; int bias; int align; float off; unsigned char b131, u129[3], b135, u133[3], b139, u137[3]; /* enteros: PPC +0x83/+0x87/+0x8b son el byte bajo, en el anfitrión +0x80/+0x84/+0x88 */ Str s140, s144; };
+ struct Sub { char u[4]; };
+ struct Panel {
+     char u0[28];

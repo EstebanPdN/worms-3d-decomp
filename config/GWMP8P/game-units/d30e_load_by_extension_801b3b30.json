@@ -1,0 +1,14 @@
+{
+  "unit": "d30e_load_by_extension_801b3b30",
+  "source": "source/matching/game/d30e/d30e_load_by_extension_801b3b30.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_load_by_extension_801b3b30": "0x801b3b30"
+  },
+  "descriptions": {
+    "w3d_d30e_load_by_extension_801b3b30": "Loads a resource by name: returns a cached entry found in either name table, otherwise dispatches on the extension: TGA, TIF and TIFF through virtual slot 6, RTG through slot 7, XOM by opening the tagged reader and a stream, then testing the root's type chain against 0x80364fa4 and 0x80362704 and calling slots 4 or 5. Returns the failure code of each step, 0x80004005 for an unknown root and 0x80070057 for an unknown extension. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

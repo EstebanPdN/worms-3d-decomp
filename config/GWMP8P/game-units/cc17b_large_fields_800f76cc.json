@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_large_fields_800f76cc",
+  "source": "source/matching/game/cc17b/cc17b_large_fields_800f76cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_large_fields_800f76cc": "0x800f76cc"
+  },
+  "descriptions": {
+    "w3d_cc17b_large_fields_800f76cc": "Initializes the base, vtable and observed repeated subobjects, registers the owner globally and clears the final pair. The original 200-byte unused stack workspace is explicit; its semantic role remains unknown."
+  }
+}

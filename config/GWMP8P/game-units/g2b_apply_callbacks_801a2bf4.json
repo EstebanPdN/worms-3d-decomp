@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_apply_callbacks_801a2bf4",
+  "source": "source/matching/game/g2b/g2b_apply_callbacks_801a2bf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_apply_callbacks_801a2bf4": "0x801a2bf4"
+  },
+  "descriptions": {
+    "g2b_apply_callbacks_801a2bf4": "Applies supplied callback descriptors unless flags11 contain4, dispatching each changed or dirty descriptor through cached secondary table and recording current slot using unsigned16 index20. Clears dirty bit2 before dispatch and accumulates seen slots. Then traverses default/current external pointer ranges from slot1 to original global804b18d8, dispatching unseen changed or dirty defaults and updating current pointers. Returns zero. All views are partial external objects and no local external object or fixed-array range is constructed. Names inferred, no owned data."
+  }
+}

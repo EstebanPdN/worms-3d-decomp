@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_update_jetpack_effects_800ae9d0",
+  "source": "source/matching/game/f1p/f1p_update_jetpack_effects_800ae9d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_update_jetpack_effects_800ae9d0": "0x800ae9d0"
+  },
+  "descriptions": {
+    "w3d_update_jetpack_effects_800ae9d0": "Start or stop the observed jetpack engine and first effect according to the two input controls; replace/release the held voice effect through the original service names and forward the input vector to all three effect interfaces. Inline per-branch first-effect setup preserves original shared control flow. Receiver/context/interface views are partial and game-owned; roles and signatures inferred, with original null-handling retained. No local aggregate allocation or external-data ownership is claimed."
+  }
+}

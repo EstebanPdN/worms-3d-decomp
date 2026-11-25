@@ -1,0 +1,11 @@
+{
+  "unit": "s19_flag_8002b488",
+  "source": "source/matching/game/s19/s19_flag_8002b488.c",
+  "language": "c",
+  "functions": {
+    "s19_update_flag_8002b488": "0x8002b488"
+  },
+  "descriptions": {
+    "s19_update_flag_8002b488": "Appears to toggle a flag on the held interface at +0x20 through virtual slots 22 and 28 depending on a field of the object looked up for the handle at +0x1c."
+  }
+}

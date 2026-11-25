@@ -1,0 +1,13 @@
+{
+  "unit": "genparamc_800989c0",
+  "source": "source/matching/game/generated/genparamc_800989c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sinit_derived_only_800989c0": "0x800989c0",
+    "w3d_sinit_derived_only_800f28d8": "0x800f28d8"
+  },
+  "descriptions": {
+    "w3d_sinit_derived_only_800989c0": "Static initializer: sets file-scope pointers to fixed offsets from a shared base pointer, then constructs the file type object in place.",
+    "w3d_sinit_derived_only_800f28d8": "Static initializer: sets file-scope pointers to fixed offsets from a shared base pointer, then constructs the file type object in place."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d28e_write_file_80204950",
+  "source": "source/matching/game/d28e/d28e_write_file_80204950.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_write_file_80204950": "0x80204950"
+  },
+  "descriptions": {
+    "w3d_d28e_write_file_80204950": "Serialize to a stream: resets, runs the collection pass through the table slot at +32, assigns running offsets to the sized map at +44, numbers the objects of the map at +60 per type and lists them, writes the header, types, guids, tables and body through the section writers, then writes each listed object through its table. Returns 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d15b_resource_manager_help_80098d94",
+  "source": "source/matching/game/d15b/d15b_resource_manager_help_80098d94.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_resource_manager_help_80098d94": "0x80098d94"
+  },
+  "descriptions": {
+    "d15b_resource_manager_help_80098d94": "Reserve the \"Graphical Resource Manager\" endpoint name and store the result in the page, then build the key-help line \"Options: Next, Previous, <?>Help, Refresh, Toggle in use, Section, Type\" in a temporary text from fifteen original pieces with alternating attributes 8 and 7, copy it into the fixed help-line buffer and destroy the text. Strings and buffer referenced by address; partial layout; no owned initialized data."
+  }
+}

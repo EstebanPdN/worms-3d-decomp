@@ -1,0 +1,11 @@
+{
+  "unit": "d25b_girder_place_80095648",
+  "source": "source/matching/game/d25b/d25b_girder_place_80095648.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_girder_place_80095648": "0x80095648"
+  },
+  "descriptions": {
+    "w3d_d25b_girder_place_80095648": "Girder placement try: when the placed count +744 is below the limit +740, checks the state +684, flags +696, +704 and the query 0x80096564 (over 44 runs 0x800959cc), formats the large or small template name by +688 (0x803434d4), posts the placement message (0x80108154), plays the placement effects (0x800fc330, 0x800fdc80, 0x80178c54, the sound table at +108 of 0x804b1788), raises the used counter (0x80178d28), then either finishes (state 6, plain message 0x804adf10 when the limit is above 1, 0x8002ad9c, 0x8002ae70) or restarts placement 40 units higher, copying the position to +208 and +196 (0x80178fa4, plain message 0x804adf08)."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d30i_pair_table_list_fill_80112cb0",
+  "source": "source/matching/game/d30i/d30i_pair_table_list_fill_80112cb0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30i_pair_table_list_fill_80112cb0": "0x80112cb0"
+  },
+  "descriptions": {
+    "d30i_pair_table_list_fill_80112cb0": "Fills an option list from a seven-entry key and value table, translating each key for the label column."
+  }
+}

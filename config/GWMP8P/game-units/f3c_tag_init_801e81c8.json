@@ -1,0 +1,11 @@
+{
+  "unit": "f3c_tag_init_801e81c8",
+  "source": "source/matching/game/f3c/f3c_tag_init_801e81c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3c_tag_init_801e81c8": "0x801e81c8"
+  },
+  "descriptions": {
+    "f3c_tag_init_801e81c8": "Initialize the observed embedded tag and scalar fields, acquire and retain the service interface, release the previous interface, store the owner and clear its high flag bit. Layout and names inferred."
+  }
+}

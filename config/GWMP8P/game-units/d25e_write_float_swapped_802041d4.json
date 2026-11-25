@@ -1,0 +1,11 @@
+{
+  "unit": "d25e_write_float_swapped_802041d4",
+  "source": "source/matching/game/d25e/d25e_write_float_swapped_802041d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25e_write_float_swapped_802041d4": "0x802041d4"
+  },
+  "descriptions": {
+    "w3d_d25e_write_float_swapped_802041d4": "Stream writer: byte-swaps a float's bit pattern and writes the 4 bytes through 0x802047e0, returning its status."
+  }
+}

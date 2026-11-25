@@ -1,0 +1,11 @@
+{
+  "unit": "s20perm_8019e1e8",
+  "source": "source/matching/game/perm/s20perm_8019e1e8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8019e1e8": "0x8019e1e8"
+  },
+  "descriptions": {
+    "w3d_auto_8019e1e8": "Automatically decompiled (m2c, tuned by decomp-permuter) and verified exact; behavior description pending review."
+  }
+}

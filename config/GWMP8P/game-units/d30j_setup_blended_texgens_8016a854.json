@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_setup_blended_texgens_8016a854",
+  "source": "source/matching/game/d30j/d30j_setup_blended_texgens_8016a854.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30j_setup_blended_texgens_8016a854": "0x8016a854"
+  },
+  "descriptions": {
+    "d30j_setup_blended_texgens_8016a854": "Bind a material's two textures and set up its scrolling texture generators and indirect matrix."
+  }
+}

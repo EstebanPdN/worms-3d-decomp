@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c34_save_record_80288bc8",
+  "source": "source/matching/game/tsonnet_c34/tsonnet_c34_save_record_80288bc8.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c34_save_record_80288bc8": "0x80288bc8"
+  },
+  "descriptions": {
+    "tsonnet_c34_save_record_80288bc8": "Allocates an 8268-byte temporary buffer, calls an external retrieval routine for the data at offset 8268, copies icons into the data at offset 76 with the four-byte colour 0xff00ffff-style value (255, 0, 255, 255), then calls an external record builder with three global string pointers, a field of the card object at offset 696, the data, size 0x11800, the argument, an indeterminate eighth value and the temporary buffer, and releases the buffer; names and layouts are inferred."
+  }
+}

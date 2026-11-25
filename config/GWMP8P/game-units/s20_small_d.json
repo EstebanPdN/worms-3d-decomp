@@ -1,0 +1,15 @@
+{
+  "unit": "s20_small_d",
+  "source": "source/matching/game/s20/s20_small_d.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_dispatch_item_801a4a58": "0x801a4a58",
+    "w3d_s20_set_block_801c7e34": "0x801c7e34",
+    "w3d_s20_forward_differences_80197208": "0x80197208"
+  },
+  "descriptions": {
+    "w3d_s20_dispatch_item_801a4a58": "Appears to dispatch the item's linked record through the handler table at offset 24 of this and return the handler result.",
+    "w3d_s20_set_block_801c7e34": "Appears to copy a 24-byte block into the object at offset 20.",
+    "w3d_s20_forward_differences_80197208": "Appears to compute forward differences of four floats and output the scaled differences and the first value."
+  }
+}

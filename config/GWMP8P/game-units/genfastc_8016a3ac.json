@@ -1,0 +1,16 @@
+{
+  "unit": "genfastc_8016a3ac",
+  "source": "source/matching/game/generated/genfastc_8016a3ac.c",
+  "language": "c",
+  "functions": {
+    "w3d_apply_alpha_test_8016a3ac": "0x8016a3ac",
+    "w3d_set_blend_mode_802a0cc0": "0x802a0cc0"
+  },
+  "descriptions": {
+    "w3d_apply_alpha_test_8016a3ac": "Sets the alpha compare: always pass when disabled, else a table compare function with a reference byte converted from a float (quantized store); sets z-compare location.",
+    "w3d_set_blend_mode_802a0cc0": "Changes the blend mode if different: applies it, refreshes the alpha fields from the current colour alpha (quantized load) and reapplies the tint when needed."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

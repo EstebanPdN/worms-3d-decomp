@@ -1,0 +1,15 @@
+{
+  "unit": "d41a_stand_plan_spawn_8000b8f8",
+  "source": "source/matching/game/d41a/d41a_stand_plan_spawn_8000b8f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41a_stand_plan_spawn_8000b8f8": "0x8000b8f8"
+  },
+  "descriptions": {
+    "w3d_d41a_stand_plan_spawn_8000b8f8": "Builds the move queues for a stand plan and pushes four clone plans for each usable far entry."
+  },
+  "extra_flags": [
+    "-mps-float",
+    "-fvtable-thunks"
+  ]
+}

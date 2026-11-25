@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_payload_rest_check_800d8300",
+  "source": "source/matching/game/d26c/d26c_payload_rest_check_800d8300.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_payload_rest_check_800d8300": "0x800d8300"
+  },
+  "descriptions": {
+    "d26c_payload_rest_check_800d8300": "Read the message id and the context time. If velocity +48 and force +60 are zero and the id equals the rest id and 0x800d8f8c agrees: run 0x800eb6e4, report through 0x80022e20 when the virtual type chain reaches 0x80361860 or 0x803618f0, store the time at +368, run 0x800d8b4c and read the descriptor. If moving: fill position and velocity through virtuals +44/+48, store the time and run 0x800d8b4c."
+  }
+}

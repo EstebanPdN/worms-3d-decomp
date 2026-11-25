@@ -1,0 +1,5 @@
+#ifndef D28_STDLIB
+#define D28_STDLIB
+#include <../include/stddef.h>
+extern "C" { typedef struct{int quot,rem;} div_t; typedef struct{long quot,rem;} ldiv_t; int atexit(void(*)()); char *getenv(const char*); double atof(const char*); int atoi(const char*); long atol(const char*); int mblen(const char*,size_t); size_t mbstowcs(wchar_t*,const char*,size_t); int mbtowc(wchar_t*,const char*,size_t); int system(const char*); void *bsearch(const void*,const void*,size_t,size_t,int(*)(const void*,const void*)); void qsort(void*,size_t,size_t,int(*)(const void*,const void*)); int rand(); void srand(unsigned); long labs(long); int abs(int); div_t div(int,int); ldiv_t ldiv(long,long); double strtod(const char*,char**); long strtol(const char*,char**,int); unsigned long strtoul(const char*,char**,int); int wctomb(char*,wchar_t); size_t wcstombs(char*,const wchar_t*,size_t); void exit(int); void abort(); void *malloc(size_t); void free(void*); void *calloc(size_t,size_t); void *realloc(void*,size_t); }
+#endif

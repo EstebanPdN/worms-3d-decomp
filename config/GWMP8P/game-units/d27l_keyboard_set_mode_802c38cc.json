@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_keyboard_set_mode_802c38cc",
+  "source": "source/matching/game/d27l/d27l_keyboard_set_mode_802c38cc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_keyboard_set_mode_802c38cc": "0x802c38cc"
+  },
+  "descriptions": {
+    "d27l_keyboard_set_mode_802c38cc": "Changes the on-screen keyboard's character set and refreshes all 30 keys."
+  }
+}

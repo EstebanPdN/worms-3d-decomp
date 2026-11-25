@@ -1,0 +1,11 @@
+{
+  "unit": "d20d_text_range_width_8018c938",
+  "source": "source/matching/game/d20d/d20d_text_range_width_8018c938.cpp",
+  "language": "cpp",
+  "functions": {
+    "d20d_text_range_width_8018c938": "0x8018c938"
+  },
+  "descriptions": {
+    "d20d_text_range_width_8018c938": "Width of part of a laid-out text line: return the float at 0x803a7e30 when 'start' exceeds the glyph count (0x8018ca1c); otherwise sum the glyph values of at most 'count' glyph references from 'start' up to the end of the line, starting from that float, multiply by the text size at +36 and divide by the weight of the first track's first glyph. Field meanings are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s7perm_8002dd68",
+  "source": "source/matching/game/s7/s7perm_8002dd68.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002dd68": "0x8002dd68"
+  },
+  "descriptions": {
+    "w3d_auto_8002dd68": "Preserves the recovered 92-byte instruction sequence of field accesses, branches and external calls; equivalent C expression ordering and local types were found by bounded local decomp-permuter search."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "s4_team_properties",
+  "source": "source/matching/game/s4_team_properties.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_team_update_named_state": "0x80298dd4",
+    "w3d_s4_team_has_capacity": "0x80299a94",
+    "w3d_s4_team_refresh_game_names": "0x8029b410",
+    "w3d_s4_team_update_for_game_type": "0x8029b73c",
+    "w3d_s4_team_network_update": "0x8029b7e4"
+  },
+  "descriptions": {
+    "w3d_s4_team_update_named_state": "Updates a named team property using barracks capacity and current team kind.",
+    "w3d_s4_team_has_capacity": "Tests whether the team barracks is available and contains fewer than twenty entries.",
+    "w3d_s4_team_refresh_game_names": "Refreshes four team names from the current game initialization data.",
+    "w3d_s4_team_update_for_game_type": "Selects the network or offline team update path from the game type.",
+    "w3d_s4_team_network_update": "Posts a cached network team-update message carrying the supplied name."
+  }
+}

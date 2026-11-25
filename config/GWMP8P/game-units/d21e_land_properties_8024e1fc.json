@@ -1,0 +1,14 @@
+{
+  "unit": "d21e_land_properties_8024e1fc",
+  "source": "source/matching/game/d21e/d21e_land_properties_8024e1fc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d21e_register_land_properties_8024e1fc": "0x8024e1fc"
+  },
+  "descriptions": {
+    "w3d_d21e_register_land_properties_8024e1fc": "Resets the Name string binding (0x801ed24c) to the shared empty string, creates eight vector bindings (0x801f0210: Position ... WallTexYVec, CentreOffset) and two 2D bindings (0x801f00f0: FloorTexOffset, WallTexOffset) reset to 0x803c5524 (0.0f), registers EdgeOffset1/EdgeOffset2 (0x801f25b0), HeightMap (0x801efec4), Voxels (0x801efdfc) and Details (0x801eff8c) with guarded function-local static descriptors built once from zero-filled temporaries, registers XSize/YSize/ZSize, EdgeCrinkle, EdgeFalloff, PeturbCliffs, Visible and SmoothShading through their binding helpers, resets the Tint colour binding (0x801f15e0) to 0, calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d41z_vfprintf",
+  "source": "source/matching/game/d41z/d41z_vfprintf.c",
+  "language": "c",
+  "functions": {
+    "w3d_d41z_vfprintf_r_802f07a0": "0x802f07a0"
+  },
+  "descriptions": {
+    "w3d_d41z_vfprintf_r_802f07a0": "SN ProDG's _vfprintf_r: newlib printf with 64-bit formats and SN's cvt for %e, %f and %g, where %g picks the form through log10. PRINT copies into string streams (flag 0x200) or feeds the console writer; no __sprint buffering, no error path. Names follow newlib."
+  }
+}

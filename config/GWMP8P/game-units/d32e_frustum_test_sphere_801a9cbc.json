@@ -1,0 +1,11 @@
+{
+  "unit": "d32e_frustum_test_sphere_801a9cbc",
+  "source": "source/matching/game/d32e/d32e_frustum_test_sphere_801a9cbc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32e_frustum_test_sphere_801a9cbc": "0x801a9cbc"
+  },
+  "descriptions": {
+    "w3d_d32e_frustum_test_sphere_801a9cbc": "Tests a sphere against a view frustum: transforms it into view space, then checks six planes (a general plane loop, or the axis-aligned symmetric form when the ortho flag at +60 is set). Returns 0 outside, 1 intersecting (and sets the flag at +44), 2 fully inside."
+  }
+}

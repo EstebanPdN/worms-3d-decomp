@@ -1,0 +1,11 @@
+{
+  "unit": "cxc2_singleton_8020b884",
+  "source": "source/matching/game/cxc2/cxc2_singleton_8020b884.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxc2_singleton_8020b884": "0x8020b884"
+  },
+  "descriptions": {
+    "cxc2_singleton_8020b884": "Return the interface cached at 0x804b0698. If empty, assign the fallback at 0x804abaa4 with optional virtual retain at vtable byte +12 and release of the previous slot at +16. If the fallback was null, allocate 28 bytes, call constructor 0x80218284, and assign that result through the same retain/release sequence. External data ownership and interface identity remain unresolved."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_score_others_80012018",
+  "source": "source/matching/game/cx14a/cx14a_score_others_80012018.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_score_others_80012018": "0x80012018"
+  },
+  "descriptions": {
+    "w3d_cx14a_score_others_80012018": "Clears the accumulator and adds the original scoring helper result for each actor with a valid team different from the original selected-team global."
+  }
+}

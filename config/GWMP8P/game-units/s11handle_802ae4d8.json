@@ -1,0 +1,11 @@
+{
+  "unit": "s11handle_802ae4d8",
+  "source": "source/matching/game/generated/s11handle_802ae4d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "s11_named_handle_802ae4d8": "0x802ae4d8"
+  },
+  "descriptions": {
+    "s11_named_handle_802ae4d8": "Constructs a named resource handle: resolves a string with the supplied flags, retains the result, releases old and temporary references, and destroys the temporary string."
+  }
+}

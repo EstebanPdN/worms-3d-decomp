@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_801f15e0",
+  "source": "source/matching/game/k6b/k6b_a_801f15e0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_value_node_clone_801f15e0": "0x801f15e0"
+  },
+  "descriptions": {
+    "w3d_k6b_value_node_clone_801f15e0": "Appears to allocate a 28-byte node, construct it with vtable 0x804179a0, copy the source through 0x801eb0a8 and two spans, and append it to the owner."
+  }
+}

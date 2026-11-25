@@ -1,0 +1,11 @@
+{
+  "unit": "s10_mode_apply",
+  "source": "source/matching/game/s10/s10_mode_apply.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_apply_mode_801b12ec": "0x801b12ec"
+  },
+  "descriptions": {
+    "w3d_s10_apply_mode_801b12ec": "Appears to select and apply mode-dependent properties, resolve an override property, and store the chosen mode into flag bits 1-2."
+  }
+}

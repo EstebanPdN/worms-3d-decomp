@@ -1,0 +1,11 @@
+{
+  "unit": "s8perm_800d2488",
+  "source": "source/matching/game/s8perm_800d2488.c",
+  "language": "c",
+  "functions": {
+    "s8_permuted_800d2488": "0x800d2488"
+  },
+  "descriptions": {
+    "s8_permuted_800d2488": "Appears to implement the observed field accesses and external calls; mechanically permuted C verified against the original body."
+  }
+}

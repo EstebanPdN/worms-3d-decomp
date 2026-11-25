@@ -1,0 +1,13 @@
+{
+  "unit": "s2_script_support",
+  "source": "source/matching/game/s2_script_support.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_script_get_breakpoint_801029c8": "0x801029c8",
+    "w3d_script_call_handler_801036f0": "0x801036f0"
+  },
+  "descriptions": {
+    "w3d_script_get_breakpoint_801029c8": "Looks up a source document and reads the breakpoint flag for one line.",
+    "w3d_script_call_handler_801036f0": "Calls a named Lua global handler and reports any container left open afterward."
+  }
+}

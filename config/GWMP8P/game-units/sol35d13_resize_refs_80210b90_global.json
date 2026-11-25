@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d13_resize_refs_80210b90_global",
+  "source": "source/matching/game/sol35d13/sol35d13_resize_refs_80210b90_global.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_resize_refs_80210b90_global": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d13_resize_refs_80210b90_global": "Resize inferred GC32 retained array using genuine global new[]/delete[], signed capacity comparison, unsigned loops and retain/release/reload assignment."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

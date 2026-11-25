@@ -1,0 +1,15 @@
+{
+  "unit": "d32i_label_table_build_8011626c",
+  "source": "source/matching/game/d32i/d32i_label_table_build_8011626c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d32i_label_table_build_8011626c": "0x8011626c"
+  },
+  "descriptions": {
+    "d32i_label_table_build_8011626c": "Reads the settings pair table, builds three label columns on a list panel, sizes their arrays to the pair count, and for each pair assigns the stored or default text, a formatted index, the value text and the owner's id, then appends the columns."
+  }
+}

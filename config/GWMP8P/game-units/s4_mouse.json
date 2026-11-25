@@ -1,0 +1,13 @@
+{
+  "unit": "s4_mouse",
+  "source": "source/matching/game/s4_mouse.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_mouse_construct": "0x80284d74",
+    "w3d_s4_mouse_destroy": "0x80284de8"
+  },
+  "descriptions": {
+    "w3d_s4_mouse_construct": "Initializes the mouse controller base, interface fields, and two vectors.",
+    "w3d_s4_mouse_destroy": "Releases three held interfaces and destroys the mouse controller base."
+  }
+}

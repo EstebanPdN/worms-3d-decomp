@@ -1,0 +1,17 @@
+{
+  "unit": "d41i_weapon_panel_create_8012d8c0",
+  "source": "source/matching/game/d41i/d41i_weapon_panel_create_8012d8c0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d41i_weapon_panel_create_8012d8c0": "0x8012d8c0"
+  },
+  "descriptions": {
+    "d41i_weapon_panel_create_8012d8c0": "Creates the weapon selection panel once: reads layout settings, builds the frame and the 6x9 icon grid, then fills the icons from the weapon tables, or randomly in forced rounds."
+  }
+}

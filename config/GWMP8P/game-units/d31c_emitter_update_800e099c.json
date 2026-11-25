@@ -1,0 +1,14 @@
+{
+  "unit": "d31c_emitter_update_800e099c",
+  "source": "source/matching/game/d31c/d31c_emitter_update_800e099c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31c_emitter_update_800e099c": "0x800e099c"
+  },
+  "descriptions": {
+    "d31c_emitter_update_800e099c": "Particle emitter update: part loop by mode, firing, retirement."
+  }
+}

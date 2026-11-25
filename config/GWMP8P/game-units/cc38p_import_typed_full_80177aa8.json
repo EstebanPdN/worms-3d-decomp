@@ -1,0 +1,11 @@
+{
+  "unit": "cc38p_import_typed_full_80177aa8",
+  "source": "source/matching/game/cc38p/cc38p_import_typed_full_80177aa8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38p_import_typed_full_80177aa8": "0x80177aa8"
+  },
+  "descriptions": {
+    "cc38p_import_typed_full_80177aa8": "Query and validate an interface, retain a second scoped reference, and import it with constant255 through the witnessed full-width group API; release both scoped references and preserve errors. Already-admitted-address refinement candidate."
+  }
+}

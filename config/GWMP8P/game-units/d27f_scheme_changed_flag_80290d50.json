@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_scheme_changed_flag_80290d50",
+  "source": "source/matching/game/d27f/d27f_scheme_changed_flag_80290d50.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_scheme_changed_flag_80290d50": "0x80290d50"
+  },
+  "descriptions": {
+    "d27f_scheme_changed_flag_80290d50": "Frontend scheme compare: posts the leave messages for the two leave buttons; for a named value property, computes whether the Q.* settings differ from GM.SchemeData and writes the flag through the property's kind-specific setter."
+  }
+}

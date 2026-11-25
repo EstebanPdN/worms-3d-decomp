@@ -1,0 +1,14 @@
+{
+  "unit": "d31a_walk_pick_direction_80018f88",
+  "source": "source/matching/game/d31a/d31a_walk_pick_direction_80018f88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31a_walk_pick_direction_80018f88": "0x80018f88"
+  },
+  "descriptions": {
+    "w3d_d31a_walk_pick_direction_80018f88": "Rates eight directions at four ranges for a walking worm, skipping blast index skip, stores the capped total in best and sets dir to the rotated -X vector of the best-rated direction."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

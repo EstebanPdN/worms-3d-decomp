@@ -1,0 +1,11 @@
+{
+  "unit": "g1b_apply_schema_801eb0fc",
+  "source": "source/matching/game/g1b/g1b_apply_schema_801eb0fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1b_apply_schema_801eb0fc": "0x801eb0fc"
+  },
+  "descriptions": {
+    "g1b_apply_schema_801eb0fc": "Applies an external schema descriptor using observed header kind byte6 and flags byte7. Returns1 immediately for flag4. Otherwise obtains an object type through slot20, resolves its member kind with801e9de4, and obtains the reader version through slot184. For descriptors without flag32, finds original Schema/FromVersion metadata and returns1 when version is below the atoi result narrowed to unsigned8; otherwise invokes descriptor slot28 with unchanged reader and object. For flag32, finds Obsolete/FromVersion, requires version below its unsigned8 minimum, and invokes the same slot28 with a null object; missing metadata or a false comparison returns1. Preserves original return values, unchecked metadata value lookup, narrowing, and virtual call order. All descriptor, interface, type and metadata objects are partial external ABI views, never locally allocated or constructed. Owns no initialized data and uses no extra compiler flags; names and high-level schema semantics remain inferred."
+  }
+}

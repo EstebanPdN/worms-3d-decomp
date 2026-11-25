@@ -1,0 +1,17 @@
+{
+  "unit": "d26i_wind_gauge_update_801303d4",
+  "source": "source/matching/game/d26i/d26i_wind_gauge_update_801303d4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26i_wind_gauge_update_801303d4": "0x801303d4"
+  },
+  "descriptions": {
+    "d26i_wind_gauge_update_801303d4": "Refreshes the gauge, computes the needle yaw from the wind heading, the camera view and a wobble term and sends it to the node; ramps the fade over 500 time units from the start time, reversed when the reversed flag is clear; applies the fade, stores the time and clears any pending handle."
+  }
+}

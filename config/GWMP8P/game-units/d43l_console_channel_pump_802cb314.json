@@ -1,0 +1,19 @@
+{
+  "unit": "d43l_console_channel_pump_802cb314",
+  "source": "source/matching/game/d43l/d43l_console_channel_pump_802cb314.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d43l_console_channel_pump_802cb314": "0x802cb314"
+  },
+  "descriptions": {
+    "d43l_console_channel_pump_802cb314": "Pumps one channel: periodic ping every hundred ticks, closes a dead stream, copies incoming bytes to the ring, echoes them, extracts one finished line into the channel's vector of strings, and reports a too-long line."
+  }
+}

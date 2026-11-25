@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801680ec",
+  "source": "source/matching/game/k4b/k4b_a_801680ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_render_set_target_801680ec": "0x801680ec"
+  },
+  "descriptions": {
+    "w3d_k4b_render_set_target_801680ec": "Appears to install or clear a render target pointer, toggling a flag, a retrace-style callback (0x8016814c) and the blend mode through 0x8016830c."
+  }
+}

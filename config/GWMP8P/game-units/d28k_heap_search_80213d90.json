@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_search_80213d90",
+  "source": "source/matching/game/d28k/d28k_heap_search_80213d90.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_search_80213d90": "0x80213d90"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_search_80213d90": "Top-down splay of the free-chunk size tree: removes an exact or least-larger chunk, or unlinks a wanted tiny chunk."
+  }
+}

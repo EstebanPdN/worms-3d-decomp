@@ -1,0 +1,139 @@
+--- a/port/core/game/d29d/d29d_worm_drown_80149f18.cpp
++++ b/port/core/game/d29d/d29d_worm_drown_80149f18.cpp
+@@ -43,9 +43,13 @@
+ int owner_8014c488(Ptr32<Worm>);
+ void clear_links_8014df84(Ptr32<Worm>, int);
+ int falling_8014fcac(Ptr32<Worm>);
+-// v25 (core/native/ahogo.cpp): tirada de flotar en agua honda y prueba de ahogo.
+-int w3d_ahogo_flota(int, float, float, int);
++void track_80150828(Ptr32<Worm>);
++// v26 (core/native/ahogo.cpp): ahogo de Ultimate Mayhem y prueba de ahogo.
++int w3d_ahogo_um_entrar(int, int);
+ int w3d_prueba_ahogo_toca(int);
++int w3d_prueba_ahogo_somero(void);
++float w3d_prueba_ahogo_altura(void);
++float w3d_prueba_ahogo_vx(void);
+ void w3d_prueba_ahogo_log(int, float, float, float, int);
+ void set_state_801492ec(Ptr32<Worm>, int);
+ Ptr32<Engine> engine_80165254();
+@@ -86,9 +90,15 @@
+     p->vt = vt_8040db38;
+     post_8016239c(p);
+ }
+-// v25, prueba de ahogo (W3D_PRUEBA_AHOGO): busca alrededor del worm, en anillos de 100 en 100 unidades, el primer
+-// punto con agua honda según la misma prueba del juego (8014fcac desde 8 bajo el agua, como al ahogarse), y deja al
+-// worm 60 por encima del agua, cayendo. Solo para las pruebas: sin la opción no se llama.
++// v25, prueba de ahogo (W3D_PRUEBA_AHOGO): busca alrededor del worm el punto más cercano con agua honda según la misma
++// prueba del juego (8014fcac desde 8 bajo el agua, como al ahogarse), y deja al worm 60 por encima del agua, cayendo.
++// Solo para las pruebas: sin la opción no se llama.
++// v26: anillos de 20 en 20 unidades desde 60, y la caída debe estar libre: desde 92 sobre el agua, 8014fcac no toca
++// nada en 100 unidades; en agua honda, tampoco a 50 unidades en 4 direcciones (antes caía a veces dentro de una
++// construcción sobre el agua o pegado a una pared, y no se veía).
++// W3D_PRUEBA_AHOGO_SOMERO=1: agua poco profunda, es decir, desde 8 bajo el agua 8014fcac toca suelo a menos de 100.
++// W3D_PRUEBA_AHOGO_ALTURA=<h> (60) y W3D_PRUEBA_AHOGO_VX=<v> (0): altura y velocidad en x; con h < 0 queda de pie (kStatic).
++// La cámara sigue al worm con la cámara de seguir worms del juego (0x80150828, la de un worm lanzado por una explosión).
+ inline void prueba_ahogo(Ptr32<Worm> self) {
+     static const float kDir[16][2] = {
+         {1.0f, 0.0f}, {0.92388f, 0.38268f}, {0.70711f, 0.70711f}, {0.38268f, 0.92388f},
+@@ -97,24 +107,66 @@
+         {0.0f, -1.0f}, {0.38268f, -0.92388f}, {0.70711f, -0.70711f}, {0.92388f, -0.38268f}};
+     float ox = self->f560.x, oy = self->f560.y, oz = self->f560.z;
+     float water = value_80178df0(self->f1232);
+-    for (int r = 200; r <= 4000; r += 100) {
++    int somero = w3d_prueba_ahogo_somero();
++    for (int r = 60; r <= 4000; r += 20) {
+         for (int a = 0; a < 16; a++) {
+             self->f560.x = ox + kDir[a][0] * (float)r;
+-            self->f560.y = water - 8.0f;
++            self->f560.y = water + 92.0f;
+             self->f560.z = oz + kDir[a][1] * (float)r;
+             if (!falling_8014fcac(self)) continue;
+-            self->f560.y = water + 60.0f;
+-            self->f676.x = 0.0f; self->f676.y = -0.05f; self->f676.z = 0.0f;
++            // Agua honda abierta: tampoco hay nada sobre el agua a 50 unidades en las 4 direcciones (si no, una pared tapa al
++            // worm). El agua poco profunda está junto a la orilla: ahí no se mira.
++            float cx = self->f560.x, cz = self->f560.z;
++            int libre = 1;
++            for (int k = 0; k < 16 && libre && !somero; k += 4) {
++                self->f560.x = cx + kDir[k][0] * 50.0f;
++                self->f560.z = cz + kDir[k][1] * 50.0f;
++                libre = falling_8014fcac(self);
++            }
++            self->f560.x = cx; self->f560.z = cz;
++            if (!libre) continue;
++            self->f560.y = water - 8.0f;
++            if (falling_8014fcac(self) == somero) continue;
++            float h = w3d_prueba_ahogo_altura();
++            self->f560.y = water + h;
++            self->f676.x = w3d_prueba_ahogo_vx(); self->f676.y = h < 0.0f ? 0.0f : -0.05f; self->f676.z = 0.0f;
+             self->f716 = 0;
+             self->f824 &= 0x7fffffffu;
+-            self->f760 = 7;
++            self->f760 = h < 0.0f ? 0 : 7;
+             w3d_prueba_ahogo_log(self->f584, self->f560.x, self->f560.y, self->f560.z, 1);
++            track_80150828(self);
+             return;
+         }
+     }
+     self->f560.x = ox; self->f560.y = oy; self->f560.z = oz;
+     w3d_prueba_ahogo_log(self->f584, ox, oy, oz, 0);
+ }
++// v26: entrada al agua de Ultimate Mayhem (CheckDrown 0x5AD640 de WormsMayhem.exe; docs/ahogo-ultimate-mayhem.md).
++// Estado 27 con la animación 33, como el ahogo en agua poco profunda de W3D, pero lo mueve ahogo.cpp (d41d) y la muerte
++// llega cuando ahogo.cpp lo dice: hasta entonces +668 no vence.
++// - Velocidad: si caminaba o resbalaba (Ambulatory 0 y Sliding 3 en UM; kStatic 0, kWalk 1, kSlide 9 y kSlideRecovery
++//   10 en W3D), v = (v.x·0,5, −0,03, v.z·0,5). Si no, la misma con la que cayó.
++// - Salpicadura: UM pone WXP_WaterSplash en (x, superficie + 1, z); aquí Splash_Worm, la de W3D al caer un worm al agua.
++//   La animación 33 añade la salpicadura Splash de W3D (d31d).
++inline void entrada_um(Ptr32<Worm> self) {
++    int prev = self->f760;
++    self->f760 = 27;
++    set_state_801492ec(self, 33);
++    if (prev == 0 || prev == 1 || prev == 9 || prev == 10) {
++        self->f676.x *= 0.5f;
++        self->f676.y = -0.03f;
++        self->f676.z *= 0.5f;
++    }
++    self->f668 = -1;
++    {
++        Vec v = self->f560;
++        float level = value_80178df0(self->f1232);
++        int n = (int)(level * 16.0f);
++        v.y = (float)(n | 1) * 0.0625f + 1.0f;
++        splash_800e5ca4(&v, str_803a131c, 0, 0.0f);
++    }
++    if (self->type()->is_a(type_80361860) || self->type()->is_a(type_803618f0)) log_80022e20(str_803a1308, str_803a0e2c, 3025, &self->f804);
++}
+ extern "C" void d29d_worm_drown_80149f18(Ptr32<Worm> self) {
+     if (self->f648 && (self->f760 == 19 || self->f760 == 27)) return;
+     if (!self->f648 && owner_8014c488(self) && w3d_prueba_ahogo_toca(engine_80165254()->now)) prueba_ahogo(self);
+@@ -133,9 +185,11 @@
+     if (owner_8014c488(self)) clear_links_8014df84(self, 1);
+     // 8014fcac da 1 si no hay suelo a menos de 100 unidades bajo el worm: agua honda.
+     int deep = falling_8014fcac(self);
+-    // v25 (pedido del dueño): en agua honda el worm también flota y explota, el 33 % de las veces (core/native/ahogo.cpp).
+-    if (deep && w3d_ahogo_flota(self->f584, self->f560.x, self->f560.z, engine_80165254()->now)) deep = 0;
+-    if (!deep) {
++    // v26 (pedido del dueño): con el ahogo de UM activado (core/native/ahogo.cpp), todo ahogo flota y explota como en UM.
++    int um = w3d_ahogo_um_entrar(self->f584, deep);
++    if (um) {
++        entrada_um(self);
++    } else if (!deep) {
+         self->f760 = 27;
+         set_state_801492ec(self, 33);
+         *(Ptr32<Triple>)&self->f676 = *triple_8045e788;
+@@ -150,9 +204,11 @@
+     }
+     if (owner_8014c488(self)) post_plain(&cache_804afb68);
+     self->f688 = *triple_8045e788;
+-    self->f676.x *= 0.4f;
+-    self->f676.z *= 0.4f;
+-    self->f676.y *= 0.6f;
++    if (!um) {
++        self->f676.x *= 0.4f;
++        self->f676.z *= 0.4f;
++        self->f676.y *= 0.6f;
++    }
+     int active = active_80178c48(get_803426b4(self->f1124));
+     if ((unsigned)active > 15) return;
+     if (get_80158dc4(turns_804ab400)) {

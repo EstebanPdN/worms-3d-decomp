@@ -1,0 +1,15 @@
+{
+  "unit": "s5_chute_logic",
+  "source": "source/matching/game/s5_chute_logic.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_chute_logic_step_800da388": "0x800da388",
+    "w3d_chute_logic_value_800da4a8": "0x800da4a8",
+    "w3d_chute_close_800da750": "0x800da750"
+  },
+  "descriptions": {
+    "w3d_chute_logic_step_800da388": "Resolves the chute owner, invalidates missing owners and selects open or close handling.",
+    "w3d_chute_logic_value_800da4a8": "Returns a resolved chute owner value or the shared default when the owner is absent.",
+    "w3d_chute_close_800da750": "Posts a pending chute value as an integer message and clears the pending field."
+  }
+}

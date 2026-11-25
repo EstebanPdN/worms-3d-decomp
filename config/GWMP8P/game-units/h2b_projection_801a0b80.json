@@ -1,0 +1,11 @@
+{
+  "unit": "h2b_projection_801a0b80",
+  "source": "source/matching/game/h2b/h2b_projection_801a0b80.cpp",
+  "language": "cpp",
+  "functions": {
+    "h2b_projection_801a0b80": "0x801a0b80"
+  },
+  "descriptions": {
+    "h2b_projection_801a0b80": "Builds the external camera projection matrix from horizontal, vertical and depth bounds, selecting orthographic or perspective coefficients. Uses the observed four-column64-byte matrix footprint in place; no local external views and no owned initialized data."
+  }
+}

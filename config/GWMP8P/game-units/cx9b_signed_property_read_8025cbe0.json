@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_signed_property_read_8025cbe0",
+  "source": "source/matching/game/cx9b/cx9b_signed_property_read_8025cbe0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_signed_property_read_8025cbe0": "0x8025cbe0"
+  },
+  "descriptions": {
+    "w3d_cx9b_signed_property_read_8025cbe0": "Select the observed signed byte field for the property identifier; reserved and unknown identifiers return zero."
+  }
+}

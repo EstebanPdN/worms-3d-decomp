@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_message_text_send_800a7b24",
+  "source": "source/matching/game/k5a/k5a_message_text_send_800a7b24.cpp",
+  "language": "cpp",
+  "functions": {"k5a_message_text_send_800a7b24": "0x800a7b24"},
+  "descriptions": {"k5a_message_text_send_800a7b24": "Appears to post a text message immediately, or queue it with a delay of ten ticks when the dispatcher is not in immediate mode."}
+}

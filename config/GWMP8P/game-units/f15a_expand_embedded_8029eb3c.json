@@ -1,0 +1,11 @@
+{
+  "unit": "f15a_expand_embedded_8029eb3c",
+  "source": "source/matching/game/f15a/f15a_expand_embedded_8029eb3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f15a_expand_embedded_8029eb3c": "0x8029eb3c"
+  },
+  "descriptions": {
+    "w3d_f15a_expand_embedded_8029eb3c": "Expand embedded slash-star names recursively through the original name lookup and text accessor, copying ordinary bytes to the shared output cursor and releasing the held interface on exit. Names and roles inferred; 128-byte scratch and eight-byte held reservation observed; bounds and malformed delimiter behavior preserved; no external data ownership."
+  }
+}

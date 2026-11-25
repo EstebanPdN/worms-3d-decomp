@@ -1,0 +1,27 @@
+{
+  "unit": "a_ai_commands",
+  "source": "source/matching/game/a_ai_commands.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_command_create_1": "0x80007d58",
+    "w3d_command_create_3": "0x80008728",
+    "w3d_command_create_7": "0x80008c44",
+    "w3d_command_create_6": "0x80008d84",
+    "w3d_command_create_15": "0x80008ed4",
+    "w3d_command_create_17": "0x80009164",
+    "w3d_command_create_18": "0x800092bc",
+    "w3d_command_create_19": "0x80009404",
+    "w3d_command_create_21": "0x8000953c"
+  },
+  "descriptions": {
+    "w3d_command_create_1": "In a particular AI state (or for value 49), queues an AI command of type 1 carrying the given value.",
+    "w3d_command_create_3": "Queues an AI command of type 3 with a value and a zero point, then clears a flag and refreshes the world map.",
+    "w3d_command_create_7": "Queues a type 6 command with count 100, then queues an AI command of type 7 without parameters.",
+    "w3d_command_create_6": "Queues an AI command of type 6, clamping a negative count to zero before storing it.",
+    "w3d_command_create_15": "Queues an AI command of type 15 carrying one integer value.",
+    "w3d_command_create_17": "Queues an AI command of type 17 carrying a copied 3D point.",
+    "w3d_command_create_18": "Queues an AI command of type 18 carrying a value and the current team setting.",
+    "w3d_command_create_19": "Queues an AI command of type 19 without parameters.",
+    "w3d_command_create_21": "Queues an AI command of type 21 without parameters."
+  }
+}

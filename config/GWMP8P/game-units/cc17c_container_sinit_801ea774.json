@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_container_sinit_801ea774",
+  "source": "source/matching/game/cc17c/cc17c_container_sinit_801ea774.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_sinit_801ea774": "0x801ea774"
+  },
+  "descriptions": {
+    "w3d_cc17c_sinit_801ea774": "Static initializer for the XContainer module: clears two three-word list objects, registers the XContainer and XContainerArena factory records (priorities 0 and -10), builds two type descriptors and constructs the XContainer arena handle."
+  }
+}

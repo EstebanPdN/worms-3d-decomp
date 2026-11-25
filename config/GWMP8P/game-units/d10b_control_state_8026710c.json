@@ -1,0 +1,11 @@
+{
+  "unit": "d10b_control_state_8026710c",
+  "source": "source/matching/game/d10b/d10b_control_state_8026710c_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10b_control_state_8026710c": "0x8026710c"
+  },
+  "descriptions": {
+    "d10b_control_state_8026710c": "Propagate full-width owner state, active XOR one, and toggle or its XOR one to eleven nullable control callbacks at vtable byte offset 88. Preserve inactive-owner branch behavior, original callback order, live pointer reloads and cached scalar values. Partial inferred owner and vtable views; complete original class sizes and ignored callback return type are unknown. No owned initialized data."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "unit": "d26j_transform_setters_80185ba4",
+  "source": "source/matching/game/d26j/d26j_transform_setters_80185ba4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d26j_set_translation_80185ba4": "0x80185ba4",
+    "d26j_set_rotation_80185f10": "0x80185f10",
+    "d26j_set_scale_80186254": "0x80186254"
+  },
+  "descriptions": {
+    "d26j_set_translation_80185ba4": "Store a new translation unless unchanged, rebuild the node's world frame and notify every target",
+    "d26j_set_rotation_80185f10": "Store a new rotation unless unchanged, rebuild the node's world frame and notify every target",
+    "d26j_set_scale_80186254": "Store a new scale unless unchanged, rebuild the node's world frame and notify every target"
+  }
+}

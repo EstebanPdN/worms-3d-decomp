@@ -1,0 +1,11 @@
+{
+  "unit": "e14b_string_compact_800c4a7c",
+  "source": "source/matching/game/e14b/e14b_string_compact_800c4a7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "e14b_string_compact_800c4a7c": "0x800c4a7c"
+  },
+  "descriptions": {
+    "e14b_string_compact_800c4a7c": "Compact the two-pointer text buffer behind self+4 after dropping its 33-byte header: if the buffer is non-empty, assign its begin text to the caller's string object, copy the body down over the header unless begin+33 already equals the end, and lower the end pointer by the header size; returns the original failure status 0x80004005 for an empty buffer and 0 on success."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_next_live_worm_801558dc",
+  "source": "source/matching/game/d24d/d24d_next_live_worm_801558dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_next_live_worm_801558dc": "0x801558dc"
+  },
+  "descriptions": {
+    "d24d_next_live_worm_801558dc": "Pops values from the front of the team's list (+52) until a worm with state 1 (+220) is found or the list empties; appends a live worm to its own team's list (byte +213), sets that team's cursor (+148) to the last index and returns the id, otherwise returns -1."
+  }
+}

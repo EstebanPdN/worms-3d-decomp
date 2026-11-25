@@ -1,0 +1,11 @@
+{
+  "unit": "s21_eo_801e4ce0",
+  "source": "source/matching/game/s21/s21_eo_801e4ce0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_start_voice_801e4ce0": "0x801e4ce0"
+  },
+  "descriptions": {
+    "w3d_s21_start_voice_801e4ce0": "Appears to start a voice for a sound object: it checks the object's sound slot, queries its id twice, starts the voice with fixed volume and pan and records the handle in both records, returning one, "
+  }
+}

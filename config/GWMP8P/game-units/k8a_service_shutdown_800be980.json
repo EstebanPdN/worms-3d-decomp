@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_service_shutdown_800be980",
+  "source": "source/matching/game/k8a/k8a_service_shutdown_800be980.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_service_shutdown_800be980": "0x800be980"},
+  "descriptions": {"w3d_k8a_service_shutdown_800be980": "Appears to shut down a service object: tears down its tables, releases four held global interfaces and an owned child object, clearing each pointer."}
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_update_water_80018ed0",
+  "source": "source/matching/game/f2a/f2a_update_water_80018ed0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_update_water_80018ed0": "0x80018ed0"
+  },
+  "descriptions": {
+    "w3d_f2a_update_water_80018ed0": "Looks up the original Water.Level property, writes its float value to 0x804aa760, computes the signed size of the pointer range held by 0x804aa750, and calls 0x80018f88 for each pointer and index. Releases the temporary property through virtual offset 16 when present. Wrapper reserved fields are inferred from the stack frame; external data ownership is not claimed."
+  }
+}

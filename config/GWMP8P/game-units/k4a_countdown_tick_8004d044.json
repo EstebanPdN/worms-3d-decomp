@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_countdown_tick_8004d044",
+  "source": "source/matching/game/k4a/k4a_countdown_tick_8004d044.c",
+  "language": "c",
+  "functions": {
+    "k4a_countdown_tick_8004d044": "0x8004d044"
+  },
+  "descriptions": {
+    "k4a_countdown_tick_8004d044": "Appears to apply a tick amount to a countdown for the filtered team when the source matches, trigger a helper on expiry and release a held interface."
+  }
+}

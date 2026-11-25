@@ -1,0 +1,13 @@
+{
+  "unit": "autoy_8003af00",
+  "source": "source/matching/game/auto/autoy_8003af00.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003af00": "0x8003af00",
+    "w3d_auto_80066bc4": "0x80066bc4"
+  },
+  "descriptions": {
+    "w3d_auto_8003af00": "Automatically decompiled (m2c, reordered or widened) and verified exact; behavior description pending review.",
+    "w3d_auto_80066bc4": "Automatically decompiled (m2c, reordered or widened) and verified exact; behavior description pending review."
+  }
+}

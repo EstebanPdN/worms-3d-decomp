@@ -1,0 +1,11 @@
+{
+  "unit": "cc36b_curve_prepare_801968e8",
+  "source": "source/matching/game/cc36b/cc36b_curve_prepare_801968e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc36b_curve_prepare_801968e8": "0x801968e8"
+  },
+  "descriptions": {
+    "w3d_cc36b_curve_prepare_801968e8": "Prepares endpoint-tangent cubic coefficients in the original global scratch when enabled. Preserves exact float subtraction, multiplication, division and addition order, unordered float comparisons against zero, original5729578.0 default slopes and final values[0] reload. Inferred scratch-field names, external origin and scratch remain unowned. Twelve literal bytes at803a84d8..803a84e4 are independently decoded, source-owned and outside text range, requiring parent ownership review."
+  }
+}

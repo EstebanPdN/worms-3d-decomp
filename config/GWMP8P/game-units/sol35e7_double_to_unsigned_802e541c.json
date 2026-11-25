@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e7_double_to_unsigned_802e541c",
+  "source": "source/matching/game/sol35e7/sol35e7_double_to_unsigned_802e541c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e7_double_to_unsigned_802e541c": "0x802e541c"
+  },
+  "descriptions": {
+    "sol35e7_double_to_unsigned_802e541c": "Converts a double through signed32 truncation, subtracting 2^31 and toggling the high bit on the greater-or-equal path. Finite inputs in [0,2^32) yield unsigned32 truncation; other inputs retain explicit reference-compiler limits. Names and provenance inferred."
+  }
+}

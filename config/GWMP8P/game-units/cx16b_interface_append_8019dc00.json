@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_interface_append_8019dc00",
+  "source": "source/matching/game/cx16b/cx16b_interface_append_8019dc00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_interface_append_8019dc00": "0x8019dc00"
+  },
+  "descriptions": {
+    "w3d_cx16b_interface_append_8019dc00": "Grows the counted interface vector at owner+24, retains and replaces its indexed slot, increments count and invokes the new element owner callback; indexed addressing follows observed integer offset order."
+  }
+}

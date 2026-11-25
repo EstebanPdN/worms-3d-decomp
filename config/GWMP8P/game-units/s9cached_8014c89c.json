@@ -1,0 +1,11 @@
+{
+  "unit": "s9cached_8014c89c",
+  "source": "source/matching/game/perm/s9cached_8014c89c.c",
+  "language": "c",
+  "functions": {
+    "s9_compare_cached_limit_8014c89c": "0x8014c89c"
+  },
+  "descriptions": {
+    "s9_compare_cached_limit_8014c89c": "Lazily caches the named property interface, compares the helper float result with the cached property threshold and returns the comparison."
+  }
+}

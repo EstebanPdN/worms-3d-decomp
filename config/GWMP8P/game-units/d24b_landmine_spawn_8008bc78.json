@@ -1,0 +1,15 @@
+{
+  "unit": "d24b_landmine_spawn_8008bc78",
+  "source": "source/matching/game/d24b/d24b_landmine_spawn_8008bc78.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_landmine_spawn_8008bc78": "0x8008bc78"
+  },
+  "descriptions": {
+    "w3d_d24b_landmine_spawn_8008bc78": "Landmine spawn: reads kWeaponLandmine into a handle, creates the mine object (0x8020b680, type 0x8040fd78) and retains it, passes the handle by value to 0x800eb65c and the position to 0x800eb8d0, sets mine +308 when setting +284 is zero and +92 with the probability setting +268, sets +32 to a random value between settings +272 and +276, registers the mine (0x80164514), stores the returned id in setting +280, appends it to the array at +332 and releases the references."
+  },
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast"
+  ]
+}

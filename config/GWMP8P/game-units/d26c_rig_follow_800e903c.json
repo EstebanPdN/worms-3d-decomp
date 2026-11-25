@@ -1,0 +1,14 @@
+{
+  "unit": "d26c_rig_follow_800e903c",
+  "source": "source/matching/game/d26c/d26c_rig_follow_800e903c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26c_rig_follow_800e903c": "0x800e903c"
+  },
+  "descriptions": {
+    "d26c_rig_follow_800e903c": "Compute the target direction from +84 with 0x800e9204, blend it with +36 by Desc+192, store the result at +36 and copy y to +52. By the mode at +156 set +48 to zero, to x, or add 0x800e9678 times dt. Clear +56 and call the camera's virtual +80 with &self->pitch."
+  }
+}

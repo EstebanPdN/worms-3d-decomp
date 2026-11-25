@@ -1,0 +1,75 @@
+#define W3D_LOOSE_C 1
+#include "w3d_ptr.h"
+extern "C" {
+#line 1 "tsonnet_b37_open_arrays_80189574.c"
+/* Opens one of three array references of a mesh-like record for writing and
+   falls back to the length of a second array when the first is empty.
+
+   The store layout is observed: reference count (halfword at +4), element
+   count (+24), lock count (halfword at +28) and data (+32). The shared body
+   mirrors the copy-on-write open used elsewhere: flag 2 appends to the
+   current count (here zero elements), the previous count is reported through
+   a pointer, and an unshared store of the right size is locked in place;
+   otherwise the external reserve call (0x801ef048) runs with the element
+   unit. When the first array held no elements, its result is discarded and
+   the array is reopened with the length of the array at +96, or null if that
+   is zero. The three functions differ in which array reference they open
+   (+88, +68, +84) and in the element unit (4, 8, 4). Offsets are observed;
+   names and meanings are inferred. */
+typedef struct B37Store { char pad[4]; unsigned short references; char gap[18]; unsigned int count; unsigned short locks; char gap2[2]; char data[1]; } B37Store;
+typedef struct B37Ref { Ptr32<B37Store> store; } B37Ref;
+typedef struct B37Mesh { char pad[68]; B37Ref a68; char gap0[12]; B37Ref a84; B37Ref a88; char gap1[4]; B37Ref a96; } B37Mesh;
+typedef struct B37Storage { char pad[48]; Ptr32<B37Mesh> mesh; } B37Storage;
+typedef struct B37Owner { char pad[168]; Ptr32<B37Storage> storage; } B37Owner;
+extern Ptr32<void> fn_801ef048(Ptr32<B37Ref>, unsigned int, unsigned int, unsigned int);
+static inline Ptr32<void> b37_open(Ptr32<B37Ref> array, unsigned int count, unsigned int flags, Ptr32<unsigned int> previous, unsigned int unit)
+{
+    Ptr32<B37Store> store = array->store;
+    unsigned int size;
+    if (previous) *previous = store->count;
+    if (flags & 2) size = store->count + count;
+    else size = count;
+    if (store->references == 1 && size == store->count) { store->locks++; return store->data; }
+    return fn_801ef048(array, size, unit, flags);
+}
+Ptr32<void> tsonnet_b37_open_80189574(Ptr32<B37Owner> self)
+{
+    Ptr32<B37Mesh> m = self->storage->mesh;
+    unsigned int previous;
+    Ptr32<void> r = b37_open(&m->a88, 0, 2, &previous, 4);
+    if (previous == 0) {
+        unsigned int k = m->a96.store->count;
+        if (k == 0) return 0;
+        previous = k;
+        return b37_open(&m->a88, previous, 0, 0, 4);
+    }
+    return r;
+}
+Ptr32<void> tsonnet_b37_open_8018963c(Ptr32<B37Owner> self)
+{
+    Ptr32<B37Mesh> m = self->storage->mesh;
+    unsigned int previous;
+    Ptr32<void> r = b37_open(&m->a68, 0, 2, &previous, 8);
+    if (previous == 0) {
+        unsigned int k = m->a96.store->count;
+        if (k == 0) return 0;
+        previous = k;
+        return b37_open(&m->a68, previous, 0, 0, 8);
+    }
+    return r;
+}
+Ptr32<void> tsonnet_b37_open_80189760(Ptr32<B37Owner> self)
+{
+    Ptr32<B37Mesh> m = self->storage->mesh;
+    unsigned int previous;
+    Ptr32<void> r = b37_open(&m->a84, 0, 2, &previous, 4);
+    if (previous == 0) {
+        unsigned int k = m->a96.store->count;
+        if (k == 0) return 0;
+        previous = k;
+        return b37_open(&m->a84, previous, 0, 0, 4);
+    }
+    return r;
+}
+
+}

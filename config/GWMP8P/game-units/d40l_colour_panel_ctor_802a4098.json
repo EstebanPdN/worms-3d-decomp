@@ -1,0 +1,12 @@
+{
+  "unit": "d40l_colour_panel_ctor_802a4098",
+  "source": "source/matching/game/d40l/d40l_colour_panel_ctor_802a4098.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d40l_colour_panel_ctor_802a4098": "0x802a4098"
+  },
+  "descriptions": {
+    "d40l_colour_panel_ctor_802a4098": "Constructs a menu panel: clears its handles and values, fills its nine-entry colour table and constructs its four string arrays."
+  }
+}

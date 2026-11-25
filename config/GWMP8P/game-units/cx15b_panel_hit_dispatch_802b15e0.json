@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_panel_hit_dispatch_802b15e0",
+  "source": "source/matching/game/cx15b/cx15b_panel_hit_dispatch_802b15e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_panel_hit_dispatch_802b15e0": "0x802b15e0"
+  },
+  "descriptions": {
+    "w3d_cx15b_panel_hit_dispatch_802b15e0": "Check enabled panel bounds and invoke original direct method-table action on hit."
+  }
+}

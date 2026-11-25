@@ -1,0 +1,11 @@
+{
+  "unit": "cc29b_fill_text_8018d35c",
+  "source": "source/matching/game/cc29b/cc29b_fill_text_8018d35c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc29b_fill_text_8018d35c": "0x8018d35c"
+  },
+  "descriptions": {
+    "w3d_cc29b_fill_text_8018d35c": "Touches the held resource and fills the locked per-character second span when mode is nonzero. Otherwise locks a single width-four item, reusing kind-one/count-one storage by incrementing its16-bit lock count, and assigns the supplied32-bit value. Keeps separate branch returns and the unsigned dynamic-count loop; returns zero. Partial source views do not recover original complete type sizes."
+  }
+}

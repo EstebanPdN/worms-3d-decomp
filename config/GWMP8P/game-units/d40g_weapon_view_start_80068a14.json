@@ -1,0 +1,15 @@
+{
+  "unit": "d40g_weapon_view_start_80068a14",
+  "source": "source/matching/game/d40g/d40g_weapon_view_start_80068a14.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40g"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d40g_weapon_view_start_80068a14": "0x80068a14"
+  },
+  "descriptions": {
+    "d40g_weapon_view_start_80068a14": "Acquire six cached messages into the view's message slots, read the active worm index, look up its weapon properties, leave inactive and release if the model name is the empty marker; otherwise load slots, copy eye and hand positions, replace the model and hands handles with named lookups, take a reference on the weapon name, set the payload flag, assign the spawn name, set up hands and camera, read the camera mode and post the started message."
+  }
+}

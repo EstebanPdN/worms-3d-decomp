@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_chunk_cursor",
+  "source": "source/matching/game/cx9c/cx9c_chunk_cursor.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_chunk_cursor_80343bc0": "0x80343bc0"
+  },
+  "descriptions": {
+    "w3d_cx9c_chunk_cursor_80343bc0": "Advance an inferred run-length chunk cursor and normalize its relative position."
+  }
+}

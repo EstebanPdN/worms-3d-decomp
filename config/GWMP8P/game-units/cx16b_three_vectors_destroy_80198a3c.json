@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_three_vectors_destroy_80198a3c",
+  "source": "source/matching/game/cx16b/cx16b_three_vectors_destroy_80198a3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_three_vectors_destroy_80198a3c": "0x80198a3c"
+  },
+  "descriptions": {
+    "w3d_cx16b_three_vectors_destroy_80198a3c": "Destroys the observed three vector members and held interface, then the base and optional owner; new ordered single storage snapshots recover the two pointer loads that earlier k8b drafts hoisted across empty walks."
+  }
+}

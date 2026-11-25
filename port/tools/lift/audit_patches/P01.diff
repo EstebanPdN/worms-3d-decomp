@@ -1,0 +1,22 @@
+--- a/port/core/game/a_path_search.cpp
++++ b/port/core/game/a_path_search.cpp
+@@ -18,8 +18,8 @@
+     unsigned char unknown_00[2];
+     short x;
+     union {
+-        struct { unsigned char direction; unsigned char layer; short y; } cell;
+-        unsigned int key;   /* y and layer occupy the top 24 bits */
++        struct { short y; unsigned char layer; unsigned char direction; } cell; /* orden PPC: +4 y, +6 layer, +7 direction, escritos con sth/stb */
++        unsigned int key;   /* y and layer: PPC, top 24 bits; host, low 24 bits */
+     } u;
+     short estimate;     /* heuristic distance to the goal */
+     short travelled;    /* cost from the start */
+@@ -185,7 +185,7 @@
+ 
+ static inline bool w3d_path_node_same_cell(Ptr32<const W3dPathNode> a, Ptr32<const W3dPathNode> b)
+ {
+-    return a->x == b->x && (a->u.key & ~0xff) == (b->u.key & ~0xff);
++    return a->x == b->x && (a->u.key & 0x00ffffff) == (b->u.key & 0x00ffffff); /* PPC ~0xff quita +7, que en el anfitrión es el byte alto */
+ }
+ 
+ static inline void w3d_path_copy(Ptr32<Ptr32<W3dPathNode>> first, Ptr32<Ptr32<W3dPathNode>> last, Ptr32<Ptr32<W3dPathNode>> result)

@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_menu_item_80223138",
+  "source": "source/matching/game/d20e/d20e_menu_item_80223138.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__12D20eMenuItemUs": "0x80223138"
+  },
+  "descriptions": {
+    "__12D20eMenuItemUs": "Menu item constructor: runs the widget base constructor 0x8021ef08 with the caller's id, installs the table 0x8041a410, builds the strings at +120/+124 from the text \"A.MenuDown\" (0x8020bb54), sets the floats at +116..+140 to 0, 0, 25, 16, 100 and the ints at +144/+148 to 3 and 1, copy-constructs five strings at +152..+168 from the shared empty string 0x804b06a0 (incrementing its reference count), sets the ints at +172..+180 to 0, 1, 0 and returns this."
+  }
+}

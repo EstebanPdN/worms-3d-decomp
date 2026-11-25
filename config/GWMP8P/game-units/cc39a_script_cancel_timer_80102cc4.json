@@ -1,0 +1,11 @@
+{
+  "unit": "cc39a_script_cancel_timer_80102cc4",
+  "source": "source/matching/game/cc39a/cc39a_script_cancel_timer_80102cc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39a_script_cancel_timer_80102cc4": "0x80102cc4"
+  },
+  "descriptions": {
+    "cc39a_script_cancel_timer_80102cc4": "Validate CancelTimer arguments, truncate the numeric identifier, cancel matching active timers while rereading the array bounds, and pop the Lua arguments."
+  }
+}

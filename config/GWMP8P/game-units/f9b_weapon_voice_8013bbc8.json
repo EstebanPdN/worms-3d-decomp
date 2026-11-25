@@ -1,0 +1,11 @@
+{
+  "unit": "f9b_weapon_voice_8013bbc8",
+  "source": "source/matching/game/f9b/f9b_weapon_voice_8013bbc8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f9b_weapon_voice_8013bbc8": "0x8013bbc8"
+  },
+  "descriptions": {
+    "f9b_weapon_voice_8013bbc8": "Honor the voices option, choose a weapon-specific voice line using an explicitly masked random bit and issue it through the observed speech helper. All semantic roles and external interfaces are inferred. Roles, types and layouts are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8small_800d776c",
+  "source": "source/matching/game/s8small_800d776c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_copy_triple_800d776c": "0x800d776c"
+  },
+  "descriptions": {
+    "s8_copy_triple_800d776c": "Copies the three observed words at offsets 0, 4 and 8."
+  }
+}

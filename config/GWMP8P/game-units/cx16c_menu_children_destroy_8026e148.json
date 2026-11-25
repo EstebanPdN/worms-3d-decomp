@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_menu_children_destroy_8026e148",
+  "source": "source/matching/game/cx16c/cx16c_menu_children_destroy_8026e148.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_menu_children_destroy_8026e148": "0x8026e148"
+  },
+  "descriptions": {
+    "w3d_cx16c_menu_children_destroy_8026e148": "Restore original tables, release five trailing interfaces and a reverse two-element interface array, release the earlier interface, destroy embedded context, and forward flags to base teardown."
+  }
+}

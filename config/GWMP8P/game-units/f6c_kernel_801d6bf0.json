@@ -1,0 +1,11 @@
+{
+  "unit": "f6c_kernel_801d6bf0",
+  "source": "source/matching/game/f6c/f6c_kernel_801d6bf0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6c_kernel_801d6bf0": "0x801d6bf0"
+  },
+  "descriptions": {
+    "f6c_kernel_801d6bf0": "Evaluate a piecewise cubic float kernel using the squared input, absolute input, witnessed coefficients and a shared divisor; return the witnessed zero outside the second threshold. Names, polynomial role and types inferred."
+  }
+}

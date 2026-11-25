@@ -1,0 +1,11 @@
+{
+  "unit": "d30c_payload_message_800e81a0",
+  "source": "source/matching/game/d30c/d30c_payload_message_800e81a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d30c_payload_message_800e81a0": "0x800e81a0"
+  },
+  "descriptions": {
+    "d30c_payload_message_800e81a0": "Payload message handler: start/stop, mesh and clip loading by type strings, settings, base handler."
+  }
+}

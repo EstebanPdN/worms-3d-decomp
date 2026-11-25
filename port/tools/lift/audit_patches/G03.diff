@@ -1,0 +1,14 @@
+--- a/port/core/game/generated/s9resources_8015caec.cpp
++++ b/port/core/game/generated/s9resources_8015caec.cpp
+@@ -110,9 +110,9 @@
+     old=FIELD(self,void *,124);
+     if(old)FIELD(FIELD(old,void *,0),S9RefFn,16)(old);
+     FIELD(self,void *,124)=value;
+-    FIELD(value,char,26)=FIELD(FIELD(lbl_804ab5fc,void *,0),S9ValueFn,156)(lbl_804ab5fc);
++    FIELD(value,char,25)=FIELD(FIELD(lbl_804ab5fc,void *,0),S9ValueFn,156)(lbl_804ab5fc);
+     target=FIELD(self,void *,124);
+-    FIELD(target,char,27)=FIELD(FIELD(lbl_804ab5fc,void *,0),S9ValueFn,156)(lbl_804ab5fc);
++    FIELD(target,char,24)=FIELD(FIELD(lbl_804ab5fc,void *,0),S9ValueFn,156)(lbl_804ab5fc);
+ }
+ 
+ }

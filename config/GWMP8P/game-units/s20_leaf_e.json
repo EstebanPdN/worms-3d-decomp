@@ -1,0 +1,17 @@
+{
+  "unit": "s20_leaf_e",
+  "source": "source/matching/game/s20/s20_leaf_e.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_set_pending_vector_800ecec0": "0x800ecec0",
+    "w3d_s20_get_vector_800ed070": "0x800ed070",
+    "w3d_s20_update_span_800ecee8": "0x800ecee8",
+    "w3d_s20_release_object_800e0400": "0x800e0400"
+  },
+  "descriptions": {
+    "w3d_s20_set_pending_vector_800ecec0": "Appears to copy a three-float vector into the object at offset 236 and set a pending flag at offset 248.",
+    "w3d_s20_get_vector_800ed070": "Appears to copy the three-float vector stored at offset 72 into the caller's output.",
+    "w3d_s20_update_span_800ecee8": "Appears to save the previous vector (unless pending), store two words and a new vector in the object.",
+    "w3d_s20_release_object_800e0400": "Appears to delete the owned object at offset 4 through its virtual destructor and clear the pointer."
+  }
+}

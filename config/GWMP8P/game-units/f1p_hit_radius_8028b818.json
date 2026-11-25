@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_hit_radius_8028b818",
+  "source": "source/matching/game/f1p/f1p_hit_radius_8028b818.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hit_radius_8028b818": "0x8028b818"
+  },
+  "descriptions": {
+    "w3d_hit_radius_8028b818": "Reject the witnessed global mode1; obtain object position and virtual extent, multiply extent by the settings vector and original factor, compare point distance against the absolute first extent component. Radius semantics and layouts inferred; sixteen reserved frame bytes have unknown purpose."
+  }
+}

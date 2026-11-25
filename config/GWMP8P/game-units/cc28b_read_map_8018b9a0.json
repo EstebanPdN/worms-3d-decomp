@@ -1,0 +1,11 @@
+{
+  "unit": "cc28b_read_map_8018b9a0",
+  "source": "source/matching/game/cc28b/cc28b_read_map_8018b9a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc28b_read_map_8018b9a0": "0x8018b9a0"
+  },
+  "descriptions": {
+    "w3d_cc28b_read_map_8018b9a0": "Preserves negative base-reader errors. On success reads TextGroup and NumChars, retains replacement group before releasing prior group, frees and allocates the6-byte mapping array, reads Index/MappedVal/Unicode for each entry, releases the temporary held group, then returns zero. Typed native handle models observed lifetime; original class declaration/sizeof unknown."
+  }
+}

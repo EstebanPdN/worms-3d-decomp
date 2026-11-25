@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_attribute_byte_800fd014",
+  "source": "source/matching/game/cx11a/cx11a_attribute_byte_800fd014.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_attribute_byte_800fd014": "0x800fd014"
+  },
+  "descriptions": {
+    "w3d_cx11a_attribute_byte_800fd014": "Selects an observed byte attribute by signed key, returning zero for reserved ranges and one for other unknown keys. Names inferred."
+  }
+}

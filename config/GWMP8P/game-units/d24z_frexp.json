@@ -1,0 +1,16 @@
+{
+  "unit": "d24z_frexp",
+  "source": "source/matching/game/d24z/d24z_frexp.c",
+  "language": "c",
+  "functions": {
+    "w3d_d24z_frexp_802e773c": "0x802e773c"
+  },
+  "descriptions": {
+    "w3d_d24z_frexp_802e773c": "newlib fdlibm frexp, adapted from vendored s_frexp.c with constants kept as original small-data externs; names inferred."
+  },
+  "include_dirs": [
+    "source/vendor/newlib-1.10.0/newlib/libc/include",
+    "source/vendor/newlib-1.10.0/newlib/libm/common",
+    "source/vendor/newlib-1.10.0/newlib/libm/math"
+  ]
+}

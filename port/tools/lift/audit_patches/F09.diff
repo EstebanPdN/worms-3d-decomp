@@ -1,0 +1,42 @@
+--- a/port/core/game/d28l/d28l_lua_pushvfstring_802d256c.cpp
++++ b/port/core/game/d28l/d28l_lua_pushvfstring_802d256c.cpp
+@@ -2,25 +2,19 @@
+ #line 1 "d28l_lua_pushvfstring_802d256c.cpp"
+ // GWMP8P rev0 0x802d256c. Lua 5.0 luaO_pushvfstring: expands %s, %c, %d, %f
+ // and %% from a varargs list onto the Lua stack and concatenates the pieces.
+-// The varargs reads are written out as the ProDG expansion over a partial
+-// view of the list (gpr, fpr, overflow, register save area) because the
+-// build's stdarg header does not reproduce it. Built with -mps-float.
++// Quienes la llaman son funciones variádicas del anfitrión (core/lua): en arm64 de Apple
++// va_list es un puntero a la pila y cada argumento ocupa 8 bytes.
+ struct TObject { int tt; union { Ptr32<void> gc; float n; } value; };
+ struct lua_State { int u0, u4; Ptr32<TObject> top; Ptr32<TObject> base; int u16, u20; Ptr32<char> stack_last; };
+-struct VaList { signed char gpr, fpr; Ptr32<char> overflow; Ptr32<char> save; };
+ extern "C" void pushstr(Ptr32<lua_State>, Ptr32<const char>);
+ extern "C" Ptr32<void> luaS_newlstr(Ptr32<lua_State>, Ptr32<const char>, int);
+ extern "C" void luaD_growstack(Ptr32<lua_State>, int);
+ extern "C" void luaV_concat(Ptr32<lua_State>, int, int);
+ extern "C" Ptr32<char> strchr(Ptr32<const char>, int);
+ extern const char s_803d9e18[], s_803d9e1c[];
+-#define GP(ap) ({ Ptr32<char> p_; \
+-    if ((unsigned)w3d::AI((ap)->gpr + 1) <= 8) { p_ = (ap)->save + (ap)->gpr * 4; (ap)->gpr++; } \
+-    else { if ((ap)->gpr <= 7) { p_ = (ap)->overflow; (ap)->gpr = 8; } else { p_ = (ap)->overflow; } (ap)->overflow = p_ + 4; } p_; })
+-#define FP(ap) ({ Ptr32<char> p_; \
+-    if ((ap)->fpr <= 7) { p_ = (ap)->save + ((ap)->fpr * 8 + 32); (ap)->fpr++; } \
+-    else { p_ = (ap)->overflow; (ap)->overflow = p_ + 8; } p_; })
+-extern "C" Ptr32<const char> d28l_lua_pushvfstring_802d256c(Ptr32<lua_State> L, Ptr32<const char> fmt, Ptr32<VaList> argp) {
++#define GP(ap) ({ char *p_ = (ap); (ap) += 8; p_; })
++#define FP(ap) GP(ap)
++extern "C" Ptr32<const char> d28l_lua_pushvfstring_802d256c(Ptr32<lua_State> L, Ptr32<const char> fmt, char *argp) {
+     int n = 1;
+     pushstr(L, s_803d9e18);
+     for (;;) {
+@@ -31,7 +25,7 @@
+         L->top++;
+         switch (*(e + 1)) {
+         case 's':
+-            pushstr(L, *(char **)GP(argp));
++            pushstr(L, (Ptr32<const char>)*(const char **)GP(argp));
+             break;
+         case 'c': {
+             char buff[2];

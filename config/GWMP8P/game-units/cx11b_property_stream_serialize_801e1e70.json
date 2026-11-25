@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_property_stream_serialize_801e1e70",
+  "source": "source/matching/game/cx11b/cx11b_property_stream_serialize_801e1e70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_property_stream_serialize_801e1e70": "0x801e1e70"
+  },
+  "descriptions": {
+    "w3d_cx11b_property_stream_serialize_801e1e70": "Serialize the observed property fields through the original typed stream slots in their recorded order."
+  }
+}

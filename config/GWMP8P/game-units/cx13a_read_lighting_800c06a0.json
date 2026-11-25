@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_read_lighting_800c06a0",
+  "source": "source/matching/game/cx13a/cx13a_read_lighting_800c06a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_read_lighting_800c06a0": "0x800c06a0"
+  },
+  "descriptions": {
+    "w3d_cx13a_read_lighting_800c06a0": "Read and negate the sun vector and copy two queried vectors into external lighting state; names inferred."
+  }
+}

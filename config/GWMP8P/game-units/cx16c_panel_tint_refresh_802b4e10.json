@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_panel_tint_refresh_802b4e10",
+  "source": "source/matching/game/cx16c/cx16c_panel_tint_refresh_802b4e10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_panel_tint_refresh_802b4e10": "0x802b4e10"
+  },
+  "descriptions": {
+    "w3d_cx16c_panel_tint_refresh_802b4e10": "Choose white/opaque or gray/translucent tint from the field at +140, apply it to the optional view, then refresh related panel state."
+  }
+}

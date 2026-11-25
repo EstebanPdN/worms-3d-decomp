@@ -1,0 +1,11 @@
+{
+  "unit": "d32a_chat_message_receive_800396a8",
+  "source": "source/matching/game/d32a/d32a_chat_message_receive_800396a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_chat_message_receive_800396a8": "0x800396a8"
+  },
+  "descriptions": {
+    "w3d_d32a_chat_message_receive_800396a8": "Adds a received chat message to the chat screen when its class and target match this player, and announces the update."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unit": "r23a_small",
+  "source": "source/matching/game/r23a/r23a_small_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23a_invalid_result_800ccaf0": "0x800ccaf0",
+    "w3d_r23a_descriptor_800cc77c": "0x800cc77c",
+    "w3d_r23a_descriptor_800cdaa8": "0x800cdaa8",
+    "w3d_r23a_retain_previous_800cc888": "0x800cc888",
+    "w3d_r23a_retain_previous_800cdbb4": "0x800cdbb4",
+    "w3d_r23a_payload_forward_800cc75c": "0x800cc75c",
+    "w3d_r23a_payload_clear_800ccbf4": "0x800ccbf4",
+    "w3d_r23a_payload_prepare_forward_800cc728": "0x800cc728",
+    "w3d_r23a_set_scalar_query_8003e25c": "0x8003e25c",
+    "w3d_r23a_service_shutdown_80029298": "0x80029298",
+    "w3d_r23a_update_mode_one_8003e370": "0x8003e370"
+  },
+  "descriptions": {
+    "w3d_r23a_invalid_result_800ccaf0": "Inferred invalid result operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_descriptor_800cc77c": "Inferred descriptor operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_descriptor_800cdaa8": "Inferred descriptor operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_retain_previous_800cc888": "Inferred retain previous operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_retain_previous_800cdbb4": "Inferred retain previous operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_payload_forward_800cc75c": "Inferred payload forward operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_payload_clear_800ccbf4": "Inferred payload clear operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_payload_prepare_forward_800cc728": "Inferred payload prepare forward operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_set_scalar_query_8003e25c": "Inferred set scalar query operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_service_shutdown_80029298": "Inferred service shutdown operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source.",
+    "w3d_r23a_update_mode_one_8003e370": "Inferred update mode one operation; recovered from original instructions with observed fields and unresolved address-named dependencies documented in source."
+  }
+}

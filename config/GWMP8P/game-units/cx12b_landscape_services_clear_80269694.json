@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_landscape_services_clear_80269694",
+  "source": "source/matching/game/cx12b/cx12b_landscape_services_clear_80269694.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_landscape_services_clear_80269694": "0x80269694"
+  },
+  "descriptions": {
+    "w3d_cx12b_landscape_services_clear_80269694": "Release two held landscape interfaces, reset the original active state and clear the embedded member."
+  }
+}

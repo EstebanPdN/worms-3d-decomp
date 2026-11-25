@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801ac19c",
+  "source": "source/matching/game/k4b/k4b_a_801ac19c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_xform_node_construct_801ac19c": "0x801ac19c"
+  },
+  "descriptions": {
+    "w3d_k4b_xform_node_construct_801ac19c": "Appears to construct a transform node: vtables, member at +4, member at +136, a 4x4 matrix expanded from the global 3x4 matrix 0x8045e748, zero weight, enabled flag set."
+  }
+}

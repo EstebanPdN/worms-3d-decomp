@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aj_801f69a8",
+  "source": "source/matching/game/s21/s21_aj_801f69a8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_transpose4_801f69a8": "0x801f69a8"
+  },
+  "descriptions": {
+    "w3d_s21_transpose4_801f69a8": "Appears to copy a four-by-four float matrix from the second argument into the first with rows and columns exchanged."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_weapon_attach_trail_8013f5c4",
+  "source": "source/matching/game/k4a/k4a_weapon_attach_trail_8013f5c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_weapon_attach_trail_8013f5c4": "0x8013f5c4"
+  },
+  "descriptions": {
+    "k4a_weapon_attach_trail_8013f5c4": "Appears to hold the trail service, create the Weapon.Trail effect for the weapon, and attach the Trail1 and Trail2 nodes through the attachment interface."
+  }
+}

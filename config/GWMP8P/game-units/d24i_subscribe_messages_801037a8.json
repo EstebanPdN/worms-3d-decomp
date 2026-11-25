@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_subscribe_messages_801037a8",
+  "source": "source/matching/game/d24i/d24i_subscribe_messages_801037a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_subscribe_messages_801037a8": "0x801037a8"
+  },
+  "descriptions": {
+    "d24i_subscribe_messages_801037a8": "Walk the zero-terminated message-name table 0x803fcd58: for each name build a cached message name (0x8015f518), allocate a zero-initialized 4-byte receiver slot (0x801fe1d8), append it to the owner's pointer vector at +372 with byte-addressed growth, subscribe the owner to the message's cached id with that slot (0x80162024), and destroy the name (0x8015f558)."
+  }
+}

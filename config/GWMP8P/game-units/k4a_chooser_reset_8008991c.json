@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_chooser_reset_8008991c",
+  "source": "source/matching/game/k4a/k4a_chooser_reset_8008991c.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_chooser_reset_8008991c": "0x8008991c"
+  },
+  "descriptions": {
+    "k4a_chooser_reset_8008991c": "Appears to, when ChooseWorm is disabled and the active worm's record flag is clear, fetch a service object, dispatch it for the owner and set two fields on it."
+  }
+}

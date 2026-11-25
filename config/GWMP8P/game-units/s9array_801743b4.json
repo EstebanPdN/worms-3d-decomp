@@ -1,0 +1,15 @@
+{
+  "unit": "s9array_801743b4",
+  "source": "source/matching/game/generated/s9array_801743b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "s9_resize_pool_801743b4": "0x801743b4",
+    "s9_resize_pool_80183d48": "0x80183d48",
+    "s9_resize_pool_801875e0": "0x801875e0"
+  },
+  "descriptions": {
+    "s9_resize_pool_801743b4": "Resizes the object pool and free-index stack, destroys the old array, constructs the replacement array, and initializes each element identifier and free index.",
+    "s9_resize_pool_80183d48": "Resizes the object pool and free-index stack, destroys the old array, constructs the replacement array, and initializes each element identifier and free index.",
+    "s9_resize_pool_801875e0": "Resizes the object pool and free-index stack, destroys the old array, constructs the replacement array, and initializes each element identifier and free index."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "unit": "d41i_star_field_mesh_build_80105164",
+  "source": "source/matching/game/d41i/d41i_star_field_mesh_build_80105164.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41i"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d41i_star_field_mesh_build_80105164": "0x80105164"
+  },
+  "descriptions": {
+    "d41i_star_field_mesh_build_80105164": "Counts numbered locators on the parent mesh, sizes the particle mesh, places one point per locator and fills the remainder with random directions scaled to the locator radius, giving each a random size and grey level."
+  }
+}

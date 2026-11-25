@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_lua_set_item_80103090",
+  "source": "source/matching/game/d24i/d24i_lua_set_item_80103090.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_lua_set_item_80103090": "0x80103090"
+  },
+  "descriptions": {
+    "d24i_lua_set_item_80103090": "Lua binding: expects one string argument naming a setting, looks up its value handle (0x800fc1b0), requires value kind 5 (virtual +24), pops the argument and passes the resolved item (0x801797b4) to the object at +64 through its virtual +32; each failure reports through 0x801022ec with its message, pops the argument and returns 0, success returns 1."
+  }
+}

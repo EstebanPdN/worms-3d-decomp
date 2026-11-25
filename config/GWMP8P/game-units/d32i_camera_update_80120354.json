@@ -1,0 +1,17 @@
+{
+  "unit": "d32i_camera_update_80120354",
+  "source": "source/matching/game/d32i/d32i_camera_update_80120354.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d32i_camera_update_80120354": "0x80120354"
+  },
+  "descriptions": {
+    "d32i_camera_update_80120354": "Per-frame camera update: adds the scaled frame time to the tick count, runs the two follow solvers when the timer is active, reports the moved position, then blends the look point, aim point and zoom from the config weights."
+  }
+}

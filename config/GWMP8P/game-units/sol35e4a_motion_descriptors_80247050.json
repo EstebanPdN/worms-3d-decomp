@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e4a_motion_descriptors_80247050",
+  "source": "source/matching/game/sol35e4a/sol35e4a_motion_descriptors_80247050.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e4a_motion_descriptors_80247050": "0x80247050"
+  },
+  "descriptions": {
+    "sol35e4a_motion_descriptors_80247050": "Registers 33 observed descriptors in original order, assigns constructed three-float defaults to returned vector bindings, and finalizes the descriptor owner."
+  }
+}

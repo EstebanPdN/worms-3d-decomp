@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801758e8",
+  "source": "source/matching/game/k5b/k5b_a_801758e8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_slot_table_release_all_801758e8": "0x801758e8"
+  },
+  "descriptions": {
+    "w3d_k5b_slot_table_release_all_801758e8": "Appears to release every interface in the slot array at +24 through virtual slot 4, clear the slots, reset +20 and copy the capacity at +2116 to +2092."
+  }
+}

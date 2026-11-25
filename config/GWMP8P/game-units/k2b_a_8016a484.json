@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8016a484",
+  "source": "source/matching/game/k2b/k2b_a_8016a484.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_set_blend_mode_8016a484": "0x8016a484"
+  },
+  "descriptions": {
+    "w3d_k2b_set_blend_mode_8016a484": "Appears to select a blend or mode value from a table (or the default 7), store it in a global and apply it."
+  }
+}

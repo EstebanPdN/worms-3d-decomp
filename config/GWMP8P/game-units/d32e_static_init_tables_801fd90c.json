@@ -1,0 +1,14 @@
+{
+  "unit": "d32e_static_init_tables_801fd90c",
+  "source": "source/matching/game/d32e/d32e_static_init_tables_801fd90c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32e_static_init_tables_801fd90c": "0x801fd90c"
+  },
+  "descriptions": {
+    "w3d_d32e_static_init_tables_801fd90c": "Static initializer of this file: clears five small globals and constructs the two interface tables at 0x8045e944 and 0x8045e970 (three interface slots, three word pairs, two interface slots each)."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

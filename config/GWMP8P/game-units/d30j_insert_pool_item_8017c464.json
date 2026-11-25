@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_insert_pool_item_8017c464",
+  "source": "source/matching/game/d30j/d30j_insert_pool_item_8017c464.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30j_insert_pool_item_8017c464": "0x8017c464"
+  },
+  "descriptions": {
+    "d30j_insert_pool_item_8017c464": "Insert a named object into the 1920-slot hash table with linear probing, updating the probe statistics; returns false if the name was already present."
+  }
+}

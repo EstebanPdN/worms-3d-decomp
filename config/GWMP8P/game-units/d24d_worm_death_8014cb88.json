@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_worm_death_8014cb88",
+  "source": "source/matching/game/d24d/d24d_worm_death_8014cb88.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_worm_death_8014cb88": "0x8014cb88"
+  },
+  "descriptions": {
+    "d24d_worm_death_8014cb88": "Reads the five Worm.Death settings and posts an explosion message with the position (+560) and the same position 10 lower; mode 27 runs EffectWaterExplosion at the water level, otherwise EffectWormExplosion at the position; finishes with 0x8014fee8."
+  }
+}

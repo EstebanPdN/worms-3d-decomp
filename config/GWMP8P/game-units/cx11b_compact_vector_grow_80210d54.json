@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_compact_vector_grow_80210d54",
+  "source": "source/matching/game/cx11b/cx11b_compact_vector_grow_80210d54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_compact_vector_grow_80210d54": "0x80210d54"
+  },
+  "descriptions": {
+    "w3d_cx11b_compact_vector_grow_80210d54": "Grow compact storage to its next aligned capacity, preserving the old leading word and doubling its growth quantum."
+  }
+}

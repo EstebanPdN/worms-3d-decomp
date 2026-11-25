@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_overlay_ctor_80106bd0",
+  "source": "source/matching/game/k10a/k10a_overlay_ctor_80106bd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_overlay_ctor_80106bd0": "0x80106bd0"
+  },
+  "descriptions": {
+    "w3d_k10a_overlay_ctor_80106bd0": "Appears to construct a derived overlay object: runs the base constructor, installs two vtables and sets default colour, extent and timing fields."
+  }
+}

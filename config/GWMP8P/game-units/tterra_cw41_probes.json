@@ -1,0 +1,17 @@
+{
+  "unit": "tterra_cw41_probes",
+  "source": "source/matching/game/tterra_cw41/probes.c",
+  "language": "c",
+  "functions": {
+    "tterra_cw41_add_80322ce0": "0x80322ce0",
+    "tterra_cw41_remove_80322d00": "0x80322d00",
+    "tterra_cw41_init_8033457c": "0x8033457c",
+    "tterra_cw41_disable_8033459c": "0x8033459c"
+  },
+  "descriptions": {
+    "tterra_cw41_add_80322ce0": "Forwards index and data pointer, returning the callee's r3; inferred ABI only, stack pad is matching scaffolding.",
+    "tterra_cw41_remove_80322d00": "Forwards index and data pointer, returning the callee's r3; inferred ABI only, stack pad is matching scaffolding.",
+    "tterra_cw41_init_8033457c": "Forwards three register arguments to the original initializer; inferred ABI only, stack pad is matching scaffolding.",
+    "tterra_cw41_disable_8033459c": "Forwards the index to the original byte-clear routine; inferred ABI only, stack pad is matching scaffolding."
+  }
+}

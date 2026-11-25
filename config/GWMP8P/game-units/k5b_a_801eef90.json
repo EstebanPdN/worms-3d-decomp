@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801eef90",
+  "source": "source/matching/game/k5b/k5b_a_801eef90.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_text_array_set_count_801eef90": "0x801eef90"
+  },
+  "descriptions": {
+    "w3d_k5b_text_array_set_count_801eef90": "Appears to set the element count of a shared-text array, resetting entries beyond the new count to the shared empty text."
+  }
+}

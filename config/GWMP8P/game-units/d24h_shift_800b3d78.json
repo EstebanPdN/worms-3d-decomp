@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_shift_800b3d78",
+  "source": "source/matching/game/d24h/d24h_shift_800b3d78.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_shift_800b3d78": "0x800b3d78"
+  },
+  "descriptions": {
+    "w3d_d24h_shift_800b3d78": "Moves the body pose at +4 -> +20 by the scene offset 0x804b17e0 + 104: adds the offset to the position and rewrites the 16-byte pose (position and fourth word) through a temporary."
+  }
+}

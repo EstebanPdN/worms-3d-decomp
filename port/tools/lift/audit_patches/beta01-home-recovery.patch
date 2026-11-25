@@ -1,0 +1,17 @@
+--- a/port/build3ds.sh
++++ b/port/build3ds.sh
+@@ -74,9 +74,12 @@
+ ICON=$RES/icon.png
+ RELEASE=$(sed -n 's/^#define W3D_RELEASE_NAME "\(.*\)"/\1/p' platform/3ds/version.h)
+ $DEVKITPRO/tools/bin/smdhtool --create "$NAME" "$NAME - $RELEASE" "Team17 (port)" $ICON $OUT/worms3d.smdh || exit 1
+-BNR3D=$P/build3ds/banner3d/worms3d-animated.bnr
++# HOME recovery: pin the exact Beta 0 resource. Generated previews and the
++# structural validator alone do not certify physical HOME compatibility.
++BNR3D=$P/platform/3ds/res/home/beta0-banner.bnr
+ if [[ -z $W3D_BANNER_FIJO ]]; then
+-  [[ -f $BNR3D ]] || { print -u2 "Falta el banner 3D verificado: $BNR3D"; exit 1; }
++  [[ -f $BNR3D ]] || { print -u2 "Falta el banner 3D de recuperación: $BNR3D"; exit 1; }
++  python3 -c 'import hashlib,sys; assert hashlib.sha256(open(sys.argv[1],"rb").read()).hexdigest()=="1b6b0bc68470f80b523753b8e3ae4fa8fd2e2eb8710a35aa0ba5c24bf44d6416", "HOME banner changed: physical validation required"' "$BNR3D" || exit 1
+   python3 tools/build3ds/banner/validate_home_banner.py "$BNR3D" > "$OUT/banner-validation.json" || exit 1
+   cp $BNR3D $OUT/worms3d.bnr || exit 1
+ else $DEVKITPRO/tools/bin/bannertool makebanner -i $RES/banner.png -a $RES/banner.wav -o $OUT/worms3d.bnr >/dev/null || exit 1; fi

@@ -1,0 +1,23 @@
+{
+  "unit": "s10param_801c84c0",
+  "source": "source/matching/game/generated/s10param_801c84c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_set_record_flags_801c84c0": "0x801c84c0",
+    "w3d_s10_set_record_flags_801c84f8": "0x801c84f8",
+    "w3d_s10_set_record_flags_801c8530": "0x801c8530",
+    "w3d_s10_set_record_flags_801c8588": "0x801c8588",
+    "w3d_s10_set_record_flags_801c85c0": "0x801c85c0",
+    "w3d_s10_set_record_flags_801c85f8": "0x801c85f8",
+    "w3d_s10_set_record_flags_801c8630": "0x801c8630"
+  },
+  "descriptions": {
+    "w3d_s10_set_record_flags_801c84c0": "Copies the observed 12-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801c84f8": "Copies the observed 12-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801c8530": "Copies the observed 12-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801c8588": "Copies the observed 12-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801c85c0": "Copies the observed 12-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801c85f8": "Copies the observed 12-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801c8630": "Copies the observed 12-byte record into the object and sets bit 1 in its associated flags byte."
+  }
+}

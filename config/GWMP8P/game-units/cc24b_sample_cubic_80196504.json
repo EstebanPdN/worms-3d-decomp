@@ -1,0 +1,11 @@
+{
+  "unit": "cc24b_sample_cubic_80196504",
+  "source": "source/matching/game/cc24b/cc24b_sample_cubic_80196504.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc24b_sample_cubic_80196504": "0x80196504"
+  },
+  "descriptions": {
+    "w3d_cc24b_sample_cubic_80196504": "Normalizes the input between two observed endpoints, optionally solves a cubic for its parameter, then evaluates the second cubic with the original fused operation order. A six-float root buffer models the original24-byte local reservation; its original declared element count is unknown. Original root helper receives degree3 and only roots0 is read when its count is1."
+  }
+}

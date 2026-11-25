@@ -1,0 +1,11 @@
+{
+  "unit": "s4_scheme_query",
+  "source": "source/matching/game/s4_scheme_query.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_scheme_is_user_defined": "0x802931d4"
+  },
+  "descriptions": {
+    "w3d_s4_scheme_is_user_defined": "Tests whether the current scheme name starts with a star or equals the localized user-defined name."
+  }
+}

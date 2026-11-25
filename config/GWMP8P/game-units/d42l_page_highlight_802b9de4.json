@@ -1,0 +1,12 @@
+{
+  "unit": "d42l_page_highlight_802b9de4",
+  "source": "source/matching/game/d42l/d42l_page_highlight_802b9de4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d42l_page_highlight_802b9de4": "0x802b9de4"
+  },
+  "descriptions": {
+    "d42l_page_highlight_802b9de4": "Shows the parts of the selected page (by active and alt state) and applies a full or half brightness colour to them."
+  }
+}

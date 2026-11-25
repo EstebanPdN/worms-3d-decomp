@@ -1,0 +1,12 @@
+{
+  "unit": "sol35d7_thread_presets_801fde88",
+  "source": "source/matching/game/sol35d7/sol35d7_thread_presets_801fde88.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_thread_presets_801fde88": "0x801fde88"
+  },
+  "description": "Select a three-word native scheduler preset by thread kind and current platform mode, then apply it; return one for unsupported kinds.",
+  "function_descriptions": {
+    "sol35d7_thread_presets_801fde88": "Select a three-word native scheduler preset by thread kind and current platform mode, then apply it; return one for unsupported kinds."
+  }
+}

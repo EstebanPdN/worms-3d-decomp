@@ -1,0 +1,11 @@
+{
+  "unit": "f6c_ctor_80227d10",
+  "source": "source/matching/game/f6c/f6c_ctor_80227d10.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6c_ctor_80227d10": "0x80227d10"
+  },
+  "descriptions": {
+    "f6c_ctor_80227d10": "Initialize the observed base/vtable, build named worm/team/flag strings through original constructor calls, and initialize status fields. All names, roles and owner layout inferred; the word array describes observed offsets and includes unknown storage. External string literals remain reference-owned."
+  }
+}

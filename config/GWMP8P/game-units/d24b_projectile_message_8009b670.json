@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_projectile_message_8009b670",
+  "source": "source/matching/game/d24b/d24b_projectile_message_8009b670.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_projectile_message_8009b670": "0x8009b670"
+  },
+  "descriptions": {
+    "w3d_d24b_projectile_message_8009b670": "Weapon projectile message handler: message 64 runs the base handler 0x8015fb34 then the start 0x8009c248 (failure gives 0x80004005), message 66 stops (0x8009c5e8); the fire message (cache 0x804ae018) when allowed (0x8009d7e4) and idle clears Worm.DisableMovementRef, posts the fire messages, sets the fire time +84 and state +44 and clears AI.BulletCount; the camera message updates +108; the finish message runs 0x8009c0cc, sets +112 and either ends through 0x8015fd1c or arms state 5 with the end time +124; other messages forward to the base handler."
+  }
+}

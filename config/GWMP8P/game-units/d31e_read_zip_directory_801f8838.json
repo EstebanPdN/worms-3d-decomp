@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_read_zip_directory_801f8838",
+  "source": "source/matching/game/d31e/d31e_read_zip_directory_801f8838.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_read_zip_directory_801f8838": "0x801f8838"
+  },
+  "descriptions": {
+    "w3d_d31e_read_zip_directory_801f8838": "Reads a ZIP central directory once: if already opened, returns 0 when the entry table exists, else E_FAIL. Otherwise seeks to find the file size, reads the end record 24 bytes before the end, and when its signature 0x06054b50 is wrong scans backwards byte by byte for it. Allocates 64-byte entries aligned to 64, reads the directory, and for each record copies the name (mapping backslash to slash), computes the data offset and stores the sizes, tracing each name. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

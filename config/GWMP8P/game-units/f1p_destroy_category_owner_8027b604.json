@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_destroy_category_owner_8027b604",
+  "source": "source/matching/game/f1p/f1p_destroy_category_owner_8027b604.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._16F1pCategoryOwner": "0x8027b604"
+  },
+  "descriptions": {
+    "_._16F1pCategoryOwner": "Install the original table(s), release the observed held interfaces and destroy member arrays, strings and original bases in native C++ order. Five dynamic string arrays are traversed forward then freed. All field meanings and partial class views inferred from original instructions."
+  }
+}

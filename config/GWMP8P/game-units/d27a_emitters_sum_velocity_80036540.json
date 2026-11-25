@@ -1,0 +1,14 @@
+{
+  "unit": "d27a_emitters_sum_velocity_80036540",
+  "source": "source/matching/game/d27a/d27a_emitters_sum_velocity_80036540.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_emitters_sum_velocity_80036540": "0x80036540"
+  },
+  "descriptions": {
+    "w3d_d27a_emitters_sum_velocity_80036540": "For each emitter of the list at +4 that 0x80036c8c reports active, reads its velocity with 0x80036b08 and scales it by k. Adds it times 1000, with z cleared, to the first two output vectors and adds twice the scaled velocity to the third."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "s20_props_b",
+  "source": "source/matching/game/s20/s20_props_b.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_register_float_pairs_801ce708": "0x801ce708",
+    "w3d_s20_register_float_pair_801bf55c": "0x801bf55c",
+    "w3d_s20_register_vec4_property_801cee80": "0x801cee80"
+  },
+  "descriptions": {
+    "w3d_s20_register_float_pairs_801ce708": "Appears to register two float-pair properties with constant defaults and a third entry, finishing through a shared routine.",
+    "w3d_s20_register_float_pair_801bf55c": "Appears to register three entries and a float-pair property with a constant default, finishing through a shared routine.",
+    "w3d_s20_register_vec4_property_801cee80": "Appears to register an entry and a four-float property with constant defaults, finishing through a shared routine."
+  }
+}

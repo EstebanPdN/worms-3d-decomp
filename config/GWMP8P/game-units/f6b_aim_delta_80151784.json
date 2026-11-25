@@ -1,0 +1,14 @@
+{
+  "unit": "f6b_aim_delta_80151784",
+  "source": "source/matching/game/f6b/f6b_aim_delta_80151784.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6b_aim_delta_80151784": "0x80151784"
+  },
+  "descriptions": {
+    "f6b_aim_delta_80151784": "Compute target-minus-position, handle the zero planar direction, wrap the target angle difference through observed bounds, and select either a reset plus message eleven or a copied output delta with conditional angle update. Field and state roles are inferred; eight original frame bytes remain unexplained."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

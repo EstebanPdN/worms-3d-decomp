@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_queued_record_dispatch_80207a58",
+  "source": "source/matching/game/cx9b/cx9b_queued_record_dispatch_80207a58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_queued_record_dispatch_80207a58": "0x80207a58"
+  },
+  "descriptions": {
+    "w3d_cx9b_queued_record_dispatch_80207a58": "Decode queued little-endian identifiers and optional payload lengths, dispatch each record, and reset the queue state."
+  }
+}

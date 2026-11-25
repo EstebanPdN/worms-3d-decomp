@@ -1,0 +1,25 @@
+{
+  "unit": "gensinitdb_80015bac",
+  "source": "source/matching/game/generated/gensinitdb_80015bac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sinit_80015bac": "0x80015bac",
+    "w3d_sinit_80035bf8": "0x80035bf8",
+    "w3d_sinit_8004d5ac": "0x8004d5ac",
+    "w3d_sinit_8006f17c": "0x8006f17c",
+    "w3d_sinit_80072260": "0x80072260",
+    "w3d_sinit_80125e68": "0x80125e68",
+    "w3d_sinit_80140280": "0x80140280",
+    "w3d_sinit_8015ac70": "0x8015ac70"
+  },
+  "descriptions": {
+    "w3d_sinit_80015bac": "Static initializer (priority 0xffff): sets 9 file-scope pointer(s) from a shared base pointer, then makes 1 constructor/registration call(s).",
+    "w3d_sinit_80035bf8": "Static initializer (priority 0xffff): sets 9 file-scope pointer(s) from a shared base pointer, then makes 84 constructor/registration call(s).",
+    "w3d_sinit_8004d5ac": "Static initializer (priority 0xffff): sets 9 file-scope pointer(s) from a shared base pointer, then makes 25 constructor/registration call(s).",
+    "w3d_sinit_8006f17c": "Static initializer (priority 0xffff): sets 9 file-scope pointer(s) from a shared base pointer, then makes 58 constructor/registration call(s).",
+    "w3d_sinit_80072260": "Static initializer (priority 0xffff): sets 9 file-scope pointer(s) from a shared base pointer, then makes 20 constructor/registration call(s).",
+    "w3d_sinit_80125e68": "Static initializer (priority 0xffff): sets 9 file-scope pointer(s) from a shared base pointer, then makes 11 constructor/registration call(s).",
+    "w3d_sinit_80140280": "Static initializer (priority 0xffff): sets 12 file-scope pointer(s) from a shared base pointer, then makes 76 constructor/registration call(s).",
+    "w3d_sinit_8015ac70": "Static initializer (priority 0xffff): sets 9 file-scope pointer(s) from a shared base pointer, then makes 2 constructor/registration call(s)."
+  }
+}

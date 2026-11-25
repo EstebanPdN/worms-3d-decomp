@@ -1,0 +1,15 @@
+{
+  "unit": "cxa_motion_messages",
+  "source": "source/matching/game/cxa/cxa_motion_messages.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxa_motion_message_80021c60": "0x80021c60",
+    "cxa_motion_message_80021d8c": "0x80021d8c",
+    "cxa_motion_message_8002165c": "0x8002165c"
+  },
+  "descriptions": {
+    "cxa_motion_message_80021c60": "Reserve and construct a 236-byte motion message, set kind 5, copy three floats from owner +0x14 through a by-value temporary, post it and return zero.",
+    "cxa_motion_message_80021d8c": "Reserve and construct a 236-byte motion message, set kind 15, copy three floats from owner +0x14 through a by-value temporary, post it and return zero.",
+    "cxa_motion_message_8002165c": "Add context +0x34 to owner time +0x14, reserve and construct a 236-byte motion message, set kind 4, copy owner vector +0x18 through a by-value temporary, post it and return zero."
+  }
+}

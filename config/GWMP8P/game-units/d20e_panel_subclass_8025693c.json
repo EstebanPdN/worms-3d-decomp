@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_panel_subclass_8025693c",
+  "source": "source/matching/game/d20e/d20e_panel_subclass_8025693c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__17D20ePanelSubclassUs": "0x8025693c"
+  },
+  "descriptions": {
+    "__17D20ePanelSubclassUs": "Panel subclass constructor: runs the panel base constructor 0x80251f40 with the caller's id, installs the table 0x8041b9c8, zeroes the vectors at +164/+176 and the floats at +188..+212, copy-constructs four strings at +216..+228 from the shared empty string 0x804b06a0 (incrementing its reference count), zeroes the floats at +232..+240 and the ints at +244..+256, and returns this."
+  }
+}

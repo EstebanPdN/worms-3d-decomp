@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_body_integrate_800ed5f8",
+  "source": "source/matching/game/k5a/k5a_body_integrate_800ed5f8.cpp",
+  "language": "cpp",
+  "functions": {"k5a_body_integrate_800ed5f8": "0x800ed5f8"},
+  "descriptions": {"k5a_body_integrate_800ed5f8": "Appears to advance a body position by its velocity scaled by a constant time step."}
+}

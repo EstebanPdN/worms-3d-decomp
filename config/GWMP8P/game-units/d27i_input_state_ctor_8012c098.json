@@ -1,0 +1,15 @@
+{
+  "unit": "d27i_input_state_ctor_8012c098",
+  "source": "source/matching/game/d27i/d27i_input_state_ctor_8012c098.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27i_input_state_ctor_8012c098": "0x8012c098"
+  },
+  "descriptions": {
+    "d27i_input_state_ctor_8012c098": "Constructs a singleton state object and fills the global key code translation table."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol11b_inflate_direct_801f9484",
+  "source": "source/matching/game/sol11b/sol11b_inflate_direct_801f9484.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11b_inflate_direct_801f9484": "0x801f9484"
+  },
+  "descriptions": {
+    "sol11b_inflate_direct_801f9484": "Reads decompressed output through an external zlib stream. Supplies compressed input in at most 32-KiB blocks, seeks the backing stream to the observed compressed offset, finalizes on stream end or backing-stream error, and reports consumed output. Partial external owner layout; zlib member uses the vendored zlib ABI. No owned data."
+  }
+}

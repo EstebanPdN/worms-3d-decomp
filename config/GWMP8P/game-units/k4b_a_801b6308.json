@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b6308",
+  "source": "source/matching/game/k4b/k4b_a_801b6308.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_textured_box_construct_801b6308": "0x801b6308"
+  },
+  "descriptions": {
+    "w3d_k4b_textured_box_construct_801b6308": "Appears to construct a derived bounds object over 0x801b5b30 that retains three shared default interfaces (and one more) into +64..+80."
+  }
+}

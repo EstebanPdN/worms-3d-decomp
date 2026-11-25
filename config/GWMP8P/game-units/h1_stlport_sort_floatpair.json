@@ -1,0 +1,31 @@
+{
+  "unit": "h1_stlport_sort_floatpair",
+  "source": "source/matching/game/h1/h1_stlport_sort_floatpair.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_adjust_heap_803515ac": "0x803515ac",
+    "w3d_make_heap_80351710": "0x80351710",
+    "w3d_pop_heap_803517a4": "0x803517a4",
+    "w3d_partial_sort_80351804": "0x80351804",
+    "w3d_unguarded_partition_80351928": "0x80351928",
+    "w3d_introsort_loop_803519dc": "0x803519dc",
+    "w3d_unguarded_linear_insert_80351b34": "0x80351b34",
+    "w3d_insertion_sort_80351b9c": "0x80351b9c",
+    "w3d_unguarded_insertion_sort_80351c74": "0x80351c74",
+    "w3d_final_insertion_sort_80351cdc": "0x80351cdc",
+    "w3d_sort_80351d58": "0x80351d58"
+  },
+  "descriptions": {
+    "w3d_adjust_heap_803515ac": "STLport __adjust_heap for {float key, int value} pairs in descending key order: sifts the hole down to a leaf, then pushes the value back up.",
+    "w3d_make_heap_80351710": "STLport make_heap for {float key, int value} pairs in descending key order: adjusts every parent from the middle down to the root.",
+    "w3d_pop_heap_803517a4": "STLport pop_heap for {float key, int value} pairs in descending key order: moves the top to the last slot and re-heaps the rest.",
+    "w3d_partial_sort_80351804": "STLport __partial_sort for {float key, int value} pairs in descending key order: heap-selects the leading elements into [first, middle) and sorts them.",
+    "w3d_unguarded_partition_80351928": "STLport __unguarded_partition for {float key, int value} pairs in descending key order: partitions around the pivot without bounds checks; returns the cut.",
+    "w3d_introsort_loop_803519dc": "STLport __introsort_loop for {float key, int value} pairs in descending key order: median-of-three quicksort down to 16-element runs, partial_sort when the depth limit runs out.",
+    "w3d_unguarded_linear_insert_80351b34": "STLport __unguarded_linear_insert for {float key, int value} pairs in descending key order: shifts elements up and drops the value into place.",
+    "w3d_insertion_sort_80351b9c": "STLport __insertion_sort for {float key, int value} pairs in descending key order: inserts each element, shifting the block up when it belongs first.",
+    "w3d_unguarded_insertion_sort_80351c74": "STLport __unguarded_insertion_sort_aux for {float key, int value} pairs in descending key order: unguarded linear insertion of every element in the range.",
+    "w3d_final_insertion_sort_80351cdc": "STLport __final_insertion_sort for {float key, int value} pairs in descending key order: insertion-sorts the first 16 elements, then the rest unguarded.",
+    "w3d_sort_80351d58": "STLport sort for {float key, int value} pairs in descending key order: introsort with depth limit 2*log2(n), then the final insertion sort."
+  }
+}

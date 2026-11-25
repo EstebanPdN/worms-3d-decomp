@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_string_pair_reserve",
+  "source": "source/matching/game/cx9c/cx9c_string_pair_reserve.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_string_pair_reserve_8035c9f8": "0x8035c9f8"
+  },
+  "descriptions": {
+    "w3d_cx9c_string_pair_reserve_8035c9f8": "Reserve string/halfword-pair records, retaining original string ownership hooks."
+  }
+}

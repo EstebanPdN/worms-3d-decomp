@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_track_owner_destroy_80194318",
+  "source": "source/matching/game/cx16b/cx16b_track_owner_destroy_80194318.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_track_owner_destroy_80194318": "0x80194318"
+  },
+  "descriptions": {
+    "w3d_cx16b_track_owner_destroy_80194318": "Destroys the observed owner ranges and held references; an explicit ordered storage snapshot after the empty destruction walk preserves its original load timing without inventing record behavior."
+  }
+}

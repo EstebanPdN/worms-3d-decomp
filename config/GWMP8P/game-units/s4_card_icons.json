@@ -1,0 +1,15 @@
+{
+  "unit": "s4_card_icons",
+  "source": "source/matching/game/s4_card_icons.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_initialize": "0x80288ab8",
+    "w3d_s4_card_release_buffer": "0x80288b9c",
+    "w3d_s4_card_copy_icons": "0x80288fe8"
+  },
+  "descriptions": {
+    "w3d_s4_card_initialize": "Registers card messages, allocates the aligned save buffer, and initializes card state.",
+    "w3d_s4_card_release_buffer": "Releases the aligned card buffer when it is present.",
+    "w3d_s4_card_copy_icons": "Copies four named card icons into consecutive 2048-byte regions and flushes the output."
+  }
+}

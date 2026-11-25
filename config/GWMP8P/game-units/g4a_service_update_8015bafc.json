@@ -1,0 +1,11 @@
+{
+  "unit": "g4a_service_update_8015bafc",
+  "source": "source/matching/game/g4a/g4a_service_update_8015bafc.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4a_service_update_8015bafc": "0x8015bafc"
+  },
+  "descriptions": {
+    "g4a_service_update_8015bafc": "Clamp update amount to100 and multiply by receiver scale; optionally quantize the integer step and carry its remainder. Transfer source flag bits29/28 into target bits30/31 through native bitfields before virtual update slot10, or invoke target slot11 for the alternate mode. When timing is enabled, capture the original64-bit elapsed timestamp, invoke receiver slot17, convert the low-word timestamp delta through801fe508, store elapsed ticks at+60 and invoke slot14. Apply and clear the pending state toggle through8015ba30. Timestamp union is a complete eight-byte local representing original r3/r4 return and big-endian high/low words; the external receiver88-byte prefix and target168-byte prefix are partial views, never locally constructed. No complete receiver allocation or external data ownership is asserted."
+  }
+}

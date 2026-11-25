@@ -1,0 +1,15 @@
+{
+  "unit": "d25h_screen_show_800c7cd0",
+  "source": "source/matching/game/d25h/d25h_screen_show_800c7cd0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast"
+  ],
+  "functions": {
+    "w3d_d25h_screen_show_800c7cd0": "0x800c7cd0"
+  },
+  "descriptions": {
+    "w3d_d25h_screen_show_800c7cd0": "Loading screen visibility: stores the on flag, forwards it to the render instance, and when the screen is enabled and turned on loads the two indicator images if missing, positions them at -32 and 64, starts the timer, opens sound range 59..61 and fades them in over 30 steps of 8.5; otherwise closes sound range 0..58 and releases the images."
+  }
+}

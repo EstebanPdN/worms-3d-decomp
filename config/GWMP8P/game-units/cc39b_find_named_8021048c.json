@@ -1,0 +1,11 @@
+{
+  "unit": "cc39b_find_named_8021048c",
+  "source": "source/matching/game/cc39b/cc39b_find_named_8021048c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39b_find_named_8021048c": "0x8021048c"
+  },
+  "descriptions": {
+    "cc39b_find_named_8021048c": "Searches the active intrusive list by exact strcmp-zero name match, optionally searches the pending list only when the first list yielded no node, and returns the first matching node or null. Preserves saved null comparison across callbacks, search order and original node lifetime. Partial node view/names inferred; externals unowned."
+  }
+}

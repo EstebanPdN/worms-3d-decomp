@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_hashed_string_index_8020cbcc",
+  "source": "source/matching/game/cx9b/cx9b_hashed_string_index_8020cbcc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_hashed_string_index_8020cbcc": "0x8020cbcc"
+  },
+  "descriptions": {
+    "w3d_cx9b_hashed_string_index_8020cbcc": "Hash a string and walk its sixteen-bit bucket chain to return the stored index."
+  }
+}

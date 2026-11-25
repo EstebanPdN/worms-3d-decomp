@@ -1,0 +1,11 @@
+{
+  "unit": "s10_cleanup_801b2dac",
+  "source": "source/matching/game/s10/s10_cleanup_801b2dac.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_cleanup_801b2dac": "0x801b2dac"
+  },
+  "descriptions": {
+    "w3d_s10_cleanup_801b2dac": "Releases the interface and string arrays, frees their buffers, releases the remaining held interfaces, invokes base cleanup, and conditionally deletes the object."
+  }
+}

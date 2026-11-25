@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_skip_duplicate_c_801a7b40",
+  "source": "source/matching/game/d24e/d24e_skip_duplicate_c_801a7b40.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_skip_duplicate_c_801a7b40": "0x801a7b40"
+  },
+  "descriptions": {
+    "w3d_d24e_skip_duplicate_c_801a7b40": "Reads the last element of the owner's deque. When the target's field at +32 is zero, bit 0 of the byte at +11 is set in target and tail, both report the same key through virtual slot 5 and the tail's field at +32 is zero, returns 0; otherwise forwards self and target to 0x801a7680."
+  }
+}

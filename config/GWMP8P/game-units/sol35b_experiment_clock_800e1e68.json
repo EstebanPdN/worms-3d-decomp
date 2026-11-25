@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b_experiment_clock_800e1e68",
+  "source": "build/sol35b/sol35b_clock_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b_advance_clock_800e1e68": "0x800e1e68"
+  },
+  "descriptions": {
+    "sol35b_advance_clock_800e1e68": "Experimental elapsed-counter and handler reconstruction; still differs in the initial subtraction/compare schedule and is not ready for admission."
+  }
+}

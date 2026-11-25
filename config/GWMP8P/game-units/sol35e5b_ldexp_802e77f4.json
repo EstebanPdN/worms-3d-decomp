@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e5b_ldexp_802e77f4",
+  "source": "source/matching/game/sol35e5b/sol35e5b_ldexp_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e5b_ldexp_802e77f4": "0x802e77f4"
+  },
+  "descriptions": {
+    "sol35e5b_ldexp_802e77f4": "Returns nonfinite or zero input unchanged; otherwise scales by the requested binary exponent and sets errno to 34 when the result is nonfinite or zero. Adapted from retained newlib s_ldexp.c; names inferred."
+  }
+}

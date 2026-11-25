@@ -1,0 +1,11 @@
+{
+  "unit": "s2_hud_backing_r3",
+  "source": "source/matching/game/s2_hud_backing_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hud_backing_refresh_8011bc28": "0x8011bc28"
+  },
+  "descriptions": {
+    "w3d_hud_backing_refresh_8011bc28": "Updates backing dimensions and three vertex positions from text width and height."
+  }
+}

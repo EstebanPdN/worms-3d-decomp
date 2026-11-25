@@ -1,0 +1,27 @@
+{
+  "unit": "d15f_property_set_8034bf50",
+  "source": "source/matching/game/d15f/d15f_property_set_8034bf50.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d15f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d15f_property_set_kind0_8034bf50": "0x8034bf50",
+    "d15f_property_set_kind1_8034c148": "0x8034c148",
+    "d15f_property_set_kind2_8034c340": "0x8034c340",
+    "d15f_property_set_kind3_8034c538": "0x8034c538",
+    "d15f_property_set_kind6_8034c730": "0x8034c730",
+    "d15f_property_set_kind7_8034c928": "0x8034c928"
+  },
+  "descriptions": {
+    "d15f_property_set_kind0_8034bf50": "Sets a kind-0 (unsigned word) property by name on an owner: updates an existing slot when flag bit 0 is set and kind/mode agree (bit 2 adopts the slot's mode), otherwise returns E_FAIL after a notification call; creates, retains and initializes a new 20-byte property when the name is absent, decrements the owner's free count and bumps the global creation counter.",
+    "d15f_property_set_kind1_8034c148": "Sets a kind-1 (integer) property by name on an owner: updates an existing slot when flag bit 0 is set and kind/mode agree (bit 2 adopts the slot's mode), otherwise returns E_FAIL after a notification call; creates, retains and initializes a new 20-byte property when the name is absent, decrements the owner's free count and bumps the global creation counter.",
+    "d15f_property_set_kind2_8034c340": "Sets a kind-2 (float) property by name on an owner: updates an existing slot when flag bit 0 is set and kind/mode agree (bit 2 adopts the slot's mode), otherwise returns E_FAIL after a notification call; creates, retains and initializes a new 20-byte property when the name is absent, decrements the owner's free count and bumps the global creation counter.",
+    "d15f_property_set_kind3_8034c538": "Sets a kind-3 (three-float vector passed by pointer) property by name on an owner: updates an existing slot when flag bit 0 is set and kind/mode agree (bit 2 adopts the slot's mode), otherwise returns E_FAIL after a notification call; creates, retains and initializes a new 20-byte property when the name is absent, decrements the owner's free count and bumps the global creation counter.",
+    "d15f_property_set_kind6_8034c730": "Sets a kind-6 (interface pointer) property by name on an owner: updates an existing slot when flag bit 0 is set and kind/mode agree (bit 2 adopts the slot's mode), otherwise returns E_FAIL after a notification call; creates, retains and initializes a new 20-byte property when the name is absent, decrements the owner's free count and bumps the global creation counter.",
+    "d15f_property_set_kind7_8034c928": "Sets a kind-7 (word passed by pointer) property by name on an owner: updates an existing slot when flag bit 0 is set and kind/mode agree (bit 2 adopts the slot's mode), otherwise returns E_FAIL after a notification call; creates, retains and initializes a new 20-byte property when the name is absent, decrements the owner's free count and bumps the global creation counter."
+  }
+}

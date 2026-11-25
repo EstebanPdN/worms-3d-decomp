@@ -1,0 +1,11 @@
+{
+  "unit": "h1_8004cda4",
+  "source": "source/matching/game/h1/h1_8004cda4.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_apply_team_handle_8004cda4": "0x8004cda4"
+  },
+  "descriptions": {
+    "w3d_h1_apply_team_handle_8004cda4": "Gets the handle of the team's index through a local owned reference (type 0xe3a8), looks up the slot key in it and, when found, stores the found value plus the slot's byte offset; then clears the slot state word and destroys the local reference."
+  }
+}

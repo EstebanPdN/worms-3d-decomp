@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_open_stream_801f7dc4",
+  "source": "source/matching/game/d29e/d29e_open_stream_801f7dc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_open_stream_801f7dc4": "0x801f7dc4"
+  },
+  "descriptions": {
+    "w3d_d29e_open_stream_801f7dc4": "Clears out, opens a tagged file reader for name with mode 1 (constructor 0x80207fec, retain 0x80207f8c, refill 0x802080a0); on success creates a stream object from the type at 0x80365808, adds a reference and attaches the reader's data word through 0x801f8754, storing the object through out on success and releasing it on failure. The reader's destructor 0x8020803c runs on every path. Returns the result. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

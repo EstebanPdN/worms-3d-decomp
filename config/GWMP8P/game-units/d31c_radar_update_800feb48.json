@@ -1,0 +1,14 @@
+{
+  "unit": "d31c_radar_update_800feb48",
+  "source": "source/matching/game/d31c/d31c_radar_update_800feb48.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31c_radar_update_800feb48": "0x800feb48"
+  },
+  "descriptions": {
+    "d31c_radar_update_800feb48": "Radar worm blips: view rotation from the camera, per-worm position, clamp, colour or marker."
+  }
+}

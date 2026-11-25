@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_inventory_tick_8008a8b4",
+  "source": "source/matching/game/d24b/d24b_inventory_tick_8008a8b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_inventory_tick_8008a8b4": "0x8008a8b4"
+  },
+  "descriptions": {
+    "w3d_d24b_inventory_tick_8008a8b4": "End-of-turn inventory tick: decrements BuffaloRoundsActive when non-zero, walks the 59 weapon counters of the Inventory.WeaponDelays object (descriptor cast 0x80179598; read 0x8025c3a8, write 0x8025c71c) decrementing each non-zero one, and posts two cached messages when a counter reached zero."
+  }
+}

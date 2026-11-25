@@ -1,0 +1,15 @@
+{
+  "unit": "d41g_crate_spawn_setup_80049d48",
+  "source": "source/matching/game/d41g/d41g_crate_spawn_setup_80049d48.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41g"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d41g_crate_spawn_setup_80049d48": "0x80049d48"
+  },
+  "descriptions": {
+    "d41g_crate_spawn_setup_80049d48": "Sets up a crate spawner from its properties: disable flag, spawn name, type, the three gravity and water resources, drop and shower flags, the spawn mode that chooses the spawn point, nine message subscriptions, a creation message, the bouncer lookup and the actor's collision settings."
+  }
+}

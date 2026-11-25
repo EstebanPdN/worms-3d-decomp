@@ -1,0 +1,11 @@
+{
+  "unit": "s5_light_colour",
+  "source": "source/matching/game/s5_light_colour.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_light_set_colour_800c136c": "0x800c136c"
+  },
+  "descriptions": {
+    "w3d_light_set_colour_800c136c": "Sets one light colour and recomputes its diffuse and ambient products when global lighting is active."
+  }
+}

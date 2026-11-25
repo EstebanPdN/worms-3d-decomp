@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_initialize_screen_800c8574",
+  "source": "source/matching/game/cx13a/cx13a_initialize_screen_800c8574.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_initialize_screen_800c8574": "0x800c8574"
+  },
+  "descriptions": {
+    "w3d_cx13a_initialize_screen_800c8574": "Initialize observed screen fields, pointer arrays and a scalar default after base construction; names inferred."
+  }
+}

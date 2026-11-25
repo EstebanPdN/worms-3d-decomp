@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_child_scale_countdown_802c5f4c",
+  "source": "source/matching/game/k8c/k8c_child_scale_countdown_802c5f4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8c_child_scale_countdown_802c5f4c": "0x802c5f4c"
+  },
+  "descriptions": {
+    "w3d_k8c_child_scale_countdown_802c5f4c": "Appears to scale the child at +28 by 1 minus count times a step and decrement the count, or reset the scale to 1 when the count is -1; returns zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_scalbn",
+  "source": "source/matching/game/cx9c/cx9c_scalbn.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_scalbn_802e8a28": "0x802e8a28"
+  },
+  "descriptions": {
+    "w3d_cx9c_scalbn_802e8a28": "Inferred newlib scalbn exponent scaling with overflow and subnormal handling."
+  }
+}

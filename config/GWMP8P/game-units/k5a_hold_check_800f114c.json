@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_hold_check_800f114c",
+  "source": "source/matching/game/k5a/k5a_hold_check_800f114c.cpp",
+  "language": "cpp",
+  "functions": {"k5a_hold_check_800f114c": "0x800f114c"},
+  "descriptions": {"k5a_hold_check_800f114c": "Appears to post a message and clear the active flag once a measured level reaches a limit, then forward the level to a service; returns 20."}
+}

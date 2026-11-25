@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_b35_ease_800d4734",
+  "source": "source/matching/game/tsonnet_b35_ease_800d4734.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b35_ease_800d4734": "0x800d4734"
+  },
+  "descriptions": {
+    "tsonnet_b35_ease_800d4734": "Advances two coupled values on an object: the second (+184) is reduced by step times rate while above a limit record's floor, clamping to the floor and shortening the step by the shortfall over the rate (or zeroing the step); the first (+180) then advances by the remaining step, capped by the record's ceiling. Field meanings are inferred. Floating-point edge cases and the valid rate domain have not been behaviorally tested."
+  }
+}

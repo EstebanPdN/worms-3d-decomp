@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_set_service_level_801dcc10",
+  "source": "source/matching/game/h1b/h1b_set_service_level_801dcc10.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_set_service_level_801dcc10": "0x801dcc10"
+  },
+  "descriptions": {
+    "h1b_set_service_level_801dcc10": "Clamps the caller float to original bounds803b00d0 and803b00d4, selects service kind2/4/1 for modes17/18/19 and returns its slot52 level result, or1 when none matches. External owner list48 has ushort capacity4/growth6 and pointer storage8. No local complete external objects or owned data."
+  }
+}

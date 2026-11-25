@@ -1,0 +1,35 @@
+{
+  "unit": "genparam_801654b8",
+  "source": "source/matching/game/generated/genparam_801654b8.c",
+  "language": "c",
+  "functions": {
+    "w3d_typeinfo_init_801654b8": "0x801654b8",
+    "w3d_typeinfo_init_8018e0d8": "0x8018e0d8",
+    "w3d_typeinfo_init_8019abf0": "0x8019abf0",
+    "w3d_typeinfo_init_8019d538": "0x8019d538",
+    "w3d_typeinfo_init_801a04a8": "0x801a04a8",
+    "w3d_typeinfo_init_801b4a38": "0x801b4a38",
+    "w3d_typeinfo_init_801e6dcc": "0x801e6dcc",
+    "w3d_typeinfo_init_801eaf7c": "0x801eaf7c",
+    "w3d_typeinfo_init_801f5f58": "0x801f5f58",
+    "w3d_typeinfo_init_801f8160": "0x801f8160",
+    "w3d_typeinfo_init_801fbf64": "0x801fbf64",
+    "w3d_typeinfo_init_8020b354": "0x8020b354",
+    "w3d_typeinfo_init_802e3110": "0x802e3110"
+  },
+  "descriptions": {
+    "w3d_typeinfo_init_801654b8": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_8018e0d8": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_8019abf0": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_8019d538": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_801a04a8": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_801b4a38": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_801e6dcc": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_801eaf7c": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_801f5f58": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_801f8160": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_801fbf64": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_8020b354": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0.",
+    "w3d_typeinfo_init_802e3110": "Fills the class's static type descriptor (name, parent and link pointers, zeroed fields, flag 1), registers it and returns 0."
+  }
+}

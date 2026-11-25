@@ -1,0 +1,15 @@
+{
+  "unit": "d40a_grid_finish_setup_8001d9ac",
+  "source": "source/matching/game/d40a/d40a_grid_finish_setup_8001d9ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40a_grid_finish_setup_8001d9ac": "0x8001d9ac"
+  },
+  "descriptions": {
+    "w3d_d40a_grid_finish_setup_8001d9ac": "Finishes grid setup: merges overlapping layers, derives the cell size from the total area, reads two vectors, sets up layers, drains the update queue and computes jump ranges."
+  },
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ]
+}

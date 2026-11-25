@@ -1,0 +1,11 @@
+{
+  "unit": "s19_owner_8001cac4",
+  "source": "source/matching/game/s19/s19_owner_8001cac4.c",
+  "language": "c",
+  "functions": {
+    "s19_release_owner_8001cac4": "0x8001cac4"
+  },
+  "descriptions": {
+    "s19_release_owner_8001cac4": "Appears to release the object at +0x44 through the table at +0x8068 of that object, clear the field and run three member cleanups."
+  }
+}

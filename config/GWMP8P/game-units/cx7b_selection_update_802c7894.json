@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_selection_update_802c7894",
+  "source": "source/matching/game/cx7b/cx7b_selection_update_802c7894.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_selection_update_802c7894": "0x802c7894"
+  },
+  "descriptions": {
+    "w3d_cx7b_selection_update_802c7894": "Ignore zero selection; store changed selection at +96 and refresh only when requested, a nonempty string at +100 exists, and +108 is nonzero."
+  }
+}

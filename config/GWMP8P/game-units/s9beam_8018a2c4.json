@@ -1,0 +1,11 @@
+{
+  "unit": "s9beam_8018a2c4",
+  "source": "source/matching/game/auto/s9beam_8018a2c4.c",
+  "language": "c",
+  "functions": {
+    "s9_beam_8018a2c4": "0x8018a2c4"
+  },
+  "descriptions": {
+    "s9_beam_8018a2c4": "Copies three attributes from a descriptor, sets the ready flag, and replaces two retained interfaces reached through the owner hierarchy."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_800a4800",
+  "source": "source/matching/game/s8family_800a4800.c",
+  "language": "c",
+  "functions": {
+    "s8_static_init_800a4800": "0x800a4800"
+  },
+  "descriptions": {
+    "s8_static_init_800a4800": "Initializes cached table offsets and registers land-related message names and a constructor at static initialization priority 0xffff."
+  }
+}

@@ -1,0 +1,1 @@
+{"unit":"r27a_normalize","source":"source/matching/game/r27a/r27a_normalize.cpp","language":"cpp","functions":{"r27a_normalize_8003eb1c":"0x8003eb1c"},"descriptions":{"r27a_normalize_8003eb1c":"Call an interface, normalize a copied vector and conditionally pass it to a helper."}}

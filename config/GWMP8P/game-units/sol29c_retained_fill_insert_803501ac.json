@@ -1,0 +1,14 @@
+{
+  "unit": "sol29c_retained_fill_insert_803501ac",
+  "source": "source/matching/game/sol29c/sol29c_retained_fill_insert_803501ac.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "sol29c_retained_fill_insert_803501ac": "0x803501ac"
+  },
+  "descriptions": {
+    "sol29c_retained_fill_insert_803501ac": "Inserts n copies of a 16-byte record containing a retained interface, four byte fields and two words. Saves a retained value copy before shifting in spare capacity; assignment retains the incoming interface before releasing the old one. On growth, constructs the head, inserted records and tail in a larger block, destroys old records, frees storage and updates the vector bounds."
+  }
+}

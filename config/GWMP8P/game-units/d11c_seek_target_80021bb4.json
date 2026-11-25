@@ -1,0 +1,11 @@
+{
+  "unit": "d11c_seek_target_80021bb4",
+  "source": "source/matching/game/d11c/d11c_seek_target_80021bb4_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11c_seek_target_80021bb4": "0x80021bb4"
+  },
+  "descriptions": {
+    "d11c_seek_target_80021bb4": "Write 1 to the \"AIStrike.SeekTarget\" property, then compare the global camera's current mode name (+316 array indexed by +312, name at +60) with a temporary engine string of \"Blimp\" and, when they differ, switch the camera to \"Blimp\" through 0x80035714 with blend 0.0."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "genparamc_801ec224",
+  "source": "source/matching/game/generated/genparamc_801ec224.c",
+  "language": "c",
+  "functions": {
+    "w3d_apply_long_property_801ec224": "0x801ec224",
+    "w3d_apply_long_property_801ec360": "0x801ec360",
+    "w3d_forward_indexed_801fb824": "0x801fb824",
+    "w3d_forward_indexed_801fb8b8": "0x801fb8b8"
+  },
+  "descriptions": {
+    "w3d_apply_long_property_801ec224": "Reads a 64-bit value from the source object (virtual call) and, on success, passes it to a setter through a pointer to member function; returns the read result.",
+    "w3d_apply_long_property_801ec360": "Reads a 64-bit value from the source object (virtual call) and, on success, passes it to a setter through a pointer to member function; returns the read result.",
+    "w3d_forward_indexed_801fb824": "Resolves an entry index for the request, copies the request with the index filled in, and forwards it to that entry (virtual call); returns its result.",
+    "w3d_forward_indexed_801fb8b8": "Resolves an entry index for the request, copies the request with the index filled in, and forwards it to that entry (virtual call); returns its result."
+  }
+}

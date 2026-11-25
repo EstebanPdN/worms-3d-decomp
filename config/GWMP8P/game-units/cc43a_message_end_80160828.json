@@ -1,0 +1,11 @@
+{
+  "unit": "cc43a_message_end_80160828",
+  "source": "source/matching/game/cc43a/cc43a_message_end_80160828_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43a_message_end_80160828": "0x80160828"
+  },
+  "descriptions": {
+    "cc43a_message_end_80160828": "Allocate a 36-byte message from the original arena, initialize kind 3 and the indexed event ID, clear header flags, copy the sender coordinates with a zero third coordinate, and dispatch it to the callback chain."
+  }
+}

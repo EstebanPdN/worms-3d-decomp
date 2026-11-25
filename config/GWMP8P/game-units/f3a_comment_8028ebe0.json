@@ -1,0 +1,11 @@
+{
+  "unit": "f3a_comment_8028ebe0",
+  "language": "cpp",
+  "source": "source/matching/game/f3a/f3a_comment_8028ebe0.cpp",
+  "functions": {
+    "w3d_f3a_comment_8028ebe0": "0x8028ebe0"
+  },
+  "descriptions": {
+    "w3d_f3a_comment_8028ebe0": "Reads the external CommentaryPanel.Comment property, appends the by-value input text to the offset-72 queue, appends the unsigned argument to the offset-120 deque with boundary growth, constructs a text wrapper from the property and appends it to the offset-92 queue, then releases both wrappers. Object roles and deque layout are inferred; external data ownership is not claimed."
+  }
+}

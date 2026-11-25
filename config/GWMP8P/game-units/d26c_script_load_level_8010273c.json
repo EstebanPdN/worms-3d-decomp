@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_script_load_level_8010273c",
+  "source": "source/matching/game/d26c/d26c_script_load_level_8010273c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_script_load_level_8010273c": "0x8010273c"
+  },
+  "descriptions": {
+    "d26c_script_load_level_8010273c": "Set the two settings modes through 0x800fd4c8, read GameLogic.CurrentScript, clear the script (0x80102474), load stdlib, then split the setting on commas with strtok and load each file (0x80102530), logging failure or success through a formatted string. Returns the last load result, or 0x80004005 when the setting is empty."
+  }
+}

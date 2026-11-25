@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_stream_seek_80208e34",
+  "source": "source/matching/game/g5c/g5c_stream_seek_v2_80208e34.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_stream_seek_80208e34": "0x80208e34"
+  },
+  "descriptions": {
+    "g5c_stream_seek_80208e34": "Seeks an external bounded stream using unsigned32-bit offsets. Optionally reports the previous position before validation; origin0 uses the supplied offset, origin1 adds the current position, and origin2 adds the extent. Returns0x90000002 for an unsupported origin or0x90000003 when the resulting unsigned position exceeds the extent; otherwise stores the new position and returns zero. Position and extent are observed external words at offsets28 and32; no data or complete local object is owned. Names are inferred."
+  }
+}

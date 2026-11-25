@@ -1,0 +1,11 @@
+{
+  "unit": "d27b_game_over_8008ad34",
+  "source": "source/matching/game/d27b/d27b_game_over_8008ad34.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27b_game_over_8008ad34": "0x8008ad34"
+  },
+  "descriptions": {
+    "w3d_d27b_game_over_8008ad34": "Game over handler: ignored once +384 is set; otherwise clears 0x804ab420, posts a cached message, selects the camera (0x80035a30) and timer (0x8006e750), reads GameOver.GameType, then per outcome message (0x8015f65c chain: round end, draw, end game, mission, tutorial and challenge success or failure) builds the win text and next menu. Round end announces the first active player with no live record (0x800a82f0), advances GameOver.RoundNumber, resolves the winner team colour and picks the completed or next round menu. Finally publishes FE.NextMenu and FE.WinString (0x800fc550) and posts the return message, delayed by GameToFrontEndDelayTime through 0x800c53a0 unless the message was end game or the second draw."
+  }
+}

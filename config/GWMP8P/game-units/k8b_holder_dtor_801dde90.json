@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_holder_dtor_801dde90",
+  "source": "source/matching/game/k8b/k8b_holder_dtor_801dde90.c",
+  "language": "c",
+  "functions": {"w3d_k8b_holder_dtor_801dde90": "0x801dde90"},
+  "descriptions": {"w3d_k8b_holder_dtor_801dde90": "Appears to run a deleting destructor that releases a held interface list in reverse, finishes a string, destroys the list storage and the actor node."}
+}

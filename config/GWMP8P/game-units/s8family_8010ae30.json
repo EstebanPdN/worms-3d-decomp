@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_8010ae30",
+  "source": "source/matching/game/s8family_8010ae30.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_toggle_dispatch_8010ae30": "0x8010ae30"
+  },
+  "descriptions": {
+    "s8_toggle_dispatch_8010ae30": "Dispatches an indexed entry and pair pointer with a comparison against the saved flag, then stores one minus the supplied flag."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_forward_positions_8002e59c",
+  "source": "source/matching/game/cx12a/cx12a_forward_positions_8002e59c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_forward_positions_8002e59c": "0x8002e59c"
+  },
+  "descriptions": {
+    "w3d_cx12a_forward_positions_8002e59c": "Read transforms from two interfaces and forward their position vectors to two corresponding interfaces; names inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "mx21ob_v2_border_widget_80223e20",
+  "source": "source/matching/game/mx21ob/mx21ob_v2_border_widget_80223e20.cpp",
+  "language": "cpp",
+  "functions": {
+    "__20Mx21obFeBorderWidgetUs": "0x80223e20"
+  },
+  "descriptions": {
+    "__20Mx21obFeBorderWidgetUs": "Constructs a border-named widget: runs the widget base constructor 0x8021ef08 with the caller's 16-bit id, installs the table 0x8041a3c0, copy-constructs the strings at +116 and +120 from the shared empty string 0x804b06a0, sets the int at +124 to 2, builds the string at +128 from the text \"FE.Brd.%s\" (0x803b76e4) through 0x8020bb54 and copy-constructs the six strings at +132..+152 from the shared empty string (retaining each), in member order. Names and the border meaning are inferred; offsets are observed."
+  }
+}

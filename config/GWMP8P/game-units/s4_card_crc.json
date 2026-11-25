@@ -1,0 +1,15 @@
+{
+  "unit": "s4_card_crc",
+  "source": "source/matching/game/s4_card_crc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_save_report": "0x802ad6b8",
+    "w3d_s4_crc_initialize": "0x802ad924",
+    "w3d_s4_crc_compute": "0x802ad978"
+  },
+  "descriptions": {
+    "w3d_s4_card_save_report": "Reports each change of card-save state and rejects unknown states.",
+    "w3d_s4_crc_initialize": "Initializes the 256-entry CRC lookup table.",
+    "w3d_s4_crc_compute": "Computes the CRC of the supplied byte buffer."
+  }
+}

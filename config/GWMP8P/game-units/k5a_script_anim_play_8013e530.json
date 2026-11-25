@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_script_anim_play_8013e530",
+  "source": "source/matching/game/k5a/k5a_script_anim_play_8013e530.cpp",
+  "language": "cpp",
+  "functions": {"k5a_script_anim_play_8013e530": "0x8013e530"},
+  "descriptions": {"k5a_script_anim_play_8013e530": "Appears to read the scripted animation name property, play it on the worm and post an error message when the animation cannot be found."}
+}

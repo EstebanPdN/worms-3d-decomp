@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_slots_fill_801a2b64",
+  "source": "source/matching/game/k8b/k8b_slots_fill_801a2b64.c",
+  "language": "c",
+  "functions": {"w3d_k8b_slots_fill_801a2b64": "0x801a2b64"},
+  "descriptions": {"w3d_k8b_slots_fill_801a2b64": "Appears to refill an owner's slot vector from a default table and then place each given item at its own index."}
+}

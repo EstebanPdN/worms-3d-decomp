@@ -1,0 +1,11 @@
+{
+  "unit": "h1_8018bd30",
+  "source": "source/matching/game/h1/h1_8018bd30.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_node_construct_8018bd30": "0x8018bd30"
+  },
+  "descriptions": {
+    "w3d_h1_node_construct_8018bd30": "Constructs a shared-node-derived object: base constructor 0x8017990c, vtable 0x80412f50, clears words at 168-196 and three 12-byte list members, constructs three members at 200/212/224 and a default string at 248, and increments a global instance count."
+  }
+}

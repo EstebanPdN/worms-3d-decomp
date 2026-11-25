@@ -1,0 +1,19 @@
+{
+  "unit": "d30e_add_gain_801dd7a8",
+  "source": "source/matching/game/d30e/d30e_add_gain_801dd7a8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d30e_add_gain_801dd7a8": "0x801dd7a8"
+  },
+  "descriptions": {
+    "w3d_d30e_add_gain_801dd7a8": "Adds a gain entry for a ready source: returns 0x80004005 for a null or unready source; otherwise builds a 16-byte entry (constructor 0x801daf38, bind 0x801dafbc taking the reference by value) and appends it to the vector at +60 with unmodified STLport push_back. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d40i_ballistic_solve_801182ec",
+  "source": "source/matching/game/d40i/d40i_ballistic_solve_801182ec.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d40i_ballistic_solve_801182ec": "0x801182ec"
+  },
+  "descriptions": {
+    "d40i_ballistic_solve_801182ec": "Solve the two ballistic flight times for a launch speed and store both rotated launch vectors; returns 0 when the target is out of reach."
+  }
+}

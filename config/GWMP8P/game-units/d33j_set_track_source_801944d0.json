@@ -1,0 +1,20 @@
+{
+  "unit": "d33j_set_track_source_801944d0",
+  "source": "source/matching/game/d33j/d33j_set_track_source_801944d0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "attach__12D33jPlaybackP10D33jSource": "0x801944d0"
+  },
+  "descriptions": {
+    "attach__12D33jPlaybackP10D33jSource": "Attaches a retained track source: sizes key and track vectors to its track count, stores each column's count of negative-id samples in the tracks, updates a storage statistic, marks the object dirty and resizes the bit vector with new bits set."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

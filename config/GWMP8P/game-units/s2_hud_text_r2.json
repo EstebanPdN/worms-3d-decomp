@@ -1,0 +1,26 @@
+{
+  "unit": "s2_hud_text_r2",
+  "source": "source/matching/game/s2_hud_text_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hud_manager_construct_80119e10": "0x80119e10",
+    "w3d_hud_manager_destroy_80119e50": "0x80119e50",
+    "w3d_hud_derived_destroy_8011a108": "0x8011a108",
+    "w3d_hud_reset_transform_8011a304": "0x8011a304",
+    "w3d_hud_clear_assets_8011a370": "0x8011a370",
+    "w3d_hud_update_backing_8011a3dc": "0x8011a3dc",
+    "w3d_hud_text_destroy_8011aa98": "0x8011aa98"
+  },
+  "descriptions": {
+    "w3d_hud_manager_construct_80119e10": "Constructs the HUD manager and publishes its singleton pointer.",
+    "w3d_hud_manager_destroy_80119e50": "Clears the HUD manager singleton and destroys its actor base.",
+    "w3d_hud_derived_destroy_8011a108": "Installs the derived HUD vtable and invokes the text destructor.",
+    "w3d_hud_reset_transform_8011a304": "Resets the text offset and sets the font scale vector to the observed default.",
+    "w3d_hud_clear_assets_8011a370": "Releases and clears the HUD font and text backing.",
+    "w3d_hud_update_backing_8011a3dc": "Updates font style and adjusts the backing texture coordinates and vertex positions.",
+    "w3d_hud_text_destroy_8011aa98": "Releases scaling properties, an extra resource, the backing and the font before base destruction."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "unit": "d30j_begin_frame_8016743c",
+  "source": "source/matching/game/d30j/d30j_begin_frame_8016743c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d30j_begin_frame_8016743c": "0x8016743c"
+  },
+  "descriptions": {
+    "d30j_begin_frame_8016743c": "Begin a frame: swap, flush, set the viewport from the render mode, invalidate GX caches, set the copy clear colour and reset state."
+  }
+}

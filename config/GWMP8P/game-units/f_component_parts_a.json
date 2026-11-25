@@ -1,0 +1,25 @@
+{
+  "unit": "f_component_parts_a",
+  "source": "source/matching/game/f_component_parts_a.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_component_construct_800636e0": "0x800636e0",
+    "w3d_component_construct_80065070": "0x80065070",
+    "w3d_component_destroy_80087a88": "0x80087a88",
+    "w3d_component_construct_8009697c": "0x8009697c",
+    "w3d_component_destroy_800969ec": "0x800969ec",
+    "w3d_component_construct_800980ac": "0x800980ac",
+    "w3d_component_destroy_8009b4e0": "0x8009b4e0",
+    "w3d_component_construct_800ada58": "0x800ada58"
+  },
+  "descriptions": {
+    "w3d_component_construct_800636e0": "Runs the base constructor, installs this type's vtable and clears its own fields.",
+    "w3d_component_construct_80065070": "Runs the base constructor, installs this type's vtable and clears its own fields.",
+    "w3d_component_destroy_80087a88": "Reinstalls this type's vtable, releases the interfaces it holds, then runs the base destructor.",
+    "w3d_component_construct_8009697c": "Runs the base constructor, installs this type's vtable and clears its own fields.",
+    "w3d_component_destroy_800969ec": "Reinstalls this type's vtable, releases the interfaces it holds, then runs the base destructor.",
+    "w3d_component_construct_800980ac": "Runs the base constructor, installs this type's vtable and clears its own fields.",
+    "w3d_component_destroy_8009b4e0": "Reinstalls this type's vtable, releases the interfaces it holds, then runs the base destructor.",
+    "w3d_component_construct_800ada58": "Runs the base constructor, installs this type's vtable and clears its own fields."
+  }
+}

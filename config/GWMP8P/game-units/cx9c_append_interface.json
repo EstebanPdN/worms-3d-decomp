@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_append_interface",
+  "source": "source/matching/game/cx9c/cx9c_append_interface.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_append_interface_8034b9bc": "0x8034b9bc"
+  },
+  "descriptions": {
+    "w3d_cx9c_append_interface_8034b9bc": "Inferred append of a held interface into an embedded counted array."
+  }
+}

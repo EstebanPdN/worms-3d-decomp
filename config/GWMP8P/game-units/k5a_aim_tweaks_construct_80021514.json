@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_aim_tweaks_construct_80021514",
+  "source": "source/matching/game/k5a/k5a_aim_tweaks_construct_80021514.c",
+  "language": "c",
+  "functions": {"k5a_aim_tweaks_construct_80021514": "0x80021514"},
+  "descriptions": {"k5a_aim_tweaks_construct_80021514": "Appears to construct an aim-tweaks object and resolve the active worm index and aim angle delta properties."}
+}

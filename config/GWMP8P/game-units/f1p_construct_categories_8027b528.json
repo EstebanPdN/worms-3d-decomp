@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_construct_categories_8027b528",
+  "source": "source/matching/game/f1p/f1p_construct_categories_8027b528.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_categories_8027b528": "0x8027b528"
+  },
+  "descriptions": {
+    "w3d_construct_categories_8027b528": "Call the original base initializer, set the witnessed table, initialize alternating partial/full pair views and zero fields, publish the global instance, and set the three observed states to17. Field roles and pair abstractions inferred; forty-byte frame reservation has unknown purpose."
+  }
+}

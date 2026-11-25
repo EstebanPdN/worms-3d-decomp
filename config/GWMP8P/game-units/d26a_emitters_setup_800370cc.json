@@ -1,0 +1,11 @@
+{
+  "unit": "d26a_emitters_setup_800370cc",
+  "source": "source/matching/game/d26a/d26a_emitters_setup_800370cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_emitters_setup_800370cc": "0x800370cc"
+  },
+  "descriptions": {
+    "w3d_d26a_emitters_setup_800370cc": "Allocates and creates ten emitters (0x801fe1d8, 0x8025dffc with name FE.NewBox.Blue and id 28 + index % 5), stores them at +36, configures each through 0x8025e128 and places it with 0x8025ee60, adding (20, -20, 0) to the start position (-150, 150, 0) each time."
+  }
+}

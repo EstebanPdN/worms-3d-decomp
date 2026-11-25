@@ -1,0 +1,11 @@
+--- a/port/core/game/d29b/d29b_water_light_800919d4.cpp
++++ b/port/core/game/d29b/d29b_water_light_800919d4.cpp
+@@ -78,7 +78,7 @@
+ struct Water {
+     char unknown00[260]; Vec sun; char unknown272[96]; Ptr32<Object> held368; Ptr32<unsigned short> colors; char unknown376[12];
+     Ptr32<unsigned char> shade388; Ptr32<unsigned char> shade392; Ptr32<unsigned short> tinted; char unknown400[132]; Ptr32<Proto> proto; char unknown536[1948];
+-    unsigned char alpha, blue, green, red; /* palabra de color copiada entera de +0x1a8 */
++    unsigned char red, green, blue; /* bytes en crudo: Dolphin da 172 172 172 donde el orden contrario leía 255 172 172 */
+ };
+ inline void Tint(Ptr32<Water> self, int i, bool fresh, unsigned red, unsigned green, unsigned blue) {
+     unsigned short v = self->colors[i];

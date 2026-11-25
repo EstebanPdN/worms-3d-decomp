@@ -1,0 +1,11 @@
+{
+  "unit": "d16d_motion_direction_80146e30",
+  "source": "source/matching/game/d16d/d16d_motion_direction_80146e30.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16d_motion_normalize_direction_80146e30": "0x80146e30"
+  },
+  "descriptions": {
+    "d16d_motion_normalize_direction_80146e30": "Copy the collider vector returned by 0x80141564 (collider at +1152), normalise it by 1/sqrt (0x802e82c0) when its squared length is positive, otherwise set it to the up vector (0, 1, 0), and store it as the motion direction at +1204. Partial observed layouts; float pool literals only, no owned initialized data."
+  }
+}

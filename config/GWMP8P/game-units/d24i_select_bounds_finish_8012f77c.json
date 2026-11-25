@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_select_bounds_finish_8012f77c",
+  "source": "source/matching/game/d24i/d24i_select_bounds_finish_8012f77c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_select_bounds_finish_8012f77c": "0x8012f77c"
+  },
+  "descriptions": {
+    "d24i_select_bounds_finish_8012f77c": "Finish a pending bounds selection when +76 is set: clears +16 of the record at +172, stores the component-wise minimum and maximum of the corners +188 and +200 in the globals 0x804668d0 and 0x804668dc, posts the arena messages 0x804af6a4, 0x804af66c with the shared text 0x8039d9b0 and 0x804af664, selects slot 3 (0x800a7e14), clears +76 and updates the value at +60 with 0."
+  }
+}

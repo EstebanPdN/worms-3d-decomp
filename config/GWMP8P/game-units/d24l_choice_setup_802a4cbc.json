@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_choice_setup_802a4cbc",
+  "source": "source/matching/game/d24l/d24l_choice_setup_802a4cbc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_choice_setup_802a4cbc": "0x802a4cbc"
+  },
+  "descriptions": {
+    "d24l_choice_setup_802a4cbc": "Sets up the choice screen: initializes the +28 sub-object from the engine context (0x802b0b84), loads the empty anchor ('NULL') into +224, attaches it to +112 at unit scale and at the global vector 0x8045e788, runs the option builders, reads the two data properties (+140 into +388, +136 into +392) and registers their watchers, resolves the selected name through 0x8028496c into +240, sets +620 from +612 (0 or 2 give 8, 1 or 3 give 4), builds the remaining elements and subscribes two messages at +396 and +400, clearing their +16 fields."
+  }
+}

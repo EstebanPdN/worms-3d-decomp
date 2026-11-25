@@ -1,0 +1,11 @@
+{
+  "unit": "f1a_begin_record_8003fbe8_v2",
+  "source": "source/matching/game/f1a/f1a_begin_record_8003fbe8_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f1a_begin_record_8003fbe8": "0x8003fbe8"
+  },
+  "descriptions": {
+    "w3d_f1a_begin_record_8003fbe8": "Selects a 32-byte record through the original pointer at 0x804273ec, copies its first three words to 0x80427408, stores the truncated record index and the two caller words, clears the observed halfword and state word, stores the square and original value of the record float at offset 12, installs the original callback 0x8003ffb8, and sets the two observed flags to one. Referenced data ownership is not claimed."
+  }
+}

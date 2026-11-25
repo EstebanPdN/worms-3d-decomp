@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_connect_each_801ff704",
+  "source": "source/matching/game/d29e/d29e_connect_each_801ff704.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_connect_each_801ff704": "0x801ff704"
+  },
+  "descriptions": {
+    "w3d_d29e_connect_each_801ff704": "Queries each of n interface references for the interface id at 0x8040c970 and passes the result to the target's virtual slot 6 with arg, releasing it after each call; stops and returns the first negative result, otherwise returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

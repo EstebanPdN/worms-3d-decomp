@@ -1,0 +1,11 @@
+{
+  "unit": "large_record_reserve_8034ee28",
+  "source": "source/matching/game/containers/large_record_reserve_8034ee28.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol30c_large_record_reserve_8034ee28": "0x8034ee28"
+  },
+  "descriptions": {
+    "sol30c_large_record_reserve_8034ee28": "Reserves capacity for 84-byte records holding a shared string, float, 72-byte buffer and byte flag. Allocates and copy-constructs existing records, destroys the old buffer and string members, frees the old block and updates begin, finish and capacity end."
+  }
+}

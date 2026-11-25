@@ -1,0 +1,11 @@
+{
+  "unit": "cc33a_hud_messages_80065314",
+  "source": "source/matching/game/cc33a/cc33a_hud_messages_80065314.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc33a_hud_messages_80065314": "0x80065314"
+  },
+  "descriptions": {
+    "cc33a_hud_messages_80065314": "HUD event routing through ten cached message ids, initialization/clear base events and original timed-state updates."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "s20_adjust_calls",
+  "source": "source/matching/game/s20/s20_adjust_calls.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_forward_base_field_801a59c0": "0x801a59c0",
+    "w3d_s20_forward_base_field_801aac8c": "0x801aac8c",
+    "w3d_s20_forward_base_range_801ad8fc": "0x801ad8fc",
+    "w3d_s20_apply_base_item_801a59f4": "0x801a59f4",
+    "w3d_s20_lua_set_closure_field_801a0384": "0x801a0384"
+  },
+  "descriptions": {
+    "w3d_s20_forward_base_field_801a59c0": "Appears to pass this and a field of the null-checked secondary base subobject to a helper.",
+    "w3d_s20_forward_base_field_801aac8c": "Appears to pass this, its second argument and a field of the null-checked secondary base subobject to a helper.",
+    "w3d_s20_forward_base_range_801ad8fc": "Appears to call a helper with the null-checked secondary base subobject, an item pointer and the item address plus 20.",
+    "w3d_s20_apply_base_item_801a59f4": "Appears to validate an item, then call two virtual methods of the secondary base subobject to apply it, returning zero on success.",
+    "w3d_s20_lua_set_closure_field_801a0384": "Appears to push a closure for a function plus a name and store it into the table at stack index minus three."
+  }
+}

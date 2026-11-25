@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_props_e.c
+w3d_s20_register_string_after_entry_801c919c|0x801c919c|Appears to register an entry and a string property reset to the empty shared string, finishing through a shared routine.
+w3d_s20_register_entries_vec4_801ccf38|0x801ccf38|Appears to register four entries and a four-float property with constant defaults, finishing through a shared routine.

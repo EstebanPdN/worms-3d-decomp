@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_flush_entries_801dc6d8",
+  "source": "source/matching/game/h1b/h1b_flush_entries_801dc6d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_flush_entries_801dc6d8": "0x801dc6d8"
+  },
+  "descriptions": {
+    "h1b_flush_entries_801dc6d8": "Invokes slot60 on nonnull kind1 services in compact list48, visits list36 entries in reverse and dispatches flags36 through owner slot84 while retaining the last nonzero result, then clears list36 via80210b90. All receiver, entry and list types are observed partial external ABI views, with no complete local external objects or owned initialized data."
+  }
+}

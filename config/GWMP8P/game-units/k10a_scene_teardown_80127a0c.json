@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_scene_teardown_80127a0c",
+  "source": "source/matching/game/k10a/k10a_scene_teardown_80127a0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_scene_teardown_80127a0c": "0x80127a0c"
+  },
+  "descriptions": {
+    "w3d_k10a_scene_teardown_80127a0c": "Appears to tear down a scene object: notifies its renderer after each global listener, releases two held interfaces and finishes the owner."
+  }
+}

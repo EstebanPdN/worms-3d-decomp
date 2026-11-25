@@ -1,0 +1,11 @@
+{
+  "unit": "d42n_item_list_remove_8017ae10",
+  "source": "source/matching/game/d42n/d42n_item_list_remove_8017ae10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42n_item_list_remove_8017ae10": "0x8017ae10"
+  },
+  "descriptions": {
+    "w3d_d42n_item_list_remove_8017ae10": "Removes an item from a set of parallel arrays: searches for it, removes the matching entry from the attached owner's list if any, erases the slot from the four arrays and releases the item, returning 0. If not found, it copies and discards both labels and returns 0x80004005."
+  }
+}

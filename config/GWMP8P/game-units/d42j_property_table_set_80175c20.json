@@ -1,0 +1,20 @@
+{
+  "unit": "d42j_property_table_set_80175c20",
+  "source": "source/matching/game/d42j/d42j_property_table_set_80175c20.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "property_table_set_80175c20": "0x80175c20"
+  },
+  "descriptions": {
+    "property_table_set_80175c20": "Adds or updates a named member of a property table: checks an existing entry's kind, key and flags, then replaces or clears its target, or creates and binds a new member."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

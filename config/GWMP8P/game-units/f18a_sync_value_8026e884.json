@@ -1,0 +1,11 @@
+{
+  "unit": "f18a_sync_value_8026e884",
+  "source": "source/matching/game/f18a/f18a_sync_value_8026e884.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f18a_sync_value_8026e884": "0x8026e884"
+  },
+  "descriptions": {
+    "w3d_f18a_sync_value_8026e884": "Synchronize observed current/target scalar fields308/312 from child292: invoke dispatch slot12 with receiver+28, adopt changed child value92 immediately when child flag68 is nonzero, otherwise interpolate with original external float pools803cbdf8/dfc/be00/be04 and update optional sink288 through802bc790 and child292 through80296410. Receiver and child are external partial views, never locally constructed; unknown bytes and semantics are explicitly unqualified, setter return types pending original inspection. No owned data or runtime validation claimed."
+  }
+}

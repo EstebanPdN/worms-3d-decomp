@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_tree_erase_vector",
+  "source": "source/matching/game/cx7c/cx7c_tree_erase_vector.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_tree_erase_vector_8035b8fc": "0x8035b8fc"
+  },
+  "descriptions": {
+    "w3d_cx7c_tree_erase_vector_8035b8fc": "Erases a tree subtree with vector-bearing nodes: recursively erases right, visits trivial vector values and releases its storage, frees the node, and iterates down left."
+  }
+}

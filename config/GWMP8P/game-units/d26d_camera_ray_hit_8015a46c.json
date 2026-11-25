@@ -1,0 +1,15 @@
+{
+  "unit": "d26d_camera_ray_hit_8015a46c",
+  "source": "source/matching/game/d26d/d26d_camera_ray_hit_8015a46c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26d_camera_ray_hit_8015a46c": "0x8015a46c"
+  },
+  "descriptions": {
+    "d26d_camera_ray_hit_8015a46c": "Trace a camera ray against the scene and the water level, returning the hit point and normal."
+  }
+}

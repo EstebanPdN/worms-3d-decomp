@@ -1,0 +1,11 @@
+{
+  "unit": "cxb_construct_grid_owner_80121878",
+  "source": "source/matching/game/cxb/cxb_construct_grid_owner_80121878.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxb_construct_grid_owner_80121878": "0x80121878"
+  },
+  "descriptions": {
+    "cxb_construct_grid_owner_80121878": "Constructs an observed grid-owner-shaped object: calls base helper 0x8015fef0, installs table 0x80410b18, clears words at +32/+36/+44/+48, constructs string at +52, clears +56/+100/+104, preserves an empty 20-iteration loop, clears +368, preserves two nested 20-by-2 empty initialization loops, calls helper 0x80343740 on +1448 and returns the object. Class and grid semantics inferred; original helpers and table remain external."
+  }
+}

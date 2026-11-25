@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_unsigned_property_write_8025c71c",
+  "source": "source/matching/game/cx9b/cx9b_unsigned_property_write_8025c71c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_unsigned_property_write_8025c71c": "0x8025c71c"
+  },
+  "descriptions": {
+    "w3d_cx9b_unsigned_property_write_8025c71c": "Select and update the observed unsigned byte field for the property identifier; reserved and unknown identifiers leave fields unchanged."
+  }
+}

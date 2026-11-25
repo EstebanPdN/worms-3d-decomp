@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_split_lines_c_802a79d8",
+  "source": "source/matching/game/d24l/d24l_split_lines_c_802a79d8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_split_lines_c_802a79d8": "0x802a79d8"
+  },
+  "descriptions": {
+    "d24l_split_lines_c_802a79d8": "Splits two data texts in sequence with the same backslash loop as 0x802a6fa8: text +144 of the +40 record into the line table at +496 with count +588, then text +132 into the table at +536 with count +592 (at most 10 lines each)."
+  }
+}

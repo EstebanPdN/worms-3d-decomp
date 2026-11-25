@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_effect_flag_set_801884c8",
+  "source": "source/matching/game/cc17c/cc17c_effect_flag_set_801884c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_effect_flag_set_801884c8": "0x801884c8"
+  },
+  "descriptions": {
+    "w3d_cc17c_effect_flag_set_801884c8": "Switches bit 0 of the owner's 16-bit flags: holds a reference to the group's effect and sets its state to the global off or on state object before clearing or setting the bit."
+  }
+}

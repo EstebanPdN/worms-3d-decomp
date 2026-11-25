@@ -1,0 +1,11 @@
+{
+  "unit": "cc27a_grid_sample_cell_8001e590",
+  "source": "source/matching/game/cc27a/cc27a_grid_sample_cell_8001e590.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc27a_grid_sample_cell_8001e590": "0x8001e590"
+  },
+  "descriptions": {
+    "cc27a_grid_sample_cell_8001e590": "Sample incremental grid cell height/marker, propagate previous-layer terminal marker, preserve ordered gap/hop test, restart height and failure decrement semantics. Unobserved workspace bytes purpose unknown."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24z_open",
+  "source": "source/matching/game/d24z/d24z_open.c",
+  "language": "c",
+  "functions": {
+    "w3d_d24z_open_802e3324": "0x802e3324"
+  },
+  "descriptions": {
+    "w3d_d24z_open_802e3324": "ProDG runtime open wrapper: when the create flag (0x200) is set, probes the path through the debugger file hook and closes it, failing with -1 if the close fails; then opens through the debugger file hook with mode 0. Names inferred."
+  }
+}

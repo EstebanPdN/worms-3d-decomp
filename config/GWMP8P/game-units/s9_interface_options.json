@@ -1,0 +1,11 @@
+{
+  "unit": "s9_interface_options",
+  "source": "source/matching/game/s9/s9_interface_options.c",
+  "language": "c",
+  "functions": {
+    "s9_set_interface_options_8016f3b4": "0x8016f3b4"
+  },
+  "descriptions": {
+    "s9_set_interface_options_8016f3b4": "Retains the new interface, releases the previous one, stores the replacement and four 16-bit options, and returns zero."
+  }
+}

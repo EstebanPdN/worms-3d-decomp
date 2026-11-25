@@ -1,0 +1,17 @@
+{
+  "unit": "d40h_land_blast_voxels_800b17c4",
+  "source": "source/matching/game/d40h/d40h_land_blast_voxels_800b17c4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d40h_land_blast_voxels_800b17c4": "0x800b17c4"
+  },
+  "descriptions": {
+    "d40h_land_blast_voxels_800b17c4": "Clears the land voxels inside a motion's blast sphere, marks touched and neighbouring cell blocks, and repacks the corner occupancy data."
+  }
+}

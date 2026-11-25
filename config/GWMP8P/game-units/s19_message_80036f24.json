@@ -1,0 +1,11 @@
+{
+  "unit": "s19_message_80036f24",
+  "source": "source/matching/game/s19/s19_message_80036f24.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_message_80036f24": "0x80036f24"
+  },
+  "descriptions": {
+    "s19_handle_message_80036f24": "Appears to handle message 64 by running the base handler and a setup helper, otherwise forward the message to the base handler."
+  }
+}

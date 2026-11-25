@@ -1,0 +1,13 @@
+{
+  "unit": "s20_small_ap",
+  "source": "source/matching/game/s20/s20_small_ap.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_push_triple_8016e57c": "0x8016e57c",
+    "w3d_s20_remap_item_indices_801ab98c": "0x801ab98c"
+  },
+  "descriptions": {
+    "w3d_s20_push_triple_8016e57c": "Appears to append three ints to a table of 12-byte records, building the table first when it is not ready, and increment the record count.",
+    "w3d_s20_remap_item_indices_801ab98c": "Appears to remap three index fields of an item through lookup tables on the secondary base and copy a float override when enabled."
+  }
+}

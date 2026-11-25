@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_b32_countdown_800ff56c",
+  "source": "source/matching/game/tsonnet_b32_countdown_800ff56c.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b32_countdown_800ff56c": "0x800ff56c"
+  },
+  "descriptions": {
+    "tsonnet_b32_countdown_800ff56c": "Subtracts elapsed time from a stored countdown, or on expiry reloads it from a source object and toggles a mode flag while writing a global word or a property-helper value into an indexed service table slot; field meanings are inferred. The PPC32 pointer conversion and signed index shift are not portable; index bounds are unverified."
+  }
+}

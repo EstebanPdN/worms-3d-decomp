@@ -1,0 +1,11 @@
+{
+  "unit": "sol11a_masked_sphere_800bdb5c",
+  "source": "source/matching/game/sol11a/sol11a_masked_sphere_800bdb5c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11a_masked_sphere_800bdb5c": "0x800bdb5c"
+  },
+  "descriptions": {
+    "sol11a_masked_sphere_800bdb5c": "Clears a shared result, prepares a masked sphere query and returns one if any selected registry entry passes its sphere test."
+  }
+}

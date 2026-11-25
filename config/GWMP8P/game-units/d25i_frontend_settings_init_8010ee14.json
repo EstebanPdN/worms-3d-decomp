@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_frontend_settings_init_8010ee14",
+  "source": "source/matching/game/d25i/d25i_frontend_settings_init_8010ee14.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_frontend_settings_init_8010ee14": "0x8010ee14"
+  },
+  "descriptions": {
+    "d25i_frontend_settings_init_8010ee14": "Front-end settings setup: subscribes the cached message 0x804af308 to +48, resolves the retained settings FE.TutorialLevels, ChallengeLevels, RandomLevels, CustomLevels, LevelTable, SchemeList, WormNames, MultiLevels, Barracks, WormsList, AlliesList, LandscapeTypes, TeamsInLocalGame, PauseOptions, SoundBanks, LockedList, FlagsList and SpecialWeaponList into +52..+120 through the cast 0x80341584, then reads FE.Combo.User, Fixed, Fixed.Alt, Option and Changed into +28..+44 through 0x800fc370."
+  }
+}

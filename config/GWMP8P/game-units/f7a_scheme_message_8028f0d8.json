@@ -1,0 +1,11 @@
+{
+  "unit": "f7a_scheme_message_8028f0d8",
+  "language": "cpp",
+  "source": "source/matching/game/f7a/f7a_scheme_message_8028f0d8.cpp",
+  "functions": {
+    "w3d_f7a_scheme_message_8028f0d8": "0x8028f0d8"
+  },
+  "descriptions": {
+    "w3d_f7a_scheme_message_8028f0d8": "Dispatch the observed scheme-menu messages to initialization, named selection, full or partial refresh, flag, list and property actions; construct by-value text arguments and forward to the base service. Semantic names and types inferred."
+  }
+}

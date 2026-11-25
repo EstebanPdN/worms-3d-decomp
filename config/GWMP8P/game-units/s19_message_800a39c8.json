@@ -1,0 +1,11 @@
+{
+  "unit": "s19_message_800a39c8",
+  "source": "source/matching/game/s19/s19_message_800a39c8.c",
+  "language": "c",
+  "functions": {
+    "s19_handle_message_800a39c8": "0x800a39c8"
+  },
+  "descriptions": {
+    "s19_handle_message_800a39c8": "Appears to handle message 64 and four cached message ids by showing or hiding the object and running update helpers, otherwise forward to the base handler."
+  }
+}

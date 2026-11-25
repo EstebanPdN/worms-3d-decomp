@@ -1,0 +1,11 @@
+{
+  "unit": "cc26a_grid_build_path_8001ebe0",
+  "source": "source/matching/game/cc26a/cc26a_grid_build_path_8001ebe0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc26a_grid_build_path_8001ebe0": "0x8001ebe0"
+  },
+  "descriptions": {
+    "cc26a_grid_build_path_8001ebe0": "Refresh grid occupancy, cap search limit at150, run search until complete, append returned steps and optional final target, then release pending nodes and clear special flag."
+  }
+}

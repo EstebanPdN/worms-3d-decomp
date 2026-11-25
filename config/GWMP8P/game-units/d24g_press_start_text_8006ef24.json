@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_press_start_text_8006ef24",
+  "source": "source/matching/game/d24g/d24g_press_start_text_8006ef24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_press_start_text_8006ef24": "0x8006ef24"
+  },
+  "descriptions": {
+    "w3d_d24g_press_start_text_8006ef24": "Creates the press-start prompt: loads FE.Font into the +256 text with retain/release, positions it at (0, -50, 0), sets the Text.PressStart string, makes it visible and white, scales it (30, 30, 20) and hides it 750 ticks from now at +260."
+  }
+}

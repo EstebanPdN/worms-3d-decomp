@@ -1,0 +1,11 @@
+{
+  "unit": "k7b_a_801ce3f4",
+  "source": "source/matching/game/k7b/k7b_a_801ce3f4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k7b_settings_object_ctor_801ce3f4": "0x801ce3f4"
+  },
+  "descriptions": {
+    "w3d_k7b_settings_object_ctor_801ce3f4": "Appears to be a constructor: runs base constructor 0x801ce28c, installs vtable 0x80415e70 and copies the 64-byte default block at 0x8045e708 to +20; returns this."
+  }
+}

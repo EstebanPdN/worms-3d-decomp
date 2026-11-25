@@ -1,0 +1,14 @@
+{
+  "unit": "cc28b_normalize_801998d8",
+  "source": "source/matching/game/cc28b/cc28b_normalize_801998d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc28b_normalize_801998d8": "0x801998d8"
+  },
+  "descriptions": {
+    "w3d_cc28b_normalize_801998d8": "For each observed24-byte record with state1, marks intersecting peer records state2, sums weights through service virtual slot60 and rescales peer weights through slot64 by (original constant minus own weight)/sum when sum differs from original zero. Preserves original iteration order,16-byte mask ranges,ushort IDs,float arithmetic and unordered comparison behavior. Names are inferred; extra8 original frame bytes have unknown purpose."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

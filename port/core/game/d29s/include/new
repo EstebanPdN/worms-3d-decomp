@@ -1,0 +1,8 @@
+#ifndef D28R_NEW
+#define D28R_NEW
+#include <../include/stddef.h>
+struct nothrow_t { char w3d_empty; }; extern const nothrow_t nothrow; typedef Ptr32<void (void)> new_handler; new_handler set_new_handler(new_handler) throw(); class bad_alloc { char w3d_empty; };
+void *operator new(__SIZE_TYPE__); void operator delete(void *);
+inline void *operator new(__SIZE_TYPE__, void *p) throw() { return p; }
+inline void *operator new[](__SIZE_TYPE__, void *p) throw() { return p; }
+#endif

@@ -1,0 +1,17 @@
+{
+  "unit": "d27i_panel_fade_message_8011ddb0",
+  "source": "source/matching/game/d27i/d27i_panel_fade_message_8011ddb0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27i_panel_fade_message_8011ddb0": "0x8011ddb0"
+  },
+  "descriptions": {
+    "d27i_panel_fade_message_8011ddb0": "Handles a panel's activation, stop and timer messages, driving its show and hide fade and its one-shot sound, then forwards to the base handler."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_stats_expand_80109604",
+  "source": "source/matching/game/cc38a/cc38a_stats_expand_80109604.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_stats_expand_80109604": "0x80109604"
+  },
+  "descriptions": {
+    "cc38a_stats_expand_80109604": "Expand team, worm, index and value tokens in configured statistics text, output it, and release the temporary shared string."
+  }
+}

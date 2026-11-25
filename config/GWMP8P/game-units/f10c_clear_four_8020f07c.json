@@ -1,0 +1,11 @@
+{
+  "unit": "f10c_clear_four_8020f07c",
+  "source": "source/matching/game/f10c/f10c_clear_four_8020f07c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f10c_clear_four_8020f07c": "0x8020f07c"
+  },
+  "descriptions": {
+    "f10c_clear_four_8020f07c": "Delete four separately held converter objects in array order using native C++ delete expressions, each with its original table stores, shared-string and interface cleanup, tagged base cleanup and deallocator. Clear all four array slots and return zero. Factory code8020eec4 allocates40 bytes for each inner object and invokes constructor80208a4c; all40 bytes are represented. Names and roles remain inferred."
+  }
+}

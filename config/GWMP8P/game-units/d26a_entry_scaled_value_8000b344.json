@@ -1,0 +1,11 @@
+{
+  "unit": "d26a_entry_scaled_value_8000b344",
+  "source": "source/matching/game/d26a/d26a_entry_scaled_value_8000b344.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_entry_scaled_value_8000b344": "0x8000b344"
+  },
+  "descriptions": {
+    "w3d_d26a_entry_scaled_value_8000b344": "Reads entry index from table 0x804aa750; clamps v to the entry limit (+28) and the global minimum (+84 of 0x804aa6d8); when t is non-zero, unclamped and +64 is clear, moves v towards the limit by rate*t and multiplies the factor by rate*t+1. Returns factor * v * entry scale (+12)."
+  }
+}

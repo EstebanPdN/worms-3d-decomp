@@ -1,0 +1,11 @@
+{
+  "unit": "s21_g_801d9844",
+  "source": "source/matching/game/s21/s21_g_801d9844.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_static_reset_pair_801d9844": "0x801d9844"
+  },
+  "descriptions": {
+    "w3d_s21_static_reset_pair_801d9844": "Appears to be a static destruction entry that zeroes a two-word global when called with the final priority."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d24d_aim_update_80151a14",
+  "source": "source/matching/game/d24d/d24d_aim_update_80151a14.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d24d_aim_update_80151a14": "0x80151a14"
+  },
+  "descriptions": {
+    "d24d_aim_update_80151a14": "Turns an actor towards its target: invalid target resets and posts message kind 16; otherwise applies the wrapped, rate-scaled yaw error (out->x = -error * 100, yaw at +576 unless 0x800154e0 reports the kind) and blends the wrapped pitch into the worm's +116 through the handle record."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_dump_object_801b25e8",
+  "source": "source/matching/game/d31e/d31e_dump_object_801b25e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_dump_object_801b25e8": "0x801b25e8"
+  },
+  "descriptions": {
+    "w3d_d31e_dump_object_801b25e8": "Writes a readable dump of an object to the dumper's stream: a local formatting writer on the output at +40 prints the class name and address, then, walking the class chain from root to leaf, prints each property: array properties as name, count and elements (recursing for object elements, or through 0x801ef970 for plain ones), others as name = value (recursing for object values), with indent and closing lines. Takes the interface pointer (object at -4). Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol34c_select_entry_position_802bc93c",
+  "source": "source/matching/game/sol34c/sol34c_select_entry_position_802bc93c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol34c_select_entry_position_802bc93c": "0x802bc93c"
+  },
+  "descriptions": {
+    "sol34c_select_entry_position_802bc93c": "Walk entry pointers to find the requested integer ID, compute a fixed or scaled floating position, optionally apply it, and return the observed position. GC32 reconstruction; original names and portable runtime unverified."
+  }
+}

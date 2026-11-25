@@ -1,0 +1,20 @@
+{
+  "unit": "d31s_queue_dump_80165018",
+  "source": "source/matching/game/d31s/d31s_queue_dump_80165018.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "d31s_queue_dump_80165018": "0x80165018"
+  },
+  "descriptions": {
+    "d31s_queue_dump_80165018": "Writes a text dump of the two category queues into a string, printing and popping a copy of each queue."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

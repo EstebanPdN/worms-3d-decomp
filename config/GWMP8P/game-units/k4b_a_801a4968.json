@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801a4968",
+  "source": "source/matching/game/k4b/k4b_a_801a4968.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_visit_head_then_targets_801a4968": "0x801a4968"
+  },
+  "descriptions": {
+    "w3d_k4b_visit_head_then_targets_801a4968": "Appears to dispatch an item's head node through the handler table by kind, then its five optional targets; returns zero when there is no head."
+  }
+}

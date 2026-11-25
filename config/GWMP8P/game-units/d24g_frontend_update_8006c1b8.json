@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_frontend_update_8006c1b8",
+  "source": "source/matching/game/d24g/d24g_frontend_update_8006c1b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_frontend_update_8006c1b8": "0x8006c1b8"
+  },
+  "descriptions": {
+    "w3d_d24g_frontend_update_8006c1b8": "Front-end update: clears flag 0x00400000, steps 0x8006f0dc, and while the state equals the next state runs modes 0..9 (boot fade and callback, menu transitions by flag 0x02000000 and language, attract game start on timeout, return to the default menu when idle); otherwise sets flag 0x01000000. Returns 100."
+  }
+}

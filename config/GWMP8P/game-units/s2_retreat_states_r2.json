@@ -1,0 +1,27 @@
+{
+  "unit": "s2_retreat_states_r2",
+  "source": "source/matching/game/s2_retreat_states_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_retreat_construct_8010dadc": "0x8010dadc",
+    "w3d_retreat_destroy_8010db24": "0x8010db24",
+    "w3d_retreat_tick_8010dc0c": "0x8010dc0c",
+    "w3d_retreat_launch_8010dd44": "0x8010dd44",
+    "w3d_surrender_construct_8010df80": "0x8010df80",
+    "w3d_surrender_destroy_8010dfc8": "0x8010dfc8",
+    "w3d_surrender_tick_8010e0b0": "0x8010e0b0",
+    "w3d_surrender_reset_8010e22c": "0x8010e22c",
+    "w3d_surrender_launch_8010e298": "0x8010e298"
+  },
+  "descriptions": {
+    "w3d_retreat_construct_8010dadc": "Constructs a retreat state and clears its actor and state fields.",
+    "w3d_retreat_destroy_8010db24": "Releases the held actor and destroys the retreat base state.",
+    "w3d_retreat_tick_8010dc0c": "Advances the retreat delay and clears the actor field when the delay expires.",
+    "w3d_retreat_launch_8010dd44": "Posts a powering-up message and starts the retreat delay once.",
+    "w3d_surrender_construct_8010df80": "Constructs the surrender state and clears its launch and token fields.",
+    "w3d_surrender_destroy_8010dfc8": "Releases the held token and destroys the surrender base state.",
+    "w3d_surrender_tick_8010e0b0": "Posts surrender and end-turn messages after the delay and releases the held token.",
+    "w3d_surrender_reset_8010e22c": "Clears retreat time, releases the held token and resets its timestamp.",
+    "w3d_surrender_launch_8010e298": "Starts surrender, acquires an optional token and posts weapon action messages."
+  }
+}

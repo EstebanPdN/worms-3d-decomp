@@ -1,0 +1,11 @@
+{
+  "unit": "f7c_ctor_80222be8",
+  "source": "source/matching/game/f7c/f7c_ctor_80222be8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7c_ctor_80222be8": "0x80222be8"
+  },
+  "descriptions": {
+    "f7c_ctor_80222be8": "Initialize an inferred derived object through the witnessed base constructor, two external float defaults, kind and enable fields, four reference-counted String copies and a cleared tail. Types, names, roles and 112-byte unknown base storage inferred; external data ownership pending."
+  }
+}

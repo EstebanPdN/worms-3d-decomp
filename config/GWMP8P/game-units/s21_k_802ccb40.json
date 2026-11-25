@@ -1,0 +1,11 @@
+{
+  "unit": "s21_k_802ccb40",
+  "source": "source/matching/game/s21/s21_k_802ccb40.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_consume_flag_802ccb40": "0x802ccb40"
+  },
+  "descriptions": {
+    "w3d_s21_consume_flag_802ccb40": "Appears to test and clear a per-index flag in a sixteen-entry table when the subsystem is enabled and the index is valid."
+  }
+}

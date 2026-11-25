@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_read_schema_801ea2d8",
+  "source": "source/matching/game/g2b/g2b_read_schema_v3_801ea2d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_read_schema_801ea2d8": "0x801ea2d8"
+  },
+  "descriptions": {
+    "g2b_read_schema_801ea2d8": "Reads container tag CTNR through reader slot164 and returns80004005 on failure. Reads InternalFlags into a byte initialized from owner header, merges mask13 into owner byte11 while retaining mask242, reads UserFlags into a separate byte and zero-initialized DxFieldCount into a third byte. Traverses external type descriptors from owner slot20 until80365788, querying field count at slot32 and calling801eb0fc for each field pointer at descriptor48. Returns zero. All objects remain explicit partial external ABI views; three complete byte locals, no owned data; names inferred from original strings."
+  }
+}

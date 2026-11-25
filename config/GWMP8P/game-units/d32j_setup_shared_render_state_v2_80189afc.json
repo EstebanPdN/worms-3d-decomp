@@ -1,0 +1,17 @@
+{
+  "unit": "d32j_setup_shared_render_state_v2_80189afc",
+  "source": "source/matching/game/d32j/d32j_setup_shared_render_state_v2_80189afc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d32j_setup_shared_render_state_v2_80189afc": "0x80189afc"
+  },
+  "descriptions": {
+    "d32j_setup_shared_render_state_v2_80189afc": "Constructs the object through 0x801902e8, sets its vtable and clears three references. If the instance count is zero, fetches shared state objects from the service 0x8020b680 into the references 0x804b0238..0x804b0268, writes their integer parameters with their dirty bits, calls slot 56 on 0x804b0260, fetches 0x804b026c, sets it up and names it. Finally sets colours white and black, clears the remaining members, loads the limits 0.1 and -0.1, increments the instance count and returns the object."
+  }
+}

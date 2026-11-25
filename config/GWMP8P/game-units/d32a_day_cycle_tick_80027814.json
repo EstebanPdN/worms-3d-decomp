@@ -1,0 +1,14 @@
+{
+  "unit": "d32a_day_cycle_tick_80027814",
+  "source": "source/matching/game/d32a/d32a_day_cycle_tick_80027814.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_day_cycle_tick_80027814": "0x80027814"
+  },
+  "descriptions": {
+    "w3d_d32a_day_cycle_tick_80027814": "Advances the day cycle: updates the sun direction, finds the next named level object, relabels it DAY, EVENING or NIGHT, and reloads the land materials and map file."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

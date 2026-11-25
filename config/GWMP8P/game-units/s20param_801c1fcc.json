@@ -1,0 +1,11 @@
+{
+  "unit": "s20param_801c1fcc",
+  "source": "source/matching/game/generated/s20param_801c1fcc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20desc_801c1fcc": "0x801c1fcc"
+  },
+  "descriptions": {
+    "w3d_s20desc_801c1fcc": "Appears to register an entry and a property descriptor (name, size, element type, type and descriptor) once, then finish through a shared routine."
+  }
+}

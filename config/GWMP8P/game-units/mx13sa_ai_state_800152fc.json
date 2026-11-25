@@ -1,0 +1,11 @@
+{
+  "unit": "mx13sa_ai_state_800152fc",
+  "source": "source/matching/game/mx13sa/mx13sa_ai_state_800152fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx13sa_ai_state_800152fc": "0x800152fc"
+  },
+  "descriptions": {
+    "mx13sa_ai_state_800152fc": "Captures the active worm team, position, mode and context; reads ChooseWorm.Enabled and initializes team selection when enabled and idle."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_print_fields_80200494",
+  "source": "source/matching/game/d29e/d29e_print_fields_80200494.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_print_fields_80200494": "0x80200494"
+  },
+  "descriptions": {
+    "w3d_d29e_print_fields_80200494": "Formats an object as text: if the global service (0x804b063c) knows the type it prints it (slots 3 and 4); otherwise assigns the opening text to out, gets the type's field table from 0x80200460 and for each of its count fields (byte at +17, 12-byte records at +28) has the field's printer (slot 15) write the field value into a temporary string, appends a separator or the closing text, formats name and value into a line and appends it. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

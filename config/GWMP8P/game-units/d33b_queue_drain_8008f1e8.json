@@ -1,0 +1,11 @@
+{
+  "unit": "d33b_queue_drain_8008f1e8",
+  "source": "source/matching/game/d33b/d33b_queue_drain_8008f1e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d33b_queue_drain_8008f1e8": "0x8008f1e8"
+  },
+  "descriptions": {
+    "d33b_queue_drain_8008f1e8": "Refreshes items of the active list 0x80431e94 whose state has a pending value (0x801ef380), pops the entry list 0x80431e88 from the back until one is handled, clearing +109 and running 0x8008ed58 and 0x8008e9c0 for entries with +107 set; when the flag is set, pops the active list while 0x8008ee80 reports completion, clearing +108 and +104. Returns the handled flag."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "terra_only_a_ray_80040f18",
+  "source": "source/matching/game/terra_only_a/terra_only_a_ray_80040f18.cpp",
+  "language": "cpp",
+  "functions": {"terra_only_a_ray_compare_widths_80040f18": "0x80040f18"},
+  "descriptions": {"terra_only_a_ray_compare_widths_80040f18": "Experimental ordering and dispatch of two floating-point candidate fields; exact proof pending."}
+}

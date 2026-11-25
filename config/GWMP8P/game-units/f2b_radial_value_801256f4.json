@@ -1,0 +1,14 @@
+{
+  "unit": "f2b_radial_value_801256f4",
+  "source": "source/matching/game/f2b/f2b_radial_value_801256f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2b_radial_value_801256f4": "0x801256f4"
+  },
+  "descriptions": {
+    "f2b_radial_value_801256f4": "When words at offsets 76, 80 and 88 are zero, compare squared center distance with the square of the actor radius plus offset-40 radius. For an interior point compute the weighted remaining fraction, add the external constant if its integer conversion is nonpositive, and pass it to 0x801257f0. Geometric roles and frame reservation purpose are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

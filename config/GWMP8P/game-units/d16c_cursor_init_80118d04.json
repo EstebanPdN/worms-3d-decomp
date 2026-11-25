@@ -1,0 +1,11 @@
+{
+  "unit": "d16c_cursor_init_80118d04",
+  "source": "source/matching/game/d16c/d16c_cursor_init_80118d04.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16c_cursor_init_80118d04": "0x80118d04"
+  },
+  "descriptions": {
+    "d16c_cursor_init_80118d04": "Initialise the targeting cursor base with its mesh, bitmap and Target/Intro/Loop/Error clips, subscribe to the cursor message (+40), load the Targeting.Cursor.Shadow mesh and retain it as the shadow (+92, releasing the previous one), apply the shadow colour, attach it to the scene (+28) with the Target_Shadow clip, and clear the fields at +96 and +100."
+  }
+}

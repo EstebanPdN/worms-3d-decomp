@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_frustum_test_800f6798",
+  "source": "source/matching/game/d26c/d26c_frustum_test_800f6798.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_frustum_test_800f6798": "0x800f6798"
+  },
+  "descriptions": {
+    "d26c_frustum_test_800f6798": "For each box in the vector at +16: part flags bit 0 tests both signs of the projected half extent against 0; flags 0 tests the projected extent scaled by 0.3 plus the plane distance against 0; other flags pass. Returns 0 on rejection, 1 otherwise."
+  }
+}

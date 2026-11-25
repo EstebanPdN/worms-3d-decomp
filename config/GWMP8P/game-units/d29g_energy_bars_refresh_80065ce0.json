@@ -1,0 +1,14 @@
+{
+  "unit": "d29g_energy_bars_refresh_80065ce0",
+  "source": "source/matching/game/d29g/d29g_energy_bars_refresh_80065ce0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_energy_bars_refresh_80065ce0": "0x80065ce0"
+  },
+  "descriptions": {
+    "w3d_d29g_energy_bars_refresh_80065ce0": "Energy bar refresh: sums the health of living worms per team over the 16 worm slots and notes the current worm's team, finds the best total and the number of teams alive, derives the bar scale limited by the handle at +88 and stores the best total at +124, bubble-sorts team indices by total with an xor swap, then updates each of the four bars: current flag, scale, total, resource and flag strings, level, interpolation, team, and display slot from its rank."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e_wormpot_mode_802aa214",
+  "source": "source/matching/game/sol35e/sol35e_wormpot_mode_802aa214.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e_wormpot_mode_802aa214": "0x802aa214"
+  },
+  "descriptions": {
+    "sol35e_wormpot_mode_802aa214": "Changes the owner mode through its +0x1c subobject, conditionally dispatches a nonempty unflagged payload, then starts or stops the owner."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d25e_release_lists_801b4140",
+  "source": "source/matching/game/d25e/d25e_release_lists_801b4140.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25e_release_lists_801b4140": "0x801b4140"
+  },
+  "descriptions": {
+    "w3d_d25e_release_lists_801b4140": "Releases every interface in the vector at +44 (virtual slot 4) and empties it, then does the same for the counted array at +60 and resets that array with 0x80210afc."
+  }
+}

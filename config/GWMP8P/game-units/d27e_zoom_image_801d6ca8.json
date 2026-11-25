@@ -1,0 +1,15 @@
+{
+  "unit": "d27e_zoom_image_801d6ca8",
+  "source": "source/matching/game/d27e/d27e_zoom_image_801d6ca8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27e_zoom_image_801d6ca8": "0x801d6ca8"
+  },
+  "descriptions": {
+    "w3d_d27e_zoom_image_801d6ca8": "General filtered image rescaling, the two-pass zoom of Schumacher's filter code from Graphics Gems III: builds contributor lists for the horizontal pass into a temporary image, filters each column, then does the same vertically into the destination. Below unit scale the filter is stretched by the inverse scale; out-of-range indices reflect at the edges. Weights and sums are floats and results clamp to 0..255."
+  },
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ]
+}

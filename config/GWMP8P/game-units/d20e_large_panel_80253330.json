@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_large_panel_80253330",
+  "source": "source/matching/game/d20e/d20e_large_panel_80253330.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__14D20eLargePanelUs": "0x80253330"
+  },
+  "descriptions": {
+    "__14D20eLargePanelUs": "Large panel subclass constructor: runs the panel base constructor 0x80251f40 with the caller's id, installs the table 0x8041ba90, zeroes the vector at +164 and every float/int member up to +540, copy-constructs the string members (+196..+444) from the shared empty string 0x804b06a0 (incrementing its reference count), stores the shared object pointer read from 0x804b05b0 at +232 and retains it through its table slot at +12 when non-null, and returns this."
+  }
+}

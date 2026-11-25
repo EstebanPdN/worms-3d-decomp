@@ -1,0 +1,26 @@
+--- a/port/core/overrides/overrides.cpp
++++ b/port/core/overrides/overrides.cpp
+@@ -1,5 +1,6 @@
+ // Sustituciones por dirección de funciones del juego; cada una dice por qué.
+ #include "w3d_ptr.h"
++#include <string.h>
+ using namespace w3d;
+ typedef w3d_u32 GA;
+ 
+@@ -18,6 +19,16 @@
+ static inline w3d_u32 *vtable_of(GA object) { return (w3d_u32 *)g2h(*(w3d_u32 *)g2h(object)); }
+ 
+ extern "C" {
++// pushstr de lobject.c (Lua 5.0): faltaba y hacía abortar cualquier error de ejecución de un script al componer su mensaje.
++GA A802d5e30(GA L, GA s, unsigned n);
++void A802cff34(GA L, int n);
++void A802d24ec(GA L, GA str) {
++    w3d_u32 *top = (w3d_u32 *)g2h(*(w3d_u32 *)g2h(L + 8));
++    top[0] = 4;
++    top[1] = A802d5e30(L, str, (unsigned)strlen((const char *)g2h(str)));
++    if ((int)(*(w3d_u32 *)g2h(L + 0x18) - *(w3d_u32 *)g2h(L + 8)) < 9) A802cff34(L, 1);
++    *(w3d_u32 *)g2h(L + 8) += 8;
++}
+ // Entrada del vector de claves del material. La llamada puede reasignar el vector: hay que leerlo después, como hacía GCC.
+ int A801720fc(GA self, int mode);
+ GA A801720c0(GA self, int mode) {

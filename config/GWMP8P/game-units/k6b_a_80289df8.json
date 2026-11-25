@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80289df8",
+  "source": "source/matching/game/k6b/k6b_a_80289df8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_card_saver_save_80289df8": "0x80289df8"
+  },
+  "descriptions": {
+    "w3d_k6b_card_saver_save_80289df8": "Appears to log Saving Game File To Memory Card, bump the save counter, unsubscribe navigation, write slot +32 with the name at +36, set status 3 and reset +28."
+  }
+}

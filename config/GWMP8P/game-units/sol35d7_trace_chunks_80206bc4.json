@@ -1,0 +1,12 @@
+{
+  "unit": "sol35d7_trace_chunks_80206bc4",
+  "source": "source/matching/game/sol35d7/sol35d7_trace_chunks_80206bc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_trace_chunks_80206bc4": "0x80206bc4"
+  },
+  "description": "Trace a native text byte range in chunks of at most 255 bytes with a local terminator; conditional output byte count.",
+  "function_descriptions": {
+    "sol35d7_trace_chunks_80206bc4": "Trace a native text byte range in chunks of at most 255 bytes with a local terminator; conditional output byte count."
+  }
+}

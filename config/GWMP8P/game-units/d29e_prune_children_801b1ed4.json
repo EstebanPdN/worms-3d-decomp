@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_prune_children_801b1ed4",
+  "source": "source/matching/game/d29e/d29e_prune_children_801b1ed4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_prune_children_801b1ed4": "0x801b1ed4"
+  },
+  "descriptions": {
+    "w3d_d29e_prune_children_801b1ed4": "Walks the child array at +28 of a node through the scanner (self minus 4 when non-null): optionally marks each child's flag bit, records the index of a child whose parent is an ancestor or whose references are missing, and replaces a flagged child with the result of the scanner factory's virtual slot 10; then erases the recorded indices through 0x801ef380, adjusting for prior removals. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

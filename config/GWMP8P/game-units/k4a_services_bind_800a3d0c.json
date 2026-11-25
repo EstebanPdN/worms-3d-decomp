@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_services_bind_800a3d0c",
+  "source": "source/matching/game/k4a/k4a_services_bind_800a3d0c.c",
+  "language": "c",
+  "functions": {
+    "k4a_services_bind_800a3d0c": "0x800a3d0c"
+  },
+  "descriptions": {
+    "k4a_services_bind_800a3d0c": "Appears to look up ten services for the owner and store them in consecutive slots when a game-context flag bit is set."
+  }
+}

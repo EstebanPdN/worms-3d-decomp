@@ -1,0 +1,11 @@
+{
+  "unit": "s19_damage_scale_8000af90",
+  "source": "source/matching/game/s19/s19_damage_scale_8000af90.c",
+  "language": "c",
+  "functions": {
+    "s19_damage_scale_8000af90": "0x8000af90"
+  },
+  "descriptions": {
+    "s19_damage_scale_8000af90": "Appears to read the DoubleDamage property, replace a zero multiplier with one and double it when the property equals one."
+  }
+}

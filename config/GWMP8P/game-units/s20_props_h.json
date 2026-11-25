@@ -1,0 +1,11 @@
+{
+  "unit": "s20_props_h",
+  "source": "source/matching/game/s20/s20_props_h.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_register_range_property_801bd79c": "0x801bd79c"
+  },
+  "descriptions": {
+    "w3d_s20_register_range_property_801bd79c": "Appears to register a vector property with a constant default and the Range descriptor once, then finish through a shared routine."
+  }
+}

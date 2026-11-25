@@ -1,0 +1,72 @@
+#include "w3d_ptr.h"
+#line 1 "cc19a_particle_pairs_sinit_800e6554.cpp"
+inline void *operator new(__SIZE_TYPE__,void *p){return p;}
+struct Cc19aVec2 {float x,y;Cc19aVec2(float a,float b){x=a;y=b;}};
+struct Cc19aVec3 {float x,y,z;Cc19aVec3(float a,float b,float c){x=a;y=b;z=c;}};
+extern "C" Ptr32<char> lbl_804aaec4;
+extern "C" Ptr32<void> fn_8015f518(Ptr32<void>,Ptr32<void>);
+extern "C" Ptr32<void> fn_801629f8(Ptr32<void>,Ptr32<void>,Ptr32<void>,Ptr32<void>,int,int);
+extern "C" Ptr32<void> fn_800e4ff8();
+extern "C" char lbl_80360d80[],lbl_803e81e8[],lbl_803618f0[];
+extern "C" Ptr32<char> lbl_804aed88;
+extern "C" Ptr32<char> lbl_804aed8c;
+extern "C" Ptr32<char> lbl_804aed90;
+extern "C" Ptr32<char> lbl_804aed94;
+extern "C" Ptr32<char> lbl_804aed98;
+extern "C" Ptr32<char> lbl_804aed9c;
+extern "C" Ptr32<char> lbl_804aeda0;
+extern "C" Ptr32<char> lbl_804aeda4;
+extern "C" Ptr32<char> lbl_804aeda8;
+extern "C" unsigned int lbl_804aedac[2];
+extern "C" unsigned int lbl_804aedb4[2];
+extern "C" unsigned int lbl_804aedbc[2];
+extern "C" unsigned int lbl_804aedc4[2];
+extern "C" unsigned int lbl_804aedcc[2];
+extern "C" unsigned int lbl_804aedd4[2];
+extern "C" unsigned int lbl_804aeddc[2];
+extern "C" unsigned int lbl_804aede4[2];
+extern "C" char lbl_8038aec0[];
+extern "C" char lbl_8038aed8[];
+extern "C" char lbl_8038aeec[];
+extern "C" char lbl_8038af04[];
+extern "C" char lbl_8038af18[];
+extern "C" char lbl_8038af30[];
+extern "C" char lbl_8038af48[];
+extern "C" char lbl_8038af64[];
+extern "C" const float lbl_8038af7c[];
+extern "C" const float lbl_8038af80[];
+extern "C" const float lbl_8038af84[];
+extern "C" const float lbl_8038af88[];
+extern "C" const float lbl_8038af8c[];
+extern Cc19aVec2 lbl_804aedec;
+extern Cc19aVec2 lbl_804aedf4;
+extern Cc19aVec3 lbl_80447424;
+extern Cc19aVec3 lbl_80447430;
+extern Cc19aVec3 lbl_8044743c;
+extern Cc19aVec3 lbl_80447448;
+extern "C" void w3d_cc19a_particle_pairs_sinit_800e6554(int init,int priority){if(priority==0xffff && init){
+lbl_804aed88=lbl_804aaec4+16384;
+lbl_804aed8c=lbl_804aaec4;
+lbl_804aed90=lbl_804aaec4+736;
+lbl_804aed94=lbl_804aaec4+12400;
+lbl_804aed98=lbl_804aaec4;
+lbl_804aed9c=lbl_804aaec4+16368;
+lbl_804aeda0=lbl_804aaec4+16304;
+lbl_804aeda4=lbl_804aaec4+16176;
+lbl_804aeda8=lbl_804aaec4;
+fn_8015f518(lbl_804aedac,lbl_8038aec0);
+fn_8015f518(lbl_804aedb4,lbl_8038aed8);
+fn_8015f518(lbl_804aedbc,lbl_8038aeec);
+fn_8015f518(lbl_804aedc4,lbl_8038af04);
+fn_8015f518(lbl_804aedcc,lbl_8038af18);
+fn_8015f518(lbl_804aedd4,lbl_8038af30);
+fn_8015f518(lbl_804aeddc,lbl_8038af48);
+fn_8015f518(lbl_804aede4,lbl_8038af64);
+new (&lbl_804aedec) Cc19aVec2(lbl_8038af7c[0],lbl_8038af7c[0]);
+new (&lbl_804aedf4) Cc19aVec2(lbl_8038af80[0],lbl_8038af80[0]);
+new (&lbl_80447424) Cc19aVec3(lbl_8038af7c[0],lbl_8038af7c[0],lbl_8038af7c[0]);
+new (&lbl_80447430) Cc19aVec3(lbl_8038af84[0],lbl_8038af7c[0],lbl_8038af7c[0]);
+new (&lbl_8044743c) Cc19aVec3(lbl_8038af88[0],lbl_8038af7c[0],lbl_8038af88[0]);
+new (&lbl_80447448) Cc19aVec3(lbl_8038af8c[0],lbl_8038af7c[0],lbl_8038af8c[0]);
+fn_801629f8(lbl_80360d80,lbl_803e81e8,lbl_803618f0,(Ptr32<void>)fn_800e4ff8,10,0);}}
+

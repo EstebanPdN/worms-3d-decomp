@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c30_ctor_801be730",
+  "source": "source/matching/game/tsonnet_c30/tsonnet_c30_ctor_801be730.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c30_ctor_801be730": "0x801be730"
+  },
+  "descriptions": {
+    "tsonnet_c30_ctor_801be730": "Runs the held-base constructor, installs the object's vtable, copies the same 64-byte external record into two members at offsets 48 and 112, clears the word at offset 176 and returns the object; the record and field meanings are inferred."
+  }
+}

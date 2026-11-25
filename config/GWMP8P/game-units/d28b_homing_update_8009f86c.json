@@ -1,0 +1,15 @@
+{
+  "unit": "d28b_homing_update_8009f86c",
+  "source": "source/matching/game/d28b/d28b_homing_update_8009f86c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28b_homing_update_8009f86c": "0x8009f86c"
+  },
+  "descriptions": {
+    "w3d_d28b_homing_update_8009f86c": "Homing projectile steering: stops within the weapon reach of the destination +308; sweeps up and down by rate over frame time (virtual slot +64), then along the velocity by reach over frame time; on a hit adds lift, or subtracts it when only the up sweep hit, subtracts the pull toward 0x8043ae20 and integrates the velocity +48; always renormalizes the velocity and clamps its length to the weapon limit +564."
+  },
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "unit": "k8c_log_format_802cc2d8",
+  "source": "source/matching/game/k8c/k8c_log_format_802cc2d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8c_log_float_802cc2d8": "0x802cc2d8",
+    "w3d_k8c_log_vec3_802cc354": "0x802cc354"
+  },
+  "descriptions": {
+    "w3d_k8c_log_float_802cc2d8": "Appears to format a float into a temporary string and log it with an extra argument.",
+    "w3d_k8c_log_vec3_802cc354": "Appears to format a three-float vector as (x,y,z) into a temporary string and log it with an extra argument."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

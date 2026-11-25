@@ -1,0 +1,14 @@
+{
+  "unit": "k10a_hud_reset_80047e94",
+  "source": "source/matching/game/k10a/k10a_hud_reset_80047e94.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_hud_reset_80047e94": "0x80047e94"
+  },
+  "descriptions": {
+    "w3d_k10a_hud_reset_80047e94": "Appears to reset a HUD element: publishes its scaled color through the target's HUD properties, clears the target's text, sets its anchor and zeroes the timing words."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

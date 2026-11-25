@@ -1,0 +1,11 @@
+{
+  "unit": "f13a_clip_list_checked_800e2464",
+  "source": "source/matching/game/f13a/f13a_clip_list_checked_800e2464.cpp",
+  "language": "cpp",
+  "functions": {
+    "f13a_clip_list_checked_800e2464": "0x800e2464"
+  },
+  "descriptions": {
+    "f13a_clip_list_checked_800e2464": "Parse the native mesh clip-list syntax with a 256-byte name buffer and a verified four-byte integer output: ignore spaces, start clips at plus/comma separators, make comma select -1 rather than0 for the following clip scalar parameter, recognize the LOOP token before a colon to set the integer control flag, and start/control the final token. Preserve signed-character dispatch, the per-iteration output-pointer lifetime, and the original unbounded name copy. Rate1 and trailing scalar0 are original-address extern literals. Native clip-play writes only the output integer; all mesh objects remain existing external receivers. Native scalar parameter meanings and virtual signatures remain inferred."
+  }
+}

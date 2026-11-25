@@ -1,0 +1,14 @@
+{
+  "unit": "d31a_walk_cell_score_8001a02c",
+  "source": "source/matching/game/d31a/d31a_walk_cell_score_8001a02c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31a_walk_cell_score_8001a02c": "0x8001a02c"
+  },
+  "descriptions": {
+    "w3d_d31a_walk_cell_score_8001a02c": "Scores grid cell (x, z, layer) for team: returns 0 for a blocked cell, else a danger term weighted by w1 plus an openness term from the surrounding 25 by 25 cells weighted by w2, plus the pull of each mine, capped at 10."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

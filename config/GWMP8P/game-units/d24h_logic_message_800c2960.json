@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_logic_message_800c2960",
+  "source": "source/matching/game/d24h/d24h_logic_message_800c2960.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_logic_message_800c2960": "0x800c2960"
+  },
+  "descriptions": {
+    "w3d_d24h_logic_message_800c2960": "Weapon logic message handler. Message 64 runs the base handler 0x8015fb34 and, on success, the aim start 0x800c2e44, returning 0, or 0x80004005 on failure. Message 66 posts a message when the state +32 is set and runs 0x800c31f0. The cached message 0x804ae6fc checks readiness (0x800c3cf4), returning 0 when not ready, and from state 0 posts two messages, enters state 1 and sets the end time +72 from the engine clock plus the weapon's delay. Message 0x804ae6dc sets state 5 when the weapon at +40 reports ready, otherwise calls 0x8015fd1c. Message 0x804ae724 moves state 3 to 4. Other paths end in the base handler."
+  }
+}

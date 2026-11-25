@@ -1,0 +1,14 @@
+{
+  "unit": "d26e_camera_axes_801a0cf4",
+  "source": "source/matching/game/d26e/d26e_camera_axes_801a0cf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_camera_axes_801a0cf4": "0x801a0cf4"
+  },
+  "descriptions": {
+    "w3d_d26e_camera_axes_801a0cf4": "Builds a camera's orthonormal axes: forward is eye minus target, normalized; side is the up vector minus its projection on forward. If that is degenerate, side falls back to the Y axis, then to the Z axis, each minus its projection; side is normalized, and up is side cross forward. Names are inferred from the arithmetic and from 0x801a1008, which reads these outputs."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

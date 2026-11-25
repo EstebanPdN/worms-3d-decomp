@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_linear_sample_800d76dc",
+  "source": "source/matching/game/cx11a/cx11a_linear_sample_800d76dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_linear_sample_800d76dc": "0x800d76dc"
+  },
+  "descriptions": {
+    "w3d_cx11a_linear_sample_800d76dc": "Samples observed linear position plus velocity times the supplied step. Names inferred."
+  }
+}

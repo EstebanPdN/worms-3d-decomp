@@ -1,0 +1,14 @@
+{
+  "unit": "f7b_target_position_8015324c",
+  "source": "source/matching/game/f7b/f7b_target_position_8015324c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7b_target_position_8015324c": "0x8015324c"
+  },
+  "descriptions": {
+    "f7b_target_position_8015324c": "Unless the observed mode gate is active, sample distance, construct a local vector and rotation/translation matrix, transform the vector and add the owner position in place, then write the resulting target through the witnessed handle helper. Eight trailing stack bytes have unknown purpose. Names, roles and layout inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

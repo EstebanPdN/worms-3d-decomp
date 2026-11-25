@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801f86ec",
+  "source": "source/matching/game/perm/s10perm_801f86ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801f86ec": "0x801f86ec"
+  },
+  "descriptions": {
+    "w3d_auto_801f86ec": "Allocates and constructs a 32-byte object, invokes its observed interface method, assigns its owner, writes it to the output, and returns zero."
+  }
+}

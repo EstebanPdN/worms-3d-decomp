@@ -1,0 +1,14 @@
+{
+  "unit": "mx16oa_render_state_80166d8c",
+  "source": "source/matching/game/mx16oa/mx16oa_render_state_80166d8c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/mx16oa"
+  ],
+  "functions": {
+    "__17Mx16oaRenderState": "0x80166d8c"
+  },
+  "descriptions": {
+    "__17Mx16oaRenderState": "Constructs a 5272-byte state object: installs the abstract root table 0x80411c88, initializes the tag word at +4 (kind 2, null pointer field) and clears the pair at +12, installs table 0x80411c10, sets a zero/one vector at +24, an opaque black color at +40, copies matrix 0x8045e708 into +48 and +112, then sets scale 1.0 and the counters, bytes and flag bits after +232."
+  }
+}

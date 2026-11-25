@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801f62d0",
+  "source": "source/matching/game/k5b/k5b_a_801f62d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_matrix3_rotate_rows12_801f62d0": "0x801f62d0"
+  },
+  "descriptions": {
+    "w3d_k5b_matrix3_rotate_rows12_801f62d0": "Appears to rotate rows 1 and 2 of a 3x3 float matrix by an angle, with 0x802e86d4 and 0x802e88ac giving the cosine and sine."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

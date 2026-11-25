@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_net_message_8021a768",
+  "source": "source/matching/game/d27k/d27k_net_message_8021a768.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_net_message_8021a768": "0x8021a768"
+  },
+  "descriptions": {
+    "w3d_d27k_net_message_8021a768": "Message handler: disconnect ids dispatch the flagged property and set forced/active; other ids call 0x8021b0a8 or 0x8021a704, post a message, send the serialized team to the looked-up service and reset the timers, or reset the connection, store state 16, set the shared flag and call the base handler."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k9a_taunt_name_set_80048110",
+  "source": "source/matching/game/k9a/k9a_taunt_name_set_80048110.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k9a_taunt_name_set_80048110": "0x80048110"},
+  "descriptions": {"w3d_k9a_taunt_name_set_80048110": "Appears to pick a Taunt name from the object index modulo 13, read it as a property and pass the text to the name setter."}
+}

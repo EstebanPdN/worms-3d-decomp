@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_mesh_layer_create_800f55e8",
+  "source": "source/matching/game/d27c/d27c_mesh_layer_create_800f55e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_mesh_layer_create_800f55e8": "0x800f55e8"
+  },
+  "descriptions": {
+    "d27c_mesh_layer_create_800f55e8": "Create an animation layer bound to a mesh's table at an index, with zeroed entries."
+  }
+}

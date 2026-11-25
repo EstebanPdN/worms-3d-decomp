@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_name_grid_destroy_800b9598",
+  "source": "source/matching/game/k8a/k8a_name_grid_destroy_800b9598.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_name_grid_destroy_800b9598": "0x800b9598"},
+  "descriptions": {"w3d_k8a_name_grid_destroy_800b9598": "Appears to destroy a grid object holding 768 name strings, 768 held interfaces, a storage block and several more held interfaces, then calls its base destructor."}
+}

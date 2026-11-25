@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_mode_transition_request_802b11d8",
+  "source": "source/matching/game/cx8b/cx8b_mode_transition_request_802b11d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_mode_transition_request_802b11d8": "0x802b11d8"
+  },
+  "descriptions": {
+    "w3d_cx8b_mode_transition_request_802b11d8": "Update pending/current-mode flags or invoke reset when the blocker is zero, preserving the loaded blocker across reset."
+  }
+}

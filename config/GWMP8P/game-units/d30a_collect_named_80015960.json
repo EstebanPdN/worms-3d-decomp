@@ -1,0 +1,11 @@
+{
+  "unit": "d30a_collect_named_80015960",
+  "source": "source/matching/game/d30a/d30a_collect_named_80015960.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_collect_named_80015960": "0x80015960"
+  },
+  "descriptions": {
+    "w3d_d30a_collect_named_80015960": "Collects into a new array every item of the global groups named by the key, returning null when none matches."
+  }
+}

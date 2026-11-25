@@ -1,0 +1,19 @@
+{
+  "unit": "r23c_tail_helpers",
+  "source": "source/matching/game/r23c_tail_helpers.cpp",
+  "language": "cpp",
+  "functions": {
+    "r23c_set_high_flag_80348e1c": "0x80348e1c",
+    "r23c_max_byte_80352828": "0x80352828",
+    "r23c_rgb_to_opaque_803563b8": "0x803563b8",
+    "r23c_expand_1555_8035642c": "0x8035642c",
+    "r23c_history_append_80358144": "0x80358144"
+  },
+  "descriptions": {
+    "r23c_set_high_flag_80348e1c": "Set bit 31 of the word at offset 48 from the low input bit and return zero.",
+    "r23c_max_byte_80352828": "Return the first unsigned maximum byte in a half-open range, or its start when empty.",
+    "r23c_rgb_to_opaque_803563b8": "Copy three byte channels and set the fourth channel to 255.",
+    "r23c_expand_1555_8035642c": "Expand three packed five-bit channels by shifting three bits and map the high bit to alpha zero or 255.",
+    "r23c_history_append_80358144": "Append two words to parallel 128-entry rings, increment the index, update the unsigned peak, and return zero."
+  }
+}

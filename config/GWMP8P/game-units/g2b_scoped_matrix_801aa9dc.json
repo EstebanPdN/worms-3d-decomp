@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_scoped_matrix_801aa9dc",
+  "source": "source/matching/game/g2b/g2b_scoped_matrix_801aa9dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_scoped_matrix_801aa9dc": "0x801aa9dc"
+  },
+  "descriptions": {
+    "g2b_scoped_matrix_801aa9dc": "Composes the external event affine48B transform with the current owner64B matrix through801f68c8 into a complete64B local matrix. For type80363a14, replaces the first three vector rows with the event diagonal and zero803aa0f8, preserving fourth components. Temporarily installs the matrix and increments revision, dispatches the current callback list until a negative status, restores the saved matrix and increments revision again. Returns negative status or zero. Complete local matrix footprint64 is independently witnessed by all four4-float output rows in801f68c8. Other receiver views remain partial and unconstructed. Names inferred; no owned data."
+  }
+}

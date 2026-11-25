@@ -1,0 +1,17 @@
+{
+  "unit": "d27h_jetpack_velocity_step_800aabbc",
+  "source": "source/matching/game/d27h/d27h_jetpack_velocity_step_800aabbc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27h_jetpack_velocity_step_800aabbc": "0x800aabbc"
+  },
+  "descriptions": {
+    "d27h_jetpack_velocity_step_800aabbc": "Jetpack velocity step: stores the velocity at +100, runs 0x800abd30, builds the up force from the setting at +192 and the gravity vector at 0x8045e788, rotates it through two axis matrices when thrusting or when the input is non-zero, scales the force from the time left against the fuel limit (over the ceiling it uses the setting at +204, otherwise a sine fade with 0x800ac03c or 0x800abfe0 and the boost at +160), applies the drag settings at +228 or +232 to x and z, adds the force and returns the velocity."
+  }
+}

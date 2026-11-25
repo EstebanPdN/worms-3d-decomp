@@ -1,0 +1,11 @@
+{
+  "unit": "d32a_crate_setup_80048a90",
+  "source": "source/matching/game/d32a/d32a_crate_setup_80048a90.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_crate_setup_80048a90": "0x80048a90"
+  },
+  "descriptions": {
+    "w3d_d32a_crate_setup_80048a90": "Initialises a crate object from its spawn record: model by kind, scale, position, light, optional parachute, spawn announcement and message handlers."
+  }
+}

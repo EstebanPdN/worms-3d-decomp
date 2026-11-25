@@ -1,0 +1,14 @@
+{
+  "unit": "d25l_panel_scroller_create_802b8430",
+  "source": "source/matching/game/d25l/d25l_panel_scroller_create_802b8430.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25l_panel_scroller_create_802b8430": "0x802b8430"
+  },
+  "descriptions": {
+    "d25l_panel_scroller_create_802b8430": "When the handle at +280 is set and no object exists at +284, creates one from the class record at 0x8041c850, stores it, registers it through 0x80164514, passes copies of the handles at +280 and +112 to 0x802bc098, sets its position from the data at +40 and the fields at +220 and +416, and its values from +32, +144, +188 and +136 of the data, sets +92 from 0x802b1880, selects the item at +296 and calls 0x802b879c. If the box at +288 exists it updates it from the new object's values. Finally sets the global at 0x804abb4c and the flag at +408 to 1."
+  }
+}

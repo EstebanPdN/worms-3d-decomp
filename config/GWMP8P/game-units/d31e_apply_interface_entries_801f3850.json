@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_apply_interface_entries_801f3850",
+  "source": "source/matching/game/d31e/d31e_apply_interface_entries_801f3850.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_apply_interface_entries_801f3850": "0x801f3850"
+  },
+  "descriptions": {
+    "w3d_d31e_apply_interface_entries_801f3850": "Walks the interfaces of kind 5 matching the type returned by 0x801fff3c for the object at +64 and, for each entry of an interface's null-terminated 16-byte table, finds the class index with 0x801e8f64; when found and the entry's mask is enabled in the global at 0x804b18dc, calls 0x801f3a00 with the index, the entry's second word and the code from the table at 0x803b0dbc. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

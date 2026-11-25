@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_pointer_reserve_8035db70",
+  "source": "source/matching/game/cx9c/cx9c_pointer_reserve_8035db70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_pointer_reserve_8035db70": "0x8035db70"
+  },
+  "descriptions": {
+    "w3d_cx9c_pointer_reserve_8035db70": "Reserve an inferred pointer vector while preserving original storage/copy calls."
+  }
+}

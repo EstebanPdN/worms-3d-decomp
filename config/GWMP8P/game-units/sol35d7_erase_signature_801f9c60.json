@@ -1,0 +1,12 @@
+{
+  "unit": "sol35d7_erase_signature_801f9c60",
+  "source": "source/matching/game/sol35d7/sol35d7_erase_signature_801f9c60.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_erase_signature_801f9c60": "0x801f9c60"
+  },
+  "description": "Find a native 24-byte registry entry by key and four-word signature, shift following complete entries down and decrement end; preserve the fifth signature metadata word in copies.",
+  "function_descriptions": {
+    "sol35d7_erase_signature_801f9c60": "Find a native 24-byte registry entry by key and four-word signature, shift following complete entries down and decrement end; preserve the fifth signature metadata word in copies."
+  }
+}

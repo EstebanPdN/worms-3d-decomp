@@ -1,0 +1,11 @@
+{
+  "unit": "d25e_convert_planes_801d8f98",
+  "source": "source/matching/game/d25e/d25e_convert_planes_801d8f98.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25e_convert_planes_801d8f98": "0x801d8f98"
+  },
+  "descriptions": {
+    "w3d_d25e_convert_planes_801d8f98": "Allocates a scratch word buffer of max(8192, width*height) entries in the global 0x804b0554 (freeing any old one), runs the two plane conversions 0x801d8e20 (full size) and 0x801d8cd4 (half size) with the row count rounded up to 64 and shifted by 6, frees and clears the scratch, returns 0."
+  }
+}

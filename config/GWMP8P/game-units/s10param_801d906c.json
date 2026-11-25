@@ -1,0 +1,21 @@
+{
+  "unit": "s10param_801d906c",
+  "source": "source/matching/game/generated/s10param_801d906c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s10_convert_pixels_801d906c": "0x801d906c",
+    "w3d_s10_convert_pixels_801d9150": "0x801d9150",
+    "w3d_s10_convert_pixels_801d9234": "0x801d9234",
+    "w3d_s10_convert_pixels_801d9318": "0x801d9318",
+    "w3d_s10_convert_pixels_801d93fc": "0x801d93fc",
+    "w3d_s10_convert_pixels_801d94e0": "0x801d94e0"
+  },
+  "descriptions": {
+    "w3d_s10_convert_pixels_801d906c": "Converts each pixel of an image between two observed formats through copied constant member-function pointers and the supplied row strides.",
+    "w3d_s10_convert_pixels_801d9150": "Converts each pixel of an image between two observed formats through copied constant member-function pointers and the supplied row strides.",
+    "w3d_s10_convert_pixels_801d9234": "Converts each pixel of an image between two observed formats through copied constant member-function pointers and the supplied row strides.",
+    "w3d_s10_convert_pixels_801d9318": "Converts each pixel of an image between two observed formats through copied constant member-function pointers and the supplied row strides.",
+    "w3d_s10_convert_pixels_801d93fc": "Converts each pixel of an image between two observed formats through copied constant member-function pointers and the supplied row strides.",
+    "w3d_s10_convert_pixels_801d94e0": "Converts each pixel of an image between two observed formats through copied constant member-function pointers and the supplied row strides."
+  }
+}

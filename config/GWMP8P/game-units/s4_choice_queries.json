@@ -1,0 +1,11 @@
+{
+  "unit": "s4_choice_queries",
+  "source": "source/matching/game/s4_choice_queries.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_choice_has_weapon": "0x802a7980"
+  },
+  "descriptions": {
+    "w3d_s4_choice_has_weapon": "Reports whether the selected index is within the weapon count."
+  }
+}

@@ -1,0 +1,1 @@
+{"unit":"tterra_a27_normalize","source":"source/matching/game/tterra_a27/tterra_a27_normalize.cpp","language":"cpp","functions":{"tterra_a27_normalize_8003eb1c":"0x8003eb1c"},"descriptions":{"tterra_a27_normalize_8003eb1c":"Call an interface, normalize a copied vector and conditionally pass it to a helper."}}

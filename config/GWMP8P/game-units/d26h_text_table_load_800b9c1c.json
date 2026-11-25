@@ -1,0 +1,15 @@
+{
+  "unit": "d26h_text_table_load_800b9c1c",
+  "source": "source/matching/game/d26h/d26h_text_table_load_800b9c1c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26h_text_table_load_800b9c1c": "0x800b9c1c"
+  },
+  "descriptions": {
+    "d26h_text_table_load_800b9c1c": "Opens the named file; on failure returns 0x80004005. Clears a 128 by 6 string table, then reads bytes: printable ones are appended to the current cell, control bytes consume one more byte and advance the column and row, copying cell 0 into empty cell 5. Closes the file and returns 0."
+  }
+}

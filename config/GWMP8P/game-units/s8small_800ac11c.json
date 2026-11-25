@@ -1,0 +1,11 @@
+{
+  "unit": "s8small_800ac11c",
+  "source": "source/matching/game/s8small_800ac11c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_set_member_property_800ac11c": "0x800ac11c"
+  },
+  "descriptions": {
+    "s8_set_member_property_800ac11c": "Resolves the held property at offset 128 and sets it from the supplied integer value."
+  }
+}

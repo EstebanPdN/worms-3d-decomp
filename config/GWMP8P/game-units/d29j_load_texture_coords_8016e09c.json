@@ -1,0 +1,14 @@
+{
+  "unit": "d29j_load_texture_coords_8016e09c",
+  "source": "source/matching/game/d29j/d29j_load_texture_coords_8016e09c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29j"
+  ],
+  "functions": {
+    "d29j_load_texture_coords_8016e09c": "0x8016e09c"
+  },
+  "descriptions": {
+    "d29j_load_texture_coords_8016e09c": "Load a texture into map 0 and set up its inverse-size coordinate matrix and generator."
+  }
+}

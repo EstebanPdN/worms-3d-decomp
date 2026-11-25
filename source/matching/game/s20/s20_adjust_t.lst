@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_adjust_t.c
+w3d_s20_apply_two_ranges_8016ab0c|0x8016ab0c|Appears to dispatch two item targets through the secondary base handler table and submit two float triples as render ranges, or run a fallback helper.

@@ -1,0 +1,19 @@
+{
+  "unit": "s1_damage_popup",
+  "source": "source/matching/game/s1_damage_popup.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004e964": "0x8004e964",
+    "w3d_fn_8004e9c8": "0x8004e9c8",
+    "w3d_fn_8004ea78": "0x8004ea78",
+    "w3d_fn_8004ec64": "0x8004ec64",
+    "w3d_fn_8004ee4c": "0x8004ee4c"
+  },
+  "descriptions": {
+    "w3d_fn_8004e964": "Initializes the damage popup after its base message handler succeeds.",
+    "w3d_fn_8004e9c8": "Updates damage popup text and position until its lifetime expires.",
+    "w3d_fn_8004ea78": "Applies the damage popup initial color and text.",
+    "w3d_fn_8004ec64": "Interpolates and formats the damage popup displayed amount.",
+    "w3d_fn_8004ee4c": "Initializes an impulse message and applies the double-damage setting."
+  }
+}

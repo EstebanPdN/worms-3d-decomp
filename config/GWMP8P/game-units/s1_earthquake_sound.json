@@ -1,0 +1,17 @@
+{
+  "unit": "s1_earthquake_sound",
+  "source": "source/matching/game/s1_earthquake_sound.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80062640": "0x80062640",
+    "w3d_fn_800627a4": "0x800627a4",
+    "w3d_fn_80062884": "0x80062884",
+    "w3d_fn_80062950": "0x80062950"
+  },
+  "descriptions": {
+    "w3d_fn_80062640": "Creates two quake loops, separates their pitch, sets their volume and positions, and starts playback.",
+    "w3d_fn_800627a4": "Raises quake-loop volume toward a limit and updates both loop positions.",
+    "w3d_fn_80062884": "Stops and releases both earthquake sound loops when the sound manager is present.",
+    "w3d_fn_80062950": "Positions the earthquake loops on opposite sides of the current camera."
+  }
+}

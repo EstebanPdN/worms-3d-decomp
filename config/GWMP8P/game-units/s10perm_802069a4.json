@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_802069a4",
+  "source": "source/matching/game/perm/s10perm_802069a4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802069a4": "0x802069a4"
+  },
+  "descriptions": {
+    "w3d_auto_802069a4": "Runs the observed initialization helper once behind the shared flag; subsequent calls return zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_application_main_8015ad40",
+  "source": "source/matching/game/d24d/d24d_application_main_8015ad40.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_application_main_8015ad40": "0x8015ad40"
+  },
+  "descriptions": {
+    "d24d_application_main_8015ad40": "Program entry: runs static construction, prints the heap break, installs a local argument object and stores argv without the program name, runs the application 0x801267f8, clears the installed object, shuts down, prints the heap break again, destroys the arguments and returns 0."
+  }
+}

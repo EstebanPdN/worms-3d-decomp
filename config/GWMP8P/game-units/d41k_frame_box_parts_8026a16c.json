@@ -1,0 +1,14 @@
+{
+  "unit": "d41k_frame_box_parts_8026a16c",
+  "source": "source/matching/game/d41k/d41k_frame_box_parts_8026a16c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41k_frame_box_parts_8026a16c": "0x8026a16c"
+  },
+  "descriptions": {
+    "w3d_d41k_frame_box_parts_8026a16c": "Frame box update: releases all parts for style 0; on first use loads eight corner and edge parts for the plain and highlight textures, sets anchors, positions and scales from the info size and colour; then shows the set selected by the focus flag and marks the box built."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

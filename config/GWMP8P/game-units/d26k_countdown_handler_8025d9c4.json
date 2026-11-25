@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_countdown_handler_8025d9c4",
+  "source": "source/matching/game/d26k/d26k_countdown_handler_8025d9c4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_countdown_handler_8025d9c4": "0x8025d9c4"
+  },
+  "descriptions": {
+    "w3d_d26k_countdown_handler_8025d9c4": "Handles ids 64/66, four cached trigger messages (start or restart the countdowns at +88, +100, +64, +76) and four cached stop messages (clear their active word); everything except id 64 then forwards to the base handler 0x8016293c."
+  }
+}

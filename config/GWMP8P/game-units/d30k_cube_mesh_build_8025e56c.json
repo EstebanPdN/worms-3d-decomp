@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_cube_mesh_build_8025e56c",
+  "source": "source/matching/game/d30k/d30k_cube_mesh_build_8025e56c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_cube_mesh_build_8025e56c": "0x8025e56c"
+  },
+  "descriptions": {
+    "w3d_d30k_cube_mesh_build_8025e56c": "Creates the skybox-style cube mesh objects, fills indices, texture coordinates and colours, and attaches them to the owner."
+  }
+}

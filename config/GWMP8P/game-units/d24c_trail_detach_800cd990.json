@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_trail_detach_800cd990",
+  "source": "source/matching/game/d24c/d24c_trail_detach_800cd990.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_trail_detach_800cd990": "0x800cd990"
+  },
+  "descriptions": {
+    "d24c_trail_detach_800cd990": "When handle +32 is not -1: look it up through 0x80164fc8, call 0x80122af8 when found, and set the handle to -1."
+  }
+}

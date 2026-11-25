@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_sinit_cloud_8003dc04",
+  "source": "source/matching/game/k2a/k2a_sinit_cloud_8003dc04.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_sinit_cloud_8003dc04": "0x8003dc04"
+  },
+  "descriptions": {
+    "k2a_sinit_cloud_8003dc04": "Appears to be a static initializer that constructs the cloud graphic entity type object and clears two three-word state vectors."
+  }
+}

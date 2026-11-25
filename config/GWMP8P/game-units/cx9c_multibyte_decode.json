@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_multibyte_decode",
+  "source": "source/matching/game/cx9c/cx9c_multibyte_decode.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_multibyte_decode_802edb28": "0x802edb28"
+  },
+  "descriptions": {
+    "w3d_cx9c_multibyte_decode_802edb28": "Decode one multibyte character using the reentrancy locale and original JIS state tables."
+  }
+}

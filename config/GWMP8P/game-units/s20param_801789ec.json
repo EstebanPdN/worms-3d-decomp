@@ -1,0 +1,11 @@
+{
+  "unit": "s20param_801789ec",
+  "source": "source/matching/game/generated/s20param_801789ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_assign_string_801789ec": "0x801789ec"
+  },
+  "descriptions": {
+    "w3d_s20_assign_string_801789ec": "Appears to copy a shared string argument, release the string held in a field of the inner object, store the copy there and destroy the temporary."
+  }
+}

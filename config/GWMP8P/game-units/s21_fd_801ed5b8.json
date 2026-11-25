@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fd_801ed5b8",
+  "source": "source/matching/game/s21/s21_fd_801ed5b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_set_bool_801ed5b8": "0x801ed5b8"
+  },
+  "descriptions": {
+    "w3d_s21_set_bool_801ed5b8": "Appears to convert a float to a boolean (at least the global threshold) and call a bound member-function pointer of the target object with it, returning the call's result."
+  }
+}

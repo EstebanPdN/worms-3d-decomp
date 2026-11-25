@@ -1,0 +1,11 @@
+{
+  "unit": "d30c_rope_start_800ce48c",
+  "source": "source/matching/game/d30c/d30c_rope_start_800ce48c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d30c_rope_start_800ce48c": "0x800ce48c"
+  },
+  "descriptions": {
+    "d30c_rope_start_800ce48c": "Ninja rope start-up: subscriptions, aim limits, created messages, retained settings, timer."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_scanset",
+  "source": "source/matching/game/cx7c/cx7c_scanset.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_scan_character_set_802ed50c": "0x802ed50c"
+  },
+  "descriptions": {
+    "w3d_cx7c_scan_character_set_802ed50c": "Builds a 256-byte scanf scanset with optional inversion, literal first character and character ranges; returns the format position after closing bracket or at terminating NUL."
+  }
+}

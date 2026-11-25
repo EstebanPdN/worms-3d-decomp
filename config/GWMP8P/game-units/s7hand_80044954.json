@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80044954",
+  "source": "source/matching/game/s7/s7hand_80044954.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80044954": "0x80044954"
+  },
+  "descriptions": {
+    "w3d_auto_80044954": "Resolves the HUD object held at +0x44 and, if nonnull, forwards the visibility argument to 0x8011afac; returns the resolved or updated result."
+  }
+}

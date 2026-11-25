@@ -1,0 +1,14 @@
+{
+  "unit": "d18c_sparkle_init_8012b870",
+  "source": "source/matching/game/d18c/d18c_sparkle_init_8012b870.cpp",
+  "language": "cpp",
+  "functions": {
+    "d18c_sparkle_init_8012b870": "0x8012b870"
+  },
+  "descriptions": {
+    "d18c_sparkle_init_8012b870": "Load the \"water sparkle\" mesh node into +28 and the water level setting into +72, show the node, allocate 10 elements, place it at the origin rotated a quarter turn about z, and give each element flag 0, a 30 x 30 size, opaque alpha and a start time up to 1023 ticks before the current engine tick."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

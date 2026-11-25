@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_remove_record_801f9c60",
+  "source": "source/matching/game/g2b/g2b_remove_record_801f9c60.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_remove_record_801f9c60": "0x801f9c60"
+  },
+  "descriptions": {
+    "g2b_remove_record_801f9c60": "Searches external contiguous24B records for matching leading ID and16B GUID, comparing GUID words in first/fourth/second/third order. For first match, shifts trailing records down one via complete native24B record copies, decrements end pointer and returns zero; returns80004005 if absent. No local external object construction, no data ownership, names inferred. Pointer-range ownership is external and no fixed array extent is declared."
+  }
+}

@@ -1,0 +1,115 @@
+#include "w3d_ptr.h"
+#line 1 "d15b_init_blender_800a9ee0.cpp"
+// Partial view of an actor-derived blender object initialized in place.
+// Offsets are observed from the original; names and roles are inferred.
+// The neutral vector and the 0.5/0.0 scalars are original data referenced by
+// address; no owned initialized data.
+struct d15b_Vec3 { float x, y, z; };
+struct d15b_Blender {
+    Ptr32<const void> vtable;
+    unsigned char unknown04[24];
+    unsigned int word1c;
+    unsigned int word20;
+    unsigned int word24;
+    unsigned int word28;
+    unsigned int word2c;
+    unsigned int word30;
+    unsigned int word34;
+    unsigned int word38;
+    unsigned int word3c;
+    unsigned int word40;
+    unsigned int word44;
+    unsigned int word48;
+    unsigned int word4c;
+    unsigned int word50;
+    unsigned int word54;
+    d15b_Vec3 position;
+    d15b_Vec3 velocity;
+    unsigned int word70;
+    unsigned int word74;
+    unsigned int word78;
+    unsigned int word7c;
+    unsigned int word80;
+    unsigned char unknown84[12];
+    unsigned int word90;
+    unsigned int word94;
+    float blend;
+    float target;
+    float rate;
+    unsigned int worda4;
+    unsigned int worda8;
+    int enabled;
+    unsigned int wordb0;
+    unsigned char unknownb4[4];
+    unsigned int wordb8;
+    unsigned int wordbc;
+    unsigned int wordc0;
+    unsigned int wordc4;
+    unsigned int wordc8;
+    unsigned int wordcc;
+    unsigned int wordd0;
+    unsigned int wordd4;
+    unsigned int wordd8;
+    unsigned int worddc;
+    unsigned int worde0;
+    unsigned int worde4;
+    unsigned int worde8;
+    unsigned int wordec;
+};
+extern "C" int w3d_actor_base_initialize(Ptr32<d15b_Blender>);
+extern Ptr32<const void> const w3d_vtable_8040f690[];
+extern const d15b_Vec3 w3d_neutral_vector_8045e788[];
+extern const float w3d_half_80381a1c[], w3d_zero_80381a20[];
+
+extern "C" Ptr32<d15b_Blender> d15b_init_blender_800a9ee0(Ptr32<d15b_Blender> self) {
+    w3d_actor_base_initialize(self);
+    self->vtable = w3d_vtable_8040f690;
+    self->word1c = 0;
+    self->word20 = 0;
+    self->word24 = 0;
+    self->word28 = 0;
+    self->word2c = 0;
+    self->word30 = 0;
+    self->word34 = 0;
+    self->word38 = 0;
+    self->word3c = 0;
+    self->word40 = 0;
+    self->word44 = 0;
+    self->word7c = 0;
+    self->word80 = 0;
+    self->wordb0 = 0;
+    self->wordb8 = 0;
+    self->wordbc = 0;
+    self->wordc0 = 0;
+    self->wordc4 = 0;
+    self->wordc8 = 0;
+    self->wordcc = 0;
+    self->wordd0 = 0;
+    self->wordd4 = 0;
+    self->wordd8 = 0;
+    self->worddc = 0;
+    self->worde0 = 0;
+    self->worde4 = 0;
+    self->worde8 = 0;
+    self->wordec = 0;
+    self->word48 = 0;
+    self->word54 = 0;
+    self->word50 = 0;
+    self->word4c = 0;
+    self->position = w3d_neutral_vector_8045e788[0];
+    self->velocity = w3d_neutral_vector_8045e788[0];
+    self->word70 = 0;
+    self->word78 = 0;
+    self->word90 = 0;
+    self->word94 = 0;
+    self->blend = w3d_half_80381a1c[0];
+    self->target = w3d_half_80381a1c[0];
+    self->rate = w3d_zero_80381a20[0];
+    self->enabled = 1;
+    self->worda4 = 0;
+    self->worda8 = 0;
+    self->word74 = 0;
+    return self;
+}
+
+

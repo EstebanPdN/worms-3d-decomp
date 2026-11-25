@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_null_stream_types_initialize_8020b278",
+  "source": "source/matching/game/cx15b/cx15b_null_stream_types_initialize_8020b278.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_null_stream_types_initialize_8020b278": "0x8020b278"
+  },
+  "descriptions": {
+    "w3d_cx15b_null_stream_types_initialize_8020b278": "Register ordinary and static null stream class descriptors at default initialization priority."
+  }
+}

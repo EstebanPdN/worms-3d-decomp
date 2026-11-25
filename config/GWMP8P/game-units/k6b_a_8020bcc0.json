@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8020bcc0",
+  "source": "source/matching/game/k6b/k6b_a_8020bcc0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_string_from_int_8020bcc0": "0x8020bcc0"
+  },
+  "descriptions": {
+    "w3d_k6b_string_from_int_8020bcc0": "Appears to construct a shared string from an integer formatted with 0x803b3168 through sprintf."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx9a_storage_push_global_8001634c",
+  "source": "source/matching/game/cx9a/cx9a_storage_push_global_8001634c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9a_storage_push_global_8001634c": "0x8001634c"
+  },
+  "descriptions": {
+    "w3d_cx9a_storage_push_global_8001634c": "Append incoming word to the global inferred raw-storage vector, growing its byte storage and preserving the original bytes."
+  }
+}

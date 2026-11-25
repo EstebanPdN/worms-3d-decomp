@@ -1,0 +1,11 @@
+{
+  "unit": "d16c_payload_attach_800e9b88",
+  "source": "source/matching/game/d16c/d16c_payload_attach_800e9b88.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16c_payload_attach_800e9b88": "0x800e9b88"
+  },
+  "descriptions": {
+    "d16c_payload_attach_800e9b88": "Resolve the owner's team, load the NULL resource into the primary (+200) and secondary (+204) handles, register both with the sink (+32) via virtual slot +92 using the team's values (+240, +408); if neither registration fails, create and retain the label service, attach it to the manager with the configured layer (result to +196), and initialise it with a copy of the team name (+412), the team code (+406), 0 and 1."
+  }
+}

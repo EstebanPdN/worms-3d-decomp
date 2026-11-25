@@ -1,0 +1,11 @@
+{
+  "unit": "s19_heap_800dc5bc",
+  "source": "source/matching/game/s19/s19_heap_800dc5bc.c",
+  "language": "c",
+  "functions": {
+    "s19_heap_try_allocate_800dc5bc": "0x800dc5bc"
+  },
+  "descriptions": {
+    "s19_heap_try_allocate_800dc5bc": "Appears to allocate the requested size from the global heap when it does not exceed the heap limit, otherwise return zero."
+  }
+}

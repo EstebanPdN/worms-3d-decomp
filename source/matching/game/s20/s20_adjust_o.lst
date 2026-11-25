@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_adjust_o.c
+w3d_s20_dispatch_item_fields_8016b488|0x8016b488|Appears to clear two counters of the secondary base subobject and dispatch five item targets through its handler table, storing a null target at offset 124.

@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_panel_set_enabled_802b0990",
+  "source": "source/matching/game/d27l/d27l_panel_set_enabled_802b0990.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_panel_set_enabled_802b0990": "0x802b0990"
+  },
+  "descriptions": {
+    "d27l_panel_set_enabled_802b0990": "Enables or disables a panel, updating its bound property, its parts and its optional clip."
+  }
+}

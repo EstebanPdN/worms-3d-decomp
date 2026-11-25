@@ -1,0 +1,11 @@
+{
+  "unit": "cc27a_planner_airstrike_direction_800219b8",
+  "source": "source/matching/game/cc27a/cc27a_planner_airstrike_direction_800219b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc27a_planner_airstrike_direction_800219b8": "0x800219b8"
+  },
+  "descriptions": {
+    "cc27a_planner_airstrike_direction_800219b8": "Flatten and normalize airstrike direction with original zero-vector fallback, preserve native vector copy and write three original direction/up properties before state1."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_reset_batches_801a966c",
+  "source": "source/matching/game/d28e/d28e_reset_batches_801a966c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_reset_batches_801a966c": "0x801a966c"
+  },
+  "descriptions": {
+    "w3d_d28e_reset_batches_801a966c": "Reset a batch collector: creates its service on first use through the named factory at 0x80414ae0 and flags it, rewinds the two cursors at +180 and +204, clears the vectors at +240, +252 and +268, clears the block at +232, pushes the service as the first entry of the +268 vector, clears the mark at +280 and every element vector of the list at +288, and zeroes the two counters. Returns 0."
+  }
+}

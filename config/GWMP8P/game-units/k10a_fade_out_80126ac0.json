@@ -1,0 +1,14 @@
+{
+  "unit": "k10a_fade_out_80126ac0",
+  "source": "source/matching/game/k10a/k10a_fade_out_80126ac0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_fade_out_80126ac0": "0x80126ac0"
+  },
+  "descriptions": {
+    "w3d_k10a_fade_out_80126ac0": "Appears to play a forty-step gray fade on an object's two linked visuals, then mark it finished and release both visuals."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

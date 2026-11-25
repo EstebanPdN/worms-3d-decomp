@@ -1,0 +1,19 @@
+{
+  "unit": "d41x_scene_node_ctor_8015db40",
+  "source": "source/matching/game/d41x/d41x_scene_node_ctor_8015db40.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__12Top_80411248": "0x8015db40"
+  },
+  "descriptions": {
+    "__12Top_80411248": "Constructs a three-level scene object: tagged link and zeroed pair in the root node, then a real STLport vector at 24, the 0x802109dc member at 72 and zeroed fields; the middle level stores the retained entry made from descriptor 0x80412790 and sets its flag word; the top level replaces it with a new entry and sets another flag word. Names are inferred."
+  }
+}

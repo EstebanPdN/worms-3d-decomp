@@ -1,0 +1,15 @@
+{
+  "unit": "d30i_barracks_team_name_list_fill_80114594",
+  "source": "source/matching/game/d30i/d30i_barracks_team_name_list_fill_80114594.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30i_barracks_team_name_list_fill_80114594": "0x80114594"
+  },
+  "descriptions": {
+    "d30i_barracks_team_name_list_fill_80114594": "Fills a team list from DATA.TeamBarracks with the name of each unlocked team."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d31e_stream_read_done_801e4a4c",
+  "source": "source/matching/game/d31e/d31e_stream_read_done_801e4a4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_stream_read_done_801e4a4c": "0x801e4a4c"
+  },
+  "descriptions": {
+    "w3d_d31e_stream_read_done_801e4a4c": "Disc read completion callback for a stream slot, found in the 128-byte table 0x8045d930 by its file handle at +24. Clears +120; if the slot was closing, closes the file and resets state. If the read failed, stops the stream if playing, closes the file, resets state and unlinks the neighbours. Otherwise, in state 2 starts linked slots at +8 and +12 once ready and then itself, unlinking on success; in state 4 refills the stream at offset 0 or half according to +108. Names are inferred."
+  }
+}

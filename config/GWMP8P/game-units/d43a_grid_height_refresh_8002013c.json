@@ -1,0 +1,11 @@
+{
+  "unit": "d43a_grid_height_refresh_8002013c",
+  "source": "source/matching/game/d43a/d43a_grid_height_refresh_8002013c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43a_grid_height_refresh_8002013c": "0x8002013c"
+  },
+  "descriptions": {
+    "w3d_d43a_grid_height_refresh_8002013c": "Reads the grid height from its value object; if it changed, walks every layer's cells and raises low and high table entries to the height, marking raised cells in the blocked table, then records the height."
+  }
+}

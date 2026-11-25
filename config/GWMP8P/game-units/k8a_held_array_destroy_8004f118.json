@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_held_array_destroy_8004f118",
+  "source": "source/matching/game/k8a/k8a_held_array_destroy_8004f118.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_held_array_destroy_8004f118": "0x8004f118"},
+  "descriptions": {"w3d_k8a_held_array_destroy_8004f118": "Appears to destroy an object holding nine interfaces in an array plus one more, then calls its base destructor."}
+}

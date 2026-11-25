@@ -1,0 +1,14 @@
+--- a/port/core/game/d25f/d25f_panel_visibility_8028c160.cpp
++++ b/port/core/game/d25f/d25f_panel_visibility_8028c160.cpp
+@@ -14,9 +14,9 @@
+ extern "C" int w3d_mesh_set_colour_80173df0(Ptr32<void> mesh, Ptr32<D25fColour> colour);
+ struct D25fPanel {
+     char pad0[140];
+-    bool enabled;
++    bool enabled; char w3d_tag_rest141[3];
+     char pad144[32];
+-    bool selected;
++    bool selected; char w3d_tag_rest177[3];
+     char pad180[32];
+     Ptr32<D25fWidget> widget_a; Ptr32<D25fWidget> widget_b; Ptr32<D25fWidget> widget_c;
+     Ptr32<void> mesh;

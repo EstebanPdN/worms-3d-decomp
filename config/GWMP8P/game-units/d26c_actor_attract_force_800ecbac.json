@@ -1,0 +1,14 @@
+{
+  "unit": "d26c_actor_attract_force_800ecbac",
+  "source": "source/matching/game/d26c/d26c_actor_attract_force_800ecbac.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26c_actor_attract_force_800ecbac": "0x800ecbac"
+  },
+  "descriptions": {
+    "d26c_actor_attract_force_800ecbac": "Read the descriptor (unused), zero out, take the distance from target to the motion point (0x800668b8); inside the limit (0x800668dc) compute (limit - distance) * rate (0x800668fc) / limit, then set out to the normalized vector from the motion point to the actor position at +36 times that factor."
+  }
+}

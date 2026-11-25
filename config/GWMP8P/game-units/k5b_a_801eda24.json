@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801eda24",
+  "source": "source/matching/game/k5b/k5b_a_801eda24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_binding_store_unsigned_801eda24": "0x801eda24"
+  },
+  "descriptions": {
+    "w3d_k5b_binding_store_unsigned_801eda24": "Appears to convert a float value to an unsigned integer and pass it to the binding's member-function setter at +20 on the object."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

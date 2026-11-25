@@ -1,0 +1,11 @@
+{
+  "unit": "d15d_publish_actor_record_80152730",
+  "source": "source/matching/game/d15d/d15d_publish_actor_record_80152730.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15d_actor_publish_record_80152730": "0x80152730"
+  },
+  "descriptions": {
+    "d15d_actor_publish_record_80152730": "When more than 500 time units have passed since the actor's record time, post the cached message (0x804afdfc, kind 1), copy-construct a local copy of the actor's 184-byte record at +352, set the publication flag 0x804aaae8, assign the copy to the global record 0x8042ff68 (keeping its virtual table word) and destroy the copy, reset the actor's construction words and post a type-5 message (0x80131b50). Partial observed layouts; no owned initialized data."
+  }
+}

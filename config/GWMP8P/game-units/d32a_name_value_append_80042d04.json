@@ -1,0 +1,16 @@
+{
+  "unit": "d32a_name_value_append_80042d04",
+  "source": "source/matching/game/d32a/d32a_name_value_append_80042d04.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_name_value_append_80042d04": "0x80042d04"
+  },
+  "descriptions": {
+    "w3d_d32a_name_value_append_80042d04": "Adds a name and a value to two parallel vectors, using a global default when the value is zero."
+  },
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ]
+}

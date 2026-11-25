@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_z35_grid",
+  "source": "source/matching/game/tterra_z35/tterra_z35_grid.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_z35_grid_8001e07c": "0x8001e07c"
+  },
+  "descriptions": {
+    "tterra_z35_grid_8001e07c": "Experimental reconstruction of observed grid operation; prefix views and externs remain provisional."
+  }
+}

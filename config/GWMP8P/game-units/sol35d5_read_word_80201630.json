@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d5_read_word_80201630",
+  "source": "source/matching/game/sol35d5/sol35d5_read_word_80201630.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d5_read_word_80201630": "0x80201630"
+  },
+  "descriptions": {
+    "sol35d5_read_word_80201630": "Recover native word stream conversion from original operands; names and ABI views remain inferred."
+  }
+}

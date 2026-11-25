@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_80226150",
+  "source": "source/matching/game/k4b/k4b_a_80226150.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_slider_construct_80226150": "0x80226150"
+  },
+  "descriptions": {
+    "w3d_k4b_slider_construct_80226150": "Appears to construct a slider-like object over 0x801ea0ec: two retained shared interfaces, mode 3, range 0 to 100, empty label string and zero value."
+  }
+}

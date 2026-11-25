@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_small_ad.c
+w3d_s20_apply_if_enabled_8016b384|0x8016b384|Appears to run two helpers on three objects when the enable field at offset 188 of the third is set.

@@ -1,0 +1,10 @@
+--- a/port/core/game/sol35e/sol35e_wormpot_mode_802aa214.cpp
++++ b/port/core/game/sol35e/sol35e_wormpot_mode_802aa214.cpp
+@@ -17,4 +17,5 @@
+ struct sol35e_W3dPotPayload {
+-    unsigned char unknown00[11];        // +0x00
+-    unsigned char flags;                // +0x0b
++    unsigned char unknown00[8];         // +0x00
++    unsigned char flags;                // PPC +0x0b, anfitrión +8
++    unsigned char w3d_tag_rest[3];
+     unsigned char unknown0c[0x90];      // +0x0c..+0x9c

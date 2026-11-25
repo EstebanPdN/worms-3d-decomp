@@ -1,0 +1,156 @@
+#include "w3d_ptr.h"
+#line 1 "e_containers.cpp"
+/* Small runtime helpers and pointer-vector teardown loops (0x80341260..0x80341584).
+ *
+ * Names are inferred from behavior; no original symbols survive. Callees
+ * outside this unit stay external and are bound to their original addresses
+ * by the reference linker. The pointer vectors are {begin, end, capacity}
+ * triples; every clear loop pops from the end until end == begin.
+ * The character class table at 0x803db449 has bit 0 set for upper case.
+ */
+extern "C" {
+
+typedef struct W3dPointerVector {
+    Ptr32<Ptr32<void>> begin;
+    Ptr32<Ptr32<void>> end;
+    Ptr32<Ptr32<void>> capacity;
+} W3dPointerVector;
+
+typedef struct W3dVirtualObject W3dVirtualObject;
+
+typedef struct W3dVirtualTable {
+    Ptr32<void> unknown_00[2];
+    Ptr32<void (Ptr32<W3dVirtualObject>, int)> destroy_08;
+    Ptr32<void (Ptr32<W3dVirtualObject>, int)> destroy_0c;
+} W3dVirtualTable;
+
+typedef struct W3dVirtualAt16 {
+    unsigned char unknown_00[0x10];
+    Ptr32<W3dVirtualTable> vtable;
+} W3dVirtualAt16;
+
+typedef struct W3dVirtualAt12 {
+    unsigned char unknown_00[0x0c];
+    Ptr32<W3dVirtualTable> vtable;
+} W3dVirtualAt12;
+
+typedef struct W3dNamedEntry {
+    unsigned char unknown_00[4];
+    unsigned char name[4];
+} W3dNamedEntry;
+
+typedef struct W3dRangeLimits {
+    unsigned char unknown_00[2];
+    short first;
+    short second;
+    unsigned char unknown_06;
+    unsigned char flag;
+    short limit_08;
+    short limit_0a;
+    short limit_0c;
+    unsigned char unknown_0e[2];
+    int value;
+} W3dRangeLimits;
+
+typedef struct W3dServiceHolder {
+    unsigned char unknown_00[8];
+    Ptr32<void> service;
+} W3dServiceHolder;
+
+extern const unsigned char w3d_char_class_803db449[];
+extern Ptr32<W3dServiceHolder> w3d_service_holder_804ac570;
+
+Ptr32<void> w3d_service_request_802f06c8(Ptr32<void> service, Ptr32<void> first, int second);
+void w3d_actor_member_delete_backend(Ptr32<void> object);
+void w3d_string_base_finish(Ptr32<void> string);
+void w3d_string_release(Ptr32<void> string);
+void w3d_operator_delete_80015264(Ptr32<void> object);
+
+int w3d_char_to_lower(int c)
+{
+    if ((c + w3d_char_class_803db449)[0] & 1)
+        return c + 32;
+    return c;
+}
+
+void w3d_service_request_8034127c(int first, int second)
+{
+    w3d_service_request_802f06c8(w3d_service_holder_804ac570->service, (Ptr32<void>)w3d::G(first), second);
+}
+
+void w3d_empty_80341348(void)
+{
+}
+
+void w3d_vector_clear_8034134c(Ptr32<W3dPointerVector> vector)
+{
+    while (vector->begin != vector->end) {
+        Ptr32<Ptr32<void>> end = vector->end;
+        Ptr32<void> object = *--end;
+        vector->end = end;
+        w3d_actor_member_delete_backend(object);
+    }
+}
+
+void w3d_range_limits_reset(Ptr32<W3dRangeLimits> limits)
+{
+    limits->value = 0;
+    limits->second = -1;
+    limits->first = -1;
+    limits->limit_0c = 0x7fff;
+    limits->limit_0a = 0x7fff;
+    limits->limit_08 = 0x7fff;
+    limits->flag = 0;
+}
+
+void w3d_empty_80341448(void)
+{
+}
+
+void w3d_empty_8034144c(void)
+{
+}
+
+void w3d_vector_destroy_virtual16(Ptr32<W3dPointerVector> vector)
+{
+    while (vector->begin != vector->end) {
+        Ptr32<Ptr32<void>> end = vector->end;
+        Ptr32<W3dVirtualAt16> object = (Ptr32<W3dVirtualAt16>)*--end;
+        vector->end = end;
+        if (object)
+            object->vtable->destroy_08((Ptr32<W3dVirtualObject>)object, 3);
+    }
+}
+
+void w3d_vector_destroy_virtual12(Ptr32<W3dPointerVector> vector)
+{
+    while (vector->begin != vector->end) {
+        Ptr32<Ptr32<void>> end = vector->end;
+        Ptr32<W3dVirtualAt12> object = (Ptr32<W3dVirtualAt12>)*--end;
+        vector->end = end;
+        if (object)
+            object->vtable->destroy_0c((Ptr32<W3dVirtualObject>)object, 3);
+    }
+}
+
+void w3d_vector_destroy_named(Ptr32<W3dPointerVector> vector)
+{
+    while (vector->begin != vector->end) {
+        Ptr32<Ptr32<void>> end = vector->end;
+        Ptr32<W3dNamedEntry> entry = (Ptr32<W3dNamedEntry>)*--end;
+        vector->end = end;
+        if (entry) {
+            w3d_string_base_finish(entry->name);
+            w3d_string_release(entry->name);
+            w3d_operator_delete_80015264(entry);
+        }
+    }
+}
+
+void w3d_empty_80341584(void)
+{
+}
+
+}
+
+

@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801edab8",
+  "source": "source/matching/game/k5b/k5b_a_801edab8.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_shared_defaults_create_801edab8": "0x801edab8"
+  },
+  "descriptions": {
+    "w3d_k5b_shared_defaults_create_801edab8": "Appears to allocate and construct the four shared default objects at 0x804b05a8..0x804b05b4 (three with derived vtables) and retain each once."
+  }
+}

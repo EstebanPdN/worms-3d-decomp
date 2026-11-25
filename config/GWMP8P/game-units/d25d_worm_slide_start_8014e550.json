@@ -1,0 +1,17 @@
+{
+  "unit": "d25d_worm_slide_start_8014e550",
+  "source": "source/matching/game/d25d/d25d_worm_slide_start_8014e550.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25d_worm_slide_start_8014e550": "0x8014e550"
+  },
+  "descriptions": {
+    "d25d_worm_slide_start_8014e550": "Start a worm slide: random horizontal push, state 9, debug trace for two classes."
+  }
+}

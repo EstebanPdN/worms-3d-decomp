@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801edf88",
+  "source": "source/matching/game/k5b/k5b_a_801edf88.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_component_set_has_class_801edf88": "0x801edf88"
+  },
+  "descriptions": {
+    "w3d_k5b_component_set_has_class_801edf88": "Appears to return 1 when any component in the inline array at +32 reports a class (virtual slot 5) derived from the given class, else 0."
+  }
+}

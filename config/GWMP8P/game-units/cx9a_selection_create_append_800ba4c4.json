@@ -1,0 +1,11 @@
+{
+  "unit": "cx9a_selection_create_append_800ba4c4",
+  "source": "source/matching/game/cx9a/cx9a_selection_create_append_800ba4c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9a_selection_create_append_800ba4c4": "0x800ba4c4"
+  },
+  "descriptions": {
+    "w3d_cx9a_selection_create_append_800ba4c4": "Allocate a 0x14-byte selection from the small-data pool, initialize it, assign the looked-up key and append its address through owner storage +0x34."
+  }
+}

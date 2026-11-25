@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fe_801ed3f8",
+  "source": "source/matching/game/s21/s21_fe_801ed3f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_write_value_801ed3f8": "0x801ed3f8"
+  },
+  "descriptions": {
+    "w3d_s21_write_value_801ed3f8": "Appears to read a value through a bound member-function pointer on the target and write it to a stream through virtual slot 8 together with the binding's first word."
+  }
+}

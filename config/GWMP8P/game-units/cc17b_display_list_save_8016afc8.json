@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_display_list_save_8016afc8",
+  "source": "source/matching/game/cc17b/cc17b_display_list_save_8016afc8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_display_list_save_8016afc8": "0x8016afc8"
+  },
+  "descriptions": {
+    "w3d_cc17b_display_list_save_8016afc8": "Ends the original GX display list, stores its emitted count, and when within prior capacity allocates that count, copies the emitted bytes and flushes the replacement storage. Zero prior capacity only closes the display list."
+  }
+}

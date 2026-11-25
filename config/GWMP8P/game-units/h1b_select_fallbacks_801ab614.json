@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_select_fallbacks_801ab614",
+  "source": "source/matching/game/h1b/h1b_select_fallbacks_801ab614.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_select_fallbacks_801ab614": "0x801ab614"
+  },
+  "descriptions": {
+    "h1b_select_fallbacks_801ab614": "For11 rows of the original27-byte fallback table at803aa2b0, selects the primary if present in the available-word list, otherwise scans alternatives until match or sentinel26. Writes selection to receiver+124 indexed by primary. External mapping bound26 follows table category IDs; source uses no local runtime arrays or owned data."
+  }
+}

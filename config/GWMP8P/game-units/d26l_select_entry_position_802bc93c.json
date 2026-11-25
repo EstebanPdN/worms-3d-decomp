@@ -1,0 +1,14 @@
+{
+  "unit": "d26l_select_entry_position_802bc93c",
+  "source": "source/matching/game/d26l/d26l_select_entry_position_802bc93c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26l_select_entry_position_802bc93c": "0x802bc93c"
+  },
+  "descriptions": {
+    "d26l_select_entry_position_802bc93c": "Walks the entry vector at +56..+60 for the entry whose id (0x802bd2bc) is the index. With non-zero +60 the index itself is the position. With non-zero +64 and +48 greater than +76 the position is index + 1 - (+48 * 2) / (+76 * 2). Otherwise reads the current ratio (0x802bc778) and bound (0x802bc71c), scrolls by bound - ratio if ratio is within the bound and above bound minus +68, and returns +68. For no such entry, an index below +68 stays, else the same formula. Each path calls 0x802bc790 only if animate is non-zero, and returns the position. -mps-float: the unflagged build differs by the frame gap of four saved FPRs (and the resulting shift) only."
+  }
+}

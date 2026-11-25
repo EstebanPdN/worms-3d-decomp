@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_entries_dtor_801aeb28",
+  "source": "source/matching/game/k8b/k8b_entries_dtor_801aeb28.c",
+  "language": "c",
+  "functions": {"w3d_k8b_entries_dtor_801aeb28": "0x801aeb28"},
+  "descriptions": {"w3d_k8b_entries_dtor_801aeb28": "Appears to run a deleting destructor that releases each entry through a function pointer, finishes the entry names, frees the vector storage and destroys the actor node."}
+}

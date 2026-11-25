@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_small_af.c
+w3d_s20_describe_fields_80190538|0x80190538|Appears to pass two field addresses with constant strings to virtual methods 37 and 28 of the sink object and return zero.

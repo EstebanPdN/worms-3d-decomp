@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_sound_sample_create_801dd4f4",
+  "source": "source/matching/game/cx12b/cx12b_sound_sample_create_801dd4f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_sound_sample_create_801dd4f4": "0x801dd4f4"
+  },
+  "descriptions": {
+    "w3d_cx12b_sound_sample_create_801dd4f4": "Create the original sample service, apply observed parameters and append its retained reference, returning the original failure code on rejection."
+  }
+}

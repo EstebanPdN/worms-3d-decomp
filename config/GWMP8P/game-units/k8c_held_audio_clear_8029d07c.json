@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_held_audio_clear_8029d07c",
+  "source": "source/matching/game/k8c/k8c_held_audio_clear_8029d07c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8c_held_audio_clear_8029d07c": "0x8029d07c"
+  },
+  "descriptions": {
+    "w3d_k8c_held_audio_clear_8029d07c": "Stop and release interface +124, clear it, and invoke original audio service mode helper."
+  }
+}

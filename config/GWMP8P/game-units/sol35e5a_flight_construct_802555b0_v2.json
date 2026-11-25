@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e5a_flight_construct_802555b0_v2",
+  "source": "source/matching/game/sol35e5a/sol35e5a_flight_construct_802555b0_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e5a_flight_construct_802555b0_v2": "0x802555b0"
+  },
+  "descriptions": {
+    "sol35e5a_flight_construct_802555b0_v2": "Constructs the observed base, installs the derived interface table, copy-constructs seven shared-string subobjects from the shared empty value, and initializes the observed scalar fields. Complete class identity remains inferred."
+  }
+}

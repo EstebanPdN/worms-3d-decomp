@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_jetpack_update_8014d7c8",
+  "source": "source/matching/game/d24d/d24d_jetpack_update_8014d7c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_jetpack_update_8014d7c8": "0x8014d7c8"
+  },
+  "descriptions": {
+    "d24d_jetpack_update_8014d7c8": "Updates a worm's jetpack at +784: computes the stop flag from +716, +1152, +1204 and +824 and reports it (0x800ac14c); updates the offset (+572) and velocity (+676) through 0x800aa628 and 0x800aabbc, creates the Worm Jetpack Active slot when needed, and places the jetpack 22 above the worm (0x800abbb4)."
+  }
+}

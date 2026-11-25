@@ -1,0 +1,14 @@
+{
+  "unit": "d40n_evict_animation_slot_v2_801984fc",
+  "source": "source/matching/game/d40n/d40n_evict_animation_slot_v2_801984fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40n_evict_animation_slot_v2_801984fc": "0x801984fc"
+  },
+  "descriptions": {
+    "w3d_d40n_evict_animation_slot_v2_801984fc": "Frees cached animation slots until the heap has room for a request: chooses a free or least recently used slot, clears its records and flags, retries up to 80 times, and returns the last slot chosen."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

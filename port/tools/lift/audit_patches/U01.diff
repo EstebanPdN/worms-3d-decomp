@@ -1,0 +1,11 @@
+--- a/port/core/game/s20/s20_leaf_n.cpp
++++ b/port/core/game/s20/s20_leaf_n.cpp
+@@ -12,7 +12,7 @@
+     if (value == self->low)
+         return 0;
+     self->low = value;
+-    return ((S20Call0)self->vtable[39])(self);
++    return ((Ptr32<int (Ptr32<void>, int)>)self->vtable[39])(self, value);  /* el PPC deja r4 intacto: 0x8017b15c lo recibe */
+ }
+ 
+ int w3d_s20_set_matrix_80186614(Ptr32<char> self, Ptr32<S20Mat4> value) {

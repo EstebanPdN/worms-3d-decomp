@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_aim_start_800a8b38",
+  "source": "source/matching/game/d24h/d24h_aim_start_800a8b38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_aim_start_800a8b38": "0x800a8b38"
+  },
+  "descriptions": {
+    "w3d_d24h_aim_start_800a8b38": "Airstrike AI start: reads AIStrike.TargetPoint, AIStrike.Direction and AIStrike.SeekTarget. When seeking, sets speed +76 to pi / 2, the goal +96 to the target point, the up vector +28 to (0, 1, 0) and the yaw +80 from the direction (0x802e7e5c), runs 0x800a93fc, and when the squared distance from +16 to the target is below 10 writes Airstrike.TargetPoint, Payload.Target, Airstrike.Direction, Airstrike.HasTarget = 1, Airstrike.WaterTarget = 0 and AIStrike.SeekTarget = 0, then posts a 12-byte message of kind 13."
+  }
+}

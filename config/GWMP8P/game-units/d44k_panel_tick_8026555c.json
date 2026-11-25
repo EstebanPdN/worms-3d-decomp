@@ -1,0 +1,15 @@
+{
+  "unit": "d44k_panel_tick_8026555c",
+  "source": "source/matching/game/d44k/d44k_panel_tick_8026555c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d44k_panel_tick_8026555c": "0x8026555c"
+  },
+  "descriptions": {
+    "w3d_d44k_panel_tick_8026555c": "Advances a panel in 20 ms steps (at most 100 ms of backlog): animates six bar columns, runs two arrow widgets' size and alpha tweens, then two transform tweens."
+  },
+  "extra_flags": [
+    "-mps-float",
+    "-mfast-cast"
+  ]
+}

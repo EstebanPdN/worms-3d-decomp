@@ -1,0 +1,6 @@
+c source/matching/game/s20/s20_leaf_n.c
+w3d_s20_set_low_bit_801865c0|0x801865c0|Appears to set the lowest flag bit and notify through virtual method 39, returning zero when the bit already had the requested value.
+w3d_s20_set_matrix_80186614|0x80186614|Appears to copy a 48-byte matrix into the object at offset 56 and return zero.
+w3d_s20_set_vectors_8018993c|0x8018993c|Appears to copy two three-float vectors into the inner object at offsets 120 and 108 and return zero.
+w3d_s20_find_record_8019a2a8|0x8019a2a8|Appears to search two vectors of 24-byte records for a 16-bit key at offset 18 and return the record or null.
+w3d_s20_count_active_entries_8018a800|0x8018a800|Appears to count, per slot index, the global entries of 276 bytes whose flag word has any bit above bit 0 set.

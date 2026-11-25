@@ -1,0 +1,11 @@
+{
+  "unit": "s21_y_80204174",
+  "source": "source/matching/game/s21/s21_y_80204174.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_u64_80204174": "0x80204174"
+  },
+  "descriptions": {
+    "w3d_s21_write_u64_80204174": "Appears to write an eight-byte value from an unaligned argument pair into a stack temporary and pass it to a write helper."
+  }
+}

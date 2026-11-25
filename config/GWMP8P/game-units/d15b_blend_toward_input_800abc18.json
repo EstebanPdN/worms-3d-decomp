@@ -1,0 +1,11 @@
+{
+  "unit": "d15b_blend_toward_input_800abc18",
+  "source": "source/matching/game/d15b/d15b_blend_toward_input_800abc18.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_blend_toward_input_800abc18": "0x800abc18"
+  },
+  "descriptions": {
+    "d15b_blend_toward_input_800abc18": "Clamp an input to plus or minus the controller range scalar, map it to (input / range + 1) * 0.5, move the blend value toward that target by the rate scalar and clamp the blend to [0, 1], using const-reference min/max selections. Scalars read through the original accessor; float constants referenced by address; partial layout; no owned initialized data."
+  }
+}

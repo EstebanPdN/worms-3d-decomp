@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_names_toggle_800c4b00",
+  "source": "source/matching/game/d24h/d24h_names_toggle_800c4b00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_names_toggle_800c4b00": "0x800c4b00"
+  },
+  "descriptions": {
+    "w3d_d24h_names_toggle_800c4b00": "Name list toggle for the 33-byte list at +4: copies the name into a zero-digit record, scans the list, and once a record equals the name (0x802ef234) erases every record after the match; when no record matched, appends the new record, growing the list as in 0x800c47f8. Returns 0."
+  }
+}

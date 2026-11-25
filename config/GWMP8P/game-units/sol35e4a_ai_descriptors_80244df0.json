@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e4a_ai_descriptors_80244df0",
+  "source": "source/matching/game/sol35e4a/sol35e4a_ai_descriptors_80244df0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e4a_ai_descriptors_80244df0": "0x80244df0"
+  },
+  "descriptions": {
+    "sol35e4a_ai_descriptors_80244df0": "Registers 120 observed AI weighting and preference descriptors, assigns the shared empty string to three returned string bindings through retaining temporaries, and finalizes the descriptor owner."
+  }
+}

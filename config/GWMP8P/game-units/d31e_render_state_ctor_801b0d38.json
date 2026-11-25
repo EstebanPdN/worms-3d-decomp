@@ -1,0 +1,19 @@
+{
+  "unit": "d31e_render_state_ctor_801b0d38",
+  "source": "source/matching/game/d31e/d31e_render_state_ctor_801b0d38.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "__6Render": "0x801b0d38"
+  },
+  "descriptions": {
+    "__6Render": "Constructs a render state holder: base table 0x804136c0 with tag at +4, final table 0x80414220. Takes the shared state store through 0x8020b648 slot 21 (class record 0x804143e0), creates a rasterizer state (values 6 and 7), a material-like state at +60 (1, 0.5, 4) and a depth state at +52 (0), each deduplicated through the store's share slot, and a further service object at +56. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d29f_border_setup_80295268",
+  "source": "source/matching/game/d29f/d29f_border_setup_80295268.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29f_border_setup_80295268": "0x80295268"
+  },
+  "descriptions": {
+    "d29f_border_setup_80295268": "Frontend box border setup: builds the border node and reads its thickness."
+  }
+}

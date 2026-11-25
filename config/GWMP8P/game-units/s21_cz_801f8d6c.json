@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cz_801f8d6c",
+  "source": "source/matching/game/s21/s21_cz_801f8d6c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_find_by_name_801f8d6c": "0x801f8d6c"
+  },
+  "descriptions": {
+    "w3d_s21_find_by_name_801f8d6c": "Appears to find an entry by name in the object's array of 64-byte records, comparing the name with the record's leading text, and return the record or zero."
+  }
+}

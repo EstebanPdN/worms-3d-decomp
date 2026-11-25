@@ -1,0 +1,11 @@
+{
+  "unit": "s11returns_802a7998",
+  "source": "source/matching/game/s11_auto/s11returns_802a7998.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802a7998": "0x802a7998"
+  },
+  "descriptions": {
+    "w3d_auto_802a7998": "Appears to accesses fields at 0x258, 0x24C, 0x1F4, 0xF0. m2c types and names are provisional."
+  }
+}

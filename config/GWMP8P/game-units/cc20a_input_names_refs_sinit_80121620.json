@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_input_names_refs_sinit_80121620",
+  "source": "source/matching/game/cc20a/cc20a_input_names_refs_sinit_80121620.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_input_names_refs_sinit_80121620": "0x80121620"
+  },
+  "descriptions": {
+    "w3d_cc20a_input_names_refs_sinit_80121620": "Initializes nine storage aliases, seven cached input/control message names and a default three-float vector under the original initialization guards."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aa_80204620",
+  "source": "source/matching/game/s21/s21_aa_80204620.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_blocks_80204620": "0x80204620"
+  },
+  "descriptions": {
+    "w3d_s21_write_blocks_80204620": "Appears to call a virtual write slot on a stream for each sixteen-byte entry, stopping at the first negative status and returning zero otherwise."
+  }
+}

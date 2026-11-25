@@ -1,0 +1,14 @@
+{
+  "unit": "cx15a_score_splash_80011c58",
+  "source": "source/matching/game/cx15a/cx15a_score_splash_80011c58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15a_score_splash_80011c58": "0x80011c58"
+  },
+  "descriptions": {
+    "w3d_cx15a_score_splash_80011c58": "Combine queried unsigned splash count, scale and base damage, then evaluate the resulting damage and radius for mode 37/6."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

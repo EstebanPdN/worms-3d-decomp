@@ -1,0 +1,11 @@
+{
+  "unit": "cc23b_integer_digits_80212c74",
+  "source": "source/matching/game/cc23b/cc23b_integer_digits_80212c74.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc23b_integer_digits_80212c74": "0x80212c74"
+  },
+  "descriptions": {
+    "w3d_cc23b_integer_digits_80212c74": "Formats an unsigned 32-bit magnitude using the supplied radix, optionally writes a minus sign and unsigned negation, then reverses the generated lowercase digits in place. Preserves the original unconditional first reversal and unsigned division; caller preconditions remain unknown."
+  }
+}

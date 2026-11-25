@@ -1,0 +1,11 @@
+{
+  "unit": "d42a_listener_from_camera_80035528",
+  "source": "source/matching/game/d42a/d42a_listener_from_camera_80035528.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42a_listener_from_camera_80035528": "0x80035528"
+  },
+  "descriptions": {
+    "w3d_d42a_listener_from_camera_80035528": "Sets the audio listener's position, axes and zero velocity from the inverse of the scene camera matrix."
+  }
+}

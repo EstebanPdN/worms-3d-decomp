@@ -1,0 +1,14 @@
+{
+  "unit": "cc26a_grid_select_layer_8001e328",
+  "source": "source/matching/game/cc26a/cc26a_grid_select_layer_8001e328.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc26a_grid_select_layer_8001e328": "0x8001e328"
+  },
+  "descriptions": {
+    "cc26a_grid_select_layer_8001e328": "Round horizontal coordinates to grid cells, select the closest layer midpoint, test both floor/ceiling distances against hop height and clamp invalid unsigned layer output."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

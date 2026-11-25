@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_mesh_table_bind_800f30f0",
+  "source": "source/matching/game/d24c/d24c_mesh_table_bind_800f30f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_mesh_table_bind_800f30f0": "0x800f30f0"
+  },
+  "descriptions": {
+    "d24c_mesh_table_bind_800f30f0": "Load the named mesh into +28 and call its virtual +88 with 0; query the mesh owner (virtual +56, key 0x8040e078) for the table object, retain it in +36 and release the previous one; store the table entries pointer at +80 and count at +84; resize the word vector at +68 to that count, filling with 0, with the original's byte-based capacity growth and non-advancing fill loop."
+  }
+}

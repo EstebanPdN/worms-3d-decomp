@@ -1,0 +1,11 @@
+{
+  "unit": "cc36a_payload_spawn_800ccc14",
+  "source": "source/matching/game/cc36a/cc36a_payload_spawn_800ccc14.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc36a_payload_spawn_800ccc14": "0x800ccc14"
+  },
+  "descriptions": {
+    "cc36a_payload_spawn_800ccc14": "Return the mesh payload-spawn position, fallback mesh position, or external runtime origin when no mesh exists."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cxa2_grid_test_8002c73c",
+  "source": "source/matching/game/cxa2/cxa2_grid_test_8002c73c.c",
+  "language": "c",
+  "functions": {
+    "cxa2_grid_test_8002c73c": "0x8002c73c"
+  },
+  "descriptions": {
+    "cxa2_grid_test_8002c73c": "Reject unsigned x/z outside level-zero grid extents, descend packed hierarchy levels using the original per-level mask and scratch globals, return on bit-1/bit-0 flags, otherwise test the selected level-zero bit."
+  }
+}

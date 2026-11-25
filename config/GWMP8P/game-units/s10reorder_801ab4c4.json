@@ -1,0 +1,21 @@
+{
+  "unit": "s10reorder_801ab4c4",
+  "source": "source/matching/game/auto/s10reorder_801ab4c4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801ab4c4": "0x801ab4c4",
+    "w3d_auto_801b4938": "0x801b4938",
+    "w3d_auto_801e64c0": "0x801e64c0",
+    "w3d_auto_80208ce0": "0x80208ce0",
+    "w3d_auto_802188f8": "0x802188f8",
+    "w3d_auto_80218f98": "0x80218f98"
+  },
+  "descriptions": {
+    "w3d_auto_801ab4c4": "Lazily obtains and retains an interface when field 44 is empty and field 84 is enabled, releases the old interface, and stores the new one.",
+    "w3d_auto_801b4938": "Lazily creates and retains the interface at offset 20, releases any previous value, and returns the stored interface.",
+    "w3d_auto_801e64c0": "Copies two integer and two float properties through interface methods, retains the interface, replaces the held interface, and returns 1.",
+    "w3d_auto_80208ce0": "Invokes cleanup, releases the held interface at offset 36 through virtual slot 4, and clears that field.",
+    "w3d_auto_802188f8": "Invokes cleanup, releases the held interface at offset 20 through virtual slot 4, and clears that field.",
+    "w3d_auto_80218f98": "Invokes cleanup, releases the held interface at offset 20 through virtual slot 4, and clears that field."
+  }
+}

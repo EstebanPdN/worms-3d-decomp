@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_resize_null_pool_80182850",
+  "source": "source/matching/game/cc17c/cc17c_resize_null_pool_80182850.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_resize_null_pool_80182850": "0x80182850"
+  },
+  "descriptions": {
+    "w3d_cc17c_resize_null_pool_80182850": "Resizes the global pool of 176-byte Null instances unless it is in use (then returns 0x80004005): destroys the old array and index table, allocates and constructs the new ones, records the count twice and assigns each instance its index."
+  }
+}

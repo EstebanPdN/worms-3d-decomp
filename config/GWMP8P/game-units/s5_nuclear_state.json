@@ -1,0 +1,15 @@
+{
+  "unit": "s5_nuclear_state",
+  "source": "source/matching/game/s5_nuclear_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_nuclear_destroy_800d24e0": "0x800d24e0",
+    "w3d_nuclear_detach_800d2790": "0x800d2790",
+    "w3d_nuclear_step_800d2848": "0x800d2848"
+  },
+  "descriptions": {
+    "w3d_nuclear_destroy_800d24e0": "Releases nuclear utility effects and resources before destroying the utility base.",
+    "w3d_nuclear_detach_800d2790": "Clears the global nuclear utility, releases its effect and pending slot, and detaches the base.",
+    "w3d_nuclear_step_800d2848": "Initializes the nuclear utility deadline and activation message once, then advances its base."
+  }
+}

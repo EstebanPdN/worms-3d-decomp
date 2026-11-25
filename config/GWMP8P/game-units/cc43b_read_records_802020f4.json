@@ -1,0 +1,11 @@
+{
+  "unit": "cc43b_read_records_802020f4",
+  "source": "source/matching/game/cc43b/cc43b_read_records_802020f4_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43b_read_records_802020f4": "0x802020f4"
+  },
+  "descriptions": {
+    "cc43b_read_records_802020f4": "If the output record is null, seek forward by count times sixteen with 32-bit wrap and return the original virtual seek status. Otherwise repeatedly read sixteen bytes into the same record, stop on the first negative signed read status, and byte-swap its leading 32-bit field and two 16-bit fields. The output pointer does not advance. Preserve original callback order, live stream reloads, and zero-count success. Partial stream/vtable and sixteen-byte record views; full original identities unknown. No owned initialized data."
+  }
+}

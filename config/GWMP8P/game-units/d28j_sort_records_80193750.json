@@ -1,0 +1,15 @@
+{
+  "unit": "d28j_sort_records_80193750",
+  "source": "source/matching/game/d28j/d28j_sort_records_80193750.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28j"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d28j_sort_records_80193750": "0x80193750"
+  },
+  "descriptions": {
+    "d28j_sort_records_80193750": "Sort records and element lists by name through an index vector and two temporary vectors, then copy them back to the object."
+  }
+}

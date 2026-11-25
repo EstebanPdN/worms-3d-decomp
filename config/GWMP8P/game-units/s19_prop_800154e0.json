@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_800154e0",
+  "source": "source/matching/game/s19/s19_prop_800154e0.c",
+  "language": "c",
+  "functions": {
+    "s19_artillery_mode_800154e0": "0x800154e0"
+  },
+  "descriptions": {
+    "s19_artillery_mode_800154e0": "Appears to return zero when GameLogic.ArtilleryMode is set, otherwise the inverted flag at +0xc4 of the indexed record."
+  }
+}

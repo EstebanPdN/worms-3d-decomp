@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_grid_scan_8010c494",
+  "source": "source/matching/game/d24i/d24i_grid_scan_8010c494.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_grid_scan_8010c494": "0x8010c494"
+  },
+  "descriptions": {
+    "d24i_grid_scan_8010c494": "Scan a 7 by 7 cell grid: for each cell whose edge test 0x8010bd74 passes, seek the run-length cursor at +28 to the key (layer << 10) + row + (column << 5), read the run value and draw the cell's two triangles (0x8010b318) from the corner heights, using strides of 72 bytes per row and 1296 per column."
+  }
+}

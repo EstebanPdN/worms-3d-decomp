@@ -1,0 +1,11 @@
+{
+  "unit": "d40z_vfiprintf",
+  "source": "source/matching/game/d40z/d40z_vfiprintf.c",
+  "language": "c",
+  "functions": {
+    "w3d_d40z_vfiprintf_r_802f1cf4": "0x802f1cf4"
+  },
+  "descriptions": {
+    "w3d_d40z_vfiprintf_r_802f1cf4": "SN ProDG's _vfiprintf_r: newlib 1.10.0 integer printf with 64-bit formats. PRINT copies into string streams (flag 0x200) or feeds the console writer; no __sprint buffering, no error path. Names follow newlib."
+  }
+}

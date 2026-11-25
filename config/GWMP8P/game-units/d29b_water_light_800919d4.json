@@ -1,0 +1,14 @@
+{
+  "unit": "d29b_water_light_800919d4",
+  "source": "source/matching/game/d29b/d29b_water_light_800919d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29b_water_light_800919d4": "0x800919d4"
+  },
+  "descriptions": {
+    "w3d_d29b_water_light_800919d4": "Water light tables: normalizes the sun vector +260; unless the tint bytes +2484 are all above 254, finds or creates (0x8020b680) the prototype's shared 256-entry colour table and locks it, else publishes +368 and the plain colours; for each of the 256 normals at 0x80431ea0 stores the raised normal's light at +388, its own light at +392 unless byte +450 is set, and the tinted 4-4-4-4 colour for a new table; adds 512 to 0x804aab84."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

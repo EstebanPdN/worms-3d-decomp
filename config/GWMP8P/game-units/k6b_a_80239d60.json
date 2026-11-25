@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80239d60",
+  "source": "source/matching/game/k6b/k6b_a_80239d60.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_named_range_construct_80239d60": "0x80239d60"
+  },
+  "descriptions": {
+    "w3d_k6b_named_range_construct_80239d60": "Appears to construct an object over base 0x80238d88 with vtable 0x8041af40, zeroed +24 and +28, an empty shared string at +32 and 0 at +36."
+  }
+}

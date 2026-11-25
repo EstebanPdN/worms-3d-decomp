@@ -1,0 +1,14 @@
+{
+  "unit": "d28g_fall_body_step_800672c4",
+  "source": "source/matching/game/d28g/d28g_fall_body_step_800672c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28g_fall_body_step_800672c4": "0x800672c4"
+  },
+  "descriptions": {
+    "w3d_d28g_fall_body_step_800672c4": "Falling-body step: eases and grows once settled; otherwise sweeps from the position with the velocity and a gravity vector built from two rates; on a registered contact it reflects, and below speed 0.01 it snaps to the rest velocity and position and stops, else clears the flag; with no contact it settles when at or below the ground height, or integrates position and velocity with step 20."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

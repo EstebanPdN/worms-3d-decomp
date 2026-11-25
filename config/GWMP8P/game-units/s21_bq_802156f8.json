@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bq_802156f8",
+  "source": "source/matching/game/s21/s21_bq_802156f8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_check_state_802156f8": "0x802156f8"
+  },
+  "descriptions": {
+    "w3d_s21_check_state_802156f8": "Appears to call a logging helper with the value two and then call a second helper when bit 8 of the first word of the object's field at offset 48 is set."
+  }
+}

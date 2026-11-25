@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ai_801ed550",
+  "source": "source/matching/game/s21/s21_ai_801ed550.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_apply_801ed550": "0x801ed550"
+  },
+  "descriptions": {
+    "w3d_s21_apply_801ed550": "Appears to call a virtual slot of the second argument passing the first word read through this and two zero arguments."
+  }
+}

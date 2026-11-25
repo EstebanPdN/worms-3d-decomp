@@ -1,0 +1,17 @@
+{
+  "unit": "d28d_worm_take_damage_80148ef0",
+  "source": "source/matching/game/d28d/d28d_worm_take_damage_80148ef0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d28d_worm_take_damage_80148ef0": "0x80148ef0"
+  },
+  "descriptions": {
+    "d28d_worm_take_damage_80148ef0": "Applies a worm's pending damage: returns for an inactive, dead or special-animation worm. Damage reaching the hit points clears them, marks the worm dying, logs 'Worm Waiting To Die' and posts a target message. Positive smaller damage posts an int message, negated when the active worm is on the same team; the value is then subtracted, and a moving or grounded hit worm gets state 11. Then clears the pending value, updates the health bar and position label, posts two messages, logs 'Worm Taking Damage' and calls 0x801506f8."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unit": "h1_801de574",
+  "source": "source/matching/game/h1/h1_801de574.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_node_owner_destroy_801de574": "0x801de574",
+    "w3d_h1_visit_with_context_802097ac": "0x802097ac"
+  },
+  "descriptions": {
+    "w3d_h1_node_owner_destroy_801de574": "Installs the vtable at 0x80416a90 and destroys the embedded node at offset 40 with flags 0.",
+    "w3d_h1_visit_with_context_802097ac": "Stores the context in a small-data global, walks the first word of the argument with 0x80217940 using the visitor at 0x80209758 and a local 32-byte state, and returns zero."
+  }
+}

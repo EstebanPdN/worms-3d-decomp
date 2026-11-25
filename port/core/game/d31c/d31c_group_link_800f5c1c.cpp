@@ -1,0 +1,66 @@
+#include "w3d_ptr.h"
+#line 1 "d31c_group_link_800f5c1c.cpp"
+// d31c: 0x800f5c1c. Links two groups: records each in the other's link table, computes the second group's placement from the two connection items through the rotation and inverse matrices, stores it and updates the group. Names are inferred; classes are partial views.
+struct Vec3 { float x, y, z; Vec3(); Vec3(const Vec3 &o) { float a = o.x, b = o.y, c = o.z; x = a; y = b; z = c; } };
+struct W { int a, b, c; };
+struct Rot { float v[9]; };
+struct Mat { Rot r; Vec3 p; void setPos(const Vec3 &v) { p = v; } const Vec3 &P() const { return p; } };
+struct Mats { Rot r; W p; };
+extern "C" Ptr32<Vec3> vec_ctor_80343740(Ptr32<Vec3>);
+extern Mat identity_8045e748;
+struct Euler { float x, y, z; };
+struct Item { char u0[20]; Vec3 rot; char u32[12]; Vec3 pos; };
+struct Table { char u0[32]; Ptr32<Item> items[1]; Ptr32<Item> at(int i) { Ptr32<Ptr32<Item>> p = items; return p[i]; } };
+struct Obj { char u0[1]; };
+struct Objs { char u0[32]; Ptr32<Obj> objs[1]; Ptr32<Obj> at(int i) { return objs[i]; } };
+struct Scene { char u0[44]; Ptr32<Objs> list; };
+struct Group;
+struct Links { Ptr32<Ptr32<Group>> v; Ptr32<Group> & operator[](int i) { return v[i]; } };
+struct Group { char u0[4]; Links links; char u8[20]; int owner; char u32[4]; Vec3 pos; Vec3 rot; };
+struct World { char u0[36]; Ptr32<Scene> scene; };
+extern "C" void rotx_801f6120(Ptr32<Mat>, float);
+extern "C" void roty_801f61a0(Ptr32<Mat>, float);
+extern "C" void rotz_801f621c(Ptr32<Mat>, float);
+extern "C" void mul_801f740c(Ptr32<Mat>, Ptr32<const Mat>, Ptr32<const Mat>);
+extern "C" int inv_801f76e0(Ptr32<Mat>, Ptr32<const Mat>);
+extern "C" void euler_8009ed90(Ptr32<const Mat>, Ptr32<Euler>);
+extern "C" void update_800f5f44(Ptr32<World>, Ptr32<Group>);
+extern "C" void d31c_group_link_800f5c1c(Ptr32<World> self, Ptr32<Group> a, int i, Ptr32<Group> b, int j) {
+    a->links[i] = b;
+    b->links[j] = a;
+    int off = 80;
+    Ptr32<Ptr32<Obj>> list = self->scene->list->objs;
+    Ptr32<Obj> oa = list[a->owner];
+    Ptr32<Obj> ob = list[b->owner];
+    Ptr32<Item> ia = (*(Ptr32<Ptr32<Table>>)((Ptr32<char>)oa + off))->at(i);
+    Ptr32<Item> ib = (*(Ptr32<Ptr32<Table>>)((Ptr32<char>)ob + off))->at(j);
+    Vec3 p(ia->pos);
+    Mat m0, m1, m2, m3, m4, m5;
+    Euler e;
+    m0 = identity_8045e748;
+    const Vec3 &ra = ia->rot;
+    rotx_801f6120(&m0, ia->rot.x);
+    roty_801f61a0(&m0, ra.y);
+    rotz_801f621c(&m0, ra.z);
+    m0.setPos(p);
+    m1 = identity_8045e748;
+    rotx_801f6120(&m1, a->rot.x);
+    roty_801f61a0(&m1, a->rot.y);
+    rotz_801f621c(&m1, a->rot.z);
+    m1.setPos(a->pos);
+    mul_801f740c(&m2, &m0, &m1);
+    m3 = identity_8045e748;
+    const Vec3 &rb = ib->rot;
+    rotx_801f6120(&m3, rb.x);
+    roty_801f61a0(&m3, rb.y);
+    rotz_801f621c(&m3, rb.z);
+    m3.setPos(ib->pos);
+    inv_801f76e0(&m4, &m3);
+    mul_801f740c(&m5, &m4, &m2);
+    euler_8009ed90(&m5, &e);
+    b->pos = m5.P();
+    b->rot = *(Ptr32<Vec3>)&e;
+    update_800f5f44(self, b);
+}
+
+

@@ -1,0 +1,11 @@
+{
+  "unit": "f15c_rumble_update_800fdb00",
+  "source": "source/matching/game/f15c/f15c_rumble_update_800fdb00.cpp",
+  "language": "cpp",
+  "functions": {
+    "f15c_rumble_update_800fdb00": "0x800fdb00"
+  },
+  "descriptions": {
+    "f15c_rumble_update_800fdb00": "Reads SAVE.Rumble into a four-byte integer initially enabled and disables it when external context+240 has bit0x200000. When enabled, stores the current timestamp and computes elapsed time; if the runtime is not paused, updates channel1 for receiver flag0x40000000 and channel0 for the sign bit. Rechecks pause state and, when paused or neither channel is active, queries output index0 and calls virtual slot72 with two zero arguments if present. When disabled, forwards the tested flag word to helper800fde38 if either channel flag is active; that helper ignores its incoming word and clears the globally selected rumble owner. Returns zero. Receiver and service layouts, rumble/channel names and virtual interface types remain inferred partial views."
+  }
+}

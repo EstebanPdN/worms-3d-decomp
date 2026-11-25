@@ -1,0 +1,11 @@
+{
+  "unit": "d28c_weather_refresh_800e5698",
+  "source": "source/matching/game/d28c/d28c_weather_refresh_800e5698.cpp",
+  "language": "cpp",
+  "functions": {
+    "d28c_weather_refresh_800e5698": "0x800e5698"
+  },
+  "descriptions": {
+    "d28c_weather_refresh_800e5698": "Start or stop the rain or snow particle group from its settings and a random draw, then schedule the next weather refresh."
+  }
+}

@@ -1,0 +1,95 @@
+/* Generated reference-only placements. All bodies are source-built. */
+OUTPUT_FORMAT("elf32-powerpc")
+OUTPUT_ARCH(powerpc)
+ENTRY(w3d_export_scheme_8028fb10)
+_SDA_BASE_ = 0x804b2540;
+_SDA2_BASE_ = 0x804c2540;
+fn_800fc1b0 = 0x800fc1b0;
+fn_800fc3b0 = 0x800fc3b0;
+fn_800fc43c = 0x800fc43c;
+fn_800fc550 = 0x800fc550;
+fn_801797b4 = 0x801797b4;
+fn_8028f93c = 0x8028f93c;
+fn_80341584 = 0x80341584;
+key_803d0174 = 0x803d0174;
+key_803d01c8 = 0x803d01c8;
+key_803d01dc = 0x803d01dc;
+key_803d01e8 = 0x803d01e8;
+key_803d01f0 = 0x803d01f0;
+key_803d01f8 = 0x803d01f8;
+key_803d0204 = 0x803d0204;
+key_803d0210 = 0x803d0210;
+key_803d0218 = 0x803d0218;
+key_803d0220 = 0x803d0220;
+key_803d0228 = 0x803d0228;
+key_803d0230 = 0x803d0230;
+key_803d0238 = 0x803d0238;
+key_803d0244 = 0x803d0244;
+key_803d024c = 0x803d024c;
+key_803d0254 = 0x803d0254;
+key_803d025c = 0x803d025c;
+key_803d0264 = 0x803d0264;
+key_803d0270 = 0x803d0270;
+key_803d0278 = 0x803d0278;
+key_803d0284 = 0x803d0284;
+key_803d0290 = 0x803d0290;
+key_803d0298 = 0x803d0298;
+key_803d02a0 = 0x803d02a0;
+key_803d02ac = 0x803d02ac;
+key_803d02b4 = 0x803d02b4;
+key_803d02bc = 0x803d02bc;
+key_803d02c4 = 0x803d02c4;
+key_803d02cc = 0x803d02cc;
+key_803d02d4 = 0x803d02d4;
+key_803d02dc = 0x803d02dc;
+key_803d02e4 = 0x803d02e4;
+key_803d02ec = 0x803d02ec;
+key_803d02f8 = 0x803d02f8;
+key_803d0300 = 0x803d0300;
+key_803d0308 = 0x803d0308;
+key_803d0310 = 0x803d0310;
+key_803d031c = 0x803d031c;
+key_803d0324 = 0x803d0324;
+key_803d0330 = 0x803d0330;
+key_803d0338 = 0x803d0338;
+key_803d0340 = 0x803d0340;
+key_803d0348 = 0x803d0348;
+key_803d0350 = 0x803d0350;
+key_803d0358 = 0x803d0358;
+key_803d0360 = 0x803d0360;
+key_803d0368 = 0x803d0368;
+key_803d0370 = 0x803d0370;
+key_803d037c = 0x803d037c;
+key_803d0384 = 0x803d0384;
+key_803d038c = 0x803d038c;
+key_803d0394 = 0x803d0394;
+key_803d039c = 0x803d039c;
+key_803d03a8 = 0x803d03a8;
+key_803d03b0 = 0x803d03b0;
+key_803d03b8 = 0x803d03b8;
+key_803d03c4 = 0x803d03c4;
+key_803d03cc = 0x803d03cc;
+key_803d03d4 = 0x803d03d4;
+key_803d03e0 = 0x803d03e0;
+key_803d03e8 = 0x803d03e8;
+key_803d03f0 = 0x803d03f0;
+key_803d03f8 = 0x803d03f8;
+key_803d0400 = 0x803d0400;
+key_803d0408 = 0x803d0408;
+key_803d0414 = 0x803d0414;
+key_803d041c = 0x803d041c;
+key_803d0428 = 0x803d0428;
+key_803d0430 = 0x803d0430;
+key_803d0438 = 0x803d0438;
+key_803d0444 = 0x803d0444;
+key_803d044c = 0x803d044c;
+key_803d0454 = 0x803d0454;
+key_803d0460 = 0x803d0460;
+key_803d046c = 0x803d046c;
+key_803d0478 = 0x803d0478;
+key_803d0484 = 0x803d0484;
+key_803d0494 = 0x803d0494;
+SECTIONS {
+  .text.w3d_export_scheme_8028fb10 0x8028fb10 : { *(.text.w3d_export_scheme_8028fb10) }
+  /DISCARD/ : { *(.text*) *(.rodata*) *(.data*) *(.bss*) *(.sdata*) *(.sbss*) *(.comment) }
+}

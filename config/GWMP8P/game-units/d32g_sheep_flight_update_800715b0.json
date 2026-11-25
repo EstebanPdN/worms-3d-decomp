@@ -1,0 +1,14 @@
+{
+  "unit": "d32g_sheep_flight_update_800715b0",
+  "source": "source/matching/game/d32g/d32g_sheep_flight_update_800715b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32g_sheep_flight_update_800715b0": "0x800715b0"
+  },
+  "descriptions": {
+    "w3d_d32g_sheep_flight_update_800715b0": "Steers the flying sheep from its input words: settles toward level after an idle delay, or accelerates and damps pitch, yaw and roll, then multiplies the Euler rotation and the bank roll into the orientation matrix."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

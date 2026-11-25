@@ -1,0 +1,17 @@
+{
+  "unit": "d32s_stream_init_801fa20c",
+  "source": "source/matching/game/d32s/d32s_stream_init_801fa20c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "init__10D32sStreamii": "0x801fa20c"
+  },
+  "descriptions": {
+    "init__10D32sStreamii": "Sets up a stream channel: sizes and zeroes its byte and float vectors, then polls the device until the channel status settles."
+  }
+}

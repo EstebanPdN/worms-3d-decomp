@@ -1,0 +1,7 @@
+--- a/port/core/game/s20/s20_small_aj.cpp
++++ b/port/core/game/s20/s20_small_aj.cpp
+@@ -33,3 +33,3 @@
+     if (*(Ptr32<int>)(self + 3192) >= 0) {
+-        fn_8015af24(*(Ptr32<unsigned char>)(self + 3195));
++        fn_8015af24(*(Ptr32<unsigned char>)(self + 3192));
+         *(Ptr32<int>)(self + 3192) = -1;

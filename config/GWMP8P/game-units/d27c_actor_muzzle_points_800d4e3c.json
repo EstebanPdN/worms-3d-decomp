@@ -1,0 +1,11 @@
+{
+  "unit": "d27c_actor_muzzle_points_800d4e3c",
+  "source": "source/matching/game/d27c/d27c_actor_muzzle_points_800d4e3c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d27c_actor_muzzle_points_800d4e3c": "0x800d4e3c"
+  },
+  "descriptions": {
+    "d27c_actor_muzzle_points_800d4e3c": "Compute an actor's two world attachment points from its descriptor offsets and rotation."
+  }
+}

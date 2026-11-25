@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_marker_push_800f2810",
+  "source": "source/matching/game/k2a/k2a_marker_push_800f2810.c",
+  "language": "c",
+  "functions": {
+    "k2a_marker_push_800f2810": "0x800f2810"
+  },
+  "descriptions": {
+    "k2a_marker_push_800f2810": "Appears to append a position marker with a fixed lifetime and alpha of 200 to a fixed list unless the list already holds more than 48 entries."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "h1_801fb0c0",
+  "source": "source/matching/game/h1/h1_801fb0c0.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_flag_or_forced_801fb0c0": "0x801fb0c0"
+  },
+  "descriptions": {
+    "w3d_h1_flag_or_forced_801fb0c0": "Returns one when the second argument is nonzero or bit 0x20000000 of the word at offset 264 is set, otherwise zero."
+  }
+}

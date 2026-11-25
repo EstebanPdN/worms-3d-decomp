@@ -1,0 +1,15 @@
+{
+  "unit": "s5_trail_queries",
+  "source": "source/matching/game/s5_trail_queries.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_trail_owner_vector_800cd0d0": "0x800cd0d0",
+    "w3d_trail_owner_float_800cd13c": "0x800cd13c",
+    "w3d_trail_owner_value_800cd7fc": "0x800cd7fc"
+  },
+  "descriptions": {
+    "w3d_trail_owner_vector_800cd0d0": "Returns an owner vector or the shared default vector when the owner handle cannot be resolved.",
+    "w3d_trail_owner_float_800cd13c": "Returns an owner float value or the default constant when the owner handle cannot be resolved.",
+    "w3d_trail_owner_value_800cd7fc": "Returns an owner integer value or zero when the owner handle cannot be resolved."
+  }
+}

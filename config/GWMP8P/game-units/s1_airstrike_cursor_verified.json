@@ -1,0 +1,21 @@
+{
+  "unit": "s1_airstrike_cursor_verified",
+  "source": "source/matching/game/s1_airstrike_cursor_verified.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004dc38": "0x8004dc38",
+    "w3d_fn_8004e004": "0x8004e004",
+    "w3d_fn_8004e2a4": "0x8004e2a4",
+    "w3d_fn_8004e324": "0x8004e324",
+    "w3d_fn_8004e384": "0x8004e384",
+    "w3d_fn_8004e544": "0x8004e544"
+  },
+  "descriptions": {
+    "w3d_fn_8004dc38": "Releases airstrike cursor resources and destroys its base object.",
+    "w3d_fn_8004e004": "Updates cursor visibility from engine pause and camera state.",
+    "w3d_fn_8004e2a4": "Applies cursor target color from active and water-target states.",
+    "w3d_fn_8004e324": "Checks whether the current camera mode permits an airstrike cursor.",
+    "w3d_fn_8004e384": "Posts the selected targeting update and returns target availability.",
+    "w3d_fn_8004e544": "Looks up the duration of a named resource animation."
+  }
+}

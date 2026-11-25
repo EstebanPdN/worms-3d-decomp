@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ef45c",
+  "source": "source/matching/game/k5b/k5b_a_801ef45c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_field_types_sinit_801ef45c": "0x801ef45c"
+  },
+  "descriptions": {
+    "w3d_k5b_field_types_sinit_801ef45c": "Appears to be a static initializer: constructs the four shared field objects at 0x804b0590, registers the MFImpl and XMFieldArena type nodes and the MField name."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s11descriptors_80257110",
+  "source": "source/matching/game/s11_auto/s11descriptors_80257110.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80257110": "0x80257110"
+  },
+  "descriptions": {
+    "w3d_auto_80257110": "Appears to calls 0x801eb9f8, 0x801e8d9c. m2c types and names are provisional."
+  }
+}

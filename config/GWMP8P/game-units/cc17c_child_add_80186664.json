@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_child_add_80186664",
+  "source": "source/matching/game/cc17c/cc17c_child_add_80186664.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_child_add_80186664": "0x80186664"
+  },
+  "descriptions": {
+    "w3d_cc17c_child_add_80186664": "Appends a child to the node's child pointer vector at +104, attaches the child to the node through the child's virtual slot +20, then re-applies the node's state (slots +100 and +76)."
+  }
+}

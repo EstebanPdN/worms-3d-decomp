@@ -1,0 +1,17 @@
+{
+  "unit": "h1_newlib_strto_wrappers",
+  "source": "source/matching/game/h1/h1_newlib_strto_wrappers.c",
+  "language": "c",
+  "functions": {
+    "strtoul": "0x802eecc8",
+    "strtol": "0x802f3198",
+    "atoi": "0x802ed89c",
+    "atol": "0x802ed8c4"
+  },
+  "descriptions": {
+    "strtoul": "newlib strtoul: parses an unsigned long by calling _strtoul_r with the global reentrancy structure.",
+    "strtol": "newlib strtol: parses a long by calling _strtol_r with the global reentrancy structure.",
+    "atoi": "Appears to be newlib atoi: returns strtol(s, NULL, 10); the first of two identical bodies, named in archive order.",
+    "atol": "Appears to be newlib atol: returns strtol(s, NULL, 10); the second of two identical bodies, named in archive order."
+  }
+}

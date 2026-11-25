@@ -1,0 +1,11 @@
+{
+  "unit": "s19_masks_8007f95c",
+  "source": "source/matching/game/s19/s19_masks_8007f95c.c",
+  "language": "c",
+  "functions": {
+    "s19_build_masks_8007f95c": "0x8007f95c"
+  },
+  "descriptions": {
+    "s19_build_masks_8007f95c": "Appears to build two global bit masks from the clear bits of four global flag words and combine them into the first mask."
+  }
+}

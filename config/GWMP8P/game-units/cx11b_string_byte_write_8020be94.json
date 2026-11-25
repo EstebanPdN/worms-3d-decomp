@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_string_byte_write_8020be94",
+  "source": "source/matching/game/cx11b/cx11b_string_byte_write_8020be94.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_string_byte_write_8020be94": "0x8020be94"
+  },
+  "descriptions": {
+    "w3d_cx11b_string_byte_write_8020be94": "Detach shared string storage when needed and write the selected byte."
+  }
+}

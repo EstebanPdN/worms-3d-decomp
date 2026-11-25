@@ -1,0 +1,11 @@
+{
+  "unit": "turns_remove_current_80155ba4",
+  "source": "source/matching/game/turns/remove_current_80155ba4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_turns_remove_current_80155ba4": "0x80155ba4"
+  },
+  "descriptions": {
+    "w3d_turns_remove_current_80155ba4": "Resolves the current context index, clears its selection entry at +312, reads the team byte at +213, finds and erases the matching integer in the team vector at +52 with stride 12, and notifies 0x801565e4 if that vector becomes empty. Four-vector and sixteen-selection extents are observed in constructor 0x80154918; GC32 layout, semantic names inferred. Original callee 0x800fc6dc consumes the explicit current-index argument. Uses the standard fixed-arity native forward copy at 0x802eee50 declaration; reference compiler supplies its original call ABI."
+  }
+}

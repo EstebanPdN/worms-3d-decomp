@@ -1,0 +1,11 @@
+{
+  "unit": "s10_cleanup_8019cc78",
+  "source": "source/matching/game/s10/s10_cleanup_8019cc78.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_cleanup_8019cc78": "0x8019cc78"
+  },
+  "descriptions": {
+    "w3d_s10_cleanup_8019cc78": "Releases an owned buffer and each record interface, clears the record array, releases the final held interface, and conditionally deletes the object."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_transfer_reply_8025afc4",
+  "source": "source/matching/game/d27k/d27k_transfer_reply_8025afc4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_transfer_reply_8025afc4": "0x8025afc4"
+  },
+  "descriptions": {
+    "w3d_d27k_transfer_reply_8025afc4": "Handles a transfer reply for the asset found through 0x8025d588: mode 0 stores the mode and state 4; mode 1 fills packet 0x8041a9e8 (name, mode, +64, +44, next id), sends it and opens the reader at +76 on the request text, or finishes when flag 64 is clear; other modes check the checksum through 0x8021d5c4 and send the packet with 0 and a seek to the length, or with 1, then open the reader, store state 2 and the start time."
+  }
+}

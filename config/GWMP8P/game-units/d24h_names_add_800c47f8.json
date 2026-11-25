@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_names_add_800c47f8",
+  "source": "source/matching/game/d24h/d24h_names_add_800c47f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_names_add_800c47f8": "0x800c47f8"
+  },
+  "descriptions": {
+    "w3d_d24h_names_add_800c47f8": "Adds a name at index 0 of the 33-byte name list at +4: fills a record with zero digits (0x80344360), copies at most 33 characters of the name, grows the list when full (new capacity max(size + 1, size + size / 2) * 33 bytes, with the byte size treated as the count, as in the original), then shifts the records with memmove and stores the record. Returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dk_802c4eb0",
+  "source": "source/matching/game/s21/s21_dk_802c4eb0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_take_text_b_802c4eb0": "0x802c4eb0"
+  },
+  "descriptions": {
+    "w3d_s21_take_text_b_802c4eb0": "Appears to assign a shared string pointer from the argument into the field at offset 260, adjusting reference counts, then destroy the source string object."
+  }
+}

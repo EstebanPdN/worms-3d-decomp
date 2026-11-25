@@ -1,0 +1,14 @@
+{
+  "unit": "mx24ob_team_setup_80227398",
+  "source": "source/matching/game/mx24ob/mx24ob_team_setup_80227398.cpp",
+  "language": "cpp",
+  "functions": {
+    "__10Mx24obTeamUs": "0x80227398"
+  },
+  "descriptions": {
+    "__10Mx24obTeamUs": "Constructs a team settings object: runs the tagged base constructor 0x801ea0ec with the caller's 16-bit id, installs the table 0x8041a168, builds the strings at +20 (\"\"), +24 (\"Classic\") and +28 (\"0\") through 0x8020bb54, zeroes the ints +32..+48, copies and retains the shared array stores 0x804b05ac (+52) and 0x804b05b0 (+56), builds +60 from \"TeamName\" and zeroes +64; then opens six entries of the string array (0x80231f14), formats \"Worm 1\"..\"Worm 6\" (0x803b506c) into a local string and assigns each with reference counting, and appends the retained result of the service lookup 0x8020b680 (key 0x80419ea8) to the object array (0x80231fd0). Names and the team reading are inferred; offsets are observed."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

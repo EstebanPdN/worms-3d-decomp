@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aa_802045bc",
+  "source": "source/matching/game/s21/s21_aa_802045bc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_apply_each_802045bc": "0x802045bc"
+  },
+  "descriptions": {
+    "w3d_s21_apply_each_802045bc": "Appears to run a per-element helper over an array of words, stopping at the first negative status and returning zero otherwise."
+  }
+}

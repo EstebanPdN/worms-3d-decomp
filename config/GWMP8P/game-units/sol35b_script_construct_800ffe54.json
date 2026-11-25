@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b_script_construct_800ffe54",
+  "source": "source/matching/game/sol35b/sol35b_script_construct_800ffe54.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b_script_construct_800ffe54": "0x800ffe54"
+  },
+  "descriptions": {
+    "sol35b_script_construct_800ffe54": "Construct the observed script object layout through the native base, tagged member and two string constructors; clear adjacent word groups, initialize state and return the object. Type identities and field meanings remain inferred."
+  }
+}

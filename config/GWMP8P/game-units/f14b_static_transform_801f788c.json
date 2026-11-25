@@ -1,0 +1,11 @@
+{
+  "unit": "f14b_static_transform_801f788c",
+  "source": "source/matching/game/f14b/f14b_static_transform_801f788c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f14b_static_transform_801f788c": "0x801f788c"
+  },
+  "descriptions": {
+    "f14b_static_transform_801f788c": "Inferred guarded static identity-basis and zero-vector setup: when priority equals 65535 and initialize is nonzero, constructs an actual 36-byte local basis with diagonal float ones and off-diagonal float zeros, constructs a separate 12-byte zero vector, and copies them to the observed 48-byte external destination at 0x8045e748. The aggregate basis assignment produces the witnessed 24-byte copy loop and 12-byte tail; the vector assignment uses three float loads/stores. A native inline destination setter preserves the shared destination address lifetime. Owns only the reproduced float literal pool; external destination data remains unowned. Basis/translation meanings and type/API names are inferred, with no complete external class, unrelated matrix constructor, local external-object allocation, whole-game or portable integration claim."
+  }
+}

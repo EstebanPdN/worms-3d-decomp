@@ -1,0 +1,33 @@
+{
+  "unit": "h1_tagged_8019da7c",
+  "source": "source/matching/game/h1/h1_tagged_8019da7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_tagged_construct_8019da7c": "0x8019da7c",
+    "w3d_tagged_construct_801aeac0": "0x801aeac0",
+    "w3d_tagged_construct_801dddf8": "0x801dddf8",
+    "w3d_tagged_construct_801f2d24": "0x801f2d24",
+    "w3d_tagged_construct_801f7cec": "0x801f7cec",
+    "w3d_tagged_construct_80205a40": "0x80205a40",
+    "w3d_tagged_construct_8020881c": "0x8020881c",
+    "w3d_tagged_construct_8020a03c": "0x8020a03c",
+    "w3d_tagged_construct_8020aad0": "0x8020aad0",
+    "w3d_tagged_construct_80218300": "0x80218300",
+    "w3d_tagged_construct_802187dc": "0x802187dc",
+    "w3d_tagged_construct_8021950c": "0x8021950c"
+  },
+  "descriptions": {
+    "w3d_tagged_construct_8019da7c": "Constructs a tagged object: base vtable 0x804137b0, tag type 2, cleared pair and tag halves, derived vtable 0x80413760, then initializes its own fields (calls w3d_construct_802109dc). Returns the object.",
+    "w3d_tagged_construct_801aeac0": "Constructs a tagged object: base vtable 0x804141b8, tag type 2, cleared pair and tag halves, derived vtable 0x80414170, then initializes its own fields. Returns the object.",
+    "w3d_tagged_construct_801dddf8": "Constructs a tagged object: base vtable 0x80411590, tag type 2, cleared pair and tag halves, derived vtable 0x80416a10, then initializes its own fields (calls w3d_construct_802109dc, w3d_string_assign_range, w3d_string_default). Returns the object.",
+    "w3d_tagged_construct_801f2d24": "Constructs a tagged object: base vtable 0x80417d40, tag type 2, cleared pair and tag halves, derived vtable 0x80417d10, then initializes its own fields. Returns the object.",
+    "w3d_tagged_construct_801f7cec": "Constructs a tagged object: base vtable 0x804180a8, tag type 2, cleared pair and tag halves, derived vtable 0x80418080, then initializes its own fields. Returns the object.",
+    "w3d_tagged_construct_80205a40": "Constructs a tagged object: base vtable 0x80419138, tag type 2, cleared pair and tag halves, derived vtable 0x804190f0, then initializes its own fields (calls w3d_construct_802109dc). Returns the object.",
+    "w3d_tagged_construct_8020881c": "Constructs a tagged object: base vtable 0x80418490, tag type 2, cleared pair and tag halves, derived vtable 0x804192f8, then initializes its own fields (calls w3d_string_from_text). Returns the object.",
+    "w3d_tagged_construct_8020a03c": "Constructs a tagged object: base vtable 0x804193d8, tag type 2, cleared pair and tag halves, derived vtable 0x80419388, then initializes its own fields. Returns the object.",
+    "w3d_tagged_construct_8020aad0": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, derived vtable 0x80419430, then initializes its own fields. Returns the object.",
+    "w3d_tagged_construct_80218300": "Constructs a tagged object: base vtable 0x80418110, tag type 2, cleared pair and tag halves, derived vtable 0x80419810, then initializes its own fields (calls w3d_string_default). Returns the object.",
+    "w3d_tagged_construct_802187dc": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, derived vtable 0x804197a8, then initializes its own fields (calls w3d_aligned_allocate). Returns the object.",
+    "w3d_tagged_construct_8021950c": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, derived vtable 0x80419858, then initializes its own fields. Returns the object."
+  }
+}

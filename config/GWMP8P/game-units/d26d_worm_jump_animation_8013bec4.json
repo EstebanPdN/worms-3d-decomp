@@ -1,0 +1,17 @@
+{
+  "unit": "d26d_worm_jump_animation_8013bec4",
+  "source": "source/matching/game/d26d/d26d_worm_jump_animation_8013bec4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26d_worm_jump_animation_8013bec4": "0x8013bec4"
+  },
+  "descriptions": {
+    "d26d_worm_jump_animation_8013bec4": "Pick and play the worm jump animation for the current jump direction and timing."
+  }
+}

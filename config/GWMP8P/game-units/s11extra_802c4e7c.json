@@ -1,0 +1,11 @@
+{
+  "unit": "s11extra_802c4e7c",
+  "source": "source/matching/game/s11_auto/s11extra_802c4e7c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802c4e7c": "0x802c4e7c"
+  },
+  "descriptions": {
+    "w3d_auto_802c4e7c": "Appears to accesses fields at 0x13C, 0x140. m2c types and names are provisional."
+  }
+}

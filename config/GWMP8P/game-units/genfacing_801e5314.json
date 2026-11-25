@@ -1,0 +1,13 @@
+{
+  "unit": "genfacing_801e5314",
+  "source": "source/matching/game/generated/genfacing_801e5314.c",
+  "language": "c",
+  "functions": {
+    "w3d_facing_term_801e5314": "0x801e5314",
+    "w3d_facing_term_801e6788": "0x801e6788"
+  },
+  "descriptions": {
+    "w3d_facing_term_801e5314": "Returns a trig term of the angle between a target heading and the direction to a goal point (z/x axis order), wrapped and folded at a limit; a constant without target.",
+    "w3d_facing_term_801e6788": "Returns a trig term of the angle between a target heading and the direction to a goal point (z/x axis order), wrapped and folded at a limit; a constant without target."
+  }
+}

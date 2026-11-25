@@ -1,0 +1,7 @@
+--- a/port/core/game/f3c/f3c_update_transform_801a44ac.cpp
++++ b/port/core/game/f3c/f3c_update_transform_801a44ac.cpp
+@@ -13,3 +13,3 @@
+ extern "C" void fn_801f6448(Ptr32<Matrix>,float,float,float);
+-extern "C" void f3c_update_transform_801a44ac(Ptr32<Service> service,Ptr32<Node> self){Ptr32<Tag> tag=&self->tag;if(tag->word[3]&2){tag->word[3]&=253;
++extern "C" void f3c_update_transform_801a44ac(Ptr32<Service> service,Ptr32<Node> self){Ptr32<Tag> tag=&self->tag;if(tag->word[0]&2){tag->word[0]&=253;
+ Matrix a,b,c,d;

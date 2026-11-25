@@ -1,0 +1,18 @@
+{
+  "unit": "d30c_input_flush_all_800f8018",
+  "source": "source/matching/game/d30c/d30c_input_flush_all_800f8018.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25c",
+    "source/matching/game/d24f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30c_input_flush_all_800f8018": "0x800f8018"
+  },
+  "descriptions": {
+    "d30c_input_flush_all_800f8018": "Flushes the six recorded input queues as list objects to the sink."
+  }
+}

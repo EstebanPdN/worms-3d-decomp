@@ -1,0 +1,11 @@
+{
+  "unit": "s20_props_d",
+  "source": "source/matching/game/s20/s20_props_d.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_register_string_property_8018e8b8": "0x8018e8b8"
+  },
+  "descriptions": {
+    "w3d_s20_register_string_property_8018e8b8": "Appears to register a string property, reset it to the empty shared string and finish through a shared routine, returning zero."
+  }
+}

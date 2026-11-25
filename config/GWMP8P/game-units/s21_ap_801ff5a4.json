@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ap_801ff5a4",
+  "source": "source/matching/game/s21/s21_ap_801ff5a4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_text_to_u64_b_801ff5a4": "0x801ff5a4"
+  },
+  "descriptions": {
+    "w3d_s21_text_to_u64_b_801ff5a4": "Appears to convert a text argument to an unsigned number and store it zero-extended into a 64-bit output, returning zero. Identical in bytes to its sibling."
+  }
+}

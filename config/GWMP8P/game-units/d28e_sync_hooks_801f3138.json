@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_sync_hooks_801f3138",
+  "source": "source/matching/game/d28e/d28e_sync_hooks_801f3138.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_sync_hooks_801f3138": "0x801f3138"
+  },
+  "descriptions": {
+    "w3d_d28e_sync_hooks_801f3138": "Build the hook and state tables of a shader-like node. With a source, the hook vector is copied from it and each state byte takes the low two bits of the source's state plus 64; with the override flag set, both tables are sized to the global type table and filled with the default hook 0x801e716c and state 128; otherwise the source is taken from the owner, reference counted, and the function repeats. It finishes through 0x801f3850 or 0x801f39a0."
+  }
+}

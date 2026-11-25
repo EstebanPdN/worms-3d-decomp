@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_register_stack_80225fc4",
+  "source": "source/matching/game/cc17c/cc17c_register_stack_80225fc4.c",
+  "language": "c",
+  "functions": {
+    "w3d_cc17c_register_stack_80225fc4": "0x80225fc4"
+  },
+  "descriptions": {
+    "w3d_cc17c_register_stack_80225fc4": "Fills the static \"Stack\" property description once (24-byte value, type 9, descriptor 0x8045ed94), registers it, binds the MaxSize member property and finishes the property set."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_choose_actor_release_80159538",
+  "source": "source/matching/game/cc20a/cc20a_choose_actor_release_80159538.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_choose_actor_release_80159538": "0x80159538"
+  },
+  "descriptions": {
+    "w3d_cc20a_choose_actor_release_80159538": "Clears the ChooseWorm enabled property and global state, releases nine retained interfaces in reverse member order, and forwards destructor flags to the actor base."
+  }
+}

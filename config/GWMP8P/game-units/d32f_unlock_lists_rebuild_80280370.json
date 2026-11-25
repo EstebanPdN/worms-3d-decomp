@@ -1,0 +1,17 @@
+{
+  "unit": "d32f_unlock_lists_rebuild_80280370",
+  "source": "source/matching/game/d32f/d32f_unlock_lists_rebuild_80280370.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d32f_unlock_lists_rebuild_80280370": "0x80280370"
+  },
+  "descriptions": {
+    "d32f_unlock_lists_rebuild_80280370": "Clears and rebuilds five string lists from indexed front-end properties, then adds the fixed unlock names."
+  }
+}

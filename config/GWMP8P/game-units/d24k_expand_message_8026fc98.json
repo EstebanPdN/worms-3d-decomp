@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_expand_message_8026fc98",
+  "source": "source/matching/game/d24k/d24k_expand_message_8026fc98.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_expand_message_8026fc98": "0x8026fc98"
+  },
+  "descriptions": {
+    "w3d_d24k_expand_message_8026fc98": "Selects the message at +132 or +136 of the object at +40 and, when enabled and non-empty, reads the indexed list entry and replaces every '@' placeholder through 0x802ef380, 0x8020c3a0 and 0x8020c510, then passes the expanded text to 0x802b1258. An index past the count returns."
+  }
+}

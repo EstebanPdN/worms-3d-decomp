@@ -1,0 +1,2 @@
+// Lo que STLport pide al compilador nativo: la libc del núcleo.
+#include <errno.h>

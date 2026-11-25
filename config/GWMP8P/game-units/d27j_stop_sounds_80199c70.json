@@ -1,0 +1,15 @@
+{
+  "unit": "d27j_stop_sounds_80199c70",
+  "source": "source/matching/game/d27j/d27j_stop_sounds_80199c70.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27j"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27j_stop_sounds_80199c70": "0x80199c70"
+  },
+  "descriptions": {
+    "d27j_stop_sounds_80199c70": "Stop records by tag: -1 clears both lists and silences all channels, -2 clears the queue, else erases the first matching active or queued record"
+  }
+}

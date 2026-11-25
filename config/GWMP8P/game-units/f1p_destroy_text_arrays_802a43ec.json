@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_destroy_text_arrays_802a43ec",
+  "source": "source/matching/game/f1p/f1p_destroy_text_arrays_802a43ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._18F1p_802a43ec_Owner": "0x802a43ec"
+  },
+  "descriptions": {
+    "_._18F1p_802a43ec_Owner": "Install the observed table(s), destroy the recovered held-interface, shared-string and record-array fields in native C++ order, then call the original base destructor(s) with the witnessed ABI flags. Array lengths, element strides and accessed offsets recovered from original instructions; full semantic class identity remains inferred."
+  }
+}

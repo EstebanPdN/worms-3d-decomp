@@ -1,0 +1,17 @@
+{
+  "unit": "d30s_string_index_ctor_80203204",
+  "source": "source/matching/game/d30s/d30s_string_index_ctor_80203204.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "d30s_string_index_ctor_80203204": "0x80203204"
+  },
+  "descriptions": {
+    "d30s_string_index_ctor_80203204": "Constructs the string index: empty map, the static string at 0x804b06a0 mapped to 0, next index 1."
+  }
+}

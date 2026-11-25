@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_named_record_reserve",
+  "source": "source/matching/game/cx9c/cx9c_named_record_reserve.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_named_record_reserve_80355858": "0x80355858"
+  },
+  "descriptions": {
+    "w3d_cx9c_named_record_reserve_80355858": "Reserve nontrivial named records while preserving string ownership."
+  }
+}

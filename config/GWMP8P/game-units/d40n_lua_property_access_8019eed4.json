@@ -1,0 +1,15 @@
+{
+  "unit": "d40n_lua_property_access_8019eed4",
+  "source": "source/matching/game/d40n/d40n_lua_property_access_8019eed4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40n_lua_property_access_8019eed4": "0x8019eed4"
+  },
+  "descriptions": {
+    "w3d_d40n_lua_property_access_8019eed4": "Reads or writes a named property of a Lua userdata object: prefixed names return closures, setters take booleans, userdata, tables, numbers or strings, and getters push the value by the property's kind. Unknown names raise a Lua error."
+  },
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mfast-cast"
+  ]
+}

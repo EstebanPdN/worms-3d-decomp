@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_sound_debug_destroy_80051d18",
+  "source": "source/matching/game/k8a/k8a_sound_debug_destroy_80051d18.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_sound_debug_destroy_80051d18": "0x80051d18"},
+  "descriptions": {"w3d_k8a_sound_debug_destroy_80051d18": "Appears to destroy a service that releases an output channel, clears its global instance pointer and releases held interfaces, then calls its base destructor."}
+}

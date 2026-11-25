@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_named_slot_select_800a7e14",
+  "source": "source/matching/game/g1c/g1c_named_slot_select_800a7e14.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_named_slot_select_800a7e14": "0x800a7e14"
+  },
+  "descriptions": {
+    "g1c_named_slot_select_800a7e14": "Select an external indexed slot by name. For null or the original empty-name string, set the slot at132+slot*4 to -1 and invoke original800a7ee4; otherwise resolve the name through800a7da4 and update/invoke only for a nonnegative result. Receiver and selection array are external partial views, never constructed, with no array extent or data ownership asserted."
+  }
+}

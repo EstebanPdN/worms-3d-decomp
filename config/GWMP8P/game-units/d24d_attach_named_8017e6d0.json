@@ -1,0 +1,7 @@
+{
+  "unit": "d24d_attach_named_8017e6d0",
+  "source": "source/matching/game/d24d/d24d_attach_named_8017e6d0.cpp",
+  "language": "cpp",
+  "functions": { "d24d_attach_named_8017e6d0": "0x8017e6d0" },
+  "descriptions": { "d24d_attach_named_8017e6d0": "Finds the record for a key byte through the owner's virtual slot 29, replaces the value's shared name (+36) with a temporary string built from the text, appends the value to the record's list (+20) via 0x801ef174 (field 44, kind 3), marks the record state dirty and returns the value." }
+}

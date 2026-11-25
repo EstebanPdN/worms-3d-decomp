@@ -1,0 +1,25 @@
+{
+  "unit": "s20_adjust_c",
+  "source": "source/matching/game/s20/s20_adjust_c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_dispatch_temp_801a5cb0": "0x801a5cb0",
+    "w3d_s20_dispatch_temp_801a5d18": "0x801a5d18",
+    "w3d_s20_dispatch_temp_801a5d88": "0x801a5d88",
+    "w3d_s20_attach_record_80168e28": "0x80168e28",
+    "w3d_s20_apply_item_mode_801d5730": "0x801d5730",
+    "w3d_s20_apply_item_mode_801d567c": "0x801d567c",
+    "w3d_s20_handle_item_target_801aaee8": "0x801aaee8",
+    "w3d_s20_apply_item_mode_801d59d0": "0x801d59d0"
+  },
+  "descriptions": {
+    "w3d_s20_dispatch_temp_801a5cb0": "Appears to build a temporary record from a linked record of the item and pass it to virtual method 19 of the secondary base subobject.",
+    "w3d_s20_dispatch_temp_801a5d18": "Appears to build a temporary record from a linked record and the item address plus 24, then pass it to virtual method 19 of the secondary base subobject.",
+    "w3d_s20_dispatch_temp_801a5d88": "Appears to build a temporary record from a linked record and the item byte at offset 24, then pass it to virtual method 19 of the secondary base subobject.",
+    "w3d_s20_attach_record_80168e28": "Appears to link an item record into the secondary base subobject and set or clear a flag bit depending on whether the record has a link.",
+    "w3d_s20_apply_item_mode_801d5730": "Appears to clear a base field, call a helper, then update two flag bits of the item from the base subobject state and return the helper result.",
+    "w3d_s20_apply_item_mode_801d567c": "Appears to clear a base field, call a helper and, when it does not fail, update two flag bits of the item from the base state.",
+    "w3d_s20_handle_item_target_801aaee8": "Appears to dispatch an item's target through a handler table of the secondary base subobject with a field cleared meanwhile, then call a helper.",
+    "w3d_s20_apply_item_mode_801d59d0": "Appears to clear a base field, call a helper and, when it does not fail, update two flag bits of the item from the base state."
+  }
+}

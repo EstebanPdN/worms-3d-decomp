@@ -1,0 +1,11 @@
+{
+  "unit": "gendtorrelb_8021a540",
+  "source": "source/matching/game/generated/gendtorrelb_8021a540.c",
+  "language": "c",
+  "functions": {
+    "w3d_destroy_8021a540": "0x8021a540"
+  },
+  "descriptions": {
+    "w3d_destroy_8021a540": "Destructor body: installs the class vtable, releases 13 held interface member(s) (virtual release) in reverse order, after clearing globals or destroying embedded members, then runs the base destructor."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "h1_mode_slots_release",
+  "source": "source/matching/game/h1/h1_mode_slots_release.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_mode_slots_release_8035a32c": "0x8035a32c"
+  },
+  "descriptions": {
+    "w3d_mode_slots_release_8035a32c": "Resets the mode in slot index and re-applies it with each shared argument whose enable flag for that slot is set."
+  }
+}

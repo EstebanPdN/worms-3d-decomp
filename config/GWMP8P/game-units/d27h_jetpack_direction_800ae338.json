@@ -1,0 +1,17 @@
+{
+  "unit": "d27h_jetpack_direction_800ae338",
+  "source": "source/matching/game/d27h/d27h_jetpack_direction_800ae338.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27h_jetpack_direction_800ae338": "0x800ae338"
+  },
+  "descriptions": {
+    "d27h_jetpack_direction_800ae338": "Jetpack direction update: calls 0x800ae7d4 with mode 2 or 0, rotates (0,-0.5,-10) by the yaw and pitch from the rotation vector through 0x801f7538 and 0x801f740c, adds the gravity at 0x8045e788 minus ten times the velocity with its y forced non-positive, then resolves the Jetpack_directional setting and stores the vector at its +144."
+  }
+}

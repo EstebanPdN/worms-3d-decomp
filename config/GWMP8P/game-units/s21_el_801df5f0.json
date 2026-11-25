@@ -1,0 +1,11 @@
+{
+  "unit": "s21_el_801df5f0",
+  "source": "source/matching/game/s21/s21_el_801df5f0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_rebuild_801df5f0": "0x801df5f0"
+  },
+  "descriptions": {
+    "w3d_s21_rebuild_801df5f0": "Appears to regenerate the sample buffer: it fails with 0x80004005 when no count is set, releases the old buffer and fills a request record with the count, size, argument and constants 120 and 60 for a"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_8019ad84",
+  "source": "source/matching/game/k4b/k4b_a_8019ad84.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_bound_name_construct_8019ad84": "0x8019ad84"
+  },
+  "descriptions": {
+    "w3d_k4b_bound_name_construct_8019ad84": "Appears to construct an object over 0x801ea0ec: vtable 0x804135a8, retained shared interface at +20, cleared index and an empty shared name string at +28."
+  }
+}

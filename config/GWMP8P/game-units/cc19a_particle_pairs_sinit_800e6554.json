@@ -1,0 +1,11 @@
+{
+  "unit": "cc19a_particle_pairs_sinit_800e6554",
+  "source": "source/matching/game/cc19a/cc19a_particle_pairs_sinit_800e6554.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc19a_particle_pairs_sinit_800e6554": "0x800e6554"
+  },
+  "descriptions": {
+    "w3d_cc19a_particle_pairs_sinit_800e6554": "Initializes particle-service base aliases, eight cached names, two float pairs and four vectors before constructing the type descriptor."
+  }
+}

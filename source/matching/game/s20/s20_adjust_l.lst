@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_adjust_l.c
+w3d_s20_dispatch_with_guard_801aace0|0x801aace0|Appears to dispatch an item's target through the secondary base handler table, recording item bytes and setting a re-entry guard when the entry kind is 3.

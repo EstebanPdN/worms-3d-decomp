@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_arena_handle_construct_802097ec",
+  "source": "source/matching/game/cx11b/cx11b_arena_handle_construct_802097ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_arena_handle_construct_802097ec": "0x802097ec"
+  },
+  "descriptions": {
+    "w3d_cx11b_arena_handle_construct_802097ec": "Initialize the next original arena record, configure its limits, and register the arena handle."
+  }
+}

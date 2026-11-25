@@ -1,0 +1,11 @@
+{
+  "unit": "d32a_chat_target_name_80039c1c",
+  "source": "source/matching/game/d32a/d32a_chat_target_name_80039c1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_chat_target_name_80039c1c": "0x80039c1c"
+  },
+  "descriptions": {
+    "w3d_d32a_chat_target_name_80039c1c": "Resolves the target of a chat command into a string: empty, a team number, or the listed player whose name starts the text after the prefix."
+  }
+}

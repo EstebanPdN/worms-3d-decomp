@@ -1,0 +1,14 @@
+{
+  "unit": "d21e_lump_geometry_properties_8024d0e4",
+  "source": "source/matching/game/d21e/d21e_lump_geometry_properties_8024d0e4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d21e_register_lump_geometry_properties_8024d0e4": "0x8024d0e4"
+  },
+  "descriptions": {
+    "w3d_d21e_register_lump_geometry_properties_8024d0e4": "Registers HighDetailGeometry (0x801ecc6c); registers FringeGeometry (0x801ecc6c); registers HighWaterBlendGeometry (0x801ecc6c); registers BapupGeometry (0x801eff8c) with a guarded function-local static descriptor built once from a zero-filled temporary; registers IsInGenerationQueue (0x801eb834); registers IsInShadowQueue (0x801eb834); registers HighDetailDirty (0x801eb834); registers BoundsDirty (0x801eb834); registers ShadowCache (0x801efdfc) with a guarded function-local static descriptor built once from a zero-filled temporary; registers VerticesToShadow (0x801ebbb8); registers VertexCount (0x801ebbb8); registers SiblingVertexCount (0x801ebbb8); registers QuickAccessColorSet (0x801ecc6c); registers QuickAccessCoordSet (0x801ecc6c); creates the RoofFloorTextureCentre 2D vector binding (0x801f00f0) reset to 0.0f; creates the WallTextureCentre 2D vector binding (0x801f00f0) reset to 0.0f; registers FringeSourceIndices (0x801efd98) with a guarded function-local static descriptor built once from a zero-filled temporary; calls the refresh routine 0x801e8d9c and returns 0. Vector resets use 0x803c4fe0 (0.0f)."
+  }
+}

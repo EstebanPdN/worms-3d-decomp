@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_idle_watch_80021e4c",
+  "source": "source/matching/game/k5a/k5a_idle_watch_80021e4c.cpp",
+  "language": "cpp",
+  "functions": {"k5a_idle_watch_80021e4c": "0x80021e4c"},
+  "descriptions": {"k5a_idle_watch_80021e4c": "Appears to post a WormMoving message when the active worm matches after a timeout, otherwise post a message and refresh the last tick."}
+}

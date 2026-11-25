@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_award_menu_80280124",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_award_menu_80280124": "0x80280124"
+  },
+  "descriptions": {
+    "w3d_f6a_award_menu_80280124": "Clear the awarded-game property, select observed mission modes zero, four or three, and post the corresponding campaign, challenge or tutorial team messages using temporary caches. Partial layouts and semantic names inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_award_menu_80280124.cpp"
+}

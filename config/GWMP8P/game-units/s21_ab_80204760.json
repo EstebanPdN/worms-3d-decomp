@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ab_80204760",
+  "source": "source/matching/game/s21/s21_ab_80204760.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_varint_80204760": "0x80204760"
+  },
+  "descriptions": {
+    "w3d_s21_write_varint_80204760": "Appears to write an unsigned value as a seven-bits-per-byte variable-length integer through a write helper."
+  }
+}

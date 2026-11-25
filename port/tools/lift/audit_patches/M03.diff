@@ -1,0 +1,9 @@
+--- a/port/core/open/open_80238ff0.cpp
++++ b/port/core/open/open_80238ff0.cpp
+@@ -929,5 +929,5 @@
+     SF(r30 + 8, f12);
+     r3 = (w3d_u32)((w3d_u32 (*)(w3d_u64, w3d_u64))A8020bb54)(W(r3), W(r4));
+-    r5 = L8(D(0x804abb63u));
++    r5 = L8(D(0x804abb60u));
+     r4 = r31 + 180;
+     r3 = r28;

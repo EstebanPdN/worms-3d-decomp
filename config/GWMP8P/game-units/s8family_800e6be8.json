@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_800e6be8",
+  "source": "source/matching/game/s8family_800e6be8.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_snapshot_reset_800e6be8": "0x800e6be8"
+  },
+  "descriptions": {
+    "s8_snapshot_reset_800e6be8": "Appears to reconstruct the leading base subobject in place and copy its three words to the snapshot at offset 116."
+  }
+}

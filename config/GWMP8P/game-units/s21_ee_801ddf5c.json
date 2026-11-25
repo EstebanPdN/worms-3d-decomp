@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ee_801ddf5c",
+  "source": "source/matching/game/s21/s21_ee_801ddf5c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_append_ref_801ddf5c": "0x801ddf5c"
+  },
+  "descriptions": {
+    "w3d_s21_append_ref_801ddf5c": "Appears to append an interface object to a growable array: it reserves one more slot, retains the new object, releases whatever the slot held, stores it, bumps the count and returns one."
+  }
+}

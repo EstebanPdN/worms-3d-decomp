@@ -1,0 +1,13 @@
+{
+  "unit": "cc39d_apply_records_801dbd34",
+  "source": "source/matching/game/cc39d/cc39d_apply_records_801dbd34_v8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39d_apply_records_801dbd34": "0x801dbd34",
+    "cc39d_apply_records_801dc254": "0x801dc254"
+  },
+  "descriptions": {
+    "cc39d_apply_records_801dbd34": "Walk a zero-key-terminated array of 64-byte records: find each record's id among the registry's element pointers (element id +36) by linear search; on a miss call the create slot (+148) with the id and retry the same record, on a hit call the apply slot (+156) with the element and record and advance. Returns 0. Partial observed views; class names, slot roles and sizeof unknown.",
+    "cc39d_apply_records_801dc254": "Same record walk as 0x801dbd34 with an unused second argument and the apply slot at +164: misses call create (+148) and retry, hits call the +164 slot with the element and record and advance. Returns 0. Partial observed views; class names, slot roles and sizeof unknown."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d16c_hud_backing_colour_8011b188",
+  "source": "source/matching/game/d16c/d16c_hud_backing_colour_8011b188.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16c_hud_backing_colour_8011b188": "0x8011b188"
+  },
+  "descriptions": {
+    "d16c_hud_backing_colour_8011b188": "Look up the team, load the Text.Backing resource for its colour (red, blue, green, yellow, turquoise, pink; green otherwise) into the HUD backing handle (+32), reserve three vertices and indices, set unit scale, and fill index i, uv (5,16), position (15,0,0) and the two per-vertex pairs (i*10/32, 0) and (0.3125, 1) for the three vertices."
+  }
+}

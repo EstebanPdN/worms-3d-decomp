@@ -1,0 +1,14 @@
+{
+  "unit": "d21e_weapon_animation_properties_802525c4",
+  "source": "source/matching/game/d21e/d21e_weapon_animation_properties_802525c4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d21e_register_weapon_animation_properties_802525c4": "0x802525c4"
+  },
+  "descriptions": {
+    "w3d_d21e_register_weapon_animation_properties_802525c4": "Resets the DisplayName string binding (0x801ed24c) to the shared empty string; resets the AnimDraw string binding (0x801ed24c) to the shared empty string; resets the AnimAim string binding (0x801ed24c) to the shared empty string; resets the AnimFire string binding (0x801ed24c) to the shared empty string; resets the AnimHolding string binding (0x801ed24c) to the shared empty string; resets the AnimEndFire string binding (0x801ed24c) to the shared empty string; resets the WeaponGraphicsResourceID string binding (0x801ed24c) to the shared empty string; registers WeaponType (0x801ece2c); registers DefaultPreference (0x801ec52c); registers CurrentPreference (0x801ec52c); registers LaunchDelay (0x801ebf38); registers PostLaunchDelay (0x801ebf38); creates the FirstPersonOffset vector binding (0x801f0210) reset to 0.0f; creates the FirstPersonScale vector binding (0x801f0210) reset to 0.0f; resets the FirstPersonFiringParticleEffect string binding (0x801ed24c) to the shared empty string; resets the FirstPersonDrawAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonWindUpAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonFireAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonWindDownAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonReloadAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHideAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonIdleAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHandDrawAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHandWindUpAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHandFireAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHandWindDownAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHandReloadAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHandHideAnim string binding (0x801ed24c) to the shared empty string; resets the FirstPersonHandIdleAnim string binding (0x801ed24c) to the shared empty string; registers DisplayInFirstPerson (0x801eb674); registers CanBeFiredWhenWormMoving (0x801eb674); registers RumbleLight (0x801eb834); registers RumbleHeavy (0x801eb834); calls the refresh routine 0x801e8d9c and returns 0. Vector resets use 0x803c66ec (0.0f)."
+  }
+}

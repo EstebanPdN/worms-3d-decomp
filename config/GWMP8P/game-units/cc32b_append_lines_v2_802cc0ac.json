@@ -1,0 +1,11 @@
+{
+  "unit": "cc32b_append_lines_v2_802cc0ac",
+  "source": "source/matching/game/cc32b/cc32b_append_lines_v2_802cc0ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc32b_append_lines_v2_802cc0ac": "0x802cc0ac"
+  },
+  "descriptions": {
+    "w3d_cc32b_append_lines_v2_802cc0ac": "Appends the original indexed endpoint prefix, converts lone linefeeds to the original CRLF delimiter while preserving existing CRLF, appends the remaining suffix and original reset string. Native temporary strings retain and release shared headers in original order. Types and names are inferred; four-byte and eight-byte handle views both fit the observed stack slots, so original complete declarations remain unknown. External original strings and prefix table are not owned."
+  }
+}

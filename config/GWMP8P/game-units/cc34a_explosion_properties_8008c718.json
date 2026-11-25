@@ -1,0 +1,11 @@
+{
+  "unit": "cc34a_explosion_properties_8008c718",
+  "source": "source/matching/game/cc34a/cc34a_explosion_properties_8008c718.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc34a_explosion_properties_8008c718": "0x8008c718"
+  },
+  "descriptions": {
+    "cc34a_explosion_properties_8008c718": "Look up detail-object location and explosion properties, copy damage epicentre to vertically offset impulse epicentre and construct/post the original52-byte explosion event."
+  }
+}

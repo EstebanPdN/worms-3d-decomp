@@ -1,0 +1,11 @@
+{
+  "unit": "d11c_worm_select_800a04d4",
+  "source": "source/matching/game/d11c/d11c_worm_select_800a04d4_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11c_worm_select_800a04d4": "0x800a04d4"
+  },
+  "descriptions": {
+    "d11c_worm_select_800a04d4": "Name the +28 handle \"HUD.WormSelect\" and give it a uniform 5.0 vector through slot +84, name the +36 handle \"HUD.LocatorArrow\" and give it a global vector, resolve \"HUD.LocatorArrow\" through 0x8015ae3c to set its two pooled float pairs (1, 2) and (0, -1), then attach the +36 handle to the +28 handle at \"Locator1\" through slot +92."
+  }
+}

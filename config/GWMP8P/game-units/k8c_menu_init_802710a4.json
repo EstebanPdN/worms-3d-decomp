@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_menu_init_802710a4",
+  "source": "source/matching/game/k8c/k8c_menu_init_802710a4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k8c_menu_init_802710a4": "0x802710a4"
+  },
+  "descriptions": {
+    "w3d_k8c_menu_init_802710a4": "Appears to reserve the endpoint name Menu Creation, set default menu fields and look up the FE.NextMenu property into the field at +28."
+  }
+}

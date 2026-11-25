@@ -1,0 +1,11 @@
+{
+  "unit": "d10c_pigeon_name_8003a6e8",
+  "source": "source/matching/game/d10c/d10c_pigeon_name_8003a6e8_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10c_pigeon_name_8003a6e8": "0x8003a6e8"
+  },
+  "descriptions": {
+    "d10c_pigeon_name_8003a6e8": "Name the owner's handle at +28 from the original \"Pigeon\" literal through a temporary engine string, resolve the id at +32 through 0x80164fc8 and pass the resolved object's +28 view (0x8003af58) with 0 to the handle's virtual slot +76."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d28k_land_menu_start_802691fc",
+  "source": "source/matching/game/d28k/d28k_land_menu_start_802691fc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "w3d_d28k_land_menu_start_802691fc": "0x802691fc"
+  },
+  "descriptions": {
+    "w3d_d28k_land_menu_start_802691fc": "Landscape menu start: loads game data, text box and overlays, reads or generates the land seed, saves settings, builds the menu and subscribes to messages."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_paired_visibility_apply_802c7c1c",
+  "source": "source/matching/game/cx12b/cx12b_paired_visibility_apply_802c7c1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_paired_visibility_apply_802c7c1c": "0x802c7c1c"
+  },
+  "descriptions": {
+    "w3d_cx12b_paired_visibility_apply_802c7c1c": "Apply inverse and direct visibility to the three observed paired child views when the owner is enabled."
+  }
+}

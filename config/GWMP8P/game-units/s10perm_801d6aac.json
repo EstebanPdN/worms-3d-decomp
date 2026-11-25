@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801d6aac",
+  "source": "source/matching/game/perm/s10perm_801d6aac.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801d6aac": "0x801d6aac"
+  },
+  "descriptions": {
+    "w3d_auto_801d6aac": "Computes a piecewise cubic falloff from the absolute input using the observed thresholds and polynomial coefficients."
+  }
+}

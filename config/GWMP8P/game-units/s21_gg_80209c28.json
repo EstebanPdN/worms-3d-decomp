@@ -1,0 +1,11 @@
+{
+  "unit": "s21_gg_80209c28",
+  "source": "source/matching/game/s21/s21_gg_80209c28.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_static_register_memory_manager_80209c28": "0x80209c28"
+  },
+  "descriptions": {
+    "w3d_s21_static_register_memory_manager_80209c28": "Appears to be a static initialization entry that fills the XMemoryManager descriptor with its name, callback, count and link and registers it in an ordered list when called with the final priority."
+  }
+}

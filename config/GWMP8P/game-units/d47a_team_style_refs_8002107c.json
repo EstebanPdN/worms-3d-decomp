@@ -1,0 +1,11 @@
+{
+  "unit": "d47a_team_style_refs_8002107c",
+  "source": "source/matching/game/d47a/d47a_team_style_refs_8002107c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d47a_team_style_refs_8002107c": "0x8002107c"
+  },
+  "descriptions": {
+    "w3d_d47a_team_style_refs_8002107c": "Reads style resources 1 to 5 by formatted name into a reference table, then for each of 16 teams resolves the team's style, marks a default handle and uses style 5 when the flag is set and the style is unset, and propagates the style object's tag to the team's handle."
+  }
+}

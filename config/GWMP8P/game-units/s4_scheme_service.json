@@ -1,0 +1,13 @@
+{
+  "unit": "s4_scheme_service",
+  "source": "source/matching/game/s4_scheme_service.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_scheme_service_construct": "0x80296a2c",
+    "w3d_s4_scheme_service_destroy": "0x80296ae8"
+  },
+  "descriptions": {
+    "w3d_s4_scheme_service_construct": "Initializes the scheme service, clears its retained members and installs its global instance pointer.",
+    "w3d_s4_scheme_service_destroy": "Releases the scheme service members and name before invoking the base service destructor."
+  }
+}

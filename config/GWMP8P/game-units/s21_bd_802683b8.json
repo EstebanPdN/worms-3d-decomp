@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bd_802683b8",
+  "source": "source/matching/game/s21/s21_bd_802683b8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_value_notify_802683b8": "0x802683b8"
+  },
+  "descriptions": {
+    "w3d_s21_set_value_notify_802683b8": "Appears to store a changed float value, notifying the linked object through a helper pair while a busy flag is raised."
+  }
+}

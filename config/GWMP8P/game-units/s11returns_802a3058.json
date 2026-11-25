@@ -1,0 +1,11 @@
+{
+  "unit": "s11returns_802a3058",
+  "source": "source/matching/game/s11_auto/s11returns_802a3058.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802a3058": "0x802a3058"
+  },
+  "descriptions": {
+    "w3d_auto_802a3058": "Appears to calls 0x802b0b84, 0x80165254, 0x802a31fc, 0x802a32e0, 0x802a3784; accesses fields at 0x34. m2c types and names are provisional."
+  }
+}

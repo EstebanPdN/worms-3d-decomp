@@ -1,0 +1,17 @@
+{
+  "unit": "d32s_table_menu_key_800507b8",
+  "source": "source/matching/game/d32s/d32s_table_menu_key_800507b8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "key__13D32sTableMenui": "0x800507b8"
+  },
+  "descriptions": {
+    "key__13D32sTableMenui": "Handles a key in the table menu: paging, refill, save, load and help, with other modes passed to their screens."
+  }
+}

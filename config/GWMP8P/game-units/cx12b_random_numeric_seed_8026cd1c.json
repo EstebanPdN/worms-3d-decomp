@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_random_numeric_seed_8026cd1c",
+  "source": "source/matching/game/cx12b/cx12b_random_numeric_seed_8026cd1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_random_numeric_seed_8026cd1c": "0x8026cd1c"
+  },
+  "descriptions": {
+    "w3d_cx12b_random_numeric_seed_8026cd1c": "Generate the observed bounded random decimal seed string, truncate it and apply it through the original seed parser."
+  }
+}

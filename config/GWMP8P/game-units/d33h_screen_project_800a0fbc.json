@@ -1,0 +1,17 @@
+{
+  "unit": "d33h_screen_project_800a0fbc",
+  "source": "source/matching/game/d33h/d33h_screen_project_800a0fbc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d33h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d33h_screen_project_800a0fbc": "0x800a0fbc"
+  },
+  "descriptions": {
+    "d33h_screen_project_800a0fbc": "Projects a point to clamped screen coordinates for a screen marker, rotates its icon toward off-screen points, and returns the position."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "f8b_launch_vector_8000d374",
+  "source": "source/matching/game/f8b/f8b_launch_vector_8000d374.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8b_launch_vector_8000d374": "0x8000d374"
+  },
+  "descriptions": {
+    "f8b_launch_vector_8000d374": "Subtract the observed global center from position, compare the resulting component bit patterns to zero, substitute the up vector if equal, normalize, add one to its vertical component, normalize again and scale by the witnessed speed. Roles, types and layouts are inferred. Eight trailing stack bytes have unknown original purpose."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_y_802041a4",
+  "source": "source/matching/game/s21/s21_y_802041a4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_i64_802041a4": "0x802041a4"
+  },
+  "descriptions": {
+    "w3d_s21_write_i64_802041a4": "Appears to write a second eight-byte integer value, byte-identical to its sibling, through the same write helper."
+  }
+}

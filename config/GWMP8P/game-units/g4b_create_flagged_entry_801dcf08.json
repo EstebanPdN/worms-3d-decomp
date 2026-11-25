@@ -1,0 +1,11 @@
+{
+  "unit": "g4b_create_flagged_entry_801dcf08",
+  "source": "source/matching/game/g4b/g4b_create_flagged_entry_801dcf08.cpp",
+  "language": "cpp",
+  "functions": {
+    "g4b_create_flagged_entry_801dcf08": "0x801dcf08"
+  },
+  "descriptions": {
+    "g4b_create_flagged_entry_801dcf08": "Retains each entry while searching external compact list36 for matching flags at36; returns80004005 on a duplicate. Clears the held search cursor before creating type803655bc, retains and assigns the new entry flags, appends to compact list, releases the local hold and returns zero. Complete local Held is one pointer; external list and entry types are partial and never locally constructed, storage uses observed word offsets."
+  }
+}

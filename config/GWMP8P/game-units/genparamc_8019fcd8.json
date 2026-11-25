@@ -1,0 +1,15 @@
+{
+  "unit": "genparamc_8019fcd8",
+  "source": "source/matching/game/generated/genparamc_8019fcd8.c",
+  "language": "c",
+  "functions": {
+    "w3d_push_lua_object_8019fcd8": "0x8019fcd8",
+    "w3d_push_lua_object_8019fd58": "0x8019fd58",
+    "w3d_rotate_rows_y_801f61a0": "0x801f61a0"
+  },
+  "descriptions": {
+    "w3d_push_lua_object_8019fcd8": "Pushes the object to the Lua state as 8-byte userdata holding a retained pointer, then attaches the class metatable; returns zero.",
+    "w3d_push_lua_object_8019fd58": "Pushes the object to the Lua state as 8-byte userdata holding a retained pointer, then attaches the class metatable; returns zero.",
+    "w3d_rotate_rows_y_801f61a0": "Rotates the three rows of a 3x3 matrix about the Y axis by the given angle (sine and cosine of the angle)."
+  }
+}

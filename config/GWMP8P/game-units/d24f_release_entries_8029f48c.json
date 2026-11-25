@@ -1,0 +1,12 @@
+{
+  "unit": "d24f_release_entries_8029f48c",
+  "source": "source/matching/game/d24f/d24f_release_entries_8029f48c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24f_release_entries_8029f48c": "0x8029f48c"
+  },
+  "descriptions": {
+    "d24f_release_entries_8029f48c": "Releases every entry of the list at +336: for each non-null entry with an object, if slot 24 yields an owner it asks that owner (slot 96) to detach the object, releases the object (slot 16) and clears it; finishes and releases the entry's string at +8, releases any remaining object, deletes the entry through 0x801fe1f8, and finally resets the list end to its start."
+  }
+}

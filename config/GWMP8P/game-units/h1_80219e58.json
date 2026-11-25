@@ -1,0 +1,17 @@
+{
+  "unit": "h1_80219e58",
+  "source": "source/matching/game/h1/h1_80219e58.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_named_tagged_construct_80219e58": "0x80219e58",
+    "w3d_named_tagged_construct_80219f44": "0x80219f44",
+    "w3d_named_tagged_construct_8021a030": "0x8021a030",
+    "w3d_named_tagged_construct_8021a184": "0x8021a184"
+  },
+  "descriptions": {
+    "w3d_named_tagged_construct_80219e58": "Constructs a named tagged object: vtable 0x80419c08, default string at offset 4, vtable 0x80419bc8, tag type 2 with cleared pair and tag halves, then vtable 0x80419b88. Returns the object.",
+    "w3d_named_tagged_construct_80219f44": "Constructs a named tagged object: vtable 0x80419b48, default string at offset 4, vtable 0x80419b08, tag type 2 with cleared pair and tag halves, then vtable 0x80419ac8. Returns the object.",
+    "w3d_named_tagged_construct_8021a030": "Constructs a named tagged object: vtable 0x80419a88, default string at offset 4, vtable 0x80419a48, tag type 2 with cleared pair and tag halves, then vtable 0x80419a08. Returns the object.",
+    "w3d_named_tagged_construct_8021a184": "Constructs a named tagged object: vtable 0x80419908, default string at offset 4, vtable 0x804198c8, tag type 2 with cleared pair and tag halves, then vtable 0x80419888. Returns the object."
+  }
+}

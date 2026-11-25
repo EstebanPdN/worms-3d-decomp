@@ -1,0 +1,12 @@
+{
+  "unit": "d30l_panel_load_style_802b6248",
+  "source": "source/matching/game/d30l/d30l_panel_load_style_802b6248.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d30l_panel_load_style_802b6248": "0x802b6248"
+  },
+  "descriptions": {
+    "d30l_panel_load_style_802b6248": "Resolves the panel's style properties and its configured game data and value text, then lays out the panel."
+  }
+}

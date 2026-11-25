@@ -1,0 +1,11 @@
+{
+  "unit": "d25h_logic_tick_800c2b68",
+  "source": "source/matching/game/d25h/d25h_logic_tick_800c2b68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25h_logic_tick_800c2b68": "0x800c2b68"
+  },
+  "descriptions": {
+    "w3d_d25h_logic_tick_800c2b68": "Weapon logic tick: skipped while the scene timer call 0x8006e71c reports paused, otherwise computes the time delta from the static last time and runs the state machine at +32 (launch messages and the 0x800c335c update, effect wait states, the delay timer and the end messages); always returns 50."
+  }
+}

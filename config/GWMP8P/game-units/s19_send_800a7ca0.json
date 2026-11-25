@@ -1,0 +1,14 @@
+{
+  "unit": "s19_send_800a7ca0",
+  "source": "source/matching/game/s19/s19_send_800a7ca0.c",
+  "language": "c",
+  "functions": {
+    "s19_send_float_800a7ca0": "0x800a7ca0"
+  },
+  "descriptions": {
+    "s19_send_float_800a7ca0": "Appears to post a float message for an id when the flag at +0xb4 is set, otherwise call a direct helper with the engine tick plus ten."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s19_float_80016564",
+  "source": "source/matching/game/s19/s19_float_80016564.c",
+  "language": "c",
+  "functions": {
+    "s19_pair_factor_80016564": "0x80016564"
+  },
+  "descriptions": {
+    "s19_pair_factor_80016564": "Appears to return zero, 0.2 or 1.0 depending on whether group, registry entry owner and target match between two records."
+  }
+}

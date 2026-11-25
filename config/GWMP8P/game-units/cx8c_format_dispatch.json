@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_format_dispatch",
+  "source": "source/matching/game/cx8c/cx8c_format_dispatch.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_format_dispatch_802f06c8": "0x802f06c8"
+  },
+  "descriptions": {
+    "w3d_cx8c_format_dispatch_802f06c8": "Scans conversion letters and routes formatting to the floating implementation when E/G/L/e/f/g occurs; otherwise calls the variadic integer implementation."
+  }
+}

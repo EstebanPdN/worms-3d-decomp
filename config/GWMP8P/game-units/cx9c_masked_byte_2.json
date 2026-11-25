@@ -1,0 +1,15 @@
+{
+  "unit": "cx9c_masked_byte_2",
+  "source": "source/matching/game/cx9c/cx9c_masked_byte_2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_masked_byte_2_803593fc": "0x803593fc"
+  },
+  "descriptions": {
+    "w3d_cx9c_masked_byte_2_803593fc": "Apply a masked float-to-byte property update through original member callbacks."
+  },
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mfast-cast"
+  ]
+}

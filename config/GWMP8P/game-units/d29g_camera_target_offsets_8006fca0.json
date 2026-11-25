@@ -1,0 +1,11 @@
+{
+  "unit": "d29g_camera_target_offsets_8006fca0",
+  "source": "source/matching/game/d29g/d29g_camera_target_offsets_8006fca0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_camera_target_offsets_8006fca0": "0x8006fca0"
+  },
+  "descriptions": {
+    "w3d_d29g_camera_target_offsets_8006fca0": "Camera target offsets: reads the target object's position and orientation at the current time, writes its up direction, and writes the points ahead (+92) and behind (+96) along its local z axis, each rotated by the orientation and added to the position."
+  }
+}

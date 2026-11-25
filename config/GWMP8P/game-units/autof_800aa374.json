@@ -1,0 +1,31 @@
+{
+  "unit": "autof_800aa374",
+  "source": "source/matching/game/auto/autof_800aa374.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800aa374": "0x800aa374",
+    "w3d_auto_800aba08": "0x800aba08",
+    "w3d_auto_800abfe0": "0x800abfe0",
+    "w3d_auto_800ad8b4": "0x800ad8b4",
+    "w3d_auto_800af1e0": "0x800af1e0",
+    "w3d_auto_800af2b0": "0x800af2b0",
+    "w3d_auto_800b931c": "0x800b931c",
+    "w3d_auto_800bc350": "0x800bc350",
+    "w3d_auto_800bc390": "0x800bc390",
+    "w3d_auto_800c1674": "0x800c1674",
+    "w3d_auto_800c6cf4": "0x800c6cf4"
+  },
+  "descriptions": {
+    "w3d_auto_800aa374": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800aba08": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800abfe0": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800ad8b4": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800af1e0": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800af2b0": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800b931c": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800bc350": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800bc390": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800c1674": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800c6cf4": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review."
+  }
+}

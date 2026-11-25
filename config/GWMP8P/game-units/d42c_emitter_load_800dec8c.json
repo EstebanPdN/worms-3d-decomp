@@ -1,0 +1,17 @@
+{
+  "unit": "d42c_emitter_load_800dec8c",
+  "source": "source/matching/game/d42c/d42c_emitter_load_800dec8c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d42c"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d42c_emitter_load_800dec8c": "0x800dec8c"
+  },
+  "descriptions": {
+    "d42c_emitter_load_800dec8c": "Loads a particle emitter's description and settings, sizes its pool from the descriptor's rates, picks random start motion from either the shared or the local generator, builds the items, adds each one and applies the start offset; returns an HRESULT."
+  }
+}

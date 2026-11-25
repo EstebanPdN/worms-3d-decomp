@@ -1,0 +1,11 @@
+{
+  "unit": "d29c_part_construct_800de988",
+  "source": "source/matching/game/d29c/d29c_part_construct_800de988.cpp",
+  "language": "cpp",
+  "functions": {
+    "d29c_part_construct_800de988": "0x800de988"
+  },
+  "descriptions": {
+    "d29c_part_construct_800de988": "Part constructor followed by an inlined state reset; returns this"
+  }
+}

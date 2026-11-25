@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800ffb78",
+  "source": "source/matching/game/s8contextfix_800ffb78.c",
+  "language": "c",
+  "functions": {
+    "s8_destroy_string_buffer_800ffb78": "0x800ffb78"
+  },
+  "descriptions": {
+    "s8_destroy_string_buffer_800ffb78": "Destructor: invokes its object cleanup, finishes and releases an embedded string, frees its buffer and conditionally deletes the object."
+  }
+}

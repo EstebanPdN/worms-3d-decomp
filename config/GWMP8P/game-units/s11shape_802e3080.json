@@ -1,0 +1,35 @@
+{
+  "unit": "s11shape_802e3080",
+  "source": "source/matching/game/generated/s11shape_802e3080.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_constant_802e3080": "0x802e3080",
+    "w3d_static_init_802e30e4": "0x802e30e4",
+    "w3d_static_init_802e31c0": "0x802e31c0",
+    "w3d_empty_802e3854": "0x802e3854",
+    "w3d_empty_802e4cd8": "0x802e4cd8",
+    "w3d_empty_802e4ce0": "0x802e4ce0",
+    "w3d_empty_802e4ce8": "0x802e4ce8",
+    "w3d_empty_802e4cf0": "0x802e4cf0",
+    "w3d_empty_802e4cf8": "0x802e4cf8",
+    "w3d_empty_802e4d00": "0x802e4d00",
+    "w3d_empty_802e4d08": "0x802e4d08",
+    "w3d_empty_802e5288": "0x802e5288",
+    "w3d_empty_802e528c": "0x802e528c"
+  },
+  "descriptions": {
+    "w3d_constant_802e3080": "Returns the constant 0.",
+    "w3d_static_init_802e30e4": "Compiler-generated static-initialization entry: runs this module's global constructors (initializer called with 1, 0xffff).",
+    "w3d_static_init_802e31c0": "Compiler-generated static-initialization entry: runs this module's global constructors (initializer called with 1, 0xffff).",
+    "w3d_empty_802e3854": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e4cd8": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e4ce0": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e4ce8": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e4cf0": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e4cf8": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e4d00": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e4d08": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e5288": "Does nothing (empty body, typically a default virtual method).",
+    "w3d_empty_802e528c": "Does nothing (empty body, typically a default virtual method)."
+  }
+}

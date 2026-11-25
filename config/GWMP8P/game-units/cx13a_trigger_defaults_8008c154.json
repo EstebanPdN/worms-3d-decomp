@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_trigger_defaults_8008c154",
+  "source": "source/matching/game/cx13a/cx13a_trigger_defaults_8008c154.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_trigger_defaults_8008c154": "0x8008c154"
+  },
+  "descriptions": {
+    "w3d_cx13a_trigger_defaults_8008c154": "Set eleven trigger defaults using their original external property keys, scalar values and spawn string; names inferred."
+  }
+}

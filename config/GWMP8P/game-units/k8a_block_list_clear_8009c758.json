@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_block_list_clear_8009c758",
+  "source": "source/matching/game/k8a/k8a_block_list_clear_8009c758.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_block_list_clear_8009c758": "0x8009c758"},
+  "descriptions": {"w3d_k8a_block_list_clear_8009c758": "Appears to clear a block list: frees every pooled block in its pointer vector, empties the vector, destroys an attached child, releases a held interface and clears a global flag."}
+}

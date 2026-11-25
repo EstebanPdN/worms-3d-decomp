@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_path_queue_build_near_800097e4",
+  "source": "source/matching/game/d28a/d28a_path_queue_build_near_800097e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_path_queue_build_near_800097e4": "0x800097e4"
+  },
+  "descriptions": {
+    "w3d_d28a_path_queue_build_near_800097e4": "Builds a path queue and rejects short paths."
+  }
+}

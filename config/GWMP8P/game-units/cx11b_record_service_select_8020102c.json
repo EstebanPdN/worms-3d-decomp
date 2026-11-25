@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_record_service_select_8020102c",
+  "source": "source/matching/game/cx11b/cx11b_record_service_select_8020102c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_record_service_select_8020102c": "0x8020102c"
+  },
+  "descriptions": {
+    "w3d_cx11b_record_service_select_8020102c": "Resolve the current record service, releasing the previous output before retaining its replacement."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_worm_surrender_8013f348",
+  "source": "source/matching/game/d24d/d24d_worm_surrender_8013f348.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_worm_surrender_8013f348": "0x8013f348"
+  },
+  "descriptions": {
+    "d24d_worm_surrender_8013f348": "When the worm graphic has no attachment, loads the SurrenderFlag model, retains its mesh as the attachment (+164), attaches it to the mesh (id 0x804ab328) and selects the resource value (+596 for Prod kinds, +600 otherwise); then plays the idle clip (0x804ab100, control +492) and DrawSurrender (control +472)."
+  }
+}

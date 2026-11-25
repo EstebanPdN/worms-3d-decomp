@@ -1,0 +1,11 @@
+{
+  "unit": "g1b_bind_services_801b19ec",
+  "source": "source/matching/game/g1b/g1b_bind_services_v1_801b19ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1b_bind_services_801b19ec": "0x801b19ec"
+  },
+  "descriptions": {
+    "g1b_bind_services_801b19ec": "Binds two external services into observed receiver fields at72 and76, retaining each new interface through original vtable slot12 before releasing the previous value through slot16. The first service is looked up through singleton8020b648 and slot92 using original key804143e0; a native inline key-argument boundary preserves key evaluation before singleton lookup. The second comes from8020b680 with key80413be8. Finally invokes801f2798 on the external member at52 and returns zero. Interface and receiver declarations are partial ABI views only; no external object is locally allocated or constructed and no full external sizeof is asserted. Virtual signatures and semantic service names remain inferred. Owns no initialized data and uses no extra compiler flags."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "e13p_refresh_interfaces_802870fc",
+  "source": "source/matching/game/e13p/e13p_refresh_interfaces_802870fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_refresh_interfaces_802870fc": "0x802870fc"
+  },
+  "descriptions": {
+    "w3d_refresh_interfaces_802870fc": "Pushes enable flags to up to three optional interfaces held at +0xf4/+0xf8/+0xfc through virtual slot +0x58: the first flag is the inverse of the +0xb0 word, the second mirrors +0xb0, and the third is the inverse of +0x8c. When +0x8c is zero, the first receives whether the +0xfc interface is null and the second receives zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s11returns_802b0940",
+  "source": "source/matching/game/s11_auto/s11returns_802b0940.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802b0940": "0x802b0940"
+  },
+  "descriptions": {
+    "w3d_auto_802b0940": "Appears to accesses fields at 0xA4, 0x60, 0x6C. m2c types and names are provisional."
+  }
+}

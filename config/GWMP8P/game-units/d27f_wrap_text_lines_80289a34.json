@@ -1,0 +1,17 @@
+{
+  "unit": "d27f_wrap_text_lines_80289a34",
+  "source": "source/matching/game/d27f/d27f_wrap_text_lines_80289a34.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27f_wrap_text_lines_80289a34": "0x80289a34"
+  },
+  "descriptions": {
+    "d27f_wrap_text_lines_80289a34": "Text wrap: splits a string into line records at +712 using font widths, wrapping at 430 units, and positions the lines centred with a 23 unit line step."
+  }
+}

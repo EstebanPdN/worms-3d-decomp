@@ -1,0 +1,7 @@
+{
+ "unit":"terra_only_a7_position",
+ "source":"source/matching/game/terra_only_a7/position.cpp",
+ "language":"cpp",
+ "functions":{"terra_only_a7_position_80026668":"0x80026668"},
+ "descriptions":{"terra_only_a7_position_80026668":"Read an indexed three-component position and add an external three-component offset."}
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f17c_buffers_cleanup_800f6ca0",
+  "source": "source/matching/game/f17c/f17c_buffers_cleanup_800f6ca0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f17c_cleanup_800f6ca0": "0x800f6ca0"
+  },
+  "descriptions": {
+    "f17c_cleanup_800f6ca0": "Clear every word in the external pointer range at receiver+4; perform the original zero-byte memcpy/end-span update; heap-release and null each entry in the range at+16 and clear that range the same way. Release the held interface at+32 through vtable slot4, free both backing buffers in reverse member order, and heap-release the receiver when flags bit0 is set. The36-byte receiver prefix and four-byte heap-service view are observed external partial layouts only; capacity fields and unknown words are not semantically identified. No complete class extent, local object allocation or owned external data is asserted. The varargs memcpy declaration preserves the original call-site CR convention; its pointer return is verified from original code."
+  }
+}

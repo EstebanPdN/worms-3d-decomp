@@ -1,0 +1,12 @@
+{
+  "unit": "d28l_ports_accept_clients_802cc5e0",
+  "source": "source/matching/game/d28l/d28l_ports_accept_clients_802cc5e0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d28l_ports_accept_clients_802cc5e0": "0x802cc5e0"
+  },
+  "descriptions": {
+    "d28l_ports_accept_clients_802cc5e0": "Reads each waiting client's port choice, attaches it to the chosen port or closes it."
+  }
+}

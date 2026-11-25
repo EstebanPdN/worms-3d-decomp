@@ -1,0 +1,11 @@
+{
+  "unit": "d16d_fall_reaction_8014e80c",
+  "source": "source/matching/game/d16d/d16d_fall_reaction_8014e80c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16d_actor_choose_fall_reaction_8014e80c": "0x8014e80c"
+  },
+  "descriptions": {
+    "d16d_actor_choose_fall_reaction_8014e80c": "If the actor may fall (0x80153f58), probe the ground (0x800b0824, 1000 steps, flags 1) from the actor position (+560) with a step of (position + 40 up - position) / 1000 and the zero offset 0x8045e788; then set mode (+760) 23 and actor value 25 (0x801492ec) when the probe used at most 1000 steps (0x804b1764) or the clock 0x801610a0 is below 0.5, otherwise mode 22 and value 24. Partial observed layouts; owns only its float pool literals."
+  }
+}

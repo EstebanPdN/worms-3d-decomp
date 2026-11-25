@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_service_vector_clear_8020ad18",
+  "source": "source/matching/game/cx11b/cx11b_service_vector_clear_8020ad18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_service_vector_clear_8020ad18": "0x8020ad18"
+  },
+  "descriptions": {
+    "w3d_cx11b_service_vector_clear_8020ad18": "Release every service in the vector and erase its complete occupied range."
+  }
+}

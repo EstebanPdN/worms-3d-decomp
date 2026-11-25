@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f9_binary_tree_hint_8035b594",
+  "source": "source/matching/game/sol35f9/sol35f9_binary_tree_hint_8035b594.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f9_binary_tree_hint_8035b594": "0x8035b594"
+  },
+  "descriptions": {
+    "sol35f9_binary_tree_hint_8035b594": "Use a bidirectional iterator hint in the observed GC32 ordered tree of pointer-backed 16-byte keys. Compare with the witnessed memcmp, check leftmost/end/interior positions, use valid adjacent gaps, preserve equivalent entries and otherwise forward to unique insertion. Iterator and result return ABI, traversal, insertion and comparison targets come from original instructions. Names/STL identities inferred; valid tree/key lifetimes and external node construction remain preconditions."
+  }
+}

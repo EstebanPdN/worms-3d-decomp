@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_children_notify_801fba54",
+  "source": "source/matching/game/cc17c/cc17c_children_notify_801fba54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_children_notify_801fba54": "0x801fba54"
+  },
+  "descriptions": {
+    "w3d_cc17c_children_notify_801fba54": "Forwards an argument to child objects through their virtual slot +40: mode 2 visits the four fixed slots (skipping empty ones), mode 3 every child in the vector; returns the last failure status, and 0x80004005 for other modes."
+  }
+}

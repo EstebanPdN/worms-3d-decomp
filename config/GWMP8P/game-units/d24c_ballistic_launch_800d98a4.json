@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_ballistic_launch_800d98a4",
+  "source": "source/matching/game/d24c/d24c_ballistic_launch_800d98a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_ballistic_launch_800d98a4": "0x800d98a4"
+  },
+  "descriptions": {
+    "d24c_ballistic_launch_800d98a4": "Fetch settings; call 0x800d99e0 with +36 and two out vectors; when it returns zero return 0. Otherwise call 0x800d9b70, copy the aim to +36, copy origin 0x8045e788 to +48 and +60, copy the basis to +72, call 0x800ecec0 with the direction scaled by settings +220, call 0x800d8938, return 1."
+  }
+}

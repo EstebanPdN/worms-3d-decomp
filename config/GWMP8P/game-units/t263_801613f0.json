@@ -1,0 +1,1 @@
+{"unit":"t263_801613f0","source":"source/matching/game/t263/t263_801613f0.cpp","language":"cpp","functions":{"t263_ring_allocate_801613f0":"0x801613f0"},"descriptions":{"t263_ring_allocate_801613f0":"Rounds a requested size to four bytes, wraps the cursor if necessary, stores the allocation size and returns the following address."}}

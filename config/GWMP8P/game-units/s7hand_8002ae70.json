@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002ae70",
+  "source": "source/matching/game/s7/s7hand_8002ae70.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002ae70": "0x8002ae70"
+  },
+  "descriptions": {
+    "w3d_auto_8002ae70": "Updates the state word at +0x3c and allocates/posts tagged eight-byte messages using the cached message identifiers and current allocator; preserves delayed-message handling when present."
+  }
+}

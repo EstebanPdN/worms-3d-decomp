@@ -1,0 +1,11 @@
+{
+  "unit": "sol30a_blob_register_800c53a0",
+  "source": "source/matching/game/sol30a/sol30a_blob_register_800c53a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol30a_blob_register_800c53a0": "0x800c53a0"
+  },
+  "descriptions": {
+    "sol30a_blob_register_800c53a0": "Allocates a sixteen-byte blob owner, clones the input size-prefixed block, installs data/name/owner fields, consumes a free index and updates object, generation and occupancy statistics. Nonexact draft: registry/statistics scheduling and inline lifetimes remain unresolved."
+  }
+}

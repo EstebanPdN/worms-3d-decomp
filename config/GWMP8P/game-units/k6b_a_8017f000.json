@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8017f000",
+  "source": "source/matching/game/k6b/k6b_a_8017f000.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_entry_assign_8017f000": "0x8017f000"
+  },
+  "descriptions": {
+    "w3d_k6b_entry_assign_8017f000": "Appears to copy a name, two bytes, a word, a half and a word from a source record, clear flag bit 0x8000 of the word at +24, zero +112 and return 0."
+  }
+}

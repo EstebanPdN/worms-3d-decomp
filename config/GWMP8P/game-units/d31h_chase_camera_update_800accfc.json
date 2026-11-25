@@ -1,0 +1,17 @@
+{
+  "unit": "d31h_chase_camera_update_800accfc",
+  "source": "source/matching/game/d31h/d31h_chase_camera_update_800accfc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31h_chase_camera_update_800accfc": "0x800accfc"
+  },
+  "descriptions": {
+    "d31h_chase_camera_update_800accfc": "Chase camera update: desired eye, look and up from the tracked object, eased, distance limited"
+  }
+}

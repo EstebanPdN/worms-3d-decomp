@@ -1,0 +1,12 @@
+--- a/port/core/open/open_8029cdb4.cpp
++++ b/port/core/open/open_8029cdb4.cpp
+@@ -1099,3 +1099,3 @@
+     if (!(cr0 & 2)) goto L_802a0b20;
+-    r9 = L8(r28 + 219);
++    r9 = L8(r28 + 216);
+     r4 = r1 + 64;
+@@ -1418,3 +1418,3 @@
+     if (!(cr0 & 2)) goto L_802a1344;
+-    r9 = L8(r27 + 219);
++    r9 = L8(r27 + 216);
+     r4 = r28;

@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_dispatch_c.c
+w3d_s20_dispatch_target_then_kind_801a49d8|0x801a49d8|Appears to dispatch the item's target through the handler table, returning a negative result, then call the handler selected by a global's kind bits.

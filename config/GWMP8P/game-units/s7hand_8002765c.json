@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002765c",
+  "source": "source/matching/game/s7/s7hand_8002765c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002765c": "0x8002765c"
+  },
+  "descriptions": {
+    "w3d_auto_8002765c": "Initializes the observed contiguous pointer slots in a pre-tested countdown loop, preserving the surrounding base setup, vtable stores and field updates."
+  }
+}

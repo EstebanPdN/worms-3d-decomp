@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_scale_rule_8000b344",
+  "source": "source/matching/game/g1c/g1c_scale_rule_8000b344.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_scale_rule_8000b344": "0x8000b344"
+  },
+  "descriptions": {
+    "g1c_scale_rule_8000b344": "Select the indexed external rule, cap its input to the integer rule limit and settings minimum, optionally interpolate toward that limit and scale the multiplier when the context byte permits, then return the scaled value times the rule multiplier. Original float constants and settings remain external; all record/context layouts are external prefix views, never instantiated."
+  }
+}

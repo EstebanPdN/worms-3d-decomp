@@ -1,0 +1,11 @@
+{
+  "unit": "cc39c_reset_active_worm_80098240",
+  "source": "source/matching/game/cc39c/cc39c_reset_active_worm_80098240_v4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39c_reset_active_worm_80098240": "0x80098240"
+  },
+  "descriptions": {
+    "cc39c_reset_active_worm_80098240": "Post a created message for the view's worm word, reset its slot word, word, worm, scalar (9.0f) and zero vector through the member setters, then look up the original \"ActiveWormIndex\" object into a reference holder, replace the reference at +152 with retain-before-release ownership, release the holder and store the new reference's index at +136."
+  }
+}

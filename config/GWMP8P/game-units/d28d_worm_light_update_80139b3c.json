@@ -1,0 +1,17 @@
+{
+  "unit": "d28d_worm_light_update_80139b3c",
+  "source": "source/matching/game/d28d/d28d_worm_light_update_80139b3c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28d_worm_light_update_80139b3c": "0x80139b3c"
+  },
+  "descriptions": {
+    "d28d_worm_light_update_80139b3c": "Worm light update: eases the level and shade towards their targets by 0.05, reads two palette colours, stores them scaled by the level to the second light, tints them by the shade to the first light, stores the negated light direction to both lights, and for the current worm traces along that direction to set the level target from the hit fraction over 300."
+  }
+}

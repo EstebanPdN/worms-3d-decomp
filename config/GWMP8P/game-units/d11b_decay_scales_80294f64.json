@@ -1,0 +1,11 @@
+{
+  "unit": "d11b_decay_scales_80294f64",
+  "source": "source/matching/game/d11b/d11b_decay_scales_80294f64_v4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11b_decay_scales_80294f64": "0x80294f64"
+  },
+  "descriptions": {
+    "d11b_decay_scales_80294f64": "Evaluate both owner activity flags, then decay each nonzero pulse by exactly 0.02f and clamp negative results to zero. For each present target, construct a three-float scale vector with single-precision fused width*pulse+width and height*pulse+height and depth 1.0f, invoking callback slot 0x54 with flag zero. Preserve callback order and live reloads before the second pulse. Partial original class views. Owns initialized compiler float literals; independently decoded original words 00000000, 3ca3d70a, 3f800000 require parent review."
+  }
+}

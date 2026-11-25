@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_dispatch_held_801ad644",
+  "source": "source/matching/game/g2b/g2b_dispatch_held_801ad644.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_dispatch_held_801ad644": "0x801ad644"
+  },
+  "descriptions": {
+    "g2b_dispatch_held_801ad644": "Dispatches the indexed callback of an external item through the owner secondary interface; saves the callback status, releases pending list entries and retains the observed next item with a complete four-byte native held pointer. When the owner pending flag is set, clears and releases the callback on the saved item or original item, resets the flag, releases the saved item and returns callback status. Without a callback forwards the null-checked secondary owner to801ad590. All receivers are partial external views and never constructed locally; held local is one pointer with witnessed retain and release effects. Names and roles inferred; no owned data."
+  }
+}

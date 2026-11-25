@@ -1,0 +1,11 @@
+{
+  "unit": "s11perm_802e0ef0",
+  "source": "source/matching/game/s11_auto/s11perm_802e0ef0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802e0ef0": "0x802e0ef0"
+  },
+  "descriptions": {
+    "w3d_auto_802e0ef0": "Appears to updates or returns values using the operations shown in the source. m2c types and names are provisional."
+  }
+}

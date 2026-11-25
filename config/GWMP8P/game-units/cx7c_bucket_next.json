@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_bucket_next",
+  "source": "source/matching/game/cx7c/cx7c_bucket_next.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_bucket_next_8035c988": "0x8035c988"
+  },
+  "descriptions": {
+    "w3d_cx7c_bucket_next_8035c988": "Finds the next nonempty hash-table bucket after the current node hash modulo bucket count; returns its first node or null. Observed iterator, node, key, and table offsets are documented."
+  }
+}

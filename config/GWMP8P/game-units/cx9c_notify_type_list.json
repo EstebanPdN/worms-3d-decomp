@@ -1,0 +1,14 @@
+{
+  "unit": "cx9c_notify_type_list",
+  "source": "source/matching/game/cx9c/cx9c_notify_type_list.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_notify_type_list_80356c10": "0x80356c10"
+  },
+  "descriptions": {
+    "w3d_cx9c_notify_type_list_80356c10": "Notify subscribers of a type identifier while retaining the manager lock."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

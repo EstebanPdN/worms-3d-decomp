@@ -1,0 +1,11 @@
+{
+  "unit": "d17c_light_node_load_800e9830",
+  "source": "source/matching/game/d17c/d17c_light_node_load_800e9830.cpp",
+  "language": "cpp",
+  "functions": {
+    "d17c_light_node_load_800e9830": "0x800e9830"
+  },
+  "descriptions": {
+    "d17c_light_node_load_800e9830": "Load the named resource into the light's node slot (+32, retained, previous released), scale the node uniformly by the owner team's scale (+224), hide it, destroy the old handle member (+212) and create a new one of the node's kind from the member heap; when created, attach it to a by-value reference of the loaded resource."
+  }
+}

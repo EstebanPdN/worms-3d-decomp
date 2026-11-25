@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d10_resize_refs_801f282c_v2",
+  "source": "source/matching/game/sol35d10/sol35d10_resize_refs_801f282c_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d10_resize_refs_801f282c_v2": "0x801f282c"
+  },
+  "descriptions": {
+    "sol35d10_resize_refs_801f282c_v2": "Resize the native owning interface-slot array, preserving retained entries, null-initializing fresh storage and releasing truncated or replaced slots."
+  }
+}

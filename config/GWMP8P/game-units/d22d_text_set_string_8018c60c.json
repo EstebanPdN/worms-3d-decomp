@@ -1,0 +1,11 @@
+{
+  "unit": "d22d_text_set_string_8018c60c",
+  "source": "source/matching/game/d22d/d22d_text_set_string_8018c60c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d22d_text_set_string_8018c60c": "0x8018c60c"
+  },
+  "descriptions": {
+    "w3d_d22d_text_set_string_8018c60c": "Sets a text object's 16-bit string: counts its length, clears the glyph vector at +180 and resizes it with zero glyphs (engine vector, byte-counted growth through 0x80212fd4/0x802134fc), then maps each code: codes up to 255 through the font's direct table (font +40, +32), others through the 0x8018b260 lookup on the owner returned by 0x8034435c(+116) into the font +36 table; finally relayouts the text through 0x8018ca30."
+  }
+}

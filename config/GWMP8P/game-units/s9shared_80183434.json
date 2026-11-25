@@ -1,0 +1,11 @@
+{
+  "unit": "s9shared_80183434",
+  "source": "source/matching/game/generated/s9shared_80183434.cpp",
+  "language": "cpp",
+  "functions": {
+    "s9_construct_resource_set_80183434": "0x80183434"
+  },
+  "descriptions": {
+    "s9_construct_resource_set_80183434": "Constructs the base, clears two held interfaces, lazily acquires twelve shared resources and sets their values and flags, then increments the shared owner count."
+  }
+}

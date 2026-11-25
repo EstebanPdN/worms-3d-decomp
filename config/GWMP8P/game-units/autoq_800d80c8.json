@@ -1,0 +1,11 @@
+{
+  "unit": "autoq_800d80c8",
+  "source": "source/matching/game/auto/autoq_800d80c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800d80c8": "0x800d80c8"
+  },
+  "descriptions": {
+    "w3d_auto_800d80c8": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review."
+  }
+}

@@ -1,0 +1,34 @@
+/* Instances of a hand-matched template written by tools/gen_param_units.py and
+ * verified identical to the original after linking. Offsets, constants and
+ * address-named externs differ per instance; names are structural. */
+
+/* Pair template (third session of the day). */
+#define FIELD(p, T, o) (*(T *)((char *)(p) + (o)))
+
+
+
+
+/* A g++ pointer to member function with vtable thunks: delta, index
+ * (negative for non-virtual) and either the function or the vtable offset. */
+typedef struct W3dPmf { short delta; short index; union { void *function; short vtable; } u; } W3dPmf;
+typedef float (*W3dGetFloat)(void *);
+typedef void (*W3dSetFloat)(void *, float);
+#define PMF_FN(m, o, T) (FIELD(m, short, 2) >= 0 ? (T)(*(void ***)((o) + FIELD(m, short, 4)))[FIELD(m, short, 2) - 1] \
+                                                 : (T)FIELD(m, void *, 4))
+
+
+void w3d_copy_float_property_801ec3fc(char *self, char *target, char *source, char *from)
+{
+    W3dSetFloat setter = PMF_FN(self + 20, target, W3dSetFloat);
+    char *setter_this = target + FIELD(self, short, 20);
+    W3dGetFloat getter = PMF_FN(from + 12, source, W3dGetFloat);
+    setter(setter_this, getter(source + FIELD(from, short, 12)));
+}
+
+void w3d_copy_float_property_801ec5b8(char *self, char *target, char *source, char *from)
+{
+    W3dSetFloat setter = PMF_FN(self + 24, target, W3dSetFloat);
+    char *setter_this = target + FIELD(self, short, 24);
+    W3dGetFloat getter = PMF_FN(from + 16, source, W3dGetFloat);
+    setter(setter_this, getter(source + FIELD(from, short, 16)));
+}

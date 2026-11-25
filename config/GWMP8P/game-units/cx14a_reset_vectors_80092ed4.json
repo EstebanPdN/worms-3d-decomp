@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_reset_vectors_80092ed4",
+  "source": "source/matching/game/cx14a/cx14a_reset_vectors_80092ed4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_reset_vectors_80092ed4": "0x80092ed4"
+  },
+  "descriptions": {
+    "w3d_cx14a_reset_vectors_80092ed4": "Reads and assigns two property vectors, clears the intervening vector with the original float zero, and refreshes the observed motion state."
+  }
+}

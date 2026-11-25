@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_gauge_message_80265294",
+  "source": "source/matching/game/d28k/d28k_gauge_message_80265294.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_gauge_message_80265294": "0x80265294"
+  },
+  "descriptions": {
+    "w3d_d28k_gauge_message_80265294": "Gauge control message handler: setup, clear, click sound, step keys and arrow hit tests, then the base handler."
+  }
+}

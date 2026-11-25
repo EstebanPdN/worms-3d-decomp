@@ -1,0 +1,11 @@
+{
+  "unit": "sol30c_large_record_insert_8034db14",
+  "source": "source/matching/game/sol30c/sol30c_large_record_insert_8034db14.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol30c_large_record_fill_insert_8034db14": "0x8034db14"
+  },
+  "descriptions": {
+    "sol30c_large_record_fill_insert_8034db14": "Inserts n copies of an 84-byte record containing a shared string, float, 72-byte buffer and byte flag into a vector. Retains and releases string ownership on copy and assignment, copies the buffer as a whole object, destroys buffer and string members on cleanup, and grows storage when capacity is insufficient."
+  }
+}

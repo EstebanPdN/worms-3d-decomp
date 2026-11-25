@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_camera_properties_80247050",
+  "source": "source/matching/game/d20e/d20e_camera_properties_80247050.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d20e_register_camera_properties_80247050": "0x80247050"
+  },
+  "descriptions": {
+    "w3d_d20e_register_camera_properties_80247050": "Registers the camera tuning properties (descriptors 0x803c3580..0x803c3bd4: AntiGimScale, DblHitThres, DefaultHeight ... ZoomOffsetDist) through the scalar, value and bit binding helpers 0x801ec52c/0x801ec0f8/0x801ebf38, creates the TailOffset and HeadOffset vector bindings (0x801f0210) reset to the constant 0x803c3c5c (0.0f), calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

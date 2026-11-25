@@ -1,0 +1,11 @@
+{
+  "unit": "s4_mouse_events",
+  "source": "source/matching/game/s4_mouse_events.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_mouse_message": "0x80284e80"
+  },
+  "descriptions": {
+    "w3d_s4_mouse_message": "Handles mouse setup and position messages while guarding against recursive position updates."
+  }
+}

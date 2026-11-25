@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_set_panel_shared_name_802c78f4",
+  "source": "source/matching/game/f1p/f1p_set_panel_shared_name_802c78f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_set_panel_shared_name_802c78f4": "0x802c78f4"
+  },
+  "descriptions": {
+    "w3d_set_panel_shared_name_802c78f4": "For a nonempty by-value shared name that differs or is forced, retain and assign the original string header, detach and release the optional child through its original virtual interfaces, and conditionally rebuild when the signed identifier and active field permit. Destroy the incoming shared string on every exit. Field roles and signatures inferred; owner/interface/text views are partial and game-owned, with no local opaque allocation or external data ownership."
+  }
+}

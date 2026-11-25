@@ -1,0 +1,14 @@
+{
+  "unit": "d29b_gun_fire_8009c87c",
+  "source": "source/matching/game/d29b/d29b_gun_fire_8009c87c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29b_gun_fire_8009c87c": "0x8009c87c"
+  },
+  "descriptions": {
+    "w3d_d29b_gun_fire_8009c87c": "Gun fire body: guarded static forward vector, launch message and effect binding from Weapon.GraphicalLaunchLocation, muzzle position from eye level and weapon offset, spread aim through 0x801a3eb0, then land (0x800b0824), water (0x800419cc) and worm sphere (0x801263fc) sweeps. The nearest decides: land sound, land damage and explosion; worm hit sound, optional deflection, damage from the health-reducing loop or damage times shots, explosion with poison or a plain damage message (0x8004ee4c); water sound."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

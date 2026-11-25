@@ -1,0 +1,14 @@
+{
+  "unit": "d24g_efmv_borders_start_80063068",
+  "source": "source/matching/game/d24g/d24g_efmv_borders_start_80063068.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24g_efmv_borders_start_80063068": "0x80063068"
+  },
+  "descriptions": {
+    "w3d_d24g_efmv_borders_start_80063068": "EFMV border bars start-up: subscribes to one message with slot +28, posts two value messages with table 0x8040db38, loads the EFMV.Borders mesh into +40 and three settings into +44..+52 with retain/release, sets EFMV.Active, stores the on-time and its end time, then fills two mesh sprites with black opaque colour, position and half height."
+  }
+}

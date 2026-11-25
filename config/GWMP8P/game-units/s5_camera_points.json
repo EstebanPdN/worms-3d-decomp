@@ -1,0 +1,15 @@
+{
+  "unit": "s5_camera_points",
+  "source": "source/matching/game/s5_camera_points.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_camera_owner_position_800cfcac": "0x800cfcac",
+    "w3d_camera_active_position_800cfcfc": "0x800cfcfc",
+    "w3d_camera_owner_raised_position_800cfd98": "0x800cfd98"
+  },
+  "descriptions": {
+    "w3d_camera_owner_position_800cfcac": "Returns the position of the object resolved from a camera owner handle.",
+    "w3d_camera_active_position_800cfcfc": "Reads the active worm and eye-level setting, then returns the resolved worm position.",
+    "w3d_camera_owner_raised_position_800cfd98": "Returns the resolved camera owner position with a fixed vertical offset."
+  }
+}

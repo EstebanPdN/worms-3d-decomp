@@ -1,0 +1,11 @@
+{
+  "unit": "s11_receiver_8026d9a0",
+  "source": "source/matching/game/s11_receiver_8026d9a0.c",
+  "language": "c",
+  "functions": {
+    "s11_transfer_interface_8026d9a0": "0x8026d9a0"
+  },
+  "descriptions": {
+    "s11_transfer_interface_8026d9a0": "Appears to detach the target from its related interface, attach the incoming interface to the target, and release the incoming reference."
+  }
+}

@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_leaf_i.c
+w3d_s20_service_call_with_value_800fd62c|0x800fd62c|Appears to copy a word to the stack and pass its address with three arguments to virtual method 32 of the global service object.

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_en_801e4de8",
+  "source": "source/matching/game/s21/s21_en_801e4de8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_stop_801e4de8": "0x801e4de8"
+  },
+  "descriptions": {
+    "w3d_s21_stop_801e4de8": "Appears to stop a playing voice: when active it closes the voice handle, resets the handle fields to minus one and clears the link, returning one, or zero when nothing was active."
+  }
+}

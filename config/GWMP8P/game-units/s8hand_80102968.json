@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_80102968",
+  "source": "source/matching/game/s8hand_80102968.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_apply_item_80102968": "0x80102968"
+  },
+  "descriptions": {
+    "s8_apply_item_80102968": "Looks up an item through the held collection, applies a value on success and returns status or 0x80004005 for a null collection."
+  }
+}

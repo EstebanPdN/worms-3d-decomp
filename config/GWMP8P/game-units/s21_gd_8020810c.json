@@ -1,0 +1,11 @@
+{
+  "unit": "s21_gd_8020810c",
+  "source": "source/matching/game/s21/s21_gd_8020810c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_release_held_8020810c": "0x8020810c"
+  },
+  "descriptions": {
+    "w3d_s21_release_held_8020810c": "Appears to release the held interface at offset 20 and clear it, returning zero, or 0x80004005 when nothing is held."
+  }
+}

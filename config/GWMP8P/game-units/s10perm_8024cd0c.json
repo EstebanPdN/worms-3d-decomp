@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_8024cd0c",
+  "source": "source/matching/game/perm/s10perm_8024cd0c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8024cd0c": "0x8024cd0c"
+  },
+  "descriptions": {
+    "w3d_auto_8024cd0c": "Invokes base construction, installs the observed vtable, clears three flag bytes, and returns the object."
+  }
+}

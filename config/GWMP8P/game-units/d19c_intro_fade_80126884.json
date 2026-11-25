@@ -1,0 +1,15 @@
+{
+  "unit": "d19c_intro_fade_80126884",
+  "source": "source/matching/game/d19c/d19c_intro_fade_80126884.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_intro_fade_80126884": "0x80126884"
+  },
+  "descriptions": {
+    "d19c_intro_fade_80126884": "Intro fade-in: enter scope 3, load the \"Intro.Musy\" logo (+128) and \"Intro.License\" (+124) nodes with their positions and scales, set the fading flag, then for 40 steps raise a grey level by 6.375, set it as an opaque colour on both meshes and call the intro's update; finally swap the fading flag for the faded flag."
+  },
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ]
+}

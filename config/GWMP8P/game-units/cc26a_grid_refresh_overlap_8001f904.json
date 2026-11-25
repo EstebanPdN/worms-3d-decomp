@@ -1,0 +1,14 @@
+{
+  "unit": "cc26a_grid_refresh_overlap_8001f904",
+  "source": "source/matching/game/cc26a/cc26a_grid_refresh_overlap_8001f904.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc26a_grid_refresh_overlap_8001f904": "0x8001f904"
+  },
+  "descriptions": {
+    "cc26a_grid_refresh_overlap_8001f904": "Remove an active region footprint then revisit active overlapping regions, clearing each flag before applying its footprint; preserve ordered squared-distance comparison."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

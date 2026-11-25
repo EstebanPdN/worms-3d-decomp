@@ -1,0 +1,14 @@
+{
+  "unit": "f1p_clamp_service_ratio_802a36cc",
+  "source": "source/matching/game/f1p/f1p_clamp_service_ratio_802a36cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_clamp_service_ratio_802a36cc": "0x802a36cc"
+  },
+  "descriptions": {
+    "w3d_clamp_service_ratio_802a36cc": "Looks up the keyed service float through object +0x28/+0x80, stores it at +0xe8, and returns the original zero constant if the threshold is below it or it is below zero. Otherwise computes threshold/value, caps it successively by two incoming floats, updates +0xe8 to ratio*value and returns the ratio. Strict-less-than branches retain original unordered handling; frame reservation purpose unknown."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

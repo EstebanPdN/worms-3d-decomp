@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_advance_menu_8028e9c0",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_advance_menu_8028e9c0": "0x8028e9c0"
+  },
+  "descriptions": {
+    "w3d_f6a_advance_menu_8028e9c0": "When pause, timer and reference-count guards allow, remove menu/history strings, update briefing text, pop the saved integer state from its deque and forward the selected menu. Partial layouts and semantic roles inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_advance_menu_8028e9c0.cpp"
+}

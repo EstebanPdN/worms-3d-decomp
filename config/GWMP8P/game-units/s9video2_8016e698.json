@@ -1,0 +1,11 @@
+{
+  "unit": "s9video2_8016e698",
+  "source": "source/matching/game/generated/s9video2_8016e698.c",
+  "language": "c",
+  "functions": {
+    "s9_release_video_buffer_8016e698": "0x8016e698"
+  },
+  "descriptions": {
+    "s9_release_video_buffer_8016e698": "Frees the active video buffer, logs the release and clears the buffer pointer and ready flag."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_show_accept_edit_80273054",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_show_accept_edit_80273054": "0x80273054"
+  },
+  "descriptions": {
+    "w3d_f5a_show_accept_edit_80273054": "Compose the observed accept/cancel-message editing text from the target fields, set state seven, append cursor help, and write the result to the sink. Partial types and roles inferred."
+  },
+  "source": "source/matching/game/f5a/f5a_show_accept_edit_80273054.cpp"
+}

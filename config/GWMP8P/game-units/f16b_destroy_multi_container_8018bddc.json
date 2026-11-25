@@ -1,0 +1,11 @@
+{
+  "unit": "f16b_destroy_multi_container_8018bddc",
+  "source": "source/matching/game/f16b/f16b_destroy_multi_container_8018bddc.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._12F16bOwner296": "0x8018bddc"
+  },
+  "descriptions": {
+    "_._12F16bOwner296": "Native destructor through an inferred276-byte observed owner prefix. Installs vtable80412f50 and decrements external counter804ab6ac. Releases the two trailing12-byte storage containers at264 and252, finishes and releases the4-byte text member248, and calls external container destructor80210abc with flags2 for the three separate12-byte members at224,212 and200. Releases held interface196, storage container180, and held interfaces176,172,168 in reverse member order. Finally forwards original destructor flags to the168-byte primary-base destructor801799d4. Constructor8018bd30 initializes the observed prefix through byte275; its base constructor8017990c writes through byte167, and the three external container constructors802109dc each write exactly12 observed bytes. Hidden fields192 and236..247 remain opaque. Native member/base boundaries reproduce cleanup; original names, full object identity, signatures and allocator meanings are inferred. No local construction/allocation; external counter and vtable remain unowned. No portable whole-object integration is claimed."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d27l_movie_gx_setup_802e2508",
+  "source": "source/matching/game/d27l/d27l_movie_gx_setup_802e2508.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27l_movie_gx_setup_802e2508": "0x802e2508"
+  },
+  "descriptions": {
+    "d27l_movie_gx_setup_802e2508": "Sets up the graphics state used to draw a decoded movie frame: orthographic projection, viewport, TEV YUV conversion stages and colours."
+  }
+}

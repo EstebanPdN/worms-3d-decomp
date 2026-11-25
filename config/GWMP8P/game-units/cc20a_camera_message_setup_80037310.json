@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_camera_message_setup_80037310",
+  "source": "source/matching/game/cc20a/cc20a_camera_message_setup_80037310.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_camera_message_setup_80037310": "0x80037310"
+  },
+  "descriptions": {
+    "w3d_cc20a_camera_message_setup_80037310": "Reads camera entity/data properties, stores the task identifier, updates camera data, posts seven input-group control messages, and applies the requested motion state."
+  }
+}

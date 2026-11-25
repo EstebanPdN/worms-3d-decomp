@@ -1,0 +1,14 @@
+{
+  "unit": "d29g_sky_start_8004f564",
+  "source": "source/matching/game/d29g/d29g_sky_start_8004f564.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_sky_start_8004f564": "0x8004f564"
+  },
+  "descriptions": {
+    "w3d_d29g_sky_start_8004f564": "Sky start: stores the service for one name at +68, registers two more services for the object id, starts the geyser particle at (0, 0, -10), binds a global with the sound service, then loads a 3 by 3 checkerboard of sprites into the grid at +28 from the Shotgun and Uzi resources, placing each at 130-unit spacing centred on the origin and sized 4.6."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

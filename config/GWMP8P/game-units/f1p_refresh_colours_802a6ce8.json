@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_refresh_colours_802a6ce8",
+  "source": "source/matching/game/f1p/f1p_refresh_colours_802a6ce8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_refresh_colours_802a6ce8": "0x802a6ce8"
+  },
+  "descriptions": {
+    "w3d_refresh_colours_802a6ce8": "For eight observed control slots, select a packed colour using loop index, selection/range words, the witnessed query and original fallback values; update optional control slot88 and forward the colour to each control. Colour roles, layout and query semantics inferred."
+  }
+}

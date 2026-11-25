@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_append_word_801f9df8",
+  "source": "source/matching/game/h1b/h1b_append_word_801f9df8.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_append_word_801f9df8": "0x801f9df8"
+  },
+  "descriptions": {
+    "h1b_append_word_801f9df8": "Appends a word by const-reference lifetime to an external16-byte vector header, doubles capacity with minimum1 through reference-returning maximum, allocates with original fallback, moves old words and fills appended values before releasing old storage. Local scalar sizes and output addresses observed in original body; no invented local arrays, owned data, or portable ABI claim."
+  }
+}

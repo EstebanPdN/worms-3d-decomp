@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_iface_add_801d4544",
+  "source": "source/matching/game/k8b/k8b_iface_add_801d4544.c",
+  "language": "c",
+  "functions": {"w3d_k8b_iface_add_801d4544": "0x801d4544"},
+  "descriptions": {"w3d_k8b_iface_add_801d4544": "Appears to replace the array entry whose type derives from the item's type, or append and retain the item, in the interface array at offset 28."}
+}

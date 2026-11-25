@@ -1,0 +1,11 @@
+{
+  "unit": "mx14ob_extend_region_v2_802172cc",
+  "source": "source/matching/game/mx14ob/mx14ob_extend_region_v2_802172cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx14ob_extend_region_v2_802172cc": "0x802172cc"
+  },
+  "descriptions": {
+    "mx14ob_extend_region_v2_802172cc": "Extends an external allocator region by at least the requested size plus segment and header overhead, rounded to the region increment. Grows the current segment through the discipline memory callback when possible, otherwise obtains a new aligned segment, consulting the exception callback with the lock bit cleared on failure. Merges or creates the tail block, keeps multi-method segment lists address-ordered, writes a busy trailer header and retires a stale wilderness block to the cache or segment free slot."
+  }
+}

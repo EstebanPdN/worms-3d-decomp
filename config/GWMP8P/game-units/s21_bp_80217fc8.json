@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bp_80217fc8",
+  "source": "source/matching/game/s21/s21_bp_80217fc8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_trace_80217fc8": "0x80217fc8"
+  },
+  "descriptions": {
+    "w3d_s21_trace_80217fc8": "Appears to print its argument with a global format string through a log function when a global debug flag is set."
+  }
+}

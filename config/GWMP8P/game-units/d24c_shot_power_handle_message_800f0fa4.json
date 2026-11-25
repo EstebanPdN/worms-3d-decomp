@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_shot_power_handle_message_800f0fa4",
+  "source": "source/matching/game/d24c/d24c_shot_power_handle_message_800f0fa4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_shot_power_handle_message_800f0fa4": "0x800f0fa4"
+  },
+  "descriptions": {
+    "d24c_shot_power_handle_message_800f0fa4": "On id 64 call base 0x8015fb34 and on success 0x800f1200 returning 0, else return 0x80004005. On id 66 post message 0x804af078 and return 0. Cached 0x804af088 with +48 clear and 0x800ef788 of global 0x804aaf04 true: set +48, store the engine tick at +44, post 0x804af068 and 0x804af090, return 0. Cached 0x804af060 with +48 set: clear +48, post 0x804af080, return 0. Otherwise forward to the base."
+  }
+}

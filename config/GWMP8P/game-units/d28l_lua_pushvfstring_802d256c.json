@@ -1,0 +1,14 @@
+{
+  "unit": "d28l_lua_pushvfstring_802d256c",
+  "source": "source/matching/game/d28l/d28l_lua_pushvfstring_802d256c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28l_lua_pushvfstring_802d256c": "0x802d256c"
+  },
+  "descriptions": {
+    "d28l_lua_pushvfstring_802d256c": "Lua 5.0 luaO_pushvfstring: formats a string on the Lua stack from a varargs list."
+  }
+}

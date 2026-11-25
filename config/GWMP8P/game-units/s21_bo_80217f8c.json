@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bo_80217f8c",
+  "source": "source/matching/game/s21/s21_bo_80217f8c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_install_hooks_80217f8c": "0x80217f8c"
+  },
+  "descriptions": {
+    "w3d_s21_install_hooks_80217f8c": "Appears to install a new global handler pointer, fill three callback slots in a hook table and return the previous handler."
+  }
+}

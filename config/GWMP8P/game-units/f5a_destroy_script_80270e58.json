@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_destroy_script_80270e58",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_destroy_script_80270e58": "0x80270e58"
+  },
+  "descriptions": {
+    "w3d_f5a_destroy_script_80270e58": "Install the observed table, release two interfaces, destroy the text range and storage, destroy the embedded member, release the base interface, then forward destruction flags. Partial types and roles inferred."
+  },
+  "source": "source/matching/game/f5a/f5a_destroy_script_80270e58.cpp"
+}

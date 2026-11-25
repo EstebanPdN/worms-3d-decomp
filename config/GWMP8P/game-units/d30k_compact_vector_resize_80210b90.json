@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_compact_vector_resize_80210b90",
+  "source": "source/matching/game/d30k/d30k_compact_vector_resize_80210b90.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_compact_vector_resize_80210b90": "0x80210b90"
+  },
+  "descriptions": {
+    "w3d_d30k_compact_vector_resize_80210b90": "Resizes a compact vector of reference-counted pointers."
+  }
+}

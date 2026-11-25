@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_hash_clear",
+  "source": "source/matching/game/cx7c/cx7c_hash_clear.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_hash_clear_8035c81c": "0x8035c81c"
+  },
+  "descriptions": {
+    "w3d_cx7c_hash_clear_8035c81c": "Clears each chained node in a bucket vector, nulls every bucket, and resets element count at +24; vector size is recomputed from begin/end as in original."
+  }
+}

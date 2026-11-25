@@ -1,0 +1,11 @@
+{
+  "unit": "f15c_path_relax_800055b8",
+  "source": "source/matching/game/f15c/f15c_path_relax_800055b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f15c_path_relax_800055b8": "0x800055b8"
+  },
+  "descriptions": {
+    "f15c_path_relax_800055b8": "Allocates and placement-constructs an observed 20-byte path node with signed 16-bit coordinates and byte height, assigns its predecessor and movement mode, computes signed 16-bit predecessor cost plus octile distance, and adds mode penalties 40/60 for modes 3/4. Searches the first table: a cheaper existing node is removed from the candidate queue, updated and requeued. Otherwise searches the second table using an eight-byte bucket/index result: a cheaper node is updated, queued, inserted into the first table and erased from the second. If neither table contains it, sets the new node cost, estimates distance to the observed goal pointer at receiver+0x8010, accumulates total cost, queues and inserts it. Deletes the temporary node on every existing-node path. Receiver layout and table roles are partial/inferred; no complete path object allocation is asserted."
+  }
+}

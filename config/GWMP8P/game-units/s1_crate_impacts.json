@@ -1,0 +1,17 @@
+{
+  "unit": "s1_crate_impacts",
+  "source": "source/matching/game/s1_crate_impacts.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8004cd08": "0x8004cd08",
+    "w3d_fn_8004d10c": "0x8004d10c",
+    "w3d_fn_8004d35c": "0x8004d35c",
+    "w3d_fn_8004d54c": "0x8004d54c"
+  },
+  "descriptions": {
+    "w3d_fn_8004cd08": "Plays splash sound and particle effects at the crate position.",
+    "w3d_fn_8004d10c": "Activates the active worm team crate spy and posts its pickup message.",
+    "w3d_fn_8004d35c": "Marks an uncollected crate destroyed and posts its destruction message.",
+    "w3d_fn_8004d54c": "Marks a crate submerged and plays its splash effect."
+  }
+}

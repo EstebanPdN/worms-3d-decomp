@@ -1,0 +1,18 @@
+{
+  "unit": "d29j_set_material_colors_8016b9ec",
+  "source": "source/matching/game/d29j/d29j_set_material_colors_8016b9ec.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29j"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d29j_set_material_colors_8016b9ec": "0x8016b9ec"
+  },
+  "descriptions": {
+    "d29j_set_material_colors_8016b9ec": "Convert a material's ambient and diffuse colours to bytes and set them on the GX colour channels."
+  }
+}

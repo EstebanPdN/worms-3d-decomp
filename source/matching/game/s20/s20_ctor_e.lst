@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_ctor_e.c
+w3d_s20_construct_flags_801902e8|0x801902e8|Appears to install a base vtable, initialize a small header, construct a string member, clear bit fields and bytes and install the final vtable, returning the object.
+w3d_s20_construct_cleared_80190800|0x80190800|Appears to install a base vtable, initialize a small header, clear several paired fields, construct a string member and clear two trailing fields, returning the object.

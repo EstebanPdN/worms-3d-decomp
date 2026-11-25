@@ -1,0 +1,31 @@
+{
+  "unit": "s3_actor_reactions",
+  "source": "source/matching/game/s3_actor_reactions.c",
+  "language": "c",
+  "functions": {
+    "w3d_actor_special_flag": "0x8014e9b4",
+    "w3d_actor_lock_for_team_message": "0x8014f728",
+    "w3d_actor_unlock_for_team_message": "0x8014f7d8",
+    "w3d_actor_post_team_message": "0x8014f860",
+    "w3d_actor_ground_cast_clear": "0x8014fcac",
+    "w3d_actor_start_jump": "0x8014fd38",
+    "w3d_actor_post_player_effect": "0x8014fee8",
+    "w3d_actor_clear_active_state": "0x8014ffa4",
+    "w3d_actor_camera_target_position": "0x80150b38",
+    "w3d_actor_create_third_link": "0x80150b6c",
+    "w3d_actor_has_active_link": "0x801510c4"
+  },
+  "descriptions": {
+    "w3d_actor_special_flag": "Tests whether the held special interface has a nonzero integer value.",
+    "w3d_actor_lock_for_team_message": "Locks the matching team actor, releases its enabled interface, and applies a timer and positional effect.",
+    "w3d_actor_unlock_for_team_message": "Unlocks the matching team actor and updates its timer and actor value.",
+    "w3d_actor_post_team_message": "Posts an integer message containing the actor team.",
+    "w3d_actor_ground_cast_clear": "Tests whether a short ground cast exceeds its distance threshold.",
+    "w3d_actor_start_jump": "Records the jump origin, starts a jump, or changes the state for a quick repeated jump.",
+    "w3d_actor_post_player_effect": "Posts a positional effect selected by the current player setting.",
+    "w3d_actor_clear_active_state": "Clears the actor active field, updates the cleanup handle, and runs the base reset.",
+    "w3d_actor_camera_target_position": "Copies actor position and raises its vertical component for camera targeting.",
+    "w3d_actor_create_third_link": "Creates and retains the third linked object, fills its fields, and registers it with the service.",
+    "w3d_actor_has_active_link": "Returns whether any of three linked object queries is active."
+  }
+}

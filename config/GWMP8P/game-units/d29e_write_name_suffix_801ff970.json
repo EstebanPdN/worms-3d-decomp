@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_write_name_suffix_801ff970",
+  "source": "source/matching/game/d29e/d29e_write_name_suffix_801ff970.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_write_name_suffix_801ff970": "0x801ff970"
+  },
+  "descriptions": {
+    "w3d_d29e_write_name_suffix_801ff970": "From a null-terminated list of names computes the length of the prefix shared by all of them; writes the name at the selected index without that prefix to the output, or formats the unknown index with the text at 0x803b2a50. Names are inferred."
+  }
+}

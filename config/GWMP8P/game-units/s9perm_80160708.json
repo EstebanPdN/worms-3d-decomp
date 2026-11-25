@@ -1,0 +1,14 @@
+{
+  "unit": "s9perm_80160708",
+  "source": "source/matching/game/perm/s9perm_80160708.c",
+  "language": "c",
+  "functions": {
+    "s9_permute_80160708": "0x80160708"
+  },
+  "descriptions": {
+    "s9_permute_80160708": "Allocates a 20-byte message, fills code 0x1003 and the supplied integer, byte and float fields, then dispatches it through the callback helper."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

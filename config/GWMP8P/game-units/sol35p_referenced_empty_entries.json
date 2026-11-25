@@ -1,0 +1,19 @@
+{
+  "unit": "sol35p_referenced_empty_entries",
+  "source": "source/matching/game/sol35p/sol35p_referenced_empty_entries.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35p_empty_8030af30": "0x8030af30",
+    "sol35p_empty_80323714": "0x80323714",
+    "sol35p_empty_80331924": "0x80331924",
+    "sol35p_empty_803347bc": "0x803347bc",
+    "sol35p_empty_80334998": "0x80334998"
+  },
+  "descriptions": {
+    "sol35p_empty_8030af30": "Empty SDK-region entry: blr only, directly called at 0x80308974 and 0x80308a14. No input or return register changes; semantic interface remains unknown.",
+    "sol35p_empty_80323714": "Empty MusyX-region entry: blr only, directly called at 0x80333a70. No input or return register changes; semantic interface remains unknown.",
+    "sol35p_empty_80331924": "Empty MusyX-region entry: blr only, directly called at 0x80331a54. No input or return register changes; semantic interface remains unknown.",
+    "sol35p_empty_803347bc": "Empty MusyX-region entry: blr only, directly called at 0x8032f8a4. No input or return register changes; semantic interface remains unknown.",
+    "sol35p_empty_80334998": "Empty MusyX-region entry: blr only, directly called at 0x8033be10. No input or return register changes; semantic interface remains unknown."
+  }
+}

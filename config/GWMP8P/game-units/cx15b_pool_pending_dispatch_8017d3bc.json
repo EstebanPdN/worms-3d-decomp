@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_pool_pending_dispatch_8017d3bc",
+  "source": "source/matching/game/cx15b/cx15b_pool_pending_dispatch_8017d3bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_pool_pending_dispatch_8017d3bc": "0x8017d3bc"
+  },
+  "descriptions": {
+    "w3d_cx15b_pool_pending_dispatch_8017d3bc": "Dispatch pending, enabled, unowned pool categories through receiver slot64; preserve last negative callback result."
+  }
+}

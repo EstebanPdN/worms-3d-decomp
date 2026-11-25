@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_load_team_store_80297b8c",
+  "source": "source/matching/game/d27f/d27f_load_team_store_80297b8c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_load_team_store_80297b8c": "0x80297b8c"
+  },
+  "descriptions": {
+    "d27f_load_team_store_80297b8c": "Frontend team load: looks up FE.TempTeamStore, locks its name array, reads each numbered name property (a name made only of ignored characters is replaced by a default format), then fills User.Flag, User.Speech, User.SWeapon, User.Skill and User.Grave into the record."
+  }
+}

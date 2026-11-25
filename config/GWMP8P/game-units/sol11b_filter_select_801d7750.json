@@ -1,0 +1,11 @@
+{
+  "unit": "sol11b_filter_select_801d7750",
+  "source": "source/matching/game/sol11b/sol11b_filter_select_801d7750.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11b_filter_select_801d7750": "0x801d7750"
+  },
+  "descriptions": {
+    "sol11b_filter_select_801d7750": "Selects one of seven image-resampling kernels and its original float support value by unsigned mode, then forwards the two opaque image views to the resampler. Modes outside zero through six return without resampling. Kernel labels and image semantics are inferred from original static instructions; external image layouts remain opaque."
+  }
+}

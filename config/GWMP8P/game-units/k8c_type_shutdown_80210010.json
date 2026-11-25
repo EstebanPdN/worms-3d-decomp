@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_type_shutdown_80210010",
+  "source": "source/matching/game/k8c/k8c_type_shutdown_80210010.c",
+  "language": "c",
+  "functions": {
+    "w3d_k8c_type_shutdown_80210010": "0x80210010"
+  },
+  "descriptions": {
+    "w3d_k8c_type_shutdown_80210010": "Appears to unlink every node of two global type lists, run two teardown helpers, release the held global interface and return zero."
+  }
+}

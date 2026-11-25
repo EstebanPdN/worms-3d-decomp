@@ -1,0 +1,11 @@
+{
+  "unit": "s10_ancestor_801b1de0",
+  "source": "source/matching/game/s10/s10_near_templates.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_has_ancestor_801b1de0": "0x801b1de0"
+  },
+  "descriptions": {
+    "w3d_s10_has_ancestor_801b1de0": "Tests whether any node in the observed pointer list is an ancestor of the supplied node, stopping at self-parent roots."
+  }
+}

@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_pool_b.c
+w3d_s20_acquire_two_entries_80171ee0|0x80171ee0|Appears to reuse or request the pool entries at offsets 40 and 36 of the owner for the given count and return zero.
+w3d_s20_acquire_sized_8018d5b8|0x8018d5b8|Appears to output half the byte span between two fields, notify a helper and acquire a pool entry of twice that count when enabled.

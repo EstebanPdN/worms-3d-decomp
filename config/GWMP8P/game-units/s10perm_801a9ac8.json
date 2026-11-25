@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801a9ac8",
+  "source": "source/matching/game/perm/s10perm_801a9ac8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801a9ac8": "0x801a9ac8"
+  },
+  "descriptions": {
+    "w3d_auto_801a9ac8": "Writes the supplied value at offset 12 of the indexed 16-byte record and returns zero."
+  }
+}

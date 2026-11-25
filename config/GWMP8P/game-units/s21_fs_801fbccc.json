@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fs_801fbccc",
+  "source": "source/matching/game/s21/s21_fs_801fbccc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_get_entry_value_801fbccc": "0x801fbccc"
+  },
+  "descriptions": {
+    "w3d_s21_get_entry_value_801fbccc": "Appears to look up an entry index in the vector at offset 36, fetch the entry's value through virtual slot 11 into the output and return zero, or 0x80004005 when not found."
+  }
+}

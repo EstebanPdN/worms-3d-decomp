@@ -1,0 +1,8 @@
+{
+  "module": "actor_broadcast_requires_one",
+  "function": "w3d_message_broadcast_type",
+  "original_entry": "0x8034ad50",
+  "candidate_entry": "0x80500000",
+  "data_entry": "0x80510000",
+  "additional_bindings": []
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc44a_input_event_80160cd8",
+  "source": "source/matching/game/cc44a/cc44a_input_event_80160cd8_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc44a_input_event_80160cd8": "0x80160cd8"
+  },
+  "descriptions": {
+    "cc44a_input_event_80160cd8": "Dispatch button press/release events or rescale an axis using the original absolute-value comparison tree and dead-zone constants; ignore unknown kinds and return zero."
+  }
+}

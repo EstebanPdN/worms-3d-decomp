@@ -1,0 +1,11 @@
+{
+  "unit": "turns_remove_current_abi_80155ba4",
+  "source": "source/matching/game/turns/remove_current_abi_80155ba4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_turns_remove_current_80155ba4": "0x80155ba4"
+  },
+  "descriptions": {
+    "w3d_turns_remove_current_80155ba4": "Resolves the current context index, clears its observed selection entry, reads the team byte, erases the matching integer from that team vector through original forward-copy routine 0x802eee50, and notifies 0x801565e4 when empty. Native copy uses the observed variadic call convention with no optional arguments, and supports the destination-below-source overlap seen here. Receiver extents are witnessed by constructor/reset; GC32 partial layout and inferred semantic names."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_8020d4b8",
+  "source": "source/matching/game/perm/s10perm_8020d4b8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8020d4b8": "0x8020d4b8"
+  },
+  "descriptions": {
+    "w3d_auto_8020d4b8": "Seeks within the held buffer from the start, current position or end, optionally reports the previous position, and rejects positions beyond its length."
+  }
+}

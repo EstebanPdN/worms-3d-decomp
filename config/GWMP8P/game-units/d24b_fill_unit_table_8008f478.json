@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_fill_unit_table_8008f478",
+  "source": "source/matching/game/d24b/d24b_fill_unit_table_8008f478.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_fill_unit_table_8008f478": "0x8008f478"
+  },
+  "descriptions": {
+    "w3d_d24b_fill_unit_table_8008f478": "Fills the 256-entry unit-vector table 0x80431ea0: for each index sums one cube diagonal per set bit (bit 7 down to bit 0) and normalizes the result (0x802e82c0) unless it equals the zero vector 0x8045e788 by word comparison."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

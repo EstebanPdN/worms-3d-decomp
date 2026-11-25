@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bb_801f5d2c",
+  "source": "source/matching/game/s21/s21_bb_801f5d2c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_normalize4_801f5d2c": "0x801f5d2c"
+  },
+  "descriptions": {
+    "w3d_s21_normalize4_801f5d2c": "Appears to scale all four components of a vector by the reciprocal length computed from its first three components."
+  }
+}

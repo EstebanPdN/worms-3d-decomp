@@ -1,0 +1,41 @@
+{
+  "unit": "b_sprite_set",
+  "source": "source/matching/game/b_sprite_set.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_node_position": "0x8018697c",
+    "w3d_node_rotation": "0x80186984",
+    "w3d_node_scale": "0x8018698c",
+    "w3d_node_flag": "0x80186994",
+    "w3d_node_type": "0x801869a0",
+    "w3d_node_attachment": "0x801869a8",
+    "w3d_node_child_count": "0x801869b0",
+    "w3d_node_has_parent": "0x801869c4",
+    "w3d_node_parent": "0x801869dc",
+    "w3d_sprite_set_get_class": "0x801869e4",
+    "w3d_sprite_set_unlink": "0x801869f0",
+    "w3d_sprite_set_create": "0x80186a34",
+    "w3d_sprite_set_interfaces": "0x80186a94",
+    "w3d_sprite_set_release": "0x80186aa0",
+    "w3d_sprite_set_add_ref": "0x80186afc",
+    "w3d_sprite_set_query_interface": "0x80186b14"
+  },
+  "descriptions": {
+    "w3d_node_position": "Returns a pointer to the scene node's position vector.",
+    "w3d_node_rotation": "Returns a pointer to the scene node's second vector, likely its rotation.",
+    "w3d_node_scale": "Returns a pointer to the scene node's third vector, likely its scale.",
+    "w3d_node_flag": "Returns the single flag bit stored beside the node's reference count.",
+    "w3d_node_type": "Returns the scene node's type byte.",
+    "w3d_node_attachment": "Returns the object attached to the scene node.",
+    "w3d_node_child_count": "Returns the number of entries in the node's child vector.",
+    "w3d_node_has_parent": "Returns 1 when the node has a parent, otherwise 0.",
+    "w3d_node_parent": "Returns the node's parent object.",
+    "w3d_sprite_set_get_class": "Returns the SpriteSet class record, which also lists live SpriteSet objects.",
+    "w3d_sprite_set_unlink": "Removes a SpriteSet from its class list and decrements the live count.",
+    "w3d_sprite_set_create": "Allocates and constructs a SpriteSet and registers it in its class list.",
+    "w3d_sprite_set_interfaces": "Returns the SpriteSet interface table used by interface queries.",
+    "w3d_sprite_set_release": "Drops one reference; on the last one unlinks and deletes the SpriteSet. Returns the remaining count.",
+    "w3d_sprite_set_add_ref": "Adds one reference to a SpriteSet and returns the previous count.",
+    "w3d_sprite_set_query_interface": "Looks up a requested interface on a SpriteSet through its interface table."
+  }
+}

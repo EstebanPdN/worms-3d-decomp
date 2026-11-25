@@ -1,0 +1,13 @@
+{
+  "unit": "s2_strip_groups_r2",
+  "source": "source/matching/game/s2_strip_groups_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_grid_cell_low_8010b560": "0x8010b560",
+    "w3d_grid_cell_8010b57c": "0x8010b57c"
+  },
+  "descriptions": {
+    "w3d_grid_cell_low_8010b560": "Returns the low four bits of a cell in a 9 by 9 byte grid.",
+    "w3d_grid_cell_8010b57c": "Returns a cell from a 9 by 9 byte grid."
+  }
+}

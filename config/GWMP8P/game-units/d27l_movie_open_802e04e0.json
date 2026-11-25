@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_movie_open_802e04e0",
+  "source": "source/matching/game/d27l/d27l_movie_open_802e04e0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_movie_open_802e04e0": "0x802e04e0"
+  },
+  "descriptions": {
+    "d27l_movie_open_802e04e0": "Opens a THP movie file for the player and prepares its buffers and playback state."
+  }
+}

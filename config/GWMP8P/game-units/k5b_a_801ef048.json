@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ef048",
+  "source": "source/matching/game/k5b/k5b_a_801ef048.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_array_ref_lock_801ef048": "0x801ef048"
+  },
+  "descriptions": {
+    "w3d_k5b_array_ref_lock_801ef048": "Appears to make a referenced array writable for count elements (resize or copy-on-write, empty shared array when cleared), bump its lock count and return its data."
+  }
+}

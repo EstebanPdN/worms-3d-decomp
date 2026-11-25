@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cm_8023ac08",
+  "source": "source/matching/game/s21/s21_cm_8023ac08.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_8023ac08": "0x8023ac08"
+  },
+  "descriptions": {
+    "w3d_s21_construct_8023ac08": "Appears to construct an object on a base constructor, install a vtable, zero ten words, retain a shared global interface and set an integer property of 30000."
+  }
+}

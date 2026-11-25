@@ -1,0 +1,11 @@
+{
+  "unit": "sol32c_dispatch_typed_entries_802bdd24",
+  "source": "source/matching/game/sol32c/sol32c_dispatch_typed_entries_802bdd24.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol32c_dispatch_typed_entries_802bdd24": "0x802bdd24"
+  },
+  "descriptions": {
+    "sol32c_dispatch_typed_entries_802bdd24": "When active with a valid resource and selection, clear old entries, validate the selected item count, update position, walk each entry type-parent chain and dispatch one of three observed handlers, then refresh entries. GC32 layout reconstruction; original names and portable runtime unverified."
+  }
+}

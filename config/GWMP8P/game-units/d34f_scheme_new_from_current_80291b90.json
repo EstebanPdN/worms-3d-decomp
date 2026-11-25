@@ -1,0 +1,15 @@
+{
+  "unit": "d34f_scheme_new_from_current_80291b90",
+  "source": "source/matching/game/d34f/d34f_scheme_new_from_current_80291b90.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d34f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d34f_scheme_new_from_current_80291b90": "0x80291b90"
+  },
+  "descriptions": {
+    "d34f_scheme_new_from_current_80291b90": "Copies the current scheme under the name in the input property, unless a scheme with that name exists, and resets its counters, slots and title."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f6b_crate_explode_8004c850",
+  "source": "source/matching/game/f6b/f6b_crate_explode_8004c850.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6b_crate_explode_8004c850": "0x8004c850"
+  },
+  "descriptions": {
+    "f6b_crate_explode_8004c850": "Guard against repeated processing, offset a copied position, read five named crate damage and impulse properties, construct and post the damage message, dispatch the explosion effect and optional Crate.Pop callback, then write Crate.Index, post the named final message and invoke the final helper. Types and gameplay roles are inferred."
+  }
+}

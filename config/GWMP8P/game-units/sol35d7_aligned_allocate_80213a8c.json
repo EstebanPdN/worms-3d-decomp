@@ -1,0 +1,12 @@
+{
+  "unit": "sol35d7_aligned_allocate_80213a8c",
+  "source": "source/matching/game/sol35d7/sol35d7_aligned_allocate_80213a8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d7_aligned_allocate_80213a8c": "0x80213a8c"
+  },
+  "description": "Native aligned allocation: normalize alignment, check request overflow, split and release leading/trailing chunks, and adjust mapped-chunk headers when indicated.",
+  "function_descriptions": {
+    "sol35d7_aligned_allocate_80213a8c": "Native aligned allocation: normalize alignment, check request overflow, split and release leading/trailing chunks, and adjust mapped-chunk headers when indicated."
+  }
+}

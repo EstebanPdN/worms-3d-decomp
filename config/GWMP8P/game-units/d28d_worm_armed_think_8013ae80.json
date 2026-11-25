@@ -1,0 +1,17 @@
+{
+  "unit": "d28d_worm_armed_think_8013ae80",
+  "source": "source/matching/game/d28d/d28d_worm_armed_think_8013ae80.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28d_worm_armed_think_8013ae80": "0x8013ae80"
+  },
+  "descriptions": {
+    "d28d_worm_armed_think_8013ae80": "Armed worm thinking: stops a pending sound, returns when selected; plays the surrender clip when the owner's state asks for it. Keeps aiming while aiming is on. Acts on the squared distance to the selected worm: beyond 202500 a far clip; beyond 40000 aims at the camera position when within 70, else idles; below 6400 reacts to a faced, visible worm with a random clip or a ready clip, or aims or turns; otherwise aims when out of a 0.1 tolerance, or turns."
+  }
+}

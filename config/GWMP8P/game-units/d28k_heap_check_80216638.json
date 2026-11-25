@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_check_80216638",
+  "source": "source/matching/game/d28k/d28k_heap_check_80216638.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_check_80216638": "0x80216638"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_check_80216638": "Debug heap validation: walks all chunks, checks the 0xAD guard bytes around each payload, reports damage and returns the bad-chunk count."
+  }
+}

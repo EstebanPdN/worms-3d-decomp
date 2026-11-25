@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b2_clip_800e96d8",
+  "source": "source/matching/game/sol35b2/sol35b2_clip_800e96d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b2_clip_800e96d8": "0x800e96d8"
+  },
+  "descriptions": {
+    "sol35b2_clip_800e96d8": "For a clip name distinct from the native empty sentinel, obtain the clip duration, derive a rate from the unsigned tick count and native scale, select the lesser rate or local cap by reference, then request named playback with the native blend values. Type identities are inferred."
+  }
+}

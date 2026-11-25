@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_8020ee9c",
+  "source": "source/matching/game/perm/s10perm_8020ee9c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8020ee9c": "0x8020ee9c"
+  },
+  "descriptions": {
+    "w3d_auto_8020ee9c": "Initializes four words to zero, installs the observed interface table at offset 16, and returns the object."
+  }
+}

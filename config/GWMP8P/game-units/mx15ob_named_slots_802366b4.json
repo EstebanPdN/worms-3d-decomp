@@ -1,0 +1,11 @@
+{
+  "unit": "mx15ob_named_slots_802366b4",
+  "source": "source/matching/game/mx15ob/mx15ob_named_slots_802366b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "__16Mx15obNamedSlotsUs": "0x802366b4"
+  },
+  "descriptions": {
+    "__16Mx15obNamedSlotsUs": "Constructs a named slot record: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the table 0x8041a810, sets the word at +20 to 0; sets the word at +24 to 0; copy-constructs the string at +28 from the shared empty string 0x804b06a0 (retaining it); sets the word at +32 to 0; sets the word at +36 to 0; sets the word at +40 to 0; copy-constructs the string at +44 from the shared empty string 0x804b06a0 (retaining it); copy-constructs the string at +48 from the shared empty string 0x804b06a0 (retaining it); copy-constructs the string at +52 from the shared empty string 0x804b06a0 (retaining it); sets the word at +56 to 0; sets the word at +60 to 0; sets the word at +64 to 0; sets the word at +68 to 0. Names and member meanings are inferred; offsets are observed."
+  }
+}

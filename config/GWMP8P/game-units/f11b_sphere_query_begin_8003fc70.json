@@ -1,0 +1,11 @@
+{
+  "unit": "f11b_sphere_query_begin_8003fc70",
+  "source": "source/matching/game/f11b/f11b_sphere_query_begin_8003fc70.cpp",
+  "language": "cpp",
+  "functions": {
+    "f11b_sphere_query_begin_8003fc70": "0x8003fc70"
+  },
+  "descriptions": {
+    "f11b_sphere_query_begin_8003fc70": "Initialize the original sphere-query globals from a selected 32-byte sphere entry and velocity; cache radius and speed squares, filters and cursor, then select the stationary or moving query callback. Field roles are inferred and all global storage remains external."
+  }
+}

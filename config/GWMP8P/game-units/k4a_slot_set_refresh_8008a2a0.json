@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_slot_set_refresh_8008a2a0",
+  "source": "source/matching/game/k4a/k4a_slot_set_refresh_8008a2a0.c",
+  "language": "c",
+  "functions": {
+    "k4a_slot_set_refresh_8008a2a0": "0x8008a2a0"
+  },
+  "descriptions": {
+    "k4a_slot_set_refresh_8008a2a0": "Appears to mark a slot set busy, refresh its six 1500-byte-stride slots between two mode calls and return."
+  }
+}

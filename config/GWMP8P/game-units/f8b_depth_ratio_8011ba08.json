@@ -1,0 +1,14 @@
+{
+  "unit": "f8b_depth_ratio_8011ba08",
+  "source": "source/matching/game/f8b/f8b_depth_ratio_8011ba08.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8b_depth_ratio_8011ba08": "0x8011ba08"
+  },
+  "descriptions": {
+    "f8b_depth_ratio_8011ba08": "Copy two camera vectors through observed callbacks, normalize their difference, project the owner displacement onto that direction and return the resulting depth divided by one of two observed thresholds. Degenerate direction/displacement returns zero. Twenty-four trailing stack bytes have unknown original purpose. Roles, types and layouts are inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

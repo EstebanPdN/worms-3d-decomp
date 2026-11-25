@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_push_entry_801f99d8",
+  "source": "source/matching/game/d28e/d28e_push_entry_801f99d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_push_entry_801f99d8": "0x801f99d8"
+  },
+  "descriptions": {
+    "w3d_d28e_push_entry_801f99d8": "Append a key and a copied 20-byte descriptor to a vector of 24-byte entries (inlined STLport push_back). The descriptor's constructor writes defaults 3, 4, 0, 0 before the copy overwrites them. Returns 0."
+  }
+}

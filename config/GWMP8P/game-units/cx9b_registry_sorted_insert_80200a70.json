@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_registry_sorted_insert_80200a70",
+  "source": "source/matching/game/cx9b/cx9b_registry_sorted_insert_80200a70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_registry_sorted_insert_80200a70": "0x80200a70"
+  },
+  "descriptions": {
+    "w3d_cx9b_registry_sorted_insert_80200a70": "Insert a descriptor in descending signed-byte priority order and clear its run state."
+  }
+}

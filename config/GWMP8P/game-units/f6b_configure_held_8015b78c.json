@@ -1,0 +1,14 @@
+{
+  "unit": "f6b_configure_held_8015b78c",
+  "source": "source/matching/game/f6b/f6b_configure_held_8015b78c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6b_configure_held_8015b78c": "0x8015b78c"
+  },
+  "descriptions": {
+    "f6b_configure_held_8015b78c": "Look up the observed interface, retain the new value and release the prior held value, then configure it through three vector callbacks and a seven-word parameter block. Types, ownership roles and field meanings are inferred. The original 104-byte frame includes sixteen bytes whose purpose is unknown."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

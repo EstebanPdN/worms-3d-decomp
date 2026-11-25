@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_vec_offset_8001bbb0",
+  "source": "source/matching/game/k5a/k5a_vec_offset_8001bbb0.cpp",
+  "language": "cpp",
+  "functions": {"k5a_vec_offset_8001bbb0": "0x8001bbb0"},
+  "descriptions": {"k5a_vec_offset_8001bbb0": "Appears to return a vector offset by a constant three-component vector."}
+}

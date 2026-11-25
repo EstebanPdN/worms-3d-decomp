@@ -1,0 +1,17 @@
+{
+  "unit": "d26d_worm_ground_normal_8014157c",
+  "source": "source/matching/game/d26d/d26d_worm_ground_normal_8014157c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26d_worm_ground_normal_8014157c": "0x8014157c"
+  },
+  "descriptions": {
+    "d26d_worm_ground_normal_8014157c": "Average contact directions over the ten worm collision corners and return a unit normal, up by default."
+  }
+}

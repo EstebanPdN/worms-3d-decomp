@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_select_mode_801a92c8",
+  "source": "source/matching/game/d31e/d31e_select_mode_801a92c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_select_mode_801a92c8": "0x801a92c8"
+  },
+  "descriptions": {
+    "w3d_d31e_select_mode_801a92c8": "Selects a rendering mode on an object: when the mode differs from +160, creates an instance of class record 0x80363b54 (mode 0) or 0x80363ba4 (otherwise) through 0x8020fcb4 and assigns it to the reference at +176 (add new, release old, store). Stores the mode and returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

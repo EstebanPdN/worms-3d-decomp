@@ -1,0 +1,15 @@
+{
+  "unit": "s9factory_801600c4",
+  "source": "source/matching/game/generated/s9factory_801600c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "s9_initialize_factory_type_801600c4": "0x801600c4",
+    "s9_initialize_factory_type_801611e8": "0x801611e8",
+    "s9_initialize_factory_type_80162a84": "0x80162a84"
+  },
+  "descriptions": {
+    "s9_initialize_factory_type_801600c4": "Initializes the named factory record, inserts it in the global factory list and registers the entity class descriptor.",
+    "s9_initialize_factory_type_801611e8": "Initializes the named factory record, inserts it in the global factory list and registers the entity class descriptor.",
+    "s9_initialize_factory_type_80162a84": "Initializes the named factory record, inserts it in the global factory list and registers the entity class descriptor."
+  }
+}

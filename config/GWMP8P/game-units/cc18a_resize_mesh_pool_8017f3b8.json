@@ -1,0 +1,11 @@
+{
+  "unit": "cc18a_resize_mesh_pool_8017f3b8",
+  "source": "source/matching/game/cc18a/cc18a_resize_mesh_pool_8017f3b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18a_resize_mesh_pool_8017f3b8": "0x8017f3b8"
+  },
+  "descriptions": {
+    "w3d_cc18a_resize_mesh_pool_8017f3b8": "Resizes the observed204-byte mesh-instance pool, destroys prior elements in reverse, constructs new elements and rebuilds the unsigned16 index free list."
+  }
+}

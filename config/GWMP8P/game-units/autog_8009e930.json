@@ -1,0 +1,17 @@
+{
+  "unit": "autog_8009e930",
+  "source": "source/matching/game/auto/autog_8009e930.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8009e930": "0x8009e930",
+    "w3d_auto_8009e998": "0x8009e998",
+    "w3d_auto_8009f464": "0x8009f464",
+    "w3d_auto_800a2098": "0x800a2098"
+  },
+  "descriptions": {
+    "w3d_auto_8009e930": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8009e998": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_8009f464": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review.",
+    "w3d_auto_800a2098": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review."
+  }
+}

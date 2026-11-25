@@ -1,0 +1,41 @@
+{
+  "unit": "s4_card_save",
+  "source": "source/matching/game/s4_card_save.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_save_step": "0x802aca28",
+    "w3d_s4_card_save_begin": "0x802acc68",
+    "w3d_s4_card_save_open": "0x802acd20",
+    "w3d_s4_card_save_create": "0x802acde8",
+    "w3d_s4_card_save_status": "0x802aceb8",
+    "w3d_s4_card_save_write_new": "0x802acf74",
+    "w3d_s4_card_save_write_old": "0x802ad024",
+    "w3d_s4_card_save_close_new": "0x802ad254",
+    "w3d_s4_card_save_delete_old": "0x802ad2dc",
+    "w3d_s4_card_save_rename": "0x802ad360",
+    "w3d_s4_card_save_close_old": "0x802ad3f0",
+    "w3d_s4_card_save_overwrite_message": "0x802ad48c",
+    "w3d_s4_card_save_done_message": "0x802ad510",
+    "w3d_s4_card_save_ready_message": "0x802ad570",
+    "w3d_s4_card_save_failed_message": "0x802ad5d4",
+    "w3d_s4_card_save_damaged_message": "0x802ad638"
+  },
+  "descriptions": {
+    "w3d_s4_card_save_step": "Dispatches card-save operations and returns their progress or completion state.",
+    "w3d_s4_card_save_begin": "Prepares save filenames and the buffer checksum before opening a card file.",
+    "w3d_s4_card_save_open": "Opens the original file and records its file number.",
+    "w3d_s4_card_save_create": "Creates a temporary save file and handles insufficient card space.",
+    "w3d_s4_card_save_status": "Reads the status of the new or existing save file.",
+    "w3d_s4_card_save_write_new": "Writes the save buffer to the temporary card file.",
+    "w3d_s4_card_save_write_old": "Writes the save buffer to the existing card file.",
+    "w3d_s4_card_save_close_new": "Closes the temporary save file before replacing the original.",
+    "w3d_s4_card_save_delete_old": "Deletes the original save file when it exists.",
+    "w3d_s4_card_save_rename": "Renames the temporary save file to the original filename.",
+    "w3d_s4_card_save_close_old": "Closes the original save file when it exists.",
+    "w3d_s4_card_save_overwrite_message": "Handles the prompt to overwrite an existing save file.",
+    "w3d_s4_card_save_done_message": "Handles acknowledgment of the completed save prompt.",
+    "w3d_s4_card_save_ready_message": "Handles confirmation to begin creating the save file.",
+    "w3d_s4_card_save_failed_message": "Handles acknowledgment of the failed save prompt.",
+    "w3d_s4_card_save_damaged_message": "Handles the damaged-card save prompt."
+  }
+}

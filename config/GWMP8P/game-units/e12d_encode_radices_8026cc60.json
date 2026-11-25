@@ -1,0 +1,11 @@
+{
+  "unit": "e12d_encode_radices_8026cc60",
+  "source": "source/matching/game/e12d/e12d_encode_radices_8026cc60_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "e12d_encode_radices_8026cc60": "0x8026cc60"
+  },
+  "descriptions": {
+    "e12d_encode_radices_8026cc60": "Encode a seed's nine mixed-radix digits into one scalar: copy digit 0 into the encoded field, then for each following digit rebuild the product of the lower radices from the static unsigned-short radix table and add digit*product to the encoded field. Finally format the seed through the original formatter with the encoded value passed through the original non-zero helper (value, or 1 when zero) and return the encoded value. Preserve the radix order, digit stride, unsigned arithmetic and the variadic call. Partial seed view; complete original type unknown. No owned initialized data (the radix table and format string are referenced as external original data)."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unit": "h1_stlport_find_int",
+  "source": "source/matching/game/h1/h1_stlport_find_int.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_find_80356474": "0x80356474",
+    "w3d_find_80356884": "0x80356884",
+    "w3d_find_80356934": "0x80356934",
+    "w3d_find_80359cec": "0x80359cec",
+    "w3d_find_8035c414": "0x8035c414"
+  },
+  "descriptions": {
+    "w3d_find_80356474": "STLport find over an int array: returns the first element equal to val, or last (loop unrolled by four).",
+    "w3d_find_80356884": "STLport find over an int array: returns the first element equal to val, or last (loop unrolled by four).",
+    "w3d_find_80356934": "STLport find over an int array: returns the first element equal to val, or last (loop unrolled by four).",
+    "w3d_find_80359cec": "STLport find over an int array: returns the first element equal to val, or last (loop unrolled by four).",
+    "w3d_find_8035c414": "STLport find over an int array: returns the first element equal to val, or last (loop unrolled by four)."
+  }
+}

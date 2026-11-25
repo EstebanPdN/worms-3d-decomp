@@ -1,0 +1,15 @@
+{
+  "unit": "d40m_box3_box3_test_800c59cc",
+  "source": "source/matching/game/d40m/d40m_box3_box3_test_800c59cc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40m"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d40m_box3_box3_test_800c59cc": "0x800c59cc"
+  },
+  "descriptions": {
+    "d40m_box3_box3_test_800c59cc": "Tests two oriented boxes for overlap with the separating axis theorem and returns 1 when they intersect."
+  }
+}

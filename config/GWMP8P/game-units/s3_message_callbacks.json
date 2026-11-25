@@ -1,0 +1,23 @@
+{
+  "unit": "s3_message_callbacks",
+  "source": "source/matching/game/s3_message_callbacks.c",
+  "language": "c",
+  "functions": {
+    "w3d_message_cache_construct": "0x8015f4cc",
+    "w3d_message_cache_equals": "0x8015f620",
+    "w3d_message_id_equals_cache": "0x8015f65c",
+    "w3d_text_cache_construct": "0x8015f704",
+    "w3d_text_cache_assign": "0x8015f74c",
+    "w3d_callback_link": "0x8015f7e0",
+    "w3d_callback_dispatch": "0x8015fc84"
+  },
+  "descriptions": {
+    "w3d_message_cache_construct": "Initializes a cached message identifier and clears its name flag.",
+    "w3d_message_cache_equals": "Compares a resolved cached-message identifier with an integer.",
+    "w3d_message_id_equals_cache": "Compares an integer with a resolved cached-message identifier.",
+    "w3d_text_cache_construct": "Constructs a text-backed cached message and assigns its text.",
+    "w3d_text_cache_assign": "Assigns cached text or the shared empty string and clears its resolution flag.",
+    "w3d_callback_link": "Links a callback node at the intrusive-list head and copies its member descriptor.",
+    "w3d_callback_dispatch": "Invokes member callbacks in list order until one returns an error."
+  }
+}

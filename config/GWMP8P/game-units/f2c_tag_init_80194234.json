@@ -1,0 +1,11 @@
+{
+  "unit": "f2c_tag_init_80194234",
+  "source": "source/matching/game/f2c/f2c_tag_init_80194234.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2c_tag_init_80194234": "0x80194234"
+  },
+  "descriptions": {
+    "f2c_tag_init_80194234": "Initialize the observed tag and twelve word pairs, clear scalar words and load one constant float at offset 20. Names, layout and unused frame storage purpose inferred."
+  }
+}

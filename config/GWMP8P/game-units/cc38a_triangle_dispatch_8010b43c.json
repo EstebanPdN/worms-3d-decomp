@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_triangle_dispatch_8010b43c",
+  "source": "source/matching/game/cc38a/cc38a_triangle_dispatch_8010b43c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_triangle_dispatch_8010b43c": "0x8010b43c"
+  },
+  "descriptions": {
+    "cc38a_triangle_dispatch_8010b43c": "Prepare a triangle and dispatch its alternate low/high layers from the second table pair, preserving all three flag checks and callback order."
+  }
+}

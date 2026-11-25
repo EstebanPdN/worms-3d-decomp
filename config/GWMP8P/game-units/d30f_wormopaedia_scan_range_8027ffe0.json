@@ -1,0 +1,15 @@
+{
+  "unit": "d30f_wormopaedia_scan_range_8027ffe0",
+  "source": "source/matching/game/d30f/d30f_wormopaedia_scan_range_8027ffe0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30f_wormopaedia_scan_range_8027ffe0": "0x8027ffe0"
+  },
+  "descriptions": {
+    "d30f_wormopaedia_scan_range_8027ffe0": "Scan the Wormopaedia list and store the first and last accepted indices and the number of accepted entries."
+  }
+}

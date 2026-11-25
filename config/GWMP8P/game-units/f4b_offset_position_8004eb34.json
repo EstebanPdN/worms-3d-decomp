@@ -1,0 +1,11 @@
+{
+  "unit": "f4b_offset_position_8004eb34",
+  "source": "source/matching/game/f4b/f4b_offset_position_8004eb34.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4b_offset_position_8004eb34": "0x8004eb34"
+  },
+  "descriptions": {
+    "f4b_offset_position_8004eb34": "Copy the input vector into object offset 96. Fetch a vector through the service at global context offset 48 and virtual slot 56, form and normalize its difference from the input using the original constant, add that vector to object offset 96, then add the original rise constant to offset 100. Position and rise roles are inferred."
+  }
+}

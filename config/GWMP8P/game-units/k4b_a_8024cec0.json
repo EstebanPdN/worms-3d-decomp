@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_8024cec0",
+  "source": "source/matching/game/k4b/k4b_a_8024cec0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_widget_construct_8024cec0": "0x8024cec0"
+  },
+  "descriptions": {
+    "w3d_k4b_widget_construct_8024cec0": "Appears to construct a widget over 0x8024cd0c: vtable 0x8041b870, zero rectangle, three retained shared interfaces, cleared state words and enabled flags."
+  }
+}

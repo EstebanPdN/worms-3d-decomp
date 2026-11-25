@@ -1,0 +1,11 @@
+{
+  "unit": "cc28a_planner_reset_dispatch_80021234",
+  "source": "source/matching/game/cc28a/cc28a_planner_reset_dispatch_80021234.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc28a_planner_reset_dispatch_80021234": "0x80021234"
+  },
+  "descriptions": {
+    "cc28a_planner_reset_dispatch_80021234": "Clear planner registry; if active, optionally construct and activate a transient Default action for team state1, destroy it, and reset planning."
+  }
+}

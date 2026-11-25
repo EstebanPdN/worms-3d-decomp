@@ -1,0 +1,40 @@
+#define F(p,T,o) (*(T*)((char*)(p)+(o)))
+extern "C" void fn_8020c5c4(void*);
+extern "C" void fn_80341588(void*);
+struct Text_803426b8{
+ Text_803426b8(const Text_803426b8 &);char*p;Text_803426b8();~Text_803426b8(){fn_8020c5c4(this);fn_80341588(this);}};
+extern "C" void fn_802cd26c(Text_803426b8*,int,int);
+extern "C" void fn_802cc0ac(Text_803426b8*,const char*,int);
+extern "C" void fn_8027a934(void*,int);
+extern "C" void fn_802cd220(Text_803426b8*);
+extern "C" void fn_802cd128(Text_803426b8*);
+extern "C" void fn_802cbf2c(Text_803426b8*,const char*,int);
+extern "C" void fn_802cd2e0(void*,int);
+extern "C" void fn_802cbdf8(int,const char*,int);
+extern "C" void fn_802cbfe0(Text_803426b8*,const void*,int);
+extern "C" void fn_802cbfa4(Text_803426b8*,float,int);
+extern char title_803cdbec[],line_803ccc40[],empty_803cc0d8[],help_803cdd8c[],help_803cdddc[];
+extern char label_803cdc08[];
+extern char label_803cdc28[];
+extern char label_803cdc50[];
+extern char label_803cdc70[];
+extern char label_803cdc90[];
+extern char label_803cdcb0[];
+extern char label_803cdcd0[];
+extern char label_803cdcf0[];
+extern char label_803cdd10[];
+extern char label_803cdd30[];
+extern char label_803cdd50[];
+extern char label_803cdd70[];
+extern "C" void w3d_f5a_show_base_edit_80275f18(void*self){fn_8027a934(self,1);Text_803426b8 text;fn_802cd220(&text);fn_802cd128(&text);F(self,int,36)=19;
+fn_802cbf2c(&text,title_803cdbec,7);fn_802cbf2c(&text,line_803ccc40,7);fn_802cbf2c(&text,empty_803cc0d8,9);
+fn_802cc0ac(&text,label_803cdc08,9);fn_802cbfe0(&text,(char*)F(self,void*,92)+32,9);fn_802cbf2c(&text,label_803cdc28,9);
+fn_802cc0ac(&text,label_803cdc50,9);fn_802cbfe0(&text,(char*)F(self,void*,92)+20,9);
+fn_802cc0ac(&text,label_803cdc70,9);fn_802cbf2c(&text,F(F(self,void*,92),char*,88),9);
+fn_802cc0ac(&text,label_803cdc90,9);fn_802cbf2c(&text,F(F(self,void*,92),char*,84),9);
+fn_802cc0ac(&text,label_803cdcb0,9);fn_802cbf2c(&text,F(F(self,void*,92),char*,80),9);
+fn_802cc0ac(&text,label_803cdcd0,9);fn_802cbf2c(&text,F(F(self,void*,92),char*,76),9);
+fn_802cc0ac(&text,label_803cdcf0,9);fn_802cbf2c(&text,F(F(self,void*,92),char*,72),9);
+fn_802cc0ac(&text,label_803cdd10,9);fn_802cbf2c(&text,F(F(self,void*,92),char*,68),9);
+fn_802cc0ac(&text,label_803cdd30,9);fn_802cbfa4(&text,F(F(self,void*,92),float,64),9);fn_802cc0ac(&text,label_803cdd50,9);fn_802cbf2c(&text,F(F(self,void*,92),char*,60),9);fn_802cc0ac(&text,label_803cdd70,9);
+fn_802cd26c(&text,0,23);fn_802cbf2c(&text,help_803cdd8c,7);fn_802cc0ac(&text,help_803cdddc,7);fn_802cbdf8((int)(F(self,void*,32)),text.p,9);}

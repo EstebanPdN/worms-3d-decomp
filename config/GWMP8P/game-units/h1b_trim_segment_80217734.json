@@ -1,0 +1,11 @@
+{
+  "unit": "h1b_trim_segment_80217734",
+  "source": "source/matching/game/h1b/h1b_trim_segment_80217734.cpp",
+  "language": "cpp",
+  "functions": {
+    "h1b_trim_segment_80217734": "0x80217734"
+  },
+  "descriptions": {
+    "h1b_trim_segment_80217734": "Trims a partial external heap segment through its resize callback, rounding to backend quantum and optional heap granularity, preserving minimum24-byte remainder and updating end sentinel on success. For whole-segment release, unlinks before the callback and restores its original list position on failure. External prefixes and byte pointers only; no locally instantiated views or owned initialized data."
+  }
+}

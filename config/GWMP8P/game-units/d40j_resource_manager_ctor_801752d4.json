@@ -1,0 +1,20 @@
+{
+  "unit": "d40j_resource_manager_ctor_801752d4",
+  "source": "source/matching/game/d40j/d40j_resource_manager_ctor_801752d4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "__19D40jResourceManager": "0x801752d4"
+  },
+  "descriptions": {
+    "__19D40jResourceManager": "Resource manager constructor: base and derived vtables, tagged-word header, 256 hash buckets (0x8034cb20), global pointer 0x804ab5c4; reads DRM.MaxInstances (default 3000) and DRM.MaxHooks (default 256) through 0x80206920; allocates the hook array and pushes each index on the free list; resizes the used-instance bit array to the instance count and allocates the instance reference table. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

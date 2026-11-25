@@ -1,0 +1,11 @@
+{
+  "unit": "s10props_801c9428",
+  "source": "source/matching/game/s10/s10props_801c9428.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_register_properties_801c9428": "0x801c9428"
+  },
+  "descriptions": {
+    "w3d_s10_register_properties_801c9428": "Lazily initializes and registers 2 observed property descriptors with their names, sizes, type bytes and helper pointers, then invokes the final registration helper."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d29d_worm_graphic_message_80132c7c",
+  "source": "source/matching/game/d29d/d29d_worm_graphic_message_80132c7c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29d_worm_graphic_message_80132c7c": "0x80132c7c"
+  },
+  "descriptions": {
+    "d29d_worm_graphic_message_80132c7c": "Worm graphic entity message handler. Message 64 runs the base handler then the setup at 0x80134644, with 0x80004005 on failure; message 66 releases effects. Other messages are tested in turn: camera and interface updates, weapon and component attachment, snap animations by state, speech lines (some picked at random), scripted reactions, resource resets, and timing; falls through to the base handler."
+  }
+}

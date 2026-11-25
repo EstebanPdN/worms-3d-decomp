@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_init_actor_hooks_801e7658",
+  "source": "source/matching/game/d31e/d31e_init_actor_hooks_801e7658.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_init_actor_hooks_801e7658": "0x801e7658"
+  },
+  "descriptions": {
+    "w3d_d31e_init_actor_hooks_801e7658": "Sets up an actor's per-class state: when the object owns itself, sizes the hook and state arrays to the global class list (filling hooks with 0x801e716c) and copies them otherwise from the owner, then for each interface of kind 5 matching its type walks the null-terminated 16-byte entry table, finds the class index with 0x801e8f64 and, when the entry's mask is enabled, registers the hook through 0x801e7270. Finally visits actor types to fill their values through each instance table. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

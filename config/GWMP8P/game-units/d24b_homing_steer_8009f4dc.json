@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_homing_steer_8009f4dc",
+  "source": "source/matching/game/d24b/d24b_homing_steer_8009f4dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_homing_steer_8009f4dc": "0x8009f4dc"
+  },
+  "descriptions": {
+    "w3d_d24b_homing_steer_8009f4dc": "Homing projectile steering: takes the direction from the position +36 to the target +308 and, unless zero, normalizes it, accelerates the velocity +48 along it by the weapon's acceleration +560 (description cast from +192) times the frame time 0x804b1944, limits the speed to the weapon's maximum +564 and rescales the velocity."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

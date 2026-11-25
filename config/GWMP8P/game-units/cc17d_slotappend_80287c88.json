@@ -1,0 +1,11 @@
+{
+ "unit": "cc17d_slotappend_80287c88",
+ "source": "source/matching/game/cc17d/cc17d_slotappend_80287c88.cpp",
+ "language": "cpp",
+ "functions": {
+  "w3d_cc17d_slot_owner_append_80287c88": "0x80287c88"
+ },
+ "descriptions": {
+  "w3d_cc17d_slot_owner_append_80287c88": "Calls the item's vtable slot +88 with 0, assigns it to slot [count] of the 64-entry interface array at +28 (retaining the new item through slot +12 and releasing the previous one through slot +16), increments the count at +284 and sets bit 31 of the word at +288."
+ }
+}

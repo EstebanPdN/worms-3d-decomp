@@ -1,0 +1,11 @@
+{
+  "unit": "f9b_freeze_effect_8013db60",
+  "source": "source/matching/game/f9b/f9b_freeze_effect_8013db60.cpp",
+  "language": "cpp",
+  "functions": {
+    "f9b_freeze_effect_8013db60": "0x8013db60"
+  },
+  "descriptions": {
+    "f9b_freeze_effect_8013db60": "Create and position the freeze effect, assign its owner and play one of three freeze animations. Field meanings and external signatures remain inferred. Roles, types and layouts are inferred."
+  }
+}

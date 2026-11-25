@@ -1,0 +1,11 @@
+{
+  "unit": "s21_eu_801e6cd0",
+  "source": "source/matching/game/s21/s21_eu_801e6cd0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_register_stream_801e6cd0": "0x801e6cd0"
+  },
+  "descriptions": {
+    "w3d_s21_register_stream_801e6cd0": "Appears to register a stream handle: it appends a valid handle to the global table unless more than five streams are active, in which case it logs the count."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_set_shared_name_pair_802c4498",
+  "source": "source/matching/game/f1p/f1p_set_shared_name_pair_802c4498.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_set_shared_name_pair_802c4498": "0x802c4498"
+  },
+  "descriptions": {
+    "w3d_set_shared_name_pair_802c4498": "Compare both observed shared-name fields against the two incoming by-value strings; when either differs, retain and assign both original headers and conditionally invoke the native refresh callback. Destroy both incoming strings in the witnessed order. Shared header ownership and full code bytes are verified; type names, field meanings and receiver layout are inferred partial external views. No local opaque allocation or initialized-data ownership is claimed."
+  }
+}

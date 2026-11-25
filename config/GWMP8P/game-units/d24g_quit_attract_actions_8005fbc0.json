@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_quit_attract_actions_8005fbc0",
+  "source": "source/matching/game/d24g/d24g_quit_attract_actions_8005fbc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_quit_attract_actions_8005fbc0": "0x8005fbc0"
+  },
+  "descriptions": {
+    "w3d_d24g_quit_attract_actions_8005fbc0": "Appends input actions to the owner's pointer vector at +36: FCS.QuitAttractMode (12, 1), FCS.QuitAttractMode (8, 1), FCS.QuitAttractMode (9, 1). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

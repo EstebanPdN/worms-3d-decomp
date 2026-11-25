@@ -1,0 +1,11 @@
+{
+  "unit": "s21_al_801fe4d8",
+  "source": "source/matching/game/s21/s21_al_801fe4d8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_elapsed_801fe4d8": "0x801fe4d8"
+  },
+  "descriptions": {
+    "w3d_s21_elapsed_801fe4d8": "Appears to return a 64-bit value from a clock helper minus a global 64-bit base."
+  }
+}

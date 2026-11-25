@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_serialize_list_801de218",
+  "source": "source/matching/game/d24e/d24e_serialize_list_801de218.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_serialize_list_801de218": "0x801de218"
+  },
+  "descriptions": {
+    "w3d_d24e_serialize_list_801de218": "Exchanges a count through stream virtual slot 42, resizes the list at +20 through 0x80210b90, exchanges each element through slot 8 and the word at +32 through slot 37, and returns 0."
+  }
+}

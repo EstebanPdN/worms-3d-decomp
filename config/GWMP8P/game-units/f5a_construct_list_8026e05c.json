@@ -1,0 +1,11 @@
+{
+  "unit": "f5a_construct_list_8026e05c",
+  "source": "source/matching/game/f5a/f5a_construct_list_8026e05c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f5a_construct_list_8026e05c": "0x8026e05c"
+  },
+  "descriptions": {
+    "w3d_f5a_construct_list_8026e05c": "Observed construct_list with inferred field layout and semantic roles."
+  }
+}

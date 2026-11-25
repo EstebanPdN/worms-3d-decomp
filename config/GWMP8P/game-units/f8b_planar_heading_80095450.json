@@ -1,0 +1,11 @@
+{
+  "unit": "f8b_planar_heading_80095450",
+  "source": "source/matching/game/f8b/f8b_planar_heading_80095450.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8b_planar_heading_80095450": "0x80095450"
+  },
+  "descriptions": {
+    "f8b_planar_heading_80095450": "Copy the selected entry endpoints, subtract to form a planar heading, skip normalization for the bitwise default vector, then compute its cross product with an explicitly constructed up vector. Roles, types and layouts are inferred."
+  }
+}

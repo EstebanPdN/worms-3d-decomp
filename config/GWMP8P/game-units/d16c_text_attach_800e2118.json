@@ -1,0 +1,11 @@
+{
+  "unit": "d16c_text_attach_800e2118",
+  "source": "source/matching/game/d16c/d16c_text_attach_800e2118.cpp",
+  "language": "cpp",
+  "functions": {
+    "d16c_text_attach_800e2118": "0x800e2118"
+  },
+  "descriptions": {
+    "d16c_text_attach_800e2118": "Load the \"NULL\" resource into the owner's handle (+300) through a temporary shared string, attach the handle to the target via its virtual slot +92 with the caller's value, and set owner flags +180 bit 16 (and bit 32 when wide is requested)."
+  }
+}

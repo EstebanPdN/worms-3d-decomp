@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_material_types_sinit_801cf1d0",
+  "source": "source/matching/game/cc17c/cc17c_material_types_sinit_801cf1d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_sinit_801cf1d0": "0x801cf1d0"
+  },
+  "descriptions": {
+    "w3d_cc17c_sinit_801cf1d0": "Static initializer: constructs the 41 shader, font, string-table, material attribute, image and texture type descriptors (XShader through XCubeTextureMap) in original order."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "unit": "cc17d_prop_edit_8027a2c4",
+  "source": "source/matching/game/cc17d/cc17d_prop_edit_8027a2c4.c",
+  "language": "c",
+  "functions": {
+    "w3d_cc17d_float_edit_8027a2c4": "0x8027a2c4",
+    "w3d_cc17d_bool_edit_8027a7fc": "0x8027a7fc"
+  },
+  "descriptions": {
+    "w3d_cc17d_float_edit_8027a2c4": "Float property editor: when the text is not empty, converts it with atof and stores the single-precision value at the field offset that 0x801e9db8 returns for the editor's key (+96) in the type of the edited object (+92, vtable slot +20); then calls 0x8027ae00 and 0x8027a98c with the editor.",
+    "w3d_cc17d_bool_edit_8027a7fc": "Boolean property editor: for the characters '0' and '1' stores 0 or 1 into the int field located like 0x8027a2c4 (key at +96, object at +92); then calls 0x8027ae00 and 0x8027a98c with the editor."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

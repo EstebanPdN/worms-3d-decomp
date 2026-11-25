@@ -1,0 +1,11 @@
+{
+  "unit": "cc24b_root_bracket_801974f8",
+  "source": "source/matching/game/cc24b/cc24b_root_bracket_801974f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc24b_root_bracket_801974f8": "0x801974f8"
+  },
+  "descriptions": {
+    "w3d_cc24b_root_bracket_801974f8": "Evaluates a polynomial at two bracket endpoints, returns either endpoint when its absolute value is below the observed threshold, otherwise forwards both values and tolerance to the original root helper. Unordered comparisons follow the original branch tree. The original80-byte frame includes32 bytes of reserved local extent whose source role remains unknown."
+  }
+}

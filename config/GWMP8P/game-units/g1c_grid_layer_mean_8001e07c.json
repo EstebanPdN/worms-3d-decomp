@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_grid_layer_mean_8001e07c",
+  "source": "source/matching/game/g1c/g1c_grid_layer_mean_8001e07c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_grid_layer_mean_8001e07c": "0x8001e07c"
+  },
+  "descriptions": {
+    "g1c_grid_layer_mean_8001e07c": "Find the external grid layer using the original forwarded receiver/coordinates/channel, return the owner fallback when absent, otherwise derive the linear cell index from signed16-bit bounds and coordinates, select the two channel sample planes at offsets68 and100 plus channel*16, and return their sum times original8036b818. All storage is external, no complete layer footprint, construction, or external data ownership claimed."
+  }
+}

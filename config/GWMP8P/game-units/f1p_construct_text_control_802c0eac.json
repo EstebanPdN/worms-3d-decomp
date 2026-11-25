@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_construct_text_control_802c0eac",
+  "source": "source/matching/game/f1p/f1p_construct_text_control_802c0eac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_text_control_802c0eac": "0x802c0eac"
+  },
+  "descriptions": {
+    "w3d_construct_text_control_802c0eac": "Initialize the original base, three held fields and shared text, release/reclear the third held field, and install the witnessed scalar/vector defaults and mode99 through owner byte111. Names, interface signatures and meanings inferred. Base writes28 bytes and default text writes one pointer; receiver storage remains caller-owned and no complete semantic class identity is claimed."
+  }
+}

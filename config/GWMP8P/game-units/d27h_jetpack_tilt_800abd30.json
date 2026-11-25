@@ -1,0 +1,17 @@
+{
+  "unit": "d27h_jetpack_tilt_800abd30",
+  "source": "source/matching/game/d27h/d27h_jetpack_tilt_800abd30.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27h_jetpack_tilt_800abd30": "0x800abd30"
+  },
+  "descriptions": {
+    "d27h_jetpack_tilt_800abd30": "Jetpack tilt: flattens the velocity at +100; if its squared length is zero sets +156 to 0.5; otherwise rotates (0,0,1) by the yaw at +92 through 0x801f7538, normalizes both vectors, and stores the acos of their clamped dot divided by pi at +156, clamped to 0..1."
+  }
+}

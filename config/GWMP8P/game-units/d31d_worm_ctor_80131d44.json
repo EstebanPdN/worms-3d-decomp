@@ -1,0 +1,14 @@
+{
+  "unit": "d31d_worm_ctor_80131d44",
+  "source": "source/matching/game/d31d/d31d_worm_ctor_80131d44.cpp",
+  "language": "cpp",
+  "functions": {
+    "__13Worm_80410e80": "0x80131d44"
+  },
+  "descriptions": {
+    "__13Worm_80410e80": "Worm graphic entity constructor. Runs the base constructor 0x8015fef0, installs the table 0x80410e80, clears every field, builds the strings at +116, +120, +656 and the handle at +720, releases the references at +164, +168 and +544, and sets the state defaults: -1 in the clip indices, 1.0 and 0.0 floats, the zero vector in +624 and +64."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

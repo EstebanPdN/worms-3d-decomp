@@ -1,0 +1,5 @@
+c source/matching/game/s20/s20_small_am.c
+w3d_s20_swap_handles_800f3028|0x800f3028|Appears to release a held object and a table of 200 held objects when a pending handle differs from the current one, then switch to the pending handle.
+w3d_s20_replace_held_800f3524|0x800f3524|Appears to notify a new held object, release the previous one, store the new one, rebind a resource, set a flag and release the temporary reference.
+w3d_s20_can_accept_id_800f899c|0x800f899c|Appears to return 0 when a mode flag blocks the id or the id is already in the list, otherwise return whether a service call accepts it.
+w3d_s20_accumulate_offset_800e9528|0x800e9528|Appears to fetch a sub-object, query its position through virtual method 11, query a zeroed offset through virtual method 15 and add the offset to the position.

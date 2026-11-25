@@ -1,0 +1,11 @@
+{
+  "unit": "s12_retain_801bea98",
+  "source": "source/matching/game/s12/s12_retain_801bea98.c",
+  "language": "c",
+  "functions": {
+    "w3d_s12_initialize_interfaces_801bea98": "0x801bea98"
+  },
+  "descriptions": {
+    "w3d_s12_initialize_interfaces_801bea98": "Initializes the base object, installs the observed method table, and initializes 5 interface fields from shared globals while retaining each non-null value."
+  }
+}

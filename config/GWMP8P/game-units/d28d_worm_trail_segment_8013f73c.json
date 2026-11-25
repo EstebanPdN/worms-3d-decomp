@@ -1,0 +1,15 @@
+{
+  "unit": "d28d_worm_trail_segment_8013f73c",
+  "source": "source/matching/game/d28d/d28d_worm_trail_segment_8013f73c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d28d_worm_trail_segment_8013f73c": "0x8013f73c"
+  },
+  "descriptions": {
+    "d28d_worm_trail_segment_8013f73c": "Worm trail update: does nothing without a target handle; releases the trail when the mesh is missing or its clip is playing; clears the handle when the lookup fails; otherwise reads the world transforms of the two attachment objects through virtual slot 31 and sets the trail segment between their positions."
+  }
+}

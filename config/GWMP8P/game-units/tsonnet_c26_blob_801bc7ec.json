@@ -1,0 +1,1 @@
+{"unit": "tsonnet_c26_blob_801bc7ec", "source": "source/matching/game/tsonnet_c26/tsonnet_c26_blob_801bc7ec.c", "language": "c", "functions": {"tsonnet_c26_register_blob_801bc7ec": "0x801bc7ec"}, "descriptions": {"tsonnet_c26_register_blob_801bc7ec": "Create a typed record, copy a 48-byte default blob into it, bind a member and finish registration."}}

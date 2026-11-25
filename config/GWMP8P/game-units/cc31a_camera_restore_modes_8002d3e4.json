@@ -1,0 +1,11 @@
+{
+  "unit": "cc31a_camera_restore_modes_8002d3e4",
+  "source": "source/matching/game/cc31a/cc31a_camera_restore_modes_8002d3e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc31a_camera_restore_modes_8002d3e4": "0x8002d3e4"
+  },
+  "descriptions": {
+    "cc31a_camera_restore_modes_8002d3e4": "Reset camera state, copy three observed three-word vectors and post three action-name plus six movement-mode string messages in original order."
+  }
+}

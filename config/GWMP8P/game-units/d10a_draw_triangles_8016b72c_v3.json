@@ -1,0 +1,11 @@
+{
+  "unit": "d10a_draw_triangles_8016b72c_v3",
+  "source": "source/matching/game/d10a/d10a_draw_triangles_8016b72c_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10a_draw_triangles_8016b72c": "0x8016b72c"
+  },
+  "descriptions": {
+    "d10a_draw_triangles_8016b72c": "Apply triangle mesh state and reuse its cached display list, or allocate/build/publish a new list while saving and restoring the stream cursor. Preserve unsigned triple-count wrap, halfword vertex-count truncation, error status, cache callback order, and conditional execution."
+  }
+}

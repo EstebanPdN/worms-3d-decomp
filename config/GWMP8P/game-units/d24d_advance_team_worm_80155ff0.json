@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_advance_team_worm_80155ff0",
+  "source": "source/matching/game/d24d/d24d_advance_team_worm_80155ff0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_advance_team_worm_80155ff0": "0x80155ff0"
+  },
+  "descriptions": {
+    "d24d_advance_team_worm_80155ff0": "Reads the ActiveWormIndex setting, takes that worm's team byte (+213), and when the team's list (+52) is not empty steps its cursor (+148, wrapping at the list size); a listed value up to 16 goes to 0x80178c54 on the object from 0x803426b4 (+296); then runs the team update 0x801558dc."
+  }
+}

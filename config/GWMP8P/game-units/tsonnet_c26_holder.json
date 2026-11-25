@@ -1,0 +1,1 @@
+{"unit": "tsonnet_c26_holder", "source": "source/matching/game/tsonnet_c26/tsonnet_c26_holder.c", "language": "c", "functions": {"tsonnet_c26_set_held_801f3044": "0x801f3044"}, "descriptions": {"tsonnet_c26_set_held_801f3044": "Replace the held interface after notifying the new one and releasing the old, then clear the top flag bit."}}

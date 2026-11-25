@@ -1,0 +1,15 @@
+{
+  "unit": "s4_text_edit",
+  "source": "source/matching/game/s4_text_edit.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_text_edit_construct": "0x802a1730",
+    "w3d_s4_text_edit_destroy": "0x802a17a4",
+    "w3d_s4_text_edit_initialize_cursor": "0x802a1a80"
+  },
+  "descriptions": {
+    "w3d_s4_text_edit_construct": "Constructs the text-entry widget and initializes its held interfaces and strings.",
+    "w3d_s4_text_edit_destroy": "Releases text-entry strings and held interfaces before invoking the base destructor.",
+    "w3d_s4_text_edit_initialize_cursor": "Subscribes cursor input, initializes cursor state and loads the configured cursor sound."
+  }
+}

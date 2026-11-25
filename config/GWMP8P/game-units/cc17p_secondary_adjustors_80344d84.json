@@ -1,0 +1,31 @@
+{
+  "unit": "cc17p_secondary_adjustors_80344d84",
+  "source": "source/matching/game/cc17p/cc17p_secondary_adjustors_80344d84.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/cc17p"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "__thunk_28_run_800e275c__8Cc17pTC3": "0x80344d9c",
+    "__thunk_28_run_800e4f08__8Cc17pTC7": "0x80344dbc",
+    "__thunk_28_run_800e2344__8Cc17pTC0PvN21": "0x80344d84",
+    "__thunk_28_run_800e21b8__8Cc17pTC1PvT1": "0x80344d8c",
+    "__thunk_28_run_800e2368__8Cc17pTC2PvT1": "0x80344d94",
+    "__thunk_28_run_800e45ac__8Cc17pTC4PvN21": "0x80344da4",
+    "__thunk_28_run_800e4414__8Cc17pTC5PvT1": "0x80344dac",
+    "__thunk_28_run_800e45d0__8Cc17pTC6PvT1": "0x80344db4"
+  },
+  "descriptions": {
+    "__thunk_28_run_800e275c__8Cc17pTC3": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e275c.",
+    "__thunk_28_run_800e4f08__8Cc17pTC7": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e4f08.",
+    "__thunk_28_run_800e2344__8Cc17pTC0PvN21": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e2344.",
+    "__thunk_28_run_800e21b8__8Cc17pTC1PvT1": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e21b8.",
+    "__thunk_28_run_800e2368__8Cc17pTC2PvT1": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e2368.",
+    "__thunk_28_run_800e45ac__8Cc17pTC4PvN21": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e45ac.",
+    "__thunk_28_run_800e4414__8Cc17pTC5PvT1": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e4414.",
+    "__thunk_28_run_800e45d0__8Cc17pTC6PvT1": "Appears to be a secondary-base adjusting thunk: subtracts 28 from this and tail-jumps to the override at 0x800e45d0."
+  }
+}

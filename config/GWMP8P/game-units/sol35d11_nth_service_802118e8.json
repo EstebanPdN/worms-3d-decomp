@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d11_nth_service_802118e8",
+  "source": "source/matching/game/sol35d11/sol35d11_nth_service_802118e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d11_nth_service_802118e8": "0x802118e8"
+  },
+  "descriptions": {
+    "sol35d11_nth_service_802118e8": "Find the indexed interface in native hash-table iteration order, or return null at the end; inferred GC32 API."
+  }
+}

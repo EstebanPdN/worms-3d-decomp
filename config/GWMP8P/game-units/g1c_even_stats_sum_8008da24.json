@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_even_stats_sum_8008da24",
+  "source": "source/matching/game/g1c/g1c_even_stats_sum_8008da24.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_even_stats_sum_8008da24": "0x8008da24"
+  },
+  "descriptions": {
+    "g1c_even_stats_sum_8008da24": "Sum the first32-bit word of twenty even-indexed eight-byte external records starting80431c80, corresponding to indices0 through38 stepping2. The second word of each record is unknown; the extern array has no declared bound and no data ownership is asserted. All arithmetic and iteration reproduce the original fixed twenty-iteration scalar loop."
+  }
+}

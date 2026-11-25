@@ -1,0 +1,11 @@
+{
+  "unit": "d45a_world_grow_group_800f5148",
+  "source": "source/matching/game/d45a/d45a_world_grow_group_800f5148.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d45a_world_grow_group_800f5148": "0x800f5148"
+  },
+  "descriptions": {
+    "w3d_d45a_world_grow_group_800f5148": "Picks a random placement from the candidates found across groups, weighted by per-type budgets, creates and links the new mesh layer, adjusts the budget and rarity heat, and appends it to the group list."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "r24b_query_count_8021907c",
+  "source": "source/matching/game/r24b/r24b_query_count_8021907c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r24b_query_count_8021907c": "0x8021907c"
+  },
+  "descriptions": {
+    "w3d_r24b_query_count_8021907c": "Query the handle at +0x18, optionally store its count and compare against the expected count; names inferred."
+  }
+}

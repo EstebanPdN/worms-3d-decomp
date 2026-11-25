@@ -1,0 +1,17 @@
+{
+  "unit": "d26d_worm_walk_step_8014be84",
+  "source": "source/matching/game/d26d/d26d_worm_walk_step_8014be84.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26d_worm_walk_step_8014be84": "0x8014be84"
+  },
+  "descriptions": {
+    "d26d_worm_walk_step_8014be84": "Turn the worm toward a walk direction, scale the direction by speed and return the velocity."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d30a_weapon_drop_fire_8002f3d4",
+  "source": "source/matching/game/d30a/d30a_weapon_drop_fire_8002f3d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_weapon_drop_fire_8002f3d4": "0x8002f3d4"
+  },
+  "descriptions": {
+    "w3d_d30a_weapon_drop_fire_8002f3d4": "Computes the release start and end points for a carried projectile, then either sets the named object's weapon properties or creates a new effect through the service lookup."
+  }
+}

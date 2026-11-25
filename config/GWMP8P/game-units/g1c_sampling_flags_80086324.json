@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_sampling_flags_80086324",
+  "source": "source/matching/game/g1c/g1c_sampling_flags_80086324.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_sampling_flags_80086324": "0x80086324"
+  },
+  "descriptions": {
+    "g1c_sampling_flags_80086324": "Sample eight original offsets from each external front/back byte buffer into the sixteen original scalar output words; OR0x7f00 into corresponding front/back pairs according to the witnessed flag order0,2,1,3 and bits1 then0. Compute the two original packed-lane averages with0xfefe masks. Receiver is an external prefix, with four consecutive witnessed flag words and two byte pointers, never constructed; offsets and destination words remain external and separately address-witnessed."
+  }
+}

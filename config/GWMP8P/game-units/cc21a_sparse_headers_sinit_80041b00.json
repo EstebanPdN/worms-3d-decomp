@@ -1,0 +1,11 @@
+{
+  "unit": "cc21a_sparse_headers_sinit_80041b00",
+  "source": "source/matching/game/cc21a/cc21a_sparse_headers_sinit_80041b00.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc21a_sparse_headers_sinit_80041b00": "0x80041b00"
+  },
+  "descriptions": {
+    "cc21a_sparse_headers_sinit_80041b00": "Initializes nine service storage aliases, registers its type descriptor and clears the observed sparse header and adjacent range headers."
+  }
+}

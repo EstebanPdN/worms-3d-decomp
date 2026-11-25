@@ -1,0 +1,11 @@
+{
+  "unit": "s21_a_801e4fcc",
+  "source": "source/matching/game/s21/s21_a_801e4fcc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_counter_poll_801e4fcc": "0x801e4fcc"
+  },
+  "descriptions": {
+    "w3d_s21_counter_poll_801e4fcc": "Appears to poll a handle once the remaining count is not positive and clear it when the callee returns minus one."
+  }
+}

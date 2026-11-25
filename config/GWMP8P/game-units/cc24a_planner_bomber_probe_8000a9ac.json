@@ -1,0 +1,11 @@
+{
+  "unit": "cc24a_planner_bomber_probe_8000a9ac",
+  "source": "source/matching/game/cc24a/cc24a_planner_bomber_probe_8000a9ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_bomber_probe_8000a9ac": "0x8000a9ac"
+  },
+  "descriptions": {
+    "cc24a_planner_bomber_probe_8000a9ac": "Probe enabled unflagged bomber plan and reject only ordered squared target distance above threshold; preserve observed output workspace widths and calls."
+  }
+}

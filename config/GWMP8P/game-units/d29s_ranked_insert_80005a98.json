@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_ranked_insert_80005a98",
+  "source": "source/matching/game/d29s/d29s_ranked_insert_80005a98.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d29s_ranked_insert_80005a98": "0x80005a98"
+  },
+  "descriptions": {
+    "d29s_ranked_insert_80005a98": "Inserts an item by its rank at +12 into a sorted vector capped at fifty entries, updating the best and worst rank marks and an insert count."
+  }
+}

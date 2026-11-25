@@ -1,0 +1,11 @@
+{
+  "unit": "s11guarded_802b67f0",
+  "source": "source/matching/game/s11_auto/s11guarded_802b67f0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802b67f0": "0x802b67f0"
+  },
+  "descriptions": {
+    "w3d_auto_802b67f0": "Appears to calls 0x802b0990, 0x80296518, 0x802b1258, 0x802b6efc, 0x802bc8b4; accesses fields at 0xB0, 0x28, 0xD0, 0x120, 0x98, 0xB. m2c types and names are provisional."
+  }
+}

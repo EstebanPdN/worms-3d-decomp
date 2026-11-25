@@ -1,0 +1,11 @@
+{
+  "unit": "f16c_containers_cleanup_801632ac",
+  "source": "source/matching/game/f16c/f16c_containers_cleanup_801632ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "f16c_containers_cleanup_801632ac": "0x801632ac"
+  },
+  "descriptions": {
+    "f16c_containers_cleanup_801632ac": "Calls80164f88 with external owner, clears deferred list at owner pointer28 plus76 through80210afc and closes owner arena32 through801613b8. Deletes owned containers at owner20 and24 in sequence, clearing each owner pointer afterward. Each inferred container destructor clears three12-byte list holders at40 in ascending order; deletes held buffer wrappers28 and24, whose destructor releases a nonnull first-word array via801fe240 and clears that word before scalar deletion. Then destroys cookie-counted36-byte entries in reverse order, null-checked virtual releasing each interface at entry12 through slot16, with original container pointer reloaded as loop bound. Frees the array cookie base at-8, clears entries, destroys the deferred12-byte member at76 via80210abc with flag2, and uses native class scalar deletion. All four class-delete relocations resolve from original call witnesses to801fe1f8, as do container and wrapper deallocations; mangled structural class names are inferred. Returns zero. Receiver, container, buffer, arena and list declarations are external partial views only, never locally allocated; no exact original class identity or construction extent is claimed."
+  }
+}

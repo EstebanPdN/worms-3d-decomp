@@ -1,0 +1,14 @@
+{
+  "unit": "d26c_payload_forces_800eb6e4",
+  "source": "source/matching/game/d26c/d26c_payload_forces_800eb6e4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26c_payload_forces_800eb6e4": "0x800eb6e4"
+  },
+  "descriptions": {
+    "d26c_payload_forces_800eb6e4": "Zero the force at +60. With Desc+528 add handle +172 times +176 to the y force, cleared to zero when falling past the terminal speed at +108. With Desc+480 build a direction from the angle in handle +164 and add it scaled by handle +160 once (mode 0) or twice (mode 1), mode read from handle +168."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fj_801ee268",
+  "source": "source/matching/game/s21/s21_fj_801ee268.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_release_counted_801ee268": "0x801ee268"
+  },
+  "descriptions": {
+    "w3d_s21_release_counted_801ee268": "Appears to drop a reference of a counted object: at zero it queries a key through virtual slot 9, destroys the object through slot 5 and unregisters the key, returning the new count."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f2c_tag_init_801fa01c",
+  "source": "source/matching/game/f2c/f2c_tag_init_801fa01c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2c_tag_init_801fa01c": "0x801fa01c"
+  },
+  "descriptions": {
+    "f2c_tag_init_801fa01c": "Initialize the observed embedded tag and word pairs, call the member initializer at 0x8035a2c0, install vtable addresses and clear two high flag bits. Layout and names inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_input_worm_actions_80054d24",
+  "source": "source/matching/game/d24g/d24g_input_worm_actions_80054d24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_input_worm_actions_80054d24": "0x80054d24"
+  },
+  "descriptions": {
+    "w3d_d24g_input_worm_actions_80054d24": "Appends input actions to the owner's pointer vector at +36: Input.TurnLeftPressed (0, 1), Input.TurnLeftReleased (0, 0), Input.TurnRightPressed (1, 1), Input.TurnRightReleased (1, 0), Input.AimUpPressed (3, 1), Input.AimUpReleased (3, 0), Input.AimDownPressed (2, 1), Input.AimDownReleased (2, 0), Input.ZoomOutPressed (9, 1), Input.ZoomOutReleased (9, 0), Input.TurnLeftPressed (0, 1, axis 1), Input.TurnLeftReleased (0, 0, axis 1), Input.TurnRightPressed (0, 1, axis 2), Input.TurnRightReleased (0, 0, axis 2), Input.AimUpPressed (1, 1, axis 1), Input.AimUpReleased (1, 0, axis 1), Input.AimDownPressed (1, 1, axis 2), Input.AimDownReleased (1, 0, axis 2). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

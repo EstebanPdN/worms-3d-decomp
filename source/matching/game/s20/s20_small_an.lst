@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_small_an.c
+w3d_s20_describe_two_fields_801904c0|0x801904c0|Appears to pass a name field and a byte field with constant strings to virtual methods 32 and 13 of the sink object and return zero.
+w3d_s20_find_float_epsilon_80196668|0x80196668|Appears to compute the smallest float step by repeatedly scaling a global until adding the base constant no longer changes it, then doubling it.

@@ -1,0 +1,11 @@
+{
+  "unit": "cc39a_worm_proximity_80107f54",
+  "source": "source/matching/game/cc39a/cc39a_worm_proximity_80107f54.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39a_worm_proximity_80107f54": "0x80107f54"
+  },
+  "descriptions": {
+    "cc39a_worm_proximity_80107f54": "Query active-worm proximity and change the sensor state only across the original 600-unit threshold, preserving property failure and flag behavior."
+  }
+}

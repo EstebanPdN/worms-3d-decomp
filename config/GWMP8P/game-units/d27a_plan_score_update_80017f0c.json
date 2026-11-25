@@ -1,0 +1,14 @@
+{
+  "unit": "d27a_plan_score_update_80017f0c",
+  "source": "source/matching/game/d27a/d27a_plan_score_update_80017f0c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_plan_score_update_80017f0c": "0x80017f0c"
+  },
+  "descriptions": {
+    "w3d_d27a_plan_score_update_80017f0c": "Starts from 1 or settings +124 if the worm is flagged, scales by a weapon count, adds a term from a second count, then divides or multiplies by 0x804aa74c depending on 0x80015434. Applies a distance falloff with 0x802e83cc and 0x802e8094 from the target 0x8041d3a0, a per-worm factor and settings +184. If settings +24 is 1, returns 0 when the worm is within the radius of any living component of the player list. Otherwise stores the score at +12 and returns 1."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

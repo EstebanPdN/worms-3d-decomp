@@ -1,0 +1,11 @@
+{
+  "unit": "d23a_worm_aim_start_80026e74",
+  "source": "source/matching/game/d23a/d23a_worm_aim_start_80026e74.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d23a_worm_aim_start_80026e74": "0x80026e74"
+  },
+  "descriptions": {
+    "w3d_d23a_worm_aim_start_80026e74": "Reads the Tweaks.AimAngleDelta, ActiveWormIndex, Weapon.MinAimAngle and Weapon.MaxAimAngle properties into +32, +28, +36 and +40 (0x800fc1b0), loads Worm.AimMouseUD.Sensitivity into +44 through a handle (cast 0x80342a74, retain/release), subscribes the object (0x80162024) to seven cached message ids with handler slots +64, +48, +52, +56, +60, +68 and +72, registers the ActiveWormIndex watcher 0x8002732c with target +100 through a temporary String (0x800fd62c) and runs 0x8002709c."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "unit": "d30e_voice_update_801e6054",
+  "source": "source/matching/game/d30e/d30e_voice_update_801e6054.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_voice_update_801e6054": "0x801e6054"
+  },
+  "descriptions": {
+    "w3d_d30e_voice_update_801e6054": "Per-frame voice update. While starting, polls each claimed channel of the table at 0x8045dbc8, copies the decoded header from the DMA buffer into a 48-byte stream block, counts ready channels and, once all are ready, opens a mono or stereo stream at the configured volume. Otherwise applies volume and facing mix to the open stream, reopens a looping stream if needed, and when the voice stops releases its source and returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mfast-cast",
+    "-mps-float"
+  ]
+}

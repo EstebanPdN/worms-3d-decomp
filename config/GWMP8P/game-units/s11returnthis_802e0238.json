@@ -1,0 +1,11 @@
+{
+  "unit": "s11returnthis_802e0238",
+  "source": "source/matching/game/s11_auto/s11returnthis_802e0238.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802e0238": "0x802e0238"
+  },
+  "descriptions": {
+    "w3d_auto_802e0238": "Appears to accesses fields at 0x48, 0x4C, 0x54, 0xC, 0x1C, 0x28. m2c types and names are provisional."
+  }
+}

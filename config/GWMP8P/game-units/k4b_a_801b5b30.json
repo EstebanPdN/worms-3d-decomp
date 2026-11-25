@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801b5b30",
+  "source": "source/matching/game/k4b/k4b_a_801b5b30.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_box_construct_801b5b30": "0x801b5b30"
+  },
+  "descriptions": {
+    "w3d_k4b_box_construct_801b5b30": "Appears to construct a bounds-like object over 0x801ea0ec: vtable 0x80415ac8, two vectors copied from a global pair at 0x8045e690, valid flag and four cleared slots."
+  }
+}

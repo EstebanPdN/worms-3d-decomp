@@ -1,0 +1,11 @@
+{
+  "unit": "sol31a_reset_motion_800d2f64",
+  "source": "source/matching/game/sol31a/reset_motion_800d2f64.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol31a_reset_motion_800d2f64": "0x800d2f64"
+  },
+  "descriptions": {
+    "sol31a_reset_motion_800d2f64": "Loads motion parameters through the handle at +136, calls the table+32 phase with zero, initializes the direction and translated position vectors, copies paired rate and flag fields, clears velocity and acceleration, adds the parameter angle and the original single-precision pi constant to the owner angle, then resolves the output angle and height through 0x800d4b90. All layouts describe the GC32 reference ABI only."
+  }
+}

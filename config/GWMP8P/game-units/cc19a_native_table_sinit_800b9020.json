@@ -1,0 +1,11 @@
+{
+  "unit": "cc19a_native_table_sinit_800b9020",
+  "source": "source/matching/game/cc19a/cc19a_native_table_sinit_800b9020.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc19a_native_table_sinit_800b9020": "0x800b9020"
+  },
+  "descriptions": {
+    "w3d_cc19a_native_table_sinit_800b9020": "Initializes the observed translation-unit storage aliases and eight three-float table rows using an advancing native row cursor, preserving the original construction countdown."
+  }
+}

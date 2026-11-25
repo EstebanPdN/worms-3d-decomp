@@ -1,0 +1,11 @@
+--- a/port/core/game/d42n/d42n_buffer_manager_save_stream_80190aa8.cpp
++++ b/port/core/game/d42n/d42n_buffer_manager_save_stream_80190aa8.cpp
+@@ -31,7 +31,7 @@
+ extern const char lbl_803a825c[];
+ struct Stage { float x0, x1, a, b, c, d; };
+ struct Elem {
+- unsigned short d:6; unsigned short c:3; unsigned short b:3; unsigned short f3:1; unsigned short f2:1; unsigned short f1:1; unsigned short f0:1; unsigned short w;
++ unsigned short w; /* palabra PPC: bits y luego índice; el índice es la mitad baja del anfitrión */ unsigned short d:6; unsigned short c:3; unsigned short b:3; unsigned short f3:1; unsigned short f2:1; unsigned short f1:1; unsigned short f0:1;
+  Ptr32<Stage> stages; unsigned short size;
+ };
+ struct List { Ptr32<Elem> start; Ptr32<Elem> finish; Ptr32<Elem> end; int u; unsigned size() const { return finish - start; } Elem &operator[](unsigned i) { return start[i]; } };

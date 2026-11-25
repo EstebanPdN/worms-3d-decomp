@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_held_quad_destroy_80051564",
+  "source": "source/matching/game/k8a/k8a_held_quad_destroy_80051564.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_held_quad_destroy_80051564": "0x80051564"},
+  "descriptions": {"w3d_k8a_held_quad_destroy_80051564": "Appears to destroy an object holding four interfaces in an array, then calls its base destructor."}
+}

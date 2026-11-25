@@ -1,0 +1,11 @@
+{
+  "unit": "cc17a_ease_level_8002159c",
+  "source": "source/matching/game/cc17a/cc17a_ease_level_8002159c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17a_ease_level_8002159c": "0x8002159c"
+  },
+  "descriptions": {
+    "w3d_cc17a_ease_level_8002159c": "Resolve the indexed owner, ease its scalar toward the requested value, mark completion below the observed tolerance, and destroy the temporary handle."
+  }
+}

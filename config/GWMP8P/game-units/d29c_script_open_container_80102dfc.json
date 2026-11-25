@@ -1,0 +1,11 @@
+{
+  "unit": "d29c_script_open_container_80102dfc",
+  "source": "source/matching/game/d29c/d29c_script_open_container_80102dfc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d29c_script_open_container_80102dfc": "0x80102dfc"
+  },
+  "descriptions": {
+    "d29c_script_open_container_80102dfc": "Script binding that opens a named data container"
+  }
+}

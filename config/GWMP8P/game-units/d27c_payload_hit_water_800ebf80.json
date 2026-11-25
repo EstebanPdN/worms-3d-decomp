@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_payload_hit_water_800ebf80",
+  "source": "source/matching/game/d27c/d27c_payload_hit_water_800ebf80.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_payload_hit_water_800ebf80": "0x800ebf80"
+  },
+  "descriptions": {
+    "d27c_payload_hit_water_800ebf80": "Handle a payload touching water: choose a skip or a splash, then set its height."
+  }
+}

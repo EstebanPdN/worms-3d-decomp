@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_body_ease_and_grow_80067524",
+  "source": "source/matching/game/k5a/k5a_body_ease_and_grow_80067524.cpp",
+  "language": "cpp",
+  "functions": {"k5a_body_ease_and_grow_80067524": "0x80067524"},
+  "descriptions": {"k5a_body_ease_and_grow_80067524": "Appears to ease a level toward a target, grow a velocity vector by a scale factor and call a handler when its second component is below that factor."}
+}

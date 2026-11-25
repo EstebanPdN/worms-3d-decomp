@@ -1,0 +1,11 @@
+{
+  "unit": "s21_af_801df23c",
+  "source": "source/matching/game/s21/s21_af_801df23c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_link_value_801df23c": "0x801df23c"
+  },
+  "descriptions": {
+    "w3d_s21_link_value_801df23c": "Appears to return a float from a virtual slot of the linked object, or a default constant when there is no link."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "terra_only_a3_display",
+  "source": "source/matching/game/terra_only_a3/display.c",
+  "language": "c",
+  "functions": {
+    "terra_only_a3_display_800248f8": "0x800248f8"
+  },
+  "descriptions": {
+    "terra_only_a3_display_800248f8": "Update display text from indexed item counts unless model mode is one."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_graphic_handle_clear_800cd990",
+  "source": "source/matching/game/g1c/g1c_graphic_handle_clear_800cd990.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_graphic_handle_clear_800cd990": "0x800cd990"
+  },
+  "descriptions": {
+    "g1c_graphic_handle_clear_800cd990": "Reset the external owner graphic handle to the native invalid value -1: skip an already-invalid handle, resolve a live handle through original80164fc8, set the resolved graphic entity flag when nonnull through80122af8, then store -1. The reset argument is retained across lookup/flag calls by the inline native handle boundary. Owner prefix is external only, never constructed; no complete receiver or external object extent claimed."
+  }
+}

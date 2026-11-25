@@ -1,0 +1,11 @@
+{
+  "unit": "s8sorted_8009659c",
+  "source": "source/matching/game/s8sorted_8009659c.c",
+  "language": "c",
+  "functions": {
+    "s8_static_init_8009659c": "0x8009659c"
+  },
+  "descriptions": {
+    "s8_static_init_8009659c": "Static initializer: initializes cached table offsets and registers names and type/constructor descriptors at priority 0xffff."
+  }
+}

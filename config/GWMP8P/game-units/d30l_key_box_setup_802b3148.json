@@ -1,0 +1,14 @@
+{
+  "unit": "d30l_key_box_setup_802b3148",
+  "source": "source/matching/game/d30l/d30l_key_box_setup_802b3148.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30l_key_box_setup_802b3148": "0x802b3148"
+  },
+  "descriptions": {
+    "d30l_key_box_setup_802b3148": "Creates the box handle and six border sprites of a keyboard box and sets their UVs, glyphs and colours."
+  }
+}

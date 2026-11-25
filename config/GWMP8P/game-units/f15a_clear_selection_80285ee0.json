@@ -1,0 +1,11 @@
+{
+  "unit": "f15a_clear_selection_80285ee0",
+  "source": "source/matching/game/f15a/f15a_clear_selection_80285ee0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f15a_clear_selection_80285ee0": "0x80285ee0"
+  },
+  "descriptions": {
+    "w3d_f15a_clear_selection_80285ee0": "Clear the selection list at observed owner offset224 by releasing and clearing the current held interface, erasing the entry through forward element assignment, decrementing the finish pointer, and destroying the last text member before its held-interface base. Element assignment retains the incoming interface and shared-text header before releasing outgoing references. Native inline begin/end, erase and copy boundaries preserve the original iterator lifetimes. Names, roles and partial layouts inferred; entry stride12 and text header refcount at-6 are observed. No complete owner allocation, external data ownership, runtime or hardware validation claimed."
+  }
+}

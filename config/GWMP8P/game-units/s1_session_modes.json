@@ -1,0 +1,17 @@
+{
+  "unit": "s1_session_modes",
+  "source": "source/matching/game/s1_session_modes.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8006b53c": "0x8006b53c",
+    "w3d_fn_8006b5fc": "0x8006b5fc",
+    "w3d_fn_8006b6bc": "0x8006b6bc",
+    "w3d_fn_8006b77c": "0x8006b77c"
+  },
+  "descriptions": {
+    "w3d_fn_8006b53c": "Requests session mode two through frontend messaging or a deferred transition and sets phase one.",
+    "w3d_fn_8006b5fc": "Requests session mode five through frontend messaging or a deferred transition and sets phase two.",
+    "w3d_fn_8006b6bc": "Requests session mode five through frontend messaging or a deferred transition and sets phase three.",
+    "w3d_fn_8006b77c": "Posts frontend menu messages or requests mode nine, then sets session phase eight."
+  }
+}

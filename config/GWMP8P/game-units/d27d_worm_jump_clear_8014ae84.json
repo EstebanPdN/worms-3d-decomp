@@ -1,0 +1,17 @@
+{
+  "unit": "d27d_worm_jump_clear_8014ae84",
+  "source": "source/matching/game/d27d/d27d_worm_jump_clear_8014ae84.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27d_worm_jump_clear_8014ae84": "0x8014ae84"
+  },
+  "descriptions": {
+    "d27d_worm_jump_clear_8014ae84": "Test whether a worm has room to jump, using nearby objects and two movement traces."
+  }
+}

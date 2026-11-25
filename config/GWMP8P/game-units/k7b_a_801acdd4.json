@@ -1,0 +1,11 @@
+{
+  "unit": "k7b_a_801acdd4",
+  "source": "source/matching/game/k7b/k7b_a_801acdd4.c",
+  "language": "c",
+  "functions": {
+    "w3d_k7b_task_owner_append_801acdd4": "0x801acdd4"
+  },
+  "descriptions": {
+    "w3d_k7b_task_owner_append_801acdd4": "Appears to grow the counted task array whose header precedes the pointer at +120 by one, retain the new task, release the slot's old task, store the new one and bump the count."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc41b_dispatch_registered_8020adb0",
+  "source": "source/matching/game/cc41b/cc41b_dispatch_registered_8020adb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc41b_dispatch_registered_8020adb0": "0x8020adb0"
+  },
+  "descriptions": {
+    "cc41b_dispatch_registered_8020adb0": "Dispatches three opaque 32-bit arguments through each registered interface callback in order, reloads the range end after callbacks, and returns the first negative result or zero. Partial C++ range/interface views and names inferred from original offsets. No null filtering, full object-size claim or data ownership."
+  }
+}

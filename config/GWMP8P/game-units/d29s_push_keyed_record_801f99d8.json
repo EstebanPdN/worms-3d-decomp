@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_push_keyed_record_801f99d8",
+  "source": "source/matching/game/d29s/d29s_push_keyed_record_801f99d8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d29s_push_keyed_record_801f99d8": "0x801f99d8"
+  },
+  "descriptions": {
+    "d29s_push_keyed_record_801f99d8": "Fills a 24-byte record from a key and a five-word value and appends it to the vector; returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_a29_dimensions",
+  "source": "source/matching/game/tterra_a29/tterra_a29_dimensions.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_a29_dimensions_800a79f8": "0x800a79f8"
+  },
+  "descriptions": {
+    "tterra_a29_dimensions_800a79f8": "Normalize two inputs, update context fields and send a message with three float fields."
+  }
+}

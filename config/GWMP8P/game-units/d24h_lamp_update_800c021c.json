@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_lamp_update_800c021c",
+  "source": "source/matching/game/d24h/d24h_lamp_update_800c021c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_lamp_update_800c021c": "0x800c021c"
+  },
+  "descriptions": {
+    "w3d_d24h_lamp_update_800c021c": "Lamp update: refreshes lighting (0x800c06a0 with 0x804aada8), traces from the lamp position plus direction 0x8043c3b8 times the reach +32, range 1000 (0x800b0824), scales the light colour 0x8043c3c4 by the hit distance over 1000 (1.0 past 999) and the power +20, stores it at +48, and writes the colour-modulated light (+36), the modulated ambient 0x8043c3d0 and the constant 0x8043c3ac into the light data at +12 (+120, +132, +156)."
+  }
+}

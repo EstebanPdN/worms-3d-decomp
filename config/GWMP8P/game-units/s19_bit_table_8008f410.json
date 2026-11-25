@@ -1,0 +1,11 @@
+{
+  "unit": "s19_bit_table_8008f410",
+  "source": "source/matching/game/s19/s19_bit_table_8008f410.c",
+  "language": "c",
+  "functions": {
+    "s19_build_bit_table_8008f410": "0x8008f410"
+  },
+  "descriptions": {
+    "s19_build_bit_table_8008f410": "Appears to fill a 256-entry byte table with seven for most values and the population count of the byte when either nibble is zero."
+  }
+}

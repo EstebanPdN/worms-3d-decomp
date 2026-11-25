@@ -1,0 +1,11 @@
+{
+  "unit": "s19_modes_800ae29c",
+  "source": "source/matching/game/s19/s19_modes_800ae29c.c",
+  "language": "c",
+  "functions": {
+    "s19_set_modes_800ae29c": "0x800ae29c"
+  },
+  "descriptions": {
+    "s19_set_modes_800ae29c": "Appears to start two channels with mode two, one or zero depending on the two flag arguments."
+  }
+}

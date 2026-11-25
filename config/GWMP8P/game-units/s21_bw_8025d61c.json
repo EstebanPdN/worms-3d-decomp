@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bw_8025d61c",
+  "source": "source/matching/game/s21/s21_bw_8025d61c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_register_descriptor_8025d61c": "0x8025d61c"
+  },
+  "descriptions": {
+    "w3d_s21_register_descriptor_8025d61c": "Appears to initialize and register the global W3DContainers descriptor object, setting its name, links and zeroed fields, and return zero."
+  }
+}

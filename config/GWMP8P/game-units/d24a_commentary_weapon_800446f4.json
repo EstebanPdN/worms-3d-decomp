@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_commentary_weapon_800446f4",
+  "source": "source/matching/game/d24a/d24a_commentary_weapon_800446f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_commentary_weapon_800446f4": "0x800446f4"
+  },
+  "descriptions": {
+    "w3d_d24a_commentary_weapon_800446f4": "Finds the active worm record and its weapon in table 0x803eb63c (0x800fc330), reads the weapon text property; a weapon type derived from 0x80368328 formats name with time and unit (+536) or count (+484), others the name alone; plays through 0x80044638."
+  }
+}

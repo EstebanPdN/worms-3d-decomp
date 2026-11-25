@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ef174",
+  "source": "source/matching/game/k5b/k5b_a_801ef174.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_iface_array_field_append_801ef174": "0x801ef174"
+  },
+  "descriptions": {
+    "w3d_k5b_iface_array_field_append_801ef174": "Appears to append and retain an interface in the array referenced at the given field offset, growing it through 0x801ef048 unless solely owned and sized."
+  }
+}

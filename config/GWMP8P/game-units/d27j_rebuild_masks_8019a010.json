@@ -1,0 +1,15 @@
+{
+  "unit": "d27j_rebuild_masks_8019a010",
+  "source": "source/matching/game/d27j/d27j_rebuild_masks_8019a010.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27j"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27j_rebuild_masks_8019a010": "0x8019a010"
+  },
+  "descriptions": {
+    "d27j_rebuild_masks_8019a010": "Clear and resize the per-channel mask vectors, then set one bit for each enabled registry entry of each channel"
+  }
+}

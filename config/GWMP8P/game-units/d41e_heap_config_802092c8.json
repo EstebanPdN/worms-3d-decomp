@@ -1,0 +1,11 @@
+{
+  "unit": "d41e_heap_config_802092c8",
+  "source": "source/matching/game/d41e/d41e_heap_config_802092c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41e_heap_config_802092c8": "0x802092c8"
+  },
+  "descriptions": {
+    "w3d_d41e_heap_config_802092c8": "Configures and opens a named heap: returns 1 if already open and E_FAIL without a name; reads <name>.ArenaSize, <name>.Debug (sets flag bits 3), then XOM.Arena.PassThrough or <name>.PassThrough (flag bit 16) from the config table into zero-initialised int slots, formatting each key into a 256-byte buffer, and calls the heap init with the size. Names are inferred."
+  }
+}

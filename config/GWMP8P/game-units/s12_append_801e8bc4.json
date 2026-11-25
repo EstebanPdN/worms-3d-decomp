@@ -1,0 +1,11 @@
+{
+  "unit": "s12_append_801e8bc4",
+  "source": "source/matching/game/s12/s12_append_801e8bc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s12_append_value_801e8bc4": "0x801e8bc4"
+  },
+  "descriptions": {
+    "w3d_s12_append_value_801e8bc4": "Grows the observed byte-pointer vector when full, copies its previous contents, appends one 32-bit value, and returns zero."
+  }
+}

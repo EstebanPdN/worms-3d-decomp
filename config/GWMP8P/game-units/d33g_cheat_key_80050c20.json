@@ -1,0 +1,14 @@
+{
+  "unit": "d33g_cheat_key_80050c20",
+  "source": "source/matching/game/d33g/d33g_cheat_key_80050c20.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33g_cheat_key_80050c20": "0x80050c20"
+  },
+  "descriptions": {
+    "w3d_d33g_cheat_key_80050c20": "Cheat key handler: space unlocks the resources of entries 2 to 13 except 9, a letter from the cheat alphabet unlocks one entry, escape and space refresh the options page."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

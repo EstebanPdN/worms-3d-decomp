@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ar_801fff94",
+  "source": "source/matching/game/s21/s21_ar_801fff94.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_kind_is_two_801fff94": "0x801fff94"
+  },
+  "descriptions": {
+    "w3d_s21_kind_is_two_801fff94": "Appears to report whether bits 3 to 5 of a halfword in the looked-up object equal two."
+  }
+}

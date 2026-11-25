@@ -1,0 +1,12 @@
+{
+  "unit": "d21e_camera_view_properties_80246d2c",
+  "source": "source/matching/game/d21e/d21e_camera_view_properties_80246d2c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d21e_register_camera_view_properties_80246d2c": "0x80246d2c"
+  },
+  "descriptions": {
+    "w3d_d21e_register_camera_view_properties_80246d2c": "Registers Camera2ObjectDistance (0x801ec52c); registers LookSpeed (0x801ec52c); registers UpSpeed (0x801ec52c); registers ZoomSpeed (0x801ec52c); registers MinPreferredDistance (0x801ec52c); registers MinPosition (0x801ec52c); registers MinTimeBetweenCuts (0x801ebf38); registers ViewPoint (0x801f254c) with a guarded function-local static descriptor built once from a zero-filled temporary; calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_panel_load_resources_802b1f98",
+  "source": "source/matching/game/d27l/d27l_panel_load_resources_802b1f98.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_panel_load_resources_802b1f98": "0x802b1f98"
+  },
+  "descriptions": {
+    "d27l_panel_load_resources_802b1f98": "First-time panel setup: clears state once, then resolves and applies the configured resources and notifies the panel."
+  }
+}

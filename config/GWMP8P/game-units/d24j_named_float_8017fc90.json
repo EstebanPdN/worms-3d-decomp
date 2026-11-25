@@ -1,0 +1,14 @@
+{
+  "unit": "d24j_named_float_8017fc90",
+  "source": "source/matching/game/d24j/d24j_named_float_8017fc90.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d24j_named_float_8017fc90": "0x8017fc90"
+  },
+  "descriptions": {
+    "d24j_named_float_8017fc90": "Ensures the mesh's source at +40 exists, queries its name/value array, finds the name with strcmp, writes the float value to the out argument and returns 0, or returns 0x80004005 when the name is absent."
+  }
+}

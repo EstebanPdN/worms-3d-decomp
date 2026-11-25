@@ -1,0 +1,14 @@
+{
+  "unit": "f7b_direction_angles_800ccf50",
+  "source": "source/matching/game/f7b/f7b_direction_angles_800ccf50.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7b_direction_angles_800ccf50": "0x800ccf50"
+  },
+  "descriptions": {
+    "f7b_direction_angles_800ccf50": "Copy and normalize the input direction when its squared length is positive; form a planar normalized copy for the sign-adjusted yaw and derive pitch through the witnessed inverse trigonometric helper. Return angles initialized from the observed default vector. The trailing sixteen-byte stack reservation has unknown original purpose. Types, roles and layouts inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

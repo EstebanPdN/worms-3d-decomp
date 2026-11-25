@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_weapon_aim_start_800c2e44",
+  "source": "source/matching/game/d24b/d24b_weapon_aim_start_800c2e44.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_weapon_aim_start_800c2e44": "0x800c2e44"
+  },
+  "descriptions": {
+    "w3d_d24b_weapon_aim_start_800c2e44": "Weapon aim start: casts the owner +28 (0x80341584, 0x801797b4) and retains it in +44, subscribes the object (0x80162024) to three cached message ids with slots +84, +88, +92, reads ActiveWormIndex into +36, publishes Weapon.MinAimAngle and Weapon.MaxAimAngle (radians to degrees when the weapon field +256 is set, else fixed defaults) and posts the changed message (plus the target message 0x801190b4 when limited), publishes RetreatTime (weapon +244 overriding DefaultRetreatTime), creates the handle in +96 (0x801261bc, 0x80126308) and appends the active actor (0x80156f88) to the array at +100 unless it is -1."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

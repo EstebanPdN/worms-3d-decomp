@@ -1,0 +1,14 @@
+{
+  "unit": "f8c_ctor_80255ddc",
+  "source": "source/matching/game/f8c/f8c_ctor_80255ddc.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8c_ctor_80255ddc": "0x80255ddc"
+  },
+  "descriptions": {
+    "f8c_ctor_80255ddc": "Inferred derived-owner constructor: initializes two triplets, scalar defaults and nine4-byte shared-string members after original base constructor. Base storage164 bytes is opaque; observed members cover164..335. Unknown8-byte frame reservation is explicit; its purpose and semantic field names remain uncertain."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

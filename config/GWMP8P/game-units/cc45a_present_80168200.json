@@ -1,0 +1,11 @@
+{
+  "unit": "cc45a_present_80168200",
+  "source": "source/matching/game/cc45a/cc45a_present_80168200_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc45a_present_80168200": "0x80168200"
+  },
+  "descriptions": {
+    "cc45a_present_80168200": "Apply display copy filters, copy the active framebuffer, restore mode filters, issue completion token and wait until completion or timeout. On timeout report and abort/reset before restoring alpha writes; preserve final token polling and callback order."
+  }
+}

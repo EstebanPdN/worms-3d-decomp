@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d9_open_stream_801f7dc4_v2",
+  "source": "source/matching/game/sol35d9/sol35d9_open_stream_801f7dc4_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d9_open_stream_801f7dc4_v2": "0x801f7dc4"
+  },
+  "descriptions": {
+    "sol35d9_open_stream_801f7dc4_v2": "Initialize a scoped native tagged value, load the input, acquire and attach a stream interface, and transfer or release its ownership according to status."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_quake_handle_message_800d5b44",
+  "source": "source/matching/game/d24c/d24c_quake_handle_message_800d5b44.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_quake_handle_message_800d5b44": "0x800d5b44"
+  },
+  "descriptions": {
+    "d24c_quake_handle_message_800d5b44": "On id 64 call base 0x8015fb34 and on success call 0x800d5d44 and return 0, else return 0x80004005. On id 66 call 0x800d5f98 and forward to the base. Otherwise compare with four cached ids: first calls 0x800d6424 and returns 0; second calls 0x800d6788 and on non-zero sets +92 and returns 0; third calls 0x800d67d8 and returns 0; fourth calls 0x800d6904, sets +92 and returns 0. Otherwise forward to the base."
+  }
+}

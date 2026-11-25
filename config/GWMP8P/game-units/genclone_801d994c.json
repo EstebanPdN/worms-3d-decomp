@@ -1,0 +1,17 @@
+{
+  "unit": "genclone_801d994c",
+  "source": "source/matching/game/generated/genclone_801d994c.c",
+  "language": "c",
+  "functions": {
+    "w3d_flag_set_801d994c": "0x801d994c",
+    "w3d_flag_test_801d9984": "0x801d9984",
+    "w3d_flag_set_801e8390": "0x801e8390",
+    "w3d_flag_test_801e83c8": "0x801e83c8"
+  },
+  "descriptions": {
+    "w3d_flag_set_801d994c": "Sets or clears bit n of the 32-bit flag word at +36 and returns 0.",
+    "w3d_flag_test_801d9984": "Returns 1 if bit n of the 32-bit flag word at +36 is set, otherwise 0.",
+    "w3d_flag_set_801e8390": "Sets or clears bit n of the 32-bit flag word at +36 and returns 0.",
+    "w3d_flag_test_801e83c8": "Returns 1 if bit n of the 32-bit flag word at +36 is set, otherwise 0."
+  }
+}

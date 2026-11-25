@@ -1,0 +1,14 @@
+{
+  "unit": "s19_update_800a8ad8",
+  "source": "source/matching/game/s19/s19_update_800a8ad8.c",
+  "language": "c",
+  "functions": {
+    "s19_update_or_idle_800a8ad8": "0x800a8ad8"
+  },
+  "descriptions": {
+    "s19_update_or_idle_800a8ad8": "Appears to run one helper when the optional service context query succeeds, otherwise another helper with a float and an integer."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

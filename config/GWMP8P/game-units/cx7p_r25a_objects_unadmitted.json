@@ -1,0 +1,13 @@
+{
+  "unit": "cx7p_r25a_objects_unadmitted",
+  "source": "source/matching/game/cx7p/cx7p_r25a_objects_unadmitted.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25a_create_named_userdata_8019e710": "0x8019e710",
+    "w3d_r25a_release_list_entries_801ad060": "0x801ad060"
+  },
+  "descriptions": {
+    "w3d_r25a_create_named_userdata_8019e710": "Looks up a named interface using Lua argument one and external key, returns zero if absent; otherwise allocates eight-byte userdata, retains the object, copies environment at context +36, assigns metatable, and returns one.",
+    "w3d_r25a_release_list_entries_801ad060": "Reads a sixteen-byte header before cursor +120, calls the external owner operation with 44, 3 and each four-byte entry, then decrements the cursor by sixteen and invokes the external cleanup with flag two."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "h1_stlport_rb_rebalance",
+  "source": "source/matching/game/h1/h1_stlport_rb_rebalance.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_rb_rebalance_80352404": "0x80352404"
+  },
+  "descriptions": {
+    "w3d_rb_rebalance_80352404": "STLport _Rb_global<bool>::_Rebalance: recolors and rotates up from a newly inserted red node, then makes the root black."
+  }
+}

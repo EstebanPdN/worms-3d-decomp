@@ -1,0 +1,11 @@
+{
+  "unit": "s21_br_8021a278",
+  "source": "source/matching/game/s21/s21_br_8021a278.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_missing_8021a278": "0x8021a278"
+  },
+  "descriptions": {
+    "w3d_s21_missing_8021a278": "Appears to report whether a lookup in the object's registry for the key and the object's halfword size plus four finds nothing."
+  }
+}

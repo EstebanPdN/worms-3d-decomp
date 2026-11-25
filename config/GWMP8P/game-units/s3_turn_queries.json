@@ -1,0 +1,27 @@
+{
+  "unit": "s3_turn_queries",
+  "source": "source/matching/game/s3_turn_queries.c",
+  "language": "c",
+  "functions": {
+    "w3d_turns_apply_named_scene_value": "0x80158810",
+    "w3d_turns_select_near_message_position": "0x80158850",
+    "w3d_turns_record_message_position": "0x8015896c",
+    "w3d_turns_select_nearest_opponent": "0x801589c8",
+    "w3d_turns_disable_movement_retain": "0x80158af0",
+    "w3d_turns_disable_movement_release": "0x80158b4c",
+    "w3d_turns_team_list_size": "0x80158e74",
+    "w3d_turns_reset_global_actor_motion": "0x80158fbc",
+    "w3d_turns_reset_actor_motion": "0x80158fec"
+  },
+  "descriptions": {
+    "w3d_turns_apply_named_scene_value": "Applies a nonempty shared string through the scene service.",
+    "w3d_turns_select_near_message_position": "Posts the nearest active worm to a message position, excluding the selected worm.",
+    "w3d_turns_record_message_position": "Stores a message position and increments the position update count.",
+    "w3d_turns_select_nearest_opponent": "Posts the nearest active worm belonging to a different team.",
+    "w3d_turns_disable_movement_retain": "Increments the movement-disable reference value and returns its previous value.",
+    "w3d_turns_disable_movement_release": "Decrements a nonzero movement-disable reference value and returns its previous value.",
+    "w3d_turns_team_list_size": "Returns the number of worms in a team list when the team index is valid.",
+    "w3d_turns_reset_global_actor_motion": "Resets actor motion through the global turn service when it exists and returns zero.",
+    "w3d_turns_reset_actor_motion": "Resolves sixteen actor handles and resets motion for each resolved actor."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_a34_rope",
+  "source": "source/matching/game/tterra_a34/tterra_a34_rope.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_a34_rope_trace_800cc070": "0x800cc070"
+  },
+  "descriptions": {
+    "tterra_a34_rope_trace_800cc070": "Experimental vector trace wrapper; inferred layouts and external data."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d41j_mesh_bind_palette_8016c4f4",
+  "source": "source/matching/game/d41j/d41j_mesh_bind_palette_8016c4f4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d41j_mesh_bind_palette_8016c4f4": "0x8016c4f4"
+  },
+  "descriptions": {
+    "w3d_d41j_mesh_bind_palette_8016c4f4": "Mesh palette binding: on first use scans the colours for alpha, converts them to RGB565 or RGB5A3 in a new table, flushes it, initialises the palette object and passes it to the owner by virtual call; then loads the palette into slot 0. Returns 0. Names are inferred."
+  }
+}

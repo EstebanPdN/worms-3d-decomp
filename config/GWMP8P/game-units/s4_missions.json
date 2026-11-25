@@ -1,0 +1,13 @@
+{
+  "unit": "s4_missions",
+  "source": "source/matching/game/s4_missions.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_mission_current_value": "0x80281b20",
+    "w3d_barracks_team_available": "0x80281c04"
+  },
+  "descriptions": {
+    "w3d_mission_current_value": "Looks up the current mission and returns its field at offset 76, or one if lookup fails.",
+    "w3d_barracks_team_available": "Returns whether a named barracks team has a zero status field."
+  }
+}

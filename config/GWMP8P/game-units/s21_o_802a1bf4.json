@@ -1,0 +1,11 @@
+{
+  "unit": "s21_o_802a1bf4",
+  "source": "source/matching/game/s21/s21_o_802a1bf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_widget_set_text_802a1bf4": "0x802a1bf4"
+  },
+  "descriptions": {
+    "w3d_s21_widget_set_text_802a1bf4": "Appears to store a text value and show it masked with asterisks when the owner's mode is one, then refresh the widget."
+  }
+}

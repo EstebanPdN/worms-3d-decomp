@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_rebuild_pool_801709b0",
+  "source": "source/matching/game/cc20a/cc20a_rebuild_pool_801709b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_rebuild_pool_801709b0": "0x801709b0"
+  },
+  "descriptions": {
+    "w3d_cc20a_rebuild_pool_801709b0": "Checks the pool busy state, destroys the old 136-byte-element array and index storage, constructs a new array, assigns virtual element indices, and initializes the unsigned-short free-index table."
+  }
+}

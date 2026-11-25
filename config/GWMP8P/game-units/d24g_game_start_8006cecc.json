@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_game_start_8006cecc",
+  "source": "source/matching/game/d24g/d24g_game_start_8006cecc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_game_start_8006cecc": "0x8006cecc"
+  },
+  "descriptions": {
+    "w3d_d24g_game_start_8006cecc": "Starts a game: counts and logs it, prepares, then creates the game's part types with the owner id, reporting progress through the callback after each; watches GameOver.RoundNumber with 0x8006ce8c, resets four team slots on round 0, sets GameOver.AwardMovie, refreshes the menu list, runs 0x8006e124, posts InGame and CrateChuteRelease and, unless flag 0x00200000 is set, one more message."
+  }
+}

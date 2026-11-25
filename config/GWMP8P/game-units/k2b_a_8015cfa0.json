@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8015cfa0",
+  "source": "source/matching/game/k2b/k2b_a_8015cfa0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_slot_table_reset_8015cfa0": "0x8015cfa0"
+  },
+  "descriptions": {
+    "w3d_k2b_slot_table_reset_8015cfa0": "Appears to clear every slot of a table to zero weight and reset its cursor, total and head fields."
+  }
+}

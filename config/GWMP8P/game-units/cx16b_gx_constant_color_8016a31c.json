@@ -1,0 +1,14 @@
+{
+  "unit": "cx16b_gx_constant_color_8016a31c",
+  "source": "source/matching/game/cx16b/cx16b_gx_constant_color_8016a31c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_gx_constant_color_8016a31c": "0x8016a31c"
+  },
+  "descriptions": {
+    "w3d_cx16b_gx_constant_color_8016a31c": "Scales three float components to quantized RGBA bytes with alpha 255 and passes the aligned four-byte color by value through the original GX ABI."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f6b_crate_step_8004c138",
+  "source": "source/matching/game/f6b/f6b_crate_step_8004c138.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6b_crate_step_8004c138": "0x8004c138"
+  },
+  "descriptions": {
+    "f6b_crate_step_8004c138": "Adjust the observed vertical velocity toward a constant using two rates, advance position by the scaled velocity, then compare against the sampled height. Below the threshold write the Crate.Index property, post the observed named message and invoke the final helper. Roles, field layouts and types remain inferred."
+  }
+}

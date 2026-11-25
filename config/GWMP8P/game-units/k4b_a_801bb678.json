@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801bb678",
+  "source": "source/matching/game/k4b/k4b_a_801bb678.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_service_construct_801bb678": "0x801bb678"
+  },
+  "descriptions": {
+    "w3d_k4b_service_construct_801bb678": "Appears to construct an object over base 0x801b87c0, install vtable 0x80415410, retain a shared global interface into +20 and clear the 16-bit count at +24."
+  }
+}

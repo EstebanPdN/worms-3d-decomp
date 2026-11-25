@@ -1,0 +1,11 @@
+{
+  "unit": "sol35c3_static_vectors_80141b14",
+  "source": "source/matching/game/sol35c3/sol35c3_static_vectors_80141b14.cpp",
+  "language": "cpp",
+  "functions": {
+    "__static_initialization_and_destruction_0": "0x80141b14"
+  },
+  "descriptions": {
+    "__static_initialization_and_destruction_0": "Compiler-generated guarded static initialization: derives nine pointers from the external base at 0x804ab3c8 and constructs ten three-float vectors using the witnessed constants."
+  }
+}

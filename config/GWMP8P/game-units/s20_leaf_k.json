@@ -1,0 +1,13 @@
+{
+  "unit": "s20_leaf_k",
+  "source": "source/matching/game/s20/s20_leaf_k.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_validate_and_flag_801745bc": "0x801745bc",
+    "w3d_s20_release_held_80174620": "0x80174620"
+  },
+  "descriptions": {
+    "w3d_s20_validate_and_flag_801745bc": "Appears to call the function pointer at offset 32 with this and set flag 0x8000 when the result is not negative, returning the result.",
+    "w3d_s20_release_held_80174620": "Appears to call virtual method 4 of the held object, clear flag 0x8000 and the held pointer, and return zero."
+  }
+}

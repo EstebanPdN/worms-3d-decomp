@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bj_8020e9d0",
+  "source": "source/matching/game/s21/s21_bj_8020e9d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_convert_int_to_float_8020e9d0": "0x8020e9d0"
+  },
+  "descriptions": {
+    "w3d_s21_convert_int_to_float_8020e9d0": "Appears to convert each signed integer of the source to a float in the destination for a given count and return zero."
+  }
+}

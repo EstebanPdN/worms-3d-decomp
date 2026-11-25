@@ -1,0 +1,11 @@
+{
+  "unit": "f8c_camera_801a0a1c",
+  "source": "source/matching/game/f8c/f8c_camera_801a0a1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8c_camera_801a0a1c": "0x801a0a1c"
+  },
+  "descriptions": {
+    "f8c_camera_801a0a1c": "Inferred camera update computes projection bounds, invokes original projection builder, obtains two-word provider view, expands48-byte affine data to64-byte homogeneous matrix and invokes original affine inverse. Owner216-byte view, config64-byte view and semantics inferred from observed accesses. No unexplained frame reservation."
+  }
+}

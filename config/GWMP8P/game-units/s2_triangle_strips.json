@@ -1,0 +1,17 @@
+{
+  "unit": "s2_triangle_strips",
+  "source": "source/matching/game/s2_triangle_strips.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_strip_emit_8010a918": "0x8010a918",
+    "w3d_strip_emit_8010aa60": "0x8010aa60",
+    "w3d_strip_emit_8010abc8": "0x8010abc8",
+    "w3d_strip_emit_visible_8010ad24": "0x8010ad24"
+  },
+  "descriptions": {
+    "w3d_strip_emit_8010a918": "Appends triangle-strip indices, inserting degenerate indices to maintain strip continuity and parity.",
+    "w3d_strip_emit_8010aa60": "Appends triangle-strip indices, inserting degenerate indices to maintain strip continuity and parity.",
+    "w3d_strip_emit_8010abc8": "Appends triangle-strip indices, inserting degenerate indices to maintain strip continuity and parity.",
+    "w3d_strip_emit_visible_8010ad24": "Emits a triangle when any vertex is marked and updates the shared strip parity."
+  }
+}

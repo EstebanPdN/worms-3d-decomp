@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_grid_cell_slot_8001e1a0",
+  "source": "source/matching/game/k5a/k5a_grid_cell_slot_8001e1a0.c",
+  "language": "c",
+  "functions": {"k5a_grid_cell_slot_8001e1a0": "0x8001e1a0"},
+  "descriptions": {"k5a_grid_cell_slot_8001e1a0": "Appears to look up the chunk containing a cell and return the address of that cell in the selected layer, or a fallback cell when no chunk exists."}
+}

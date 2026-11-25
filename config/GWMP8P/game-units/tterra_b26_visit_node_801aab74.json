@@ -1,0 +1,11 @@
+{
+  "unit": "tterra_b26_visit_node_801aab74",
+  "source": "source/matching/game/tterra_b26_visit_node_801aab74.cpp",
+  "language": "cpp",
+  "functions": {
+    "tterra_b26_visit_node_801aab74": "0x801aab74"
+  },
+  "descriptions": {
+    "tterra_b26_visit_node_801aab74": "Scene visitor callback dispatch with inferred types; selector 3 leaves channel uninitialized, matching the observed PPC register reuse but not establishing portable behavior."
+  }
+}

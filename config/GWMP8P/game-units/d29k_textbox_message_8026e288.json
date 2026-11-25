@@ -1,0 +1,14 @@
+{
+  "unit": "d29k_textbox_message_8026e288",
+  "source": "source/matching/game/d29k/d29k_textbox_message_8026e288.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d29k_textbox_message_8026e288": "0x8026e288"
+  },
+  "descriptions": {
+    "w3d_d29k_textbox_message_8026e288": "Text box control message handler: routes pointer, step and activate messages, then forwards to the sub-object and base handler."
+  }
+}

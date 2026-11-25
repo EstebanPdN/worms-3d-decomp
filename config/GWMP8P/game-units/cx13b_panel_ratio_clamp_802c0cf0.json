@@ -1,0 +1,14 @@
+{
+  "unit": "cx13b_panel_ratio_clamp_802c0cf0",
+  "source": "source/matching/game/cx13b/cx13b_panel_ratio_clamp_802c0cf0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_panel_ratio_clamp_802c0cf0": "0x802c0cf0"
+  },
+  "descriptions": {
+    "w3d_cx13b_panel_ratio_clamp_802c0cf0": "Look up the runtime service, derive the measured ratio and clamp it between original minimum and caller maximum."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

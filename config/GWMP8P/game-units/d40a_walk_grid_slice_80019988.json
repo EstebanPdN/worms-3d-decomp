@@ -1,0 +1,14 @@
+{
+  "unit": "d40a_walk_grid_slice_80019988",
+  "source": "source/matching/game/d40a/d40a_walk_grid_slice_80019988.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40a_walk_grid_slice_80019988": "0x80019988"
+  },
+  "descriptions": {
+    "w3d_d40a_walk_grid_slice_80019988": "Scores one column of the 11 by 11 AI walk table around the centre on both layers; returns 1 after the last column."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

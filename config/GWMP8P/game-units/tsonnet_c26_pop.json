@@ -1,0 +1,1 @@
+{"unit": "tsonnet_c26_pop", "source": "source/matching/game/tsonnet_c26/tsonnet_c26_pop.cpp", "language": "cpp", "functions": {"tsonnet_c26_stack_pop_8020f8ac": "0x8020f8ac"}, "descriptions": {"tsonnet_c26_stack_pop_8020f8ac": "Pop an eight-byte entry from a fixed-capacity stack into the caller's output."}}

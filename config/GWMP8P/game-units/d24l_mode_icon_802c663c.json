@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_mode_icon_802c663c",
+  "source": "source/matching/game/d24l/d24l_mode_icon_802c663c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_mode_icon_802c663c": "0x802c663c"
+  },
+  "descriptions": {
+    "d24l_mode_icon_802c663c": "When the button is ready (+36), picks the keyboard mode icon name from +80 (FE.K.Abc, ABC, abc, 123, Abcf for 4 and 5, Tick for 6; empty otherwise leaves it out), detaches and releases the previous icon at +56, loads the new one with type base+32 through a handle built from the name, stores it retained, scales it to half of the button size (+72,+76) and attaches it to the panel +28."
+  }
+}

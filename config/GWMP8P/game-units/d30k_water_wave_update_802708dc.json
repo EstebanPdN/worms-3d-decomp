@@ -1,0 +1,14 @@
+{
+  "unit": "d30k_water_wave_update_802708dc",
+  "source": "source/matching/game/d30k/d30k_water_wave_update_802708dc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d30k_water_wave_update_802708dc": "0x802708dc"
+  },
+  "descriptions": {
+    "w3d_d30k_water_wave_update_802708dc": "Writes the animated vertex positions of a 40-column wave strip from the given time."
+  }
+}

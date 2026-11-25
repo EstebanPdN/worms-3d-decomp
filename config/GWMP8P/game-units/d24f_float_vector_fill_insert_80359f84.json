@@ -1,0 +1,12 @@
+{
+  "unit": "d24f_float_vector_fill_insert_80359f84",
+  "source": "source/matching/game/d24f/d24f_float_vector_fill_insert_80359f84.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24f_float_vector_fill_insert_80359f84": "0x80359f84"
+  },
+  "descriptions": {
+    "d24f_float_vector_fill_insert_80359f84": "Inserts n copies of a float at pos in a vector (start +0, finish +4, storage end +12). With spare capacity it moves the tail up with memmove and fills; otherwise it allocates max(size, n) more elements through 0x80212fd4 with fallback 0x803413d8, copies prefix, fills, copies suffix, releases old storage via 0x802134fc and sets the new bounds."
+  }
+}

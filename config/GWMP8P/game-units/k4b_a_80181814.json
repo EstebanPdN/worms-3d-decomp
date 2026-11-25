@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_80181814",
+  "source": "source/matching/game/k4b/k4b_a_80181814.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_mesh_instance_fade_named_80181814": "0x80181814"
+  },
+  "descriptions": {
+    "w3d_k4b_mesh_instance_fade_named_80181814": "Appears to look up a mesh animation clip by name and fade it to a weight over a time, returning E_FAIL when the clip is missing."
+  }
+}

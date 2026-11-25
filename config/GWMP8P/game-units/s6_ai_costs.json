@@ -1,0 +1,13 @@
+{
+  "unit": "s6_ai_costs",
+  "source": "source/matching/game/s6_ai_costs.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ai_scale_exposure_8000b7dc": "0x8000b7dc",
+    "w3d_ai_add_amount_cost_8000b86c": "0x8000b86c"
+  },
+  "descriptions": {
+    "w3d_ai_scale_exposure_8000b7dc": "Appears to scale plan cost by actor weighting and exposure.",
+    "w3d_ai_add_amount_cost_8000b86c": "Appears to add an amount-dependent cost after updating the plan."
+  }
+}

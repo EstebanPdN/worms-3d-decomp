@@ -1,0 +1,31 @@
+{
+  "unit": "s10param_801b819c",
+  "source": "source/matching/game/generated/s10param_801b819c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_register_array_801b819c": "0x801b819c",
+    "w3d_s10_register_array_801b83ec": "0x801b83ec",
+    "w3d_s10_register_array_801b863c": "0x801b863c",
+    "w3d_s10_register_array_801bb9a8": "0x801bb9a8",
+    "w3d_s10_register_array_801bbd84": "0x801bbd84",
+    "w3d_s10_register_array_801bbfd4": "0x801bbfd4",
+    "w3d_s10_register_array_802268e4": "0x802268e4",
+    "w3d_s10_register_array_80226b34": "0x80226b34",
+    "w3d_s10_register_array_8023bb28": "0x8023bb28",
+    "w3d_s10_register_array_8023bd78": "0x8023bd78",
+    "w3d_s10_register_array_8023c2ec": "0x8023c2ec"
+  },
+  "descriptions": {
+    "w3d_s10_register_array_801b819c": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801b83ec": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801b863c": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801bb9a8": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801bbd84": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801bbfd4": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_802268e4": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_80226b34": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_8023bb28": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_8023bd78": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_8023c2ec": "Lazily initializes the named property descriptor with its size and distinct element/type bytes, registers it on the object, and returns zero."
+  }
+}

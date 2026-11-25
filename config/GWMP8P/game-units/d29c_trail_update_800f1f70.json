@@ -1,0 +1,14 @@
+{
+  "unit": "d29c_trail_update_800f1f70",
+  "source": "source/matching/game/d29c/d29c_trail_update_800f1f70.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29c_trail_update_800f1f70": "0x800f1f70"
+  },
+  "descriptions": {
+    "d29c_trail_update_800f1f70": "Marker trail update feeding the mesh arrays and billboard vectors"
+  }
+}

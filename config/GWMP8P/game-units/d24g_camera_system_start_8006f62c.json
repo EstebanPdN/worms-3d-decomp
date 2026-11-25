@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_camera_system_start_8006f62c",
+  "source": "source/matching/game/d24g/d24g_camera_system_start_8006f62c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_camera_system_start_8006f62c": "0x8006f62c"
+  },
+  "descriptions": {
+    "w3d_d24g_camera_system_start_8006f62c": "Camera system start: queries 0x8015a6b8, reads Camera.Entity.TaskId into +76 and Camera.Data, applies the data, then either computes the three vectors at +4..+28 and starts the camera task with them, or copies them from the source object, and posts eight camera-mode messages (Fire, Flying, WormAiming, WormFirstPersonAiming, WormMoving, WormRoping, UtilityGirder, CameraSelect)."
+  }
+}

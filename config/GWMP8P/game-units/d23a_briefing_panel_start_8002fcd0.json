@@ -1,0 +1,11 @@
+{
+  "unit": "d23a_briefing_panel_start_8002fcd0",
+  "source": "source/matching/game/d23a/d23a_briefing_panel_start_8002fcd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d23a_briefing_panel_start_8002fcd0": "0x8002fcd0"
+  },
+  "descriptions": {
+    "w3d_d23a_briefing_panel_start_8002fcd0": "Subscribes the briefing panel (0x80162024) to the cached message ids of 0x804acd4c and 0x804acd54 with handler slots +28 and +32, loads CommentaryPanel.Comment, FE.BriefingPanel.Width/Height/XPos/YPos/TextSize, FE.BriefingPanel and FE.BriefingPanel.DisplayTime into +36..+64 through one handle (0x800fc1b0 with casts 0x80343744, 0x80342a74, 0x80341584, 0x80342a78; retain/release) and clears +68 and +72."
+  }
+}

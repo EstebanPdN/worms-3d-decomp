@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_string_substring_construct_8020bbec",
+  "source": "source/matching/game/cx11b/cx11b_string_substring_construct_8020bbec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_string_substring_construct_8020bbec": "0x8020bbec"
+  },
+  "descriptions": {
+    "w3d_cx11b_string_substring_construct_8020bbec": "Construct a shared string from the selected input byte range or retain the original empty string."
+  }
+}

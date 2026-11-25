@@ -1,0 +1,11 @@
+{
+  "unit": "f7c_header_80204c18",
+  "source": "source/matching/game/f7c/f7c_header_80204c18.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7c_header_80204c18": "0x80204c18"
+  },
+  "descriptions": {
+    "f7c_header_80204c18": "Serialize a 64-byte inferred header after querying a typed unsigned-key tree map, then byte-swap the version and three count fields in place and forward the header to the witnessed writer. Names, types, roles, qualifiers and tree layout inferred; unknown stream/header storage explicit."
+  }
+}

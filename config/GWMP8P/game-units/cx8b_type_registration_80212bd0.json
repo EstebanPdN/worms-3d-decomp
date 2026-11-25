@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_type_registration_80212bd0",
+  "source": "source/matching/game/cx8b/cx8b_type_registration_80212bd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_type_registration_80212bd0": "0x80212bd0"
+  },
+  "descriptions": {
+    "w3d_cx8b_type_registration_80212bd0": "Initialize Xommo descriptor with original callback and priority -100, then insert it during static initialization."
+  }
+}

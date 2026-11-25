@@ -1,0 +1,15 @@
+{
+  "unit": "s4_card_properties",
+  "source": "source/matching/game/s4_card_properties.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_card_subscribe_navigation": "0x8028a3fc",
+    "w3d_s4_card_unsubscribe_navigation": "0x8028a4a8",
+    "w3d_s4_card_clear_resource": "0x8028aab0"
+  },
+  "descriptions": {
+    "w3d_s4_card_subscribe_navigation": "Subscribes previous, next, and confirm messages once and clears the top status flag.",
+    "w3d_s4_card_unsubscribe_navigation": "Unsubscribes and releases the three navigation messages and clears their subscription flag.",
+    "w3d_s4_card_clear_resource": "Releases the card resource handle and interface and subtracts ten from the resource count."
+  }
+}

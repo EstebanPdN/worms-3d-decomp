@@ -1,0 +1,17 @@
+{
+  "unit": "d30j_init_instance_mesh_8018bf18",
+  "source": "source/matching/game/d30j/d30j_init_instance_mesh_8018bf18.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d30j_init_instance_mesh_8018bf18": "0x8018bf18"
+  },
+  "descriptions": {
+    "d30j_init_instance_mesh_8018bf18": "Initialise a mesh instance: create its instance, modifier and texture state, fetch and link the shared geometry, register it and reset its colours."
+  }
+}

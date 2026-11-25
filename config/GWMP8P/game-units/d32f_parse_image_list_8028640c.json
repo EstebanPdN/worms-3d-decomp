@@ -1,0 +1,17 @@
+{
+  "unit": "d32f_parse_image_list_8028640c",
+  "source": "source/matching/game/d32f/d32f_parse_image_list_8028640c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d32f_parse_image_list_8028640c": "0x8028640c"
+  },
+  "descriptions": {
+    "d32f_parse_image_list_8028640c": "Parses a colon-separated resource list into loaded, attached entries of handle, index and label."
+  }
+}

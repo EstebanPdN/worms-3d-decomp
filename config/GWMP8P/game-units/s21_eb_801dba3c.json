@@ -1,0 +1,11 @@
+{
+  "unit": "s21_eb_801dba3c",
+  "source": "source/matching/game/s21/s21_eb_801dba3c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_activate_first_801dba3c": "0x801dba3c"
+  },
+  "descriptions": {
+    "w3d_s21_activate_first_801dba3c": "Appears to scan the counted array of interface objects for the first whose virtual slot 7 returns one and return the result of its virtual slot 15, or 0x80004005 when none matches."
+  }
+}

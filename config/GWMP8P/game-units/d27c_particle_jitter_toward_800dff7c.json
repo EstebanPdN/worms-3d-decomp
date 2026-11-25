@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_particle_jitter_toward_800dff7c",
+  "source": "source/matching/game/d27c/d27c_particle_jitter_toward_800dff7c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_particle_jitter_toward_800dff7c": "0x800dff7c"
+  },
+  "descriptions": {
+    "d27c_particle_jitter_toward_800dff7c": "Blend a point toward a randomly jittered target, choosing the random source by descriptor flag."
+  }
+}

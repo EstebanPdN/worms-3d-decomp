@@ -1,0 +1,14 @@
+{
+  "unit": "s7padfix_80018be0",
+  "source": "source/matching/game/s7/s7padfix_80018be0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80018be0": "0x80018be0"
+  },
+  "descriptions": {
+    "w3d_auto_80018be0": "Counts two classes of active entries across 16 slots, stores a fallback ratio when either count is zero, otherwise computes the scaled ratio using the configured math functions."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

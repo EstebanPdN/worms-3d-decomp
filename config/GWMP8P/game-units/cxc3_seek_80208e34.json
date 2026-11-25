@@ -1,0 +1,11 @@
+{
+  "unit": "cxc3_seek_80208e34",
+  "source": "source/matching/game/cxc3/cxc3_seek_80208e34.c",
+  "language": "c",
+  "functions": {
+    "cxc3_seek_80208e34": "0x80208e34"
+  },
+  "descriptions": {
+    "cxc3_seek_80208e34": "Optionally save the previous position at +28; compute an unsigned candidate position from mode 0 (absolute), 1 (current position), or 2 (size at +32). Reject other modes with 0x90000002. Reject candidates above size with 0x90000003; otherwise store the candidate at +28 and return zero. Arithmetic wraps as a 32-bit unsigned value. Stream interpretation is inferred."
+  }
+}

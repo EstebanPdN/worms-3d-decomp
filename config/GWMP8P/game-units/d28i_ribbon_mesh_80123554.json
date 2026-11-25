@@ -1,0 +1,15 @@
+{
+  "unit": "d28i_ribbon_mesh_80123554",
+  "source": "source/matching/game/d28i/d28i_ribbon_mesh_80123554.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d28i_ribbon_mesh_80123554": "0x80123554"
+  },
+  "descriptions": {
+    "d28i_ribbon_mesh_80123554": "Builds the shared quad mesh of the ribbon renderer: creates its state objects and buffers, fills the index, position, normal and texture arrays and adds the mesh to the owner."
+  }
+}

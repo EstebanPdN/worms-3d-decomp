@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_read_team_item_8021bb9c",
+  "source": "source/matching/game/d26k/d26k_read_team_item_8021bb9c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_read_team_item_8021bb9c": "0x8021bb9c"
+  },
+  "descriptions": {
+    "w3d_d26k_read_team_item_8021bb9c": "Deserializes an item from the stream, checks its type chain and group, stores find(owner, name) in *out and returns 1 if 0x8021ed0c of its properties is nonzero, else 0; releases the item and the reader service on every path."
+  }
+}

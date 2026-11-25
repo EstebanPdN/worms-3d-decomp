@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d13_resize_refs_80210b90_reset",
+  "source": "source/matching/game/sol35d13/sol35d13_resize_refs_80210b90_reset.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_resize_refs_80210b90_reset": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d13_resize_refs_80210b90_reset": "Resize retained array through genuine new[] and pointer reset ownership boundary; signed capacity test and unsigned loops preserved. Native identities inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s15_hand_8011ad90",
+  "source": "source/matching/game/s15/s15_hand_8011ad90.c",
+  "language": "c",
+  "functions": {
+    "s15_update_saved_effect_8011ad90": "0x8011ad90"
+  },
+  "descriptions": {
+    "s15_update_saved_effect_8011ad90": "Updates a held effect with the supplied value and two saved property fields, then refreshes the owner."
+  }
+}

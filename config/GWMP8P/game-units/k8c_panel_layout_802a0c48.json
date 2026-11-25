@@ -1,0 +1,14 @@
+{
+  "unit": "k8c_panel_layout_802a0c48",
+  "source": "source/matching/game/k8c/k8c_panel_layout_802a0c48.c",
+  "language": "c",
+  "functions": {
+    "w3d_k8c_panel_layout_802a0c48": "0x802a0c48"
+  },
+  "descriptions": {
+    "w3d_k8c_panel_layout_802a0c48": "Appears to measure the body text, shrink the owner bounds by a margin at +316 and dispatch to one of two layout routines by the mode at +288."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

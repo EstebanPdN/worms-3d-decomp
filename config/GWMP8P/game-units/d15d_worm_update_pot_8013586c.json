@@ -1,0 +1,11 @@
+{
+  "unit": "d15d_worm_update_pot_8013586c",
+  "source": "source/matching/game/d15d/d15d_worm_update_pot_8013586c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15d_worm_update_pot_8013586c": "0x8013586c"
+  },
+  "descriptions": {
+    "d15d_worm_update_pot_8013586c": "Look up the worm's pot object, read the worm's transform from its source object (virtual slot 31) and copy its position, set the pot position from the worm, its second text and value from the worm's player record, then show the pot pair as (0, 0) when the worm is the current worm, either hide flag is set, the game is paused or the settings flag 4 is set without the override flag; otherwise as the truth values of the two show flags. Partial observed layouts; no owned initialized data."
+  }
+}

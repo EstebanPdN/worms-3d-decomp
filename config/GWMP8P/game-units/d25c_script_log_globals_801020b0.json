@@ -1,0 +1,14 @@
+{
+  "unit": "d25c_script_log_globals_801020b0",
+  "source": "source/matching/game/d25c/d25c_script_log_globals_801020b0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25c_script_log_globals_801020b0": "0x801020b0"
+  },
+  "descriptions": {
+    "d25c_script_log_globals_801020b0": "Log 'globals:', then walk the Lua globals table with lua_next. For each value whose lua_type is not 6 and whose key does not start with '_', build key + ': ' + value and log it at level 9. Pop the value each round and the final key at the end. Returns 0."
+  }
+}

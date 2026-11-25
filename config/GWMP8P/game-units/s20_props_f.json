@@ -1,0 +1,11 @@
+{
+  "unit": "s20_props_f",
+  "source": "source/matching/game/s20/s20_props_f.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_register_entries_vec4_801cd188": "0x801cd188"
+  },
+  "descriptions": {
+    "w3d_s20_register_entries_vec4_801cd188": "Appears to register two entries, a four-float property with a constant default and three more entries, finishing through a shared routine."
+  }
+}

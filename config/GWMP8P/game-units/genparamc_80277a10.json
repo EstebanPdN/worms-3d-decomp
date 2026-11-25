@@ -1,0 +1,11 @@
+{
+  "unit": "genparamc_80277a10",
+  "source": "source/matching/game/generated/genparamc_80277a10.c",
+  "language": "c",
+  "functions": {
+    "w3d_handle_key_80277a10": "0x80277a10"
+  },
+  "descriptions": {
+    "w3d_handle_key_80277a10": "Key handler: Escape runs the cancel action; otherwise the key position in one of two character sets selects a command (20 to 28) sent with the current target."
+  }
+}

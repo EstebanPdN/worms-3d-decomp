@@ -1,0 +1,11 @@
+{
+  "unit": "mx19oc_nested_vector_reserve_8034efd0",
+  "source": "source/matching/game/mx19oc/mx19oc_nested_vector_reserve_8034efd0.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx19oc_nested_vector_reserve_8034efd0": "0x8034efd0"
+  },
+  "descriptions": {
+    "mx19oc_nested_vector_reserve_8034efd0": "Grows a vector of 16-byte vectors of 12-byte records to at least the requested capacity: when storage exists it allocates the new block, copy-constructs every inner vector (allocating and copying its records), destroys and frees the old inner vectors and the old block, then sets begin, finish and storage end."
+  }
+}

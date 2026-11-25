@@ -1,0 +1,11 @@
+{
+  "unit": "f1b_forward_offset_vector_8011a51c",
+  "source": "source/matching/game/f1b/f1b_forward_offset_vector_8011a51c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1b_forward_offset_vector_8011a51c": "0x8011a51c"
+  },
+  "descriptions": {
+    "f1b_forward_offset_vector_8011a51c": "If the interface at offset 32 exists, invoke its virtual slot at byte offset 76 with the supplied three-float vector and zero; then add the owner vector at offset 36 and invoke the interface at offset 28 through the same slot with that sum and zero. Interface and field meanings remain inferred."
+  }
+}

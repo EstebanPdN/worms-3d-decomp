@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_downsample_rgb_801b0448",
+  "source": "source/matching/game/d29e/d29e_downsample_rgb_801b0448.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_downsample_rgb_801b0448": "0x801b0448"
+  },
+  "descriptions": {
+    "w3d_d29e_downsample_rgb_801b0448": "Halves a three-component image by averaging 2x2 blocks when the source height and pitch are twice the destination's (the original compares the pitch arguments here, not the widths); otherwise fills two pixel descriptors and calls the generic filter at 0x801d7750 once per component with mode 4. Names are inferred."
+  }
+}

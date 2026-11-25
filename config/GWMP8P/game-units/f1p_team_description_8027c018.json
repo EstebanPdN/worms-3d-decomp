@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_team_description_8027c018",
+  "source": "source/matching/game/f1p/f1p_team_description_8027c018.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_team_description_8027c018": "0x8027c018"
+  },
+  "descriptions": {
+    "w3d_team_description_8027c018": "Resolve the category/index name and interface, retain the observed text field at offset72, read the corresponding text property, and return either its value or a formatted missing-key message. Shared-string and handle lifetimes reflect original instructions; semantic names and partial layouts inferred."
+  }
+}

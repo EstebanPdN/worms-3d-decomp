@@ -1,0 +1,14 @@
+{
+  "unit": "d28b_table_page_draw_800990a4",
+  "source": "source/matching/game/d28b/d28b_table_page_draw_800990a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28b_table_page_draw_800990a4": "0x800990a4"
+  },
+  "descriptions": {
+    "w3d_d28b_table_page_draw_800990a4": "Table list page draw: for each of 19 rows of the page (+44 times 19) writes the end-of-list text in colour 2 or the item fields (virtual slots +40, +64, +68, +72, +80) with count and byte values through %d, a Y or N flag, colour 7 when the count is not zero else 9, names and descriptions cut with ... or padded to the width table 0x803f4bb8 at the columns 0x803f4ba0, then writes the line to the sink at +32 (0x802cbdf8)."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

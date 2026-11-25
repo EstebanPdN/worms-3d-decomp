@@ -1,0 +1,17 @@
+{
+  "unit": "d41n_buffer_manager_load_stream_80191130",
+  "source": "source/matching/game/d41n/d41n_buffer_manager_load_stream_80191130.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d41n_buffer_manager_load_stream_80191130": "0x80191130"
+  },
+  "descriptions": {
+    "w3d_d41n_buffer_manager_load_stream_80191130": "Stream loader: reads the name (redirecting to the new-format loader on a matching prefix), the entry table, then per record the weight, name and per-element stage data, registering elements in a temporary array and moving each finished record into the object's table."
+  }
+}

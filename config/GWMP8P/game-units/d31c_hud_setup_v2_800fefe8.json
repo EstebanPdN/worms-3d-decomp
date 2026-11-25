@@ -1,0 +1,11 @@
+{
+  "unit": "d31c_hud_setup_v2_800fefe8",
+  "source": "source/matching/game/d31c/d31c_hud_setup_v2_800fefe8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d31c_hud_setup_v2_800fefe8": "0x800fefe8"
+  },
+  "descriptions": {
+    "d31c_hud_setup_v2_800fefe8": "HUD panel set-up: loads named meshes and settings, sets up the two text meshes."
+  }
+}

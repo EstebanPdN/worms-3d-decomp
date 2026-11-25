@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_focus_advance_802c3ef0",
+  "source": "source/matching/game/cx12b/cx12b_focus_advance_802c3ef0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_focus_advance_802c3ef0": "0x802c3ef0"
+  },
+  "descriptions": {
+    "w3d_cx12b_focus_advance_802c3ef0": "Advance the observed focus identifier mapping, dispatch leave/enter callbacks and preserve the previous identifier."
+  }
+}

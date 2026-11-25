@@ -1,0 +1,11 @@
+{
+  "unit": "cx16a_initialize_actor_800daa2c",
+  "source": "source/matching/game/cx16a/cx16a_initialize_actor_800daa2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16a_initialize_actor_800daa2c": "0x800daa2c"
+  },
+  "descriptions": {
+    "w3d_cx16a_initialize_actor_800daa2c": "Initialize the actor base and vtable, clear the observed members and install the original enabled, sentinel and float defaults."
+  }
+}

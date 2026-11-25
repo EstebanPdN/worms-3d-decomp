@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_shot_power_init_800f1200",
+  "source": "source/matching/game/k4a/k4a_shot_power_init_800f1200.cpp",
+  "language": "cpp",
+  "functions": {
+    "k4a_shot_power_init_800f1200": "0x800f1200"
+  },
+  "descriptions": {
+    "k4a_shot_power_init_800f1200": "Appears to resolve the ShotPower and MaxPowerUpTime interfaces, subscribe to two messages, clear two fields, set the power level and post a target-id message."
+  }
+}

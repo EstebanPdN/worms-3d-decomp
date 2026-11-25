@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_search_paths_80129108",
+  "source": "source/matching/game/k10a/k10a_search_paths_80129108.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_search_paths_80129108": "0x80129108"
+  },
+  "descriptions": {
+    "w3d_k10a_search_paths_80129108": "Appears to register a loader's resource search directories through its virtual add-directory method, with four more unless flagged."
+  }
+}

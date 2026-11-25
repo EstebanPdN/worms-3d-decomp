@@ -1,0 +1,14 @@
+{
+  "unit": "d28e_service_add_front_8020a5b4",
+  "source": "source/matching/game/d28e/d28e_service_add_front_8020a5b4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_service_add_front_8020a5b4": "0x8020a5b4"
+  },
+  "descriptions": {
+    "w3d_d28e_service_add_front_8020a5b4": "Add an interface at the front of the chain vector at +20: returns 0x80004005 if already present, otherwise inserts it at the start and retains it. Returns 0."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

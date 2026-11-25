@@ -1,0 +1,19 @@
+{
+  "unit": "d31e_slot_manager_ctor_801a1a40",
+  "source": "source/matching/game/d31e/d31e_slot_manager_ctor_801a1a40.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "__14SessionManager": "0x801a1a40"
+  },
+  "descriptions": {
+    "__14SessionManager": "Constructs the singleton that registers two sigslot-style connections: base table 0x804139e0, tagged link at +4 cleared with kind 2, final table 0x804139c0, stores itself in the global at 0x804ab74c, appends itself to the global service list, then connects the global slot holder 0x8045ce2c to both signals of the local static 0x801ea954 (0x803a9b84 and 0x803a9b8c are the member-function constants). Each connect locks the signal, allocates a 16-byte connection, pushes it on the signal's STLport list, and records the signal in the slot holder's STLport set under the holder's lock. Shape follows the public sigslot library; names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

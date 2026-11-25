@@ -1,0 +1,11 @@
+{
+  "unit": "d32a_chat_message_send_8003904c",
+  "source": "source/matching/game/d32a/d32a_chat_message_send_8003904c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_chat_message_send_8003904c": "0x8003904c"
+  },
+  "descriptions": {
+    "w3d_d32a_chat_message_send_8003904c": "Builds and sends a chat packet from GS.OutBox by command class and echoes it locally when it is not to the sender."
+  }
+}

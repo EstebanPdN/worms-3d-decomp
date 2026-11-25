@@ -1,0 +1,11 @@
+{
+  "unit": "d21a_donkey_start_80060cc0",
+  "source": "source/matching/game/d21a/d21a_donkey_start_80060cc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d21a_donkey_start_80060cc0": "0x80060cc0"
+  },
+  "descriptions": {
+    "w3d_d21a_donkey_start_80060cc0": "Concrete Donkey start-up: loads the Donkey.Bounce (+312), Donkey.MinBounceSpeed (+308) and Donkey.Gravity (+172) resources into retained slots; places the donkey at Airstrike.TargetPoint raised by max(Land.MaxHeight + Donkey.ExtraHeight, Donkey.MinHeight) with zero velocity; runs set-up helpers 0x800eb6e4/0x800ed090; reads Payload.Target (+276), clears +288, starts the sound pair, copies the velocity to +316 and registers +328 as \"Donkey\" with the registry service."
+  }
+}

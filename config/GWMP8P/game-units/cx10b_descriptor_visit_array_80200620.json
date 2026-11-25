@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_descriptor_visit_array_80200620",
+  "source": "source/matching/game/cx10b/cx10b_descriptor_visit_array_80200620.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_descriptor_visit_array_80200620": "0x80200620"
+  },
+  "descriptions": {
+    "w3d_cx10b_descriptor_visit_array_80200620": "Visit every descriptor field for each array element between the stream begin and end callbacks."
+  }
+}

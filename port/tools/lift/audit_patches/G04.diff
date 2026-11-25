@@ -1,0 +1,15 @@
+--- a/port/core/libc/src/libc.cpp
++++ b/port/core/libc/src/libc.cpp
+@@ -66,8 +66,10 @@
+ double w3d_strtod(G s, G e) { char *end = 0; double v = strtod(S(s), &end); if (e) *(w3d_u32 *)g2h(e) = h2g(end); return v; }
+ int w3d_strtol(G s, G e, int b) { char *end = 0; long v = strtol(S(s), &end, b); if (e) *(w3d_u32 *)g2h(e) = h2g(end); return (int)v; }
+ w3d_u32 w3d_strtoul(G s, G e, int b) { char *end = 0; unsigned long v = strtoul(S(s), &end, b); if (e) *(w3d_u32 *)g2h(e) = h2g(end); return (w3d_u32)v; }
+-int w3d_rand(void) { return rand() & 0x7fffffff; }
+-void w3d_srand(w3d_u32 s) { srand(s); }
++// rand de newlib en 0x802ee7dc: los dos generadores del juego se siembran con él al arrancar (0x801651e8) y deciden el nivel natural.
++static w3d_u32 w3d_rand_next = 1;
++int w3d_rand(void) { w3d_rand_next = w3d_rand_next * 0x41c64e6dU + 0x3039U; return w3d_rand_next & 0x7fffffff; }
++void w3d_srand(w3d_u32 s) { w3d_rand_next = s; }
+ int w3d_abs(int a) { return a < 0 ? -a : a; }
+ G w3d_getenv(G) { return 0; }
+ int w3d_system(G) { return -1; }

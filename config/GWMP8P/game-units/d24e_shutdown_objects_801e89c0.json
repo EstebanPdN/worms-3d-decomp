@@ -1,0 +1,11 @@
+{
+  "unit": "d24e_shutdown_objects_801e89c0",
+  "source": "source/matching/game/d24e/d24e_shutdown_objects_801e89c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24e_shutdown_objects_801e89c0": "0x801e89c0"
+  },
+  "descriptions": {
+    "w3d_d24e_shutdown_objects_801e89c0": "Calls 0x801e8ccc on each node of the list at 0x804b18e0, erases the vector at 0x8045e080 and swaps it with an empty temporary, calls 0x801ea954 and 0x801ea9a4, then frees the old storage through the temporary's destructor. Returns 0."
+  }
+}

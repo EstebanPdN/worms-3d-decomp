@@ -1,0 +1,11 @@
+{
+  "unit": "f4c_inverse_transpose_801acd6c",
+  "source": "source/matching/game/f4c/f4c_inverse_transpose_801acd6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4c_inverse_transpose_801acd6c": "0x801acd6c"
+  },
+  "descriptions": {
+    "f4c_inverse_transpose_801acd6c": "Store and forward the input matrix pointer, compute the nine-float inverse into offset48 and exchange its three off-diagonal pairs. Partial layout, inverse-transpose role and access qualifiers inferred."
+  }
+}

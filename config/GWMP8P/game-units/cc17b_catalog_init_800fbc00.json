@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_catalog_init_800fbc00",
+  "source": "source/matching/game/cc17b/cc17b_catalog_init_800fbc00.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_catalog_init_800fbc00": "0x800fbc00"
+  },
+  "descriptions": {
+    "w3d_cc17b_catalog_init_800fbc00": "Builds the observed arena partitions and counts four sentinel catalogs with an explicit entry guard and post-increment loop. This fresh topology preserves the original conditional iterator-copy lifetime."
+  }
+}

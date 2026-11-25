@@ -1,0 +1,11 @@
+{
+  "unit": "s19_peer_800be8f8",
+  "source": "source/matching/game/s19/s19_peer_800be8f8.c",
+  "language": "c",
+  "functions": {
+    "s19_find_peer_value_800be8f8": "0x800be8f8"
+  },
+  "descriptions": {
+    "s19_find_peer_value_800be8f8": "Appears to scan the global context list for another entry in the same group as the given one and return its value at +0x1d0, or zero."
+  }
+}

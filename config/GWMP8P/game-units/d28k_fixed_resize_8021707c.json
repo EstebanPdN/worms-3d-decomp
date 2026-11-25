@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_fixed_resize_8021707c",
+  "source": "source/matching/game/d28k/d28k_fixed_resize_8021707c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_fixed_resize_8021707c": "0x8021707c"
+  },
+  "descriptions": {
+    "w3d_d28k_fixed_resize_8021707c": "Fixed-pool realloc: allocates, frees or validates a block against the pool's fixed size and reports through the error and realloc hooks."
+  }
+}

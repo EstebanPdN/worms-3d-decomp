@@ -1,0 +1,18 @@
+{
+  "unit": "d25c_input_process_20byte_800fa670",
+  "source": "source/matching/game/d25c/d25c_input_process_20byte_800fa670.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25c",
+    "source/matching/game/d24f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25c_input_process_20byte_800fa670": "0x800fa670"
+  },
+  "descriptions": {
+    "d25c_input_process_20byte_800fa670": "When +432 is set and 0x800f899c accepts the record, push it on the vector at +364. When the vector holds more than 100 records: create the list object (retained), get one array per field, copy every record, empty the vector, send the list through virtual +40 of the sink at 0x804abac0, and release it. The 8-byte frame slot at sp+16 is the compiler assignment temporary of the polymorphic record, left by the folded erase tail copy; same record table as the 0x80344dc4 family, which writes that temporary."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d30d_game_update_8015e0e0",
+  "source": "source/matching/game/d30d/d30d_game_update_8015e0e0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30d_game_update_8015e0e0": "0x8015e0e0"
+  },
+  "descriptions": {
+    "d30d_game_update_8015e0e0": "Per-frame scene update and render. Creates four named profile records on first use, converts elapsed milliseconds to seconds and advances the clock at +52, updates the items between the first and last visible index, then times culling, drawing and overlay drawing into +152, +156 and +160 using the 64-bit timer 0x801fe4d8. Returns zero."
+  }
+}

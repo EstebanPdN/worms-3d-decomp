@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_motion_time_to_height_80118aac",
+  "source": "source/matching/game/d19c/d19c_motion_time_to_height_80118aac.c",
+  "language": "c",
+  "functions": {
+    "d19c_motion_time_to_height_80118aac": "0x80118aac"
+  },
+  "descriptions": {
+    "d19c_motion_time_to_height_80118aac": "Solve for the time at which a body at height +4 with velocity +16 and acceleration +28 reaches the target height: -d/v with zero acceleration, otherwise the quadratic roots (return 0 when the discriminant is negative), storing the earlier positive root unless 'later' is set, else the later root; return 1 when the stored time is not negative, otherwise 0."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

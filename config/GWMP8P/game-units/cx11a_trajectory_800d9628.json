@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_trajectory_800d9628",
+  "source": "source/matching/game/cx11a/cx11a_trajectory_800d9628.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_trajectory_800d9628": "0x800d9628"
+  },
+  "descriptions": {
+    "w3d_cx11a_trajectory_800d9628": "Refreshes a provider and samples the observed linear or accelerated trajectory at a nonnegative elapsed tick value. Names inferred."
+  }
+}

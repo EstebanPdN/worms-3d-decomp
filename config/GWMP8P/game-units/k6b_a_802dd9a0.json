@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_802dd9a0",
+  "source": "source/matching/game/k6b/k6b_a_802dd9a0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_lua_errfile_802dd9a0": "0x802dd9a0"
+  },
+  "descriptions": {
+    "w3d_k6b_lua_errfile_802dd9a0": "Appears to be Lua 5.0 lauxlib errfile: push \"cannot read %s: %s\" with the chunk name and the errno text, remove the name and return LUA_ERRFILE."
+  }
+}

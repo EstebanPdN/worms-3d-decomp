@@ -1,0 +1,11 @@
+{
+  "unit": "d25e_write_tex_psmt8_801d8e20",
+  "source": "source/matching/game/d25e/d25e_write_tex_psmt8_801d8e20.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25e_write_tex_psmt8_801d8e20": "0x801d8e20"
+  },
+  "descriptions": {
+    "w3d_d25e_write_tex_psmt8_801d8e20": "Writes an 8-bit image rectangle into the emulated GS memory buffer 0x804b0554 using GS PSMT8 addressing: for each pixel derives page (128x64), block via table 0x803ff414, column, word via 0x803ff494[column & 1] and byte via 0x803ff694, and stores one source byte there."
+  }
+}

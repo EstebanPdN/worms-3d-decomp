@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_transfer_begin_802e1a98",
+  "source": "source/matching/game/cx8b/cx8b_transfer_begin_802e1a98.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_transfer_begin_802e1a98": "0x802e1a98"
+  },
+  "descriptions": {
+    "w3d_cx8b_transfer_begin_802e1a98": "Start the descriptor transfer, cache the selected record value on success, and return success as 1 or 0."
+  }
+}

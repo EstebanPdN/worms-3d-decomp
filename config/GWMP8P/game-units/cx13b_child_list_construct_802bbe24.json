@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_child_list_construct_802bbe24",
+  "source": "source/matching/game/cx13b/cx13b_child_list_construct_802bbe24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_child_list_construct_802bbe24": "0x802bbe24"
+  },
+  "descriptions": {
+    "w3d_cx13b_child_list_construct_802bbe24": "Construct the base, install the original interface table and initialize the observed vector, float defaults and state fields."
+  }
+}

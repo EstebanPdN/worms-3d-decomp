@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aj_801f7538",
+  "source": "source/matching/game/s21/s21_aj_801f7538.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_801f7538": "0x801f7538"
+  },
+  "descriptions": {
+    "w3d_s21_construct_801f7538": "Appears to construct an object with a base constructor and fill an embedded three-float member with a global constant."
+  }
+}

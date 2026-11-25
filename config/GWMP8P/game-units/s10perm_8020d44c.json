@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_8020d44c",
+  "source": "source/matching/game/perm/s10perm_8020d44c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8020d44c": "0x8020d44c"
+  },
+  "descriptions": {
+    "w3d_auto_8020d44c": "Positions the held output stream, writes the supplied data, advances its position, optionally reports the written length, and returns zero."
+  }
+}

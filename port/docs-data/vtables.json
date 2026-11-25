@@ -1,0 +1,341 @@
+{
+"resolved": {
+"source/matching/game/d28a/d28a_aim_command_create_80007eac.cpp": {
+"__vt_10AimCommand": "0x8040dca8"
+},
+"source/matching/game/d28a/d28a_plan_clone_pair_8000a2d0.cpp": {
+"__vt_10WeaponPlan": "0x8040d7b8",
+"__vt_5PlanA": "0x8040d6a0",
+"__vt_5PlanB": "0x8040cce8"
+},
+"source/matching/game/d41a/d41a_stand_plan_spawn_8000b8f8.cpp": {
+"__vt_13Plan_8040d7b8": "0x8040d7b8",
+"__vt_13Plan_8040d748": "0x8040d748",
+"__vt_13Plan_8040d710": "0x8040d710",
+"__vt_13Plan_8040d6d8": "0x8040d6d8",
+"__vt_13Plan_8040d668": "0x8040d668"
+},
+"source/matching/game/d28a/d28a_weapon_plans_main_8000c14c.cpp": {
+"__vt_10WeaponPlan": "0x8040d7b8",
+"__vt_8Weapon15": "0x8040d5a8",
+"__vt_8Weapon20": "0x8040d568",
+"__vt_8Weapon21": "0x8040d528",
+"__vt_7Weapon0": "0x8040d5e8",
+"__vt_7Weapon1": "0x8040d4e8",
+"__vt_7Weapon5": "0x8040d3e8",
+"__vt_7Weapon6": "0x8040d468",
+"__vt_8Weapon34": "0x8040d428",
+"__vt_8Weapon14": "0x8040d368",
+"__vt_8Weapon16": "0x8040d328",
+"__vt_7Weapon2": "0x8040d4a8",
+"__vt_6Aim327": "0x8040d7b8",
+"__vt_6Aim471": "0x8040d7b8"
+},
+"source/matching/game/d28a/d28a_weapon_plans_flight_8000d5e4.cpp": {
+"__vt_10WeaponPlan": "0x8040d7b8",
+"__vt_7Weapon9": "0x8040d2a8",
+"__vt_7Weapon8": "0x8040d268",
+"__vt_8Weapon30": "0x8040d228",
+"__vt_7Aim4423": "0x8040d7b8"
+},
+"source/matching/game/d28a/d28a_weapon_plans_refine_8000dd7c.cpp": {
+"__vt_10WeaponPlan": "0x8040d7b8",
+"__vt_7Bazooka": "0x8040d1b8",
+"__vt_7Grenade": "0x8040d110",
+"__vt_6Ranged": "0x8040d7b8"
+},
+"source/matching/game/d28a/d28a_weapon_plans_retreat_8000ebe4.cpp": {
+"__vt_10WeaponPlan": "0x8040d7b8",
+"__vt_8Weapon10": "0x8040d0a0",
+"__vt_8Weapon11": "0x8040d068",
+"__vt_8Weapon12": "0x8040d030",
+"__vt_8Weapon13": "0x8040cff8",
+"__vt_7Weapon7": "0x8040cf50",
+"__vt_8Weapon33": "0x8040ce38",
+"__vt_7Weapon4": "0x8040cf88",
+"__vt_7Weapon1": "0x8040cee0",
+"__vt_7Weapon2": "0x8040cea8",
+"__vt_7Weapon6": "0x8040ce70",
+"__vt_7Aim1092": "0x8040d7b8",
+"__vt_7Aim1345": "0x8040d7b8",
+"__vt_7Aim1353": "0x8040d7b8"
+},
+"source/matching/game/d28a/d28a_weapon_plans_special_800109b0.cpp": {
+"__vt_10WeaponPlan": "0x8040d7b8",
+"__vt_8Weapon18": "0x8040cdc8",
+"__vt_8Weapon23": "0x8040cd58",
+"__vt_8Weapon29": "0x8040cd20",
+"__vt_8Weapon24": "0x8040cd90",
+"__vt_7Aim1345": "0x8040d7b8"
+},
+"source/matching/game/d28a/d28a_weapon_plans_close_8001148c.cpp": {
+"__vt_10WeaponPlan": "0x8040d7b8",
+"__vt_7Weapon2": "0x8040ccb0",
+"__vt_8Weapon17": "0x8040cc40",
+"__vt_8Weapon26": "0x8040cc08",
+"__vt_8Weapon43": "0x8040cbd0",
+"__vt_5Base2": "0x8040d7b8"
+},
+"source/matching/game/d28a/d28a_collect_crate_plans_build_80016d44.cpp": {
+"__vt_12CollectCrate": "0x8040d958"
+},
+"source/matching/game/d44s/d44s_plan_scatter_push_80017044.cpp": {
+"__vt_4Plan": "0x8040d920"
+},
+"source/matching/game/ai_plans/collect_crate_copy_80017e28.cpp": {
+"__vt_15W3dCollectCrate": "0x8040d958"
+},
+"source/matching/game/d33s/d33s_name_table_ctor_80069c8c.cpp": {
+"__vt_13D33sNameTable": "0x8040ef98"
+},
+"source/matching/game/d28b/d28b_water_construct_8008fb3c.cpp": {
+"__vt_9D28bWater": "0x8040f150"
+},
+"source/matching/game/d32b/d32b_utility_state_80093994.cpp": {
+"__vt_16D32bUtilityState": "0x8040f1f8"
+},
+"source/matching/game/sol29a/texture_set_construct_800f2ad0.cpp": {
+"__vt_16Sol29aTextureSet": "0x804103e8"
+},
+"source/matching/game/d30c/d30c_input_post_string_800f985c.cpp": {
+"__vt_8PostBase": "0x80410500",
+"__vt_10PostRecord": "0x804104e0"
+},
+"source/matching/game/d31d/d31d_worm_ctor_80131d44.cpp": {
+"__vt_13Worm_80410e80": "0x80410e80"
+},
+"source/matching/game/d24d/d24d_turn_tables_ctor_80154918.cpp": {
+"__vt_15d24d_TurnTables": "0x80410f40"
+},
+"source/matching/game/d24d/d24d_water_target_ctor_8015a0d4.cpp": {
+"__vt_16d24d_WaterTarget": "0x80410ff0"
+},
+"source/matching/game/d32d/d32d_display_ctor_8015b4ac.cpp": {
+"__vt_16Display_804110e8": "0x804110e8"
+},
+"source/matching/game/mx14oa/mx14oa_file_owner_b_8015be3c.cpp": {
+"__vt_14Mx14oaServiceB": "0x804111a0",
+"__vt_16Mx14oaFileOwnerB": "0x80411168",
+"__vt_11Mx14oaNodeB": "0x804111a0"
+},
+"source/matching/game/d41x/d41x_scene_node_ctor_8015db40.cpp": {
+"__vt_13Node_80411378": "0x80411378",
+"__vt_12Mid_804112e0": "0x804112e0",
+"__vt_12Top_80411248": "0x80411248"
+},
+"source/matching/game/mx16oa/mx16oa_render_state_80166d8c.cpp": {
+"__vt_15Mx16oaStateRoot": "0x80411c88",
+"__vt_17Mx16oaRenderState": "0x80411c10",
+"__vt_17Mx16oaStateTagged": "0x80411c88"
+},
+"source/matching/game/mx17oa/mx17oa_xgx_screen_8016eabc.cpp": {
+"__vt_16Mx17oaScreenRoot": "0x80411ea0",
+"__vt_15Mx17oaXGXScreen": "0x80411e60",
+"__vt_18Mx17oaScreenTagged": "0x80411ea0"
+},
+"source/matching/game/d41x/d41x_scene_bins_ctor_8017b9c8.cpp": {
+"__vt_4Base": "0x80412870",
+"__vt_18SceneBins_804127a0": "0x804127a0"
+},
+"source/matching/game/d30j/d30j_destroy_pool_manager_8017bf40.cpp": {
+"__vt_4Base": "0x80412870",
+"__vt_15D30jPoolManager": "0x804127a0"
+},
+"source/matching/game/d31e/d31e_slot_manager_ctor_801a1a40.cpp": {
+"__vt_5ConnA": "0x804139a0",
+"__vt_5ConnB": "0x80413980",
+"__vt_5Iface": "0x804139e0",
+"__vt_14SessionManager": "0x804139c0",
+"__vt_3Top": "0x804139e0"
+},
+"source/matching/game/d33e/d33e_renderer_ctor_801a81c4.cpp": {
+"__vt_8HasSlots": "0x80413a38",
+"__vt_5ConnB": "0x80413c88",
+"__vt_4Dest": "0x80413ca8",
+"__vt_4Base": "0x80413d30",
+"__vt_8Renderer": "0x80413cc0"
+},
+"source/matching/game/d31e/d31e_render_state_ctor_801b0d38.cpp": {
+"__vt_5Iface": "0x804136c0",
+"__vt_6Render": "0x80414220",
+"__vt_4Base": "0x804136c0"
+},
+"source/matching/game/d30s/d30s_xaction_static_init_801e85f4.cpp": {
+"__vt_15D30sXactionRecv": "0x804170f8",
+"__vt_15D30sXactionSlot": "0x804170d8",
+"__vt_19D30sXactionRecvBase": "0x80413a38",
+"__vt_19D30sXactionReceiver": "0x804170f8"
+},
+"source/matching/game/d30s/d30s_finish_type_801e8d9c.cpp": {
+"__vt_14D30sFinishRecv": "0x80417150",
+"__vt_14D30sFinishSlot": "0x80417130",
+"__vt_12D30sRecvBase": "0x80413a38",
+"__vt_18D30sFinishReceiver": "0x80417150"
+},
+"source/matching/game/d30e/d30e_device_owner_801fb270.cpp": {
+"__vt_7Service": "0x804182d0",
+"__vt_15D30eDeviceOwner": "0x80418210",
+"__vt_4Node": "0x804182d0"
+},
+"source/matching/game/d19e/d19e_widget_base_8021ef08.cpp": {
+"__vt_10D19eWidget": "0x8041a5f0"
+},
+"source/matching/game/mx21ob/mx21ob_v2_button_8021fd28.cpp": {
+"__vt_14Mx21obFeButton": "0x8041a5c8"
+},
+"source/matching/game/mx21ob/mx21ob_v2_slider_80220200.cpp": {
+"__vt_14Mx21obFeSlider": "0x8041a5a0"
+},
+"source/matching/game/mx21ob/mx21ob_v2_string_quad_80220668.cpp": {
+"__vt_18Mx21obFeStringQuad": "0x8041a578"
+},
+"source/matching/game/mx21ob/mx21ob_v2_string_set_80221174.cpp": {
+"__vt_17Mx21obFeStringSet": "0x8041a500"
+},
+"source/matching/game/mx21ob/mx21ob_v2_button_alt_80221e8c.cpp": {
+"__vt_17Mx21obFeButtonAlt": "0x8041a4b0"
+},
+"source/matching/game/d20e/d20e_font_label_8022240c.cpp": {
+"__vt_13D20eFontLabel": "0x8041a488"
+},
+"source/matching/game/d20e/d20e_menu_item_80223138.cpp": {
+"__vt_12D20eMenuItem": "0x8041a410"
+},
+"source/matching/game/mx21ob/mx21ob_v2_box_extent_802238ac.cpp": {
+"__vt_17Mx21obFeBoxExtent": "0x8041a3e8"
+},
+"source/matching/game/mx21ob/mx21ob_v2_border_widget_80223e20.cpp": {
+"__vt_20Mx21obFeBorderWidget": "0x8041a3c0"
+},
+"source/matching/game/mx21ob/mx21ob_v2_equaliser_80224670.cpp": {
+"__vt_17Mx21obFeEqualiser": "0x8041a398"
+},
+"source/matching/game/mx21ob/mx21ob_v2_font_panel_80224cd4.cpp": {
+"__vt_17Mx21obFeFontPanel": "0x8041a370"
+},
+"source/matching/game/mx15ob/mx15ob_flagged_label_802265a4.cpp": {
+"__vt_18Mx15obFlaggedLabel": "0x8041a258"
+},
+"source/matching/game/mx24ob/mx24ob_team_setup_80227398.cpp": {
+"__vt_10Mx24obTeam": "0x8041a168"
+},
+"source/matching/game/d21e/d21e_team_preset_80227a80.cpp": {
+"__vt_14D21eTeamPreset": "0x8041a140"
+},
+"source/matching/game/mx15ob/mx15ob_name_quintet_8022c2f0.cpp": {
+"__vt_17Mx15obNameQuintet": "0x8041a000"
+},
+"source/matching/game/mx15ob/mx15ob_name_triple_8022c860.cpp": {
+"__vt_16Mx15obNameTriple": "0x80419fd8"
+},
+"source/matching/game/mx15ob/mx15ob_ranged_names_v2_8022ce9c.cpp": {
+"__vt_17Mx15obRangedNames": "0x80419f88"
+},
+"source/matching/game/mx15ob/mx15ob_named_slots_802366b4.cpp": {
+"__vt_16Mx15obNamedSlots": "0x8041a810"
+},
+"source/matching/game/mx24ob/mx24ob_crc_object_8023a858.cpp": {
+"__vt_15Mx24obCrcObject": "0x8041ae50"
+},
+"source/matching/game/d17e/d17e_record_vector_append_8023ee88.cpp": {
+"__vt_9D17eEntry": "0x80410500",
+"__vt_14D17eNamedEntry": "0x804104e0"
+},
+"source/matching/game/d17e/d17e_record_vector_append_8023f510.cpp": {
+"__vt_9D17eEntry": "0x80410500",
+"__vt_12D17eIntEntry": "0x804104f0",
+"__vt_14D17eFloatEntry": "0x804104c0",
+"__vt_16D17eIntPairEntry": "0x804104d0",
+"__vt_18D17eFloatPairEntry": "0x804104b0"
+},
+"source/matching/game/d20e/d20e_settings_panel_80241bac.cpp": {
+"__vt_17D20eSettingsPanel": "0x8041b540"
+},
+"source/matching/game/d20e/d20e_view_panel_80242ebc.cpp": {
+"__vt_13D20eViewPanel": "0x8041b4c8"
+},
+"source/matching/game/d20e/d20e_tuning_panel_802449bc.cpp": {
+"__vt_15D20eTuningPanel": "0x8041b428"
+},
+"source/matching/game/mx17ob/mx17ob_colour_style_802460a0.cpp": {
+"__vt_17Mx17obColourStyle": "0x8041b388"
+},
+"source/matching/game/d19e/d19e_panel_base_80251f40.cpp": {
+"__vt_9D19ePanel": "0x8041bab8"
+},
+"source/matching/game/d20e/d20e_large_panel_80253330.cpp": {
+"__vt_14D20eLargePanel": "0x8041ba90"
+},
+"source/matching/game/d20e/d20e_flight_panel_802555b0.cpp": {
+"__vt_15D20eFlightPanel": "0x8041ba18"
+},
+"source/matching/game/d20e/d20e_panel_subclass_8025693c.cpp": {
+"__vt_17D20ePanelSubclass": "0x8041b9c8"
+},
+"source/matching/game/h1/h1_stlport_vec4_tables_ctor.cpp": {
+"__vt_13W3dTablesBase": "0x80418470",
+"__vt_14W3dVec4TablesC": "0x80418470"
+}
+},
+"unresolved": {
+"source/matching/game/d28a/d28a_aim_command_create_80007eac.cpp": {
+"names": [
+"__vt_11CommandBase"
+],
+"tables": []
+},
+"source/matching/game/d28a/d28a_collect_crate_plans_build_80016d44.cpp": {
+"names": [
+"__vt_8PathPlan"
+],
+"tables": []
+},
+"source/matching/game/d44s/d44s_plan_scatter_push_80017044.cpp": {
+"names": [
+"__vt_8PathPlan",
+"__vt_2M1",
+"__vt_2M2",
+"__vt_2M3"
+],
+"tables": []
+},
+"source/matching/game/ai_plans/collect_crate_copy_80017e28.cpp": {
+"names": [
+"__vt_11W3dPathPlan"
+],
+"tables": []
+},
+"source/matching/game/d41m/d41m_screen_ctor_800c6e44.cpp": {
+"names": [
+"__vt_15Screen_8040faa8"
+],
+"tables": []
+},
+"source/matching/game/d41x/d41x_scene_node_ctor_8015db40.cpp": {
+"names": [
+"__vt_4Root"
+],
+"tables": []
+},
+"source/matching/game/d41x/d41x_scene_bins_ctor_8017b9c8.cpp": {
+"names": [
+"__vt_4Root"
+],
+"tables": []
+},
+"source/matching/game/d31e/d31e_slot_manager_ctor_801a1a40.cpp": {
+"names": [
+"__vt_8ConnBase"
+],
+"tables": []
+},
+"source/matching/game/d33e/d33e_renderer_ctor_801a81c4.cpp": {
+"names": [
+"__vt_6Policy",
+"__vt_8ConnBase",
+"__vt_5Iface"
+],
+"tables": []
+}
+}
+}

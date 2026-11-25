@@ -1,0 +1,14 @@
+{
+  "unit": "d32c_emitter_setup_800e1420",
+  "source": "source/matching/game/d32c/d32c_emitter_setup_800e1420.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d32c_emitter_setup_800e1420": "0x800e1420"
+  },
+  "descriptions": {
+    "d32c_emitter_setup_800e1420": "Starts the emitter: subscribes messages, reads settings and loads its sinks, trail or mesh."
+  }
+}

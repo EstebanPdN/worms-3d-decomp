@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_airstrike_message_8002e9f0",
+  "source": "source/matching/game/d24a/d24a_airstrike_message_8002e9f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_airstrike_message_8002e9f0": "0x8002e9f0"
+  },
+  "descriptions": {
+    "w3d_d24a_airstrike_message_8002e9f0": "Message 64 runs the base handler (0x8015fb34; negative returns 0x80004005) then 0x8002ead8; message 66 runs 0x8002f354 then the base handler; cached id 0x804acd34 passes word +52 of the engine context to 0x8002f3d4; cached id 0x804acd2c notifies 250 (0x800fde64) and finishes (0x8015fd1c); others go to the base handler."
+  }
+}

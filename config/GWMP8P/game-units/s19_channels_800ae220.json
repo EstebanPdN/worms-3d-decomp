@@ -1,0 +1,11 @@
+{
+  "unit": "s19_channels_800ae220",
+  "source": "source/matching/game/s19/s19_channels_800ae220.c",
+  "language": "c",
+  "functions": {
+    "s19_start_channels_800ae220": "0x800ae220"
+  },
+  "descriptions": {
+    "s19_start_channels_800ae220": "Appears to start three channels with a helper and call virtual slot 6 on the two held interfaces at +0x54 and +0x58."
+  }
+}

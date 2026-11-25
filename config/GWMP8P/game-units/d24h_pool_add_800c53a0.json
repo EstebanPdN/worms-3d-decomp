@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_pool_add_800c53a0",
+  "source": "source/matching/game/d24h/d24h_pool_add_800c53a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_pool_add_800c53a0": "0x800c53a0"
+  },
+  "descriptions": {
+    "w3d_d24h_pool_add_800c53a0": "Pool handle allocation: builds a 16-byte object (0x802098d8, 0x800f74cc), copies the source's size-prefixed blob (0x803446e0, size word first) into a new arena block, attaches the blob data at +4, the order and the blob (0x800f7510, 0x800f7500, 0x800f7520), pops an id from the free vector 0x8043e438, inserts it sorted (0x800c54d0), stores the object and the incremented generation by id, counts the allocation, tracks the peak active count at 0x803f5724 and returns id + generation * 128."
+  }
+}

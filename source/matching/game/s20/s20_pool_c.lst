@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_pool_c.c
+w3d_s20_store_flag_byte_80173d38|0x80173d38|Appears to hold a reference to an object, acquire its pool entry, store the low bit of a field at the indexed byte and release the reference.

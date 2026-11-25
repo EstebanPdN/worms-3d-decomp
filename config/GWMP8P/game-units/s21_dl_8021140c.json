@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dl_8021140c",
+  "source": "source/matching/game/s21/s21_dl_8021140c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_set_text_checked_8021140c": "0x8021140c"
+  },
+  "descriptions": {
+    "w3d_s21_set_text_checked_8021140c": "Appears to build and discard a temporary copy of a shared string, then assign the string pointer into the field at offset 28 with reference-count adjustment, returning zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_setting_format_80103c44",
+  "source": "source/matching/game/d24i/d24i_setting_format_80103c44.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_setting_format_80103c44": "0x80103c44"
+  },
+  "descriptions": {
+    "d24i_setting_format_80103c44": "Look up the setting named by item +56 as a retained value handle (0x800fc1b0), making and dropping a copy of the name if absent; format the value by its kind (virtual +24: 2 float, 0 and 1 integer, 4 text) into a string, rename item +56 with it (0x801790bc) and re-sync through 0x80103a5c; an unknown kind drops a copy of the name, calls the value's virtual +28 and writes the error text 0x803994ec to the setting named by item +48; finally releases the handle."
+  }
+}

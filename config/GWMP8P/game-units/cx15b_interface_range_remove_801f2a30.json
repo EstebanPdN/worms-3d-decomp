@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_interface_range_remove_801f2a30",
+  "source": "source/matching/game/cx15b/cx15b_interface_range_remove_801f2a30.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_interface_range_remove_801f2a30": "0x801f2a30"
+  },
+  "descriptions": {
+    "w3d_cx15b_interface_range_remove_801f2a30": "Release a counted interface interval, shift following slots, clear tail, and reduce count."
+  }
+}

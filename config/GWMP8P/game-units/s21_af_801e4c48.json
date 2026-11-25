@@ -1,0 +1,11 @@
+{
+  "unit": "s21_af_801e4c48",
+  "source": "source/matching/game/s21/s21_af_801e4c48.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_801e4c48": "0x801e4c48"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_801e4c48": "Appears to be a deleting destructor that installs the vtable pointer, runs member cleanup and deletes the object when the low flag bit is set."
+  }
+}

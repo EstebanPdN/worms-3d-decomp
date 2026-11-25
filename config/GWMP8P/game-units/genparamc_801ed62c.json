@@ -1,0 +1,22 @@
+{
+  "unit": "genparamc_801ed62c",
+  "source": "source/matching/game/generated/genparamc_801ed62c.c",
+  "language": "c",
+  "functions": {
+    "w3d_set_byte_from_float_801ed62c": "0x801ed62c",
+    "w3d_set_long_from_float_801ed88c": "0x801ed88c",
+    "w3d_set_ulong_from_float_801ed900": "0x801ed900",
+    "w3d_set_float_member_801ed974": "0x801ed974",
+    "w3d_set_float_member_801ed9cc": "0x801ed9cc"
+  },
+  "descriptions": {
+    "w3d_set_byte_from_float_801ed62c": "Converts the given float to an unsigned byte (quantized store) and passes it to a setter on the target through a pointer to member function.",
+    "w3d_set_long_from_float_801ed88c": "Converts the given float to a 64-bit integer and passes it to a setter on the target through a pointer to member function.",
+    "w3d_set_float_member_801ed974": "Calls a float setter on the target through a pointer to member function with the float pointed to by the last argument.",
+    "w3d_set_float_member_801ed9cc": "Calls a float setter on the target through a pointer to member function with the float pointed to by the last argument.",
+    "w3d_set_ulong_from_float_801ed900": "Converts the given float to a unsigned 64-bit integer and passes it to a setter on the target through a pointer to member function."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

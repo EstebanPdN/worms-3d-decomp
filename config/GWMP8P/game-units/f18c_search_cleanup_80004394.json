@@ -1,0 +1,11 @@
+{
+  "unit": "f18c_search_cleanup_80004394",
+  "source": "source/matching/game/f18c/f18c_search_cleanup_80004394.cpp",
+  "language": "cpp",
+  "functions": {
+    "f18c_search_cleanup_80004394": "0x80004394"
+  },
+  "descriptions": {
+    "f18c_search_cleanup_80004394": "Clear the two external path-table prefixes at receiver+4 and+0x4008, reset end+0x8050 from begin+0x804c, destroy and free the two nullable external node pointers at+0x800c/+0x8010, clear state+0x8018 and result+0x8020, set sentinel+0x801c to -1, clear the bucket at+0x8024, and restore the halfword bounds at+0x8048/+0x804a to zero/0x7fff. The receiver is an external observed prefix only; unknown storage is explicit. Node type is an external destruction-only prefix with an empty original destructor and witnessed deallocation; no local instance, constructor, allocation extent, original class identity or external data ownership is claimed."
+  }
+}

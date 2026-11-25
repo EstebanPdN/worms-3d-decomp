@@ -1,0 +1,15 @@
+{
+  "unit": "s9_owner_list",
+  "source": "source/matching/game/s9/s9_owner_list.c",
+  "language": "c",
+  "functions": {
+    "s9_remove_owner_node_80165d4c": "0x80165d4c",
+    "s9_remove_owner_node_80165fd4": "0x80165fd4",
+    "s9_remove_owner_node_801662a8": "0x801662a8"
+  },
+  "descriptions": {
+    "s9_remove_owner_node_80165d4c": "Clears the owner tracking field, scans the linked list for the matching owner, unlinks and destroys the first matching node and returns zero.",
+    "s9_remove_owner_node_80165fd4": "Clears the owner tracking field, scans the linked list for the matching owner, unlinks and destroys the first matching node and returns zero.",
+    "s9_remove_owner_node_801662a8": "Clears the owner tracking field, scans the linked list for the matching owner, unlinks and destroys the first matching node and returns zero."
+  }
+}

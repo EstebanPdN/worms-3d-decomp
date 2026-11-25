@@ -1,0 +1,13 @@
+{
+  "unit": "s9more_801898e0",
+  "source": "source/matching/game/generated/s9more_801898e0.c",
+  "language": "c",
+  "functions": {
+    "s9_property_data_801898e0": "0x801898e0",
+    "s9_virtual_byte_8018c57c": "0x8018c57c"
+  },
+  "descriptions": {
+    "s9_property_data_801898e0": "Returns retained inline property data for kind one, or delegates data access to the property helper.",
+    "s9_virtual_byte_8018c57c": "Returns the byte pointed to by the inner object virtual getter."
+  }
+}

@@ -1,0 +1,11 @@
+--- a/port/core/game/f10a/f10a_rebuild_land_8026d5c0.cpp
++++ b/port/core/game/f10a/f10a_rebuild_land_8026d5c0.cpp
+@@ -8,7 +8,7 @@
+ typedef Ptr32<void (Ptr32<void>)> F10aLandRetain_8026d5c0;
+ extern "C" void fn_8020c5c0(Ptr32<void>),fn_8020c5c4(Ptr32<void>),fn_80341588(Ptr32<void>);
+ extern "C" Ptr32<unsigned short> fn_80341884(Ptr32<void>);
+-struct F10aLandCopy_8026d5c0 {Ptr32<char> p;F10aLandCopy_8026d5c0(const F10aLandCopy_8026d5c0&s){fn_8020c5c0(this);p=s.p;++*fn_80341884(this);}~F10aLandCopy_8026d5c0(){fn_8020c5c4(this);fn_80341588(this);}};
++struct F10aLandCopy_8026d5c0 {Ptr32<char> p;F10aLandCopy_8026d5c0(const F10aLandCopy_8026d5c0&s){fn_8020c5c0(this);p=s.p;++*fn_80341884(this);}};
+ struct F10aLandHeld_8026d5c0{Ptr32<void> p;F10aLandHeld_8026d5c0(const F10aLandHeld_8026d5c0&s):p(s.p){if(p)F(p,F10aLandRetain_8026d5c0*,0)[3](p);}~F10aLandHeld_8026d5c0(){if(p)F(p,F10aLandRetain_8026d5c0*,0)[4](p);}};
+ extern "C" void fn_8026dbe8(Ptr32<void>); Ptr32<void> fn_8020b680(Ptr32<void>);
+ extern "C" int fn_80164514(Ptr32<void>,Ptr32<void>,unsigned);

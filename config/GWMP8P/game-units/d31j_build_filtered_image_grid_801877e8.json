@@ -1,0 +1,18 @@
+{
+  "unit": "d31j_build_filtered_image_grid_801877e8",
+  "source": "source/matching/game/d31j/d31j_build_filtered_image_grid_801877e8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d31j_build_filtered_image_grid_801877e8": "0x801877e8"
+  },
+  "descriptions": {
+    "d31j_build_filtered_image_grid_801877e8": "Same sequence as 0x80183ed0: creates the image, loads and configures the texture, then the material, geometry and a modifier whose type depends on option bits 4 and 2048, sets its blend byte on option 1024, derives the cell size, fills UV and step arrays, stores the geometry, creates the instance, applies option setters and computes bounds."
+  }
+}

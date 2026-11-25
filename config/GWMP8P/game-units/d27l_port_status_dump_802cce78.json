@@ -1,0 +1,12 @@
+{
+  "unit": "d27l_port_status_dump_802cce78",
+  "source": "source/matching/game/d27l/d27l_port_status_dump_802cce78.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d27l_port_status_dump_802cce78": "0x802cce78"
+  },
+  "descriptions": {
+    "d27l_port_status_dump_802cce78": "Formats a text status report of all ports and writes it to the given sink."
+  }
+}

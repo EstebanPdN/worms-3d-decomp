@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_b37_clear_entries_80198744",
+  "source": "source/matching/game/tsonnet_b37_clear_entries_80198744.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b37_clear_entries_80198744": "0x80198744"
+  },
+  "descriptions": {
+    "tsonnet_b37_clear_entries_80198744": "Walks a table of 80 sixteen-byte entries. For each entry holding an object it calls two virtual slots on that object with the entry key and passes the first result plus 8 and the second result to a record-clearing helper. Every entry is then reset: key, object and word to zero and the top two bits of its flag word cleared. Field meanings are inferred. The trailing no-op pointer increment and decrement is a matching device. The helper's behavior has not been tested."
+  }
+}

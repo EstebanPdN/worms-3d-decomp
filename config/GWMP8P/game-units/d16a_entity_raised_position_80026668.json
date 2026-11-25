@@ -1,0 +1,11 @@
+{
+  "unit": "d16a_entity_raised_position_80026668",
+  "source": "source/matching/game/d16a/d16a_entity_raised_position_80026668.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d16a_entity_raised_position_80026668": "0x80026668"
+  },
+  "descriptions": {
+    "w3d_d16a_entity_raised_position_80026668": "Returns (by hidden result pointer) the position of the entity referenced by the caller object's handle at +32, raised by 8 on y: views the handle (0x803426b4), resolves its index (0x80178c48) and entity record (0x800fc6dc), copies the record's Vec3 at +80 into a local through a pointer, builds the offset (0, 8, 0) from the pooled literals 0x8036ca50/0x8036ca54 and returns the component-wise sum. Names are inferred; offsets are observed."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f16c_tasks_cleanup_80161ae0",
+  "source": "source/matching/game/f16c/f16c_tasks_cleanup_80161ae0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f16c_tasks_cleanup_80161ae0": "0x80161ae0"
+  },
+  "descriptions": {
+    "f16c_tasks_cleanup_80161ae0": "Installs vtable804117c8 and calls80162480 on the external receiver. If global range80455244 pointer count differs from count804ab498, traverses20-byte records804ab4a8 and calls80161ffc with each live record short ID at+8 and a four-byte local output pointer; the output helper writes only that pointer. Frees globals804ab4a4 and804ab4a8 when present. For each of804ab4ac/b0/b4/b8, derives the end from the unsigned array cookie at-8 and12-byte stride, destroys entries in reverse order, releasing nonnull first-word owned storage through802134fc; reloads the external global array pointer for the loop termination and frees its cookie base through801fe240. Clears804ab4a0 and forwards receiver and destructor flags to801628ec. Native buffer destructors model the observed ownership; array cookie semantics and names are inferred. All receiver/range/record/buffer views are external partial layouts, never allocated here; no complete native class identity or factory extent is claimed."
+  }
+}

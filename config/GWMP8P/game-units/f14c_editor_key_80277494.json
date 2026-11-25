@@ -1,0 +1,11 @@
+{
+  "unit": "f14c_editor_key_80277494",
+  "source": "source/matching/game/f14c/f14c_editor_key_80277494.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f14c_editor_key_80277494": "0x80277494"
+  },
+  "descriptions": {
+    "w3d_f14c_editor_key_80277494": "Dispatches script-editor keys: space opens item addition, escape rebuilds with mode zero, n/p increment/decrement the unsigned twenty-item page and clamp through a native const-reference minimum; mapped selection keys retain the chosen item then release/replace the held interface, while the alternate mapping assigns its shared name with retain-before-release ownership and refreshes the page. Literal key codes and observed wrap/clamp behavior are preserved. Editor roles and partial object layouts are inferred; key strings remain original external objects and no owned data or complete class layout is claimed."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d40i_camera_ring_step_8011fc48",
+  "source": "source/matching/game/d40i/d40i_camera_ring_step_8011fc48.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d40i_camera_ring_step_8011fc48": "0x8011fc48"
+  },
+  "descriptions": {
+    "d40i_camera_ring_step_8011fc48": "Move a follow camera to the next clear waypoint of its ring around the target when the target is lost, blocked or too far."
+  }
+}

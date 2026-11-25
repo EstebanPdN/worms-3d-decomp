@@ -1,0 +1,15 @@
+{
+  "unit": "d30h_water_mesh_build_800c9260",
+  "source": "source/matching/game/d30h/d30h_water_mesh_build_800c9260.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30h_water_mesh_build_800c9260": "0x800c9260"
+  },
+  "descriptions": {
+    "d30h_water_mesh_build_800c9260": "Water plane mesh build: locks the mesh's index array and fills 21 indices for each of 20 ring segments, then locks the vertex array, zeroes the centre vertex and writes the ring at +88 scaled by 0.1, 0.35, 0.8 and 1 into four rings of 20 vertices; returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s11mathframe_802dfb6c",
+  "source": "source/matching/game/generated/s11mathframe_802dfb6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_auto_802dfb6c": "0x802dfb6c"
+  },
+  "descriptions": {
+    "w3d_auto_802dfb6c": "Lua binary numeric wrapper: checks arguments 1 and 2, calls the math helper, pushes the float-rounded result, and returns one result. An empty RAII local preserves the observed frame slot."
+  }
+}

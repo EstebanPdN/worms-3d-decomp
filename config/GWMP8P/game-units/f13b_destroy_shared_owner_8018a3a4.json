@@ -1,0 +1,11 @@
+{
+  "unit": "f13b_destroy_shared_owner_8018a3a4",
+  "source": "source/matching/game/f13b/f13b_destroy_shared_owner_8018a3a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f13b_destroy_8018a3a4": "0x8018a3a4"
+  },
+  "descriptions": {
+    "f13b_destroy_8018a3a4": "Inferred shared-resource owner destructor body with explicit incoming destruction flags. Installs table80412ee0, resets held slots32 and36, decrements global804b18a8, and when the last owner disappears releases fourteen shared interface slots in observed order, including0260 last. Releases optional buffer68 through801fe240, then held slots40/36/32, and forwards the original flags to base destructor80190384. Held reset(0) is an inline API boundary that preserves the observed zero-value lifetime. Outer object and interface types are partial observed views; no local allocation, complete class identity, constructor implementation, or ownership of referenced globals/tables/callback implementations is claimed. All names and roles inferred."
+  }
+}

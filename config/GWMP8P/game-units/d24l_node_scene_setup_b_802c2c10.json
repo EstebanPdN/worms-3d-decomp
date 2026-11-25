@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_node_scene_setup_b_802c2c10",
+  "source": "source/matching/game/d24l/d24l_node_scene_setup_b_802c2c10.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_node_scene_setup_b_802c2c10": "0x802c2c10"
+  },
+  "descriptions": {
+    "d24l_node_scene_setup_b_802c2c10": "Text box reset: loads the empty model handle ('NULL', type 255) into +32 and 'Frontend.Anim' into +28, positions and scales the anim from the vectors at +268 and +280, rotates it by a copy of the global vector 0x8045e788, attaches the model at 'locator1', zeroes the model position and rotation with flag 1 and sets its scale to 1.0."
+  }
+}

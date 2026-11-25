@@ -1,0 +1,11 @@
+{
+  "unit": "cc36a_low_gravity_800c1a14",
+  "source": "source/matching/game/cc36a/cc36a_low_gravity_800c1a14.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc36a_low_gravity_800c1a14": "0x800c1a14"
+  },
+  "descriptions": {
+    "cc36a_low_gravity_800c1a14": "Activate low gravity once, apply the configured multiplier, post the two original messages, and emit its positional effect."
+  }
+}

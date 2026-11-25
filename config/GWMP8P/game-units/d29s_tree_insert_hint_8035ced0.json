@@ -1,0 +1,16 @@
+{
+  "unit": "d29s_tree_insert_hint_8035ced0",
+  "source": "source/matching/game/d29s/d29s_tree_insert_hint_8035ced0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "insert_unique__Q24_STLt8_Rb_tree5ZUiZQ24_STLt4pair2ZCUiZPvZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZPvZQ24_STLt4less1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZPvGQ24_STLt17_Rb_tree_iterator2ZQ24_STLt4pair2ZCUiZPvZQ24_STLt16_Nonconst_traits1ZQ24_STLt4pair2ZCUiZPvRCQ24_STLt4pair2ZCUiZPv": "0x8035ced0"
+  },
+  "descriptions": {
+    "insert_unique__Q24_STLt8_Rb_tree5ZUiZQ24_STLt4pair2ZCUiZPvZQ24_STLt10_Select1st1ZQ24_STLt4pair2ZCUiZPvZQ24_STLt4less1ZUiZQ24_STLt9allocator1ZQ24_STLt4pair2ZCUiZPvGQ24_STLt17_Rb_tree_iterator2ZQ24_STLt4pair2ZCUiZPvZQ24_STLt16_Nonconst_traits1ZQ24_STLt4pair2ZCUiZPvRCQ24_STLt4pair2ZCUiZPv": "std::map hinted insert from STLport 4.5.3: uses the hint if the neighbouring keys bracket the value, otherwise a normal unique insert."
+  }
+}

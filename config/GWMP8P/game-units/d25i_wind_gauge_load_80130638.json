@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_wind_gauge_load_80130638",
+  "source": "source/matching/game/d25i/d25i_wind_gauge_load_80130638.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_wind_gauge_load_80130638": "0x80130638"
+  },
+  "descriptions": {
+    "d25i_wind_gauge_load_80130638": "Wind gauge load: resolves the HUD.WindPointer, HUD.WindBacking and HUD.TimerFont resources through string temporaries, sets up the font mesh (0x80189450 with 16, 0x8018920c with 2) with both colours from HUD.Wind.ColourText, resolves nine retained settings (HUD.Wind.BackScale, Scale, TextSpacing, TextScale, ScrollSpeed, BackOffset, OffScreenPos, OnScreenPos, TextOffset) into +120..+152, copies the off-screen position to +60, calls 0x80130fb8 with 1.0f, reads Wind.Speed, Wind.Direction, Wind.AnimScaler and Wind.MaxSpeed, subscribes the two cached messages to +72 and +76, updates the digits, loads and starts the Wind animation at +104 and updates the ratio."
+  }
+}

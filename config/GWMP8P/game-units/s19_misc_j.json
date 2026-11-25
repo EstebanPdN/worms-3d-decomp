@@ -1,0 +1,16 @@
+{
+  "unit": "s19_misc_j",
+  "source": "source/matching/game/s19/s19_misc_j.c",
+  "language": "c",
+  "functions": {
+    "s19_try_two_checks_80009a94": "0x80009a94",
+    "s19_apply_scaled_length_8000d004": "0x8000d004"
+  },
+  "descriptions": {
+    "s19_try_two_checks_80009a94": "Appears to return one when either of two helper checks on the same arguments and float succeeds, otherwise zero.",
+    "s19_apply_scaled_length_8000d004": "Appears to read a global float, convert a helper result for the field at +0x24 to an integer and pass both to a helper."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

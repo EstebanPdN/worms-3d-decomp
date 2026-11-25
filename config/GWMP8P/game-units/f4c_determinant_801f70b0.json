@@ -1,0 +1,14 @@
+{
+  "unit": "f4c_determinant_801f70b0",
+  "source": "source/matching/game/f4c/f4c_determinant_801f70b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f4c_determinant_801f70b0": "0x801f70b0"
+  },
+  "descriptions": {
+    "f4c_determinant_801f70b0": "Read sixteen float entries, call the witnessed nine-argument minor helper four times and combine its results through the observed alternating products. Determinant role inferred; additional 144-byte original frame reservation has unknown purpose."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

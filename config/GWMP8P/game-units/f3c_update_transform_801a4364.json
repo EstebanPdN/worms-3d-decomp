@@ -1,0 +1,11 @@
+{
+  "unit": "f3c_update_transform_801a4364",
+  "source": "source/matching/game/f3c/f3c_update_transform_801a4364.cpp",
+  "language": "cpp",
+  "functions": {
+    "f3c_update_transform_801a4364": "0x801a4364"
+  },
+  "descriptions": {
+    "f3c_update_transform_801a4364": "When the observed dirty bit is set, clear it, initialize and derive a temporary transform, apply pivot, angle and position float triples, copy the 48-byte result into the object and dispatch the selected global-table callback. Layout and names inferred."
+  }
+}

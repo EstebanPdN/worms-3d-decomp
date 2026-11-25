@@ -1,0 +1,12 @@
+{
+  "unit": "d24f_word_vector_fill_insert_80350a78",
+  "source": "source/matching/game/d24f/d24f_word_vector_fill_insert_80350a78.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24f_word_vector_fill_insert_80350a78": "0x80350a78"
+  },
+  "descriptions": {
+    "d24f_word_vector_fill_insert_80350a78": "Inserts n copies of a word at pos in a vector (start +0, finish +4, storage end +12). With spare capacity it moves the tail up with memmove and fills; otherwise it allocates max(size, n) more elements through 0x801907a8, copies prefix, fills, copies suffix, releases old storage via 0x801907d0 and sets the new bounds."
+  }
+}

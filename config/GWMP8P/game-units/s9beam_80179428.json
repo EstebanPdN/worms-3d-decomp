@@ -1,0 +1,11 @@
+{
+  "unit": "s9beam_80179428",
+  "source": "source/matching/game/auto/s9beam_80179428.c",
+  "language": "c",
+  "functions": {
+    "s9_beam_80179428": "0x80179428"
+  },
+  "descriptions": {
+    "s9_beam_80179428": "Constructs the base, replaces a retained interface, increments the shared owner count and initializes a global resource for the first owner."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d44l_parts_layout_802a64a8",
+  "source": "source/matching/game/d44l/d44l_parts_layout_802a64a8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d44l_parts_layout_802a64a8": "0x802a64a8"
+  },
+  "descriptions": {
+    "d44l_parts_layout_802a64a8": "Scales and positions the panel's eight parts on stepped offsets, then shows or hides parts four to seven by mode and refreshes the panel."
+  }
+}

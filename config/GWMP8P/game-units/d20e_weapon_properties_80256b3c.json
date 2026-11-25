@@ -1,0 +1,14 @@
+{
+  "unit": "d20e_weapon_properties_80256b3c",
+  "source": "source/matching/game/d20e/d20e_weapon_properties_80256b3c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d20e_register_weapon_properties_80256b3c": "0x80256b3c"
+  },
+  "descriptions": {
+    "w3d_d20e_register_weapon_properties_80256b3c": "Registers the weapon property bindings (descriptors 0x803c8d9c..0x803c908c: IsAimedWeapon ... ImpulseRadius) through 0x801eb674/0x801ebf38/0x801ec52c, resets the DischargeFX, DischargeSoundFX, WormCollisionFX and LandCollisionFX strings (0x801ed24c) to the shared empty string 0x804b06a0 through a temporary copy, sets the LogicalPositionOffset and ImpulseDirection vectors (0x801f0210) to the constant 0x803c90b4 (0.0f), calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

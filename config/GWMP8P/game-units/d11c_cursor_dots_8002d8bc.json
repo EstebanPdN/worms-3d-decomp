@@ -1,0 +1,11 @@
+{
+  "unit": "d11c_cursor_dots_8002d8bc",
+  "source": "source/matching/game/d11c/d11c_cursor_dots_8002d8bc_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11c_cursor_dots_8002d8bc": "0x8002d8bc"
+  },
+  "descriptions": {
+    "d11c_cursor_dots_8002d8bc": "Set up the airstrike cursor through 0x8004e0dc with its mesh, bitmap, null, intro, loop and error literals, then five times name a handle \"Airstrike.Cursor.Dot\", cast it through 0x8034357c, retain it into dots[i] at +92 (releasing the old one) and attach it to the +28 object's slot +92 with the i-th \"Dot_Null_0N\" name from 0x803f3c68."
+  }
+}

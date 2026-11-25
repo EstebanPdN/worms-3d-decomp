@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a6_crate_collect_8004c378",
+  "source": "source/matching/game/sol35a6/sol35a6_crate_collect_8004c378.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a6_crate_collect_8004c378": "0x8004c378"
+  },
+  "descriptions": {
+    "sol35a6_crate_collect_8004c378": "On first collection, mark the crate, dispatch its kind with actor/team identity, post two messages, publish index/showered properties, release and clear its held interface, request collection effects and notify the base. GC32 fields and external identities observed; names, complete types and ownership inferred."
+  }
+}

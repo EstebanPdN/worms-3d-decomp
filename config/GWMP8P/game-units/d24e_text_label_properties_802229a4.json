@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_text_label_properties_802229a4",
+  "source": "source/matching/game/d24e/d24e_text_label_properties_802229a4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_text_label_properties_802229a4": "0x802229a4"
+  },
+  "descriptions": {
+    "w3d_d24e_register_text_label_properties_802229a4": "Sets the ResourceName string binding (0x801ed24c) to a temporary string made from \"FE.Font\" (0x803b6408, constructor 0x8020bb54); resets the TextGameDataId string binding (0x801ed24c) to the shared empty string; registers TextRed (0x801ebf38); registers TextGreen (0x801ebf38); registers TextBlue (0x801ebf38); registers BorderWidth (0x801ec52c); registers TextPlacement (0x801ece2c); registers FrameOffset (0x801ebf38); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

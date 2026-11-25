@@ -1,0 +1,14 @@
+{
+  "unit": "d24a_turn_time_remaining_800155d0",
+  "source": "source/matching/game/d24a/d24a_turn_time_remaining_800155d0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_turn_time_remaining_800155d0": "0x800155d0"
+  },
+  "descriptions": {
+    "w3d_d24a_turn_time_remaining_800155d0": "Reads the TurnTimeRemaining resource (0x800fc1b0, cast 0x803426b4, value 0x80178c48); if zero reads TurnTime, defaulting to 60000; returns the milliseconds scaled by 0.001 as seconds, releasing the local references."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

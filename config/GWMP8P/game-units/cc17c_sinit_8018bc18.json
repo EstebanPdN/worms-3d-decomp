@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_sinit_8018bc18",
+  "source": "source/matching/game/cc17c/cc17c_sinit_8018bc18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_sinit_8018bc18": "0x8018bc18"
+  },
+  "descriptions": {
+    "w3d_cc17c_sinit_8018bc18": "Static initializer: builds a type descriptor (name pointer 0x803e8aa8, parent descriptor 0x80361f58, factory 0x801899d4) and zeroes fourteen file-scope pointer objects in ascending address order."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d29c_part_team_tint_800da4e4",
+  "source": "source/matching/game/d29c/d29c_part_team_tint_800da4e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d29c_part_team_tint_800da4e4": "0x800da4e4"
+  },
+  "descriptions": {
+    "d29c_part_team_tint_800da4e4": "Applies the active entry colour to the part resource and starts its effect"
+  }
+}

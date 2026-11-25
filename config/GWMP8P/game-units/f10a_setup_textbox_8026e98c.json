@@ -1,0 +1,11 @@
+{
+  "unit": "f10a_setup_textbox_8026e98c",
+  "source": "source/matching/game/f10a/f10a_setup_textbox_8026e98c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f10a_setup_textbox_8026e98c": "0x8026e98c"
+  },
+  "descriptions": {
+    "w3d_f10a_setup_textbox_8026e98c": "Initializes a textbox panel, reads border thickness and shadow/background resources, replaces held interfaces with balanced retain/release calls, resolves optional game data and registers its refresh callback or formats the lookup error, then builds and refreshes child widgets. Layout and UI roles are inferred."
+  }
+}

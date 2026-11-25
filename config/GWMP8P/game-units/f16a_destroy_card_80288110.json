@@ -1,0 +1,11 @@
+{
+  "unit": "f16a_destroy_card_80288110",
+  "source": "source/matching/game/f16a/f16a_destroy_card_80288110.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._13F16aCardOwner": "0x80288110"
+  },
+  "descriptions": {
+    "_._13F16aCardOwner": "Destroy the external card owner by restoring its original table at0x8041c050, clearing its card resource through0x8028aab0, releasing and zeroing eight held icon slots from872 and five held label slots from904, then clearing the held slot at924. Native C++ member destruction releases remaining observed held fields in reverse order, revisits the cleared924 slot, destroys both native held arrays backward and forwards original destructor flags to base destruction0x801628ec. Semantic names and partial external layout inferred; no object is locally constructed, no complete owner allocation or unknown padding semantics claimed. No owned data, runtime, emulator or hardware validation claimed."
+  }
+}

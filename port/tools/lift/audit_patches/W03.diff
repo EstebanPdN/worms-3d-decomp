@@ -1,0 +1,7 @@
+--- a/port/core/game/d30d/d30d_game_update_8015e0e0.cpp
++++ b/port/core/game/d30d/d30d_game_update_8015e0e0.cpp
+@@ -54,3 +54,3 @@
+ struct Self {
+-    Ptr32<ObjVt> vt; char u4[44]; unsigned f48; float f52; Ptr32<Obj> f56; Ptr32<Obj> f60; char u40[4]; Ptr32<Obj> f68; Current f72; char u54[3]; unsigned char f87; char u58[4]; Ptr32<Obj> f92; Ptr32<Obj> f96; Ptr32<Obj> f100; char u68[8]; int f112; char u74[36]; int f152; int f156; int f160; int f164;
++    Ptr32<ObjVt> vt; char u4[44]; unsigned f48; float f52; Ptr32<Obj> f56; Ptr32<Obj> f60; char u40[4]; Ptr32<Obj> f68; Current f72; unsigned char f87; char u54[3]; char u58[4]; Ptr32<Obj> f92; Ptr32<Obj> f96; Ptr32<Obj> f100; char u68[8]; int f112; char u74[36]; int f152; int f156; int f160; int f164;
+ };

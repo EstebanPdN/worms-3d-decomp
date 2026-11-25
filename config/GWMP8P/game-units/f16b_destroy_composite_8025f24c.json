@@ -1,0 +1,11 @@
+{
+  "unit": "f16b_destroy_composite_8025f24c",
+  "source": "source/matching/game/f16b/f16b_destroy_composite_8025f24c.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._9F16bOwner": "0x8025f24c"
+  },
+  "descriptions": {
+    "_._9F16bOwner": "Native destructor for an inferred 256-byte composite owner, supported by factory8025f0e4 allocating256B and constructor8025f1b8 writing through byte255. Installs observed vtables at208 and0, releases held interfaces at248 then244, destroys the three-element held-member array at232..243 in reverse order, and releases held interface228. Cleans the184-byte secondary base at28 through802afc40 with flags0, then forwards the original destructor flags to the28-byte primary-base destructor8015ff2c. Native multiple bases and the member array reproduce original cleanup lifetimes. Secondary constructor802afb20 writes through its byte183; primary constructor8015fef0/8015fa40 writes through byte27. The four derived scalar words212..227 and trailing word252 remain semantically unknown. Interface release is observed vtable slot16, with its semantic name inferred. No new object construction or local allocation; external data remains unowned. Names, API signatures and hidden base fields remain inferred rather than original symbols."
+  }
+}

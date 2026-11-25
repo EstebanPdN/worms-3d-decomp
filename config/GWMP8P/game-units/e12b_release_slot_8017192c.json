@@ -1,0 +1,11 @@
+{
+  "unit": "e12b_release_slot_8017192c",
+  "source": "source/matching/game/e12b/e12b_release_slot_8017192c_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "e12b_release_slot_8017192c": "0x8017192c"
+  },
+  "descriptions": {
+    "e12b_release_slot_8017192c": "Return a resource slot to the free list: release its handle, mark its group available when the group bitset reports no free index, decrement the per-kind counter, and push its group index onto the free-index ring after observing the original's pointer-stepped indexed load."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8020b574",
+  "source": "source/matching/game/k6b/k6b_a_8020b574.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_accessor_apply_8020b574": "0x8020b574"
+  },
+  "descriptions": {
+    "w3d_k6b_accessor_apply_8020b574": "Appears to read a value through the accessor callback at +4 and pass it with the field at owner plus the accessor offset to 0x8020b460."
+  }
+}

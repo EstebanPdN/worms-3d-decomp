@@ -1,0 +1,39 @@
+{
+  "unit": "genparamc_80024f00",
+  "source": "source/matching/game/generated/genparamc_80024f00.c",
+  "language": "c",
+  "functions": {
+    "w3d_set_handle_owner_80024f00": "0x80024f00",
+    "w3d_set_handle_owner_8002557c": "0x8002557c",
+    "w3d_set_handle_owner_80025aa0": "0x80025aa0",
+    "w3d_dispatch_by_index_801a3e60": "0x801a3e60",
+    "w3d_dispatch_by_index_801a4824": "0x801a4824",
+    "w3d_dispatch_by_index_801a4c3c": "0x801a4c3c",
+    "w3d_forward_range_801ae784": "0x801ae784",
+    "w3d_forward_range_801ae7e4": "0x801ae7e4",
+    "w3d_forward_range_801ae844": "0x801ae844",
+    "w3d_local_static_801ea954": "0x801ea954",
+    "w3d_local_static_80209a70": "0x80209a70",
+    "w3d_local_static_80210610": "0x80210610",
+    "w3d_get_string_802113a0": "0x802113a0",
+    "w3d_get_string_802114b4": "0x802114b4",
+    "w3d_get_string_8021158c": "0x8021158c"
+  },
+  "descriptions": {
+    "w3d_set_handle_owner_80024f00": "Builds a temporary key on the stack, resolves the object for it through the scene handle lookup, stores the argument in that object, then releases the key.",
+    "w3d_set_handle_owner_8002557c": "Builds a temporary key on the stack, resolves the object for it through the scene handle lookup, stores the argument in that object, then releases the key.",
+    "w3d_set_handle_owner_80025aa0": "Builds a temporary key on the stack, resolves the object for it through the scene handle lookup, stores the argument in that object, then releases the key.",
+    "w3d_dispatch_by_index_801a3e60": "Takes the handle at a fixed field of the message and, if present, calls the handler selected by the handle index from the object handler table; otherwise returns zero.",
+    "w3d_dispatch_by_index_801a4824": "Takes the handle at a fixed field of the message and, if present, calls the handler selected by the handle index from the object handler table; otherwise returns zero.",
+    "w3d_dispatch_by_index_801a4c3c": "Takes the handle at a fixed field of the message and, if present, calls the handler selected by the handle index from the object handler table; otherwise returns zero.",
+    "w3d_forward_range_801ae784": "Adjusts a secondary-base interface pointer to its object, then calls a virtual method of a held target with the argument, a stored value and an integer vector range; returns zero.",
+    "w3d_forward_range_801ae7e4": "Adjusts a secondary-base interface pointer to its object, then calls a virtual method of a held target with the argument, a stored value and an integer vector range; returns zero.",
+    "w3d_forward_range_801ae844": "Adjusts a secondary-base interface pointer to its object, then calls a virtual method of a held target with the argument, a stored value and an integer vector range; returns zero.",
+    "w3d_local_static_801ea954": "Returns a function-local static object, constructing it on first use and registering its destructor with atexit.",
+    "w3d_local_static_80209a70": "Returns a function-local static object, constructing it on first use and registering its destructor with atexit.",
+    "w3d_local_static_80210610": "Returns a function-local static object, constructing it on first use and registering its destructor with atexit.",
+    "w3d_get_string_802113a0": "Copies the shared string held at a fixed field into the output string: retains the source, releases the previous value, then stores it; returns zero.",
+    "w3d_get_string_802114b4": "Copies the shared string held at a fixed field into the output string: retains the source, releases the previous value, then stores it; returns zero.",
+    "w3d_get_string_8021158c": "Copies the shared string held at a fixed field into the output string: retains the source, releases the previous value, then stores it; returns zero."
+  }
+}

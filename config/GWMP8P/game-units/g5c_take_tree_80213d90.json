@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_take_tree_80213d90",
+  "source": "source/matching/game/g5c/g5c_take_tree_v1_80213d90.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_take_tree_80213d90": "0x80213d90"
+  },
+  "descriptions": {
+    "g5c_take_tree_80213d90": "Removes the requested size node from the external heap free tree using top-down partitioning and rotations; equal-size siblings replace the removed root. The size-eight special case unlinks the supplied block from the tiny chain and records its containing region. Joins the remaining partitions through their leftmost node. The local FreeNode has five observed words (20 bytes); external heap and region views are never locally constructed. Names and free-tree roles are inferred; no data is owned."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol34c_erase_record_key_80340994",
+  "source": "source/matching/game/sol34c/sol34c_erase_record_key_80340994.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol34c_erase_record_key_80340994": "0x80340994"
+  },
+  "descriptions": {
+    "sol34c_erase_record_key_80340994": "Search the counted twelve-byte record range for an unsigned key; shift following records down, decrement the byte count and return one when found, otherwise return zero. Observed GC32 layout only; trailing storage extent and original semantic names unverified."
+  }
+}

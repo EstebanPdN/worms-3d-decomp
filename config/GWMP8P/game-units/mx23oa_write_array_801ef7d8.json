@@ -1,0 +1,11 @@
+{
+  "unit": "mx23oa_write_array_801ef7d8",
+  "source": "source/matching/game/mx23oa/mx23oa_write_array_801ef7d8.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx23oa_write_array_801ef7d8": "0x801ef7d8"
+  },
+  "descriptions": {
+    "mx23oa_write_array_801ef7d8": "Writes an array-valued binding as text. Without an object it writes the element type name (0x801ffea8) followed by the external string 0x803b0d4c \"[0] { }\". Otherwise it reads the array store at object + the info's +4 halfword offset (count +24, elements +32), gets the element stride 0x80200050, keeps the element type only when 0x801fff60 reports it directly writable, and writes that type's name, \"[\" (0x803b0d54), the count (0x8020d980) and \"] { \" (0x803b0d58) through chained writer calls. It then constructs a temporary text (0x803426b8) and for each element calls the direct type's slot 21 with the writer, or the info element type's slot 17 with the temporary text, advances by the stride and writes \", \" (0x803b0d60) between elements; finally writes \" }\" (0x803b0d64) and destroys the text (0x8020c5c4, 0x80341588). Names inferred; offsets observed; no owned data."
+  }
+}

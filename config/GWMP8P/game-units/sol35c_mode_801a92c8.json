@@ -1,0 +1,11 @@
+{
+  "unit": "sol35c_mode_801a92c8",
+  "source": "source/matching/game/sol35c/sol35c_mode_801a92c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35c_mode_801a92c8": "0x801a92c8"
+  },
+  "descriptions": {
+    "sol35c_mode_801a92c8": "Select and retain the observed mode interface, releasing the prior interface; experimental four-word global-address register mismatch."
+  }
+}

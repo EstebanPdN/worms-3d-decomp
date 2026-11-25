@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_request_storage_return_8020f660",
+  "source": "source/matching/game/cx11b/cx11b_request_storage_return_8020f660.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_request_storage_return_8020f660": "0x8020f660"
+  },
+  "descriptions": {
+    "w3d_cx11b_request_storage_return_8020f660": "Return a request span to free storage, merge adjacent spans, then reset request fields."
+  }
+}

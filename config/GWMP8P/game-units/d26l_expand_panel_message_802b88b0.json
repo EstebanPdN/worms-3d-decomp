@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_expand_panel_message_802b88b0",
+  "source": "source/matching/game/d26l/d26l_expand_panel_message_802b88b0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_expand_panel_message_802b88b0": "0x802b88b0"
+  },
+  "descriptions": {
+    "d26l_expand_panel_message_802b88b0": "Picks the message at +156 or +160 of the object at +40; when alternate is set also calls 0x802b222c on the +28 base. If the message is non-empty, flag 4 of byte +11 of that object is clear, the holder at +280 and the value at +140 are set and the index at +296 is not negative, reads the indexed entry from the list (0x80341584, 0x801797b4; +28 list, +24 count, +32 entries); an index past the count returns. It then replaces each '@' found with 0x802ef380 by the entry: appends the prefix (0x8020c3a0 truncates) and the entry to the result, continues from the tail, appends any remainder and passes the result to 0x802b1258."
+  }
+}

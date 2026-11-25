@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_script_file_80102530",
+  "source": "source/matching/game/cc38a/cc38a_script_file_80102530.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_script_file_80102530": "0x80102530"
+  },
+  "descriptions": {
+    "cc38a_script_file_80102530": "Try Lua source then bytecode filename, read the complete file, execute its buffer, and release buffer, string and stream on the original paths."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_collect_members_801e9c2c",
+  "source": "source/matching/game/cc17c/cc17c_collect_members_801e9c2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_collect_members_801e9c2c": "0x801e9c2c"
+  },
+  "descriptions": {
+    "w3d_cc17c_collect_members_801e9c2c": "Flattens a class's members: records the parent chain up to the self-parented root in a local array, then from the root down appends every member pointer of each class (count from virtual slot +32) to the pointer vector at +60."
+  }
+}

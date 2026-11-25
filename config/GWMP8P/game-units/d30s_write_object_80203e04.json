@@ -1,0 +1,20 @@
+{
+  "unit": "d30s_write_object_80203e04",
+  "source": "source/matching/game/d30s/d30s_write_object_80203e04.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "d30s_write_object_80203e04": "0x80203e04"
+  },
+  "descriptions": {
+    "d30s_write_object_80203e04": "Writes an object according to the writer mode: file, first-seen collection with type chain counts, or index varint; E_FAIL otherwise."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

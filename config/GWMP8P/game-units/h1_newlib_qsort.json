@@ -1,0 +1,11 @@
+{
+  "unit": "h1_newlib_qsort",
+  "source": "source/matching/game/h1/h1_newlib_qsort.c",
+  "language": "c",
+  "functions": {
+    "qsort": "0x802ede44"
+  },
+  "descriptions": {
+    "qsort": "newlib qsort (BSD engineered quicksort): median-of-three or ninther pivot, three-way partition, insertion sort below 7 elements, word-wise swaps when aligned."
+  }
+}

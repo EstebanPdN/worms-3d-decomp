@@ -1,0 +1,11 @@
+{
+  "unit": "s8bigperm_800ef80c",
+  "source": "source/matching/game/s8bigperm_800ef80c.c",
+  "language": "c",
+  "functions": {
+    "s8_permuted_800ef80c": "0x800ef80c"
+  },
+  "descriptions": {
+    "s8_permuted_800ef80c": "Appears to implement the observed object-field accesses and external calls; corrected-context C verified against the original body."
+  }
+}

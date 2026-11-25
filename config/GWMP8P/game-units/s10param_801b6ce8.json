@@ -1,0 +1,17 @@
+{
+  "unit": "s10param_801b6ce8",
+  "source": "source/matching/game/generated/s10param_801b6ce8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_register_array_801b6ce8": "0x801b6ce8",
+    "w3d_s10_register_array_801b736c": "0x801b736c",
+    "w3d_s10_register_array_801b75b8": "0x801b75b8",
+    "w3d_s10_register_array_801b7804": "0x801b7804"
+  },
+  "descriptions": {
+    "w3d_s10_register_array_801b6ce8": "Lazily initializes the named property descriptor with its size and element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801b736c": "Lazily initializes the named property descriptor with its size and element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801b75b8": "Lazily initializes the named property descriptor with its size and element/type bytes, registers it on the object, and returns zero.",
+    "w3d_s10_register_array_801b7804": "Lazily initializes the named property descriptor with its size and element/type bytes, registers it on the object, and returns zero."
+  }
+}

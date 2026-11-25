@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_input_fire_actions_80058804",
+  "source": "source/matching/game/d24g/d24g_input_fire_actions_80058804.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_input_fire_actions_80058804": "0x80058804"
+  },
+  "descriptions": {
+    "w3d_d24g_input_fire_actions_80058804": "Appends input actions to the owner's pointer vector at +36: Input.FirePressed (8, 1), Input.FireReleased (8, 0). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

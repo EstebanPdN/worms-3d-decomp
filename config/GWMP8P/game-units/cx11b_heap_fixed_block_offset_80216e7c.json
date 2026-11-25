@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_heap_fixed_block_offset_80216e7c",
+  "source": "source/matching/game/cx11b/cx11b_heap_fixed_block_offset_80216e7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_heap_fixed_block_offset_80216e7c": "0x80216e7c"
+  },
+  "descriptions": {
+    "w3d_cx11b_heap_fixed_block_offset_80216e7c": "Return the offset within a fixed heap block unless that block belongs to the free list."
+  }
+}

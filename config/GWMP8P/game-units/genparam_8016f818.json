@@ -1,0 +1,39 @@
+{
+  "unit": "genparam_8016f818",
+  "source": "source/matching/game/generated/genparam_8016f818.c",
+  "language": "c",
+  "functions": {
+    "w3d_dtor_node_8016f818": "0x8016f818",
+    "w3d_dtor_node_8019d7d8": "0x8019d7d8",
+    "w3d_dtor_node_801a00c4": "0x801a00c4",
+    "w3d_dtor_node_801a07f0": "0x801a07f0",
+    "w3d_dtor_node_801d4804": "0x801d4804",
+    "w3d_dtor_node_801d50a4": "0x801d50a4",
+    "w3d_dtor_node_801de8d4": "0x801de8d4",
+    "w3d_dtor_node_801ea138": "0x801ea138",
+    "w3d_dtor_node_801ef578": "0x801ef578",
+    "w3d_dtor_node_801fc428": "0x801fc428",
+    "w3d_dtor_node_801fc564": "0x801fc564",
+    "w3d_dtor_node_80206b40": "0x80206b40",
+    "w3d_dtor_node_8020b0a4": "0x8020b0a4",
+    "w3d_dtor_node_8020d36c": "0x8020d36c",
+    "w3d_dtor_node_802e3020": "0x802e3020"
+  },
+  "descriptions": {
+    "w3d_dtor_node_8016f818": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_8019d7d8": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801a00c4": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801a07f0": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801d4804": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801d50a4": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801de8d4": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801ea138": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801ef578": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801fc428": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_801fc564": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_80206b40": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_8020b0a4": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_8020d36c": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set.",
+    "w3d_dtor_node_802e3020": "Destructor: installs the class vtable, destroys the actor node at +4, and frees the object through the member allocator when bit 0 of flags is set."
+  }
+}

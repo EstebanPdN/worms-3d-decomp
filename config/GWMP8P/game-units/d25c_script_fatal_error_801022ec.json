@@ -1,0 +1,11 @@
+{
+  "unit": "d25c_script_fatal_error_801022ec",
+  "source": "source/matching/game/d25c/d25c_script_fatal_error_801022ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25c_script_fatal_error_801022ec": "0x801022ec"
+  },
+  "descriptions": {
+    "d25c_script_fatal_error_801022ec": "Format '%s, script execution terminated' into a string, log it at level 1 and write it to the output, post message FAIL: Script execution terminated, and set state 2. If a Lua state exists, walk the stack: for the first frame with a current line, fetch that source line into the buffer at +76, format 'error in %s at line %d: %s', log and output it. Destroy the strings."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol30b_allocate_arena_802167a0",
+  "source": "source/matching/game/sol30b/sol30b_allocate_arena_802167a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol30b_allocate_arena_802167a0": "0x802167a0"
+  },
+  "descriptions": {
+    "sol30b_allocate_arena_802167a0": "Preserves and clears arena fields +36/+40, checks request and state flags, requests rounded allocation through dispatch slot +24, initializes a successful allocation at +16 through 0x80215c58, optionally restores saved fields and invokes hook slot +20, clears state bit 0x2000 and returns the resulting pointer. GC32 layout and instructions observed; arena and hook roles inferred."
+  }
+}

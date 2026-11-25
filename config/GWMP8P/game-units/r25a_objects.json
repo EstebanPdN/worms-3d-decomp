@@ -1,0 +1,15 @@
+{
+  "unit": "r25a_objects",
+  "source": "source/matching/game/r25a/r25a_objects.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25a_create_named_userdata_8019e710": "0x8019e710",
+    "w3d_r25a_initialize_actor_80124edc": "0x80124edc",
+    "w3d_r25a_release_list_entries_801ad060": "0x801ad060"
+  },
+  "descriptions": {
+    "w3d_r25a_create_named_userdata_8019e710": "Looks up a named interface using Lua argument one and external key, returns zero if absent; otherwise allocates eight-byte userdata, retains the object, copies environment at context +36, assigns metatable, and returns one.",
+    "w3d_r25a_initialize_actor_80124edc": "Calls base initialization, installs the observed dispatch table, constructs an eight-byte member at +100, clears eight observed words and sets +116 to minus one; returns the object.",
+    "w3d_r25a_release_list_entries_801ad060": "Reads a sixteen-byte header before cursor +120, calls the external owner operation with 44, 3 and each four-byte entry, then decrements the cursor by sixteen and invokes the external cleanup with flag two."
+  }
+}

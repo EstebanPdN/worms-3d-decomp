@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_run_file_8020b6e8",
+  "source": "source/matching/game/d29e/d29e_run_file_8020b6e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_run_file_8020b6e8": "0x8020b6e8"
+  },
+  "descriptions": {
+    "w3d_d29e_run_file_8020b6e8": "Opens a tagged file reader for name with mode 1, tracing the failure unless the flag at 0x804b069c is set; on success gets the services for 0x80419848 and 0x80418de0, assigns the reader's data word to the first (0x802199c0), binds it to the second (slot 3), runs the second with arg (slot 6), traces a negative result, releases both and destroys the reader. Returns the result. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

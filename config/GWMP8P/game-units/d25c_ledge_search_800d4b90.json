@@ -1,0 +1,14 @@
+{
+  "unit": "d25c_ledge_search_800d4b90",
+  "source": "source/matching/game/d25c/d25c_ledge_search_800d4b90.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25c_ledge_search_800d4b90": "0x800d4b90"
+  },
+  "descriptions": {
+    "d25c_ledge_search_800d4b90": "Read the descriptor from handle +136 and the two endpoint vectors. For i = 0..3 test (0x800d4cec) the angle +176 plus and then minus i * pi/4 with height +180; on success store angle and height through the two out pointers and return 1. Finally test the angle with the descriptor's height +64. Returns 0 when nothing fits."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_acquire_message_80162024",
+  "source": "source/matching/game/d24d/d24d_acquire_message_80162024.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_acquire_message_80162024": "0x80162024"
+  },
+  "descriptions": {
+    "d24d_acquire_message_80162024": "Clears the out reference, takes the last message of the free pool 0x80455244 (0x80004005 if empty), retains it in the out reference, sets owner (+4), id (+8) and active (+16); tests the sender's class against three class records via the base link (+20) to select a per-id list table and appends the message, returning 0; unknown class returns 0x80004005."
+  }
+}

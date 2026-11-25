@@ -1,0 +1,17 @@
+{
+  "unit": "d41h_chase_camera_orbit_800a9b60",
+  "source": "source/matching/game/d41h/d41h_chase_camera_orbit_800a9b60.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d41h_chase_camera_orbit_800a9b60": "0x800a9b60"
+  },
+  "descriptions": {
+    "d41h_chase_camera_orbit_800a9b60": "Places the chase camera at the target range from its centre along the yaw and pitch rotation and updates its direction."
+  }
+}

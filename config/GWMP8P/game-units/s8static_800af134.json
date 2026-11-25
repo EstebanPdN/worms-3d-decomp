@@ -1,0 +1,11 @@
+{
+  "unit": "s8static_800af134",
+  "source": "source/matching/game/s8static_800af134.c",
+  "language": "c",
+  "functions": {
+    "s8_static_init_800af134": "0x800af134"
+  },
+  "descriptions": {
+    "s8_static_init_800af134": "Static initializer: initializes cached values and makes registration/name-initialization calls when priority is 0xffff and initialization is enabled."
+  }
+}

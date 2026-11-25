@@ -1,0 +1,11 @@
+{
+  "unit": "cxa_normalized_impulse_8003eb1c",
+  "source": "source/matching/game/cxa/cxa_normalized_impulse_8003eb1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cxa_normalized_impulse_8003eb1c": "0x8003eb1c"
+  },
+  "descriptions": {
+    "cxa_normalized_impulse_8003eb1c": "Call vtable slot +0x28 with self and the two leading arguments, copy and normalize the incoming three-float vector using original constants and sqrt, then call the planar impulse helper when normalized y exceeds the original threshold."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc31b_accept_endpoint_802cc8ec",
+  "source": "source/matching/game/cc31b/cc31b_accept_endpoint_802cc8ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc31b_accept_endpoint_802cc8ec": "0x802cc8ec"
+  },
+  "descriptions": {
+    "w3d_cc31b_accept_endpoint_802cc8ec": "When the original service is enabled, accepts an endpoint through virtual slot52 and writes two original prefix strings. Scans sixteen endpoint slots. If full, writes three original rejection strings, flushes, releases and clears the output pointer. Otherwise retains the replacement, releases the old slot, publishes it, releases the temporary reference and invokes the original endpoint setup helper. Types and field names are inferred; the eight-byte output workspace is a sufficient source model, not an original sizeof recovery."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d32i_textured_quad_build_80108560",
+  "source": "source/matching/game/d32i/d32i_textured_quad_build_80108560.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d32i_textured_quad_build_80108560": "0x80108560"
+  },
+  "descriptions": {
+    "d32i_textured_quad_build_80108560": "Loads a texture by id, computes a capped power-of-two size, builds the state, blend, material, bind, mesh and shape nodes with a four vertex quad, and replaces the node's root. Returns 0x80004005 if the load fails."
+  }
+}

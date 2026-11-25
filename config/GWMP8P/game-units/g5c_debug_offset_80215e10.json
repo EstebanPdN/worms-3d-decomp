@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_debug_offset_80215e10",
+  "source": "source/matching/game/g5c/g5c_debug_offset_v1_80215e10.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_debug_offset_80215e10": "0x80215e10"
+  },
+  "descriptions": {
+    "g5c_debug_offset_80215e10": "Finds the debug payload offset containing a guest address. Consumes nested flag0x4000, rejects an active guard or null address, locates the containing region and in the outer path traverses original block headers to test the live debug payload extent. In the nested path checks the region backlink at address-8 and allocation flags at address-20. Returns the payload offset or original minus1/minus2 status and restores the outer active guard. All heap/state/region/block accesses are external32-bit views; no aggregate is constructed and no data is owned. Roles and names are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d17c_targeting_cursor_init_8012bd78",
+  "source": "source/matching/game/d17c/d17c_targeting_cursor_init_8012bd78.cpp",
+  "language": "cpp",
+  "functions": {
+    "d17c_targeting_cursor_init_8012bd78": "0x8012bd78"
+  },
+  "descriptions": {
+    "d17c_targeting_cursor_init_8012bd78": "Read the \"Camera.CurrentMode\" setting into the cursor (+32), load the \"HUD.TargetingCursor\" node into +28 (retained, previous released), place it at the zero vector, scale it uniformly by the \"TargetingCursor.Scale\" setting and set its colour to opaque white."
+  }
+}

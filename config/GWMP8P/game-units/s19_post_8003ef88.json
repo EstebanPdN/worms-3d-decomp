@@ -1,0 +1,11 @@
+{
+  "unit": "s19_post_8003ef88",
+  "source": "source/matching/game/s19/s19_post_8003ef88.c",
+  "language": "c",
+  "functions": {
+    "s19_post_message_8003ef88": "0x8003ef88"
+  },
+  "descriptions": {
+    "s19_post_message_8003ef88": "Appears to build a message from two fields at +0x4c and +0x50, post it to the current handler and return whether a global flag is zero."
+  }
+}

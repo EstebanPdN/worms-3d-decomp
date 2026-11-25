@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_resource_panel_destroy_8029de6c",
+  "source": "source/matching/game/cx16c/cx16c_resource_panel_destroy_8029de6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_resource_panel_destroy_8029de6c": "0x8029de6c"
+  },
+  "descriptions": {
+    "w3d_cx16c_resource_panel_destroy_8029de6c": "Restore original tables, destroy owned storage and handle members, release eight trailing interfaces and a reverse two-element array plus earlier interface, destroy embedded context, and forward flags to the base destructor."
+  }
+}

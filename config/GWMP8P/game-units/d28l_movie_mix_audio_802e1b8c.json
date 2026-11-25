@@ -1,0 +1,12 @@
+{
+  "unit": "d28l_movie_mix_audio_802e1b8c",
+  "source": "source/matching/game/d28l/d28l_movie_mix_audio_802e1b8c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d28l_movie_mix_audio_802e1b8c": "0x802e1b8c"
+  },
+  "descriptions": {
+    "d28l_movie_mix_audio_802e1b8c": "Mixes decoded movie audio into the output buffer with volume and saturation."
+  }
+}

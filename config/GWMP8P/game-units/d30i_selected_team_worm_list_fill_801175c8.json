@@ -1,0 +1,15 @@
+{
+  "unit": "d30i_selected_team_worm_list_fill_801175c8",
+  "source": "source/matching/game/d30i/d30i_selected_team_worm_list_fill_801175c8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d30i_selected_team_worm_list_fill_801175c8": "0x801175c8"
+  },
+  "descriptions": {
+    "d30i_selected_team_worm_list_fill_801175c8": "Fills the worm list for FE.SelectedTeam by finding its team in GM.GameInitData, listing the six worm names and colouring those in play with the team colour."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ee338",
+  "source": "source/matching/game/k5b/k5b_a_801ee338.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_byte_array_resized_801ee338": "0x801ee338"
+  },
+  "descriptions": {
+    "w3d_k5b_byte_array_resized_801ee338": "Appears to allocate a resized plain array (power-of-two growth when owned), copy the old bytes up to the smaller size when asked and set the count."
+  }
+}

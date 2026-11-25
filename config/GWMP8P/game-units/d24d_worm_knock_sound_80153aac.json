@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_worm_knock_sound_80153aac",
+  "source": "source/matching/game/d24d/d24d_worm_knock_sound_80153aac.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_worm_knock_sound_80153aac": "0x80153aac"
+  },
+  "descriptions": {
+    "d24d_worm_knock_sound_80153aac": "When audio exists and the worm's sound (+1356) is idle, starts Worm.Knock1..4 chosen by 0x80161080, positions it at +560, and when the clamped volume (speed of +676 / 0.3, clamped to 0.25..1.0) is above 0 sets it (slot 13) and plays (slot 5)."
+  }
+}

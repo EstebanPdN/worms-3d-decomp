@@ -1,0 +1,14 @@
+{
+  "unit": "cc24a_planner_decay_entries_800166bc",
+  "source": "source/matching/game/cc24a/cc24a_planner_decay_entries_800166bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc24a_planner_decay_entries_800166bc": "0x800166bc"
+  },
+  "descriptions": {
+    "cc24a_planner_decay_entries_800166bc": "Decay and destroy entries below threshold, compact using independent native copy cursors and original byte count, then update range/index."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

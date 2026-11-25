@@ -1,0 +1,11 @@
+{
+  "unit": "s20_adjust_j",
+  "source": "source/matching/game/s20/s20_adjust_j.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_apply_record_8016c240": "0x8016c240"
+  },
+  "descriptions": {
+    "w3d_s20_apply_record_8016c240": "Appears to look up a target for an item, pass its record to a helper and dispatch the target through the handler table of the secondary base subobject."
+  }
+}

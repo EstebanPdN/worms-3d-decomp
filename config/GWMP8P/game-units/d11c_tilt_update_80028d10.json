@@ -1,0 +1,11 @@
+{
+  "unit": "d11c_tilt_update_80028d10",
+  "source": "source/matching/game/d11c/d11c_tilt_update_80028d10_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11c_tilt_update_80028d10": "0x80028d10"
+  },
+  "descriptions": {
+    "d11c_tilt_update_80028d10": "When +68 is set, refresh the angle at +72 from the indexed record of the +80 object (float +116), negate it when the +116 object's index is 1, clamp it to [-pi/2, pi/2] with min/max, store it back and pass the vector (0, 0, -angle) with 0 to slot +80 of the +40 handle."
+  }
+}

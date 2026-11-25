@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_target_cache_context_80064d20",
+  "source": "source/matching/game/k4a/k4a_target_cache_context_80064d20.c",
+  "language": "c",
+  "functions": {
+    "k4a_target_cache_context_80064d20": "0x80064d20"
+  },
+  "descriptions": {
+    "k4a_target_cache_context_80064d20": "Appears to refresh a target's property pair, apply it to its holder and cache a value from the engine context."
+  }
+}

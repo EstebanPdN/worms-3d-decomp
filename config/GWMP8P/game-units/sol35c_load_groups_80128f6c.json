@@ -1,0 +1,11 @@
+{
+  "unit": "sol35c_load_groups_80128f6c",
+  "source": "source/matching/game/sol35c/sol35c_load_groups_80128f6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35c_load_groups_80128f6c": "0x80128f6c"
+  },
+  "descriptions": {
+    "sol35c_load_groups_80128f6c": "Load observed frontend string groups under the original flag gates; experimental four-word temporary-address mismatch."
+  }
+}

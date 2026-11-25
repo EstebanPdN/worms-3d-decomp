@@ -1,0 +1,11 @@
+{
+  "unit": "s14_hand_800a0340",
+  "source": "source/matching/game/s14_hand_800a0340.cpp",
+  "language": "cpp",
+  "functions": {
+    "s14_mesh_tick_typed_800a0340": "0x800a0340"
+  },
+  "descriptions": {
+    "s14_mesh_tick_typed_800a0340": "Appears to update timed mesh playback and visibility according to object, animation and global state."
+  }
+}

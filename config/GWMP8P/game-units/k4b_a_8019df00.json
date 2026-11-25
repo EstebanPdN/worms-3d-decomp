@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_8019df00",
+  "source": "source/matching/game/k4b/k4b_a_8019df00.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_script_run_buffer_8019df00": "0x8019df00"
+  },
+  "descriptions": {
+    "w3d_k4b_script_run_buffer_8019df00": "Appears to load a Lua chunk named inputchunk from a buffer and call it with no arguments, returning E_FAIL when loading fails."
+  }
+}

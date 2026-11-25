@@ -1,0 +1,12 @@
+{
+  "unit": "d43l_list_value_apply_802b98dc",
+  "source": "source/matching/game/d43l/d43l_list_value_apply_802b98dc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d43l_list_value_apply_802b98dc": "0x802b98dc"
+  },
+  "descriptions": {
+    "d43l_list_value_apply_802b98dc": "Reads the selected list entry and writes its text into the property named by the source: int and second numeric kinds via atoi, string kind via rename; a missing property formats an error message."
+  }
+}

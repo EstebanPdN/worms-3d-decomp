@@ -1,0 +1,11 @@
+{
+  "unit": "f1a_scaled_vector_query_800b0788",
+  "source": "source/matching/game/f1a/f1a_scaled_vector_query_800b0788.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f1a_scaled_vector_query_800b0788": "0x800b0788"
+  },
+  "descriptions": {
+    "w3d_f1a_scaled_vector_query_800b0788": "Scales a caller-provided three-float vector by the ratio of the original constants at 0x803823ac and 0x803823a8, builds a vector from the constant at 0x803823a4, forwards both vectors with the caller object and integer arguments 1000 and 1 to 0x800b0824, then returns whether the unsigned global at 0x804b1764 is at most 1000. External data ownership is not claimed."
+  }
+}

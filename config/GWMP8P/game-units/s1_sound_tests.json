@@ -1,0 +1,15 @@
+{
+  "unit": "s1_sound_tests",
+  "source": "source/matching/game/s1_sound_tests.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80051930": "0x80051930",
+    "w3d_fn_80051a24": "0x80051a24",
+    "w3d_fn_80051c9c": "0x80051c9c"
+  },
+  "descriptions": {
+    "w3d_fn_80051930": "Applies the scheduled sound volume envelope.",
+    "w3d_fn_80051a24": "Chooses a random horizontal offset around an origin.",
+    "w3d_fn_80051c9c": "Initializes the debug sound service and its output window."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_da_8020fbd0",
+  "source": "source/matching/game/s21/s21_da_8020fbd0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_8020fbd0": "0x8020fbd0"
+  },
+  "descriptions": {
+    "w3d_s21_construct_8020fbd0": "Appears to construct an object on a base constructor from five arguments, installing two vtable pointers, a 4-bit kind field and zeroed fields, then run a setup helper."
+  }
+}

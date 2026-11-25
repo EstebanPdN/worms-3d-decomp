@@ -1,0 +1,71 @@
+--- a/port/core/game/generated/s10param_801d0de0.cpp
++++ b/port/core/game/generated/s10param_801d0de0.cpp
+@@ -14,3 +14,3 @@
+     *(Ptr32<S10Record16>)((Ptr32<char>)object + 56) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -21,3 +21,3 @@
+     *(Ptr32<S10Record16>)((Ptr32<char>)object + 40) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -28,3 +28,3 @@
+     *(Ptr32<S10Record16>)((Ptr32<char>)object + 24) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -35,3 +35,3 @@
+     *(Ptr32<S10Record16>)((Ptr32<char>)object + 24) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -42,3 +42,3 @@
+     *(Ptr32<S10Record16>)((Ptr32<char>)object + 24) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+--- a/port/core/game/generated/s10param_801d0da0.cpp
++++ b/port/core/game/generated/s10param_801d0da0.cpp
+@@ -15,3 +15,3 @@
+     object->value = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+--- a/port/core/game/generated/s10param_801c84c0.cpp
++++ b/port/core/game/generated/s10param_801c84c0.cpp
+@@ -14,3 +14,3 @@
+     *(Ptr32<S10Record12>)((Ptr32<char>)object + 96) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -21,3 +21,3 @@
+     *(Ptr32<S10Record12>)((Ptr32<char>)object + 84) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -28,3 +28,3 @@
+     *(Ptr32<S10Record12>)((Ptr32<char>)object + 72) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -35,3 +35,3 @@
+     *(Ptr32<S10Record12>)((Ptr32<char>)object + 124) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -42,3 +42,3 @@
+     *(Ptr32<S10Record12>)((Ptr32<char>)object + 112) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -49,3 +49,3 @@
+     *(Ptr32<S10Record12>)((Ptr32<char>)object + 124) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }
+@@ -56,3 +56,3 @@
+     *(Ptr32<S10Record12>)((Ptr32<char>)object + 112) = *value;
+-    flags[7] |= 2;
++    flags[4] |= 2;
+ }

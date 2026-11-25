@@ -1,0 +1,33 @@
+{
+  "unit": "tterra_cw40_probes",
+  "source": "source/matching/game/tterra_cw40/probes.c",
+  "language": "c",
+  "functions": {
+    "tterra_cw40_wrap_80322ce0": "0x80322ce0",
+    "tterra_cw40_wrap_80322d00": "0x80322d00",
+    "tterra_cw40_wrap_80328694": "0x80328694",
+    "tterra_cw40_wrap_8033457c": "0x8033457c",
+    "tterra_cw40_wrap_8033459c": "0x8033459c",
+    "tterra_cw40_wrap_80334758": "0x80334758",
+    "tterra_cw40_wrap_80334778": "0x80334778",
+    "tterra_cw40_wrap_80334840": "0x80334840",
+    "tterra_cw40_wrap_80334978": "0x80334978",
+    "tterra_cw40_wrap_80335b30": "0x80335b30",
+    "tterra_cw40_wrap_80335b50": "0x80335b50",
+    "tterra_cw40_flags_80335720": "0x80335720"
+  },
+  "descriptions": {
+    "tterra_cw40_wrap_80322ce0": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80322d00": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80328694": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_8033457c": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_8033459c": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80334758": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80334778": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80334840": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80334978": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80335b30": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_wrap_80335b50": "Call the original external target; arguments and return interface are unverified, and the stack reservation is reference-only scaffolding.",
+    "tterra_cw40_flags_80335720": "Set the two observed external words at 0x804b1690 and 0x804b1680 to one; data ownership and meanings are unverified."
+  }
+}

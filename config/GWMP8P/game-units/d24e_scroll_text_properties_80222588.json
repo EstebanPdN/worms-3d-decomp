@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_scroll_text_properties_80222588",
+  "source": "source/matching/game/d24e/d24e_scroll_text_properties_80222588.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_scroll_text_properties_80222588": "0x80222588"
+  },
+  "descriptions": {
+    "w3d_d24e_register_scroll_text_properties_80222588": "Sets the ResourceName string binding (0x801ed24c) to a temporary string made from \"FE.Font\" (0x803b6408, constructor 0x8020bb54); resets the TextGameDataId string binding (0x801ed24c) to the shared empty string; resets the TextColourResource string binding (0x801ed24c) to the shared empty string; registers BorderColour (0x801ece2c); registers Justification (0x801ece2c); registers BorderSize (0x801ec52c); registers AutoScroll (0x801eb674); registers AutoScale (0x801eb674); resets the Colour colour binding (0x801f15e0) to (255, 255, 255, 255); registers Animate (0x801eb674); calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

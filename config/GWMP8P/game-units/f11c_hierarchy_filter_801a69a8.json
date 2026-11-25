@@ -1,0 +1,11 @@
+{
+  "unit": "f11c_hierarchy_filter_801a69a8",
+  "source": "source/matching/game/f11c/f11c_hierarchy_filter_801a69a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "f11c_hierarchy_801a69a8": "0x801a69a8"
+  },
+  "descriptions": {
+    "f11c_hierarchy_801a69a8": "Evaluate the observed hierarchy filter: mode0 returns whether its stored result is zero; mode1 rejects either of two witnessed descriptor ancestry chains before scanning configured descriptor pointers, and other modes scan directly. Query the object type virtually, walk parent links at offset20 until a target or self-linked root is reached, select a matching configured type, and optionally invoke the stored callback with the negated selection and context, returning whether its result is zero. The explicit reject helper preserves the boolean API boundary; case2 has the same scan behavior as the default. Descriptor24-byte and object/filter layouts are partial observed views, not complete class-size claims; all semantic names and types are inferred. External descriptors remain externally owned."
+  }
+}

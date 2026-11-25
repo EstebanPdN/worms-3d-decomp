@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_dual_array_lock_80189450",
+  "source": "source/matching/game/cx16b/cx16b_dual_array_lock_80189450.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_dual_array_lock_80189450": "0x80189450"
+  },
+  "descriptions": {
+    "w3d_cx16b_dual_array_lock_80189450": "Locks both observed array-reference headers, incrementing an existing matching-key lock count or invoking the original lock helper with stride eight."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_find_named_item_800d7318",
+  "source": "source/matching/game/d26c/d26c_find_named_item_800d7318.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_find_named_item_800d7318": "0x800d7318"
+  },
+  "descriptions": {
+    "d26c_find_named_item_800d7318": "Copy the global pointer vector at 0x8043bb64, walk each group's item vector at +20, compare each item's name at +60 with strcmp through a temporary string, and on a match copy the position at +4 to out, release the copy and return 1. Returns 0 when nothing matches."
+  }
+}

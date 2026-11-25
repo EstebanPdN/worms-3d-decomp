@@ -1,0 +1,14 @@
+{
+  "unit": "d28b_girder_track_80095db4",
+  "source": "source/matching/game/d28b/d28b_girder_track_80095db4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28b_girder_track_80095db4": "0x80095db4"
+  },
+  "descriptions": {
+    "w3d_d28b_girder_track_80095db4": "Girder collision tracking: state 2 (+684) tests the height range against +756 and +760, sweeps the top edges of the corner box (0x800b0824) counting blocked edges and casts a ray; state 3 sweeps the verticals and casts; state 4 sweeps down from +172 and when short sweeps the bottom edges, then casts two rays. A ray hit sets +708."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

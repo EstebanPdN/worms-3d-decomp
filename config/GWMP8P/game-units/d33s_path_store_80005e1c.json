@@ -1,0 +1,17 @@
+{
+  "unit": "d33s_path_store_80005e1c",
+  "source": "source/matching/game/d33s/d33s_path_store_80005e1c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "store_path__14D33sPathSearch": "0x80005e1c"
+  },
+  "descriptions": {
+    "store_path__14D33sPathSearch": "Walks back along the links from the best node, removes each node from both search tables, then pops the nodes into the path vector."
+  }
+}

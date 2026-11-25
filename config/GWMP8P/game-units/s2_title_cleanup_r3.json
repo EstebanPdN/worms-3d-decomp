@@ -1,0 +1,11 @@
+{
+  "unit": "s2_title_cleanup_r3",
+  "source": "source/matching/game/s2_title_cleanup_r3.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_title_default_vector_8011f2c8": "0x8011f2c8"
+  },
+  "descriptions": {
+    "w3d_title_default_vector_8011f2c8": "Writes the original default vector components into the supplied output."
+  }
+}

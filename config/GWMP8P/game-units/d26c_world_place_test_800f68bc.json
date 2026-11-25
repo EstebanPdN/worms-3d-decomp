@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_world_place_test_800f68bc",
+  "source": "source/matching/game/d26c/d26c_world_place_test_800f68bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_world_place_test_800f68bc": "0x800f68bc"
+  },
+  "descriptions": {
+    "d26c_world_place_test_800f68bc": "Create an instance with 0x800f55e8 and place it with 0x800f5c1c. Return 1 when depth at +40 is below -4 or a test (0x800f6760, 0x800f66ac, 0x800f6798) fails, or when 0x800f65cc finds an overlap with another group. Otherwise return 0. Each exit destroys the instance (0x800f6ca0, delete flag 3) and clears the group slot."
+  }
+}

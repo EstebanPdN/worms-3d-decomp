@@ -1,0 +1,11 @@
+{
+  "unit": "s19_ctor_8002824c",
+  "source": "source/matching/game/s19/s19_ctor_8002824c.c",
+  "language": "c",
+  "functions": {
+    "s19_ctor_8002824c": "0x8002824c"
+  },
+  "descriptions": {
+    "s19_ctor_8002824c": "Appears to run a base constructor, install a vtable, set a float field to zero, a flag at +0x54 to one and clear seventeen other fields."
+  }
+}

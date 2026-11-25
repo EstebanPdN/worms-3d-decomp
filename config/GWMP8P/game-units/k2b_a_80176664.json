@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_80176664",
+  "source": "source/matching/game/k2b/k2b_a_80176664.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_table_acquire_80176664": "0x80176664"
+  },
+  "descriptions": {
+    "w3d_k2b_table_acquire_80176664": "Appears to look up a table slot, retain its interface and replace the caller's held interface, or clear it on failure."
+  }
+}

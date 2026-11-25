@@ -1,0 +1,66 @@
+// Partial external object views; these types are never locally constructed.
+struct LuaState;
+typedef int (*LuaCallback)(LuaState*);
+struct Interface { void **table; void retain(){if(this)((void(*)(Interface*))table[3])(this);} void release(){if(this)((void(*)(Interface*))table[4])(this);} };
+struct Host { void **table; unsigned unknown[8]; Interface *binding; void setBinding(Interface*p){p->retain();binding->release();binding=p;} };
+struct Binding { void **table; unsigned unknown[4]; Host *host; int readRef, writeRef; int bind(Host*); };
+extern "C" {
+int fn_802cd7f4(LuaState*);
+int fn_801a0304(LuaState*);
+void fn_801a03f0(LuaState*,const void*,int);
+void fn_801a0448(LuaState*,const void*,int,int);
+void fn_802cd99c(LuaState*,int);
+int fn_802dd76c(LuaState*,int);
+void fn_802cdfd4(LuaState*,const char*);
+void fn_802ce148(LuaState*,LuaCallback,int);
+void fn_802ce4d8(LuaState*,int);
+void fn_802cd808(LuaState*,int);
+int fn_8019f838(LuaState*); int fn_8019f8f0(LuaState*);
+int fn_8019f8a0(LuaState*); int fn_8019e710(LuaState*);
+}
+extern const unsigned key_804b1950;
+extern const char registrations_803a9a94[],index_803a9a5c[],newindex_803a9a64[],create_803a9a70[];
+int Binding::bind(Host*host){
+ this->host=host;
+ host->setBinding((Interface*)this);
+ LuaState*state=((LuaState*(*)(Host*))host->table[9])(host);
+ fn_802cd7f4(state);
+ int table=fn_801a0304(state);
+ fn_801a03f0(state,&key_804b1950,1);
+ fn_802cd99c(state,table);
+ this->writeRef=fn_802dd76c(state,-10000);
+ int reader=fn_801a0304(state);
+ fn_801a0448(state,registrations_803a9a94,2,table);
+ int writer=fn_801a0304(state);
+ fn_802cdfd4(state,index_803a9a5c);
+ fn_802cd99c(state,reader);
+ fn_802ce148(state,fn_8019f838,1);
+ fn_802ce4d8(state,table);
+ fn_802cdfd4(state,newindex_803a9a64);
+ fn_802cd99c(state,writer);
+ fn_802ce148(state,fn_8019f8f0,1);
+ fn_802ce4d8(state,table);
+ fn_802cd808(state,-4);
+ table=fn_801a0304(state);
+ fn_801a03f0(state,&key_804b1950,1);
+ fn_802cd99c(state,table);
+ this->readRef=fn_802dd76c(state,-10000);
+ reader=fn_801a0304(state);
+ fn_801a0448(state,registrations_803a9a94,2,table);
+ writer=fn_801a0304(state);
+ fn_802cdfd4(state,index_803a9a5c);
+ fn_802cd99c(state,reader);
+ fn_802ce148(state,fn_8019f838,1);
+ fn_802ce4d8(state,table);
+ fn_802cdfd4(state,newindex_803a9a64);
+ fn_802cd99c(state,writer);
+ fn_802ce148(state,fn_8019f8a0,1);
+ fn_802ce4d8(state,table);
+ fn_802cdfd4(state,create_803a9a70);
+ fn_802cd99c(state,table);
+ fn_802ce148(state,fn_8019e710,1);
+ fn_802ce4d8(state,-10001);
+ fn_802cd808(state,-4);
+ fn_802cd7f4(state);
+ return 0;
+}

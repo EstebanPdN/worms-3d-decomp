@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_movie_shutdown_802e03e0",
+  "source": "source/matching/game/cx12b/cx12b_movie_shutdown_802e03e0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_movie_shutdown_802e03e0": "0x802e03e0"
+  },
+  "descriptions": {
+    "w3d_cx12b_movie_shutdown_802e03e0": "Close the original movie player, unregister its callback and release its three heap buffers plus decoder and texture objects."
+  }
+}

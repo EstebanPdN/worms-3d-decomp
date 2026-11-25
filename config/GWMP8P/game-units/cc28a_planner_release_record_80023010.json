@@ -1,0 +1,11 @@
+{
+  "unit": "cc28a_planner_release_record_80023010",
+  "source": "source/matching/game/cc28a/cc28a_planner_release_record_80023010.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc28a_planner_release_record_80023010": "0x80023010"
+  },
+  "descriptions": {
+    "cc28a_planner_release_record_80023010": "Find owned record, format name, release and erase pointer, decrement work count, and post completion message on zero; return error if absent."
+  }
+}

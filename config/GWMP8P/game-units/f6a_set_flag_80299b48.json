@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_set_flag_80299b48",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_set_flag_80299b48": "0x80299b48"
+  },
+  "descriptions": {
+    "w3d_f6a_set_flag_80299b48": "Look up the observed named property, update its zero/one interface variant from the supplied flag, and retain/release diagnostic text for lookup failure or an unsupported kind. String ABI and semantic roles inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_set_flag_80299b48.cpp"
+}

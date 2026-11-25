@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_worm_lights_80139a04",
+  "source": "source/matching/game/d24d/d24d_worm_lights_80139a04.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_worm_lights_80139a04": "0x80139a04"
+  },
+  "descriptions": {
+    "d24d_worm_lights_80139a04": "Formats WormLight.%d and WeaponLight.%d with the worm id (+112), resolves both through the resource table (0x804b17ec +116, virtual slot 50, kind 4), keeps them retained at +596 and +600, then applies the first to the mesh at +28 through 0x80182408 and 0x80182410."
+  }
+}

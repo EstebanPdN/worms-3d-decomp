@@ -1,0 +1,20 @@
+{
+  "unit": "d40j_reset_queue_times_80164070",
+  "source": "source/matching/game/d40j/d40j_reset_queue_times_80164070.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d40j_reset_queue_times_80164070": "0x80164070"
+  },
+  "descriptions": {
+    "w3d_d40j_reset_queue_times_80164070": "Rewrites each of the task manager's three category timer queues (real STLport priority_queue of {handle,value}) with every value except -1 replaced by the new time, then sets the manager's time fields through 0x8034b3f8 and 0x8034b408 and calls the empty hook 0x801651e4. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

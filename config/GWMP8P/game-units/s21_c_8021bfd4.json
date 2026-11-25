@@ -1,0 +1,11 @@
+{
+  "unit": "s21_c_8021bfd4",
+  "source": "source/matching/game/s21/s21_c_8021bfd4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_forward_inner_8021bfd4": "0x8021bfd4"
+  },
+  "descriptions": {
+    "w3d_s21_forward_inner_8021bfd4": "Appears to forward a field of the inner object and the caller argument to a helper."
+  }
+}

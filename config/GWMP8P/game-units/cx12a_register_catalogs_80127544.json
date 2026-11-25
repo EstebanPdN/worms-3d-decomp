@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_register_catalogs_80127544",
+  "source": "source/matching/game/cx12a/cx12a_register_catalogs_80127544.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_register_catalogs_80127544": "0x80127544"
+  },
+  "descriptions": {
+    "w3d_cx12a_register_catalogs_80127544": "Evaluate observed register catalogs state and interface operations; names inferred from offsets and original control flow."
+  }
+}

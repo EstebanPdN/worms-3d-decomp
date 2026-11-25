@@ -1,0 +1,15 @@
+{
+  "unit": "s9_vectors",
+  "source": "source/matching/game/s9/s9_vectors.cpp",
+  "language": "cpp",
+  "functions": {
+    "s9_set_vector_8017b040": "0x8017b040",
+    "s9_set_vector_8017b07c": "0x8017b07c",
+    "s9_set_vector_8017b120": "0x8017b120"
+  },
+  "descriptions": {
+    "s9_set_vector_8017b040": "Copies three vector components through the owner storage pointer and sets dirty bit 0x02 in the nested flag byte.",
+    "s9_set_vector_8017b07c": "Copies three vector components through the owner storage pointer and sets dirty bit 0x02 in the nested flag byte.",
+    "s9_set_vector_8017b120": "Copies three vector components through the owner storage pointer and sets dirty bit 0x02 in the nested flag byte."
+  }
+}

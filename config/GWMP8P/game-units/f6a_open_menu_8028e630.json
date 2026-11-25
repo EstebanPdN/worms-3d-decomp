@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_open_menu_8028e630",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_open_menu_8028e630": "0x8028e630"
+  },
+  "descriptions": {
+    "w3d_f6a_open_menu_8028e630": "Retain the requested menu name, replace stored names, construct and associate the observed panel, pass it a by-value string, post a menu-change message, and update the menu state. Partial layouts and semantic roles inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_open_menu_8028e630.cpp"
+}

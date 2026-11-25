@@ -1,0 +1,11 @@
+{
+  "unit": "r24b_current_resource_801ee1dc",
+  "source": "source/matching/game/r24b/r24b_current_resource_801ee1dc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r24b_current_resource_801ee1dc": "0x801ee1dc"
+  },
+  "descriptions": {
+    "w3d_r24b_current_resource_801ee1dc": "Read the current resource word from the external small-data global; resource semantics inferred."
+  }
+}

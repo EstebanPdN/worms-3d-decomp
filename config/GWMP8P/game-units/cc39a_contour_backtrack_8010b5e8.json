@@ -1,0 +1,11 @@
+{
+  "unit": "cc39a_contour_backtrack_8010b5e8",
+  "source": "source/matching/game/cc39a/cc39a_contour_backtrack_8010b5e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39a_contour_backtrack_8010b5e8": "0x8010b5e8"
+  },
+  "descriptions": {
+    "cc39a_contour_backtrack_8010b5e8": "Backtrack a grid contour until the original state or boundary test is reached, preserving signed grid marks and modulo-four direction lookup; return the final cell and direction."
+  }
+}

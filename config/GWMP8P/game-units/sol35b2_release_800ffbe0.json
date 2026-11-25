@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b2_release_800ffbe0",
+  "source": "source/matching/game/sol35b2/sol35b2_release_800ffbe0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b2_release_800ffbe0": "0x800ffbe0"
+  },
+  "descriptions": {
+    "sol35b2_release_800ffbe0": "Release the held array backend, destroy each non-null task with native flags 3, then erase the entire pointer range through the observed byte-copy boundary and reset its end. Native container and semantic type identities remain inferred."
+  }
+}

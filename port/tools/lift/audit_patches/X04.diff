@@ -1,0 +1,20 @@
+--- a/port/core/game/d30j/d30j_init_instance_mesh_8018bf18.cpp
++++ b/port/core/game/d30j/d30j_init_instance_mesh_8018bf18.cpp
+@@ -86,7 +86,7 @@
+   self->mod = (Ptr32<Mod>)w3d_s10_service_forward_8020b680(lbl_80414b30);
+   {
+     Ref<Tex> tex((Ptr32<Tex>)w3d_s10_service_forward_8020b680(lbl_80414940));
+-    if (w3d_empty_8034435c(item)->opts & 1024) self->mod->blend = 1;
++    if (__builtin_bswap16(w3d_empty_8034435c(item)->opts) & 1024) /* dos bytes crudos del XOM, big-endian */ self->mod->blend = 1;
+     self->inst->tex = tex;
+     self->geo = w3d_s21_fetch_801ea470(w3d_empty_8034435c(self->item.p)->res);
+     self->ref168 = self->geo->ref52.p;
+@@ -103,7 +103,7 @@
+       self->z192 = 0;
+       self->z236 = 0;
+       self->name = lbl_804b06a0[0];
+-      self->fl240 = (w3d_empty_8034435c(self->item.p)->opts >> 9) & 1;
++      self->fl240 = (__builtin_bswap16(w3d_empty_8034435c(self->item.p)->opts) >> 9) & 1;
+       tex->setC(self->c);
+       tex->setB(self->b);
+       tex->setA(self->a);

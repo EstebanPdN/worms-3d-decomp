@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_801cb590",
+  "source": "source/matching/game/k2b/k2b_a_801cb590.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_light_construct_801cb590": "0x801cb590"
+  },
+  "descriptions": {
+    "w3d_k2b_light_construct_801cb590": "Appears to construct a light on its base constructor, install its vtable and set four color vectors, a shininess and zeroed fields."
+  }
+}

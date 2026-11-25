@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b11_jetpack_update_800adcb4",
+  "source": "source/matching/game/sol35b11/sol35b11_jetpack_update_800adcb4.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b11_jetpack_update_800adcb4": "0x800adcb4"
+  },
+  "descriptions": {
+    "sol35b11_jetpack_update_800adcb4": "Resolve the jetpack controller by handle; reset missing controls, otherwise forward active or stopping mode, vector, scale and effect updates in the original order. Inferred GC32 partial views; complete storage, callback lifetimes and helper effects remain external obligations."
+  }
+}

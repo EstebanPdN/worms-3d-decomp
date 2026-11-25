@@ -1,0 +1,14 @@
+{
+  "unit": "d24l_text_list_lines_8029f598",
+  "source": "source/matching/game/d24l/d24l_text_list_lines_8029f598.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d24l_text_list_lines_8029f598": "0x8029f598"
+  },
+  "descriptions": {
+    "d24l_text_list_lines_8029f598": "Replaces a text list's lines: releases the old entries, clears +268, then walks a String copy of the text: each newline-terminated part is copied, cut at the newline (0x8020c3a0) with the remainder moved through 0x8020c0fc, and added via 0x8029f714(self, line, a, b); the final part is added whole and the remainder becomes the shared empty string 0x804b06a0."
+  }
+}

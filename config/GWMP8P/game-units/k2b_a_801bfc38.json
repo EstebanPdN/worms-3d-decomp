@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_801bfc38",
+  "source": "source/matching/game/k2b/k2b_a_801bfc38.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_shape_construct_801bfc38": "0x801bfc38"
+  },
+  "descriptions": {
+    "w3d_k2b_shape_construct_801bfc38": "Appears to construct a shape on its base constructor, install its vtable and set an origin, extents and a scale."
+  }
+}

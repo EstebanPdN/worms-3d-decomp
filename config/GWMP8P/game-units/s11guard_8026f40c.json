@@ -1,0 +1,11 @@
+{
+  "unit": "s11guard_8026f40c",
+  "source": "source/matching/game/s11_auto/s11guard_8026f40c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8026f40c": "0x8026f40c"
+  },
+  "descriptions": {
+    "w3d_auto_8026f40c": "Appears to calls 0x802b0990, 0x8026fc98, 0x8026ed00, 0x802bc8b4, 0x80296518; accesses fields at 0xB0, 0x28, 0xD0, 0x88, 0xB, 0x8C. m2c types and names are provisional."
+  }
+}

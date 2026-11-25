@@ -1,0 +1,17 @@
+{
+  "unit": "d41j_gx_driver_ctor_80169c10",
+  "source": "source/matching/game/d41j/d41j_gx_driver_ctor_80169c10.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "w3d_d41j_gx_driver_ctor_80169c10": "0x80169c10"
+  },
+  "descriptions": {
+    "w3d_d41j_gx_driver_ctor_80169c10": "Graphics driver constructor: sets the class-chain tables, tag at +4, list at +136, identity 4x4 matrix at +44, creates and binds the temporary buffer object, reads setting XSGX.TempGeomBufferSize into +232 and resets colour, counter and table fields. Names are inferred."
+  }
+}

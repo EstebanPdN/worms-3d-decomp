@@ -1,0 +1,14 @@
+{
+  "unit": "d33a_airstrike_aim_trace_80032c84",
+  "source": "source/matching/game/d33a/d33a_airstrike_aim_trace_80032c84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33a_airstrike_aim_trace_80032c84": "0x80032c84"
+  },
+  "descriptions": {
+    "w3d_d33a_airstrike_aim_trace_80032c84": "Traces the airstrike aim ray against the world and spheres and publishes the aim direction, target and validity."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "cx14b_affine_near_801f7620",
+  "source": "source/matching/game/cx14b/cx14b_affine_near_801f7620.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_affine_near_801f7620": "0x801f7620"
+  },
+  "descriptions": {
+    "w3d_cx14b_affine_near_801f7620": "Compare matrix rotation with the original helper then compare three translation floats with the supplied epsilon."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

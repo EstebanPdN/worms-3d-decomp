@@ -1,0 +1,11 @@
+{
+  "unit": "s21_u_802700a8",
+  "source": "source/matching/game/s21/s21_u_802700a8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_panel_update_802700a8": "0x802700a8"
+  },
+  "descriptions": {
+    "w3d_s21_panel_update_802700a8": "Appears to clamp a stored value below a limit from the engine context and apply it to two linked gauge objects while active."
+  }
+}

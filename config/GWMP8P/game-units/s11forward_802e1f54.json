@@ -1,0 +1,11 @@
+{
+  "unit": "s11forward_802e1f54",
+  "source": "source/matching/game/s11_auto/s11forward_802e1f54.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802e1f54": "0x802e1f54"
+  },
+  "descriptions": {
+    "w3d_auto_802e1f54": "Appears to calls 0x802e1b8c, 0x802e1d7c. m2c types and names are provisional."
+  }
+}

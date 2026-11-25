@@ -1,0 +1,17 @@
+{
+  "unit": "genparamc_801c2168",
+  "source": "source/matching/game/generated/genparamc_801c2168.c",
+  "language": "c",
+  "functions": {
+    "w3d_construct_named_801c2168": "0x801c2168",
+    "w3d_get_indexed_801fbe9c": "0x801fbe9c",
+    "w3d_get_indexed_8020a7f8": "0x8020a7f8",
+    "w3d_register_bindings_8022a058": "0x8022a058"
+  },
+  "descriptions": {
+    "w3d_construct_named_801c2168": "Constructor: runs the base constructor, clears a field, installs the vtable and initializes a shared-string member to the empty string, retaining it; returns the object.",
+    "w3d_get_indexed_801fbe9c": "Returns the indexed word of the array referenced by a fixed field of the object.",
+    "w3d_get_indexed_8020a7f8": "Returns the indexed word of the array referenced by a fixed field of the object.",
+    "w3d_register_bindings_8022a058": "Registers named member bindings and named entries through the property helpers in a fixed order, then invokes the final registration helper; returns zero."
+  }
+}

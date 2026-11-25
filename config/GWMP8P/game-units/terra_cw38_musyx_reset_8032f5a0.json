@@ -1,0 +1,11 @@
+{
+  "unit": "terra_cw38_musyx_reset_8032f5a0",
+  "source": "source/matching/game/terra_cw38/musyx_reset_8032f5a0.c",
+  "language": "c",
+  "functions": {
+    "terra_cw38_musyx_reset_8032f5a0": "0x8032f5a0"
+  },
+  "descriptions": {
+    "terra_cw38_musyx_reset_8032f5a0": "Clear the observed external halfword at 0x804b1620. Its ownership and semantics remain unverified; compiler identity for the surrounding MusyX block is unknown."
+  }
+}

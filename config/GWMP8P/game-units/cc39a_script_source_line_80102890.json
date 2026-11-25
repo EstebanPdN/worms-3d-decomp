@@ -1,0 +1,11 @@
+{
+  "unit": "cc39a_script_source_line_80102890",
+  "source": "source/matching/game/cc39a/cc39a_script_source_line_80102890.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39a_script_source_line_80102890": "0x80102890"
+  },
+  "descriptions": {
+    "cc39a_script_source_line_80102890": "Find the named source and requested line, copy at most 255 bytes and terminate the output; preserve the missing-source diagnostic and original failure result."
+  }
+}

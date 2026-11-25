@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_script_start_80100490",
+  "source": "source/matching/game/d24c/d24c_script_start_80100490.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_script_start_80100490": "0x80100490"
+  },
+  "descriptions": {
+    "d24c_script_start_80100490": "Subscribe messages (0x801037a8) and build entries (0x8010391c); read four settings into retained references +44, +48, +52, +56 through a holder cleared before each read and released after each, releasing the previous values; call 0x80100748; if 0x8010273c fails post a string message with the FAIL text; otherwise set the run state to 1, set it to 0 when the flag at 0x804aaf88 is set, and call the handler named by the Initialise text."
+  }
+}

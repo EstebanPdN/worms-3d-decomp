@@ -1,0 +1,114 @@
+#define W3D_LOOSE_C 1
+#include "w3d_ptr.h"
+extern "C" {
+#line 1 "s8sorted_8009d868.c"
+typedef struct s8_SmallObject { int a,b; } s8_SmallObject;
+extern int lbl_804aabe4;
+extern int lbl_804adff0;
+extern int lbl_804adff4;
+extern int lbl_804adff8;
+extern int lbl_804adfdc;
+extern int lbl_804adfe4;
+extern int lbl_804adfe8;
+extern int lbl_804adffc;
+extern int lbl_804adfe0;
+extern int lbl_804adfec;
+extern s8_SmallObject lbl_804ae000;
+extern char lbl_803802ac[];
+int fn_8015f518(Ptr32<void>, Ptr32<void>);
+extern s8_SmallObject lbl_804ae008;
+extern char lbl_803802bc[];
+extern s8_SmallObject lbl_804ae010;
+extern char lbl_803802d0[];
+extern s8_SmallObject lbl_804ae018;
+extern char lbl_803802e4[];
+extern s8_SmallObject lbl_804ae020;
+extern char lbl_803802f8[];
+extern s8_SmallObject lbl_804ae028;
+extern char lbl_80380314[];
+extern s8_SmallObject lbl_804ae030;
+extern char lbl_80380330[];
+extern s8_SmallObject lbl_804ae038;
+extern char lbl_8038034c[];
+extern s8_SmallObject lbl_804ae040;
+extern char lbl_8038035c[];
+extern s8_SmallObject lbl_804ae048;
+extern char lbl_80380378[];
+extern s8_SmallObject lbl_804ae050;
+extern char lbl_80380394[];
+extern s8_SmallObject lbl_804ae058;
+extern char lbl_803803b4[];
+extern s8_SmallObject lbl_804ae060;
+extern char lbl_803803c8[];
+extern s8_SmallObject lbl_804ae068;
+extern char lbl_803803e0[];
+extern s8_SmallObject lbl_804ae070;
+extern char lbl_803803f4[];
+extern s8_SmallObject lbl_804ae078;
+extern char lbl_8038040c[];
+extern s8_SmallObject lbl_804ae080;
+extern char lbl_8038042c[];
+extern s8_SmallObject lbl_804ae088;
+extern char lbl_80380444[];
+extern s8_SmallObject lbl_804ae090;
+extern char lbl_80380454[];
+extern s8_SmallObject lbl_804ae098;
+extern char lbl_80380464[];
+extern s8_SmallObject lbl_804ae0a0;
+extern char lbl_8038047c[];
+extern s8_SmallObject lbl_804ae0a8;
+extern char lbl_80380488[];
+extern s8_SmallObject lbl_804ae0b0;
+extern char lbl_8038049c[];
+extern char lbl_80360660[];
+extern char lbl_803e7dc0[];
+extern char lbl_80361860[];
+Ptr32<void> fn_8009b300(void);
+int fn_8016115c(Ptr32<void>, Ptr32<void>, Ptr32<void>, Ptr32<void (void)>, int, int);
+void s8_static_init_8009d868(int initialize,int priority)
+{
+    if(priority==0xffff && initialize) {
+        int base0=lbl_804aabe4;
+        int offset1=base0+16368;
+        int offset2=base0+16304;
+        int offset3=base0+16176;
+        int offset4=base0+16384;
+        int offset5=base0+736;
+        int offset6=base0+12400;
+        lbl_804adfdc=offset4;
+        lbl_804adfe0=base0;
+        lbl_804adfe4=offset5;
+        lbl_804adfe8=offset6;
+        lbl_804adfec=base0;
+        lbl_804adff0=offset1;
+        lbl_804adff4=offset2;
+        lbl_804adff8=offset3;
+        lbl_804adffc=base0;
+        fn_8015f518(&lbl_804ae000, lbl_803802ac);
+        fn_8015f518(&lbl_804ae008, lbl_803802bc);
+        fn_8015f518(&lbl_804ae010, lbl_803802d0);
+        fn_8015f518(&lbl_804ae018, lbl_803802e4);
+        fn_8015f518(&lbl_804ae020, lbl_803802f8);
+        fn_8015f518(&lbl_804ae028, lbl_80380314);
+        fn_8015f518(&lbl_804ae030, lbl_80380330);
+        fn_8015f518(&lbl_804ae038, lbl_8038034c);
+        fn_8015f518(&lbl_804ae040, lbl_8038035c);
+        fn_8015f518(&lbl_804ae048, lbl_80380378);
+        fn_8015f518(&lbl_804ae050, lbl_80380394);
+        fn_8015f518(&lbl_804ae058, lbl_803803b4);
+        fn_8015f518(&lbl_804ae060, lbl_803803c8);
+        fn_8015f518(&lbl_804ae068, lbl_803803e0);
+        fn_8015f518(&lbl_804ae070, lbl_803803f4);
+        fn_8015f518(&lbl_804ae078, lbl_8038040c);
+        fn_8015f518(&lbl_804ae080, lbl_8038042c);
+        fn_8015f518(&lbl_804ae088, lbl_80380444);
+        fn_8015f518(&lbl_804ae090, lbl_80380454);
+        fn_8015f518(&lbl_804ae098, lbl_80380464);
+        fn_8015f518(&lbl_804ae0a0, lbl_8038047c);
+        fn_8015f518(&lbl_804ae0a8, lbl_80380488);
+        fn_8015f518(&lbl_804ae0b0, lbl_8038049c);
+        fn_8016115c(lbl_80360660, lbl_803e7dc0, lbl_80361860, fn_8009b300, 11, 0);
+    }
+}
+
+}

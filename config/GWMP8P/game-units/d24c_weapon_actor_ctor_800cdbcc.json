@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_weapon_actor_ctor_800cdbcc",
+  "source": "source/matching/game/d24c/d24c_weapon_actor_ctor_800cdbcc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_weapon_actor_ctor_800cdbcc": "0x800cdbcc"
+  },
+  "descriptions": {
+    "d24c_weapon_actor_ctor_800cdbcc": "Call base 0x80161014; store vtable 0x8040fc08; zero the triple +28 and the table +128..+252; call 0x80126184 on +308; set +44 to 0 and +48 to -1; copy origin 0x8045e788 to +52, +64, +276 and +296; set +116 to 1 and +292 to -1; set +96, +100, +108, +112, +268, +288 from pool float 0x80387ef0; clear +40, +88, +92, +120, +124. Returns this."
+  }
+}

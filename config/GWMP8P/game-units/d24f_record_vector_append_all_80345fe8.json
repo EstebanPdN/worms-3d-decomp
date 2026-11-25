@@ -1,0 +1,17 @@
+{
+  "unit": "d24f_record_vector_append_all_80345fe8",
+  "source": "source/matching/game/d24f/d24f_record_vector_append_all_80345fe8.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24f_record_vector_append_all_80345fe8": "0x80345fe8"
+  },
+  "descriptions": {
+    "d24f_record_vector_append_all_80345fe8": "Appends every record of the source vector to this vector, growing through allocation 0x80212fd4 with fallback 0x803413d8 when full (copy, append one, release old storage via 0x802134fc); record copies install table 0x80410500. Then empties the source vector."
+  },
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ]
+}

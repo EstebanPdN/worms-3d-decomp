@@ -1,0 +1,11 @@
+{
+  "unit": "cc29a_controller_select_level_800252c8",
+  "source": "source/matching/game/cc29a/cc29a_controller_select_level_800252c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc29a_controller_select_level_800252c8": "0x800252c8"
+  },
+  "descriptions": {
+    "cc29a_controller_select_level_800252c8": "Handle initialization, cycle or explicitly select levels one through five using cached message identifiers, and post the original eight-byte change notification."
+  }
+}

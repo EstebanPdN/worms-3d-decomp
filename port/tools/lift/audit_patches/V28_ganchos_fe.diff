@@ -1,0 +1,48 @@
+--- a/port/core/engine/message_registry.cpp
++++ b/port/core/engine/message_registry.cpp
+@@ -90,9 +90,13 @@
+     return w3d_message_dispatch_core(message, recipient, children);
+ }
+ 
++void w3d_fe_spy(Ptr32<void> message);   /* core/native/fe_bridge.cpp (v28): último FE.HighlightItem para la UI de abajo */
++/* v28: el mismo buscador con un nombre que el reenlace por dirección no cambia (fe_bridge.cpp lo usa). */
++W3dStatus w3d_fe_message_id(Ptr32<const char> name, Ptr32<W3dMessageId> id) { return w3d_message_find_id(name, id); }
+ W3dStatus w3d_message_post_current(Ptr32<void> message)
+ {
+     W3dStatus result;
++    w3d_fe_spy(message);
+     if (w3d_message_context != 0)
+         result = w3d_message_dispatch(message, w3d_message_context->recipient, 0);
+     else
+--- a/port/core/game/d24g/d24g_mode_start_8006af38.cpp
++++ b/port/core/game/d24g/d24g_mode_start_8006af38.cpp
+@@ -82,8 +82,10 @@
+ }
+ #define CREATE(t) { void *type = type_8020b680(t); create_80164514(service_804b178c, type, self->id); }
+ #define CAMERA(c) { Camera *cam = c; cam->vtable->set_a(cam, pos_8045e788); cam->vtable->set_b(cam, pos_8045e7ac); cam->vtable->set_c(cam, pos_8045e7a0); }
++extern "C" void w3d_fe_mode_started(int mode);   // core/native/fe_bridge.cpp (v28): arranque y título para la UI de 3DS
+ extern "C" void w3d_d24g_mode_start_8006af38(Ptr32<Self> self)
+ {
++    w3d_fe_mode_started(self->mode);
+     Ptr32<Stage> stage = stage_80160e2c(g_804b17f0);
+     String s;
+     string_format_8020c510(&s, s_8037bbcc, count_804aaac0[0]++);
+--- a/port/core/game/d27i/d27i_panel_update_8011e0fc.cpp
++++ b/port/core/game/d27i/d27i_panel_update_8011e0fc.cpp
+@@ -44,6 +44,7 @@
+ extern "C" Ptr32<Color> color_80189760(Ptr32<Widget>);
+ extern "C" Ptr32<Context> ctx_80165254();
+ extern "C" Ptr32<Service> svc_8020b680(Ptr32<void>);
++extern "C" int w3d_fe_title_hide_press(void);   // core/native/fe_bridge.cpp (v28): en 3DS el "Press START" va abajo
+ extern "C" int d27i_panel_update_8011e0fc(Ptr32<Self> self, unsigned now) {
+     int done = 0;
+     switch (self->state) {
+@@ -59,7 +60,7 @@
+     case 1:
+         if (now > self->next && ready_80181ccc(self->c, self->rb)) {
+             self->blink ^= 1;
+-            self->other->vt->show(self->other, self->blink);
++            self->other->vt->show(self->other, w3d_fe_title_hide_press() ? 0 : self->blink);
+             self->next = now + 750;
+         }
+         break;

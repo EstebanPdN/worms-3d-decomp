@@ -1,0 +1,25 @@
+{
+  "unit": "g_name_list",
+  "source": "source/matching/game/g_name_list.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_name_list_init_800c4598": "0x800c4598",
+    "w3d_name_list_destroy_800c45b8": "0x800c45b8",
+    "w3d_name_list_clear_800c4604": "0x800c4604",
+    "w3d_name_list_count_800c4660": "0x800c4660",
+    "w3d_name_list_pop_back_800c4d38": "0x800c4d38",
+    "w3d_name_list_back_800c4d9c": "0x800c4d9c",
+    "w3d_name_list_freeze_800c4de8": "0x800c4de8",
+    "w3d_name_list_trim_800c4e18": "0x800c4e18"
+  },
+  "descriptions": {
+    "w3d_name_list_init_800c4598": "Initialises a bounded name list: empty record vector and a zero limit.",
+    "w3d_name_list_destroy_800c45b8": "Deleting destructor of the name list: frees the record storage and, if requested, the list itself.",
+    "w3d_name_list_clear_800c4604": "Removes every name from the list and resets its limit to zero.",
+    "w3d_name_list_count_800c4660": "Returns the number of 33-byte name records in the list.",
+    "w3d_name_list_pop_back_800c4d38": "Copies the last name into a string and removes it; fails with 0x80004005 when the list is empty.",
+    "w3d_name_list_back_800c4d9c": "Copies the last name into a string without removing it; fails with 0x80004005 when the list is empty.",
+    "w3d_name_list_freeze_800c4de8": "Sets the list limit to the current number of names.",
+    "w3d_name_list_trim_800c4e18": "Drops names from the end until the list holds no more than its limit."
+  }
+}

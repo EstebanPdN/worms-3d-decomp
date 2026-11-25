@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_sample_ring_update_8015d018",
+  "source": "source/matching/game/g1c/g1c_sample_ring_update_8015d018.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_sample_ring_update_8015d018": "0x8015d018"
+  },
+  "descriptions": {
+    "g1c_sample_ring_update_8015d018": "Update the externally supplied ring of eight-byte integer-delta/float samples: skip a null entry array, derive the tick delta using zero for sentinel lastTick -1, replace the current entries in both running sums, write sample and delta, advance/wrap the cursor against capacity, and record the new tick. No receiver or entry storage is constructed or owned; the24-byte view covers exactly the fields accessed by the original."
+  }
+}

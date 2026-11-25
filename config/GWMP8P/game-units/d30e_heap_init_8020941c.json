@@ -1,0 +1,11 @@
+{
+  "unit": "d30e_heap_init_8020941c",
+  "source": "source/matching/game/d30e/d30e_heap_init_8020941c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_heap_init_8020941c": "0x8020941c"
+  },
+  "descriptions": {
+    "w3d_d30e_heap_init_8020941c": "Initialises a heap object: runs the empty hook, then either allocates its own 128-aligned arena of the requested size, with trace output around it, and opens the heap in it, or opens the heap over the default region. The open variant and mode come from flags at +20 and +40. Sets the owner on the opened heap, a default name, and runs the second hook. Returns 0. Names are inferred."
+  }
+}

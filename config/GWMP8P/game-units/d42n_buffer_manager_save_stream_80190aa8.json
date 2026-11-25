@@ -1,0 +1,11 @@
+{
+  "unit": "d42n_buffer_manager_save_stream_80190aa8",
+  "source": "source/matching/game/d42n/d42n_buffer_manager_save_stream_80190aa8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d42n_buffer_manager_save_stream_80190aa8": "0x80190aa8"
+  },
+  "descriptions": {
+    "w3d_d42n_buffer_manager_save_stream_80190aa8": "Stream writer: writes the name with the XCULLED prefix, the entry table, then for each record its weight and name, loads the record's buffer, writes each element's flags, bit fields and stage keys, and releases the buffer's storage."
+  }
+}

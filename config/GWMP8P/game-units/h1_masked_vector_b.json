@@ -1,0 +1,24 @@
+{
+  "unit": "h1_masked_vector_b",
+  "source": "source/matching/game/h1/h1_masked_vector_b.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "w3d_apply_masked_vector_803582b4": "0x803582b4",
+    "w3d_apply_masked_vector_80358d24": "0x80358d24",
+    "w3d_apply_masked_vector_80359a88": "0x80359a88",
+    "w3d_apply_masked_vector_80358f74": "0x80358f74",
+    "w3d_apply_masked_vector_803591cc": "0x803591cc",
+    "w3d_apply_masked_vector_8035909c": "0x8035909c"
+  },
+  "descriptions": {
+    "w3d_apply_masked_vector_803582b4": "Applies a three-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 7 sets directly).",
+    "w3d_apply_masked_vector_80358d24": "Applies a three-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 7 sets directly).",
+    "w3d_apply_masked_vector_80359a88": "Applies a six-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 63 sets directly).",
+    "w3d_apply_masked_vector_80358f74": "Applies a nine (3x3 matrix)-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 511 sets directly).",
+    "w3d_apply_masked_vector_803591cc": "Applies a twelve (4x3 matrix)-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 4095 sets directly).",
+    "w3d_apply_masked_vector_8035909c": "Applies a sixteen (4x4 matrix)-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 65535 sets directly)."
+  }
+}

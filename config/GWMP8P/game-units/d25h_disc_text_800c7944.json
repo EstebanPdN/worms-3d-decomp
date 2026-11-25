@@ -1,0 +1,14 @@
+{
+  "unit": "d25h_disc_text_800c7944",
+  "source": "source/matching/game/d25h/d25h_disc_text_800c7944.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d25h_disc_text_800c7944": "0x800c7944"
+  },
+  "descriptions": {
+    "w3d_d25h_disc_text_800c7944": "Disc text layout: loads the numbered font named by 0x803879f8, sets colour and text on it, walks the text adding a line record at each newline and at each word that would pass width 400, accumulates per-line glyph count and width, and spaces the lines 34 units apart around the vertical centre."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g3c_flush_pending_802171ec",
+  "source": "source/matching/game/g3c/g3c_flush_pending_802171ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "g3c_flush_pending_802171ec": "0x802171ec"
+  },
+  "descriptions": {
+    "g3c_flush_pending_802171ec": "Flushes deferred regions from the external runtime heap state atowner+48. Unless direct flag1 is set, rejects active0x2000, otherwise sets that guard. Walks region links atoffset4 while caching next before invoking any callback. For each nonnull pending block atregion+24, clears that field, removes low3 flag bits from the pending header at+4, and chooses either region+12 extent when region+20 matches or extent-plus8 otherwise. Calls the original external callback table80400768 slot4 with heap,region,selected extent,and1; a negative result restores the original pending pointer. Finally clears0x2000 and returns zero. The callback table base, memberoffset4, region links and extent branches are witnessed by original instructions; external tables, regions and state remain unconstructed partial views. No initialized data is owned, no dummy local storage is present and names/flush semantics remain inferred."
+  }
+}

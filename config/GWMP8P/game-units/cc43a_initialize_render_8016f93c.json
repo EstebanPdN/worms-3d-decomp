@@ -1,0 +1,11 @@
+{
+  "unit": "cc43a_initialize_render_8016f93c",
+  "source": "source/matching/game/cc43a/cc43a_initialize_render_8016f93c_v7.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc43a_initialize_render_8016f93c": "0x8016f93c"
+  },
+  "descriptions": {
+    "cc43a_initialize_render_8016f93c": "Publish and initialize the render-state view: four coded channels, paired five- and 32-element arrays, a three-word array, dimensions, and the original orthographic matrix parameters."
+  }
+}

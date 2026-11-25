@@ -1,0 +1,14 @@
+{
+  "unit": "d31a_target_list_build_800181e8",
+  "source": "source/matching/game/d31a/d31a_target_list_build_800181e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31a_target_list_build_800181e8": "0x800181e8"
+  },
+  "descriptions": {
+    "w3d_d31a_target_list_build_800181e8": "Clears and refills the global AI target list from named map objects or from up to 16 worms within range, labelling each with a built string, then updates the scale used by the scoring functions."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

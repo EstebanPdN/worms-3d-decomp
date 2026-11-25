@@ -1,0 +1,11 @@
+{
+  "unit": "s21_m_8021b194",
+  "source": "source/matching/game/s21/s21_m_8021b194.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_dispatch_8021b194": "0x8021b194"
+  },
+  "descriptions": {
+    "w3d_s21_dispatch_8021b194": "Appears to dispatch on a flag of the target's owner and a lookup predicate, calling one of two handlers."
+  }
+}

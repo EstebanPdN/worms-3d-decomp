@@ -1,0 +1,11 @@
+{
+  "unit": "k1a_toggler_flip_800385fc",
+  "source": "source/matching/game/k1a/k1a_toggle_flag_800385fc.c",
+  "language": "c",
+  "functions": {
+    "k1a_toggler_flip_800385fc": "0x800385fc"
+  },
+  "descriptions": {
+    "k1a_toggler_flip_800385fc": "Appears to flip a one-bit flag at offset 80 and store it through a byte-value helper when the mode at offset 92 is zero or two."
+  }
+}

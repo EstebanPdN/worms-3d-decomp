@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_publish_seed_8026c008",
+  "source": "source/matching/game/f1p/f1p_publish_seed_8026c008.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_publish_seed_8026c008": "0x8026c008"
+  },
+  "descriptions": {
+    "w3d_publish_seed_8026c008": "Temporarily raises owner guard +0x1f0, formats the seed from subobject +0x138 into a local string, conditionally writes the original FE.Land.Seed property and always writes FE.Land.RealSeed, repeats the observed seed getter, restores the guard, and destroys the local string. Inferred field names, original constructor/format/property calls and ordering."
+  }
+}

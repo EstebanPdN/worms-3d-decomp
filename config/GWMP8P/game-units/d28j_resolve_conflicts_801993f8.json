@@ -1,0 +1,15 @@
+{
+  "unit": "d28j_resolve_conflicts_801993f8",
+  "source": "source/matching/game/d28j/d28j_resolve_conflicts_801993f8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28j"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d28j_resolve_conflicts_801993f8": "0x801993f8"
+  },
+  "descriptions": {
+    "d28j_resolve_conflicts_801993f8": "Collect active records whose channel masks intersect a pending record, then promote the record or drop and erase the conflicting set."
+  }
+}

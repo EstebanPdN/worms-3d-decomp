@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_callback_connect_8015fb6c",
+  "source": "source/matching/game/g1c/g1c_callback_connect_8015fb6c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_callback_connect_8015fb6c": "0x8015fb6c"
+  },
+  "descriptions": {
+    "g1c_callback_connect_8015fb6c": "Connect the external owner callback list at24 through original8015f7e0 with the original six forwarded arguments. Use the supplied native pointer-to-member descriptor when nonnull, otherwise copy the witnessed external default descriptor803a45c4; each branch passes its own complete native descriptor local. Return zero. Owner prefix is external only, never constructed; native descriptor uses the reference compiler ABI and no opaque reserved storage."
+  }
+}

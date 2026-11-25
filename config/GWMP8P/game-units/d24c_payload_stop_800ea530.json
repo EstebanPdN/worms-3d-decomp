@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_payload_stop_800ea530",
+  "source": "source/matching/game/d24c/d24c_payload_stop_800ea530.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_payload_stop_800ea530": "0x800ea530"
+  },
+  "descriptions": {
+    "d24c_payload_stop_800ea530": "Call 0x800edbbc; write id +20 to the setting named at 0x8038b3dc; post a target-id message with the id; for handles +252 and +256 call 0x80126230 with 3 when set, then clear them; empty the vector at +260; release and clear +100."
+  }
+}

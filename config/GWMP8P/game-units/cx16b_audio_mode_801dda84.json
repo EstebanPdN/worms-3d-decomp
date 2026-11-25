@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_audio_mode_801dda84",
+  "source": "source/matching/game/cx16b/cx16b_audio_mode_801dda84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_audio_mode_801dda84": "0x801dda84"
+  },
+  "descriptions": {
+    "w3d_cx16b_audio_mode_801dda84": "Selects mono, stereo or surround through the original audio services and diagnostics, stores the requested mode at +88 and returns success."
+  }
+}

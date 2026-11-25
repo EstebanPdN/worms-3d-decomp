@@ -1,0 +1,11 @@
+{
+  "unit": "g8a_update_motion_controls_80094a84",
+  "source": "source/matching/game/g8a/g8a_update_motion_controls_80094a84.cpp",
+  "language": "cpp",
+  "functions": {
+    "g8a_update_motion_controls_80094a84": "0x80094a84"
+  },
+  "descriptions": {
+    "g8a_update_motion_controls_80094a84": "While tick744 is below limit740, resets velocity, copies position to target and current angles to target angles. Toggles two modes on rising button0x800 via handle query8012629c. Applies vertical movement, rising-edge yaw/pitch increments outside modifier0x1000, then forward/back/left/right movement in original override order using original external float constants. All role names inferred from vector arithmetic. Partial external owner is never locally constructed; local x/z values are scalar floats. No owned data."
+  }
+}

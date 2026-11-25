@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d2_initialize_bounds_801b4cd4",
+  "source": "source/matching/game/sol35d2/sol35d2_initialize_bounds_801b4cd4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d2_initialize_bounds_801b4cd4": "0x801b4cd4"
+  },
+  "descriptions": {
+    "w3d_sol35d2_initialize_bounds_801b4cd4": "Create bounds, bound-mode and text bindings from the three witnessed descriptors, copy four native bounds words from 0x8045e63c with default class assignment, initialize the text binding at +8 using a scoped retained copy of native shared empty string 0x804b06a0, finalize the owner and return zero."
+  }
+}

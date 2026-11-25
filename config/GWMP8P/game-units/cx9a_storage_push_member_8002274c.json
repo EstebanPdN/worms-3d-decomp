@@ -1,0 +1,11 @@
+{
+  "unit": "cx9a_storage_push_member_8002274c",
+  "source": "source/matching/game/cx9a/cx9a_storage_push_member_8002274c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9a_storage_push_member_8002274c": "0x8002274c"
+  },
+  "descriptions": {
+    "w3d_cx9a_storage_push_member_8002274c": "Append incoming word through inferred storage subobject +0x1c, preserving the argument across capacity growth, copy and release."
+  }
+}

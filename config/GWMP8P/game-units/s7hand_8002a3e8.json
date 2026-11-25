@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002a3e8",
+  "source": "source/matching/game/s7/s7hand_8002a3e8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002a3e8": "0x8002a3e8"
+  },
+  "descriptions": {
+    "w3d_auto_8002a3e8": "Calls the base constructor, installs the observed derived vtable, clears the observed pointer fields, and returns the object."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d9_remove_registered_80210120",
+  "source": "source/matching/game/sol35d9/sol35d9_remove_registered_80210120.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d9_remove_registered_80210120": "0x80210120"
+  },
+  "descriptions": {
+    "sol35d9_remove_registered_80210120": "Remove all matching native interface pointers from the global list, retaining and releasing references during compaction and erasing the trailing range."
+  }
+}

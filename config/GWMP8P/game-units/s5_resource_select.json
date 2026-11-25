@@ -1,0 +1,11 @@
+{
+  "unit": "s5_resource_select",
+  "source": "source/matching/game/s5_resource_select.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_resource_select_800c9d98": "0x800c9d98"
+  },
+  "descriptions": {
+    "w3d_resource_select_800c9d98": "Looks up a named resource, retains it during receiver assignment and then releases the temporary hold."
+  }
+}

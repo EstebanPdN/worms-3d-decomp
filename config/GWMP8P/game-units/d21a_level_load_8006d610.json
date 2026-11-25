@@ -1,0 +1,11 @@
+{
+  "unit": "d21a_level_load_8006d610",
+  "source": "source/matching/game/d21a/d21a_level_load_8006d610.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d21a_level_load_8006d610": "0x8006d610"
+  },
+  "descriptions": {
+    "w3d_d21a_level_load_8006d610": "Level start-up loader: reads Game.NextLevel and looks up the level record (returns 0 if missing); publishes Land.File and GameLogic.CurrentScript, posts the string messages for the +64 and +52 texts and, when present, the particle file; publishes Particle.OverrideFile and (if non-empty) Land.Materials; copies the record fog range (+24, +20) to the global fog settings; reads Fog.MinRange, Fog.MaxRange and Fog.Colour; returns 1."
+  }
+}

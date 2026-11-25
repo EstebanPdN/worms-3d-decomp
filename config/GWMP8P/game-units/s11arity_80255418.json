@@ -1,0 +1,11 @@
+{
+  "unit": "s11arity_80255418",
+  "source": "source/matching/game/s11_auto/s11arity_80255418.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80255418": "0x80255418"
+  },
+  "descriptions": {
+    "w3d_auto_80255418": "Appears to calls 0x801ec52c, 0x801ebf38, 0x801eb674, 0x801e8d9c. m2c types and names are provisional."
+  }
+}

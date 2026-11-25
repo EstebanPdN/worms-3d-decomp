@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_string_prefix_assign_8020c048",
+  "source": "source/matching/game/cx11b/cx11b_string_prefix_assign_8020c048.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_string_prefix_assign_8020c048": "0x8020c048"
+  },
+  "descriptions": {
+    "w3d_cx11b_string_prefix_assign_8020c048": "Assign a bounded prefix of another string, allocating storage when shared or too small."
+  }
+}

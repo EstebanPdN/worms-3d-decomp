@@ -1,0 +1,3 @@
+c source/matching/game/s20/s20_small_o.c
+w3d_s20_call_handle_object_800e95e0|0x800e95e0|Appears to resolve the handle at offset 192 and call virtual method 12 of the object with an argument and the address at offset 72.
+w3d_s20_call_handle_object_800e962c|0x800e962c|Appears to resolve the handle at offset 192 and call virtual method 13 of the object with an argument and the address at offset 84.

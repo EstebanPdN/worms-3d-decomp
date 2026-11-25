@@ -1,0 +1,52 @@
+diff -ru a/port/core/game/d31d/d31d_worm_graphic_state_80135c20.cpp b/port/core/game/d31d/d31d_worm_graphic_state_80135c20.cpp
+--- a/port/core/game/d31d/d31d_worm_graphic_state_80135c20.cpp
++++ b/port/core/game/d31d/d31d_worm_graphic_state_80135c20.cpp
+@@ -87,6 +87,13 @@
+ void aim_blend_8013e130(Ptr32<Worm>, Ptr32<Mesh>);
+ // v25 (core/native/ahogo.cpp): velocidad de la animación SinkWater (0,35 = 65 % más lenta).
+ float w3d_hundir_velocidad(void);
++// v26 (core/native/anim_ahogo_um.cpp): postura de ahogo de Ultimate Mayhem en el estado gráfico 33.
++int w3d_anim_um_entra(int);
++int w3d_anim_um_activo(int);
++int w3d_anim_um_sale(int);
++float w3d_anim_um_peso(int);
++float w3d_anim_um_tiempo(float);
++const char *w3d_anim_um_clip(int);
+ }
+ inline float fabs(float x) { return __builtin_fabsf(x); }
+ extern Ptr32<World> const world_804b1788;
+@@ -464,7 +471,8 @@
+         goto out;
+     case 33:
+         control_801817e0(mesh, -1);
+-        play_801359ec(self, mesh, sda_804ab1c0, &self->f472, 1.0f, 0.0f, 0.0f);
++        // v26: con el ahogo de UM, su postura FallDrown (cada cuadro, más abajo); si no, Drown_Shallow.
++        if (!w3d_anim_um_entra(self->f112)) play_801359ec(self, mesh, sda_804ab1c0, &self->f472, 1.0f, 0.0f, 0.0f);
+         world_804b1788->f108->vt->place_at(world_804b1788->f108, str_8039f490, &self->f52);
+         goto out;
+     case 10:
+@@ -582,6 +590,11 @@
+         auto_8013eab8(self, mesh);
+     }
+ out:
++    // v26: al salir del estado 33 con la postura de UM, sus dos clips vuelven a peso 0.
++    if (old == 33 && self->f496 != 33 && w3d_anim_um_sale(self->f112)) {
++        fade_named_80181814(mesh, w3d_anim_um_clip(1), 0.0f, 0.0f);
++        fade_named_80181814(mesh, w3d_anim_um_clip(0), 0.0f, 0.0f);
++    }
+     auto_8013c938(self);
+     if (self->f496 == 10) {
+         if (playing_80181ccc(mesh, self->f472)) {
+@@ -626,6 +639,12 @@
+         apply_8013a048(self, mesh);
+     } else if (self->f496 == 19) {
+         blend_8013a0d4(self, mesh);
++    } else if (self->f496 == 33 && w3d_anim_um_activo(self->f112)) {
++        // v26: como 0x5A06B0 de UM, FallDrown en t = 1 + clamp(10 · v.y, -1, 1) con peso w, y la base con 1 - w.
++        float w = w3d_anim_um_peso(self->f112);
++        float t = w3d_anim_um_tiempo(query_800fc6dc(self->f112)->v44.y);
++        if (w > 0.0f) fade_named_80181814(mesh, w3d_anim_um_clip(1), t, w);
++        fade_named_80181814(mesh, w3d_anim_um_clip(0), 0.0f, 1.0f - w);
+     }
+     if ((self->f496 == 0 || self->f496 == 10 || self->f496 == 11)
+         && playing_80181ccc(mesh, self->f472) && playing_80181ccc(mesh, self->f492)) {

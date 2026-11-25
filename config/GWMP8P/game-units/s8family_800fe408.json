@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_800fe408",
+  "source": "source/matching/game/s8family_800fe408.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_message_route_800fe408": "0x800fe408"
+  },
+  "descriptions": {
+    "s8_message_route_800fe408": "Handles initialization and teardown messages, invokes a hook for a cached custom message ID and otherwise delegates to the base handler."
+  }
+}

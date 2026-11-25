@@ -1,0 +1,11 @@
+{
+  "unit": "s19_lookup_8008c360",
+  "source": "source/matching/game/s19/s19_lookup_8008c360.c",
+  "language": "c",
+  "functions": {
+    "s19_lookup_slot_8008c360": "0x8008c360"
+  },
+  "descriptions": {
+    "s19_lookup_slot_8008c360": "Appears to look up the handle stored at the given index of the array at +0x128 and return the object or zero."
+  }
+}

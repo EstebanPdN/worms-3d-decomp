@@ -1,0 +1,11 @@
+{
+  "unit": "d18d_camera_view_matrix_8015aa04",
+  "source": "source/matching/game/d18d/d18d_camera_view_matrix_8015aa04.cpp",
+  "language": "cpp",
+  "functions": {
+    "d18d_camera_view_matrix_8015aa04": "0x8015aa04"
+  },
+  "descriptions": {
+    "d18d_camera_view_matrix_8015aa04": "Build the camera view matrix: get the right/up/forward basis from 0x8015a6f0, store it transposed into rows 0-2 with w = 0, and set row 3 to the negated dot products of the camera position (+4) with each axis and w = 1. Owns its float literal pool (0.0, 1.0)."
+  }
+}

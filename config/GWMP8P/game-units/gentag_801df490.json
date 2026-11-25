@@ -1,0 +1,35 @@
+{
+  "unit": "gentag_801df490",
+  "source": "source/matching/game/generated/gentag_801df490.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_tagged_construct_801df490": "0x801df490",
+    "w3d_tagged_construct_801ea0ec": "0x801ea0ec",
+    "w3d_tagged_construct_801ee1e4": "0x801ee1e4",
+    "w3d_tagged_construct_801f8f68": "0x801f8f68",
+    "w3d_tagged_construct_801f9290": "0x801f9290",
+    "w3d_tagged_construct_80206af4": "0x80206af4",
+    "w3d_tagged_construct_80207fec": "0x80207fec",
+    "w3d_tagged_construct_80208c0c": "0x80208c0c",
+    "w3d_tagged_construct_8020b058": "0x8020b058",
+    "w3d_tagged_construct_8020d318": "0x8020d318",
+    "w3d_tagged_construct_80218ec4": "0x80218ec4",
+    "w3d_tagged_construct_802e2c4c": "0x802e2c4c",
+    "w3d_tagged_construct_802e2fd4": "0x802e2fd4"
+  },
+  "descriptions": {
+    "w3d_tagged_construct_801df490": "Constructs a tagged object: base vtable 0x80416c80, tag type 2, cleared pair and tag halves, then derived vtable 0x80416c48; sets int at 24 = 0, int at 20 = 0, int at 28 = 0, int at 32 = 0. Returns the object.",
+    "w3d_tagged_construct_801ea0ec": "Constructs a tagged object: base vtable 0x80411590, tag type 2, cleared pair and tag halves (tag b from the first argument), then derived vtable 0x80417168. Returns the object.",
+    "w3d_tagged_construct_801ee1e4": "Constructs a tagged object: base vtable 0x80411ac0, tag type 2, cleared pair and tag halves, then derived vtable 0x80417700; sets int at 20 = 0, int at 24 = 0, short at 4 = 0, short at 30 = 0, short at 28 = 0. Returns the object.",
+    "w3d_tagged_construct_801f8f68": "Constructs a tagged object: base vtable 0x80418168, tag type 2, cleared pair and tag halves, then derived vtable 0x80418140; sets int at 20 = 0, int at 28 = 0. Returns the object.",
+    "w3d_tagged_construct_801f9290": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, then derived vtable 0x80418190; sets int at 20 = 0, int at 24 = 0. Returns the object.",
+    "w3d_tagged_construct_80206af4": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, then derived vtable 0x80419180. Returns the object.",
+    "w3d_tagged_construct_80207fec": "Constructs a tagged object: base vtable 0x80419268, tag type 2, cleared pair and tag halves, then derived vtable 0x80419238; sets int at 20 = 0. Returns the object.",
+    "w3d_tagged_construct_80208c0c": "Constructs a tagged object: base vtable 0x80419348, tag type 2, cleared pair and tag halves, then derived vtable 0x80419318; sets int at 36 = 0, int at 20 = 0, int at 40 = 0. Returns the object.",
+    "w3d_tagged_construct_8020b058": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, then derived vtable 0x804194a0. Returns the object.",
+    "w3d_tagged_construct_8020d318": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, then derived vtable 0x804194d0; sets int at 24 = 0, int at 20 = argument 1. Returns the object.",
+    "w3d_tagged_construct_80218ec4": "Constructs a tagged object: base vtable 0x804181c0, tag type 2, cleared pair and tag halves, then derived vtable 0x80419778; sets int at 20 = 0, int at 24 = -1. Returns the object.",
+    "w3d_tagged_construct_802e2c4c": "Constructs a tagged object: base vtable 0x8041cab8, tag type 2, cleared pair and tag halves, then derived vtable 0x8041ca60; sets int at 20 = 0, int at 24 = 0. Returns the object.",
+    "w3d_tagged_construct_802e2fd4": "Constructs a tagged object: base vtable 0x8041cb40, tag type 2, cleared pair and tag halves, then derived vtable 0x8041cb18. Returns the object."
+  }
+}

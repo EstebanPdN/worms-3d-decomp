@@ -1,0 +1,11 @@
+{
+  "unit": "g6c_card_status_80288c7c",
+  "source": "source/matching/game/g6c/g6c_card_status_80288c7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g6c_card_status_80288c7c": "0x80288c7c"
+  },
+  "descriptions": {
+    "w3d_g6c_card_status_80288c7c": "Updates memory-card operation status, loading/saving and block-count labels; refreshes text colours on status transitions, pumps thirteen busy frames, and arms the missing-record timeout. Card and controller types are external partial views only; local RGBA values cover the four-byte colour callee footprint and the block label owns a 32-byte formatting buffer."
+  }
+}

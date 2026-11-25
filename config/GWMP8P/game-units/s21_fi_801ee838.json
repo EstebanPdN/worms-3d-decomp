@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fi_801ee838",
+  "source": "source/matching/game/s21/s21_fi_801ee838.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_refs_b_801ee838": "0x801ee838"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_refs_b_801ee838": "Appears to be a destructor body that releases every interface of the counted array at offset 32, installs the base vtable and destroys the embedded node."
+  }
+}

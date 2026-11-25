@@ -1,0 +1,11 @@
+{
+  "unit": "h1_newlib_strcspn",
+  "source": "source/matching/game/h1/h1_newlib_strcspn.c",
+  "language": "c",
+  "functions": {
+    "strcspn": "0x802ef380"
+  },
+  "descriptions": {
+    "strcspn": "newlib strcspn: returns the length of the initial part of s1 that contains no character of s2."
+  }
+}

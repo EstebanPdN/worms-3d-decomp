@@ -1,0 +1,11 @@
+{
+  "unit": "s20_string_b",
+  "source": "source/matching/game/s20/s20_string_b.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_set_title_800f2f94": "0x800f2f94"
+  },
+  "descriptions": {
+    "w3d_s20_set_title_800f2f94": "Appears to run a helper, take over a shared string argument as the title at offset 892, set mode fields and destroy the argument."
+  }
+}

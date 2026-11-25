@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_land_point_search_8008dd54",
+  "source": "source/matching/game/d24b/d24b_land_point_search_8008dd54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_land_point_search_8008dd54": "0x8008dd54"
+  },
+  "descriptions": {
+    "w3d_d24b_land_point_search_8008dd54": "Random land point search: sets up a collision probe (0x80126184, group -1, mask 0, radius, position) and up to 100 times picks a random point inside the land bounds (0x804b17e0 +12548/+12560), drops it to the ground (0x800b0788) and, when the ground point 0x8043ae20 is above Water.Level, tests the probe at that point plus the offset (0x80126334, result 0x801264fc equal to 0xffff, 0x80126524). Returns 1 when a point passes; destroys the probe (0x80126230)."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

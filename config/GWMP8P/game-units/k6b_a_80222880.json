@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_80222880",
+  "source": "source/matching/game/k6b/k6b_a_80222880.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_font_box_construct_80222880": "0x80222880"
+  },
+  "descriptions": {
+    "w3d_k6b_font_box_construct_80222880": "Appears to construct a box over base 0x8021ef08: vtable 0x8041a460, 0 at +116, 1 at +120, scale from 0x803b6e84, 255 at +128..+136, empty name and font FE.Font."
+  }
+}

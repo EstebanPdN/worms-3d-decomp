@@ -1,0 +1,11 @@
+{
+  "unit": "r23b_clamp_value_802bcbd8",
+  "source": "source/matching/game/r23b/r23b_clamp_value_802bcbd8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23b_clamp_value_802bcbd8": "0x802bcbd8"
+  },
+  "descriptions": {
+    "w3d_r23b_clamp_value_802bcbd8": "Clamp a changed float at +0x4c and refresh when mode +0x50 is one; names inferred."
+  }
+}

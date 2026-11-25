@@ -1,0 +1,11 @@
+{
+  "unit": "codex_flags_8006ee18",
+  "source": "source/matching/game/codex_flags_8006ee18.cpp",
+  "language": "cpp",
+  "functions": {
+    "codex_flags_8006ee18": "0x8006ee18"
+  },
+  "descriptions": {
+    "codex_flags_8006ee18": "Tests two flag bits in an external state and calls two external predicates; returns 1 only when the observed tests pass. Field meaning and predicate signatures are inferred, including a boolean return for the second helper."
+  }
+}

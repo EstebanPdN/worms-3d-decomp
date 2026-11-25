@@ -1,0 +1,11 @@
+{
+  "unit": "s8rt_800e97bc",
+  "source": "source/matching/game/auto/s8rt_800e97bc.c",
+  "language": "c",
+  "functions": {
+    "s8_recovered_800e97bc": "0x800e97bc"
+  },
+  "descriptions": {
+    "s8_recovered_800e97bc": "Accesses observed fields 0x1C, 0xBC, 0xD8, 0xE4, 0x1A8, 0x1AC. Calls 5 external routines including 0x800e8ee0, 0x800e8f40, 0x800e9830, 0x801797b4."
+  }
+}

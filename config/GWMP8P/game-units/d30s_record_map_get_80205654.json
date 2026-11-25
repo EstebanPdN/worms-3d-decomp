@@ -1,0 +1,16 @@
+{
+  "unit": "d30s_record_map_get_80205654",
+  "source": "source/matching/game/d30s/d30s_record_map_get_80205654.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_record_map_get_80205654": "0x80205654"
+  },
+  "descriptions": {
+    "d30s_record_map_get_80205654": "Returns the record for a key in the map at +44, inserting a new record with that id and zero count if absent."
+  }
+}

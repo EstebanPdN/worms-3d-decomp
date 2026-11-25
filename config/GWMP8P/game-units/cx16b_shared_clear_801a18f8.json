@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_shared_clear_801a18f8",
+  "source": "source/matching/game/cx16b/cx16b_shared_clear_801a18f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_shared_clear_801a18f8": "0x801a18f8"
+  },
+  "descriptions": {
+    "w3d_cx16b_shared_clear_801a18f8": "Releases the global owner interfaces and held value, preserving callback-sensitive owner reloads and original range-load order before the empty copy and end update."
+  }
+}

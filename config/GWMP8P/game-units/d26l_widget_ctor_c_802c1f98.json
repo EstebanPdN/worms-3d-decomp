@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_widget_ctor_c_802c1f98",
+  "source": "source/matching/game/d26l/d26l_widget_ctor_c_802c1f98.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_widget_ctor_c_802c1f98": "0x802c1f98"
+  },
+  "descriptions": {
+    "d26l_widget_ctor_c_802c1f98": "Runs the base constructor, clears the scalar words, constructs the strings at +248..+260 and a 32-word table at +92. Sets +364 to 99, +64 to 34, +332 to 6, +72 to 4, floats +316, +368, +372 to 0.0 and the vector at +280 to 1.0. Releases the objects held at +56 and +48 (slot +16) and nulls them. Copies the three-word value at 0x8045e788 to +268, +292 and +304. Returns the object."
+  }
+}

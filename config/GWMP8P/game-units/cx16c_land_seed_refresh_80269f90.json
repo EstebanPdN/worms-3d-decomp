@@ -1,0 +1,11 @@
+{
+  "unit": "cx16c_land_seed_refresh_80269f90",
+  "source": "source/matching/game/cx16c/cx16c_land_seed_refresh_80269f90.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16c_land_seed_refresh_80269f90": "0x80269f90"
+  },
+  "descriptions": {
+    "w3d_cx16c_land_seed_refresh_80269f90": "When the land panel is unblocked, read FE.Land.RealSeed, format it into a temporary shared string, update the seed editor, then perform the three original state refresh calls; return zero."
+  }
+}

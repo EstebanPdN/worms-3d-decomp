@@ -1,0 +1,19 @@
+{
+  "unit": "h1_newlib_misc",
+  "source": "source/matching/game/h1/h1_newlib_misc.c",
+  "language": "c",
+  "functions": {
+    "srand": "0x802ee7d0",
+    "rand": "0x802ee7dc",
+    "strcoll": "0x802ef2dc",
+    "_localeconv_r": "0x802f31f8",
+    "localeconv": "0x802f3204"
+  },
+  "descriptions": {
+    "srand": "newlib srand: stores the seed in the global reentrancy structure's rand state.",
+    "rand": "newlib rand: advances the rand state as next * 1103515245 + 12345 and returns it masked to 31 bits.",
+    "strcoll": "newlib strcoll for the C locale: returns strcmp(a, b).",
+    "_localeconv_r": "newlib _localeconv_r: returns the address of the static C-locale lconv structure.",
+    "localeconv": "newlib localeconv: calls _localeconv_r with the global reentrancy structure."
+  }
+}

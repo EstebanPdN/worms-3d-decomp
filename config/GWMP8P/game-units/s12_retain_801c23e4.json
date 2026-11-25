@@ -1,0 +1,11 @@
+{
+  "unit": "s12_retain_801c23e4",
+  "source": "source/matching/game/s12/s12_retain_801c23e4.c",
+  "language": "c",
+  "functions": {
+    "w3d_s12_initialize_interfaces_801c23e4": "0x801c23e4"
+  },
+  "descriptions": {
+    "w3d_s12_initialize_interfaces_801c23e4": "Initializes the base object, installs the observed method table, and initializes 8 interface fields from shared globals while retaining each non-null value."
+  }
+}

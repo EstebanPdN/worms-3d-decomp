@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_8015ac04",
+  "source": "source/matching/game/k2b/k2b_a_8015ac04.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_ray_misses_8015ac04": "0x8015ac04"
+  },
+  "descriptions": {
+    "w3d_k2b_ray_misses_8015ac04": "Appears to build a direction vector between two points and return whether a ray test from the first point fails."
+  }
+}

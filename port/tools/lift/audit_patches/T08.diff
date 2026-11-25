@@ -1,0 +1,7 @@
+--- a/port/core/game/d26l/d26l_expand_panel_message_802b88b0.cpp
++++ b/port/core/game/d26l/d26l_expand_panel_message_802b88b0.cpp
+@@ -72,3 +72,3 @@
+     if (alternate) self->base.fn_802b222c();
+-    if (message.length() && (((unsigned char)self->source[11] ^ 4) & 4) && self->holder
++    if (message.length() && (((unsigned char)self->source[8] ^ 4) & 4) && self->holder
+         && self->index >= 0 && self->enabled) {

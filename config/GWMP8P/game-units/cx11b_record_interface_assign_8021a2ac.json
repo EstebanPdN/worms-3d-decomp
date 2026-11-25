@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_record_interface_assign_8021a2ac",
+  "source": "source/matching/game/cx11b/cx11b_record_interface_assign_8021a2ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_record_interface_assign_8021a2ac": "0x8021a2ac"
+  },
+  "descriptions": {
+    "w3d_cx11b_record_interface_assign_8021a2ac": "Acquire record storage and replace the interface at the observed descriptor offset."
+  }
+}

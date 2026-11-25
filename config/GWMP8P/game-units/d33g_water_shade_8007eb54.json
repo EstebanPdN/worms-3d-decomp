@@ -1,0 +1,14 @@
+{
+  "unit": "d33g_water_shade_8007eb54",
+  "source": "source/matching/game/d33g/d33g_water_shade_8007eb54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33g_water_shade_8007eb54": "0x8007eb54"
+  },
+  "descriptions": {
+    "w3d_d33g_water_shade_8007eb54": "Shades water vertices from a lookup table or a trace toward the light, darkens their colours, writes packed words and the average shade."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

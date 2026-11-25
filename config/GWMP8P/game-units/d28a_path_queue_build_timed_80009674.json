@@ -1,0 +1,14 @@
+{
+  "unit": "d28a_path_queue_build_timed_80009674",
+  "source": "source/matching/game/d28a/d28a_path_queue_build_timed_80009674.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_path_queue_build_timed_80009674": "0x80009674"
+  },
+  "descriptions": {
+    "w3d_d28a_path_queue_build_timed_80009674": "Builds a path queue and rejects paths that take too long."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

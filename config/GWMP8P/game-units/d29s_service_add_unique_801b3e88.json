@@ -1,0 +1,19 @@
+{
+  "unit": "d29s_service_add_unique_801b3e88",
+  "source": "source/matching/game/d29s/d29s_service_add_unique_801b3e88.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "add_unique__18D29sOwner_801b3e88P17D29sItem_801b3e88": "0x801b3e88"
+  },
+  "descriptions": {
+    "add_unique__18D29sOwner_801b3e88P17D29sItem_801b3e88": "Searches the list at +88 through the service at +24, returning a match; otherwise appends the item, retains it and returns it. The service is bracketed by its slot-48 call with the item and with zero."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

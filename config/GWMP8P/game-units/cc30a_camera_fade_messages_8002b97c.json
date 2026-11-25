@@ -1,0 +1,11 @@
+{
+  "unit": "cc30a_camera_fade_messages_8002b97c",
+  "source": "source/matching/game/cc30a/cc30a_camera_fade_messages_8002b97c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc30a_camera_fade_messages_8002b97c": "0x8002b97c"
+  },
+  "descriptions": {
+    "cc30a_camera_fade_messages_8002b97c": "Dispatch camera mode and fade events with conditional service removals, active-state guards, and original signed two-direction step countdown."
+  }
+}

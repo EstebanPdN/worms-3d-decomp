@@ -1,0 +1,21 @@
+{
+  "unit": "s3_worm_pot_core",
+  "source": "source/matching/game/s3_worm_pot_core.c",
+  "language": "c",
+  "functions": {
+    "w3d_worm_pot_construct": "0x80140940",
+    "w3d_worm_pot_dispatch": "0x801409f8",
+    "w3d_worm_pot_set_second_text": "0x80140d80",
+    "w3d_worm_pot_apply_message": "0x80140dc4",
+    "w3d_worm_pot_apply_pair": "0x80140f70",
+    "w3d_worm_pot_update_text": "0x80140fc8"
+  },
+  "descriptions": {
+    "w3d_worm_pot_construct": "Constructs a worm pot service with zeroed state and the observed vtable.",
+    "w3d_worm_pot_dispatch": "Initializes the worm pot after a successful type-64 base message.",
+    "w3d_worm_pot_set_second_text": "Sets text on the second linked object.",
+    "w3d_worm_pot_apply_message": "Applies a message value and forwards the message to both linked objects.",
+    "w3d_worm_pot_apply_pair": "Applies the respective messages to the two linked objects.",
+    "w3d_worm_pot_update_text": "Displays an empty string or the formatted current value on the first linked object."
+  }
+}

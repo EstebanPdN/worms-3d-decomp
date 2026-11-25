@@ -1,0 +1,12 @@
+{
+  "unit": "d19e_widget_base_8021ef08",
+  "source": "source/matching/game/d19e/d19e_widget_base_8021ef08.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "__10D19eWidgetUs": "0x8021ef08"
+  },
+  "descriptions": {
+    "__10D19eWidgetUs": "Front-end widget base constructor: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the widget table, sets the vector at +20 to (50, 50, 0) and the vector at +32 to zero, copy-constructs fifteen string members (+44..+60, +68..+104) from the shared empty string 0x804b06a0 (retaining it), sets the float at +64 to 0.0f and the ints at +108/+112 to 0, then clears bit 0x04 of the flag byte at +11. Names are structural; offsets are observed."
+  }
+}

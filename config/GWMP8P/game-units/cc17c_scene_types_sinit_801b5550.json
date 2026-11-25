@@ -1,0 +1,11 @@
+{
+  "unit": "cc17c_scene_types_sinit_801b5550",
+  "source": "source/matching/game/cc17c/cc17c_scene_types_sinit_801b5550.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17c_sinit_801b5550": "0x801b5550"
+  },
+  "descriptions": {
+    "w3d_cc17c_sinit_801b5550": "Static initializer: constructs the XNode, XInteriorNode, XGroup, XCore and XShape type descriptors (kind 2), each with its name, parent descriptor and two class callbacks."
+  }
+}

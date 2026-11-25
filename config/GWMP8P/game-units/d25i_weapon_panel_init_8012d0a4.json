@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_weapon_panel_init_8012d0a4",
+  "source": "source/matching/game/d25i/d25i_weapon_panel_init_8012d0a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_weapon_panel_init_8012d0a4": "0x8012d0a4"
+  },
+  "descriptions": {
+    "d25i_weapon_panel_init_8012d0a4": "Weapon panel setup: resolves ActiveWormIndex into +28, reads FE.WeaponPanel to +32 and Inventory.WeaponDelays to +36, resolves FE.HighlightedItem, FE.WeaponCount, FE.WeapSelTextCol, FE.MenuTextColour, FE.UnavailableWeapCol, WeaponPanel.Open, WeaponsPanel.WormNotOnMoveUtil and WeaponsPanel.WormNotJumping into +40..+68, sets the last two to 1 through 0x80178d28, subscribes 23 cached messages to +84..+172, clears +16 of the object at +172 and sets WeaponPanel.Open to 0."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d30a_shot_sphere_collide_8003e3a4",
+  "source": "source/matching/game/d30a/d30a_shot_sphere_collide_8003e3a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_shot_sphere_collide_8003e3a4": "0x8003e3a4"
+  },
+  "descriptions": {
+    "w3d_d30a_shot_sphere_collide_8003e3a4": "Finds the sphere nearest to the shot, pushes the shot out to its surface when they overlap and applies the normalized impulse; with no sphere it marks the shot done."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

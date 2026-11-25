@@ -1,0 +1,17 @@
+{
+  "unit": "s2_grid_trace_r2",
+  "source": "source/matching/game/s2_grid_trace_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_grid_edge_8010bd74": "0x8010bd74",
+    "w3d_grid_edge_8010bda0": "0x8010bda0",
+    "w3d_grid_prefer_columns_8010bdc8": "0x8010bdc8",
+    "w3d_grid_prefer_columns_8010bebc": "0x8010bebc"
+  },
+  "descriptions": {
+    "w3d_grid_edge_8010bd74": "Tests a grid edge using the two orientation bits.",
+    "w3d_grid_edge_8010bda0": "Tests a grid edge using the two orientation bits.",
+    "w3d_grid_prefer_columns_8010bdc8": "Compares counts of edge runs in the two grid traversal orders.",
+    "w3d_grid_prefer_columns_8010bebc": "Compares counts of edge runs in the two grid traversal orders."
+  }
+}

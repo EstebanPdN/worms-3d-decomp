@@ -1,0 +1,36 @@
+{
+  "unit": "genfastc_801ed690",
+  "source": "source/matching/game/generated/genfastc_801ed690.c",
+  "language": "c",
+  "functions": {
+    "w3d_set_s8_from_float_801ed690": "0x801ed690",
+    "w3d_set_u16_from_float_801ed6f4": "0x801ed6f4",
+    "w3d_set_s16_from_float_801ed758": "0x801ed758",
+    "w3d_floats_to_u8_8020e6c0": "0x8020e6c0",
+    "w3d_u8_to_floats_8020e700": "0x8020e700",
+    "w3d_floats_to_u16_8020e740": "0x8020e740",
+    "w3d_u16_to_floats_8020e780": "0x8020e780",
+    "w3d_floats_to_s8_8020e88c": "0x8020e88c",
+    "w3d_s8_to_floats_8020e8cc": "0x8020e8cc",
+    "w3d_floats_to_s16_8020e90c": "0x8020e90c",
+    "w3d_s16_to_floats_8020e94c": "0x8020e94c",
+    "w3d_get_field_as_u8_802bfc48": "0x802bfc48"
+  },
+  "descriptions": {
+    "w3d_set_s8_from_float_801ed690": "Converts the given float to a signed byte (quantized store) and passes it to a setter on the target through a pointer to member function.",
+    "w3d_set_u16_from_float_801ed6f4": "Converts the given float to an unsigned 16-bit value (quantized store) and passes it to a setter through a pointer to member function.",
+    "w3d_set_s16_from_float_801ed758": "Converts the given float to a signed 16-bit value (quantized store) and passes it to a setter through a pointer to member function.",
+    "w3d_floats_to_u8_8020e6c0": "Converts count floats to u8 values with the quantized store (GQR), advancing both arrays; returns zero.",
+    "w3d_u8_to_floats_8020e700": "Converts count u8 values to floats with the quantized load (GQR), advancing both arrays; returns zero.",
+    "w3d_floats_to_u16_8020e740": "Converts count floats to u16 values with the quantized store (GQR), advancing both arrays; returns zero.",
+    "w3d_u16_to_floats_8020e780": "Converts count u16 values to floats with the quantized load (GQR), advancing both arrays; returns zero.",
+    "w3d_floats_to_s8_8020e88c": "Converts count floats to s8 values with the quantized store (GQR), advancing both arrays; returns zero.",
+    "w3d_s8_to_floats_8020e8cc": "Converts count s8 values to floats with the quantized load (GQR), advancing both arrays; returns zero.",
+    "w3d_floats_to_s16_8020e90c": "Converts count floats to s16 values with the quantized store (GQR), advancing both arrays; returns zero.",
+    "w3d_s16_to_floats_8020e94c": "Converts count s16 values to floats with the quantized load (GQR), advancing both arrays; returns zero.",
+    "w3d_get_field_as_u8_802bfc48": "Returns the float field at a fixed offset converted to an unsigned byte (quantized store)."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

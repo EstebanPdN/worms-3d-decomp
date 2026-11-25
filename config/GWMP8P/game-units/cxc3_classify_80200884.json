@@ -1,0 +1,11 @@
+{
+  "unit": "cxc3_classify_80200884",
+  "source": "source/matching/game/cxc3/cxc3_classify_80200884.c",
+  "language": "c",
+  "functions": {
+    "cxc3_classify_80200884": "0x80200884"
+  },
+  "descriptions": {
+    "cxc3_classify_80200884": "If flag bit 4 at +20 is clear and the first twelve-byte record has a nonnull type at +8, scan the external record array at info+28 using count byte info+17. Test equality with the first type and continuity of unsigned short offsets at record+6, advancing by helper 0x80200050 of the first type. OR flags with 6 for equal types or 4 otherwise, plus bit 1 when offsets are consecutive. Preserve all prior flag bits. Meanings of flags and type helper remain inferred."
+  }
+}

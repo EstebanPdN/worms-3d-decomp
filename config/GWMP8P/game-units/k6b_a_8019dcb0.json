@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8019dcb0",
+  "source": "source/matching/game/k6b/k6b_a_8019dcb0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k6b_script_host_create_object_8019dcb0": "0x8019dcb0"
+  },
+  "descriptions": {
+    "w3d_k6b_script_host_create_object_8019dcb0": "Appears to create the named object through slot 22 of the 0x8020b648 factory with interface 0x8040ebd8, register it through slot 7 and return it."
+  }
+}

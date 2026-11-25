@@ -1,0 +1,14 @@
+{
+  "unit": "d33j_layout_text_8018ca30",
+  "source": "source/matching/game/d33j/d33j_layout_text_8018ca30.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching"
+  ],
+  "functions": {
+    "build__8D33jText": "0x8018ca30"
+  },
+  "descriptions": {
+    "build__8D33jText": "Lays out a text object's glyph quads into the locked index, position and UV arrays, sizes the glyph position and size arrays, and applies the horizontal alignment."
+  }
+}

@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_small_aa.c
+w3d_s20_forward_global6_800fdc80|0x800fdc80|Appears to forward six arguments and a global object to a helper when the global exists, otherwise return 0x80004005.

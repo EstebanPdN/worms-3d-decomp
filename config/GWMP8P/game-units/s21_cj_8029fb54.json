@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cj_8029fb54",
+  "source": "source/matching/game/s21/s21_cj_8029fb54.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_activate_8029fb54": "0x8029fb54"
+  },
+  "descriptions": {
+    "w3d_s21_activate_8029fb54": "Appears to skip an object in state one, call its virtual slot 12 when its field at offset 28 equals a global value, else mark it dirty, returning zero except for that call."
+  }
+}

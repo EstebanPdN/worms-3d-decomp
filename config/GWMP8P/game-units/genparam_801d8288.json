@@ -1,0 +1,25 @@
+{
+  "unit": "genparam_801d8288",
+  "source": "source/matching/game/generated/genparam_801d8288.c",
+  "language": "c",
+  "functions": {
+    "w3d_tiles_801d8288": "0x801d8288",
+    "w3d_tiles_801d834c": "0x801d834c",
+    "w3d_tiles_801d8410": "0x801d8410",
+    "w3d_tiles_801d84d4": "0x801d84d4",
+    "w3d_tiles_801d8598": "0x801d8598",
+    "w3d_tiles_801d865c": "0x801d865c",
+    "w3d_tiles_801d8720": "0x801d8720",
+    "w3d_tiles_801d87e4": "0x801d87e4"
+  },
+  "descriptions": {
+    "w3d_tiles_801d8288": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0.",
+    "w3d_tiles_801d834c": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0.",
+    "w3d_tiles_801d8410": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0.",
+    "w3d_tiles_801d84d4": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0.",
+    "w3d_tiles_801d8598": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0.",
+    "w3d_tiles_801d865c": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0.",
+    "w3d_tiles_801d8720": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0.",
+    "w3d_tiles_801d87e4": "Walks an image in 4x4 blocks (rounded-up rows and columns), converting each block into consecutive 64-byte tiles and accumulating the output size; returns 0."
+  }
+}

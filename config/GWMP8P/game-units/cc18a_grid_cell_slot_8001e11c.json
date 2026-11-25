@@ -1,0 +1,11 @@
+{
+  "unit": "cc18a_grid_cell_slot_8001e11c",
+  "source": "source/matching/game/cc18a/cc18a_grid_cell_slot_8001e11c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18a_grid_cell_slot_8001e11c": "0x8001e11c"
+  },
+  "descriptions": {
+    "w3d_cc18a_grid_cell_slot_8001e11c": "Looks up the observed chunk and returns the selected layer cell slot from the table at offset68, or the owner fallback at offset108."
+  }
+}

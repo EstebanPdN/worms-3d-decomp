@@ -1,0 +1,11 @@
+{
+  "unit": "s4_save_history",
+  "source": "source/matching/game/s4_save_history.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_save_history_remove": "0x8028eb54"
+  },
+  "descriptions": {
+    "w3d_s4_save_history_remove": "Removes the active names from two lists and pushes the current value into the history queue."
+  }
+}

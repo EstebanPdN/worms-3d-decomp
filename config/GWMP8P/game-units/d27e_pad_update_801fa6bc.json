@@ -1,0 +1,14 @@
+{
+  "unit": "d27e_pad_update_801fa6bc",
+  "source": "source/matching/game/d27e/d27e_pad_update_801fa6bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27e_pad_update_801fa6bc": "0x801fa6bc"
+  },
+  "descriptions": {
+    "w3d_d27e_pad_update_801fa6bc": "Per-frame update of a pad device: runs the rumble timer (motor call 0x80302104, shared two-tick delay), copies button and axis state to the last-frame vectors, decodes the port's status record into 16 button flags and eight axes (sticks scaled by 0.02 with Y negated, triggers by 1/255, clamped to [-1, 1]), fires each bound action whose button or axis changed, sends all changes to every listener, and returns its interface through out when given. Names are inferred from the arithmetic and the record layout."
+  },
+  "extra_flags": [
+    "-mfast-cast"
+  ]
+}

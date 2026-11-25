@@ -1,0 +1,11 @@
+{
+  "unit": "s21_aj_801f79ac",
+  "source": "source/matching/game/s21/s21_aj_801f79ac.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_copy_quat_801f79ac": "0x801f79ac"
+  },
+  "descriptions": {
+    "w3d_s21_copy_quat_801f79ac": "Appears to copy four floats from the second argument into the first, starting with the fourth, and return the destination."
+  }
+}

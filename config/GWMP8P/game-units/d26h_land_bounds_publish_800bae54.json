@@ -1,0 +1,15 @@
+{
+  "unit": "d26h_land_bounds_publish_800bae54",
+  "source": "source/matching/game/d26h/d26h_land_bounds_publish_800bae54.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26h_land_bounds_publish_800bae54": "0x800bae54"
+  },
+  "descriptions": {
+    "d26h_land_bounds_publish_800bae54": "Grows the land bounds at +12548 (minimum) and +12560 (maximum) by the given box, then publishes Land.Center, Land.Radius (half-diagonal length), Land.MaxHeight, Land.MinBounds and Land.MaxBounds through service properties."
+  }
+}

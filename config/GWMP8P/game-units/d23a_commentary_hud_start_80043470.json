@@ -1,0 +1,11 @@
+{
+  "unit": "d23a_commentary_hud_start_80043470",
+  "source": "source/matching/game/d23a/d23a_commentary_hud_start_80043470.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d23a_commentary_hud_start_80043470": "0x80043470"
+  },
+  "descriptions": {
+    "w3d_d23a_commentary_hud_start_80043470": "Creates the panel object (0x80164514 on service 0x804b178c with the type resolved by 0x8020b680 from 0x804109c0 and owner word +20) into +68, resets the HUD (0x80047e94), clears +256, reads CommentaryPanel.Comment and ActiveWormIndex into +124 and +128 (0x800fc1b0), subscribes the object (0x80162024) to thirty cached message ids with handler slots +132..+248, copies 0x804aa978 into +92, runs 0x80041d28(self, 0) and sets +252 to 1."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol11b_vector_defaults_v1_8024f990",
+  "source": "source/matching/game/sol11b/sol11b_vector_defaults_v1_8024f990.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11b_vector_defaults_v1_8024f990": "0x8024f990"
+  },
+  "descriptions": {
+    "sol11b_vector_defaults_v1_8024f990": "Registers three vector properties and initializes each value from its original shared float default through a native three-float temporary, then finalizes property registration. Descriptor and binding owner layouts remain external GameCube ABI views."
+  }
+}

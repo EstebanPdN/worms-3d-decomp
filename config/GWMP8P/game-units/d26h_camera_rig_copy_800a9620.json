@@ -1,0 +1,15 @@
+{
+  "unit": "d26h_camera_rig_copy_800a9620",
+  "source": "source/matching/game/d26h/d26h_camera_rig_copy_800a9620.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26h_camera_rig_copy_800a9620": "0x800a9620"
+  },
+  "descriptions": {
+    "d26h_camera_rig_copy_800a9620": "Copies the vectors at +4, +16 and +28 from the source, normalizes the third, calls the base copy 0x8015a6b8, then posts string messages Fire (only when 0x804ab420 is zero), CameraSelect, WormFirstPersonAiming, WormAiming, WormMoving, WormRoping, UtilityGirder and Flying."
+  }
+}

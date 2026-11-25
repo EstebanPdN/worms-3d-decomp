@@ -1,0 +1,13 @@
+{
+  "unit": "tsonnet_c29_slots_801e59b4",
+  "source": "source/matching/game/tsonnet_c29/tsonnet_c29_slots_801e59b4.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c29_slot_mark_801e59b4": "0x801e59b4",
+    "tsonnet_c29_slots_release_801e5e74": "0x801e5e74"
+  },
+  "descriptions": {
+    "tsonnet_c29_slot_mark_801e59b4": "Finds a slot pointer in the 16-entry 64-byte table at 0x8045dbc8 and, if its armed flag is set, clears the top two flag bits (mode -1) or sets the top bit, then calls the slot update helper; field meanings are inferred. If no slot matches, the original accesses before the table; portable behavior is not established.",
+    "tsonnet_c29_slots_release_801e5e74": "When the owner's list flag is set, clears the top flag bits of each valid table slot named by its 16-bit indices, calls the slot update helper, marks the index unused (0xffff), then clears the list flag bits; field meanings are inferred. The valid domain of the list count is unverified."
+  }
+}

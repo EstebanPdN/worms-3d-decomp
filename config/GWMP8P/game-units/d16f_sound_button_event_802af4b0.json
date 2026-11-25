@@ -1,0 +1,17 @@
+{
+  "unit": "d16f_sound_button_event_802af4b0",
+  "source": "source/matching/game/d16f/d16f_sound_button_event_802af4b0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d16f"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "handle_event__15D16fSoundButtonP9D16fEvent": "0x802af4b0"
+  },
+  "descriptions": {
+    "handle_event__15D16fSoundButtonP9D16fEvent": "Sound button message handler: starts on message 64 (E_FAIL if the base handler fails) and stops on 66; otherwise, when its control is ready, active and idle, plays the configuration's sound for ten interface messages (only if the name is set, the configuration is writable and the control enabled), tracks two press/release states that play on release, forwards other messages to the control and finishes in the base handler."
+  }
+}

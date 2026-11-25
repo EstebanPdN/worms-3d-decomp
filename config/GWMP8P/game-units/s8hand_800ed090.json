@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800ed090",
+  "source": "source/matching/game/s8hand_800ed090.c",
+  "language": "c",
+  "functions": {
+    "s8_post_object_events_800ed090": "0x800ed090"
+  },
+  "descriptions": {
+    "s8_post_object_events_800ed090": "Appears to post an object-created event, update its related object and conditionally dispatch an identifier-bearing message."
+  }
+}

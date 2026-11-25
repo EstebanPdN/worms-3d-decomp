@@ -1,0 +1,11 @@
+{
+  "unit": "cx14b_sound_voice_start_801e4994",
+  "source": "source/matching/game/cx14b/cx14b_sound_voice_start_801e4994.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14b_sound_voice_start_801e4994": "0x801e4994"
+  },
+  "descriptions": {
+    "w3d_cx14b_sound_voice_start_801e4994": "Configure and start the original stream voice, advance the slot on success or close its file on failure."
+  }
+}

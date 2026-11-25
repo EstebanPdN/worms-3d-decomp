@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ae_801ef5fc",
+  "source": "source/matching/game/s21/s21_ae_801ef5fc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_locate_member_801ef5fc": "0x801ef5fc"
+  },
+  "descriptions": {
+    "w3d_s21_locate_member_801ef5fc": "Appears to locate an embedded object using an offset from the type table, store one of its fields and return its member address."
+  }
+}

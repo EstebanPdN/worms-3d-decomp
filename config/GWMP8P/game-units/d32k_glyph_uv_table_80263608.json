@@ -1,0 +1,14 @@
+{
+  "unit": "d32k_glyph_uv_table_80263608",
+  "source": "source/matching/game/d32k/d32k_glyph_uv_table_80263608.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32k_glyph_uv_table_80263608": "0x80263608"
+  },
+  "descriptions": {
+    "w3d_d32k_glyph_uv_table_80263608": "If the flag is zero and the named resource does not already hold 79 entries, sizes it to 79, clears both 632-byte tables, writes the origin and size of each glyph rectangle from literal tables, then flips each origin's V coordinate as 1 - v - h."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

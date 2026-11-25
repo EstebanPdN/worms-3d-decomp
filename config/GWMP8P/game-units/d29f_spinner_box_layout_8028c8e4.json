@@ -1,0 +1,17 @@
+{
+  "unit": "d29f_spinner_box_layout_8028c8e4",
+  "source": "source/matching/game/d29f/d29f_spinner_box_layout_8028c8e4.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29f_spinner_box_layout_8028c8e4": "0x8028c8e4"
+  },
+  "descriptions": {
+    "d29f_spinner_box_layout_8028c8e4": "Frontend spinner box layout: creates the background box and highlight parts, scales and positions them."
+  }
+}

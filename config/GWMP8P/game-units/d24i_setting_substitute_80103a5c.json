@@ -1,0 +1,11 @@
+{
+  "unit": "d24i_setting_substitute_80103a5c",
+  "source": "source/matching/game/d24i/d24i_setting_substitute_80103a5c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24i_setting_substitute_80103a5c": "0x80103a5c"
+  },
+  "descriptions": {
+    "d24i_setting_substitute_80103a5c": "Read the text setting named by item +44 (0x800fc2b0), making and dropping a copy of the name if it is absent; replace every occurrence of the pattern in item +52 with the text of item +56 by rebuilding and sharing a local string; write the result to the setting named by item +48 (0x800fc550), making and dropping a copy of that name if the write fails."
+  }
+}

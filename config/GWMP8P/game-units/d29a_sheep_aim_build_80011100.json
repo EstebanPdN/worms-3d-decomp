@@ -1,0 +1,14 @@
+{
+  "unit": "d29a_sheep_aim_build_80011100",
+  "source": "source/matching/game/d29a/d29a_sheep_aim_build_80011100.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29a_sheep_aim_build_80011100": "0x80011100"
+  },
+  "descriptions": {
+    "w3d_d29a_sheep_aim_build_80011100": "Sets a plan's motion and velocity toward the centre and requeues it."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "unit": "b_mesh_bind",
+  "source": "source/matching/game/b_mesh_bind.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_mesh_instance_unbind": "0x80181e18",
+    "w3d_mesh_instance_owner_value": "0x80182150",
+    "w3d_mesh_instance_set_tint": "0x80182178",
+    "w3d_mesh_collect_visit": "0x801821a8",
+    "w3d_mesh_instance_collect": "0x80182274",
+    "w3d_mesh_instance_add_child": "0x80182374",
+    "w3d_fn_80182408": "0x80182408",
+    "w3d_mesh_instance_set_resource_value": "0x80182410",
+    "w3d_mesh_instance_reset_resource_value": "0x80182450"
+  },
+  "descriptions": {
+    "w3d_mesh_instance_unbind": "Clears the instance's bound marker and the bound flag on its scene node's render state.",
+    "w3d_mesh_instance_owner_value": "Returns a word stored at offset 0x28 of the instance's owner record.",
+    "w3d_mesh_instance_set_tint": "Copies a four-word colour into the instance's tint record and returns success.",
+    "w3d_mesh_collect_visit": "Visitor callback: adds mesh-class sources whose name does not start with a marker character, then continues the walk.",
+    "w3d_mesh_instance_collect": "Walks a scene hierarchy with a visitor object to collect child meshes into the given instance.",
+    "w3d_mesh_instance_add_child": "Appends a referenced child object to the instance's child array, growing it first.",
+    "w3d_fn_80182408": "Returns 0; likely a default virtual method.",
+    "w3d_mesh_instance_set_resource_value": "Sets property 0x54 on the instance's node resource to the given value.",
+    "w3d_mesh_instance_reset_resource_value": "Resets property 0x54 on the instance's node resource to its material default."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_camera_orbit_update_8009e58c",
+  "source": "source/matching/game/d24b/d24b_camera_orbit_update_8009e58c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_camera_orbit_update_8009e58c": "0x8009e58c"
+  },
+  "descriptions": {
+    "w3d_d24b_camera_orbit_update_8009e58c": "Camera orbit update: takes the position (+80) and angles (+68) of the active worm (index setting +56, 0x80178c48, 0x800fc6dc) or a guarded static zero vector, copies the position into +4, raises its height to setting +64 minus +84, adds setting +76, sets the forward vector +88 from the yaw plus pi (-sin, 0, -cos), resets the up vector +28, copies forward to +100 and places the eye +16 at the position plus that direction."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

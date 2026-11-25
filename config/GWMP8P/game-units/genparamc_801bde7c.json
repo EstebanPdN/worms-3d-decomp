@@ -1,0 +1,17 @@
+{
+  "unit": "genparamc_801bde7c",
+  "source": "source/matching/game/generated/genparamc_801bde7c.c",
+  "language": "c",
+  "functions": {
+    "w3d_register_block_binding_801bde7c": "0x801bde7c",
+    "w3d_register_block_binding_801ce4f0": "0x801ce4f0",
+    "w3d_copy_refs_801f2698": "0x801f2698",
+    "w3d_copy_refs_802109fc": "0x802109fc"
+  },
+  "descriptions": {
+    "w3d_register_block_binding_801bde7c": "Creates a named range binding, copies a 64-byte default value block into it, then finishes registration; returns zero.",
+    "w3d_register_block_binding_801ce4f0": "Creates a named range binding, copies a 64-byte default value block into it, then finishes registration; returns zero.",
+    "w3d_copy_refs_801f2698": "Copy-constructs an array of interface references: clears the header, sizes it to the source count, then retains and stores each source entry; returns the object.",
+    "w3d_copy_refs_802109fc": "Copy-constructs an array of interface references: clears the header, sizes it to the source count, then retains and stores each source entry; returns the object."
+  }
+}

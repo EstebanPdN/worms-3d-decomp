@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_update_choice_selection_802a73d4",
+  "source": "source/matching/game/f1p/f1p_update_choice_selection_802a73d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_update_choice_selection_802a73d4": "0x802a73d4"
+  },
+  "descriptions": {
+    "w3d_update_choice_selection_802a73d4": "Read the observed property kind through virtual slot six, update the selected index through the original integer conversion for kinds zero and one, then retain the selected name header and transfer its by-value string to the native lookup; store the lookup result. The original index bounds assumptions and callee ownership convention are preserved. Header fields and the 608-byte receiver prefix are inferred external views. No complete class layout or initialized-data ownership is claimed."
+  }
+}

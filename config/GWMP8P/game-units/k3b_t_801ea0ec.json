@@ -1,0 +1,11 @@
+{
+  "unit": "k3b_t_801ea0ec",
+  "source": "source/matching/game/k3b/k3b_t_801ea0ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_k3b_tagged_construct_801ea0ec": "0x801ea0ec"
+  },
+  "descriptions": {
+    "w3d_k3b_tagged_construct_801ea0ec": "Appears to construct a tagged object that installs a base vtable, initializes a tag word to two and clears a pair of fields before installing its own vtable."
+  }
+}

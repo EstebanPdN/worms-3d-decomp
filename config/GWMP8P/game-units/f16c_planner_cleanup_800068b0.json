@@ -1,0 +1,11 @@
+{
+  "unit": "f16c_planner_cleanup_800068b0",
+  "source": "source/matching/game/f16c/f16c_planner_cleanup_800068b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f16c_planner_cleanup_800068b0": "0x800068b0"
+  },
+  "descriptions": {
+    "f16c_planner_cleanup_800068b0": "Clears external buffers804aa558/55c/560 through803414b4 and named buffer804aa750 through80341518, then reloads and native-deletes each if still nonnull and stores null. Buffer destruction releases nonnull begin via802134fc; their mangled class-delete symbols resolve to original80015264. For804aa754 and804aa75c, preserves original zero-length variadic copy(begin,end,0), subtracts saved byte difference from the reloaded end, reloads the global before deletion and clears it; alternate75c class delete resolves to801fe1f8, and clears804aa758 before that buffer. If804aa564 exists calls80020b20(owner804b1760), clears through80341450 and native-deletes/reloads as observed. Calls80015db8; releases owner804b1758 via8001cac4 only when input is zero; calls80015e64. Native-deletes named object804aa6d4, whose four-byte string member at4 calls8020c5c4 then80341588; native class delete resolves80015264. Clears that pointer, unconditionally frees804aa5a8 through80015264 and resets804aa580=-1,804aa584=60 and globals804aa568/5a8/588/58c/590/598/59c/5a0=0. All scalar/global identities are original-witnessed, including deallocator manglings. Buffer begin/end and named object8-byte views are external partial layouts only, never constructed/allocated here; original capacities, type identities and complete extents are unknown; names and planner interpretation inferred."
+  }
+}

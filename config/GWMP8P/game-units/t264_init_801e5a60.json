@@ -1,0 +1,1 @@
+{"unit":"t264_init_801e5a60","source":"source/matching/game/t264/t264_init_801e5a60.cpp","language":"cpp","functions":{"t264_init_801e5a60":"0x801e5a60"},"descriptions":{"t264_init_801e5a60":"Initializes fields and two slots, then clears the top two flag bits in sixteen global records."}}

@@ -1,0 +1,14 @@
+{
+  "unit": "d24b_land_damage_add_8009d430",
+  "source": "source/matching/game/d24b/d24b_land_damage_add_8009d430.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_land_damage_add_8009d430": "0x8009d430"
+  },
+  "descriptions": {
+    "w3d_d24b_land_damage_add_8009d430": "Land damage accumulator: adds the amount to the entry of the current cell (globals 0x804b17a8, 0x804b17ac) in the list at +56 and returns 0 below 15.0; when the entry total or a new amount reaches 15.0 posts the land clear message (0x801040d0) and the blast message at the position 0x8043ae20 (0x800b92a4, 10.0), resets the entry to 0.0 and returns 1; otherwise appends a new 16-byte entry and returns 1."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

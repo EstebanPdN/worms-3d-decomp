@@ -1,0 +1,4 @@
+c source/matching/game/s20/s20_dispatch_b.c
+w3d_s20_dispatch_early_table_801a38c8|0x801a38c8|Appears to dispatch every target of the item's record through the handler table loaded once, stopping at the first failure.
+w3d_s20_dispatch_counted_801a4b4c|0x801a4b4c|Appears to dispatch each of the counted targets of the item's record through the handler table and return zero.
+w3d_s20_dispatch_counted_801a4bc4|0x801a4bc4|Appears to dispatch each of the counted targets of the item's record through the handler table and return zero.

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ab_8020469c",
+  "source": "source/matching/game/s21/s21_ab_8020469c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_items_8020469c": "0x8020469c"
+  },
+  "descriptions": {
+    "w3d_s21_write_items_8020469c": "Appears to call a virtual write slot on a stream for each word of an array with two shared arguments, stopping at the first negative status."
+  }
+}

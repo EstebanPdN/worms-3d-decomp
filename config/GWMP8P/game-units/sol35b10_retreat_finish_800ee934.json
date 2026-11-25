@@ -1,0 +1,11 @@
+{
+  "unit": "sol35b10_retreat_finish_800ee934",
+  "source": "source/matching/game/sol35b10/sol35b10_retreat_finish_800ee934.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35b10_retreat_finish_800ee934": "0x800ee934"
+  },
+  "descriptions": {
+    "sol35b10_retreat_finish_800ee934": "Complete native retreat transition: detach registered actor tasks, derive and publish count-controlled notifications, and schedule final message at context stamp plus configuration delay. Inferred GC32 views; property output initialization, callback mutation and message lifetime remain external obligations."
+  }
+}

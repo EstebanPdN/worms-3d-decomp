@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_team_unit_release_800160fc",
+  "source": "source/matching/game/k8a/k8a_team_unit_release_800160fc.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_team_unit_release_800160fc": "0x800160fc"},
+  "descriptions": {"w3d_k8a_team_unit_release_800160fc": "Appears to release the current team unit: pushes it back to storage when its stored position still equals the team's, otherwise destroys it, then clears the global pointer."}
+}

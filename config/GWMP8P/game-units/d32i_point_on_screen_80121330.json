@@ -1,0 +1,15 @@
+{
+  "unit": "d32i_point_on_screen_80121330",
+  "source": "source/matching/game/d32i/d32i_point_on_screen_80121330.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d32i_point_on_screen_80121330": "0x80121330"
+  },
+  "descriptions": {
+    "d32i_point_on_screen_80121330": "Copies the scene projection, fetches the camera view matrix, builds both transforms, maps the point through them and returns 1 if the projected x and y lie in -1..1 and depth is positive."
+  }
+}

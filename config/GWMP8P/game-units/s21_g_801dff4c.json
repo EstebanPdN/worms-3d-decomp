@@ -1,0 +1,11 @@
+{
+  "unit": "s21_g_801dff4c",
+  "source": "source/matching/game/s21/s21_g_801dff4c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_flush_slots_801dff4c": "0x801dff4c"
+  },
+  "descriptions": {
+    "w3d_s21_flush_slots_801dff4c": "Appears to walk 32 slots and call a helper for each used slot when a predicate holds, returning zero."
+  }
+}

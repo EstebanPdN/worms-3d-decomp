@@ -1,0 +1,19 @@
+{
+  "unit": "s20_small_c",
+  "source": "source/matching/game/s20/s20_small_c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_has_record_80199f38": "0x80199f38",
+    "w3d_s20_notify_global_800fde64": "0x800fde64",
+    "w3d_s20_notify_global_800fdf24": "0x800fdf24",
+    "w3d_s20_forward_table_entry_8016a538": "0x8016a538",
+    "w3d_s20_get_selected_80172050": "0x80172050"
+  },
+  "descriptions": {
+    "w3d_s20_has_record_80199f38": "Appears to return 1 when a record lookup by key finds a record, else 0.",
+    "w3d_s20_notify_global_800fde64": "Appears to pass a value to a helper together with a global object when that object exists.",
+    "w3d_s20_notify_global_800fdf24": "Appears to pass a value to a helper together with a global object when that object exists.",
+    "w3d_s20_forward_table_entry_8016a538": "Appears to pass the global table entry selected by an item field to a helper and return zero.",
+    "w3d_s20_get_selected_80172050": "Appears to return the word of the table at offset 60 selected by a helper's index."
+  }
+}

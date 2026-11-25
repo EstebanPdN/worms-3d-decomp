@@ -1,0 +1,11 @@
+{
+  "unit": "s21_by_80219264",
+  "source": "source/matching/game/s21/s21_by_80219264.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_close_handle_80219264": "0x80219264"
+  },
+  "descriptions": {
+    "w3d_s21_close_handle_80219264": "Appears to close a handle held at offset 24 when it is not negative, reset it to minus one and return 0x80004005 if closing failed, else zero."
+  }
+}

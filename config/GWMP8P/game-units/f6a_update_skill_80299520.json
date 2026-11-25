@@ -1,0 +1,11 @@
+{
+  "unit": "f6a_update_skill_80299520",
+  "language": "cpp",
+  "functions": {
+    "w3d_f6a_update_skill_80299520": "0x80299520"
+  },
+  "descriptions": {
+    "w3d_f6a_update_skill_80299520": "Update the observed named team skill flag using current mode and the permanent-setting override, or clear User.Skill for empty input. String ABI and semantic roles inferred."
+  },
+  "source": "source/matching/game/f6a/f6a_update_skill_80299520.cpp"
+}

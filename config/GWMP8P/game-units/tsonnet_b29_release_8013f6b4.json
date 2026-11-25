@@ -1,0 +1,1 @@
+{"unit":"tsonnet_b29_release_8013f6b4","source":"source/matching/game/tsonnet_b29_release_8013f6b4.c","language":"c","functions":{"tsonnet_b29_release_8013f6b4":"0x8013f6b4"},"descriptions":{"tsonnet_b29_release_8013f6b4":"Releases a registered handle: applies two values to the attached interface, flags the resolved object and clears the handle id; field meanings are inferred."}}

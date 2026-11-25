@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_held_binding_refresh_80198b88",
+  "source": "source/matching/game/cx8b/cx8b_held_binding_refresh_80198b88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_held_binding_refresh_80198b88": "0x80198b88"
+  },
+  "descriptions": {
+    "w3d_cx8b_held_binding_refresh_80198b88": "Replace retained interface +20, notify owner slot +60 with -1, refresh, and return zero."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d32i_strip_emit_triangles_8010aeb0",
+  "source": "source/matching/game/d32i/d32i_strip_emit_triangles_8010aeb0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32i"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d32i_strip_emit_triangles_8010aeb0": "0x8010aeb0"
+  },
+  "descriptions": {
+    "d32i_strip_emit_triangles_8010aeb0": "Walks a piece's triangle records, reads three vertex indices from the cell's vertex block, emits the triangle with the current winding, seeks the cursor, and adds low and high tile triangles according to each vertex's info word; the winding flips per triangle."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "mx14sa_nearest_sphere_801263fc",
+  "source": "source/matching/game/mx14sa/mx14sa_nearest_sphere_801263fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx14sa_nearest_sphere_801263fc": "0x801263fc"
+  },
+  "descriptions": {
+    "mx14sa_nearest_sphere_801263fc": "Begins a sphere query from the observed owner slot and mask, selects the nearest result whose registry owner differs from the excluded value, publishes the selected distance, fraction and handle, and ends the query."
+  }
+}

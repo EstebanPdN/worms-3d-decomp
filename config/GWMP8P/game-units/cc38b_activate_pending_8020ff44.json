@@ -1,0 +1,11 @@
+{
+  "unit": "cc38b_activate_pending_8020ff44",
+  "source": "source/matching/game/cc38b/cc38b_activate_pending_8020ff44.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38b_activate_pending_8020ff44": "0x8020ff44"
+  },
+  "descriptions": {
+    "cc38b_activate_pending_8020ff44": "Drains pending intrusive nodes, lazily retains external service, conditionally attaches eligible nodes, marks every node active, and splices drained list onto active head. Preserves original callbacks, reloads, common null lifetime and empty-list behavior. Globals unowned; partial types/names inferred."
+  }
+}

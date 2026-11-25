@@ -1,0 +1,11 @@
+{
+  "unit": "mx21ob_v2_string_set_80221174",
+  "source": "source/matching/game/mx21ob/mx21ob_v2_string_set_80221174.cpp",
+  "language": "cpp",
+  "functions": {
+    "__17Mx21obFeStringSetUs": "0x80221174"
+  },
+  "descriptions": {
+    "__17Mx21obFeStringSetUs": "Constructs a eleven-string widget: runs the widget base constructor 0x8021ef08 with the caller's 16-bit id, installs the table 0x8041a500, and copy-constructs the 11 strings at +116..+156 from the shared empty string 0x804b06a0 (retaining each), in member order. Names are structural; offsets are observed."
+  }
+}

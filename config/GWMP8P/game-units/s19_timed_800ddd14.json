@@ -1,0 +1,11 @@
+{
+  "unit": "s19_timed_800ddd14",
+  "source": "source/matching/game/s19/s19_timed_800ddd14.c",
+  "language": "c",
+  "functions": {
+    "s19_start_timed_virtual_800ddd14": "0x800ddd14"
+  },
+  "descriptions": {
+    "s19_start_timed_virtual_800ddd14": "Appears to call virtual slot 8 of the secondary table at +0x70 with the elapsed time since +0x64 as a float and three integers."
+  }
+}

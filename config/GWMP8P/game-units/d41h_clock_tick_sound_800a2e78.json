@@ -1,0 +1,15 @@
+{
+  "unit": "d41h_clock_tick_sound_800a2e78",
+  "source": "source/matching/game/d41h/d41h_clock_tick_sound_800a2e78.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d41h_clock_tick_sound_800a2e78": "0x800a2e78"
+  },
+  "descriptions": {
+    "d41h_clock_tick_sound_800a2e78": "Creates and plays the TimerTick sound at the camera, raising its frequency as fewer seconds remain."
+  }
+}

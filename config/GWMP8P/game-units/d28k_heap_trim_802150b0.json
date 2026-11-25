@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_trim_802150b0",
+  "source": "source/matching/game/d28k/d28k_heap_trim_802150b0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_trim_802150b0": "0x802150b0"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_trim_802150b0": "Heap trim: consolidates, unlinks the free chunk at the end of each block, releases the tail through the hook table and rebins what remains."
+  }
+}

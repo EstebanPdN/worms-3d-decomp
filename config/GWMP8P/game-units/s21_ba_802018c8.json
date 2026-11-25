@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ba_802018c8",
+  "source": "source/matching/game/s21/s21_ba_802018c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_bools_802018c8": "0x802018c8"
+  },
+  "descriptions": {
+    "w3d_s21_read_bools_802018c8": "Appears to read single bytes from the inner stream into an array of booleans, stopping at the first negative status and returning zero otherwise."
+  }
+}

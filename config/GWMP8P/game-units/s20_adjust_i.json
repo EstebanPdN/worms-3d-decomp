@@ -1,0 +1,11 @@
+{
+  "unit": "s20_adjust_i",
+  "source": "source/matching/game/s20/s20_adjust_i.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_refresh_item_block_801a5b60": "0x801a5b60"
+  },
+  "descriptions": {
+    "w3d_s20_refresh_item_block_801a5b60": "Appears to refresh an item's 24-byte block from the secondary base subobject, dispatching its target first, and clear a flag when requested."
+  }
+}

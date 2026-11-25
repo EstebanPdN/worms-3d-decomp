@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_camera_jetpack_actions_80056178",
+  "source": "source/matching/game/d24g/d24g_camera_jetpack_actions_80056178.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_camera_jetpack_actions_80056178": "0x80056178"
+  },
+  "descriptions": {
+    "w3d_d24g_camera_jetpack_actions_80056178": "Appends input actions to the owner's pointer vector at +36: Camera.RotateLeftPressed (3, 1, axis 1), Camera.RotateLeftReleased (3, 0, axis 1), Camera.RotateRightPressed (3, 1, axis 2), Camera.RotateRightReleased (3, 0, axis 2), Camera.RotateDownPressed (4, 1, axis 1), Camera.RotateDownReleased (4, 0, axis 1), Camera.RotateUpPressed (4, 1, axis 2), Camera.RotateUpReleased (4, 0, axis 2), Camera.ForwardPressed (1, 1, axis 2), Camera.ForwardReleased (1, 0, axis 2), Camera.BackPressed (1, 1, axis 1), Camera.BackReleased (1, 0, axis 1), Camera.LeftPressed (0, 1, axis 1), Camera.LeftReleased (0, 0, axis 1), Camera.RightPressed (0, 1, axis 2), Camera.RightReleased (0, 0, axis 2), Camera.ResetPressed (6, 1), Camera.ResetPressed (7, 1), Input.WormSelectPressed (11, 1), Input.Jetpack.ForwardPressed (3, 1), Input.Jetpack.ForwardReleased (3, 0), Input.Jetpack.BackPressed (2, 1), Input.Jetpack.BackReleased (2, 0), Input.Jetpack.LeftPressed (0, 1), Input.Jetpack.LeftReleased (0, 0), Input.Jetpack.RightPressed (1, 1), Input.Jetpack.RightReleased (1, 0), App.Pause (12, 0), Input.FusePressed (4, 1), Input.FuseReleased (4, 0), Input.OpenPanelPressed (10, 1), Input.ToggleManualCamera (11, 1), Input.ManualCameraPitchPressed (6, 1), Input.ManualCameraPitchReleased (6, 0). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1. The last three are added only when bit 0x01000000 of the context word at +188 (0x804b1788) is set."
+  }
+}

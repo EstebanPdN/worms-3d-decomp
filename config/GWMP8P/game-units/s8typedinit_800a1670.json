@@ -1,0 +1,11 @@
+{
+  "unit": "s8typedinit_800a1670",
+  "source": "source/matching/game/s8typedinit_800a1670.c",
+  "language": "c",
+  "functions": {
+    "s8_initialize_mesh_messages_800a1670": "0x800a1670"
+  },
+  "descriptions": {
+    "s8_initialize_mesh_messages_800a1670": "Static initializer: registers a descriptor, initializes a three-float global vector and binds nine cached names at priority 0xffff."
+  }
+}

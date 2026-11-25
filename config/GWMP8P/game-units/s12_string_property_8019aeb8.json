@@ -1,0 +1,11 @@
+{
+  "unit": "s12_string_property_8019aeb8",
+  "source": "source/matching/game/s12/s12_string_property.c",
+  "language": "c",
+  "functions": {
+    "w3d_s12_init_string_property_8019aeb8": "0x8019aeb8"
+  },
+  "descriptions": {
+    "w3d_s12_init_string_property_8019aeb8": "Resets an observed shared-string binding, initializes and registers its property descriptor once, and invokes the final setup helper."
+  }
+}

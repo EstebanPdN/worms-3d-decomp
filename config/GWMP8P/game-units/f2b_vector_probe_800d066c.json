@@ -1,0 +1,11 @@
+{
+  "unit": "f2b_vector_probe_800d066c",
+  "source": "source/matching/game/f2b/f2b_vector_probe_800d066c.cpp",
+  "language": "cpp",
+  "functions": {
+    "f2b_vector_probe_800d066c": "0x800d066c"
+  },
+  "descriptions": {
+    "f2b_vector_probe_800d066c": "Copy the three-float point from the final 28-byte element in the range at offsets 28 and 32, subtract the supplied vector, and pass the difference with the original arguments to 0x800cffa0. Vector/container roles are inferred from observed arithmetic and layout."
+  }
+}

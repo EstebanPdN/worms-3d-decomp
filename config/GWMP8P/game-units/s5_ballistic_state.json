@@ -1,0 +1,13 @@
+{
+  "unit": "s5_ballistic_state",
+  "source": "source/matching/game/s5_ballistic_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ballistic_init_800d78ec": "0x800d78ec",
+    "w3d_ballistic_destroy_800d797c": "0x800d797c"
+  },
+  "descriptions": {
+    "w3d_ballistic_init_800d78ec": "Initializes ballistic state, twelve held interfaces, a pending-slot sentinel and two scalar defaults.",
+    "w3d_ballistic_destroy_800d797c": "Releases twelve held interfaces before destroying the ballistic actor base."
+  }
+}

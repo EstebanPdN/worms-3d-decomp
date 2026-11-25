@@ -1,0 +1,11 @@
+{
+  "unit": "s5_mesh_follow",
+  "source": "source/matching/game/s5_mesh_follow.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_mesh_follow_owner_800d56bc": "0x800d56bc"
+  },
+  "descriptions": {
+    "w3d_mesh_follow_owner_800d56bc": "Copies a resolved owner position to a mesh and to an optional handle member."
+  }
+}

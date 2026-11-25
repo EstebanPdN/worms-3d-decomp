@@ -1,0 +1,11 @@
+{
+  "unit": "k7b_a_8016263c",
+  "source": "source/matching/game/k7b/k7b_a_8016263c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k7b_static_init_8016263c": "0x8016263c"
+  },
+  "descriptions": {
+    "w3d_k7b_static_init_8016263c": "Static initializer: for (1, 0xffff) registers type 0x803618c0 (name 0x803e8878, base 0x803618f0, factory 0x8016149c, kind 10) and zeroes the three-word vectors at 0x80455244 and 0x80455250."
+  }
+}

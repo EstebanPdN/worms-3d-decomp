@@ -1,0 +1,11 @@
+{
+  "unit": "s21_w_802cc01c",
+  "source": "source/matching/game/s21/s21_w_802cc01c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_sink_write_802cc01c": "0x802cc01c"
+  },
+  "descriptions": {
+    "w3d_s21_sink_write_802cc01c": "Appears to build a text from two arguments and pass it to a virtual method of the object when the subsystem is enabled."
+  }
+}

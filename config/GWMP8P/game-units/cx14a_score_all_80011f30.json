@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_score_all_80011f30",
+  "source": "source/matching/game/cx14a/cx14a_score_all_80011f30.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_score_all_80011f30": "0x80011f30"
+  },
+  "descriptions": {
+    "w3d_cx14a_score_all_80011f30": "Clears the accumulator, snapshots the actor count, and adds the original scoring helper result for every actor whose observed team field is valid."
+  }
+}

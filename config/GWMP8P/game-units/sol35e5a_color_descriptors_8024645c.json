@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e5a_color_descriptors_8024645c",
+  "source": "source/matching/game/sol35e5a/sol35e5a_color_descriptors_8024645c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e5a_color_descriptors_8024645c": "0x8024645c"
+  },
+  "descriptions": {
+    "sol35e5a_color_descriptors_8024645c": "Registers 26 four-channel color bindings with zero defaults, four shared-string resources with retained empty-string temporaries, and six scalar texture scales, then finalizes the descriptor owner. Class identities remain inferred."
+  }
+}

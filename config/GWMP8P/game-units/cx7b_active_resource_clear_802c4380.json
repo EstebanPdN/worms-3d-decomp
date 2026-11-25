@@ -1,0 +1,11 @@
+{
+  "unit": "cx7b_active_resource_clear_802c4380",
+  "source": "source/matching/game/cx7b/cx7b_active_resource_clear_802c4380.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7b_active_resource_clear_802c4380": "0x802c4380"
+  },
+  "descriptions": {
+    "w3d_cx7b_active_resource_clear_802c4380": "Stop the interface at +236 through slot +24, clear state +240, release the interface through slot +16, and clear the held pointer."
+  }
+}

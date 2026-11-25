@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_adjust_p.c
+w3d_s20_apply_texture_80168af0|0x80168af0|Appears to bind the texture of the selected item entry through render helpers, or clear the stage when there is none, and update global flags.

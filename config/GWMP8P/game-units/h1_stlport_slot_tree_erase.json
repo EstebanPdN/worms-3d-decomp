@@ -1,0 +1,11 @@
+{
+  "unit": "h1_stlport_slot_tree_erase",
+  "source": "source/matching/game/h1/h1_stlport_slot_tree_erase.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_slot_tree_erase_80355aec": "0x80355aec"
+  },
+  "descriptions": {
+    "w3d_slot_tree_erase_80355aec": "STLport _Rb_tree::_M_erase: frees a subtree without rebalancing, destroying each value (object, then held interface) and its node."
+  }
+}

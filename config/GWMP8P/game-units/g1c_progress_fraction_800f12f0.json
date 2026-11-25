@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_progress_fraction_800f12f0",
+  "source": "source/matching/game/g1c/g1c_progress_fraction_800f12f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_progress_fraction_800f12f0": "0x800f12f0"
+  },
+  "descriptions": {
+    "g1c_progress_fraction_800f12f0": "Return the original before-start float when the unsigned tick precedes receiver start44; otherwise resolve external duration through80342a78/80178d1c, return the original after-duration float when signed elapsed exceeds duration, or return the single-precision elapsed/duration quotient. Receiver is an external prefix, never constructed; native integer-to-float conversion locals are compiler generated and constants remain external."
+  }
+}

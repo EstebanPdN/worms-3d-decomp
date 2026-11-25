@@ -1,0 +1,15 @@
+{
+  "unit": "d26f_scroll_or_page_edit_page_802737d8",
+  "source": "source/matching/game/d26f/d26f_scroll_or_page_edit_page_802737d8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26f_scroll_or_page_edit_page_802737d8": "0x802737d8"
+  },
+  "descriptions": {
+    "d26f_scroll_or_page_edit_page_802737d8": "Builds and writes the edit page text for a control's identifier fields."
+  }
+}

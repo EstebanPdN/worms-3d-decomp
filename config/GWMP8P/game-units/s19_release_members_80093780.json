@@ -1,0 +1,11 @@
+{
+  "unit": "s19_release_members_80093780",
+  "source": "source/matching/game/s19/s19_release_members_80093780.c",
+  "language": "c",
+  "functions": {
+    "s19_release_members_80093780": "0x80093780"
+  },
+  "descriptions": {
+    "s19_release_members_80093780": "Appears to release the held interface at +0x20, then destroy the member handle at +0x24 and clear both."
+  }
+}

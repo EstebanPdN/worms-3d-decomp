@@ -1,0 +1,11 @@
+{
+  "unit": "d25c_actor_move_attached_800eac84",
+  "source": "source/matching/game/d25c/d25c_actor_move_attached_800eac84.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25c_actor_move_attached_800eac84": "0x800eac84"
+  },
+  "descriptions": {
+    "d25c_actor_move_attached_800eac84": "Read the descriptor of handle +192 (result unused). Copy the position, zero a velocity, fill it through virtual +60 with the frame value from the engine context (+52), add it, then pass the result to the members at +256 and +252 when present (0x801262c0)."
+  }
+}

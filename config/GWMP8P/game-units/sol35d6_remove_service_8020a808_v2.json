@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d6_remove_service_8020a808_v2",
+  "source": "source/matching/game/sol35d6/sol35d6_remove_service_8020a808_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d6_remove_service_8020a808_v2": "0x8020a808"
+  },
+  "descriptions": {
+    "sol35d6_remove_service_8020a808_v2": "Erase a found service pointer from its owner vector, release it, and clear a matching held service. Native ownership and names inferred."
+  }
+}

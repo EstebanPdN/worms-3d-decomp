@@ -1,0 +1,11 @@
+{
+  "unit": "h1_block64_setter",
+  "source": "source/matching/game/h1/h1_block64_setter.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_block64_owner_set_8034bbdc": "0x8034bbdc"
+  },
+  "descriptions": {
+    "w3d_block64_owner_set_8034bbdc": "Copies a 64-byte block into the owner at +0x2c, sets the flag at +0x6c and returns 0."
+  }
+}

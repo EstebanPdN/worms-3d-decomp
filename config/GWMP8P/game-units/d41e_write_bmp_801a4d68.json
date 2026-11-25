@@ -1,0 +1,14 @@
+{
+  "unit": "d41e_write_bmp_801a4d68",
+  "source": "source/matching/game/d41e/d41e_write_bmp_801a4d68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d41e_write_bmp_801a4d68": "0x801a4d68"
+  },
+  "descriptions": {
+    "w3d_d41e_write_bmp_801a4d68": "Writes one mip level of a texture to a stream as an uncompressed BMP: picks bits per pixel from the texture format (failing with E_FAIL for unsupported ones), halves the size level times, fills the 14-byte little-endian file header and the 40-byte info header, writes a grey palette for 8-bit images, then writes each row through a new[] row buffer, swapping BGR or copying as the format requires. Standard BMP layout; other names inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

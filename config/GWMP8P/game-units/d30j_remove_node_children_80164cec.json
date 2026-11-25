@@ -1,0 +1,14 @@
+{
+  "unit": "d30j_remove_node_children_80164cec",
+  "source": "source/matching/game/d30j/d30j_remove_node_children_80164cec.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30j"
+  ],
+  "functions": {
+    "d30j_remove_node_children_80164cec": "0x80164cec"
+  },
+  "descriptions": {
+    "d30j_remove_node_children_80164cec": "Remove all children of a scene-tree node, inlining the node removal."
+  }
+}

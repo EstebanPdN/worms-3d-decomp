@@ -1,0 +1,12 @@
+--- a/port/core/game/f3c/f3c_update_transform_801a4364.cpp
++++ b/port/core/game/f3c/f3c_update_transform_801a4364.cpp
+@@ -5,3 +5,3 @@
+ struct Matrix {float values[9];Vec3 pos;};
+-struct Tag {unsigned short a,b;unsigned char word[4];inline int dirty(){return word[3]&2;}inline void clear(){word[3]&=253;}};
++struct Tag {unsigned short a,b;unsigned char word[4];inline int dirty(){return word[0]&2;}inline void clear(){word[0]&=253;}};
+ struct Node {Ptr32<void> vtable;Tag tag;unsigned pad[2];Matrix transform;Vec3 angles,extra,position;unsigned mode;Vec3 scale,pivot;};
+@@ -21,3 +21,3 @@
+ *(Ptr32<Matrix>)((Ptr32<char>)self+20)=*temp;}
+-extern "C" void f3c_update_transform_801a4364(Ptr32<Service> service,Ptr32<Node> self){Ptr32<Tag> tag=&self->tag;if(tag->dirty()){tag->word[3]&=253;float zero=lbl_803a9c1c[0];Matrix temp;update(&temp,self,zero);
++extern "C" void f3c_update_transform_801a4364(Ptr32<Service> service,Ptr32<Node> self){Ptr32<Tag> tag=&self->tag;if(tag->dirty()){tag->word[0]&=253;float zero=lbl_803a9c1c[0];Matrix temp;update(&temp,self,zero);
+ }

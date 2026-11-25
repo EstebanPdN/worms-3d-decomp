@@ -1,0 +1,19 @@
+{
+  "unit": "d30s_guid_map_detach_80211c10",
+  "source": "source/matching/game/d30s/d30s_guid_map_detach_80211c10.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "d30s_guid_map_detach_80211c10": "0x80211c10"
+  },
+  "descriptions": {
+    "d30s_guid_map_detach_80211c10": "Erases a service from the map at +64 if present, then returns the result of the registry's table slot at +24."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

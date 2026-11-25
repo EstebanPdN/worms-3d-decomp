@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_movie_frame_read_async_802e128c",
+  "source": "source/matching/game/cx12b/cx12b_movie_frame_read_async_802e128c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_movie_frame_read_async_802e128c": "0x802e128c"
+  },
+  "descriptions": {
+    "w3d_cx12b_movie_frame_read_async_802e128c": "Issue the next original asynchronous frame read, rewinding counters only on the original loop condition and marking failed read state."
+  }
+}

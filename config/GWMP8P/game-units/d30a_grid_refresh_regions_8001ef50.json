@@ -1,0 +1,14 @@
+{
+  "unit": "d30a_grid_refresh_regions_8001ef50",
+  "source": "source/matching/game/d30a/d30a_grid_refresh_regions_8001ef50.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_grid_refresh_regions_8001ef50": "0x8001ef50"
+  },
+  "descriptions": {
+    "w3d_d30a_grid_refresh_regions_8001ef50": "Rebuilds the grid's region list once from the players, active bodies and marks, removing regions no longer used and marking new ones."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

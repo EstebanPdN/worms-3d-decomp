@@ -1,0 +1,11 @@
+{
+  "unit": "d26b_preview_init_80091ee0",
+  "source": "source/matching/game/d26b/d26b_preview_init_80091ee0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26b_preview_init_80091ee0": "0x80091ee0"
+  },
+  "descriptions": {
+    "w3d_d26b_preview_init_80091ee0": "Girder preview initialization: from the prototype at +532 takes the array data pointers (+400, +396, +428 with its end, +440, +436, +432) and bytes (+453, +452, +449, +448), locks the arrays +480 and +476 for writing (0x801ef048 when shared), keeps +424, uses the holder array at +464 or builds through 0x800919d4, copies the four rows +336, +324, +312, +300 and the offsets +412, +404, fills sixteen corner vectors at +2572 from the half size +444, and sets +56 when the name at +36 is \"TRANS\" (0x802ef234)."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ck_80225ef0",
+  "source": "source/matching/game/s21/s21_ck_80225ef0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_80225ef0": "0x80225ef0"
+  },
+  "descriptions": {
+    "w3d_s21_construct_80225ef0": "Appears to construct an object on a base constructor, install a vtable, store a count of twenty and retain a shared global interface."
+  }
+}

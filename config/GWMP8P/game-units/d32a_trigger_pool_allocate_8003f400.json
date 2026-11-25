@@ -1,0 +1,16 @@
+{
+  "unit": "d32a_trigger_pool_allocate_8003f400",
+  "source": "source/matching/game/d32a/d32a_trigger_pool_allocate_8003f400.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_trigger_pool_allocate_8003f400": "0x8003f400"
+  },
+  "descriptions": {
+    "w3d_d32a_trigger_pool_allocate_8003f400": "Takes a trigger index from the free list or appends a new trigger entry, optionally with a debug ball object, and returns the index."
+  },
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc29b_lock_text_8018d4bc",
+  "source": "source/matching/game/cc29b/cc29b_lock_text_8018d4bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc29b_lock_text_8018d4bc": "0x8018d4bc"
+  },
+  "descriptions": {
+    "w3d_cc29b_lock_text_8018d4bc": "Computes the signed halfword-range count, touches the held resource, then locks the single or doubled-count storage according to mode. Reuses kind-one storage with matching count by incrementing its 16-bit lock count; otherwise calls the native lock helper with width four. Doubled mode returns the second count-sized word span. Types describe observed fields only."
+  }
+}

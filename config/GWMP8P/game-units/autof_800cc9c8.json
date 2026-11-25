@@ -1,0 +1,11 @@
+{
+  "unit": "autof_800cc9c8",
+  "source": "source/matching/game/auto/autof_800cc9c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_800cc9c8": "0x800cc9c8"
+  },
+  "descriptions": {
+    "w3d_auto_800cc9c8": "Automatically decompiled (m2c, mechanically corrected) and verified exact; behavior description pending review."
+  }
+}

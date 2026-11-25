@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_heap_open_802168c4",
+  "source": "source/matching/game/d28k/d28k_heap_open_802168c4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_heap_open_802168c4": "0x802168c4"
+  },
+  "descriptions": {
+    "w3d_d28k_heap_open_802168c4": "Vmalloc open: creates a region from a method and discipline, initialises its bins, first segment and block, and links it in."
+  }
+}

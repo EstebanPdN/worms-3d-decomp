@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e4a_team_descriptors_8024298c",
+  "source": "source/matching/game/sol35e4a/sol35e4a_team_descriptors_8024298c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e4a_team_descriptors_8024298c": "0x8024298c"
+  },
+  "descriptions": {
+    "sol35e4a_team_descriptors_8024298c": "Registers seventeen observed team descriptors, resets two returned string bindings to the shared empty string with retain-before-release assignment, destroys both temporaries, and finalizes the descriptor owner."
+  }
+}

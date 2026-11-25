@@ -1,0 +1,11 @@
+{
+  "unit": "s20param_80172088",
+  "source": "source/matching/game/generated/s20param_80172088.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_get_selected_80172088": "0x80172088"
+  },
+  "descriptions": {
+    "w3d_s20_get_selected_80172088": "Appears to return the word of a table selected by a helper's index."
+  }
+}

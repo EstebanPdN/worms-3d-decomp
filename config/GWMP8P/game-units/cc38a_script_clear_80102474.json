@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_script_clear_80102474",
+  "source": "source/matching/game/cc38a/cc38a_script_clear_80102474.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_script_clear_80102474": "0x80102474"
+  },
+  "descriptions": {
+    "cc38a_script_clear_80102474": "Destroy non-null scripts in index order, erase the array through its original zero-byte move, then clear the active field."
+  }
+}

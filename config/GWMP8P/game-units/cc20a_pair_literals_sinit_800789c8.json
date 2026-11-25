@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_pair_literals_sinit_800789c8",
+  "source": "source/matching/game/cc20a/cc20a_pair_literals_sinit_800789c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_pair_literals_sinit_800789c8": "0x800789c8"
+  },
+  "descriptions": {
+    "w3d_cc20a_pair_literals_sinit_800789c8": "Initializes nine storage aliases and32 observed two-float lookup coordinates through native pair temporaries; owns the exact scalar constant pool."
+  }
+}

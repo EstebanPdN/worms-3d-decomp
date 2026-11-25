@@ -1,0 +1,14 @@
+{
+  "unit": "d30a_walk_reach_test_8000aa9c",
+  "source": "source/matching/game/d30a/d30a_walk_reach_test_8000aa9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_walk_reach_test_8000aa9c": "0x8000aa9c"
+  },
+  "descriptions": {
+    "w3d_d30a_walk_reach_test_8000aa9c": "Sets the plan's flat aim direction from the shot centre to its target, then walks a flat step over the grid until blocked and returns whether the end point is within 20 units of the target."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

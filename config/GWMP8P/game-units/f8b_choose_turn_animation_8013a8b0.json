@@ -1,0 +1,11 @@
+{
+  "unit": "f8b_choose_turn_animation_8013a8b0",
+  "source": "source/matching/game/f8b/f8b_choose_turn_animation_8013a8b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8b_choose_turn_animation_8013a8b0": "0x8013a8b0"
+  },
+  "descriptions": {
+    "f8b_choose_turn_animation_8013a8b0": "Ignore the observed terminal state and unavailable animation, select idle or left/right walk/turn names from the mode, blend and signed speed thresholds, then invoke the witnessed named-animation helper. Switch cases retain original decision layout. Roles, types and layouts are inferred."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_palette_indices_unpack_8007e8b8",
+  "source": "source/matching/game/k5a/k5a_palette_indices_unpack_8007e8b8.c",
+  "language": "c",
+  "functions": {"k5a_palette_indices_unpack_8007e8b8": "0x8007e8b8"},
+  "descriptions": {"k5a_palette_indices_unpack_8007e8b8": "Appears to combine palette entries with index nibbles from an entry table into 16-bit output values."}
+}

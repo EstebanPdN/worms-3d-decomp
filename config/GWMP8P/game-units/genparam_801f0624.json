@@ -1,0 +1,17 @@
+{
+  "unit": "genparam_801f0624",
+  "source": "source/matching/game/generated/genparam_801f0624.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_binding_create_801f0624": "0x801f0624",
+    "w3d_binding_create_801f0b70": "0x801f0b70",
+    "w3d_binding_create_801f0f74": "0x801f0f74",
+    "w3d_binding_create_801f12ec": "0x801f12ec"
+  },
+  "descriptions": {
+    "w3d_binding_create_801f0624": "Creates a property binding with the class allocator: base-constructs it, installs its vtable, copies the source and its two member-function pointers, then registers it with the owner.",
+    "w3d_binding_create_801f0b70": "Creates a property binding with the class allocator: base-constructs it, installs its vtable, copies the source and its two member-function pointers, then registers it with the owner.",
+    "w3d_binding_create_801f0f74": "Creates a property binding with the class allocator: base-constructs it, installs its vtable, copies the source and its two member-function pointers, then registers it with the owner.",
+    "w3d_binding_create_801f12ec": "Creates a property binding with the class allocator: base-constructs it, installs its vtable, copies the source and its two member-function pointers, then registers it with the owner."
+  }
+}

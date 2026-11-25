@@ -1,0 +1,14 @@
+{
+  "unit": "d20f_list_element_802b8be0",
+  "source": "source/matching/game/d20f/d20f_list_element_802b8be0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d20f_list_element_802b8be0": "0x802b8be0"
+  },
+  "descriptions": {
+    "d20f_list_element_802b8be0": "Creates the owner's missing 140-byte list element: derives an inset from the owner scale, the element width from the context extent minus margin and inset, and the text size (context value or measured text when zero); allocates and constructs the element, hands it the two retained interfaces, length, selection, layer, value, height and property, stores the size, positions it at the inset-adjusted offset and runs its setup. An existing element only refreshes its selection. Field names describe observed use only."
+  }
+}

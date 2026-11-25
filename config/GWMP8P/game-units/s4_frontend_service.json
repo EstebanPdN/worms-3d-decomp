@@ -1,0 +1,15 @@
+{
+  "unit": "s4_frontend_service",
+  "source": "source/matching/game/s4_frontend_service.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_frontend_service_construct": "0x8028ef10",
+    "w3d_s4_frontend_service_destroy": "0x8028ef7c",
+    "w3d_s4_frontend_named_value_differs": "0x8028fa7c"
+  },
+  "descriptions": {
+    "w3d_s4_frontend_service_construct": "Initializes ten held interfaces and registers the frontend service instance.",
+    "w3d_s4_frontend_service_destroy": "Releases ten held interfaces in reverse order and destroys the service base.",
+    "w3d_s4_frontend_named_value_differs": "Reports whether four value words differ from a named value, or zero for a null comparison."
+  }
+}

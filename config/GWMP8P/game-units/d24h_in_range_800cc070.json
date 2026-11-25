@@ -1,0 +1,7 @@
+{
+  "unit": "d24h_in_range_800cc070",
+  "source": "source/matching/game/d24h/d24h_in_range_800cc070.cpp",
+  "language": "cpp",
+  "functions": {"w3d_d24h_in_range_800cc070": "0x800cc070"},
+  "descriptions": {"w3d_d24h_in_range_800cc070": "Line-of-fire range test: traces (target - origin) / 100 from origin through 0x800b0824 with the zero vector 0x8045e788, range 100 and mode 1, then returns whether the distance global 0x804b1764 is at most 100. Self is unused."}
+}

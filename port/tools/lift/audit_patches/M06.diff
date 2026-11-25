@@ -1,0 +1,15 @@
+--- a/port/core/game/d29b/d29b_water_light_800919d4.cpp
++++ b/port/core/game/d29b/d29b_water_light_800919d4.cpp
+@@ -74,10 +74,10 @@
+ struct Pixel {
+     unsigned short v;
+-    const unsigned char &Low() const { return ((Ptr32<const unsigned char>)&v)[1]; }
++    const unsigned char &Low() const { return ((Ptr32<const unsigned char>)&v)[0]; }
+ };
+ struct Water {
+     char unknown00[260]; Vec sun; char unknown272[96]; Ptr32<Object> held368; Ptr32<unsigned short> colors; char unknown376[12];
+     Ptr32<unsigned char> shade388; Ptr32<unsigned char> shade392; Ptr32<unsigned short> tinted; char unknown400[132]; Ptr32<Proto> proto; char unknown536[1948];
+-    unsigned char red, green, blue;
++    unsigned char alpha, blue, green, red; /* palabra de color copiada entera de +0x1a8 */
+ };
+ inline void Tint(Ptr32<Water> self, int i, bool fresh, unsigned red, unsigned green, unsigned blue) {

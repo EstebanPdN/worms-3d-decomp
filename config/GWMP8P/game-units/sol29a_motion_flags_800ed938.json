@@ -1,0 +1,11 @@
+{
+  "unit": "sol29a_motion_flags_800ed938",
+  "source": "source/matching/game/sol29a/motion_flags_800ed938.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol29a_motion_flags_800ed938": "0x800ed938"
+  },
+  "descriptions": {
+    "sol29a_motion_flags_800ed938": "Looks up the object parameter block through its handle at +192, selects the enable value at +468, +472 or +448 according to the low bit and bit 30 of a 64-bit flag argument, and, when enabled, forwards the object, its +36 subobject and the final two pointer arguments to 0x800ec6a8. The original paired flag-register lifetime and 64-bit comparison witness the argument width."
+  }
+}

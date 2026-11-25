@@ -1,0 +1,11 @@
+{
+  "unit": "d29g_sheep_input_message_80070b64",
+  "source": "source/matching/game/d29g/d29g_sheep_input_message_80070b64.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29g_sheep_input_message_80070b64": "0x80070b64"
+  },
+  "descriptions": {
+    "w3d_d29g_sheep_input_message_80070b64": "Super sheep message handler: starts on message 64 after the base handler succeeds, cancels on 66; otherwise it matches the id against twelve cached ids in press and release pairs for six movement directions, setting a direction and clearing its opposite on press, clearing it on release and stamping the idle time at +352 once all six are clear; unknown ids go to the base handler."
+  }
+}

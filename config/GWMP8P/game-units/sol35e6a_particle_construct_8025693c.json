@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e6a_particle_construct_8025693c",
+  "source": "source/matching/game/sol35e6a/sol35e6a_particle_construct_8025693c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e6a_particle_construct_8025693c": "0x8025693c"
+  },
+  "descriptions": {
+    "sol35e6a_particle_construct_8025693c": "Constructs the observed base, initializes two three-float members and scalar fields, then copy-constructs four shared strings. Names and complete class identity are inferred."
+  }
+}

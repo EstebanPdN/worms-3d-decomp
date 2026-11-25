@@ -1,0 +1,15 @@
+--- a/port/core/game/d43a/d43a_path_search_step_800046c8.cpp
++++ b/port/core/game/d43a/d43a_path_search_step_800046c8.cpp
+@@ -7,10 +7,10 @@
+ struct PathNode {
+     short unknown0;
+     short x;             /* +2 */
+-    union { unsigned int cell; struct { unsigned char layer; char pad[3]; } b; };   /* +4; low byte is the layer */
++    union { unsigned int cell; struct { char pad[3]; unsigned char layer; } b; };   /* PPC +4 y, +6 layer, +7 direction: b.layer es +7 */
+     char unknown8[8];
+     int cost;            /* +16 */
+-    bool operator==(const PathNode &o) const { return x == o.x && (cell & ~0xff) == (o.cell & ~0xff); }
++    bool operator==(const PathNode &o) const { return x == o.x && (cell & 0x00ffffff) == (o.cell & 0x00ffffff); }
+ };
+ struct PathTable { char cells[16384]; int count; bool Empty() const { return count == 0; } void Clear() { w3d_path_table_clear_80005398(this); } };
+ extern "C" void w3d_empty_8034144c();

@@ -1,0 +1,17 @@
+{
+  "unit": "d32h_hud_clock_layout_800a30bc",
+  "source": "source/matching/game/d32h/d32h_hud_clock_layout_800a30bc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d32h_hud_clock_layout_800a30bc": "0x800a30bc"
+  },
+  "descriptions": {
+    "d32h_hud_clock_layout_800a30bc": "Positions the HUD clock meshes, easing the clock toward its target."
+  }
+}

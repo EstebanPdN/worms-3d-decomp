@@ -1,0 +1,11 @@
+{
+  "unit": "d10a_acquire_slot_8017180c_v5",
+  "source": "source/matching/game/d10a/d10a_acquire_slot_8017180c_v5.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10a_acquire_slot_8017180c": "0x8017180c"
+  },
+  "descriptions": {
+    "d10a_acquire_slot_8017180c": "Acquire a 136-byte pool slot from the halfword free stack, retain replacement before releasing output, bind selected group, account successful kind acquisition, and clear the selected descriptor flag while preserving signed failure results."
+  }
+}

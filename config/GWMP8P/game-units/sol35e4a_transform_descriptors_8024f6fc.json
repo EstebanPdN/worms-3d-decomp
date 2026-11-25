@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e4a_transform_descriptors_8024f6fc",
+  "source": "source/matching/game/sol35e4a/sol35e4a_transform_descriptors_8024f6fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e4a_transform_descriptors_8024f6fc": "0x8024f6fc"
+  },
+  "descriptions": {
+    "sol35e4a_transform_descriptors_8024f6fc": "Registers 4 observed descriptors in original order, assigns constructed three-float defaults to returned vector bindings, and finalizes the descriptor owner."
+  }
+}

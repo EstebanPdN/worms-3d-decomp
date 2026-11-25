@@ -1,0 +1,14 @@
+{
+  "unit": "d43k_game_state_reset_802487c4",
+  "source": "source/matching/game/d43k/d43k_game_state_reset_802487c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d43k_game_state_reset_802487c4": "0x802487c4"
+  },
+  "descriptions": {
+    "w3d_d43k_game_state_reset_802487c4": "Resets a state block: zero vectors and counters, modes 3, weight 0.6, empty strings, enable flags set."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

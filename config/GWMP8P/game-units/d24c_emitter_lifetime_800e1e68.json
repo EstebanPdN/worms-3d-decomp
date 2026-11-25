@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_emitter_lifetime_800e1e68",
+  "source": "source/matching/game/d24c/d24c_emitter_lifetime_800e1e68.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_emitter_lifetime_800e1e68": "0x800e1e68"
+  },
+  "descriptions": {
+    "d24c_emitter_lifetime_800e1e68": "Add the time since +36 to +44 (0 on the first call) and store the time in +36. When +44 reaches settings +394: without timer +288 call 0x8015fd1c; when +284 is clear call the timer's virtual +20 and set +284; otherwise call 0x8015fd1c when virtual +36 returns 0 or +176 is non-zero. Returns 0."
+  }
+}

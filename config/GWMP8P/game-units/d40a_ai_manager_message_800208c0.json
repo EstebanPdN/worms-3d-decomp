@@ -1,0 +1,11 @@
+{
+  "unit": "d40a_ai_manager_message_800208c0",
+  "source": "source/matching/game/d40a/d40a_ai_manager_message_800208c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40a_ai_manager_message_800208c0": "0x800208c0"
+  },
+  "descriptions": {
+    "w3d_d40a_ai_manager_message_800208c0": "AI manager message handler: level start and end, planner state messages and per-team turn messages when the AI state bit is set, then the base handler."
+  }
+}

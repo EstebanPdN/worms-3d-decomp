@@ -1,0 +1,14 @@
+{
+  "unit": "d25c_orbit_update_800d6e14",
+  "source": "source/matching/game/d25c/d25c_orbit_update_800d6e14.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25c_orbit_update_800d6e14": "0x800d6e14"
+  },
+  "descriptions": {
+    "d25c_orbit_update_800d6e14": "Add dt times the rate of handle +76 to the angle, wrap it to 0..2pi, set +4 and +12 from sine and cosine times the radius plus the centre. For each height +8 and +20: take the larger of itself and the handle +92 value plus 20, then blend 0.9 of the old height with 0.1 of that value."
+  }
+}

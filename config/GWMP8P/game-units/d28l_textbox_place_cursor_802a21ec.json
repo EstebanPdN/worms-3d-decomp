@@ -1,0 +1,14 @@
+{
+  "unit": "d28l_textbox_place_cursor_802a21ec",
+  "source": "source/matching/game/d28l/d28l_textbox_place_cursor_802a21ec.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28l_textbox_place_cursor_802a21ec": "0x802a21ec"
+  },
+  "descriptions": {
+    "d28l_textbox_place_cursor_802a21ec": "Positions a text box's cursor from its line, alignment and text widths, hiding it if out of view."
+  }
+}

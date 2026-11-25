@@ -1,0 +1,14 @@
+{
+  "unit": "d27c_camera_follow_update_800d40f4",
+  "source": "source/matching/game/d27c/d27c_camera_follow_update_800d40f4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27c_camera_follow_update_800d40f4": "0x800d40f4"
+  },
+  "descriptions": {
+    "d27c_camera_follow_update_800d40f4": "Update a follow camera's zoom, aim, target and eye for one frame."
+  }
+}

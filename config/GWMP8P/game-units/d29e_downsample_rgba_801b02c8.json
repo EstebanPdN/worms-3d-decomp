@@ -1,0 +1,11 @@
+{
+  "unit": "d29e_downsample_rgba_801b02c8",
+  "source": "source/matching/game/d29e/d29e_downsample_rgba_801b02c8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_downsample_rgba_801b02c8": "0x801b02c8"
+  },
+  "descriptions": {
+    "w3d_d29e_downsample_rgba_801b02c8": "Halves a four-component image by averaging 2x2 blocks when the destination is exactly half the source; otherwise fills two pixel descriptors and calls the generic filter at 0x801d7750 once per component with mode 4. Names are inferred."
+  }
+}

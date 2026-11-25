@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fy_801ff8b0",
+  "source": "source/matching/game/s21/s21_fy_801ff8b0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_repeat_step_801ff8b0": "0x801ff8b0"
+  },
+  "descriptions": {
+    "w3d_s21_repeat_step_801ff8b0": "Appears to call virtual slot 21 of the stream object a given number of times with a shared context, stopping at the first negative status and returning zero otherwise."
+  }
+}

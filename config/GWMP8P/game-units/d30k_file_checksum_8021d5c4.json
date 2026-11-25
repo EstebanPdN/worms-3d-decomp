@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_file_checksum_8021d5c4",
+  "source": "source/matching/game/d30k/d30k_file_checksum_8021d5c4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_file_checksum_8021d5c4": "0x8021d5c4"
+  },
+  "descriptions": {
+    "w3d_d30k_file_checksum_8021d5c4": "Returns the CRC of the first n bytes of the named file."
+  }
+}

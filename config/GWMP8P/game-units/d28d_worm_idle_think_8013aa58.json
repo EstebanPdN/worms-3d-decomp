@@ -1,0 +1,17 @@
+{
+  "unit": "d28d_worm_idle_think_8013aa58",
+  "source": "source/matching/game/d28d/d28d_worm_idle_think_8013aa58.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28d_worm_idle_think_8013aa58": "0x8013aa58"
+  },
+  "descriptions": {
+    "d28d_worm_idle_think_8013aa58": "Worm idle thinking: stops a pending sound, returns when this worm is the selected one, keeps aiming at the selected worm while aiming is on, then acts on the squared distance to it: beyond 202500 plays a far clip; beyond 40000 goes idle; beyond 6400 aims if not faced, else plays a busy idle; closer, a faced visible worm occasionally taunts with one of four random clips, otherwise it aims or turns towards the selected worm."
+  }
+}

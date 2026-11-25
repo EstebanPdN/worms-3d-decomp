@@ -1,0 +1,11 @@
+{
+  "unit": "d11b_init_mouse_802853f0",
+  "source": "source/matching/game/d11b/d11b_init_mouse_802853f0_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11b_init_mouse_802853f0": "0x802853f0"
+  },
+  "descriptions": {
+    "d11b_init_mouse_802853f0": "For nonzero initialize and priority 65535, initialize the MouseEntity registry with the original factory, parent descriptor and flags 9/0. Initialize Input.MouseMoved and Input.MouseMoved.Captured name caches, then construct separate min (-320,-240,0) and max (320,240,0) vectors. Preserve registration and cache order, original callback identity and all global addresses. Partial registry/cache views; no complete class-size claim. Owns compiler float literals independently decoded from original DOL and requiring parent review; referenced mutable objects remain external."
+  }
+}

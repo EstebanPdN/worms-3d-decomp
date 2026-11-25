@@ -1,0 +1,12 @@
+{
+  "unit": "d32l_cube_mesh_setup_802bb360",
+  "source": "source/matching/game/d32l/d32l_cube_mesh_setup_802bb360.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d32l_cube_mesh_setup_802bb360": "0x802bb360"
+  },
+  "descriptions": {
+    "d32l_cube_mesh_setup_802bb360": "Builds a textured cube mesh with UVs and white vertex colours, copies a named material and attaches the mesh to the object."
+  }
+}

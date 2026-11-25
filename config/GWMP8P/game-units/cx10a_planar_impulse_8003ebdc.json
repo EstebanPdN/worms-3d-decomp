@@ -1,0 +1,11 @@
+{
+  "unit": "cx10a_planar_impulse_8003ebdc",
+  "source": "source/matching/game/cx10a/cx10a_planar_impulse_8003ebdc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10a_planar_impulse_8003ebdc": "0x8003ebdc"
+  },
+  "descriptions": {
+    "w3d_cx10a_planar_impulse_8003ebdc": "Normalizes a planar vector with a vertical fallback, scales it, adds it to velocity at +0x28 and sets the dirty word at +0x54."
+  }
+}

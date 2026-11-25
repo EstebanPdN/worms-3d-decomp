@@ -1,0 +1,11 @@
+--- a/port/core/lua/src/lfunc.cpp
++++ b/port/core/lua/src/lfunc.cpp
+@@ -25,7 +25,7 @@
+                          cast(int, sizeof(TObject)*((n)-1)))
+ 
+ #define sizeLclosure(n)	(cast(int, sizeof(LClosure)) + \
+-                         cast(int, sizeof(TObject *)*((n)-1)))
++                         cast(int, sizeof(Ptr32<TObject>)*((n)-1)))
+ 
+ 
+ 

@@ -1,0 +1,28 @@
+{
+  "module": "script_messages",
+  "function": "w3d_script_send_message",
+  "original_entry": "0x8010109c",
+  "candidate_entry": "0x80500000",
+  "data_entry": "0x80510000",
+  "additional_bindings": [
+    {
+      "name": "w3d_message_storage",
+      "kind": "sda21",
+      "site": "0x80101148",
+      "expected": "0x804b1754"
+    },
+    {
+      "name": "w3d_message_allocate",
+      "kind": "rel24",
+      "site": "0x80101150",
+      "expected": "0x801613f0"
+    },
+    {
+      "name": "w3d_empty_message_vtable",
+      "kind": "ha_lo",
+      "high_site": "0x80101158",
+      "low_site": "0x80101160",
+      "expected": "0x8040db38"
+    }
+  ]
+}

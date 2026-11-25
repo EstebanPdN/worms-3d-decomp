@@ -1,0 +1,19 @@
+{
+  "unit": "s10param_801d0de0",
+  "source": "source/matching/game/generated/s10param_801d0de0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s10_set_record_flags_801d0de0": "0x801d0de0",
+    "w3d_s10_set_record_flags_801d0e20": "0x801d0e20",
+    "w3d_s10_set_record_flags_801d0e60": "0x801d0e60",
+    "w3d_s10_set_record_flags_801d12e0": "0x801d12e0",
+    "w3d_s10_set_record_flags_801d1360": "0x801d1360"
+  },
+  "descriptions": {
+    "w3d_s10_set_record_flags_801d0de0": "Copies the observed 16-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801d0e20": "Copies the observed 16-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801d0e60": "Copies the observed 16-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801d12e0": "Copies the observed 16-byte record into the object and sets bit 1 in its associated flags byte.",
+    "w3d_s10_set_record_flags_801d1360": "Copies the observed 16-byte record into the object and sets bit 1 in its associated flags byte."
+  }
+}

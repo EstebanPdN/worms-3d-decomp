@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_item_list_destroy_800363a0",
+  "source": "source/matching/game/k8a/k8a_item_list_destroy_800363a0.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_item_list_destroy_800363a0": "0x800363a0"},
+  "descriptions": {"w3d_k8a_item_list_destroy_800363a0": "Appears to be the deleting destructor of an item list: destroys every item in its pointer vector, empties it, releases three held interfaces and frees the list."}
+}

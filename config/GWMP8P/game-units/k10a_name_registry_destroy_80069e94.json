@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_name_registry_destroy_80069e94",
+  "source": "source/matching/game/k10a/k10a_name_registry_destroy_80069e94.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_name_registry_destroy_80069e94": "0x80069e94"
+  },
+  "descriptions": {
+    "w3d_k10a_name_registry_destroy_80069e94": "Appears to be the destructor of a service-derived name registry that clears a global and destroys its strings, string table, name list and held interfaces."
+  }
+}

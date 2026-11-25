@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_log_allocation_80217dac",
+  "source": "source/matching/game/d26k/d26k_log_allocation_80217dac.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_log_allocation_80217dac": "0x80217dac"
+  },
+  "descriptions": {
+    "w3d_d26k_log_allocation_80217dac": "Writes a text line describing an allocation to log descriptor 0x804aba90, using number formatting 0x80217cd4 and terminated copy 0x80217c6c, and clears +36/+40 of the record."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d28g_crate_fall_step_8004bdf8",
+  "source": "source/matching/game/d28g/d28g_crate_fall_step_8004bdf8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28g_crate_fall_step_8004bdf8": "0x8004bdf8"
+  },
+  "descriptions": {
+    "w3d_d28g_crate_fall_step_8004bdf8": "Crate step: hands over once exploded; while enabled and not grounded it sweeps down from the position less the height at +64 with gravity from two rates, and on contact posts a message, runs the indexed dispatch when idle and bounces along the normalized global vector; below the water height it marks exploded; otherwise it integrates position and velocity with step 20, easing fall speed toward -0.055 while the parachute flag at +112 is set. Disabled or grounded crates release the object at +244."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

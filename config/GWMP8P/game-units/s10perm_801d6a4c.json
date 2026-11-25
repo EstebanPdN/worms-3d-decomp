@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801d6a4c",
+  "source": "source/matching/game/perm/s10perm_801d6a4c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801d6a4c": "0x801d6a4c"
+  },
+  "descriptions": {
+    "w3d_auto_801d6a4c": "Computes a piecewise quadratic falloff from the absolute input using the observed thresholds and coefficients."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "k5b_a_801ec964",
+  "source": "source/matching/game/k5b/k5b_a_801ec964.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k5b_binding_copy_wide_member_801ec964": "0x801ec964"
+  },
+  "descriptions": {
+    "w3d_k5b_binding_copy_wide_member_801ec964": "Appears to read a value through the member-function getter at +16 of the descriptor and pass it to the binding's member-function setter at +24 on the target."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "s4_text_list_ops",
+  "source": "source/matching/game/s4_text_list_ops.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_text_list_reset": "0x8029ea40",
+    "w3d_s4_text_list_refresh_value": "0x8029fbb8",
+    "w3d_s4_text_list_set_active": "0x8029fc08"
+  },
+  "descriptions": {
+    "w3d_s4_text_list_reset": "Releases text-list resources and entries and resets its base state.",
+    "w3d_s4_text_list_refresh_value": "Reads the held string property and forwards its text to the widget.",
+    "w3d_s4_text_list_set_active": "Updates activation and refreshes widget and box state when it changes."
+  }
+}

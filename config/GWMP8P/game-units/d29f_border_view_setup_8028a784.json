@@ -1,0 +1,17 @@
+{
+  "unit": "d29f_border_view_setup_8028a784",
+  "source": "source/matching/game/d29f/d29f_border_view_setup_8028a784.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29f_border_view_setup_8028a784": "0x8028a784"
+  },
+  "descriptions": {
+    "d29f_border_view_setup_8028a784": "Lazily creates and configures a frontend node's border view and attaches it to the node scene."
+  }
+}

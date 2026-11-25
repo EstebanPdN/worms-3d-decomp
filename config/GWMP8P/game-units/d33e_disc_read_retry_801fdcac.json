@@ -1,0 +1,11 @@
+{
+  "unit": "d33e_disc_read_retry_801fdcac",
+  "source": "source/matching/game/d33e/d33e_disc_read_retry_801fdcac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33e_disc_read_retry_801fdcac": "0x801fdcac"
+  },
+  "descriptions": {
+    "w3d_d33e_disc_read_retry_801fdcac": "Starts an async disc read with priority 2 and polls until the completion callback sets the shared result. Cancels and restarts the read when the hold check reports a timeout; returns 0 on success, or E_FAIL after logging a read error."
+  }
+}

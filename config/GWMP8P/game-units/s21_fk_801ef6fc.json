@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fk_801ef6fc",
+  "source": "source/matching/game/s21/s21_fk_801ef6fc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_copy_ref_field_801ef6fc": "0x801ef6fc"
+  },
+  "descriptions": {
+    "w3d_s21_copy_ref_field_801ef6fc": "Appears to copy an interface field between two objects: it retains the interface at the source descriptor's offset in the third argument, releases the one at the target descriptor's offset and stores "
+  }
+}

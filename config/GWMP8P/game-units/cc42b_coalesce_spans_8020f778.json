@@ -1,0 +1,11 @@
+{
+  "unit": "cc42b_coalesce_spans_8020f778",
+  "source": "source/matching/game/cc42b/cc42b_coalesce_spans_8020f778_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc42b_coalesce_spans_8020f778": "0x8020f778"
+  },
+  "descriptions": {
+    "cc42b_coalesce_spans_8020f778": "Scans each span except the unsigned count-minus-one limit for the first other span whose start equals its wrapped 32-bit end, extends its length, and removes that other span through the original swap-with-last helper. Preserves one merge per outer iteration and live count reload after removal; no extra validation, repeat-until-stable behavior or data ownership. Partial observed fixed-array pool view; complete class identity and size unknown."
+  }
+}

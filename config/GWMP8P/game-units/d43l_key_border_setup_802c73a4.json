@@ -1,0 +1,12 @@
+{
+  "unit": "d43l_key_border_setup_802c73a4",
+  "source": "source/matching/game/d43l/d43l_key_border_setup_802c73a4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d43l_key_border_setup_802c73a4": "0x802c73a4"
+  },
+  "descriptions": {
+    "d43l_key_border_setup_802c73a4": "Loads the key's three border parts for both states through the FE.K.KeyBdr sprite, assigns glyph bytes by alternate state and row, attaches them to the panel and sets the ready flag."
+  }
+}

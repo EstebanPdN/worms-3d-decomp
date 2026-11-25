@@ -1,0 +1,17 @@
+{
+  "unit": "d42x_mask_list_fill_insert_80350dd8",
+  "source": "source/matching/game/d42x/d42x_mask_list_fill_insert_80350dd8.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "_M_fill_insert__Q24_STLt6vector2Z8D42xMaskZt15ModuleAllocator1Z8D42xMaskP8D42xMaskUiRC8D42xMask": "0x80350dd8"
+  },
+  "descriptions": {
+    "_M_fill_insert__Q24_STLt6vector2Z8D42xMaskZt15ModuleAllocator1Z8D42xMaskP8D42xMaskUiRC8D42xMask": "Inserts n copies of a mask into a vector of masks, moving elements or growing the storage."
+  }
+}

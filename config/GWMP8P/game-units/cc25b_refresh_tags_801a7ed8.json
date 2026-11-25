@@ -1,0 +1,11 @@
+{
+  "unit": "cc25b_refresh_tags_801a7ed8",
+  "source": "source/matching/game/cc25b/cc25b_refresh_tags_801a7ed8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc25b_refresh_tags_801a7ed8": "0x801a7ed8"
+  },
+  "descriptions": {
+    "w3d_cc25b_refresh_tags_801a7ed8": "Updates observed 16-bit tags at offset6 in 84-byte records across two pointer ranges, using the respective global word shifted right22. Each range stops when a record already has that tag; the first range scans512 records per pointer and the second scans32. Names and domain meaning are inferred."
+  }
+}

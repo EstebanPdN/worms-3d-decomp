@@ -1,0 +1,11 @@
+{
+  "unit": "f10a_update_editor_80269030",
+  "source": "source/matching/game/f10a/f10a_update_editor_80269030.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f10a_update_editor_80269030": "0x80269030"
+  },
+  "descriptions": {
+    "w3d_f10a_update_editor_80269030": "Advances an editor widget in bounded twenty-tick steps, blends its displayed value toward the target, propagates world/owner activity, cycles an optional child byte every ten updates, triggers a deferred refresh, and retains the unconsumed tick remainder. Layout and UI meanings are inferred; the observed forty-byte scratch buffer is only written at byte zero."
+  }
+}

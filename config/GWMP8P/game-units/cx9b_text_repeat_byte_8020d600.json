@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_text_repeat_byte_8020d600",
+  "source": "source/matching/game/cx9b/cx9b_text_repeat_byte_8020d600.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_text_repeat_byte_8020d600": "0x8020d600"
+  },
+  "descriptions": {
+    "w3d_cx9b_text_repeat_byte_8020d600": "Fill a sixty-four-byte scratch block and write the requested byte count in bounded chunks through the sink."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d29a_camera_shutdown_80035388",
+  "source": "source/matching/game/d29a/d29a_camera_shutdown_80035388.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29a_camera_shutdown_80035388": "0x80035388"
+  },
+  "descriptions": {
+    "w3d_d29a_camera_shutdown_80035388": "Hands the primary object's two values to the service, releases its four held objects, clears the active flag, deletes all items and empties the vector."
+  }
+}

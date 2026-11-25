@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_team_mission_count_8027dacc",
+  "source": "source/matching/game/f1p/f1p_team_mission_count_8027dacc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_team_mission_count_8027dacc": "0x8027dacc"
+  },
+  "descriptions": {
+    "w3d_team_mission_count_8027dacc": "Look up the barracks interface, substitute the current-team text for an empty passed name, scan observed entries by name, and return the matched count/state field with the original context-flag override. Reset the retry property first. Passed shared-string and handle lifetimes, field offsets and sparse override category recovered from original instructions; semantic names inferred."
+  }
+}

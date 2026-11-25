@@ -1,0 +1,17 @@
+{
+  "unit": "d28j_find_root_8019727c",
+  "source": "source/matching/game/d28j/d28j_find_root_8019727c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28j"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28j_find_root_8019727c": "0x8019727c"
+  },
+  "descriptions": {
+    "d28j_find_root_8019727c": "Brent's method: find a polynomial root inside a bracket to a given tolerance."
+  }
+}

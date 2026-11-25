@@ -1,0 +1,12 @@
+{
+  "unit": "d24e_volume_button_properties_80224890",
+  "source": "source/matching/game/d24e/d24e_volume_button_properties_80224890.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d24e_register_volume_button_properties_80224890": "0x80224890"
+  },
+  "descriptions": {
+    "w3d_d24e_register_volume_button_properties_80224890": "Resets the ResourceName string binding (0x801ed24c) to the shared empty string; resets the HighlightedMessage string binding (0x801ed24c) to the shared empty string; resets the SelectedMessage string binding (0x801ed24c) to the shared empty string; sets the BorderResource string binding (0x801ed24c) to a temporary string made from \"FE.Button.%s\" (0x803b61f8, constructor 0x8020bb54); registers BorderColour (0x801ece2c); registers SquareButton (0x801eb674); registers BorderBehind (0x801eb674); registers MinOffset (0x801ec52c); registers MaxOffset (0x801ec52c); resets the VolumeId string binding (0x801ed24c) to the shared empty string; resets the AudioData string binding (0x801ed24c) to the shared empty string; calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

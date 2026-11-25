@@ -1,0 +1,11 @@
+{
+  "unit": "s20_adjust_g",
+  "source": "source/matching/game/s20/s20_adjust_g.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_remap_item_indices_801ab98c": "0x801ab98c"
+  },
+  "descriptions": {
+    "w3d_s20_remap_item_indices_801ab98c": "Appears to remap three item index fields through tables in the secondary base subobject and copy a float when enabled, returning zero."
+  }
+}

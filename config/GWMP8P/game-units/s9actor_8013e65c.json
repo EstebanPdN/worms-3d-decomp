@@ -1,0 +1,11 @@
+{
+  "unit": "s9actor_8013e65c",
+  "source": "source/matching/game/generated/s9actor_8013e65c.c",
+  "language": "c",
+  "functions": {
+    "s9_finish_actor_transition_8013e65c": "0x8013e65c"
+  },
+  "descriptions": {
+    "s9_finish_actor_transition_8013e65c": "Runs the actor transition helpers, updates the attached interface with the saved state and clears the transition mode."
+  }
+}

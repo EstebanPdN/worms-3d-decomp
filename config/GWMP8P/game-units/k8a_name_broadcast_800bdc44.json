@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_name_broadcast_800bdc44",
+  "source": "source/matching/game/k8a/k8a_name_broadcast_800bdc44.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_name_broadcast_800bdc44": "0x800bdc44"},
+  "descriptions": {"w3d_k8a_name_broadcast_800bdc44": "Appears to send a name string to every element of every group in the global group list, passing a copy per call; the by-value name is destroyed on return."}
+}

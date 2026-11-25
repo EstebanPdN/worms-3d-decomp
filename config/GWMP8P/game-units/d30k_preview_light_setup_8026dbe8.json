@@ -1,0 +1,14 @@
+{
+  "unit": "d30k_preview_light_setup_8026dbe8",
+  "source": "source/matching/game/d30k/d30k_preview_light_setup_8026dbe8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d30k_preview_light_setup_8026dbe8": "0x8026dbe8"
+  },
+  "descriptions": {
+    "w3d_d30k_preview_light_setup_8026dbe8": "Creates the preview scene light and attaches it to the previewed model."
+  }
+}

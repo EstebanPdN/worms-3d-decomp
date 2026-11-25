@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_8008a848",
+  "source": "source/matching/game/s19/s19_prop_8008a848.c",
+  "language": "c",
+  "functions": {
+    "s19_crate_showered_8008a848": "0x8008a848"
+  },
+  "descriptions": {
+    "s19_crate_showered_8008a848": "Appears to read the Crate.Showered property and start a crate transition when the state at +0x120 is set and the property equals one."
+  }
+}

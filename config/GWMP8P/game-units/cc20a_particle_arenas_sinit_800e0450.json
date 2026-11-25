@@ -1,0 +1,11 @@
+{
+  "unit": "cc20a_particle_arenas_sinit_800e0450",
+  "source": "source/matching/game/cc20a/cc20a_particle_arenas_sinit_800e0450.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc20a_particle_arenas_sinit_800e0450": "0x800e0450"
+  },
+  "descriptions": {
+    "w3d_cc20a_particle_arenas_sinit_800e0450": "Initializes particle storage aliases, constructs the emitter and particle-object arena handles, stores the random seed and initializes the observed three-float default."
+  }
+}

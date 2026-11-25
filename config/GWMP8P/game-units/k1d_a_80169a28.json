@@ -1,0 +1,11 @@
+{
+  "unit": "k1d_a_80169a28",
+  "source": "source/matching/game/k1d/k1d_a_80169a28.c",
+  "language": "c",
+  "functions": {
+    "w3d_k1d_return_zero_80169a28": "0x80169a28"
+  },
+  "descriptions": {
+    "w3d_k1d_return_zero_80169a28": "Appears to be a stub that returns zero."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc39b_session_state_8028dc30",
+  "source": "source/matching/game/cc39b/cc39b_session_state_8028dc30.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39b_session_state_8028dc30": "0x8028dc30"
+  },
+  "descriptions": {
+    "cc39b_session_state_8028dc30": "Processes ready state 1: activates the observed callback table for phases 2/5 using the secondary this offset 28 and context word 116, changes phase to 3, initializes phase 0 to 1, and stores current clock plus 500. Other ready states call stop then reset. Retains original compare tree, callback order, context-pointer lifetime and signed arithmetic; layouts/names inferred and no complete class size asserted. Externals unowned."
+  }
+}

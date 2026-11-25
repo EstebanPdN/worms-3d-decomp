@@ -1,0 +1,15 @@
+{
+  "unit": "s1_actor_lifetime",
+  "source": "source/matching/game/s1_actor_lifetime.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80049804": "0x80049804",
+    "w3d_fn_8004a38c": "0x8004a38c",
+    "w3d_fn_8004a930": "0x8004a930"
+  },
+  "descriptions": {
+    "w3d_fn_80049804": "Releases actor component interfaces, handle member, and string before base destruction.",
+    "w3d_fn_8004a38c": "Releases a held interface and posts a notification containing the actor identifier.",
+    "w3d_fn_8004a930": "Posts a string message with a cached identifier."
+  }
+}

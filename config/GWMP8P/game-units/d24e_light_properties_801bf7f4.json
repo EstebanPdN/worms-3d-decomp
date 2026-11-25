@@ -1,0 +1,14 @@
+{
+  "unit": "d24e_light_properties_801bf7f4",
+  "source": "source/matching/game/d24e/d24e_light_properties_801bf7f4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24e_register_light_properties_801bf7f4": "0x801bf7f4"
+  },
+  "descriptions": {
+    "w3d_d24e_register_light_properties_801bf7f4": "Registers Enable and Scoped (0x801eb674), creates the AmbientColor, DiffuseColor and SpecularColor vector bindings (0x801f0a50) reset to the constants 0x803ac0bc, 0x803ac0c0, 0x803ac0bc, resets the CapturedTransform matrix binding (0x801f0d2c) to 0x8045e708, calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

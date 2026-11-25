@@ -1,0 +1,15 @@
+{
+  "unit": "d29i_scheme_list_fill_8010f7d0",
+  "source": "source/matching/game/d29i/d29i_scheme_list_fill_8010f7d0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d29i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d29i_scheme_list_fill_8010f7d0": "0x8010f7d0"
+  },
+  "descriptions": {
+    "d29i_scheme_list_fill_8010f7d0": "Fills a list table with visible settings, keeping the rows sorted by translated name."
+  }
+}

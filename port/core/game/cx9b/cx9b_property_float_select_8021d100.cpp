@@ -1,0 +1,124 @@
+#include "w3d_ptr.h"
+#line 1 "cx9b_property_float_select_8021d100.cpp"
+// Inferred PPC32 property block; field names state only observed byte offsets.
+struct Properties {
+ unsigned char reserved_0[68];
+ float property_68;
+ unsigned char reserved_72[104];
+ float property_176;
+ unsigned char reserved_180[68];
+ float property_248;
+ float property_252;
+ float property_256;
+ float property_260;
+ float property_264;
+ float property_268;
+ float property_272;
+ float property_276;
+ unsigned char reserved_280[4];
+ float property_284;
+ float property_288;
+ float property_292;
+ float property_296;
+ float property_300;
+ float property_304;
+ float property_308;
+ float property_312;
+ float property_316;
+ float property_320;
+ float property_324;
+ unsigned char reserved_328[12];
+ float property_340;
+ float property_344;
+ float property_348;
+ float property_352;
+ float property_356;
+ float property_360;
+ float property_364;
+ float property_368;
+ float property_372;
+ float property_376;
+ float property_380;
+ float property_384;
+ float property_388;
+ float property_392;
+ unsigned char reserved_396[4];
+ float property_400;
+ float property_404;
+ float property_408;
+ float property_412;
+ float property_416;
+ unsigned char reserved_420[16];
+ float property_436;
+ float property_440;
+ float property_444;
+ float property_448;
+ float property_452;
+ float property_456;
+ float property_460;
+ float property_464;
+ float property_468;
+ float property_472;
+ unsigned char reserved_476[4];
+ float property_480;
+};
+extern float default_value_803b445c[];
+extern "C" float w3d_cx9b_property_float_select_8021d100(Ptr32<Properties> self,int property) {
+ switch(property) {
+ case 0: return self->property_444;
+ case 1: return self->property_320;
+ case 2: return self->property_316;
+ case 3: return self->property_312;
+ case 4: return self->property_308;
+ case 5: return self->property_304;
+ case 6: return self->property_300;
+ case 7: return self->property_352;
+ case 8: return self->property_292;
+ case 9: return self->property_288;
+ case 10: return self->property_284;
+ case 11: return self->property_176;
+ case 12: return self->property_276;
+ case 13: return self->property_272;
+ case 14: return self->property_268;
+ case 15: return self->property_264;
+ case 16: return self->property_260;
+ case 17: return self->property_372;
+ case 18: return self->property_252;
+ case 19: return self->property_248;
+ case 20: return self->property_348;
+ case 21: return self->property_344;
+ case 22: return self->property_340;
+ case 23: return self->property_296;
+ case 24: return self->property_356;
+ case 25: return self->property_472;
+ case 26: return self->property_392;
+ case 27: return self->property_388;
+ case 28: return self->property_384;
+ case 29: return self->property_380;
+ case 30: return self->property_460;
+ case 31: return self->property_456;
+ case 32: return self->property_452;
+ case 33: return self->property_448;
+ case 34: return self->property_324;
+ case 35: return self->property_440;
+ case 39: return self->property_376;
+ case 40: return self->property_256;
+ case 41: return self->property_368;
+ case 42: return self->property_364;
+ case 43: return self->property_360;
+ case 44: return self->property_408;
+ case 45: return self->property_404;
+ case 46: return self->property_400;
+ case 47: return self->property_416;
+ case 48: return self->property_480;
+ case 49: return self->property_68;
+ case 50: return self->property_412;
+ case 51: return self->property_468;
+ case 52: return self->property_464;
+ case 53: return self->property_436;
+ default: return default_value_803b445c[0];
+ }
+}
+
+
+

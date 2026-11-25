@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e2_choose_string_8027befc",
+  "source": "source/matching/game/sol35e2/sol35e2_choose_string_8027befc.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e2_choose_string_8027befc": "0x8027befc"
+  },
+  "descriptions": {
+    "sol35e2_choose_string_8027befc": "Returns a shared copy of the indexed string from one of five observed lists for modes 0, 4, 3, 5 or 6, or the original failed string for other modes; preserves retain, release and local destruction order."
+  }
+}

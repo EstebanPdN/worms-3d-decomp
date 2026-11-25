@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801a54d0",
+  "source": "source/matching/game/k5b/k5b_a_801a54d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_panel_style_reset_801a54d0": "0x801a54d0"
+  },
+  "descriptions": {
+    "w3d_k5b_panel_style_reset_801a54d0": "Appears to copy the default colour at 0x8045e63c to +44 and the six-word default at 0x8045e690 to +60, clear +84 and return 0."
+  }
+}

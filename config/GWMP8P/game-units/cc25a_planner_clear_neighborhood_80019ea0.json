@@ -1,0 +1,11 @@
+{
+  "unit": "cc25a_planner_clear_neighborhood_80019ea0",
+  "source": "source/matching/game/cc25a/cc25a_planner_clear_neighborhood_80019ea0.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc25a_planner_clear_neighborhood_80019ea0": "0x80019ea0"
+  },
+  "descriptions": {
+    "cc25a_planner_clear_neighborhood_80019ea0": "Clear two float score fields to minus one million over a signed-radius neighborhood, clipped to eleven-cell X/Z bounds in the observed byte-selected layer."
+  }
+}

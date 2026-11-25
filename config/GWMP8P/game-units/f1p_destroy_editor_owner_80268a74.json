@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_destroy_editor_owner_80268a74",
+  "source": "source/matching/game/f1p/f1p_destroy_editor_owner_80268a74.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._14F1pEditorOwner": "0x80268a74"
+  },
+  "descriptions": {
+    "_._14F1pEditorOwner": "Install the original table(s), release the observed held interfaces and destroy member arrays, strings and original bases in native C++ order. Eight paired arrays plus the final pair use the original reverse array cleanup; the nested member at312 calls its witnessed destructor. All field meanings and partial class views inferred from original instructions."
+  }
+}

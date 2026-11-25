@@ -1,0 +1,11 @@
+{
+  "unit": "s11forwardmiddle_802b16c4",
+  "source": "source/matching/game/s11_auto/s11forwardmiddle_802b16c4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802b16c4": "0x802b16c4"
+  },
+  "descriptions": {
+    "w3d_auto_802b16c4": "Appears to calls 0x80264658; accesses fields at 0xA0. m2c types and names are provisional."
+  }
+}

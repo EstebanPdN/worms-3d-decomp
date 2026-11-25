@@ -1,0 +1,11 @@
+{
+  "unit": "s19_cell_800bd954",
+  "source": "source/matching/game/s19/s19_cell_800bd954.c",
+  "language": "c",
+  "functions": {
+    "s19_test_cell_800bd954": "0x800bd954"
+  },
+  "descriptions": {
+    "s19_test_cell_800bd954": "Appears to test a packed three-byte cell coordinate against the grid of the indexed context and store the result as a global flag."
+  }
+}

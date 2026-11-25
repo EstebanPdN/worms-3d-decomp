@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cf_802bbfc8",
+  "source": "source/matching/game/s21/s21_cf_802bbfc8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_each_item_802bbfc8": "0x802bbfc8"
+  },
+  "descriptions": {
+    "w3d_s21_each_item_802bbfc8": "Appears to call a helper on every pointer of the embedded vector at offset 56 and return zero."
+  }
+}

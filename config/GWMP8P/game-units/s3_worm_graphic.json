@@ -1,0 +1,15 @@
+{
+  "unit": "s3_worm_graphic",
+  "source": "source/matching/game/s3_worm_graphic.c",
+  "language": "c",
+  "functions": {
+    "w3d_worm_graphic_random_animation": "0x8014009c",
+    "w3d_worm_graphic_set_blink": "0x801401d8",
+    "w3d_worm_graphic_release_effect": "0x80140240"
+  },
+  "descriptions": {
+    "w3d_worm_graphic_random_animation": "Selects one of four animations when the message player matches an eligible worm graphic.",
+    "w3d_worm_graphic_set_blink": "Reads the Worm.Blink setting when the message entity matches and stores it as a boolean.",
+    "w3d_worm_graphic_release_effect": "Releases the held effect and clears its pointer."
+  }
+}

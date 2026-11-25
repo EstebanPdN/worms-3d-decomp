@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_8022526c",
+  "source": "source/matching/game/k6b/k6b_a_8022526c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_named_panel_construct_8022526c": "0x8022526c"
+  },
+  "descriptions": {
+    "w3d_k6b_named_panel_construct_8022526c": "Appears to construct an object over base 0x8021fd28 with vtable 0x8041a348, an empty shared string at +152 and 1 at +156."
+  }
+}

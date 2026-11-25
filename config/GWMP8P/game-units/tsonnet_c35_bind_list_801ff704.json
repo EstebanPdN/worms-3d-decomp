@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c35_bind_list_801ff704",
+  "source": "source/matching/game/tsonnet_c35/tsonnet_c35_bind_list_801ff704.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c35_bind_list_801ff704": "0x801ff704"
+  },
+  "descriptions": {
+    "tsonnet_c35_bind_list_801ff704": "Walks a counted list of object pointers; for each non-null entry asks it through a virtual call to store a held interface (keyed by an external constant) into a stack slot, passes that slot and an argument to a virtual of the target object, releases the slot, and stops with the negative result on the first failure; names and layouts are inferred."
+  }
+}

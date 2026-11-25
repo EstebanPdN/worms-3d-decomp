@@ -1,0 +1,11 @@
+{
+  "unit": "cx11a_random_vector_800dd648",
+  "source": "source/matching/game/cx11a/cx11a_random_vector_800dd648.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11a_random_vector_800dd648": "0x800dd648"
+  },
+  "descriptions": {
+    "w3d_cx11a_random_vector_800dd648": "Randomizes three observed angular velocity components and optionally converts each to the observed angular units. Names inferred."
+  }
+}

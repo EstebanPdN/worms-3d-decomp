@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_blend_effect_construct_80062c24",
+  "source": "source/matching/game/k7a/k7a_blend_effect_construct_80062c24.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_blend_effect_construct_80062c24": "0x80062c24"},
+  "descriptions": {"w3d_k7a_blend_effect_construct_80062c24": "Appears to construct an effect that blends two rodata coefficient pairs by the engine blend factor into low and high limits."}
+}

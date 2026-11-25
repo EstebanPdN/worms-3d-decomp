@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_payload_ctor_800ea180",
+  "source": "source/matching/game/d24c/d24c_payload_ctor_800ea180.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_payload_ctor_800ea180": "0x800ea180"
+  },
+  "descriptions": {
+    "d24c_payload_ctor_800ea180": "Call base 0x80161014; store vtable 0x804101f8; clear +100 and +160..+212; zero triple +260; init string +304; release +192 and clear it; copy origin 0x8045e788 to +48, +36, +72, +236, +224; set +32 to -2, +84 to -1, +116 to 1; clear +248, +92, +112, +120, +220, +256, +252, +272; release +100 and clear it; set +300 to 1. Returns this."
+  }
+}

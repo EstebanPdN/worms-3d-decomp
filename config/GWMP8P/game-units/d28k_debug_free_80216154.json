@@ -1,0 +1,12 @@
+{
+  "unit": "d28k_debug_free_80216154",
+  "source": "source/matching/game/d28k/d28k_debug_free_80216154.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d28k_debug_free_80216154": "0x80216154"
+  },
+  "descriptions": {
+    "w3d_d28k_debug_free_80216154": "Debug free: re-entry guard, block validation with error reporting, watch hook, payload clearing and release through the allocator table."
+  }
+}

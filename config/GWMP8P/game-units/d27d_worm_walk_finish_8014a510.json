@@ -1,0 +1,17 @@
+{
+  "unit": "d27d_worm_walk_finish_8014a510",
+  "source": "source/matching/game/d27d/d27d_worm_walk_finish_8014a510.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27d_worm_walk_finish_8014a510": "0x8014a510"
+  },
+  "descriptions": {
+    "d27d_worm_walk_finish_8014a510": "Pick a worm's speed and animation when a timed walk state ends."
+  }
+}

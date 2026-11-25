@@ -1,0 +1,11 @@
+{
+  "unit": "r23b_reverse_bits_8021d7b0",
+  "source": "source/matching/game/r23b/r23b_reverse_bits_8021d7b0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23b_reverse_bits_8021d7b0": "0x8021d7b0"
+  },
+  "descriptions": {
+    "w3d_r23b_reverse_bits_8021d7b0": "Reverse the requested low bits of the unsigned input into a zero accumulator; names inferred."
+  }
+}

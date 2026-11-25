@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bb_80208af8",
+  "source": "source/matching/game/s21/s21_bb_80208af8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_80208af8": "0x80208af8"
+  },
+  "descriptions": {
+    "w3d_s21_create_80208af8": "Appears to allocate a 44-byte object, construct it, initialize it from two arguments and return it."
+  }
+}

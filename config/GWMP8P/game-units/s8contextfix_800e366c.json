@@ -1,0 +1,11 @@
+{
+  "unit": "s8contextfix_800e366c",
+  "source": "source/matching/game/s8contextfix_800e366c.c",
+  "language": "c",
+  "functions": {
+    "s8_destroy_dual_base_800e366c": "0x800e366c"
+  },
+  "descriptions": {
+    "s8_destroy_dual_base_800e366c": "Destructor: installs two vtables, stops a held action, destroys an interface array, releases four references and runs both base cleanups."
+  }
+}

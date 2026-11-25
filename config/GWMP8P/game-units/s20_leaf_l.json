@@ -1,0 +1,23 @@
+{
+  "unit": "s20_leaf_l",
+  "source": "source/matching/game/s20/s20_leaf_l.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_append_node_80178a98": "0x80178a98",
+    "w3d_s20_replace_target_801795d4": "0x801795d4",
+    "w3d_s20_clear_target_80179770": "0x80179770",
+    "w3d_s20_set_flag_8017dc78": "0x8017dc78",
+    "w3d_s20_lookup_by_virtual_8017988c": "0x8017988c",
+    "w3d_s20_test_zero_entry_8017d508": "0x8017d508",
+    "w3d_s20_static_init_801797c0": "0x801797c0"
+  },
+  "descriptions": {
+    "w3d_s20_append_node_80178a98": "Appears to append a node at the end of a singly linked list that uses the pointer at offset 12, and returns zero.",
+    "w3d_s20_replace_target_801795d4": "Appears to replace the target held by the inner object, retaining the new one through virtual method 3 and releasing the old one through virtual method 4.",
+    "w3d_s20_clear_target_80179770": "Appears to clear the target held by the inner object and release the old one through virtual method 4.",
+    "w3d_s20_set_flag_8017dc78": "Appears to set a one-bit flag in the word at offset 20 and return 1 when it already had the requested value, else 0.",
+    "w3d_s20_lookup_by_virtual_8017988c": "Appears to call virtual method 6 and return the entry of a global integer table at that index.",
+    "w3d_s20_test_zero_entry_8017d508": "Appears to store whether the global table entry selected by a key byte is zero and returns zero.",
+    "w3d_s20_static_init_801797c0": "Appears to be a static initializer that clears two global words when run at the final priority with initialization requested."
+  }
+}

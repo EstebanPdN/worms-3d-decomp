@@ -1,0 +1,11 @@
+{
+  "unit": "e15d_two_pair_destroy_802c5e10",
+  "source": "source/matching/game/e15d/e15d_two_pair_destroy_802c5e10_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_e15d_two_pair_destroy_802c5e10": "0x802c5e10"
+  },
+  "descriptions": {
+    "w3d_e15d_two_pair_destroy_802c5e10": "Destructor with forwarded flags for an object whose observed layout holds an interface at +0x1c, a two-element interface array at +0x30..+0x37 and one interface at +0x38. Install the class table word at +0x00, then destroy members in reverse declaration order: release +0x38 through vtable slot +16 when non-null, release both array elements from the highest index down, release +0x1c through slot +16 when non-null, then forward self and the caller's flags to the base destructor. Preserve the null tests, the release order and the untouched flags argument. Inferred class identity; observed offsets only; no owned initialized data."
+  }
+}

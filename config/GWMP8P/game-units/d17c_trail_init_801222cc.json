@@ -1,0 +1,11 @@
+{
+  "unit": "d17c_trail_init_801222cc",
+  "source": "source/matching/game/d17c/d17c_trail_init_801222cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "d17c_trail_init_801222cc": "0x801222cc"
+  },
+  "descriptions": {
+    "d17c_trail_init_801222cc": "Store the even trail kind and point count, load the by-value named mesh into +100 (destroying the name at exit), clear its +88 virtual flag and retain its shape at +56; load \"ShortTrail\" (kind 2) or \"Trail\" into +104, for \"Trail\" clearing the 40-byte segment block and resetting each point's age, point, edge and normal vectors to zero; record owner, head 0 and style kind + 15."
+  }
+}

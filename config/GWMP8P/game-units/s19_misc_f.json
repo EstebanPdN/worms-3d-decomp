@@ -1,0 +1,18 @@
+{
+  "unit": "s19_misc_f",
+  "source": "source/matching/game/s19/s19_misc_f.c",
+  "language": "c",
+  "functions": {
+    "s19_randomize_three_80015910": "0x80015910",
+    "s19_poll_then_80015f38": "0x80015f38",
+    "s19_poll_then_8001644c": "0x8001644c"
+  },
+  "descriptions": {
+    "s19_randomize_three_80015910": "Appears to apply the randomizing helper with one float argument to three consecutive floats.",
+    "s19_poll_then_80015f38": "Appears to call a helper on the object when its virtual slot 2 reports ready.",
+    "s19_poll_then_8001644c": "Appears to call a different helper on the object when its virtual slot 2 reports ready."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

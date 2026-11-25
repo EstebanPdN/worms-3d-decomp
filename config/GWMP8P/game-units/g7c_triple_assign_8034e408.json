@@ -1,0 +1,11 @@
+{
+  "unit": "g7c_triple_assign_8034e408",
+  "source": "source/matching/game/g7c/g7c_triple_assign_8034e408.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g7c_triple_assign_8034e408": "0x8034e408"
+  },
+  "descriptions": {
+    "w3d_g7c_triple_assign_8034e408": "Assign an inferred vector of complete twelve-byte records using native copy construction, assignment and destruction lifetimes."
+  }
+}

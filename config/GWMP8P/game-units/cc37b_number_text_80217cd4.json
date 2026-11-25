@@ -1,0 +1,11 @@
+{
+  "unit": "cc37b_number_text_80217cd4",
+  "source": "source/matching/game/cc37b/cc37b_number_text_80217cd4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc37b_number_text_80217cd4": "0x80217cd4"
+  },
+  "descriptions": {
+    "w3d_cc37b_number_text_80217cd4": "Formats32-bit values backward into original shared BSS scratch: zero mode uses lowercase hexadecimal with0x prefix; positive mode unsigned decimal; negative mode signed decimal, retaining unsigned negation for INT_MIN and original branch tree. Sixteen-byte suffix view describes safe accessed storage and cursor extent, not original allocation size. BSS scratch804641b0..804641c0 and independently witnessed digit table803b3800 remain external and unowned; no initialized data ownership."
+  }
+}

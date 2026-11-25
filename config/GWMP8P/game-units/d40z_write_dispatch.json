@@ -1,0 +1,11 @@
+{
+  "unit": "d40z_write_dispatch",
+  "source": "source/matching/game/d40z/d40z_write_dispatch.c",
+  "language": "c",
+  "functions": {
+    "w3d_d40z_write_802e3244": "0x802e3244"
+  },
+  "descriptions": {
+    "w3d_d40z_write_802e3244": "ProDG runtime low-level write: descriptors 1 and 2 go to the debugger console, 0 returns -1, others to the host file handler."
+  }
+}

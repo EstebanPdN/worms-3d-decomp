@@ -1,0 +1,1163 @@
+--- a/port/build3ds.sh
++++ b/port/build3ds.sh
+@@ -72,7 +72,8 @@
+ # justo detrás del logo). El recurso 3D es obligatorio; W3D_BANNER_FIJO es solo una selección explícita de depuración.
+ RES=platform/3ds/res
+ ICON=$RES/icon.png
+-$DEVKITPRO/tools/bin/smdhtool --create "$NAME" "$NAME (port)" "Team17 (port)" $ICON $OUT/worms3d.smdh || exit 1
++RELEASE=$(sed -n 's/^#define W3D_RELEASE_NAME "\(.*\)"/\1/p' platform/3ds/version.h)
++$DEVKITPRO/tools/bin/smdhtool --create "$NAME" "$NAME - $RELEASE" "Team17 (port)" $ICON $OUT/worms3d.smdh || exit 1
+ BNR3D=$P/build3ds/banner3d/worms3d-animated.bnr
+ if [[ -z $W3D_BANNER_FIJO ]]; then
+   [[ -f $BNR3D ]] || { print -u2 "Falta el banner 3D verificado: $BNR3D"; exit 1; }
+--- a/port/core/game/d40k/d40k_element_wrappers_80262a58.cpp
++++ b/port/core/game/d40k/d40k_element_wrappers_80262a58.cpp
+@@ -110,6 +110,7 @@
+  fn_802b1250(&w.p->attr, lbl_804abb5c);
+  fn_80164514(lbl_804b178c, w.p, self->f20);
+ }
++extern "C" void w3d_fe_building_menu(const char *name);
+ extern "C" void w3d_d40k_element_wrappers_80262a58(Ptr32<Self> self) {
+  Str name;
+  fn_800c4d9c(self->names, &name);
+@@ -118,6 +119,9 @@
+   fn_801790bc(self->f32, lbl_803cac08);
+   return;
+  }
++ // The native queue can create menus without posting FE.ChangeMenu.
++ // Record the actual table before any control is constructed.
++ w3d_fe_building_menu(name.p.get());
+  (void)Str(name);
+  Ptr32<Source> src = fn_801797b4(fn_80341584(self->f28));
+  Ptr32<Items> items = src->items;
+--- /dev/null
++++ b/port/core/native/card_ui.cpp
+@@ -0,0 +1,73 @@
++// Keep the original SD/card state machine and actions; replace only its 4:3 view.
++// Offsets are verified against card_build_text_boxes, card_message and card_screen_update.
++#include <stddef.h>
++#include <stdio.h>
++#include <string.h>
++#include "card_ui.h"
++#define fn_8018d35c A8018d35c
++#define fn_8018d434 A8018d434
++#define fn_801fe3b0 A801fe3b0
++#define fn_80288c7c A80288c7c
++#define fn_80289914 A80289914
++#define fn_80289df8 A80289df8
++#define fn_80289eec A80289eec
++#define fn_802aba0c A802aba0c
++#define fn_802aba68 A802aba68
++#define fn_802b30c0 A802b30c0
++#define fn_802e88ac A802e88ac
++#define fn_80344278 A80344278
++#define lbl_803cf924 A803cf924
++#define lbl_804abb5c A804abb5c
++#define lbl_804abbe0 A804abbe0
++#define d35f_card_screen_update_80288564 OriginalCardTick
++#include "../game/d35f/d35f_card_screen_update_80288564.cpp"
++#undef d35f_card_screen_update_80288564
++static_assert(offsetof(Screen,tips)==968 && offsetof(Screen,panel)==992 && offsetof(Screen,flags)==1016,"Card layout");
++extern "C" int w3d_fe_native_layout(void);
++extern "C" int w3d_fe_popup_depth(void);
++namespace {
++W3dCardUi current;
++int pending=-1;
++char pending_title[96];
++struct Item { Ptr32<const char> key; int action; };
++struct Record { int unused; Ptr32<const char> title; unsigned count; int unused12; Item items[5]; };
++void hide(Ptr32<void> node) {
++    if(!node) return;
++    auto table=*(Ptr32<Ptr32<void>> *)node.get();
++    ((Ptr32<void(Ptr32<void>,int)>)table[22])(node,0);
++}
++}
++extern "C" int A80288564(Ptr32<Screen> self,unsigned time) {
++    if(!w3d_fe_native_layout()) return OriginalCardTick(self,time);
++    auto record=(Record *)self->tips.get();
++    if(pending>=0) {
++        if(record && record->title && !strcmp(record->title.get(),pending_title) && self->state==1 && pending<(int)record->count) {
++            self->page=pending; self->flags|=0x80000000;
++        }
++        pending=-1;
++    }
++    int result=OriginalCardTick(self,time);
++    record=(Record *)self->tips.get();
++    memset(&current,0,sizeof current);
++    if(record && (self->flags&0x08000000)) {
++        current.active=1; current.ready=self->state==1;
++        current.selected=self->page; current.count=record->count<=5?record->count:0;
++        current.operation=self->active;
++        snprintf(current.title,sizeof current.title,"%s",record->title?record->title.get():"");
++        for(int i=0;i<current.count;++i) snprintf(current.options[i],sizeof current.options[i],"%s",record->items[i].key?record->items[i].key.get():"");
++        for(unsigned i=0;i<self->partCount && i<8;++i) hide(self->parts[i]);
++        for(unsigned i=0;i<self->extraCount && i<5;++i) hide(self->extra[i]);
++        hide(self->last);
++        hide(*(Ptr32<void> *)((char *)self.get()+988)); // border scene, not the view object
++    }
++    return result;
++}
++extern "C" int w3d_card_ui_read(W3dCardUi *out) {
++    if(!current.active || w3d_fe_popup_depth()<=0) return 0;
++    if(out) *out=current;
++    return 1;
++}
++extern "C" void w3d_card_ui_choose(int i) {
++    if(!current.active || !current.ready || i<0 || i>=current.count) return;
++    pending=i; snprintf(pending_title,sizeof pending_title,"%s",current.title);
++}
+--- /dev/null
++++ b/port/core/native/card_ui.h
+@@ -0,0 +1,7 @@
++#pragma once
++struct W3dCardUi {
++    int active, ready, selected, count, operation;
++    char title[96], options[5][96];
++};
++extern "C" int w3d_card_ui_read(W3dCardUi *out);
++extern "C" void w3d_card_ui_choose(int index);
+--- a/port/core/native/fe_bridge.cpp
++++ b/port/core/native/fe_bridge.cpp
+@@ -60,9 +60,10 @@
+ static int g_mode = -1;
+ static char g_highlight[48];
+ static char g_last_popup[48];
++static char g_popup_names[32][64];
+ static char g_layout_menu[64];
+ const char *w3d_fe_layout_menu(void) { return g_layout_menu; }
+-static unsigned short g_id_highlight = 0xffff, g_id_popup = 0xffff, g_id_popup_clear = 0xffff, g_id_change = 0xffff;
++static unsigned short g_id_highlight = 0xffff, g_id_popup = 0xffff, g_id_popup_light = 0xffff, g_id_popup_clear = 0xffff, g_id_change = 0xffff;
+ // v38: GameLogic.StartGame (el frontend pide empezar la partida). Desde ese mensaje hasta que el modo cambia, la UI
+ // pone las dos pantallas en negro con el icono de carga: la carga que sigue bloquea varios segundos y antes se quedaba
+ // en pantalla el menú a medio desmontar (fondo negro con controles sueltos).
+@@ -324,6 +325,7 @@
+         w3d_dbg("[fe] el menú sigue sin música: se vuelve a pedir (intento %d)\n", tries);
+     }
+ }
++void w3d_fe_wormpot_flush(void);
+ void w3d_fe_flush_commands(void) {
+     kb_flush();
+     menu_music_loop();
+@@ -334,6 +336,7 @@
+         w3d_dbg("[fe] orden: %s\n", g_pending_commands[i]);
+         A802b1258(g_pending_commands[i]);
+     }
++    w3d_fe_wormpot_flush();
+ }
+ void w3d_fe_runf(const char *fmt, const char *arg) {
+     char b[160]; snprintf(b, sizeof b, fmt, arg); w3d_fe_run(b);
+@@ -382,7 +385,24 @@
+ }
+ int w3d_fe_start_holding(void) { return w3d_fe_hold_mode_start(); }
+ const char *w3d_fe_highlighted(void) { return g_highlight[0] ? g_highlight : nullptr; }
+-const char *w3d_fe_last_popup(void) { return g_last_popup[0] ? g_last_popup : nullptr; }
++// The table builder is authoritative, including internally queued brief/result
++// pages. Keep names by native depth so closing a child restores its parent.
++void w3d_fe_building_menu(const char *name) {
++    if(!name) return;
++    snprintf(g_layout_menu,sizeof g_layout_menu,"%s",name);
++    const int depth=A804abb5c;
++    if(depth>=0 && depth<32) {
++        for(int i=depth;i<32;++i) g_popup_names[i][0]=0;
++        if(depth) snprintf(g_popup_names[depth],sizeof g_popup_names[depth],"%s",name);
++        else g_last_popup[0]=0;
++    }
++    if(getenv("W3D_UI_REVIEW_LOG")) w3d_dbg("[fe] construye %s profundidad %d\n",name,depth);
++}
++const char *w3d_fe_last_popup(void) {
++    for(int d=A804abb5c<32?A804abb5c:31;d>0;--d)
++        if(g_popup_names[d][0]) return g_popup_names[d];
++    return A804abb5c>0 && g_last_popup[0] ? g_last_popup : nullptr;
++}
+ void w3d_fe_highlight(const char *item) { w3d_fe_runf("FE.HighlightItem$%s", item); }
+ void w3d_fe_activate(const char *item) { w3d_fe_runf("Input.Menu.ForceSelect$%s", item); }
+ // Sí/No de un diálogo de confirmación: sus dos botones se llaman Accept y Cancel en todos.
+@@ -429,6 +449,7 @@
+     unsigned short id;
+     if (!find_id("FE.HighlightItem", &id)) g_id_highlight = id;
+     if (!find_id("FE.CreatePopUp", &id)) g_id_popup = id;
++    if (!find_id("FE.CreatePopUpLight", &id)) g_id_popup_light = id;
+     if (!find_id("FE.CreatePopUpClear", &id)) g_id_popup_clear = id;
+     if (!find_id("FE.ChangeMenu", &id)) g_id_change = id;
+     if (!find_id("GameLogic.StartGame", &id)) g_id_start = id;
+@@ -443,7 +464,7 @@
+         if (!g_start_pending) { w3d_dbg("[fe] GameLogic.StartGame\n"); g_start_at = mono_seconds(); g_start_pending = 1; }
+         return 0;
+     }
+-    if (id != g_id_highlight && id != g_id_popup && id != g_id_popup_clear && id != g_id_change) return 0;
++    if (id != g_id_highlight && id != g_id_popup && id != g_id_popup_light && id != g_id_popup_clear && id != g_id_change) return 0;
+     w3d_u32 t = *(const w3d_u32 *)((const char *)message.get() + 8);   // texto de un mensaje de texto (w3d_get_8010a8fc)
+     const char *s = t ? (const char *)g2h(t) : nullptr;
+     if (!s) return 0;
+--- a/port/core/native/fe_layout.cpp
++++ b/port/core/native/fe_layout.cpp
+@@ -30,7 +30,7 @@
+ // x, y, w, h: lower-screen pixels. zoom, dx, dy: placement (FE units = zoom*original+d).
+ // born/gone: when the control was created and when its menu was left (0 while it is current); order: its place
+ // among the controls its menu created together (the pop-in is staggered by it).
+-struct Entry { void *panel; char menu[64], name[64]; float x,y,w,h; bool touch, bottom; int depth; float zoom,dx,dy; double seen, born, gone; int order; bool linked; };
++struct Entry { void *panel; char menu[64], name[64]; float x,y,w,h; bool touch, bottom, visible; int depth; float zoom,dx,dy; double seen, born, gone; int order; bool linked; };
+ double seconds() { struct timespec ts; clock_gettime(CLOCK_MONOTONIC,&ts); return ts.tv_sec+ts.tv_nsec*1e-9; }
+ Entry entries[1024]; unsigned entry_count;
+ struct WeaponCell { int icon=-1, locked=0; };
+@@ -232,12 +232,12 @@
+ }
+ extern "C" char A8041c790[];   // ComboControl (ver w3d_fe_open_combo)
+ extern "C" void w3d_fe_apply_layout(void *ptr) {
+-    if (!dual()) return;
++    if (!dual() || (w3d_fe_game_mode()!=6 && w3d_fe_game_mode()!=7)) return;
+     Panel *p=(Panel *)ptr;
+     unsigned i=0; while(i<entry_count && entries[i].panel!=ptr) ++i;
+     if(i==entry_count || !p->base) return;
+     Entry &e=entries[i]; const char *m=e.menu, *n=e.name;
+-    e.seen=seconds();
++    e.seen=seconds(); e.visible=false;
+     if(!strcmp(m,"FE.WeaponPanel")) {
+         int col,row,icon;
+         auto sprite=*(Ptr32<const char> *)((char *)p->cfg.get()+136);
+@@ -250,7 +250,7 @@
+     }
+     if(!*m) m="FE.MainMenu";
+     // The new-team window (FE.NewTeam) is a page of the UI too: it goes straight to the game's keyboard (ui_pages.cpp).
+-    const bool custom=!strcmp(m,"FE.MainMenu") || !strcmp(m,"FE.SinglePlayerMenu") || !strcmp(m,"FE.Options") || !strcmp(m,"FE.LanguageSelect") || !strcmp(m,"FE.PopTeamAdjust") || !strcmp(m,"FE.NewTeam") || !strcmp(m,"FE.PauseMenu") || !strcmp(m,"FE.TutorialMenu") || !strcmp(m,"FE.CampaignMenu") || !strcmp(m,"FE.Challenge Menu");
++    const bool custom=!strcmp(m,"FE.MainMenu") || !strcmp(m,"FE.SinglePlayerMenu") || !strcmp(m,"FE.Options") || !strcmp(m,"FE.LanguageSelect") || !strcmp(m,"FE.PopTeamAdjust") || !strcmp(m,"FE.NewTeam") || !strcmp(m,"FE.PauseMenu") || !strcmp(m,"FE.TutorialMenu") || !strcmp(m,"FE.CampaignMenu") || !strcmp(m,"FE.Challenge Menu") || !strcmp(m,"Game.BriefDialog");
+     bool hidden=custom;
+     const bool match=w3d_fe_game_mode()==7;
+     float zoom=1, dy=-480, dx=0;
+@@ -267,7 +267,7 @@
+     } else if(!strcmp(m,"FE.Wormpot") && !strcmp(n,"New.WormPot")) {
+         // The machine is a 3D scene with native culling, not a flat FE button.
+         // Keep its original camera-space position; the touch controls live below.
+-        hidden=false;zoom=1.12f;dy=-4;
++        hidden=false;zoom=.78f;dy=20;
+     } else if(!strcmp(m,"FE.Wormapedia")) {
+         hidden=!strcmp(n,"ToolTips") || !strcmp(n,"ToolTip Frame");
+         if(!strcmp(n,"Previous") || !strcmp(n,"Next") || !strcmp(n,"Credits") || !strcmp(n,"Unlocked") || !strcmp(n,"Back")) {
+@@ -277,15 +277,38 @@
+             dx=x-c->pos.x;dy=-480+y-c->pos.y;
+         } else {dy=-20;zoom=1.25f;}
+     } else if(!strcmp(m,"FE.SoundOptions")) {
++        // Keep the original equalizers on the upper screen; the touch sliders
++        // below edit these same audio properties.
+         hidden=!strcmp(n,"ToolTips") || !strcmp(n,"ToolTip Frame") || !strcmp(n,"Cancel") || !strcmp(n,"Title");
+         zoom=1.25f; dy=-15;
++    } else if(!strncmp(m,"FE.PostTutorial",15) || !strncmp(m,"FE.PostCampaign",15) || !strncmp(m,"FE.PostChallenge",16)) {
++        // Keep the original result table, unlock art and medals above. Native
++        // action buttons remain below, with the help text drawn by the UI.
++        const Config *cf=p->cfg.get();
++        hidden=!strcmp(n,"ToolTips") || !strcmp(n,"ToolTip Frame");
++        screen=0; zoom=1.85f; dy=-103.5f;
++        // Success pages have different native frames: Tutorial is taller,
++        // Campaign wider, and Challenge includes two complete results tables.
++        if(!strcmp(m,"FE.PostTutorial")) {zoom=1.55f;dy=-93.6f;}
++        else if(!strcmp(m,"FE.PostCampaign")) {zoom=1.8f;dy=-91.f;}
++        else if(!strcmp(m,"FE.PostChallenge")) {zoom=1.25f;dy=-92.1f;}
++        if(!strcmp(n,"Title")) {zoom=1;dx=-266-cf->pos.x;dy=205-cf->pos.y;}
++        else if(e.linked) {
++            screen=1;zoom=1.4f;
++            const float x=cf->pos.x<-50?70:cf->pos.x>50?250:160;
++            dx=(x-160)/.475f-zoom*cf->pos.x;
++            dy=-kLower+(120-204)/.475f-zoom*cf->pos.y;
++        }
+     } else if(!custom) {
+         hidden=!strcmp(n,"ToolTips") || !strcmp(n,"ToolTip Frame");
+         const Config *cf=p->cfg.get();
+         if(!strcmp(n,"Title")) { screen=0; zoom=1; dx=-266-cf->pos.x; dy=205-cf->pos.y; }
+         else if(const Generic *g=find_generic(m)) { zoom=g->zoom; dx=-zoom*g->cx; dy=-zoom*g->cy-kLower; }
+     }
+-    if(strstr(m,"Confirm") || !strcmp(m,"FE.LeaveOptions") || !strcmp(m,"FE.LeaveMultiplayer")) zoom=1.6f;
++    if(strstr(m,"Confirm") || !strcmp(m,"FE.LeaveOptions") || !strcmp(m,"FE.LeaveMultiplayer")) {
++        zoom=1.6f;
++        if(!match && !e.linked && !strcmp(n,"Quit")) hidden=true; // Question is shown once, above.
++    }
+     float cx,cy,diameter;
+     int carousel=!strcmp(m,"FE.WeaponPanel") ? w3d_ui_weapon_layout(n,&cx,&cy,&diameter) : w3d_ui_carousel_layout(m,n,&cx,&cy,&diameter);
+     if(carousel==1) {
+@@ -296,6 +319,9 @@
+         // the UI's own items (Developer, Team Creator) did not (owner, 2026-11-07). The given y already allows for it.
+         dy=-kLower+(120-cy)/.475f-c->pos.y*zoom;
+     } else if(carousel<0) hidden=true;
++    // A modal owns both screens. Parent controls must not show through its window
++    // or remain touchable while a save/progress/confirmation dialog is active.
++    if(w3d_fe_popup_depth()>0 && *(int *)ptr < w3d_fe_popup_depth()) hidden=true;
+     if(match) dy+=480; // The HUD camera pass is routed to the lower target after culling.
+     // A placed group pops in as one piece (no stagger inside it), around its anchor.
+     const Place *placed=find_place(m,n);
+@@ -327,6 +353,7 @@
+     call_virtual<void>(p->base.get(),88,hidden?0:7);
+     e.touch=e.bottom=false;
+     if(hidden) { move(p->base.get(),{0,-10000,0}); scale(p->base.get(),{0,0,0}); return; }
++    e.visible=true;
+     Config *c=p->cfg.get();
+     // The frame takes the new centre and the base, hanging from the animated locator,
+     // only the zoom: the locator's original motion stays local and is not amplified.
+@@ -533,11 +560,20 @@
+ 
+ extern "C" int A802aa8a4(void *,int);
+ extern "C" void A802aaa8c(void *);
++static int pending_wormpot=-1;
+ extern "C" void w3d_fe_wormpot_action(int action) {
+-    if(strcmp(w3d_fe_layout_menu(),"FE.Wormpot")) return;
++    // The touch UI runs inside scene rendering. Starting an animation here
++    // destroys nodes that the current traversal still holds (PC 0 in 801a38c8).
++    if(action==2 || action==3 || action==5 || action==6 || action==8 || action==9 || action==10)
++        pending_wormpot=action;
++}
++extern "C" void w3d_fe_wormpot_flush(void) {
++    const int action=pending_wormpot; pending_wormpot=-1;
++    const char *menu=w3d_test_fe_menu();
++    if(action<0 || w3d_fe_game_mode()!=6 || w3d_fe_popup_depth()!=0 || !menu || strcmp(menu,"FE.Wormpot")) return;
+     for(unsigned i=entry_count;i>0;--i) {
+         Entry &e=entries[i-1];
+-        if(strcmp(e.menu,"FE.Wormpot") || strcmp(e.name,"New.WormPot")) continue;
++        if(strcmp(e.menu,"FE.Wormpot") || strcmp(e.name,"New.WormPot") || !e.visible || seconds()-e.seen>.25) continue;
+         void *owner=(char *)e.panel-28; // FruitMachine::sub, original 802a8650.
+         if(*((unsigned *)((char *)owner+1340))) return; // Native spin/nudge still active.
+         A802aa8a4(owner,action);
+@@ -545,3 +581,23 @@
+         return;
+     }
+ }
++
++// Small, bounded UI evidence for SELECT reports. Read saved metadata only;
++// never dereference registry pointers after menu teardown.
++extern "C" void w3d_fe_dump_ui(const char *dir) {
++    char path[192]; snprintf(path,sizeof path,"%s/ui.txt",dir);
++    FILE *f=fopen(path,"wb"); if(!f) return;
++    if(w3d_fe_game_mode()!=6 && w3d_fe_game_mode()!=7) {
++        fprintf(f,"Escena original, modo=%d; sin controles de menu superpuestos.\n",w3d_fe_game_mode());
++        fclose(f);return;
++    }
++    double t=0; for(unsigned i=0;i<entry_count;++i) if(entries[i].seen>t)t=entries[i].seen;
++    fprintf(f,"menu/control | pantalla | centro x,y | ancho,alto | tactil | profundidad\n");
++    for(unsigned i=0;i<entry_count;++i) {
++        const Entry &e=entries[i];
++        if(t-e.seen>0.2) continue;
++        fprintf(f,"%s/%s | %s | %.2f,%.2f | %.2f,%.2f | %d | %d\n",e.menu,e.name,
++            !e.visible?"oculto":e.bottom?"inferior":"superior",e.visible && !e.bottom?e.x+40:e.x,e.visible && !e.bottom && w3d_fe_game_mode()==6?e.y+240:e.y,e.w,e.h,e.touch,e.depth);
++    }
++    fclose(f);
++}
+--- a/port/platform/3ds/diag.cpp
++++ b/port/platform/3ds/diag.cpp
+@@ -1,11 +1,11 @@
+ #include "../../core/sdk/audio_metrics.h"
+ // Registro en anillo, métricas, capturas reales de ambas pantallas, volcados de RAM y VRAM, y manejador de excepciones.
+-// SELECT (si está activado): volcado de absolutamente todo, en dumps/NNN. L+R+X: borra todos los volcados (dumps/ y prueba/).
+-// SELECT: volcado completo al soltarlo (activado desde el arranque; la fila 19 de la pantalla de abajo lo apaga).
++// SELECT (si está activado): informe rápido y capturas, en dumps/NNN. L+R+X: borra todos los volcados (dumps/ y prueba/).
++// SELECT: informe rápido al soltarlo (activado desde el arranque; la fila 19 de la pantalla de abajo lo apaga).
+ // SELECT+START a la vez: prueba automática (test_3ds.cpp). Si el juego se cuelga, el vigilante (hilo principal, con más
+ // prioridad que el juego) guarda solo un informe a los 10 s, y L+R+A vuelca todo, en dumps/bloqueo_NNN.
+ // Pantalla de abajo (táctil): "Volcado con SELECT" hace que SELECT solo (sin L ni R, que mueven la cámara del juego)
+-// vuelque todo como L+R+A; SELECT no está en el mando de GameCube, así que el juego no lo ve. "ROPA" abre la lista
++// guarde el informe rápido; SELECT no está en el mando de GameCube, así que el juego no lo ve. "ROPA" abre la lista
+ // de gorros de prueba (core/native/hat_militar.cpp): uno a la vez para todos los worms; BACK vuelve a las cifras.
+ // "MAPA" (fila 21, v27) abre la lista de mapas de la partida rápida: el original y los convertidos de Ultimate Mayhem
+ // (core/native/mapa_um.cpp). Un toque en uno lo elige y, si el juego está en el menú principal, pulsa A por el jugador:
+@@ -15,6 +15,7 @@
+ #include "diag.h"
+ #include "zones_3ds.h"
+ #include "version.h"
++#include "../../core/native/card_ui.h"
+ #include <3ds.h>
+ #include <citro3d.h>
+ #include <stdarg.h>
+@@ -36,6 +37,7 @@
+ extern u32 fake_heap_start_dummy;
+ extern "C" volatile unsigned w3d_gxq_stalls, w3d_gxq_submit_fails, w3d_gxq_stall_cmd, w3d_gxq_stall_pending;   // c3d/gxqueue.c
+ unsigned w3d_retrace_count_cxx(void);
++extern "C" bool w3d_vpad_finished(void);
+ const char *volatile diag_phase_name = "arranque";
+ // v31 (el dueño, 2026-11-07: «cuando hay un fallo se debería volcar absolutamente todo, incluyendo la RAM y la VRAM»):
+ // bloqueo, excepción y GPU que no avisa hacen un volcado completo (toda la memoria legible del proceso: montón, montón
+@@ -57,6 +59,12 @@
+ // Ahogo de Ultimate Mayhem (v26, core/native/ahogo.cpp): 1 activado, 0 el ahogo de W3D con el hundimiento lento.
+ extern "C" int w3d_ahogo_um_get(void);
+ extern "C" void w3d_ahogo_um_set(int on);
++void w3d_fe_dump_ui(const char *dir);
++int w3d_fe_game_mode(void);
++int w3d_fe_popup_depth(void);
++const char *w3d_fe_last_popup(void);
++const char *w3d_fe_highlighted(void);
++const char *w3d_fe_prop_str(const char *);
+ const char *w3d_test_fe_menu(void);   // core/native/test_hooks.cpp
+ int w3d_hat_count(void);
+ const char *w3d_hat_label(int);
+@@ -94,7 +102,7 @@
+ const char *g_dump_why;             // Motivo del próximo volcado (versión de prueba); sin él, SELECT o capturas.
+ volatile unsigned g_dumps_done;
+ bool g_delete_dumps;                // L+R+X: borrar todos los volcados en el cuadro siguiente.
+-bool g_select_dump = true;          // SELECT solo hace el volcado completo desde el arranque (pedido del dueño, v21); la fila 19 lo apaga.
++bool g_select_dump = true;          // SELECT solo hace el informe rápido desde el arranque (pedido del dueño, v21); la fila 19 lo apaga.
+ int g_page;                         // Pantalla de abajo: 0 cifras, 1 menú Ropa, 2 menú Mapa.
+ u32 g_pulsa_a_hasta;                // Retrazo hasta el que se pulsa A por el jugador (menú Mapa en el menú principal).
+ bool g_page_dirty;                  // Cambió la página o la selección: se redibuja en el cuadro siguiente.
+@@ -293,7 +301,7 @@
+ // Progreso del volcado: bytes previstos y escritos, y qué se está escribiendo.
+ struct Progress { bool on; u64 total, done, t0, last; const char *what; char dir[100]; } g_prog;
+ // Opciones de desarrollador (v28, página Developer de la pantalla de abajo, ui_pages.cpp), en <datos>/developer.ini:
+-// overlay=1 deja abrir esta consola con L+R+SELECT (v29; antes START+SELECT, que ahora lanza la prueba); dump=1 hace el volcado completo con SELECT (g_select_dump).
++// overlay=1 deja abrir esta consola con L+R+SELECT (v29; antes START+SELECT, que ahora lanza la prueba); dump=1 hace el informe rápido con SELECT (g_select_dump).
+ // Mientras la consola está abierta, o hay un volcado, o acaba de terminar uno (4 s para leer el resultado), la pantalla
+ // de abajo es de esta consola y la UI no dibuja en ella.
+ bool g_dev_overlay = true, g_overlay_open;
+@@ -390,6 +398,16 @@
+ }
+ 
+ void dump_info(FILE *f) {
++    auto safe=[](const char *s) {return s?s:"";};
++    fprintf(f,"release=%s build=%d\nmodo=%d menu=%s popup_depth=%d popup=%s\nseleccion=%s\nayuda=%s\n",
++        W3D_RELEASE_NAME,W3D_3DS_VERSION,w3d_fe_game_mode(),safe(w3d_test_fe_menu()),w3d_fe_popup_depth(),
++        w3d_fe_popup_depth()>0?safe(w3d_fe_last_popup()):"",safe(w3d_fe_highlighted()),w3d_fe_game_mode()>=6?safe(w3d_fe_prop_str("FE.ToolTip")):"");
++
++    W3dCardUi card;
++    if(w3d_card_ui_read(&card)) {
++        fprintf(f,"dialogo_sd=%s preparado=%d opcion=%d acciones=%d operacion=%d\n",card.title,card.ready,card.selected,card.count,card.operation);
++        for(int i=0;i<card.count;++i) fprintf(f,"accion_sd[%d]=%s\n",i,card.options[i]);
++    }
+     bool is_new = false; APT_CheckNew3DS(&is_new);
+     u8 model = 0; CFGU_GetSystemModel(&model);
+     u32 ver = osGetFirmVersion(), kver = osGetKernelVersion();
+@@ -421,15 +439,26 @@
+ 
+ int g_dump_index = -1;
+ int next_dump_index() {
+-    int &cached = g_dump_index;
+-    if (cached < 0) {
+-        for (cached = 0; cached < 999; cached++) {
+-            char p[100]; snprintf(p, sizeof p, "%s/dumps/%03d", kRoot, cached);
+-            struct stat st; if (stat(p, &st) != 0) break;
+-        }
+-    }
+-    return cached++;
+-}
++    // Continue after the highest existing number, including after a restart and
++    // beyond 999. Never reuse a hole left by a deleted report.
++    if(g_dump_index<0) {
++        g_dump_index=0;
++        char root[100]; snprintf(root,sizeof root,"%s/dumps",kRoot);
++        if(DIR *dir=opendir(root)) {
++            while(dirent *entry=readdir(dir)) {
++                const char *n=entry->d_name, *suffix=strrchr(n,'_');
++                if(suffix) n=suffix+1;
++                if(*n<'0' || *n>'9') continue;
++                char *end; long v=strtol(n,&end,10);
++                if(!*end && v>=g_dump_index && v<1000000000) g_dump_index=(int)v+1;
++            }
++            closedir(dir);
++        }
++    }
++    return g_dump_index++;
++}
++static char g_quick_notice[80];
++static u64 g_quick_notice_until;
+ 
+ void dump_ring(const char *dir) {
+     char p[160]; snprintf(p, sizeof p, "%s/log.txt", dir);
+@@ -756,6 +785,11 @@
+       } }
+     // W3D_DUMP_FRAME=<n>: lo mismo que L+R+A, en ese cuadro, para las pruebas.
+     { static int auto_d = -2; if (auto_d == -2) { const char *e = getenv("W3D_DUMP_FRAME"); auto_d = e ? atoi(e) : -1; } if (auto_d >= 0 && (int)g_frame >= auto_d) { auto_d = -1; g_next_dump = 1; } }
++    // Optional bounded review run: exit only after every scripted input/anchor.
++    { static int after=-2; static unsigned finished;
++      if(after==-2) {const char *e=getenv("W3D_EXIT_VPAD");after=e?atoi(e):-1;}
++      if(after>=0 && w3d_vpad_finished()) {if(++finished>(unsigned)after) {diag_log("[review] guion completo\n");diag_flush();svcExitProcess();}}
++      else finished=0; }
+     // W3D_HANG_FRAME=<n>: el juego se queda en un bucle sin fin en ese cuadro, para probar el vigilante.
+     { static int hang = -2; if (hang == -2) { const char *e = getenv("W3D_HANG_FRAME"); hang = e ? atoi(e) : -1; } if (hang >= 0 && (int)g_frame >= hang) { diag_log("[diag] cuelgue de prueba\n"); diag_flush(); DIAG_PHASE("cuelgue de prueba (W3D_HANG_FRAME)"); for (volatile u32 i = 0;; i++) {} } }
+     if (stop >= 0 && (int)g_frame >= stop) { diag_log("[diag] fin de prueba en el cuadro %lu\n", (unsigned long)g_frame); diag_flush(); svcExitProcess(); }
+@@ -771,21 +805,28 @@
+         if (kind && !sd_room_for_full()) { diag_log("[diag] la SD no tiene 400 MB libres: informe en vez de volcado completo\n"); kind = 0; }
+         w3d_audio_pause(true);
+         s32 prio = 0x30; svcGetThreadPriority(&prio, CUR_THREAD_HANDLE); svcSetThreadPriority(CUR_THREAD_HANDLE, 0x18);
+-        char d[100]; snprintf(d, sizeof d, "%s/dumps/%03d", kRoot, next_dump_index()); mkdir(d, 0755);
++        const int dump_index=next_dump_index();
++        char d[100]; snprintf(d, sizeof d, "%s/dumps/%03d", kRoot, dump_index);
++        if(mkdir(d,0755)!=0) {
++            snprintf(g_quick_notice,sizeof g_quick_notice,"No se pudo crear el dump %03d",dump_index);
++            g_quick_notice_until=svcGetSystemTick()+3ull*SYSCLOCK_ARM11;
++            svcSetThreadPriority(CUR_THREAD_HANDLE,prio); w3d_audio_pause(false);io_busy(-1);return;
++        }
+         diag_log("[diag] volcado %s tipo %d\n", d, kind);
+         diag_flush();
+         memset(&g_prog, 0, sizeof g_prog); strncpy(g_prog.dir, d, sizeof g_prog.dir - 1);
+-        g_prog.t0 = g_prog.last = svcGetSystemTick(); g_prog.on = true;
++        g_prog.t0 = g_prog.last = svcGetSystemTick(); g_prog.on = kind != 0;
+         g_prog.total = (2u << 20) + (kind ? memory_dump_size() : 0);   // Capturas e informes: unos 2 MB.
+         g_prog.what = "screens and report";
+         // Las capturas del informe, antes de la pantalla de carga (si no, salía ella en la de abajo).
+         capture_screens(d, "pantalla");
+-        progress_draw(true);
++        if(kind) progress_draw(true);
+         { static const bool shot = getenv("W3D_SHOT_LOADING") != nullptr; if (shot) capture_screens(d, "carga"); }   // pruebas: la pantalla de carga
+         dump_small(d, g_dump_why ? g_dump_why : kind ? "L+R+A" : "capturas", false);
+         g_dump_why = nullptr;
+         progress_step("timings and GX state", 1u << 20);
+         dump_perf(d);
++        w3d_fe_dump_ui(d);
+         gx_dump_state(d);
+         dump_gpu_regs(d, false);
+         w3d_zones_write(d);
+@@ -797,18 +838,32 @@
+             if (FILE *q = fopen(ini, "rb")) { static char buf[4096]; size_t n = fread(buf, 1, sizeof buf, q); fclose(q); write_raw(d, "debug.ini", buf, n); }
+             dump_ring(d);
+         }
+-        g_prog.done = g_prog.total; g_prog.what = "finished"; progress_draw(true);
++        g_prog.done = g_prog.total; g_prog.what = "finished"; if(kind) progress_draw(true);
+         float secs = (float)(svcGetSystemTick() - g_prog.t0) / SYSCLOCK_ARM11;
+         w3d_paused_seconds += secs;   // El reloj del juego no cuenta el volcado (sdk_core.cpp).
+         g_prog.on = false;
+         // 4 s para leer el resultado; en la prueba automática no (v29): la pantalla de abajo seguía siendo de la consola y
+         // la UI no recibía las pulsaciones del guion (la A de la partida rápida se perdía).
+-        g_console_hold_until = w3d_test_root() ? 0 : svcGetSystemTick() + 4ull * SYSCLOCK_ARM11;
+-        con_begin();
++        g_console_hold_until = !kind || w3d_test_root() ? 0 : svcGetSystemTick() + 4ull * SYSCLOCK_ARM11;
++        if(kind) { con_begin();
+         if (!g_overlay_open) printf("\x1b[2J");
+         printf("\x1b[%d;1H" C_OK " DONE " C_HDR " %s " C_VAL "%s" C_RST "\x1b[K", kStatusRow, kind ? "Dump" : "Screens", d + strlen(kRoot) + 1);
+         printf("\x1b[%d;1H " C_VAL "%.1f MB" C_DIM " in " C_VAL "%.1f s" C_DIM "  - game resumes" C_RST "\x1b[K", kStatusRow + 3, (float)g_prog.total / (1 << 20), secs);
+-        con_end();
++        con_end(); }
++        if(!kind) {
++            bool complete=true; struct stat st; char file[180];
++            const char *required[]={"info.txt","log.txt","ui.txt","pantalla_top.bmp","pantalla_bottom.bmp"};
++            for(const char *n:required) {
++                snprintf(file,sizeof file,"%s/%s",d,n);
++                if(stat(file,&st)!=0 || !st.st_size) {complete=false;continue;}
++                if(!strcmp(n,"pantalla_top.bmp") && st.st_size!=54+400*240*3) complete=false;
++                if(!strcmp(n,"pantalla_bottom.bmp") && st.st_size!=54+320*240*3) complete=false;
++            }
++            snprintf(file,sizeof file,"%s/resultado.txt",d);
++            if(FILE *f=fopen(file,"wb")) {fprintf(f,"release=%s\nindice=%03d\ncompleto=%d\nsegundos=%.3f\n",W3D_RELEASE_NAME,dump_index,complete,secs);fclose(f);}
++            snprintf(g_quick_notice,sizeof g_quick_notice,complete?"Dump %03d guardado (%.1f s)":"Dump %03d incompleto (%.1f s)",dump_index,secs);
++            g_quick_notice_until=svcGetSystemTick()+2ull*SYSCLOCK_ARM11;
++        }
+         svcSetThreadPriority(CUR_THREAD_HANDLE, prio);
+         w3d_audio_pause(false);
+         g_last_tick = 0;   // El cuadro del volcado no cuenta en las medias.
+@@ -906,6 +961,13 @@
+     { static const bool on = getenv("W3D_LOG_MENUS") != nullptr; static char last[48];
+       if (on && g_frame % 4 == 0) { const char *mn = w3d_test_fe_menu(); if (!mn) mn = "";
+         if (strncmp(last, mn, sizeof last - 1)) { strncpy(last, mn, sizeof last - 1); diag_log("[menu] \"%s\" en el retrazo %u\n", mn, w3d_retrace_count_cxx()); } } }
++    { static const bool review=getenv("W3D_UI_REVIEW_LOG")!=nullptr; static char previous[1400];
++      if(review && w3d_fe_game_mode()>=6) {
++        auto safe=[](const char *s){return s?s:"";};
++        char state[1400];snprintf(state,sizeof state,"menu=%s depth=%d popup=%s selected=%s tip=%s",safe(w3d_test_fe_menu()),w3d_fe_popup_depth(),
++            w3d_fe_popup_depth()?safe(w3d_fe_last_popup()):"",safe(w3d_fe_highlighted()),safe(w3d_fe_prop_str("FE.ToolTip")));
++        if(strcmp(state,previous)) {snprintf(previous,sizeof previous,"%s",state);diag_log("[review] %u %s\n",w3d_retrace_count_cxx(),state);}
++      } }
+     // W3D_ROPA_CICLO=<n> (debug.ini): cambia de gorro cada n cuadros, para ver todos en una prueba de Azahar.
+     { static int every = -2; if (every == -2) { const char *e = getenv("W3D_ROPA_CICLO"); every = e ? atoi(e) : 0; }
+       if (every > 0 && g_frame && g_frame % every == 0) { w3d_hat_mode = w3d_hat_mode % w3d_hat_count() + 1; diag_log("[diag] ropa (ciclo): %s\n", w3d_hat_label(w3d_hat_mode)); g_page_dirty = true; } }
+@@ -1012,7 +1074,7 @@
+         if (debug_keys) { diag_log("[diag] R+SELECT: consola %s\n", g_overlay_open ? "cerrada" : "abierta"); overlay_set(!g_overlay_open); }
+     }
+     // v32 (el dueño): los volcados solo con SELECT (si está activado en la consola de desarrollador); L+R+A ya no vuelca.
+-    if (debug_keys && !(held & KEY_SELECT) && (g_prev_held & KEY_SELECT) && !select_chord) { diag_log("[diag] SELECT: volcado\n"); g_dump_why = "SELECT"; g_next_dump = 1; }
++    if (debug_keys && !(held & KEY_SELECT) && (g_prev_held & KEY_SELECT) && !select_chord) { diag_log("[diag] SELECT: volcado\n"); g_dump_why = "SELECT (informe rapido)"; g_next_dump = 0; }
+     if (debug_keys && lr && pressed(KEY_X)) { diag_log("[diag] L+R+X pulsado\n"); g_delete_dumps = true; }
+     // Toques en la consola (v28): por celda de 8 px. Página 0: SELECT DUMP, RUN AUTO TEST, OUTFIT, MAP y los tres modos
+     // de prueba. Outfit y Map: una entrada por toque y BACK.
+@@ -1220,3 +1282,5 @@
+     capture_screens(dir, name);
+ }
+ }
++
++extern "C" const char *diag_quick_notice(void) { return svcGetSystemTick()<g_quick_notice_until?g_quick_notice:nullptr; }
+--- a/port/platform/3ds/version.h
++++ b/port/platform/3ds/version.h
+@@ -1,4 +1,5 @@
+-// Número de versión de las entregas para consola real. Se sube en cada CIA nuevo (el dueño lo pidió el 2026-11-03:
+-// versión 3, 4, 5...). Sale abajo a la izquierda en la pantalla de abajo y en el registro.
++// Build interno monotónico y versión pública de la serie beta.
+ #pragma once
+-#define W3D_3DS_VERSION 45
++#define W3D_3DS_VERSION 46
++#define W3D_RELEASE_NAME "Beta 0.1"
++#define W3D_RELEASE_SLUG "beta-0.1"
+--- a/port/platform/ui/ui_core.cpp
++++ b/port/platform/ui/ui_core.cpp
+@@ -18,6 +18,9 @@
+ #include <vector>
+ #include <deque>
+ #include "ui.h"
++#if defined(__3DS__)
++extern "C" const char *diag_quick_notice(void);
++#endif
+ namespace ui { bool hud_panel_preload(); void pages_cut(); }   // hud_panel.cpp, ui_pages.cpp
+ #include "../platform.h"
+ #if defined(__3DS__)
+@@ -590,7 +593,7 @@
+     // v39: un solo interruptor para las tres combinaciones (diag.cpp, debug_keys).
+     {"Debug buttons", "Boutons de débogage", "Debug-Tasten", "Tasti di debug", "Botones de depuración"},
+     {"Off: none of these buttons does anything.", "Désactivé : aucun de ces boutons ne fait rien.", "Aus: Keine dieser Tasten tut etwas.", "Off: nessuno di questi tasti fa nulla.", "Desactivado: ninguno de esos botones hace nada."},
+-    {"SELECT: dump. R+SELECT: console. START+SELECT: auto test.", "SELECT : dump. R+SELECT : console. START+SELECT : test auto.", "SELECT: Dump. R+SELECT: Konsole. START+SELECT: Autotest.", "SELECT: dump. R+SELECT: console. START+SELECT: test automatico.", "SELECT: volcado. R+SELECT: consola. START+SELECT: prueba autom\xc3\xa1tica."},
++    {"SELECT: dump. R+SELECT: console. START+SELECT: auto test.", "SELECT : dump. R+SELECT : console. START+SELECT : test auto.", "SELECT: Dump. R+SELECT: Konsole. START+SELECT: Autotest.", "SELECT: dump. R+SELECT: console. START+SELECT: test automatico.", "SELECT: informe rápido. R+SELECT: consola. START+SELECT: prueba autom\xc3\xa1tica."},
+     {"On", "Oui", "Ein", "Sì", "Sí"},
+     {"Off", "Non", "Aus", "No", "No"},
+     {"Back", "Retour", "Zurück", "Indietro", "Volver"},
+@@ -682,10 +685,17 @@
+ }
+ // Caché por clave (el mismo literal) e idioma: una clave que no existe se busca una sola vez.
+ const char *key_text(const char *key, const char *fallback) {
++    // A property of the current control is live data, never a language-cache entry.
++    if (!strcmp(key, "FE.ToolTip")) {
++        const char *t = w3d_fe_text(key);
++        return t ? game_text(t) : fallback;
++    }
+     struct Entry { const char *key; int lang; bool found; char text[200]; };
+     static Entry cache[48]; static int used;
+     if (w3d_fe_game_mode() < 6) return fallback;   // los textos del FE están cargados desde el menú
+     const int l = lang();
++    if (l == 4 && !strcmp(key, "Lang.SinglePlayer")) return "Un Jugador";
++    if (l == 4 && !strcmp(key, "Lang.SoundOptions")) return "Opciones de sonido";
+     for (int i = 0; i < used; i++) if (cache[i].key == key && cache[i].lang == l) return cache[i].found ? cache[i].text : fallback;
+     static int victim; Entry &e = cache[used < 48 ? used++ : (victim = (victim + 1) % 48)];
+     e.key = key; e.lang = l;
+@@ -789,7 +799,7 @@
+     text_shadow(160, 218, "Ported by Esteban PdN", 12, 0xd2d2d2ff, 1);
+ #if defined(__3DS__)
+     // La versión instalada, abajo a la izquierda como hasta la v27 (el dueño, 2026-11-03: «versión 3, 4, 5...»).
+-    { char v[16]; snprintf(v, sizeof v, "v%d", W3D_3DS_VERSION); text_shadow(6, 226, v, 10, 0x9aa8c8ff, 0); }
++    { char v[24]; snprintf(v, sizeof v, "%s", W3D_RELEASE_NAME); text_shadow(6, 226, v, 10, 0x9aa8c8ff, 0); }
+ #endif
+     if (fade_black > 0) rect(0, 0, 320, 240, black(fade_black));
+ }
+@@ -1132,6 +1142,12 @@
+         pages_frame();
+         navigation_end();
+     }
++#if defined(__3DS__)
++    if (const char *notice=diag_quick_notice()) {
++        begin(1); set_fade(1); rect(48,218,224,22,0x0b2a50f0);
++        text_fit(160,222,notice,12,212,0xffdc48ff,1);
++    }
++#endif
+     if (load) game_load_overlay();
+     uib_end();
+     g_screen = -1;
+--- a/port/platform/ui/ui_pages.cpp
++++ b/port/platform/ui/ui_pages.cpp
+@@ -9,6 +9,7 @@
+ #include "ui.h"
+ #include "../../core/native/hud_state.h"
+ #include "hud_panel.h"
++#include "../../core/native/card_ui.h"
+ 
+ extern "C" {
+ static int map_tex=-1; static float map_u=1,map_v=1;
+@@ -130,6 +131,18 @@
+ }
+ // Etiqueta de un consejo del juego: lo que va antes de " - " ("Quick Start - Press this button..." -> "Quick Start").
+ const char *tip_label(const char *key, const char *fallback) {
++    // Spanish tips are sentences (often with ':'), not stable menu labels.
++    if (lang() == 4 && key) {
++        static const struct { const char *key, *label; } labels[] = {
++            {"FE.Tip.QuickStart", "Inicio rápido"}, {"FE.Tip.SinglePlayerMenu", "Un Jugador"},
++            {"FE.Tip.MultiplayerMenu", "Multijugador"}, {"FE.Tip.OptionsMenu", "Opciones"},
++            {"FE.Tip.TutorialMenu", "Entrenamiento"}, {"FE.Tip.CampaignMenu", "Campaña"},
++            {"FE.Tip.ChallengeMenu", "Desafíos"}, {"FE.Tip.OptionsSoundOptions", "Sonido"},
++            {"FE.Tip.OptionsWormapedia", "Gusaciclopedia"}, {"FE.Tip.OptionsWeaponOptions", "Opciones de armas"},
++            {"FE.Tip.OptionsGameOptions", "Reglas de partida"}, {"FE.Screen.Language", "Idioma"}
++        };
++        for (const auto &l : labels) if (!strcmp(key, l.key)) return l.label;
++    }
+     const char *t = key ? key_text(key, nullptr) : nullptr;
+     if (!t) return fallback;
+     static char buf[4][64]; static int k; char *o = buf[k = (k + 1) & 3];
+@@ -376,7 +389,7 @@
+ void top_info_panel(const char *menu_title, const char *icon, const char *ring, const char *name, const char *desc) {
+     begin(0);
+     if (menu_title && *menu_title) title(menu_title);
+-    panel(img(kBorderBlue,0), 12, 40, 376, 188, 6, 0x183b7898);
++    panel(img(kBorderBlue,0), 12, 40, 376, 188, 6, 0x183b78ff);
+     ring_icon(icon, 90, 134, 120, true);
+     text_fit(166, 58, name, 21, 206, 0xffffffff, 0);
+     text_scroll(166, 88, 206, 128, desc, 15, 0xe6eeffff);
+@@ -476,6 +489,60 @@
+     }
+     if (back_button()) press(0x200);
+ }
++// SD dialogs use a different native screen from FE menus. Its original record
++// supplies the text keys, choices, selection, progress and error state.
++const char *card_text(const char *key) {
++    const bool es=lang()==4;
++    static const struct {const char *key,*es,*en;} text[]={
++        {"NGC.MC.ReadyAccess","Todo listo para acceder a los datos de la tarjeta SD.","Ready to access the data on the SD card."},
++        {"NGC.MC.DontTouch","Accediendo a los datos. No retires la tarjeta SD ni apagues la consola.","Accessing data. Do not remove the SD card or turn off the console."},
++        {"NGC.MC.OverWrite","¿Quieres sobrescribir los datos guardados de Worms 3D?","Overwrite the saved Worms 3D data?"},
++        {"NGC.MC.SaveComplete","Datos guardados correctamente.","Data saved successfully."},
++        {"NGC.MC.ReadComplete","Datos cargados correctamente.","Data loaded successfully."},
++        {"NGC.MC.SaveFailed","No se pudieron guardar los datos. Comprueba la tarjeta SD e inténtalo de nuevo.","Could not save the data. Check the SD card and try again."},
++        {"NGC.MC.ReadFailed","No se pudieron leer los datos guardados.","Could not read the saved data."},
++        {"NGC.MC.NoFile","Todavía no hay datos guardados de Worms 3D.","There is no Worms 3D save data yet."},
++        {"NGC.MC.NoSpace","No hay espacio suficiente para guardar los datos en la tarjeta SD.","There is not enough space to save data on the SD card."},
++        {"NGC.MC.NoCard","No se puede acceder a la tarjeta SD.","The SD card is not accessible."},
++        {"NGC.MC.Damaged","No se puede leer el almacenamiento de datos guardados.","The save storage could not be read."},
++        {"NGC.MC.WrongDevice","El almacenamiento seleccionado no está disponible.","The selected storage is not available."},
++        {"NGC.MC.NoSupport","Los datos guardados no son compatibles con este juego.","The saved data is not compatible with this game."},
++        {"NGC.MC.Corrupt","El almacenamiento de partidas contiene datos dañados.","The save storage contains damaged data."},
++        {"NGC.MC.FormatFailed","No se pudo inicializar el almacenamiento de partidas.","Could not initialize the save storage."},
++        {"NGC.MC.FormatSure","Se borrarán los datos del almacenamiento de partidas. ¿Quieres continuar?","The data in the save storage will be erased. Continue?"},
++        {"NGC.MC.Delete","Los datos guardados están dañados. ¿Quieres borrarlos?","The saved data is damaged. Delete it?"},
++        {"NGC.MC.Manage","Gestionar datos guardados","Manage save data"},
++        {"NGC.MC.ManageLost","Gestionar datos (se perderán los cambios sin guardar)","Manage data (unsaved changes will be lost)"},
++        {"NGC.MC.Continue","Continuar sin guardar/cargar","Continue without saving/loading"},
++        {"NGC.MC.Format","Inicializar datos","Initialize data"},
++        {"NGC.MC.Okay","Aceptar","OK"}, {"NGC.MC.Yes","Sí","Yes"}, {"NGC.MC.No","No","No"},
++        {"NGC.MC.Retry","Reintentar","Retry"}, {"NGC.MC.Saving","Guardar","Save"}, {"NGC.MC.Loading","Cargar","Load"}
++    };
++    if(es || lang()==0) for(const auto &t:text) if(!strcmp(key,t.key)) return es?t.es:t.en;
++    const char *value=w3d_fe_text(key);
++    return value?game_text(value):key;
++}
++void page_card(const W3dCardUi &card) {
++    set_fade(1);
++    hide_top_big("Frontend/Mechanics/Text_Border_Keyboard.tga",90);
++    begin(0);
++    title(lang()==4?"Datos guardados":"Save data");
++    panel(img(kBorderBlue,0),18,54,364,166,7,0x193d78ff);
++    text_scroll(38,80,324,116,card_text(card.title),18,0xffffffff);
++    begin(1);
++    // This panel is opaque: a second native modal can never leak through it.
++    panel(img(kBorderBlue,0),12,12,296,216,7,0x193d78ff);
++    if(!card.count) {
++        text_fit(160,104,tr(T_LOADING),22,264,0xffdc48ff,1);
++        return;
++    }
++    float h=card.count>3?34:44, gap=8, y=(240-card.count*h-(card.count-1)*gap)*.5f;
++    for(int i=0;i<card.count;++i) {
++        const bool selected=i==card.selected;
++        if(text_button(30,y+i*(h+gap),260,h,card_text(card.options[i]),selected,16) && card.ready) w3d_card_ui_choose(i);
++    }
++}
++
+ // --- Ropa (v29) -------------------------------------------------------------------------------------------------
+ // Los gorros de Worms Ultimate Mayhem que lleva puestos cada worm (core/native/hat_militar.cpp: los 76 de UM en Mac y en
+ // 3DS). Miniaturas en 10 columnas, la 0 sin gorro y la k el gorro k:
+@@ -523,7 +590,7 @@
+ }
+ // Fila de Developer: el gorro puesto y el botón Elegir.
+ bool ropa_row(float y) {
+-    panel(img(kBorderBlue,0), kMargin, y, 320 - 2 * kMargin, 44, 6, 0x183b7898);
++    panel(img(kBorderBlue,0), kMargin, y, 320 - 2 * kMargin, 44, 6, 0x183b78ff);
+     if (!ropa_thumb(w3d_hat_mode, kMargin + 8, y + 2, 40)) ring_icon("icon_developer.w3ui", kMargin + 28, y + 22, 34, false);
+     text_shadow(kMargin + 56, y + 4, ropa_text(0), 16, 0xffffffff, 0);
+     text_fit(kMargin + 56, y + 24, ropa_name(w3d_hat_mode), 12, 150, 0xd8e4ffff, 0);
+@@ -607,7 +674,7 @@
+     // Arriba.
+     begin(0);
+     title(ropa_text(0));
+-    panel(img(kBorderBlue,0), 12, 40, 376, 188, 6, 0x183b7898);
++    panel(img(kBorderBlue,0), 12, 40, 376, 188, 6, 0x183b78ff);
+     if (!ropa_thumb(ropa_focus, 26, 70, 128)) ring_icon("icon_developer.w3ui", 90, 134, 120, true);
+     text_fit(166, 58, ropa_name(ropa_focus), 21, 206, 0xffffffff, 0);
+     { static char d[200]; snprintf(d, sizeof d, "%d / %d\n%s", ropa_focus, n - 1, ropa_text(3));
+@@ -634,7 +701,7 @@
+     // ninguna de las tres hace nada. (Antes había dos: Overlay y Dump.)
+     {
+         const float y = 40;
+-        panel(img(kBorderBlue,0), kMargin, y, 320 - 2 * kMargin, 70, 6, 0x183b7898);
++        panel(img(kBorderBlue,0), kMargin, y, 320 - 2 * kMargin, 70, 6, 0x183b78ff);
+         // Icono propio en el estilo del juego (docs/ui-3ds/arte-hd/PROCEDENCIA.md).
+         ring_icon("icon_dump.w3ui", kMargin + 28, y + 35, 40, false);
+         text_shadow(kMargin + 56, y + 5, tr(T_DUMP), 16, 0xffffffff, 0);
+@@ -666,9 +733,25 @@
+     }
+ }
+ 
+-// Confirmation uses the original circular blue/gold buttons, not FE's tilted ovals.
++// Native popup borders are separate scenes from their controls. Remove that
++// window only, leaving the original animated world behind the modal intact.
++void modal_top(const char *heading,const char *message) {
++    set_fade(1);
++    hide_top_big("Frontend/Mechanics/Text_Border_Keyboard.tga",90);
++    hide_top_big(kBorderBlue,90);
++    begin(0);
++    title(heading);
++    panel(img(kBorderBlue,0),18,54,364,166,7,0x193d78ff);
++    text_scroll(38,80,324,116,message,18,0xffffffff);
++    begin(1);
++}
++// Confirmation keeps the native actions and controller navigation.
+ void page_confirm(const char *popup) {
+     if(w3d_fe_native_layout() && w3d_fe_game_mode()!=7) {
++        const bool discard=!strcmp(popup,"FE.LeaveOptions") || !strcmp(popup,"FE.LeaveMultiplayer");
++        const char *question=discard?key_text("FE.Discard",tr(T_ARE_YOU_SURE)):
++            !strcmp(popup,"FE.QuitConfirmPopUp")?key_text("FE.Tip.QuitConfirm",tr(T_ARE_YOU_SURE)):key_text("FE.Tip.Sure",tr(T_ARE_YOU_SURE));
++        modal_top(lang()==4?"Confirmar":"Confirm",question);
+         if(touch_down()) if(const char *item=w3d_fe_native_hit(popup,input().tx,input().ty)) activate(item);
+         return;
+     }
+@@ -712,6 +795,15 @@
+             else w3d_fe_run("FE.KillPopUp\\FE.CreatePopUp$FE.InGameDrawConfirm");
+         }
+     }
++}
++// Original briefing text and scene, with the text box fitted to the touch screen.
++void page_brief() {
++    begin(1); set_fade(1); backdrop();
++    const char *raw=w3d_fe_prop_str("Game.BriefingText");
++    const char *resolved=raw?w3d_fe_text(raw):nullptr;
++    text_scroll(28,26,264,146,game_text(resolved?resolved:raw),16,0xffffffff);
++    if(text_button(40,182,240,34,tr(T_CONTINUE),true,17) || key_down(UI_K_A))
++        w3d_fe_run("FE.KillPopUp\\Game.BriefingDialogOkPressed");
+ }
+ // Six native columns, four visible rows. Keep the original weapon actions,
+ // availability, yellow highlight and pad neighbours; scroll the layout only.
+@@ -890,13 +982,33 @@
+ // Cualquier otro menú: cruceta, A y B táctiles con el nombre del elemento resaltado.
+ bool keyboard_page(const char *);
+ void page_generic(const char *menu) {
++    if(w3d_fe_native_layout() && menu && !strcmp(menu,"FE.NewScheme"))
++        hide_top_big("Frontend/Mechanics/Text_Border_Keyboard.tga",90);
+     // Un teclado del juego abierto (nombre de esquema, de equipo...): sus teclas se tocan abajo.
+     if (w3d_fe_native_layout() && keyboard_page(nullptr)) return;
++    // These popups keep their original lower controls, with one clear upper
++    // explanation instead of an empty native window over the previous menu.
++    if (w3d_fe_native_layout() && w3d_fe_popup_depth() > 0) {
++        if(!strcmp(menu,"FE.NewScheme")) modal_top(lang()==4?"Nuevo esquema":"New scheme",
++            lang()==4?"Toca el nombre para escribirlo. Acepta para crear el esquema con los ajustes actuales.":"Tap the name to edit it. Accept to create a scheme with the current settings.");
++        else if(!strcmp(menu,"FE.PopUnlocked")) modal_top(lang()==4?"Desbloqueables":"Unlockables",
++            lang()==4?"Completa los entrenamientos, las misiones y los desafíos para desbloquear más contenido.":"Complete tutorials, missions and challenges to unlock more content.");
++        begin(1);
++        if(touch_down()) if(const char *item=w3d_fe_native_hit(menu,input().tx,input().ty)) activate(item);
++        return;
++    }
+     char t[48];
+     const char *m = menu && !strncmp(menu, "FE.", 3) ? menu + 3 : menu ? menu : "";
+     // "GameSettings" -> "Game Settings"
+     int n = 0; for (const char *p = m; *p && n < 44; p++) { if (n && *p >= 'A' && *p <= 'Z' && p[-1] >= 'a' && p[-1] <= 'z') t[n++] = ' '; t[n++] = *p; } t[n] = 0;
+     if(w3d_fe_native_layout()) {
++        if(!strncmp(menu,"FE.PostTutorial",15) || !strncmp(menu,"FE.PostCampaign",15) || !strncmp(menu,"FE.PostChallenge",16)) {
++            begin(1);
++            const char *tip=key_text("FE.ToolTip","");
++            text_scroll(24,28,272,126,tip,18,0xffffffff);
++            if(touch_down()) if(const char *item=w3d_fe_native_hit(menu,input().tx,input().ty)) activate(item);
++            return;
++        }
+         if(!strcmp(menu,"FE.Wormpot")) {
+             begin(1);
+             for(int reel=0;reel<3;++reel) {
+@@ -931,13 +1043,17 @@
+         }
+         // Arriba, el título del juego (fe_layout.cpp lo sube; abajo ya no va) y la ayuda del elemento resaltado.
+         begin(0);
+-        panel(img(kBorderBlue,0),18,56,364,156,7,0x193d7890);
+-        const char *tip=w3d_fe_prop_str("FE.ToolTip");
+-        const char *h=w3d_fe_highlighted();
+-        // Un consejo sin " - " ("Enter a name for your team here.") no tiene etiqueta: no se repite como título.
+-        const bool split=tip && strstr(tip," - ");
+-        text_fit(36,74,split?tip_label("FE.ToolTip",h?h:t):(h?h:t),22,328,0xffdc48ff,0);
+-        if(tip) text_scroll(36,110,328,86,tip_desc("FE.ToolTip"),16,0xffffffff);
++        panel(img(kBorderBlue,0),18,56,364,156,7,0x193d78ff);
++        const char *tip=key_text("FE.ToolTip", "");
++        // Internal item IDs ("Dud Mines", "SAVE"...) are not user-facing titles.
++        // Read once: heading and body must describe the same selection this frame.
++        const char *split=strstr(tip," - ");
++        if (!split) split=strstr(tip,": ");
++        if (split && split-tip < 64) {
++            char heading[64]; memcpy(heading,tip,split-tip); heading[split-tip]=0;
++            text_fit(36,74,heading,22,328,0xffdc48ff,0);
++            text_scroll(36,110,328,86,split+(split[0]==':'?2:3),16,0xffffffff);
++        } else text_scroll(36,78,328,116,tip,17,0xffffffff);
+         begin(1);
+         if(touch_down()) if(const char *item=w3d_fe_native_hit(menu,input().tx,input().ty)) activate(item);
+         return;
+@@ -948,25 +1064,33 @@
+ }
+ 
+ void page_sound() {
+-    begin(0); title(key_text("Lang.SoundOptions","Sound Options")); begin(1);   // el título solo arriba
++    const bool es=lang()==4;
++    begin(0); title(key_text("Lang.SoundOptions","Sound Options"));
++    begin(1);
+     const char *props[]={"Audio.Vol.Music","Audio.Vol.Sfx","Audio.Vol.Ambient"};
+     const char *names[]={"Toggle Music","Toggle sfx","Environment"};
+-    const char *labels[]={tr(T_MUSIC),tr(T_SFX),tip_label("FE.Tip.EnvironmentToggle","Environment")};
++    const char *labels[]={tr(T_MUSIC),tr(T_SFX),es?"Ambiente":"Ambience"};
++    static int dragging=-1;
++    if(!input().touch) dragging=-1;
+     for(int i=0;i<3;++i) {
+-        float y=38+i*43, v=w3d_fe_prop_float(props[i],1); if(v<0)v=0;if(v>1)v=1;
+-        text_shadow(14,y,labels[i],13,0xffffffff,0);
++        float y=16+i*49, v=w3d_fe_prop_float(props[i],1); v=fmaxf(0,fminf(1,v));
++        const bool selected=nav_focus();
++        text_shadow(18,y,labels[i],15,selected?0xffdc48ff:0xffffffff,0);
+         char pct[12]; snprintf(pct,sizeof pct,"%d%%",(int)(v*100+.5f));
+-        text_shadow(306,y,pct,13,0xffdc48ff,2);
+-        if(text_button(14,y+16,29,23,"-",false,15)) {v=fmaxf(0,v-.1f);w3d_fe_set_float(props[i],v);w3d_fe_highlight(names[i]);}
+-        for(int j=0;j<10;++j) {
+-            rect(51+j*22,y+18,19,19,(j+.5f<=v*10)?0xffce35ff:0x153762a0);
+-        }
+-        if(hit(49,y+15,222,25) || (input().touch && input().tx>=49 && input().tx<271 && input().ty>=y+15 && input().ty<y+40)) {int level=input().touch?(input().tx-49)/22+1:(int)(v*10)+1; if(level>10)level=10;w3d_fe_set_float(props[i],level*.1f);w3d_fe_highlight(names[i]);}
+-        if(text_button(277,y+16,29,23,"+",false,15)) {v=fminf(1,v+.1f);w3d_fe_set_float(props[i],v);w3d_fe_highlight(names[i]);}
+-    }
+-    const char *modes[]={"Mono","Stereo","Surround"};
++        text_shadow(302,y,pct,14,0xffdc48ff,2);
++        native_button(18,y+22,284,14,false);
++        rect(27,y+26,266*v,6,0xffce35ff);
++        sprite(img(kRingHi,0),18+266*v,y+19,18,20);
++        int action=hit_row(14,y,292,43);
++        if(tap(14,y+17,292,27)) dragging=i;
++        bool changed=false;
++        if(dragging==i) {v=fmaxf(0,fminf(1,(input().tx-27)/266.f));changed=true;}
++        else if(action==1 || action==-1) {v=fmaxf(0,fminf(1,v+action*.05f));changed=true;}
++        if(changed) {w3d_fe_set_float(props[i],v);w3d_fe_highlight(names[i]);}
++    }
++    const char *modes[]={"Mono",es?"Estéreo":"Stereo",es?"Envolvente":"Surround"};
+     unsigned mode=w3d_fe_prop_uint("SAVE.SoundMode",1)%3;
+-    if(text_button(70,172,180,26,modes[mode],false,13)) activate("Sound");
++    if(text_button(60,171,200,28,modes[mode],false,15)) activate("Sound");
+     if(back_button()) activate("Cancel");
+ }
+ 
+@@ -1025,11 +1149,14 @@
+ void page_mission(const char *menu) {
+     const bool tut = !strcmp(menu, "FE.TutorialMenu"), camp = !strcmp(menu, "FE.CampaignMenu");
+     const char *mtitle = tut ? key_text("Lang.Tutorial", "Tutorial") : camp ? key_text("Lang.Campaign", "Campaign") : key_text("Lang.Challenge", "Challenge");
+-    const char *name = game_text(w3d_fe_prop_str("MCa.Title")), *desc = game_text(w3d_fe_prop_str("MCa.Desc"));
+-    const char *team = game_text(w3d_fe_prop_str("MCa.Team"));
++    // Medal rows also convert text; keep these outside game_text's ring buffer.
++    char name[256],desc[1400],team[128];
++    snprintf(name,sizeof name,"%s",game_text(w3d_fe_prop_str("MCa.Title")));
++    snprintf(desc,sizeof desc,"%s",game_text(w3d_fe_prop_str("MCa.Desc")));
++    snprintf(team,sizeof team,"%s",game_text(w3d_fe_prop_str("MCa.Team")));
+     const char *lvl_raw = w3d_fe_prop_str("MCa.Level");
+     { static char last[64]; if (lvl_raw && strcmp(last, lvl_raw)) { snprintf(last, sizeof last, "%s", lvl_raw); uib_log("[ui] MCa.Level = %s\n", lvl_raw); } }
+-    const char *lvl = level_image(lvl_raw);
++    const char *lvl = tut || camp ? level_image(lvl_raw) : nullptr;
+     hide_fe_chrome();
+     hide_top("Frontend/Icons/Icon_Add.tga"); hide_top("Frontend/Icons/Icon_Wormopaedia2.tga"); hide_top("Frontend/Icons/Icon_Padlock.tga");
+     if (lvl) hide_top(lvl);
+@@ -1039,11 +1166,26 @@
+     begin(0);
+     title(mtitle);
+     const float px = 12, py = 40, pw = 376, ph = 188, pad = 14;
+-    panel(img(kBorderBlue,0), px, py, pw, ph, 6, 0x183b7898);
++    panel(img(kBorderBlue,0), px, py, pw, ph, 6, 0x183b78ff);
+     const float tw = 136, th = tw * 232.f / 250.f, tx = px + pad + 2, ty = py + pad + 2;
+     if (lvl) {
+         sprite(img(lvl, 1), tx, ty, tw, th, 0xffffffff, 3, 12, 250, 232);
+         nine(img(kFrameGold, 0), tx - 4, ty - 4, tw + 8, th + 8, 14);
++    } else if(!tut && !camp) {
++        // Challenges have a medal table, not a level thumbnail. FE.TempMission
++        // is a native placeholder resource, never a filename in Frontend/Levels.
++        const char *names[]={"MCa.GoldName","MCa.SilverName","MCa.BronzeName"};
++        const char *times[]={"MCa.GoldTime","MCa.SilverTime","MCa.BronzeTime"};
++        const char *labels[2][3]={{"Gold","Silver","Bronze"},{"Oro","Plata","Bronce"}};
++        const unsigned colors[]={0xffdc48ff,0xd8e4ffff,0xe6aa70ff};
++        panel(img(kBorderBlue,0),tx,ty,tw,th,6,0x102e60ff);
++        for(int i=0;i<3;++i) {
++            const float y=ty+8+i*39;
++            const char *record=w3d_fe_prop_str(names[i]), *time=w3d_fe_prop_str(times[i]);
++            text_shadow(tx+8,y,labels[lang()==4][i],13,colors[i],0);
++            text_fit(tx+tw-8,y,time&&*time?game_text(time):"--:--",13,64,0xffffffff,2);
++            text_fit(tx+8,y+17,record&&*record?game_text(record):"—",11,tw-16,0xd8e4ffff,0);
++        }
+     }
+     text_fit(tx + tw / 2, ty + th + 10, team, 15, tw + 8, 0xffe060ff, 1);
+     // Columna de la derecha: el nombre (hasta dos líneas) y debajo la descripción, que baja sola si no cabe.
+@@ -1059,18 +1201,23 @@
+     static const TextId kNone = T_COUNT; (void)kNone;
+     // MCa.Previous / MCa.Next: hay otra misión desbloqueada antes o después (con una partida nueva, ninguna).
+     const bool can_prev = w3d_fe_prop_int("MCa.Previous", 0) != 0, can_next = w3d_fe_prop_int("MCa.Next", 0) != 0;
+-    int r = value_row(42, camp || !tut ? "Mission" : "Tutorial", name, "Frontend/Icons/Icon_Campaign.tga", can_prev, can_next);
++    int r = value_row(42, lang()==4?(tut?"Entrenamiento":"Misión"):(tut?"Tutorial":"Mission"), name, "Frontend/Icons/Icon_Campaign.tga", can_prev, can_next);
+     if (r == -1 && !pressing()) activate("Previous");
+     if (r == 1 && !pressing()) activate("Next");
+     char teams[16][64]; const bool many = w3d_fe_table("FE.Barracks", teams, 16) > 1;
+     const char *team_raw = w3d_fe_prop_str("MCa.Team");
+-    int t = value_row(94, "Team", team, "Frontend/Icons/Icon_Team_Options.tga", many, many);
++    int t = value_row(94, lang()==4?"Equipo":"Team", team, "Frontend/Icons/Icon_Team_Options.tga", many, many);
+     if (t == -1 || t == 1) barracks_step(team_raw, t);
+     // Crear equipo, con su icono del juego: del mismo ancho que las filas.
+-    if (text_button(kRowX, 146, kRowW, 38, "Create Team", false, 15, "Frontend/Icons/Icon_Add.tga")) activate("Create Team");
++    if(tut) {
++        if(text_button(kRowX,146,kRowW,38,lang()==4?"Crear equipo":"Create Team",false,15,"Frontend/Icons/Icon_Add.tga")) activate("Create Team");
++    } else {
++        if(text_button(kRowX,146,(kRowW-8)/2,38,lang()==4?"Crear equipo":"Create Team",false,13)) activate("Create Team");
++        if(text_button(kRowX+(kRowW+8)/2,146,(kRowW-8)/2,38,lang()==4?"Desbloqueables":"Unlockables",false,12)) activate("Medal Cabinet");
++    }
+     if (back_button()) activate("Back");
+     // v42: también con START (en la prueba, START no empezaba el tutorial: solo el toque o A con el foco en Start).
+-    if (start_button("Start") || (key_down(UI_K_START) && !pressing())) activate("Start");
++    if (start_button(lang()==4?"Empezar":"Start") || (key_down(UI_K_START) && !pressing())) activate("Start");
+ }
+ 
+ // --- Estados de los botones del juego (MultiStateButtonDesc) -------------------------------------------------
+@@ -1457,7 +1604,7 @@
+     begin(0);
+     gusano_draw(0, 106, 132, 176, hat, pop);
+     const float x = 214, y = 42, w = 174, h = 186, cx = x + w / 2, cy = y + h / 2;
+-    if (pop > 0.02f) panel(img(kBorderBlue, 0), cx - w * pop / 2, cy - h * pop / 2, w * pop, h * pop, 6 * pop, 0x183b7898);
++    if (pop > 0.02f) panel(img(kBorderBlue, 0), cx - w * pop / 2, cy - h * pop / 2, w * pop, h * pop, 6 * pop, 0x183b78ff);
+     if (pop >= 0.9f) {
+         text_fit(cx, y + 10, game_text(team), 19, w - 22, 0xffffffff, 1);
+         text_shadow(cx, y + 38, key_text("FE.Header.TeamMembers", "Team Members"), 12, 0xffdc48ff, 1);
+@@ -1697,7 +1844,7 @@
+         g_kb_result = 0;   // no se cerró: la ventana de la UI
+     }
+     begin(0);
+-    panel(img(kBorderBlue, 0), 40, 74, 320, 92, 6, 0x183b7898);
++    panel(img(kBorderBlue, 0), 40, 74, 320, 92, 6, 0x183b78ff);
+     text_box(60, 106, 280, help, 17, 0xffffffff, 1, 3);
+     begin(1);
+     const char *nm = w3d_fe_prop_str("User.HumanTeamName");
+@@ -1850,9 +1997,13 @@
+     return g_eat_b;
+ }
+ int pages_capture() {
++    const int mode=w3d_fe_game_mode();
++    if(mode!=6 && mode!=7) return 0; // Award/unlock scenes keep their original input.
++    if(w3d_card_ui_read(nullptr)) return 0;
+     if(w3d_fe_native_layout() && w3d_fe_game_mode()==7 && w3d_fe_prop_uint("WeaponPanel.Open",0)) return 1;
+     const char *m = w3d_test_fe_menu();
+     const char *p = w3d_fe_popup_depth() > 0 ? w3d_fe_last_popup() : nullptr;
++    if(p && !strcmp(p,"Game.BriefDialog")) return 2;
+     if(w3d_fe_native_layout() && (is_confirm(m) || is_confirm(p))) return 0;
+     // FE.CurrentMenu may still name MainMenu during a match. It must never
+     // capture firing, walking or aiming after the title has been left.
+@@ -1876,12 +2027,21 @@
+     memcpy(g_last_under, g_underlays, sizeof g_underlays); g_last_count = g_underlay_count;
+     g_underlay_count = 0;
+     g_tri_runs.clear(); g_tri_v.clear(); g_tri_c.clear();
++    // FE.CurrentMenu retains the previous selection during award movies (mode 8)
++    // and unlock scenes (9). It must not draw a stale mission/menu over them.
++    const int mode=w3d_fe_game_mode();
++    if(mode!=6 && mode!=7) {g_out_count=g_last_count=0;navigation_begin("original-scene",false);return;}
+     if(w3d_fe_game_mode()!=7) {map_tex=-1;map_u=map_v=1;}
+     const char *menu = w3d_test_fe_menu();
+     const char *popup = w3d_fe_popup_depth() > 0 ? w3d_fe_last_popup() : nullptr;
+     if (!menu || strcmp(menu, kCet)) g_outfit = false;   // Outfit es de Crear equipo
+     char scope[128]; snprintf(scope, sizeof scope, "%s/%s/%d", menu ? menu : "", popup ? popup : "", g_developer + 2 * g_ropa + 4 * g_outfit);
+     navigation_begin(scope, pages_capture() == 2);
++    W3dCardUi card;
++    if(w3d_card_ui_read(&card)) {g_out_count=0;page_card(card);return;}
++    // An unnamed native modal still owns input and drawing; do not draw its
++    // parent carousel/help while its native window is on screen.
++    if(w3d_fe_popup_depth()>0 && !popup) {g_out_count=0;return;}
+     // Al cambiar de menú, la página nueva espera a que el menú anterior se encoja (0,1 s, como los controles del juego en
+     // fe_layout.cpp) y entra con un fundido de 0,15 s: nunca se pinta encima de lo que se está yendo. Outfit no es otra
+     // página: es la parte de abajo de Crear equipo (la de arriba sigue igual) y entra con su propio fundido (page_cet).
+@@ -1917,6 +2077,7 @@
+     // Diálogos de confirmación (FE.CurrentMenu puede tomar el nombre del popup, o no: se miran los dos).
+     if (is_confirm(menu)) { page_confirm(menu); return; }
+     if (is_confirm(popup)) { page_confirm(popup); return; }
++    if(popup && !strcmp(popup,"Game.BriefDialog")) {page_brief();return;}
+     if ((popup && !strcmp(popup, "FE.PopTeamAdjust")) || (menu && !strcmp(menu, "FE.PopTeamAdjust"))) { page_team_adjust(); return; }
+     if (w3d_fe_native_layout() && ((popup && !strcmp(popup, "FE.NewTeam")) || (menu && !strcmp(menu, "FE.NewTeam")))) { page_new_team(); return; }
+     W3dHud h;
+--- a/port/tools/build3ds/azahar_run.py
++++ b/port/tools/build3ds/azahar_run.py
+@@ -207,6 +207,7 @@
+                 return
+             if a.profile:
+                 # Muestreo: continuar, esperar, interrumpir con ^C, leer pc y lr. Un fallo para siempre en el mismo pc.
++                null_reported = set()
+                 send('c')
+                 while time.time() - t0 < a.seconds - 3:
+                     time.sleep(1 / a.profile)
+@@ -220,6 +221,21 @@
+                         if len(g) < 128: continue
+                         regs = [int.from_bytes(bytes.fromhex(g[i * 8:i * 8 + 8]), 'little') for i in range(16)]
+                         samples.append((tid, regs[15], regs[14]))
++                        if regs[15] == 0 and tid not in null_reported:
++                            null_reported.add(tid)
++                            gdb_report.append('PC nulo hilo '+tid+' '+ ' '.join(f'r{i}={v:08x}' for i,v in enumerate(regs)))
++                            for i in (0,1,4,5,6,11,13):
++                                if 0x100000 <= regs[i] < 0x30000000:
++                                    send(f'm{regs[i]:x},100'); gdb_report.append(f'mem r{i} {regs[i]:08x}: {recv()}')
++                            fp=regs[11]
++                            for _ in range(12):
++                                if fp < 0x08000004 or fp & 3: break
++                                send(f'm{fp-4:x},8'); r=recv()
++                                if r.startswith('E') or len(r)<16: break
++                                nxt=int.from_bytes(bytes.fromhex(r[:8]),'little'); ret=int.from_bytes(bytes.fromhex(r[8:16]),'little')
++                                gdb_report.append(f'marco {fp:08x} regreso {ret:08x}')
++                                if nxt<=fp: break
++                                fp=nxt
+                     send('c')
+                 return
+             send('c'); c.settimeout(a.seconds + 5); st = recv(); c.settimeout(5)
+@@ -264,6 +280,10 @@
+     if gdb_report: reason = 'parada del stub'; break
+     if not a.gdb and azp.exists() and azp.stat().st_size > 20000 and 'LogException' in azp.read_text(errors='replace'): reason = 'excepción'; time.sleep(1); break
+     # La prueba automática escribe su registro en prueba/NN/log.txt, no en el de la raíz.
++    # svcExitProcess ends the title, but Qt may keep Azahar open. A bounded UI
++    # review has finished only after all its virtual-pad anchors and inputs.
++    if any(e.startswith('W3D_EXIT_VPAD=') for e in env) and glog.exists() and '[review] guion completo' in glog.read_text(errors='replace'):
++        reason = 'guion completo'; break
+     if a.stop_on and any(l.exists() and a.stop_on in l.read_text(errors='replace') for l in [glog, *(sd / 'prueba').glob('*/log.txt')]): reason = 'cadena vista'; break
+     time.sleep(1)
+ if p.poll() is None:
+--- a/port/tools/build3ds/banner/create_banner.py
++++ b/port/tools/build3ds/banner/create_banner.py
+@@ -273,6 +273,27 @@
+                 [list(reversed(f)) for f in faces], mat, rear)
+ 
+ 
++def without_detached_brows(tris):
++    """The two black eyebrow islands float above the Smile pose in HOME.
++
++    Keep the connected body surface. Assert the original topology so a future
++    asset cannot silently lose an unrelated part. Eyes/UVs/textures stay intact.
++    """
++    keys = [[tuple(round(float(x), 5) for x in v) for v in t[0]] for t in tris]
++    remaining = set(range(len(tris)))
++    groups = []
++    while remaining:
++        todo = [remaining.pop()]; group = []; vertices = set()
++        while todo:
++            i = todo.pop(); group.append(i); vertices.update(keys[i])
++            adjacent = {j for j in remaining if vertices.intersection(keys[j])}
++            remaining.difference_update(adjacent); todo.extend(adjacent)
++        groups.append(group)
++    assert sorted(map(len, groups)) == [36, 36, 380], 'Unexpected worm body topology'
++    keep = set(max(groups, key=len))
++    return [t for i, t in enumerate(tris) if i in keep]
++
++
+ def add_worm(sc, parent):
+     w = rig.load_w3d()
+     _, libs = xomlib.bibliotecas_bundle_w3d(Path(rig.W3D_BUNDLE).read_bytes())
+@@ -307,6 +328,8 @@
+         # Skin this one original piece in the smiling posture, including eye
+         # variants needed for blinking. The mesh itself is not approximated.
+         tris = w.skin(world, {sel[0]: sel[1]} if sel else sels, solo=lambda p: p is pc)
++        if pc['name'] == 'wormShape_boggy_body_shader':
++            tris = without_detached_brows(tris)
+         tw, th, pixels = pc['tex']
+         texture_key = (tw, th, bytes(c for p in pixels for c in p))
+         if texture_key not in tex_mats:
+--- /dev/null
++++ b/port/tools/build3ds/banner/test_beta_banner.py
+@@ -0,0 +1,27 @@
++"""Beta 0.1: remove only the two detached brow islands from the approved banner."""
++import json
++from pathlib import Path
++import unittest
++import validate_home_banner as home
++ROOT=Path(__file__).resolve().parents[4]
++OLD=ROOT/'port/build3ds/banner3d-v45'
++NEW=ROOT/'port/build3ds/banner3d-beta01'
++class BetaBanner(unittest.TestCase):
++    def test_only_brows_removed(self):
++        a=json.loads((OLD/'banner.gltf').read_text());b=json.loads((NEW/'banner.gltf').read_text())
++        for key in ('materials','images','textures','samplers'):
++            self.assertEqual(a[key],b[key])
++        for image in a['images']:
++            self.assertEqual((OLD/image['uri']).read_bytes(),(NEW/image['uri']).read_bytes())
++        counts=lambda g: {m['name']:sum(g['accessors'][p['indices']]['count']//3 for p in m['primitives']) for m in g['meshes']}
++        ca,cb=counts(a),counts(b)
++        self.assertEqual(ca.pop('WormBody')-cb.pop('WormBody'),72)
++        self.assertEqual(ca,cb)
++    def test_packaged_home_and_audio(self):
++        model,sound=home.unpack_banner((NEW/'worms3d-animated.bnr').read_bytes())
++        self.assertEqual(model,(NEW/'banner.cgfx').read_bytes())
++        self.assertEqual(sound,home.unpack_banner((OLD/'worms3d-animated.bnr').read_bytes())[1])
++        r=home.inspect(model)
++        self.assertEqual(r['meshes'],28)
++        self.assertEqual(r['skeletal_animations'][0]['rotation_tracks'],0)
++if __name__=='__main__':unittest.main()

@@ -1,0 +1,13 @@
+{
+  "unit": "h1_newlib_stdio_flush",
+  "source": "source/matching/game/h1/h1_newlib_stdio_flush.c",
+  "language": "c",
+  "functions": {
+    "fflush": "0x802eb084",
+    "fclose": "0x802eafcc"
+  },
+  "descriptions": {
+    "fflush": "SN newlib fflush: flushes every stream when fp is NULL; otherwise writes out the pending output of a write stream, setting the error flag on failure.",
+    "fclose": "SN newlib fclose: flushes a write stream, calls its close hook (EOF on failure) and marks the FILE free; buffers are not freed."
+  }
+}

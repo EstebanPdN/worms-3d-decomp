@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_group_clear_800f6afc",
+  "source": "source/matching/game/cc38a/cc38a_group_clear_800f6afc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_group_clear_800f6afc": "0x800f6afc"
+  },
+  "descriptions": {
+    "cc38a_group_clear_800f6afc": "Reset collision groups and associated collections, release all two hundred held interfaces in order, and clear the remaining held interface and counters."
+  }
+}

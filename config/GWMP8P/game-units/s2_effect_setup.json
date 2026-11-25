@@ -1,0 +1,19 @@
+{
+  "unit": "s2_effect_setup",
+  "source": "source/matching/game/s2_effect_setup.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80106118": "0x80106118",
+    "w3d_fn_80106218": "0x80106218",
+    "w3d_effect_register_80106530": "0x80106530",
+    "w3d_effect_register_8010663c": "0x8010663c",
+    "w3d_effect_register_80106734": "0x80106734"
+  },
+  "descriptions": {
+    "w3d_fn_80106118": "Configures an effect resource and attaches it to the owner while preserving reference ownership.",
+    "w3d_fn_80106218": "Configures an effect resource and attaches it to the owner while preserving reference ownership.",
+    "w3d_effect_register_80106530": "Creates an effect callback adapter, binds its callback, and applies it to the target.",
+    "w3d_effect_register_8010663c": "Creates an effect callback adapter, binds its callback, and applies it to the target.",
+    "w3d_effect_register_80106734": "Creates an effect callback adapter, binds its callback, and applies it to the target."
+  }
+}

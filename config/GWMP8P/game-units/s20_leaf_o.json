@@ -1,0 +1,17 @@
+{
+  "unit": "s20_leaf_o",
+  "source": "source/matching/game/s20/s20_leaf_o.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_stamp_sequence_801afaa4": "0x801afaa4",
+    "w3d_s20_get_pair_801c83fc": "0x801c83fc",
+    "w3d_s20_set_quad_and_flag_801c8488": "0x801c8488",
+    "w3d_s20_set_quad_801ab934": "0x801ab934"
+  },
+  "descriptions": {
+    "w3d_s20_stamp_sequence_801afaa4": "Appears to increment a global 16-bit counter, clear the field at offset 52 and store the new counter value at offset 56.",
+    "w3d_s20_get_pair_801c83fc": "Appears to copy a two-word value at offset 24 of the source into the output and return the output.",
+    "w3d_s20_set_quad_and_flag_801c8488": "Appears to copy a four-word value into the object at offset 72 and set the field at offset 88 to 1.",
+    "w3d_s20_set_quad_801ab934": "Appears to copy a four-word value into the object at offset 96 and return zero."
+  }
+}

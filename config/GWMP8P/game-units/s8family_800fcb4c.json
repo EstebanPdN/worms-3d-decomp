@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_800fcb4c",
+  "source": "source/matching/game/s8family_800fcb4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_index_query_800fcb4c": "0x800fcb4c"
+  },
+  "descriptions": {
+    "s8_index_query_800fcb4c": "Returns a query result for the interface selected from an indexed global pointer table."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d24h_water_light_800c41b0",
+  "source": "source/matching/game/d24h/d24h_water_light_800c41b0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24h_water_light_800c41b0": "0x800c41b0"
+  },
+  "descriptions": {
+    "w3d_d24h_water_light_800c41b0": "Water light update: sets the angle at +32 to (time mod 300000) * 2 pi / 300000, writes the float 0x804aade8 to the Water.Level setting (0x800fc4c8), builds two vectors from the angle's cosine and sine (scale 120 at height 80, scale 240 at height 0x804aadec), passes them to slots +44 and +48 of the three services at +48, +136 and +140 of 0x804b1788, posts an 8-byte message with cached id 0x804ae78c and vtable 0x8040db38, and returns 0."
+  }
+}

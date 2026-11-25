@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_weapon_plans_retreat_8000ebe4",
+  "source": "source/matching/game/d28a/d28a_weapon_plans_retreat_8000ebe4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_weapon_plans_retreat_8000ebe4": "0x8000ebe4"
+  },
+  "descriptions": {
+    "w3d_d28a_weapon_plans_retreat_8000ebe4": "Reads DefaultRetreatTime and pushes weapon plan clones by state."
+  }
+}

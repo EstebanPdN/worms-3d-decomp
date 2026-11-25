@@ -1,0 +1,11 @@
+{
+  "unit": "sol35e4a_oriented_descriptors_8024f990",
+  "source": "source/matching/game/sol35e4a/sol35e4a_oriented_descriptors_8024f990.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35e4a_oriented_descriptors_8024f990": "0x8024f990"
+  },
+  "descriptions": {
+    "sol35e4a_oriented_descriptors_8024f990": "Registers 4 observed descriptors in original order, assigns constructed three-float defaults to returned vector bindings, and finalizes the descriptor owner."
+  }
+}

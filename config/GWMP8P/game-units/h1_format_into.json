@@ -1,0 +1,21 @@
+{
+  "unit": "h1_format_into",
+  "source": "source/matching/game/h1/h1_format_into.c",
+  "language": "c",
+  "functions": {
+    "w3d_format_into_80347a10": "0x80347a10",
+    "w3d_format_into_8034cb64": "0x8034cb64",
+    "w3d_format_into_80351df8": "0x80351df8",
+    "w3d_format_into_80355a44": "0x80355a44",
+    "w3d_format_into_8035cb74": "0x8035cb74",
+    "w3d_format_into_8035eb0c": "0x8035eb0c"
+  },
+  "descriptions": {
+    "w3d_format_into_80347a10": "Formats the variable arguments into buffer with vsprintf and returns buffer (per-file copy of a shared static helper).",
+    "w3d_format_into_8034cb64": "Formats the variable arguments into buffer with vsprintf and returns buffer (per-file copy of a shared static helper).",
+    "w3d_format_into_80351df8": "Formats the variable arguments into buffer with vsprintf and returns buffer (per-file copy of a shared static helper).",
+    "w3d_format_into_80355a44": "Formats the variable arguments into buffer with vsprintf and returns buffer (per-file copy of a shared static helper).",
+    "w3d_format_into_8035cb74": "Formats the variable arguments into buffer with vsprintf and returns buffer (per-file copy of a shared static helper).",
+    "w3d_format_into_8035eb0c": "Formats the variable arguments into buffer with vsprintf and returns buffer (per-file copy of a shared static helper)."
+  }
+}

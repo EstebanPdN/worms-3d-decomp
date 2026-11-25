@@ -1,0 +1,11 @@
+{
+  "unit": "f6b_take_lowest_cost_80005858",
+  "source": "source/matching/game/f6b/f6b_take_lowest_cost_80005858.cpp",
+  "language": "cpp",
+  "functions": {
+    "f6b_take_lowest_cost_80005858": "0x80005858"
+  },
+  "descriptions": {
+    "f6b_take_lowest_cost_80005858": "Scan 1024 observed buckets for an initial node, choose the node with the lowest of two observed signed-short costs across all entries according to the flag, erase its selected bucket/index pair, and return the node. Return null for empty input. Container, node and cost roles are inferred."
+  }
+}

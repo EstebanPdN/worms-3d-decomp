@@ -1,0 +1,15 @@
+{
+  "unit": "genparamc_800506a8",
+  "source": "source/matching/game/generated/genparamc_800506a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_show_placeholder_800506a8": "0x800506a8",
+    "w3d_show_placeholder_80050730": "0x80050730",
+    "w3d_show_placeholder_80099a20": "0x80099a20"
+  },
+  "descriptions": {
+    "w3d_show_placeholder_800506a8": "Builds a temporary text string with a fixed placeholder message, passes its characters to the held text display, then sets two state fields; the string is destroyed on exit.",
+    "w3d_show_placeholder_80050730": "Builds a temporary text string with a fixed placeholder message, passes its characters to the held text display, then sets two state fields; the string is destroyed on exit.",
+    "w3d_show_placeholder_80099a20": "Builds a temporary text string with a fixed placeholder message, passes its characters to the held text display, then sets two state fields; the string is destroyed on exit."
+  }
+}

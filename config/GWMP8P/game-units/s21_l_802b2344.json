@@ -1,0 +1,11 @@
+{
+  "unit": "s21_l_802b2344",
+  "source": "source/matching/game/s21/s21_l_802b2344.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_toggle_set_state_802b2344": "0x802b2344"
+  },
+  "descriptions": {
+    "w3d_s21_toggle_set_state_802b2344": "Appears to store a state value, inverted in invert mode, only when it changes."
+  }
+}

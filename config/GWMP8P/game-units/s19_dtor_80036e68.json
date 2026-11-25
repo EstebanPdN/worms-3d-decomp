@@ -1,0 +1,11 @@
+{
+  "unit": "s19_dtor_80036e68",
+  "source": "source/matching/game/s19/s19_dtor_80036e68.c",
+  "language": "c",
+  "functions": {
+    "s19_screen_destroy_80036e68": "0x80036e68"
+  },
+  "descriptions": {
+    "s19_screen_destroy_80036e68": "Appears to install a vtable, destroy ten held handles from +0x24, release the handle at +0x4c and two interfaces, then run the service destroy."
+  }
+}

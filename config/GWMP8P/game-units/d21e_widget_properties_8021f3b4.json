@@ -1,0 +1,14 @@
+{
+  "unit": "d21e_widget_properties_8021f3b4",
+  "source": "source/matching/game/d21e/d21e_widget_properties_8021f3b4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d21e_register_widget_properties_8021f3b4": "0x8021f3b4"
+  },
+  "descriptions": {
+    "w3d_d21e_register_widget_properties_8021f3b4": "Registers StartDelay (0x801ebf38); registers EndDelay (0x801ebf38); creates the Position vector binding (0x801f0210) reset to 0.0f; creates the Scale vector binding (0x801f0210) reset to (50, 50, 0) (0x803b61e4 = 50.0f); resets the IncomingAnimation string binding (0x801ed24c) to the shared empty string; resets the OutgoingAnimation string binding (0x801ed24c) to the shared empty string; resets the HighlightedAnimation string binding (0x801ed24c) to the shared empty string; resets the ActivatedAnimation string binding (0x801ed24c) to the shared empty string; resets the ItemName string binding (0x801ed24c) to the shared empty string; resets the LeftItem string binding (0x801ed24c) to the shared empty string; resets the RightItem string binding (0x801ed24c) to the shared empty string; resets the UpItem string binding (0x801ed24c) to the shared empty string; resets the DownItem string binding (0x801ed24c) to the shared empty string; resets the ToolTipId string binding (0x801ed24c) to the shared empty string; registers FontSizeOverride (0x801ec52c); resets the EnableSwitch string binding (0x801ed24c) to the shared empty string; resets the IncomingAudio string binding (0x801ed24c) to the shared empty string; resets the OutgoingAudio string binding (0x801ed24c) to the shared empty string; resets the HighlightedAudio string binding (0x801ed24c) to the shared empty string; resets the ActivatedAudio string binding (0x801ed24c) to the shared empty string; calls the refresh routine 0x801e8d9c and returns 0. Vector resets use 0x803b61e0 (0.0f)."
+  }
+}

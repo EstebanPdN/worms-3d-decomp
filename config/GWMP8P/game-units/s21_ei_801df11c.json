@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ei_801df11c",
+  "source": "source/matching/game/s21/s21_ei_801df11c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_copy_from_801df11c": "0x801df11c"
+  },
+  "descriptions": {
+    "w3d_s21_copy_from_801df11c": "Appears to copy state from another object: it retains the other's held interface, releases its own, then copies the interface pointer, a word and two bytes, returning one, or zero for a null source."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "r25b_sink_write_802cbe9c",
+  "source": "source/matching/game/r25b/r25b_sink_write_802cbe9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r25b_sink_write_802cbe9c": "0x802cbe9c"
+  },
+  "descriptions": {
+    "w3d_r25b_sink_write_802cbe9c": "Inferred names. Original 0x802cbe9c; shared text owns one pointer at +0."
+  }
+}

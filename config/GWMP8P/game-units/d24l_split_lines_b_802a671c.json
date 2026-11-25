@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_split_lines_b_802a671c",
+  "source": "source/matching/game/d24l/d24l_split_lines_b_802a671c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_split_lines_b_802a671c": "0x802a671c"
+  },
+  "descriptions": {
+    "d24l_split_lines_b_802a671c": "Clears the line count +580, then splits the data text at +152 of the +40 record into the line table at +416 (one-word strings, 1-based, at most 10) at backslash separators, as 0x802a6fa8 does, and sets +596 to 1 once the text was processed."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f17a_construct_box_802946f0",
+  "source": "source/matching/game/f17a/f17a_construct_box_802946f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "__7F17aBox": "0x802946f0"
+  },
+  "descriptions": {
+    "__7F17aBox": "Construct the inferred box-control owner in its original 220-byte factory-bounded allocation: invoke the 28-byte actor-reference base constructor at0x8015fef0, zero ten observed pointer slots120..156 through native member initialization, install table0x8041c230, and construct the four-byte shared-text member at176 through0x803426b8. Initialize nine pointer slots184..216, copy the full observed12-byte vector at0x8045e788 to32, read original float defaults0x803d0768/76c/770/774 into48/80/84/88/92/112/116, set observed state fields172 and76 to1, index180 to-1 and zero28/56/60/64/68/72. Original factory0x8029461c allocates220 bytes; base constructor chain through0x8015fa40 writes only within28 bytes and shared-text constructor writes its sole four-byte pointer. Native prefix construction separates base/member initialization from final defaults. Semantic class, field, storage and const-pool qualifications are inferred from original instructions; unknown regions remain uninitialized and no hidden reservation is invented. No owned data, portable integration or runtime validation claimed."
+  }
+}

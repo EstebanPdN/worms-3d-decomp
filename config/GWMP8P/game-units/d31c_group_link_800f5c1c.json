@@ -1,0 +1,11 @@
+{
+  "unit": "d31c_group_link_800f5c1c",
+  "source": "source/matching/game/d31c/d31c_group_link_800f5c1c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d31c_group_link_800f5c1c": "0x800f5c1c"
+  },
+  "descriptions": {
+    "d31c_group_link_800f5c1c": "Links two mesh groups and places the second from the connection items."
+  }
+}

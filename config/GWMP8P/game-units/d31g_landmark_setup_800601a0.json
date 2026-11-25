@@ -1,0 +1,14 @@
+{
+  "unit": "d31g_landmark_setup_800601a0",
+  "source": "source/matching/game/d31g/d31g_landmark_setup_800601a0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31g_landmark_setup_800601a0": "0x800601a0"
+  },
+  "descriptions": {
+    "w3d_d31g_landmark_setup_800601a0": "Level object setup: assigns the two names from the description (+96, +92) and uppercases the second, computes the position through 0x800b43f8 and the matrix from 0x800b8c50, the scaled size with the context scale at +372, rotates by the three angles at +68, packs the colour from +56, then by the 7-character prefix either loads the model, places it, creates a light from the 0x80413a68 type bound to it, or creates the effect 0x800e5ca4 from the name suffix."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

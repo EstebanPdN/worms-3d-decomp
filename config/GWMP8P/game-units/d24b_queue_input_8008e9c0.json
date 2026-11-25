@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_queue_input_8008e9c0",
+  "source": "source/matching/game/d24b/d24b_queue_input_8008e9c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_queue_input_8008e9c0": "0x8008e9c0"
+  },
+  "descriptions": {
+    "w3d_d24b_queue_input_8008e9c0": "Input queueing: when the system 0x804aab68 is active and the object's info +472 (flag +24, team index +32) names a different owner in a copy of the team list 0x8043bb64 (0x800b4d98), forwards to that owner with its current message; otherwise queues the (object, message) pair once in the pending list 0x80431e94, setting the message's queued flag +108 unless +108 or +109 is already set."
+  }
+}

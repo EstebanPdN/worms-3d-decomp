@@ -1,0 +1,13 @@
+{
+  "unit": "h1_stlport_rb_global",
+  "source": "source/matching/game/h1/h1_stlport_rb_global.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_rb_increment_80351ef8": "0x80351ef8",
+    "w3d_rb_rebalance_for_erase_80352010": "0x80352010"
+  },
+  "descriptions": {
+    "w3d_rb_increment_80351ef8": "STLport _Rb_global<bool>::_M_increment: returns the in-order successor of a red-black tree node.",
+    "w3d_rb_rebalance_for_erase_80352010": "STLport _Rb_global<bool>::_Rebalance_for_erase: unlinks a node from the tree, fixes root/leftmost/rightmost and restores the red-black invariants; returns the node to free."
+  }
+}

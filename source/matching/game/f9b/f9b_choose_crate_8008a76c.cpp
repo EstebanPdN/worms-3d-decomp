@@ -1,0 +1,3 @@
+struct F9CrateChoice{int weight,id;};extern F9CrateChoice weights_80431db8[];extern const char*weapons_803eb63c[];extern const char contents_8037da74[];
+extern "C" unsigned total_8008da54(),random_80162ba8();extern "C" int set_800fc550(const char**,const char*);
+extern "C" int f9b_choose_crate_8008a76c(){unsigned total=total_8008da54();if(total){int choice;if(total==1)choice=0;else choice=random_80162ba8()%total;bool found=false;int index=0;int sum=weights_80431db8[0].weight;goto test;scan:index+=2;if(index>19)goto scanned;sum+=weights_80431db8[index].weight;test:if(choice>=sum)goto scan;found=true;scanned:if(found){const char*property=contents_8037da74;set_800fc550(&property,weapons_803eb63c[weights_80431db8[index].id]);return 1;}}return 0;}

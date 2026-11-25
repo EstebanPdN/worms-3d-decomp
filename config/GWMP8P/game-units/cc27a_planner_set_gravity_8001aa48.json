@@ -1,0 +1,11 @@
+{
+  "unit": "cc27a_planner_set_gravity_8001aa48",
+  "source": "source/matching/game/cc27a/cc27a_planner_set_gravity_8001aa48.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc27a_planner_set_gravity_8001aa48": "0x8001aa48"
+  },
+  "descriptions": {
+    "cc27a_planner_set_gravity_8001aa48": "Configure original ballistic gravity and origin with decoded half scale and zero time; typed native property/vector caller workspace, trailing bytes purpose unknown."
+  }
+}

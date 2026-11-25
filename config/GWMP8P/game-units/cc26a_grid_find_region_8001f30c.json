@@ -1,0 +1,11 @@
+{
+  "unit": "cc26a_grid_find_region_8001f30c",
+  "source": "source/matching/game/cc26a/cc26a_grid_find_region_8001f30c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc26a_grid_find_region_8001f30c": "0x8001f30c"
+  },
+  "descriptions": {
+    "cc26a_grid_find_region_8001f30c": "Find the first region with squared position difference strictly below2.0 and equal radius, retaining original fused arithmetic and rejecting unordered differences."
+  }
+}

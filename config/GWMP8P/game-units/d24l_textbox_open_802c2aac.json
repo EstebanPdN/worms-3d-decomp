@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_textbox_open_802c2aac",
+  "source": "source/matching/game/d24l/d24l_textbox_open_802c2aac.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_textbox_open_802c2aac": "0x802c2aac"
+  },
+  "descriptions": {
+    "d24l_textbox_open_802c2aac": "Opens a text box: resets it (0x802c2c10), loads the 'FE.Textbox.Back' mesh by name with resource type base+28 into a temporary handle, casts it (0x8034357c) and stores it retained at +48 releasing the previous mesh, sets its scale (500,500,1) through virtual slot +84, sets colour (254,234,213,0) with 0x80173df0, runs the layout and caption routines, dispatches focus state 1 for index +64, sets up the cursor and marks the box ready at +80."
+  }
+}

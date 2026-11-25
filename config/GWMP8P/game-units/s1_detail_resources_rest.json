@@ -1,0 +1,13 @@
+{
+  "unit": "s1_detail_resources_rest",
+  "source": "source/matching/game/s1_detail_resources.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_800600d4": "0x800600d4",
+    "w3d_fn_8006096c": "0x8006096c"
+  },
+  "descriptions": {
+    "w3d_fn_800600d4": "Destroys detail handles and held references, releases names, and optionally frees the object.",
+    "w3d_fn_8006096c": "Releases and clears the detail handle, held reference, and effect."
+  }
+}

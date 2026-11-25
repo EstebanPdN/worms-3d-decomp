@@ -1,0 +1,13 @@
+{
+  "unit": "auto_8013ef50",
+  "source": "source/matching/game/auto/auto_8013ef50.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8013ef50": "0x8013ef50",
+    "w3d_auto_8013f260": "0x8013f260"
+  },
+  "descriptions": {
+    "w3d_auto_8013ef50": "Automatically decompiled (m2c) and verified exact; behavior description pending review.",
+    "w3d_auto_8013f260": "Automatically decompiled (m2c) and verified exact; behavior description pending review."
+  }
+}

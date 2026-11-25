@@ -1,0 +1,11 @@
+{
+  "unit": "cc17a_apply_active_key_800368ac",
+  "source": "source/matching/game/cc17a/cc17a_apply_active_key_800368ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17a_apply_active_key_800368ac": "0x800368ac"
+  },
+  "descriptions": {
+    "w3d_cc17a_apply_active_key_800368ac": "Find the first active pointer-vector entry with the requested key and apply its original action."
+  }
+}

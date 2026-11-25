@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_matrix_object_801c03bc",
+  "source": "source/matching/game/k8b/k8b_matrix_object_801c03bc.c",
+  "language": "c",
+  "functions": {"w3d_k8b_matrix_object_801c03bc": "0x801c03bc"},
+  "descriptions": {"w3d_k8b_matrix_object_801c03bc": "Appears to construct an object on a base constructor with a copied 64-byte default matrix and a retained shared interface."}
+}

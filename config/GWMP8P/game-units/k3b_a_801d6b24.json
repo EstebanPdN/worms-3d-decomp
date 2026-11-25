@@ -1,0 +1,14 @@
+{
+  "unit": "k3b_a_801d6b24",
+  "source": "source/matching/game/k3b/k3b_a_801d6b24.c",
+  "language": "c",
+  "functions": {
+    "w3d_k3b_math_sinc_801d6b24": "0x801d6b24"
+  },
+  "descriptions": {
+    "w3d_k3b_math_sinc_801d6b24": "Appears to compute the normalized sinc function sin(pi*x)/(pi*x), returning one at zero."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "g8a_emit_grid_bitplanes_80086660",
+  "source": "source/matching/game/g8a/g8a_emit_grid_bitplanes_80086660.cpp",
+  "language": "cpp",
+  "functions": {
+    "g8a_emit_grid_bitplanes_80086660": "0x80086660"
+  },
+  "descriptions": {
+    "g8a_emit_grid_bitplanes_80086660": "Copies nine observed source grid words to a working3x3 window, packs four neighboring bitplanes into external small-data scratch804addec..804ade08, and emits eight bytes per plane into destination offsets0/9/81/90. Each of seven row steps shifts working words, optionally invokes original helper80086514 or8008659c with a complete12-byte position copy when center bit is set, decreases mask by4 modulo256, advances y by original float8037d0b4 and increments row564. Arrays exactly cover original fixed copy/access footprints; external grid is never constructed locally. No owned data."
+  }
+}

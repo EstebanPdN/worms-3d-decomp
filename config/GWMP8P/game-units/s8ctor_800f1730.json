@@ -1,0 +1,11 @@
+{
+  "unit": "s8ctor_800f1730",
+  "source": "source/matching/game/s8ctor_800f1730.cpp",
+  "language": "cpp",
+  "functions": {
+    "__23s8_Constructed_800f1730": "0x800f1730"
+  },
+  "descriptions": {
+    "__23s8_Constructed_800f1730": "Constructor: calls the base initializer, installs a vtable and clears the observed trailing fields."
+  }
+}

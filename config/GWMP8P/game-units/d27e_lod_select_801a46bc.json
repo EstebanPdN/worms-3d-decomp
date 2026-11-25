@@ -1,0 +1,11 @@
+{
+  "unit": "d27e_lod_select_801a46bc",
+  "source": "source/matching/game/d27e/d27e_lod_select_801a46bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27e_lod_select_801a46bc": "0x801a46bc"
+  },
+  "descriptions": {
+    "w3d_d27e_lod_select_801a46bc": "Picks the level of detail for a mesh node: transforms the node centre by the world matrix, takes the view depth clamped at zero, scans the ascending limits table for the first limit not below it and stores that index as the level (returns 0 when past the last limit), then calls the renderer's draw slot chosen by the top ten bits of the active slot record."
+  }
+}

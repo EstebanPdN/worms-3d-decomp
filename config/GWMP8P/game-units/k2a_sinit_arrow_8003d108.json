@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_sinit_arrow_8003d108",
+  "source": "source/matching/game/k2a/k2a_sinit_arrow_8003d108.cpp",
+  "language": "cpp",
+  "functions": {
+    "k2a_sinit_arrow_8003d108": "0x8003d108"
+  },
+  "descriptions": {
+    "k2a_sinit_arrow_8003d108": "Appears to be a static initializer that constructs the worm-select arrow entity type, sets three float constants and registers ten input and HUD message names."
+  }
+}

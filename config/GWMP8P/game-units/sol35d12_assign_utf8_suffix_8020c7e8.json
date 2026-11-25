@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d12_assign_utf8_suffix_8020c7e8",
+  "source": "source/matching/game/sol35d12/sol35d12_assign_utf8_suffix_8020c7e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d12_assign_utf8_suffix_8020c7e8": "0x8020c7e8"
+  },
+  "descriptions": {
+    "sol35d12_assign_utf8_suffix_8020c7e8": "Assign the UTF-8 character suffix through native shared-string ownership with self-assignment temporary; inferred GC32 API."
+  }
+}

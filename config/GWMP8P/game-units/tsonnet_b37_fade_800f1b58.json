@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_b37_fade_800f1b58",
+  "source": "source/matching/game/tsonnet_b37_fade_800f1b58.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_b37_fade_800f1b58": "0x800f1b58"
+  },
+  "descriptions": {
+    "tsonnet_b37_fade_800f1b58": "Advances a value by the unsigned count elapsed since the stored stamp, scaled by a global factor: subtracted when a flag is set, otherwise added. The value is limited between two global bounds (through pointer-returning min/max over stack copies) and passed with argument 1 to virtual slot 13 of each of two held objects. Field meanings are inferred. The constants' values and the behavior of the two slot calls have not been tested."
+  }
+}

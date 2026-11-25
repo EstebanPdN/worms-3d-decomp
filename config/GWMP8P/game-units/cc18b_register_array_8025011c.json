@@ -1,0 +1,11 @@
+{
+  "unit": "cc18b_register_array_8025011c",
+  "source": "source/matching/game/cc18b/cc18b_register_array_8025011c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc18b_register_array_8025011c": "0x8025011c"
+  },
+  "descriptions": {
+    "w3d_cc18b_register_array_8025011c": "Lazily fills the observed typed property descriptor once, registers it with the receiver and finishes property registration."
+  }
+}

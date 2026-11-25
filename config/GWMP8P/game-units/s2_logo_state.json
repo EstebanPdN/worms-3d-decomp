@@ -1,0 +1,19 @@
+{
+  "unit": "s2_logo_state",
+  "source": "source/matching/game/s2_logo_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_spectator_message_801081dc": "0x801081dc",
+    "w3d_logo_construct_80108368": "0x80108368",
+    "w3d_logo_destroy_801083ac": "0x801083ac",
+    "w3d_logo_dispatch_8010840c": "0x8010840c",
+    "w3d_service_construct_8010912c": "0x8010912c"
+  },
+  "descriptions": {
+    "w3d_spectator_message_801081dc": "Constructs the Spectator message and installs its secondary vtable.",
+    "w3d_logo_construct_80108368": "Constructs the intro-logo state and clears its resource pointer.",
+    "w3d_logo_destroy_801083ac": "Releases the intro-logo resource and forwards destruction to its base.",
+    "w3d_logo_dispatch_8010840c": "Starts or clears the intro-logo resource for lifecycle messages and forwards other messages.",
+    "w3d_service_construct_8010912c": "Constructs the service and clears its thirteen stored words and final state word."
+  }
+}

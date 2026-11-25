@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_load_sound_bank_801dbeb4",
+  "source": "source/matching/game/d31e/d31e_load_sound_bank_801dbeb4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_load_sound_bank_801dbeb4": "0x801dbeb4"
+  },
+  "descriptions": {
+    "w3d_d31e_load_sound_bank_801dbeb4": "Loads a MusyX sound bank by base name: first walks the group definitions (56-byte records ending with a null first word): if a group with the record's id is not in the list at +36, calls the add slot and searches the same record again; once found, calls the attach slot and advances. If not already started, loads <name>.pool, .proj, .samp (from the audio heap) and .sdir through 0x801db7a8, returning 0 on the first failure; stops any running sound system, starts it with the four buffers, sets the master volume 127/0/255, frees the sample buffer and clears +196. Always returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

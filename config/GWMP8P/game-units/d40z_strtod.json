@@ -1,0 +1,11 @@
+{
+  "unit": "d40z_strtod",
+  "source": "source/matching/game/d40z/d40z_strtod.c",
+  "language": "c",
+  "functions": {
+    "w3d_d40z_strtod_802ee800": "0x802ee800"
+  },
+  "descriptions": {
+    "w3d_d40z_strtod_802ee800": "SN's strtod: John Ousterhout's Tcl strtod in single precision: scans up to 18 digits in two integer parts, applies the exponent through a float table of powers of ten, ERANGE above the limit."
+  }
+}

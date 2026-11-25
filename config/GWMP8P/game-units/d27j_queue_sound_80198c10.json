@@ -1,0 +1,17 @@
+{
+  "unit": "d27j_queue_sound_80198c10",
+  "source": "source/matching/game/d27j/d27j_queue_sound_80198c10.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27j"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d27j_queue_sound_80198c10": "0x80198c10"
+  },
+  "descriptions": {
+    "d27j_queue_sound_80198c10": "Build a sound record from delay, rate and fade; start it at once or push it on the queue of at most ten; return its tag or -1"
+  }
+}

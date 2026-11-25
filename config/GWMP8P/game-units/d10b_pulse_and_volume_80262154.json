@@ -1,0 +1,14 @@
+{
+  "unit": "d10b_pulse_and_volume_80262154",
+  "source": "source/matching/game/d10b/d10b_pulse_and_volume_80262154_v0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mfast-cast"
+  ],
+  "functions": {
+    "d10b_pulse_and_volume_80262154": "0x80262154"
+  },
+  "descriptions": {
+    "d10b_pulse_and_volume_80262154": "Advance and wrap the pulse phase, form triangular intensity using the original single-precision arithmetic and witnessed ProDG quantized unsigned-byte cast, set RGB intensity and opaque alpha, decrement the nonzero countdown and invoke its expiration callback at zero. Read original Sfx/Ambient/Music volume properties and update mixer channels 0,3,1,2 in order with live global-service reloads. All literal bytes independently decoded from original DOL and remain unowned externals. Partial field/vtable views; full class sizes and ignored callback results unknown."
+  }
+}

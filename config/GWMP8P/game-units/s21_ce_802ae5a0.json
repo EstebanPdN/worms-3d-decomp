@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ce_802ae5a0",
+  "source": "source/matching/game/s21/s21_ce_802ae5a0.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_destroy_802ae5a0": "0x802ae5a0"
+  },
+  "descriptions": {
+    "w3d_s21_destroy_802ae5a0": "Appears to be a deleting destructor that releases the held interface through virtual slot 4 and deletes the object when the low flag bit is set."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "unit": "autop_8019e8d0",
+  "source": "source/matching/game/auto/autop_8019e8d0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8019e8d0": "0x8019e8d0",
+    "w3d_auto_801d1fd4": "0x801d1fd4",
+    "w3d_auto_801d1ff8": "0x801d1ff8",
+    "w3d_auto_801d2138": "0x801d2138",
+    "w3d_auto_801d215c": "0x801d215c",
+    "w3d_auto_801d229c": "0x801d229c",
+    "w3d_auto_801d22c0": "0x801d22c0",
+    "w3d_auto_801e6ec4": "0x801e6ec4",
+    "w3d_auto_801f2758": "0x801f2758",
+    "w3d_auto_80208a88": "0x80208a88",
+    "w3d_auto_80209d10": "0x80209d10",
+    "w3d_auto_8020c00c": "0x8020c00c",
+    "w3d_auto_80210abc": "0x80210abc",
+    "w3d_auto_8026c860": "0x8026c860",
+    "w3d_auto_80276e04": "0x80276e04",
+    "w3d_auto_802b83ac": "0x802b83ac"
+  },
+  "descriptions": {
+    "w3d_auto_8019e8d0": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801d1fd4": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801d1ff8": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801d2138": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801d215c": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801d229c": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801d22c0": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801e6ec4": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_801f2758": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_80208a88": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_80209d10": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_8020c00c": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_80210abc": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_8026c860": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_80276e04": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review.",
+    "w3d_auto_802b83ac": "Automatically decompiled (m2c, forwarded arguments restored) and verified exact; behavior description pending review."
+  }
+}

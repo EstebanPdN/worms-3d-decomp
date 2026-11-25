@@ -1,0 +1,14 @@
+{
+  "unit": "d26a_distance_light_8003c938",
+  "source": "source/matching/game/d26a/d26a_distance_light_8003c938.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_distance_light_8003c938": "0x8003c938"
+  },
+  "descriptions": {
+    "w3d_d26a_distance_light_8003c938": "Gets the camera matrix through the scene source at 0x804b1788 (virtual +24, 0x801f6c2c) and measures the squared distance from its position to the given point. Clamps it to [62500, 160000], computes 62500/d clamped to [0.5, 1], multiplies the vector at 0x804273c8 and passes the result to the sink at +36 (virtual +84)."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_am_801fe63c",
+  "source": "source/matching/game/s21/s21_am_801fe63c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_bool_to_text_801fe63c": "0x801fe63c"
+  },
+  "descriptions": {
+    "w3d_s21_bool_to_text_801fe63c": "Appears to assign the text true or false to the output string depending on a boolean value read through a pointer, returning zero."
+  }
+}

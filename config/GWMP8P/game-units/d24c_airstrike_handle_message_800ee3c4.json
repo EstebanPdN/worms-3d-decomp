@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_airstrike_handle_message_800ee3c4",
+  "source": "source/matching/game/d24c/d24c_airstrike_handle_message_800ee3c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_airstrike_handle_message_800ee3c4": "0x800ee3c4"
+  },
+  "descriptions": {
+    "d24c_airstrike_handle_message_800ee3c4": "On id 64 call base 0x8015fb34 and on success 0x800ee638 returning 0, else return 0x80004005. On id 66 call 0x800ef614 and forward. Cached 0x804aef6c: when 0x800ef788 is non-zero, state +52 0 sets state 2 and calls 0x800ee934; state 1 calls 0x800ef680 and on success posts 0x804aefc4, then either posts a target-id message 0x804aef94 with +20 and sets state 0 (settings +504) or calls 0x800ee934, then with settings +464 registers the entity from 0x80410318 and sets state 2; on failure posts 0x804aef84. Cached 0x804aef64 calls 0x800ee934; 0x804aefac calls 0x800eeadc; 0x804aeff4 calls 0x800eebf8; 0x804aef5c calls 0x8015fd1c. Otherwise forward to the base."
+  }
+}

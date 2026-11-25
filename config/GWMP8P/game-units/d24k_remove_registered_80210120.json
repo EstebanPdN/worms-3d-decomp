@@ -1,0 +1,11 @@
+{
+  "unit": "d24k_remove_registered_80210120",
+  "source": "source/matching/game/d24k/d24k_remove_registered_80210120.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24k_remove_registered_80210120": "0x80210120"
+  },
+  "descriptions": {
+    "w3d_d24k_remove_registered_80210120": "Removes every occurrence of an interface pointer from the reference-counted list 0x80463be0: finds the first match (0x8035d164), moves later non-matching entries down with retain/release, and erases the tail (0x80210dd8)."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f7a_string_insert_80347570",
+  "source": "source/matching/game/sol35f7a/sol35f7a_string_insert_80347570.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f7a_string_insert_80347570": "0x80347570"
+  },
+  "descriptions": {
+    "sol35f7a_string_insert_80347570": "Inserts repeated shared strings into the observed GC32 vector. Copy construction retains headers; assignment retains incoming and releases overwritten headers. Growth constructs prefix, repeated values and suffix, destroys old strings, releases storage and publishes bounds. Names and class identities are inferred."
+  }
+}

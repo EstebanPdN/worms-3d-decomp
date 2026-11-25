@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fb_801eb3f4",
+  "source": "source/matching/game/s21/s21_fb_801eb3f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_read_element_801eb3f4": "0x801eb3f4"
+  },
+  "descriptions": {
+    "w3d_s21_read_element_801eb3f4": "Appears to read an element of a described object into an output: without a position it copies a default text, otherwise it calls the target's read slot, directly when it is of kind three or via a temp"
+  }
+}

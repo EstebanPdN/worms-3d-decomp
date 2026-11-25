@@ -1,0 +1,11 @@
+{
+  "unit": "cx10a_direction_scales_80085ff8",
+  "source": "source/matching/game/cx10a/cx10a_direction_scales_80085ff8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10a_direction_scales_80085ff8": "0x80085ff8"
+  },
+  "descriptions": {
+    "w3d_cx10a_direction_scales_80085ff8": "Selects float scale outputs from eight observed flag masks with ordered small-data accesses; names and volatile qualifiers inferred."
+  }
+}

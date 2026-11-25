@@ -1,0 +1,40 @@
+{
+  "unit": "h1_masked_vector",
+  "source": "source/matching/game/h1/h1_masked_vector.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "w3d_apply_masked_vector_803583dc": "0x803583dc",
+    "w3d_apply_masked_vector_80358758": "0x80358758",
+    "w3d_apply_masked_vector_803589a8": "0x803589a8",
+    "w3d_apply_masked_vector_80358e4c": "0x80358e4c",
+    "w3d_apply_masked_vector_80359960": "0x80359960",
+    "w3d_apply_masked_vector_80359bb0": "0x80359bb0",
+    "w3d_apply_masked_vector_8035818c": "0x8035818c",
+    "w3d_apply_masked_vector_80358630": "0x80358630",
+    "w3d_apply_masked_vector_80358880": "0x80358880",
+    "w3d_apply_masked_vector_80358bfc": "0x80358bfc",
+    "w3d_apply_masked_vector_80358504": "0x80358504",
+    "w3d_apply_masked_vector_80358ad0": "0x80358ad0",
+    "w3d_apply_masked_vector_80359708": "0x80359708",
+    "w3d_apply_masked_vector_80359834": "0x80359834"
+  },
+  "descriptions": {
+    "w3d_apply_masked_vector_803583dc": "Applies a four-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 15 sets directly).",
+    "w3d_apply_masked_vector_80358758": "Applies a four-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 15 sets directly).",
+    "w3d_apply_masked_vector_803589a8": "Applies a four-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 15 sets directly).",
+    "w3d_apply_masked_vector_80358e4c": "Applies a four-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 15 sets directly).",
+    "w3d_apply_masked_vector_80359960": "Applies a four-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 15 sets directly).",
+    "w3d_apply_masked_vector_80359bb0": "Applies a four-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 15 sets directly).",
+    "w3d_apply_masked_vector_8035818c": "Applies a two-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 3 sets directly).",
+    "w3d_apply_masked_vector_80358630": "Applies a two-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 3 sets directly).",
+    "w3d_apply_masked_vector_80358880": "Applies a two-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 3 sets directly).",
+    "w3d_apply_masked_vector_80358bfc": "Applies a two-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 3 sets directly).",
+    "w3d_apply_masked_vector_80358504": "Applies a one-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 1 sets directly).",
+    "w3d_apply_masked_vector_80358ad0": "Applies a one-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 1 sets directly).",
+    "w3d_apply_masked_vector_80359708": "Applies a one-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 1 sets directly).",
+    "w3d_apply_masked_vector_80359834": "Applies a one-float value through a member setter, first filling components whose mask bit is clear from the member getter (mask 1 sets directly)."
+  }
+}

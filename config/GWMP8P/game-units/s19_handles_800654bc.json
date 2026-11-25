@@ -1,0 +1,11 @@
+{
+  "unit": "s19_handles_800654bc",
+  "source": "source/matching/game/s19/s19_handles_800654bc.c",
+  "language": "c",
+  "functions": {
+    "s19_clear_handles_800654bc": "0x800654bc"
+  },
+  "descriptions": {
+    "s19_clear_handles_800654bc": "Appears to resolve and release each of four handle slots starting at +0x1c through the handle table and clear them."
+  }
+}

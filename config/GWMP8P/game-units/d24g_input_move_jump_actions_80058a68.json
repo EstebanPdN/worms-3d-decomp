@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_input_move_jump_actions_80058a68",
+  "source": "source/matching/game/d24g/d24g_input_move_jump_actions_80058a68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_input_move_jump_actions_80058a68": "0x80058a68"
+  },
+  "descriptions": {
+    "w3d_d24g_input_move_jump_actions_80058a68": "Appends input actions to the owner's pointer vector at +36: Input.MoveX (0, 0, axis 0), Input.MoveY (1, 0, axis 0), Input.JumpPressed (9, 1), Input.JumpReleased (9, 0). Each entry is (action, enabled[, axis]); button actions mode 2, axis actions mode 1."
+  }
+}

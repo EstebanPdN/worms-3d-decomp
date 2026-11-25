@@ -1,0 +1,13 @@
+{
+  "unit": "s20_adjust_n",
+  "source": "source/matching/game/s20/s20_adjust_n.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_dispatch_all_targets_801aa79c": "0x801aa79c",
+    "w3d_s20_dispatch_item_targets_801aa8cc": "0x801aa8cc"
+  },
+  "descriptions": {
+    "w3d_s20_dispatch_all_targets_801aa79c": "Appears to dispatch every target of an item's record through the secondary base handler table, restoring a guard field when it was set.",
+    "w3d_s20_dispatch_item_targets_801aa8cc": "Appears to dispatch an item's single target or each target of its list through the secondary base handler table, restoring a guard field afterwards."
+  }
+}

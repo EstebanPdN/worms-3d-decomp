@@ -1,0 +1,17 @@
+{
+  "unit": "d31h_follow_camera_honest_800cb0fc",
+  "source": "source/matching/game/d31h/d31h_follow_camera_honest_800cb0fc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d31h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31h_follow_camera_honest_800cb0fc": "0x800cb0fc"
+  },
+  "descriptions": {
+    "d31h_follow_camera_honest_800cb0fc": "Follow camera update: target tracking, blocked-eye search, eased look and eye"
+  }
+}

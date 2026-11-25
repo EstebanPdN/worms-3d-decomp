@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_pool_owner_destroy_800c8630",
+  "source": "source/matching/game/k10a/k10a_pool_owner_destroy_800c8630.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_pool_owner_destroy_800c8630": "0x800c8630"
+  },
+  "descriptions": {
+    "w3d_k10a_pool_owner_destroy_800c8630": "Appears to be the destructor of a service-derived pool owner that clears a global owner pointer, releases shared held interfaces and its members."
+  }
+}

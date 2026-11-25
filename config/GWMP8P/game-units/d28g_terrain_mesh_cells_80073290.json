@@ -1,0 +1,15 @@
+{
+  "unit": "d28g_terrain_mesh_cells_80073290",
+  "source": "source/matching/game/d28g/d28g_terrain_mesh_cells_80073290.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d28g_terrain_mesh_cells_80073290": "0x80073290"
+  },
+  "descriptions": {
+    "w3d_d28g_terrain_mesh_cells_80073290": "Rebuilds a terrain chunk mesh: clears the per-material index counts, walks the inner 7x7x7 cells of a 9x9x9 grid, reads each cell's material from the run-length iterator at +28, and emits a quad of positions, uvs, colours, edge indices and list indices for each open cell edge, scaled by the frame time."
+  },
+  "search_window": 24576
+}

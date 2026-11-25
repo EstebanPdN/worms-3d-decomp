@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cw_802bc180",
+  "source": "source/matching/game/s21/s21_cw_802bc180.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_position_802bc180": "0x802bc180"
+  },
+  "descriptions": {
+    "w3d_s21_set_position_802bc180": "Appears to copy a three-float vector into the object at offset 44 and call a follow-up helper when the pointer vector at offset 56 is not empty."
+  }
+}

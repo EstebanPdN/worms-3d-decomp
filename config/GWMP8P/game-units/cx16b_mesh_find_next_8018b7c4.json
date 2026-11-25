@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_mesh_find_next_8018b7c4",
+  "source": "source/matching/game/cx16b/cx16b_mesh_find_next_8018b7c4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_mesh_find_next_8018b7c4": "0x8018b7c4"
+  },
+  "descriptions": {
+    "w3d_cx16b_mesh_find_next_8018b7c4": "Scans the 276-byte mesh record table using the observed normalized busy predicate and compound loop conditions, advancing the external index while preserving the starting-record result."
+  }
+}

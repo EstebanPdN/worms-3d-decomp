@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_chat_close_80038f50",
+  "source": "source/matching/game/k5a/k5a_chat_close_80038f50.cpp",
+  "language": "cpp",
+  "functions": {"k5a_chat_close_80038f50": "0x80038f50"},
+  "descriptions": {"k5a_chat_close_80038f50": "Appears to close the chat window: leaves the app state if open, posts three messages, clears the chat property and resets the open flag."}
+}

@@ -1,0 +1,49 @@
+#include "w3d_ptr.h"
+#line 1 "cc18b_handle_key_80278498.cpp"
+extern "C" {
+/* Instances of a hand-matched template written by tools/gen_param_units.py and
+ * verified identical to the original after linking. Offsets, constants and
+ * address-named externs differ per instance; names are structural. */
+
+/* Family templates, 2026-10-21 (third session), eleventh batch: a key
+ * handler mapping a character's position in one of two sets to a command. */
+struct Cc18bKeyOwner { unsigned char unknown[92]; int selection; };
+
+extern Ptr32<char> lbl_804abb9c;
+extern Ptr32<char> lbl_804abba0;
+Ptr32<char> fn_802ef198(Ptr32<const char>, int);
+void fn_80275f18(Ptr32<void>);
+void fn_802761b8(Ptr32<void>, Ptr32<void>, int);
+
+void w3d_cc18b_handle_key_80278498(Ptr32<Cc18bKeyOwner> self, int key)
+{
+    Ptr32<char> set;
+    Ptr32<char> found;
+    if (key == 27) {
+        fn_80275f18(self);
+        return;
+    }
+    found = fn_802ef198(lbl_804abb9c, key);
+    set = lbl_804abb9c;
+    if (!found) {
+        set = lbl_804abba0;
+        found = fn_802ef198(set, key);
+        if (!found)
+            return;
+    }
+    switch (found - set) {
+    case 0: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 29); break;
+    case 1: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 20); break;
+    case 2: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 21); break;
+    case 3: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 22); break;
+    case 4: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 23); break;
+    case 5: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 24); break;
+    case 6: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 25); break;
+    case 7: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 26); break;
+    case 8: fn_802761b8(self, (Ptr32<void>)w3d::G(self->selection), 30); break;
+    }
+}
+
+}
+
+

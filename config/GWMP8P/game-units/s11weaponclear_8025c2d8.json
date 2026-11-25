@@ -1,0 +1,11 @@
+{
+  "unit": "s11weaponclear_8025c2d8",
+  "source": "source/matching/game/generated/s11weaponclear_8025c2d8.c",
+  "language": "c",
+  "functions": {
+    "s11_clear_weapon_flags_8025c2d8": "0x8025c2d8"
+  },
+  "descriptions": {
+    "s11_clear_weapon_flags_8025c2d8": "Appears to clear 50 per-weapon flag bytes at observed offsets in the object."
+  }
+}

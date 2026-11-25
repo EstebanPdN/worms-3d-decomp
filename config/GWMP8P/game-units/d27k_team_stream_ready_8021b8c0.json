@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_team_stream_ready_8021b8c0",
+  "source": "source/matching/game/d27k/d27k_team_stream_ready_8021b8c0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_team_stream_ready_8021b8c0": "0x8021b8c0"
+  },
+  "descriptions": {
+    "w3d_d27k_team_stream_ready_8021b8c0": "If flag 32 is set and the stream is ready: reads a team item through 0x8021bb9c; on success stores 64 and posts one message; otherwise closes the stream, stores 8, posts two messages and erases the pool entry. Touches the team and active property strings through discarded copies."
+  }
+}

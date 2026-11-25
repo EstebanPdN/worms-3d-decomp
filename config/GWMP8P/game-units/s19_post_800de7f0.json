@@ -1,0 +1,11 @@
+{
+  "unit": "s19_post_800de7f0",
+  "source": "source/matching/game/s19/s19_post_800de7f0.c",
+  "language": "c",
+  "functions": {
+    "s19_post_selected_800de7f0": "0x800de7f0"
+  },
+  "descriptions": {
+    "s19_post_selected_800de7f0": "Appears to build and post a message for the selected ids at +0xb0 and +0xb4 when one is set and clear the byte at +0x68 when a global flag is zero."
+  }
+}

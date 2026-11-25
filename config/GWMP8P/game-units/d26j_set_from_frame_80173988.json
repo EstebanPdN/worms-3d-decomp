@@ -1,0 +1,18 @@
+{
+  "unit": "d26j_set_from_frame_80173988",
+  "source": "source/matching/game/d26j/d26j_set_from_frame_80173988.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26j"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ],
+  "functions": {
+    "d26j_set_from_frame_80173988": "0x80173988"
+  },
+  "descriptions": {
+    "d26j_set_from_frame_80173988": "Decompose a 2D frame into z rotation, translation and x/y scale and apply them through the node's virtual setters"
+  }
+}

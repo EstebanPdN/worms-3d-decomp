@@ -1,0 +1,11 @@
+{
+  "unit": "sol11c_progress_layout_8028c290_v2",
+  "source": "source/matching/game/sol11c/sol11c_progress_layout_8028c290_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol11c_progress_layout_8028c290": "0x8028c290"
+  },
+  "descriptions": {
+    "sol11c_progress_layout_8028c290": "Clamps the selected index, formats its percentage label, scales a child vector, reads border thickness and updates box dimensions from text measurements. Engine owner/context types remain borrowed partial GameCube ABI views."
+  }
+}

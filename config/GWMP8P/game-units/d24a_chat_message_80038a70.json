@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_chat_message_80038a70",
+  "source": "source/matching/game/d24a/d24a_chat_message_80038a70.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_chat_message_80038a70": "0x80038a70"
+  },
+  "descriptions": {
+    "w3d_d24a_chat_message_80038a70": "Message 64 runs the base handler (negative returns 0x80004005) and start-up 0x80038c74; message 66 runs 0x80038d18; cached ids dispatch to 0x800396a8, 0x8003904c, open 0x80038e04 and close 0x80038f50; key 81 posts close or open by state +36; another id posts 0x804ad0a8 while open; the base handler ends every path."
+  }
+}

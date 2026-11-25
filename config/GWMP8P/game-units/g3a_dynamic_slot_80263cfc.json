@@ -1,0 +1,11 @@
+{
+  "unit": "g3a_dynamic_slot_80263cfc",
+  "source": "source/matching/game/g3a/g3a_dynamic_slot_80263cfc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_g3a_dynamic_slot_80263cfc": "0x80263cfc"
+  },
+  "descriptions": {
+    "w3d_g3a_dynamic_slot_80263cfc": "Allocates the first free dynamic two-float UI entry from a shared mask when passed minus one, initializes position and extent in the original resource pools, and returns slot plus fifteen. Otherwise clears the supplied slot and returns minus one. Consumes and destroys the passed shared string. Resource arrays remain external pointer views."
+  }
+}

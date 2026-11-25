@@ -1,0 +1,11 @@
+{
+  "unit": "s21_cs_801e8a88",
+  "source": "source/matching/game/s21/s21_cs_801e8a88.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_construct_801e8a88": "0x801e8a88"
+  },
+  "descriptions": {
+    "w3d_s21_construct_801e8a88": "Appears to construct an object on a base constructor with two vtable pointers and two cleared triples, and push it onto a global intrusive list."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_v2_worm_drop_ctor_800d2dec",
+  "source": "source/matching/game/d24c/d24c_v2_worm_drop_ctor_800d2dec.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_v2_worm_drop_ctor_800d2dec": "0x800d2dec"
+  },
+  "descriptions": {
+    "d24c_v2_worm_drop_ctor_800d2dec": "Call base 0x8015a0d4 with the first and third arguments; store vtable 0x8040fc90 at +72; clear +136 and +204; zero vectors +140, +152, +164; store 0, 0, 0, 1.0, 1.0 at +176..+192; clear byte +200; set vectors +76 zero, +88 (k,0,0), +100 (0,k,0), +112 and +124 zero with k from 0x80388cb4; read the Worm.Drop setting into a retained reference at +204. Returns this."
+  }
+}

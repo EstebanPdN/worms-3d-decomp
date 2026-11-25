@@ -1,0 +1,12 @@
+{
+  "unit": "d19e_named_object_reset_8024dc24",
+  "source": "source/matching/game/d19e/d19e_named_object_reset_8024dc24.cpp",
+  "language": "cpp",
+  "extra_flags": ["-mps-float"],
+  "functions": {
+    "w3d_d19e_reset_named_object_8024dc24": "0x8024dc24"
+  },
+  "descriptions": {
+    "w3d_d19e_reset_named_object_8024dc24": "Resets the Name and ResourceName string entries (0x801ed24c) to the shared empty string 0x804b06a0 through a retained temporary copy, sets the Position, Orientation, VoxelPos and Scale vector bindings (0x801f0210) to the constant at 0x803c521c (0.0f) in all three components, calls the refresh routine 0x801e8d9c and returns 0."
+  }
+}

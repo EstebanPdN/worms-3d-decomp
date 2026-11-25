@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_reset_scene_801acb34",
+  "source": "source/matching/game/d29e/d29e_reset_scene_801acb34.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_reset_scene_801acb34": "0x801acb34"
+  },
+  "descriptions": {
+    "w3d_d29e_reset_scene_801acb34": "Resets a scene node: recomputes its transform through 0x801acd6c with the table at 0x8045e748, marks it ready at +136, clears the tree at +100 and the 16-byte element vector at +116 (STLport erase with an empty copy and a destroy loop), then replaces the held service at +132 with the one found for 0x80413b28 (add, release old, store) and calls its virtual slot 12 with 0. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

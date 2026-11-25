@@ -1,0 +1,11 @@
+{
+  "unit": "genparam_801f1094",
+  "source": "source/matching/game/generated/genparam_801f1094.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_binding_create_801f1094": "0x801f1094"
+  },
+  "descriptions": {
+    "w3d_binding_create_801f1094": "Creates a property binding with the class allocator: base-constructs it, installs its vtable, copies the source and its two member-function pointers, then registers it with the owner."
+  }
+}

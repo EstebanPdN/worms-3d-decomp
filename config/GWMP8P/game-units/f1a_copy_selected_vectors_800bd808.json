@@ -1,0 +1,11 @@
+{
+  "unit": "f1a_copy_selected_vectors_800bd808",
+  "source": "source/matching/game/f1a/f1a_copy_selected_vectors_800bd808.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f1a_copy_selected_vectors_800bd808": "0x800bd808"
+  },
+  "descriptions": {
+    "w3d_f1a_copy_selected_vectors_800bd808": "Initializes the caller through 0x800bcdec with the original float at 0x80382cf8 and invokes 0x800bcd6c. Walks the pointer range at 0x8043bb64 while testing successive bits of words beginning at caller offset 128. For each set bit, calls 0x800b5fc0 with the current pointer and the next 12-byte output position beginning at caller offset 256. Advances to the next mask word on bit wrap. Referenced data ownership is not claimed."
+  }
+}

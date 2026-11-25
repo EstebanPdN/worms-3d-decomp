@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_update_property_vectors_800642ac",
+  "source": "source/matching/game/f2a/f2a_update_property_vectors_800642ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_update_property_vectors_800642ac": "0x800642ac"
+  },
+  "descriptions": {
+    "w3d_f2a_update_property_vectors_800642ac": "Resolves caller offset 28, multiplies caller float offsets 84 and 44, samples the property at offset 144, and writes scale/sample fields through 0x8018963c. Queries 0x80189518 twice to set three-float fields at offsets 12 and 24 from the original constants and computed product. Frame storage and names are inferred; external data ownership is not claimed."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "d28d_worm_play_weapon_idle_80138dac",
+  "source": "source/matching/game/d28d/d28d_worm_play_weapon_idle_80138dac.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d28d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28d_worm_play_weapon_idle_80138dac": "0x80138dac"
+  },
+  "descriptions": {
+    "d28d_worm_play_weapon_idle_80138dac": "Plays the idle animations for a worm's weapon: optional is-current check; restarts the idle clip and clears +580. Unless +652 is set, reads the weapon's settings, draws the weapon, plays the settings' body clip, then plays the aim clip and records whether its name contains 'Aim', or falls back to idle clips. Plays the matching clip on the held mesh at half its length, a companion clip on the +164 mesh for weapons 43, 47 and 50, and updates the weapon effect."
+  }
+}

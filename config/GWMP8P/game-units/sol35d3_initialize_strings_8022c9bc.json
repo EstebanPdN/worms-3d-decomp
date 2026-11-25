@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d3_initialize_strings_8022c9bc",
+  "source": "source/matching/game/sol35d3/sol35d3_initialize_strings_8022c9bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sol35d3_initialize_strings_8022c9bc": "0x8022c9bc"
+  },
+  "descriptions": {
+    "w3d_sol35d3_initialize_strings_8022c9bc": "Create the individually witnessed native bindings in original order; initialize each text value at +8 through genuine shared-string copy, retain-before-release assignment and scoped destruction, finalize the owner and return zero. Names and partial class layouts are inferred."
+  }
+}

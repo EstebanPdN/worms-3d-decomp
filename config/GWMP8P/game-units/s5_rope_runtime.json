@@ -1,0 +1,13 @@
+{
+  "unit": "s5_rope_runtime",
+  "source": "source/matching/game/s5_rope_runtime.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_rope_drain_handle_800d0058": "0x800d0058",
+    "w3d_rope_rescale_800d1628": "0x800d1628"
+  },
+  "descriptions": {
+    "w3d_rope_drain_handle_800d0058": "Drains a rope handle clock and marks state one when more than one entry was processed.",
+    "w3d_rope_rescale_800d1628": "Rescales a rope value using two clock readings and numerator and denominator factors."
+  }
+}

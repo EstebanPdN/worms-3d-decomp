@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_jetpack_part_800ae7d4",
+  "source": "source/matching/game/d24h/d24h_jetpack_part_800ae7d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_jetpack_part_800ae7d4": "0x800ae7d4"
+  },
+  "descriptions": {
+    "w3d_d24h_jetpack_part_800ae7d4": "Jetpack part effect state: resolves the owner of +32 (0x80343584) and the model global for part 0, 1 or 2. State 0 posts a 12-byte message with the current effect handle when one is active and clears the part's handle (+52) and state (+64). State 1 stops the running effect recursively and spawns Part_JetpackSmokeTrail (0x800e5cf0). State 2 stops it and spawns Jetpack_directional for part 2 or Part_Jetpack otherwise. Other parts or states do nothing."
+  }
+}

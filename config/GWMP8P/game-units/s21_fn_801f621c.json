@@ -1,0 +1,14 @@
+{
+  "unit": "s21_fn_801f621c",
+  "source": "source/matching/game/s21/s21_fn_801f621c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_rotate_cols01_801f621c": "0x801f621c"
+  },
+  "descriptions": {
+    "w3d_s21_rotate_cols01_801f621c": "Appears to rotate the first two columns of a three-by-three float matrix by an angle, using sine and cosine helpers."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

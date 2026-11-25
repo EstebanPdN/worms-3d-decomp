@@ -1,0 +1,11 @@
+{
+  "unit": "d28a_plan_selection_finish_80007080",
+  "source": "source/matching/game/d28a/d28a_plan_selection_finish_80007080.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28a_plan_selection_finish_80007080": "0x80007080"
+  },
+  "descriptions": {
+    "w3d_d28a_plan_selection_finish_80007080": "Records a worm's plan and selects the best when all have reported."
+  }
+}

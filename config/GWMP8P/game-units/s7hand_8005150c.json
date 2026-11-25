@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8005150c",
+  "source": "source/matching/game/s7/s7hand_8005150c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8005150c": "0x8005150c"
+  },
+  "descriptions": {
+    "w3d_auto_8005150c": "Constructs the base, installs the derived vtable and clears the observed contiguous word slots using a loop-invariant zero value."
+  }
+}

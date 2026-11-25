@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_gx_index_stream_emit_8016b3f0",
+  "source": "source/matching/game/cx13b/cx13b_gx_index_stream_emit_8016b3f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_gx_index_stream_emit_8016b3f0": "0x8016b3f0"
+  },
+  "descriptions": {
+    "w3d_cx13b_gx_index_stream_emit_8016b3f0": "Begin a primitive and emit each vertex index into each enabled two-bit attribute channel."
+  }
+}

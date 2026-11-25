@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ej_801dfe8c",
+  "source": "source/matching/game/s21/s21_ej_801dfe8c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_shutdown_801dfe8c": "0x801dfe8c"
+  },
+  "descriptions": {
+    "w3d_s21_shutdown_801dfe8c": "Appears to shut down an object: it flushes and destroys each of the 32 objects in its slot array through the vtable pointer at offset 28, releases the held interface and returns zero."
+  }
+}

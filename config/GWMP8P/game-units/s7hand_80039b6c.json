@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80039b6c",
+  "source": "source/matching/game/s7/s7hand_80039b6c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80039b6c": "0x80039b6c"
+  },
+  "descriptions": {
+    "w3d_auto_80039b6c": "Allocates and copies an input string, tokenizes the copy with the delimiter object at 0x80373fe8 and compares against three names at +0x2c/+0x30/+0x34, returning their 1-based index or 0."
+  }
+}

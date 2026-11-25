@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_lumps_destroy_8026d040",
+  "source": "source/matching/game/k8c/k8c_lumps_destroy_8026d040.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k8c_lumps_destroy_8026d040": "0x8026d040"
+  },
+  "descriptions": {
+    "w3d_k8c_lumps_destroy_8026d040": "Appears to be the Lunar.Lumps deleting destructor: clear the singleton pointer, release two held interfaces, finish the name string, release the interface at +28 and run the base destructor."
+  }
+}

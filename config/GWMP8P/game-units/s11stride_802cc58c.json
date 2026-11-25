@@ -1,0 +1,11 @@
+{
+  "unit": "s11stride_802cc58c",
+  "source": "source/matching/game/s11_auto/s11stride_802cc58c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802cc58c": "0x802cc58c"
+  },
+  "descriptions": {
+    "w3d_auto_802cc58c": "Appears to calls 0x802cccbc. m2c types and names are provisional."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d25l_create_scroll_bar_box_802b85f4",
+  "source": "source/matching/game/d25l/d25l_create_scroll_bar_box_802b85f4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25l_create_scroll_bar_box_802b85f4": "0x802b85f4"
+  },
+  "descriptions": {
+    "d25l_create_scroll_bar_box_802b85f4": "When the box at +288 does not exist and the border thickness from 0x802966f8 is less than twice the size at +416, creates a box from the class record at 0x8041c220, stores it at +288 and registers it through 0x80164514 with the global at 0x804b178c and the value at +20, then sets its attributes, position and size from the data at +40 and the fields at +28, +32, +140, +176, +220, +284 and +112."
+  }
+}

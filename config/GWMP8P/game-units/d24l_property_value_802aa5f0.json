@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_property_value_802aa5f0",
+  "source": "source/matching/game/d24l/d24l_property_value_802aa5f0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_property_value_802aa5f0": "0x802aa5f0"
+  },
+  "descriptions": {
+    "d24l_property_value_802aa5f0": "Takes a String by value (destroyed before returning) and looks it up as a property into a handle (0x800fc1b0). Kind 0 (virtual slot +24) returns 0x80178c48 of the cast 0x803426b4, kind 1 returns 0x80178d1c of the cast 0x80342a78. An empty name, a failed lookup or any other kind returns 0; the last two also make and drop a temporary copy of the name."
+  }
+}

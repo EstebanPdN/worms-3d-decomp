@@ -1,0 +1,17 @@
+{
+  "unit": "d18f_progress_layout_8028c290",
+  "source": "source/matching/game/d18f/d18f_progress_layout_8028c290.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d18f"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d18f_progress_layout_8028c290": "0x8028c290"
+  },
+  "descriptions": {
+    "d18f_progress_layout_8028c290": "Clamps the selected index, formats its percentage label, scales a child vector, reads border thickness and updates box dimensions from text measurements. Engine owner/context types remain borrowed partial GameCube ABI views."
+  }
+}

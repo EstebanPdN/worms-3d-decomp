@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_fopen_reentrant",
+  "source": "source/matching/game/cx7c/cx7c_fopen_reentrant.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_fopen_reentrant_802eb3c8": "0x802eb3c8"
+  },
+  "descriptions": {
+    "w3d_cx7c_fopen_reentrant_802eb3c8": "Reentrant file open: parses mode, allocates FILE, opens the path, installs the original cookie callbacks, and seeks to end for append mode; failures release the FILE slot by clearing flags."
+  }
+}

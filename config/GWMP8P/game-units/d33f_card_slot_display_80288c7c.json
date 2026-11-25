@@ -1,0 +1,15 @@
+{
+  "unit": "d33f_card_slot_display_80288c7c",
+  "source": "source/matching/game/d33f/d33f_card_slot_display_80288c7c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d33f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d33f_card_slot_display_80288c7c": "0x80288c7c"
+  },
+  "descriptions": {
+    "d33f_card_slot_display_80288c7c": "Updates the memory card slot display: refreshes its texts and repaints the boxes with white and black or with the pulsing tint; clears the selection if the slot has no record."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx10b_arena_allocate_existing_80209d50",
+  "source": "source/matching/game/cx10b/cx10b_arena_allocate_existing_80209d50.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10b_arena_allocate_existing_80209d50": "0x80209d50"
+  },
+  "descriptions": {
+    "w3d_cx10b_arena_allocate_existing_80209d50": "Allocate from the first arena block with sufficient free space, growing by the configured minimum if needed."
+  }
+}

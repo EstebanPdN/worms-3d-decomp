@@ -1,0 +1,19 @@
+{
+  "unit": "h1_property_store16",
+  "source": "source/matching/game/h1/h1_property_store16.c",
+  "language": "c",
+  "functions": {
+    "w3d_property_store16_assign_8035e2c0": "0x8035e2c0",
+    "w3d_property_store16_same_8035e348": "0x8035e348",
+    "w3d_property_store16_lacks_8035e3d0": "0x8035e3d0",
+    "w3d_property_store16_set_8035e404": "0x8035e404",
+    "w3d_property_store16_get_8035e468": "0x8035e468"
+  },
+  "descriptions": {
+    "w3d_property_store16_assign_8035e2c0": "Converts value to a 16-byte value through vtable slot 0x34 and stores it for key through slot 0x30.",
+    "w3d_property_store16_same_8035e348": "Returns whether two values convert to byte-identical 16-byte results through vtable slot 0x34.",
+    "w3d_property_store16_lacks_8035e3d0": "Returns 1 when key has no entry in the store's table (entries of value_offset + 16 bytes), else 0.",
+    "w3d_property_store16_set_8035e404": "Finds or inserts the table entry for key and copies the 16-byte value to the store's value offset inside it.",
+    "w3d_property_store16_get_8035e468": "Returns the 16-byte value stored for key, or the default value at 0x804641cc when there is no entry."
+  }
+}

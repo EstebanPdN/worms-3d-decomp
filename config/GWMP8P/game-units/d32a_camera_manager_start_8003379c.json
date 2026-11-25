@@ -1,0 +1,11 @@
+{
+  "unit": "d32a_camera_manager_start_8003379c",
+  "source": "source/matching/game/d32a/d32a_camera_manager_start_8003379c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_camera_manager_start_8003379c": "0x8003379c"
+  },
+  "descriptions": {
+    "w3d_d32a_camera_manager_start_8003379c": "Starts the camera manager: reads camera settings, subscribes its message handlers, creates and activates all fourteen camera modes and gives the orbit camera's vectors to the display."
+  }
+}

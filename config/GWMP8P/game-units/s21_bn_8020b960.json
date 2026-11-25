@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bn_8020b960",
+  "source": "source/matching/game/s21/s21_bn_8020b960.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_singleton_8020b960": "0x8020b960"
+  },
+  "descriptions": {
+    "w3d_s21_set_singleton_8020b960": "Appears to replace the global singleton pointer, retaining the new object and releasing the previous one through virtual slots."
+  }
+}

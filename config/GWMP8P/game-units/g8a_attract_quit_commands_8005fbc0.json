@@ -1,0 +1,11 @@
+{
+  "unit": "g8a_attract_quit_commands_8005fbc0",
+  "source": "source/matching/game/g8a/g8a_attract_quit_commands_8005fbc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "g8a_attract_quit_commands_8005fbc0": "0x8005fbc0"
+  },
+  "descriptions": {
+    "g8a_attract_quit_commands_8005fbc0": "Allocates three original32-byte command records from pool804ae280, initializes their8-byte cached FCS.QuitAttractMode name via8015f518, kind2, argument0, codes12/8/9, enabled1 and final word0. Appends each pointer to external owner byte-addressed buffer36..47, retaining observed byte-count growth max(used+1,used+used/2)*4 and min copy bounds. Native const-reference min/max lifetimes are used. Record complete allocation size is established at all three original sites; external owner never constructed. Name and pool remain external data."
+  }
+}

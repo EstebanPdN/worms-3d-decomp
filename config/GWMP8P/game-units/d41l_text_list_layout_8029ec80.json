@@ -1,0 +1,20 @@
+{
+  "unit": "d41l_text_list_layout_8029ec80",
+  "source": "source/matching/game/d41l/d41l_text_list_layout_8029ec80.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks",
+    "-mps-float"
+  ],
+  "functions": {
+    "d41l_text_list_layout_8029ec80": "0x8029ec80"
+  },
+  "descriptions": {
+    "d41l_text_list_layout_8029ec80": "Measures and wraps the list text at decreasing sizes until it fits, then adds the separator lines of a scrolling list and picks one of the two box layouts."
+  }
+}

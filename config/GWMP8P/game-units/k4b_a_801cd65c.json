@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801cd65c",
+  "source": "source/matching/game/k4b/k4b_a_801cd65c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_sequenced_construct_801cd65c": "0x801cd65c"
+  },
+  "descriptions": {
+    "w3d_k4b_sequenced_construct_801cd65c": "Appears to construct an object over 0x801ea0ec with retained shared interfaces, an empty label string and cleared 16-bit fields, then stamps its sequence through 0x801afaa4."
+  }
+}

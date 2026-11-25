@@ -1,0 +1,14 @@
+{
+  "unit": "d31c_weapon_launch_800eedc8",
+  "source": "source/matching/game/d31c/d31c_weapon_launch_800eedc8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d31c_weapon_launch_800eedc8": "0x800eedc8"
+  },
+  "descriptions": {
+    "d31c_weapon_launch_800eedc8": "Weapon launch: creates the projectile by weapon name, sets velocity, direction and launch location, adds it to the world."
+  }
+}

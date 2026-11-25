@@ -1,0 +1,11 @@
+{
+  "unit": "s1_crate_runtime",
+  "source": "source/matching/game/s1_crate_runtime.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_80049c3c": "0x80049c3c"
+  },
+  "descriptions": {
+    "w3d_fn_80049c3c": "Advances active crate timing and returns the delay to the next twenty-unit boundary."
+  }
+}

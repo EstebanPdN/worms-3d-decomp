@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_stop_voices_801dffac",
+  "source": "source/matching/game/d29e/d29e_stop_voices_801dffac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_stop_voices_801dffac": "0x801dffac"
+  },
+  "descriptions": {
+    "w3d_d29e_stop_voices_801dffac": "For each voice in the vector at +36 whose owner id (read through 0x801df288 from +88) equals id and that reports active (virtual slot 7), calls its slot 5, then scans the 32 slot pointers at +48 for the one whose first field equals the voice's sound (slot 16) and passes that slot to 0x801e4e6c. Returns 0. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

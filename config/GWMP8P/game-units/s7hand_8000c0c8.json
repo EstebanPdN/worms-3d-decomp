@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8000c0c8",
+  "source": "source/matching/game/s7/s7hand_8000c0c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8000c0c8": "0x8000c0c8"
+  },
+  "descriptions": {
+    "w3d_auto_8000c0c8": "Clears the initial scoring state, adds the computed score and scales it using the global factor and object factor at +0x64."
+  }
+}

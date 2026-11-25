@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a_placement_dispatch_8008bf28",
+  "source": "source/matching/game/sol35a/sol35a_placement_dispatch_8008bf28.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a_placement_dispatch_8008bf28": "0x8008bf28"
+  },
+  "descriptions": {
+    "sol35a_placement_dispatch_8008bf28": "Look up the original placement type, retain the returned interface in a four-byte scoped handle, copy the packet vectors at +8/+20 into separate call-lifetime temporaries, synchronously set target and offset, register using receiver+20, and release the held interface. Const-reference setter parameters have the observed PPC32 pointer ABI; the original setters copy three words without retaining their source."
+  }
+}

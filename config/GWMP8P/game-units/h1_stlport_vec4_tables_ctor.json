@@ -1,0 +1,11 @@
+{
+  "unit": "h1_stlport_vec4_tables_ctor",
+  "source": "source/matching/game/h1/h1_stlport_vec4_tables_ctor.cpp",
+  "language": "cpp",
+  "functions": {
+    "__14W3dVec4TablesC": "0x8035a2c0"
+  },
+  "descriptions": {
+    "__14W3dVec4TablesC": "Constructor of the four-vector record: installs its vtable and empties four STLport int vectors (start, finish, end of storage = 0)."
+  }
+}

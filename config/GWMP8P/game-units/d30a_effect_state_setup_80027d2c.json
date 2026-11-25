@@ -1,0 +1,11 @@
+{
+  "unit": "d30a_effect_state_setup_80027d2c",
+  "source": "source/matching/game/d30a/d30a_effect_state_setup_80027d2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_effect_state_setup_80027d2c": "0x80027d2c"
+  },
+  "descriptions": {
+    "w3d_d30a_effect_state_setup_80027d2c": "Builds three render states with fixed values and adds each to a new pass with the object's queried interface."
+  }
+}

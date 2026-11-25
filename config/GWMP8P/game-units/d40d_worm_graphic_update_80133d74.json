@@ -1,0 +1,14 @@
+{
+  "unit": "d40d_worm_graphic_update_80133d74",
+  "source": "source/matching/game/d40d/d40d_worm_graphic_update_80133d74.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40d_worm_graphic_update_80133d74": "0x80133d74"
+  },
+  "descriptions": {
+    "w3d_d40d_worm_graphic_update_80133d74": "Per-frame update of a worm's graphic: shows or hides the mesh by camera distance and state, copies position and rotation from the simulation entry, fires a due notification, updates turn blending, places the mesh, fades three shadow parts along a downward test ray, offsets the mesh when rotation differs from the entry, and posts a splash message after moving in shallow water."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

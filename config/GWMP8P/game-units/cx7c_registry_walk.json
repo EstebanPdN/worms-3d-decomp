@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_registry_walk",
+  "source": "source/matching/game/cx7c/cx7c_registry_walk.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_registry_refresh_80355690": "0x80355690"
+  },
+  "descriptions": {
+    "w3d_cx7c_registry_refresh_80355690": "Walks the global registry at 0x80362444 and calls the entry refresh helper for each entry; registry and entry meanings are inferred."
+  }
+}

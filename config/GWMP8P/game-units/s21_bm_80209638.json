@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bm_80209638",
+  "source": "source/matching/game/s21/s21_bm_80209638.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_allocate_80209638": "0x80209638"
+  },
+  "descriptions": {
+    "w3d_s21_allocate_80209638": "Appears to allocate aligned memory when a flag bit is set, otherwise to call the allocation function pointer of the inner object with the same arguments."
+  }
+}

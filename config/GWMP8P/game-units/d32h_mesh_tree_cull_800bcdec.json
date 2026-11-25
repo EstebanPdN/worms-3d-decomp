@@ -1,0 +1,17 @@
+{
+  "unit": "d32h_mesh_tree_cull_800bcdec",
+  "source": "source/matching/game/d32h/d32h_mesh_tree_cull_800bcdec.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d32h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d32h_mesh_tree_cull_800bcdec": "0x800bcdec"
+  },
+  "descriptions": {
+    "d32h_mesh_tree_cull_800bcdec": "Culls a mesh's bounding tree against the current camera into a per-leaf visibility bit mask."
+  }
+}

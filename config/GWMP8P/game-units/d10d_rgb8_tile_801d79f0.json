@@ -1,0 +1,11 @@
+{
+  "unit": "d10d_rgb8_tile_801d79f0",
+  "source": "source/matching/game/d10d/d10d_rgb8_tile_801d79f0_v5.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10d_rgb8_tile_801d79f0": "0x801d79f0"
+  },
+  "descriptions": {
+    "d10d_rgb8_tile_801d79f0": "Copy the 4x4 block at (x, y) of a 24-bit RGB image (bytes r, g, b; pitch bytes per row) into one 64-byte GX RGBA8 tile with alpha 255: alpha/red pairs in the first 32 bytes and green/blue pairs in the second 32, 8 bytes per row. Edge blocks are clipped (unsigned extents, at most 4) and clipped texels keep their bytes."
+  }
+}

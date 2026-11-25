@@ -1,0 +1,11 @@
+{
+  "unit": "s9cached2_8014c978",
+  "source": "source/matching/game/generated/s9cached2_8014c978.c",
+  "language": "c",
+  "functions": {
+    "s9_compare_cached_limit_8014c978": "0x8014c978"
+  },
+  "descriptions": {
+    "s9_compare_cached_limit_8014c978": "Lazily caches the named property interface, compares the helper float result with the cached property threshold and returns the comparison."
+  }
+}

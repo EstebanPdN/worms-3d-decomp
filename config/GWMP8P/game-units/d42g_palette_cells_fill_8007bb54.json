@@ -1,0 +1,15 @@
+{
+  "unit": "d42g_palette_cells_fill_8007bb54",
+  "source": "source/matching/game/d42g/d42g_palette_cells_fill_8007bb54.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d42g"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d42g_palette_cells_fill_8007bb54": "0x8007bb54"
+  },
+  "descriptions": {
+    "d42g_palette_cells_fill_8007bb54": "Fill the 2,916-byte cell map from the source palette: with no tiles, fill with 150 and clear the ready flag; otherwise set ready, fill with the average value of all tiles but the last (division by zero with one tile is unguarded, as in the original), then write each of those tiles' values at its cell index."
+  }
+}

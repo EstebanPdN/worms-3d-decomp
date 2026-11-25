@@ -1,0 +1,11 @@
+{
+  "unit": "d10d_rgba8_rgb565_tile_801d7bb4",
+  "source": "source/matching/game/d10d/d10d_rgba8_rgb565_tile_801d7bb4_v0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d10d_rgba8_rgb565_tile_801d7bb4": "0x801d7bb4"
+  },
+  "descriptions": {
+    "d10d_rgba8_rgb565_tile_801d7bb4": "Convert the 4x4 block at (x, y) of a 32-bit RGBA image (bytes r, g, b, a; pitch bytes per row) into one big-endian RGB565 tile with 8-byte rows (r5 g6 b5; alpha ignored). Edge blocks are clipped (unsigned extents, at most 4) and clipped texels keep their bytes."
+  }
+}

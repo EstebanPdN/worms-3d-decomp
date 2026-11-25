@@ -1,0 +1,11 @@
+{
+  "unit": "s19_timed_800ddcbc",
+  "source": "source/matching/game/s19/s19_timed_800ddcbc.c",
+  "language": "c",
+  "functions": {
+    "s19_start_timed_800ddcbc": "0x800ddcbc"
+  },
+  "descriptions": {
+    "s19_start_timed_800ddcbc": "Appears to forward the elapsed time since the start time at +0x64, as a float, with four more integers to a helper."
+  }
+}

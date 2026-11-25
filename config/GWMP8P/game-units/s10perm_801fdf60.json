@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801fdf60",
+  "source": "source/matching/game/perm/s10perm_801fdf60.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801fdf60": "0x801fdf60"
+  },
+  "descriptions": {
+    "w3d_auto_801fdf60": "Obtains a shared context, invokes its initialization/update/finalization helpers with the caller arguments, and returns."
+  }
+}

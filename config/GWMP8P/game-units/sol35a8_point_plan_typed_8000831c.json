@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a8_point_plan_typed_8000831c",
+  "source": "source/matching/game/sol35a8/sol35a8_point_plan_v2.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a8_point_plan_8000831c": "0x8000831c"
+  },
+  "descriptions": {
+    "sol35a8_point_plan_8000831c": "Allocate a 32-byte type-10 point plan, append its base pointer to the command storage, copy a three-float target through a value parameter, and register the plan. Placement allocation uses the active compiler size type."
+  }
+}

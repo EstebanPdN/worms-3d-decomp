@@ -1,0 +1,14 @@
+{
+  "unit": "d29c_chute_update_800db60c",
+  "source": "source/matching/game/d29c/d29c_chute_update_800db60c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d29c_chute_update_800db60c": "0x800db60c"
+  },
+  "descriptions": {
+    "d29c_chute_update_800db60c": "Parachute motion update writing the new position and velocity back to the caller"
+  }
+}

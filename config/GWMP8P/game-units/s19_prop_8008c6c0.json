@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_8008c6c0",
+  "source": "source/matching/game/s19/s19_prop_8008c6c0.c",
+  "language": "c",
+  "functions": {
+    "s19_low_gravity_8008c6c0": "0x8008c6c0"
+  },
+  "descriptions": {
+    "s19_low_gravity_8008c6c0": "Appears to read the Low.Gravity.GameDefault float property with a default of one and store it as Low.Gravity.Multiplier."
+  }
+}

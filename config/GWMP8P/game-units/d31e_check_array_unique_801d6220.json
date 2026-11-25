@@ -1,0 +1,14 @@
+{
+  "unit": "d31e_check_array_unique_801d6220",
+  "source": "source/matching/game/d31e/d31e_check_array_unique_801d6220.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_check_array_unique_801d6220": "0x801d6220"
+  },
+  "descriptions": {
+    "w3d_d31e_check_array_unique_801d6220": "Validates an object array property: for every pair of elements logs an error and clears the result when both have the same class, and logs a warning when one class derives from the other (walking parents at +20), each with lines naming both elements. Returns 1 when no exact duplicate was found. Names are inferred; the strings at 0x803af3c8.. are the log formats."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

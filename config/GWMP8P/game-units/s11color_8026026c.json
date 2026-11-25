@@ -1,0 +1,11 @@
+{
+  "unit": "s11color_8026026c",
+  "source": "source/matching/game/s11_auto/s11color_8026026c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8026026c": "0x8026026c"
+  },
+  "descriptions": {
+    "w3d_auto_8026026c": "Appears to calls 0x80173df0, 0x8034357c, 0x8018d35c, 0x80343580, 0x80260144; accesses fields at 0x8C, 0xF4, 0xFC. m2c types and names are provisional."
+  }
+}

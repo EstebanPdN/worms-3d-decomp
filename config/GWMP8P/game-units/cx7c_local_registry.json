@@ -1,0 +1,11 @@
+{
+  "unit": "cx7c_local_registry",
+  "source": "source/matching/game/cx7c/cx7c_local_registry.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7c_local_registry_8035a3a8": "0x8035a3a8"
+  },
+  "descriptions": {
+    "w3d_cx7c_local_registry_8035a3a8": "Lazily constructs the original object at 0x8045e9c8, marks its original guard, registers the original cleanup callback with atexit, and returns the object."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source": "source/matching/game/sol33b/sol33b_remove_key_802065fc.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol33b_remove_key_802065fc": "0x802065fc"
+  },
+  "descriptions": {
+    "sol33b_remove_key_802065fc": "Finds an integer key in the count/data array at +36/+44. Returns 0x80004005 if absent; otherwise erases the key through 80210dd8, shifts the parallel shared-string vector at +48 using observed reference-counted assignment, destroys its last string and returns zero. Preserves GC32 pointer differences and negative six-byte shared-string headers. The key-array +4 field and other owner words remain semantically unknown. Types and names are inferred from original instructions and callees; no initialized data is owned. Whole-game build, other platforms and runtime remain unverified."
+  },
+  "unit": "sol33b_remove_key_802065fc"
+}

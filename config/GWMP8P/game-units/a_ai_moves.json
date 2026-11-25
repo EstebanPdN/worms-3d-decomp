@@ -1,0 +1,31 @@
+{
+  "unit": "a_ai_moves",
+  "source": "source/matching/game/a_ai_moves.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_move_queue_construct": "0x80003300",
+    "w3d_move_queue_destroy": "0x80003370",
+    "w3d_move_queue_release": "0x800033d8",
+    "w3d_move_queue_reset_800039ac": "0x800039ac",
+    "w3d_move_queue_current_step": "0x80003e78",
+    "w3d_move_queue_pop_front": "0x80003ea0",
+    "w3d_move_queue_advance": "0x80003f58",
+    "w3d_move_queue_check_timeout": "0x80003fd4",
+    "w3d_move_queue_start_wait": "0x8000415c",
+    "w3d_move_step_apply": "0x8000419c",
+    "w3d_move_type_name": "0x80004038"
+  },
+  "descriptions": {
+    "w3d_move_queue_construct": "Initializes an AI move queue object: sets its type table, clears its move list and counters, then resets it.",
+    "w3d_move_queue_destroy": "Tears down an AI move queue, frees its move list storage and optionally deletes the object itself.",
+    "w3d_move_queue_release": "Drops one reference from a move queue and destroys it through its type table when no references remain.",
+    "w3d_move_queue_reset_800039ac": "Clears the queued moves and resets the progress counter of a move queue.",
+    "w3d_move_queue_current_step": "Returns the data of the last queued move, or a shared default entry when the queue is empty.",
+    "w3d_move_queue_pop_front": "Removes and frees the first queued move; when the queue becomes empty it marks it finished and posts a message.",
+    "w3d_move_queue_advance": "Advances the queue depending on its state, then starts the next move through its type table if any remain.",
+    "w3d_move_queue_check_timeout": "In the timed-wait state, calls the queue's timeout handler once the configured wait time has elapsed.",
+    "w3d_move_queue_start_wait": "Records the current engine time and a wait length, and puts the move queue into its timed-wait state.",
+    "w3d_move_step_apply": "Appears to apply a move step's coordinates and flags to an object using a shared cursor, returning the object.",
+    "w3d_move_type_name": "Returns the debug name of an AI move type (walk retry modes, jumps, jetpack, parachute, ninja rope, super sheep, delay)."
+  }
+}

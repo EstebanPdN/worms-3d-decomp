@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d5_remove_record_801f2f8c",
+  "source": "source/matching/game/sol35d5/sol35d5_remove_record_801f2f8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d5_remove_record_801f2f8c": "0x801f2f8c"
+  },
+  "descriptions": {
+    "sol35d5_remove_record_801f2f8c": "Recover native word stream conversion from original operands; names and ABI views remain inferred."
+  }
+}

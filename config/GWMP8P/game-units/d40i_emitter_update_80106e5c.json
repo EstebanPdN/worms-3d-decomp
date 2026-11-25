@@ -1,0 +1,18 @@
+{
+  "unit": "d40i_emitter_update_80106e5c",
+  "source": "source/matching/game/d40i/d40i_emitter_update_80106e5c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d40i"
+  ],
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ],
+  "functions": {
+    "d40i_emitter_update_80106e5c": "0x80106e5c"
+  },
+  "descriptions": {
+    "d40i_emitter_update_80106e5c": "Per-frame update of a particle emitter: refresh bounds from the camera, update every particle and age the colour fade."
+  }
+}

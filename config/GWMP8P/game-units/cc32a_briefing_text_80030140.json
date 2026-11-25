@@ -1,0 +1,11 @@
+{
+  "unit": "cc32a_briefing_text_80030140",
+  "source": "source/matching/game/cc32a/cc32a_briefing_text_80030140.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc32a_briefing_text_80030140": "0x80030140"
+  },
+  "descriptions": {
+    "cc32a_briefing_text_80030140": "Resolves briefing text or formats a missing-resource diagnostic, updates the panel property, and sets the optional expiration deadline before releasing the temporary string."
+  }
+}

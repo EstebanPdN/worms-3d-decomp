@@ -1,0 +1,11 @@
+{
+  "unit": "sol29a_texture_set_construct_800f2ad0",
+  "source": "source/matching/game/sol29a/texture_set_construct_800f2ad0.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol29a_texture_set_construct_800f2ad0": "0x800f2ad0"
+  },
+  "descriptions": {
+    "sol29a_texture_set_construct_800f2ad0": "Constructs the 0xc80-byte service object: calls its service base constructor, installs the native derived table, initializes three held interfaces and three vector headers, constructs 200 held slots and one additional slot, default-constructs its string and 23 by 16 five-byte candidate records, constructs its tail configuration, publishes the instance pointer, and sets both selection fields to -1. Factory, destructor and indexed candidate accesses independently support the member layout."
+  }
+}

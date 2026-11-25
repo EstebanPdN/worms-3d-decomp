@@ -1,0 +1,11 @@
+{
+  "unit": "d15b_apply_toggle_event_800a6b04",
+  "source": "source/matching/game/d15b/d15b_apply_toggle_event_800a6b04.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15b_apply_toggle_event_800a6b04": "0x800a6b04"
+  },
+  "descriptions": {
+    "d15b_apply_toggle_event_800a6b04": "Apply a toggle event: when its value is nonzero send the cached selection message, record the current engine tick and the tick plus 500 as a hold window and start the hold for the event id; otherwise clear the hold start and id. Then for each entry in the unsigned active window, including inactive entries only when the all-entries bit is set, find type-0 items whose id matches the event, store the event value in each and, when the item's expected value equals it, send the item's cached message followed by the entry name text. Partial observed layouts; cached message keys referenced by address; no owned initialized data."
+  }
+}

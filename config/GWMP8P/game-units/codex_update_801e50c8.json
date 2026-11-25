@@ -1,0 +1,14 @@
+{
+  "unit": "codex_update_801e50c8",
+  "source": "source/matching/game/codex_update_801e50c8.c",
+  "language": "c",
+  "functions": {
+    "codex_update_801e50c8": "0x801e50c8"
+  },
+  "descriptions": {
+    "codex_update_801e50c8": "Checks two state fields and an external predicate, then invokes four external float-returning helpers, two table slots and three further external helpers. Object layout, parameter types and roles are inferred from observed offsets; the stack reservation is a compiler-matching hypothesis."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

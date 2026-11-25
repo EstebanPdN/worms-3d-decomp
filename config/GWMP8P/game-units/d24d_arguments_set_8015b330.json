@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_arguments_set_8015b330",
+  "source": "source/matching/game/d24d/d24d_arguments_set_8015b330.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_arguments_set_8015b330": "0x8015b330"
+  },
+  "descriptions": {
+    "d24d_arguments_set_8015b330": "Resizes the argument object's string vector to the count with a default string as fill value (0x80347570 when growing), assigns each text to its slot through 0x8020bd38 and returns 0."
+  }
+}

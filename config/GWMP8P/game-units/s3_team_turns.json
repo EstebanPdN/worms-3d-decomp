@@ -1,0 +1,25 @@
+{
+  "unit": "s3_team_turns",
+  "source": "source/matching/game/s3_team_turns.c",
+  "language": "c",
+  "functions": {
+    "w3d_turns_publish_team_worm_count": "0x80155574",
+    "w3d_turns_publish_worm_count": "0x801555f8",
+    "w3d_turns_publish_team_count": "0x80155688",
+    "w3d_turns_next_team": "0x80155784",
+    "w3d_turns_team_has_eligible": "0x80155850",
+    "w3d_turns_publish_alliance_count": "0x80155b44",
+    "w3d_turns_create_actor_for_entity": "0x80156ac4",
+    "w3d_turns_get_active_actor": "0x80156f88"
+  },
+  "descriptions": {
+    "w3d_turns_publish_team_worm_count": "Counts state-one worms belonging to a team and publishes WormCount.",
+    "w3d_turns_publish_worm_count": "Counts worms on included teams and stores and publishes the total.",
+    "w3d_turns_publish_team_count": "Refreshes per-team worm counts and publishes the number of nonempty teams.",
+    "w3d_turns_next_team": "Chooses the next included team with eligible worms or uses alliance selection.",
+    "w3d_turns_team_has_eligible": "Tests whether a team contains a state-one worm eligible for a turn.",
+    "w3d_turns_publish_alliance_count": "Counts nonempty alliance lists and publishes AllianceCount.",
+    "w3d_turns_create_actor_for_entity": "Creates an actor for an entity, registers it, and stores its handle.",
+    "w3d_turns_get_active_actor": "Looks up ActiveWormIndex and returns its stored actor handle when in range."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_bind_source_801a31ec",
+  "source": "source/matching/game/d28e/d28e_bind_source_801a31ec.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_bind_source_801a31ec": "0x801a31ec"
+  },
+  "descriptions": {
+    "w3d_d28e_bind_source_801a31ec": "Store the source object and argument, keep the result of the source's table slot at +20, resize the parallel pointer vectors at +36 and +60 to the global table size, copy the global item list into the first vector and resize the second pair through 0x801a2d68."
+  }
+}

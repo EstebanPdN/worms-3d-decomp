@@ -1,0 +1,9 @@
+{
+  "unit": "d45j_bind_normal_array_skinned_801694e8",
+  "source": "source/matching/game/d45j/d45j_bind_normal_array_skinned_801694e8.cpp",
+  "language": "cpp",
+  "include_dirs": ["source/matching"],
+  "functions": {"bind_normal_array_skinned_801694e8": "0x801694e8"},
+  "descriptions": {"bind_normal_array_skinned_801694e8": "Flushes the command's dirty normal buffer, skins the normals into temporary storage when a skinned owner is near the origin, points GX normals at the result and marks the driver state changed."},
+  "extra_flags": []
+}

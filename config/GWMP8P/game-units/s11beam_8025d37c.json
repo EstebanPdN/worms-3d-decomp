@@ -1,0 +1,11 @@
+{
+  "unit": "s11beam_8025d37c",
+  "source": "source/matching/game/s11_auto/s11beam_8025d37c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8025d37c": "0x8025d37c"
+  },
+  "descriptions": {
+    "w3d_auto_8025d37c": "Appears to calls 0x801613f0, 0x8016239c, 0x800a4ed0, 0x8015f5a0; accesses fields at 0x20, 0x1C. m2c types and names are provisional."
+  }
+}

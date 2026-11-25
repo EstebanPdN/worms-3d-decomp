@@ -1,0 +1,17 @@
+{
+  "unit": "s2_script_messages",
+  "source": "source/matching/game/s2_script_messages.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_script_send_plain_8010109c": "0x8010109c",
+    "w3d_script_send_float_80101218": "0x80101218",
+    "w3d_script_send_int_801013b0": "0x801013b0",
+    "w3d_script_send_string_80101550": "0x80101550"
+  },
+  "descriptions": {
+    "w3d_script_send_plain_8010109c": "Validates Lua arguments and posts a plain message by registered name.",
+    "w3d_script_send_float_80101218": "Validates Lua arguments and posts a float message by registered name.",
+    "w3d_script_send_int_801013b0": "Validates Lua arguments and posts a int message by registered name.",
+    "w3d_script_send_string_80101550": "Validates Lua arguments and posts a string message by registered name."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_eh_801df57c",
+  "source": "source/matching/game/s21/s21_eh_801df57c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_buffer_801df57c": "0x801df57c"
+  },
+  "descriptions": {
+    "w3d_s21_set_buffer_801df57c": "Appears to set a byte buffer: it stores the size, releases the old buffer, then allocates a copy of the data of that size or clears the pointer when no data is given, returning zero."
+  }
+}

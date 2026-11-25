@@ -1,0 +1,11 @@
+{
+  "unit": "cc41b_select_registered_8020a730",
+  "source": "source/matching/game/cc41b/cc41b_select_registered_8020a730.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc41b_select_registered_8020a730": "0x8020a730"
+  },
+  "descriptions": {
+    "cc41b_select_registered_8020a730": "Selects a registered interface or clears selection. Searches the pointer range, returns 0x80004005 when incoming is absent, retains incoming before releasing prior selection, and preserves self-assignment and null handling. Partial registry/interface views and names inferred from original offsets; no full size or data ownership claim."
+  }
+}

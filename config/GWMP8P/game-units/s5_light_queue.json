@@ -1,0 +1,11 @@
+{
+  "unit": "s5_light_queue",
+  "source": "source/matching/game/s5_light_queue.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_light_process_queue_800c0118": "0x800c0118"
+  },
+  "descriptions": {
+    "w3d_light_process_queue_800c0118": "Refreshes active queued lights or advances a cyclic light cursor when the queue is empty."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_multiple_active_teams_8008e224",
+  "source": "source/matching/game/cx8a/cx8a_multiple_active_teams_8008e224.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_multiple_active_teams_8008e224": "0x8008e224"
+  },
+  "descriptions": {
+    "w3d_cx8a_multiple_active_teams_8008e224": "Count teams represented by active worms with positive remaining health; return whether at least two teams remain. PPC32 health +0xaa, damage +0xa4, team +0xd5 and active flag +0xdc."
+  }
+}

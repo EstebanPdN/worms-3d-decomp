@@ -1,0 +1,11 @@
+{
+  "unit": "cx12a_accumulate_limit_800ac03c",
+  "source": "source/matching/game/cx12a/cx12a_accumulate_limit_800ac03c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12a_accumulate_limit_800ac03c": "0x800ac03c"
+  },
+  "descriptions": {
+    "w3d_cx12a_accumulate_limit_800ac03c": "Accumulate a scalar field using queried rates and cap both the increment and result; names inferred."
+  }
+}

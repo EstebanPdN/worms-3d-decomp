@@ -1,0 +1,11 @@
+{
+  "unit": "d24d_input_event_80160b7c",
+  "source": "source/matching/game/d24d/d24d_input_event_80160b7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24d_input_event_80160b7c": "0x80160b7c"
+  },
+  "descriptions": {
+    "d24d_input_event_80160b7c": "Key event filter: key 1 and key 28 presses post message 512 or 513 to the input target (0x8016559c, slot 7) while the owner's view is active (byte +184); other events go to key press 0x80160558 or release 0x801605c0 on the input state 0x804b17f0. Returns 0."
+  }
+}

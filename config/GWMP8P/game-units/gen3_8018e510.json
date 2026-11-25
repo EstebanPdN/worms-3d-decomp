@@ -1,0 +1,23 @@
+{
+  "unit": "gen3_8018e510",
+  "source": "source/matching/game/generated/gen3_8018e510.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_dtor_8018e510": "0x8018e510",
+    "w3d_dtor_8018e69c": "0x8018e69c",
+    "w3d_dtor_8018ea74": "0x8018ea74",
+    "w3d_dtor_8018ec10": "0x8018ec10",
+    "w3d_dtor_held_8018edd4": "0x8018edd4",
+    "w3d_dtor_8018ef90": "0x8018ef90",
+    "w3d_ifaceset_8018ff20": "0x8018ff20"
+  },
+  "descriptions": {
+    "w3d_dtor_8018e510": "Deleting destructor: installs the class vtable at +0x0, runs the base destructor and frees the object when flag bit 0 is set.",
+    "w3d_dtor_8018e69c": "Deleting destructor: installs the class vtable at +0x0, runs the base destructor and frees the object when flag bit 0 is set.",
+    "w3d_dtor_8018ea74": "Deleting destructor: installs the class vtable at +0x0, runs the base destructor and frees the object when flag bit 0 is set.",
+    "w3d_dtor_8018ec10": "Deleting destructor: installs the class vtable at +0x0, runs the base destructor and frees the object when flag bit 0 is set.",
+    "w3d_dtor_held_8018edd4": "Deleting destructor: installs the class vtable, releases the interface held at +0x1c, runs the base destructor and frees the object when flag bit 0 is set.",
+    "w3d_dtor_8018ef90": "Deleting destructor: installs the class vtable at +0x0, runs the base destructor and frees the object when flag bit 0 is set.",
+    "w3d_ifaceset_8018ff20": "Replaces the interface held at +0x1c: retains the new one and releases the previous one."
+  }
+}

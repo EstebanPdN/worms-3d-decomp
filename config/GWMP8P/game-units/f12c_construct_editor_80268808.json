@@ -1,0 +1,11 @@
+{
+  "unit": "f12c_construct_editor_80268808",
+  "source": "source/matching/game/f12c/f12c_construct_editor_80268808.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f12c_construct_editor_80268808": "0x80268808"
+  },
+  "descriptions": {
+    "w3d_f12c_construct_editor_80268808": "Initialize the observed actor and menu subobjects, install both original vtables, natively construct nine separate held-interface pairs, initialize the 96-byte editor-property block and two string members, clear the witnessed state/interface fields, assign Lunar.Lumps and seed12345678, invoke the original mode-zero setup, release/reclear the held interface and enable state440. Factory80268734 allocates512 bytes and observed writes stay in that storage. Partial type layout and field roles are inferred; external data remains unowned and no portable whole-class integration is claimed."
+  }
+}

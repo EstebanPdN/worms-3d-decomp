@@ -1,0 +1,11 @@
+{
+  "unit": "s20_adjust_r",
+  "source": "source/matching/game/s20/s20_adjust_r.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_replace_current_801adc14": "0x801adc14"
+  },
+  "descriptions": {
+    "w3d_s20_replace_current_801adc14": "Appears to dispatch an item's target, then store the resulting current object into another object, adjusting reference counts through virtual methods 3 and 4."
+  }
+}

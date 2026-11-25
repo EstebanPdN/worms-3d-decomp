@@ -1,0 +1,11 @@
+{
+  "unit": "d24a_ai_level_start_80020d18",
+  "source": "source/matching/game/d24a/d24a_ai_level_start_80020d18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24a_ai_level_start_80020d18": "0x80020d18"
+  },
+  "descriptions": {
+    "w3d_d24a_ai_level_start_80020d18": "Reads ActiveWormIndex into +28; when bit 0x2000000 of word +188 of game state 0x804b1788 is set: subscribes to fifteen cached messages with handler slots +48..+108, reads ObjectCount.Active into +112, records type 0x8040dda8 in +116 and creates it, creates type 0x8040dab8 into +32, loads AIParams.CPU2 and applies its value (0x801797b4) to the sixteen players through 0x800fcb80 and 0x801ea4c8."
+  }
+}

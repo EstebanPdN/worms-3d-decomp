@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_hit_strip_forward_802b8260",
+  "source": "source/matching/game/f1p/f1p_hit_strip_forward_802b8260.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_hit_strip_forward_802b8260": "0x802b8260"
+  },
+  "descriptions": {
+    "w3d_hit_strip_forward_802b8260": "Under ready +0x124, obtains center/extent vectors and property +0x10c, computes the observed horizontal inset and expanded top strip from original constants, performs four inclusive comparisons, then forwards the original coordinates and integer arguments to related +0x11c through 0x802bc7c0. Inferred UI role; exact fused multiply-add and caller branch layout."
+  }
+}

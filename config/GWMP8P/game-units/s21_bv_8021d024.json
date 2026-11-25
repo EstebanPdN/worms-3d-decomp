@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bv_8021d024",
+  "source": "source/matching/game/s21/s21_bv_8021d024.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_register_descriptor_8021d024": "0x8021d024"
+  },
+  "descriptions": {
+    "w3d_s21_register_descriptor_8021d024": "Appears to initialize and register the global W3DNet descriptor object, setting its name, links and zeroed fields, and return zero."
+  }
+}

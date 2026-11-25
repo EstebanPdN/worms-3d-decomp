@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_801d3150",
+  "source": "source/matching/game/k4b/k4b_a_801d3150.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_named_component_construct_801d3150": "0x801d3150"
+  },
+  "descriptions": {
+    "w3d_k4b_named_component_construct_801d3150": "Appears to construct a named component: base vtable, member at +4 via 0x801e81c8, derived vtable 0x804164d0, default name string at +40 and zeroed fields."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d26j_rebuild_sorted_edges_8018b638",
+  "source": "source/matching/game/d26j/d26j_rebuild_sorted_edges_8018b638.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d26j"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d26j_rebuild_sorted_edges_8018b638": "0x8018b638"
+  },
+  "descriptions": {
+    "d26j_rebuild_sorted_edges_8018b638": "Reallocate and fill the sorted edge table from the mesh word list and id pages, then qsort it"
+  }
+}

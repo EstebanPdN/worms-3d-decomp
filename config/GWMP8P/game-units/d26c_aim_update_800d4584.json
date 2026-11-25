@@ -1,0 +1,14 @@
+{
+  "unit": "d26c_aim_update_800d4584",
+  "source": "source/matching/game/d26c/d26c_aim_update_800d4584.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d26c_aim_update_800d4584": "0x800d4584"
+  },
+  "descriptions": {
+    "d26c_aim_update_800d4584": "With buttons bit 0x08000000 subtract rate times dt from yaw at +176 and wrap up; with 0x04000000 add it and wrap down by 2 pi. Subtract axis x and y, scaled by the Desc rates and dt, from yaw and pitch at +176/+180. On 0x02000000 or a y axis call 0x800d47f0, on 0x01000000 or a y axis call 0x800d4734, with Desc+88 times dt."
+  }
+}

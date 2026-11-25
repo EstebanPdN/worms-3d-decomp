@@ -1,0 +1,11 @@
+{
+  "unit": "cc39a_script_output_80103ecc",
+  "source": "source/matching/game/cc39a/cc39a_script_output_80103ecc.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39a_script_output_80103ecc": "0x80103ecc"
+  },
+  "descriptions": {
+    "cc39a_script_output_80103ecc": "Concatenate numeric and string Lua arguments into the shared output string, report unsupported arguments, invoke the output hook and pop the original argument count."
+  }
+}

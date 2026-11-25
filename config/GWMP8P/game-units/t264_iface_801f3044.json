@@ -1,0 +1,7 @@
+{
+  "unit": "t264_iface_801f3044",
+  "source": "source/matching/game/t264/t264_iface_801f3044.cpp",
+  "language": "cpp",
+  "functions": {"t264_iface_801f3044": "0x801f3044"},
+  "descriptions": {"t264_iface_801f3044": "Retains a replacement interface, releases the previous interface, stores the replacement, and clears the high flag bit."}
+}

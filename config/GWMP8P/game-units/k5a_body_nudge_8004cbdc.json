@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_body_nudge_8004cbdc",
+  "source": "source/matching/game/k5a/k5a_body_nudge_8004cbdc.cpp",
+  "language": "cpp",
+  "functions": {"k5a_body_nudge_8004cbdc": "0x8004cbdc"},
+  "descriptions": {"k5a_body_nudge_8004cbdc": "Appears to add a scaled direction vector to a body position when a request is pending and clear the request field."}
+}

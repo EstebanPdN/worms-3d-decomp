@@ -1,0 +1,11 @@
+{
+  "unit": "s20_msg_a",
+  "source": "source/matching/game/s20/s20_msg_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_reset_with_message_80156190": "0x80156190"
+  },
+  "descriptions": {
+    "w3d_s20_reset_with_message_80156190": "Appears to post a message, notify two helpers and set sixteen slots starting at offset 312 to minus one."
+  }
+}

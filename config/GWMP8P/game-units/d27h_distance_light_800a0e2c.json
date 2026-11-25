@@ -1,0 +1,17 @@
+{
+  "unit": "d27h_distance_light_800a0e2c",
+  "source": "source/matching/game/d27h/d27h_distance_light_800a0e2c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d27h_distance_light_800a0e2c": "0x800a0e2c"
+  },
+  "descriptions": {
+    "d27h_distance_light_800a0e2c": "Distance-attenuated light: computes the squared distance from the camera matrix position to the given point, clamps it to 62500..160000, derives a factor clamped to 0.5..0.65 and applies the ambient vector at 0x80437d24 scaled by it to the sink at +36."
+  }
+}

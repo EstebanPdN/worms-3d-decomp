@@ -1,0 +1,11 @@
+{
+  "unit": "d15d_rotated_velocity_8014fb40",
+  "source": "source/matching/game/d15d/d15d_rotated_velocity_8014fb40.cpp",
+  "language": "cpp",
+  "functions": {
+    "d15d_actor_apply_rotated_velocity_8014fb40": "0x8014fb40"
+  },
+  "descriptions": {
+    "d15d_actor_apply_rotated_velocity_8014fb40": "Build a rotation transform from the actor's heading (0x801f7538 with the pool constants 0, 0x803a17b4, 0), expand it to a 4x4 matrix, rotate the direction returned by the input object 0x804afde8 into the actor's velocity at +676, set the actor mode to 6 and apply actor value 32 (0x801492ec). Partial observed layouts; no owned initialized data."
+  }
+}

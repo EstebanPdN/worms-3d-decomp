@@ -1,0 +1,11 @@
+{
+  "unit": "s8hand_800dc634",
+  "source": "source/matching/game/s8hand_800dc634.cpp",
+  "language": "cpp",
+  "functions": {
+    "__25s8_PartialObject_800dc634": "0x800dc634"
+  },
+  "descriptions": {
+    "__25s8_PartialObject_800dc634": "Constructor: installs the subobject vtable at offset 112, initializes the object through 0x800dc6a8 with zero and returns this."
+  }
+}

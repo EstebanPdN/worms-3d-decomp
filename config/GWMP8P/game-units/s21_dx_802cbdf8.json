@@ -1,0 +1,11 @@
+{
+  "unit": "s21_dx_802cbdf8",
+  "source": "source/matching/game/s21/s21_dx_802cbdf8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_sink_write_indexed_802cbdf8": "0x802cbdf8"
+  },
+  "descriptions": {
+    "w3d_s21_sink_write_indexed_802cbdf8": "Appears to build a text from two arguments and pass it to a virtual method of the sink registered for an index, when the subsystem is enabled and the index has a sink."
+  }
+}

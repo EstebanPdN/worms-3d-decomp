@@ -1,0 +1,11 @@
+{
+  "unit": "s8family_800fc550",
+  "source": "source/matching/game/s8family_800fc550.cpp",
+  "language": "cpp",
+  "functions": {
+    "s8_property_read_800fc550": "0x800fc550"
+  },
+  "descriptions": {
+    "s8_property_read_800fc550": "Resolves a named property, copies its value to the supplied output when lookup succeeds, releases the held interface and returns status."
+  }
+}

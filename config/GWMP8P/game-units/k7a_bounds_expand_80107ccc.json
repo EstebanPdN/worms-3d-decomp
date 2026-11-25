@@ -1,0 +1,7 @@
+{
+  "unit": "k7a_bounds_expand_80107ccc",
+  "source": "source/matching/game/k7a/k7a_bounds_expand_80107ccc.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k7a_bounds_expand_80107ccc": "0x80107ccc"},
+  "descriptions": {"w3d_k7a_bounds_expand_80107ccc": "Appears to expand a center point by three unsigned half-extents into minimum and maximum bound fields."}
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d33f_card_screen_ctor_80287f64",
+  "source": "source/matching/game/d33f/d33f_card_screen_ctor_80287f64.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d33f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d33f_card_screen_ctor_80287f64": "0x80287f64"
+  },
+  "descriptions": {
+    "d33f_card_screen_ctor_80287f64": "Constructs the memory card screen object: runs the base constructor, sets its vtable, clears both reference arrays and all state fields, and sets defaults."
+  }
+}

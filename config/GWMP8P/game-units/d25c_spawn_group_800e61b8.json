@@ -1,0 +1,14 @@
+{
+  "unit": "d25c_spawn_group_800e61b8",
+  "source": "source/matching/game/d25c/d25c_spawn_group_800e61b8.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-fvtable-thunks"
+  ],
+  "functions": {
+    "d25c_spawn_group_800e61b8": "0x800e61b8"
+  },
+  "descriptions": {
+    "d25c_spawn_group_800e61b8": "Allocate a group id. Read the record named by the argument; on a negative status return 0. If the record is-a 0x803678d8 use its name list, else spawn once. For each: read the named record if listed, choose the type key from its +414 flag, create the spawn (object +28), load it by name (0x800df6a4), init it (0x800dfddc) with the two arguments, store the group at +104, copy the 12-byte position to +68 when non-null, then register its owner (virtual +20 at table +228) with 0x80164514 and the owner id. Returns the group id."
+  }
+}

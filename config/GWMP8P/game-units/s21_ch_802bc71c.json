@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ch_802bc71c",
+  "source": "source/matching/game/s21/s21_ch_802bc71c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_nested_value_802bc71c": "0x802bc71c"
+  },
+  "descriptions": {
+    "w3d_s21_nested_value_802bc71c": "Appears to follow a chain of fields from the engine context and return a nested value, or zero when the object has no link or the chain condition word is zero."
+  }
+}

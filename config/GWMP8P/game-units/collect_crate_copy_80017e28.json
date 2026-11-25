@@ -1,0 +1,9 @@
+{
+  "unit": "collect_crate_copy_80017e28",
+  "source": "source/matching/game/ai_plans/collect_crate_copy_80017e28.cpp",
+  "language": "cpp",
+  "functions": {"w3d_collect_crate_copy_80017e28": "0x80017e28"},
+  "descriptions": {
+    "w3d_collect_crate_copy_80017e28": "Copy-constructs the 52-byte CollectCrate plan in external storage: constructs the native cost base at0x80006360, initializes the intermediate path-plan defaults including its owned path pointer at+32, installs derived table0x8040d958 and performs the original memberwise copy while preserving that table. The intermediate path-owner relationship is witnessed by destructors0x803428dc and0x80017304."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8003ce0c",
+  "source": "source/matching/game/s7/s7hand_8003ce0c.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003ce0c": "0x8003ce0c"
+  },
+  "descriptions": {
+    "w3d_auto_8003ce0c": "Updates mesh animation state using the resolved instance, configured animation, output handle, three floats and a control flag; updates the object state flags."
+  }
+}

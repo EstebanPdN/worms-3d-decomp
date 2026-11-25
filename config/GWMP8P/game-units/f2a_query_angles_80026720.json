@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_query_angles_80026720",
+  "source": "source/matching/game/f2a/f2a_query_angles_80026720.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_query_angles_80026720": "0x80026720"
+  },
+  "descriptions": {
+    "w3d_f2a_query_angles_80026720": "Resolves the caller field at offset 32 through the original pointer-forwarding and index-query chain, initializes a three-float result from 0x8036ca58, subtracts resolved offset 116 from x, sets y from resolved offset 72, and returns by value. Angle naming is inferred; external data ownership is not claimed."
+  }
+}

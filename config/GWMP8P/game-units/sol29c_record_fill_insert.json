@@ -1,0 +1,13 @@
+{
+  "unit": "sol29c_record_fill_insert",
+  "source": "source/matching/game/sol29c/sol29c_record_fill_insert.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol29c_record_fill_insert_8034d1c8": "0x8034d1c8",
+    "sol29c_record_fill_insert_8034f47c": "0x8034f47c"
+  },
+  "descriptions": {
+    "sol29c_record_fill_insert_8034d1c8": "Inserts n copies of an opaque 12-byte record before a position in a vector. With spare capacity, saves the input value, constructs shifted tail records, copies backward and assigns the gap; otherwise allocates old size plus max(old size,n), constructs head, inserted values and tail, destroys and frees the old block, and updates begin, finish and storage end.",
+    "sol29c_record_fill_insert_8034f47c": "Inserts n copies of an opaque 12-byte record before a position in a vector. With spare capacity, saves the input value, constructs shifted tail records, copies backward and assigns the gap; otherwise allocates old size plus max(old size,n), constructs head, inserted values and tail, destroys and frees the old block, and updates begin, finish and storage end."
+  }
+}

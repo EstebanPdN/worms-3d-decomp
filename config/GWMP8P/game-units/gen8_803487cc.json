@@ -1,0 +1,13 @@
+{
+  "unit": "gen8_803487cc",
+  "source": "source/matching/game/generated/gen8_803487cc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ifaceset0_803487cc": "0x803487cc",
+    "w3d_ifaceset0_80349ab0": "0x80349ab0"
+  },
+  "descriptions": {
+    "w3d_ifaceset0_803487cc": "Replaces the interface held at +0x94 (retains the new one first, then releases the old one) and returns 0.",
+    "w3d_ifaceset0_80349ab0": "Replaces the interface held at +0x94 (retains the new one first, then releases the old one) and returns 0."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "f8a_destroy_spinner_8028ae20",
+  "language": "cpp",
+  "source": "source/matching/game/f8a/f8a_destroy_spinner_8028ae20.cpp",
+  "functions": {
+    "_._19F8aSpinner_8028ae20": "0x8028ae20"
+  },
+  "descriptions": {
+    "_._19F8aSpinner_8028ae20": "Destroy the complete 328-byte spinner UI object: install observed tables, release ten scalar held interfaces, the three-entry interface array, and the two earlier interfaces, then destroy both bases with their original flags. Full storage follows the original factory allocation; native C++ ownership and names inferred."
+  }
+}

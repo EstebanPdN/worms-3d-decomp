@@ -1,0 +1,11 @@
+{
+  "unit": "cx9b_signed_property_write_8025d020",
+  "source": "source/matching/game/cx9b/cx9b_signed_property_write_8025d020.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9b_signed_property_write_8025d020": "0x8025d020"
+  },
+  "descriptions": {
+    "w3d_cx9b_signed_property_write_8025d020": "Select and update the observed signed byte field for the property identifier; reserved and unknown identifiers leave fields unchanged."
+  }
+}

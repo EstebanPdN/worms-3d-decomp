@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8003a5c8",
+  "source": "source/matching/game/s7/s7hand_8003a5c8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8003a5c8": "0x8003a5c8"
+  },
+  "descriptions": {
+    "w3d_auto_8003a5c8": "Copies two resolved component values through virtual methods, checks the current mesh animation handle, and starts one of two configured animations according to the component state."
+  }
+}

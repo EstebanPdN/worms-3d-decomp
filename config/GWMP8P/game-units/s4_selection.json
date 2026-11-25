@@ -1,0 +1,17 @@
+{
+  "unit": "s4_selection",
+  "source": "source/matching/game/s4_selection.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s4_selection_reset": "0x80285c9c",
+    "w3d_s4_selection_set_active": "0x80286050",
+    "w3d_s4_selection_value_changed": "0x80286d14",
+    "w3d_s4_selection_navigate": "0x80286da4"
+  },
+  "descriptions": {
+    "w3d_s4_selection_reset": "Releases the pending handle, clears entries, and resets the embedded controller.",
+    "w3d_s4_selection_set_active": "Updates selection activation and two child state fields, then refreshes visibility.",
+    "w3d_s4_selection_value_changed": "Reads the current typed value and updates the matching highlighted entry.",
+    "w3d_s4_selection_navigate": "Moves the selected entry, optionally wraps at the ends, and returns its value."
+  }
+}

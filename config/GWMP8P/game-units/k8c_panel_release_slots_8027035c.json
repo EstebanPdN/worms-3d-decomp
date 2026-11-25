@@ -1,0 +1,11 @@
+{
+  "unit": "k8c_panel_release_slots_8027035c",
+  "source": "source/matching/game/k8c/k8c_panel_release_slots_8027035c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k8c_panel_release_slots_8027035c": "0x8027035c"
+  },
+  "descriptions": {
+    "w3d_k8c_panel_release_slots_8027035c": "Appears to destroy and clear the three tab handles at +224 and the three scroll handles at +236 according to two flags."
+  }
+}

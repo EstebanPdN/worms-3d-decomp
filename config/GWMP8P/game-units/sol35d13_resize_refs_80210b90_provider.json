@@ -1,0 +1,14 @@
+{
+  "unit": "sol35d13_resize_refs_80210b90_provider",
+  "source": "source/matching/game/sol35d13/sol35d13_resize_refs_80210b90_provider.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d13_resize_refs_80210b90_provider": "0x80210b90"
+  },
+  "descriptions": {
+    "sol35d13_resize_refs_80210b90_provider": "Retained-array resize under the actual I7 CountedRefs declaration, with a genuine constructed/deleted array view, signed capacity test and unsigned loops. Native storage alias/lifetime assumptions explicit."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

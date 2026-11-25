@@ -1,0 +1,14 @@
+{
+  "unit": "d28l_list_control_fade_802bf81c",
+  "source": "source/matching/game/d28l/d28l_list_control_fade_802bf81c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d28l_list_control_fade_802bf81c": "0x802bf81c"
+  },
+  "descriptions": {
+    "d28l_list_control_fade_802bf81c": "Updates each list control element's alpha and scale from the control's current ratio."
+  }
+}

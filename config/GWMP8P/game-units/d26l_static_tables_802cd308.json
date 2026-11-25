@@ -1,0 +1,12 @@
+{
+  "unit": "d26l_static_tables_802cd308",
+  "source": "source/matching/game/d26l/d26l_static_tables_802cd308.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d26l_static_tables_802cd308": "0x802cd308"
+  },
+  "descriptions": {
+    "d26l_static_tables_802cd308": "Static initialization for priority 0xffff when initializing: clears the word at 0x804b10b0, two tables of 16 null words at 0x80473724 and 0x80473764, 16 vector-shaped records of 16 bytes at 0x804737a4 (words +0, +4 and +12 cleared), and two more tables of 16 null words at 0x804738a4 and 0x804738e4. Does nothing for any other arguments. No owned data; objects stay address-named externs."
+  }
+}

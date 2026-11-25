@@ -1,0 +1,11 @@
+{
+  "unit": "d28c_payload_update_800d7b10",
+  "source": "source/matching/game/d28c/d28c_payload_update_800d7b10.cpp",
+  "language": "cpp",
+  "functions": {
+    "d28c_payload_update_800d7b10": "0x800d7b10"
+  },
+  "descriptions": {
+    "d28c_payload_update_800d7b10": "Advance a payload for one tick: re-check it at rest or move it along its path, handle landing and hits, and update the planar distance."
+  }
+}

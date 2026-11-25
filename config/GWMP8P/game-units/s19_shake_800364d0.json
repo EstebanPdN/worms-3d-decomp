@@ -1,0 +1,11 @@
+{
+  "unit": "s19_shake_800364d0",
+  "source": "source/matching/game/s19/s19_shake_800364d0.c",
+  "language": "c",
+  "functions": {
+    "s19_update_shake_800364d0": "0x800364d0"
+  },
+  "descriptions": {
+    "s19_update_shake_800364d0": "Appears to increment the shake handle at +0x10, update through a helper with a float and store the handle in the Camera.Shake.Handle property."
+  }
+}

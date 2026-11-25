@@ -1,0 +1,11 @@
+{
+  "unit": "s19_prop_800157cc",
+  "source": "source/matching/game/s19/s19_prop_800157cc.c",
+  "language": "c",
+  "functions": {
+    "s19_weapons_dont_end_turn_800157cc": "0x800157cc"
+  },
+  "descriptions": {
+    "s19_weapons_dont_end_turn_800157cc": "Appears to return whether the AI.WeaponsDontEndTurn property equals one."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "d31e_set_class_hook_801e7270",
+  "source": "source/matching/game/d31e/d31e_set_class_hook_801e7270.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d31e_set_class_hook_801e7270": "0x801e7270"
+  },
+  "descriptions": {
+    "w3d_d31e_set_class_hook_801e7270": "Registers a hook for a class index on an object, unless the slot is locked (state 1, or state 2 when the new state is 0): stores the hook at +52 and the state at +64, then visits the class's direct children (iterating the actor type list and skipping non-children) and applies the hook with state 0 to every child whose state is still 0. Names are inferred."
+  }
+}

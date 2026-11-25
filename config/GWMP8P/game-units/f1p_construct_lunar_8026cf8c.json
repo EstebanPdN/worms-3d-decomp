@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_construct_lunar_8026cf8c",
+  "source": "source/matching/game/f1p/f1p_construct_lunar_8026cf8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_construct_lunar_8026cf8c": "0x8026cf8c"
+  },
+  "descriptions": {
+    "w3d_construct_lunar_8026cf8c": "Invoke the base initializer, set the witnessed table, construct and assign the string to Lunar.Lumps, initialize observed fields and two repeated float vectors, and publish this owner to the original global. Partial layout and semantic roles inferred."
+  }
+}

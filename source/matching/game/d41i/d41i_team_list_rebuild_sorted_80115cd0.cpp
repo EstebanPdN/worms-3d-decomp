@@ -1,0 +1,223 @@
+// d41i: 0x80115cd0. Rebuilds a sorted name list from a settings bank: skips
+// locked entries, inserts each new entry by id then name, shifting the
+// parallel name, value and id arrays.
+struct Type { unsigned char unknown00[20]; const Type *parent; };
+struct Object;
+struct ObjectVtable {
+    void *unknown00[3];
+    void (*retain)(Object *);       // +12
+    void (*release)(Object *);      // +16
+    const Type *(*type)(Object *);  // +20
+    int (*kind)(Object *);          // +24
+    void *unknown1c;
+    const char *(*name)(Object *);  // +32
+};
+struct Object { ObjectVtable *vtable; };
+struct Key { const char *name; };
+// Owned type descriptor released through 0x80178474 (two written words).
+struct Descriptor_80178474 {
+    void *value;
+    unsigned tag;
+    Descriptor_80178474() : value(0), tag(58280) {}
+    ~Descriptor_80178474();
+};
+struct Handle {
+    Object *value;
+    Handle() : value(0) {}
+    Handle(Object *next) : value(next) { if (value) value->vtable->retain(value); }
+    Handle(const Handle &);
+    ~Handle() { if (value) value->vtable->release(value); }
+    void assign(Object *next) {
+        if (next) {
+            next->vtable->retain(next);
+            if (value) value->vtable->release(value);
+            value = next;
+        }
+    }
+};
+struct ArrayHeader {
+    unsigned char unknown00[4];
+    unsigned short kind;   // +4
+    unsigned char unknown06[18];
+    int count;             // +24
+    unsigned short locks;  // +28
+    unsigned char unknown1e[2];
+    char *data[1];         // +32
+};
+struct ArrayRef { ArrayHeader *header; };
+struct Field { unsigned char unknown00[24]; int count; };
+struct List {
+    unsigned char unknown00[28];
+    ArrayRef values;    // +28
+    Field *field;       // +32
+};
+struct Labels {
+    unsigned char unknown00[24];
+    ArrayRef names;     // +24
+    unsigned char unknown1c[8];
+    float width;        // +36
+    char *title;        // +40
+    unsigned char unknown2c[4];
+    ArrayRef ids;       // +48
+};
+struct String {
+    char *text;
+    String();
+    String(const char *);
+    String(const String &);
+    ~String();
+};
+extern "C" void string_finish_8020c5c4(String *);
+extern "C" void string_release_80341588(String *);
+inline String::~String() {
+    string_finish_8020c5c4(this);
+    string_release_80341588(this);
+}
+extern "C" void *as_table_80341584(Object *);
+extern "C" Object *table_get_80179598(void *, Descriptor_80178474 *);
+extern "C" void list_begin_801ef380(Object *, int, int, int, int);
+extern "C" char **array_lock_801ef048(ArrayRef *, int, int, int);
+extern "C" Object *create_8020b680(const void *);
+extern "C" void string_release_8020bb2c(void *);
+extern "C" char **string_assign_8020bd38(char **, const char *);
+extern "C" void string_format_8020c510(String *, const char *, ...);
+extern "C" void list_append_801ef174(Object *, int, int, Object *);
+static inline char **grow(ArrayRef *array, int count) {
+    ArrayHeader *header = array->header;
+    if (header->kind == 1 && count == header->count) {
+        ++header->locks;
+        return header->data;
+    }
+    return array_lock_801ef048(array, count, 4, 2);
+}
+static inline void clear(ArrayRef *array) {
+    ArrayHeader *header = array->header;
+    if (header->kind == 1 && header->count == 0)
+        ++header->locks;
+    else
+        array_lock_801ef048(array, 0, 4, 0);
+}
+static inline char **size_to(ArrayRef *array, int count) {
+    ArrayHeader *header = array->header;
+    if (header->kind == 1 && count == header->count) {
+        ++header->locks;
+        return header->data;
+    }
+    return array_lock_801ef048(array, count, 4, 0);
+}
+static inline void set(Handle &h, Object *next) {
+    if (next) next->vtable->retain(next);
+    if (h.value) h.value->vtable->release(h.value);
+    h.value = next;
+}
+static inline void store(int index, char **slot, const String &s) {
+    char *text = s.text;
+    ++*(unsigned short *)(text - 6);
+    char *old = *(char **)(index + (int)slot);
+    unsigned short *header = (unsigned short *)(old - 6);
+    unsigned short n = --*header;
+    if (n == 0) string_release_8020bb2c(header);
+    *(char **)(index + (int)slot) = s.text;
+}
+
+struct Id { unsigned char b0, b1, b2, b3; };
+struct Owner { unsigned char unknown00[32]; Id a; Id b; unsigned char unknown28[80]; Object *source; };
+struct Item {
+    unsigned char unknown00[20];
+    String title;  // +20
+    String name;   // +24
+    String key;    // +28
+    int flag;      // +32
+};
+struct ItemList { unsigned char unknown00[24]; unsigned count; unsigned char unknown1c[4]; Item *items[1]; };
+struct Holder { int unknown00; ItemList *list; Item **Items() { return list->items; } };
+struct Definition { unsigned char unknown00[16]; Holder sub; };
+extern const char class_80419e68[], n_8039a78c[], s_8039a7a0[];
+extern "C" int read_setting_800fc1b0(Key *, Handle *);
+extern "C" Definition *definition_801797b4(void *);
+extern "C" int read_key_800fc2b0(Key *, Key *);
+extern "C" void string_init_8020c5c0(String *);
+extern "C" unsigned short *string_header_80341884(String *);
+extern "C" int locked_8028496c(void *, String);
+extern "C" int strcmp(const char *, const char *);
+extern void *lbl_804abbac;
+inline String::String(const String &o) {
+    string_init_8020c5c0(this);
+    text = o.text;
+    struct H { unsigned short refs, length, capacity; } *h = (H *)string_header_80341884(this);
+    ++h->refs;
+}
+static inline void move_up(char **p) {
+    char *text = p[-1];
+    ++*(unsigned short *)(text - 6);
+    char *old = p[0];
+    unsigned short *header = (unsigned short *)(old - 6);
+    unsigned short n = --*header;
+    if (n == 0) string_release_8020bb2c(header);
+    p[0] = p[-1];
+}
+static inline bool greater(const Id &a, const Id &b) { return a.b2 > b.b2; }
+static inline bool same(const Id &a, const Id &b) { return a.b2 == b.b2; }
+extern "C" void d41i_team_list_rebuild_sorted_80115cd0(Owner *self) {
+    Descriptor_80178474 descriptor;
+    Handle list;
+    {
+        Handle value(table_get_80179598(as_table_80341584(self->source), &descriptor));
+        list.assign(value.value);
+    }
+    List *l = (List *)list.value;
+    list_begin_801ef380(list.value, 32, 0, 0, l->field->count);
+    clear(&((List *)list.value)->values);
+    Handle table(create_8020b680(class_80419e68));
+    unsigned count = 0;
+    Handle bank;
+    Key bank_key;
+    bank_key.name = n_8039a78c;
+    if (read_setting_800fc1b0(&bank_key, &bank) < 0) return;
+    Definition *def = definition_801797b4(as_table_80341584(bank.value));
+    count = def->sub.list->count;
+    Item **items = def->sub.Items();
+    if (count == 0) return;
+    for (unsigned i = 0; i < count; i++) {
+        if (locked_8028496c(lbl_804abbac, String(items[i]->title))) continue;
+        ArrayRef *labels = &((Labels *)table.value)->names;
+        char **sa = grow(labels, labels->header->count + 1);
+        ArrayRef *values = &((List *)list.value)->values;
+        char **sv = grow(values, values->header->count + 1);
+        ArrayRef *idr = &((Labels *)table.value)->ids;
+        int n = idr->header->count;
+        Id *ids = (Id *)grow(idr, n + 1);
+        Key key;
+        key.name = items[i]->key.text;
+        Key out;
+        if (read_key_800fc2b0(&key, &out) >= 0)
+            string_assign_8020bd38(&sa[n], out.name);
+        else
+            out.name = s_8039a7a0;
+        Id v;
+        if (items[i]->flag) v = self->b; else v = self->a;
+        unsigned j;
+        j = 0;
+        if (j < (unsigned)n && !greater(v, ids[j])) {
+            int off = 0;
+            for (; ; ) {
+                if (same(v, ids[j]) && strcmp(out.name, *(char **)(off + (int)sa)) < 0) goto done;
+                off += 4;
+                j++;
+                if (j >= (unsigned)n) goto done;
+                if (greater(v, ids[j])) goto done;
+            }
+        }
+        done:
+        int k = j << 2;
+        for (; n > (int)j; n--) {
+            move_up(&sa[n]);
+            move_up(&sv[n]);
+            ids[n] = ids[n - 1];
+        }
+        string_assign_8020bd38((char **)((int)sa + k), out.name);
+        *(Id *)(k + (int)ids) = v;
+        store(k, sv, items[i]->name);
+    }
+    list_append_801ef174(list.value, 32, 0, table.value);
+}

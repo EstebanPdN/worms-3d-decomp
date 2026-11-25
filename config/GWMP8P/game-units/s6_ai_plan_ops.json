@@ -1,0 +1,19 @@
+{
+  "unit": "s6_ai_plan_ops",
+  "source": "source/matching/game/s6_ai_plan_ops.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_ai_attack_plan_destroy_8000a20c": "0x8000a20c",
+    "w3d_ai_set_query_origin_8000a62c": "0x8000a62c",
+    "w3d_ai_capture_query_8000a68c": "0x8000a68c",
+    "w3d_ai_query_a_8000a758": "0x8000a758",
+    "w3d_ai_query_b_8000a7ac": "0x8000a7ac"
+  },
+  "descriptions": {
+    "w3d_ai_attack_plan_destroy_8000a20c": "Appears to release held move queues and destroy the attack plan.",
+    "w3d_ai_set_query_origin_8000a62c": "Appears to set the actor query origin from saved plan coordinates.",
+    "w3d_ai_capture_query_8000a68c": "Appears to save successful query coordinates and cost.",
+    "w3d_ai_query_a_8000a758": "Appears to run query A and capture its result.",
+    "w3d_ai_query_b_8000a7ac": "Appears to run query B and capture its result."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d17d_direction_slope_8014ca54",
+  "source": "source/matching/game/d17d/d17d_direction_slope_8014ca54.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d17d_direction_slope_8014ca54": "0x8014ca54"
+  },
+  "descriptions": {
+    "d17d_direction_slope_8014ca54": "Copy the direction, return pi/2 if its squared length is 0; otherwise normalise it with 1/sqrt (0x802e82c0), dot it with (0,1,0), clamp to [-1,1] through reference-returning min/max and return acos (0x802e79e0). Owns its float literal pool."
+  }
+}

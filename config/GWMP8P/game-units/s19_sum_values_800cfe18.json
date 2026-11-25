@@ -1,0 +1,11 @@
+{
+  "unit": "s19_sum_values_800cfe18",
+  "source": "source/matching/game/s19/s19_sum_values_800cfe18.c",
+  "language": "c",
+  "functions": {
+    "s19_sum_values_800cfe18": "0x800cfe18"
+  },
+  "descriptions": {
+    "s19_sum_values_800cfe18": "Appears to sum the float at +0xc of each 28-byte entry in the vector at +0x1c and return the total."
+  }
+}

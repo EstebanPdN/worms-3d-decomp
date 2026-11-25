@@ -1,0 +1,11 @@
+{
+  "unit": "s21_av_80201558",
+  "source": "source/matching/game/s21/s21_av_80201558.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_u32_direct_80201558": "0x80201558"
+  },
+  "descriptions": {
+    "w3d_s21_read_u32_direct_80201558": "Appears to read four bytes from the inner stream directly into the output word and store its byte-swapped value."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d40f_panel_build_8028ba38",
+  "source": "source/matching/game/d40f/d40f_panel_build_8028ba38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40f_panel_build_8028ba38": "0x8028ba38"
+  },
+  "descriptions": {
+    "w3d_d40f_panel_build_8028ba38": "Builds a frontend panel from its data record: optional label image, normal and grey images, colour image chosen by the record colour, the text part sized and centred, and on first use the back image and up to three named border pieces."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

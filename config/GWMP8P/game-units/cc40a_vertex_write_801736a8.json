@@ -1,0 +1,11 @@
+{
+  "unit": "cc40a_vertex_write_801736a8",
+  "source": "source/matching/game/cc40a/cc40a_vertex_write_801736a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc40a_vertex_write_801736a8": "0x801736a8"
+  },
+  "descriptions": {
+    "cc40a_vertex_write_801736a8": "Retain the vertex buffer, lock its array storage using the original unsigned halfword mode/refcount path, copy the indexed three-float value, and release the local reference."
+  }
+}

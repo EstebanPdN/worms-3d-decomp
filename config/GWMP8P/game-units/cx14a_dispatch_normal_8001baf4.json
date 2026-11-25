@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_dispatch_normal_8001baf4",
+  "source": "source/matching/game/cx14a/cx14a_dispatch_normal_8001baf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_dispatch_normal_8001baf4": "0x8001baf4"
+  },
+  "descriptions": {
+    "w3d_cx14a_dispatch_normal_8001baf4": "Selects the original hit normal when needed, float-copy constructs and normalizes a local vector, and forwards it with the preserved key to the original motion helper."
+  }
+}

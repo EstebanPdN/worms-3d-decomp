@@ -1,0 +1,11 @@
+{
+  "unit": "s21_eu_801e6fcc",
+  "source": "source/matching/game/s21/s21_eu_801e6fcc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_words_801e6fcc": "0x801e6fcc"
+  },
+  "descriptions": {
+    "w3d_s21_write_words_801e6fcc": "Appears to call virtual slot 8 of a stream for each word of an array with a shared context, stopping at the first negative status and returning zero otherwise."
+  }
+}

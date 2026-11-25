@@ -1,0 +1,66 @@
+{
+  "module": "actor_registration",
+  "function": "w3d_actor_register",
+  "original_entry": "0x80164514",
+  "candidate_entry": "0x805e0000",
+  "data_entry": "0x805f0000",
+  "additional_bindings": [
+    {
+      "name": "w3d_heap_actor_type_name",
+      "kind": "rel24",
+      "site": "0x8016457c",
+      "expected": "0x801ffea8"
+    },
+    {
+      "name": "w3d_system_allocate",
+      "kind": "rel24",
+      "site": "0x80164730",
+      "expected": "0x80212fd4"
+    },
+    {
+      "name": "w3d_allocation_failure",
+      "kind": "rel24",
+      "site": "0x80164740",
+      "expected": "0x803413d8"
+    },
+    {
+      "name": "w3d_task_ready_move",
+      "kind": "rel24",
+      "site": "0x80164910",
+      "expected": "0x802eeef4"
+    },
+    {
+      "name": "w3d_task_heap_push",
+      "kind": "rel24",
+      "site": "0x80164844",
+      "expected": "0x8034a400"
+    },
+    {
+      "name": "w3d_actor_registration_notify",
+      "kind": "rel24",
+      "site": "0x80164a84",
+      "expected": "0x8034b418"
+    },
+    {
+      "name": "w3d_registration_phase4",
+      "kind": "ha_lo",
+      "high_site": "0x80164988",
+      "low_site": "0x8016498c",
+      "expected": "0x803617d0"
+    },
+    {
+      "name": "w3d_registration_phase3",
+      "kind": "ha_lo",
+      "high_site": "0x801649e0",
+      "low_site": "0x801649e4",
+      "expected": "0x80361860"
+    },
+    {
+      "name": "w3d_registration_phase5",
+      "kind": "ha_lo",
+      "high_site": "0x80164a38",
+      "low_site": "0x80164a3c",
+      "expected": "0x803618f0"
+    }
+  ]
+}

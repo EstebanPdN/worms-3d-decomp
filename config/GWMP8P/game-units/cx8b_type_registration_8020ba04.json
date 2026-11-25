@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_type_registration_8020ba04",
+  "source": "source/matching/game/cx8b/cx8b_type_registration_8020ba04.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_type_registration_8020ba04": "0x8020ba04"
+  },
+  "descriptions": {
+    "w3d_cx8b_type_registration_8020ba04": "Initialize Storage callback descriptor with priority 10, clear storage registry state, and insert the descriptor during static initialization."
+  }
+}

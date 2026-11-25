@@ -1,0 +1,11 @@
+{
+  "unit": "h1c_border_mesh_8029358c",
+  "source": "source/matching/game/h1c/h1c_border_mesh_8029358c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_h1c_border_mesh_8029358c": "0x8029358c"
+  },
+  "descriptions": {
+    "w3d_h1c_border_mesh_8029358c": "Updates border mesh vertices using an observed twenty-vertex local grid and original vertex-order table. Clamps border/inset to dimensions, retains four nested engine objects, locks the vertex array, forms grid and inset coordinates, sets output z to zero, clears the dirty flag, derives bounds and a bounding sphere, then releases nested objects in reverse order. Local Vec3, box and sphere extents are twelve, twenty-four and sixteen bytes; external engine class names remain inferred."
+  }
+}

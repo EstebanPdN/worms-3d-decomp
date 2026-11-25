@@ -1,0 +1,11 @@
+{
+  "unit": "cx15b_projection_matrix_apply_80167748",
+  "source": "source/matching/game/cx15b/cx15b_projection_matrix_apply_80167748.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx15b_projection_matrix_apply_80167748": "0x80167748"
+  },
+  "descriptions": {
+    "w3d_cx15b_projection_matrix_apply_80167748": "Build partial GX projection matrix and cache the complete sixteen-float source matrix."
+  }
+}

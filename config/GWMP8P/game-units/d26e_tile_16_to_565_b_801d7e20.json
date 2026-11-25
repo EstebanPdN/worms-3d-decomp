@@ -1,0 +1,11 @@
+{
+  "unit": "d26e_tile_16_to_565_b_801d7e20",
+  "source": "source/matching/game/d26e/d26e_tile_16_to_565_b_801d7e20.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_tile_16_to_565_b_801d7e20": "0x801d7e20"
+  },
+  "descriptions": {
+    "w3d_d26e_tile_16_to_565_b_801d7e20": "Second copy of the 16-bit to RGB565 tile conversion at 0x801d7c94, with identical instructions: converts the block at (ox, oy) into one big-endian RGB565 4x4 tile with 8-byte rows. Why two copies exist is not known; they may be two format entries of one converter table."
+  }
+}

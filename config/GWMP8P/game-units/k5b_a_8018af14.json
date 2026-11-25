@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_8018af14",
+  "source": "source/matching/game/k5b/k5b_a_8018af14.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_linked_node_detach_8018af14": "0x8018af14"
+  },
+  "descriptions": {
+    "w3d_k5b_linked_node_detach_8018af14": "Appears to clear flag 0x8000 at +24 and release the three held interfaces at +40, +36 and +32 through virtual slot 4, clearing each."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_8002da94",
+  "source": "source/matching/game/s7/s7hand_8002da94.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_8002da94": "0x8002da94"
+  },
+  "descriptions": {
+    "w3d_auto_8002da94": "Initializes a sequence of five interface slots via virtual method +0x58 with flag 0."
+  }
+}

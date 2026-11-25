@@ -1,0 +1,11 @@
+{
+  "unit": "f1a_eye_vector_8001a770",
+  "source": "source/matching/game/f1a/f1a_eye_vector_8001a770.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f1a_eye_vector_8001a770": "0x8001a770"
+  },
+  "descriptions": {
+    "w3d_f1a_eye_vector_8001a770": "Copies the caller three-word vector into the original globals at 0x8041e838 and 0x8041e844. If the caller flag is nonzero, reads the property named Worm.EyeLevelOffset through 0x800fc270 and adds the returned float to the second component of the vector at 0x8041e844. The global names and property reader are bound to original instruction targets; external data ownership is not claimed."
+  }
+}

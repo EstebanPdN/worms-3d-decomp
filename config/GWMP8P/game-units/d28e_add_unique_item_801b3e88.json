@@ -1,0 +1,14 @@
+{
+  "unit": "d28e_add_unique_item_801b3e88",
+  "source": "source/matching/game/d28e/d28e_add_unique_item_801b3e88.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_add_unique_item_801b3e88": "0x801b3e88"
+  },
+  "descriptions": {
+    "w3d_d28e_add_unique_item_801b3e88": "Under the owner's lock (table slot at +48) return the first item in the vector at +88 that the owner reports as the same, otherwise append the new item, retain it and return it. Unlocks by passing zero on both paths."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

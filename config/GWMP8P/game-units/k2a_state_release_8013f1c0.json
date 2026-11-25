@@ -1,0 +1,11 @@
+{
+  "unit": "k2a_state_release_8013f1c0",
+  "source": "source/matching/game/k2a/k2a_state_release_8013f1c0.c",
+  "language": "c",
+  "functions": {
+    "k2a_state_release_8013f1c0": "0x8013f1c0"
+  },
+  "descriptions": {
+    "k2a_state_release_8013f1c0": "Appears to release the held interface object when the state field is one of eight listed values, then clear the pointer."
+  }
+}

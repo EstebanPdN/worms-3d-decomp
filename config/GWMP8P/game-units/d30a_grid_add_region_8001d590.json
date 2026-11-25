@@ -1,0 +1,11 @@
+{
+  "unit": "d30a_grid_add_region_8001d590",
+  "source": "source/matching/game/d30a/d30a_grid_add_region_8001d590.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30a_grid_add_region_8001d590": "0x8001d590"
+  },
+  "descriptions": {
+    "w3d_d30a_grid_add_region_8001d590": "Creates a region for the box from..to, discarding it if it is too small or merged into an existing region, otherwise appending it to the grid's list."
+  }
+}

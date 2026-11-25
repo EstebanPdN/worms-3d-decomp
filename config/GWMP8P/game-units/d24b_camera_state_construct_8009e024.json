@@ -1,0 +1,11 @@
+{
+  "unit": "d24b_camera_state_construct_8009e024",
+  "source": "source/matching/game/d24b/d24b_camera_state_construct_8009e024.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24b_camera_state_construct_8009e024": "0x8009e024"
+  },
+  "descriptions": {
+    "w3d_d24b_camera_state_construct_8009e024": "Worm camera state constructor: base constructor 0x8015a0d4 with flag 1, secondary vtable 0x8040f3c0 at +72, loads Worm.EyeLevelOffset, Camera.Head.LookUpdateSpeed and Worm.Drown.HeightOffset (0x800fc1b0, cast 0x80342a74) into the retained slots +76, +80, +84 through two handles, releases the handles and returns the object."
+  }
+}

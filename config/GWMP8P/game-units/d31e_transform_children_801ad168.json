@@ -1,0 +1,19 @@
+{
+  "unit": "d31e_transform_children_801ad168",
+  "source": "source/matching/game/d31e/d31e_transform_children_801ad168.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ],
+  "functions": {
+    "w3d_d31e_transform_children_801ad168": "0x801ad168"
+  },
+  "descriptions": {
+    "w3d_d31e_transform_children_801ad168": "Runs a transform pass over the child list at +44 of a tree: for each child calls the handler selected by the child's kind at +6. On failure returns the error. A replacement in the result reference at +96 is either appended to the task (flag set) or stored into a child slot of the tree, copying the tree first through 0x801ad108 unless already copied or preserved. Children marked changed at +88 are appended, or their indices pushed on a real STLport vector and erased after the loop. Leaves the copy in the result and the flag in +88. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

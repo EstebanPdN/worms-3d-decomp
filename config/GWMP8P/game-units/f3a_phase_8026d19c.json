@@ -1,0 +1,11 @@
+{
+  "unit": "f3a_phase_8026d19c",
+  "source": "source/matching/game/f3a/f3a_phase_8026d19c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f3a_phase_8026d19c": "0x8026d19c"
+  },
+  "descriptions": {
+    "w3d_f3a_phase_8026d19c": "Clamps elapsed ticks to 100 and consumes twenty-tick steps, increments two external float phases, wraps the first at the observed bound, and forwards two three-float payloads through virtual slot 80 before storing the residual timestamp. Phase and object roles and reserved frame layout are inferred; external data ownership is not claimed."
+  }
+}

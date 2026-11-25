@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_leaf_f.c
+w3d_s20_remove_entry_800f287c|0x800f287c|Appears to overwrite the entry at the given index with the last entry of a 20-byte entry stack and shrink the count.

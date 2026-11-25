@@ -1,0 +1,11 @@
+{
+  "unit": "d26c_chute_message_800dac50",
+  "source": "source/matching/game/d26c/d26c_chute_message_800dac50.cpp",
+  "language": "cpp",
+  "functions": {
+    "d26c_chute_message_800dac50": "0x800dac50"
+  },
+  "descriptions": {
+    "d26c_chute_message_800dac50": "Id 64: base handler and on success register fields (0x800dae1c), else 0x80004005. Id 66: stop (0x800dafa4) then base handler. Cached ids start (0x800db014), switch off (0x800daffc), start when inactive and clear +76, finish (0x8015fd1c, also on an owner match), set or clear +148 and +152. Other ids go to the base handler. Returns 0 on handled paths."
+  }
+}

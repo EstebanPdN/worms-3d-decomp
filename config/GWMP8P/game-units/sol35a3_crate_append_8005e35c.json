@@ -1,0 +1,11 @@
+{
+  "unit": "sol35a3_crate_append_8005e35c",
+  "source": "source/matching/game/sol35a3/sol35a3_crate_append_8005e35c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35a3_crate_append_8005e35c": "0x8005e35c"
+  },
+  "descriptions": {
+    "sol35a3_crate_append_8005e35c": "Allocate and initialize a 32-byte action with cached Crate.LooseChute name, modes 2/8/1 and cleared flags/spare, then append its pointer to the receiver byte-storage range with the observed growth and copy arithmetic. Native PPC32 layout and external identities retained; names and ownership interpretation inferred."
+  }
+}

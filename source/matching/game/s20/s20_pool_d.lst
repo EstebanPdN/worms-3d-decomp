@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_pool_d.c
+w3d_s20_store_byte_value_80173f88|0x80173f88|Appears to update a cached byte and, when it changed, store it at the indexed byte of the held object's pool entry.

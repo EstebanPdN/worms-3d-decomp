@@ -1,0 +1,15 @@
+{
+  "unit": "d27i_weapon_panel_label_8012f368",
+  "source": "source/matching/game/d27i/d27i_weapon_panel_label_8012f368.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27i_weapon_panel_label_8012f368": "0x8012f368"
+  },
+  "descriptions": {
+    "d27i_weapon_panel_label_8012f368": "Updates the weapon panel's label text and colour for the weapon named by the changed panel."
+  }
+}

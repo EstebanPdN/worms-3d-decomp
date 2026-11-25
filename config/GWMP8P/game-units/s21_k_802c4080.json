@@ -1,0 +1,11 @@
+{
+  "unit": "s21_k_802c4080",
+  "source": "source/matching/game/s21/s21_k_802c4080.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_cycle_index_802c4080": "0x802c4080"
+  },
+  "descriptions": {
+    "w3d_s21_cycle_index_802c4080": "Appears to advance a wrapping index field in the range zero to five and pass the new value to a helper."
+  }
+}

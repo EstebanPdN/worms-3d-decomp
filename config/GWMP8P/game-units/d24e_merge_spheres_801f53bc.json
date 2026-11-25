@@ -1,0 +1,14 @@
+{
+  "unit": "d24e_merge_spheres_801f53bc",
+  "source": "source/matching/game/d24e/d24e_merge_spheres_801f53bc.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24e_merge_spheres_801f53bc": "0x801f53bc"
+  },
+  "descriptions": {
+    "w3d_d24e_merge_spheres_801f53bc": "Merges two bounding spheres: an empty one (negative radius) yields the other, a contained one yields the larger; otherwise the centre moves along the connecting line and the radius becomes half of distance plus both radii. Returns out."
+  }
+}

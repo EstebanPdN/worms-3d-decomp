@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_dispatch_labels_802ab24c",
+  "source": "source/matching/game/f1p/f1p_dispatch_labels_802ab24c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_dispatch_labels_802ab24c": "0x802ab24c"
+  },
+  "descriptions": {
+    "w3d_dispatch_labels_802ab24c": "When owner offset1376 is clear, select three IDs from the witnessed constant tables and dispatch three reference-counted string copies from context offsets152,148,144 with those IDs. Copy-constructor call and reference increments preserved; labels and layout inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ai_801f60dc",
+  "source": "source/matching/game/s21/s21_ai_801f60dc.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_transpose3_801f60dc": "0x801f60dc"
+  },
+  "descriptions": {
+    "w3d_s21_transpose3_801f60dc": "Appears to copy a three-by-three float matrix from the second argument into the first with rows and columns exchanged."
+  }
+}

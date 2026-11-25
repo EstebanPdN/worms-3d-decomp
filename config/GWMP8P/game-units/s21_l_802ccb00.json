@@ -1,0 +1,11 @@
+{
+  "unit": "s21_l_802ccb00",
+  "source": "source/matching/game/s21/s21_l_802ccb00.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_flag_is_set_802ccb00": "0x802ccb00"
+  },
+  "descriptions": {
+    "w3d_s21_flag_is_set_802ccb00": "Appears to report whether a flag in a sixteen-entry table is set when the subsystem is enabled."
+  }
+}

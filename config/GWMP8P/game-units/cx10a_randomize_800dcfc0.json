@@ -1,0 +1,14 @@
+{
+  "unit": "cx10a_randomize_800dcfc0",
+  "source": "source/matching/game/cx10a/cx10a_randomize_800dcfc0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx10a_randomize_800dcfc0": "0x800dcfc0"
+  },
+  "descriptions": {
+    "w3d_cx10a_randomize_800dcfc0": "Offsets a two-float state pair by a centered random displacement, using shared or local generation and exact observed stack reservation."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

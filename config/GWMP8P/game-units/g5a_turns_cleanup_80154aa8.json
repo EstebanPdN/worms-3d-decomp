@@ -1,0 +1,11 @@
+{
+  "unit": "g5a_turns_cleanup_80154aa8",
+  "source": "source/matching/game/g5a/g5a_turns_cleanup_80154aa8.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5a_turns_cleanup_80154aa8": "0x80154aa8"
+  },
+  "descriptions": {
+    "g5a_turns_cleanup_80154aa8": "Installs vtable80410f40 and clears singleton804ab400 on an external receiver. Releases nonnull held interfaces through virtual slot16 in observed reverse member order: offsets420,416,388,308 down to200 in steps of4. Destroys the two fixed four-element buffer arrays at100 and52 in reverse order; each12-byte record frees its nonnull first-word storage through802134fc. Releases held interfaces at48,44,40,36,32,28, then forwards the receiver and incoming destructor flags to801628ec. Native member destructors reproduce the original lifetimes and fixed array traversal. Layout is an observed external424-byte prefix, never constructed or allocated here; unknown byte regions are explicit and no complete original class identity is asserted. Referenced heap storage belongs to the original allocator; this unit owns no external data."
+  }
+}

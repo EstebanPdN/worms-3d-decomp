@@ -1,0 +1,11 @@
+{
+  "unit": "d30g_game_init_data_8006e784",
+  "source": "source/matching/game/d30g/d30g_game_init_data_8006e784.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30g_game_init_data_8006e784": "0x8006e784"
+  },
+  "descriptions": {
+    "w3d_d30g_game_init_data_8006e784": "Game start bookkeeping: unless already seeded, seeds both random generators from the application seed or the elapsed milliseconds (0 under flag 0x00200000) and logs the game count; reads GM.GameInitData and, with more than one player, tallies active teams by kind, advances each team's cycle index (random start when -1), advances the starting team skipping empty kinds, and advances the per-kind turn index."
+  }
+}

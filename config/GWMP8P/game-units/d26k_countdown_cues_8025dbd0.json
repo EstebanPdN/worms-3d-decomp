@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_countdown_cues_8025dbd0",
+  "source": "source/matching/game/d26k/d26k_countdown_cues_8025dbd0.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_countdown_cues_8025dbd0": "0x8025dbd0"
+  },
+  "descriptions": {
+    "w3d_d26k_countdown_cues_8025dbd0": "Steps elapsed time (capped at 100) in 20-tick units, decrementing four 12-byte countdowns at +64..+100 and posting cached messages 0x804b0928, 0x804b0930, 0x804b0918, 0x804b0920 when an active count is at or below 4; updates +60 and returns 20."
+  }
+}

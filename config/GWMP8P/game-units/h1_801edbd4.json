@@ -1,0 +1,13 @@
+{
+  "unit": "h1_801edbd4",
+  "source": "source/matching/game/h1/h1_801edbd4.c",
+  "language": "c",
+  "functions": {
+    "w3d_h1_release_task_arrays_801edbd4": "0x801edbd4",
+    "w3d_h1_service_shutdown_802cafd0": "0x802cafd0"
+  },
+  "descriptions": {
+    "w3d_h1_release_task_arrays_801edbd4": "Releases the four task arrays held in small-data globals, clears the four pointers and returns zero.",
+    "w3d_h1_service_shutdown_802cafd0": "Calls virtual slot 16 (release) of the global service object if present, then clears the service pointer and its state word."
+  }
+}

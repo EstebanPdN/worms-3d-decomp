@@ -1,0 +1,11 @@
+{
+  "unit": "cx8c_pair_owner",
+  "source": "source/matching/game/cx8c/cx8c_pair_owner.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8c_pair_owner_8034ae84": "0x8034ae84"
+  },
+  "descriptions": {
+    "w3d_cx8c_pair_owner_8034ae84": "Allocates vector-like objects of 20 and 16 bytes, initializes their storage pointers, and stores them with the owner value."
+  }
+}

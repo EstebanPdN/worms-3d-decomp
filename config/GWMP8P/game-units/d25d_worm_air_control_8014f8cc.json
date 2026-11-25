@@ -1,0 +1,17 @@
+{
+  "unit": "d25d_worm_air_control_8014f8cc",
+  "source": "source/matching/game/d25d/d25d_worm_air_control_8014f8cc.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d25d"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d25d_worm_air_control_8014f8cc": "0x8014f8cc"
+  },
+  "descriptions": {
+    "d25d_worm_air_control_8014f8cc": "Worm air control: wished direction added to velocity, rotated aim vector."
+  }
+}

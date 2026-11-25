@@ -1,0 +1,11 @@
+{
+  "unit": "d33e_read_object_header_80202f34",
+  "source": "source/matching/game/d33e/d33e_read_object_header_80202f34.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33e_read_object_header_80202f34": "0x80202f34"
+  },
+  "descriptions": {
+    "w3d_d33e_read_object_header_80202f34": "Reads the 64-byte MOIK object file header into the reader and swaps its ten little-endian words to host order. Returns the read error, or E_FAIL after tracing a bad magic or a version above 0x2000000."
+  }
+}

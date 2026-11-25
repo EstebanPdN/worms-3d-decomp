@@ -1,0 +1,11 @@
+{
+  "unit": "k7b_a_8017b64c",
+  "source": "source/matching/game/k7b/k7b_a_8017b64c.c",
+  "language": "c",
+  "functions": {
+    "w3d_k7b_refresher_update_8017b64c": "0x8017b64c"
+  },
+  "descriptions": {
+    "w3d_k7b_refresher_update_8017b64c": "Appears to clear the flag at +164, call virtual slot 37 and then call 0x8017a07c for every index of the pointer vector at +104; returns the virtual call's result."
+  }
+}

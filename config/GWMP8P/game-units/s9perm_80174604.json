@@ -1,0 +1,11 @@
+{
+  "unit": "s9perm_80174604",
+  "source": "source/matching/game/perm/s9perm_80174604.c",
+  "language": "c",
+  "functions": {
+    "s9_permute_80174604": "0x80174604"
+  },
+  "descriptions": {
+    "s9_permute_80174604": "Returns zero when flag 0x8000 is set, or 0x80004005 when it is clear."
+  }
+}

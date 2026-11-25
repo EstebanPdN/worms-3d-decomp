@@ -1,0 +1,34 @@
+// Partial layout and structural names inferred from original instructions.
+extern unsigned char lbl_80416bf8[],lbl_80416bb0[];
+extern const char lbl_803b0364[];
+extern const float lbl_803b036c[],lbl_803b0370[],lbl_803b0374[];
+extern "C" void * fn_803426b8(void *);
+extern "C" void fn_8020bd38(void *,const char *);
+struct Pair { unsigned first,second; inline void init(){second=0;} };
+struct Tag {unsigned short a,b;union {unsigned value;volatile unsigned char byte[4];} u;};
+struct Thing {void **vtable;Tag tag;Pair pair;unsigned tail[17];};
+extern "C" Thing *f2c_tag_init_801dec90(Thing *self){Tag *tag=&self->tag;
+self->vtable=(void **)lbl_80416bf8;
+tag->u.byte[3]=2;
+tag->u.value=tag->u.byte[3];
+self->pair.first=0;
+self->pair.init();
+tag->a=0;
+tag->b=0;
+self->vtable=(void **)lbl_80416bb0;
+fn_803426b8((char *)self+24);
+*(unsigned *)((char *)self+28)=0;
+fn_803426b8((char *)self+80);
+*(unsigned *)((char *)self+64)=0;
+*(unsigned *)((char *)self+20)=20;
+fn_8020bd38((char *)self+24,lbl_803b0364);float a=lbl_803b036c[0],b=lbl_803b0370[0],c=lbl_803b0374[0];*(unsigned char *)((char *)self+68)=1;
+*(unsigned char *)((char *)self+69)=2;
+*(float *)((char *)self+60)=a;
+*(float *)((char *)self+56)=b;
+*(float *)((char *)self+48)=b;
+*(unsigned *)((char *)self+44)=0;
+*(float *)((char *)self+72)=c;
+*(float *)((char *)self+76)=c;
+*(float *)((char *)self+52)=c;
+void *held=*(void **)((char *)self+28);if(held)(*(void (***)(void *))held)[4](held);
+*(unsigned *)((char *)self+28)=0;*(unsigned *)((char *)self+32)=0;*(unsigned *)((char *)self+84)=0;return self;}

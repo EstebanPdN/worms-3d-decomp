@@ -1,0 +1,12 @@
+--- a/port/core/sdk/sdk_core.cpp
++++ b/port/core/sdk/sdk_core.cpp
+@@ -233,7 +233,8 @@
+     double now = plat::now_seconds();
+     if (g_next_frame == 0) g_next_frame = now;
+     g_next_frame += kFrame;
+-    if (g_next_frame > now) plat::sleep_seconds(g_next_frame - now); else g_next_frame = now;
++    static const long fast = getenv("W3D_FAST") ? atol(getenv("W3D_FAST")) : -1;  // W3D_FAST=<retrazo>: desde ese retrazo no espera, para pruebas por lotes con W3D_FIXED_CLOCK
++    if (g_next_frame > now && (fast < 0 || (long)g_retrace < fast)) plat::sleep_seconds(g_next_frame - now); else g_next_frame = now;
+     g_retrace++;
+     if (g_pre_retrace) ((void (*)(unsigned))g2h(g_pre_retrace))(g_retrace);
+ }

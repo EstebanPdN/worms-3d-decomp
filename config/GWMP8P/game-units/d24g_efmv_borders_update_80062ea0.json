@@ -1,0 +1,14 @@
+{
+  "unit": "d24g_efmv_borders_update_80062ea0",
+  "source": "source/matching/game/d24g/d24g_efmv_borders_update_80062ea0.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d24g_efmv_borders_update_80062ea0": "0x80062ea0"
+  },
+  "descriptions": {
+    "w3d_d24g_efmv_borders_update_80062ea0": "EFMV border bars update: computes the remaining fraction of the on-time; when closing, either finishes (releases the mesh and ends) or places the two sprites at the fraction of the height; when opening, places them at one minus the fraction and, once past the end time, posts one finished message."
+  }
+}

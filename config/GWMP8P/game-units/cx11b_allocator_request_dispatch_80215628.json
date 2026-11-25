@@ -1,0 +1,11 @@
+{
+  "unit": "cx11b_allocator_request_dispatch_80215628",
+  "source": "source/matching/game/cx11b/cx11b_allocator_request_dispatch_80215628.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx11b_allocator_request_dispatch_80215628": "0x80215628"
+  },
+  "descriptions": {
+    "w3d_cx11b_allocator_request_dispatch_80215628": "Dispatch allocation, release, or resize according to the original pointer and size arguments."
+  }
+}

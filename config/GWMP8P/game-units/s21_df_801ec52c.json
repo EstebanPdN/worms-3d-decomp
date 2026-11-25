@@ -1,0 +1,11 @@
+{
+  "unit": "s21_df_801ec52c",
+  "source": "source/matching/game/s21/s21_df_801ec52c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_typed_801ec52c": "0x801ec52c"
+  },
+  "descriptions": {
+    "w3d_s21_create_typed_801ec52c": "Appears to create a 28-byte typed entry with a float field, copying two callback pairs and appending it to the container."
+  }
+}

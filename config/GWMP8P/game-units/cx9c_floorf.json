@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_floorf",
+  "source": "source/matching/game/cx9c/cx9c_floorf.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_floorf_802e87d4": "0x802e87d4"
+  },
+  "descriptions": {
+    "w3d_cx9c_floorf_802e87d4": "Inferred IEEE float floor with signed-zero and inexact handling."
+  }
+}

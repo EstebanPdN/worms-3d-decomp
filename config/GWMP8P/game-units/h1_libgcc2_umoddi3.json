@@ -1,0 +1,11 @@
+{
+  "unit": "h1_libgcc2_umoddi3",
+  "source": "source/matching/game/h1/h1_libgcc2_umoddi3.c",
+  "language": "c",
+  "functions": {
+    "__umoddi3": "0x802f4944"
+  },
+  "descriptions": {
+    "__umoddi3": "libgcc2 __umoddi3: unsigned 64-bit remainder through the inlined __udivmoddi4."
+  }
+}

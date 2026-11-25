@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_tile_rows_801d8990",
+  "source": "source/matching/game/k8b/k8b_tile_rows_801d8990.c",
+  "language": "c",
+  "functions": {"w3d_k8b_tile_rows_801d8990": "0x801d8990"},
+  "descriptions": {"w3d_k8b_tile_rows_801d8990": "Appears to walk 8x8 tiles of a half-size image and convert each through the byte tile helper, counting 32 output bytes per tile."}
+}

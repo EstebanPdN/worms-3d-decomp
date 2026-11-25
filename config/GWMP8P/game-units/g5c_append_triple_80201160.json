@@ -1,0 +1,11 @@
+{
+  "unit": "g5c_append_triple_80201160",
+  "source": "source/matching/game/g5c/g5c_append_triple_v3_80201160.cpp",
+  "language": "cpp",
+  "functions": {
+    "g5c_append_triple_80201160": "0x80201160"
+  },
+  "descriptions": {
+    "g5c_append_triple_80201160": "Appends a three-word record to the external vector view at owner+44, using observed begin/end/capacity fields at44/48/56. Initializes a complete12-byte temporary, grows full storage by max(existing count, insertion count), copies existing records through null-checked placement construction, fills the inserted record, destroys old records and releases old storage. Uses original allocator and fallback boundaries; no external view is locally constructed and no initialized data is owned. Field names and container roles are inferred."
+  }
+}

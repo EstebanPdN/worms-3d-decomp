@@ -1,0 +1,17 @@
+{
+  "unit": "s2_teleport_state_r2",
+  "source": "source/matching/game/s2_teleport_state_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_target_id_message_801190b4": "0x801190b4",
+    "w3d_teleport_destroy_801193bc": "0x801193bc",
+    "w3d_teleport_setup_80119590": "0x80119590",
+    "w3d_teleport_shutdown_801196d8": "0x801196d8"
+  },
+  "descriptions": {
+    "w3d_target_id_message_801190b4": "Initializes a message header and stores the supplied target identifier.",
+    "w3d_teleport_destroy_801193bc": "Releases the worm, payload and two subscriptions before destroying the base actor.",
+    "w3d_teleport_setup_80119590": "Subscribes to delete and fire events, creates the cursor and updates remote camera controls.",
+    "w3d_teleport_shutdown_801196d8": "Restores camera input and weapon changes and completes an unfired remote teleport."
+  }
+}

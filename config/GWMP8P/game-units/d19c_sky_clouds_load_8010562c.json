@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_sky_clouds_load_8010562c",
+  "source": "source/matching/game/d19c/d19c_sky_clouds_load_8010562c.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_sky_clouds_load_8010562c": "0x8010562c"
+  },
+  "descriptions": {
+    "d19c_sky_clouds_load_8010562c": "For the first of five sky/cloud table entries whose sky name matches, load its cloud layer node into +36, pass the node's owner value to 0x80106300, set unit scale and the shared sky layer position and start the looping \"Cloud_Loop\" clip through a retained reference; then load the layer again into +40 as a Y-mirrored copy (scale and position Y negated) and start the same clip on it."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

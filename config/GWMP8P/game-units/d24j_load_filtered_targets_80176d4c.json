@@ -1,0 +1,12 @@
+{
+  "unit": "d24j_load_filtered_targets_80176d4c",
+  "source": "source/matching/game/d24j/d24j_load_filtered_targets_80176d4c.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24j_load_filtered_targets_80176d4c": "0x80176d4c"
+  },
+  "descriptions": {
+    "d24j_load_filtered_targets_80176d4c": "Opens a reader on the path (mode 6), returns its negative status on failure; for mode bit 0 acquires a shared writer, otherwise returns 0x80004005; sets the writer's value from the reader, creates a shared list tagged with the kind byte, sorts the targets of matching items into it by run-time type, passes the list to the writer and returns 0."
+  }
+}

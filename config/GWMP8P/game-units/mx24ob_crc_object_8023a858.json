@@ -1,0 +1,14 @@
+{
+  "unit": "mx24ob_crc_object_8023a858",
+  "source": "source/matching/game/mx24ob/mx24ob_crc_object_8023a858.cpp",
+  "language": "cpp",
+  "functions": {
+    "__15Mx24obCrcObjectUs": "0x8023a858"
+  },
+  "descriptions": {
+    "__15Mx24obCrcObjectUs": "Constructs a tagged CRC-using object: runs the tagged base constructor 0x801ea0ec with the caller's 16-bit id, installs the table 0x8041ae50, zeroes the twelve ints +20..+64, copy-constructs +68 from the shared empty string 0x804b06a0 (retaining it), zeroes the int at +72 and constructs the 24-byte member at +76 (0x80207fec); then, if the int at +72 read through 0x80240770 is zero, builds the CRC-32 table (0x8021d70c), sets that int to 1 (0x80240768) and passes 4096 to the setter 0x80240824. Names are inferred; offsets are observed."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

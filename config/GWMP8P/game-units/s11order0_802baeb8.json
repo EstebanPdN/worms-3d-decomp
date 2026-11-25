@@ -1,0 +1,11 @@
+{
+  "unit": "s11order0_802baeb8",
+  "source": "source/matching/game/s11_auto/s11order0_802baeb8.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802baeb8": "0x802baeb8"
+  },
+  "descriptions": {
+    "w3d_auto_802baeb8": "Appears to calls 0x80287c88, 0x801fe1f8; accesses fields at 0x10. m2c types and names are provisional."
+  }
+}

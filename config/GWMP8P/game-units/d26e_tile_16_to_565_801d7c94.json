@@ -1,0 +1,11 @@
+{
+  "unit": "d26e_tile_16_to_565_801d7c94",
+  "source": "source/matching/game/d26e/d26e_tile_16_to_565_801d7c94.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26e_tile_16_to_565_801d7c94": "0x801d7c94"
+  },
+  "descriptions": {
+    "w3d_d26e_tile_16_to_565_801d7c94": "Converts the block at (ox, oy) of a 16-bit source image into one big-endian RGB565 4x4 tile with 8-byte rows; clipped texels keep their bytes. The source pixel is unpacked to a stack colour (the alpha 255 is stored but unused), then re-encoded. Names are inferred from the original instructions."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "unit": "s6_ai_trajectory",
+  "source": "source/matching/game/s6_ai_trajectory.c",
+  "language": "c",
+  "functions": {
+    "w3d_ai_push_scaled_trajectory_8001080c": "0x8001080c",
+    "w3d_ai_execute_trajectory_8001084c": "0x8001084c",
+    "w3d_ai_reset_trajectory_time_800108b8": "0x800108b8",
+    "w3d_ai_score_trajectory_80010920": "0x80010920",
+    "w3d_ai_execute_weapon_80010f34": "0x80010f34",
+    "w3d_ai_weapon_damage_80010f60": "0x80010f60",
+    "w3d_ai_weapon_power_80010f9c": "0x80010f9c",
+    "w3d_ai_weapon_distance_80010fc4": "0x80010fc4",
+    "w3d_ai_query_sheep_80010ff8": "0x80010ff8",
+    "w3d_ai_query_radius_80011058": "0x80011058",
+    "w3d_ai_query_radius_alt_800110ac": "0x800110ac",
+    "w3d_ai_execute_sheep_80011344": "0x80011344"
+  },
+  "descriptions": {
+    "w3d_ai_push_scaled_trajectory_8001080c": "Scales a trajectory and submits its result to the plan queue.",
+    "w3d_ai_execute_trajectory_8001084c": "Executes a plan with fixed trajectory parameters.",
+    "w3d_ai_reset_trajectory_time_800108b8": "Resets the trajectory time before executing the plan.",
+    "w3d_ai_score_trajectory_80010920": "Refreshes weapon data and scales the trajectory score.",
+    "w3d_ai_execute_weapon_80010f34": "Executes a weapon plan with fixed parameters.",
+    "w3d_ai_weapon_damage_80010f60": "Returns adjusted damage from the cached weapon.",
+    "w3d_ai_weapon_power_80010f9c": "Returns the cached weapon power.",
+    "w3d_ai_weapon_distance_80010fc4": "Returns the cached weapon distance.",
+    "w3d_ai_query_sheep_80010ff8": "Queries sheep speed and distance for the plan.",
+    "w3d_ai_query_radius_80011058": "Queries the cached weapon radius with mode zero.",
+    "w3d_ai_query_radius_alt_800110ac": "Queries the cached weapon radius with mode one.",
+    "w3d_ai_execute_sheep_80011344": "Executes a sheep plan and appends an actor command to a new queue."
+  }
+}

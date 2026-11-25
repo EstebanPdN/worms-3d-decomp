@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_80167fe0",
+  "source": "source/matching/game/k4b/k4b_a_80167fe0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_state_reset_80167fe0": "0x80167fe0"
+  },
+  "descriptions": {
+    "w3d_k4b_state_reset_80167fe0": "Appears to reset five state words (mode set to two), call an SDK routine and reapply the state through 0x8016797c with arguments (0, 1, 0)."
+  }
+}

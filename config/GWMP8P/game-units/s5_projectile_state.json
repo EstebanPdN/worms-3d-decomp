@@ -1,0 +1,13 @@
+{
+  "unit": "s5_projectile_state",
+  "source": "source/matching/game/s5_projectile_state.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_projectile_init_800d58ec": "0x800d58ec",
+    "w3d_projectile_destroy_800d5a14": "0x800d5a14"
+  },
+  "descriptions": {
+    "w3d_projectile_init_800d58ec": "Initializes projectile handles, held interfaces, vectors, state words and two scalar defaults.",
+    "w3d_projectile_destroy_800d5a14": "Releases eight held interfaces, destroys the projectile handle and then destroys the actor base."
+  }
+}

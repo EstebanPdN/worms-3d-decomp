@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_active_resource_clear_802b24bc",
+  "source": "source/matching/game/cx8b/cx8b_active_resource_clear_802b24bc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_active_resource_clear_802b24bc": "0x802b24bc"
+  },
+  "descriptions": {
+    "w3d_cx8b_active_resource_clear_802b24bc": "When active, stop held interface +132, clear state words +108/+104/+116, release the interface, and clear its slot."
+  }
+}

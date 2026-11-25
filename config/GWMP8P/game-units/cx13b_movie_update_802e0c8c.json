@@ -1,0 +1,11 @@
+{
+  "unit": "cx13b_movie_update_802e0c8c",
+  "source": "source/matching/game/cx13b/cx13b_movie_update_802e0c8c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13b_movie_update_802e0c8c": "0x802e0c8c"
+  },
+  "descriptions": {
+    "w3d_cx13b_movie_update_802e0c8c": "Poll decoder state, issue timed decoding and transition to the observed completed playback state."
+  }
+}

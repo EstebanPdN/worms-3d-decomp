@@ -1,0 +1,11 @@
+{
+  "unit": "cx8b_text_line_break_8020d5a8",
+  "source": "source/matching/game/cx8b/cx8b_text_line_break_8020d5a8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8b_text_line_break_8020d5a8": "0x8020d5a8"
+  },
+  "descriptions": {
+    "w3d_cx8b_text_line_break_8020d5a8": "Append the original HTML break or plain line separator according to flag 0x01000000, and return the writer."
+  }
+}

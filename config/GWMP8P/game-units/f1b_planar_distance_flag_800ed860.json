@@ -1,0 +1,11 @@
+{
+  "unit": "f1b_planar_distance_flag_800ed860",
+  "source": "source/matching/game/f1b/f1b_planar_distance_flag_800ed860.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1b_planar_distance_flag_800ed860": "0x800ed860"
+  },
+  "descriptions": {
+    "f1b_planar_distance_flag_800ed860": "When the word at 0x804aaef8 is nonzero and the word at 0x804aaefc is zero, compare squared XZ distances from the vector at 0x80448c90 to the first vector and to the sum of both supplied vectors; set the second global word to one when the sum is farther away. Semantic field roles remain inferred."
+  }
+}

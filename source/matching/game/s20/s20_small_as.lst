@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_small_as.c
+w3d_s20_lookup_vector_80176aac|0x80176aac|Appears to resolve a name to a table index, fetch the vector of the indexed entry through helpers and copy it out, or return 0x80004005 when the name is unknown.

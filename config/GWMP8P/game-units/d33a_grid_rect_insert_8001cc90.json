@@ -1,0 +1,16 @@
+{
+  "unit": "d33a_grid_rect_insert_8001cc90",
+  "source": "source/matching/game/d33a/d33a_grid_rect_insert_8001cc90.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d33a_grid_rect_insert_8001cc90": "0x8001cc90"
+  },
+  "descriptions": {
+    "w3d_d33a_grid_rect_insert_8001cc90": "Builds a grid rectangle for a point and radius and inserts it at the front of the global grid's rectangle vector."
+  },
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s"
+  ]
+}

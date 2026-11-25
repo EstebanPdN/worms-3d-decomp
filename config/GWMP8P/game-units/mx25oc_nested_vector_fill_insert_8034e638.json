@@ -1,0 +1,11 @@
+{
+  "unit": "mx25oc_nested_vector_fill_insert_8034e638",
+  "source": "source/matching/game/mx25oc/mx25oc_nested_vector_fill_insert_8034e638.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx25oc_nested_vector_fill_insert_8034e638": "0x8034e638"
+  },
+  "descriptions": {
+    "mx25oc_nested_vector_fill_insert_8034e638": "Inserts n copies of a vector of 12-byte records before a position in a vector of such 16-byte vectors: with enough spare capacity it copy-constructs a saved copy of the value, shifts the tail up (copy-constructing past the end, then assigning backwards through the external inner assignment), assigns the gap from the saved copy and destroys it; otherwise it allocates old size plus the larger of old size and n, copy-constructs the head, the new values and the tail, destroys and frees every old inner vector and the old block, and sets begin, finish and storage end."
+  }
+}

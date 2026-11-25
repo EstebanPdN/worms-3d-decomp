@@ -1,0 +1,11 @@
+{
+  "unit": "k2b_a_801cce74",
+  "source": "source/matching/game/k2b/k2b_a_801cce74.c",
+  "language": "c",
+  "functions": {
+    "w3d_k2b_emitter_construct_801cce74": "0x801cce74"
+  },
+  "descriptions": {
+    "w3d_k2b_emitter_construct_801cce74": "Appears to construct an emitter on its base constructor, install its vtable and set a zero color vector with unit w and four zeroed fields."
+  }
+}

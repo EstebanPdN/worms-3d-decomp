@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_transfer_request_8025becc",
+  "source": "source/matching/game/d26k/d26k_transfer_request_8025becc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_transfer_request_8025becc": "0x8025becc"
+  },
+  "descriptions": {
+    "w3d_d26k_transfer_request_8025becc": "Handles a file transfer request: creates reply and transfer objects, opens the file through 0x8021d498, forces transfer state 1 and replies result 1 through 0x8021e930, stamping the start time; the size-compare paths (results 0, 1, 2) are present but unreachable as compiled."
+  }
+}

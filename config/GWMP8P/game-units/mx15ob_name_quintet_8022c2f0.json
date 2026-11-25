@@ -1,0 +1,11 @@
+{
+  "unit": "mx15ob_name_quintet_8022c2f0",
+  "source": "source/matching/game/mx15ob/mx15ob_name_quintet_8022c2f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "__17Mx15obNameQuintetUs": "0x8022c2f0"
+  },
+  "descriptions": {
+    "__17Mx15obNameQuintetUs": "Constructs a five-name record: runs the tagged property base constructor 0x801ea0ec with the caller's 16-bit id, installs the table 0x8041a000, sets the word at +20 to 0; copy-constructs the string at +24 from the shared empty string 0x804b06a0 (retaining it); copy-constructs the string at +28 from the shared empty string 0x804b06a0 (retaining it); copy-constructs the string at +32 from the shared empty string 0x804b06a0 (retaining it); copy-constructs the string at +36 from the shared empty string 0x804b06a0 (retaining it); copy-constructs the string at +40 from the shared empty string 0x804b06a0 (retaining it). Names and member meanings are inferred; offsets are observed."
+  }
+}

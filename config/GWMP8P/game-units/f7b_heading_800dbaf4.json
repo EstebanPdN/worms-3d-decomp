@@ -1,0 +1,14 @@
+{
+  "unit": "f7b_heading_800dbaf4",
+  "source": "source/matching/game/f7b/f7b_heading_800dbaf4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7b_heading_800dbaf4": "0x800dbaf4"
+  },
+  "descriptions": {
+    "f7b_heading_800dbaf4": "Construct a rotation basis after initializing its translation, transform the observed forward vector, normalize the result with the witnessed square-root helper, and scale it by the owner magnitude. Original instructions witness both external C++ constructors. Sixteen trailing stack bytes have unknown purpose. Names, class layouts and physical roles inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

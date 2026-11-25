@@ -1,0 +1,13 @@
+{
+  "unit": "r23a_scalar_service",
+  "source": "source/matching/game/r23a/r23a_scalar_service.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_r23a_set_scalar_query_8003e25c": "0x8003e25c",
+    "w3d_r23a_service_shutdown_80029298": "0x80029298"
+  },
+  "descriptions": {
+    "w3d_r23a_set_scalar_query_8003e25c": "Stores the float argument at object +64 and forwards it with the embedded member at +68 to unresolved helper 0x8012629c.",
+    "w3d_r23a_service_shutdown_80029298": "Installs the table at 0x8040e248 in the object header, clears the global word at 0x804aa828, and calls service cleanup 0x801628ec."
+  }
+}

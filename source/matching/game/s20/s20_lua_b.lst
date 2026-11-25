@@ -1,0 +1,2 @@
+c source/matching/game/s20/s20_lua_b.c
+w3d_s20_call_lua_pointers_8019e10c|0x8019e10c|Appears to look up a named Lua global function, call it with two light userdata pointers and return 0x80004005 when the global is missing.

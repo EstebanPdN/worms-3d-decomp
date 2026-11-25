@@ -1,0 +1,14 @@
+{
+  "unit": "d19c_trigger_damage_801257f0",
+  "source": "source/matching/game/d19c/d19c_trigger_damage_801257f0.cpp",
+  "language": "cpp",
+  "functions": {
+    "d19c_trigger_damage_801257f0": "0x801257f0"
+  },
+  "descriptions": {
+    "d19c_trigger_damage_801257f0": "If the trigger accepts any team (+52 == -1) or the damage source's team record matches, subtract the truncated damage from the hit points (+48); when they reach zero set +80, write \"Trigger.Index\", post the destroyed message and remove the trigger, otherwise write \"Trigger.Index\" and \"Trigger.HitPoints\" and post the damaged message."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

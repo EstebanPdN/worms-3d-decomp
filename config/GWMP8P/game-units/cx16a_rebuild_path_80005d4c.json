@@ -1,0 +1,11 @@
+{
+  "unit": "cx16a_rebuild_path_80005d4c",
+  "source": "source/matching/game/cx16a/cx16a_rebuild_path_80005d4c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16a_rebuild_path_80005d4c": "0x80005d4c"
+  },
+  "descriptions": {
+    "w3d_cx16a_rebuild_path_80005d4c": "Rebuild the observed path storage when enabled, release superseded storage, reset both path structures and mark completion."
+  }
+}

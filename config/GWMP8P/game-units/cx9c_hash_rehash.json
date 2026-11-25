@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_hash_rehash",
+  "source": "source/matching/game/cx9c/cx9c_hash_rehash.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_hash_rehash_8035c588": "0x8035c588"
+  },
+  "descriptions": {
+    "w3d_cx9c_hash_rehash_8035c588": "Rehash linked nodes into a larger prime-count bucket vector."
+  }
+}

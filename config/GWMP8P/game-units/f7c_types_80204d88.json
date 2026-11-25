@@ -1,0 +1,11 @@
+{
+  "unit": "f7c_types_80204d88",
+  "source": "source/matching/game/f7c/f7c_types_80204d88.cpp",
+  "language": "cpp",
+  "functions": {
+    "f7c_types_80204d88": "0x80204d88"
+  },
+  "descriptions": {
+    "f7c_types_80204d88": "Serialize inferred type records from an iterator-backed tree: write a fixed header, a witnessed type tag and name, copy a 16-byte identifier, byte-swap its numeric fields and record count, and invoke the output virtual writer. Names, types, qualifiers and layouts inferred; unknown storage explicit."
+  }
+}

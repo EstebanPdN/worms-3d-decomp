@@ -1,0 +1,11 @@
+{
+  "unit": "mx14sb_list_element_802b8be0_v5",
+  "source": "source/matching/game/mx14sb/mx14sb_list_element_802b8be0_v5.cpp",
+  "language": "cpp",
+  "functions": {
+    "mx14sb_list_element_802b8be0": "0x802b8be0"
+  },
+  "descriptions": {
+    "mx14sb_list_element_802b8be0": "Allocates and constructs the missing 140-byte list element, copies retained interfaces, derives its dimensions and position from its owner context, and configures selection; existing elements only refresh selection. Partial external GameCube ABI views."
+  }
+}

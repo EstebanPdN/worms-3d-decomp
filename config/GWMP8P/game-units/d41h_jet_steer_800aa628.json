@@ -1,0 +1,17 @@
+{
+  "unit": "d41h_jet_steer_800aa628",
+  "source": "source/matching/game/d41h/d41h_jet_steer_800aa628.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d41h_jet_steer_800aa628": "0x800aa628"
+  },
+  "descriptions": {
+    "d41h_jet_steer_800aa628": "Steers the jet pack toward the input direction, wraps yaw and clamps forward speed, returning the new rotation."
+  }
+}

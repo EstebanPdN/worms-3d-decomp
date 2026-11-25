@@ -1,0 +1,11 @@
+{
+  "unit": "f8c_frustum_801a9f78",
+  "source": "source/matching/game/f8c/f8c_frustum_801a9f78.cpp",
+  "language": "cpp",
+  "functions": {
+    "f8c_frustum_801a9f78": "0x801a9f78"
+  },
+  "descriptions": {
+    "f8c_frustum_801a9f78": "Inferred six-plane extraction from16-float matrix row combinations followed by six original four-coefficient normalizations. Matrix orientation, plane meanings and semantic names are inferred; input64-byte matrix and output96-byte plane array follow observed accesses. No unexplained frame reservation."
+  }
+}

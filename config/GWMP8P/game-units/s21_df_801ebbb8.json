@@ -1,0 +1,11 @@
+{
+  "unit": "s21_df_801ebbb8",
+  "source": "source/matching/game/s21/s21_df_801ebbb8.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_create_typed_801ebbb8": "0x801ebbb8"
+  },
+  "descriptions": {
+    "w3d_s21_create_typed_801ebbb8": "Appears to create a 28-byte typed entry with a halfword field, copying two callback pairs and appending it to the container."
+  }
+}

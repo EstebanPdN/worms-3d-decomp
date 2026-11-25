@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_cosf",
+  "source": "source/matching/game/cx9c/cx9c_cosf.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_cosf_802e86d4": "0x802e86d4"
+  },
+  "descriptions": {
+    "w3d_cx9c_cosf_802e86d4": "Inferred newlib cosf dispatcher with argument reduction and quadrant selection."
+  }
+}

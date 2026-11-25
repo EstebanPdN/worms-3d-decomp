@@ -1,0 +1,11 @@
+{
+  "unit": "d11b_selection_event_8029e02c",
+  "source": "source/matching/game/d11b/d11b_selection_event_8029e02c_v1.cpp",
+  "language": "cpp",
+  "functions": {
+    "d11b_selection_event_8029e02c": "0x8029e02c"
+  },
+  "descriptions": {
+    "d11b_selection_event_8029e02c": "Dispatch unsigned 16-bit event IDs 64 and 66 to setup/reset, preserving signed base-handler failure and HRESULT 0x80004005. For other IDs, require current context and all observed global/owner/configuration guards before matching previous/next cached IDs and applying the original single-precision slider step. Otherwise forward through the secondary base and return the root handler result. Preserve guard order, live reloads, message-cache identities and callback arguments. Partial owner/configuration views; no complete sizeof claim. No owned initialized data."
+  }
+}

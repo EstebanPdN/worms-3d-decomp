@@ -1,0 +1,11 @@
+{
+  "unit": "s21_i_80207150",
+  "source": "source/matching/game/s21/s21_i_80207150.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_s21_find_named_80207150": "0x80207150"
+  },
+  "descriptions": {
+    "w3d_s21_find_named_80207150": "Appears to scan a list of interface objects and return the first whose name from a virtual call compares equal to the key."
+  }
+}

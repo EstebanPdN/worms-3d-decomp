@@ -1,0 +1,15 @@
+{
+  "unit": "d27h_inventory_setup_800a57b0",
+  "source": "source/matching/game/d27h/d27h_inventory_setup_800a57b0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27h"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27h_inventory_setup_800a57b0": "0x800a57b0"
+  },
+  "descriptions": {
+    "d27h_inventory_setup_800a57b0": "Inventory setup: reads the Inventory.Worm, Team and Alliance default tags; clears +220 on each of 16 worms and propagates the tag to their inventories; for 4 teams sets used, name, index and the local flag when bit 25 of the services flags is set, spawns the team's worms through 0x800a5a94 and propagates the team tag; propagates the alliance tag to 4 alliance inventories."
+  }
+}

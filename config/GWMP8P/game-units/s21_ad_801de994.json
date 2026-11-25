@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ad_801de994",
+  "source": "source/matching/game/s21/s21_ad_801de994.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_second_vector_801de994": "0x801de994"
+  },
+  "descriptions": {
+    "w3d_s21_set_second_vector_801de994": "Appears to copy a three-word vector from the argument into the object at offset 56 and return zero."
+  }
+}

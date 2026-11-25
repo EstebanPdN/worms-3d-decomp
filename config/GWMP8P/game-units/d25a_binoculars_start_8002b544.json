@@ -1,0 +1,11 @@
+{
+  "unit": "d25a_binoculars_start_8002b544",
+  "source": "source/matching/game/d25a/d25a_binoculars_start_8002b544.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25a_binoculars_start_8002b544": "0x8002b544"
+  },
+  "descriptions": {
+    "w3d_d25a_binoculars_start_8002b544": "Loads HUD.Binoculars into +32, sets its position from the screen aspect blend (x 320..360, y 240..270, z 1) through virtual +84 and shows it through virtual +88."
+  }
+}

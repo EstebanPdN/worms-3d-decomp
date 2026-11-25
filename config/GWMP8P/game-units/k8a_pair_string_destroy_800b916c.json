@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_pair_string_destroy_800b916c",
+  "source": "source/matching/game/k8a/k8a_pair_string_destroy_800b916c.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_pair_string_destroy_800b916c": "0x800b916c"},
+  "descriptions": {"w3d_k8a_pair_string_destroy_800b916c": "Appears to be the deleting destructor of a record that releases and clears two held interfaces, destroys a string and frees the object."}
+}

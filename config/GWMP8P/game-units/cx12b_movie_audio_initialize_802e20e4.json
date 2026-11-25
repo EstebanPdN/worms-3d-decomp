@@ -1,0 +1,11 @@
+{
+  "unit": "cx12b_movie_audio_initialize_802e20e4",
+  "source": "source/matching/game/cx12b/cx12b_movie_audio_initialize_802e20e4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx12b_movie_audio_initialize_802e20e4": "0x802e20e4"
+  },
+  "descriptions": {
+    "w3d_cx12b_movie_audio_initialize_802e20e4": "Allocate the original pair of aligned audio buffers, install the callback and initialize/cache/submit them in the original zero-mode path."
+  }
+}

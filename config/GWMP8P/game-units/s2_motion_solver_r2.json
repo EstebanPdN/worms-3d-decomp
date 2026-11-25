@@ -1,0 +1,13 @@
+{
+  "unit": "s2_motion_solver_r2",
+  "source": "source/matching/game/s2_motion_solver_r2.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_motion_set_target_801182c0": "0x801182c0",
+    "w3d_motion_at_height_80118a5c": "0x80118a5c"
+  },
+  "descriptions": {
+    "w3d_motion_set_target_801182c0": "Copies the target vector and marks the motion target dirty.",
+    "w3d_motion_at_height_80118a5c": "Finds a trajectory intersection time and evaluates the position at that time."
+  }
+}

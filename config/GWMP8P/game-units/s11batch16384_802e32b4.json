@@ -1,0 +1,11 @@
+{
+  "unit": "s11batch16384_802e32b4",
+  "source": "source/matching/game/s11_auto/s11batch16384_802e32b4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802e32b4": "0x802e32b4"
+  },
+  "descriptions": {
+    "w3d_auto_802e32b4": "Appears to calls 0x802e4cec. m2c types and names are provisional."
+  }
+}

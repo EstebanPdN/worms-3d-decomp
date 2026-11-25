@@ -1,0 +1,14 @@
+{
+  "unit": "d24d_worm_landing_8014b498",
+  "source": "source/matching/game/d24d/d24d_worm_landing_8014b498.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d24d_worm_landing_8014b498": "0x8014b498"
+  },
+  "descriptions": {
+    "d24d_worm_landing_8014b498": "Worm landing: reads Worm.FallDamageRatio; a hard landing plays Part_JumpCollideLarge, a ground effect and (when +652 is clear) applies fall damage through the handle record, releases +800, sets +660 and posts messages; a soft landing plays Part_JumpCollide while the counter is at most 15; then the knock sound 0x80153aac."
+  }
+}

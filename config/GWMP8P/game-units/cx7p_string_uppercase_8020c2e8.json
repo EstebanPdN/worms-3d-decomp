@@ -1,0 +1,11 @@
+{
+  "unit": "cx7p_string_uppercase_8020c2e8",
+  "source": "source/matching/game/cx7p/cx7p_string_uppercase_8020c2e8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx7p_string_uppercase_8020c2e8": "0x8020c2e8"
+  },
+  "descriptions": {
+    "w3d_cx7p_string_uppercase_8020c2e8": "Detach shared storage and uppercase bytes selected by the original character-class table."
+  }
+}

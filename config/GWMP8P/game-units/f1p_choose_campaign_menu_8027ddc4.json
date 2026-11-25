@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_choose_campaign_menu_8027ddc4",
+  "source": "source/matching/game/f1p/f1p_choose_campaign_menu_8027ddc4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_choose_campaign_menu_8027ddc4": "0x8027ddc4"
+  },
+  "descriptions": {
+    "w3d_choose_campaign_menu_8027ddc4": "Initialize the observed mission/award properties and post category-specific campaign, challenge or tutorial team messages with exact cache lifetimes. All literal targets and branch cases recovered from original instructions; names and cache/string views inferred."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d29e_create_and_run_801de328",
+  "source": "source/matching/game/d29e/d29e_create_and_run_801de328.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d29e_create_and_run_801de328": "0x801de328"
+  },
+  "descriptions": {
+    "w3d_d29e_create_and_run_801de328": "Creates an object through the given factory (the singleton at 0x8020b884 when null, virtual slot 3, kind 2) into a held reference; on success finds the service for 0x80418f78, binds the new object to it (slot 3), runs it with self and 0 (slot 6), releases both references and returns the result. Names are inferred."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

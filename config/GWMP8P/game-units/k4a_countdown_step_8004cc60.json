@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_countdown_step_8004cc60",
+  "source": "source/matching/game/k4a/k4a_countdown_step_8004cc60.c",
+  "language": "c",
+  "functions": {
+    "k4a_countdown_step_8004cc60": "0x8004cc60"
+  },
+  "descriptions": {
+    "k4a_countdown_step_8004cc60": "Appears to subtract an elapsed amount from a counter, optionally only for the filtered team, and trigger a helper when it expires while inactive."
+  }
+}

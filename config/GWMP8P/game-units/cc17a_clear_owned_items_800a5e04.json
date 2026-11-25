@@ -1,0 +1,11 @@
+{
+  "unit": "cc17a_clear_owned_items_800a5e04",
+  "source": "source/matching/game/cc17a/cc17a_clear_owned_items_800a5e04.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17a_clear_owned_items_800a5e04": "0x800a5e04"
+  },
+  "descriptions": {
+    "w3d_cc17a_clear_owned_items_800a5e04": "Disable the owner flag, destroy and free every pointer-vector item, clear its range through the original move helper, and mark the owner ready."
+  }
+}

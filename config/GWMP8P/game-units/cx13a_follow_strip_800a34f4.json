@@ -1,0 +1,11 @@
+{
+  "unit": "cx13a_follow_strip_800a34f4",
+  "source": "source/matching/game/cx13a/cx13a_follow_strip_800a34f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx13a_follow_strip_800a34f4": "0x800a34f4"
+  },
+  "descriptions": {
+    "w3d_cx13a_follow_strip_800a34f4": "Approach a selected vector target and fill five strip vertices with two interpolated coordinates; names inferred."
+  }
+}

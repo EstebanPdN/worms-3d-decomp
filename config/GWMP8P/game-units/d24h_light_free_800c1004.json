@@ -1,0 +1,11 @@
+{
+  "unit": "d24h_light_free_800c1004",
+  "source": "source/matching/game/d24h/d24h_light_free_800c1004.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24h_light_free_800c1004": "0x800c1004"
+  },
+  "descriptions": {
+    "w3d_d24h_light_free_800c1004": "Light release: does nothing when lighting is off (0x804aada8). Otherwise clears the light's active flag (+28), releases its mesh (+16) and sound (+12) references, pushes the id on the free list 0x8043c394, disables the light's Light.%d setting through the sound bank at 0x804b17ec + 116 (slot +196, with the stored volume at +27), and erases the id from the active list 0x8043c3a0."
+  }
+}

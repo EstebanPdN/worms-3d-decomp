@@ -1,0 +1,11 @@
+{
+  "unit": "cc17b_wind_control_80130ed8",
+  "source": "source/matching/game/cc17b/cc17b_wind_control_80130ed8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc17b_wind_control_80130ed8": "0x80130ed8"
+  },
+  "descriptions": {
+    "w3d_cc17b_wind_control_80130ed8": "When the context is active and the observed wind scalar is positive, derives the reciprocal animation rate, resolves Wind_AnimSource1 into the control field and enables that control on the held instance."
+  }
+}

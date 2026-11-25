@@ -1,0 +1,14 @@
+{
+  "unit": "d41d_worm_explosion_response_8014860c",
+  "source": "source/matching/game/d41d/d41d_worm_explosion_response_8014860c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d41d_worm_explosion_response_8014860c": "0x8014860c"
+  },
+  "descriptions": {
+    "w3d_d41d_worm_explosion_response_8014860c": "Applies an explosion to a worm: if the worm's entry is active and within the blast radius, computes a power from the distance, takes the direction from the blast centre unless it equals the static zero vector, normalises it, tries up to four randomly spread directions with a landscape sweep and keeps the first clear one above water, applies the impulse; then, within the damage radius, applies at least one point of proportional damage."
+  }
+}

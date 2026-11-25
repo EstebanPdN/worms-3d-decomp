@@ -1,0 +1,11 @@
+{
+  "unit": "c_sound_vary",
+  "source": "source/matching/game/c_sound_vary.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_sound_emitter_vary_volume_801e1308": "0x801e1308"
+  },
+  "descriptions": {
+    "w3d_sound_emitter_vary_volume_801e1308": "Returns a base volume randomly varied by a spread fraction and clamped to the allowed range."
+  }
+}

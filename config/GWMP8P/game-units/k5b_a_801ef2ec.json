@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801ef2ec",
+  "source": "source/matching/game/k5b/k5b_a_801ef2ec.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_iface_array_field_set_801ef2ec": "0x801ef2ec"
+  },
+  "descriptions": {
+    "w3d_k5b_iface_array_field_set_801ef2ec": "Appears to make the array referenced at the field offset unique, then replace the interface at the index, retaining the new one and releasing the old one."
+  }
+}

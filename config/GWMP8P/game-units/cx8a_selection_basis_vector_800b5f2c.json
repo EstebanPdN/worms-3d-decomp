@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_selection_basis_vector_800b5f2c",
+  "source": "source/matching/game/cx8a/cx8a_selection_basis_vector_800b5f2c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_selection_basis_vector_800b5f2c": "0x800b5f2c"
+  },
+  "descriptions": {
+    "w3d_cx8a_selection_basis_vector_800b5f2c": "Transform the shared selection direction through basis columns +0xc0/+0xcc/+0xd8 of the owner object reached at +4; write three floating components."
+  }
+}

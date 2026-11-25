@@ -1,0 +1,11 @@
+{
+  "unit": "s20_gx_a",
+  "source": "source/matching/game/s20/s20_gx_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_write_pipe_command_8016ac3c": "0x8016ac3c"
+  },
+  "descriptions": {
+    "w3d_s20_write_pipe_command_8016ac3c": "Appears to copy the current halfword of a display list cursor to the graphics write pipe three times per step for the given count when the object accepts command 290."
+  }
+}

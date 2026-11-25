@@ -1,0 +1,11 @@
+{
+  "unit": "f16c_effect_cleanup_800e3328",
+  "source": "source/matching/game/f16c/f16c_effect_cleanup_800e3328.cpp",
+  "language": "cpp",
+  "functions": {
+    "f16c_effect_cleanup_800e3328": "0x800e3328"
+  },
+  "descriptions": {
+    "f16c_effect_cleanup_800e3328": "If the held interface at receiver48 is present and its virtual slot40 returns nonzero, passes the address of that held pointer and integer250 to virtual slot100 of service context804b1788+108. The native inferred held-interface method retains its own pointer-field address across the query. If receiver36 points to an array, uses the unsigned cookie count at-8 and four-byte entries to destroy held interfaces in reverse order through null-checked virtual slot16; reloads receiver36 for termination and frees the cookie base through801fe240. Does not clear receiver36. Resets held interfaces40 then32 by virtual slot16 release followed by null assignment; native reset argument retains the null value across callbacks. External receiver prefix52, context prefix112 and vtable views are partial; no object is locally constructed, no original class identity/allocation size is asserted, and names/fade semantics are inferred."
+  }
+}

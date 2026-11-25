@@ -1,0 +1,14 @@
+{
+  "unit": "d40k_temp_list_labels_80263e18",
+  "source": "source/matching/game/d40k/d40k_temp_list_labels_80263e18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d40k_temp_list_labels_80263e18": "0x80263e18"
+  },
+  "descriptions": {
+    "w3d_d40k_temp_list_labels_80263e18": "Fills the FE.TempList list: twenty formatted names, then eight label groups of twenty names (the upper groups also get id colours)."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

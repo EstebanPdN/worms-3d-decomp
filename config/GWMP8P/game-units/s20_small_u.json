@@ -1,0 +1,13 @@
+{
+  "unit": "s20_small_u",
+  "source": "source/matching/game/s20/s20_small_u.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_destroy_buffers_8016fa94": "0x8016fa94",
+    "w3d_s20_destroy_owned_80178474": "0x80178474"
+  },
+  "descriptions": {
+    "w3d_s20_destroy_buffers_8016fa94": "Appears to clear a global, free two owned buffers, clear their fields and delete this when bit 0 of the flags is set.",
+    "w3d_s20_destroy_owned_80178474": "Appears to release the owned object through virtual method 16, clear its fields and delete this when bit 0 of the flags is set."
+  }
+}

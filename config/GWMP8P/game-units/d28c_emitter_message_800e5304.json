@@ -1,0 +1,11 @@
+{
+  "unit": "d28c_emitter_message_800e5304",
+  "source": "source/matching/game/d28c/d28c_emitter_message_800e5304.cpp",
+  "language": "cpp",
+  "functions": {
+    "d28c_emitter_message_800e5304": "0x800e5304"
+  },
+  "descriptions": {
+    "d28c_emitter_message_800e5304": "Handle messages for a spawn emitter: start, trigger, load a resource, spawn a group at a named worm or fall through to the base handler."
+  }
+}

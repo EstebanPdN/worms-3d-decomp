@@ -1,0 +1,11 @@
+{
+  "unit": "g2b_accumulate_callbacks_801a572c",
+  "source": "source/matching/game/g2b/g2b_accumulate_callbacks_v1_801a572c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g2b_accumulate_callbacks_801a572c": "0x801a572c"
+  },
+  "descriptions": {
+    "g2b_accumulate_callbacks_801a572c": "If item accumulation is zero, installs its16B vector through owner slot68 and returns zero. Otherwise initializes a complete16B vector from8045e63c with three-float base copy and last float, optionally assigns owner slot64 value while active, and invokes each indexed callback using cached owner callback table and null-checked secondary receiver. Returns any negative callback status immediately; after each success combines the local and owner44 vectors through801f53bc. Copies final vector to item20, installs it through slot68 and clears item accumulation when owner flags88 include8. All external views remain partial; native local is exactly16B, no owned data, names and roles inferred."
+  }
+}

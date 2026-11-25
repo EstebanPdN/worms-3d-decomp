@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_unfreeze_animation_8013dcb8",
+  "source": "source/matching/game/cx14a/cx14a_unfreeze_animation_8013dcb8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_unfreeze_animation_8013dcb8": "0x8013dcb8"
+  },
+  "descriptions": {
+    "w3d_cx14a_unfreeze_animation_8013dcb8": "Resolves and releases the held handle, marks it invalid, and selects one of three unfreeze animation names from the observed signed state switch."
+  }
+}

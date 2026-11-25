@@ -1,0 +1,11 @@
+{
+  "unit": "f11a_setup_selection_80286100",
+  "source": "source/matching/game/f11a/f11a_setup_selection_80286100.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f11a_setup_selection_80286100": "0x80286100"
+  },
+  "descriptions": {
+    "w3d_f11a_setup_selection_80286100": "Build highlight and grey resource names from the context format, resolve them through the base subobject at28 with the observed mode-dependent byte layer, attach successful interfaces to the host and context, and hide those variants. For a nonzero colour code, format the corresponding Blue/Green/Blue/Purple/Red suffix or fallback, resolve the normal resource, and attach it; failed highlight or normal resolution writes the observed error text. Always refresh interfaces and finish the local shared string. Roles and type names inferred; owner/context/interface views are partial, and all external data remains unowned."
+  }
+}

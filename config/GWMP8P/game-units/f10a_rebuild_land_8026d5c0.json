@@ -1,0 +1,11 @@
+{
+  "unit": "f10a_rebuild_land_8026d5c0",
+  "source": "source/matching/game/f10a/f10a_rebuild_land_8026d5c0.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f10a_rebuild_land_8026d5c0": "0x8026d5c0"
+  },
+  "descriptions": {
+    "w3d_f10a_rebuild_land_8026d5c0": "Lazily creates the land preview services, detects a changed theme or derived settings seed, selects the theme lump and title category, clears and repopulates the preview list, and transfers retained string/interface arguments by value. Partial field layouts and land-preview roles are inferred from original instructions."
+  }
+}

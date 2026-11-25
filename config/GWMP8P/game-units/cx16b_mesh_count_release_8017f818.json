@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_mesh_count_release_8017f818",
+  "source": "source/matching/game/cx16b/cx16b_mesh_count_release_8017f818.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_mesh_count_release_8017f818": "0x8017f818"
+  },
+  "descriptions": {
+    "w3d_cx16b_mesh_count_release_8017f818": "Decrements owner and category counts, enqueues the virtual mesh identifier, and conditionally refreshes the owner; category table address is captured before the virtual lookup as observed."
+  }
+}

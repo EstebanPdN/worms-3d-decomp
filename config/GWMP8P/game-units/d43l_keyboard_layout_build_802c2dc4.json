@@ -1,0 +1,14 @@
+{
+  "unit": "d43l_keyboard_layout_build_802c2dc4",
+  "source": "source/matching/game/d43l/d43l_keyboard_layout_build_802c2dc4.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d43l_keyboard_layout_build_802c2dc4": "0x802c2dc4"
+  },
+  "descriptions": {
+    "d43l_keyboard_layout_build_802c2dc4": "Builds the on-screen keyboard: title and body panels, four arrow and side buttons, thirty character keys in a 10-column grid, a space bar labelled through the FE font and a delete key, then sets the initial mode and refreshes."
+  }
+}

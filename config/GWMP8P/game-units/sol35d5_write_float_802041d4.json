@@ -1,0 +1,11 @@
+{
+  "unit": "sol35d5_write_float_802041d4",
+  "source": "source/matching/game/sol35d5/sol35d5_write_float_802041d4.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35d5_write_float_802041d4": "0x802041d4"
+  },
+  "descriptions": {
+    "sol35d5_write_float_802041d4": "Recover native word stream conversion from original operands; names and ABI views remain inferred."
+  }
+}

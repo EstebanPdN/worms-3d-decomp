@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_console_ctor_8004f9f4",
+  "source": "source/matching/game/d24g/d24g_console_ctor_8004f9f4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_console_ctor_8004f9f4": "0x8004f9f4"
+  },
+  "descriptions": {
+    "w3d_d24g_console_ctor_8004f9f4": "Debug options console constructor: base constructor 0x801628b0, vtable 0x8040eae0, list at +44 (0x802109dc), registers itself in 0x804aaa04, clears +32 and +36, sets +56 to 2, and copies the composed key-help line into 0x803f3ff4."
+  }
+}

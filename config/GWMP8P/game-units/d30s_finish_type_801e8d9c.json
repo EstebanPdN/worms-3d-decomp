@@ -1,0 +1,20 @@
+{
+  "unit": "d30s_finish_type_801e8d9c",
+  "source": "source/matching/game/d30s/d30s_finish_type_801e8d9c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "d30s_finish_type_801e8d9c": "0x801e8d9c"
+  },
+  "descriptions": {
+    "d30s_finish_type_801e8d9c": "Constructs the static receiver on first use, connects it to the signal from 0x80210610, registers its destructor at exit, then registers the type and collects its members."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

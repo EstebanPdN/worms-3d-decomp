@@ -1,0 +1,25 @@
+--- a/port/core/game/d28l/d28l_movie_mix_audio_802e1b8c.cpp
++++ b/port/core/game/d28l/d28l_movie_mix_audio_802e1b8c.cpp
+@@ -45,20 +45,19 @@
+             unsigned left = sample - n;
+             Ptr32<short> cur = b->cur;
+             for (unsigned i = 0; i < n; i++) {
+-                Ptr32<unsigned short> low = (Ptr32<unsigned short>)&mix;
+                 fn_802e220c(self);
+                 unsigned short gain = volume_804040ec[(int)self->player->volume];
+                 mix = *s + ((gain * *cur) >> 15);
+                 if (mix < -32768) mix = -32768;
+                 if (mix > 32767) mix = 32767;
+-                *d = low[1];
++                *d = (short)mix; /* el PPC guarda la mitad baja, +2 en el original y +0 en el anfitrión */
+                 d++;
+                 cur++;
+                 s++;
+                 mix = *s + ((gain * *cur) >> 15);
+                 if (mix < -32768) mix = -32768;
+                 if (mix > 32767) mix = 32767;
+-                *d = low[1];
++                *d = (short)mix; /* el PPC guarda la mitad baja, +2 en el original y +0 en el anfitrión */
+                 s++;
+                 cur++;
+                 d++;

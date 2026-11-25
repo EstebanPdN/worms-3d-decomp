@@ -1,0 +1,11 @@
+{
+  "unit": "d24c_particle_mesh_load_800e2f30",
+  "source": "source/matching/game/d24c/d24c_particle_mesh_load_800e2f30.cpp",
+  "language": "cpp",
+  "functions": {
+    "d24c_particle_mesh_load_800e2f30": "0x800e2f30"
+  },
+  "descriptions": {
+    "d24c_particle_mesh_load_800e2f30": "Without a mesh name: use the settings' name table, or the Particle.MeshNames setting's table when empty; delete the reference array at +36, allocate one reference per owner count, load a randomly chosen mesh into each and call its virtual +88 with 0. With a mesh name: load it into +32 (flag 0 when owner flag 256 is set; otherwise the service's load flag, or 10 when option +432 or +448 is set), size it to the owner count and clear its flag bytes. Then if the settings' sound name is non-empty open it into +48 through the engine's sound system and play it with mode 3 and owner +96; otherwise set +44 to 1."
+  }
+}

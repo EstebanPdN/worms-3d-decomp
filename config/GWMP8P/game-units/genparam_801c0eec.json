@@ -1,0 +1,15 @@
+{
+  "unit": "genparam_801c0eec",
+  "source": "source/matching/game/generated/genparam_801c0eec.c",
+  "language": "c",
+  "functions": {
+    "w3d_dtor_interfaces7_801c0eec": "0x801c0eec",
+    "w3d_dtor_interfaces7_801c2d14": "0x801c2d14",
+    "w3d_dtor_interfaces7_8024c144": "0x8024c144"
+  },
+  "descriptions": {
+    "w3d_dtor_interfaces7_801c0eec": "Destructor: installs the class vtable, releases each held interface through its virtual slot 16, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_interfaces7_801c2d14": "Destructor: installs the class vtable, releases each held interface through its virtual slot 16, runs the base destructor, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_interfaces7_8024c144": "Destructor: installs the class vtable, releases each held interface through its virtual slot 16, runs the base destructor, and frees the object when bit 0 of flags is set."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unit": "genparam_801f8eb8",
+  "source": "source/matching/game/generated/genparam_801f8eb8.c",
+  "language": "c",
+  "functions": {
+    "w3d_release_801f8eb8": "0x801f8eb8",
+    "w3d_release_80206a44": "0x80206a44",
+    "w3d_release_80207f3c": "0x80207f3c",
+    "w3d_release_8020d268": "0x8020d268",
+    "w3d_release_80219ab8": "0x80219ab8",
+    "w3d_release_80219b74": "0x80219b74",
+    "w3d_release_80219c30": "0x80219c30",
+    "w3d_release_80219cec": "0x80219cec",
+    "w3d_release_80219da8": "0x80219da8"
+  },
+  "descriptions": {
+    "w3d_release_801f8eb8": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_80206a44": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_80207f3c": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_8020d268": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_80219ab8": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_80219b74": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_80219c30": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_80219cec": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count.",
+    "w3d_release_80219da8": "Decrements the object's 16-bit reference count at +4; at zero destroys a non-null object through its deleting destructor (flags 3). Returns the new count."
+  }
+}

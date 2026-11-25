@@ -1,0 +1,11 @@
+{
+  "unit": "cc32p_owned_array_clear_80342a7c",
+  "source": "source/matching/game/cc32p/cc32p_owned_array_clear_80342a7c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cc32p_owned_array_clear_80342a7c": "0x80342a7c"
+  },
+  "descriptions": {
+    "w3d_cc32p_owned_array_clear_80342a7c": "Pop owned elements from the end, call the original cleanup, destroy three pairs of sixteen-byte slot views in reverse member and element order, release non-null slot storage, then free each element. Offsets and strides are observed; complete original class declarations and allocation size remain unknown."
+  }
+}

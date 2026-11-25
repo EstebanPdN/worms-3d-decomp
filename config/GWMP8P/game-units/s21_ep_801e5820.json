@@ -1,0 +1,15 @@
+{
+  "unit": "s21_ep_801e5820",
+  "source": "source/matching/game/s21/s21_ep_801e5820.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_set_volume_801e5820": "0x801e5820"
+  },
+  "descriptions": {
+    "w3d_s21_set_volume_801e5820": "Appears to set a voice volume: it scales the argument by a factor taken from the global sound service when a link exists, converts it to a byte with a quantizing store and passes it to the voice sette"
+  },
+  "extra_flags": [
+    "-mfast-cast",
+    "-mps-float"
+  ]
+}

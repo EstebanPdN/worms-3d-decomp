@@ -1,0 +1,13 @@
+{
+  "unit": "s1_session_transition",
+  "source": "source/matching/game/s1_session_transition.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8006ab48": "0x8006ab48",
+    "w3d_fn_8006ae58": "0x8006ae58"
+  },
+  "descriptions": {
+    "w3d_fn_8006ab48": "Clears pending flags and a held reference, then queues or begins the requested session transition.",
+    "w3d_fn_8006ae58": "Releases available unused resources when ready and reports whether every resource check completed."
+  }
+}

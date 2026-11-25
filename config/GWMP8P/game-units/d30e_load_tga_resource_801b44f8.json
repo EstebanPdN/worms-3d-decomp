@@ -1,0 +1,14 @@
+{
+  "unit": "d30e_load_tga_resource_801b44f8",
+  "source": "source/matching/game/d30e/d30e_load_tga_resource_801b44f8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30e_load_tga_resource_801b44f8": "0x801b44f8"
+  },
+  "descriptions": {
+    "w3d_d30e_load_tga_resource_801b44f8": "Loads a texture resource from a file: opens the file through the file service (slot 4), reads its size via slot 7 into a stat record, creates a buffer entry of that size, reads the file into it, and for a tga extension decodes through the codec service 0x804165e0 into a new object of type 0x80364fa4, then stores the object through out and its name string at +36. Returns the failure code of the reads or 0x80004005."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

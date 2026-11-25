@@ -1,0 +1,11 @@
+{
+  "unit": "s21_hp_80262124",
+  "source": "source/matching/game/s21/s21_hp_80262124.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_read_game_type_80262124": "0x80262124"
+  },
+  "descriptions": {
+    "w3d_s21_read_game_type_80262124": "Appears to build a property key for the game-over game type string and pass it to the property reader."
+  }
+}

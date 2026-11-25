@@ -1,0 +1,11 @@
+{
+  "unit": "s7hand_80066010",
+  "source": "source/matching/game/s7/s7hand_80066010.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_80066010": "0x80066010"
+  },
+  "descriptions": {
+    "w3d_auto_80066010": "Tests four interface slots beginning at +0x1c; returns 0 if any predicate fails, otherwise 1."
+  }
+}

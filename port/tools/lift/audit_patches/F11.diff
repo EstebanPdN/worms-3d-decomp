@@ -1,0 +1,42 @@
+--- a/port/core/game/s2_script_support.cpp
++++ b/port/core/game/s2_script_support.cpp
+@@ -266,8 +266,18 @@
+ void lua_gettable(Ptr32<void>, int);
+ int lua_type(Ptr32<void>, int);
+ extern const char w3d_str_80399394[];
++Ptr32<void> lua_newuserdata(Ptr32<void>, unsigned long);
++const char *w3d_test_lua_due(const char *);
+ int w3d_script_call_handler_801036f0(Ptr32<S2CallScript> self, Ptr32<const char> name)
+ {
++    // W3D_TEST_LUA=<retrazos>:<trozo>: para encadenar misiones en pruebas por lotes, sin efecto si no está definida.
++    if (const char *chunk = w3d_test_lua_due(&*name)) {
++        unsigned long size = __builtin_strlen(chunk);
++        Ptr32<char> copy = (Ptr32<char>)lua_newuserdata(self->lua, size);
++        __builtin_memcpy(&*copy, chunk, size);
++        if (!luaL_loadbuffer(self->lua, copy, size, copy)) lua_pcall(self->lua, 0, 0, 0);
++        lua_settop(self->lua, -2);
++    }
+     lua_gettop(self->lua);
+     lua_pushstring(self->lua, name);
+     lua_gettable(self->lua, -10001);
+--- a/port/core/sdk/sdk_core.cpp
++++ b/port/core/sdk/sdk_core.cpp
+@@ -237,6 +237,18 @@
+     if (g_next_frame > now && (fast < 0 || (long)g_retrace < fast)) plat::sleep_seconds(g_next_frame - now); else g_next_frame = now;
+     g_retrace++;
+     if (g_pre_retrace) ((void (*)(unsigned))g2h(g_pre_retrace))(g_retrace);
++}
++static long g_test_init = -1;  // retrazo del último Initialise de un guion de misión
++extern "C" long w3d_test_since_init() { return g_test_init < 0 ? -1 : (long)g_retrace - g_test_init; }
++extern "C" const char *w3d_test_lua_due(const char *name) {
++    static const char *cfg = getenv("W3D_TEST_LUA");
++    if (!cfg) return nullptr;
++    static long since = -1;
++    if (!strcmp(name, "Initialise")) { since = g_test_init = (long)g_retrace; fprintf(stderr, "[prueba] Initialise en retrazo %ld\n", since); }
++    if (since < 0 || (long)g_retrace - since < atol(cfg)) return nullptr;
++    since = -1;
++    fprintf(stderr, "[prueba] trozo Lua en retrazo %ld\n", (long)g_retrace);
++    return strchr(cfg, ':') + 1;
+ }
+ void A80303e2c(GA) {}                                                       // VIConfigure
+ void A803049e8(void) {}                                                    // VIFlush

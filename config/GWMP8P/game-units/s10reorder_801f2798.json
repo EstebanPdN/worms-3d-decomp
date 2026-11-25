@@ -1,0 +1,11 @@
+{
+  "unit": "s10reorder_801f2798",
+  "source": "source/matching/game/auto/s10reorder_801f2798.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801f2798": "0x801f2798"
+  },
+  "descriptions": {
+    "w3d_auto_801f2798": "Releases the interfaces in an allocated pointer array in reverse order, frees the array with its header, and resets the container fields."
+  }
+}

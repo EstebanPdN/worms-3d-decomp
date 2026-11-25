@@ -1,0 +1,11 @@
+{
+  "unit": "d33b_water_shade_80087628",
+  "source": "source/matching/game/d33b/d33b_water_shade_80087628.cpp",
+  "language": "cpp",
+  "functions": {
+    "d33b_water_shade_80087628": "0x80087628"
+  },
+  "descriptions": {
+    "d33b_water_shade_80087628": "Water shade update: reads the fade scale from +2780 through 0x80342a74 and 0x80178df0, copies the bounds box +372 of the object at +532, keeps a discarded comparison of its x and y, then for each of the +2478 vertices computes how far height (+672, +4) lies below the water level 0x804b17e0 +108; vertices below it get a shade of colour +2488 with alpha scaled and clamped to 255 and their colour-list alpha at +680 cleared; the shade (or 0) goes to the list at +688. Returns 0."
+  }
+}

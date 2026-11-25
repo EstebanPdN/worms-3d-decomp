@@ -1,0 +1,11 @@
+{
+  "unit": "f1b_integrate_velocity_80146aa4",
+  "source": "source/matching/game/f1b/f1b_integrate_velocity_80146aa4.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1b_integrate_velocity_80146aa4": "0x80146aa4"
+  },
+  "descriptions": {
+    "f1b_integrate_velocity_80146aa4": "Add the vector at owner offset 676 scaled by the original constant at 0x803a0fc0 to the vector at offset 560. Update the middle component using the threshold, damping and interpolation constants at 0x803a0fc4..0x803a0fd0, then damp the other two components. Position and velocity roles are inferred."
+  }
+}

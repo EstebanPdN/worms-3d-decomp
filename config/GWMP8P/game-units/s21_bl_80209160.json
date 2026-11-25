@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bl_80209160",
+  "source": "source/matching/game/s21/s21_bl_80209160.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_init_80209160": "0x80209160"
+  },
+  "descriptions": {
+    "w3d_s21_init_80209160": "Appears to initialize an object by storing a handle argument, the value sixteen and zeroing seven other words."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unit": "d31s_map_remove_801d2aac",
+  "source": "source/matching/game/d31s/d31s_map_remove_801d2aac.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching"
+  ],
+  "functions": {
+    "remove__12D31sMapOwnerP12D31sMapIfaceUiRQ24_STLt3map4Z10D31sMapKeyZ12D31sMapValueZ14D31sMapKeyLessZQ24_STLt9allocator1ZQ24_STLt4pair2ZC10D31sMapKeyZ12D31sMapValue": "0x801d2aac"
+  },
+  "descriptions": {
+    "remove__12D31sMapOwnerP12D31sMapIfaceUiRQ24_STLt3map4Z10D31sMapKeyZ12D31sMapValueZ14D31sMapKeyLessZQ24_STLt9allocator1ZQ24_STLt4pair2ZC10D31sMapKeyZ12D31sMapValue": "Erases the map entry matching an interface and id, or every entry with that id when no interface is given; returns E_FAIL if the interface entry is missing."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

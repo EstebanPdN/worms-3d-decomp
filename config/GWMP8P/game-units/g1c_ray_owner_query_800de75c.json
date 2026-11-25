@@ -1,0 +1,11 @@
+{
+  "unit": "g1c_ray_owner_query_800de75c",
+  "source": "source/matching/game/g1c/g1c_ray_owner_query_800de75c.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1c_ray_owner_query_800de75c": "0x800de75c"
+  },
+  "descriptions": {
+    "g1c_ray_owner_query_800de75c": "Construct two complete three-float native vectors using original constants80389bfc/80389c00 and call original800b0824 with the external receiver, direction, zero acceleration,999 and1. When original result804b1764 is at most998, copy the two witnessed result words to receiver176/180 and return one, otherwise return zero. Only the complete12-byte vector locals are constructed; receiver is an external prefix and results remain externally owned."
+  }
+}

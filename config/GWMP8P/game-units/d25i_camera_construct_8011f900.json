@@ -1,0 +1,11 @@
+{
+  "unit": "d25i_camera_construct_8011f900",
+  "source": "source/matching/game/d25i/d25i_camera_construct_8011f900.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25i_camera_construct_8011f900": "0x8011f900"
+  },
+  "descriptions": {
+    "d25i_camera_construct_8011f900": "Camera constructor: base constructor 0x8015a6b8 with the arguments; posts the eight string messages WormFirstPersonAiming, WormAiming, WormRoping, UtilityGirder, Flying (cached 0x804af4b4) and Fire, WormMoving, CameraSelect (cached 0x804af4bc); copies three vectors +4, +16, +28 from the arguments; resolves the key named by Camera.Data into +88, the Camera.Entity.TaskId and Camera.Graphic.TaskId values into +76 and +80; stores field +24 of the data definition into +84; sets +92 to -1 and clears +168 and +176; sets +172 to 0 when the entity task exists and is of type 0x80360e10, otherwise 1; calls 0x80120648 with +96, +120, +108 and +132."
+  }
+}

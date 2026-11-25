@@ -1,0 +1,7 @@
+--- a/port/core/open/open_80238ff0.cpp
++++ b/port/core/open/open_80238ff0.cpp
+@@ -2811,3 +2811,3 @@
+     f1 = LDS(r1 + 80);
+-    r4 = L8(r31 + 183);
++    r4 = L8(r31 + 180);
+     f1 = f1 - f0;

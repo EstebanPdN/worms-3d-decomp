@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_update_phase_80028e10",
+  "source": "source/matching/game/f2a/f2a_update_phase_80028e10.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_update_phase_80028e10": "0x80028e10"
+  },
+  "descriptions": {
+    "w3d_f2a_update_phase_80028e10": "Computes elapsed unsigned time divided by the signed property value at offset 108, performs two sine calls using original constants, handles states 3 and 2 above the original threshold, and interpolates output offset 48 from offset 76 toward a selected property sample. Phase/state meanings and names are inferred."
+  }
+}

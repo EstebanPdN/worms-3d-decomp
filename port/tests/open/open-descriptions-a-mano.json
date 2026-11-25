@@ -1,0 +1,11 @@
+{
+"0x801fcb90": "Error fatal: compone el texto con la cadena y el código del error; si hay un manejador registrado lo llama, y si no pinta OSFatal y sale con 999.",
+"0x801fcc48": "Guarda la máscara de canales de registro y activa o apaga cada canal de la tabla 0x803b1d58 según esa máscara.",
+"0x801fcd74": "Parece crear los canales de registro de Xom (Xom.Log y los prefijos de aviso y error) y enlazarlos a sus flujos de salida.",
+"0x80167118": "Inicia el dibujo GX: fija los GQR 2 a 5 (u8, u16, s8, s16), lee GXgl.ScreenWidth, ScreenHeight y ScreenDepth, y prepara búferes y pantalla.",
+"0x802f3c6c": "_exit de newlib: una palabra 0 seguida de blr; en el original salta a la trampa y no vuelve.",
+"0x802f4eb8": "Guarda 0x80000000 y el valor de 0x80000038 en dos globales. El primero queda como constante cruda, sin traducir a memoria baja.",
+"0x802e9eac": "Parece el núcleo de reducción de libm con dobles (estilo __kernel_rem_pio2); solo lo llama 0x802e945c, de la zona libm.",
+"0x802ea738": "Igual que 0x802e9eac en la variante flotante; solo lo llama 0x802e9de4, de la zona libm.",
+"0x801d4858": "Lee una imagen TGA, clasifica su alfa y prepara la superficie; devuelve 0x80004005 si el formato no vale."
+}

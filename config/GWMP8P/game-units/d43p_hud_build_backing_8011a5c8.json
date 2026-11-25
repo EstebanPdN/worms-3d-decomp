@@ -1,0 +1,14 @@
+{
+  "unit": "d43p_hud_build_backing_8011a5c8",
+  "source": "source/matching/game/s2_hud_text_r2.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "w3d_d43p_hud_build_backing_8011a5c8": "0x8011a5c8"
+  },
+  "descriptions": {
+    "w3d_d43p_hud_build_backing_8011a5c8": "Fills the three-vertex backing mesh of the HUD text: unit bounds, a byte index, UVs, positions along the panel and two texture coordinate streams."
+  }
+}

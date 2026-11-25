@@ -1,0 +1,11 @@
+{
+  "unit": "d32a_weapon_aim_start_80026288",
+  "source": "source/matching/game/d32a/d32a_weapon_aim_start_80026288.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d32a_weapon_aim_start_80026288": "0x80026288"
+  },
+  "descriptions": {
+    "w3d_d32a_weapon_aim_start_80026288": "Sets up the weapon aim line and first-person cursor objects, their handlers and visibility."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "f1p_set_panel_vectors_802c7d24",
+  "source": "source/matching/game/f1p/f1p_set_panel_vectors_802c7d24.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_set_panel_vectors_802c7d24": "0x802c7d24"
+  },
+  "descriptions": {
+    "w3d_set_panel_vectors_802c7d24": "If active with a held item, send its position vector through slot76, select a scale-dependent first component based on mode, then send the assembled second vector through slot84. Constants, observed load order and virtual dispatch preserved; semantic roles inferred."
+  },
+  "extra_flags": [
+    "-mps-float"
+  ]
+}

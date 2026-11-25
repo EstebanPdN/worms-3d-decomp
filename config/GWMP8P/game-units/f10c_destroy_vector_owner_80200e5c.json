@@ -1,0 +1,11 @@
+{
+  "unit": "f10c_destroy_vector_owner_80200e5c",
+  "source": "source/matching/game/f10c/f10c_destroy_vector_owner_80200e5c.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._19F10c_80200e5c_Owner": "0x80200e5c"
+  },
+  "descriptions": {
+    "_._19F10c_80200e5c_Owner": "Install the witnessed table, destroy a shared-string vector and two trivial-element vectors with cached end iterators, release their allocations and the two observed held interfaces, restore the tagged base table and call its original cleanup, then honor the native class deletion flag. Factory80200d54 allocates156 bytes and constructor80200db4 initializes the observed full footprint. Names, record sizes and ownership views remain inferred."
+  }
+}

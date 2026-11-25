@@ -1,0 +1,11 @@
+{
+  "unit": "s9_update_actor_transition",
+  "source": "source/matching/game/s9/s9_update_actor_transition.c",
+  "language": "c",
+  "functions": {
+    "s9_update_actor_transition_8013c9ac": "0x8013c9ac"
+  },
+  "descriptions": {
+    "s9_update_actor_transition_8013c9ac": "Sets a transition deadline, updates the actor model and action state under its flags, invokes the optional effect and clears both pending-transition fields."
+  }
+}

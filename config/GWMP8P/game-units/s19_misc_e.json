@@ -1,0 +1,11 @@
+{
+  "unit": "s19_misc_e",
+  "source": "source/matching/game/s19/s19_misc_e.c",
+  "language": "c",
+  "functions": {
+    "s19_notify_two_8002a040": "0x8002a040"
+  },
+  "descriptions": {
+    "s19_notify_two_8002a040": "Appears to queue each non-zero handle slot at +0x1c and +0x20 with the global service object using a timeout of 1000."
+  }
+}

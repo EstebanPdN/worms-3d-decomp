@@ -1,0 +1,11 @@
+{
+  "unit": "s19_bytes_80086288",
+  "source": "source/matching/game/s19/s19_bytes_80086288.c",
+  "language": "c",
+  "functions": {
+    "s19_load_byte_table_80086288": "0x80086288"
+  },
+  "descriptions": {
+    "s19_load_byte_table_80086288": "Appears to fill eight global bytes with four when the flag at +0x1e0 is clear, otherwise load each byte from a lookup table using eight global indices."
+  }
+}

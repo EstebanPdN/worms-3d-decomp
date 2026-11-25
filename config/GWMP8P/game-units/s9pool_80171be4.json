@@ -1,0 +1,29 @@
+{
+  "unit": "s9pool_80171be4",
+  "source": "source/matching/game/generated/s9pool_80171be4.c",
+  "language": "c",
+  "functions": {
+    "s9_pool_find_80171be4": "0x80171be4",
+    "s9_pool_release_80174798": "0x80174798",
+    "s9_pool_find_80174884": "0x80174884",
+    "s9_pool_find_8017f8c4": "0x8017f8c4",
+    "s9_pool_release_80182b20": "0x80182b20",
+    "s9_pool_release_80184ae8": "0x80184ae8",
+    "s9_pool_find_80184d68": "0x80184d68",
+    "s9_pool_release_80188440": "0x80188440",
+    "s9_pool_find_801886c0": "0x801886c0",
+    "s9_pool_release_8018b0ac": "0x8018b0ac"
+  },
+  "descriptions": {
+    "s9_pool_find_80171be4": "Finds the first in-use pool element whose virtual key equals the supplied value; returns its index or -1.",
+    "s9_pool_release_80174798": "Unlinks a pool element, decrements its category count and pushes its virtual identifier onto the free-index stack.",
+    "s9_pool_find_80174884": "Finds the first in-use pool element whose virtual key equals the supplied value; returns its index or -1.",
+    "s9_pool_find_8017f8c4": "Finds the first in-use pool element whose virtual key equals the supplied value; returns its index or -1.",
+    "s9_pool_release_80182b20": "Unlinks a pool element, decrements its category count and pushes its virtual identifier onto the free-index stack.",
+    "s9_pool_release_80184ae8": "Unlinks a pool element, decrements its category count and pushes its virtual identifier onto the free-index stack.",
+    "s9_pool_find_80184d68": "Finds the first in-use pool element whose virtual key equals the supplied value; returns its index or -1.",
+    "s9_pool_release_80188440": "Unlinks a pool element, decrements its category count and pushes its virtual identifier onto the free-index stack.",
+    "s9_pool_find_801886c0": "Finds the first in-use pool element whose virtual key equals the supplied value; returns its index or -1.",
+    "s9_pool_release_8018b0ac": "Unlinks a pool element, decrements its category count and pushes its virtual identifier onto the free-index stack."
+  }
+}

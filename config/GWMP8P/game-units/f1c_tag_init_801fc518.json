@@ -1,0 +1,11 @@
+{
+  "unit": "f1c_tag_init_801fc518",
+  "source": "source/matching/game/f1c/f1c_tag_init_801fc518.cpp",
+  "language": "cpp",
+  "functions": {
+    "f1c_tag_init_801fc518": "0x801fc518"
+  },
+  "descriptions": {
+    "f1c_tag_init_801fc518": "Initialize the observed object: install vtable address 0x804182d0, initialize the embedded tagged value at offset 8 with byte tag 2 and reload it into its word, clear two words and two halfwords, then install vtable 0x804183b0 and return the object. Names and type layout are inferred from instructions."
+  }
+}

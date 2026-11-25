@@ -1,0 +1,14 @@
+{
+  "unit": "d32c_aim_update_800d3208",
+  "source": "source/matching/game/d32c/d32c_aim_update_800d3208.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "update__5ActorfPC5Input": "0x800d3208"
+  },
+  "descriptions": {
+    "update__5ActorfPC5Input": "Traces the aim rays and updates the actor's view distance, yaw and pitch from the probe flags and input bits."
+  }
+}

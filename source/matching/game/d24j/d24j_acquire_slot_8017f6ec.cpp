@@ -1,0 +1,46 @@
+// Inferred resource-slot acquisition, 204-byte pool (Worms 3D GameCube PAL, 0x8017f6ec).
+//
+// Same shape as d10a_acquire_slot_8017180c: pops a free index, retains the
+// slot, replaces the caller's handle, binds the slot and on success counts the
+// kind. Lazily prepares the resource first (0x8017ffbc when state bit 5 is set
+// and +48 is empty) and counts every bind attempt at +112.
+
+struct d10a_Resource;
+struct d10a_Slot;
+struct d10a_SlotTable {
+    unsigned unknown0[3];
+    unsigned (*retain)(d10a_Slot *);
+    unsigned (*release)(d10a_Slot *);
+    unsigned unknown20[5];
+    int (*bind)(d10a_Slot *, d10a_Resource *, unsigned);
+};
+struct d10a_Slot { d10a_SlotTable *table; };
+struct d10a_Resource { unsigned char unknown[24]; unsigned char kind, default_group; unsigned char u26[10]; unsigned short state; unsigned char u38[10]; int value48; unsigned char u52[60]; int count112; };
+struct d10a_Flags { unsigned char unknown[7]; unsigned char value; void clear_available() { value &= 251; } };
+struct d10a_Selected { unsigned unknown; d10a_Flags flags; };
+extern unsigned short lbl_804ab61c;
+extern unsigned short *lbl_804ab618;
+extern d10a_Slot *lbl_804ab60c;
+extern unsigned d10a_kind_counts_804a89d8[];
+extern "C" int d10a_add_count_80190438(d10a_Resource *, d10a_Slot **, unsigned);
+extern "C" int fn_8017ffbc(d10a_Resource *);
+extern "C" int d24j_acquire_slot_8017f6ec(d10a_Resource *self, d10a_Slot **out, unsigned group)
+{
+    if (lbl_804ab61c == 0) return (int)0x80004005u;
+    if (group == 255) group = self->default_group;
+    if ((self->state & 32) && self->value48 == 0) fn_8017ffbc(self);
+    unsigned short next = --lbl_804ab61c;
+    unsigned offset = lbl_804ab618[next] * 204u;
+    d10a_Slot *base = lbl_804ab60c;
+    d10a_Slot *slot = (d10a_Slot *)(offset + (unsigned)base);
+    if (slot) slot->table->retain(slot);
+    if (*out) (*out)->table->release(*out);
+    *out = slot;
+    int result = slot->table->bind(slot, self, group);
+    if (result >= 0) {
+        ++d10a_kind_counts_804a89d8[self->kind];
+        result = d10a_add_count_80190438(self, out, 255);
+    }
+    self->count112++;
+    return result;
+}

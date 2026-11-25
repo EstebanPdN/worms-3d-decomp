@@ -1,0 +1,20 @@
+{
+  "unit": "d27j_add_record_pair_8019217c",
+  "source": "source/matching/game/d27j/d27j_add_record_pair_8019217c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/vendor/stlport-4.5.3/stlport",
+    "source/matching/game/d29s/compat",
+    "source/matching/game/d29s",
+    "source/matching/game/d27j"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27j_add_record_8019217c": "0x8019217c",
+    "d27j_add_record_sized_801929c0": "0x801929c0"
+  },
+  "descriptions": {
+    "d27j_add_record_8019217c": "Push a record and an empty element list, resize the list to the object's default size with a default element, and count it",
+    "d27j_add_record_sized_801929c0": "Push a record and an empty element list, resize the list to the given size with a default element, and count it"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s1_debris_motion",
+  "source": "source/matching/game/s1_debris_motion.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_fn_8006704c": "0x8006704c"
+  },
+  "descriptions": {
+    "w3d_fn_8006704c": "Steps debris motion, shrinks its scale late in its lifetime, and finishes it after the timeout."
+  }
+}

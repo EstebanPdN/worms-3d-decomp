@@ -1,0 +1,11 @@
+{
+  "unit": "d25b_girder_input_80094a84",
+  "source": "source/matching/game/d25b/d25b_girder_input_80094a84.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d25b_girder_input_80094a84": "0x80094a84"
+  },
+  "descriptions": {
+    "w3d_d25b_girder_input_80094a84": "Girder placement input: while the placed count +744 is below the limit +740, clears the velocity +232 and rates +320, +340, copies the position to the target +208, and reads keys +292 and previous keys +296: 2048 toggles the size +688 and rescales the handle +764 (0x8012629c, 25 or 50); keys 32 and 16 set height velocity and target; the 512, 1024, 64, 128 edges rotate the angle targets +312, +332 by 0.3927 unless 4096 is held; keys 1, 2, 4, 8 (with 4096 aliases) move the target along the axes +256 and +268."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k6b_a_802e0e84",
+  "source": "source/matching/game/k6b/k6b_a_802e0e84.c",
+  "language": "c",
+  "functions": {
+    "w3d_k6b_device_reset_802e0e84": "0x802e0e84"
+  },
+  "descriptions": {
+    "w3d_k6b_device_reset_802e0e84": "Appears to call virtual slot 9, set +84 to 5 and clear +80, clear the disc monitor flag, then call 0x802e1720, 0x802e1730 and 0x80304b84(0)."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "k5b_a_801f5da0",
+  "source": "source/matching/game/k5b/k5b_a_801f5da0.c",
+  "language": "c",
+  "functions": {
+    "w3d_k5b_pairs_cancel_801f5da0": "0x801f5da0"
+  },
+  "descriptions": {
+    "w3d_k5b_pairs_cancel_801f5da0": "Appears to return 1 when values[0] is within 0.01 of -values[1] and values[2] within 0.01 of -values[3] (sign-cleared bit compare)."
+  }
+}

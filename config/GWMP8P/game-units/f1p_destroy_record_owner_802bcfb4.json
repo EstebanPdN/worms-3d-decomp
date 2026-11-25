@@ -1,0 +1,11 @@
+{
+  "unit": "f1p_destroy_record_owner_802bcfb4",
+  "source": "source/matching/game/f1p/f1p_destroy_record_owner_802bcfb4.cpp",
+  "language": "cpp",
+  "functions": {
+    "_._14F1pRecordOwner": "0x802bcfb4"
+  },
+  "descriptions": {
+    "_._14F1pRecordOwner": "Drain original record state, destroy held-interface fields and the forward-traversed dynamic record list, then use native destructor flags for conditional deletion. The list element stride24 and all accessed field offsets match original instructions; record semantics and complete class identity inferred."
+  }
+}

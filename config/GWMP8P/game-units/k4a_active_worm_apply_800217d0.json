@@ -1,0 +1,11 @@
+{
+  "unit": "k4a_active_worm_apply_800217d0",
+  "source": "source/matching/game/k4a/k4a_active_worm_apply_800217d0.c",
+  "language": "c",
+  "functions": {
+    "k4a_active_worm_apply_800217d0": "0x800217d0"
+  },
+  "descriptions": {
+    "k4a_active_worm_apply_800217d0": "Appears to read the ActiveWormIndex property, store the object's float value truncated to int in that worm's record, set a flag and return 0."
+  }
+}

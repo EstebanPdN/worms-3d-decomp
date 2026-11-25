@@ -1,0 +1,7 @@
+{
+  "unit": "k8b_lua_owner_dtor_8019dafc",
+  "source": "source/matching/game/k8b/k8b_lua_owner_dtor_8019dafc.c",
+  "language": "c",
+  "functions": {"w3d_k8b_lua_owner_dtor_8019dafc": "0x8019dafc"},
+  "descriptions": {"w3d_k8b_lua_owner_dtor_8019dafc": "Appears to run a deleting destructor of an object that releases a held interface, clears deferred tasks, closes a Lua state and destroys the actor node."}
+}

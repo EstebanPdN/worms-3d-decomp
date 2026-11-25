@@ -1,0 +1,11 @@
+{
+  "unit": "d25c_bullet_update_query_800e21b8",
+  "source": "source/matching/game/d25c/d25c_bullet_update_query_800e21b8.cpp",
+  "language": "cpp",
+  "functions": {
+    "d25c_bullet_update_query_800e21b8": "0x800e21b8"
+  },
+  "descriptions": {
+    "d25c_bullet_update_query_800e21b8": "Step the sub-object at +28. Flag 16: query the vector at +108 through 0x800e25dc. Flag 64: copy +96 to +108 and look up the target at +68; a target of type 0x80360e10 gets virtual +44 with the last argument and the vector; otherwise treat it as a part (object +28) and if 0x800dfd48 accepts key +144 call its virtual +16. When no target handles it set state +176 to 3."
+  }
+}

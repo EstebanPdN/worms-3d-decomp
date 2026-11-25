@@ -1,0 +1,11 @@
+{
+  "unit": "d28e_add_keyed_refs_801ace68",
+  "source": "source/matching/game/d28e/d28e_add_keyed_refs_801ace68.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d28e_add_keyed_refs_801ace68": "0x801ace68"
+  },
+  "descriptions": {
+    "w3d_d28e_add_keyed_refs_801ace68": "Append an empty reference array with the given key to the vector of 16-byte elements at +116: a temporary element is pushed (inlined STLport push_back with copy and destroy), destroyed, and the key is stored in the new last element."
+  }
+}

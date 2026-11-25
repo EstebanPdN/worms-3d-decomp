@@ -1,0 +1,11 @@
+{
+  "unit": "g6b_heap_statistics_80217940",
+  "source": "source/matching/game/g6b/g6b_heap_statistics_v2_80217940.cpp",
+  "language": "cpp",
+  "functions": {
+    "g6b_heap_statistics_80217940": "0x80217940"
+  },
+  "descriptions": {
+    "g6b_heap_statistics_80217940": "Walks the original heap free list and segments under the runtime guard, visits allocated/free blocks through an optional callback, and fills eight-word allocation statistics. Preserves the original mode-dependent extent lifetime; runtime flags determine which sizes are valid. All heap types are partial external views, never locally constructed; no initialized data owned. Names are inferred."
+  }
+}

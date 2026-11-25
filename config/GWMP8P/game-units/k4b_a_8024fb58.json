@@ -1,0 +1,11 @@
+{
+  "unit": "k4b_a_8024fb58",
+  "source": "source/matching/game/k4b/k4b_a_8024fb58.c",
+  "language": "c",
+  "functions": {
+    "w3d_k4b_emitter_desc_construct_8024fb58": "0x8024fb58"
+  },
+  "descriptions": {
+    "w3d_k4b_emitter_desc_construct_8024fb58": "Appears to construct a descriptor over 0x801ea0ec: vtable 0x8041b6b8, three zero vectors, zero rate, kind 23, cleared counters, two retained shared interfaces."
+  }
+}

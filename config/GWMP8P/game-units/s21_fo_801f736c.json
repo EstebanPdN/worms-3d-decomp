@@ -1,0 +1,11 @@
+{
+  "unit": "s21_fo_801f736c",
+  "source": "source/matching/game/s21/s21_fo_801f736c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_static_identity4_801f736c": "0x801f736c"
+  },
+  "descriptions": {
+    "w3d_s21_static_identity4_801f736c": "Appears to be a static initialization entry that sets a global four-by-four float matrix to the identity using two global float constants when called with the final priority."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unit": "d16b_reset_entry_items_800a7488",
+  "source": "source/matching/game/d16b/d16b_reset_entry_items_800a7488.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d16b_reset_entry_items_800a7488": "0x800a7488"
+  },
+  "descriptions": {
+    "d16b_reset_entry_items_800a7488": "Reset every item of one entry by type. Types 0 and 5 clear a set latch and, when the item is idle, send its cached message and the entry name text. Type 2 clears a set flag and announces when unlatched. Type 1 with a nonzero level: in mode 0 send the level 0.0 by float message plus the entry name; in modes 1 and 2 clear an armed flag (resetting the level) and announce when unlatched; then reset the level to 0.0. Other types are ignored. Partial observed layouts; 0.0 constant and cached keys referenced by address; no owned initialized data. Compiled with the original paired-single float switch -mps-float (reserves the FPR pair frame slots)."
+  }
+}

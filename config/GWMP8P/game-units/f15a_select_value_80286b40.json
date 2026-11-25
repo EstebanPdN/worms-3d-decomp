@@ -1,0 +1,11 @@
+{
+  "unit": "f15a_select_value_80286b40",
+  "source": "source/matching/game/f15a/f15a_select_value_80286b40.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f15a_select_value_80286b40": "0x80286b40"
+  },
+  "descriptions": {
+    "w3d_f15a_select_value_80286b40": "Select entries whose observed integer value equals the supplied value, storing each matching index, activating held children and applying RGBA180/180/180/255 or255/255/255/255 according to owner offset140. Deactivate nonmatching held children; if no matching held child was activated, activate and tint the first held child and set index0. Preserve the optional notification through the secondary-base vtable slot56. Native begin/end and conditional color scopes preserve original iterator and found-flag lifetimes. Names, roles and partial layouts inferred; entry stride12 and four-byte color temporaries observed. No complete allocation, external data ownership, runtime or hardware validation claimed."
+  }
+}

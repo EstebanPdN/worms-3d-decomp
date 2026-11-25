@@ -1,0 +1,11 @@
+{
+  "unit": "cx8a_motion_state_assign_800d308c",
+  "source": "source/matching/game/cx8a/cx8a_motion_state_assign_800d308c.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx8a_motion_state_assign_800d308c": "0x800d308c"
+  },
+  "descriptions": {
+    "w3d_cx8a_motion_state_assign_800d308c": "Copy three vectors at +4/+0x10/+0x1c, clear flag +0xc8 and reset three vectors +0x8c/+0x98/+0xa4 from the shared float before forwarding to the state query."
+  }
+}

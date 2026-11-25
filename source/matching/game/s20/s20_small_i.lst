@@ -1,0 +1,6 @@
+c source/matching/game/s20/s20_small_i.c
+w3d_s20_forward_global_800e5ca4|0x800e5ca4|Appears to forward three arguments and a global object to a helper when the global exists, otherwise return zero.
+w3d_s20_call_with_swapped_800e7114|0x800e7114|Appears to temporarily replace two fields with other fields of the object while calling a helper, then restore them.
+w3d_s20_call_with_swapped_800e7160|0x800e7160|Appears to temporarily replace two fields with other fields of the object while calling a helper, then restore them.
+w3d_s20_forward_handle_8013dda8|0x8013dda8|Appears to resolve a stored handle, clearing it when stale and otherwise passing the object and the address at offset 52 to a helper.
+w3d_s20_reset_named_801bc430|0x801bc430|Appears to initialize a named object, clear a two-word field of the result, run a second helper and return zero.

@@ -1,0 +1,11 @@
+{
+  "unit": "d27a_ballistic_refine_contact_80040ff4",
+  "source": "source/matching/game/d27a/d27a_ballistic_refine_contact_80040ff4.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d27a_ballistic_refine_contact_80040ff4": "0x80040ff4"
+  },
+  "descriptions": {
+    "w3d_d27a_ballistic_refine_contact_80040ff4": "Evaluates position + velocity*t + acceleration*t*t/2 from the vectors at 0x80427444, 0x80427414 and 0x80427438. Returns 1 at once if the point at the first time is within the squared radius at 0x804b17d8. Otherwise bisects five times between both times, storing each later bound that hits in 0x804b17d4, and returns whether any step hit."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_bg_8020db88",
+  "source": "source/matching/game/s21/s21_bg_8020db88.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_write_u64_text_8020db88": "0x8020db88"
+  },
+  "descriptions": {
+    "w3d_s21_write_u64_text_8020db88": "Appears to format a unsigned 64-bit integer into a stack buffer, write the text through the writer's stream slot and return the writer."
+  }
+}

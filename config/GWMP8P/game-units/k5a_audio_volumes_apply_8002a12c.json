@@ -1,0 +1,7 @@
+{
+  "unit": "k5a_audio_volumes_apply_8002a12c",
+  "source": "source/matching/game/k5a/k5a_audio_volumes_apply_8002a12c.c",
+  "language": "c",
+  "functions": {"k5a_audio_volumes_apply_8002a12c": "0x8002a12c"},
+  "descriptions": {"k5a_audio_volumes_apply_8002a12c": "Appears to read the music and ambient volume properties, optionally scale them and apply them to two sinks."}
+}

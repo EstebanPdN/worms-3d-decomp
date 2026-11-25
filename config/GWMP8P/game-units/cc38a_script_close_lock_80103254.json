@@ -1,0 +1,11 @@
+{
+  "unit": "cc38a_script_close_lock_80103254",
+  "source": "source/matching/game/cc38a/cc38a_script_close_lock_80103254.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc38a_script_close_lock_80103254": "0x80103254"
+  },
+  "descriptions": {
+    "cc38a_script_close_lock_80103254": "Close a validated Lua lock handle, decrement the lock count, preserve distinct argument/tag errors, and pop the original arguments."
+  }
+}

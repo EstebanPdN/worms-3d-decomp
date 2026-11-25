@@ -1,0 +1,12 @@
+{
+  "unit": "d26k_send_serialized_8021e930",
+  "source": "source/matching/game/d26k/d26k_send_serialized_8021e930.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d26k_send_serialized_8021e930": "0x8021e930"
+  },
+  "descriptions": {
+    "w3d_d26k_send_serialized_8021e930": "If connection slot 14 returns 0, serializes the argument with the 0x80418f78 writer into a 0x80208aac buffer, transfers the size word and then the buffer through connection slot 6, and returns the size; otherwise returns 0."
+  }
+}

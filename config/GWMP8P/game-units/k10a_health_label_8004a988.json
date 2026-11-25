@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_health_label_8004a988",
+  "source": "source/matching/game/k10a/k10a_health_label_8004a988.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_health_label_8004a988": "0x8004a988"
+  },
+  "descriptions": {
+    "w3d_k10a_health_label_8004a988": "Appears to rebuild a worm pot's health label from its amount, an optional plus sign and the localized health text."
+  }
+}

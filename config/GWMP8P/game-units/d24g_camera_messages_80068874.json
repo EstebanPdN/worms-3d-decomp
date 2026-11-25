@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_camera_messages_80068874",
+  "source": "source/matching/game/d24g/d24g_camera_messages_80068874.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_camera_messages_80068874": "0x80068874"
+  },
+  "descriptions": {
+    "w3d_d24g_camera_messages_80068874": "First-person camera message handler: start and stop messages with the base handler; on the camera mode message reads Camera.CurrentMode, stores whether it is 1 in +396 and updates; two messages select shots 3 and 6 (the latter unless shot 8 is active); one aims when first-person is on; others go to the base handler."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s21_s_8027ae00",
+  "source": "source/matching/game/s21/s21_s_8027ae00.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_state_dispatch_8027ae00": "0x8027ae00"
+  },
+  "descriptions": {
+    "w3d_s21_state_dispatch_8027ae00": "Appears to dispatch on a state field, calling one handler for the primary states and others for the remaining ranges."
+  }
+}

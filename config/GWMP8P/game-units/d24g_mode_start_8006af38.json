@@ -1,0 +1,11 @@
+{
+  "unit": "d24g_mode_start_8006af38",
+  "source": "source/matching/game/d24g/d24g_mode_start_8006af38.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d24g_mode_start_8006af38": "0x8006af38"
+  },
+  "descriptions": {
+    "w3d_d24g_mode_start_8006af38": "Starts the next application mode: logs FCS:Init with a counter, releases the press-start text, ends an in-game mode, reports Loading Resources, loads the assets flagged by 0x8006ac90 (pausing the session when the mode has a slot table entry), posts one pending message on flag 0x08000000, resets three cameras from the shared vectors, then per mode (license, publisher logo, Team17 logo, memory card check, W3D logo, title screen, main menu, in game, award movie, unlock, custom) shows its screen and sets its state, resumes and finishes."
+  }
+}

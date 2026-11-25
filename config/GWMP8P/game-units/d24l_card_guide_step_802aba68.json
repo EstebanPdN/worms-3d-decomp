@@ -1,0 +1,12 @@
+{
+  "unit": "d24l_card_guide_step_802aba68",
+  "source": "source/matching/game/d24l/d24l_card_guide_step_802aba68.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d24l_card_guide_step_802aba68": "0x802aba68"
+  },
+  "descriptions": {
+    "d24l_card_guide_step_802aba68": "Runs one step of the memory card guide (./NGC/memguideinit.c): refreshes the card status +12 unless it holds the magic 0xDEADF00D, stores the argument in four fields, dispatches states 160..164 to their handlers, and for initial states 0..4 sets the next state and returns the state code; an unknown state panics. After a handler returns -1, or the negative result +8."
+  }
+}

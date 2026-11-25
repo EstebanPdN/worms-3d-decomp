@@ -1,0 +1,11 @@
+{
+  "unit": "tsonnet_c30_dvd_open_80218c50",
+  "source": "source/matching/game/tsonnet_c30/tsonnet_c30_dvd_open_80218c50.c",
+  "language": "c",
+  "functions": {
+    "tsonnet_c30_dvd_open_80218c50": "0x80218c50"
+  },
+  "descriptions": {
+    "tsonnet_c30_dvd_open_80218c50": "Initializes a file object through the base routine, sets its handle fields to -1 and 0, and unless bit 1 of the flags is set converts the path to a DVD entry number, opens it into the embedded info record, stores the success flag and logs 'DVDOpen: path ok/fail!'; returns 0 on success or when the flag is set and 0x90000004 on failure. Field meanings are inferred."
+  }
+}

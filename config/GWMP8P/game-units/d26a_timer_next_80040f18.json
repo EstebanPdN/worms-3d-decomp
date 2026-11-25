@@ -1,0 +1,11 @@
+{
+  "unit": "d26a_timer_next_80040f18",
+  "source": "source/matching/game/d26a/d26a_timer_next_80040f18.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d26a_timer_next_80040f18": "0x80040f18"
+  },
+  "descriptions": {
+    "w3d_d26a_timer_next_80040f18": "Picks the earlier of two pending times (+24, +8; negative means idle). Clears +24 and continues with 0x80040b0c, or shifts +12 into +8 and continues with 0x80040d84; returns 0 if neither is pending."
+  }
+}

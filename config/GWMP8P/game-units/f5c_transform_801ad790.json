@@ -1,0 +1,11 @@
+{
+  "unit": "f5c_transform_801ad790",
+  "source": "source/matching/game/f5c/f5c_transform_801ad790.cpp",
+  "language": "cpp",
+  "functions": {
+    "f5c_transform_801ad790": "0x801ad790"
+  },
+  "descriptions": {
+    "f5c_transform_801ad790": "Select an observed default or combined twelve-float matrix according to node flags and optional input, install it while invoking a node operation, restore the previous matrix and conditionally mark the owner ready. Names, matrix role, base subobject, layouts and unknown padding inferred."
+  }
+}

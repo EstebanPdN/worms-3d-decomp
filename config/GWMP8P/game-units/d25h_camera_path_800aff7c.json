@@ -1,0 +1,14 @@
+{
+  "unit": "d25h_camera_path_800aff7c",
+  "source": "source/matching/game/d25h/d25h_camera_path_800aff7c.cpp",
+  "language": "cpp",
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "__10CameraPathPcPCcif": "0x800aff7c"
+  },
+  "descriptions": {
+    "__10CameraPathPcPCcif": "Camera path constructor: clears the two resource members, loads the knot resource Camera.Path.Knot and the supplied resource name through 0x800fc1b0, casts and stores them with reference counting, builds the node chain from the first token of the list with 0x800b0474, optionally closes the chain into a loop, and initializes head, current, tail, time 0 and rate."
+  }
+}

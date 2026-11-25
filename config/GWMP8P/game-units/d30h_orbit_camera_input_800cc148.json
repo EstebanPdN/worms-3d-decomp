@@ -1,0 +1,17 @@
+{
+  "unit": "d30h_orbit_camera_input_800cc148",
+  "source": "source/matching/game/d30h/d30h_orbit_camera_input_800cc148.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d30h"
+  ],
+  "extra_flags": [
+    "-mps-float"
+  ],
+  "functions": {
+    "d30h_orbit_camera_input_800cc148": "0x800cc148"
+  },
+  "descriptions": {
+    "d30h_orbit_camera_input_800cc148": "Orbit camera input step: rotates the position around the target by the turn flags and analog value, raises it by the lift flags and analog value with a floor clamp and a 400 distance limit, snaps to the global position when the range test passes and it is at least 300 away; returns whether the camera moved."
+  }
+}

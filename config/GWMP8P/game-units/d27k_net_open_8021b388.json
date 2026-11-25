@@ -1,0 +1,12 @@
+{
+  "unit": "d27k_net_open_8021b388",
+  "source": "source/matching/game/d27k/d27k_net_open_8021b388.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d27k_net_open_8021b388": "0x8021b388"
+  },
+  "descriptions": {
+    "w3d_d27k_net_open_8021b388": "On connection state 2 formats the address string (0x803b3c24 local, 0x803b3c94 remote), passes it to the service 0x8041cb08, opens the connection and increments the attempt counter, returning on failure or storing flag 1. Then, with flag 1 and state 0, fills message service 0x8041a938 with the cached id and the team name, sends it through 0x8021e930, clears the attempt counter and stores 32."
+  }
+}

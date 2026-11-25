@@ -1,0 +1,14 @@
+{
+  "unit": "d32d_display_ctor_8015b4ac",
+  "source": "source/matching/game/d32d/d32d_display_ctor_8015b4ac.cpp",
+  "language": "cpp",
+  "functions": {
+    "__16Display_804110e8": "0x8015b4ac"
+  },
+  "descriptions": {
+    "__16Display_804110e8": "Display settings constructor. Runs the base constructor 0x8015be3c, installs the table 0x804110e8, sets 800x600, depths 24 and 32 and refresh 60, takes a reference on the service entry for descriptor 0x80419460, and creates the global 8-byte mode record 0x804b1880."
+  },
+  "extra_flags": [
+    "-fvtable-thunks"
+  ]
+}

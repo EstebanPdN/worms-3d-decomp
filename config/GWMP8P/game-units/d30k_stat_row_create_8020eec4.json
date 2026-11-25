@@ -1,0 +1,12 @@
+{
+  "unit": "d30k_stat_row_create_8020eec4",
+  "source": "source/matching/game/d30k/d30k_stat_row_create_8020eec4.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "w3d_d30k_stat_row_create_8020eec4": "0x8020eec4"
+  },
+  "descriptions": {
+    "w3d_d30k_stat_row_create_8020eec4": "Creates the four columns of a table row and sets their label text."
+  }
+}

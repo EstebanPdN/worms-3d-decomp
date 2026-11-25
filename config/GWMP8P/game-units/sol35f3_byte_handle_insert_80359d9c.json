@@ -1,0 +1,11 @@
+{
+  "unit": "sol35f3_byte_handle_insert_80359d9c",
+  "source": "source/matching/game/sol35f3/sol35f3_byte_handle_insert_80359d9c.cpp",
+  "language": "cpp",
+  "functions": {
+    "sol35f3_byte_handle_insert_80359d9c": "0x80359d9c"
+  },
+  "descriptions": {
+    "sol35f3_byte_handle_insert_80359d9c": "Inserts repeated bytes before a position in an observed 16-byte GC32 vector. Uses memmove and memset in spare storage; otherwise grows through the observed allocator with fallback, copies the prefix and suffix, fills the inserted range, releases old storage, and updates start, finish and storage end."
+  }
+}

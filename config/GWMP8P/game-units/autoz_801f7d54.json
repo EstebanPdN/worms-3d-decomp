@@ -1,0 +1,35 @@
+{
+  "unit": "autoz_801f7d54",
+  "source": "source/matching/game/auto/autoz_801f7d54.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801f7d54": "0x801f7d54",
+    "w3d_auto_80209e64": "0x80209e64",
+    "w3d_auto_8026d8a0": "0x8026d8a0",
+    "w3d_auto_8026fa2c": "0x8026fa2c",
+    "w3d_auto_8026fa7c": "0x8026fa7c",
+    "w3d_auto_802b8754": "0x802b8754",
+    "w3d_auto_802bacc8": "0x802bacc8",
+    "w3d_auto_802cd07c": "0x802cd07c",
+    "w3d_auto_802cd14c": "0x802cd14c",
+    "w3d_auto_8035366c": "0x8035366c",
+    "w3d_auto_80356e28": "0x80356e28",
+    "w3d_auto_80356e90": "0x80356e90",
+    "w3d_auto_8035d214": "0x8035d214"
+  },
+  "descriptions": {
+    "w3d_auto_801f7d54": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80209e64": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8026d8a0": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8026fa2c": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8026fa7c": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_802b8754": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_802bacc8": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_802cd07c": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_802cd14c": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8035366c": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80356e28": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_80356e90": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review.",
+    "w3d_auto_8035d214": "Automatically decompiled (m2c, reordered, widened or guard-forwarded) and verified exact; behavior description pending review."
+  }
+}

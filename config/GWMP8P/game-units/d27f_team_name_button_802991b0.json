@@ -1,0 +1,15 @@
+{
+  "unit": "d27f_team_name_button_802991b0",
+  "source": "source/matching/game/d27f/d27f_team_name_button_802991b0.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d27f"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d27f_team_name_button_802991b0": "0x802991b0"
+  },
+  "descriptions": {
+    "d27f_team_name_button_802991b0": "Frontend team name button: generates a unique default team name on Find New; otherwise validates the typed name against the character rules and existing barracks teams and passes the name and invalid flag to 0x80299b48."
+  }
+}

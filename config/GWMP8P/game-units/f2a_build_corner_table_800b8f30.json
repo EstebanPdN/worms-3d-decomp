@@ -1,0 +1,11 @@
+{
+  "unit": "f2a_build_corner_table_800b8f30",
+  "source": "source/matching/game/f2a/f2a_build_corner_table_800b8f30.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_f2a_build_corner_table_800b8f30": "0x800b8f30"
+  },
+  "descriptions": {
+    "w3d_f2a_build_corner_table_800b8f30": "Queries a held object through virtual offset 56 using original object 0x8040e078, reads three byte dimensions at offsets 457-459, and retains or resizes its output array to the product of incremented dimensions. Calls 0x800b3e20 with inline grid data and the output array, releases the held object through virtual offset 16, and returns zero. Names and reserved frame word are inferred."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc22a_pool_shared_release_8017077c",
+  "source": "source/matching/game/cc22a/cc22a_pool_shared_release_8017077c.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc22a_pool_shared_release_8017077c": "0x8017077c"
+  },
+  "descriptions": {
+    "cc22a_pool_shared_release_8017077c": "Destroy pool: last-instance release of twelve shared interfaces, owned row table, held interface, two range members and base; observed 32-bit layout, inferred semantic names."
+  }
+}

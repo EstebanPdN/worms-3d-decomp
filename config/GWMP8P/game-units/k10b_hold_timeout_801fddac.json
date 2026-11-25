@@ -1,0 +1,7 @@
+{
+  "unit": "k10b_hold_timeout_801fddac",
+  "source": "source/matching/game/k10b/k10b_hold_timeout_801fddac.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k10b_hold_timeout_801fddac": "0x801fddac"},
+  "descriptions": {"w3d_k10b_hold_timeout_801fddac": "Appears to debounce a status poll: after ten calls, while the status query returns 2 and a flag is zero it starts a millisecond timer, returning 0 once the condition has lasted over 5000 ms; any other result clears the poll counter and timer flag. Globals and the low-memory clock view are partial."}
+}

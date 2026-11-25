@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_release_actor_record",
+  "source": "source/matching/game/cx9c/cx9c_release_actor_record.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_release_actor_record_80347240": "0x80347240"
+  },
+  "descriptions": {
+    "w3d_cx9c_release_actor_record_80347240": "Inferred actor record teardown with five interface releases, member/base destruction and optional heap release."
+  }
+}

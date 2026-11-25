@@ -1,0 +1,11 @@
+{
+  "unit": "auto4_802c23f4",
+  "source": "source/matching/game/auto/auto4_802c23f4.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_802c23f4": "0x802c23f4"
+  },
+  "descriptions": {
+    "w3d_auto_802c23f4": "Automatically decompiled (m2c) and verified exact; behavior description pending review."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unit": "d29l_button_load_parts_802bd4fc",
+  "source": "source/matching/game/d29l/d29l_button_load_parts_802bd4fc.cpp",
+  "language": "cpp",
+  "extra_flags": [],
+  "functions": {
+    "d29l_button_load_parts_802bd4fc": "0x802bd4fc"
+  },
+  "descriptions": {
+    "d29l_button_load_parts_802bd4fc": "Creates the five box sprites of a button, assigns their glyphs and adds them to the parent group."
+  }
+}

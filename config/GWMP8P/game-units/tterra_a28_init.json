@@ -1,0 +1,1 @@
+{"unit":"tterra_a28_init","source":"source/matching/game/tterra_a28/tterra_a28_init.c","language":"c","functions":{"tterra_a28_init_800c1580":"0x800c1580"},"descriptions":{"tterra_a28_init_800c1580":"Initialize observed small-data pointers from a shared base at static initialization priority 65535."}}

@@ -1,0 +1,7 @@
+{
+  "unit": "k8a_sinks_dispatch_8002daf0",
+  "source": "source/matching/game/k8a/k8a_sinks_dispatch_8002daf0.cpp",
+  "language": "cpp",
+  "functions": {"w3d_k8a_sinks_dispatch_8002daf0": "0x8002daf0"},
+  "descriptions": {"w3d_k8a_sinks_dispatch_8002daf0": "Appears to forward a held sink interface and five listener interfaces of an object to a dispatcher, then sends a message value to the base."}
+}

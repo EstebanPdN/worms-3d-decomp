@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_team_flags_apply_80064dcc",
+  "source": "source/matching/game/k10a/k10a_team_flags_apply_80064dcc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_team_flags_apply_80064dcc": "0x80064dcc"
+  },
+  "descriptions": {
+    "w3d_k10a_team_flags_apply_80064dcc": "Appears to apply a team-flags value given as text to an element's bound object and place it from two limits."
+  }
+}

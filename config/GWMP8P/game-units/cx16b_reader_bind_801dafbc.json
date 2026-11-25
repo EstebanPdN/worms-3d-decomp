@@ -1,0 +1,11 @@
+{
+  "unit": "cx16b_reader_bind_801dafbc",
+  "source": "source/matching/game/cx16b/cx16b_reader_bind_801dafbc.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx16b_reader_bind_801dafbc": "0x801dafbc"
+  },
+  "descriptions": {
+    "w3d_cx16b_reader_bind_801dafbc": "Retains and installs a stream, initializes both observed position words and virtual workspace, then consumes the input reference; source stores reproduce original scheduler order."
+  }
+}

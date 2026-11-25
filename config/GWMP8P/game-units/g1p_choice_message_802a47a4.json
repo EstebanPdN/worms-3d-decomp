@@ -1,0 +1,11 @@
+{
+  "unit": "g1p_choice_message_802a47a4",
+  "source": "source/matching/game/g1p/g1p_choice_message_802a47a4.cpp",
+  "language": "cpp",
+  "functions": {
+    "g1p_choice_message_802a47a4": "0x802a47a4"
+  },
+  "descriptions": {
+    "g1p_choice_message_802a47a4": "Handles choice-panel messages. Message64 forwards initialization and refreshes selection on success, otherwise returns80004005; message66 clears the container. Other messages check the embedded panel context and global/local guards, compare two next and two previous cached IDs, require an available nonbusy choice, then advance or retreat when the observed state flag and enabled field allow it. Disallowed navigation reports an error; accepted navigation dispatches the external command string only when its shared-string header length remains nonzero and current guards permit. Unhandled messages forward through the panel and base handler. All views and semantic names are inferred external ABI prefixes; no local aggregate or owned data."
+  }
+}

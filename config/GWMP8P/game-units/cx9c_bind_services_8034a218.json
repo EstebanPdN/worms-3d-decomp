@@ -1,0 +1,11 @@
+{
+  "unit": "cx9c_bind_services_8034a218",
+  "source": "source/matching/game/cx9c/cx9c_bind_services_8034a218.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx9c_bind_services_8034a218": "0x8034a218"
+  },
+  "descriptions": {
+    "w3d_cx9c_bind_services_8034a218": "Inferred service binding into owner fields with retain-before-release and configuration callbacks."
+  }
+}

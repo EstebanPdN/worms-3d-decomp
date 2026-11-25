@@ -1,0 +1,11 @@
+{
+  "unit": "s10perm_801a9ae0",
+  "source": "source/matching/game/perm/s10perm_801a9ae0.c",
+  "language": "c",
+  "functions": {
+    "w3d_auto_801a9ae0": "0x801a9ae0"
+  },
+  "descriptions": {
+    "w3d_auto_801a9ae0": "Reads and returns the value at offset 12 of the indexed 16-byte record."
+  }
+}

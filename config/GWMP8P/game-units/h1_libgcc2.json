@@ -1,0 +1,19 @@
+{
+  "unit": "h1_libgcc2",
+  "source": "source/matching/game/h1/h1_libgcc2.c",
+  "language": "c",
+  "functions": {
+    "__do_global_ctors": "0x802f356c",
+    "__main": "0x802f35fc",
+    "__ashldi3": "0x802f3634",
+    "__ashrdi3": "0x802f3674",
+    "__cmpdi2": "0x802f36b4"
+  },
+  "descriptions": {
+    "__do_global_ctors": "libgcc2 __do_global_ctors: runs the static constructor list from last to first, counting entries first when the list starts with -1.",
+    "__main": "libgcc2 __main: runs __do_global_ctors once, guarded by a static flag.",
+    "__ashldi3": "libgcc2 __ashldi3: shifts a 64-bit integer left by b bits.",
+    "__ashrdi3": "libgcc2 __ashrdi3: shifts a signed 64-bit integer right arithmetically by b bits.",
+    "__cmpdi2": "libgcc2 __cmpdi2: compares two signed 64-bit integers, returning 0 (less), 1 (equal) or 2 (greater)."
+  }
+}

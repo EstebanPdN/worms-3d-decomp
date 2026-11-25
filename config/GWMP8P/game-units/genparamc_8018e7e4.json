@@ -1,0 +1,33 @@
+{
+  "unit": "genparamc_8018e7e4",
+  "source": "source/matching/game/generated/genparamc_8018e7e4.c",
+  "language": "c",
+  "functions": {
+    "w3d_construct_with_string_8018e7e4": "0x8018e7e4",
+    "w3d_construct_with_member_801a5334": "0x801a5334",
+    "w3d_register_properties_801be210": "0x801be210",
+    "w3d_register_properties_801c02a4": "0x801c02a4",
+    "w3d_construct_with_member_801d544c": "0x801d544c",
+    "w3d_construct_with_member_801d9a74": "0x801d9a74",
+    "w3d_forward_by_flag_80201964": "0x80201964",
+    "w3d_forward_by_flag_802019bc": "0x802019bc",
+    "w3d_forward_by_flag_8020229c": "0x8020229c",
+    "w3d_construct_with_string_80239204": "0x80239204",
+    "w3d_construct_with_string_8023d32c": "0x8023d32c",
+    "w3d_register_properties_8024cda8": "0x8024cda8"
+  },
+  "descriptions": {
+    "w3d_construct_with_string_8018e7e4": "Constructor: runs the base constructor, installs the vtable and initializes a shared-string member to the empty string, retaining it; returns the object.",
+    "w3d_construct_with_member_801a5334": "Constructor: installs the base vtable, constructs the embedded member, installs the final vtable and clears two fields; returns the object.",
+    "w3d_register_properties_801be210": "Registers two named properties and one further named entry through the property helpers, then invokes the final registration helper; returns zero.",
+    "w3d_register_properties_801c02a4": "Registers two named properties and one further named entry through the property helpers, then invokes the final registration helper; returns zero.",
+    "w3d_construct_with_member_801d544c": "Constructor: installs the base vtable, constructs the embedded member, installs the final vtable and clears two fields; returns the object.",
+    "w3d_construct_with_member_801d9a74": "Constructor: installs the base vtable, constructs the embedded member, installs the final vtable and clears two fields; returns the object.",
+    "w3d_forward_by_flag_80201964": "Forwards to one of two virtual methods of the object held at a fixed field, chosen by whether the flag argument is nonzero.",
+    "w3d_forward_by_flag_802019bc": "Forwards to one of two virtual methods of the object held at a fixed field, chosen by whether the flag argument is nonzero.",
+    "w3d_forward_by_flag_8020229c": "Forwards to one of two virtual methods of the object held at a fixed field, chosen by whether the flag argument is nonzero.",
+    "w3d_construct_with_string_80239204": "Constructor: runs the base constructor, installs the vtable and initializes a shared-string member to the empty string, retaining it; returns the object.",
+    "w3d_construct_with_string_8023d32c": "Constructor: runs the base constructor, installs the vtable and initializes a shared-string member to the empty string, retaining it; returns the object.",
+    "w3d_register_properties_8024cda8": "Registers two named properties and one further named entry through the property helpers, then invokes the final registration helper; returns zero."
+  }
+}

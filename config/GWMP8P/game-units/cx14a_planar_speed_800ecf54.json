@@ -1,0 +1,11 @@
+{
+  "unit": "cx14a_planar_speed_800ecf54",
+  "source": "source/matching/game/cx14a/cx14a_planar_speed_800ecf54.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_cx14a_planar_speed_800ecf54": "0x800ecf54"
+  },
+  "descriptions": {
+    "w3d_cx14a_planar_speed_800ecf54": "Copies the input vector, replaces its vertical component with the original zero constant, computes planar speed, and scales the speed by the original motion property."
+  }
+}

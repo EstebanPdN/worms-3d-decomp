@@ -1,0 +1,11 @@
+{
+  "unit": "s21_ak_801fac5c",
+  "source": "source/matching/game/s21/s21_ak_801fac5c.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_has_slot_801fac5c": "0x801fac5c"
+  },
+  "descriptions": {
+    "w3d_s21_has_slot_801fac5c": "Appears to report whether the signed byte at offset 10 of the selected twelve-byte table entry differs from minus one."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "cc39c_girder_member_8009369c",
+  "source": "source/matching/game/cc39c/cc39c_girder_member_8009369c_v3.cpp",
+  "language": "cpp",
+  "functions": {
+    "cc39c_girder_member_8009369c": "0x8009369c"
+  },
+  "descriptions": {
+    "cc39c_girder_member_8009369c": "Name the owner's handle from the original \"Girder\" literal through a temporary engine string, delete the previous light member, construct a new heap member from the handle object's virtual kind and pass it the handle by value (callee releases the retained copy)."
+  }
+}

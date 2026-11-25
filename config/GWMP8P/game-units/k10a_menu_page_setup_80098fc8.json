@@ -1,0 +1,11 @@
+{
+  "unit": "k10a_menu_page_setup_80098fc8",
+  "source": "source/matching/game/k10a/k10a_menu_page_setup_80098fc8.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_k10a_menu_page_setup_80098fc8": "0x80098fc8"
+  },
+  "descriptions": {
+    "w3d_k10a_menu_page_setup_80098fc8": "Appears to build a menu page line from three text pieces, write it to the menu sink, reset the menu state and refresh the page."
+  }
+}

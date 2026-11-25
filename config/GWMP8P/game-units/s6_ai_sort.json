@@ -1,0 +1,1 @@
+{"unit":"s6_ai_sort","source":"source/matching/game/s6_ai_sort.cpp","language":"cpp","functions":{"w3d_ai_sort_costs_800076c4":"0x800076c4"},"descriptions":{"w3d_ai_sort_costs_800076c4":"Sorts plan pointers by ascending floating-point cost using adjacent swaps."}}

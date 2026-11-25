@@ -1,0 +1,89 @@
+{
+  "origin": "https://zlib.net/fossils/zlib-1.0.4.tar.gz",
+  "archive_sha256": "e5c260cd3db1370fb3e0c193e9cbd9f127a9bd055d622b3fb55b82747f6e5b24",
+  "license": "zlib license (see README); Copyright (C) 1995-1996 Jean-loup Gailly and Mark Adler",
+  "copied_without_source_edits": true,
+  "selected_files": "inflate-side sources plus shared headers; deflate/gzio not observed in the GameCube DOL",
+  "files": [
+    {
+      "path": "ChangeLog",
+      "sha256": "4801c74f3388deee18f3cfd478b28b94395c258d3a525f83846138e305fc845b"
+    },
+    {
+      "path": "README",
+      "sha256": "89ad616cd2a4443d2363a8f860eb2c8b07ab0af8faf7b10528dd256424e31022"
+    },
+    {
+      "path": "adler32.c",
+      "sha256": "c425d8c3058d350d13839a8359ff5b3a1c71d2d80b7a7bfd6021f0f0a594310d"
+    },
+    {
+      "path": "crc32.c",
+      "sha256": "14a4f06020924945b254ee22d0c302a684026a849fe05c64139924ab306f493f"
+    },
+    {
+      "path": "infblock.c",
+      "sha256": "b5bbec79c895807035b248b7819ce14b7649a3c5df75762c370878558cb9ba30"
+    },
+    {
+      "path": "infblock.h",
+      "sha256": "53a9f6971153e519e13d1bd9265843655396d5522a1f980cb74b01aaa7db997b"
+    },
+    {
+      "path": "infcodes.c",
+      "sha256": "0eb1f5468840dc861242ae010e4d632789cb9afb6d4f0fcbd929ed131566fb0b"
+    },
+    {
+      "path": "infcodes.h",
+      "sha256": "dd582c85c86f1af141500dd2b2ceac9b75b269f8cf9ecf128ea57a8bb0ae7344"
+    },
+    {
+      "path": "inffast.c",
+      "sha256": "ea0028a8d7ead32f12ed56fa4f97e23c0783d80d8910e65113171d835c62c844"
+    },
+    {
+      "path": "inffast.h",
+      "sha256": "772d529f2b3346182a8833ce0fdfbc0e0d898b51a642cb10f46a483d05d7ab14"
+    },
+    {
+      "path": "inflate.c",
+      "sha256": "b97023a56f7a53f7e14f694ac36548123741f689e4e4360ae36039c43f72eb95"
+    },
+    {
+      "path": "inftrees.c",
+      "sha256": "6f817cfe23ecc47d116987e75d0184728b5f3eab040d50d1c81fd35c86b63c15"
+    },
+    {
+      "path": "inftrees.h",
+      "sha256": "50854dbc86da460735124f42193fb79c1062f51df10da264e467ec15a646dd98"
+    },
+    {
+      "path": "infutil.c",
+      "sha256": "92e267b8ddbb3bc3dbbf4f2c1150a7ffd2b5907d6a9c0f2f9b8d9b98de399018"
+    },
+    {
+      "path": "infutil.h",
+      "sha256": "b48d166d18caa07a6f3cc9ae118104c635cef1e60398916f5c77645d24c610bc"
+    },
+    {
+      "path": "uncompr.c",
+      "sha256": "9581252ea5ae96de5c6a4036cf534e10b003da8480f2aeb49f848fc37cb1eab5"
+    },
+    {
+      "path": "zconf.h",
+      "sha256": "5ecd507a4bb7cd3b5ec54640d68270596ff267774a6cd56ae9ba748dbacd4782"
+    },
+    {
+      "path": "zlib.h",
+      "sha256": "12ecc93bc6d81fd88090af4f848b8a88bcf85f074bc003ac16fc2fd69708c95a"
+    },
+    {
+      "path": "zutil.c",
+      "sha256": "fc7187567c8fd58df32b83d7b488b5ddc505aa30e13baf108c2b73a77556a061"
+    },
+    {
+      "path": "zutil.h",
+      "sha256": "b1c8b410d0fd4b66fca9d22714c24d641c0d80c0f8c6b23f566da7a3912592ff"
+    }
+  ]
+}

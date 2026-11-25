@@ -1,0 +1,25 @@
+{
+  "unit": "gendtor_802367cc",
+  "source": "source/matching/game/generated/gendtor_802367cc.c",
+  "language": "c",
+  "functions": {
+    "w3d_dtor_802367cc": "0x802367cc",
+    "w3d_dtor_8023a934": "0x8023a934",
+    "w3d_dtor_8023cc94": "0x8023cc94",
+    "w3d_dtor_8024e108": "0x8024e108",
+    "w3d_dtor_8024eee4": "0x8024eee4",
+    "w3d_dtor_80255770": "0x80255770",
+    "w3d_dtor_80256050": "0x80256050",
+    "w3d_dtor_80256a98": "0x80256a98"
+  },
+  "descriptions": {
+    "w3d_dtor_802367cc": "Destructor: installs the class vtable, makes 9 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_8023a934": "Destructor: installs the class vtable, makes 5 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_8023cc94": "Destructor: installs the class vtable, makes 6 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_8024e108": "Destructor: installs the class vtable, makes 8 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_8024eee4": "Destructor: installs the class vtable, makes 4 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_80255770": "Destructor: installs the class vtable, makes 15 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_80256050": "Destructor: installs the class vtable, makes 19 member/base release calls in original order, and frees the object when bit 0 of flags is set.",
+    "w3d_dtor_80256a98": "Destructor: installs the class vtable, makes 9 member/base release calls in original order, and frees the object when bit 0 of flags is set."
+  }
+}

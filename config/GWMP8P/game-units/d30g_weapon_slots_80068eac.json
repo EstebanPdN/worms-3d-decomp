@@ -1,0 +1,11 @@
+{
+  "unit": "d30g_weapon_slots_80068eac",
+  "source": "source/matching/game/d30g/d30g_weapon_slots_80068eac.cpp",
+  "language": "cpp",
+  "functions": {
+    "w3d_d30g_weapon_slots_80068eac": "0x80068eac"
+  },
+  "descriptions": {
+    "w3d_d30g_weapon_slots_80068eac": "First person weapon slots: for each of eight slots clears the two flags and two names at +120/+160 and +240/+280 and sets the two indices +200 and +320 to -1, takes the slot's two names from the weapon record (slots 1 to 7; empty for slot 0) and marks each slot and stores each name that is not empty."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "unit": "s8scale_800fd67c",
+  "source": "source/matching/game/auto/s8scale_800fd67c.c",
+  "language": "c",
+  "functions": {
+    "s8_recovered_800fd67c": "0x800fd67c"
+  },
+  "descriptions": {
+    "s8_recovered_800fd67c": "Calls 0 external routines."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unit": "d41i_load_resource_folders_80128f6c",
+  "source": "source/matching/game/d41i/d41i_load_resource_folders_80128f6c.cpp",
+  "language": "cpp",
+  "include_dirs": [
+    "source/matching/game/d41i"
+  ],
+  "extra_flags": [],
+  "functions": {
+    "d41i_load_resource_folders_80128f6c": "0x80128f6c"
+  },
+  "descriptions": {
+    "d41i_load_resource_folders_80128f6c": "Opens the game's resource packages through the virtual at +20, in order, with an early exit after Bundles depending on the flags at +188."
+  }
+}

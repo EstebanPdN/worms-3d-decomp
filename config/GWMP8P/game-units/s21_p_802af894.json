@@ -1,0 +1,11 @@
+{
+  "unit": "s21_p_802af894",
+  "source": "source/matching/game/s21/s21_p_802af894.c",
+  "language": "c",
+  "functions": {
+    "w3d_s21_entity_start_802af894": "0x802af894"
+  },
+  "descriptions": {
+    "w3d_s21_entity_start_802af894": "Appears to initialize an embedded component from the engine context, call two virtual setup slots on it and post a cached message."
+  }
+}

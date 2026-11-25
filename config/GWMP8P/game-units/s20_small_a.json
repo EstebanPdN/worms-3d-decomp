@@ -1,0 +1,17 @@
+{
+  "unit": "s20_small_a",
+  "source": "source/matching/game/s20/s20_small_a.c",
+  "language": "c",
+  "functions": {
+    "w3d_s20_forward_derived_801ad934": "0x801ad934",
+    "w3d_s20_forward_held_8019013c": "0x8019013c",
+    "w3d_s20_copy_pair_801c83e8": "0x801c83e8",
+    "w3d_s20_reset_range_801b2464": "0x801b2464"
+  },
+  "descriptions": {
+    "w3d_s20_forward_derived_801ad934": "Appears to convert this to a secondary base and back with null checks, pass it to a helper and return zero.",
+    "w3d_s20_forward_held_8019013c": "Appears to pass the pointer at offset 12 to a helper when it is not null, returning the helper result or zero.",
+    "w3d_s20_copy_pair_801c83e8": "Appears to copy a two-word value from the argument into this object at offset 24.",
+    "w3d_s20_reset_range_801b2464": "Appears to clear the field at offset 56, pass the range at offset 60 and zero to a helper, and return zero."
+  }
+}
