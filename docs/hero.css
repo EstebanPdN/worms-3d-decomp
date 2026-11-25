@@ -1,0 +1,459 @@
+/*
+ * Main-menu identity, circular completion gauge and project status panels.
+ * Keep data updates out of this file. All dimensions follow the dial container;
+ * additional estimate explanations belong in the methodology, not the circle.
+ */
+
+/* Masthead and navigation */
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 94px;
+}
+.platform {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font: 21px var(--menu);
+  text-shadow: var(--ink-shadow);
+}
+.platform-logo {
+  width: 30px;
+  height: 35px;
+  flex-shrink: 0;
+  filter: drop-shadow(2px 2px #142d57);
+}
+.platform .platform-build {
+  font: 12px var(--mono);
+  padding-left: 15px;
+  border-left: 2px solid #164b84;
+  color: #eff9ff;
+  text-shadow: 1px 1px #173b69;
+}
+.masthead nav {
+  display: flex;
+  gap: 15px;
+}
+.masthead nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid #07182b;
+  border-radius: 15px;
+  padding: 6px 17px 6px 8px;
+  background: linear-gradient(#397cbd, #174b85);
+  box-shadow:
+    inset 0 2px #86b9db,
+    0 3px #174071;
+  color: #fff;
+  font: 20px var(--menu);
+  text-decoration: none;
+  text-shadow: var(--ink-shadow);
+}
+.masthead nav a:hover {
+  color: #ffdc4b;
+  box-shadow:
+    inset 0 0 0 2px #ffd33c,
+    0 3px #174071;
+}
+.masthead nav .sprite {
+  --sprite-size: 34px;
+}
+/* Logo and introduction */
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.95fr) minmax(250px, 1fr);
+  gap: 48px;
+  align-items: center;
+  padding: 6px 0 30px;
+  margin-top: var(--hero-lift, 0px);
+}
+.intro-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-width: 0;
+}
+.hero-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 790px;
+  margin: -24px 0 0;
+  transform: translateY(20%);
+  filter: drop-shadow(0 5px 1px #18366455);
+}
+.intro h1 {
+  font-size: 27px;
+  line-height: 1.25;
+  margin: calc(32px - min(6.09375%, 48.140625px)) 0 0 5px;
+  color: #fff;
+}
+.hero-description {
+  max-width: 690px;
+  margin: 13px 0 0 5px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 1px 2px #173d76;
+}
+/* Gauge: only Exact match and the percentage. Details live in the card below. */
+.progress-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 0;
+  padding: 8px 0 0;
+  transform: translateY(var(--gauge-offset, 0px));
+}
+.progress-dial {
+  container-type: inline-size;
+  position: relative;
+  --gauge-max: 285;
+  width: min(var(--gauge-size, 242.25px), 100%);
+  aspect-ratio: 1;
+  border: 4px solid #07182b;
+  border-radius: 50%;
+  background: linear-gradient(140deg, #74c3df, #1e5a94 35%, #0d3264);
+  box-shadow:
+    inset 0 0 0 4px #ffd13e,
+    inset 0 0 0 8px #082b52,
+    4px 7px 0 #12447766;
+}
+.progress-ring {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.ring-track,
+.ring-fill {
+  fill: none;
+  stroke-width: 15;
+}
+.ring-track {
+  stroke: #163f73;
+}
+.ring-interior {
+  fill: #14518b;
+}
+.ring-fill {
+  stroke: var(--exact);
+  stroke-linecap: butt;
+}
+.dial-value {
+  position: absolute;
+  inset: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3cqi;
+  min-width: 0;
+  text-align: center;
+}
+.metric-label {
+  font: 9cqi var(--menu);
+  margin: 0;
+  text-shadow: var(--ink-shadow);
+}
+.big-number {
+  position: relative;
+  left: -2cqi;
+  font: 24cqi/1.05 var(--menu);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -1px;
+  color: #fff;
+  text-shadow:
+    3px 4px 0 #06172d,
+    -1px -1px 0 #06172d;
+}
+.big-number .percentage-unit {
+  /* Center the digits under the label; the small unit must not shift them. */
+  position: absolute;
+  left: calc(100% + 1.5cqi);
+  bottom: 3.5cqi;
+  font-size: 8cqi;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #ffdc45;
+}
+/* Project status cards */
+.facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.16fr;
+  gap: 14px;
+  margin-top: 8px;
+}
+.fact {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  border: 3px solid #07182b;
+  border-radius: 18px;
+  padding: 18px 16px;
+  background: linear-gradient(#3b72aa, #22518b);
+  box-shadow:
+    inset 0 2px 0 #8bb1d6,
+    0 3px 0 #1b4b78;
+}
+.fact-icon {
+  --sprite-size: 52px;
+}
+.fact p {
+  min-width: 0;
+  margin: 0;
+}
+.fact strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font: 27px/1.1 var(--menu);
+  font-variant-numeric: tabular-nums;
+  color: #fff;
+  text-shadow: var(--ink-shadow);
+}
+.fact p span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #e1edff;
+  margin-top: 7px;
+}
+.fact .build-status strong {
+  font-size: 25px;
+}
+/* Match the status-card framing, with a clear byte row and time row. */
+.fact.progress-details {
+  flex-direction: column;
+  width: min(100%, 340px);
+  margin-top: 16px;
+  padding: 14px 16px;
+  gap: 8px;
+  text-align: center;
+}
+.progress-details #byte-progress {
+  margin: 0;
+  color: #fff;
+  font: 18px/1.25 var(--menu);
+  font-variant-numeric: tabular-nums;
+  text-shadow: var(--ink-shadow);
+  overflow-wrap: anywhere;
+}
+.progress-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font: 600 12px/1.4 var(--font);
+  font-variant-numeric: tabular-nums;
+  color: #e1edff;
+}
+.progress-time span {
+  white-space: nowrap;
+}
+.time-divider {
+  color: #ffdc55;
+}
+
+/* Responsive layouts, from wide screens to narrow phones. */
+@media (max-width: 1100px) {
+  .intro {
+    gap: 32px;
+    grid-template-columns: minmax(0, 1.9fr) minmax(220px, 1fr);
+  }
+  .progress-dial {
+    --gauge-max: 250;
+    width: min(var(--gauge-size, 212.5px), 100%);
+  }
+  .hero-description {
+    font-size: 15px;
+  }
+  .intro h1 {
+    font-size: 24px;
+  }
+  .facts {
+    gap: 10px;
+  }
+  .fact {
+    gap: 10px;
+    padding: 16px 12px;
+  }
+  .fact-icon {
+    --sprite-size: 42px;
+  }
+  .fact strong {
+    font-size: 24px;
+  }
+  .fact .build-status strong {
+    font-size: 22px;
+  }
+  .fact p span {
+    font-size: 11px;
+  }
+}
+@media (max-width: 880px) {
+  .facts {
+    grid-template-columns: 1fr 1fr;
+  }
+  .fact {
+    padding: 17px 20px;
+  }
+  .fact-icon {
+    --sprite-size: 48px;
+  }
+  .masthead nav a {
+    font-size: 17px;
+    padding-right: 12px;
+    gap: 7px;
+  }
+  .platform {
+    font-size: 18px;
+  }
+  .platform .platform-build {
+    font-size: 10px;
+  }
+  .intro {
+    gap: 24px;
+  }
+  .progress-dial {
+    --gauge-max: 225;
+    width: min(var(--gauge-size, 191.25px), 100%);
+  }
+  .intro h1 {
+    font-size: 22px;
+  }
+  .hero-description {
+    font-size: 14px;
+  }
+}
+@media (min-width: 721px) and (max-width: 880px) {
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .intro-copy {
+    align-items: center;
+  }
+  .hero-logo {
+    max-width: 520px;
+  }
+  .intro h1 {
+    margin: calc(22px - min(6.09375%, 31.6875px)) 0 0;
+    text-align: center;
+  }
+  .hero-description {
+    max-width: 580px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .progress-dial {
+    width: 212.5px;
+  }
+}
+@media (max-width: 720px) {
+  .masthead {
+    min-height: 135px;
+    align-items: start;
+    justify-content: center;
+    gap: 14px;
+    flex-direction: column;
+    padding: 16px 0;
+  }
+  .platform {
+    font-size: 18px;
+  }
+  .platform-logo {
+    width: 26px;
+    height: 30px;
+  }
+  .platform .platform-build {
+    font-size: 10px;
+    padding-left: 12px;
+  }
+  .masthead nav {
+    gap: 12px;
+    width: 100%;
+  }
+  .masthead nav a {
+    flex: 1;
+    justify-content: center;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 13px;
+  }
+  .masthead nav .sprite {
+    --sprite-size: 28px;
+  }
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 3px 0 24px;
+  }
+  .intro-copy {
+    align-items: center;
+  }
+  .hero-logo {
+    width: 100%;
+    margin: -18px 0 0;
+    max-width: 520px;
+  }
+  .intro h1 {
+    font-size: 23px;
+    margin: calc(22px - min(6.09375%, 31.6875px)) 0 0;
+    text-align: center;
+  }
+  .hero-description {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0 0;
+    max-width: 440px;
+    line-height: 1.65;
+  }
+  .progress-dial {
+    --gauge-max: 228;
+    width: 193.8px;
+  }
+  .facts {
+    gap: 10px;
+    margin-top: 0;
+  }
+  .fact {
+    padding: 14px 11px;
+    gap: 9px;
+    border-radius: 15px;
+  }
+  .fact-icon {
+    --sprite-size: 36px;
+  }
+  .fact strong,
+  .fact .build-status strong {
+    font-size: 21px;
+  }
+  .fact p span {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 370px) {
+  .fact {
+    padding: 12px 8px;
+    gap: 7px;
+  }
+  .fact-icon {
+    --sprite-size: 29px;
+  }
+  .fact strong,
+  .fact .build-status strong {
+    font-size: 19px;
+  }
+  .masthead nav a {
+    font-size: 17px;
+  }
+}
