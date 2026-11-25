@@ -67,3 +67,5 @@ The default output directory is `port/build/`. The app includes my port code and
 I recovered and organized the matching units, built the tracker and developed the native ports. Team17 developed *Worms 3D*. The game, artwork, audio and trademarks belong to their respective rights holders.
 
 Lua, zlib, newlib, STLport and the GCC STL contributors wrote the libraries used in this work. Their copyright notices, license terms and source provenance are retained with the [vendor sources](source/vendor). SDL3 is provided separately by the SDL project. I used Ghidra for function discovery and REA for instruction analysis. Nunito and Lilita One carry their respective SIL Open Font License notices in [the tracker assets](docs/assets).
+
+[Join Esteban's Forge on Discord](https://discord.com/servers/esteban-s-forge-1533248895663210506)
